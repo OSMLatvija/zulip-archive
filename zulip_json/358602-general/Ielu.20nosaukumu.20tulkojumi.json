@@ -1,0 +1,110 @@
+[
+    {
+        "content": "<p>Vai kaut kur ir pieejami ielu nosaukumu tulkojumi un kurām ielām tādi vispār ir? Uz ko vispār balstās daudzie tulkojumi izņemot nomainīt \"iela\" uz \"street\". Vai ir kaut kādi likumi par tulkojumiem?</p>",
+        "id": 319429410,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672851206
+    },
+    {
+        "content": "<p>Te viens piemērs tikko - <a href=\"https://www.openstreetmap.org/changeset/130840162\">https://www.openstreetmap.org/changeset/130840162</a> - Dzirnavu ielai pielikts name:de=Mühlenstraße un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aname:en%3DMill\">name:en=Mill</a> Street. Kaut kā gribētos to uzreiz atcelt - bet tikai uz ko tieši balstās vai būt tulkojumam vai nē?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/changeset/130840162\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/changeset/130840162\" title=\"Changeset: 130840162 | OpenStreetMap\">Changeset: 130840162 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 319429656,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672851275
+    },
+    {
+        "content": "<p>Jā, šo noteikti vajag atcelt. Ielu nosaukumus netulko. Savairot tagus ar tulkojumiem, ko var ģenerēt automātiski, arī nav jēga (piem., Dzirnavu Street utt.). Apmēram šāds viedoklis bija savulaik Signal grupā. Vajadzētu gan atrast wiki ierakstāmu pamatojumu.</p>",
+        "id": 319457591,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1672860405
+    },
+    {
+        "content": "<p>Atcēlu Dzirnavu daļēji <a href=\"https://www.openstreetmap.org/changeset/130982297\">https://www.openstreetmap.org/changeset/130982297</a>. Te rakstīts, ka Mühlenstraße vecais vācu nosaukums, tāpēc atstāju kā old_name:de= <a href=\"https://lv.wikipedia.org/wiki/Dzirnavu_iela_(R%C4%ABga)#V%C4%93sture\">https://lv.wikipedia.org/wiki/Dzirnavu_iela_(R%C4%ABga)#V%C4%93sture</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/changeset/130982297\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/changeset/130982297\" title=\"Changeset: 130982297 | OpenStreetMap\">Changeset: 130982297 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://lv.wikipedia.org/wiki/Dzirnavu_iela_(R%C4%ABga)#V%C4%93sture\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/d71fdb1d829452ec9dc2cddd9b5d5ee67737dc44\\/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f6c762f7468756d622f632f63322f526967615f447a69726e6176755f69656c615f30362e323031302e6a70672f36343070782d526967615f447a69726e6176755f69656c615f30362e323031302e6a7067)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://lv.wikipedia.org/wiki/Dzirnavu_iela_(R%C4%ABga)#V%C4%93sture\" title=\"Dzirnavu iela (Rīga) — Vikipēdija\">Dzirnavu iela (Rīga) — Vikipēdija</a></div><div class=\"message_embed_description\">Dzirnavu iela ir Rīgas iela, Centra rajona Centra un Avotu, kā arī Latgales priekšpilsētas Maskavas forštates apkaimē. Dzirnavu iela sākas pie krustojuma ar Pulkveža Brieža ielu un beidzas pie krustojuma ar Maskavas ielu (gājēju savienojums turpinās līdz Mazajai Krasta ielai). Posmā no Ernesta Birznieka-Upīša ielas līdz Pulkveža Brieža ielai Dzirnavu iela ir vienvirziena iela, pa kuru var braukt virzienā uz Pulkveža Brieža ielu. Dzirnavu ielas kopējais garums ir 3002 metri, tā klāta ar asfalta un bruģa segumu. Caur 90 m garu tuneli Dzirnavu iela šķērso dzelzceļa uzbērumu pie Rīgas centrālās dzelzceļa stacijas.\n</div></div></div>",
+        "id": 319963290,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673100454
+    },
+    {
+        "content": "<p>Ko mēs darām ar palikušajiem kaut nesen masveidā tulkotajiem nosaukumiem, piemēram <code>name=Krasta iela name:en=Krasta Street name:lv=Krasta iela name:ru=улица Краста</code> Liela daļa tādu jau paš-atcelta <a href=\"https://www.openstreetmap.org/changeset/124595819\">https://www.openstreetmap.org/changeset/124595819</a>, bet piemēram tas Krasta Street palicis <a href=\"https://www.openstreetmap.org/changeset/124537229\">https://www.openstreetmap.org/changeset/124537229</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/changeset/124595819\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/changeset/124595819\" title=\"Changeset: 124595819 | OpenStreetMap\">Changeset: 124595819 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/changeset/124537229\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/changeset/124537229\" title=\"Changeset: 124537229 | OpenStreetMap\">Changeset: 124537229 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 319964425,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673100897
+    },
+    {
+        "content": "<p>Noņēmu angļu no Biķernieku iela, Palangas iela, Pasta iela, 3x Krasta iela, Kaivas iela, gabals Ganību dambis.</p>\n<p>Latvijā ar name:en palikuši Brīvības bulvāris, Maskavas iela, Dienvidu tilts, Salu tilts, Akmens tilts, Ukrainas neatkarības iela</p>",
+        "id": 320016530,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673134590
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Ielu.20nosaukumu.20tulkojumi/near/319964425\">said</a>:</p>\n<blockquote>\n<p>Ko mēs darām ar palikušajiem kaut nesen masveidā tulkotajiem nosaukumiem, piemēram <code>name=Krasta iela name:en=Krasta Street name:lv=Krasta iela name:ru=улица Краста</code> Liela daļa tādu jau paš-atcelta <a href=\"https://www.openstreetmap.org/changeset/124595819\">https://www.openstreetmap.org/changeset/124595819</a>, bet piemēram tas Krasta Street palicis <a href=\"https://www.openstreetmap.org/changeset/124537229\">https://www.openstreetmap.org/changeset/124537229</a></p>\n</blockquote>\n<p>Piedāvāju ņemt nost, īsti neredzu vērtību.<br>\nLai gan teorētiski varbūt lielākajām/nozīmīgākajām ielām var apsvērt atstāšanu.</p>",
+        "id": 320099669,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673198113
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Ielu.20nosaukumu.20tulkojumi/near/319964425\">said</a>:</p>\n<blockquote>\n<p>Ko mēs darām ar palikušajiem kaut nesen masveidā tulkotajiem nosaukumiem, piemēram <code>name=Krasta iela name:en=Krasta Street name:lv=Krasta iela name:ru=улица Краста</code> Liela daļa tādu jau paš-atcelta <a href=\"https://www.openstreetmap.org/changeset/124595819\">https://www.openstreetmap.org/changeset/124595819</a>, bet piemēram tas Krasta Street palicis <a href=\"https://www.openstreetmap.org/changeset/124537229\">https://www.openstreetmap.org/changeset/124537229</a></p>\n</blockquote>\n<p>Kam tie traucē?</p>",
+        "id": 320105985,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673202637
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Ielu.20nosaukumu.20tulkojumi/near/320099669\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Ielu.20nosaukumu.20tulkojumi/near/319964425\">said</a>:</p>\n<blockquote>\n<p>Ko mēs darām ar palikušajiem kaut nesen masveidā tulkotajiem nosaukumiem, piemēram <code>name=Krasta iela name:en=Krasta Street name:lv=Krasta iela name:ru=улица Краста</code> Liela daļa tādu jau paš-atcelta <a href=\"https://www.openstreetmap.org/changeset/124595819\">https://www.openstreetmap.org/changeset/124595819</a>, bet piemēram tas Krasta Street palicis <a href=\"https://www.openstreetmap.org/changeset/124537229\">https://www.openstreetmap.org/changeset/124537229</a></p>\n</blockquote>\n<p>Piedāvāju ņemt nost, īsti neredzu vērtību.<br>\nLai gan teorētiski varbūt lielākajām/nozīmīgākajām ielām var apsvērt atstāšanu.</p>\n</blockquote>\n<p>Tāds pieprāsijums neko neatrod: </p>\n<div class=\"codehilite\" data-code-language=\"nominatim\"><pre><span></span><code>Brivibas street, Riga\n</code></pre></div>\n<p>Tāds atrod kaut kādu hosteli:</p>\n<div class=\"codehilite\" data-code-language=\"nominatim\"><pre><span></span><code>Brivibas, Riga\n</code></pre></div>\n<p>Man liekas, tā tam nav jābūt. Ja ir tulkojumi, lai tie paliek. Tas uzlabo usability priekš cilvēkiem, kas nav vietējie.</p>",
+        "id": 320106705,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673203109
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/Ielu.20nosaukumu.20tulkojumi/near/320105985\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Ielu.20nosaukumu.20tulkojumi/near/319964425\">said</a>:</p>\n<blockquote>\n<p>Ko mēs darām ar palikušajiem kaut nesen masveidā tulkotajiem nosaukumiem, piemēram <code>name=Krasta iela name:en=Krasta Street name:lv=Krasta iela name:ru=улица Краста</code> Liela daļa tādu jau paš-atcelta <a href=\"https://www.openstreetmap.org/changeset/124595819\">https://www.openstreetmap.org/changeset/124595819</a>, bet piemēram tas Krasta Street palicis <a href=\"https://www.openstreetmap.org/changeset/124537229\">https://www.openstreetmap.org/changeset/124537229</a></p>\n</blockquote>\n<p>Kam tie traucē?</p>\n</blockquote>\n<p>Līdzīgi kā <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahorse%3Dyes\">horse=yes</a>/no visiem ceļiem.<br>\nKā arī mudina šādu tagu pielikt pilnīgi visām ielām.<br>\nPiem., tagad mēģinot salikt name:lv visām Viļņas vai Tartu ielām diez vai tiktu atbalstīts.</p>",
+        "id": 320109489,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673204958
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/Ielu.20nosaukumu.20tulkojumi/near/320106705\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Ielu.20nosaukumu.20tulkojumi/near/320099669\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Ielu.20nosaukumu.20tulkojumi/near/319964425\">said</a>:</p>\n<blockquote>\n<p>Ko mēs darām ar palikušajiem kaut nesen masveidā tulkotajiem nosaukumiem, piemēram <code>name=Krasta iela name:en=Krasta Street name:lv=Krasta iela name:ru=улица Краста</code> Liela daļa tādu jau paš-atcelta <a href=\"https://www.openstreetmap.org/changeset/124595819\">https://www.openstreetmap.org/changeset/124595819</a>, bet piemēram tas Krasta Street palicis <a href=\"https://www.openstreetmap.org/changeset/124537229\">https://www.openstreetmap.org/changeset/124537229</a></p>\n</blockquote>\n<p>Piedāvāju ņemt nost, īsti neredzu vērtību.<br>\nLai gan teorētiski varbūt lielākajām/nozīmīgākajām ielām var apsvērt atstāšanu.</p>\n</blockquote>\n<p>Tāds pieprāsijums neko neatrod: </p>\n<div class=\"codehilite\" data-code-language=\"nominatim\"><pre><span></span><code>Brivibas street, Riga\n</code></pre></div>\n<p>Tāds atrod kaut kādu hosteli:</p>\n<div class=\"codehilite\" data-code-language=\"nominatim\"><pre><span></span><code>Brivibas, Riga\n</code></pre></div>\n<p>Man liekas, tā tam nav jābūt. Ja ir tulkojumi, lai tie paliek. Tas uzlabo usability priekš cilvēkiem, kas nav vietējie.</p>\n</blockquote>\n<p>Vai te nevajadzētu Nominatim tulkojumus/sinonīmus palabot?<br>\nJo to pašu taču varētu teikt par \"Nītaures street\", \"Lubānas street\" un vēl... nu vismaz pāris ;)</p>",
+        "id": 320109576,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673205009
+    },
+    {
+        "content": "<p>Arī domāju, ka uzlabojumi jāveic rīkos, kas tos datus pēc tam izmanto, jo sanāk lieka atkārtošanās tulkot to, ko var elementāri iztulkot automātiski. Nominatim konfigurācijas faili arī no adrešu meklēšanas viedokļa būtu jāpapildina ar nosacījumiem Latvijai, jo noklusētie ir nekorekti. Tas gan prasītu daudz laika, jo Nominatim lokāli jāpalaiž, lai notestētu.</p>",
+        "id": 320111786,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673206494
+    },
+    {
+        "content": "<p>Meklēju \"Brivibas iela\", tādu arī atradu <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span> <a href=\"https://www.openstreetmap.org/way/4546257\">https://www.openstreetmap.org/way/4546257</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/4546257\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/4546257\" title=\"Way: ‪Brivibas iela‬ (‪4546257‬) | OpenStreetMap\">Way: ‪Brivibas iela‬ (‪4546257‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 320134263,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673225564
+    },
+    {
+        "content": "<p>Oi. Tad Tev arī gods salabot :)<br>\nTik daudz pa to braukts, bet nepamanīju... Mans attaisnojums - Garminā diakritiskās zīmes tiek noņemtas =)</p>",
+        "id": 320221163,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673269687
+    },
+    {
+        "content": "<p>\"Brivibas street, Riga\" meklēšanai gan laikam nelīdzēs iepriekš apspriestais <a href=\"https://wiki.openstreetmap.org/wiki/Nominatim/Special_Phrases\">https://wiki.openstreetmap.org/wiki/Nominatim/Special_Phrases</a> . Apjautāšos, kā šo vislabāk risināt.</p>",
+        "id": 320225990,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673271069
+    },
+    {
+        "content": "<p>Tik pat labi <code>Brivibas 路</code> arī neatradīs. Te noteikti problēma jārisina meklētājos.</p>",
+        "id": 320226709,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673271268
+    },
+    {
+        "content": "<p>Un kamēr problēma nav atrisināta meklētājos, jālieto Google Maps <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>",
+        "id": 320227306,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673271453
+    },
+    {
+        "content": "<p>Nominatim maintainere apstiprināja, ka ielu tipu tulkojumi pagaidām nestrādā, uztaisīju <a href=\"https://github.com/osm-search/Nominatim/issues/2944\">https://github.com/osm-search/Nominatim/issues/2944</a> - varam likt thumbsup un sekot :)</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/osm-search/Nominatim/issues/2944\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/aef9b795b6802f219190bd4416dd5d528d509841\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f393165653735323866343661616230323737386565396461633237626630303130663262323962333661653661613239323838386362376165393839383330392f6f736d2d7365617263682f4e6f6d696e6174696d2f6973737565732f32393434)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/osm-search/Nominatim/issues/2944\" title=\"Allow localised/translated street type search · Issue #2944 · osm-search/Nominatim\">Allow localised/translated street type search · Issue #2944 · osm-search/Nominatim</a></div><div class=\"message_embed_description\">Nominatim special phrases functionality allows translating object types (for example, &quot;atm&quot;). It would be great to also support translation of street types. This would make the search mor...</div></div></div>",
+        "id": 320561582,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673391625
+    }
+]

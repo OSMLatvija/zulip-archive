@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p><a href=\"https://www.lgia.gov.lv/lv/Digit%C4%81lais%20virsmas%20modelis\">https://www.lgia.gov.lv/lv/Digit%C4%81lais%20virsmas%20modelis</a><br>\nvisādas iespējas</p>",
+        "id": 315544811,
+        "sender_full_name": "Colby",
+        "timestamp": 1670924004
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/x2kQSI7a36MicPGJBycieIo3/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/x2kQSI7a36MicPGJBycieIo3/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/x2kQSI7a36MicPGJBycieIo3/image.png\"></a></div>",
+        "id": 315545249,
+        "sender_full_name": "Colby",
+        "timestamp": 1670924154
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/4am62-5qa8apmALUCBDcXUea/2022-12-13_000.png\">2022-12-13_000.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/4am62-5qa8apmALUCBDcXUea/2022-12-13_000.png\" title=\"2022-12-13_000.png\"><img src=\"/user_uploads/49624/4am62-5qa8apmALUCBDcXUea/2022-12-13_000.png\"></a></div>",
+        "id": 315545448,
+        "sender_full_name": "Colby",
+        "timestamp": 1670924216
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/358602-general/topic/lidar/near/315545249\">said</a>:</p>\n<blockquote>\n<p><a href=\"/user_uploads/49624/x2kQSI7a36MicPGJBycieIo3/image.png\">image.png</a></p>\n</blockquote>\n<p>Mmm, fancy. Vai šādu kaut kā vienkārši var dabūt JOSM?</p>",
+        "id": 315566867,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1670931029
+    },
+    {
+        "content": "<p>Kaut kas ir LVM WMS slāņos, bet neatceros ēku slāni.</p>",
+        "id": 315568283,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1670931477
+    },
+    {
+        "content": "<p>LVM slāņos ir intensitāte, tas kas man otrajā bildē</p>",
+        "id": 315569765,
+        "sender_full_name": "Colby",
+        "timestamp": 1670931907
+    },
+    {
+        "content": "<p>izskatās ka diezgan vienkārši var dabūt ārā .tif bet izmēri milzīgi</p>",
+        "id": 315569856,
+        "sender_full_name": "Colby",
+        "timestamp": 1670931935
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/VtlY2poz1OOj2IuHUgQC8BCu/ekas_tif.zip\">ekas_tif.zip</a></p>",
+        "id": 315571035,
+        "sender_full_name": "Colby",
+        "timestamp": 1670932294
+    },
+    {
+        "content": "<p>aha kompresējas ok</p>",
+        "id": 315571079,
+        "sender_full_name": "Colby",
+        "timestamp": 1670932310
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/358602-general/topic/lidar/near/315571079\">said</a>:</p>\n<blockquote>\n<p>aha kompresējas ok</p>\n</blockquote>\n<p>Tas jau laikam liekam iekš geoserver vai tamlīdzīga, lai dabūtu WMS.</p>",
+        "id": 315572809,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1670932866
+    }
+]

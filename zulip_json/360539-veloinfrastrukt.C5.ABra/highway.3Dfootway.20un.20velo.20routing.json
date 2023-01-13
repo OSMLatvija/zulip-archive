@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/highway.3Dfootway.20un.20velo.20routing/near/315182372\">said</a>:</p>\n<blockquote>\n<p>Ne par tagošanu, bet OpenStreetBrowser tagad jauna kategorija, \"footways\" - var palīdzēt kartēšanā.<br>\n<a href=\"https://openstreetbrowser.org/#map=16/56.9550/24.1249&amp;categories=footways\">https://openstreetbrowser.org/#map=16/56.9550/24.1249&amp;categories=footways</a><br>\n<a href=\"/user_uploads/49624/PsfRFf2oc1uEaTF2g9WTBwtH/image.png\">image.png</a></p>\n</blockquote>\n<p>Man liekas, tas ir pirmais off-topic :)<br>\nCik sapratu, tur ir tikai par <code>footway</code> un <code>sidewalk=left/right/both</code>, nekāda sakara ar velo.</p>",
+        "id": 315312068,
+        "sender_full_name": "i-ky",
+        "timestamp": 1670833837
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/highway.3Dfootway.20un.20velo.20routing/near/315312068\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/highway.3Dfootway.20un.20velo.20routing/near/315182372\">said</a>:</p>\n<blockquote>\n<p>Ne par tagošanu, bet OpenStreetBrowser tagad jauna kategorija, \"footways\" - var palīdzēt kartēšanā.<br>\n<a href=\"https://openstreetbrowser.org/#map=16/56.9550/24.1249&amp;categories=footways\">https://openstreetbrowser.org/#map=16/56.9550/24.1249&amp;categories=footways</a><br>\n<a href=\"/user_uploads/49624/PsfRFf2oc1uEaTF2g9WTBwtH/image.png\">image.png</a></p>\n</blockquote>\n<p>Man liekas, tas ir pirmais off-topic :)<br>\nCik sapratu, tur ir tikai par <code>footway</code> un <code>sidewalk=left/right/both</code>, nekāda sakara ar velo.</p>\n</blockquote>\n<p>Nu, tas var ļaut vieglāk paskatīties, kā ir sazīmēti footways (kā tags pie ceļa vai kā atsevišķs ceļš? vai ir footway=sidewalk? kā ar velo tagiem), un saprast, kāda tagošanas shēma būtu piemērotākā un reālistiskākā :)</p>",
+        "id": 315441186,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1670872529
+    },
+    {
+        "content": "<p>Tad kādi defaulti beigās tiek piedāvati lai var uz balsošanu vai apspriešanu vai kaut ko tādu?<br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dpath\">highway=path</a> --&gt; <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a><br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dfootway\">highway=footway</a> --&gt; <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a><br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dfootway\">highway=footway</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afootway%3Dsidewalk\">footway=sidewalk</a> --&gt; <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dpermissive\">bicycle=permissive</a></p>",
+        "id": 318441094,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672328257
+    }
+]

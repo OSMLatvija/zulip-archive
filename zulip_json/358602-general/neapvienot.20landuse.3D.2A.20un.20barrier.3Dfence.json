@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>Piedāvāju neapvienot <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Alanduse\">landuse=*</a> (piem., residential) un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dfence\">barrier=fence</a> tagus.<br>\nDiezgan bieži tas ir aptuveni, un, šķiet, minēts. Ir īpašumi, kam sēta tikai gar ielu, dažreiz sētā ir lielāki pārrāvumi utt. Dažreiz ir posmi, kur sētas vietā ir dzīvžogs vai siena. Šādus labot sanāk grūti, tie ir tāds kā \"area\" relāciju mazais brālis :)<br>\nPiedāvāju barrier zīmēt kā atsevišķu ceļu. Vai izmantot tos pašus punktus, kurus landuse - laikam kā nu kuru reizi pagaidām.</p>\n<p>Piemēram, te es nezinu, ko lai iesāk ar šo objektu. Landuse es vēl aptuveni pielīdzinātu, bet negribu minēt, kur ir vai nav sētas.<br>\n<a href=\"/user_uploads/49624/rAZ74vsqybBqtHfr_wN_loTh/image.png\">landuse+barrier</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/rAZ74vsqybBqtHfr_wN_loTh/image.png\" title=\"landuse+barrier\"><img src=\"/user_uploads/49624/rAZ74vsqybBqtHfr_wN_loTh/image.png\"></a></div>",
+        "id": 320235080,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673273138
+    },
+    {
+        "content": "<p>Arī atbalstu. Atstāj arī tādu paviršu iespaidu. Ja nav pārliecība, tad labāk neiezīmēt vispār nekā pieņemt, ka visiem privātmāju pagalmiem un industriālajām teritorijām apkārt ir žogs.</p>",
+        "id": 320235871,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673273349
+    },
+    {
+        "content": "<p>Vēl viens piemērs, kur būtu bijis jānodala - ārpus sētas ir tādi gabali, kuri acīmredzami ir residential.<br>\nBet paga, tur nemaz no ortofoto nevar noteikt, vai ir gan dzīvžogs, gan sēta :)<br>\n<a href=\"/user_uploads/49624/Ayyp9_IEyiAefWuTeEGXandW/image.png\">residential un žogi</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/Ayyp9_IEyiAefWuTeEGXandW/image.png\" title=\"residential un žogi\"><img src=\"/user_uploads/49624/Ayyp9_IEyiAefWuTeEGXandW/image.png\"></a></div>",
+        "id": 320237683,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673273779
+    },
+    {
+        "content": "<p>Šajā piemērā es vispār ņemu nost <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dfence\">barrier=fence</a> tagu un pielaboju landuse. Tad jau pareizas sētas var mikrokartēt, izpētot dabā.</p>",
+        "id": 320237798,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673273815
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571929\">Dāvis Kļaviņš</span> <a href=\"#narrow/stream/358602-general/topic/neapvienot.20landuse.3D*.20un.20barrier.3Dfence/near/320235871\">said</a>:</p>\n<blockquote>\n<p>Arī atbalstu. Atstāj arī tādu paviršu iespaidu. Ja nav pārliecība, tad labāk neiezīmēt vispār nekā pieņemt, ka visiem privātmāju pagalmiem un industriālajām teritorijām apkārt ir žogs.</p>\n</blockquote>\n<p>Arī tas, ka residential/industrial/commercial utt var iezīmēt aptuveni no ortofoto. Ja liek klāt sētu, tad pa visu perimetru par to jābūt pārliecībai, un tas tā reti ir.<br>\nSavukārt ļoti aptuveni \"kaut kur te - varbūt - ir sēta\" nešķiet lietderīgi.<br>\nPēc tam nākamais nemaz neizpētīs, jo pieņems, ka iepriekšējais zīmētājs bijis kārtīgs.</p>",
+        "id": 320238206,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673273924
+    },
+    {
+        "content": "<p>Jā, piekrītu. Tas is OSM pamatprincips - One feature, one element. Un te pat ir dažāda ģeometrija - viens ir laukums un otrs is līnija. Saprotu, ka ātrāk un vienkāršāk ir kopā, īpaši ja nav survey no visām pusēm (kas var arī nebūt iespējams). Un rediģējot pēc tam nākās atdalīt. Visādi varianti - caurums sētā, zīmē vārtus atsevišķi, sēta \"ielien iekšā\" druksu, sēta nav robeža, utt.</p>",
+        "id": 320262535,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673280134
+    },
+    {
+        "content": "<p>Vēl viens piemērs - industrial + fence.<br>\n<a href=\"/user_uploads/49624/KpLEvQ7zqSO1S4OVlo00lcNg/image.png\">industrial + fence</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/KpLEvQ7zqSO1S4OVlo00lcNg/image.png\" title=\"industrial + fence\"><img src=\"/user_uploads/49624/KpLEvQ7zqSO1S4OVlo00lcNg/image.png\"></a></div>",
+        "id": 320563799,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673392729
+    }
+]

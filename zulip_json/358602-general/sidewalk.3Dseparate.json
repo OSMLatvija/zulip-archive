@@ -1,0 +1,98 @@
+[
+    {
+        "content": "<p>Gribu atdzīvināt veco diskusiju no Signal, kura \"nogrima\" LVC apspriešanā.<br>\n2022. gada 22 novembrī, 17:44 <span class=\"user-mention\" data-user-id=\"568802\">@i-ky</span> teica:</p>\n<blockquote>\n<p>Kādam ir strong feelings par <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk%3Dseparate\">sidewalk=separate</a> vs. <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk:left%3Dseparate\">sidewalk:left=separate</a>+sidewalk:<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aright%3Dno\">right=no</a>?<br>\nNo vienas puses otrais variants ir detalizētāks, bet no otras puses sarežģitāks un <a href=\"https://streetcomplete.app/\">StreetComplete</a> uz Sidewalk Overlay attēlo to =no ar melnu krāsu, it kā tas būtu kaut kas slikts.</p>\n</blockquote>\n<p>17:58 <span class=\"user-mention\" data-user-id=\"571825\">@HellMap</span> teica:</p>\n<blockquote>\n<p>Es to nesauktu par variantiem - viens ir detalizētāks kā otrs. <code>sidewalk=separate</code> neko nesaka par to, kurā pusē, tāpēc left/right palīdz. Tik pat labi visādi <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asurface%3Dpaved\">surface=paved</a> vs <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Acycleway:surface%3Dasphalt\">cycleway:surface=asphalt</a>. Jautājums, cik daudz detaļas grib. Nepateikšu par <a href=\"https://streetcomplete.app/\">SC</a> bet izklausās, ka attēlo pēc būtības - ja nav, tad nav?</p>\n</blockquote>\n<p>2022.gada 23.novembrī, 2:42 <span class=\"user-mention\" data-user-id=\"568771\">@Rihards Olups</span> teica:</p>\n<blockquote>\n<p>Hellmap apraksts šķita labs :)</p>\n</blockquote>\n<p>Es piekritu, ka <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk:left%3Dseparate\">sidewalk:left=separate</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk:right%3Dno\">sidewalk:right=no</a> ir detalizētāks, tas ir skaidri pateikts <a href=\"https://wiki.openstreetmap.org/wiki/Key:sidewalk#Separately_mapped_sidewalks\">šeit</a>. Bet, cik es saprotu, <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk%3Dseparate\">sidewalk=separate</a> ir domāts, lai pateikt cilvēkam/rīkam, ka ietve ir uzzīmēta atsevišķi, un nav vajadzības likt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk%3Dyes\">sidewalk=yes</a>. Par to teikts <a href=\"https://wiki.openstreetmap.org/wiki/Guidelines_for_pedestrian_navigation#Sidewalks_and_crossings\">šeit</a>:</p>\n<blockquote>\n<p>When a sidewalk is mapped separately, add the tag <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk%3Dseparate\">sidewalk=separate</a> to the carriageway it borders – this prevents mappers from describing the sidewalk twice.</p>\n</blockquote>\n<p>No \"prevent mapping twice\" skatpunkta <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk%3Dseparate\">sidewalk=separate</a> ir tikpat labs, kā sarežģītāki un detalizētāki varianti.</p>\n<p>Es ļoti šaubos, ka <code>:left</code>/<code>:right</code> baigi palīdz atrast to atsevišķi uzzīmētu ietvi. Cilvēkam ir tāpat acīmredzami, kur tā ir, bet automātiskiem rīkiem tik un tā būs grūti. Vismaz, tā var secināt no teikta <a href=\"https://wiki.openstreetmap.org/wiki/Sidewalks#Sidewalk_as_separate_way\">šeit</a>:</p>\n<blockquote>\n<p>A drawback of this approach is that acquiring a name of the associated street in an automated way is challenging.</p>\n</blockquote>",
+        "id": 320205373,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673264683
+    },
+    {
+        "content": "<p>Principā jau vispareizāk ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk:both%3Dseparate\">sidewalk:both=separate</a></p>\n<p>Es tā saprotu kā rīkiem jāuzskata, ka <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk%3Dseparate\">sidewalk=separate</a> = <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk:both%3Dseparate\">sidewalk:both=separate</a>? Ņemot vērā, ka routeri vispār nesaprot un uzskata, ka sidewalk var pāri ceļam teleportēt</p>\n<p>Bet ja ir left/right atšķirīgi, tad routeri teorētiski varētu sekot pa pareizo pusi (kaut arī neviens to pagaidām nedara). Bet te tad būs \"data first, users later\". Rīki jau neko neizmantos kamēr dati nebūs. Tāpēc man liekas norādīt puses ir pareizi.</p>",
+        "id": 320205920,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673264841
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/sidewalk.3Dseparate/near/320205920\">said</a>:</p>\n<blockquote>\n<p>Principā jau vispareizāk ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk:both%3Dseparate\">sidewalk:both=separate</a></p>\n</blockquote>\n<p>Runa bija par gadījumiem, kad ietve ir tikai vienā pusē un sazīmēta atsevišķi.</p>",
+        "id": 320207189,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673265279
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/sidewalk.3Dseparate/near/320205920\">said</a>:</p>\n<blockquote>\n<p>Es tā saprotu kā rīkiem jāuzskata, ka <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk%3Dseparate\">sidewalk=separate</a> = <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk:both%3Dseparate\">sidewalk:both=separate</a>?</p>\n</blockquote>\n<p><a href=\"https://wiki.openstreetmap.org/wiki/Key:sidewalk#Separately_mapped_sidewalks\">Nē</a>:</p>\n<blockquote>\n<p>when used as <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk%3Dseparate\">sidewalk=separate</a> it isn't clear whether there is a separate sidewalk on both or just on one side</p>\n</blockquote>",
+        "id": 320208001,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673265547
+    },
+    {
+        "content": "<p>Es tad ne visai sapratu jautājumu, jeb precīzāk, ko tiešu tu domāji papildus vēl diskusijai?</p>",
+        "id": 320208371,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673265662
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/sidewalk.3Dseparate/near/320205920\">said</a>:</p>\n<blockquote>\n<p>Ņemot vērā, ka routeri vispār nesaprot un uzskata, ka sidewalk var pāri ceļam teleportēt</p>\n</blockquote>\n<p>Ja es pareizi saprotu, tā ir tikai tad, kad ietve nav atsevišķi, aprakstīts <a href=\"https://wiki.openstreetmap.org/wiki/Key:sidewalk#Separately_mapped_sidewalks\">šeit</a>:</p>\n<blockquote>\n<table>\n<thead>\n<tr>\n<th>Consideration</th>\n<th>Tag on highway</th>\n<th>Separate footway</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Crossing streets at any point</td>\n<td>always (possibly undesirable depending on local laws)</td>\n<td>never (possibly desirable depending on local laws)</td>\n</tr>\n</tbody>\n</table>\n</blockquote>",
+        "id": 320208924,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673265857
+    },
+    {
+        "content": "<p>Nē, es domāju situācijas kā tas pats Brīvības/VEF tilts, kur visiem ceļiem sidewalk un routeris smuki pa vidu izlaiž. <a href=\"https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=56.96843%252C24.15171%253B56.96864%252C24.15161\">https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=56.96843%252C24.15171%253B56.96864%252C24.15161</a> Es tur saliku tagad <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk%3Dno\">sidewalk=no</a> nesen precīzi gabaliem un tik un tā</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=56.96843%252C24.15171%253B56.96864%252C24.15161\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=56.96843%252C24.15171%253B56.96864%252C24.15161\" title=\"OpenStreetMap\">OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 320209810,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673266118
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/sidewalk.3Dseparate/near/320208371\">said</a>:</p>\n<blockquote>\n<p>Es tad ne visai sapratu jautājumu, jeb precīzāk, ko tiešu tu domāji papildus vēl diskusijai?</p>\n</blockquote>\n<p>Man ir priekšlikums vienkāršot un likt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk%3Dseparate\">sidewalk=separate</a>, kur pašlaik ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk:left%3Dseparate\">sidewalk:left=separate</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk:right%3Dno\">sidewalk:right=no</a> vai <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk:right%3Dseparate\">sidewalk:right=separate</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk:left%3Dno\">sidewalk:left=no</a>.</p>",
+        "id": 320209936,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673266164
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/sidewalk.3Dseparate/near/320209810\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=56.96843%252C24.15171%253B56.96864%252C24.15161\">https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=56.96843%252C24.15171%253B56.96864%252C24.15161</a></p>\n</blockquote>\n<p>Kaut kas nav kārtībā ar šo linku</p>",
+        "id": 320210521,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673266356
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/sidewalk.3Dseparate/near/320210521\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/sidewalk.3Dseparate/near/320209810\">said</a>:<br>\nKaut kas nav kārtībā ar šo linku</p>\n</blockquote>\n<p>Huh.... <a href=\"https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=56.96858%2C24.15146%3B56.96842%2C24.15170#map=19/56.96856/24.15166\">https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=56.96858%2C24.15146%3B56.96842%2C24.15170#map=19/56.96856/24.15166</a> ?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=56.96858%2C24.15146%3B56.96842%2C24.15170#map=19/56.96856/24.15166\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=56.96858%2C24.15146%3B56.96842%2C24.15170#map=19/56.96856/24.15166\" title=\"OpenStreetMap\">OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 320211120,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673266534
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/sidewalk.3Dseparate/near/320209936\">said</a>:</p>\n<blockquote>\n<p>Man ir priekšlikums vienkāršot un likt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk%3Dseparate\">sidewalk=separate</a>, kur pašlaik ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk:left%3Dseparate\">sidewalk:left=separate</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk:right%3Dno\">sidewalk:right=no</a> vai <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk:right%3Dseparate\">sidewalk:right=separate</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk:left%3Dno\">sidewalk:left=no</a>.</p>\n</blockquote>\n<p>Es drošvien paliektu pie sava agrākā komentāra. Tā kā <code>sidewalk=separate</code> is mazāk precīzi par <code>sidewalk:right/left=whatever</code>, tad te ir izvēle starp mazāk un vairāk informācijas un es vienmēr esmu par vairāk informācijas. Pat, ja tagad to neizmanto, nākotnē to varēs izmantot - tikai vienā gadījumā datu nebūs.</p>",
+        "id": 320212123,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673266819
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/sidewalk.3Dseparate/near/320211120\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/sidewalk.3Dseparate/near/320210521\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/sidewalk.3Dseparate/near/320209810\">said</a>:<br>\nKaut kas nav kārtībā ar šo linku</p>\n</blockquote>\n<p>Huh.... <a href=\"https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=56.96858%2C24.15146%3B56.96842%2C24.15170#map=19/56.96856/24.15166\">https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=56.96858%2C24.15146%3B56.96842%2C24.15170#map=19/56.96856/24.15166</a> ?</p>\n<p>Pfff.... ja nenorāda #map, viņš nemāk directions rādīt...</p>\n</blockquote>\n<p>Tur abiem sānceļiem ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk:both%3Dno\">sidewalk:both=no</a> un pat viduspunktā ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Acrossing%3Dno\">crossing=no</a>... Man liekas, routing uzskata, ka tur gājējiem ir legāli iet pa brauktuvi (jo nav foot:no) un tas ir īsāks ceļš. Tā ir mana hipotēze.</p>\n<p>Bet es nesaprotu, kā tas ir saistīts ar <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk%3Dseparate\">sidewalk=separate</a> diskusiju.</p>",
+        "id": 320213693,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673267290
+    },
+    {
+        "content": "<p>Tas bija piemērs par to, ka routeri gājējiem nemāk ne tikai sidewalk, bet pat parastus ceļu piemērus. Es nevarēšu nekur labāku piemēru, jo es tik un tā nezinu, kāpēc routeris izvēlas vai neizvēlas maršrutu un vai sidewalk vispār kaut ko tur ietekmēja. Var drošvien to krustojumu jaunā topikā iebāzt, lai te netraucē galvenajam jautājumam.</p>",
+        "id": 320216038,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673268103
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/sidewalk.3Dseparate/near/320205373\">said</a>:</p>\n<blockquote>\n<p>Es ļoti šaubos, ka <code>:left</code>/<code>:right</code> baigi palīdz atrast to atsevišķi uzzīmētu ietvi. Cilvēkam ir tāpat acīmredzami, kur tā ir, bet automātiskiem rīkiem tik un tā būs grūti. Vismaz, tā var secināt no teikta <a href=\"https://wiki.openstreetmap.org/wiki/Sidewalks#Sidewalk_as_separate_way\">šeit</a>:</p>\n<blockquote>\n<p>A drawback of this approach is that acquiring a name of the associated street in an automated way is challenging.</p>\n</blockquote>\n</blockquote>\n<p>Veloceliņu sakarā tieši palūdzu man atgādināt - atsevišķi iezīmētiem cycleway <a href=\"http://cycle.travel\">cycle.travel</a> autors lūdz pievienot <a href=\"https://wiki.openstreetmap.org/wiki/Proposed_features/Key:is_sidepath\">https://wiki.openstreetmap.org/wiki/Proposed_features/Key:is_sidepath</a> , jo tas palīdzot maršrutēšanā. Tas pats palīdzētu arī footways.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"http://cycle.travel\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/c7339c37489da2f1267cfbea42a364b5274a37ee\\/68747470733a2f2f6379636c652e74726176656c2f736974655f696d616765732f6d61705f6f70656e5f67726170682e6a7067)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"http://cycle.travel\" title=\"cycle.travel | route-planner and maps - traffic-free &amp; quiet roads\">cycle.travel | route-planner and maps - traffic-free &amp; quiet roads</a></div><div class=\"message_embed_description\">The best-kept secret of a great ride - find scenic routes with fewer cars.</div></div></div>",
+        "id": 320219449,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673269170
+    },
+    {
+        "content": "<p>Vai kāds var man paskaidrot, <strong>kā</strong> <code>:left</code>/<code>:right</code> palīdz maršrutēšana?<br>\nEs redzu, kā <code>is_sidepath</code> var palīdzēt, jo tur ir paredzēti <code>is_sidepath:of</code> ar <code>highway</code> tipu, <code>is_sidepath:of:name</code> ar <code>highway</code> nosaukumu un <code>is_sidepath:of:ref</code> ar asociēta ceļa <code>ref</code>. OSM datubāze var indeksēt pēc <code>highway</code> vērtības, pēc elementu nosaukumiem un pēc <code>ref</code>. Līdz ar to routing var ātri izlasīt kandidātus pēc tipa/nosaukuma/<code>ref</code> un tālāk meklēt sasaistītu ceļu jau samēra nelielā ceļu kopā.<br>\nDatubāzes saturu nevar indeksēt pēc ta, pa labi vai pa kreisi elements atrodas no kāda ceļa. Precīzāk, var, bet tāds indekss derēs tikai pieprasījumiem par konkrētu ceļu. Tāpēc lai atrast sasaistītu <code>sidewalk=separate</code> tik un tā vajag izlasīt no datubāzes elementus, kas ir blakus. Tā ir relatīvi lēna operācija, un atgriezta elementu kopa būs samēra liela, tāpēc arī meklēšana atgriezto elementu kopā būs lēna.</p>",
+        "id": 320253481,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673277818
+    },
+    {
+        "content": "<p>Warning: personal opinion. Es vispār jēgu no <code>sidewalk</code> tagiem uz ceļa neredzu. Sidewalk ir gājēju infrastruktūra un jāzīmē atsevišķi. OSM nav automašīnu karte, bet cilvēku karte un nav ko visus tegus uz ceļa likt. Un <code>sidewalk=separate</code> un visi tā varianti ir vienkārši nederīgs risinājums tam, ka ceļš ar ietvi nav kaut kā saistīti - nav ne street/road relation, ne tegi, ne arī kaut kāds cits veids kā tos sasaistīt. Un es personīgi tos tegus arī nekur nelieku (ja viņi nav bijuši agrāk jau uzlikti). Bet nu ja lieku, tad tā kā <a href=\"https://wiki.openstreetmap.org/wiki/Key:sidewalk#Separately_mapped_sidewalks\">sidewalk#Separately_mapped_sidewalks</a> saka.</p>",
+        "id": 320261298,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673279860
+    }
+]

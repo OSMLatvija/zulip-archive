@@ -1,0 +1,56 @@
+[
+    {
+        "content": "<p>Berģu ielā ir posms ar otru nosaukumu Ezera prospekts. Adreses vienā pusē ar Berģu, otrā ar Ezera. <a href=\"/user_uploads/49624/wmvFwguogm20g71p6PhW50tu/bergu-ezera-wat.png\">bergu-ezera-wat.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/wmvFwguogm20g71p6PhW50tu/bergu-ezera-wat.png\" title=\"bergu-ezera-wat.png\"><img src=\"/user_uploads/49624/wmvFwguogm20g71p6PhW50tu/bergu-ezera-wat.png\"></a></div><p>Ko par tādiem gadījumiem VZD domā?</p>\n<p>Pašlaik uzliku <code>name:left=Ezera prospekts</code> + <code>name:right=Berģu iela</code></p>",
+        "id": 319954194,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673096878
+    },
+    {
+        "content": "<p>Šis ir interesants gadījums, jo vienā pusē ir Rīga, kurā ir Berģu iela, otrā - Berģi, kur ir Ezera prospekts. Lai nesarežģītu, pašvaldības gan varēja vienoties par vienu nosaukumu. Loģiskākais gan būtu Berģus pievienot Rīgai, jo apbūve saplūst.</p>",
+        "id": 319957109,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673098163
+    },
+    {
+        "content": "<p>Jā, Berģu iela / Ezera prospekts ir burvīgs gadījums.<br>\nKāpēc Garkalne (nu jau Ropaži) turas pie Ezera prospekta, īsti nez. Vietējie lielākoties pat nezina par to otru nosaukumu :)</p>",
+        "id": 320100513,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673198683
+    },
+    {
+        "content": "<p>Sastopos ar šosejām, kurām ir salikti name=  vietās ar ielu nosaukumiem. Piemēram A1 caur Baltezeru ir \"Rīga (Baltezers) — Igaunijas robeža (Ainaži)\", bet reāli tur ir \"Cielaviņu iela\" un \"Tallinas šoseja\" ar tādu ielu adresēm. Un tas name var droši dzīvot route relationā. Jautājums tad vai ceļiem to name ir vispār jāliek un jādublē, ja nosaukums jau ir route? Ko routeri/rendereri dara ar tādiem?</p>",
+        "id": 320275928,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673283400
+    },
+    {
+        "content": "<p>Jā, loģiski šķistu nedublēt un garo šosejas nosaukumu atstāt tikai relācijā. Bet, tā kā OSM vadlīnijas reizēm ar loģiku nedraudzējas, tad pagaidītu kādu zinošāku komentāru.</p>",
+        "id": 320278482,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673284061
+    },
+    {
+        "content": "<p>Vai kaut kur likumos vai kaut kādos neteikumos ir noteikts, cik tālu adrese ar ielu var būt no tās ielas līnijas?</p>",
+        "id": 320486942,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673366983
+    },
+    {
+        "content": "<p>Piemēram, šeit ielas līnija kadastrā beidzas Ziemeļos, bet ir adrese Rietumos vairāk kā 3 km attālumā. <a href=\"/user_uploads/49624/-ZlEPR2th73Ga6NdbkYKsQDr/3km-wat.png\">3km-wat.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/-ZlEPR2th73Ga6NdbkYKsQDr/3km-wat.png\" title=\"3km-wat.png\"><img src=\"/user_uploads/49624/-ZlEPR2th73Ga6NdbkYKsQDr/3km-wat.png\"></a></div>",
+        "id": 320487695,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673367185
+    },
+    {
+        "content": "<p>Vai arī visa Kundziņsala ir Uriekstes iela, un tur vispār kādi 5 km</p>",
+        "id": 320487926,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673367246
+    },
+    {
+        "content": "<p>Adresācijas noteikumu <a href=\"https://likumi.lv/ta/id/324387#p20\">20. punkts</a>: \"Pilsētu un ciemu teritoriju daļās, kur ir ielas, apbūvei paredzētajai zemes vienībai vai ēkai numuru piešķir, izvērtējot konkrēto situāciju un ņemot vērā tuvāko ielu vai ielu, no kuras iespējams pie ēkas piekļūt ar transportu.\" Praktiski gan adreses ne vienmēr noteikumiem atbilst.<br>\nPirmajā piemērā man labāk \"patīk\", kur Buļļu ielas 41A adreses punkts ielikts (zemes vienība, kas ir dzelzceļš, jā, robežojas ar Buļļu ielu). Mazo Apakšgrāvja ielu varētu oficiāli pagarināt līdz Bolderājas 2 stacijai (tālāk ir slēgta dzelzceļa teritorija), kur tā iela jau izbūvēta ir, bet bez nosaukuma.<br>\nKundziņsalas ostas teritorijai piebraukšana ir no Uriekstes ielas. Ostā ielas izdalītas netiks, jo tā ir slēgta teritorija.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://likumi.lv/ta/id/324387#p20\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/91d1c88287840a065f2a7c4bd960e319f144ed00\\/68747470733a2f2f6c696b756d692e6c762f6c696b756d695f62696c6465732f5049432f4c494b3230302e4a5047)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://likumi.lv/ta/id/324387#p20\" title=\"Adresācijas noteikumi\">Adresācijas noteikumi</a></div><div class=\"message_embed_description\">Tiesību akti un to izmaiņas: visi jaunumi un arhīvs. Sistematizēti tiesību akti. Plašas meklēšanas un personalizētās iespējas. Vietni uztur „Latvijas Vēstnesis”</div></div></div>",
+        "id": 320498178,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673369998
+    }
+]

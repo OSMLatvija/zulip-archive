@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<p>Pārdomas par objektu kartēšanu.<br>\nPiem., veikals. Ja veikals aizņem +/- visu ēku, parasti liku tagus ēkas ceļam.</p>\n<p>Bet jau vairākas reizes nesen bijusi situācija, kad šāds veikals slēgts. Nomainot shop uz disused:shop, paliek visi citi tagi - jo īpaši name, kurš tad arī visur renderējas, parādās meklēšanā utt.<br>\nTad sanāk aizvākt name, bet... tad vairs neredz, kāds veikals tur bijis. Tas var noderēt, skatoties attēlos utt, lai kādam nesanāk iezīmēt atpakaļ slēgto veikalu. Var izdomāt savu shēmu, piem., disused:name... bet tas kaut kā ļoti sarežģīti.</p>\n<p>Ja visi objekti tiek iezīmēti kā punkti, šādas problēmas nav - punktam nomainām pamattagu un viss.</p>\n<p>Kādas citiem pārdomas par objektu kartēšanu ēkas ceļam vai kā atsevišķu punktu?</p>",
+        "id": 320110116,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673205359
+    }
+]

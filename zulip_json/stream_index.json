@@ -1,0 +1,529 @@
+{
+    "streams": {
+        "Zulip": {
+            "id": 362235,
+            "latest_id": 321047349,
+            "topic_data": {
+                "OSM emojis": {
+                    "latest_date": 1672745907,
+                    "size": 4
+                },
+                "OSM key/tag linkifier": {
+                    "latest_date": 1672843828,
+                    "size": 33
+                },
+                "Overpass Turbo stable vs. latest": {
+                    "latest_date": 1673269412,
+                    "size": 2
+                },
+                "Overpass Wizard linki un pēdiņas": {
+                    "latest_date": 1672406372,
+                    "size": 5
+                },
+                "Zulip community index": {
+                    "latest_date": 1673226418,
+                    "size": 3
+                },
+                "Zulip+Mapillary integrācija": {
+                    "latest_date": 1672090071,
+                    "size": 12
+                },
+                "ceļazīmju bots": {
+                    "latest_date": 1673562901,
+                    "size": 49
+                },
+                "code playground autocomplete": {
+                    "latest_date": 1672236033,
+                    "size": 1
+                },
+                "informācija par Zulip": {
+                    "latest_date": 1671616543,
+                    "size": 1
+                },
+                "message editing": {
+                    "latest_date": 1670938373,
+                    "size": 13
+                },
+                "node, way, area and relation emojis": {
+                    "latest_date": 1672691552,
+                    "size": 1
+                },
+                "poll trūkumi": {
+                    "latest_date": 1670932824,
+                    "size": 5
+                },
+                "resolving topic breaks links": {
+                    "latest_date": 1672148161,
+                    "size": 3
+                },
+                "stream events": {
+                    "latest_date": 1671615177,
+                    "size": 1
+                },
+                "✔ OSM emojis": {
+                    "latest_date": 1672922429,
+                    "size": 2
+                },
+                "✔ Overpass Wizard linki un pēdiņas": {
+                    "latest_date": 1672915320,
+                    "size": 1
+                },
+                "✔ Overpass linki un pēdiņas": {
+                    "latest_date": 1672321039,
+                    "size": 6
+                },
+                "✔ code playground autocomplete": {
+                    "latest_date": 1672915288,
+                    "size": 1
+                },
+                "✔ poll trūkumi": {
+                    "latest_date": 1671616665,
+                    "size": 1
+                }
+            }
+        },
+        "adreses": {
+            "id": 360959,
+            "latest_id": 321059767,
+            "topic_data": {
+                "Baltā māja": {
+                    "latest_date": 1673563121,
+                    "size": 6
+                },
+                "Dzirkaļu iela": {
+                    "latest_date": 1673008108,
+                    "size": 2
+                },
+                "Ielu nosaukumu dīvainības": {
+                    "latest_date": 1673369998,
+                    "size": 9
+                },
+                "Ielu nosaukumu maiņu sekošana": {
+                    "latest_date": 1672695378,
+                    "size": 15
+                },
+                "Pasta indekss": {
+                    "latest_date": 1672153488,
+                    "size": 11
+                },
+                "StreetComplete quest": {
+                    "latest_date": 1673247577,
+                    "size": 12
+                },
+                "VZD datos trūkst ielu nosaukumi": {
+                    "latest_date": 1673472744,
+                    "size": 3
+                },
+                "VZD datu lietderība": {
+                    "latest_date": 1673455955,
+                    "size": 18
+                },
+                "addr:place > addr:city": {
+                    "latest_date": 1672690565,
+                    "size": 2
+                },
+                "adreses Ulbrokā": {
+                    "latest_date": 1671048960,
+                    "size": 8
+                },
+                "adreses punkts ēkas iekšā": {
+                    "latest_date": 1673562653,
+                    "size": 5
+                },
+                "building=no": {
+                    "latest_date": 1673565503,
+                    "size": 19
+                },
+                "imports mailing list": {
+                    "latest_date": 1673246673,
+                    "size": 4
+                },
+                "negaidīta adreses nomaiņa": {
+                    "latest_date": 1672593679,
+                    "size": 9
+                },
+                "old_addr:housename ar &quot;": {
+                    "latest_date": 1672914025,
+                    "size": 2
+                },
+                "paved/unpaved renderings": {
+                    "latest_date": 1673569095,
+                    "size": 1
+                },
+                "stream events": {
+                    "latest_date": 1670937562,
+                    "size": 1
+                },
+                "ēku nosaukumi sakrīt ar māju nosaukumiem adresēs": {
+                    "latest_date": 1673537925,
+                    "size": 15
+                },
+                "✔ Pasta indekss": {
+                    "latest_date": 1672158331,
+                    "size": 1
+                },
+                "✔ negaidīta adreses nomaiņa": {
+                    "latest_date": 1673515142,
+                    "size": 1
+                },
+                "✔ old_addr:housename ar &quot;": {
+                    "latest_date": 1672928014,
+                    "size": 3
+                }
+            }
+        },
+        "general": {
+            "id": 358602,
+            "latest_id": 320980448,
+            "topic_data": {
+                "\"kerb\" (apmaļu) mikrokartēšana": {
+                    "latest_date": 1672329757,
+                    "size": 1
+                },
+                "Bing RoadDetections": {
+                    "latest_date": 1672324960,
+                    "size": 4
+                },
+                "Bing mapbuilder": {
+                    "latest_date": 1672947911,
+                    "size": 24
+                },
+                "Daugavpils tramvaji": {
+                    "latest_date": 1672327602,
+                    "size": 11
+                },
+                "Dzīvojamā zona uz augstas klasifikācija ceļa": {
+                    "latest_date": 1672947737,
+                    "size": 4
+                },
+                "GitHub organization & website": {
+                    "latest_date": 1670923089,
+                    "size": 2
+                },
+                "Ielu nosaukumu maiņas brīdis": {
+                    "latest_date": 1672948009,
+                    "size": 6
+                },
+                "Ielu nosaukumu tulkojumi": {
+                    "latest_date": 1673391625,
+                    "size": 18
+                },
+                "LVC ceļi": {
+                    "latest_date": 1672408756,
+                    "size": 3
+                },
+                "Latvian tagging guidelines wiki": {
+                    "latest_date": 1673021503,
+                    "size": 34
+                },
+                "Nominatim special phrases": {
+                    "latest_date": 1672947293,
+                    "size": 5
+                },
+                "OSM key/tag linkifier": {
+                    "latest_date": 1671549329,
+                    "size": 11
+                },
+                "Ortofoto 8. cikls": {
+                    "latest_date": 1672227149,
+                    "size": 8
+                },
+                "Pasta indekss": {
+                    "latest_date": 1672088385,
+                    "size": 3
+                },
+                "VZD datos trūkst ielu nosaukumi": {
+                    "latest_date": 1673456817,
+                    "size": 5
+                },
+                "Wikidata/Wikipedia tagi": {
+                    "latest_date": 1672944601,
+                    "size": 6
+                },
+                "Zulip+Mapillary integrācija": {
+                    "latest_date": 1671614365,
+                    "size": 10
+                },
+                "adreses": {
+                    "latest_date": 1670822048,
+                    "size": 2
+                },
+                "adreses Ulbrokā": {
+                    "latest_date": 1670937309,
+                    "size": 4
+                },
+                "apzīmējums ēkai vai kā punkts": {
+                    "latest_date": 1673205359,
+                    "size": 1
+                },
+                "autostāvvietu kartēšana": {
+                    "latest_date": 1672325384,
+                    "size": 22
+                },
+                "building labojumi pēc nosaukuma": {
+                    "latest_date": 1673541051,
+                    "size": 15
+                },
+                "ceļazīmju bots": {
+                    "latest_date": 1671049335,
+                    "size": 23
+                },
+                "embedded_rails + embedded_rails:lanes": {
+                    "latest_date": 1673208440,
+                    "size": 34
+                },
+                "fixme": {
+                    "latest_date": 1671921259,
+                    "size": 3
+                },
+                "highway=footway un velo routing": {
+                    "latest_date": 1670872529,
+                    "size": 7
+                },
+                "horse=no": {
+                    "latest_date": 1672327106,
+                    "size": 12
+                },
+                "informācija par Zulip": {
+                    "latest_date": 1671614097,
+                    "size": 2
+                },
+                "kartēšana Ulbrokā": {
+                    "latest_date": 1671137311,
+                    "size": 45
+                },
+                "lidar": {
+                    "latest_date": 1670932866,
+                    "size": 10
+                },
+                "message editing": {
+                    "latest_date": 1670938373,
+                    "size": 13
+                },
+                "neapvienot landuse=* un barrier=fence": {
+                    "latest_date": 1673392729,
+                    "size": 7
+                },
+                "negaidīta adreses nomaiņa": {
+                    "latest_date": 1670935181,
+                    "size": 5
+                },
+                "nepareiza angāru klasifikācija": {
+                    "latest_date": 1671561032,
+                    "size": 4
+                },
+                "new streams": {
+                    "latest_date": 1671615177,
+                    "size": 7
+                },
+                "nosaukumi ar komersanta veidu": {
+                    "latest_date": 1671670777,
+                    "size": 2
+                },
+                "oneway=-1": {
+                    "latest_date": 1672670764,
+                    "size": 5
+                },
+                "par projektiem": {
+                    "latest_date": 1672168680,
+                    "size": 4
+                },
+                "pilskalnu kartēšana": {
+                    "latest_date": 1672911694,
+                    "size": 14
+                },
+                "poll trūkumi": {
+                    "latest_date": 1670932824,
+                    "size": 5
+                },
+                "problēmu reģistri": {
+                    "latest_date": 1671574644,
+                    "size": 18
+                },
+                "profila attēls": {
+                    "latest_date": 1671621645,
+                    "size": 12
+                },
+                "railway=tram + highway": {
+                    "latest_date": 1673272633,
+                    "size": 58
+                },
+                "relāciju lietošana": {
+                    "latest_date": 1672751436,
+                    "size": 15
+                },
+                "sidewalk=separate": {
+                    "latest_date": 1673279860,
+                    "size": 16
+                },
+                "terplānu importi": {
+                    "latest_date": 1671192103,
+                    "size": 1
+                },
+                "topic daudz, stream maz": {
+                    "latest_date": 1671615470,
+                    "size": 9
+                },
+                "tram galapunkti": {
+                    "latest_date": 1672237334,
+                    "size": 1
+                },
+                "tram un tracks=1": {
+                    "latest_date": 1672319295,
+                    "size": 1
+                },
+                "type=turnlanes:turns": {
+                    "latest_date": 1672679623,
+                    "size": 3
+                },
+                "vecie vācu nosaukumi": {
+                    "latest_date": 1672948627,
+                    "size": 9
+                },
+                "wiki: vēsturiskie jaunumi": {
+                    "latest_date": 1673271825,
+                    "size": 3
+                },
+                "wikidata": {
+                    "latest_date": 1672227555,
+                    "size": 9
+                },
+                "ĢIS speciālista vakance Cēsīs": {
+                    "latest_date": 1672695638,
+                    "size": 1
+                },
+                "Ūdensteču kartēšana": {
+                    "latest_date": 1672321220,
+                    "size": 6
+                },
+                "✔ oneway=-1": {
+                    "latest_date": 1672694039,
+                    "size": 2
+                }
+            }
+        },
+        "iesācēju jautājumi": {
+            "id": 360538,
+            "latest_id": 321047014,
+            "topic_data": {
+                "Overpass lietošana": {
+                    "latest_date": 1672081284,
+                    "size": 1
+                },
+                "VZD dati kā fona slānis": {
+                    "latest_date": 1672737817,
+                    "size": 7
+                },
+                "Vēsturiskās robežas / nosaukumi": {
+                    "latest_date": 1672944981,
+                    "size": 7
+                },
+                "baznīcu kartēšana": {
+                    "latest_date": 1672082591,
+                    "size": 4
+                },
+                "fotoattēli un apraksti": {
+                    "latest_date": 1672082256,
+                    "size": 4
+                },
+                "multilingual names": {
+                    "latest_date": 1673562762,
+                    "size": 24
+                },
+                "stream events": {
+                    "latest_date": 1672062270,
+                    "size": 11
+                },
+                "✔ Overpass- tagu secība, datu papildināšana": {
+                    "latest_date": 1672142477,
+                    "size": 1
+                },
+                "✔ baznīcu kartēšana": {
+                    "latest_date": 1672144222,
+                    "size": 2
+                },
+                "✔ fotoattēli un apraksti": {
+                    "latest_date": 1672143086,
+                    "size": 1
+                },
+                "✔ ēku kontūras": {
+                    "latest_date": 1672142352,
+                    "size": 1
+                }
+            }
+        },
+        "pasākumi": {
+            "id": 360540,
+            "latest_id": 318142913,
+            "topic_data": {
+                "Mapping party Rēzeknē": {
+                    "latest_date": 1671560879,
+                    "size": 4
+                },
+                "stream events": {
+                    "latest_date": 1670582285,
+                    "size": 1
+                },
+                "✔ Mapping party Rēzeknē": {
+                    "latest_date": 1672166672,
+                    "size": 9
+                }
+            }
+        },
+        "veloinfrastruktūra": {
+            "id": 360539,
+            "latest_id": 320931316,
+            "topic_data": {
+                "Mangaļi-Ziemeļblāzma būvdarbi": {
+                    "latest_date": 1673278805,
+                    "size": 10
+                },
+                "OSRM ved riteņbraucējus pāri Brasas tiltam": {
+                    "latest_date": 1673226726,
+                    "size": 15
+                },
+                "bicycle=designated uz dīvainiem highway": {
+                    "latest_date": 1673449992,
+                    "size": 19
+                },
+                "highway=footway un velo routing": {
+                    "latest_date": 1672328257,
+                    "size": 3
+                },
+                "sharrows": {
+                    "latest_date": 1671794541,
+                    "size": 4
+                },
+                "stream events": {
+                    "latest_date": 1670785645,
+                    "size": 2
+                },
+                "velo infrastruktūras tagošana Latvijā": {
+                    "latest_date": 1673227570,
+                    "size": 11
+                },
+                "veloceļu dubultā tagošana": {
+                    "latest_date": 1673527230,
+                    "size": 5
+                },
+                "velojoslas kā atsevišķi ceļi": {
+                    "latest_date": 1673523167,
+                    "size": 43
+                },
+                "✔ Mangaļi-Ziemeļblāzma būvdarbi": {
+                    "latest_date": 1673279856,
+                    "size": 1
+                },
+                "✔ sharrows": {
+                    "latest_date": 1673516971,
+                    "size": 2
+                },
+                "✔ veloceļu dubultā tagošana": {
+                    "latest_date": 1673528306,
+                    "size": 2
+                }
+            }
+        }
+    },
+    "time": 1673576234.5725102
+}

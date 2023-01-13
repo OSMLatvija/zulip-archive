@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>Mums tagad ir <a href=\"https://github.com/OSMLatvija\">GitHub organizācija</a>. Tur pagaidām ir tikai divi repo:</p>\n<ol>\n<li><a href=\"https://github.com/OSMLatvija/OSMLatvija.github.io\">organizācijas \"vizītkarte\"</a> (pagaidām tukša), ko GitHub hosto <a href=\"https://osmlatvija.github.io\">šeit</a></li>\n<li><a href=\"https://github.com/OSMLatvija/zulip-archive\">Zulip arhīvs</a>, ko GitHub hosto <a href=\"https://osmlatvija.github.io/zulip-archive/\">šeit</a></li>\n</ol>\n<p>Ja kādam ir idejas, kā jāizskatās kopienas mājaslapai, kam tur jābūt utt. - welcome!<br>\nJa kādam gribas kļūt par Member'u un palīdzēt ar uzturēšanu - more than welcome!<br>\nJa kādam trūkst vietu, kur apspriest OSM - varam ieslēgt tur Discussions :)<br>\nJa kādam ir projekts vai projekta ideja, kas ir saistīti ar OSM un Latviju, un ir slinkums/nav laika/spēku/iemaņu to uzturēt vienatnē - organizācija teorētiski var to pārņemt.</p>",
+        "id": 315466454,
+        "sender_full_name": "i-ky",
+        "timestamp": 1670880497
+    },
+    {
+        "content": "<p>Vēl viens repo:</p>\n<ol start=\"3\">\n<li><a href=\"https://github.com/OSMLatvija/.github\">organizācijas \"vizītkarte\" GitHub'ā</a></li>\n</ol>",
+        "id": 315542239,
+        "sender_full_name": "i-ky",
+        "timestamp": 1670923089
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>Kur vispār var sameklēt VZD slāņu linkus?</p>",
+        "id": 319097844,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672695803
+    },
+    {
+        "content": "<p>LVM uzturētos - piem., JOSM liekam jaunu WMS slāni un izmantojam <a href=\"https://lvmgeoserver.lvm.lv/geoserver/public/wms\">https://lvmgeoserver.lvm.lv/geoserver/public/wms</a>? .<br>\nTad no diezgan gara saraksta var izvēlēties.</p>",
+        "id": 319098631,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672696332
+    },
+    {
+        "content": "<p>Bet tur jau nav kadastrs</p>",
+        "id": 319099039,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672696569
+    },
+    {
+        "content": "<p>Atradu <a href=\"https://lvmgeoserver.lvm.lv/geoserver/ows\">https://lvmgeoserver.lvm.lv/geoserver/ows</a></p>",
+        "id": 319099340,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672696787
+    },
+    {
+        "content": "<p>Ar <code>https://lvmgeoserver.lvm.lv/geoserver/ows?FORMAT=image/jpeg&amp;VERSION=1.3.0&amp;SERVICE=WMS&amp;REQUEST=GetMap&amp;LAYERS=public:Orto_LKS,publicwfs:Kadastra_karte,publicwfs:arisstreet,publicwfs:arisroad,publicwfs:arisbuilding&amp;STYLES=&amp;CRS={proj}&amp;WIDTH={width}&amp;HEIGHT={height}&amp;BBOX={bbox}</code> <a href=\"/user_uploads/49624/bFx1f6SzsZnITpfo5FLwX4UM/sjdg.png\">sjdg.png</a> - tieši tas, ko man vajag</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/bFx1f6SzsZnITpfo5FLwX4UM/sjdg.png\" title=\"sjdg.png\"><img src=\"/user_uploads/49624/bFx1f6SzsZnITpfo5FLwX4UM/sjdg.png\"></a></div>",
+        "id": 319099927,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672697234
+    },
+    {
+        "content": "<p>Man gan drīzāk jautājums - kā parastam cilvēkam caur saitu labirintiem atrast to \"<a href=\"https://lvmgeoserver.lvm.lv/geoserver/ows\">https://lvmgeoserver.lvm.lv/geoserver/ows</a>\"?</p>",
+        "id": 319101117,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672698023
+    },
+    {
+        "content": "<p>Ā jā, šis tiešām bija OWS endpointā. Teorētiski linki ir LVM lapās, bet tad tiešām jāzina, ka tur kaut kur jāmeklē.<br>\nVarētu wiki dokumentēt, tik tad varbūt prasās uzreiz blakus visas licencēšanas detaļas.</p>",
+        "id": 319153499,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672737817
+    }
+]

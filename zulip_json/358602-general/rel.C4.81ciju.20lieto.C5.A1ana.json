@@ -1,0 +1,92 @@
+[
+    {
+        "content": "<p>Turpinot Signal aizsākto sarunu - nu jau pirms daudziem gadiem pārgāju tajā \"nometnē\", kura vēlas izmantot atsevišķus ceļus piem., vairākiem landuse, landuse un sētām utt.<br>\nTe man vajag sētā pārrāvumu, bet tās relācijas dēļ es pat nezinu, vai to iezīmēšu - tāds čakars :(</p>",
+        "id": 317774803,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671923330
+    },
+    {
+        "content": "<p>No manas pieredzes, jo vairāk mikrokartē, jo relationi paliek čakarīgāki un sarežģī visu. Tad kad tur 3 līnijas kaut kādam mežam - nav tik traki. Bet kad jāsāk labot vai papildināt sīkākas lietas - uzreiz viss liela putra. Un tas, ka lai ar to strādātu vajag novilkt JOSM un relation pluginu, pats par sevi liecina, cik tas ir nedraudzīgi.</p>",
+        "id": 317846115,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671980582
+    },
+    {
+        "content": "<p>Pats nesen sastapos ar sienu, kas apvienota ar garāžu landuse, kas apvienota ar garāžu ēkas sienu, bet nav iezīmēts caurums iebraukšanai. Un tad aiziet to visu mēģināt izlabot kaut gan reāli tas būtu biji pāris punktus sienas līnijā sadalīt un pabīdīt. Bet pēkšņi jādala relation līnijas, jāmaina piesaiste, jādzēš kopējais, jātaisa jauns relations. Un katrs gabaliņš, kur pabīda sienu nost no ēkas vai pieliek vārtus, šitā jāmoka...</p>",
+        "id": 317846302,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671980709
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/6_X_Nq9BkGBji8yjpbljml7C/4wayforest.png\">4wayforest.png</a> mežs no 4 līnijām multipoligonā...</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/6_X_Nq9BkGBji8yjpbljml7C/4wayforest.png\" title=\"4wayforest.png\"><img src=\"/user_uploads/49624/6_X_Nq9BkGBji8yjpbljml7C/4wayforest.png\"></a></div>",
+        "id": 317859007,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671988644
+    },
+    {
+        "content": "<p>Jā, mikrokartēšanā vispār nāve. Arī pirms tās bieži padodos un kaut ko neiezīmēju.<br>\nTagad tikai pamanīju, ka pirmajā postā bilde pazuda. Bet izklausās, ka \"relāciju upuriem\" arī bez tās saprotams :)</p>",
+        "id": 317994324,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672080986
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/rel.C4.81ciju.20lieto.C5.A1ana/near/317994324\">said</a>:</p>\n<blockquote>\n<p>Tagad tikai pamanīju, ka pirmajā postā bilde pazuda. Bet izklausās, ka \"relāciju upuriem\" arī bez tās saprotams :)</p>\n</blockquote>\n<p>Vēl ir iespēja pielikt to bildi tagad, kamēr diskusija neizauga par monstru. ;)</p>",
+        "id": 318002076,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672086340
+    },
+    {
+        "content": "<p>Vai kāds mēģināja šo tēmu pacelt sarunā ar JOSM un/vai iD autoriem?</p>",
+        "id": 318002385,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672086574
+    },
+    {
+        "content": "<p>Man personīgi nav pieredzes ar relation rediģēšanu, bet piedāvājums neizmantot vienu un to pašu way vairākiem nolūkiem izklausās pēc \"mapping for (defective) tooling\".<br>\nAr tādu loģiku var nonākt pie \"zīmēsim robežas starp valstīm, kā divus way, ja nu gadījumā tur izaugs jaunā valsts, būs vieglāk iezīmēt\".</p>",
+        "id": 318002651,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672086790
+    },
+    {
+        "content": "<p>Manuprāt, svarīgāk ir \"one feature, one element\". Relationi ir \"one feature, many elements (that also make other features)\". Piemēram, divi blakus. Bija way vienam featuram un way otram featuram un viena vieta sakrita. Bet ar relationiem tas ir 3 wayi. Viens vienam, viens otram, viens abiem. Un katrs feature is 2 wayi un pats relations. Un ja tagad gribam rediģēt pa vidu vai blakus viņiem jātaisa vairāki jauni wayi, jādala esošie, jāpārliek relationi, jaliek roles, jātaisa jauns. Un jo sīkāk zīmē, jo šito paliek vairāk. Nevienu to wayu nevar atsevišķi pabīdīt, jo uzreiz salūzt 2+ relationi. Un nevienu nevar izmainīt nemainot kaut ko citu. Un cik viegli kļūdas sataisīt vispār nav runas. Ja nepareizi atsevišķu ceļu iezīmē - nu tur būs drusku šķībi. Ja nepareizi poligonus - tad nekas nav derīgs. Es nedomāju, ka man kādreiz kāds pierādīs, ka tas ir labāk. Un te iet runa par zīmētājiem ar JOSM un relation pluginu, kas 5+ gadus zīmē. Kā jau rich teica, kāda varbūtība, ka jauns kartētājs vispār kaut ko sapratīs no tā. Bet nu nav aizliegts ne viens ne otrs (ne arī kombinācijas, ka tik ģeomterija pareiza).</p>",
+        "id": 318005424,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672088931
+    },
+    {
+        "content": "<p>Parastā situācija - 2 gabali blakus un vajag trešo zem tiem: <a href=\"/user_uploads/49624/cMODusHNNG6T4EViLG1jJfLm/1.png\">1.png</a> </p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/cMODusHNNG6T4EViLG1jJfLm/1.png\" title=\"1.png\"><img src=\"/user_uploads/49624/cMODusHNNG6T4EViLG1jJfLm/1.png\"></a></div><p>Un tad ir šie divi varianti <a href=\"/user_uploads/49624/cqYX39IQEgk4m4QOLoJg6OIL/2.png\">2.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/cqYX39IQEgk4m4QOLoJg6OIL/2.png\" title=\"2.png\"><img src=\"/user_uploads/49624/cqYX39IQEgk4m4QOLoJg6OIL/2.png\"></a></div><p>Multipoligoni: izvēlas A līniju, sadala, izvēlas B līniju, sadala, uzzīmē F līniju no 4 punktiem līdz iepriekš sadalītajiem, izveido jaunu relation, uzliek kā multipoligonu, izvēlas un pievieno trīs jaunās līnijas, pieliek outer roles, izvēlas tagus.</p>\n<p>Atsevišķi: uzzīmē C līniju no 5 punktiem, izvēlas tegus.</p>\n<p>Es nezinu ar kādu maģiju tos zīmē kartētāji ar JOSM un pluginu, bet man neticās, ka kaut kas tur ir daudz ātrāk un vienkāršāk.</p>",
+        "id": 318006509,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672089902
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/rel.C4.81ciju.20lieto.C5.A1ana/near/318002076\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/rel.C4.81ciju.20lieto.C5.A1ana/near/317994324\">said</a>:</p>\n<blockquote>\n<p>Tagad tikai pamanīju, ka pirmajā postā bilde pazuda. Bet izklausās, ka \"relāciju upuriem\" arī bez tās saprotams :)</p>\n</blockquote>\n<p>Vēl ir iespēja pielikt to bildi tagad, kamēr diskusija neizauga par monstru. ;)</p>\n</blockquote>\n<p>Uff, kamēr atradu :)<br>\n<a href=\"/user_uploads/49624/ZsrPvC2KfwmVPZEfQTS-fIh1/image.png\">relācijas ir tāds čakars dažreiz</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/ZsrPvC2KfwmVPZEfQTS-fIh1/image.png\" title=\"relācijas ir tāds čakars dažreiz\"><img src=\"/user_uploads/49624/ZsrPvC2KfwmVPZEfQTS-fIh1/image.png\"></a></div>",
+        "id": 318102089,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672149720
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/rel.C4.81ciju.20lieto.C5.A1ana/near/318002651\">said</a>:</p>\n<blockquote>\n<p>Man personīgi nav pieredzes ar relation rediģēšanu, bet piedāvājums neizmantot vienu un to pašu way vairākiem nolūkiem izklausās pēc \"mapping for (defective) tooling\".<br>\nAr tādu loģiku var nonākt pie \"zīmēsim robežas starp valstīm, kā divus way, ja nu gadījumā tur izaugs jaunā valsts, būs vieglāk iezīmēt\".</p>\n</blockquote>\n<p>Administratīvās robežas tomēr ir viena objektu kategorija. Mana ikdienas bēda ir par relācijām, kur viens ceļš ir iekļauts grass, commercial, highway un fence relācijās...</p>\n<p>Viens no OSM pamatprincipiem arī ir kartētāju prioritizēšana (piem., dažreiz pār datu lietotājiem).<br>\nPat ja ignorējam dažādu objektu kategoriju jaukšanu, te kartētāju prioritizēšanas princips arī \"balsotu\" pret tādām relācijām :)</p>",
+        "id": 318103020,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672150031
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/rel.C4.81ciju.20lieto.C5.A1ana/near/318005424\">said</a>:</p>\n<blockquote>\n<p>...<br>\nUn cik viegli kļūdas sataisīt vispār nav runas. Ja nepareizi atsevišķu ceļu iezīmē - nu tur būs drusku šķībi. Ja nepareizi poligonus - tad nekas nav derīgs. Es nedomāju, ka man kādreiz kāds pierādīs, ka tas ir labāk. Un te iet runa par zīmētājiem ar JOSM un relation pluginu, kas 5+ gadus zīmē. Kā jau rich teica, kāda varbūtība, ka jauns kartētājs vispār kaut ko sapratīs no tā.<br>\n...</p>\n</blockquote>\n<p>Jā, tādi dati atbaidīs pietiekami daudzus potenciālus kartētajus.<br>\nVar jau teikt \"ha, mums jūs nevajag, jo jūs neesat tik kruti\", bet es teiktu tieši otrādāk - vajag max viegli, lai jebkurš var droši piedalīties.<br>\nKaut kad sen daudz profesionālāki cilvēki ļoti atbalstīja šādu relāciju lietošanu. Dažus gadus vēlāk bija mainījuši domas :)</p>",
+        "id": 318103506,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672150206
+    },
+    {
+        "content": "<p>Re kur vēl piemērs. Gribēju drusciņ ceļu pabīdīt, lai iezīmētu jaunu savienojumu. <a href=\"/user_uploads/49624/S51X6BbNLLE8UJqQLqDxr5xY/just-move-a-bit.png\">just-move-a-bit.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/S51X6BbNLLE8UJqQLqDxr5xY/just-move-a-bit.png\" title=\"just-move-a-bit.png\"><img src=\"/user_uploads/49624/S51X6BbNLLE8UJqQLqDxr5xY/just-move-a-bit.png\"></a></div><p>Bet tur tev bija. Ceļš un taka savienoti ar mežu. Ceļš kalpo kā meža relation members. Mežs savienots ar residential, kas ir vēl arī sēta.</p>",
+        "id": 319189801,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672750937
+    },
+    {
+        "content": "<p>O jā, mega variants. Šis ir pamatīgs ierobežojums rediģēšanai, bet jo īpaši - jauniem lietotājiem.<br>\nRediģēšana - ar JOSM ir piņķerīgi, iD šausmīgi un mobilajos editoros praktiski neiespējami.<br>\nŠādas vietas arī atbaida jaunus lietotājus, kas ir vissliktākais.</p>",
+        "id": 319191291,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672751436
+    }
+]
