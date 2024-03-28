@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>Paldies HellMap par latvisko vadlīniju atjaunošanu, gadu gaitā šis tas bija mazliet novecojis :)<br>\nTās varbūt vērts palasīt iedvesmai, un varbūt radīsies kādi ieteikumi vai jautājumi.<br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Lv:Latvian_tagging_guidelines\">https://wiki.openstreetmap.org/wiki/Lv:Latvian_tagging_guidelines</a></p>",
+        "id": 428110435,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1711022033
+    },
+    {
+        "content": "<p>Previously, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki\">#general &gt; Latvian tagging guidelines wiki</a></p>",
+        "id": 428113033,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711022941
+    },
+    {
+        "content": "<p>Man bail salikt interpretāciju. Ir lietas, kas ir Latvijā, bet nekur citur nav teikts, ka tā jābūt. Un atsauču tur nav uz nekādām diskusijām.</p>",
+        "id": 428113668,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711023182
+    },
+    {
+        "content": "<p>Piemēram?</p>",
+        "id": 428182951,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1711042354
+    },
+    {
+        "content": "<p>Nu kaut vai tas pats agrāk pieminētais <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aoperator\">operator=*</a> - nekur wiki nav teikts, ka tur vajadzētu būt uzņēmuma legālajiem veidiem kā SIA vai kas tāds un visi piemēri lapā ir bez tādiem. Es tad varētu arī uz to balstotiem pierakstīt - \"SIA\" neliek pie operator. Bet tad pretī tevis paša piemērs par SIA nosaukumos un operator lauku piemērā. Un Latvijā visur operator salikti tie SIA. Ko tad šeit interpretēt/likt - wiki? tevis teikto? manis teikto? dabā kartēto? Zulipā apspriesto (bez lēmuma)? Tādu piemēru simtiem. Es parasti izvairsos tādus pieminēt.</p>",
+        "id": 428186212,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711043487
+    },
+    {
+        "content": "<p>Jā, labs piemērs :)<br>\nEs laikam rakstītu, ka \"vēlams ar SIA / A/S utt, bet reāli daudz kam ir bez uzņēmuma veida, vismaz pagaidām\".<br>\nBet šis tiešām \"šobrīd izvairos\" kategorijā, hehe.</p>",
+        "id": 428202258,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1711049454
+    }
+]

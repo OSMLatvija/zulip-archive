@@ -1,0 +1,134 @@
+[
+    {
+        "content": "<p>\"Ļoti aicinām arī darbvirsmas lietotņu (ArcMap, ArcGIS Pro un QGIS) lietotājus\"</p>\n<p>Nav minēts JOSM vai iD ;)</p>",
+        "id": 348426424,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681211211
+    },
+    {
+        "content": "<p>Hmmm, tie ir iepriekš sarenderēti vai ne? Te jau no WMS tieši tas labums, ka var salikt 2+ kopā - orto ar kadastru piemēram, kas man priekš ielu nosaukumu rakstīšanas vajadzīgs.</p>",
+        "id": 348523940,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681234122
+    },
+    {
+        "content": "<p>Šito laikam vajag iD un JOSM defaultā likt tad prasīt? Cik tas viss tur stabils.</p>",
+        "id": 348524190,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681234185
+    },
+    {
+        "content": "<p>VMS un VMTS?</p>",
+        "id": 348524834,
+        "sender_full_name": "Colby",
+        "timestamp": 1681234340
+    },
+    {
+        "content": "<p>Lai liek ortofoto un citus slāņus no WMTS, kur var WMS vietā, jo tas teorētiski ir ātrāks, mazāk sūta un no lielas ielādes nenokarina serverus. Bet es ar to visu neesmu lielos draugos, nezinu, kas tieši liekams.</p>",
+        "id": 348525417,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681234536
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVM.20jaunumi/near/348523940\">said</a>:</p>\n<blockquote>\n<p>Hmmm, tie ir iepriekš sarenderēti vai ne? Te jau no WMS tieši tas labums, ka var salikt 2+ kopā - orto ar kadastru piemēram, kas man priekš ielu nosaukumu rakstīšanas vajadzīgs.</p>\n</blockquote>\n<p>Šajā ziņā nevajadzētu atšķirties no WMS - ko nu editorā saliec, to arī rādīs.</p>",
+        "id": 348525817,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681234671
+    },
+    {
+        "content": "<p>Brrr, nevajag likt FB šādas ziņas - kopējot linku nokopējas kaut kāds FB links.</p>\n<p>Bet arī ar it kā precīzu linku man neizdodas neko dabūt iekš JOSM.<br>\nVai kādam izdevās?</p>",
+        "id": 348525968,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681234713
+    },
+    {
+        "content": "<p>ēēē es pieliku <a href=\"https://wiki.openstreetmap.org/wiki/Lv:Source#Latvijas_ģeoservisi\">https://wiki.openstreetmap.org/wiki/Lv:Source#Latvijas_ģeoservisi</a> linku nokopēju</p>",
+        "id": 348526292,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681234825
+    },
+    {
+        "content": "<p>Var jau pamēģināt JOSMu atvērt, paskatīties, kas tur, bet nu... tas kādam mazām slinkam</p>",
+        "id": 348526365,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681234855
+    },
+    {
+        "content": "<p>Varbūt kaut ko daru nepareizi, JOSM nekādi nesanāk.</p>",
+        "id": 348527741,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681235269
+    },
+    {
+        "content": "<p>hmmmm <a href=\"/user_uploads/49624/1dSxT3Po9UND-YyMoD0e0BBL/ergtdfsg.png\">ergtdfsg.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/1dSxT3Po9UND-YyMoD0e0BBL/ergtdfsg.png\" title=\"ergtdfsg.png\"><img src=\"/user_uploads/49624/1dSxT3Po9UND-YyMoD0e0BBL/ergtdfsg.png\"></a></div>",
+        "id": 348528126,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681235381
+    },
+    {
+        "content": "<p>Ja pieliek <code>?request=GetCapabilities</code> vismaz nekarās, bet neko neatrod. Laikam vai nu JOSM nemāk kaut ko vai arī viņiem kaut kas ne tā</p>",
+        "id": 348528811,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681235602
+    },
+    {
+        "content": "<p>Paskatīsimies, ko JOSM izstrādātāji teiks - <a href=\"https://josm.openstreetmap.de/ticket/22869\">https://josm.openstreetmap.de/ticket/22869</a> .</p>",
+        "id": 348539727,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681239086
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/C2fbZ1alm76A3dcectprk6aK/image.png\">QGIS vmts</a> <br>\nQGIS strādā un liekas ka ātrāk ielādējas nekā VMS versija</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/C2fbZ1alm76A3dcectprk6aK/image.png\" title=\"QGIS vmts\"><img src=\"/user_uploads/49624/C2fbZ1alm76A3dcectprk6aK/image.png\"></a></div>",
+        "id": 348552124,
+        "sender_full_name": "Colby",
+        "timestamp": 1681243189
+    },
+    {
+        "content": "<p>Ou jē.<br>\n<a href=\"https://josm.openstreetmap.de/changeset/18703/josm\">https://josm.openstreetmap.de/changeset/18703/josm</a><br>\n<a href=\"/user_uploads/49624/3qJBYQ1v2qxUbmAOp963YXQe/image.png\">diff</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/3qJBYQ1v2qxUbmAOp963YXQe/image.png\" title=\"diff\"><img src=\"/user_uploads/49624/3qJBYQ1v2qxUbmAOp963YXQe/image.png\"></a></div>",
+        "id": 350584496,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681754360
+    },
+    {
+        "content": "<p>Pastāsti iD noobiem, kur JOSMā kas jāspiež, lai šito jauno brīnumu pieslēgtu :)</p>",
+        "id": 350594084,
+        "sender_full_name": "Arturs Verza",
+        "timestamp": 1681757480
+    },
+    {
+        "content": "<p>Vispirms vajag lai JOSM to varētu atpazīt, tad tur linku var uzģēnrēt, kuru var iD iebāzt. Bet te vēl vajag sagaidīt jauno JOSM versiju. <a href=\"https://wiki.openstreetmap.org/wiki/Lv:Source\">https://wiki.openstreetmap.org/wiki/Lv:Source</a> īsa instrukcija</p>",
+        "id": 350596045,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681758241
+    },
+    {
+        "content": "<p>Jautājums gan vai JOSM kaut kā citādi ar WMTS strādā vai arī iD neatbalsto kaut ko no tādiem</p>",
+        "id": 350596212,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681758306
+    },
+    {
+        "content": "<p>Drošvien arī no kaut kādiem QGIS arī var tos linku dabūt, bet tad jāvelk visa aplikācija.</p>",
+        "id": 350596290,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681758342
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"608541\">Arturs Verza</span> <a href=\"#narrow/stream/358602-general/topic/LVM.20jaunumi/near/350594084\">said</a>:</p>\n<blockquote>\n<p>Pastāsti iD noobiem, kur JOSMā kas jāspiež, lai šito jauno brīnumu pieslēgtu :)</p>\n</blockquote>\n<p>JOSM vēl nestrādās, jāsagaida vismaz dev builds, kurš būtu jaunāks par 18703 (šobrīd - 18702).<br>\nTās laikam reizi dienā ģenerējās, tā ka rīt laikam būs pieejama.</p>\n<p>Tik jāņem vērā, ka tur saturiski nekas cits nebūs, tikai varbūt būs ātrāk.</p>",
+        "id": 350604313,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681761391
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/4LVDjMEklVKxacWaAZayCwmY/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/4LVDjMEklVKxacWaAZayCwmY/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/4LVDjMEklVKxacWaAZayCwmY/image.png\"></a></div>",
+        "id": 351521462,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1682059116
+    },
+    {
+        "content": "<p>josm-latest 18706</p>",
+        "id": 351521578,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1682059155
+    }
+]
