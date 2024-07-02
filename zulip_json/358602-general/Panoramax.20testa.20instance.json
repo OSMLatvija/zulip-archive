@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"607550\">@AmOosm</span>, iedomājos augšuplādēt dažas šodienas kāda parka bildes, bet Panoramax instance laikam nobirusi, 502 - vai kas zināms par šo?</p>",
+        "id": 440386908,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716493259
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Panoramax.20testa.20instance/near/440386908\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"607550\">AmOosm</span>, iedomājos augšuplādēt dažas šodienas kāda parka bildes, bet Panoramax instance laikam nobirusi, 502 - vai kas zināms par šo?</p>\n</blockquote>\n<p>Docker atkal mani pieviļ. Pēc atjauninājuma nepalaidās migrācijas skripts. Palaidu manuāli un tagad strādā.</p>\n<p>(tāpēc šī ir <em>testa</em> instance)</p>",
+        "id": 440387486,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1716493538
+    },
+    {
+        "content": "<p>Burvīgi, liels paldies :)<br>\nTieši tā, pa bišķītim kaut ko mēģinām un labāk saprotam, ko ar to varētu iesākt nākotnē.</p>",
+        "id": 440388600,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716494016
+    },
+    {
+        "content": "<p>Te arī Līgo laukums Ādažos testam :)<br>\n<a href=\"https://geovisio.shema.lv/#focus=map&amp;map=16.68/57.076739/24.325277&amp;speed=250\">https://geovisio.shema.lv/#focus=map&amp;map=16.68/57.076739/24.325277&amp;speed=250</a></p>",
+        "id": 440490626,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716550162
+    }
+]

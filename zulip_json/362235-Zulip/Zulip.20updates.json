@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Zulip is introducing <strong>Zulip updates</strong>! To help you learn about new features and configuration options, this topic will receive messages about important changes in Zulip.</p>\n<p>You can read these update messages whenever it's convenient, or <a href=\"/help/mute-a-topic\">mute</a> this topic if you are not interested. If your organization does not want to receive these announcements, they can be disabled. <a href=\"/help/configure-automated-notices#zulip-update-announcements\">Learn more</a>.</p>",
+        "id": 433940152,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1713420939
+    },
+    {
+        "content": "<p><strong>Web and desktop updates</strong></p>\n<ul>\n<li>When you paste content into the compose box, Zulip will now do its best to preserve the formatting, including links, bulleted lists, bold, italics, and more. Pasting as plain text remains an alternative option. <a href=\"/help/keyboard-shortcuts#the-basics\">Learn more</a>.</li>\n<li>To <a href=\"/help/quote-and-reply\">quote and reply</a> to part of a message, you can now select the part that you want to quote.</li>\n<li>You can now hide the user list in the right sidebar to reduce distraction. <a href=\"/help/user-list\">Learn more</a>.</li>\n</ul>",
+        "id": 433940153,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1713420939
+    },
+    {
+        "content": "<ul>\n<li>The <strong>All messages</strong> view has been renamed to <strong>Combined feed</strong>. <a href=\"/help/combined-feed\">Learn more</a>.</li>\n</ul>\n<p><strong>Web and desktop updates</strong></p>\n<ul>\n<li>When you start composing, the most recently edited draft for the conversation you are composing to now automatically appears in the compose box. You can always save a draft and start a new message using the <strong>send options</strong> menu next to the <strong>Send</strong> button. <a href=\"/help/view-and-edit-your-message-drafts#save-a-draft-and-start-a-new-message\">Learn more</a>.</li>\n<li>If you'd prefer not to see notifications when others type, you can now disable them. <a href=\"/help/typing-notifications\">Learn more</a>.</li>\n</ul>",
+        "id": 436415603,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1714536356
+    },
+    {
+        "content": "<ul>\n<li>\n<p>To simplify Zulip for new users, <strong>Streams</strong> have been renamed to <strong>Channels</strong>. The functionality remains exactly the same, and <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bots</a> do not need to be updated. <a href=\"/help/introduction-to-channels\">Learn more</a>.</p>\n</li>\n<li>\n<p>Topics and messages now load much faster when you open the web or desktop app.</p>\n</li>\n</ul>",
+        "id": 440003233,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1716357802
+    },
+    {
+        "content": "<p><strong>Web and desktop updates</strong></p>\n<ul>\n<li>Use the new <strong>Reactions</strong> view to see how others have reacted to your messages. <a href=\"/help/emoji-reactions#view-your-messages-with-reactions\">Learn more</a>.</li>\n<li>For a more focused reading experience, you can now hide the <a href=\"/help/left-sidebar\">left</a> and <a href=\"/help/user-list\">right</a> sidebars any time using the buttons in the top navigation bar. When the left sidebar is hidden, use <a href=\"/help/keyboard-shortcuts#navigation\">keyboard navigation</a> to jump to the next unread topic or go back to your <a href=\"/help/configure-home-view\">home view</a>.</li>\n<li>You can now search for messages in topics you   <a href=\"/help/follow-a-topic\">follow</a> using the <code>is:followed</code> filter. <a href=\"/help/search-for-messages#search-by-message-status\">Learn   more</a>.</li>\n</ul>",
+        "id": 447116983,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1719375797
+    }
+]
