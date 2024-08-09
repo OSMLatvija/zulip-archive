@@ -1,0 +1,122 @@
+[
+    {
+        "content": "<p>Kā jums izskatās, vai te attēls ir pavecāks OSM screenshot? :)</p>\n<p><a href=\"https://armass.eu/contact\">https://armass.eu/contact</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://armass.eu/contact\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/189620192586800656a1ad008cc89fd50137a090\\/68747470733a2f2f61726d6173732e65752f64657369676e2f4d6567616e2f696d616765732f6c6f676f5f656e2e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://armass.eu/contact\" title=\"Armass.eu\">Armass.eu</a></div><div class=\"message_embed_description\">Mobīlais telefons:  +371 22078558          E-mail: info@armas.lv  \r\n   Adrese:  Buļļu iela 45, korp.9 LV-1067, Riga, Latvija  \r\n   GPS:  N 56&deg;58'28'' W 24&deg;2'29''</div></div></div>",
+        "id": 388583983,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1693595043
+    },
+    {
+        "content": "<p>Visit Kuldīga nevienā lapā nav <br>\n<a href=\"/user_uploads/49624/JMXVG0eHntz3BaBlXAau79gD/visit-kuldiga-no-attr.png\">visit-kuldiga-no-attr.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/JMXVG0eHntz3BaBlXAau79gD/visit-kuldiga-no-attr.png\" title=\"visit-kuldiga-no-attr.png\"><img src=\"/user_uploads/49624/JMXVG0eHntz3BaBlXAau79gD/visit-kuldiga-no-attr.png\"></a></div>",
+        "id": 411713740,
+        "sender_full_name": "HellMap",
+        "timestamp": 1704710733
+    },
+    {
+        "content": "<p>Tiešām. Vai te ir kāds no Kuldīgas, varbūt ir vēlme aicināt novērst autortiesību pārkāpumu?</p>",
+        "id": 411716819,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1704711871
+    },
+    {
+        "content": "<p>Pie tam tas ir Leaflet, kur tas ir automātsiki, tāpēc kāds ir speciāli pacenties, lai atsauci noņemtu</p>",
+        "id": 411718361,
+        "sender_full_name": "HellMap",
+        "timestamp": 1704712507
+    },
+    {
+        "content": "<p><a href=\"https://visitkuldiga.com/wp-content/themes/kuldiga/assets/dist/css/app.min.css?ver=1.7\">CSSā</a> is manuāli ielikts <code>.leaflet-bottom{display:none!important}</code> lai noslēptu Leaflet apakšējo rindiņu, kur ir tā atribūcija</p>",
+        "id": 411719158,
+        "sender_full_name": "HellMap",
+        "timestamp": 1704712878
+    },
+    {
+        "content": "<p>To lapu ir taisījuši <a href=\"http://born.lv\">born.lv</a>, paskatījos citas viņu mājaslapas un atradu arī <a href=\"https://animu.lv/veterinaras-aptiekas/\">animu.lv</a>. Laikam viņiem tāds stils.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"http://born.lv\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/5e44302baba547677845210b240b436f498c7e7d\\/68747470733a2f2f626f726e2e6c762f77702d636f6e74656e742f75706c6f6164732f323032332f30312f6f70656e67726170682e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"http://born.lv\" title=\"UX/UI dizains, programmēšana, mājas lapu un e-veikalu izstrāde - BORN\">UX/UI dizains, programmēšana, mājas lapu un e-veikalu izstrāde - BORN</a></div><div class=\"message_embed_description\">BORN piedāvā profesionālu mājas lapu un e-veikalu izstrādi. UI/UX web dizaina izstrāde, Front-end programmēšana, Back-end programmēšana.</div></div></div>",
+        "id": 411736810,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1704720006
+    },
+    {
+        "content": "<p>Hmm jā, te gandrīz vai derētu epasts visiem klientiem ar izstrādātāju saņēmējos...</p>",
+        "id": 411739120,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1704720930
+    },
+    {
+        "content": "<p>Vai tikai Leaflet ir pareizi?<br>\n<a href=\"/user_uploads/49624/WgwV6v0ykad3MWirZmMMFxQU/Screenshot_20240109_165833.png\">zl.lv</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/WgwV6v0ykad3MWirZmMMFxQU/Screenshot_20240109_165833.png\" title=\"zl.lv\"><img src=\"/user_uploads/49624/WgwV6v0ykad3MWirZmMMFxQU/Screenshot_20240109_165833.png\"></a></div>",
+        "id": 411952460,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1704812622
+    },
+    {
+        "content": "<p>Nē. Leaflet vispār atsauci neprasa, cik zinu. OSM un no OSM veidoti prasa atsauci. (Ja jautājums nebija retorisks.)</p>",
+        "id": 411953398,
+        "sender_full_name": "HellMap",
+        "timestamp": 1704812857
+    },
+    {
+        "content": "<p>Nebija retorisks gan, tad var arī <a href=\"http://zl.lv\">zl.lv</a> pielikt pie saraksta</p>",
+        "id": 411954115,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1704813043
+    },
+    {
+        "content": "<p><a href=\"https://katalogs-iksd.riga.lv/lv/Iestade/1615\">Šajā lapā</a> karte izskatās aizdomīgi līdzīgi OSM</p>\n<p><a href=\"/user_uploads/49624/lQG3FHxUPFlMSi0-p6esV3tN/Screenshot_20240109_172515.png\">OSM?</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/lQG3FHxUPFlMSi0-p6esV3tN/Screenshot_20240109_172515.png\" title=\"OSM?\"><img src=\"/user_uploads/49624/lQG3FHxUPFlMSi0-p6esV3tN/Screenshot_20240109_172515.png\"></a></div>",
+        "id": 411958187,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1704814167
+    },
+    {
+        "content": "<p>Tas laikam MapBox slānis, bet dati no OSM, jā, pats tur celiņus parkā zīmēju <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>",
+        "id": 411959037,
+        "sender_full_name": "HellMap",
+        "timestamp": 1704814405
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"607550\">AmOosm</span> <a href=\"#narrow/stream/358602-general/topic/Tr.C5.ABksto.C5.A1as.20autorties.C4.ABbu.20atsauces/near/411958187\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://katalogs-iksd.riga.lv/lv/Iestade/1615\">Šajā lapā</a> karte izskatās aizdomīgi līdzīgi OSM</p>\n<p><a href=\"/user_uploads/49624/lQG3FHxUPFlMSi0-p6esV3tN/Screenshot_20240109_172515.png\">OSM?</a></p>\n</blockquote>\n<p>Jocīgi, ka Rīgas dome pamanījusies pārkāpt autortiesības.</p>",
+        "id": 412405243,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1705000489
+    },
+    {
+        "content": "<p>Par šiem būtu vērts salikt kopā un rakstīt tiem, kuriem ir pārkāpumi.<br>\nKā jums šķiet, vai wiki lapa būtu labs risinājums?<br>\nLīdzīgi kā globālā, kur būtu URL, screenshot, kad uzrakstīts utt.</p>\n<p>Ja kāds vēlētos šeit minētajiem uzrakstīt, es kaut kad agrāk šādu tekstu izmantoju:</p>\n<p>Subject: Autortiesību pārkāpums mājaslapā</p>\n<blockquote>\n<p>Labdien, rakstu jums kā OpenStreetMap kopienas pārstāvis.</p>\n<p>Mums ir liels prieks, ka izmantojat OpenStreetMap savā mājaslapā.<br>\nNepieciešamas nelielas izmaiņas, lai novērstu autortiesību pārkāpumu - kartē jāpievieno autortiesību atsauci.</p>\n<p>Saskaņā ar <a href=\"https://www.openstreetmap.org/copyright\">https://www.openstreetmap.org/copyright</a> , apakšējā labajā stūrī vajadzētu pielikt tekstu \"© OpenStreetMap contributors\", kas būtu kā links uz <a href=\"https://www.openstreetmap.org/copyright\">https://www.openstreetmap.org/copyright</a> .</p>\n<p>Karte tiek izmantota vairākās lapās (iespējams, atsauce jāpievieno vēl kur citur):<br>\nURL1<br>\nURL1</p>\n<p>Autortiesību atsauces izvietošanas piemērs:<br>\n<a href=\"https://www.vadc.lv/donoriem/izbraukumi-un-ziedosanas-vietas\">https://www.vadc.lv/donoriem/izbraukumi-un-ziedosanas-vietas</a></p>\n</blockquote>",
+        "id": 412405639,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1705000633
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/Zl8IS3yihGE6499Oc1qB7YNk/image.png\">literatura.lv</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/Zl8IS3yihGE6499Oc1qB7YNk/image.png\" title=\"literatura.lv\"><img src=\"/user_uploads/49624/Zl8IS3yihGE6499Oc1qB7YNk/image.png\"></a></div>",
+        "id": 433313376,
+        "sender_full_name": "Colby",
+        "timestamp": 1713192985
+    },
+    {
+        "content": "<p>Tā kā tas Leaflet, tad speciāli noņemts</p>",
+        "id": 433314736,
+        "sender_full_name": "HellMap",
+        "timestamp": 1713193297
+    },
+    {
+        "content": "<p><a href=\"https://katalogs-iksd.riga.lv/lv\">RD IKSD</a>:<br>\n<a href=\"/user_uploads/49624/LmBx3_hHaDjxgkyEl3fLvCmg/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/LmBx3_hHaDjxgkyEl3fLvCmg/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/LmBx3_hHaDjxgkyEl3fLvCmg/image.png\"></a></div>",
+        "id": 434913477,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1713854724
+    },
+    {
+        "content": "<p>Ha, šiem būtu jauki uzrakstīt īsu ziņu ar lūgumu pievienot atsauci, ja ir iespēja.</p>",
+        "id": 434954364,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1713868660
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/2RqUtGKCIcJrZq9VEopWDqiF/image.png\">mantojums.lv</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/2RqUtGKCIcJrZq9VEopWDqiF/image.png\" title=\"mantojums.lv\"><img src=\"/user_uploads/49624/2RqUtGKCIcJrZq9VEopWDqiF/image.png\"></a></div>",
+        "id": 435772355,
+        "sender_full_name": "Colby",
+        "timestamp": 1714236352
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/358602-general/topic/Tr.C5.ABksto.C5.A1as.20autorties.C4.ABbu.20atsauces/near/435772355\">said</a>:</p>\n<blockquote>\n<p><a href=\"http://mantojums.lv\">mantojums.lv</a></p>\n</blockquote>\n<p>Jā, šo Hellmap bija pamanījis <a href=\"#narrow/stream/358602-general/topic/autorties.C4.ABbu.20atsauces/near/377785328\">https://osmlatvija.zulipchat.com/#narrow/stream/358602-general/topic/autorties.C4.ABbu.20atsauces/near/377785328</a> .</p>\n<p>Varbūt <span class=\"user-mention\" data-user-id=\"651110\">@Edgars Šulcs</span> var palīdzēt nodot info, lai to salabotu?</p>",
+        "id": 436084353,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1714406441
+    }
+]
