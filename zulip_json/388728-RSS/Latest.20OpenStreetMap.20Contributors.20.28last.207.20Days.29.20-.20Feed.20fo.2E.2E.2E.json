@@ -1,0 +1,1508 @@
+[
+    {
+        "content": "<p><strong><a href=\"https://www.openstreetmap.org/user/dekap11\">New Contributor: dekap11</a></strong><br>\nContributor:  dekap11  <br>\n                Mapper since: 2023-05-16 13:16:36 <br>\n                Registration: 2023-05-16 13:04:35 <br>\n                UID: 19284475 <br>\n                First active near: Preiļi (0.49 km) (Latvia) <br>\n                First Changeset: 136169180<br>\n                Editor used: iD 2.25.2 <br>\n                How did she/he contribute to OpenStreetMap?<br>\n<a href=\"https://www.openstreetmap.org/user/dekap11\">https://www.openstreetmap.org/user/dekap11</a></p>",
+        "id": 359430505,
+        "sender_full_name": "RSS",
+        "timestamp": 1684424370
+    },
+    {
+        "content": "<p><strong><a href=\"https://www.openstreetmap.org/user/Ivar%20K\">New Contributor: Ivar K</a></strong><br>\nContributor:  Ivar K  <br>\n                Mapper since: 2023-05-14 11:35:23 <br>\n                Registration: 2019-01-31 11:15:57 <br>\n                UID: 9403444 <br>\n                First active near: Ļaudona (0.20 km) (Latvia) <br>\n                First Changeset: 136081500<br>\n                Editor used: iD 2.25.2 <br>\n                How did she/he contribute to OpenStreetMap?<br>\n<a href=\"https://www.openstreetmap.org/user/Ivar\">https://www.openstreetmap.org/user/Ivar</a> K</p>",
+        "id": 359430506,
+        "sender_full_name": "RSS",
+        "timestamp": 1684424370
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"617829\">RSS</span> <a href=\"#narrow/stream/388728-RSS/topic/Latest.20OpenStreetMap.20Contributors.20.28last.207.20Days.29.20-.20Feed.20fo.2E.2E.2E/near/359430506\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://www.openstreetmap.org/user/Ivar\">https://www.openstreetmap.org/user/Ivar</a> K</p>\n</blockquote>\n<p>Nepareiza saite atstarpes dēļ. Bet tā laikam ir RSS skripta problēma, jo oriģināli</p>\n<div class=\"codehilite\" data-code-language=\"XML\"><pre><span></span><code><span class=\"w\">            </span><span class=\"nt\">&lt;content</span><span class=\"w\"> </span><span class=\"na\">type=</span><span class=\"s\">\"html\"</span><span class=\"nt\">&gt;</span>\n<span class=\"w\">                </span><span class=\"ni\">&amp;lt;</span>b<span class=\"ni\">&amp;gt;</span>Contributor:<span class=\"ni\">&amp;lt;</span>/b<span class=\"ni\">&amp;gt;</span><span class=\"w\">  </span><span class=\"ni\">&amp;lt;</span>a<span class=\"w\"> </span>target=\"_blank\"<span class=\"w\"> </span>href=\"https://www.openstreetmap.org/user/Ivar<span class=\"w\"> </span>K\"<span class=\"ni\">&amp;gt;</span>Ivar<span class=\"w\"> </span>K<span class=\"ni\">&amp;lt;</span>/a<span class=\"ni\">&amp;gt;</span><span class=\"w\"> </span><span class=\"ni\">&amp;lt;</span>/br<span class=\"ni\">&amp;gt;</span>\n<span class=\"w\">                </span><span class=\"ni\">&amp;lt;</span>b<span class=\"ni\">&amp;gt;</span>Mapper<span class=\"w\"> </span>since:<span class=\"ni\">&amp;lt;</span>/b<span class=\"ni\">&amp;gt;</span><span class=\"w\"> </span>2023-05-14<span class=\"w\"> </span>11:35:23<span class=\"w\"> </span><span class=\"ni\">&amp;lt;</span>/br<span class=\"ni\">&amp;gt;</span>\n<span class=\"w\">                </span><span class=\"ni\">&amp;lt;</span>b<span class=\"ni\">&amp;gt;</span>Registration:<span class=\"ni\">&amp;lt;</span>/b<span class=\"ni\">&amp;gt;</span><span class=\"w\"> </span>2019-01-31<span class=\"w\"> </span>11:15:57<span class=\"w\"> </span><span class=\"ni\">&amp;lt;</span>/br<span class=\"ni\">&amp;gt;</span>\n<span class=\"w\">                </span><span class=\"ni\">&amp;lt;</span>b<span class=\"ni\">&amp;gt;</span>UID:<span class=\"ni\">&amp;lt;</span>/b<span class=\"ni\">&amp;gt;</span><span class=\"w\"> </span>9403444<span class=\"w\"> </span><span class=\"ni\">&amp;lt;</span>/br<span class=\"ni\">&amp;gt;</span>\n<span class=\"w\">                </span><span class=\"ni\">&amp;lt;</span>b<span class=\"ni\">&amp;gt;</span>First<span class=\"w\"> </span>active<span class=\"w\"> </span>near:<span class=\"ni\">&amp;lt;</span>/b<span class=\"ni\">&amp;gt;</span><span class=\"w\"> </span>Ä»audona<span class=\"w\"> </span>(0.20<span class=\"w\"> </span>km)<span class=\"w\"> </span>(Latvia)<span class=\"w\"> </span><span class=\"ni\">&amp;lt;</span>/br<span class=\"ni\">&amp;gt;</span>\n<span class=\"w\">                </span><span class=\"ni\">&amp;lt;</span>b<span class=\"ni\">&amp;gt;</span>First<span class=\"w\"> </span>Changeset:<span class=\"ni\">&amp;lt;</span>/b<span class=\"ni\">&amp;gt;</span><span class=\"w\"> </span><span class=\"ni\">&amp;lt;</span>a<span class=\"w\"> </span>target=\"_blank\"<span class=\"w\"> </span>href=\"https://openstreetmap.org/changeset/136081500\"<span class=\"ni\">&amp;gt;</span>136081500<span class=\"ni\">&amp;lt;</span>/a<span class=\"ni\">&amp;gt;&amp;lt;</span>/br<span class=\"ni\">&amp;gt;</span>\n<span class=\"w\">                </span><span class=\"ni\">&amp;lt;</span>b<span class=\"ni\">&amp;gt;</span>Editor<span class=\"w\"> </span>used:<span class=\"ni\">&amp;lt;</span>/b<span class=\"ni\">&amp;gt;</span><span class=\"w\"> </span>iD<span class=\"w\"> </span>2.25.2<span class=\"w\"> </span><span class=\"ni\">&amp;lt;</span>/br<span class=\"ni\">&amp;gt;</span>\n<span class=\"w\">                </span>How<span class=\"w\"> </span>did<span class=\"w\"> </span>she/he<span class=\"w\"> </span><span class=\"ni\">&amp;lt;</span>a<span class=\"w\"> </span>target=\"_blank\"<span class=\"w\"> </span>href=\"http://hdyc.neis-one.org/?Ivar<span class=\"w\"> </span>K\"<span class=\"ni\">&amp;gt;</span>contribute<span class=\"ni\">&amp;lt;</span>/a<span class=\"ni\">&amp;gt;</span><span class=\"w\"> </span>to<span class=\"w\"> </span>OpenStreetMap?\n<span class=\"w\">                </span><span class=\"nt\">&lt;/content&gt;</span>\n</code></pre></div>",
+        "id": 359466422,
+        "sender_full_name": "i-ky",
+        "timestamp": 1684433757
+    },
+    {
+        "content": "<p>Jā, failā XMLā embedded HTML ir <code>href=\"http://hdyc.neis-one.org/?Ivar K\"</code>.</p>",
+        "id": 359467535,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684434060
+    },
+    {
+        "content": "<p>Nesaprotu, kā skripts/Zulips vispār to parsē. Vispirms tekstu bez hiperlinka un pēc tam atsevišķi linku... like what</p>",
+        "id": 359467600,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684434082
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/388728-RSS/topic/Latest.20OpenStreetMap.20Contributors.20.28last.207.20Days.29.20-.20Feed.20fo.2E.2E.2E/near/359467600\">said</a>:</p>\n<blockquote>\n<p>Nesaprotu, kā skripts/Zulips vispār to parsē. Vispirms tekstu bez hiperlinka un pēc tam atsevišķi linku... like what</p>\n</blockquote>\n<p>Izejkods ir <a href=\"https://github.com/zulip/python-zulip-api/blob/02586f1d348dbcab3bc8d30b805fffd48a524e18/zulip/integrations/rss/rss-bot\">šeit</a>. Konkrētāk <a href=\"https://github.com/zulip/python-zulip-api/blob/02586f1d348dbcab3bc8d30b805fffd48a524e18/zulip/integrations/rss/rss-bot#L173-L178\">šeit veido tekstu</a>:</p>\n<div class=\"codehilite\" data-code-language=\"Python\"><pre><span></span><code>    <span class=\"n\">content</span> <span class=\"o\">=</span> <span class=\"n\">null</span><span class=\"o\">.</span><span class=\"n\">format</span><span class=\"p\">(</span>\n        <span class=\"n\">entry</span><span class=\"o\">.</span><span class=\"n\">title</span><span class=\"p\">,</span>\n        <span class=\"n\">entry</span><span class=\"o\">.</span><span class=\"n\">link</span><span class=\"p\">,</span>\n        <span class=\"n\">strip_tags</span><span class=\"p\">(</span><span class=\"n\">body</span><span class=\"p\">),</span>\n        <span class=\"n\">entry</span><span class=\"o\">.</span><span class=\"n\">link</span><span class=\"p\">,</span>\n    <span class=\"p\">)</span>  <span class=\"c1\"># type: str</span>\n</code></pre></div>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/zulip/python-zulip-api/blob/02586f1d348dbcab3bc8d30b805fffd48a524e18/zulip/integrations/rss/rss-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/c8b7f9811db335d812e109401b11fe36b6fbffd8\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f623534326132303235393331303761303535346266353538616337373961376163343038383061623030366537396333613737633437633330616161666439652f7a756c69702f707974686f6e2d7a756c69702d617069)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/zulip/python-zulip-api/blob/02586f1d348dbcab3bc8d30b805fffd48a524e18/zulip/integrations/rss/rss-bot\" title=\"python-zulip-api/rss-bot at 02586f1d348dbcab3bc8d30b805fffd48a524e18 · zulip/python-zulip-api\">python-zulip-api/rss-bot at 02586f1d348dbcab3bc8d30b805fffd48a524e18 · zulip/python-zulip-api</a></div><div class=\"message_embed_description\">Python library for the Zulip API. Contribute to zulip/python-zulip-api development by creating an account on GitHub.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/zulip/python-zulip-api/blob/02586f1d348dbcab3bc8d30b805fffd48a524e18/zulip/integrations/rss/rss-bot#L173-L178\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/c8b7f9811db335d812e109401b11fe36b6fbffd8\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f623534326132303235393331303761303535346266353538616337373961376163343038383061623030366537396333613737633437633330616161666439652f7a756c69702f707974686f6e2d7a756c69702d617069)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/zulip/python-zulip-api/blob/02586f1d348dbcab3bc8d30b805fffd48a524e18/zulip/integrations/rss/rss-bot#L173-L178\" title=\"python-zulip-api/rss-bot at 02586f1d348dbcab3bc8d30b805fffd48a524e18 · zulip/python-zulip-api\">python-zulip-api/rss-bot at 02586f1d348dbcab3bc8d30b805fffd48a524e18 · zulip/python-zulip-api</a></div><div class=\"message_embed_description\">Python library for the Zulip API. Contribute to zulip/python-zulip-api development by creating an account on GitHub.</div></div></div>",
+        "id": 359468095,
+        "sender_full_name": "i-ky",
+        "timestamp": 1684434234
+    },
+    {
+        "content": "<p>Un sanāk ka pēdējā rinda ir link href saturs? Bet tad taču vajag kaut ko tipa url sanitize/encode lai visādi tur \" \"-&gt;\"%32\" utt.</p>",
+        "id": 359470324,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684434901
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/388728-RSS/topic/Latest.20OpenStreetMap.20Contributors.20.28last.207.20Days.29.20-.20Feed.20fo.2E.2E.2E/near/359470324\">said</a>:</p>\n<blockquote>\n<p>Un sanāk ka pēdējā rinda ir link href saturs? Bet tad taču vajag kaut ko tipa url sanitize/encode lai visādi tur \" \"-&gt;\"%32\" utt.</p>\n</blockquote>\n<p><code>href</code> vispār pazūd, jo tas ir <code>&lt;a&gt;</code> taga atribūts. Tas <code>strip_tags()</code> atstāj tikai tekstu taga iekšās (piemēram <code>bar</code> no <code>&lt;foo baz=\"...\"&gt;bar&lt;/foo&gt;</code>). Saite galu galā ir <code>entry.link</code>, ko pievieno pēc <code>strip_tags(body)</code>. Nav obligāti URL-encode, <del>var arī <a href=\"https://www.markdownguide.org/basic-syntax/#urls-and-email-addresses\">vienkārši uzlikt <code>&lt;...&gt;</code> apkārt</a></del> &lt;- šitais prikols Zulip'ā nestrādā:<br>\n&lt;<a href=\"https://www.openstreetmap.org/user/Ivar\">https://www.openstreetmap.org/user/Ivar</a> K&gt;</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/user/Ivar\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/user/Ivar\" title=\"Ivar | OpenStreetMap\">Ivar | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.markdownguide.org/basic-syntax/#urls-and-email-addresses\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6cb124b9237c4a906af9ba1754f392a51622d120\\/68747470733a2f2f7777772e6d61726b646f776e67756964652e6f72672f6173736574732f696d616765732f6d61726b646f776e2d67756964652d6f672e6a7067)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.markdownguide.org/basic-syntax/#urls-and-email-addresses\" title=\"Basic Syntax | Markdown Guide\">Basic Syntax | Markdown Guide</a></div><div class=\"message_embed_description\">The Markdown elements outlined in the original design document.</div></div></div>",
+        "id": 359474067,
+        "sender_full_name": "i-ky",
+        "timestamp": 1684435960
+    },
+    {
+        "content": "<p>Jā, nē, es sapratu, ka no <code>body</code>, kas ir <code>&lt;content&gt;</code> visu HTML strip'o. Bet pēdējā līnija ir <code>entry.link</code> - un es saprotu, ka tas ir saturs iekš tieši \"href\" no <code>&lt;link&gt;</code> - tā pat kā pirmā līnija Zulip sintakses linku taisa no tā <code>entry.link</code></p>",
+        "id": 359476093,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684436581
+    },
+    {
+        "content": "<p>Bet tikai Zulip saprot, ka <code>[text](link)</code> links is viss iekšā sintaksē ieskaitot atstarpes, bet pa pliko uzrakstītu linku tas tikai uzmin</p>",
+        "id": 359476425,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684436693
+    },
+    {
+        "content": "<p>Vispār nav skaidrs, kāpēc vajag to saiti beigās atkārtot, ja tā jau ir sākumā...</p>",
+        "id": 359477741,
+        "sender_full_name": "i-ky",
+        "timestamp": 1684437197
+    },
+    {
+        "content": "<p><strong><a href=\"https://www.openstreetmap.org/user/meznieks\">New Contributor: meznieks</a></strong><br>\nContributor:  meznieks  <br>\n                Mapper since: 2023-05-28 10:08:25 <br>\n                Registration: 2023-05-28 09:19:01 <br>\n                UID: 19409860 <br>\n                First active near: Brekši (0.08 km) (Latvia) <br>\n                First Changeset: 136650425<br>\n                Editor used: iD 2.25.2 <br>\n                How did she/he contribute to OpenStreetMap?<br>\n<a href=\"https://www.openstreetmap.org/user/meznieks\">https://www.openstreetmap.org/user/meznieks</a></p>",
+        "id": 362012955,
+        "sender_full_name": "RSS",
+        "timestamp": 1685385191
+    },
+    {
+        "content": "<p><strong><a href=\"https://www.openstreetmap.org/user/darkmanlv\">New Contributor: darkmanlv</a></strong><br>\nContributor:  darkmanlv  <br>\n                Mapper since: 2023-05-25 22:23:48 <br>\n                Registration: 2023-05-25 22:21:09 <br>\n                UID: 19386344 <br>\n                First active near: Gauja (0.15 km) (Latvia) <br>\n                First Changeset: 136561529<br>\n                Editor used: iD 2.25.2 <br>\n                How did she/he contribute to OpenStreetMap?<br>\n<a href=\"https://www.openstreetmap.org/user/darkmanlv\">https://www.openstreetmap.org/user/darkmanlv</a></p>",
+        "id": 362012956,
+        "sender_full_name": "RSS",
+        "timestamp": 1685385191
+    },
+    {
+        "content": "<p><strong><a href=\"https://www.openstreetmap.org/user/Olegs%20Balss\">New Contributor: Olegs Balss</a></strong><br>\nContributor:  Olegs Balss  <br>\n                Mapper since: 2023-06-02 18:49:09 <br>\n                Registration: 2023-06-02 18:41:59 <br>\n                UID: 19466041 <br>\n                First active near: Lazdāres (0.17 km) (Latvia) <br>\n                First Changeset: 136880362<br>\n                Editor used: iD 2.25.2 <br>\n                How did she/he contribute to OpenStreetMap?<br>\n<a href=\"https://www.openstreetmap.org/user/Olegs\">https://www.openstreetmap.org/user/Olegs</a> Balss</p>",
+        "id": 363191160,
+        "sender_full_name": "RSS",
+        "timestamp": 1685752569
+    },
+    {
+        "content": "<p><strong><a href=\"https://www.openstreetmap.org/user/Ģibuļ%20Berry\">New Contributor: Ģibuļ Berry</a></strong><br>\nContributor:  Ģibuļ Berry  <br>\n                Mapper since: 2023-06-03 15:01:14 <br>\n                Registration: 2023-06-03 14:41:00 <br>\n                UID: 19472771 <br>\n                First active near: Bauvas (0.22 km) (Latvia) <br>\n                First Changeset: 136905791<br>\n                Editor used: iD 2.25.2 <br>\n                How did she/he contribute to OpenStreetMap?<br>\n<a href=\"https://www.openstreetmap.org/user/Ģibuļ\">https://www.openstreetmap.org/user/Ģibuļ</a> Berry</p>",
+        "id": 363358500,
+        "sender_full_name": "RSS",
+        "timestamp": 1685815597
+    },
+    {
+        "content": "<p><strong><a href=\"https://www.openstreetmap.org/user/Gediminas%20Bagočius\">New Contributor: Gediminas Bagočius</a></strong><br>\nContributor:  Gediminas Bagočius  <br>\n                Mapper since: 2023-06-03 14:05:30 <br>\n                Registration: 2017-05-15 13:07:54 <br>\n                UID: 5923074 <br>\n                First active near: Zvanītāju Ķesteri (0.40 km) (Latvia) <br>\n                First Changeset: 136903598<br>\n                Editor used: MAPS.ME android 14.3.71503 <br>\n                How did she/he contribute to OpenStreetMap?<br>\n<a href=\"https://www.openstreetmap.org/user/Gediminas\">https://www.openstreetmap.org/user/Gediminas</a> Bagočius</p>",
+        "id": 363358501,
+        "sender_full_name": "RSS",
+        "timestamp": 1685815597
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Gatis%20S\">New Contributor: Gatis S</a></strong><br>\nContributor:  Gatis S  <br>\n                Mapper since: 2023-06-04 08:50:45 <br>\n                Registration: 2022-05-07 08:00:33 <br>\n                UID: 15873109 <br>\n                First active near: Stāviņi (1.17 km) (Latvia) <br>\n                First Changeset: 136925070<br>\n                Editor used: iD 2.25.2 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Gatis%20S\">https://osm.org/user/Gatis%20S</a></p>",
+        "id": 363485135,
+        "sender_full_name": "RSS",
+        "timestamp": 1685880610
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/%C4%A2ibu%C4%BC%20Berry\">New Contributor: Ģibuļ Berry</a></strong><br>\nContributor:  Ģibuļ Berry  <br>\n                Mapper since: 2023-06-03 15:01:14 <br>\n                Registration: 2023-06-03 14:41:00 <br>\n                UID: 19472771 <br>\n                First active near: Bauvas (0.22 km) (Latvia) <br>\n                First Changeset: 136905791<br>\n                Editor used: iD 2.25.2 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/%C4%A2ibu%C4%BC%20Berry\">https://osm.org/user/%C4%A2ibu%C4%BC%20Berry</a></p>",
+        "id": 363485137,
+        "sender_full_name": "RSS",
+        "timestamp": 1685880610
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Gediminas%20Bago%C4%8Dius\">New Contributor: Gediminas Bagočius</a></strong><br>\nContributor:  Gediminas Bagočius  <br>\n                Mapper since: 2023-06-03 14:05:30 <br>\n                Registration: 2017-05-15 13:07:54 <br>\n                UID: 5923074 <br>\n                First active near: Zvanītāju Ķesteri (0.40 km) (Latvia) <br>\n                First Changeset: 136903598<br>\n                Editor used: MAPS.ME android 14.3.71503 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Gediminas%20Bago%C4%8Dius\">https://osm.org/user/Gediminas%20Bago%C4%8Dius</a></p>",
+        "id": 363485138,
+        "sender_full_name": "RSS",
+        "timestamp": 1685880610
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Olegs%20Balss\">New Contributor: Olegs Balss</a></strong><br>\nContributor:  Olegs Balss  <br>\n                Mapper since: 2023-06-02 18:49:09 <br>\n                Registration: 2023-06-02 18:41:59 <br>\n                UID: 19466041 <br>\n                First active near: Lazdāres (0.17 km) (Latvia) <br>\n                First Changeset: 136880362<br>\n                Editor used: iD 2.25.2 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Olegs%20Balss\">https://osm.org/user/Olegs%20Balss</a></p>",
+        "id": 363485139,
+        "sender_full_name": "RSS",
+        "timestamp": 1685880610
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/TheTradhMan\">New Contributor: TheTradhMan</a></strong><br>\nContributor:  TheTradhMan  <br>\n                Mapper since: 2023-06-07 13:27:04 <br>\n                Registration: 2023-06-07 12:57:49 <br>\n                UID: 19509424 <br>\n                First active near: Iļģuciems (1.04 km) (Latvia) <br>\n                First Changeset: 137056745<br>\n                Editor used: Organic Maps android 2023.05.08-7-FDroid <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/TheTradhMan\">https://osm.org/user/TheTradhMan</a></p>",
+        "id": 364359924,
+        "sender_full_name": "RSS",
+        "timestamp": 1686161266
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Janis%20Panasenko\">New Contributor: Janis Panasenko</a></strong><br>\nContributor:  Janis Panasenko  <br>\n                Mapper since: 2023-06-10 13:52:24 <br>\n                Registration: 2023-06-08 11:20:31 <br>\n                UID: 19518586 <br>\n                First active near: Ventspils (1.80 km) (Latvia) <br>\n                First Changeset: 137173213<br>\n                Editor used: JOSM/1.5 (18746 ru) <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Janis%20Panasenko\">https://osm.org/user/Janis%20Panasenko</a></p>",
+        "id": 365172541,
+        "sender_full_name": "RSS",
+        "timestamp": 1686420402
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Annija22\">New Contributor: Annija22</a></strong><br>\nContributor:  Annija22  <br>\n                Mapper since: 2023-06-11 20:58:47 <br>\n                Registration: 2023-06-11 20:49:55 <br>\n                UID: 19549972 <br>\n                First active near: Kauguri (0.75 km) (Latvia) <br>\n                First Changeset: 137219810<br>\n                Editor used: iD 2.25.2 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Annija22\">https://osm.org/user/Annija22</a></p>",
+        "id": 365411707,
+        "sender_full_name": "RSS",
+        "timestamp": 1686530368
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/aviation0178\">New Contributor: aviation0178</a></strong><br>\nContributor:  aviation0178  <br>\n                Mapper since: 2023-06-14 16:53:36 <br>\n                Registration: 2023-06-08 07:06:54 <br>\n                UID: 19516207 <br>\n                First active near: Sēbri (0.33 km) (Latvia) <br>\n                First Changeset: 137337245<br>\n                Editor used: iD 2.25.2 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/aviation0178\">https://osm.org/user/aviation0178</a></p>",
+        "id": 366266700,
+        "sender_full_name": "RSS",
+        "timestamp": 1686766040
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/idoctorlv\">New Contributor: idoctorlv</a></strong><br>\nContributor:  idoctorlv  <br>\n                Mapper since: 2023-06-14 21:09:42 <br>\n                Registration: 2023-06-14 20:34:35 <br>\n                UID: 19579981 <br>\n                First active near: Centrs (0.21 km) (Latvia) <br>\n                First Changeset: 137345437<br>\n                Editor used: iD 2.25.2 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/idoctorlv\">https://osm.org/user/idoctorlv</a></p>",
+        "id": 366332132,
+        "sender_full_name": "RSS",
+        "timestamp": 1686789420
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Tusinsh\">New Contributor: Tusinsh</a></strong><br>\nContributor:  Tusinsh  <br>\n                Mapper since: 2023-06-16 11:40:59 <br>\n                Registration: 2023-06-16 11:36:19 <br>\n                UID: 19595360 <br>\n                First active near: Ceriņi (0.01 km) (Latvia) <br>\n                First Changeset: 137410625<br>\n                Editor used: iD 2.25.2 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Tusinsh\">https://osm.org/user/Tusinsh</a></p>",
+        "id": 366804526,
+        "sender_full_name": "RSS",
+        "timestamp": 1686917454
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/migliniiks\">New Contributor: migliniiks</a></strong><br>\nContributor:  migliniiks  <br>\n                Mapper since: 2023-06-17 19:15:06 <br>\n                Registration: 2023-06-17 18:24:49 <br>\n                UID: 19607979 <br>\n                First active near: Stoļerova (0.63 km) (Latvia) <br>\n                First Changeset: 137458604<br>\n                Editor used: iD 2.25.2 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/migliniiks\">https://osm.org/user/migliniiks</a></p>",
+        "id": 367271448,
+        "sender_full_name": "RSS",
+        "timestamp": 1687048880
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/voovoo\">New Contributor: voovoo</a></strong><br>\nContributor:  voovoo  <br>\n                Mapper since: 2023-06-25 23:37:47 <br>\n                Registration: 2023-06-17 19:32:44 <br>\n                UID: 19608487 <br>\n                First active near: Rūdas (1.27 km) (Latvia) <br>\n                First Changeset: 137769233<br>\n                Editor used: iD 2.25.2 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/voovoo\">https://osm.org/user/voovoo</a></p>",
+        "id": 369526393,
+        "sender_full_name": "RSS",
+        "timestamp": 1687740151
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/antonsltrip\">New Contributor: antonsltrip</a></strong><br>\nContributor:  antonsltrip  <br>\n                Mapper since: 2023-06-25 21:49:14 <br>\n                Registration: 2023-06-25 21:37:52 <br>\n                UID: 19682650 <br>\n                First active near: Centrs (0.57 km) (Latvia) <br>\n                First Changeset: 137767857<br>\n                Editor used: iD 2.25.2 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/antonsltrip\">https://osm.org/user/antonsltrip</a></p>",
+        "id": 369526394,
+        "sender_full_name": "RSS",
+        "timestamp": 1687740151
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/SkEasy505\">New Contributor: SkEasy505</a></strong><br>\nContributor:  SkEasy505  <br>\n                Mapper since: 2023-06-29 14:57:09 <br>\n                Registration: 2023-06-29 14:29:37 <br>\n                UID: 19720286 <br>\n                First active near: Bereznīki (0.57 km) (Latvia) <br>\n                First Changeset: 137922276<br>\n                Editor used: iD 2.25.2 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/SkEasy505\">https://osm.org/user/SkEasy505</a></p>",
+        "id": 370879461,
+        "sender_full_name": "RSS",
+        "timestamp": 1688062232
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/riilhiiro\">New Contributor: riilhiiro</a></strong><br>\nContributor:  riilhiiro  <br>\n                Mapper since: 2023-06-29 12:31:50 <br>\n                Registration: 2023-06-29 09:31:59 <br>\n                UID: 19717715 <br>\n                First active near: Dārzciems (1.77 km) (Latvia) <br>\n                First Changeset: 137916973<br>\n                Editor used: iD 2.25.2 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/riilhiiro\">https://osm.org/user/riilhiiro</a></p>",
+        "id": 370879462,
+        "sender_full_name": "RSS",
+        "timestamp": 1688062232
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/alival\">New Contributor: alival</a></strong><br>\nContributor:  alival  <br>\n                Mapper since: 2023-07-03 10:57:52 <br>\n                Registration: 2023-07-03 10:43:31 <br>\n                UID: 19752883 <br>\n                First active near: Valmiera (0.66 km) (Latvia) <br>\n                First Changeset: 138059204<br>\n                Editor used: iD 2.25.2 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/alival\">https://osm.org/user/alival</a></p>",
+        "id": 371981815,
+        "sender_full_name": "RSS",
+        "timestamp": 1688386402
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Guntis%20Vi%C4%BCums\">New Contributor: Guntis Viļums</a></strong><br>\nContributor:  Guntis Viļums  <br>\n                Mapper since: 2023-07-04 16:29:04 <br>\n                Registration: 2016-07-17 13:58:43 <br>\n                UID: 4274176 <br>\n                First active near: Slīpi (0.03 km) (Latvia) <br>\n                First Changeset: 138115028<br>\n                Editor used: MAPS.ME ios 14.8.0 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Guntis%20Vi%C4%BCums\">https://osm.org/user/Guntis%20Vi%C4%BCums</a></p>",
+        "id": 372386399,
+        "sender_full_name": "RSS",
+        "timestamp": 1688494105
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/paakjis\">New Contributor: paakjis</a></strong><br>\nContributor:  paakjis  <br>\n                Mapper since: 2023-07-04 15:22:35 <br>\n                Registration: 2023-07-04 15:20:35 <br>\n                UID: 19764686 <br>\n                First active near: Bukulti (2.10 km) (Latvia) <br>\n                First Changeset: 138112785<br>\n                Editor used: iD 2.25.2 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/paakjis\">https://osm.org/user/paakjis</a></p>",
+        "id": 372386400,
+        "sender_full_name": "RSS",
+        "timestamp": 1688494105
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/iksiks\">New Contributor: iksiks</a></strong><br>\nContributor:  iksiks  <br>\n                Mapper since: 2023-07-05 06:19:21 <br>\n                Registration: 2022-11-08 17:28:46 <br>\n                UID: 17620040 <br>\n                First active near: Pleskodāle (0.35 km) (Latvia) <br>\n                First Changeset: 138132230<br>\n                Editor used: iD 2.25.2 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/iksiks\">https://osm.org/user/iksiks</a></p>",
+        "id": 372568763,
+        "sender_full_name": "RSS",
+        "timestamp": 1688559272
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/andrew%20mishnekov\">New Contributor: andrew mishnekov</a></strong><br>\nContributor:  andrew mishnekov  <br>\n                Mapper since: 2023-07-17 13:02:01 <br>\n                Registration: 2023-07-17 12:50:23 <br>\n                UID: 19893221 <br>\n                First active near: Koklītes (1.72 km) (Latvia) <br>\n                First Changeset: 138621682<br>\n                Editor used: iD 2.26.2 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/andrew%20mishnekov\">https://osm.org/user/andrew%20mishnekov</a></p>",
+        "id": 376123216,
+        "sender_full_name": "RSS",
+        "timestamp": 1689617323
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Eds_0101\">New Contributor: Eds_0101</a></strong><br>\nContributor:  Eds_0101  <br>\n                Mapper since: 2023-07-18 13:01:42 <br>\n                Registration: 2023-07-18 12:58:34 <br>\n                UID: 19904130 <br>\n                First active near: Zolitūde (0.53 km) (Latvia) <br>\n                First Changeset: 138668780<br>\n                Editor used: <a href=\"https://streetcomplete.app/\">StreetComplete</a> 53.3 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Eds_0101\">https://osm.org/user/Eds_0101</a></p>",
+        "id": 376435793,
+        "sender_full_name": "RSS",
+        "timestamp": 1689703669
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Mrborkander\">New Contributor: Mrborkander</a></strong><br>\nContributor:  Mrborkander  <br>\n                Mapper since: 2023-07-19 16:22:28 <br>\n                Registration: 2023-07-19 16:16:08 <br>\n                UID: 19920011 <br>\n                First active near: Atvari (0.82 km) (Latvia) <br>\n                First Changeset: 138725200<br>\n                Editor used: <a href=\"https://streetcomplete.app/\">StreetComplete</a> 53.3 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Mrborkander\">https://osm.org/user/Mrborkander</a></p>",
+        "id": 376751284,
+        "sender_full_name": "RSS",
+        "timestamp": 1689790046
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/VizmaMich\">New Contributor: VizmaMich</a></strong><br>\nContributor:  VizmaMich  <br>\n                Mapper since: 2023-07-21 15:37:26 <br>\n                Registration: 2023-07-21 13:28:22 <br>\n                UID: 19941389 <br>\n                First active near: Rēzekne (0.28 km) (Latvia) <br>\n                First Changeset: 138819721<br>\n                Editor used: Every Door iOS 3.1 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/VizmaMich\">https://osm.org/user/VizmaMich</a></p>",
+        "id": 377388201,
+        "sender_full_name": "RSS",
+        "timestamp": 1689962891
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/bingbonger\">New Contributor: bingbonger</a></strong><br>\nContributor:  bingbonger  <br>\n                Mapper since: 2023-07-21 15:36:31 <br>\n                Registration: 2023-07-21 12:58:15 <br>\n                UID: 19941093 <br>\n                First active near: Rēzekne (0.25 km) (Latvia) <br>\n                First Changeset: 138819685<br>\n                Editor used: Every Door iOS 3.1 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/bingbonger\">https://osm.org/user/bingbonger</a></p>",
+        "id": 377388202,
+        "sender_full_name": "RSS",
+        "timestamp": 1689962891
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Amanda%20Anu\">New Contributor: Amanda Anu</a></strong><br>\nContributor:  Amanda Anu  <br>\n                Mapper since: 2023-07-21 15:07:56 <br>\n                Registration: 2023-07-21 14:36:41 <br>\n                UID: 19942177 <br>\n                First active near: Kaupieri (0.60 km) (Latvia) <br>\n                First Changeset: 138818369<br>\n                Editor used: iD 2.26.2 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Amanda%20Anu\">https://osm.org/user/Amanda%20Anu</a></p>",
+        "id": 377388203,
+        "sender_full_name": "RSS",
+        "timestamp": 1689962891
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/HeavyMental\">New Contributor: HeavyMental</a></strong><br>\nContributor:  HeavyMental  <br>\n                Mapper since: 2023-07-21 13:45:19 <br>\n                Registration: 2023-07-21 13:27:36 <br>\n                UID: 19941383 <br>\n                First active near: Rēzekne (0.28 km) (Latvia) <br>\n                First Changeset: 138814563<br>\n                Editor used: <a href=\"https://streetcomplete.app/\">StreetComplete</a> 53.3 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/HeavyMental\">https://osm.org/user/HeavyMental</a></p>",
+        "id": 377388204,
+        "sender_full_name": "RSS",
+        "timestamp": 1689962891
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Corneliuss\">New Contributor: Corneliuss</a></strong><br>\nContributor:  Corneliuss  <br>\n                Mapper since: 2023-07-22 13:18:00 <br>\n                Registration: 2023-07-22 12:37:06 <br>\n                UID: 19950415 <br>\n                First active near: Avoti (0.64 km) (Latvia) <br>\n                First Changeset: 138853841<br>\n                Editor used: iD 2.26.2 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Corneliuss\">https://osm.org/user/Corneliuss</a></p>",
+        "id": 377657867,
+        "sender_full_name": "RSS",
+        "timestamp": 1690049210
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/RJSkudra\">New Contributor: RJSkudra</a></strong><br>\nContributor:  RJSkudra  <br>\n                Mapper since: 2023-07-22 19:13:52 <br>\n                Registration: 2023-07-22 19:04:02 <br>\n                UID: 19953876 <br>\n                First active near: Jelgava (1.63 km) (Latvia) <br>\n                First Changeset: 138868512<br>\n                Editor used: iD 2.26.2 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/RJSkudra\">https://osm.org/user/RJSkudra</a></p>",
+        "id": 377705106,
+        "sender_full_name": "RSS",
+        "timestamp": 1690072761
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Viorika%20Pu%C4%BC%C4%8Da\">New Contributor: Viorika Puļča</a></strong><br>\nContributor:  Viorika Puļča  <br>\n                Mapper since: 2023-07-25 12:08:35 <br>\n                Registration: 2023-07-21 13:28:16 <br>\n                UID: 19941388 <br>\n                First active near: Ludza (0.49 km) (Latvia) <br>\n                First Changeset: 138985723<br>\n                Editor used: iD 2.26.2 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Viorika%20Pu%C4%BC%C4%8Da\">https://osm.org/user/Viorika%20Pu%C4%BC%C4%8Da</a></p>",
+        "id": 378565137,
+        "sender_full_name": "RSS",
+        "timestamp": 1690308442
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/ViorikaP\">New Contributor: ViorikaP</a></strong><br>\nContributor:  ViorikaP  <br>\n                Mapper since: 2023-07-25 12:08:35 <br>\n                Registration: 2023-07-21 13:28:16 <br>\n                UID: 19941388 <br>\n                First active near: Ludza (0.49 km) (Latvia) <br>\n                First Changeset: 138985723<br>\n                Editor used: iD 2.26.2 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/ViorikaP\">https://osm.org/user/ViorikaP</a></p>",
+        "id": 378633143,
+        "sender_full_name": "RSS",
+        "timestamp": 1690331866
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Janis%20Klavins\">New Contributor: Janis Klavins</a></strong><br>\nContributor:  Janis Klavins  <br>\n                Mapper since: 2023-07-27 07:24:06 <br>\n                Registration: 2023-07-27 07:21:14 <br>\n                UID: 19995284 <br>\n                First active near: Irbītes (0.21 km) (Latvia) <br>\n                First Changeset: 139071176<br>\n                Editor used: iD 2.26.2 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Janis%20Klavins\">https://osm.org/user/Janis%20Klavins</a></p>",
+        "id": 379131841,
+        "sender_full_name": "RSS",
+        "timestamp": 1690459878
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Tiger_12398\">New Contributor: Tiger_12398</a></strong><br>\nContributor:  Tiger_12398  <br>\n                Mapper since: 2023-07-31 13:50:12 <br>\n                Registration: 2023-07-01 07:41:26 <br>\n                UID: 19734974 <br>\n                First active near: Mētriņas (0.72 km) (Latvia) <br>\n                First Changeset: 139255433<br>\n                Editor used: <a href=\"https://streetcomplete.app/\">StreetComplete</a> 53.3 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Tiger_12398\">https://osm.org/user/Tiger_12398</a></p>",
+        "id": 380445365,
+        "sender_full_name": "RSS",
+        "timestamp": 1690826863
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Efgaa\">New Contributor: Efgaa</a></strong><br>\nContributor:  Efgaa  <br>\n                Mapper since: 2023-08-01 09:28:07 <br>\n                Registration: 2023-07-31 18:21:56 <br>\n                UID: 20028616 <br>\n                First active near: Riebiņi (0.47 km) (Latvia) <br>\n                First Changeset: 139290301<br>\n                Editor used: <a href=\"https://streetcomplete.app/\">StreetComplete</a> 53.3 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Efgaa\">https://osm.org/user/Efgaa</a></p>",
+        "id": 380674289,
+        "sender_full_name": "RSS",
+        "timestamp": 1690891866
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Kristi%C4%81ns%20G\">New Contributor: Kristiāns G</a></strong><br>\nContributor:  Kristiāns G  <br>\n                Mapper since: 2023-08-02 10:56:33 <br>\n                Registration: 2023-08-02 10:51:29 <br>\n                UID: 20034480 <br>\n                First active near: Rēzekne (0.53 km) (Latvia) <br>\n                First Changeset: 139341383<br>\n                Editor used: iD 2.26.2 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Kristi%C4%81ns%20G\">https://osm.org/user/Kristi%C4%81ns%20G</a></p>",
+        "id": 381014229,
+        "sender_full_name": "RSS",
+        "timestamp": 1690978225
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/rusantro\">New Contributor: rusantro</a></strong><br>\nContributor:  rusantro  <br>\n                Mapper since: 2023-08-02 10:36:26 <br>\n                Registration: 2023-08-02 10:29:53 <br>\n                UID: 20034401 <br>\n                First active near: Jelgava (1.18 km) (Latvia) <br>\n                First Changeset: 139340514<br>\n                Editor used: Rapid 2.0.3 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/rusantro\">https://osm.org/user/rusantro</a></p>",
+        "id": 381014231,
+        "sender_full_name": "RSS",
+        "timestamp": 1690978225
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/zurmutay\">New Contributor: zurmutay</a></strong><br>\nContributor:  zurmutay  <br>\n                Mapper since: 2023-08-02 21:26:04 <br>\n                Registration: 2023-08-02 21:19:41 <br>\n                UID: 20036163 <br>\n                First active near: Ķienes (0.31 km) (Latvia) <br>\n                First Changeset: 139365173<br>\n                Editor used: iD 2.26.2 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/zurmutay\">https://osm.org/user/zurmutay</a></p>",
+        "id": 381320825,
+        "sender_full_name": "RSS",
+        "timestamp": 1691022951
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/K%C4%81rlisK\">New Contributor: KārlisK</a></strong><br>\nContributor:  KārlisK  <br>\n                Mapper since: 2023-08-02 20:00:16 <br>\n                Registration: 2023-08-02 19:38:20 <br>\n                UID: 20035943 <br>\n                First active near: Taurētāji (0.37 km) (Latvia) <br>\n                First Changeset: 139362826<br>\n                Editor used: iD 2.26.2 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/K%C4%81rlisK\">https://osm.org/user/K%C4%81rlisK</a></p>",
+        "id": 381320828,
+        "sender_full_name": "RSS",
+        "timestamp": 1691022951
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/zloozle\">New Contributor: zloozle</a></strong><br>\nContributor:  zloozle  <br>\n                Mapper since: 2023-08-03 11:09:04 <br>\n                Registration: 2022-08-25 21:37:42 <br>\n                UID: 16938074 <br>\n                First active near: Ozolnieki (0.16 km) (Latvia) <br>\n                First Changeset: 139388188<br>\n                Editor used: iD 2.26.2 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/zloozle\">https://osm.org/user/zloozle</a></p>",
+        "id": 381459563,
+        "sender_full_name": "RSS",
+        "timestamp": 1691064697
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/OmartFieldspart\">New Contributor: OmartFieldspart</a></strong><br>\nContributor:  OmartFieldspart  <br>\n                Mapper since: 2023-08-08 09:40:24 <br>\n                Registration: 2023-08-08 09:25:40 <br>\n                UID: 20054091 <br>\n                First active near: Loborži (0.99 km) (Latvia) <br>\n                First Changeset: 139603919<br>\n                Editor used: iD 2.26.2 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/OmartFieldspart\">https://osm.org/user/OmartFieldspart</a></p>",
+        "id": 382933175,
+        "sender_full_name": "RSS",
+        "timestamp": 1691496662
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/OgyTheGreat\">New Contributor: OgyTheGreat</a></strong><br>\nContributor:  OgyTheGreat  <br>\n                Mapper since: 2023-08-09 19:00:41 <br>\n                Registration: 2023-08-09 18:36:17 <br>\n                UID: 20059258 <br>\n                First active near: Caunes (0.33 km) (Latvia) <br>\n                First Changeset: 139674371<br>\n                Editor used: iD 2.26.2 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/OgyTheGreat\">https://osm.org/user/OgyTheGreat</a></p>",
+        "id": 383441531,
+        "sender_full_name": "RSS",
+        "timestamp": 1691627808
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Yarkrizh\">New Contributor: Yarkrizh</a></strong><br>\nContributor:  Yarkrizh  <br>\n                Mapper since: 2023-08-13 17:33:42 <br>\n                Registration: 2014-09-15 20:54:27 <br>\n                UID: 2337038 <br>\n                First active near: Pļavnieki (1.32 km) (Latvia) <br>\n                First Changeset: 139835951<br>\n                Editor used: MAPS.ME android 15.0.71618 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Yarkrizh\">https://osm.org/user/Yarkrizh</a></p>",
+        "id": 384555736,
+        "sender_full_name": "RSS",
+        "timestamp": 1691949984
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/travelerofHills\">New Contributor: travelerofHills</a></strong><br>\nContributor:  travelerofHills  <br>\n                Mapper since: 2023-08-14 14:24:34 <br>\n                Registration: 2023-08-14 14:15:44 <br>\n                UID: 20075180 <br>\n                First active near: Lejasciems (0.14 km) (Latvia) <br>\n                First Changeset: 139874498<br>\n                Editor used: StreetComplete_ee 53.32 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/travelerofHills\">https://osm.org/user/travelerofHills</a></p>",
+        "id": 384865323,
+        "sender_full_name": "RSS",
+        "timestamp": 1692036444
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Firefox_riga\">New Contributor: Firefox_riga</a></strong><br>\nContributor:  Firefox_riga  <br>\n                Mapper since: 2023-08-15 04:53:16 <br>\n                Registration: 2023-08-15 04:41:44 <br>\n                UID: 20076785 <br>\n                First active near: Teika (0.38 km) (Latvia) <br>\n                First Changeset: 139896435<br>\n                Editor used: Organic Maps ios 2023.07.13 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Firefox_riga\">https://osm.org/user/Firefox_riga</a></p>",
+        "id": 385011766,
+        "sender_full_name": "RSS",
+        "timestamp": 1692079680
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/vladkill123\">New Contributor: vladkill123</a></strong><br>\nContributor:  vladkill123  <br>\n                Mapper since: 2023-08-16 10:24:16 <br>\n                Registration: 2021-06-21 09:43:34 <br>\n                UID: 13607155 <br>\n                First active near: Espati (0.38 km) (Latvia) <br>\n                First Changeset: 139956369<br>\n                Editor used: iD 2.26.2 <br>\n                How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/vladkill123\">https://osm.org/user/vladkill123</a></p>",
+        "id": 385448128,
+        "sender_full_name": "RSS",
+        "timestamp": 1692187838
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/FORTEMED\">New Contributor: FORTEMED</a></strong><br>\nContributor: FORTEMED Mapper since: 2023-08-21 10:42:07 Registration: 2023-08-21 10:26:42 UID: 20098830 First active near: Čiekurkalns (0.88 km) (Latvia) First Changeset: 140174360 Editor used: iD 2.27.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/FORTEMED\">https://osm.org/user/FORTEMED</a></p>",
+        "id": 386374497,
+        "sender_full_name": "RSS",
+        "timestamp": 1692619860
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Salaspils%20Geography1\">New Contributor: Salaspils Geography1</a></strong><br>\nContributor: Salaspils Geography1 Mapper since: 2023-08-21 14:55:12 Registration: 2023-08-21 14:43:31 UID: 20099667 First active near: Vīksnas (0.56 km) (Latvia) First Changeset: 140186602 Editor used: iD 2.27.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Salaspils%20Geography1\">https://osm.org/user/Salaspils%20Geography1</a></p>",
+        "id": 386447715,
+        "sender_full_name": "RSS",
+        "timestamp": 1692641165
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/EddieMarch\">New Contributor: EddieMarch</a></strong><br>\nContributor: EddieMarch Mapper since: 2023-08-21 18:08:34 Registration: 2023-08-21 17:54:09 UID: 20100220 First active near: Vilkatīreļi (0.18 km) (Latvia) First Changeset: 140194813 Editor used: iD 2.27.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/EddieMarch\">https://osm.org/user/EddieMarch</a></p>",
+        "id": 386496070,
+        "sender_full_name": "RSS",
+        "timestamp": 1692664106
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Electronek\">New Contributor: Electronek</a></strong><br>\nContributor: Electronek Mapper since: 2023-08-23 14:18:31 Registration: 2023-08-23 14:10:46 UID: 20108020 First active near: Sarkandaugava (0.31 km) (Latvia) First Changeset: 140278981 Editor used: iD 2.27.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Electronek\">https://osm.org/user/Electronek</a></p>",
+        "id": 386926877,
+        "sender_full_name": "RSS",
+        "timestamp": 1692813989
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Atisss\">New Contributor: Atisss</a></strong><br>\nContributor: Atisss Mapper since: 2023-08-26 12:45:22 Registration: 2010-02-09 03:54:21 UID: 231339 First active near: Sarkandaugava (0.49 km) (Latvia) First Changeset: 140410346 Editor used: iD 2.27.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Atisss\">https://osm.org/user/Atisss</a></p>",
+        "id": 387447137,
+        "sender_full_name": "RSS",
+        "timestamp": 1693073197
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/threearmedshiva\">New Contributor: threearmedshiva</a></strong><br>\nContributor: threearmedshiva Mapper since: 2023-08-28 10:42:55 Registration: 2023-08-28 10:32:44 UID: 20123426 First active near: Kalniņi (0.16 km) (Latvia) First Changeset: 140488213 Editor used: iD 2.27.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/threearmedshiva\">https://osm.org/user/threearmedshiva</a></p>",
+        "id": 387655551,
+        "sender_full_name": "RSS",
+        "timestamp": 1693224718
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Rihards123\">New Contributor: Rihards123</a></strong><br>\nContributor: Rihards123 Mapper since: 2023-08-29 11:17:07 Registration: 2023-08-28 17:57:17 UID: 20124647 First active near: Salaspils (0.81 km) (Latvia) First Changeset: 140536183 Editor used: iD 2.27.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Rihards123\">https://osm.org/user/Rihards123</a></p>",
+        "id": 387869518,
+        "sender_full_name": "RSS",
+        "timestamp": 1693311068
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/4th%20Floor\">New Contributor: 4th Floor</a></strong><br>\nContributor: 4th Floor Mapper since: 2023-08-30 22:10:35 Registration: 2023-08-30 21:40:27 UID: 20140063 First active near: Šķirotava (0.93 km) (Latvia) First Changeset: 140609735 Editor used: iD 2.27.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/4th%20Floor\">https://osm.org/user/4th%20Floor</a></p>",
+        "id": 388218157,
+        "sender_full_name": "RSS",
+        "timestamp": 1693441736
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Denis9090\">New Contributor: Denis9090</a></strong><br>\nContributor: Denis9090 Mapper since: 2023-09-01 06:51:15 Registration: 2023-08-25 17:07:20 UID: 20116020 First active near: Brasa (1.12 km) (Latvia) First Changeset: 140664246 Editor used: MAPS.ME android 15.1.71626 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Denis9090\">https://osm.org/user/Denis9090</a></p>",
+        "id": 388510122,
+        "sender_full_name": "RSS",
+        "timestamp": 1693570258
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Vlad%20Mil\">New Contributor: Vlad Mil</a></strong><br>\nContributor: Vlad Mil Mapper since: 2023-09-03 08:51:04 Registration: 2017-12-22 18:14:22 UID: 7325845 First active near: Zolitūde (0.80 km) (Latvia) First Changeset: 140747905 Editor used: Organic Maps android 2023.08.18-8-Google How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Vlad%20Mil\">https://osm.org/user/Vlad%20Mil</a></p>",
+        "id": 388817456,
+        "sender_full_name": "RSS",
+        "timestamp": 1693742973
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Lauma%20Pret\">New Contributor: Lauma Pret</a></strong><br>\nContributor: Lauma Pret Mapper since: 2023-09-07 14:54:45 Registration: 2023-09-07 14:51:48 UID: 20195427 First active near: Sigulda (1.00 km) (Latvia) First Changeset: 140945233 Editor used: <a href=\"https://streetcomplete.app/\">StreetComplete</a> 53.3 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Lauma%20Pret\">https://osm.org/user/Lauma%20Pret</a></p>",
+        "id": 389780177,
+        "sender_full_name": "RSS",
+        "timestamp": 1694132914
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/ArtursL\">New Contributor: ArtursL</a></strong><br>\nContributor: ArtursL Mapper since: 2023-09-08 11:42:46 Registration: 2023-09-08 11:39:38 UID: 20201255 First active near: Čiekurkalns (0.32 km) (Latvia) First Changeset: 140983569 Editor used: <a href=\"https://streetcomplete.app/\">StreetComplete</a> 54.0 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/ArtursL\">https://osm.org/user/ArtursL</a></p>",
+        "id": 389869809,
+        "sender_full_name": "RSS",
+        "timestamp": 1694175058
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/fledermausis\">New Contributor: fledermausis</a></strong><br>\nContributor: fledermausis Mapper since: 2023-09-08 11:15:26 Registration: 2023-09-08 10:41:03 UID: 20200901 First active near: Sigulda (1.04 km) (Latvia) First Changeset: 140982377 Editor used: iD 2.27.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/fledermausis\">https://osm.org/user/fledermausis</a></p>",
+        "id": 389869810,
+        "sender_full_name": "RSS",
+        "timestamp": 1694175058
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/LinTheWitch\">New Contributor: LinTheWitch</a></strong><br>\nContributor: LinTheWitch Mapper since: 2023-09-08 17:31:11 Registration: 2023-09-08 17:29:16 UID: 20203285 First active near: Krievupe (0.25 km) (Latvia) First Changeset: 140996723 Editor used: <a href=\"https://streetcomplete.app/\">StreetComplete</a> 54.0 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/LinTheWitch\">https://osm.org/user/LinTheWitch</a></p>",
+        "id": 389927093,
+        "sender_full_name": "RSS",
+        "timestamp": 1694196454
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Waidelinne\">New Contributor: Waidelinne</a></strong><br>\nContributor: Waidelinne Mapper since: 2023-09-08 12:07:50 Registration: 2023-07-20 17:40:18 UID: 19933639 First active near: Brasa (1.01 km) (Latvia) First Changeset: 140984462 Editor used: <a href=\"https://streetcomplete.app/\">StreetComplete</a> 54.0 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Waidelinne\">https://osm.org/user/Waidelinne</a></p>",
+        "id": 389927094,
+        "sender_full_name": "RSS",
+        "timestamp": 1694196454
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/gertrudetresha\">New Contributor: gertrudetresha</a></strong><br>\nContributor: gertrudetresha Mapper since: 2023-09-09 10:46:53 Registration: 2023-09-09 10:44:29 UID: 20207357 First active near: Nolberģi (0.38 km) (Latvia) First Changeset: 141018889 Editor used: <a href=\"https://streetcomplete.app/\">StreetComplete</a> 54.0 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/gertrudetresha\">https://osm.org/user/gertrudetresha</a></p>",
+        "id": 390029455,
+        "sender_full_name": "RSS",
+        "timestamp": 1694261374
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/koloika55\">New Contributor: koloika55</a></strong><br>\nContributor: koloika55 Mapper since: 2023-09-10 11:25:36 Registration: 2023-09-10 10:17:15 UID: 20213278 First active near: Greizes (0.58 km) (Latvia) First Changeset: 141058480 Editor used: iD 2.27.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/koloika55\">https://osm.org/user/koloika55</a></p>",
+        "id": 390138390,
+        "sender_full_name": "RSS",
+        "timestamp": 1694347772
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/janis_kau\">New Contributor: janis_kau</a></strong><br>\nContributor: janis_kau Mapper since: 2023-09-13 16:54:31 Registration: 2023-09-13 16:34:19 UID: 20240544 First active near: Mežciems (0.91 km) (Latvia) First Changeset: 141220796 Editor used: iD 2.27.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/janis_kau\">https://osm.org/user/janis_kau</a></p>",
+        "id": 390823619,
+        "sender_full_name": "RSS",
+        "timestamp": 1694651357
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Dzeinaf\">New Contributor: Dzeinaf</a></strong><br>\nContributor: Dzeinaf Mapper since: 2023-09-13 16:36:38 Registration: 2023-09-13 16:18:35 UID: 20240430 First active near: Avoti (0.41 km) (Latvia) First Changeset: 141220102 Editor used: <a href=\"https://streetcomplete.app/\">StreetComplete</a> 54.0 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Dzeinaf\">https://osm.org/user/Dzeinaf</a></p>",
+        "id": 390823620,
+        "sender_full_name": "RSS",
+        "timestamp": 1694651357
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Diana%20Dergaceva\">New Contributor: Diana Dergaceva</a></strong><br>\nContributor: Diana Dergaceva Mapper since: 2023-09-14 10:58:39 Registration: 2023-09-14 10:03:31 UID: 20246635 First active near: Grīvas rajons (0.13 km) (Latvia) First Changeset: 141251924 Editor used: iD 2.27.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Diana%20Dergaceva\">https://osm.org/user/Diana%20Dergaceva</a></p>",
+        "id": 390916075,
+        "sender_full_name": "RSS",
+        "timestamp": 1694693475
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/J%C4%81nis%20Gailums\">New Contributor: Jānis Gailums</a></strong><br>\nContributor: Jānis Gailums Mapper since: 2023-09-17 08:03:56 Registration: 2023-09-17 07:59:36 UID: 20269764 First active near: Desas (0.73 km) (Latvia) First Changeset: 141370467 Editor used: Go Map!! 3.4.8 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/J%C4%81nis%20Gailums\">https://osm.org/user/J%C4%81nis%20Gailums</a></p>",
+        "id": 391494088,
+        "sender_full_name": "RSS",
+        "timestamp": 1694952579
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/meistars\">New Contributor: meistars</a></strong><br>\nContributor: meistars Mapper since: 2023-09-18 12:12:17 Registration: 2023-09-18 12:09:11 UID: 20278619 First active near: Eimuri (0.11 km) (Latvia) First Changeset: 141422177 Editor used: iD 2.27.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/meistars\">https://osm.org/user/meistars</a></p>",
+        "id": 391751956,
+        "sender_full_name": "RSS",
+        "timestamp": 1695060499
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/SindijaO\">New Contributor: SindijaO</a></strong><br>\nContributor: SindijaO Mapper since: 2023-09-20 05:50:27 Registration: 2023-09-13 15:35:25 UID: 20240138 First active near: Vecmoku Strautiņi (0.12 km) (Latvia) First Changeset: 141494969 Editor used: iD 2.27.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/SindijaO\">https://osm.org/user/SindijaO</a></p>",
+        "id": 392050091,
+        "sender_full_name": "RSS",
+        "timestamp": 1695190122
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/SkateBread\">New Contributor: SkateBread</a></strong><br>\nContributor: SkateBread Mapper since: 2023-09-21 11:46:51 Registration: 2023-09-13 14:12:36 UID: 20239503 First active near: Ukaņi (0.67 km) (Latvia) First Changeset: 141555293 Editor used: iD 2.27.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/SkateBread\">https://osm.org/user/SkateBread</a></p>",
+        "id": 392309110,
+        "sender_full_name": "RSS",
+        "timestamp": 1695298290
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/dzmovc\">New Contributor: dzmovc</a></strong><br>\nContributor: dzmovc Mapper since: 2023-09-25 18:38:46 Registration: 2023-09-25 16:13:28 UID: 20334406 First active near: Skanste (0.57 km) (Latvia) First Changeset: 141743919 Editor used: OsmAnd 4.5.10 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/dzmovc\">https://osm.org/user/dzmovc</a></p>",
+        "id": 393134686,
+        "sender_full_name": "RSS",
+        "timestamp": 1695688199
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/agseo12\">New Contributor: agseo12</a></strong><br>\nContributor: agseo12 Mapper since: 2023-09-27 10:36:09 Registration: 2023-09-27 10:20:05 UID: 20348049 First active near: Andrejsala (1.07 km) (Latvia) First Changeset: 141812862 Editor used: iD 2.27.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/agseo12\">https://osm.org/user/agseo12</a></p>",
+        "id": 393474590,
+        "sender_full_name": "RSS",
+        "timestamp": 1695816702
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/DrakariAnir\">New Contributor: DrakariAnir</a></strong><br>\nContributor: DrakariAnir Mapper since: 2023-09-27 12:29:30 Registration: 2023-09-27 10:58:48 UID: 20348351 First active near: Zuzāni (0.10 km) (Latvia) First Changeset: 141817778 Editor used: iD 2.27.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/DrakariAnir\">https://osm.org/user/DrakariAnir</a></p>",
+        "id": 393545232,
+        "sender_full_name": "RSS",
+        "timestamp": 1695838089
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/virtulis\">New Contributor: virtulis</a></strong><br>\nContributor: virtulis Mapper since: 2023-09-28 16:31:26 Registration: 2023-09-28 16:28:48 UID: 20358972 First active near: Iļģuciems (0.21 km) (Latvia) First Changeset: 141872382 Editor used: <a href=\"https://streetcomplete.app/\">StreetComplete</a> 54.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/virtulis\">https://osm.org/user/virtulis</a></p>",
+        "id": 393779316,
+        "sender_full_name": "RSS",
+        "timestamp": 1695924449
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Mangosose\">New Contributor: Mangosose</a></strong><br>\nContributor: Mangosose Mapper since: 2023-10-01 21:18:23 Registration: 2023-10-01 21:15:45 UID: 20380697 First active near: Andrejsala (1.19 km) (Latvia) First Changeset: 142005580 Editor used: MAPS.ME android 15.1.71626 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Mangosose\">https://osm.org/user/Mangosose</a></p>",
+        "id": 394283506,
+        "sender_full_name": "RSS",
+        "timestamp": 1696206620
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/PS_LV\">New Contributor: PS_LV</a></strong><br>\nContributor: PS_LV Mapper since: 2023-10-02 08:09:54 Registration: 2023-10-02 08:04:24 UID: 20382721 First active near: Āmeri (0.19 km) (Latvia) First Changeset: 142026330 Editor used: iD 2.27.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/PS_LV\">https://osm.org/user/PS_LV</a></p>",
+        "id": 394411612,
+        "sender_full_name": "RSS",
+        "timestamp": 1696248706
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/efaucon\">New Contributor: efaucon</a></strong><br>\nContributor: efaucon Mapper since: 2023-10-04 20:54:58 Registration: 2023-10-04 14:20:25 UID: 20400797 First active near: Grīšļi (1.20 km) (Latvia) First Changeset: 142163500 Editor used: <a href=\"https://streetcomplete.app/\">StreetComplete</a> 54.0 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/efaucon\">https://osm.org/user/efaucon</a></p>",
+        "id": 394935404,
+        "sender_full_name": "RSS",
+        "timestamp": 1696465789
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Ludzas%20TIC\">New Contributor: Ludzas TIC</a></strong><br>\nContributor: Ludzas TIC Mapper since: 2023-10-06 08:30:34 Registration: 2023-10-05 09:43:34 UID: 20406951 First active near: Malnovas fermas (0.63 km) (Latvia) First Changeset: 142221223 Editor used: iD 2.27.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Ludzas%20TIC\">https://osm.org/user/Ludzas%20TIC</a></p>",
+        "id": 395246534,
+        "sender_full_name": "RSS",
+        "timestamp": 1696594306
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/WietseLV\">New Contributor: WietseLV</a></strong><br>\nContributor: WietseLV Mapper since: 2023-10-08 18:18:09 Registration: 2023-10-08 17:57:56 UID: 20430213 First active near: Akoti (0.37 km) (Latvia) First Changeset: 142315878 Editor used: iD 2.27.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/WietseLV\">https://osm.org/user/WietseLV</a></p>",
+        "id": 395588604,
+        "sender_full_name": "RSS",
+        "timestamp": 1696811429
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Aleksandra%20Jan\">New Contributor: Aleksandra Jan</a></strong><br>\nContributor: Aleksandra Jan Mapper since: 2023-10-09 11:26:07 Registration: 2023-09-20 11:28:24 UID: 20296321 First active near: Ventspils (2.00 km) (Latvia) First Changeset: 142345330 Editor used: iD 2.27.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Aleksandra%20Jan\">https://osm.org/user/Aleksandra%20Jan</a></p>",
+        "id": 395685117,
+        "sender_full_name": "RSS",
+        "timestamp": 1696853547
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Solovjova\">New Contributor: Solovjova</a></strong><br>\nContributor: Solovjova Mapper since: 2023-10-09 11:19:03 Registration: 2023-09-19 17:40:06 UID: 20290180 First active near: Imanta (0.58 km) (Latvia) First Changeset: 142345036 Editor used: iD 2.27.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Solovjova\">https://osm.org/user/Solovjova</a></p>",
+        "id": 395685119,
+        "sender_full_name": "RSS",
+        "timestamp": 1696853547
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/grinvaldsjanis\">New Contributor: grinvaldsjanis</a></strong><br>\nContributor: grinvaldsjanis Mapper since: 2023-10-14 08:44:22 Registration: 2020-02-11 14:11:35 UID: 10767771 First active near: Līči (0.36 km) (Latvia) First Changeset: 142567096 Editor used: iD 2.27.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/grinvaldsjanis\">https://osm.org/user/grinvaldsjanis</a></p>",
+        "id": 396645955,
+        "sender_full_name": "RSS",
+        "timestamp": 1697285407
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Richard8897\">New Contributor: Richard8897</a></strong><br>\nContributor: Richard8897 Mapper since: 2023-10-25 06:04:45 Registration: 2023-10-25 05:47:04 UID: 20503128 First active near: Brasa (1.03 km) (Latvia) First Changeset: 143095865 Editor used: iD 2.27.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Richard8897\">https://osm.org/user/Richard8897</a></p>",
+        "id": 398471784,
+        "sender_full_name": "RSS",
+        "timestamp": 1698235885
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Piensaimnieks\">New Contributor: Piensaimnieks</a></strong><br>\nContributor: Piensaimnieks Mapper since: 2023-10-30 10:07:36 Registration: 2023-10-30 07:36:31 UID: 20518104 First active near: Dreimaņi (0.17 km) (Latvia) First Changeset: 143356132 Editor used: iD 2.27.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Piensaimnieks\">https://osm.org/user/Piensaimnieks</a></p>",
+        "id": 399288756,
+        "sender_full_name": "RSS",
+        "timestamp": 1698667893
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Rassolov\">New Contributor: Rassolov</a></strong><br>\nContributor: Rassolov Mapper since: 2023-10-31 16:44:09 Registration: 2023-10-31 16:34:52 UID: 20522749 First active near: Vecrīga (0.43 km) (Latvia) First Changeset: 143432553 Editor used: iD 2.27.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Rassolov\">https://osm.org/user/Rassolov</a></p>",
+        "id": 399576417,
+        "sender_full_name": "RSS",
+        "timestamp": 1698775678
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/SIA%20%224SPA%22\">New Contributor: SIA \"4SPA\"</a></strong><br>\nContributor: SIA \"4SPA\" Mapper since: 2023-11-03 12:08:27 Registration: 2023-11-03 11:42:00 UID: 20539836 First active near: Purvciems (1.55 km) (Latvia) First Changeset: 143571635 Editor used: iD 2.27.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/SIA%20%224SPA%22\">https://osm.org/user/SIA%20%224SPA%22</a></p>",
+        "id": 400121273,
+        "sender_full_name": "RSS",
+        "timestamp": 1699013510
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/stealeks\">New Contributor: stealeks</a></strong><br>\nContributor: stealeks Mapper since: 2023-11-03 07:52:27 Registration: 2023-11-03 07:44:39 UID: 20538115 First active near: Rossi (0.20 km) (Latvia) First Changeset: 143561804 Editor used: iD 2.27.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/stealeks\">https://osm.org/user/stealeks</a></p>",
+        "id": 400121274,
+        "sender_full_name": "RSS",
+        "timestamp": 1699013510
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/N1kita123\">New Contributor: N1kita123</a></strong><br>\nContributor: N1kita123 Mapper since: 2023-11-04 12:41:54 Registration: 2023-11-04 11:52:44 UID: 20547231 First active near: Centrs (0.31 km) (Latvia) First Changeset: 143611850 Editor used: iD 2.27.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/N1kita123\">https://osm.org/user/N1kita123</a></p>",
+        "id": 400317603,
+        "sender_full_name": "RSS",
+        "timestamp": 1699121226
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Betija%20E\">New Contributor: Betija E</a></strong><br>\nContributor: Betija E Mapper since: 2023-11-08 10:33:58 Registration: 2023-09-19 16:33:37 UID: 20289755 First active near: Brenči (0.12 km) (Latvia) First Changeset: 143773384 Editor used: iD 2.27.1 How did contribute to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Betija%20E\">https://osm.org/user/Betija%20E</a></p>",
+        "id": 400931248,
+        "sender_full_name": "RSS",
+        "timestamp": 1699445480
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Martins_P\">New Contributor: Martins_P</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Martins_P\">Martins\\_P</a>   <br>\nMapper since: 2023-11-08 12:38:04   <br>\nRegistration: 2023-11-08 12:22:01   <br>\nUID: 20571295   <br>\nFirst active near: Grīziņkalns (0.14 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/143778604\">143778604</a>   <br>\nEditor used: iD 2.27.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Martins_P\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Martins_P\">https://osm.org/user/Martins_P</a></p>",
+        "id": 400997955,
+        "sender_full_name": "RSS",
+        "timestamp": 1699466883
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Osis_%2800%3D%3D%5B%7C%7C%5D%5B%7C%7C%5D%3D%3D00%29\">New Contributor: Osis_(00==[||][||]==00)</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Osis_%2800%3D%3D%5B%7C%7C%5D%5B%7C%7C%5D%3D%3D00%29\">Osis\\_(00==[||][||]==00)</a>   <br>\nMapper since: 2023-11-08 12:05:31   <br>\nRegistration: 2023-11-08 12:03:02   <br>\nUID: 20571233   <br>\nFirst active near: Šampēteris (1.20 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/143777095\">143777095</a>   <br>\nEditor used: <a href=\"https://streetcomplete.app/\">StreetComplete</a> 55.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Osis_%2800%3D%3D%5B%7C%7C%5D%5B%7C%7C%5D%3D%3D00%29\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Osis_%2800%3D%3D%5B%7C%7C%5D%5B%7C%7C%5D%3D%3D00%29\">https://osm.org/user/Osis_%2800%3D%3D%5B%7C%7C%5D%5B%7C%7C%5D%3D%3D00%29</a></p>",
+        "id": 400997958,
+        "sender_full_name": "RSS",
+        "timestamp": 1699466883
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/yakaw\">New Contributor: yakaw</a></strong><br>\nContributor: <a href=\"https://osm.org/user/yakaw\">yakaw</a>   <br>\nMapper since: 2023-11-15 21:13:42   <br>\nRegistration: 2023-11-15 21:01:43   <br>\nUID: 20593677   <br>\nFirst active near: Ādiņas (0.25 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/144069206\">144069206</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?yakaw\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/yakaw\">https://osm.org/user/yakaw</a></p>",
+        "id": 402352214,
+        "sender_full_name": "RSS",
+        "timestamp": 1700094711
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/heroinsvecmilgravis\">New Contributor: heroinsvecmilgravis</a></strong><br>\nContributor: <a href=\"https://osm.org/user/heroinsvecmilgravis\">heroinsvecmilgravis</a>   <br>\nMapper since: 2023-11-19 16:50:59   <br>\nRegistration: 2023-11-19 16:37:02   <br>\nUID: 20604681   <br>\nFirst active near: Rīnūži (0.25 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/144215778\">144215778</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?heroinsvecmilgravis\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/heroinsvecmilgravis\">https://osm.org/user/heroinsvecmilgravis</a></p>",
+        "id": 403037694,
+        "sender_full_name": "RSS",
+        "timestamp": 1700417232
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Evropeec\">New Contributor: Evropeec</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Evropeec\">Evropeec</a>   <br>\nMapper since: 2023-11-19 13:41:29   <br>\nRegistration: 2023-07-28 18:12:35   <br>\nUID: 20010443   <br>\nFirst active near: Krustpils (0.55 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/144208580\">144208580</a>   <br>\nEditor used: MAPS.ME android 15.2.71630   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Evropeec\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Evropeec\">https://osm.org/user/Evropeec</a></p>",
+        "id": 403037695,
+        "sender_full_name": "RSS",
+        "timestamp": 1700417232
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/beanzzx\">New Contributor: beanzzx</a></strong><br>\nContributor: <a href=\"https://osm.org/user/beanzzx\">beanzzx</a>   <br>\nMapper since: 2023-11-20 18:24:28   <br>\nRegistration: 2023-11-20 17:07:01   <br>\nUID: 20607894   <br>\nFirst active near: Geņi (0.33 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/144258067\">144258067</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?beanzzx\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/beanzzx\">https://osm.org/user/beanzzx</a></p>",
+        "id": 403270087,
+        "sender_full_name": "RSS",
+        "timestamp": 1700526733
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/gfyghyhj\">New Contributor: gfyghyhj</a></strong><br>\nContributor: <a href=\"https://osm.org/user/gfyghyhj\">gfyghyhj</a>   <br>\nMapper since: 2023-11-23 14:06:30   <br>\nRegistration: 2023-11-09 15:28:24   <br>\nUID: 20575324   <br>\nFirst active near: Maskavas forštate (0.28 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/144371189\">144371189</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?gfyghyhj\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/gfyghyhj\">https://osm.org/user/gfyghyhj</a></p>",
+        "id": 403834551,
+        "sender_full_name": "RSS",
+        "timestamp": 1700762879
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/andrisl\">New Contributor: andrisl</a></strong><br>\nContributor: <a href=\"https://osm.org/user/andrisl\">andrisl</a>   <br>\nMapper since: 2023-11-23 14:06:30   <br>\nRegistration: 2023-11-09 15:28:24   <br>\nUID: 20575324   <br>\nFirst active near: Maskavas forštate (0.28 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/144371189\">144371189</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?andrisl\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/andrisl\">https://osm.org/user/andrisl</a></p>",
+        "id": 403869731,
+        "sender_full_name": "RSS",
+        "timestamp": 1700785841
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Graudupes\">New Contributor: Graudupes</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Graudupes\">Graudupes</a>   <br>\nMapper since: 2023-11-24 12:03:19   <br>\nRegistration: 2023-11-24 11:44:15   <br>\nUID: 20620410   <br>\nFirst active near: Saldus (0.04 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/144405654\">144405654</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Graudupes\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Graudupes\">https://osm.org/user/Graudupes</a></p>",
+        "id": 403955850,
+        "sender_full_name": "RSS",
+        "timestamp": 1700827906
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/AleksPLV19\">New Contributor: AleksPLV19</a></strong><br>\nContributor: <a href=\"https://osm.org/user/AleksPLV19\">AleksPLV19</a>   <br>\nMapper since: 2023-11-27 15:52:14   <br>\nRegistration: 2023-11-27 15:35:21   <br>\nUID: 20628547   <br>\nFirst active near: Zolitūde (0.43 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/144513533\">144513533</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?AleksPLV19\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/AleksPLV19\">https://osm.org/user/AleksPLV19</a></p>",
+        "id": 404464910,
+        "sender_full_name": "RSS",
+        "timestamp": 1701108509
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Engelitis\">New Contributor: Engelitis</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Engelitis\">Engelitis</a>   <br>\nMapper since: 2023-11-27 14:21:34   <br>\nRegistration: 2019-08-03 06:24:37   <br>\nUID: 10198503   <br>\nFirst active near: Tīreļi (0.41 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/144510123\">144510123</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Engelitis\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Engelitis\">https://osm.org/user/Engelitis</a></p>",
+        "id": 404464912,
+        "sender_full_name": "RSS",
+        "timestamp": 1701108509
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Oj%C4%81rs\">New Contributor: Ojārs</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Oj%C4%81rs\">Ojārs</a>   <br>\nMapper since: 2023-11-28 11:49:29   <br>\nRegistration: 2023-11-28 11:18:14   <br>\nUID: 20630991   <br>\nFirst active near: Ķīpsala (0.85 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/144545688\">144545688</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Oj%C4%81rs\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Oj%C4%81rs\">https://osm.org/user/Oj%C4%81rs</a></p>",
+        "id": 404622123,
+        "sender_full_name": "RSS",
+        "timestamp": 1701173513
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/alivmanis\">New Contributor: alivmanis</a></strong><br>\nContributor: <a href=\"https://osm.org/user/alivmanis\">alivmanis</a>   <br>\nMapper since: 2023-11-30 13:58:44   <br>\nRegistration: 2023-11-30 13:51:02   <br>\nUID: 20637639   <br>\nFirst active near: Jugla (0.30 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/144626475\">144626475</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?alivmanis\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/alivmanis\">https://osm.org/user/alivmanis</a></p>",
+        "id": 405172543,
+        "sender_full_name": "RSS",
+        "timestamp": 1701367719
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/janism\">New Contributor: janism</a></strong><br>\nContributor: <a href=\"https://osm.org/user/janism\">janism</a>   <br>\nMapper since: 2023-12-07 12:24:29   <br>\nRegistration: 2023-12-07 12:14:30   <br>\nUID: 20658297   <br>\nFirst active near: Vecrīga (0.54 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/144865308\">144865308</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?janism\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/janism\">https://osm.org/user/janism</a></p>",
+        "id": 406595659,
+        "sender_full_name": "RSS",
+        "timestamp": 1701972525
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Vitalijs%20Gagunovs\">New Contributor: Vitalijs Gagunovs</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Vitalijs%20Gagunovs\">Vitalijs Gagunovs</a>   <br>\nMapper since: 2023-12-10 15:14:46   <br>\nRegistration: 2023-10-09 11:12:04   <br>\nUID: 20434855   <br>\nFirst active near: Daugavpils (0.95 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/144968108\">144968108</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Vitalijs%20Gagunovs\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Vitalijs%20Gagunovs\">https://osm.org/user/Vitalijs%20Gagunovs</a></p>",
+        "id": 407093266,
+        "sender_full_name": "RSS",
+        "timestamp": 1702231646
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/KGribula21\">New Contributor: KGribula21</a></strong><br>\nContributor: <a href=\"https://osm.org/user/KGribula21\">KGribula21</a>   <br>\nMapper since: 2023-12-10 15:11:17   <br>\nRegistration: 2023-09-20 13:41:28   <br>\nUID: 20297444   <br>\nFirst active near: Šampēteris (0.20 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/144967982\">144967982</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?KGribula21\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/KGribula21\">https://osm.org/user/KGribula21</a></p>",
+        "id": 407093267,
+        "sender_full_name": "RSS",
+        "timestamp": 1702231646
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/UldisZvi\">New Contributor: UldisZvi</a></strong><br>\nContributor: <a href=\"https://osm.org/user/UldisZvi\">UldisZvi</a>   <br>\nMapper since: 2023-12-12 11:46:20   <br>\nRegistration: 2023-09-13 14:12:38   <br>\nUID: 20239504   <br>\nFirst active near: Robežnieki (0.24 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/145034524\">145034524</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?UldisZvi\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/UldisZvi\">https://osm.org/user/UldisZvi</a></p>",
+        "id": 407461800,
+        "sender_full_name": "RSS",
+        "timestamp": 1702383142
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/finnayeet\">New Contributor: finnayeet</a></strong><br>\nContributor: <a href=\"https://osm.org/user/finnayeet\">finnayeet</a>   <br>\nMapper since: 2023-12-12 10:22:29   <br>\nRegistration: 2023-04-05 11:11:09   <br>\nUID: 18861008   <br>\nFirst active near: Vītiņi (0.93 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/145031469\">145031469</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?finnayeet\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/finnayeet\">https://osm.org/user/finnayeet</a></p>",
+        "id": 407461801,
+        "sender_full_name": "RSS",
+        "timestamp": 1702383142
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Vilsol\">New Contributor: Vilsol</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Vilsol\">Vilsol</a>   <br>\nMapper since: 2023-12-15 09:20:23   <br>\nRegistration: 2020-03-15 17:43:07   <br>\nUID: 10901572   <br>\nFirst active near: Zasulauks (0.35 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/145142462\">145142462</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Vilsol\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Vilsol\">https://osm.org/user/Vilsol</a></p>",
+        "id": 408174685,
+        "sender_full_name": "RSS",
+        "timestamp": 1702642295
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/J4maL\">New Contributor: J4maL</a></strong><br>\nContributor: <a href=\"https://osm.org/user/J4maL\">J4maL</a>   <br>\nMapper since: 2023-12-19 21:26:53   <br>\nRegistration: 2023-12-19 21:19:19   <br>\nUID: 20722051   <br>\nFirst active near: Staļģene (0.15 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/145307549\">145307549</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?J4maL\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/J4maL\">https://osm.org/user/J4maL</a></p>",
+        "id": 409173382,
+        "sender_full_name": "RSS",
+        "timestamp": 1703074194
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Zurkuviirs\">New Contributor: Zurkuviirs</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Zurkuviirs\">Zurkuviirs</a>   <br>\nMapper since: 2023-12-22 22:03:00   <br>\nRegistration: 2023-12-18 20:32:59   <br>\nUID: 20714827   <br>\nFirst active near: Dubulti (0.48 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/145421610\">145421610</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Zurkuviirs\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Zurkuviirs\">https://osm.org/user/Zurkuviirs</a></p>",
+        "id": 410326338,
+        "sender_full_name": "RSS",
+        "timestamp": 1703786889
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/laps%C4%93ns\">New Contributor: lapsēns</a></strong><br>\nContributor: <a href=\"https://osm.org/user/laps%C4%93ns\">lapsēns</a>   <br>\nMapper since: 2023-12-30 14:22:05   <br>\nRegistration: 2023-12-30 13:29:44   <br>\nUID: 20788526   <br>\nFirst active near: Torņi (0.01 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/145699681\">145699681</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?laps%C4%93ns\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/laps%C4%93ns\">https://osm.org/user/laps%C4%93ns</a></p>",
+        "id": 410562776,
+        "sender_full_name": "RSS",
+        "timestamp": 1703959665
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/SissiLang\">New Contributor: SissiLang</a></strong><br>\nContributor: <a href=\"https://osm.org/user/SissiLang\">SissiLang</a>   <br>\nMapper since: 2023-12-31 09:04:31   <br>\nRegistration: 2023-05-01 19:57:37   <br>\nUID: 19128631   <br>\nFirst active near: Aļņi (0.63 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/145723848\">145723848</a>   <br>\nEditor used: Organic Maps android 2023.12.21-1-Google   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?SissiLang\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/SissiLang\">https://osm.org/user/SissiLang</a></p>",
+        "id": 410629692,
+        "sender_full_name": "RSS",
+        "timestamp": 1704024643
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/AlimDasho\">New Contributor: AlimDasho</a></strong><br>\nContributor: <a href=\"https://osm.org/user/AlimDasho\">AlimDasho</a>   <br>\nMapper since: 2024-01-02 01:49:02   <br>\nRegistration: 2024-01-02 01:44:09   <br>\nUID: 20800754   <br>\nFirst active near: Rīts (0.58 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/145781116\">145781116</a>   <br>\nEditor used: MAPS.ME ios 15.6.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?AlimDasho\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/AlimDasho\">https://osm.org/user/AlimDasho</a></p>",
+        "id": 410800343,
+        "sender_full_name": "RSS",
+        "timestamp": 1704175744
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Robertsedvardsrudzitis\">New Contributor: Robertsedvardsrudzitis</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Robertsedvardsrudzitis\">Robertsedvardsrudzitis</a>   <br>\nMapper since: 2024-01-02 20:32:06   <br>\nRegistration: 2023-09-13 14:13:56   <br>\nUID: 20239522   <br>\nFirst active near: Ķuļmji (2.38 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/145813799\">145813799</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Robertsedvardsrudzitis\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Robertsedvardsrudzitis\">https://osm.org/user/Robertsedvardsrudzitis</a></p>",
+        "id": 410927039,
+        "sender_full_name": "RSS",
+        "timestamp": 1704241897
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/drtzdrfh\">New Contributor: drtzdrfh</a></strong><br>\nContributor: <a href=\"https://osm.org/user/drtzdrfh\">drtzdrfh</a>   <br>\nMapper since: 2024-01-06 20:07:38   <br>\nRegistration: 2024-01-06 18:47:00   <br>\nUID: 20834120   <br>\nFirst active near: Jaunozoli (0.40 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/145969855\">145969855</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?drtzdrfh\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/drtzdrfh\">https://osm.org/user/drtzdrfh</a></p>",
+        "id": 411552063,
+        "sender_full_name": "RSS",
+        "timestamp": 1704587747
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/J%C4%81nis%20%C5%A0audi%C5%86%C5%A1\">New Contributor: Jānis Šaudiņš</a></strong><br>\nContributor: <a href=\"https://osm.org/user/J%C4%81nis%20%C5%A0audi%C5%86%C5%A1\">Jānis Šaudiņš</a>   <br>\nMapper since: 2024-01-09 09:17:44   <br>\nRegistration: 2024-01-05 12:36:53   <br>\nUID: 20824921   <br>\nFirst active near: Malta (0.47 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/146058273\">146058273</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?J%C4%81nis%20%C5%A0audi%C5%86%C5%A1\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/J%C4%81nis%20%C5%A0audi%C5%86%C5%A1\">https://osm.org/user/J%C4%81nis%20%C5%A0audi%C5%86%C5%A1</a></p>",
+        "id": 411922854,
+        "sender_full_name": "RSS",
+        "timestamp": 1704802327
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/thor_lv\">New Contributor: thor_lv</a></strong><br>\nContributor: <a href=\"https://osm.org/user/thor_lv\">thor_lv</a>   <br>\nMapper since: 2024-01-13 20:10:24   <br>\nRegistration: 2024-01-13 19:38:26   <br>\nUID: 20883359   <br>\nFirst active near: Nameji (0.17 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/146225798\">146225798</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?thor_lv\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/thor_lv\">https://osm.org/user/thor_lv</a></p>",
+        "id": 412762234,
+        "sender_full_name": "RSS",
+        "timestamp": 1705192554
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Chepainais\">New Contributor: Chepainais</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Chepainais\">Chepainais</a>   <br>\nMapper since: 2024-01-24 14:21:13   <br>\nRegistration: 2024-01-24 13:55:22   <br>\nUID: 20932335   <br>\nFirst active near: Grīziņkalns (0.80 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/146631953\">146631953</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Chepainais\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Chepainais\">https://osm.org/user/Chepainais</a></p>",
+        "id": 417700395,
+        "sender_full_name": "RSS",
+        "timestamp": 1706119729
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/edwarko\">New Contributor: edwarko</a></strong><br>\nContributor: <a href=\"https://osm.org/user/edwarko\">edwarko</a>   <br>\nMapper since: 2024-01-25 09:34:01   <br>\nRegistration: 2021-06-02 13:45:00   <br>\nUID: 13469771   <br>\nFirst active near: Dzelzceļnieks (0.58 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/146664831\">146664831</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?edwarko\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/edwarko\">https://osm.org/user/edwarko</a></p>",
+        "id": 418066333,
+        "sender_full_name": "RSS",
+        "timestamp": 1706184729
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Alex%20Kritenko\">New Contributor: Alex Kritenko</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Alex%20Kritenko\">Alex Kritenko</a>   <br>\nMapper since: 2024-01-26 09:44:59   <br>\nRegistration: 2017-09-30 02:34:03   <br>\nUID: 6732544   <br>\nFirst active near: Kropiškas (0.80 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/146702653\">146702653</a>   <br>\nEditor used: MAPS.ME ios 15.6.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Alex%20Kritenko\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Alex%20Kritenko\">https://osm.org/user/Alex%20Kritenko</a></p>",
+        "id": 418263634,
+        "sender_full_name": "RSS",
+        "timestamp": 1706271051
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/JulijaFrid\">New Contributor: JulijaFrid</a></strong><br>\nContributor: <a href=\"https://osm.org/user/JulijaFrid\">JulijaFrid</a>   <br>\nMapper since: 2024-01-29 12:43:09   <br>\nRegistration: 2024-01-23 08:31:25   <br>\nUID: 20927688   <br>\nFirst active near: Vecrīga (0.51 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/146820290\">146820290</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?JulijaFrid\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/JulijaFrid\">https://osm.org/user/JulijaFrid</a></p>",
+        "id": 418692688,
+        "sender_full_name": "RSS",
+        "timestamp": 1706551654
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/AivarsVitins\">New Contributor: AivarsVitins</a></strong><br>\nContributor: <a href=\"https://osm.org/user/AivarsVitins\">AivarsVitins</a>   <br>\nMapper since: 2024-02-02 10:58:45   <br>\nRegistration: 2024-02-02 10:16:09   <br>\nUID: 20959804   <br>\nFirst active near: Brasa (1.29 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/146980122\">146980122</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?AivarsVitins\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/AivarsVitins\">https://osm.org/user/AivarsVitins</a></p>",
+        "id": 419444940,
+        "sender_full_name": "RSS",
+        "timestamp": 1706875867
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/egilaval\">New Contributor: egilaval</a></strong><br>\nContributor: <a href=\"https://osm.org/user/egilaval\">egilaval</a>   <br>\nMapper since: 2024-02-03 14:26:27   <br>\nRegistration: 2024-02-03 13:41:22   <br>\nUID: 20962968   <br>\nFirst active near: Zviedri (0.20 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/147021946\">147021946</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?egilaval\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/egilaval\">https://osm.org/user/egilaval</a></p>",
+        "id": 419628994,
+        "sender_full_name": "RSS",
+        "timestamp": 1706983628
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Ieva%20Stal%C5%A1ene\">New Contributor: Ieva Stalšene</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Ieva%20Stal%C5%A1ene\">Ieva Stalšene</a>   <br>\nMapper since: 2024-02-07 09:11:07   <br>\nRegistration: 2024-02-07 09:03:09   <br>\nUID: 20974080   <br>\nFirst active near: Centrs (0.69 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/147166939\">147166939</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Ieva%20Stal%C5%A1ene\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Ieva%20Stal%C5%A1ene\">https://osm.org/user/Ieva%20Stal%C5%A1ene</a></p>",
+        "id": 420237638,
+        "sender_full_name": "RSS",
+        "timestamp": 1707307848
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/MoritzLv\">New Contributor: MoritzLv</a></strong><br>\nContributor: <a href=\"https://osm.org/user/MoritzLv\">MoritzLv</a>   <br>\nMapper since: 2024-02-08 16:59:32   <br>\nRegistration: 2024-02-06 19:03:24   <br>\nUID: 20972438   <br>\nFirst active near: Grīziņkalns (0.44 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/147225964\">147225964</a>   <br>\nEditor used: Every Door iOS 4.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?MoritzLv\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/MoritzLv\">https://osm.org/user/MoritzLv</a></p>",
+        "id": 420514080,
+        "sender_full_name": "RSS",
+        "timestamp": 1707415678
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/kasparskursiss\">New Contributor: kasparskursiss</a></strong><br>\nContributor: <a href=\"https://osm.org/user/kasparskursiss\">kasparskursiss</a>   <br>\nMapper since: 2024-02-10 12:05:16   <br>\nRegistration: 2023-06-13 20:06:40   <br>\nUID: 19569132   <br>\nFirst active near: Grīziņkalns (0.28 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/147289973\">147289973</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?kasparskursiss\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/kasparskursiss\">https://osm.org/user/kasparskursiss</a></p>",
+        "id": 420795241,
+        "sender_full_name": "RSS",
+        "timestamp": 1707567036
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Vasilijs%20Boi%C4%8Duks\">New Contributor: Vasilijs Boičuks</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Vasilijs%20Boi%C4%8Duks\">Vasilijs Boičuks</a>   <br>\nMapper since: 2024-02-11 00:40:47   <br>\nRegistration: 2024-01-06 12:46:38   <br>\nUID: 20832400   <br>\nFirst active near: Ludza (0.85 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/147312727\">147312727</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Vasilijs%20Boi%C4%8Duks\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Vasilijs%20Boi%C4%8Duks\">https://osm.org/user/Vasilijs%20Boi%C4%8Duks</a></p>",
+        "id": 420864258,
+        "sender_full_name": "RSS",
+        "timestamp": 1707631710
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Zusurs\">New Contributor: Zusurs</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Zusurs\">Zusurs</a>   <br>\nMapper since: 2024-02-11 08:20:10   <br>\nRegistration: 2020-01-07 06:49:26   <br>\nUID: 10628239   <br>\nFirst active near: Kārklāji (0.00 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/147318262\">147318262</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Zusurs\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Zusurs\">https://osm.org/user/Zusurs</a></p>",
+        "id": 420885272,
+        "sender_full_name": "RSS",
+        "timestamp": 1707653393
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/richkozlov\">New Contributor: richkozlov</a></strong><br>\nContributor: <a href=\"https://osm.org/user/richkozlov\">richkozlov</a>   <br>\nMapper since: 2024-02-17 13:21:19   <br>\nRegistration: 2024-02-16 20:32:55   <br>\nUID: 21028714   <br>\nFirst active near: Vecāķi (0.76 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/147571132\">147571132</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?richkozlov\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/richkozlov\">https://osm.org/user/richkozlov</a></p>",
+        "id": 422031752,
+        "sender_full_name": "RSS",
+        "timestamp": 1708193247
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/D%C4%81vids%20Pai%C4%8Ds\">New Contributor: Dāvids Paičs</a></strong><br>\nContributor: <a href=\"https://osm.org/user/D%C4%81vids%20Pai%C4%8Ds\">Dāvids Paičs</a>   <br>\nMapper since: 2024-02-17 20:20:54   <br>\nRegistration: 2024-02-17 20:15:47   <br>\nUID: 21034662   <br>\nFirst active near: Centrs (0.95 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/147586544\">147586544</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?D%C4%81vids%20Pai%C4%8Ds\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/D%C4%81vids%20Pai%C4%8Ds\">https://osm.org/user/D%C4%81vids%20Pai%C4%8Ds</a></p>",
+        "id": 422053705,
+        "sender_full_name": "RSS",
+        "timestamp": 1708216381
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Emils%20Mikelsons\">New Contributor: Emils Mikelsons</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Emils%20Mikelsons\">Emils Mikelsons</a>   <br>\nMapper since: 2024-02-19 15:15:36   <br>\nRegistration: 2024-02-19 14:48:45   <br>\nUID: 21045998   <br>\nFirst active near: Jaunzemji (0.09 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/147654898\">147654898</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Emils%20Mikelsons\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Emils%20Mikelsons\">https://osm.org/user/Emils%20Mikelsons</a></p>",
+        "id": 422286212,
+        "sender_full_name": "RSS",
+        "timestamp": 1708366122
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/DaniilPersunov\">New Contributor: DaniilPersunov</a></strong><br>\nContributor: <a href=\"https://osm.org/user/DaniilPersunov\">DaniilPersunov</a>   <br>\nMapper since: 2024-02-23 17:56:33   <br>\nRegistration: 2018-07-27 17:48:47   <br>\nUID: 8609928   <br>\nFirst active near: Dzirciems (0.08 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/147828809\">147828809</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?DaniilPersunov\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/DaniilPersunov\">https://osm.org/user/DaniilPersunov</a></p>",
+        "id": 423069024,
+        "sender_full_name": "RSS",
+        "timestamp": 1708711696
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Kristaps_Map\">New Contributor: Kristaps_Map</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Kristaps_Map\">Kristaps_Map</a>   <br>\nMapper since: 2024-02-25 09:04:25   <br>\nRegistration: 2024-02-25 08:35:15   <br>\nUID: 21090603   <br>\nFirst active near: Osteļi (0.91 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/147881670\">147881670</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Kristaps_Map\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Kristaps_Map\">https://osm.org/user/Kristaps_Map</a></p>",
+        "id": 423258969,
+        "sender_full_name": "RSS",
+        "timestamp": 1708863019
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/RK_JS\">New Contributor: RK_JS</a></strong><br>\nContributor: <a href=\"https://osm.org/user/RK_JS\">RK_JS</a>   <br>\nMapper since: 2024-02-27 11:25:05   <br>\nRegistration: 2024-02-27 10:01:15   <br>\nUID: 21106132   <br>\nFirst active near: Grīziņkalns (1.49 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/147968953\">147968953</a>   <br>\nEditor used: iD 2.27.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?RK_JS\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/RK_JS\">https://osm.org/user/RK_JS</a></p>",
+        "id": 423592793,
+        "sender_full_name": "RSS",
+        "timestamp": 1709035842
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/marlie2024\">New Contributor: marlie2024</a></strong><br>\nContributor: <a href=\"https://osm.org/user/marlie2024\">marlie2024</a>   <br>\nMapper since: 2024-02-29 10:02:35   <br>\nRegistration: 2024-02-29 09:49:30   <br>\nUID: 21122293   <br>\nFirst active near: Liepāja (0.32 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/148044529\">148044529</a>   <br>\nEditor used: iD 2.28.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?marlie2024\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/marlie2024\">https://osm.org/user/marlie2024</a></p>",
+        "id": 424006333,
+        "sender_full_name": "RSS",
+        "timestamp": 1709208711
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/hoddog\">New Contributor: hoddog</a></strong><br>\nContributor: <a href=\"https://osm.org/user/hoddog\">hoddog</a>   <br>\nMapper since: 2024-02-29 18:55:10   <br>\nRegistration: 2020-03-02 20:52:59   <br>\nUID: 10848632   <br>\nFirst active near: Prospektu gals (0.51 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/148066472\">148066472</a>   <br>\nEditor used: iD 2.28.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?hoddog\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/hoddog\">https://osm.org/user/hoddog</a></p>",
+        "id": 424135732,
+        "sender_full_name": "RSS",
+        "timestamp": 1709253263
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/El_Comandante\">New Contributor: El_Comandante</a></strong><br>\nContributor: <a href=\"https://osm.org/user/El_Comandante\">El_Comandante</a>   <br>\nMapper since: 2024-02-29 18:55:10   <br>\nRegistration: 2020-03-02 20:52:59   <br>\nUID: 10848632   <br>\nFirst active near: Prospektu gals (0.51 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/148066472\">148066472</a>   <br>\nEditor used: iD 2.28.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?El_Comandante\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/El_Comandante\">https://osm.org/user/El_Comandante</a></p>",
+        "id": 424165719,
+        "sender_full_name": "RSS",
+        "timestamp": 1709273347
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/tausgus\">New Contributor: tausgus</a></strong><br>\nContributor: <a href=\"https://osm.org/user/tausgus\">tausgus</a>   <br>\nMapper since: 2024-03-02 14:51:37   <br>\nRegistration: 2024-03-02 14:36:23   <br>\nUID: 21138615   <br>\nFirst active near: Garkalne (0.33 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/148134879\">148134879</a>   <br>\nEditor used: iD 2.28.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?tausgus\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/tausgus\">https://osm.org/user/tausgus</a></p>",
+        "id": 424432596,
+        "sender_full_name": "RSS",
+        "timestamp": 1709402877
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/PickAqua\">New Contributor: PickAqua</a></strong><br>\nContributor: <a href=\"https://osm.org/user/PickAqua\">PickAqua</a>   <br>\nMapper since: 2024-03-05 17:50:28   <br>\nRegistration: 2024-03-05 17:39:40   <br>\nUID: 21162117   <br>\nFirst active near: Avoti (0.62 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/148261751\">148261751</a>   <br>\nEditor used: iD 2.28.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?PickAqua\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/PickAqua\">https://osm.org/user/PickAqua</a></p>",
+        "id": 424928762,
+        "sender_full_name": "RSS",
+        "timestamp": 1709662058
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Kirill%20Harkin\">New Contributor: Kirill Harkin</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Kirill%20Harkin\">Kirill Harkin</a>   <br>\nMapper since: 2024-03-07 00:50:48   <br>\nRegistration: 2021-02-04 21:54:49   <br>\nUID: 12606894   <br>\nFirst active near: Graži (1.53 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/148319771\">148319771</a>   <br>\nEditor used: <a href=\"https://streetcomplete.app/\">StreetComplete</a> 56.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Kirill%20Harkin\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Kirill%20Harkin\">https://osm.org/user/Kirill%20Harkin</a></p>",
+        "id": 425233868,
+        "sender_full_name": "RSS",
+        "timestamp": 1709791764
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Skeevlic\">New Contributor: Skeevlic</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Skeevlic\">Skeevlic</a>   <br>\nMapper since: 2024-03-16 08:41:31   <br>\nRegistration: 2024-03-16 08:32:51   <br>\nUID: 21210431   <br>\nFirst active near: Robežnieki (0.32 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/148721120\">148721120</a>   <br>\nEditor used: iD 2.28.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Skeevlic\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Skeevlic\">https://osm.org/user/Skeevlic</a></p>",
+        "id": 426886313,
+        "sender_full_name": "RSS",
+        "timestamp": 1710591050
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Artis_Z\">New Contributor: Artis_Z</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Artis_Z\">Artis_Z</a>   <br>\nMapper since: 2024-03-22 11:21:49   <br>\nRegistration: 2024-03-22 11:06:52   <br>\nUID: 21231750   <br>\nFirst active near: Sarkangalvji (0.09 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/149008164\">149008164</a>   <br>\nEditor used: iD 2.28.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Artis_Z\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Artis_Z\">https://osm.org/user/Artis_Z</a></p>",
+        "id": 428316521,
+        "sender_full_name": "RSS",
+        "timestamp": 1711109514
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Pilsetkartetajs\">New Contributor: Pilsetkartetajs</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Pilsetkartetajs\">Pilsetkartetajs</a>   <br>\nMapper since: 2024-03-24 21:00:56   <br>\nRegistration: 2024-03-24 17:56:05   <br>\nUID: 21238037   <br>\nFirst active near: Atgāzene (1.30 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/149105964\">149105964</a>   <br>\nEditor used: iD 2.28.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Pilsetkartetajs\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Pilsetkartetajs\">https://osm.org/user/Pilsetkartetajs</a></p>",
+        "id": 429264761,
+        "sender_full_name": "RSS",
+        "timestamp": 1711326728
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Aigich\">New Contributor: Aigich</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Aigich\">Aigich</a>   <br>\nMapper since: 2024-03-26 09:08:20   <br>\nRegistration: 2024-03-26 08:34:00   <br>\nUID: 21243595   <br>\nFirst active near: Tutiķi (0.17 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/149166303\">149166303</a>   <br>\nEditor used: iD 2.28.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Aigich\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Aigich\">https://osm.org/user/Aigich</a></p>",
+        "id": 429641222,
+        "sender_full_name": "RSS",
+        "timestamp": 1711455138
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Kri%C5%A1j%C4%81nis\">New Contributor: Krišjānis</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Kri%C5%A1j%C4%81nis\">Krišjānis</a>   <br>\nMapper since: 2024-03-26 08:30:15   <br>\nRegistration: 2019-05-13 21:01:08   <br>\nUID: 9946556   <br>\nFirst active near: Tutiķi (0.21 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/149164874\">149164874</a>   <br>\nEditor used: iD 2.28.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Kri%C5%A1j%C4%81nis\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Kri%C5%A1j%C4%81nis\">https://osm.org/user/Kri%C5%A1j%C4%81nis</a></p>",
+        "id": 429641223,
+        "sender_full_name": "RSS",
+        "timestamp": 1711455138
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Matdo\">New Contributor: Matdo</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Matdo\">Matdo</a>   <br>\nMapper since: 2024-04-01 11:34:47   <br>\nRegistration: 2024-04-01 11:15:56   <br>\nUID: 21263023   <br>\nFirst active near: Brūnas (0.44 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/149430121\">149430121</a>   <br>\nEditor used: iD 2.28.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Matdo\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Matdo\">https://osm.org/user/Matdo</a></p>",
+        "id": 430583723,
+        "sender_full_name": "RSS",
+        "timestamp": 1711973568
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Primero_lv\">New Contributor: Primero_lv</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Primero_lv\">Primero_lv</a>   <br>\nMapper since: 2024-04-08 11:34:56   <br>\nRegistration: 2024-04-08 11:21:55   <br>\nUID: 21286912   <br>\nFirst active near: Ziepniekkalns (1.47 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/149731122\">149731122</a>   <br>\nEditor used: iD 2.28.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Primero_lv\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Primero_lv\">https://osm.org/user/Primero_lv</a></p>",
+        "id": 431954536,
+        "sender_full_name": "RSS",
+        "timestamp": 1712578290
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Modris%20S\">New Contributor: Modris S</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Modris%20S\">Modris S</a>   <br>\nMapper since: 2024-04-09 17:16:18   <br>\nRegistration: 2024-04-09 15:29:38   <br>\nUID: 21291509   <br>\nFirst active near: Avoti (0.41 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/149787084\">149787084</a>   <br>\nEditor used: <a href=\"https://streetcomplete.app/\">StreetComplete</a> 57.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Modris%20S\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Modris%20S\">https://osm.org/user/Modris%20S</a></p>",
+        "id": 432307967,
+        "sender_full_name": "RSS",
+        "timestamp": 1712686094
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/EinarsSi\">New Contributor: EinarsSi</a></strong><br>\nContributor: <a href=\"https://osm.org/user/EinarsSi\">EinarsSi</a>   <br>\nMapper since: 2024-04-09 16:47:03   <br>\nRegistration: 2024-04-09 15:37:30   <br>\nUID: 21291538   <br>\nFirst active near: Avoti (0.58 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/149786038\">149786038</a>   <br>\nEditor used: <a href=\"https://streetcomplete.app/\">StreetComplete</a> 57.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?EinarsSi\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/EinarsSi\">https://osm.org/user/EinarsSi</a></p>",
+        "id": 432307968,
+        "sender_full_name": "RSS",
+        "timestamp": 1712686094
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/AIRA89\">New Contributor: AIRA89</a></strong><br>\nContributor: <a href=\"https://osm.org/user/AIRA89\">AIRA89</a>   <br>\nMapper since: 2024-04-09 16:41:59   <br>\nRegistration: 2024-04-09 16:10:32   <br>\nUID: 21291639   <br>\nFirst active near: Avoti (0.55 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/149785858\">149785858</a>   <br>\nEditor used: <a href=\"https://streetcomplete.app/\">StreetComplete</a> 57.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?AIRA89\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/AIRA89\">https://osm.org/user/AIRA89</a></p>",
+        "id": 432307970,
+        "sender_full_name": "RSS",
+        "timestamp": 1712686094
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Mapper737\">New Contributor: Mapper737</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Mapper737\">Mapper737</a>   <br>\nMapper since: 2024-04-09 16:35:04   <br>\nRegistration: 2024-04-09 16:10:33   <br>\nUID: 21291640   <br>\nFirst active near: Avoti (0.49 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/149785630\">149785630</a>   <br>\nEditor used: <a href=\"https://streetcomplete.app/\">StreetComplete</a> 57.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Mapper737\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Mapper737\">https://osm.org/user/Mapper737</a></p>",
+        "id": 432307971,
+        "sender_full_name": "RSS",
+        "timestamp": 1712686094
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/herevii\">New Contributor: herevii</a></strong><br>\nContributor: <a href=\"https://osm.org/user/herevii\">herevii</a>   <br>\nMapper since: 2024-04-09 16:32:22   <br>\nRegistration: 2024-04-09 15:37:31   <br>\nUID: 21291539   <br>\nFirst active near: Avoti (0.38 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/149785548\">149785548</a>   <br>\nEditor used: Every Door iOS 4.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?herevii\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/herevii\">https://osm.org/user/herevii</a></p>",
+        "id": 432307973,
+        "sender_full_name": "RSS",
+        "timestamp": 1712686094
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Sandra%20%C4%8CAB\">New Contributor: Sandra ČAB</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Sandra%20%C4%8CAB\">Sandra ČAB</a>   <br>\nMapper since: 2024-04-09 16:16:07   <br>\nRegistration: 2024-04-09 16:14:38   <br>\nUID: 21291648   <br>\nFirst active near: Čiekurkalns (0.46 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/149784786\">149784786</a>   <br>\nEditor used: Every Door iOS 4.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Sandra%20%C4%8CAB\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Sandra%20%C4%8CAB\">https://osm.org/user/Sandra%20%C4%8CAB</a></p>",
+        "id": 432307974,
+        "sender_full_name": "RSS",
+        "timestamp": 1712686094
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Torators\">New Contributor: Torators</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Torators\">Torators</a>   <br>\nMapper since: 2024-04-15 11:34:49   <br>\nRegistration: 2021-03-26 20:12:55   <br>\nUID: 12932340   <br>\nFirst active near: Lielvārde (0.32 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/150033371\">150033371</a>   <br>\nEditor used: iD 2.28.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Torators\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Torators\">https://osm.org/user/Torators</a></p>",
+        "id": 433274432,
+        "sender_full_name": "RSS",
+        "timestamp": 1713183234
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/L%C4%81b%C4%81nkrogs\">New Contributor: Lābānkrogs</a></strong><br>\nContributor: <a href=\"https://osm.org/user/L%C4%81b%C4%81nkrogs\">Lābānkrogs</a>   <br>\nMapper since: 2024-04-15 17:35:50   <br>\nRegistration: 2024-04-15 17:26:10   <br>\nUID: 21310431   <br>\nFirst active near: Uzvaras (0.16 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/150050826\">150050826</a>   <br>\nEditor used: iD 2.28.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?L%C4%81b%C4%81nkrogs\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/L%C4%81b%C4%81nkrogs\">https://osm.org/user/L%C4%81b%C4%81nkrogs</a></p>",
+        "id": 433355868,
+        "sender_full_name": "RSS",
+        "timestamp": 1713204514
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/pittss\">New Contributor: pittss</a></strong><br>\nContributor: <a href=\"https://osm.org/user/pittss\">pittss</a>   <br>\nMapper since: 2024-04-18 12:00:01   <br>\nRegistration: 2020-04-29 14:32:17   <br>\nUID: 11102176   <br>\nFirst active near: Centrs (0.14 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/150171844\">150171844</a>   <br>\nEditor used: iD 2.28.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?pittss\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/pittss\">https://osm.org/user/pittss</a></p>",
+        "id": 434032090,
+        "sender_full_name": "RSS",
+        "timestamp": 1713442282
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/goldgus\">New Contributor: goldgus</a></strong><br>\nContributor: <a href=\"https://osm.org/user/goldgus\">goldgus</a>   <br>\nMapper since: 2024-04-19 16:49:32   <br>\nRegistration: 2024-04-19 16:41:17   <br>\nUID: 21326150   <br>\nFirst active near: Jaunliepāja (0.32 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/150233180\">150233180</a>   <br>\nEditor used: iD 2.28.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?goldgus\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/goldgus\">https://osm.org/user/goldgus</a></p>",
+        "id": 434411218,
+        "sender_full_name": "RSS",
+        "timestamp": 1713550033
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/elinakalve\">New Contributor: elinakalve</a></strong><br>\nContributor: <a href=\"https://osm.org/user/elinakalve\">elinakalve</a>   <br>\nMapper since: 2024-04-19 14:09:33   <br>\nRegistration: 2024-04-19 13:55:21   <br>\nUID: 21325643   <br>\nFirst active near: Teteri (0.59 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/150226026\">150226026</a>   <br>\nEditor used: iD 2.28.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?elinakalve\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/elinakalve\">https://osm.org/user/elinakalve</a></p>",
+        "id": 434411219,
+        "sender_full_name": "RSS",
+        "timestamp": 1713550033
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Centra%20Nams%20Center%20Apartments\">New Contributor: Centra Nams Center Apartments</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Centra%20Nams%20Center%20Apartments\">Centra Nams Center Apartments</a>   <br>\nMapper since: 2024-04-22 12:33:58   <br>\nRegistration: 2024-04-22 11:04:35   <br>\nUID: 21333548   <br>\nFirst active near: Cēsis (0.08 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/150344743\">150344743</a>   <br>\nEditor used: iD 2.28.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Centra%20Nams%20Center%20Apartments\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Centra%20Nams%20Center%20Apartments\">https://osm.org/user/Centra%20Nams%20Center%20Apartments</a></p>",
+        "id": 434815660,
+        "sender_full_name": "RSS",
+        "timestamp": 1713809266
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Za%C4%B7is\">New Contributor: Zaķis</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Za%C4%B7is\">Zaķis</a>   <br>\nMapper since: 2024-04-23 08:18:02   <br>\nRegistration: 2024-04-23 08:08:38   <br>\nUID: 21336563   <br>\nFirst active near: Avoti (0.97 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/150381579\">150381579</a>   <br>\nEditor used: iD 2.28.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Za%C4%B7is\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Za%C4%B7is\">https://osm.org/user/Za%C4%B7is</a></p>",
+        "id": 434970423,
+        "sender_full_name": "RSS",
+        "timestamp": 1713874371
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Ir_jau_aiz%C5%86emts_v%C4%81rds\">New Contributor: Ir_jau_aizņemts_vārds</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Ir_jau_aiz%C5%86emts_v%C4%81rds\">Ir_jau_aizņemts_vārds</a>   <br>\nMapper since: 2024-04-23 12:53:29   <br>\nRegistration: 2024-04-23 12:02:46   <br>\nUID: 21337515   <br>\nFirst active near: Rītabuļļi (1.60 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/150394337\">150394337</a>   <br>\nEditor used: iD 2.28.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Ir_jau_aiz%C5%86emts_v%C4%81rds\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Ir_jau_aiz%C5%86emts_v%C4%81rds\">https://osm.org/user/Ir_jau_aiz%C5%86emts_v%C4%81rds</a></p>",
+        "id": 435041563,
+        "sender_full_name": "RSS",
+        "timestamp": 1713895700
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/raaicha\">New Contributor: raaicha</a></strong><br>\nContributor: <a href=\"https://osm.org/user/raaicha\">raaicha</a>   <br>\nMapper since: 2024-04-25 08:28:45   <br>\nRegistration: 2024-04-25 08:22:04   <br>\nUID: 21345631   <br>\nFirst active near: Bražas (0.42 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/150482335\">150482335</a>   <br>\nEditor used: iD 2.29.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?raaicha\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/raaicha\">https://osm.org/user/raaicha</a></p>",
+        "id": 435374772,
+        "sender_full_name": "RSS",
+        "timestamp": 1714047034
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Ansisr\">New Contributor: Ansisr</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Ansisr\">Ansisr</a>   <br>\nMapper since: 2024-04-27 10:51:29   <br>\nRegistration: 2024-04-27 10:43:55   <br>\nUID: 21363404   <br>\nFirst active near: Maskavas forštate (0.57 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/150574070\">150574070</a>   <br>\nEditor used: Go Map!! 3.5.5   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Ansisr\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Ansisr\">https://osm.org/user/Ansisr</a></p>",
+        "id": 435752123,
+        "sender_full_name": "RSS",
+        "timestamp": 1714219823
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/clamp0y\">New Contributor: clamp0y</a></strong><br>\nContributor: <a href=\"https://osm.org/user/clamp0y\">clamp0y</a>   <br>\nMapper since: 2024-04-29 10:06:09   <br>\nRegistration: 2024-04-29 10:02:11   <br>\nUID: 21379376   <br>\nFirst active near: Centrs (0.58 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/150654873\">150654873</a>   <br>\nEditor used: iD 2.29.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?clamp0y\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/clamp0y\">https://osm.org/user/clamp0y</a></p>",
+        "id": 436027785,
+        "sender_full_name": "RSS",
+        "timestamp": 1714392760
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Raivo_RJ\">New Contributor: Raivo_RJ</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Raivo_RJ\">Raivo_RJ</a>   <br>\nMapper since: 2024-04-29 12:07:51   <br>\nRegistration: 2024-04-29 11:50:30   <br>\nUID: 21380075   <br>\nFirst active near: Vecliepāja (0.44 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/150660273\">150660273</a>   <br>\nEditor used: iD 2.29.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Raivo_RJ\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Raivo_RJ\">https://osm.org/user/Raivo_RJ</a></p>",
+        "id": 436109096,
+        "sender_full_name": "RSS",
+        "timestamp": 1714414111
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/karlistr\">New Contributor: karlistr</a></strong><br>\nContributor: <a href=\"https://osm.org/user/karlistr\">karlistr</a>   <br>\nMapper since: 2024-05-12 11:23:38   <br>\nRegistration: 2024-05-12 11:17:01   <br>\nUID: 21481337   <br>\nFirst active near: Stenderi (0.15 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/151220408\">151220408</a>   <br>\nEditor used: iD 2.29.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?karlistr\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/karlistr\">https://osm.org/user/karlistr</a></p>",
+        "id": 438180754,
+        "sender_full_name": "RSS",
+        "timestamp": 1715515922
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/KittenCake\">New Contributor: KittenCake</a></strong><br>\nContributor: <a href=\"https://osm.org/user/KittenCake\">KittenCake</a>   <br>\nMapper since: 2024-05-14 07:07:12   <br>\nRegistration: 2024-05-14 07:02:32   <br>\nUID: 21494508   <br>\nFirst active near: Tukums (0.33 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/151297175\">151297175</a>   <br>\nEditor used: iD 2.29.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?KittenCake\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/KittenCake\">https://osm.org/user/KittenCake</a></p>",
+        "id": 438562371,
+        "sender_full_name": "RSS",
+        "timestamp": 1715688752
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/thetorturedpoetsdepartment\">New Contributor: thetorturedpoetsdepartment</a></strong><br>\nContributor: <a href=\"https://osm.org/user/thetorturedpoetsdepartment\">thetorturedpoetsdepartment</a>   <br>\nMapper since: 2024-05-14 15:09:58   <br>\nRegistration: 2024-05-14 08:12:35   <br>\nUID: 21495131   <br>\nFirst active near: Strazdi (0.20 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/151317745\">151317745</a>   <br>\nEditor used: iD 2.29.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?thetorturedpoetsdepartment\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/thetorturedpoetsdepartment\">https://osm.org/user/thetorturedpoetsdepartment</a></p>",
+        "id": 438628155,
+        "sender_full_name": "RSS",
+        "timestamp": 1715710147
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/RDSilverhand\">New Contributor: RDSilverhand</a></strong><br>\nContributor: <a href=\"https://osm.org/user/RDSilverhand\">RDSilverhand</a>   <br>\nMapper since: 2024-05-16 18:32:37   <br>\nRegistration: 2024-05-16 18:15:07   <br>\nUID: 21519065   <br>\nFirst active near: Vecpilsēta (0.07 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/151422072\">151422072</a>   <br>\nEditor used: iD 2.29.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?RDSilverhand\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/RDSilverhand\">https://osm.org/user/RDSilverhand</a></p>",
+        "id": 439125172,
+        "sender_full_name": "RSS",
+        "timestamp": 1715905979
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Adaznieks\">New Contributor: Adaznieks</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Adaznieks\">Adaznieks</a>   <br>\nMapper since: 2024-05-17 20:51:01   <br>\nRegistration: 2024-05-17 20:46:26   <br>\nUID: 21527729   <br>\nFirst active near: Ieļi (1.68 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/151471631\">151471631</a>   <br>\nEditor used: iD 2.29.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Adaznieks\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Adaznieks\">https://osm.org/user/Adaznieks</a></p>",
+        "id": 439309694,
+        "sender_full_name": "RSS",
+        "timestamp": 1715992362
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/ttomst\">New Contributor: ttomst</a></strong><br>\nContributor: <a href=\"https://osm.org/user/ttomst\">ttomst</a>   <br>\nMapper since: 2024-05-22 15:24:05   <br>\nRegistration: 2024-05-22 09:34:24   <br>\nUID: 21560121   <br>\nFirst active near: Imanta (1.01 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/151681964\">151681964</a>   <br>\nEditor used: iD 2.29.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?ttomst\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/ttomst\">https://osm.org/user/ttomst</a></p>",
+        "id": 440153030,
+        "sender_full_name": "RSS",
+        "timestamp": 1716401369
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/yanx13\">New Contributor: yanx13</a></strong><br>\nContributor: <a href=\"https://osm.org/user/yanx13\">yanx13</a>   <br>\nMapper since: 2024-05-22 13:25:55   <br>\nRegistration: 2020-07-01 12:46:30   <br>\nUID: 11427564   <br>\nFirst active near: Zeltiņi (0.01 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/151676710\">151676710</a>   <br>\nEditor used: iD 2.29.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?yanx13\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/yanx13\">https://osm.org/user/yanx13</a></p>",
+        "id": 440153031,
+        "sender_full_name": "RSS",
+        "timestamp": 1716401369
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/nikolajs_saters\">New Contributor: nikolajs_saters</a></strong><br>\nContributor: <a href=\"https://osm.org/user/nikolajs_saters\">nikolajs_saters</a>   <br>\nMapper since: 2024-05-24 05:55:16   <br>\nRegistration: 2024-05-24 05:41:54   <br>\nUID: 21574639   <br>\nFirst active near: Pētersala (0.13 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/151751774\">151751774</a>   <br>\nEditor used: iD 2.29.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?nikolajs_saters\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/nikolajs_saters\">https://osm.org/user/nikolajs_saters</a></p>",
+        "id": 440444427,
+        "sender_full_name": "RSS",
+        "timestamp": 1716530965
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Daidamb\">New Contributor: Daidamb</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Daidamb\">Daidamb</a>   <br>\nMapper since: 2024-05-24 12:52:08   <br>\nRegistration: 2023-12-27 22:08:50   <br>\nUID: 20772311   <br>\nFirst active near: Rūtas (0.10 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/151768390\">151768390</a>   <br>\nEditor used: <a href=\"https://streetcomplete.app/\">StreetComplete</a> 57.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Daidamb\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Daidamb\">https://osm.org/user/Daidamb</a></p>",
+        "id": 440555743,
+        "sender_full_name": "RSS",
+        "timestamp": 1716574166
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Dola_27\">New Contributor: Dola_27</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Dola_27\">Dola_27</a>   <br>\nMapper since: 2024-06-03 06:06:35   <br>\nRegistration: 2024-06-03 06:02:51   <br>\nUID: 21619272   <br>\nFirst active near: Garciems (0.93 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/152184998\">152184998</a>   <br>\nEditor used: iD 2.29.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Dola_27\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Dola_27\">https://osm.org/user/Dola_27</a></p>",
+        "id": 442157010,
+        "sender_full_name": "RSS",
+        "timestamp": 1717395017
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/ItsMikyyy\">New Contributor: ItsMikyyy</a></strong><br>\nContributor: <a href=\"https://osm.org/user/ItsMikyyy\">ItsMikyyy</a>   <br>\nMapper since: 2024-06-06 09:33:05   <br>\nRegistration: 2024-06-06 09:29:45   <br>\nUID: 21630853   <br>\nFirst active near: Madona (0.26 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/152322254\">152322254</a>   <br>\nEditor used: iD 2.29.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?ItsMikyyy\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/ItsMikyyy\">https://osm.org/user/ItsMikyyy</a></p>",
+        "id": 443042866,
+        "sender_full_name": "RSS",
+        "timestamp": 1717676012
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Lussii\">New Contributor: Lussii</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Lussii\">Lussii</a>   <br>\nMapper since: 2024-06-12 18:24:28   <br>\nRegistration: 2024-06-12 18:04:25   <br>\nUID: 21651864   <br>\nFirst active near: Korbas (1.51 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/152600773\">152600773</a>   <br>\nEditor used: iD 2.29.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Lussii\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Lussii\">https://osm.org/user/Lussii</a></p>",
+        "id": 444356178,
+        "sender_full_name": "RSS",
+        "timestamp": 1718238856
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/TheWildFox\">New Contributor: TheWildFox</a></strong><br>\nContributor: <a href=\"https://osm.org/user/TheWildFox\">TheWildFox</a>   <br>\nMapper since: 2024-06-13 17:31:15   <br>\nRegistration: 2024-06-13 12:27:35   <br>\nUID: 21654666   <br>\nFirst active near: Eglīte (0.17 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/152643675\">152643675</a>   <br>\nEditor used: JOSM/1.5 (19096 en)   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?TheWildFox\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/TheWildFox\">https://osm.org/user/TheWildFox</a></p>",
+        "id": 444528071,
+        "sender_full_name": "RSS",
+        "timestamp": 1718302169
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Bleghdgsgag\">New Contributor: Bleghdgsgag</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Bleghdgsgag\">Bleghdgsgag</a>   <br>\nMapper since: 2024-06-14 19:37:55   <br>\nRegistration: 2024-06-14 19:36:27   <br>\nUID: 21659221   <br>\nFirst active near: Centrs (0.27 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/152695898\">152695898</a>   <br>\nEditor used: Every Door Android 5.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Bleghdgsgag\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Bleghdgsgag\">https://osm.org/user/Bleghdgsgag</a></p>",
+        "id": 444811760,
+        "sender_full_name": "RSS",
+        "timestamp": 1718411630
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Stendera%20biedr%C4%ABba\">New Contributor: Stendera biedrība</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Stendera%20biedr%C4%ABba\">Stendera biedrība</a>   <br>\nMapper since: 2024-06-16 06:57:21   <br>\nRegistration: 2024-05-12 15:12:04   <br>\nUID: 21482816   <br>\nFirst active near: Stenderi (0.41 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/152747270\">152747270</a>   <br>\nEditor used: iD 2.29.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Stendera%20biedr%C4%ABba\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Stendera%20biedr%C4%ABba\">https://osm.org/user/Stendera%20biedr%C4%ABba</a></p>",
+        "id": 444971151,
+        "sender_full_name": "RSS",
+        "timestamp": 1718539935
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/M%C4%81risD\">New Contributor: MārisD</a></strong><br>\nContributor: <a href=\"https://osm.org/user/M%C4%81risD\">MārisD</a>   <br>\nMapper since: 2024-06-17 18:36:05   <br>\nRegistration: 2017-12-17 13:39:02   <br>\nUID: 7268361   <br>\nFirst active near: Jaunliepāja (0.18 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/152815144\">152815144</a>   <br>\nEditor used: iD 2.29.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?M%C4%81risD\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/M%C4%81risD\">https://osm.org/user/M%C4%81risD</a></p>",
+        "id": 445249366,
+        "sender_full_name": "RSS",
+        "timestamp": 1718670890
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/edzuslv\">New Contributor: edzuslv</a></strong><br>\nContributor: <a href=\"https://osm.org/user/edzuslv\">edzuslv</a>   <br>\nMapper since: 2024-06-26 09:25:35   <br>\nRegistration: 2024-06-26 09:18:19   <br>\nUID: 21694933   <br>\nFirst active near: Tilderi (0.52 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/153193588\">153193588</a>   <br>\nEditor used: iD 2.29.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?edzuslv\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/edzuslv\">https://osm.org/user/edzuslv</a></p>",
+        "id": 447201425,
+        "sender_full_name": "RSS",
+        "timestamp": 1719404059
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/KristaViola\">New Contributor: KristaViola</a></strong><br>\nContributor: <a href=\"https://osm.org/user/KristaViola\">KristaViola</a>   <br>\nMapper since: 2024-06-26 07:19:17   <br>\nRegistration: 2024-06-26 07:03:42   <br>\nUID: 21694393   <br>\nFirst active near: Olaine (0.59 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/153187679\">153187679</a>   <br>\nEditor used: iD 2.29.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?KristaViola\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/KristaViola\">https://osm.org/user/KristaViola</a></p>",
+        "id": 447201426,
+        "sender_full_name": "RSS",
+        "timestamp": 1719404059
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Reseeirox\">New Contributor: Reseeirox</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Reseeirox\">Reseeirox</a>   <br>\nMapper since: 2024-06-29 19:01:12   <br>\nRegistration: 2024-06-29 18:20:29   <br>\nUID: 21706905   <br>\nFirst active near: Piņķi (0.46 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/153344478\">153344478</a>   <br>\nEditor used: iD 2.29.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Reseeirox\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Reseeirox\">https://osm.org/user/Reseeirox</a></p>",
+        "id": 448052371,
+        "sender_full_name": "RSS",
+        "timestamp": 1719707894
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Minajevs\">New Contributor: Minajevs</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Minajevs\">Minajevs</a>   <br>\nMapper since: 2024-06-30 11:56:46   <br>\nRegistration: 2024-06-30 11:52:26   <br>\nUID: 21708543   <br>\nFirst active near: Mežaparks (1.34 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/153365710\">153365710</a>   <br>\nEditor used: Organic Maps ios 2024.06.19   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Minajevs\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Minajevs\">https://osm.org/user/Minajevs</a></p>",
+        "id": 448109955,
+        "sender_full_name": "RSS",
+        "timestamp": 1719749565
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Haikus\">New Contributor: Haikus</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Haikus\">Haikus</a>   <br>\nMapper since: 2024-07-03 20:51:46   <br>\nRegistration: 2024-07-03 20:46:42   <br>\nUID: 21719931   <br>\nFirst active near: Zasulauks (0.72 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/153519617\">153519617</a>   <br>\nEditor used: iD 2.29.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Haikus\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Haikus\">https://osm.org/user/Haikus</a></p>",
+        "id": 448975111,
+        "sender_full_name": "RSS",
+        "timestamp": 1720053272
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/ci7rons\">New Contributor: ci7rons</a></strong><br>\nContributor: <a href=\"https://osm.org/user/ci7rons\">ci7rons</a>   <br>\nMapper since: 2024-07-04 21:33:09   <br>\nRegistration: 2024-07-03 11:10:42   <br>\nUID: 21718315   <br>\nFirst active near: Maskavas forštate (0.82 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/153565835\">153565835</a>   <br>\nEditor used: Every Door iOS 5.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?ci7rons\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/ci7rons\">https://osm.org/user/ci7rons</a></p>",
+        "id": 449186429,
+        "sender_full_name": "RSS",
+        "timestamp": 1720139682
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/organicman\">New Contributor: organicman</a></strong><br>\nContributor: <a href=\"https://osm.org/user/organicman\">organicman</a>   <br>\nMapper since: 2024-07-07 19:37:55   <br>\nRegistration: 2024-07-07 11:34:22   <br>\nUID: 21730721   <br>\nFirst active near: Centrs (0.24 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/153676197\">153676197</a>   <br>\nEditor used: Organic Maps ios 2024.06.19   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?organicman\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/organicman\">https://osm.org/user/organicman</a></p>",
+        "id": 449741646,
+        "sender_full_name": "RSS",
+        "timestamp": 1720398982
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Kinichater\">New Contributor: Kinichater</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Kinichater\">Kinichater</a>   <br>\nMapper since: 2024-07-10 17:59:02   <br>\nRegistration: 2024-07-10 17:55:34   <br>\nUID: 21743279   <br>\nFirst active near: Majori (0.23 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/153795161\">153795161</a>   <br>\nEditor used: <a href=\"https://streetcomplete.app/\">StreetComplete</a> 58.2   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Kinichater\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Kinichater\">https://osm.org/user/Kinichater</a></p>",
+        "id": 450525439,
+        "sender_full_name": "RSS",
+        "timestamp": 1720635028
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/juginko\">New Contributor: juginko</a></strong><br>\nContributor: <a href=\"https://osm.org/user/juginko\">juginko</a>   <br>\nMapper since: 2024-07-12 10:18:43   <br>\nRegistration: 2024-07-01 08:11:19   <br>\nUID: 21710814   <br>\nFirst active near: Dārzciems (0.63 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/153848839\">153848839</a>   <br>\nEditor used: iD 2.29.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?juginko\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/juginko\">https://osm.org/user/juginko</a></p>",
+        "id": 450954365,
+        "sender_full_name": "RSS",
+        "timestamp": 1720786458
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/techyluna\">New Contributor: techyluna</a></strong><br>\nContributor: <a href=\"https://osm.org/user/techyluna\">techyluna</a>   <br>\nMapper since: 2024\\-07\\-15 23:34:07   <br>\nRegistration: 2024\\-07\\-15 23:31:26   <br>\nUID: 21757561   <br>\nFirst active near: Rīga (0\\.45 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/153992960\">153992960</a>   <br>\nEditor used: Every Door Android 5\\.1   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?techyluna\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/techyluna\">https://osm.org/user/techyluna</a></p>",
+        "id": 451656110,
+        "sender_full_name": "RSS",
+        "timestamp": 1721090148
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Gabusab\">New Contributor: Gabusab</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Gabusab\">Gabusab</a>   <br>\nMapper since: 2024\\-07\\-19 18:53:22   <br>\nRegistration: 2015\\-09\\-20 03:42:05   <br>\nUID: 3250877   <br>\nFirst active near: Spuldzes (0\\.58 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/154155148\">154155148</a>   <br>\nEditor used: iD 2\\.29\\.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Gabusab\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Gabusab\">https://osm.org/user/Gabusab</a></p>",
+        "id": 452690150,
+        "sender_full_name": "RSS",
+        "timestamp": 1721435701
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/krikepu\">New Contributor: krikepu</a></strong><br>\nContributor: <a href=\"https://osm.org/user/krikepu\">krikepu</a>   <br>\nMapper since: 2024\\-07\\-20 17:46:55   <br>\nRegistration: 2024\\-07\\-20 17:24:14   <br>\nUID: 21771893   <br>\nFirst active near: Torņakalns (0\\.37 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/154189891\">154189891</a>   <br>\nEditor used: iD 2\\.29\\.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?krikepu\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/krikepu\">https://osm.org/user/krikepu</a></p>",
+        "id": 452872971,
+        "sender_full_name": "RSS",
+        "timestamp": 1721498974
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Cato_001\">New Contributor: Cato_001</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Cato_001\">Cato_001</a>   <br>\nMapper since: 2024\\-07\\-20 13:19:38   <br>\nRegistration: 2024\\-07\\-20 11:23:39   <br>\nUID: 21771203   <br>\nFirst active near: Vecrīga (0\\.53 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/154179276\">154179276</a>   <br>\nEditor used: Organic Maps android 2024\\.07\\.08\\-3\\-FDroid   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Cato_001\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Cato_001\">https://osm.org/user/Cato_001</a></p>",
+        "id": 452872972,
+        "sender_full_name": "RSS",
+        "timestamp": 1721498974
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/galvsape\">New Contributor: galvsape</a></strong><br>\nContributor: <a href=\"https://osm.org/user/galvsape\">galvsape</a>   <br>\nMapper since: 2024\\-07\\-23 17:35:03   <br>\nRegistration: 2024\\-01\\-26 16:53:44   <br>\nUID: 20939339   <br>\nFirst active near: Sila Māja (0\\.31 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/154317668\">154317668</a>   <br>\nEditor used: iD 2\\.29\\.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?galvsape\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/galvsape\">https://osm.org/user/galvsape</a></p>",
+        "id": 453483943,
+        "sender_full_name": "RSS",
+        "timestamp": 1721758196
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/AlexaTheLemon\">New Contributor: AlexaTheLemon</a></strong><br>\nContributor: <a href=\"https://osm.org/user/AlexaTheLemon\">AlexaTheLemon</a>   <br>\nMapper since: 2024\\-07\\-28 09:51:47   <br>\nRegistration: 2024\\-07\\-28 09:41:47   <br>\nUID: 21794853   <br>\nFirst active near: Balodīši (0\\.50 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/154512830\">154512830</a>   <br>\nEditor used: Organic Maps ios 2024\\.07\\.08   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?AlexaTheLemon\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/AlexaTheLemon\">https://osm.org/user/AlexaTheLemon</a></p>",
+        "id": 454607341,
+        "sender_full_name": "RSS",
+        "timestamp": 1722168743
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Kristaps%20Cudars\">New Contributor: Kristaps Cudars</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Kristaps%20Cudars\">Kristaps Cudars</a>   <br>\nMapper since: 2024\\-08\\-01 06:15:00   <br>\nRegistration: 2024\\-08\\-01 06:04:24   <br>\nUID: 21807134   <br>\nFirst active near: Pārogre (0\\.22 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/154677509\">154677509</a>   <br>\nEditor used: iD 2\\.29\\.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Kristaps%20Cudars\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Kristaps%20Cudars\">https://osm.org/user/Kristaps%20Cudars</a></p>",
+        "id": 455631495,
+        "sender_full_name": "RSS",
+        "timestamp": 1722514426
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/ParrotLife\">New Contributor: ParrotLife</a></strong><br>\nContributor: <a href=\"https://osm.org/user/ParrotLife\">ParrotLife</a>   <br>\nMapper since: 2024\\-08\\-03 21:35:21   <br>\nRegistration: 2024\\-08\\-03 21:32:02   <br>\nUID: 21815411   <br>\nFirst active near: Kalnaklaukas (0\\.25 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/154790597\">154790597</a>   <br>\nEditor used: <a href=\"https://streetcomplete.app/\">StreetComplete</a> 58\\.2   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?ParrotLife\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/ParrotLife\">https://osm.org/user/ParrotLife</a></p>",
+        "id": 456245789,
+        "sender_full_name": "RSS",
+        "timestamp": 1722731966
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Artavg3\">New Contributor: Artavg3</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Artavg3\">Artavg3</a>   <br>\nMapper since: 2024\\-08\\-04 17:47:00   <br>\nRegistration: 2024\\-08\\-03 06:37:20   <br>\nUID: 21813542   <br>\nFirst active near: Liepas (1\\.26 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/154823633\">154823633</a>   <br>\nEditor used: iD 2\\.29\\.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Artavg3\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Artavg3\">https://osm.org/user/Artavg3</a></p>",
+        "id": 456367255,
+        "sender_full_name": "RSS",
+        "timestamp": 1722794931
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/vsrt\">New Contributor: vsrt</a></strong><br>\nContributor: <a href=\"https://osm.org/user/vsrt\">vsrt</a>   <br>\nMapper since: 2024\\-08\\-05 10:36:05   <br>\nRegistration: 2024\\-08\\-04 18:31:24   <br>\nUID: 21817652   <br>\nFirst active near: Grīziņkalns (1\\.06 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/154843768\">154843768</a>   <br>\nEditor used: <a href=\"https://streetcomplete.app/\">StreetComplete</a> 58\\.2   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?vsrt\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/vsrt\">https://osm.org/user/vsrt</a></p>",
+        "id": 456529125,
+        "sender_full_name": "RSS",
+        "timestamp": 1722860065
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Juris788\">New Contributor: Juris788</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Juris788\">Juris788</a>   <br>\nMapper since: 2024\\-08\\-06 05:20:02   <br>\nRegistration: 2020\\-08\\-16 06:37:15   <br>\nUID: 11659012   <br>\nFirst active near: Centrs (0\\.62 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/154875918\">154875918</a>   <br>\nEditor used: Organic Maps android 2024\\.07\\.29\\-2\\-Google   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Juris788\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Juris788\">https://osm.org/user/Juris788</a></p>",
+        "id": 456776611,
+        "sender_full_name": "RSS",
+        "timestamp": 1722924731
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/linda_nng\">New Contributor: linda_nng</a></strong><br>\nContributor: <a href=\"https://osm.org/user/linda_nng\">linda_nng</a>   <br>\nMapper since: 2024\\-08\\-06 13:30:53   <br>\nRegistration: 2024\\-08\\-06 13:20:49   <br>\nUID: 21822965   <br>\nFirst active near: Jaunaudzīši (0\\.00 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/154893779\">154893779</a>   <br>\nEditor used: iD 2\\.29\\.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?linda_nng\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/linda_nng\">https://osm.org/user/linda_nng</a></p>",
+        "id": 456923272,
+        "sender_full_name": "RSS",
+        "timestamp": 1722967866
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Kriss%20Klein\">New Contributor: Kriss Klein</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Kriss%20Klein\">Kriss Klein</a>   <br>\nMapper since: 2024\\-08\\-08 09:54:03   <br>\nRegistration: 2024\\-08\\-08 09:45:33   <br>\nUID: 21829096   <br>\nFirst active near: Atgāzene (0\\.41 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/154970337\">154970337</a>   <br>\nEditor used: iD 2\\.29\\.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Kriss%20Klein\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Kriss%20Klein\">https://osm.org/user/Kriss%20Klein</a></p>",
+        "id": 457350454,
+        "sender_full_name": "RSS",
+        "timestamp": 1723119210
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Kedra%20Homes\">New Contributor: Kedra Homes</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Kedra%20Homes\">Kedra Homes</a>   <br>\nMapper since: 2024\\-08\\-10 21:12:18   <br>\nRegistration: 2024\\-08\\-10 21:03:22   <br>\nUID: 21836726   <br>\nFirst active near: Krimberģi (0\\.26 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/155078791\">155078791</a>   <br>\nEditor used: iD 2\\.29\\.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Kedra%20Homes\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Kedra%20Homes\">https://osm.org/user/Kedra%20Homes</a></p>",
+        "id": 459785371,
+        "sender_full_name": "RSS",
+        "timestamp": 1723336808
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/TomassAndersons\">New Contributor: TomassAndersons</a></strong><br>\nContributor: <a href=\"https://osm.org/user/TomassAndersons\">TomassAndersons</a>   <br>\nMapper since: 2024\\-08\\-11 16:59:57   <br>\nRegistration: 2024\\-08\\-11 16:53:54   <br>\nUID: 21839118   <br>\nFirst active near: Limbaži (0\\.18 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/155113099\">155113099</a>   <br>\nEditor used: <a href=\"https://streetcomplete.app/\">StreetComplete</a> 58\\.2   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?TomassAndersons\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/TomassAndersons\">https://osm.org/user/TomassAndersons</a></p>",
+        "id": 459923692,
+        "sender_full_name": "RSS",
+        "timestamp": 1723399848
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Valters%20Melnalksnis\">New Contributor: Valters Melnalksnis</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Valters%20Melnalksnis\">Valters Melnalksnis</a>   <br>\nMapper since: 2024\\-08\\-11 15:06:09   <br>\nRegistration: 2022\\-10\\-25 17:34:44   <br>\nUID: 17488419   <br>\nFirst active near: Saulkrasti (0\\.35 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/155107434\">155107434</a>   <br>\nEditor used: <a href=\"https://streetcomplete.app/\">StreetComplete</a> 58\\.2   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Valters%20Melnalksnis\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Valters%20Melnalksnis\">https://osm.org/user/Valters%20Melnalksnis</a></p>",
+        "id": 459923693,
+        "sender_full_name": "RSS",
+        "timestamp": 1723399848
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/SandyMandy12\">New Contributor: SandyMandy12</a></strong><br>\nContributor: <a href=\"https://osm.org/user/SandyMandy12\">SandyMandy12</a>   <br>\nMapper since: 2024\\-08\\-11 12:27:13   <br>\nRegistration: 2024\\-08\\-11 12:20:15   <br>\nUID: 21838400   <br>\nFirst active near: Zalve (0\\.18 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/155100010\">155100010</a>   <br>\nEditor used: OsmAnd\\~ 4\\.8\\.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?SandyMandy12\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/SandyMandy12\">https://osm.org/user/SandyMandy12</a></p>",
+        "id": 459923694,
+        "sender_full_name": "RSS",
+        "timestamp": 1723399848
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Teo%20Valatkevicius\">New Contributor: Teo Valatkevicius</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Teo%20Valatkevicius\">Teo Valatkevicius</a>   <br>\nMapper since: 2024\\-08\\-14 15:01:08   <br>\nRegistration: 2022\\-10\\-13 07:36:23   <br>\nUID: 17398382   <br>\nFirst active near: Dzintari (0\\.29 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/155245810\">155245810</a>   <br>\nEditor used: Organic Maps ios 2024\\.07\\.27   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Teo%20Valatkevicius\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Teo%20Valatkevicius\">https://osm.org/user/Teo%20Valatkevicius</a></p>",
+        "id": 462395420,
+        "sender_full_name": "RSS",
+        "timestamp": 1723659000
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/aleksf87\">New Contributor: aleksf87</a></strong><br>\nContributor: <a href=\"https://osm.org/user/aleksf87\">aleksf87</a>   <br>\nMapper since: 2024\\-08\\-23 14:47:25   <br>\nRegistration: 2024\\-08\\-23 14:35:23   <br>\nUID: 21879661   <br>\nFirst active near: Marimonts (2\\.48 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/155657292\">155657292</a>   <br>\nEditor used: iD 2\\.30\\.2   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?aleksf87\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/aleksf87\">https://osm.org/user/aleksf87</a></p>",
+        "id": 464712487,
+        "sender_full_name": "RSS",
+        "timestamp": 1724436627
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/J%C4%81nis%20Upenieks\">New Contributor: Jānis Upenieks</a></strong><br>\nContributor: <a href=\"https://osm.org/user/J%C4%81nis%20Upenieks\">Jānis Upenieks</a>   <br>\nMapper since: 2024\\-08\\-28 18:18:12   <br>\nRegistration: 2023\\-09\\-17 18:38:46   <br>\nUID: 20273302   <br>\nFirst active near: Kleisti (2\\.15 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/155894543\">155894543</a>   <br>\nEditor used: iD 2\\.30\\.2   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?J%C4%81nis%20Upenieks\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/J%C4%81nis%20Upenieks\">https://osm.org/user/J%C4%81nis%20Upenieks</a></p>",
+        "id": 465871062,
+        "sender_full_name": "RSS",
+        "timestamp": 1724891861
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Priek%C5%A1nieks\">New Contributor: Priekšnieks</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Priek%C5%A1nieks\">Priekšnieks</a>   <br>\nMapper since: 2024\\-08\\-29 08:23:33   <br>\nRegistration: 2024\\-08\\-28 09:34:26   <br>\nUID: 21894807   <br>\nFirst active near: Torņakalns (0\\.77 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/155915459\">155915459</a>   <br>\nEditor used: iD 2\\.30\\.2   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Priek%C5%A1nieks\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Priek%C5%A1nieks\">https://osm.org/user/Priek%C5%A1nieks</a></p>",
+        "id": 465997345,
+        "sender_full_name": "RSS",
+        "timestamp": 1724933676
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Janis_Puga\">New Contributor: Janis_Puga</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Janis_Puga\">Janis_Puga</a>   <br>\nMapper since: 2024\\-08\\-30 08:52:53   <br>\nRegistration: 2024\\-08\\-30 08:48:32   <br>\nUID: 21902207   <br>\nFirst active near: Jaunliepāja (0\\.50 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/155962671\">155962671</a>   <br>\nEditor used: iD 2\\.30\\.2   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Janis_Puga\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Janis_Puga\">https://osm.org/user/Janis_Puga</a></p>",
+        "id": 466254676,
+        "sender_full_name": "RSS",
+        "timestamp": 1725020042
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/A_G21\">New Contributor: A_G21</a></strong><br>\nContributor: <a href=\"https://osm.org/user/A_G21\">A_G21</a>   <br>\nMapper since: 2024\\-08\\-31 09:44:25   <br>\nRegistration: 2024\\-08\\-31 09:40:22   <br>\nUID: 21905513   <br>\nFirst active near: Vecrīga (0\\.95 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/156006253\">156006253</a>   <br>\nEditor used: iD 2\\.30\\.2   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?A_G21\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/A_G21\">https://osm.org/user/A_G21</a></p>",
+        "id": 466519146,
+        "sender_full_name": "RSS",
+        "timestamp": 1725106371
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/_%3AKris\">New Contributor: _:Kris</a></strong><br>\nContributor: <a href=\"https://osm.org/user/_%3AKris\">_:Kris</a>   <br>\nMapper since: 2024\\-09\\-03 08:09:07   <br>\nRegistration: 2024\\-09\\-03 08:06:05   <br>\nUID: 21914249   <br>\nFirst active near: Sigulda (0\\.93 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/156130372\">156130372</a>   <br>\nEditor used: <a href=\"https://streetcomplete.app/\">StreetComplete</a> 58\\.2   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?_%3AKris\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/_%3AKris\">https://osm.org/user/_%3AKris</a></p>",
+        "id": 467231127,
+        "sender_full_name": "RSS",
+        "timestamp": 1725365663
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/evilpingus\">New Contributor: evilpingus</a></strong><br>\nContributor: <a href=\"https://osm.org/user/evilpingus\">evilpingus</a>   <br>\nMapper since: 2024\\-09\\-04 12:28:06   <br>\nRegistration: 2018\\-05\\-24 22:25:34   <br>\nUID: 8325125   <br>\nFirst active near: Jaunliepāja (1\\.76 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/156183992\">156183992</a>   <br>\nEditor used: <a href=\"https://streetcomplete.app/\">StreetComplete</a> 58\\.2   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?evilpingus\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/evilpingus\">https://osm.org/user/evilpingus</a></p>",
+        "id": 467624811,
+        "sender_full_name": "RSS",
+        "timestamp": 1725473423
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/MarisKuzmins\">New Contributor: MarisKuzmins</a></strong><br>\nContributor: <a href=\"https://osm.org/user/MarisKuzmins\">MarisKuzmins</a>   <br>\nMapper since: 2024\\-09\\-18 09:12:28   <br>\nRegistration: 2024\\-09\\-18 09:07:13   <br>\nUID: 21968566   <br>\nFirst active near: Priežsalas (0\\.23 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/156762628\">156762628</a>   <br>\nEditor used: iD 2\\.30\\.2   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?MarisKuzmins\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/MarisKuzmins\">https://osm.org/user/MarisKuzmins</a></p>",
+        "id": 471243825,
+        "sender_full_name": "RSS",
+        "timestamp": 1726661690
+    },
+    {
+        "content": "<p>**<a href=\"https://osm.org/user/Aleksej%60\">New Contributor: Aleksej<code>](https://osm.org/user/Aleksej%60)**\nContributor: [Aleksej\\</code></a>   <br>\nMapper since: 2024\\-09\\-18 18:08:07   <br>\nRegistration: 2024\\-09\\-18 17:44:03   <br>\nUID: 21970635   <br>\nFirst active near: Daugavgrīva (0\\.51 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/156786717\">156786717</a>   <br>\nEditor used: iD 2\\.30\\.2   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Aleksej%60\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Aleksej%60\">https://osm.org/user/Aleksej%60</a></p>",
+        "id": 471319849,
+        "sender_full_name": "RSS",
+        "timestamp": 1726683051
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Big%20Knoop\">New Contributor: Big Knoop</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Big%20Knoop\">Big Knoop</a>   <br>\nMapper since: 2024\\-09\\-18 16:50:59   <br>\nRegistration: 2024\\-09\\-18 15:44:16   <br>\nUID: 21970229   <br>\nFirst active near: (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/156783213\">156783213</a>   <br>\nEditor used: iD 2\\.30\\.2   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Big%20Knoop\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Big%20Knoop\">https://osm.org/user/Big%20Knoop</a></p>",
+        "id": 471319850,
+        "sender_full_name": "RSS",
+        "timestamp": 1726683051
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Rinalds\">New Contributor: Rinalds</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Rinalds\">Rinalds</a>   <br>\nMapper since: 2024\\-09\\-19 21:18:25   <br>\nRegistration: 2024\\-09\\-19 20:53:52   <br>\nUID: 21975359   <br>\nFirst active near: Krustiņi (0\\.28 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/156840974\">156840974</a>   <br>\nEditor used: iD 2\\.30\\.2   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Rinalds\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Rinalds\">https://osm.org/user/Rinalds</a></p>",
+        "id": 471583791,
+        "sender_full_name": "RSS",
+        "timestamp": 1726792767
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Andrejs%20Za%C4%BCetovs\">New Contributor: Andrejs Zaļetovs</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Andrejs%20Za%C4%BCetovs\">Andrejs Zaļetovs</a>   <br>\nMapper since: 2024\\-09\\-20 20:34:59   <br>\nRegistration: 2024\\-09\\-19 20:37:31   <br>\nUID: 21975316   <br>\nFirst active near: Sloka (1\\.29 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/156886377\">156886377</a>   <br>\nEditor used: iD 2\\.30\\.2   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Andrejs%20Za%C4%BCetovs\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Andrejs%20Za%C4%BCetovs\">https://osm.org/user/Andrejs%20Za%C4%BCetovs</a></p>",
+        "id": 471857037,
+        "sender_full_name": "RSS",
+        "timestamp": 1726879121
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Vucers\">New Contributor: Vucers</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Vucers\">Vucers</a>   <br>\nMapper since: 2024\\-09\\-22 17:08:35   <br>\nRegistration: 2024\\-09\\-20 07:59:32   <br>\nUID: 21976798   <br>\nFirst active near: Silāji (0\\.02 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/156961497\">156961497</a>   <br>\nEditor used: iD 2\\.30\\.2   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Vucers\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Vucers\">https://osm.org/user/Vucers</a></p>",
+        "id": 472069389,
+        "sender_full_name": "RSS",
+        "timestamp": 1727028585
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/gustafm\">New Contributor: gustafm</a></strong><br>\nContributor: <a href=\"https://osm.org/user/gustafm\">gustafm</a>   <br>\nMapper since: 2024\\-09\\-22 20:22:15   <br>\nRegistration: 2024\\-09\\-22 20:00:07   <br>\nUID: 21984644   <br>\nFirst active near: Jaunābeles (1\\.85 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/156968182\">156968182</a>   <br>\nEditor used: iD 2\\.30\\.2   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?gustafm\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/gustafm\">https://osm.org/user/gustafm</a></p>",
+        "id": 472104298,
+        "sender_full_name": "RSS",
+        "timestamp": 1727052079
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Dejelnieks\">New Contributor: Dejelnieks</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Dejelnieks\">Dejelnieks</a>   <br>\nMapper since: 2024\\-09\\-25 01:43:36   <br>\nRegistration: 2024\\-09\\-25 01:30:24   <br>\nUID: 21993354   <br>\nFirst active near: Cukurfabrika (0\\.92 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/157061140\">157061140</a>   <br>\nEditor used: iD 2\\.30\\.2   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Dejelnieks\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Dejelnieks\">https://osm.org/user/Dejelnieks</a></p>",
+        "id": 472620419,
+        "sender_full_name": "RSS",
+        "timestamp": 1727244744
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/radzeens\">New Contributor: radzeens</a></strong><br>\nContributor: <a href=\"https://osm.org/user/radzeens\">radzeens</a>   <br>\nMapper since: 2024\\-09\\-29 14:40:58   <br>\nRegistration: 2024\\-09\\-29 14:27:31   <br>\nUID: 22010413   <br>\nFirst active near: Čiekurkalns (0\\.60 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/157257248\">157257248</a>   <br>\nEditor used: iD 2\\.30\\.2   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?radzeens\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/radzeens\">https://osm.org/user/radzeens</a></p>",
+        "id": 473475824,
+        "sender_full_name": "RSS",
+        "timestamp": 1727633410
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/K%C4%81rlis%20J%C4%81nis%20Muzikants\">New Contributor: Kārlis Jānis Muzikants</a></strong><br>\nContributor: <a href=\"https://osm.org/user/K%C4%81rlis%20J%C4%81nis%20Muzikants\">Kārlis Jānis Muzikants</a>   <br>\nMapper since: 2024\\-09\\-29 21:17:08   <br>\nRegistration: 2024\\-09\\-29 21:12:45   <br>\nUID: 22011313   <br>\nFirst active near: Grīziņkalns (0\\.25 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/157271343\">157271343</a>   <br>\nEditor used: iD 2\\.30\\.2   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?K%C4%81rlis%20J%C4%81nis%20Muzikants\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/K%C4%81rlis%20J%C4%81nis%20Muzikants\">https://osm.org/user/K%C4%81rlis%20J%C4%81nis%20Muzikants</a></p>",
+        "id": 473512521,
+        "sender_full_name": "RSS",
+        "timestamp": 1727656954
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/KPK_RTU\">New Contributor: KPK_RTU</a></strong><br>\nContributor: <a href=\"https://osm.org/user/KPK_RTU\">KPK_RTU</a>   <br>\nMapper since: 2024\\-09\\-30 09:23:48   <br>\nRegistration: 2024\\-09\\-18 15:00:26   <br>\nUID: 21970090   <br>\nFirst active near: Ziepniekkalns (0\\.31 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/157287656\">157287656</a>   <br>\nEditor used: iD 2\\.30\\.2   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?KPK_RTU\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/KPK_RTU\">https://osm.org/user/KPK_RTU</a></p>",
+        "id": 473709445,
+        "sender_full_name": "RSS",
+        "timestamp": 1727698596
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Melku_2004\">New Contributor: Melku_2004</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Melku_2004\">Melku_2004</a>   <br>\nMapper since: 2024\\-10\\-01 11:44:59   <br>\nRegistration: 2024\\-10\\-01 09:30:58   <br>\nUID: 22017183   <br>\nFirst active near: Jelgavas Vidus (0\\.30 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/157335315\">157335315</a>   <br>\nEditor used: iD 2\\.30\\.2   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Melku_2004\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Melku_2004\">https://osm.org/user/Melku_2004</a></p>",
+        "id": 474022180,
+        "sender_full_name": "RSS",
+        "timestamp": 1727784967
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/_KinaD_\">New Contributor: _KinaD_</a></strong><br>\nContributor: <a href=\"https://osm.org/user/_KinaD_\">_KinaD_</a>   <br>\nMapper since: 2024\\-10\\-01 08:41:21   <br>\nRegistration: 2024\\-10\\-01 08:16:44   <br>\nUID: 22016886   <br>\nFirst active near: Pleskodāle (0\\.53 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/157327617\">157327617</a>   <br>\nEditor used: iD 2\\.30\\.2   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?_KinaD_\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/_KinaD_\">https://osm.org/user/_KinaD_</a></p>",
+        "id": 474022182,
+        "sender_full_name": "RSS",
+        "timestamp": 1727784967
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/PolinaGlonina\">New Contributor: PolinaGlonina</a></strong><br>\nContributor: <a href=\"https://osm.org/user/PolinaGlonina\">PolinaGlonina</a>   <br>\nMapper since: 2024\\-10\\-07 20:10:56   <br>\nRegistration: 2024\\-09\\-30 19:27:04   <br>\nUID: 22015190   <br>\nFirst active near: Dižbārdi (1\\.18 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/157597941\">157597941</a>   <br>\nEditor used: iD 2\\.30\\.3   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?PolinaGlonina\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/PolinaGlonina\">https://osm.org/user/PolinaGlonina</a></p>",
+        "id": 475429962,
+        "sender_full_name": "RSS",
+        "timestamp": 1728348041
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Robert_Hermann\">New Contributor: Robert_Hermann</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Robert_Hermann\">Robert_Hermann</a>   <br>\nMapper since: 2024\\-10\\-08 10:17:21   <br>\nRegistration: 2024\\-10\\-08 10:14:10   <br>\nUID: 22043168   <br>\nFirst active near: Vecrīga (0\\.10 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/157619056\">157619056</a>   <br>\nEditor used: Organic Maps android 2024\\.09\\.19\\-2\\-Google   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Robert_Hermann\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Robert_Hermann\">https://osm.org/user/Robert_Hermann</a></p>",
+        "id": 475547586,
+        "sender_full_name": "RSS",
+        "timestamp": 1728389733
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/JaKaMa\">New Contributor: JaKaMa</a></strong><br>\nContributor: <a href=\"https://osm.org/user/JaKaMa\">JaKaMa</a>   <br>\nMapper since: 2024\\-10\\-09 19:42:58   <br>\nRegistration: 2024\\-10\\-09 19:26:22   <br>\nUID: 22049410   <br>\nFirst active near: Ziedoņi (0\\.11 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/157687359\">157687359</a>   <br>\nEditor used: iD 2\\.30\\.4   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?JaKaMa\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/JaKaMa\">https://osm.org/user/JaKaMa</a></p>",
+        "id": 475985112,
+        "sender_full_name": "RSS",
+        "timestamp": 1728520831
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Urbis31\">New Contributor: Urbis31</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Urbis31\">Urbis31</a>   <br>\nMapper since: 2024\\-10\\-14 05:11:05   <br>\nRegistration: 2024\\-10\\-14 04:56:09   <br>\nUID: 22064197   <br>\nFirst active near: Ozolkalni (0\\.62 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/157859207\">157859207</a>   <br>\nEditor used: iD 2\\.30\\.4   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Urbis31\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Urbis31\">https://osm.org/user/Urbis31</a></p>",
+        "id": 476685193,
+        "sender_full_name": "RSS",
+        "timestamp": 1728886382
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/JDze\">New Contributor: JDze</a></strong><br>\nContributor: <a href=\"https://osm.org/user/JDze\">JDze</a>   <br>\nMapper since: 2024\\-10\\-14 07:14:41   <br>\nRegistration: 2016\\-11\\-01 11:38:00   <br>\nUID: 4805642   <br>\nFirst active near: Šķirotava (1\\.20 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/157862496\">157862496</a>   <br>\nEditor used: iD 2\\.30\\.4   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?JDze\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/JDze\">https://osm.org/user/JDze</a></p>",
+        "id": 476768447,
+        "sender_full_name": "RSS",
+        "timestamp": 1728908175
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/sansanzo\">New Contributor: sansanzo</a></strong><br>\nContributor: <a href=\"https://osm.org/user/sansanzo\">sansanzo</a>   <br>\nMapper since: 2024\\-10\\-14 15:04:56   <br>\nRegistration: 2024\\-10\\-14 14:43:00   <br>\nUID: 22066384   <br>\nFirst active near: Tīraine (0\\.72 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/157882453\">157882453</a>   <br>\nEditor used: iD 2\\.30\\.4   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?sansanzo\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/sansanzo\">https://osm.org/user/sansanzo</a></p>",
+        "id": 476832995,
+        "sender_full_name": "RSS",
+        "timestamp": 1728929480
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/isthisme\">New Contributor: isthisme</a></strong><br>\nContributor: <a href=\"https://osm.org/user/isthisme\">isthisme</a>   <br>\nMapper since: 2024\\-10\\-15 21:19:36   <br>\nRegistration: 2024\\-10\\-15 19:14:00   <br>\nUID: 22071338   <br>\nFirst active near: Krēķciems (0\\.67 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/157939259\">157939259</a>   <br>\nEditor used: iD 2\\.30\\.4   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?isthisme\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/isthisme\">https://osm.org/user/isthisme</a></p>",
+        "id": 477095450,
+        "sender_full_name": "RSS",
+        "timestamp": 1729039282
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Zanispleve\">New Contributor: Zanispleve</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Zanispleve\">Zanispleve</a>   <br>\nMapper since: 2024\\-10\\-16 13:13:37   <br>\nRegistration: 2024\\-01\\-23 12:21:23   <br>\nUID: 20928590   <br>\nFirst active near: Prospektu gals (0\\.25 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/157964048\">157964048</a>   <br>\nEditor used: iD 2\\.30\\.4   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Zanispleve\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Zanispleve\">https://osm.org/user/Zanispleve</a></p>",
+        "id": 477272729,
+        "sender_full_name": "RSS",
+        "timestamp": 1729102304
+    },
+    {
+        "content": "<p><strong><a href=\"https://osm.org/user/Audiofoxy\">New Contributor: Audiofoxy</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Audiofoxy\">Audiofoxy</a>   <br>\nMapper since: 2024\\-10\\-17 11:26:14   <br>\nRegistration: 2024\\-10\\-17 10:51:06   <br>\nUID: 22078095   <br>\nFirst active near: Vecpils (0\\.85 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/158003423\">158003423</a>   <br>\nEditor used: iD 2\\.30\\.4   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Audiofoxy\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Audiofoxy\">https://osm.org/user/Audiofoxy</a></p>",
+        "id": 477428512,
+        "sender_full_name": "RSS",
+        "timestamp": 1729167344
+    }
+]
