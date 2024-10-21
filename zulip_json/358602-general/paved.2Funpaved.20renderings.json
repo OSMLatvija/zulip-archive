@@ -1,0 +1,56 @@
+[
+    {
+        "content": "<p>Nu ko, gatavojamies. Izskatās, ka rīt (sestdien) <a href=\"http://osm.org\">osm.org</a> parādīsies citādāks renderings paved/unpaved :)<br>\nIespējams, būs kas līdzīgs šim.<br>\n<a href=\"https://github.com/gravitystorm/openstreetmap-carto/pull/3399\">https://github.com/gravitystorm/openstreetmap-carto/pull/3399</a><br>\n<a href=\"/user_uploads/49624/7a_aHWUGBDyjJj0-xs2AUq42/image.png\">unpaved</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/7a_aHWUGBDyjJj0-xs2AUq42/image.png\" title=\"unpaved\"><img src=\"/user_uploads/49624/7a_aHWUGBDyjJj0-xs2AUq42/image.png\"></a></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"http://osm.org\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"http://osm.org\" title=\"OpenStreetMap\">OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/gravitystorm/openstreetmap-carto/pull/3399\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/70fd492578511019545e9b1272aaf88cd7d241c6\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f386131383032643132373135643037353365326366333735663532323635333764343366376334306134383163613066396631326130343165396230316639342f6772617669747973746f726d2f6f70656e7374726565746d61702d636172746f2f70756c6c2f33333939)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/gravitystorm/openstreetmap-carto/pull/3399\" title=\"Unpaved rendering by sommerluk · Pull Request #3399 · gravitystorm/openstreetmap-carto\">Unpaved rendering by sommerluk · Pull Request #3399 · gravitystorm/openstreetmap-carto</a></div><div class=\"message_embed_description\">Fixes #110\nCloses #4137 (alternative version)\nThat’s essentially the same code as #3357 with the following differences:\n\nNo special unpaved rendering for highway=platform and railway=platform. (The...</div></div></div>",
+        "id": 321059767,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673569095
+    },
+    {
+        "content": "<p>Tikai diemžēl starp paved un no surface tag nav atšķirības.</p>",
+        "id": 321134915,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673608684
+    },
+    {
+        "content": "<p>Jā, es būtu licis otrādāk :)</p>",
+        "id": 321139836,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673610198
+    },
+    {
+        "content": "<p>PIEZEMĒJĀS.<br>\nNeteiktu, ka ir baigi pamanāmi, bet ir.<br>\nPriekš 10 gadus veca feature request arī tas ir daudz :)<br>\n<a href=\"/user_uploads/49624/qjCX82MbD2vDumSGgm6ssigJ/image.png\">unpaved</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/qjCX82MbD2vDumSGgm6ssigJ/image.png\" title=\"unpaved\"><img src=\"/user_uploads/49624/qjCX82MbD2vDumSGgm6ssigJ/image.png\"></a></div>",
+        "id": 321399949,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673723823
+    },
+    {
+        "content": "<p><span aria-label=\"tada\" class=\"emoji emoji-1f389\" role=\"img\" title=\"tada\">:tada:</span></p>",
+        "id": 321400080,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673723885
+    },
+    {
+        "content": "<p>living_street atšķirība neliela.<br>\n<a href=\"/user_uploads/49624/NrStO00DIEc3pc9wBOCoHwmv/image.png\">unpaved living_street</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/NrStO00DIEc3pc9wBOCoHwmv/image.png\" title=\"unpaved living_street\"><img src=\"/user_uploads/49624/NrStO00DIEc3pc9wBOCoHwmv/image.png\"></a></div>",
+        "id": 321400492,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673724134
+    },
+    {
+        "content": "<p>Bet bez <code>paved</code> citāda tik un tā kaut kā divaini. Arī lietotājam it kā nav ok, ja nevar ticēt, ka <code>paved</code> visur.</p>",
+        "id": 321401041,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673724432
+    },
+    {
+        "content": "<p>Jā, par to vēl nedaudz diskusijas.<br>\nVar sakomentēt <a href=\"https://github.com/gravitystorm/openstreetmap-carto/issues/4724\">https://github.com/gravitystorm/openstreetmap-carto/issues/4724</a> :)</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/gravitystorm/openstreetmap-carto/issues/4724\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/71e3a616f53d28006fe55a18fd3431510222d52c\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f366339393432623261303138393537326330303632643938656130336561386163306362363937626333376431346662393436336230393035633430326330632f6772617669747973746f726d2f6f70656e7374726565746d61702d636172746f2f6973737565732f34373234)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/gravitystorm/openstreetmap-carto/issues/4724\" title=\"Implicit default in road surface rendering · Issue #4724 · gravitystorm/openstreetmap-carto\">Implicit default in road surface rendering · Issue #4724 · gravitystorm/openstreetmap-carto</a></div><div class=\"message_embed_description\">With our new rendering of roads with unpaved surface (#3399) we make the assumption of an implicit default of the standard road classes of a paved surface when no surface is tagged. This is because...</div></div></div>",
+        "id": 321402516,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673725465
+    },
+    {
+        "content": "<p>Par konkrētām vērtībām - samerdžotais variants ir šāds:</p>\n<blockquote>\n<p>CASE WHEN surface IN ('unpaved', 'compacted', 'dirt', 'earth', 'fine_gravel', 'grass', 'grass_paver', 'gravel', 'ground',<br>\n                                      'mud', 'pebblestone', 'salt', 'sand', 'woodchips', 'clay', 'ice', 'snow') THEN 'unpaved'<br>\n                  WHEN surface IN ('paved', 'asphalt', 'cobblestone', 'cobblestone:flattened', 'sett', 'concrete', 'concrete:lanes',<br>\n                                      'concrete:plates', 'paving_stones', 'metal', 'wood', 'unhewn_cobblestone') THEN 'paved'<br>\n                  ELSE NULL</p>\n</blockquote>",
+        "id": 321402581,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673725524
+    }
+]
