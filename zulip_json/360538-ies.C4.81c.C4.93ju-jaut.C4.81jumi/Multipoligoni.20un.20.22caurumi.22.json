@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Šobrīd neizdodas izgriezt caurumu \"area\". Kāds būtu ieteicamais veids, kā to labāk izdarīt Id? Lasot aprakstus minēts - uzzīmē \"area\", piešķir \"tagu\", iezīmē \"caurumu\" un tad ar \"merge\" apvieno. Mēģinu, bet man rezultātā sanāk, ka \"caurums\" arī ir area, kam jāpiešķir \"tagu\". Vai sanāk, ka atsevišķi caurumu nav iespējams atstāt? Varbūt vēl kādi padomi, kā labāk šo izdarīt :).</p>",
+        "id": 390019721,
+        "sender_full_name": "Liga Rutka",
+        "timestamp": 1694255483
+    },
+    {
+        "content": "<p>Divi varianti - (1) caurumu var zīmēt arī ar līniju (2) no cauruma var nodzēst <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aarea%3Dyes\">area=yes</a></p>",
+        "id": 390019891,
+        "sender_full_name": "HellMap",
+        "timestamp": 1694255606
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Multipoligoni.20un.20.22caurumi.22/near/390019891\">said</a>:</p>\n<blockquote>\n<p>Divi varianti - (1) caurumu var zīmēt arī ar līniju (2) no cauruma var nodzēst <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aarea%3Dyes\">area=yes</a></p>\n</blockquote>\n<p>Brīnišķīgi <span aria-label=\"blush\" class=\"emoji emoji-1f60a\" role=\"img\" title=\"blush\">:blush:</span> , viss izdevās!!! - paldies!</p>",
+        "id": 390020042,
+        "sender_full_name": "Liga Rutka",
+        "timestamp": 1694255701
+    }
+]
