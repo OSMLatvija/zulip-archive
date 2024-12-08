@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Iekštelpu kartēšana (indoor mapping) īpaši noder lielākās ēkās - piem., tirdzniecības centros.<br>\nTas ļauj labāk novietot ieejas, veikalus utt, kad tos var izvietot relatīvi pret gaiteņiem.<br>\nBet grūti tā precīzi iezīmēt, jo īpaši lielās platībās.<br>\nIdeja - evakuācijas plāni var noderēt, jo tos var palikt apakšā JOSM un precīzāk sazīmēt.</p>",
+        "id": 486783041,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1733675174
+    },
+    {
+        "content": "<p>JOSM vai tad tagad ir image rectification kā native vai plugins?</p>",
+        "id": 486783406,
+        "sender_full_name": "HellMap",
+        "timestamp": 1733675520
+    },
+    {
+        "content": "<p>Es lietoju PicLayer pluginu: <a href=\"https://wiki.openstreetmap.org/wiki/JOSM/Plugins/PicLayer\">https://wiki.openstreetmap.org/wiki/JOSM/Plugins/PicLayer</a> .</p>",
+        "id": 486783496,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1733675575
+    }
+]
