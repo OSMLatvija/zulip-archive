@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>Iekštelpu kartēšana (indoor mapping) īpaši noder lielākās ēkās - piem., tirdzniecības centros.<br>\nTas ļauj labāk novietot ieejas, veikalus utt, kad tos var izvietot relatīvi pret gaiteņiem.<br>\nBet grūti tā precīzi iezīmēt, jo īpaši lielās platībās.<br>\nIdeja - evakuācijas plāni var noderēt, jo tos var palikt apakšā JOSM un precīzāk sazīmēt.</p>",
+        "id": 486783041,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1733675174
+    },
+    {
+        "content": "<p>JOSM vai tad tagad ir image rectification kā native vai plugins?</p>",
+        "id": 486783406,
+        "sender_full_name": "HellMap",
+        "timestamp": 1733675520
+    },
+    {
+        "content": "<p>Es lietoju PicLayer pluginu: <a href=\"https://wiki.openstreetmap.org/wiki/JOSM/Plugins/PicLayer\">https://wiki.openstreetmap.org/wiki/JOSM/Plugins/PicLayer</a> .</p>",
+        "id": 486783496,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1733675575
+    },
+    {
+        "content": "<p>Mēģināju tā darīt kaut kad, bet man nešķita evakuācijas plānu bildes diezgan precīzas.</p>",
+        "id": 486851541,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1733725909
+    },
+    {
+        "content": "<p>Ha, interesanti. Cik neprecīzas bija, vai nāk prātā kāds konkrēts piemērs?</p>",
+        "id": 487098534,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1733778245
+    },
+    {
+        "content": "<p>Lai gan principā jā, te uzliekot plānu uz kadastra kontūras ir redzamas būtiskas nobīdes. Kadastra precizitāte gan arī potenciāli apšaubāma.<br>\n<a href=\"/user_uploads/49624/0uDGDZoIAkKfGi8oUa5IJSvx/image.png\">plāns vs kadastrs</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/0uDGDZoIAkKfGi8oUa5IJSvx/image.png\" title=\"plāns vs kadastrs\"><img data-original-dimensions=\"2808x1748\" src=\"/user_uploads/thumbnail/49624/0uDGDZoIAkKfGi8oUa5IJSvx/image.png/840x560.webp\"></a></div>",
+        "id": 487105100,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1733780554
+    },
+    {
+        "content": "<p>Nu labi, te laikam kadastrs tomēr šķībs :)<br>\n<a href=\"/user_uploads/49624/gBRhRnIq9U0dTAoEy89mZ4qW/image.png\">plāns &gt; kadastrs</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/gBRhRnIq9U0dTAoEy89mZ4qW/image.png\" title=\"plāns &gt; kadastrs\"><img data-original-dimensions=\"940x782\" src=\"/user_uploads/thumbnail/49624/gBRhRnIq9U0dTAoEy89mZ4qW/image.png/840x560.webp\"></a></div>",
+        "id": 487105650,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1733780757
+    }
+]
