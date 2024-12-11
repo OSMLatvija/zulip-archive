@@ -1,0 +1,86 @@
+[
+    {
+        "content": "<p>Iekštelpu kartēšana (indoor mapping) īpaši noder lielākās ēkās - piem., tirdzniecības centros.<br>\nTas ļauj labāk novietot ieejas, veikalus utt, kad tos var izvietot relatīvi pret gaiteņiem.<br>\nBet grūti tā precīzi iezīmēt, jo īpaši lielās platībās.<br>\nIdeja - evakuācijas plāni var noderēt, jo tos var palikt apakšā JOSM un precīzāk sazīmēt.</p>",
+        "id": 486783041,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1733675174
+    },
+    {
+        "content": "<p>JOSM vai tad tagad ir image rectification kā native vai plugins?</p>",
+        "id": 486783406,
+        "sender_full_name": "HellMap",
+        "timestamp": 1733675520
+    },
+    {
+        "content": "<p>Es lietoju PicLayer pluginu: <a href=\"https://wiki.openstreetmap.org/wiki/JOSM/Plugins/PicLayer\">https://wiki.openstreetmap.org/wiki/JOSM/Plugins/PicLayer</a> .</p>",
+        "id": 486783496,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1733675575
+    },
+    {
+        "content": "<p>Mēģināju tā darīt kaut kad, bet man nešķita evakuācijas plānu bildes diezgan precīzas.</p>",
+        "id": 486851541,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1733725909
+    },
+    {
+        "content": "<p>Ha, interesanti. Cik neprecīzas bija, vai nāk prātā kāds konkrēts piemērs?</p>",
+        "id": 487098534,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1733778245
+    },
+    {
+        "content": "<p>Lai gan principā jā, te uzliekot plānu uz kadastra kontūras ir redzamas būtiskas nobīdes. Kadastra precizitāte gan arī potenciāli apšaubāma.<br>\n<a href=\"/user_uploads/49624/0uDGDZoIAkKfGi8oUa5IJSvx/image.png\">plāns vs kadastrs</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/0uDGDZoIAkKfGi8oUa5IJSvx/image.png\" title=\"plāns vs kadastrs\"><img data-original-dimensions=\"2808x1748\" src=\"/user_uploads/thumbnail/49624/0uDGDZoIAkKfGi8oUa5IJSvx/image.png/840x560.webp\"></a></div>",
+        "id": 487105100,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1733780554
+    },
+    {
+        "content": "<p>Nu labi, te laikam kadastrs tomēr šķībs :)<br>\n<a href=\"/user_uploads/49624/gBRhRnIq9U0dTAoEy89mZ4qW/image.png\">plāns &gt; kadastrs</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/gBRhRnIq9U0dTAoEy89mZ4qW/image.png\" title=\"plāns &gt; kadastrs\"><img data-original-dimensions=\"940x782\" src=\"/user_uploads/thumbnail/49624/gBRhRnIq9U0dTAoEy89mZ4qW/image.png/840x560.webp\"></a></div>",
+        "id": 487105650,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1733780757
+    },
+    {
+        "content": "<p>Vai internetā ir iespējams tos evakuācijas plānus dabūt?</p>",
+        "id": 487181644,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1733817011
+    },
+    {
+        "content": "<p>Man kādreiz bija vēlme atjaunot lidostu</p>",
+        "id": 487181786,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1733817075
+    },
+    {
+        "content": "<p>Nē, domāju, ka nav.<br>\nSanāk fotografēt tikai.</p>",
+        "id": 487182287,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1733817271
+    },
+    {
+        "content": "<p>Un lidostā nedrīkst fotografēt!!!!!</p>",
+        "id": 487216536,
+        "sender_full_name": "HellMap",
+        "timestamp": 1733827761
+    },
+    {
+        "content": "<p><a href=\"https://lv.wikipedia.org/wiki/Att%C4%93ls:Lidostas_%22R%C4%ABga%22_termin%C4%81%C4%BCa_pl%C4%81ns.jpg\">https://lv.wikipedia.org/wiki/Att%C4%93ls:Lidostas_%22R%C4%ABga%22_termin%C4%81%C4%BCa_pl%C4%81ns.jpg</a> Kaut kas tāds jau drošvien nav precīzi</p>\n<div class=\"message_inline_image\"><a href=\"https://lv.wikipedia.org/wiki/Att%C4%93ls:Lidostas_%22R%C4%ABga%22_termin%C4%81%C4%BCa_pl%C4%81ns.jpg\"><img src=\"https://uploads.zulipusercontent.net/1689964164f0b3e0c022e527332b6f67a01b3161/68747470733a2f2f6c762e77696b6970656469612e6f72672f77696b692f4174742543342539336c733a4c69646f737461735f2532325225433425414267612532325f7465726d696e254334253831254334254243615f706c2543342538316e732e6a7067\"></a></div>",
+        "id": 487216834,
+        "sender_full_name": "HellMap",
+        "timestamp": 1733827841
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/channel/358602-general/topic/Iek.C5.A1telpu.20kart.C4.93.C5.A1ana.20-.20pl.C4.81ni/near/487098534\">said</a>:</p>\n<blockquote>\n<p>Ha, interesanti. Cik neprecīzas bija, vai nāk prātā kāds konkrēts piemērs?</p>\n</blockquote>\n<p>Ir ļoti iespējams, ka problēma bija saistīta ar to, ka es nemācēju pareizi izmantot PicLayer, taču man nesakrita plāns ar ortofoto. (Cik daudz vairs neatceros, jo tas jau bija pirms kāda laika)</p>",
+        "id": 487217998,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1733828175
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/358602-general/topic/Iek.C5.A1telpu.20kart.C4.93.C5.A1ana.20-.20pl.C4.81ni/near/487216536\">said</a>:</p>\n<blockquote>\n<p>Un lidostā nedrīkst fotografēt!!!!!</p>\n</blockquote>\n<p>Pēdējoreiz esot lidostā es sabildēju vairākas vietas, lai pēc tam sakartētu. Neviens man neko neteica :P</p>",
+        "id": 487218604,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1733828355
+    }
+]
