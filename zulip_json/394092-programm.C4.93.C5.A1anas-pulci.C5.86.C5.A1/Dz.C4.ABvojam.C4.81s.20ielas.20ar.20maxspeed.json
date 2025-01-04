@@ -1,0 +1,110 @@
+[
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"571825\">@HellMap</span>, vai nav <a href=\"https://github.com/OSMLatvija/Osmalyzer/blob/main/Osmalyzer/Analyzers/LivingZoneSpeedAnalyzer.cs\">pa daudz koda</a>, ja tos pašus rezultātus var dabūt ar <a href=\"#narrow/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed/near/323069321\">vienkāršu Overpass vaicājumu</a>?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/OSMLatvija/Osmalyzer/blob/main/Osmalyzer/Analyzers/LivingZoneSpeedAnalyzer.cs\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/920e73182babba4f299d627f4a393193172f13e9\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f386135356535616637333134376534396632616337646530653066656136613465373561386231326261366136663432396337313764643861346461623562392f4f534d4c617476696a612f4f736d616c797a6572)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/OSMLatvija/Osmalyzer/blob/main/Osmalyzer/Analyzers/LivingZoneSpeedAnalyzer.cs\" title=\"Osmalyzer/Osmalyzer/Analyzers/LivingZoneSpeedAnalyzer.cs at main · OSMLatvija/Osmalyzer\">Osmalyzer/Osmalyzer/Analyzers/LivingZoneSpeedAnalyzer.cs at main · OSMLatvija/Osmalyzer</a></div><div class=\"message_embed_description\">Parsing OSM data when it's too complex for Overpass - Osmalyzer/Osmalyzer/Analyzers/LivingZoneSpeedAnalyzer.cs at main · OSMLatvija/Osmalyzer</div></div></div>",
+        "id": 369986634,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687859213
+    },
+    {
+        "content": "<p>Jā, var ar Overpass, bet es to visu tik un tā priekš sevis rakstu. Piemēram, es gribu lai es browserī redzētu, vai es jau esmu linku nospiedis. Es gribu redzēt ielas nosaukumu un tagadējo ātrumu. Un es gribu iespēju nākotnē kaut ko pielikt klāt nevis sasniegt Overpass robežu un viss. Un es negribu neko rakstīt Overpass valodā.</p>",
+        "id": 369992639,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687860191
+    },
+    {
+        "content": "<p>Varētu gan vienreiz uzrakstīt generic query un linku pielikt no reporta.</p>",
+        "id": 369997335,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687860913
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed/near/369997335\">said</a>:</p>\n<blockquote>\n<p>Varētu gan vienreiz uzrakstīt generic query un linku pielikt no reporta.</p>\n</blockquote>\n<p>Ko nozīmē \"generic query\"?</p>",
+        "id": 369997697,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687860968
+    },
+    {
+        "content": "<p>Ka es varu query stringu uztaisīt vienkāršam vaicājumam automātiski pasakot \"gribu <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dliving_street\">highway=living_street</a> bez maxspeed\" un man izmet standarta query sintaksi ar standarta linku/aprkastu, ko man pēc tam viegli citur pielikt pēc vēlmes.</p>",
+        "id": 369998642,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687861073
+    },
+    {
+        "content": "<p>Es domāju nevis palaist, bet iedot reportā lasītājam noklikšķināt</p>",
+        "id": 369999120,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687861119
+    },
+    {
+        "content": "<p>Runa ir par kaut kādu jaunu sintaksi (\"gribu <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dliving_street\">highway=living_street</a> bez maxspeed\"), kas tiks pārveidota uz Overpass QL? Vai kas ir domāts ar \"standarta query sintaksi\"?</p>",
+        "id": 370021451,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687864788
+    },
+    {
+        "content": "<p>Jā, kaut kā šitā - <a href=\"https://osmlatvija.github.io/Osmalyzer/Living%20Zone%20Speeds%20report.html\">https://osmlatvija.github.io/Osmalyzer/Living%20Zone%20Speeds%20report.html</a> links lejā</p>",
+        "id": 370027011,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687865828
+    },
+    {
+        "content": "<p>Vispārīgi runājot, mans personīgais galvenais mērķis ir lai man mazāk jāraksta pēc tam, kad nebūs motivācija rakstīt. Es saprotu, ka trešai personai sktīties un rakstīt Overpass ir vienkāršāk. Bet trešā pesona to darīs vienu reizi konkrētai lietai. Bet man pēc tam tas jādara katrai lietai katru reizi.</p>",
+        "id": 370027672,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687865943
+    },
+    {
+        "content": "<p>Man liekas, ka vajadzēs \"Osmalyzer-lite\" versiju, kur viss būs balstīts uz Overpass. Tipa dabū JSON datus no Overpass, iemet Jekyll template'ā un voila.</p>",
+        "id": 370028575,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687866114
+    },
+    {
+        "content": "<p>Good luck <span aria-label=\"saluting face\" class=\"emoji emoji-1fae1\" role=\"img\" title=\"saluting face\">:saluting_face:</span> Ir jau 1000 lietas, kam nevajag šito visu sarežģīt. Bet es jau to arī nekad nebiju plānojis kaut kādam minimālam pipelinam tādiem. To, ko var overpass un uz reportu pa taisno, to jau var visā pasaulē taisīt un tādu QA/validatoru saitu tā jau daudz. Es pirms tam taisīju Overpass bet man apnika gan viņu sintakse nenormālā, gan ka es nevaru neko sarežģītu darīt ar to.</p>",
+        "id": 370032085,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687866734
+    },
+    {
+        "content": "<p>Ta jau pull request <a href=\"https://github.com/bellingcat/osm-search\">https://github.com/bellingcat/osm-search</a>, kur liela daļa jau ir :)</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/bellingcat/osm-search\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/3754d857fd92efcd824dffa833f49cf93a7d9315\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f376164343436656536636662393863316564303261303866653135333737363566626439313036613762393061366561343435613236353238353836386263642f62656c6c696e676361742f6f736d2d736561726368)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/bellingcat/osm-search\" title=\"GitHub - bellingcat/osm-search: A user friendly way to search OpenStreetMap data for features in proximity to each other.\">GitHub - bellingcat/osm-search: A user friendly way to search OpenStreetMap data for features in proximity to each other.</a></div><div class=\"message_embed_description\">A user friendly way to search OpenStreetMap data for features in proximity to each other. - GitHub - bellingcat/osm-search: A user friendly way to search OpenStreetMap data for features in proximit...</div></div></div>",
+        "id": 370103786,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1687878954
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed/near/370103786\">said</a>:</p>\n<blockquote>\n<p>Ta jau pull request <a href=\"https://github.com/bellingcat/osm-search\">https://github.com/bellingcat/osm-search</a>, kur liela daļa jau ir :)</p>\n</blockquote>\n<p>Es nesapratu, kāds sakars šim ar iepriekšējo diskusiju.</p>",
+        "id": 370157692,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687888652
+    },
+    {
+        "content": "<p>Tas ir rīks, kurš ar dragndrop palīdzību ļauj ģenerēt diezgan sarežģītus Overpass pieprasījumus.</p>",
+        "id": 370208280,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1687900665
+    },
+    {
+        "content": "<p>Tikai tur viņu saitā nevar neko darīt, ja tu neesi ar Google accountu ielogojies... pat ne OSM account, Google... like, what? Kāds vispār Google accountam sakars are Overpass? Plus, \"Additionally, we are logging query requests in order to track performance and identify bugs.\"</p>",
+        "id": 370210917,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687901488
+    },
+    {
+        "content": "<p>Jā, par to citi arī sūdzējās. Bet nu, kods pieejams, varbūt kāds nohostēs citādāk.</p>",
+        "id": 370211085,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1687901537
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed/near/370208280\">said</a>:</p>\n<blockquote>\n<p>Tas ir rīks, kurš ar dragndrop palīdzību ļauj ģenerēt diezgan sarežģītus Overpass pieprasījumus.</p>\n</blockquote>\n<p>Cik saprotu, tas ģenerē tikai noteikta veida Overpass vaicājumus. Tas nav general purpose risinājums.</p>",
+        "id": 370305527,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687936804
+    },
+    {
+        "content": "<p>Tā varētu būt. Tik bail no daudziem nišas risinājumiem, kuri pēc kāda laika apmirst. Daudzas kopienas šādas lietas dara paralēli.</p>",
+        "id": 370362381,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1687947042
+    }
+]
