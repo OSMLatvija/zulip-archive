@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p><a href=\"/user_uploads/49624/ttRZV8zXvG_rCVNzfyuefBK6/image.png\">residential</a> <br>\n<a href=\"/user_uploads/49624/hlNlENHiK4eAm4kSqMImt20y/image.png\">tuvplāns</a> <br>\nEs gribētu apvienot lielākos gabalos, kādas jums domas?</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/ttRZV8zXvG_rCVNzfyuefBK6/image.png\" title=\"residential\"><img src=\"/user_uploads/49624/ttRZV8zXvG_rCVNzfyuefBK6/image.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/hlNlENHiK4eAm4kSqMImt20y/image.png\" title=\"tuvplāns\"><img src=\"/user_uploads/49624/hlNlENHiK4eAm4kSqMImt20y/image.png\"></a></div>",
+        "id": 321528542,
+        "sender_full_name": "Colby",
+        "timestamp": 1673814366
+    },
+    {
+        "content": "<p>pašlaik pie katras ielas sadalīts un daudzkur virsū ēkām vai pielīmēts tām</p>",
+        "id": 321528645,
+        "sender_full_name": "Colby",
+        "timestamp": 1673814456
+    },
+    {
+        "content": "<p>Par residential lielumiem <a href=\"https://wiki.openstreetmap.org/wiki/Tag:landuse%3Dresidential#Separation_from_roads\">domas atšķiras</a>. Es parasti tieši pretējo daru - dalu gabalos lai pāri ielām un nesaistītos posmos nemaisās. Ielas cauri pilsētai pa kurām braukā piegādes un tūristi un vēl nezin kas nav nu gluži residential. Un ja tur vēl kaut kādi ne-residential landusi pa vidu, tad tas viss kļūst par drausmīgu mega multipoligonu. Es parasti uzskatu, ka ir OK pāri ielām, ja tur viss vienāds un pārsvarā tikai vietējie iedzīvotāji - piemēram, visa dzīvojamā zona vai mazs vasarnīcu ciemats vai privātmāju izbūve kaut kur. Ja ir liels neprecīzs uzzīmēts, es droši vien sadalu. Bet ja ir precīzi uzzīmēts vai daļēji sadalīts, es neaizieku. Sadalītos atpakaļ nepaplašinu. Ar lielajām pilsētām pagrūti, bet es uzskatītu centrā katru kvartālu kā savu residential. Rīga arī tā sazīmēta. Un jo tālāk no centra, jo vairāk varbūtība, ka \"lēkās\" pāri ielām. Es <em>personīgi</em> Liepāju neaiztiktu, vismaz centru. Bet nu tas viss ļoti subjektīvi. Neesmu godīgi sakot iedziļinājies un dzirdējis kāpēc zīmēt mazu vai lielu.</p>",
+        "id": 321530456,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673815876
+    },
+    {
+        "content": "<p>Ar tiem atsevišķajiem baigais čakars dažreiz sanāk. Piem., kāds sazīmējis no ortofoto ar nobīdi.<br>\nEs parasti zīmēju \"lielāko, kādu nav slinkums\". Multipoligonus nekad netaisu, ja pa vidu ir citas zonas, tad jau vērts dalīt arī apkārt esošos residential.<br>\nNo ēkām ielām un citiem objektiem atdalīt gan ļoti vērts.</p>",
+        "id": 321665114,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673882160
+    }
+]

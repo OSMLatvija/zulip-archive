@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Kā pareizi iztulkot <code>place=quarter</code> and <code>place=neighbourhood</code> and <code>place=suburb</code>? OSMā tas tulkojas kā </p>\n<ul>\n<li><a href=\"https://wiki.openstreetmap.org/wiki/Tag:place=neighbourhood?uselang=lv\">https://wiki.openstreetmap.org/wiki/Tag:place=neighbourhood?uselang=lv</a> tulkojas kā Pilsētas rajons</li>\n<li><a href=\"https://wiki.openstreetmap.org/wiki/Tag:place=suburb?uselang=lv\">https://wiki.openstreetmap.org/wiki/Tag:place=suburb?uselang=lv</a> tulkojas kā Piepilsēta </li>\n<li><a href=\"https://wiki.openstreetmap.org/wiki/Tag:place=quarter?uselang=lv\">https://wiki.openstreetmap.org/wiki/Tag:place=quarter?uselang=lv</a> nav tulkojuma</li>\n</ul>",
+        "id": 492339483,
+        "sender_full_name": "soshial",
+        "timestamp": 1736266033
+    },
+    {
+        "content": "<p>Tiem nav gluži precīza tulkojuma. Priekš OSM tie vairāk vai mazāk (cik es esmu izskatījis) sanāk suburb - oficiāla apkaime, neighbourhood - pilsētas daļa vai neoficiāla apkaime, quarter - nez (bet tādu nav pašlaik, borough būtu priekšpilsēta). \"Rajons\" ir sarunvalodas termins un var apzīmēt visu ko, no apkaimes līdz vēsturiskam ciema nosaukumam. Es to pavisam nesen skatījos un sadzejoju <a href=\"https://wiki.openstreetmap.org/wiki/Lv:Latvian_tagging_guidelines#Apkaimes_/_rajoni\">https://wiki.openstreetmap.org/wiki/Lv:Latvian_tagging_guidelines#Apkaimes_/_rajoni</a> - neesmu vēl te minējis, jo nebiju pabeidzis. Kā to likt organic maps, lai būtu skaidrs - nezinu. Piepilsēta tas ir sarunvalodā ārpus pilsētas, ja es nemaldos, - oficiāli tur tikai ciemi.</p>",
+        "id": 492341246,
+        "sender_full_name": "HellMap",
+        "timestamp": 1736266571
+    },
+    {
+        "content": "<p>Es izlasīšu to pamācību, liels paldies. Vienīgi tulkojumi vajadzīgi starptautiskajiem apzīmējumiem nevis tikai Latvijai.</p>",
+        "id": 492344114,
+        "sender_full_name": "soshial",
+        "timestamp": 1736267440
+    },
+    {
+        "content": "<p>Nu jā... Personīgi es nemācēšu pateikt, lai derētu vispasaulē un lai lietotājs varētu saprast, piemēram kas ir \"lielāks\" - apkaime vai rajons? Man liekas te diezgan bezcerīgi - var tikai izdomāt kaut ko, kas der. Bet man at tulkošanu slikti - ja kāds cits grib mēģināt.</p>",
+        "id": 492344897,
+        "sender_full_name": "HellMap",
+        "timestamp": 1736267661
+    }
+]
