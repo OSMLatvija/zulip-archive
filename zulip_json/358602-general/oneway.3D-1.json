@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Kādi var būt zemūdens akmeņi, ja oneway=-1 nomaina uz <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aoneway%3Dyes\">oneway=yes</a>, apgriežot ceļu otrādi, <a href=\"https://wiki.openstreetmap.org/wiki/Tag:oneway=-1\">kā ieteikts</a>?</p>\n<blockquote>\n<p>Where possible, consider reversing the way and replacing with <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aoneway%3Dyes\">oneway=yes</a>. </p>\n</blockquote>\n<div class=\"codehilite\" data-code-language=\"overpass\"><pre><span></span><code>[out:json][timeout:25];\n{{geocodeArea:Latvia}}-&gt;.searchArea;\nnwr[oneway=-1](area.searchArea);\nout geom;\n</code></pre></div>",
+        "id": 319004446,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672670187
+    },
+    {
+        "content": "<p>Ātri apskatot, neviena konfliktējoša tega - tikai vienam \"turn:lanes\": \"through|right\", bet tas jau neko nemainīs</p>",
+        "id": 319005879,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672670652
+    },
+    {
+        "content": "<p>Relations nesabojāsim?</p>",
+        "id": 319006022,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672670702
+    },
+    {
+        "content": "<p>Kādi viņiem ir relationi? Es neesmu iemācijiem rakstīt overpass :(</p>",
+        "id": 319006055,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672670715
+    },
+    {
+        "content": "<p>Es vienīgo relation varu iedomāties kaut kādiem route direction forward/backward</p>",
+        "id": 319006215,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672670764
+    }
+]
