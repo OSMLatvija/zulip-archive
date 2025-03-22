@@ -1,0 +1,308 @@
+[
+    {
+        "content": "<p>\"Ļoti aicinām arī darbvirsmas lietotņu (ArcMap, ArcGIS Pro un QGIS) lietotājus\"</p>\n<p>Nav minēts JOSM vai iD ;)</p>",
+        "id": 348426424,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681211211
+    },
+    {
+        "content": "<p>Hmmm, tie ir iepriekš sarenderēti vai ne? Te jau no WMS tieši tas labums, ka var salikt 2+ kopā - orto ar kadastru piemēram, kas man priekš ielu nosaukumu rakstīšanas vajadzīgs.</p>",
+        "id": 348523940,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681234122
+    },
+    {
+        "content": "<p>Šito laikam vajag iD un JOSM defaultā likt tad prasīt? Cik tas viss tur stabils.</p>",
+        "id": 348524190,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681234185
+    },
+    {
+        "content": "<p>VMS un VMTS?</p>",
+        "id": 348524834,
+        "sender_full_name": "Colby",
+        "timestamp": 1681234340
+    },
+    {
+        "content": "<p>Lai liek ortofoto un citus slāņus no WMTS, kur var WMS vietā, jo tas teorētiski ir ātrāks, mazāk sūta un no lielas ielādes nenokarina serverus. Bet es ar to visu neesmu lielos draugos, nezinu, kas tieši liekams.</p>",
+        "id": 348525417,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681234536
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVM.20jaunumi/near/348523940\">said</a>:</p>\n<blockquote>\n<p>Hmmm, tie ir iepriekš sarenderēti vai ne? Te jau no WMS tieši tas labums, ka var salikt 2+ kopā - orto ar kadastru piemēram, kas man priekš ielu nosaukumu rakstīšanas vajadzīgs.</p>\n</blockquote>\n<p>Šajā ziņā nevajadzētu atšķirties no WMS - ko nu editorā saliec, to arī rādīs.</p>",
+        "id": 348525817,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681234671
+    },
+    {
+        "content": "<p>Brrr, nevajag likt FB šādas ziņas - kopējot linku nokopējas kaut kāds FB links.</p>\n<p>Bet arī ar it kā precīzu linku man neizdodas neko dabūt iekš JOSM.<br>\nVai kādam izdevās?</p>",
+        "id": 348525968,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681234713
+    },
+    {
+        "content": "<p>ēēē es pieliku <a href=\"https://wiki.openstreetmap.org/wiki/Lv:Source#Latvijas_ģeoservisi\">https://wiki.openstreetmap.org/wiki/Lv:Source#Latvijas_ģeoservisi</a> linku nokopēju</p>",
+        "id": 348526292,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681234825
+    },
+    {
+        "content": "<p>Var jau pamēģināt JOSMu atvērt, paskatīties, kas tur, bet nu... tas kādam mazām slinkam</p>",
+        "id": 348526365,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681234855
+    },
+    {
+        "content": "<p>Varbūt kaut ko daru nepareizi, JOSM nekādi nesanāk.</p>",
+        "id": 348527741,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681235269
+    },
+    {
+        "content": "<p>hmmmm <a href=\"/user_uploads/49624/1dSxT3Po9UND-YyMoD0e0BBL/ergtdfsg.png\">ergtdfsg.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/1dSxT3Po9UND-YyMoD0e0BBL/ergtdfsg.png\" title=\"ergtdfsg.png\"><img src=\"/user_uploads/49624/1dSxT3Po9UND-YyMoD0e0BBL/ergtdfsg.png\"></a></div>",
+        "id": 348528126,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681235381
+    },
+    {
+        "content": "<p>Ja pieliek <code>?request=GetCapabilities</code> vismaz nekarās, bet neko neatrod. Laikam vai nu JOSM nemāk kaut ko vai arī viņiem kaut kas ne tā</p>",
+        "id": 348528811,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681235602
+    },
+    {
+        "content": "<p>Paskatīsimies, ko JOSM izstrādātāji teiks - <a href=\"https://josm.openstreetmap.de/ticket/22869\">https://josm.openstreetmap.de/ticket/22869</a> .</p>",
+        "id": 348539727,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681239086
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/C2fbZ1alm76A3dcectprk6aK/image.png\">QGIS vmts</a> <br>\nQGIS strādā un liekas ka ātrāk ielādējas nekā VMS versija</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/C2fbZ1alm76A3dcectprk6aK/image.png\" title=\"QGIS vmts\"><img src=\"/user_uploads/49624/C2fbZ1alm76A3dcectprk6aK/image.png\"></a></div>",
+        "id": 348552124,
+        "sender_full_name": "Colby",
+        "timestamp": 1681243189
+    },
+    {
+        "content": "<p>Ou jē.<br>\n<a href=\"https://josm.openstreetmap.de/changeset/18703/josm\">https://josm.openstreetmap.de/changeset/18703/josm</a><br>\n<a href=\"/user_uploads/49624/3qJBYQ1v2qxUbmAOp963YXQe/image.png\">diff</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/3qJBYQ1v2qxUbmAOp963YXQe/image.png\" title=\"diff\"><img src=\"/user_uploads/49624/3qJBYQ1v2qxUbmAOp963YXQe/image.png\"></a></div>",
+        "id": 350584496,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681754360
+    },
+    {
+        "content": "<p>Pastāsti iD noobiem, kur JOSMā kas jāspiež, lai šito jauno brīnumu pieslēgtu :)</p>",
+        "id": 350594084,
+        "sender_full_name": "Arturs Verza",
+        "timestamp": 1681757480
+    },
+    {
+        "content": "<p>Vispirms vajag lai JOSM to varētu atpazīt, tad tur linku var uzģēnrēt, kuru var iD iebāzt. Bet te vēl vajag sagaidīt jauno JOSM versiju. <a href=\"https://wiki.openstreetmap.org/wiki/Lv:Source\">https://wiki.openstreetmap.org/wiki/Lv:Source</a> īsa instrukcija</p>",
+        "id": 350596045,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681758241
+    },
+    {
+        "content": "<p>Jautājums gan vai JOSM kaut kā citādi ar WMTS strādā vai arī iD neatbalsto kaut ko no tādiem</p>",
+        "id": 350596212,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681758306
+    },
+    {
+        "content": "<p>Drošvien arī no kaut kādiem QGIS arī var tos linku dabūt, bet tad jāvelk visa aplikācija.</p>",
+        "id": 350596290,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681758342
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"608541\">Arturs Verza</span> <a href=\"#narrow/stream/358602-general/topic/LVM.20jaunumi/near/350594084\">said</a>:</p>\n<blockquote>\n<p>Pastāsti iD noobiem, kur JOSMā kas jāspiež, lai šito jauno brīnumu pieslēgtu :)</p>\n</blockquote>\n<p>JOSM vēl nestrādās, jāsagaida vismaz dev builds, kurš būtu jaunāks par 18703 (šobrīd - 18702).<br>\nTās laikam reizi dienā ģenerējās, tā ka rīt laikam būs pieejama.</p>\n<p>Tik jāņem vērā, ka tur saturiski nekas cits nebūs, tikai varbūt būs ātrāk.</p>",
+        "id": 350604313,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681761391
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/4LVDjMEklVKxacWaAZayCwmY/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/4LVDjMEklVKxacWaAZayCwmY/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/4LVDjMEklVKxacWaAZayCwmY/image.png\"></a></div>",
+        "id": 351521462,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1682059116
+    },
+    {
+        "content": "<p>josm-latest 18706</p>",
+        "id": 351521578,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1682059155
+    },
+    {
+        "content": "<p><a href=\"https://www.facebook.com/share/z532k2Ldv9sQWRvm/\">https://www.facebook.com/share/z532k2Ldv9sQWRvm/</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.facebook.com/share/z532k2Ldv9sQWRvm/\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/364a5f86d1b3766433bd919e6d45cd1529099856/68747470733a2f2f73636f6e74656e742d696164332d322e78782e666263646e2e6e65742f762f7433392e33303830382d362f3434373432353430305f3935353034393134363431343034395f373935353633353437303230343833303730305f6e2e6a70673f7374703d6473742d6a70675f7036303078363030265f6e635f6361743d313035266363623d312d37265f6e635f7369643d356632303438265f6e635f6f68633d4433725036544f466f676f51376b4e76674674756a5732265f6e635f68743d73636f6e74656e742d696164332d322e7878266f683d30305f415941785f5051377870316d68456d3463576b45335a46596e4c4879456e44526a526b72446c58464d6b31656567266f653d3636364337373733&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.facebook.com/share/z532k2Ldv9sQWRvm/\" title=\"LVM GEO\">LVM GEO</a></div><div class=\"message_embed_description\">👏🌍 Pieejama jaunākā ortofoto karte! \n\nVisās LVM GEO lietotnēs (tai skaitā LVM GEO Mobile un http://lvmgeo.lvm.lv) ir pieejama jaunākā ortofoto un infrasarkanā ortofoto karte (papildināta ar 2023....</div></div></div>",
+        "id": 443717519,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1718010002
+    },
+    {
+        "content": "<p>\"Ņemot vērā izmaiņas LĢIA datu izmantošanas nosacījumos, jaunākā ortofoto karte nebūs pieejama kā brīvpieejas WMS serviss.\"</p>",
+        "id": 443717728,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1718010032
+    },
+    {
+        "content": "<p>...wtf</p>",
+        "id": 443719687,
+        "sender_full_name": "HellMap",
+        "timestamp": 1718010565
+    },
+    {
+        "content": "<p>bēdīgi</p>",
+        "id": 443832805,
+        "sender_full_name": "Rūdolfs",
+        "timestamp": 1718042690
+    },
+    {
+        "content": "<p>Vizium Ventspilī beidzot varētu smukāk iezīmēt bet protams....</p>",
+        "id": 443834046,
+        "sender_full_name": "Colby",
+        "timestamp": 1718043075
+    },
+    {
+        "content": "<p>A bet kas notiek ar to visu ko jau iezīmēja izmantojot iepriekš pieejamo (nepilnīgo) 8 ciklu?</p>",
+        "id": 443834406,
+        "sender_full_name": "Colby",
+        "timestamp": 1718043198
+    },
+    {
+        "content": "<p>wtf tie jauni orto ir līdz valkai</p>",
+        "id": 443836815,
+        "sender_full_name": "Colby",
+        "timestamp": 1718043970
+    },
+    {
+        "content": "<p>:(</p>",
+        "id": 443836860,
+        "sender_full_name": "Colby",
+        "timestamp": 1718043983
+    },
+    {
+        "content": "<p>Rihard! Vēstuli!</p>",
+        "id": 443837658,
+        "sender_full_name": "HellMap",
+        "timestamp": 1718044256
+    },
+    {
+        "content": "<p>Vispār jau vajadzētu kaut kādu kolektīvi savāku kaut ko kādus kaut kur... kaut kā tas nav normāli, kad beidzot brīvos datus taisam un te LĢIA kaut kas pēkšņi iesprūst</p>",
+        "id": 443837805,
+        "sender_full_name": "HellMap",
+        "timestamp": 1718044304
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/PZP4a9YL5UKzb9C2xyeHzCkI/image.png\">layer=restricted:Orto_LKS</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/PZP4a9YL5UKzb9C2xyeHzCkI/image.png\" title=\"layer=restricted:Orto_LKS\"><img src=\"/user_uploads/49624/PZP4a9YL5UKzb9C2xyeHzCkI/image.png\"></a></div>",
+        "id": 443837810,
+        "sender_full_name": "Colby",
+        "timestamp": 1718044305
+    },
+    {
+        "content": "<p>kāda velna pēc dot mums 8 ciklu jau gandrīz divus gadus bet šādi un tad pateikt \"nope wms nebūs\" <a href=\"/user_uploads/49624/IEFe45axzNjjxghkowQIYltd/image.png\">caurums</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/IEFe45axzNjjxghkowQIYltd/image.png\" title=\"caurums\"><img src=\"/user_uploads/49624/IEFe45axzNjjxghkowQIYltd/image.png\"></a></div>",
+        "id": 443838340,
+        "sender_full_name": "Colby",
+        "timestamp": 1718044457
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/358602-general/topic/LVM.20jaunumi/near/443834406\">said</a>:</p>\n<blockquote>\n<p>A bet kas notiek ar to visu ko jau iezīmēja izmantojot iepriekš pieejamo (nepilnīgo) 8 ciklu?</p>\n</blockquote>\n<p>Šis tikai apliecina agrāk ik pa laikam izskanējušās šaubas par to, vai LVM GEO WMS drīkst izmantot. Jā, drīkst, jo, kad dati nav brīvi pieejami, tad WMS to vienkārši nav.</p>",
+        "id": 443843683,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1718046356
+    },
+    {
+        "content": "<p>Pamatā jau šim ir LĢIA politikas maiņa, jaunākos datus dodot tikai autorizētie lietotājiem. Kad 8. cikls būs pabeigts, 7. cikla dati būs pieejami atvērto datu veidā no LĢIA puses: <a href=\"https://www.lgia.gov.lv/sites/lgia/files/document/Pakalpojumi_Kartografu_diena_2024.pdf\">https://www.lgia.gov.lv/sites/lgia/files/document/Pakalpojumi_Kartografu_diena_2024.pdf</a> (5. slaids). Sanāk turpmāk ar sešu gadu nobīdi. Jāzīmē lauki, kur nekā joprojām nav. :)<br>\n<a href=\"https://www.lgia.gov.lv/lv/wms-servisi-1\">https://www.lgia.gov.lv/lv/wms-servisi-1</a> pie jaunākā ortofoto ir piebilde, ka \"bezmaksas dati, autorizēta pieeja pēc licences parakstīšanas no klienta puses\", savukārt <a href=\"https://www.lgia.gov.lv/sites/lgia/files/document/Pakalpojumi_Kartografu_diena_2024.pdf\">https://www.lgia.gov.lv/sites/lgia/files/document/Pakalpojumi_Kartografu_diena_2024.pdf</a> 14. slaidā , ka \"bez maksas - valsts pārvaldes iestādēm un atvasinātām publiskām personām publisko funkciju un uzdevumu izpildei, kā arī privātpersonām, kuras pilda deleģētos valsts pārvaldes uzdevumus\", bet tas, šķiet, uz datiem, ne servisu attiecas, lai gan skaidri var zināt, LĢIA pārjautājot.</p>",
+        "id": 443844987,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1718046839
+    },
+    {
+        "content": "<p>\"Nemainīga IP adrese\" vispār kaut kāds 20. gadsimts</p>",
+        "id": 443856237,
+        "sender_full_name": "HellMap",
+        "timestamp": 1718050714
+    },
+    {
+        "content": "<p>Es pieļauju, ka arī Latvijas teritorijas aerolāzerskenēšanas 2. cikla dati nebūs brīvi pieejami.</p>",
+        "id": 443920498,
+        "sender_full_name": "Mezonens",
+        "timestamp": 1718085263
+    },
+    {
+        "content": "<p>Jā, nebūs vēl ļoti ilgi. Iepriekš pieminētajā prezentācijā redzams, ka pakāpeniski tiks publicēti tikai pēc 3. cikla sagatavošanas, kas noslēgsies 2033. gadā. Tur nobīde sanāk 12 gadi.</p>",
+        "id": 443923360,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1718086814
+    },
+    {
+        "content": "<p>Žēl, ka LV ir tik zema aktivitāte <a href=\"http://openaerialmap.org\">openaerialmap.org</a> - tā varētu būt lieliska alternatīva LĢIA ortofoto uzņēmumiem.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"http://openaerialmap.org\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/a6cb8fd0a43caa63f366ec615c3365515868f5cb/68747470733a2f2f6f70656e61657269616c6d61702e6f72672f6173736574732f67726170686963732f6d6574612f64656661756c742d6d6574612d696d6167652e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"http://openaerialmap.org\" title=\"OpenAerialMap\">OpenAerialMap</a></div><div class=\"message_embed_description\">The open collection of aerial imagery</div></div></div>",
+        "id": 443929388,
+        "sender_full_name": "Mezonens",
+        "timestamp": 1718089357
+    },
+    {
+        "content": "<p>Jāsastāda saraksts ar valsts un pašvaldību organizācijām, kuras lieto OSM, lai varētu richa vēstulē ielikt smuku sarakstu. (Var arī visas Jāņa Sētas kartes pielikt, jo viņi arī izmanto OSM ;) )</p>",
+        "id": 443964119,
+        "sender_full_name": "HellMap",
+        "timestamp": 1718100665
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"727203\">Mezonens</span> <a href=\"#narrow/stream/358602-general/topic/LVM.20jaunumi/near/443920498\">said</a>:</p>\n<blockquote>\n<p>Es pieļauju, ka arī Latvijas teritorijas aerolāzerskenēšanas 2. cikla dati nebūs brīvi pieejami.</p>\n</blockquote>\n<p>Ir gan! Un jūtami tīrāks, smukāks.<br>\n<a href=\"/user_uploads/49624/tKoXg89mxwM0sq-GcKPFBOaj/image.png\">LKS 2</a> <a href=\"/user_uploads/49624/mfkQ6RURS_9qp0NbSgyfjPQL/image.png\">LKS 1</a><br>\n<a href=\"/user_uploads/49624/MtX0tGRmds56uDu99R8oV5hV/image.png\">kurzeme</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/tKoXg89mxwM0sq-GcKPFBOaj/image.png\" title=\"LKS 2\"><img src=\"/user_uploads/49624/tKoXg89mxwM0sq-GcKPFBOaj/image.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/mfkQ6RURS_9qp0NbSgyfjPQL/image.png\" title=\"LKS 1\"><img src=\"/user_uploads/49624/mfkQ6RURS_9qp0NbSgyfjPQL/image.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/MtX0tGRmds56uDu99R8oV5hV/image.png\" title=\"kurzeme\"><img src=\"/user_uploads/49624/MtX0tGRmds56uDu99R8oV5hV/image.png\"></a></div>",
+        "id": 446099277,
+        "sender_full_name": "Colby",
+        "timestamp": 1718981572
+    },
+    {
+        "content": "<p>Tie gan nav skenēšanas dati, bet no tiem LVM GEO veidotais reljefa modelis. Priekš OSM gan tas ir tas, ko izmanto vairāk. Redzēs gan, vai tiks papildināts.</p>",
+        "id": 446100656,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1718981999
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/b_2GOpuJiRmwHqIiFH9yxm3u/image.png\">2</a> <a href=\"/user_uploads/49624/vc7LsebAZPQky9JvvmZMIUV-/image.png\">1</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/b_2GOpuJiRmwHqIiFH9yxm3u/image.png\" title=\"2\"><img src=\"/user_uploads/49624/b_2GOpuJiRmwHqIiFH9yxm3u/image.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/vc7LsebAZPQky9JvvmZMIUV-/image.png\" title=\"1\"><img src=\"/user_uploads/49624/vc7LsebAZPQky9JvvmZMIUV-/image.png\"></a></div>",
+        "id": 446101448,
+        "sender_full_name": "Colby",
+        "timestamp": 1718982223
+    },
+    {
+        "content": "<p>cerams ka nebūs tā kā ar 8 ciklu orto ar ventspils caurumu..</p>",
+        "id": 446103712,
+        "sender_full_name": "Colby",
+        "timestamp": 1718982922
+    },
+    {
+        "content": "<p>Tā kā plašākā diskusija par LĢIA un attiecīgi LVM GEO politikas maiņu atvērto datu jomā bija šeit, tad paturpināšu tepat. Iegūt individuālu atļauju izmantot jaunāko ortofoto WMTS OSM datu atjaunošanai <a href=\"https://drive.google.com/file/d/1k0fC6m3lcufrOzKx8bhykJwOXbpIvdos/view?usp=sharing\">standartizētas licences veidā</a> nebija problēmu. Tiesa, atbilstoši licences nosacījumiem pievienojamā atsauce ir tāda, ka OSM kopienā varētu rasties iebildumi, lai gan LĢIA pusē tādu attiecībā uz datu izmantošanu OSM nav. Skatīt komentāru <a href=\"https://www.openstreetmap.org/changeset/163879706\">https://www.openstreetmap.org/changeset/163879706</a>. Protams, jādraudzējas ar veselo saprātu, ko no šiem datiem zīmēt, un ko ne, ņemot vērā ģeopolitisko situāciju. Interesanti, ka no LĢIA puses licence parakstīta netiek. Iespējams, no viņiem derētu kāds kopējs apliecinājums, ka nav iebildumu datu izmantošanai OSM vajadzībām lietotājiem ar individuāli izsniegtajām atļaujām, līdzīgi kā ieteikts <a href=\"https://osmfoundation.org/wiki/Licence/Waiver_and_Permission_Templates/Template_text_for_aerial_imagery_waivers\">https://osmfoundation.org/wiki/Licence/Waiver_and_Permission_Templates/Template_text_for_aerial_imagery_waivers</a>. Uz vispārīgu atļauju jebkuram OSM lietotājam domāju, ka var nesapņot, tādi laiki tagad, jādomā, ka vismaz aktīvākajiem lietotājiem iegūt iespēju izmantot jaunākos ortofoto. No praktiskām lietām - JOSM WMTS strādā, pieteikumā statiska IP adrese nav obligāti jānorāda, liku 0.0.0.0/0, arī bankas rekvizītu vietā var ierakstīt tekstu, kas norāda, ka tie nav saistoši, jo licence ir bezmaksas datu izmantošanai. Jārēķinās, ka, lai saņemtu pieeju, var paiet vairākas nedēļas.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/changeset/163879706\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/changeset/163879706\" title=\"Changeset: 163879706\">Changeset: 163879706</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 507072407,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1742503872
+    },
+    {
+        "content": "<p>Varbūt tas ir tikai es, bet es nesapratu:</p>\n<ol>\n<li>Man ir jāaizpilda kāda veidlapa/pieteikumu? Kur es to varu dabūt?</li>\n<li>Ja man ir aizpildīta veidlapa, kur man tā jānosūta?</li>\n<li>Vai pēc apstiprināšanas es saņemšu saites uz WMTS?</li>\n</ol>",
+        "id": 507224089,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1742547769
+    },
+    {
+        "content": "<ol>\n<li>un 2. <a href=\"https://e-pieteikumi.lgia.gov.lv/WmsServices/ApplicantSelect\">https://e-pieteikumi.lgia.gov.lv/WmsServices/ApplicantSelect</a> (tēmā iepriekš bija pieminēta). Izmantošanas mērķī jānorāda, ka OpenStreetMap datu atjaunošanai.</li>\n<li>Uz norādīto e-pasta adresi sākumā atsūtīs licences līgumu, kas elektroniski jāparaksta un jānosūta atpakaļ. Pēc kāda laika atsūtīs WMTS saiti, lietotājvārdu un paroli.</li>\n</ol>",
+        "id": 507225854,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1742548338
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"571929\">@Dāvis Kļaviņš</span> paldies!<br>\nKo ievadīt \"Ģeotelpisko datu kopas izmantošanas mērķis\"?<br>\nun vēl uzlikt ķeksīti \"Ortofotokartes (2022.-2024.g.) RGB\"?</p>",
+        "id": 507229811,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1742549623
+    },
+    {
+        "content": "<p>Jā, jaunākajai ortofotokartei atbildīs šis. Mērķī \"OpenStreetMap datu atjaunošanai\".</p>",
+        "id": 507235009,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1742551239
+    },
+    {
+        "content": "<p>Būs traki ar visiem RapiD u.c. kartētājiem, kuri zīmēs no vecākiem/nobīdītiem slāņiem.<br>\nUn kaut kā tā ņemtne arī šķiet nesamērīgi liela... Šitā mēs Latgali neattīstīsim ;)</p>",
+        "id": 507374363,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1742594258
+    }
+]

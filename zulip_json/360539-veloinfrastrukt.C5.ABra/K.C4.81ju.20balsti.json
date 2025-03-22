@@ -1,0 +1,92 @@
+[
+    {
+        "content": "<p>Kā kartēt? <br>\n<a href=\"/user_uploads/49624/o6OjGS6-8UarJnypMS9rKQp-/footrestbikethinghowtotaghelp.png\">footrestbikethinghowtotaghelp.png</a><br>\nMans iepriekšējais pagaidu mēģinājums bija <a href=\"https://www.openstreetmap.org/way/1107702436\">https://www.openstreetmap.org/way/1107702436</a>, jo neatradu neko labāku.</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/o6OjGS6-8UarJnypMS9rKQp-/footrestbikethinghowtotaghelp.png\" title=\"footrestbikethinghowtotaghelp.png\"><img src=\"/user_uploads/49624/o6OjGS6-8UarJnypMS9rKQp-/footrestbikethinghowtotaghelp.png\"></a></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/1107702436\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/1107702436\" title=\"Way: 1107702436 | OpenStreetMap\">Way: 1107702436 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 402860642,
+        "sender_full_name": "HellMap",
+        "timestamp": 1700303421
+    },
+    {
+        "content": "<p>Izskatās pēc <a href=\"https://wiki.openstreetmap.org/wiki/Proposal:Highway%3Dcyclist_waiting_aid\">https://wiki.openstreetmap.org/wiki/Proposal:Highway%3Dcyclist_waiting_aid</a></p>",
+        "id": 402861495,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1700304004
+    },
+    {
+        "content": "<p>O! Tas nemaz neatradās pagāšreiz - nebija vēl RFC. Visiem steidzami balsot!</p>",
+        "id": 402861712,
+        "sender_full_name": "HellMap",
+        "timestamp": 1700304181
+    },
+    {
+        "content": "<p>Saliku tos, kurus zinu <a href=\"https://overpass-turbo.eu/s/1DzW\">https://overpass-turbo.eu/s/1DzW</a> <br>\n<a href=\"/user_uploads/49624/R8XcecDIYXXOEjtxho0aTtg9/footrestactuallywaitingaidwho-knew.png\">footrestactuallywaitingaidwho-knew.png</a><br>\nVai vispār kaut kur Latvijā vēl tādi ir? Es kaut kā neesmu nekur redzējis.</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/R8XcecDIYXXOEjtxho0aTtg9/footrestactuallywaitingaidwho-knew.png\" title=\"footrestactuallywaitingaidwho-knew.png\"><img src=\"/user_uploads/49624/R8XcecDIYXXOEjtxho0aTtg9/footrestactuallywaitingaidwho-knew.png\"></a></div>",
+        "id": 402867126,
+        "sender_full_name": "HellMap",
+        "timestamp": 1700306764
+    },
+    {
+        "content": "<p>Overpass kods :)</p>\n<div class=\"codehilite\" data-code-language=\"overpass\"><pre><span></span><code>[out:json][timeout:25];\n{{geocodeArea:latvia}}-&gt;.searchArea;\nnwr[\"highway\"=\"cyclist_waiting_aid\"](area.searchArea);\nout geom;\n</code></pre></div>",
+        "id": 403050671,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1700426320
+    },
+    {
+        "content": "<p>Iebalsots. <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dcyclist_waiting_aid\">highway=cyclist_waiting_aid</a></p>",
+        "id": 403860414,
+        "sender_full_name": "HellMap",
+        "timestamp": 1700778153
+    },
+    {
+        "content": "<p>Uztaisīju karti velobalstiem - <a href=\"https://umap.openstreetmap.fr/en/map/latvia-cyclist-waiting-aids-latvijas-kaju-balsti-v_1147819\">https://umap.openstreetmap.fr/en/map/latvia-cyclist-waiting-aids-latvijas-kaju-balsti-v_1147819</a></p>",
+        "id": 486110191,
+        "sender_full_name": "HellMap",
+        "timestamp": 1733323825
+    },
+    {
+        "content": "<p>Dažās vietās jauni balsti parādījušies. Laikam šitas projekts bīdās <a href=\"https://www.riga.lv/lv/jaunums/riga-planots-uzstadit-jaunus-kaju-balstus-velobraucejiem\">https://www.riga.lv/lv/jaunums/riga-planots-uzstadit-jaunus-kaju-balstus-velobraucejiem</a></p>",
+        "id": 486110222,
+        "sender_full_name": "HellMap",
+        "timestamp": 1733323831
+    },
+    {
+        "content": "<blockquote>\n<p>Kopējais kāju balstu skaits Rīga ir apmēram 45. Esošie kāju balsti ir izvietoti veloceļā “Imanta – Daugavgrīva”, kā arī veloinfrastruktūras objektos ap Centrāltirgu – 11. novembra krastmalā, 13. janvāra ielā, Ģenerāļa Radziņa krastmalā, Lastādijas ielā, Emīlijas Benjamiņas ielā un citur.</p>\n</blockquote>\n<p>Izskatās, ka skaita katru stabu/balstu atsevišķi nevis tikai apstāšanās vietu (kā OSM). Tā pa 3 stabiem vienā vietā var dauddz saskaitīt, jā. Es (man) zināmos sakaitīju 42us. Kaut kur 3 vēl jāsameklē - drošvien jau ap Centrālo.</p>",
+        "id": 486110283,
+        "sender_full_name": "HellMap",
+        "timestamp": 1733323843
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/GybGQx3ylb1zdHX9i4Qvaefn/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/GybGQx3ylb1zdHX9i4Qvaefn/image.png\" title=\"image.png\"><img data-original-dimensions=\"1420x755\" src=\"/user_uploads/thumbnail/49624/GybGQx3ylb1zdHX9i4Qvaefn/image.png/840x560.webp\"></a></div>",
+        "id": 486110356,
+        "sender_full_name": "HellMap",
+        "timestamp": 1733323860
+    },
+    {
+        "content": "<blockquote>\n<p>uzstādot desmit jaunus kāju balstus</p>\n</blockquote>\n<p>Ja pieņemam, ka skaita katru stabu, tad 9 jau ir uzstādīti un iekartēti. Tad vēl 1 kaut kur slēpjas.</p>",
+        "id": 486110397,
+        "sender_full_name": "HellMap",
+        "timestamp": 1733323869
+    },
+    {
+        "content": "<p>Te piemērs, kā līdz galam neviens nekad neko neizdara. Balsti jau ir, jā. Bet tikai velo lūgšanu poga ir aiz viņiem. Faktiski tikai otrajam balsts. Budžetā laikam nekāda plānošana un loģikas pielietošana nav paredzēta... <br>\n<a href=\"/user_uploads/49624/gsAZ5N6efUiPb3Ha-UNBSl_y/begbuttonplace.jpg\">begbuttonplace.jpg</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/gsAZ5N6efUiPb3Ha-UNBSl_y/begbuttonplace.jpg\" title=\"begbuttonplace.jpg\"><img data-original-dimensions=\"3785x2499\" src=\"/user_uploads/thumbnail/49624/gsAZ5N6efUiPb3Ha-UNBSl_y/begbuttonplace.jpg/840x560.webp\"></a></div>",
+        "id": 486110662,
+        "sender_full_name": "HellMap",
+        "timestamp": 1733323937
+    },
+    {
+        "content": "<p>No vienas puses jau protams prieks, ka uzstāda. No otras - uzstādīts tikai 4 krustojumos un no tām tikai 2ov no abām pusēm. Faktiski krustojumu ir simtiem, tad procentuāli jau tas skaits ir smieklīgs. Viss Ziepniekkalna maršruts tukšs, viss Marupes tukšs, uz Juglu/Baltezeru tukšs, visas velojoslas tukšas, Krasta tukša, Jūrmalas veloceļi tukši... Faktiski jau lielās \"maģestrāles\" ir tukšas.</p>",
+        "id": 486111574,
+        "sender_full_name": "HellMap",
+        "timestamp": 1733324173
+    },
+    {
+        "content": "<blockquote>\n<p>Tāpat jauni kāju balsti tiek paredzēti jaunajos veloinfrastruktūras objektos.</p>\n</blockquote>\n<p>Apskatījos piemēram K. Ulmaņa pārbūves vietu ar jaunajiem veloceļiem. Neviena balsta nav. Ko nozīmē \"paredzēti\" tajā teikumā un kas to paredz un kontrolē? No kura brīža tādiem projektiem tā jābūt un kas ir \"veloinfrastruktūras objekts\" vispār? 0 informācijas...</p>",
+        "id": 486112631,
+        "sender_full_name": "HellMap",
+        "timestamp": 1733324446
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/360539-veloinfrastrukt.C5.ABra/topic/K.C4.81ju.20balsti/near/486110662\">said</a>:</p>\n<blockquote>\n<p>Te piemērs, kā līdz galam neviens nekad neko neizdara. Balsti jau ir, jā. Bet tikai velo lūgšanu poga ir aiz viņiem. Faktiski tikai otrajam balsts. Budžetā laikam nekāda plānošana un loģikas pielietošana nav paredzēta... <br>\n<a href=\"/user_uploads/49624/gsAZ5N6efUiPb3Ha-UNBSl_y/begbuttonplace.jpg\">begbuttonplace.jpg</a></p>\n</blockquote>\n<p>Par šo varbūt <span class=\"user-mention\" data-user-id=\"605945\">@Oto Ozols</span> ir kas sakāms - pogu plānots pārvietot?</p>",
+        "id": 486652719,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1733564016
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Sveiki, vai mēs varētu pārrunāt Iecavas apvedceļa izbūvi? Es domāju šobrīd izlikt kā proposed highway, un vēlāk likt kā construction, bet RailBaltica tika likts kā construction vēl pirms būvniecības sākuma.<br>\nTrasi var pārzīmēt no Iecavas Teritoriju Zonejuma. <a href=\"https://geolatvija.lv/geo/tapis#document_8029\">https://geolatvija.lv/geo/tapis#document_8029</a> ; <a href=\"https://tapis.gov.lv/tapis/lv/downloads/44001\">https://tapis.gov.lv/tapis/lv/downloads/44001</a></p>",
+        "id": 507411408,
+        "sender_full_name": "petons",
+        "timestamp": 1742620075
+    },
+    {
+        "content": "<p>Rail Baltica diemžēl nav pareizi ielikts <code>construction</code> (te kaut kur minēts pāris reižu), jo faktiski būvniecība tikai dažās vietās. Bet daži kartētāji vislaik turp šurp liek. Vajadzētu jau izlabot un te kopienā it kā vienoties par to, bet neviens nav ticis tik tālu. Bet īsumā - jā, <code>construction</code> vajadzētu tikai tad, kad jau ir sākusies būvniecība un vēlams pašu ceļu būvniecība. Bet <code>proposed</code> (un <code>planned</code>) var droši likt daudz agrāk, ja tas no kaut kādiem oficiāliem un ticamiem plāniem. Izskatās, ka Iecavas/Bauskas apvedceļus plānots līdz 2030.</p>",
+        "id": 507440434,
+        "sender_full_name": "HellMap",
+        "timestamp": 1742641184
+    },
+    {
+        "content": "<p>Nu tad varētu pamēģināt ielikt..</p>",
+        "id": 507440556,
+        "sender_full_name": "petons",
+        "timestamp": 1742641245
+    }
+]
