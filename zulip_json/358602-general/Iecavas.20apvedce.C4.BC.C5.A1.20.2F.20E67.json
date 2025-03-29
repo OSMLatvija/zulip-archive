@@ -1,0 +1,86 @@
+[
+    {
+        "content": "<p>Sveiki, vai mēs varētu pārrunāt Iecavas apvedceļa izbūvi? Es domāju šobrīd izlikt kā proposed highway, un vēlāk likt kā construction, bet RailBaltica tika likts kā construction vēl pirms būvniecības sākuma.<br>\nTrasi var pārzīmēt no Iecavas Teritoriju Zonejuma. <a href=\"https://geolatvija.lv/geo/tapis#document_8029\">https://geolatvija.lv/geo/tapis#document_8029</a> ; <a href=\"https://tapis.gov.lv/tapis/lv/downloads/44001\">https://tapis.gov.lv/tapis/lv/downloads/44001</a></p>",
+        "id": 507411408,
+        "sender_full_name": "petons",
+        "timestamp": 1742620075
+    },
+    {
+        "content": "<p>Rail Baltica diemžēl nav pareizi ielikts <code>construction</code> (te kaut kur minēts pāris reižu), jo faktiski būvniecība tikai dažās vietās. Bet daži kartētāji vislaik turp šurp liek. Vajadzētu jau izlabot un te kopienā it kā vienoties par to, bet neviens nav ticis tik tālu. Bet īsumā - jā, <code>construction</code> vajadzētu tikai tad, kad jau ir sākusies būvniecība un vēlams pašu ceļu būvniecība. Bet <code>proposed</code> (un <code>planned</code>) var droši likt daudz agrāk, ja tas no kaut kādiem oficiāliem un ticamiem plāniem. Izskatās, ka Iecavas/Bauskas apvedceļus plānots līdz 2030.</p>",
+        "id": 507440434,
+        "sender_full_name": "HellMap",
+        "timestamp": 1742641184
+    },
+    {
+        "content": "<p>Nu tad varētu pamēģināt ielikt..</p>",
+        "id": 507440556,
+        "sender_full_name": "petons",
+        "timestamp": 1742641245
+    },
+    {
+        "content": "<p>\"construction\" tiek likts tāpēc, ka \"proposed\" renderēšanu aizvāca, un man šķiet, ka to vajadzētu atjaunot - tāpēc īpaši neiebilstu pret lielu objektu ātrāku ielikšanu :)</p>",
+        "id": 508296138,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1743000042
+    },
+    {
+        "content": "<p>Mapping for rendering <span aria-label=\"-1\" class=\"emoji emoji-1f44e\" role=\"img\" title=\"-1\">:-1:</span></p>",
+        "id": 508303098,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1743001478
+    },
+    {
+        "content": "<p>Harmful rendering changes arī thumbsdown ;)</p>",
+        "id": 508303723,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1743001609
+    },
+    {
+        "content": "<p>Proposed nav harmful</p>",
+        "id": 508305224,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1743001923
+    },
+    {
+        "content": "<p>Bet tāpēc tieši otrādi - jāliek elementi, kurus nerenderē, lai varētu pēc tam kartēm teikt - lūk, cik daudz elementu, renderējiet. Citāti visi tie paši Carto visu laiku saka - tag not used, tag not used, already tagged with X. Flowerbed 20 gadus gaidījām, kamēr visi grass un garden lika. (Un vispār - pamatos, te Carto maintaineri ir jāmaina, jo skatoties viņu pieeju, nekas nemainīsies, kādus tegus, lai te neliktu.)</p>",
+        "id": 508305301,
+        "sender_full_name": "HellMap",
+        "timestamp": 1743001942
+    },
+    {
+        "content": "<p>Tad jāizdomā, ko likt, lai es varētu ielikt kartē.</p>",
+        "id": 508319384,
+        "sender_full_name": "petons",
+        "timestamp": 1743004816
+    },
+    {
+        "content": "<p>Vismaz proposed to vari vienmēr droši likt. Jautājums tikai (pārsvarā rich'am) vai likt uz construction.</p>",
+        "id": 508321362,
+        "sender_full_name": "HellMap",
+        "timestamp": 1743005162
+    },
+    {
+        "content": "<p>Ar proposed bija tā, ka to ilgus gadus renderēja. Bet tad daži sāka likt kā proposed arī to, ko kaut kādi politiķi kaut kur \"piedāvāja\", kam nebija nekādu cerību reāli uztapt.<br>\nUn tad nevis centās sakārtot kartēšanu, bet aizvāca renderingu.<br>\nTā arī nonācām pie tā, ka citās kartēs dažādus lielus projektus redz, OSM nē.</p>",
+        "id": 508359967,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1743016708
+    },
+    {
+        "content": "<p>varu uzlikt construction ar <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Astart_date%3D2028\">start_date=2028</a> (?)</p>",
+        "id": 508899668,
+        "sender_full_name": "petons",
+        "timestamp": 1743235484
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Key%3Astart_date\">start_date=*</a> ir eksistējošām lietām, te būs <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aopening_date\">opening_date=*</a> . construction ar start_date nozīmēs, ka ceļš eksistē kā būvniecībā kopš 2028. gada, kas būs kļūda, jo start_date nevar būt vēlāks par esošo datumu</p>",
+        "id": 508912020,
+        "sender_full_name": "HellMap",
+        "timestamp": 1743246139
+    },
+    {
+        "content": "<p>tad <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aopening_date%3D2028\">opening_date=2028</a>? vai <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aopening_date%3D2030\">opening_date=2030</a> (ja tas ir kad cels atversies)</p>",
+        "id": 508913794,
+        "sender_full_name": "petons",
+        "timestamp": 1743247744
+    }
+]
