@@ -1,0 +1,110 @@
+[
+    {
+        "content": "<p>Mastodon SK53 paskatījās ātruma ierobežojumu kartējumu dažādās valstīs, ieskaitot Latviju. Izrādās, mums diezgan daudz kur ierobežojumi nav kartēti.<br>\n<a href=\"https://mastodon.social/@SK53@en.osm.town/110190729824934435\">https://mastodon.social/@SK53@en.osm.town/110190729824934435</a></p>\n<p><a href=\"/user_uploads/49624/FRQmbIWxr53xgElhE6GV84_F/image.png\">Latvija</a> <br>\n<a href=\"/user_uploads/49624/dqigYYQk_DoR8-xMSfWM22d6/image.png\">Komentārs</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/FRQmbIWxr53xgElhE6GV84_F/image.png\" title=\"Latvija\"><img src=\"/user_uploads/49624/FRQmbIWxr53xgElhE6GV84_F/image.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/dqigYYQk_DoR8-xMSfWM22d6/image.png\" title=\"Komentārs\"><img src=\"/user_uploads/49624/dqigYYQk_DoR8-xMSfWM22d6/image.png\"></a></div>",
+        "id": 349095308,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681389125
+    },
+    {
+        "content": "<p>Mapillary ātruma zīmju slāni un uz priekšu :)</p>",
+        "id": 349096825,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681389490
+    },
+    {
+        "content": "<p>Mhm, īpaši garākā posmā tas var ļaut atrast īsus (70) utml :)<br>\nUn ja kādiem posmiem nebūs svaigu bilžu vai bilžu nemaz, tos jau pēc tam var izķert.</p>",
+        "id": 349104294,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681391111
+    },
+    {
+        "content": "<p><span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span><br>\n<a href=\"/user_uploads/49624/CG1EABjjIKIbjjVlSdwnbRt6/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/CG1EABjjIKIbjjVlSdwnbRt6/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/CG1EABjjIKIbjjVlSdwnbRt6/image.png\"></a></div>",
+        "id": 349112103,
+        "sender_full_name": "Colby",
+        "timestamp": 1681392871
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/nXp15iRHQDDVP8q8UoZ31awa/maxlimit.png\">maxlimit.png</a> hihihi</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/nXp15iRHQDDVP8q8UoZ31awa/maxlimit.png\" title=\"maxlimit.png\"><img src=\"/user_uploads/49624/nXp15iRHQDDVP8q8UoZ31awa/maxlimit.png\"></a></div>",
+        "id": 349112414,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681392949
+    },
+    {
+        "content": "<p>grants ceļiem likt 80 vai pietiek ar surface=?</p>",
+        "id": 349114451,
+        "sender_full_name": "Colby",
+        "timestamp": 1681393388
+    },
+    {
+        "content": "<p>Es teiktu, ka jāliek vai nu explicit, vai kādu grupas tagu (līdzīgi kā urban utt) - bet tik specifisku grupas tagu var nesaprast neviens routeris...<br>\nTā ka šobrīd es ieteiktu visur likt explicit pat tad, ja ir grupas tags klāt.</p>",
+        "id": 349123242,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681395245
+    },
+    {
+        "content": "<p>Tikai wiki speciāli rakstīts explicit nelikt <a href=\"https://wiki.openstreetmap.org/wiki/Default_speed_limits\">https://wiki.openstreetmap.org/wiki/Default_speed_limits</a>, tur pat Latvija kā piemērs šitam 80</p>",
+        "id": 349125971,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681395791
+    },
+    {
+        "content": "<p>(Par līdzīgi implicit dzīvajamo zonu maxspeed jau te bija parunāts nedaudz. Es tā arī neko neizsecināju no tā. Tikai to, ka routeri nemāk bez explicit vērtības.)</p>",
+        "id": 349126371,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681395856
+    },
+    {
+        "content": "<p>Nu jā, varbūt wiki kāds nepraktisks puritānis sarakstījis, esnez :D<br>\nKaut kad senāk ir runāts, ka ir OK likt abus.<br>\nTad visi rūteri strādās un var viegli pārbaudīt, kur kaut kas neatbilst tā brīža regulējumam.</p>",
+        "id": 349127673,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681396133
+    },
+    {
+        "content": "<p>Iepriekšējās tēmas, kur par explicit/implicit maxspeed runāts:<br>\n<a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed\">#general &gt; Dzīvojamās ielas ar maxspeed</a> <br>\n<a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/gr.C5.ABti.20b.C5.ABt.20routing.27am.2E.2E.2E\">#general &gt; grūti būt routing'am...</a></p>",
+        "id": 349128547,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681396320
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.81truma.20ierobe.C5.BEojumu.20kart.C4.93.C5.A1ana/near/349125971\">said</a>:</p>\n<blockquote>\n<p>Tikai wiki speciāli rakstīts explicit nelikt <a href=\"https://wiki.openstreetmap.org/wiki/Default_speed_limits\">https://wiki.openstreetmap.org/wiki/Default_speed_limits</a>, tur pat Latvija kā piemērs šitam 80</p>\n</blockquote>\n<p>Nav rakstīts nelikt <code>maxspeed</code>. Ir rakstīts, ka labāk iezīmēt faktorus, kas nosaka <code>maxspeed</code>, bet iezīmēt arī <code>maxspeed</code> nebūs kļūdaini. Vismaz es tā saprotu.</p>",
+        "id": 362365437,
+        "sender_full_name": "i-ky",
+        "timestamp": 1685517450
+    },
+    {
+        "content": "<p>Ideālā pasaulē, jā. Bet tas paredz, ka kartētājs noņems nepareizo ātrumu mainot šos faktorus. Bet praksē gan tā bieži nav - tās pašas dzīvojamās ielas ar 50 vai citiem ātrumiem. Protams visideālāk ir likt <code>maxspeed:type</code> (kopā). Tad Latvijā būs kaut kāds <code>rural_unpaved</code> variants. Te gan jāpanāk, lai iD tos rādītu (bet tas katrai valstij savs jārāda).</p>",
+        "id": 362399347,
+        "sender_full_name": "HellMap",
+        "timestamp": 1685525892
+    },
+    {
+        "content": "<p>Man liekas, nepareizus <code>maxspeed</code> ir diezgan viegli noķert ar botiem un validāciju. Un to var izdarīt vietējie.</p>",
+        "id": 362401402,
+        "sender_full_name": "i-ky",
+        "timestamp": 1685526404
+    },
+    {
+        "content": "<p>Var, bet tur jau ir tā pati problēma - kurš to dara? Neesmu redzējis nevienu to daram sistemātiski un atkārtoti. Izlabot var visu, bet te jau jautājums sākas no tā, ka nav izlabots.</p>",
+        "id": 362402227,
+        "sender_full_name": "HellMap",
+        "timestamp": 1685526611
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.81truma.20ierobe.C5.BEojumu.20kart.C4.93.C5.A1ana/near/362399347\">said</a>:</p>\n<blockquote>\n<p>Ideālā pasaulē, jā. Bet tas paredz, ka kartētājs noņems nepareizo ātrumu mainot šos faktorus. Bet praksē gan tā bieži nav - tās pašas dzīvojamās ielas ar 50 vai citiem ātrumiem. Protams visideālāk ir likt <code>maxspeed:type</code> (kopā). Tad Latvijā būs kaut kāds <code>rural_unpaved</code> variants. Te gan jāpanāk, lai iD tos rādītu (bet tas katrai valstij savs jārāda).</p>\n</blockquote>\n<p>Tie nepareizie biežāk nav tāpēc, ka kāds nomainījis vienu tagu, bet citu ne.<br>\nVismaz cik manīts, tādas kombinācijas bieži tiek kopā jau ieliktas - residential + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amaxspeed%3D20\">maxspeed=20</a> utt.<br>\nBet piekrītu i-ky, tādas nesakritības šķiet ļoti viegli izķert.</p>",
+        "id": 362402232,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1685526612
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.81truma.20ierobe.C5.BEojumu.20kart.C4.93.C5.A1ana/near/362402227\">said</a>:</p>\n<blockquote>\n<p>Var, bet tur jau ir tā pati problēma - kurš to dara? Neesmu redzējis nevienu to daram sistemātiski un atkārtoti. Izlabot var visu, bet te jau jautājums sākas no tā, ka nav izlabots.</p>\n</blockquote>\n<p>SOTM Baltics lietuvieši stāstīs par saviem advancētajiem QA risinājumiem, varbūt varam klātienē šo tēmu apspriest un viņiem pievienoties :)</p>",
+        "id": 362402402,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1685526655
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.81truma.20ierobe.C5.BEojumu.20kart.C4.93.C5.A1ana/near/362402227\">said</a>:</p>\n<blockquote>\n<p>Var, bet tur jau ir tā pati problēma - kurš to dara? Neesmu redzējis nevienu to daram sistemātiski un atkārtoti. Izlabot var visu, bet te jau jautājums sākas no tā, ka nav izlabots.</p>\n</blockquote>\n<p>Es tikko <a href=\"#narrow/stream/362235-Zulip/topic/Resultmaps.20RSS/near/362362341\">pabeidzu ar RSS</a>. Man plānos tālāk pieķerties Tavam Osmalyzer un adrešu <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">botam</a>. Vajag vismaz vienu līdz galam automatizēt, un būs jau \"framework\", kur likt vairāk validācijas noteikumu. Viss notiek, tikai lēnām. :)</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 362404464,
+        "sender_full_name": "i-ky",
+        "timestamp": 1685527186
+    }
+]
