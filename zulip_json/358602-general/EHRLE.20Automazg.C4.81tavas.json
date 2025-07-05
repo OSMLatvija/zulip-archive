@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Ja uzmeklē, OSM ir visur kur iezīmētas automazgātavas \"EHRLE\". Bet es tagad skatos, ka EHRLE nav automazgātavu tīkls, bet automazgātavu iekārtu ražotājs. </p>\n<p>Piemēram, EHRLE automazgātava Juglas ielā šķiet ir īstenībā viena no \"Carwash Service\" automazgātavām.<br>\nŠķiet, būtu jālabo. No otras puses gan, gan jau ne tikai kartes zīmētāji, bet arī kartes lietotāji tos uzrakstus \"EHRLE\" notur par mazgātavas (nevis iekārtu ražotāja) nosaukumu :-)</p>",
+        "id": 474318157,
+        "sender_full_name": "Pēteris Caune",
+        "timestamp": 1727880516
+    },
+    {
+        "content": "<p>Hmmmm. Nekad pat iedomājies nebūtu. Es no tā uzraksta esmu vienmēr licis. Bet tad principā nosaukuma vispār sanāk nav un operators ir jāskatās individuāli katrai, bet Ehrle vispār tegos nebūs?</p>",
+        "id": 474319067,
+        "sender_full_name": "HellMap",
+        "timestamp": 1727880765
+    },
+    {
+        "content": "<p>Jāpārbauda, vai tā tiešām ir, ka EHRLE visos gadījumos pats nav operators, varbūt es kļūdos.</p>",
+        "id": 474319997,
+        "sender_full_name": "Pēteris Caune",
+        "timestamp": 1727881021
+    },
+    {
+        "content": "<p><a href=\"https://www.ehrle.lv/contacts/\">https://www.ehrle.lv/contacts/</a> saka \"EHRLE FS is in no way responsible for technical problems at each specific car wash.\" tāpēc iespējams, ka tiešām nav neviena</p>",
+        "id": 474320928,
+        "sender_full_name": "HellMap",
+        "timestamp": 1727881252
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/EHRLE.20Automazg.C4.81tavas/near/474319067\">said</a>:</p>\n<blockquote>\n<p>Hmmmm. Nekad pat iedomājies nebūtu. Es no tā uzraksta esmu vienmēr licis. Bet tad principā nosaukuma vispār sanāk nav un operators ir jāskatās individuāli katrai, bet Ehrle vispār tegos nebūs?</p>\n</blockquote>\n<p>Var likt manufacturer= - <a href=\"https://wiki.openstreetmap.org/wiki/Key:manufacturer\">https://wiki.openstreetmap.org/wiki/Key:manufacturer</a> .</p>",
+        "id": 475132032,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1728242722
+    }
+]
