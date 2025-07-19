@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Hi and thanks, you too! That sounds great. I guess it's a complex situation and the proposed solution doesn't really match things that can happen in real life...</p>",
+        "id": 412345835,
+        "sender_full_name": "HellMap",
+        "timestamp": 1704980915
+    },
+    {
+        "content": "<p>Thank you so much for the update, happy New Year.<br>\nIf the team would have something to share later, it could be very helpful. Perhaps even a good reason to change the wikipage.</p>",
+        "id": 412345904,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1704980941
+    },
+    {
+        "content": "<p>Now that the challenge is inactive, maybe one of you could close this topic?</p>",
+        "id": 412347808,
+        "sender_full_name": "MarjanVandeKauter",
+        "timestamp": 1704981558
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> has marked this topic as resolved.</p>",
+        "id": 412348173,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1704981637
+    }
+]

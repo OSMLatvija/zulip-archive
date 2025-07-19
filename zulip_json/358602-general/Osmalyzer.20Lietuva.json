@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Could the Osmalyzer program be expanded to cover Lithuanian versions of stores? Some stores (like Aibė, Akropolis or Vynoteka) actually started in Lithuania but then expanded to Latvia (or in Vynoteka's case even to Poland) <span aria-label=\"frog\" class=\"emoji emoji-1f438\" role=\"img\" title=\"frog\">:frog:</span></p>\n<p>In Aibė's case the websites seem to be pretty similar except for the language (so the parsing code could probably be re-used)</p>",
+        "id": 514395347,
+        "sender_full_name": "DodoGTA",
+        "timestamp": 1745592194
+    },
+    {
+        "content": "<p>Hi, sure, it can technically do anything. Taking map points from some website and comparing with osm elements is pretty straightforward. The main thing is that I would also be downloading and parsing Lithuanian osm daily dump. I don't think it would reach any GitHub Internet usage fair limits, although who knows. I guess I would also need to change some minor country-specific boundary stuff. Not sure if it's better to have 2 versions of the app or one with 2 country sections though. I don't really have the time to maintain maps beyond some local ones (so many are already broken due to websites constantly changing).</p>",
+        "id": 514463087,
+        "sender_full_name": "HellMap",
+        "timestamp": 1745615540
+    },
+    {
+        "content": "<p>The good news is that it wasn't difficult to implement, the website itself is pretty much the same and it all worked fine... but the bad news is that I am hitting some sort of GitHub limit and it's stopping the job before it can finish. I will have to probably run 2 jobs - one per country. <br>\n<a href=\"/user_uploads/49624/0h1iw1004qZvAQAKbBwCTzKH/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/0h1iw1004qZvAQAKbBwCTzKH/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"751x566\" src=\"/user_uploads/thumbnail/49624/0h1iw1004qZvAQAKbBwCTzKH/image.png/840x560.webp\"></a></div>",
+        "id": 514539170,
+        "sender_full_name": "HellMap",
+        "timestamp": 1745674052
+    }
+]
