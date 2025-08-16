@@ -1,0 +1,254 @@
+[
+    {
+        "content": "<p>Mastodon SK53 paskatījās ātruma ierobežojumu kartējumu dažādās valstīs, ieskaitot Latviju. Izrādās, mums diezgan daudz kur ierobežojumi nav kartēti.<br>\n<a href=\"https://mastodon.social/@SK53@en.osm.town/110190729824934435\">https://mastodon.social/@SK53@en.osm.town/110190729824934435</a></p>\n<p><a href=\"/user_uploads/49624/FRQmbIWxr53xgElhE6GV84_F/image.png\">Latvija</a> <br>\n<a href=\"/user_uploads/49624/dqigYYQk_DoR8-xMSfWM22d6/image.png\">Komentārs</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/FRQmbIWxr53xgElhE6GV84_F/image.png\" title=\"Latvija\"><img src=\"/user_uploads/49624/FRQmbIWxr53xgElhE6GV84_F/image.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/dqigYYQk_DoR8-xMSfWM22d6/image.png\" title=\"Komentārs\"><img src=\"/user_uploads/49624/dqigYYQk_DoR8-xMSfWM22d6/image.png\"></a></div>",
+        "id": 349095308,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681389125
+    },
+    {
+        "content": "<p>Mapillary ātruma zīmju slāni un uz priekšu :)</p>",
+        "id": 349096825,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681389490
+    },
+    {
+        "content": "<p>Mhm, īpaši garākā posmā tas var ļaut atrast īsus (70) utml :)<br>\nUn ja kādiem posmiem nebūs svaigu bilžu vai bilžu nemaz, tos jau pēc tam var izķert.</p>",
+        "id": 349104294,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681391111
+    },
+    {
+        "content": "<p><span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span><br>\n<a href=\"/user_uploads/49624/CG1EABjjIKIbjjVlSdwnbRt6/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/CG1EABjjIKIbjjVlSdwnbRt6/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/CG1EABjjIKIbjjVlSdwnbRt6/image.png\"></a></div>",
+        "id": 349112103,
+        "sender_full_name": "Colby",
+        "timestamp": 1681392871
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/nXp15iRHQDDVP8q8UoZ31awa/maxlimit.png\">maxlimit.png</a> hihihi</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/nXp15iRHQDDVP8q8UoZ31awa/maxlimit.png\" title=\"maxlimit.png\"><img src=\"/user_uploads/49624/nXp15iRHQDDVP8q8UoZ31awa/maxlimit.png\"></a></div>",
+        "id": 349112414,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681392949
+    },
+    {
+        "content": "<p>grants ceļiem likt 80 vai pietiek ar surface=?</p>",
+        "id": 349114451,
+        "sender_full_name": "Colby",
+        "timestamp": 1681393388
+    },
+    {
+        "content": "<p>Es teiktu, ka jāliek vai nu explicit, vai kādu grupas tagu (līdzīgi kā urban utt) - bet tik specifisku grupas tagu var nesaprast neviens routeris...<br>\nTā ka šobrīd es ieteiktu visur likt explicit pat tad, ja ir grupas tags klāt.</p>",
+        "id": 349123242,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681395245
+    },
+    {
+        "content": "<p>Tikai wiki speciāli rakstīts explicit nelikt <a href=\"https://wiki.openstreetmap.org/wiki/Default_speed_limits\">https://wiki.openstreetmap.org/wiki/Default_speed_limits</a>, tur pat Latvija kā piemērs šitam 80</p>",
+        "id": 349125971,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681395791
+    },
+    {
+        "content": "<p>(Par līdzīgi implicit dzīvajamo zonu maxspeed jau te bija parunāts nedaudz. Es tā arī neko neizsecināju no tā. Tikai to, ka routeri nemāk bez explicit vērtības.)</p>",
+        "id": 349126371,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681395856
+    },
+    {
+        "content": "<p>Nu jā, varbūt wiki kāds nepraktisks puritānis sarakstījis, esnez :D<br>\nKaut kad senāk ir runāts, ka ir OK likt abus.<br>\nTad visi rūteri strādās un var viegli pārbaudīt, kur kaut kas neatbilst tā brīža regulējumam.</p>",
+        "id": 349127673,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681396133
+    },
+    {
+        "content": "<p>Iepriekšējās tēmas, kur par explicit/implicit maxspeed runāts:<br>\n<a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed\">#general &gt; Dzīvojamās ielas ar maxspeed</a> <br>\n<a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/gr.C5.ABti.20b.C5.ABt.20routing.27am.2E.2E.2E\">#general &gt; grūti būt routing'am...</a></p>",
+        "id": 349128547,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681396320
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.81truma.20ierobe.C5.BEojumu.20kart.C4.93.C5.A1ana/near/349125971\">said</a>:</p>\n<blockquote>\n<p>Tikai wiki speciāli rakstīts explicit nelikt <a href=\"https://wiki.openstreetmap.org/wiki/Default_speed_limits\">https://wiki.openstreetmap.org/wiki/Default_speed_limits</a>, tur pat Latvija kā piemērs šitam 80</p>\n</blockquote>\n<p>Nav rakstīts nelikt <code>maxspeed</code>. Ir rakstīts, ka labāk iezīmēt faktorus, kas nosaka <code>maxspeed</code>, bet iezīmēt arī <code>maxspeed</code> nebūs kļūdaini. Vismaz es tā saprotu.</p>",
+        "id": 362365437,
+        "sender_full_name": "i-ky",
+        "timestamp": 1685517450
+    },
+    {
+        "content": "<p>Ideālā pasaulē, jā. Bet tas paredz, ka kartētājs noņems nepareizo ātrumu mainot šos faktorus. Bet praksē gan tā bieži nav - tās pašas dzīvojamās ielas ar 50 vai citiem ātrumiem. Protams visideālāk ir likt <code>maxspeed:type</code> (kopā). Tad Latvijā būs kaut kāds <code>rural_unpaved</code> variants. Te gan jāpanāk, lai iD tos rādītu (bet tas katrai valstij savs jārāda).</p>",
+        "id": 362399347,
+        "sender_full_name": "HellMap",
+        "timestamp": 1685525892
+    },
+    {
+        "content": "<p>Man liekas, nepareizus <code>maxspeed</code> ir diezgan viegli noķert ar botiem un validāciju. Un to var izdarīt vietējie.</p>",
+        "id": 362401402,
+        "sender_full_name": "i-ky",
+        "timestamp": 1685526404
+    },
+    {
+        "content": "<p>Var, bet tur jau ir tā pati problēma - kurš to dara? Neesmu redzējis nevienu to daram sistemātiski un atkārtoti. Izlabot var visu, bet te jau jautājums sākas no tā, ka nav izlabots.</p>",
+        "id": 362402227,
+        "sender_full_name": "HellMap",
+        "timestamp": 1685526611
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.81truma.20ierobe.C5.BEojumu.20kart.C4.93.C5.A1ana/near/362399347\">said</a>:</p>\n<blockquote>\n<p>Ideālā pasaulē, jā. Bet tas paredz, ka kartētājs noņems nepareizo ātrumu mainot šos faktorus. Bet praksē gan tā bieži nav - tās pašas dzīvojamās ielas ar 50 vai citiem ātrumiem. Protams visideālāk ir likt <code>maxspeed:type</code> (kopā). Tad Latvijā būs kaut kāds <code>rural_unpaved</code> variants. Te gan jāpanāk, lai iD tos rādītu (bet tas katrai valstij savs jārāda).</p>\n</blockquote>\n<p>Tie nepareizie biežāk nav tāpēc, ka kāds nomainījis vienu tagu, bet citu ne.<br>\nVismaz cik manīts, tādas kombinācijas bieži tiek kopā jau ieliktas - residential + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amaxspeed%3D20\">maxspeed=20</a> utt.<br>\nBet piekrītu i-ky, tādas nesakritības šķiet ļoti viegli izķert.</p>",
+        "id": 362402232,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1685526612
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.81truma.20ierobe.C5.BEojumu.20kart.C4.93.C5.A1ana/near/362402227\">said</a>:</p>\n<blockquote>\n<p>Var, bet tur jau ir tā pati problēma - kurš to dara? Neesmu redzējis nevienu to daram sistemātiski un atkārtoti. Izlabot var visu, bet te jau jautājums sākas no tā, ka nav izlabots.</p>\n</blockquote>\n<p>SOTM Baltics lietuvieši stāstīs par saviem advancētajiem QA risinājumiem, varbūt varam klātienē šo tēmu apspriest un viņiem pievienoties :)</p>",
+        "id": 362402402,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1685526655
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.81truma.20ierobe.C5.BEojumu.20kart.C4.93.C5.A1ana/near/362402227\">said</a>:</p>\n<blockquote>\n<p>Var, bet tur jau ir tā pati problēma - kurš to dara? Neesmu redzējis nevienu to daram sistemātiski un atkārtoti. Izlabot var visu, bet te jau jautājums sākas no tā, ka nav izlabots.</p>\n</blockquote>\n<p>Es tikko <a href=\"#narrow/stream/362235-Zulip/topic/Resultmaps.20RSS/near/362362341\">pabeidzu ar RSS</a>. Man plānos tālāk pieķerties Tavam Osmalyzer un adrešu <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">botam</a>. Vajag vismaz vienu līdz galam automatizēt, un būs jau \"framework\", kur likt vairāk validācijas noteikumu. Viss notiek, tikai lēnām. :)</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 362404464,
+        "sender_full_name": "i-ky",
+        "timestamp": 1685527186
+    },
+    {
+        "content": "<p>Laba diena visiem!</p>\n<p><span class=\"user-mention\" data-user-id=\"568771\">@Rihards Olups</span>  (tev īpašs sveiciens! <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span>  )</p>\n<p><span class=\"user-mention\" data-user-id=\"571825\">@HellMap</span> paldies par saiti un ielūgumu!</p>\n<p>Tuvāk pie lietas. Esmu pieķēries pie ātruma ierobežojumu ceļa zīmēm. Sāku uzlabot esošo datu kvalitāti (pārbīdot segmentus atbilstoši tur kur ir uzstādīta ceļa zīme) un jauno datu kartēšanu. 90+% no maniem avotiem ir reāls video materiāls.</p>\n<p>Uzreiz pateikšu, man ir daži precizējošie jautājumi par esošiem tag'iem</p>\n<div class=\"codehilite\"><pre><span></span><code>maxspeed\nmaxspeed:type\nmaxspeed:forward\nmaxspeed:backward\nmaxspeed:hgv\nmaxspeed:motorcar\nmaxspeed:motorcycle\n</code></pre></div>\n<ol>\n<li>\n<p>Par apdzīvotās un neapdzīvotās vietas ātruma norādēm:<br>\n1.1. Kādos gadījumos tiek likts <code>maxspeed=50</code>, un kādos <code>maxspeed:type=LV:urban</code><br>\n1.2. Kādos gadījumos tiek likts <code>maxspeed=90</code>, un kādos <code>maxspeed:type=LV:rural</code></p>\n</li>\n<li>\n<p>Ja dažādiem tipiem TrL atšķiras atļautais braukšanas ātrums, tad ko norādīt kā <code>maxspeed</code> vērtību un vai vispār norādīt to vai nē?</p>\n</li>\n<li>\n<p>Ko darīt ar \"pašdarbību\"? Sastapos ar to, ka ir norādīts kaut kāds mistiskais ierobežojums, kura faktiski/juridiski dzīvē nav (<a href=\"http://t.sk\">t.sk</a>. bieži kaut kādas mazās ielas).</p>\n</li>\n<li>\n<p>Ko darīt ar ieskrējiena/bremzēšanas joslām? Bieži tur jau ir norādīts limits, kas ir attiecināms uz pakārtoto ceļu (uz kuru nobrauc vai no kura iebrauc).</p>\n</li>\n<li>\n<p>Par <code>maxspeed:type=LV:zone30</code> ir skaidrs, bet kuros gadījumos likt <code>maxspeed:type=sign</code> ? Sanāk visur kur pilsētā / ārpus pilsētas ir vienkārši uzliktas zīmes? Tad pārējos gadījumos ir vienkārši jābūt LV:urban/rural ?</p>\n</li>\n<li>\n<p>Par <code>maxspeed:type=construction</code> (pagaidu ceļazīmes remonta laikā), vai ir vērts izmantot šo?</p>\n</li>\n</ol>\n<p>Mana interese: sakārtot atbilstoši dzīvē esošām ceļazīmēm.</p>",
+        "id": 533176047,
+        "sender_full_name": "Tigran",
+        "timestamp": 1754512701
+    },
+    {
+        "content": "<p>Sveiki, sveiki, uj, daudz jautājumu <span aria-label=\"face in clouds\" class=\"emoji emoji-1f636-200d-1f32b\" role=\"img\" title=\"face in clouds\">:face_in_clouds:</span> Es iziešu cauri tiem rīt drošvien. Es ar daļu neesmu saskāries, ar daļu esmu. Cik zinu, wiki ir ļoti daudz no šitā aprakstīts kā pareizi jābūt. Varēšu pieminēt no pieredzes par situāciju dabā tieši pie mums, īpaši visādās šķībās vietās.</p>",
+        "id": 533176808,
+        "sender_full_name": "HellMap",
+        "timestamp": 1754513075
+    },
+    {
+        "content": "<p>Uzreiz pateikšu, ka cik standartu, tik izņēmumu. Es aprakstīšu zemāk vispārīgi, bet noteiki ir daudzi praktiski gadījumi, par kuriem es pat neesmu iedomājies.</p>\n<blockquote>\n<p>precizējošie jautājumi par esošiem tag'iem</p>\n</blockquote>\n<p>Tā kā tu ieliki sarakstu, norezumēšu:</p>\n<ul>\n<li><code>maxspeed</code> ir pamata vērtība visiem un vienmēr visos virzienos</li>\n<li><code>maxspeed:type</code> attiecas uz maxspeed un apraksta ierobežojuma veidu/tipu</li>\n<li><code>maxspeed:forward/backward</code> ir atšķirīgam ātrumam ceļa virzienos</li>\n<li><code>maxspeed:hgv/motorcar/motorcycle/utt</code> ir dažādiem transporta veidiem</li>\n<li><code>maxspeed:conditional</code> attiecas uz maxspeed un ir izņēmuma nosacījumiem</li>\n</ul>\n<p>Katrs no šiem ir patstāvīgs. Tātad teorētiski var būt <code>maxspeed=80</code> + <code>maxspeed:hgv:forward:conditional=60 @ wet</code>, kas ir izņēmums 80 ātrumam uz 60 smagajiem braucot ceļa virzienā lietū.</p>\n<blockquote>\n<p>Kādos gadījumos tiek likts <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amaxspeed%3D50\">maxspeed=50</a>, un kādos <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amaxspeed%3Atype%3DLV%3Aurban\">maxspeed:type=LV:urban</a></p>\n</blockquote>\n<p>Teorētiski tie abi nozīmē to pašu. Prakstiski, labāk likt <code>maxspeed</code> vienmēr - tas ir atļautais ātrums un tas ir tegs tā norādīšanai. Augstāk tēmā laikam pie tāda secinājums nonākts vairāk vai mazāk. Es arī piedāvāju to \"ratificēt\" Latvijā. Tā ir arī biežākā prakse pasaulē - 20.5M <code>maxspeed</code> un 1.2M <code>maxspeed:type</code> no kuriem 0.2M ir bez <code>maxspeed</code>. Praksē arī navigatori visādi vispirms saprot <code>maxspeed</code> tegu bet citus daudz retāk. Jebkurā gadījumā, var ielikt abus un tad visiem skaidrs.</p>\n<blockquote>\n<p>Kādos gadījumos tiek likts <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amaxspeed%3D90\">maxspeed=90</a>, un kādos <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amaxspeed%3Atype%3DLV%3Arural\">maxspeed:type=LV:rural</a></p>\n</blockquote>\n<p>Tas pats, kas augstāk. <code>maxspeed=90</code> (vai <code>maxspeed=80</code> uz \"grantenēm\") vienmēr, bet <code>maxspeed:type=LV:rural</code> pēc vēlmes/iespējas.</p>\n<blockquote>\n<p>Ja dažādiem tipiem TrL atšķiras atļautais braukšanas ātrums, tad ko norādīt kā maxspeed vērtību un vai vispār norādīt to vai nē? Zemāko vai ātrāko?</p>\n</blockquote>\n<p>Norādīt pēc transportlīdzekļu hierarhijas (līdzīgi <code>access</code>). Vispirms ātrumu visiem ar <code>maxspeed</code> un pēc tam ātrumu tiem, kam tas ierobežots ar <code>maxspeed:TrL</code>.</p>\n<p>Parasti pie mums ir šitie (piemēra pēc ignorēju \"ziemas režīmu\"):<br>\n<a href=\"/user_uploads/49624/ERZUTWt4WOv9E1r139q5Z3W4/100-car-bike.png\">100 car bike.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/ERZUTWt4WOv9E1r139q5Z3W4/100-car-bike.png\" title=\"100 car bike.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"175x254\" src=\"/user_uploads/thumbnail/49624/ERZUTWt4WOv9E1r139q5Z3W4/100-car-bike.png/840x560.webp\"></a></div><p>Un pavisam pareizi tad ir <code>maxspeed=90</code>  + <code>maxspeed:motorcar=100</code> + <code>maxspeed:motorcycle=100</code> (+ <code>maxspeed:type=LV:rural</code> + <code>maxspeed:type:motorcar=sign</code> + <code>maxspeed:type:motorcycle=sign</code>).<br>\nPraksē (nepareizi) bieži būs vienkārši ielikts <code>maxspeed=100</code>.</p>\n<p>Vai piemēram:<br>\n<a href=\"/user_uploads/49624/vdQ5W0cUgrsbjXaBMG03Hk0e/30-hgv.png\">30 hgv.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/vdQ5W0cUgrsbjXaBMG03Hk0e/30-hgv.png\" title=\"30 hgv.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"151x164\" src=\"/user_uploads/thumbnail/49624/vdQ5W0cUgrsbjXaBMG03Hk0e/30-hgv.png/840x560.webp\"></a></div><p><code>maxspeed=50</code> + <code>maxspeed:hgv=30</code> (+ <code>maxspeed:type=LV:urban</code> + <code>maxspeed:type:hgv=sign</code>)</p>\n<blockquote>\n<p>Ko darīt ar \"pašdarbību\"? Sastapos ar to, ka ir norādīts kaut kāds mistiskais ierobežojums, kura faktiski/juridiski dzīvē nav (<a href=\"http://t.sk\">t.sk</a>. bieži kaut kādas mazās ielas).</p>\n</blockquote>\n<p>Te ir tas sarežģītais jautājums OSM par to, vai kaut kas (ne)oficiāls dabā to reāli nozīmē. Lielākoties OSM pieturas pie oficiālām vērtībām, īpaši, ja tās ir stringri pamatotas, piemēram ar CSN. Bet ļoti bieži uz ielām salikti piemēram patvaļīgi ķieģeļi/apļi uz publiskiem ceļiem. (Par to ka tas viss velo arī ierobežo vispār neviens nedomā.) Tā kā jāskatās uz vietas. Es parasti to atzīmēju, ja vien tas nav galīgi pretrunā ar loģiku. Arī ātrumus, kas nav gluži ar oficiālām zīmēm, bet ir vairāk vai mazāk nepārprotami un nekonfliktē, es tomēr atzīmēju.</p>\n<blockquote>\n<p>Ko darīt ar ieskrējiena/bremzēšanas joslām? Bieži tur jau ir norādīts limits, kas ir attiecināms uz pakārtoto ceļu (uz kuru nobrauc vai no kura iebrauc).</p>\n</blockquote>\n<p>Ieskrējiena/bremzēšanas joslas nav krustojums (par to gan arī var pastrīdēties CSN interpretējot), tāpēc pēc CSN ātruma ierobežojumi turpinās. Te gan es bez piemēram 100% neteikšu.</p>\n<blockquote>\n<p>kuros gadījumos likt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amaxspeed%3Atype%3Dsign\">maxspeed:type=sign</a> ? Sanāk visur kur pilsētā / ārpus pilsētas ir vienkārši uzliktas zīmes?</p>\n</blockquote>\n<p>Tieši tā - <a href=\"https://osmlatvija.github.io/road-signs/323.html\">323.</a> zīme, kas maina noklusēto vērtību.</p>\n<blockquote>\n<p>Tad pārējos gadījumos ir vienkārši jābūt LV:urban/rural ?</p>\n</blockquote>\n<p>Tieši tā - noklusēta vērtība, kas nav nekādīgi mainīta.</p>\n<blockquote>\n<p>Par <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amaxspeed%3Atype%3Dconstruction\">maxspeed:type=construction</a> (pagaidu ceļazīmes remonta laikā), vai ir vērts izmantot šo?</p>\n</blockquote>\n<p>Ja tu esi gatavs to pats uzturēt un mainīt, var jau protams. Bet remontu ir daudz visur, bet kartētāju maz, un iespējams to vēlāk neviens neuzturēs. Es personīgi ļoti reti atzīmēju pagaidu zīmes. No pieredzes, visiem ir entuziasms pielabot kamēr remonti un izmaiņas, bet pēc tam tas viss paliek nesalabots gadiem... Es ieteiktu labāk kartēt pastāvīgas lietas.</p>\n<blockquote>\n<p>90+% no maniem avotiem ir reāls video materiāls.</p>\n</blockquote>\n<p>Vai neesi domājis to publicēt Mapillary? Īpaši mazākas ielas būtu ļoti noderīgi.</p>\n<blockquote>\n<p>pārbīdot segmentus atbilstoši tur kur ir uzstādīta ceļa zīme</p>\n</blockquote>\n<p>Pieminēšu tikai, ka ar to jābūt drusciņ uzmanīgi, ja liek segmentus pavisam tur, kur zīme, jo zīmes ļoti bieži ir nedaudz nokavēti. Praktiski protams uzņemt ātrumu tik ātri nevar, bet CSN gan var ļoti precīzi interpretēt, ka tur tie pirmie 10 metri līdz zīmei nav zīmes darbības zonā. Bet tas nav labs praktisks risinājums ne navigatoriem, ne datu uzturēšanai.</p>\n<p>Pašu zīmi precīzi var norādīt ar punktiem <code>traffic_sign=maxspeed</code> + <code>maxspeed=30</code> + <code>traffic_sign:direction=forward</code> tur, kur tā reāli ir.</p>\n<blockquote>\n<p>sakārtot atbilstoši dzīvē esošām ceļazīmēm.</p>\n</blockquote>\n<p>Mums ātrumu daudz kur trūkst, tāpēc tas ir ļoti labi.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://osmlatvija.github.io/road-signs/323.html\" style='background-image: url(\"https://uploads.zulipusercontent.net/e34b08c7fc1badc675b9fb4ee26e0ecc6d041511/68747470733a2f2f6c696b756d692e6c762f77777772616b7374692f323031352f3132312f42494c4445532f4e5f3237392f494d4147453132352e4a5047\")'></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://osmlatvija.github.io/road-signs/323.html\" title=\"323. Maksimālā ātruma ierobežojums\">323. Maksimālā ātruma ierobežojums</a></div></div></div>",
+        "id": 533243469,
+        "sender_full_name": "HellMap",
+        "timestamp": 1754555472
+    },
+    {
+        "content": "<blockquote>\n<p>Es aprakstīšu zemāk vispārīgi, bet noteiki ir daudzi praktiski gadījumi, par kuriem es pat neesmu iedomājies.</p>\n</blockquote>\n<p>Tas ir ok, es vairāk to visu sarakstīju tādēļ, lai vienotos par \"labo praksi\", lai pēc tam nav nevienam jāpārtaisa ieguldītais darbs un lai ieguldītais laiks nav iztērēts lieki.</p>\n<h1>Tegu apvienošana un to pareizā (Jūsuprāt) secība</h1>\n<blockquote>\n<p>Katrs no šiem ir patstāvīgs. Tātad teorētiski var būt <code>maxspeed=80</code> + <code>maxspeed:hgv:forward:conditional=60 @ wet</code>, kas ir izņēmums 80 ātrumam uz 60 smagajiem braucot ceļa virzienā lietū.</p>\n</blockquote>\n<p>Šis gan ir labs, nebiju to tā iedomājies, bet ja tas tiešām tā ir, tad es jau zinu vismaz vienu gadījumu kur to redzēju.<br>\nPrecizējošs jautājums: vai secībai ir nozīme? Proti kurš no zemāk norādītiem variantiem ir aplams:</p>\n<ol>\n<li><code>maxspeed:hgv:forward=60</code></li>\n<li><code>maxspeed:forward:hgv=60</code></li>\n</ol>\n<h1>Par pilsētas un ārpus pilsētas ātrumiem</h1>\n<p>Okay, domu sapratu. </p>\n<blockquote>\n<p>Un pavisam pareizi tad ir <code>maxspeed=90</code> + <code>maxspeed:motorcar=100</code> + <code>maxspeed:motorcycle=100</code> (+ <code>maxspeed:type=LV:rural</code> + <code>maxspeed:type:motorcar=sign</code> + <code>maxspeed:type:motorcycle=sign</code>).<br>\nPraksē (nepareizi) bieži būs vienkārši ielikts <code>maxspeed=100</code>.</p>\n<p><code>maxspeed=50</code> + <code>maxspeed:hgv=30</code> (+ <code>maxspeed:type=LV:urban</code> + <code>maxspeed:type:hgv=sign</code>)<br>\n</p>\n</blockquote>\n<p>Paldies par augstākminētiem piemēriem, tas ievieš arī skaidrību un labo praksi.</p>\n<h1>Par \"pašdarbību\"</h1>\n<blockquote>\n<p>Arī ātrumus, kas nav gluži ar oficiālām zīmēm, bet ir vairāk vai mazāk nepārprotami un nekonfliktē, es tomēr atzīmēju.</p>\n</blockquote>\n<p>Šeit tieši arī ir tas jautājums... es redzēju vairākas vietas, kur ātruma ierobežojums ir uzlikts \"pēc loģikas\", nevis pēc faktiskajām ceļa zīmēm. Pāris vietās sāku ņemt nost to kā dzīvē nav, lai nemaldināt ne cilvēkus, ne dažāda veida ierīces. Pēc tam iedomājos, ka labāk tomēr pajautāt... :)<br>\nTad ceru nevienam \"nebūšu pārgājis ceļu\", ja ņemšu ārā tos datus kuri realitātē nav?</p>\n<h1>Par pagaidu ceļazīmēm</h1>\n<blockquote>\n<p>Es personīgi ļoti reti atzīmēju pagaidu zīmes. No pieredzes, visiem ir entuziasms pielabot kamēr remonti un izmaiņas, bet pēc tam tas viss paliek nesalabots gadiem... Es ieteiktu labāk kartēt pastāvīgas lietas.</p>\n</blockquote>\n<p>Ok, piekrītu. Kādam laikam entuziasma pietiks, bet vēlāk būs grūtāk + vēl ir cerība nākotnē piesaistīt vēl vienu cilvēku un tad to visu būs nepieciešams sinhronizēt... Pagaidām pamēģināsim savest kārtībā to kas ir, tad redzēsim.</p>\n<h1>Par datu publiskošanu</h1>\n<blockquote>\n<p>Vai neesi domājis to publicēt Mapillary? Īpaši mazākas ielas būtu ļoti noderīgi.</p>\n</blockquote>\n<p>Diemžēl, ņemot vērā dažus juridiskos aspektus, es to nevaru publiskot. Bet atsevišķā gadījumā, ja ir interese individuāli varu nodemonstrēt kā tas izskatās/darbojas (Teams/GMeet/Zoom).</p>\n<h1>Par ceļa zīmēm un segmentiem</h1>\n<blockquote>\n<p>Pieminēšu tikai, ka ar to jābūt drusciņ uzmanīgi, ja liek segmentus pavisam tur, kur zīme, jo zīmes ļoti bieži ir nedaudz nokavēti. Praktiski protams uzņemt ātrumu tik ātri nevar, bet CSN gan var ļoti precīzi interpretēt, ka tur tie pirmie 10 metri līdz zīmei nav zīmes darbības zonā. Bet tas nav labs praktisks risinājums ne navigatoriem, ne datu uzturēšanai.</p>\n</blockquote>\n<p>Ja man ir nepieciešams noteikt konkrētā ceļa segmenta maksimāli atļauto braukšanas ātrumu, tad es īsti citu variantu neredzu kā dalīt ceļa segumu uz precīziem segmentiem (nemainot to ģeometriju) norādot tiem atbilstošās <code>maxspeed</code> pazīmes.</p>\n<p>Bieži ir tā, ka iela sākas, bet ceļa zīme ir tikai pēc 20-30m, ja mēs runājam \"par faktisko situāciju\", tad tas arī ir atskaites punkts. Kāds būtu pamatojums to segmentu kartēt neatbilstoši dzīvei?</p>\n<blockquote>\n<p>Pašu zīmi precīzi var norādīt ar punktiem <code>traffic_sign=maxspeed</code> + <code>maxspeed=30</code> + <code>traffic_sign:direction=forward</code> tur, kur tā reāli ir.</p>\n</blockquote>\n<p>Wow, par šo pat neesmu lasījis, paldies par norādi. Vienīgais atkal man ir ļoti būtiski, lai segmentam būtu pareizie dati. Baidos ja <code>maxspeed</code> vēl var arī citi iesaistīties un uzlabot, tad diezvai savāksim tik daudz OSM biedrus, kas iesaistīsies vēl arī CSN zīmju kartēšanā... :)</p>\n<p><span class=\"user-mention\" data-user-id=\"571825\">@HellMap</span>, paldies par veltīto laiku un atbildēm. Sorry ja kaut kas dublējās starp tēmām.</p>",
+        "id": 533360026,
+        "sender_full_name": "Tigran",
+        "timestamp": 1754598936
+    },
+    {
+        "content": "<blockquote>\n<p>Precizējošs jautājums: vai secībai ir nozīme?</p>\n</blockquote>\n<p>Jā, secībai ir nozīme. OSM tā visa tegu un apakštegu un papildtegu sistēma ir diezgan sarežģīta un labāk paskatīties wiki. Viss tur ir teorētiski loģiski, bet ļoti viegli kļūdīties. Es pats maz ko atceros šitiem \"daudzstāvu\" tegiem. Bet pat ja būs nepareizi, kāds jau to kādreiz izlabos.</p>\n<blockquote>\n<p>es redzēju vairākas vietas, kur ātruma ierobežojums ir uzlikts \"pēc loģikas\", nevis pēc faktiskajām ceļa zīmēm</p>\n</blockquote>\n<p>Es tad varbūt ne visai sapratu jautājumu. Es domāju tu jautā par vietām, kur piemēram kāds nospēris ceļa zīmi un pielicis sev uz ielas. Bet tu sanāk jautā par OSM datos vērtībām, kuras nav dzīvē? Ja tu kādus piemēru minētu, varētu precizēt. Bet vispārīgi jā - dabā neesošām vērtībām nav jābūt datos un tās var ņemt nost. Ja kāds uzliek uz ceļa 30, jo domā, ka tur jābrauc lēnām, bet tam nav juridiska (CSN) pamatojuma, tad to var vākt nost. OSM nekartē subjektīvas vērtības. Parasti gan tās ir vecas vērtības, kas dabā mainījušās, vai vienkārši kļūdas.</p>\n<blockquote>\n<p>Diemžēl, ņemot vērā dažus juridiskos aspektus, es to nevaru publiskot. Bet atsevišķā gadījumā, ja ir interese individuāli varu nodemonstrēt kā tas izskatās/darbojas (Teams/GMeet/Zoom).</p>\n</blockquote>\n<p>Nē, viss kārtībā, es tik tā pieminēju. Es tā saprotu tu tad laikam to darba ietvaros vai kaut kā tā. Ja tas būtu personīgs video, tad cita lieta.</p>\n<blockquote>\n<p>Bieži ir tā, ka iela sākas, bet ceļa zīme ir tikai pēc 20-30m, ja mēs runājam \"par faktisko situāciju\", tad tas arī ir atskaites punkts. Kāds būtu pamatojums to segmentu kartēt neatbilstoši dzīvei?</p>\n</blockquote>\n<p>Nu 20-30 metri jau ir kārtīgs attālums, tur var droši dalīt. Es runāju drīzāk par kādiem &lt;10 metriem. Tā kā arī ceļus OSM zīmē no viduslīnijām un tad var sanākt, ka dzīvē krustojuma robežas ir tālu un plaši, bet OSM ceļš jau labu gabalu, ja skaita tīri pēc attāluma. Bet te es arī konkrētus piemērus labāk apskatītos, jo ar vārdiem grūti pateikt viendomīgi.</p>",
+        "id": 533371423,
+        "sender_full_name": "HellMap",
+        "timestamp": 1754605654
+    },
+    {
+        "content": "<p>Hey, burvīgi jautājumi :)<br>\nHellMap jau ļoti labi atbildēja, apstiprinot/papildinot:</p>\n<p>a) \"Pašdarbība\" - ja zīmes ir, var kartēt. Ja zīmju nav, jālabo (dzēšana arī ir OK). Ja zīmes uzliktas nelikumīgi... droši vien pašvaldībai (vai retos gadījumos LVC/LVM/utt) laikam jāstāsta.</p>\n<p>b) Foto/video - jā, juridiskie aspekti var ierobežot. Varbūt ilgākā termiņā ir iespēja tos risināt un publicēt, tas var palīdzēt sadarboties ar kopienu, uzlabot datu kvalitāti utt.</p>\n<p>c) Remontdarbu zīmes - kā HellMap minēja, uzturēšana ir būtisks aspekts. Es parasti mainu tad, ja regulārā maršrutā ir izmaiņas, vai arī darbi būs ilgstoši.</p>\n<p>d) Saskaņā ar wiki, pareizā būs šī secība: <a href=\"https://wiki.openstreetmap.org/wiki/Key:maxspeed:hgv:forward\">https://wiki.openstreetmap.org/wiki/Key:maxspeed:hgv:forward</a> .</p>\n<hr>\n<p>Pāris tēmas, kuras vēl nav pieminētas:<br>\n1) Latvijā daudz kur zīmes ir saliktas neloģiski/nepareizi. Populārs piemērs ir dzīvojamo zonu zīmes, kur bieži trūkst zonas beigu zīmes (pilna Pierīga ar šādām vietām), vai arī ir kāds privāts ceļš, kuram pašvaldība nav likusi zīmes. Parasti sanāk aptuveni minēt, kas tādās vietās domāts. Pārliecība, ka visur uzstādītās zīmes saskaņotas, noteikti nav.<br>\nVēl ir LVC šur tur pamanās salikt zīmes šķībi, bet tas daudz retāk.</p>\n<p>2) Ja rediģēšana notiek darba pienākumu ietvaros vai kā citādi ir \"organizēta\", varētu būt vajadzība sekot <a href=\"https://osmfoundation.org/wiki/Organised_Editing_Guidelines\">https://osmfoundation.org/wiki/Organised_Editing_Guidelines</a> . Tas primāri nozīmē iesaistītās organizācijas pieminēšanu OSM profilā un linku uz aktivitātes lapu (nav jābūt ļoti detalizētai) profilā un <a href=\"https://wiki.openstreetmap.org/wiki/Organised_Editing/Activities\">https://wiki.openstreetmap.org/wiki/Organised_Editing/Activities</a> .</p>",
+        "id": 533429248,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1754645067
+    },
+    {
+        "content": "<p>Labi, šodien pieķeršos kārtējai daļai... tā jau man ir uzkrājusies varāku dienu garumā. Pa ceļam ja trāpīsies posmi kurus esmu jau rediģējis pielabošu pilnīgākai bildei un papildināšu metadatus (tegus).</p>\n<blockquote>\n<p>b) Foto/video - jā, juridiskie aspekti var ierobežot. Varbūt ilgākā termiņā ir iespēja tos risināt un publicēt, tas var palīdzēt sadarboties ar kopienu, uzlabot datu kvalitāti utt.</p>\n</blockquote>\n<p>Iespējams, ka būs daļa no video kurus varēšu publiskot. Par šo laikam atsevišķi jādiskutē (iespējams \"blakus zarā\").</p>\n<blockquote>\n<p>c) Remontdarbu zīmes - kā HellMap minēja, uzturēšana ir būtisks aspekts. Es parasti mainu tad, ja regulārā maršrutā ir izmaiņas, vai arī darbi būs ilgstoši.</p>\n</blockquote>\n<p>Nu jā, mums ir tādi ilgtermiņa būvniecības darbi, kurus uzsākot var redzēt ka vismaz pus gadu būs ierobežojumi. Atsevišķos gadījumos (pārvads Jūrmalā, dienvidu tilta kārtējā kārta, u.c. gadījumi) ir situācijas, kad ceļa zīmes jau stāv 6+ mēnešus. Varbūt mēģināt tos kaut kādā veidā pārvaldīt...<br>\nBet kā jau rakstīju augstāk, labāk pagaidām savest kārtībā vispārējo daļu un tad ķerties klāt pie \"ekskluzīvā\" darba.</p>\n<blockquote>\n<p>d) Saskaņā ar wiki, pareizā būs šī secība: <a href=\"https://wiki.openstreetmap.org/wiki/Key:maxspeed:hgv:forward\">https://wiki.openstreetmap.org/wiki/Key:maxspeed:hgv:forward</a> .</p>\n</blockquote>\n<p>Paldies, šis noteikti noderēs.</p>\n<blockquote>\n<p>2) Ja rediģēšana notiek darba pienākumu ietvaros vai kā citādi ir \"organizēta\", varētu būt vajadzība sekot <a href=\"https://osmfoundation.org/wiki/Organised_Editing_Guidelines\">https://osmfoundation.org/wiki/Organised_Editing_Guidelines</a> . Tas primāri nozīmē iesaistītās organizācijas pieminēšanu OSM profilā un linku uz aktivitātes lapu (nav jābūt ļoti detalizētai) profilā un <a href=\"https://wiki.openstreetmap.org/wiki/Organised_Editing/Activities\">https://wiki.openstreetmap.org/wiki/Organised_Editing/Activities</a> .</p>\n</blockquote>\n<p>Par šo apdomāšu, bet īsti nav vēlmes kaut kur būt pieminētam sarakstā... anyway labuma guvēji būs visi :)</p>\n<p>Laikam ķeršos pie darbiem, un tad jau laiku pa laikam uzdošu vēl kādus muļķīgus jautājumus ilggadējiem un pieredzējušiem dalībniekiem. Paldies par atsaucību un konstruktīviem padomiem! :)</p>",
+        "id": 533526839,
+        "sender_full_name": "Tigran",
+        "timestamp": 1754686419
+    },
+    {
+        "content": "<p>Ja tev interesanti vai sarežģīti zīmju piemēri, droši liec, lai vare apskatīties un uz nākotni saprast. Jo pie mums stulbu vietu netrūkst.</p>",
+        "id": 533529391,
+        "sender_full_name": "HellMap",
+        "timestamp": 1754687189
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"945639\">Tigran</span> <a href=\"#narrow/channel/358602-general/topic/.C4.81truma.20ierobe.C5.BEojumu.20kart.C4.93.C5.A1ana/near/533526839\">said</a>:</p>\n<blockquote>\n<p>Nu jā, mums ir tādi ilgtermiņa būvniecības darbi, kurus uzsākot var redzēt ka vismaz pus gadu būs ierobežojumi. Atsevišķos gadījumos (pārvads Jūrmalā, dienvidu tilta kārtējā kārta, u.c. gadījumi) ir situācijas, kad ceļa zīmes jau stāv 6+ mēnešus. Varbūt mēģināt tos kaut kādā veidā pārvaldīt...<br>\nBet kā jau rakstīju augstāk, labāk pagaidām savest kārtībā vispārējo daļu un tad ķerties klāt pie \"ekskluzīvā\" darba.</p>\n</blockquote>\n<p>Jā, lielāki būvdarbi kā Dienvidu tilta jaunā kārta ir samērā precīzi sazīmēti, jo lieli, pamanāmi, relatīvi daudz kartētaju apkārt. Lorupes tilta darbi - tur apvedceļa atļautos ātrumus nu tā, aptuveni saliku. Un tas jau bija kādu laiku pēc remontdarbu uzsākšanas.</p>\n<blockquote>\n<p>Par šo apdomāšu, bet īsti nav vēlmes kaut kur būt pieminētam sarakstā... anyway labuma guvēji būs visi :)</p>\n</blockquote>\n<p>Ieguvēji noteikti būs visi, liels paldies par papildināšanu.<br>\nOEG galvenā doma tieši tāda arī ir, lai kopiena visā pasaulē spētu veiksmīgi sadarboties, un nebūtu pārpratumi. Laba komunikācija šajā čatā noteikti risina lielu daļu potenciālo problēmu, tik vēlāk var rasties nesaprašanās ar globālo kopienu. Saraksti var arī darboties kā PR/paslavēšanas metode ;)</p>\n<blockquote>\n<p>Laikam ķeršos pie darbiem, un tad jau laiku pa laikam uzdošu vēl kādus muļķīgus jautājumus ilggadējiem un pieredzējušiem dalībniekiem. Paldies par atsaucību un konstruktīviem padomiem! :)</p>\n</blockquote>\n<p>Noteikti nebūs muļķīgi. Varam arī sarīkot kādu online vai klātienes pasākumu vai nu par ātruma ierobežojumiem, vai plašākām tēmām.</p>",
+        "id": 533559363,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1754721746
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/1rku0H6pPllxh6-VNf9dOs2v/image.png\">image.png</a><br>\nJautājums: ko darīt ar maziem savienojuma ceļa segmentiem, kas kartēs parasti ir norādīti kā dažāda veida <em>link</em> ? Tiem pielikt <code>maxspeed</code> tādu pašu kāds ir ceļam ko tas savieno vai vispār atstāt bez <code>maxspeed</code> vērtībām ?</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/1rku0H6pPllxh6-VNf9dOs2v/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"665x447\" src=\"/user_uploads/thumbnail/49624/1rku0H6pPllxh6-VNf9dOs2v/image.png/840x560.webp\"></a></div>",
+        "id": 533570396,
+        "sender_full_name": "Tigran",
+        "timestamp": 1754735563
+    },
+    {
+        "content": "<p>X krustojumos es parasti lieku to pašu ātrumu, kas ceļam abās pusēs. T krustojumiem kā šeit es parasti lieku to pašu ātrumu, kas galvenajam ceļam.</p>\n<p>Bet CSN krustojumos ātrums nav aprakstīts un parastās ātruma zīmes šeit darbību beigušas. Bet kā minēju augstāk, būtu stulbi krustojumus dalīt tā pa gabaliem, lai ieliktu 50 pa vidu. Tāpēc es arī parasti lieku tos pašus ierobežojumus, kas ir pirms/pēc līdz/no krustojuma punka. Bet godīgi sakot, es tik reti esmu vispār licis ātrumus tādiem.</p>",
+        "id": 533587785,
+        "sender_full_name": "HellMap",
+        "timestamp": 1754755988
+    },
+    {
+        "content": "<p>Pieminēšu, ka <code>link</code> šeit ir nepareizi - to bieži iekartē ne tā šādos savienojumos. Šis nav link, šī ir burtiski ceļa daļa ar taisnu savienojumu. Link tas ir ieskrējiena joslas, \"saīsinājumi\" starp dažādiem ceļiem, papildus nobraukšanas ceļi, viaduktiem ceļi turp šurp, utt. Tie nav ceļa pagarinājumi, krustojumu trajektorijas, parasti savienojumi starp joslām, apgriezieni, utt. Šeit tas vispār ir parasts krustojums ar residential labajā pusē un tāpēc tas būs tā residential ceļa turpinājums, pat ne tertiary.</p>",
+        "id": 533587805,
+        "sender_full_name": "HellMap",
+        "timestamp": 1754756007
+    },
+    {
+        "content": "<p>Sapratu! Man šķiet ka šeit nav divdomību -- labošu pa ceļam kur tas tā pagadās.</p>\n<h1>Papildus priekšlikums par dzīvojamām zonām</h1>\n<p>Wiki lapā (<a href=\"https://wiki.openstreetmap.org/wiki/Key:maxspeed:type\">https://wiki.openstreetmap.org/wiki/Key:maxspeed:type</a>) par <code>maxspeed:type</code> ir daudz interesanta info. Iegāju tur, jo sāku meklēt ko likt pie dzīvojamām zonām. It kā<code>maxspeed:type=sign</code> tur neiederas... Priekšlikums ir taisīt kā to dara FR/DE/PL/NL/FI -- likt <code>maxspeed:type=LV:living_street</code>.<br>\nProtams <code>maxspeed=20</code>paliek savā vietā. :)</p>\n<p>Ir iebildumi?</p>",
+        "id": 533599263,
+        "sender_full_name": "Tigran",
+        "timestamp": 1754770433
+    },
+    {
+        "content": "<p>Tikko apskatījos video fragmentu un konstatēju ka ja pareizi kartēt ātrumu Kārļa Ulmaņa gatvē, virzienā no Jūrmalas uz Rīgu. Iebraucot Rīgā (apdzīvotā vietā), norādot \"full set\" sanāk baigais saraksts:</p>\n<ul>\n<li><code>maxspeed=50</code></li>\n<li><code>maxspeed:type=LV:urban</code></li>\n<li><code>maxspeed:bus=70</code></li>\n<li><code>maxspeed:type:bus=sign</code></li>\n<li><code>maxspeed:hgv=70</code></li>\n<li><code>maxspeed:type:hgv=sign</code></li>\n<li><code>maxspeed:motorcar=90</code></li>\n<li><code>maxspeed:type:motorcar=sign</code></li>\n<li><code>maxspeed:motorcycle=90</code></li>\n<li><code>maxspeed:type:motorcycle=sign</code></li>\n</ul>\n<p><a href=\"/user_uploads/49624/Edqck91P3hAjfrbmr0ot06sR/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/Edqck91P3hAjfrbmr0ot06sR/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"2754x622\" src=\"/user_uploads/thumbnail/49624/Edqck91P3hAjfrbmr0ot06sR/image.png/840x560.webp\"></a></div><p>Varbūt tad šādos gadījumos nelikt šos ?</p>\n<ul>\n<li><code>maxspeed=50</code></li>\n<li><code>maxspeed:type=LV:urban</code></li>\n</ul>",
+        "id": 533601096,
+        "sender_full_name": "Tigran",
+        "timestamp": 1754772887
+    },
+    {
+        "content": "<p>Jā, dzīvojamā zonā pareizi būs <code>maxspeed:type=LV:living_street</code>, mums vienkārši nav salikts nekur. Es pats tikai ātrumu un zilās zīmes robežās lieku, kad laboju. Un tas jau viss daudz laika aizņem. Bet to arī var masveidā izdarīt, lai nav pa vienam jāliek.</p>",
+        "id": 533602700,
+        "sender_full_name": "HellMap",
+        "timestamp": 1754775113
+    },
+    {
+        "content": "<p>Kontekstam, tas par šito pilsētas robežā <br>\n<a href=\"/user_uploads/49624/HBG35yjQ_pUeJlC4WMxvuaCY/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/HBG35yjQ_pUeJlC4WMxvuaCY/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"394x390\" src=\"/user_uploads/thumbnail/49624/HBG35yjQ_pUeJlC4WMxvuaCY/image.png/840x560.webp\"></a></div><p><code>maxspeed</code> nevar gluži nelikt, jo tā ir pamatvērtība un tas ir \"visiem\", kas nav minēti. Tādā gadījumā drīzāk <code>maxspeed=90</code> un nelikt motocar/motorcycle. Bet tas protams nav gluži korekti. Piemēram, traktoram te ir 50. (Velosipēdam/skrejritenim un pajūgam arī teorētiski.) Bet nu jā, te sanāk \"full set\", bet tas arī ir tāds ļoti visaptverošs piemērs, kādu maz.</p>",
+        "id": 533603641,
+        "sender_full_name": "HellMap",
+        "timestamp": 1754776462
+    },
+    {
+        "content": "<p>Tad atstājam šādi?</p>\n<ul>\n<li><code>maxspeed=90</code></li>\n<li><code>maxspeed:type=sign</code></li>\n<li><code>maxspeed:hgv=70</code></li>\n<li><code>maxspeed:type:hgv=sign</code></li>\n</ul>",
+        "id": 533603787,
+        "sender_full_name": "Tigran",
+        "timestamp": 1754776661
+    },
+    {
+        "content": "<p>Es starp citu aizdomājos par <a href=\"https://osmlatvija.github.io/road-signs/821.html\">821.</a> papildzīmi. CSN nekas par to nav rakstīts. Burtiskajā nozīmē, nekur nav teikts, ka tas ir autobuss vai sabiedriskais. \"Norāda trans­portlīdzekļa veidu, uz kuru attiecas zīmes darbība.\" un \"Transportlīdzekļa veids\" ir viss teksts, kas ar šo zīmi saistīts.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://osmlatvija.github.io/road-signs/821.html\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/d0793116a4acadd396205fd51e6fcb0f36558ce6/68747470733a2f2f6c696b756d692e6c762f77777772616b7374692f323031352f3132312f42494c4445532f4e5f3237392f494d4147453333332e4a5047&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://osmlatvija.github.io/road-signs/821.html\" title=\"821. Transportlīdzekļa veids\">821. Transportlīdzekļa veids</a></div></div></div>",
+        "id": 533603794,
+        "sender_full_name": "HellMap",
+        "timestamp": 1754776684
+    },
+    {
+        "content": "<p>Nē, es tur liktu tā, kā tu sākumā aprakstīji. <code>maxspeed=50</code> un <code>motorcar/cycle=90</code> un <code>hgv/bus=70</code>. <code>maxspeed:type=sign</code> ar 90 vispār nav vairs pareizi - tur nav nekur 90 zīme, tur ir 90 konkrētiem transportlīdzekļiem. Izvēle likt 90 maxspeed ir datu \"vienkāršošana\" un vairāk kā pagaidu variants līdz būs līdz galam salikts kādreiz (kā minēju augstāk, bieži salikts ir). Citiem, vārdiem, tu tad liktu:<br>\n<code>maxspeed=90</code><br>\n<code>maxspeed:type=implicit</code><br>\n<code>maxspeed:bus=70</code><br>\n<code>maxspeed:type:bus=sign</code><br>\n<code>maxspeed:hgv=70</code><br>\n<code>maxspeed:type:hgv=sign</code><br>\n<code>maxspeed:type:motorcar=sign</code><br>\n<code>maxspeed:type:motorcycle=sign</code><br>\nJo zīmes jau ir precīzi, kam 90, kam 70 un standards urban, bet \"full set\" to padara \"implicit\". Bet nu tas ir ekstremāli smalki. Kā jau minētu, mums reti vispār type salikti, kur nu vēl tik smalki.</p>",
+        "id": 533604254,
+        "sender_full_name": "HellMap",
+        "timestamp": 1754777238
+    },
+    {
+        "content": "<p>Katram gadījumam pieminēšu (jo screenshotā tag editor), ka iD redaktorā var arī \"jēlu\" sarakstu skatīties un tad daudz vieglāk copy-paste'ot <br>\n<a href=\"/user_uploads/49624/2dDtzY6MJDKWW1Z1T0TySx9P/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/2dDtzY6MJDKWW1Z1T0TySx9P/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"462x458\" src=\"/user_uploads/thumbnail/49624/2dDtzY6MJDKWW1Z1T0TySx9P/image.png/840x560.webp\"></a></div>",
+        "id": 533604516,
+        "sender_full_name": "HellMap",
+        "timestamp": 1754777569
+    },
+    {
+        "content": "<p>Daži QA rīki saistībā ar maxspeed. Sorry, ja kaut kas atkārtojas.<br>\nDetalizēto pārvietošanās veidu ierobežojumu vizualizāciju gan nezinu.</p>\n<ul>\n<li><a href=\"https://maxspeeds.openstreetmap.rs/#7/56.8558/24.1223\">https://maxspeeds.openstreetmap.rs/#7/56.8558/24.1223</a> - kur ir/nav kartēts, cik sen atjaunots.</li>\n<li><a href=\"https://map.project-osrm.org/debug/car.html#14.83/56.9858/24.3162\">https://map.project-osrm.org/debug/car.html#14.83/56.9858/24.3162</a> - OSRM debug. Šis rāda kalkulēto iespējamo pārvietošanās ātrumu, mazliet jāpiešaujas lietošanā.</li>\n<li><a href=\"https://mapcomplete.org/maxspeed.html?z=16.5&amp;lat=56.99246467894753&amp;lon=24.288291365993132\">https://mapcomplete.org/maxspeed.html?z=16.5&amp;lat=56.99246467894753&amp;lon=24.288291365993132#</a> - Mapcomplete rāda un šo to ļauj rediģēt.</li>\n<li><a href=\"https://www.openstreetbrowser.org/#map=17/57.07156/24.32707&amp;basemap=osm-mapnik&amp;categories=car_maxspeed\">https://www.openstreetbrowser.org/#map=17/57.07156/24.32707&amp;basemap=osm-mapnik&amp;categories=car_maxspeed</a> - attēlo kartētos ierobežojumus.</li>\n</ul>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://mapcomplete.org/maxspeed.html?z=16.5&amp;lat=56.99246467894753&amp;lon=24.288291365993132\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/a64a8406c5fdbcd870b507a337cb020bbb2dd863/68747470733a2f2f6d6170636f6d706c6574652e6f72672f6173736574732f67656e6572617465642f696d616765732f7075626c69635f6173736574735f67656e6572617465645f696d616765735f736f6369616c5f696d6167655f6d617873706565645f3531322e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://mapcomplete.org/maxspeed.html?z=16.5&amp;lat=56.99246467894753&amp;lon=24.288291365993132\" title=\"Maxspeed\">Maxspeed</a></div><div class=\"message_embed_description\">This map shows the legally allowed maximum speed on every road.</div></div></div>",
+        "id": 533856509,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1754941525
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"568771\">@Rihards Olups</span> paldies par saitēm, noteikti noderēs.</p>\n<p>Tas ko sapratu salīdzinot ar pārējām valstīm -- labāk nenorādīt <code>maxspeed</code> ja ir norādīti <code>maxspeed:forward</code> un <code>maxspeed:backward</code>. Jo tad tas attēlojās nekorekti pat OSM aplikācijā.</p>",
+        "id": 534067633,
+        "sender_full_name": "Tigran",
+        "timestamp": 1755040619
+    },
+    {
+        "content": "<p>Jā, labāk norādīt gan forward un backward, ja atšķiras, un nenorādīt maxspeed. Tā principā ar visiem tegiem, kuriem ir virzienu varianti. Protams, jo smalkāki tegi, jo sliktāk tos visādas kartes un navigatori saprot - bet tā ir pa lielam viņu problēma. Jo reālā dzīve ir sarežģīta un OSM atzīmē to, kas reāli eksistē. Jo savādāk tie būtu nepareizi dati.</p>",
+        "id": 534178071,
+        "sender_full_name": "HellMap",
+        "timestamp": 1755072356
+    },
+    {
+        "content": "<p>Teorētiski var to parsēt kā \"maxspeed ir tas, kurš no fwd/backward nav norādīts\", bet tā loģika kļūst pārāk mulsinoša, jā.</p>",
+        "id": 534746060,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1755329659
+    }
+]
