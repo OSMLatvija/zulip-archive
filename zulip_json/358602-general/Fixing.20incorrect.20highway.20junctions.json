@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>Hi everyone,</p>\n<p>(Below I’m including a Latvian translation of this message, created using DeepL.)</p>\n<p>My team at TomTom created a new MapRoulette challenge to help us further improve OSM route network quality in Latvia. More specifically, we’re looking into fixing incorrectly and imprecisely mapped highway junctions.</p>\n<p>In total, we have identified 71 potential issues. The challenge <strong>“<a href=\"https://maproulette.org/browse/challenges/41674\">Fix Incorrect Highway Junctions</a>”</strong> was created to check and, if needed, fix these cases. The description and instructions of the challenge contain more details on the origin, detection and solving methods for these errors, and why we are looking to correct them. </p>\n<p>Our editing team may work on this challenge in a couple of weeks or so. As always, the tasks are open to any community member who’s interested, and we welcome all comments and questions.</p>\n<p>Kind regards,<br>\nMarjan</p>\n<hr>\n<p>Sveiki visiem,</p>\n<p>Mana TomTom komanda izveidoja jaunu MapRoulette izaicinājumu, lai palīdzētu mums turpināt uzlabot OSM maršrutu tīkla kvalitāti Latvijā. Konkrētāk, mēs vēlamies labot nepareizi un neprecīzi kartētus šoseju krustojumus.</p>\n<p>Kopumā esam identificējuši 71 potenciālu problēmu. Izaicinājums <strong>“<a href=\"https://maproulette.org/browse/challenges/41674\">Fix Incorrect Highway Junctions</a>”</strong> tika izveidots, lai pārbaudītu un, ja nepieciešams, labotu šos gadījumus. Izaicinājuma aprakstā un instrukcijās ir sniegta sīkāka informācija par šo kļūdu izcelsmi, atklāšanas un risināšanas metodēm, kā arī par to, kāpēc mēs cenšamies tās labot. </p>\n<p>Mūsu rediģēšanas komanda ar šo izaicinājumu var strādāt aptuveni pāris nedēļu laikā. Kā vienmēr, uzdevumi ir atvērti ikvienam ieinteresētajam kopienas dalībniekam, un mēs gaidām visus komentārus un jautājumus.</p>\n<p>Ar mīļiem sveicieniem,<br>\nMarjan</p>",
+        "id": 396242372,
+        "sender_full_name": "MarjanVandeKauter",
+        "timestamp": 1697100223
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/iHroledr85REA1eRcKjpINxy/image.png\">image.png</a><br>\nAs usual its mostly from the janky LVM road import.</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/iHroledr85REA1eRcKjpINxy/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/iHroledr85REA1eRcKjpINxy/image.png\"></a></div>",
+        "id": 396247194,
+        "sender_full_name": "Colby",
+        "timestamp": 1697101839
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"572039\">@Colby</span> first of all thanks for fixing some of the issues!</p>\n<p>What other types of issues caused by the import do you still encounter? Are any other clean-up actions ongoing?</p>",
+        "id": 396440071,
+        "sender_full_name": "MarjanVandeKauter",
+        "timestamp": 1697181286
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"636837\">MarjanVandeKauter</span> <a href=\"#narrow/stream/358602-general/topic/Fixing.20incorrect.20highway.20junctions/near/396440071\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> first of all thanks for fixing some of the issues!</p>\n<p>What other types of issues caused by the import do you still encounter? Are any other clean-up actions ongoing?</p>\n</blockquote>\n<p>Largest issue is classification and surface tagging but that cant be fixed easily. Otherwise the usual overlapping without proper junctions and small sections sticking out like in the screenshot above, worst i saw was an LVM road on top another road sharing all their nodes.</p>",
+        "id": 396447820,
+        "sender_full_name": "Colby",
+        "timestamp": 1697183616
+    },
+    {
+        "content": "<p>I think the worst I saw was <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/LVM.20importa.20prikoli\">#general &gt; LVM importa prikoli</a> where a road got drawn on top an existing sidewalk in the middle of a city. I don't have the slightest explanation how that occured or why the data had anything at that location or why the import double-drew it there.</p>",
+        "id": 396471649,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697190806
+    },
+    {
+        "content": "<p>This challenge has been completed. Thank you to everyone who participated, including <span class=\"user-mention\" data-user-id=\"572039\">@Colby</span> and <span class=\"user-mention\" data-user-id=\"568771\">@Rihards Olups</span> ! <span class=\"user-mention\" data-user-id=\"568771\">@Rihards Olups</span> could you or another admin close this topic?</p>\n<p><span class=\"user-mention\" data-user-id=\"571825\">@HellMap</span> <span class=\"user-mention\" data-user-id=\"572039\">@Colby</span>  thanks for sharing this information about the LVM road import. We'll investigate if there's more issues resulting from this import that we can look into.</p>",
+        "id": 398135316,
+        "sender_full_name": "MarjanVandeKauter",
+        "timestamp": 1698084919
+    },
+    {
+        "content": "<p>Sounds good. Most LVM road errors are fairly obvious when examined. It's just the lack of mappers to organize and go through the QA lists to fix them all.</p>",
+        "id": 398136757,
+        "sender_full_name": "HellMap",
+        "timestamp": 1698085664
+    }
+]
