@@ -1,0 +1,122 @@
+[
+    {
+        "content": "<p>Pamanīju interesantu situāciju - <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dno\">building=no</a> objektam pievienota adrese.<br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dno\">building=no</a> nerenderējas <a href=\"http://osm.org\">osm.org</a>, varbūt arī kaut kur citur.<br>\nVarbūt adrešu <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">botam</a> labāk būtu ignorēt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dno\">building=no</a>?</p>\n<p><a href=\"https://www.openstreetmap.org/way/133120560/history\">https://www.openstreetmap.org/way/133120560/history</a></p>\n<p>Šo es izlaboju, Latvijā gan vēl daži ir. Gan jau ka lielākā daļa nepareizi, būs jāpapēta.<br>\n<a href=\"https://overpass-turbo.eu/s/1pUv\">https://overpass-turbo.eu/s/1pUv</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"http://osm.org\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"http://osm.org\" title=\"OpenStreetMap\">OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/fc94da75988ca0e87c616c0465ccb8790fcbc98a\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f653661366363346131343735326436643063333139386136616462616633336665346538333337653235363034663264373435663962613039616236346636312f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/133120560/history\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/133120560/history\" title=\"Way History: 133120560 | OpenStreetMap\">Way History: 133120560 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 320104328,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673201415
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/360959-adreses/topic/building.3Dno/near/320104328\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://www.openstreetmap.org/way/133120560/history\">https://www.openstreetmap.org/way/133120560/history</a></p>\n<p>Šo es izlaboju, Latvijā gan vēl daži ir. Gan jau ka lielākā daļa nepareizi, būs jāpapēta.</p>\n</blockquote>\n<p>Ko nozīmē <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ademolished:building%3Dno\">demolished:building=no</a> (uzsvars uz \"no\")? Nav jābūt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ademolished:building%3Dyes\">demolished:building=yes</a>, savādāk sanāk dubultais noliegums.</p>",
+        "id": 320107395,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673203622
+    },
+    {
+        "content": "<p>Es slinkoju un neaiztiku taga vērtību :)<br>\nJo nu tur it kā ir nevis \"building demolished = no\", bet \"demolished building of type 'no'\".<br>\nPrincipā demolished:building vērtībai laikam nav liela nozīme.</p>",
+        "id": 320109311,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673204844
+    },
+    {
+        "content": "<p>Domāju, ka šādos gadījumos jāsalabo objekta tagi (piemērā uz <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ademolished:building%3Dyes\">demolished:building=yes</a>, bet, ja ēka nojaukta sen (vairs nav redzama jaunākajā ortofoto), tad jādzēš vispār ārā). Pārējie gadījumi jācaurskata un jālabo.</p>",
+        "id": 320111310,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673206164
+    },
+    {
+        "content": "<p>T.i., botā nav vērts ignorēt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dno\">building=no</a>?</p>",
+        "id": 320115557,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673209223
+    },
+    {
+        "content": "<p>Iespējams. Tā jau \"no\" var jebkan pielikt, piem., shop.</p>",
+        "id": 320147997,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673238486
+    },
+    {
+        "content": "<p>Daļu šo objektu salaboju. Nav tik vienkārši, jo dažās vietās ēkas patiesībā eksistē, dažās nē, visur kaut kas jāpielabo apkārt...<br>\nVēl mazliet palika.</p>",
+        "id": 320561367,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673391531
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/360959-adreses/topic/building.3Dno/near/320561367\">said</a>:</p>\n<blockquote>\n<p>visur kaut kas jāpielabo apkārt...</p>\n</blockquote>\n<p>Vot tā ir lielākā problēma mēģinot kaut ko sistemātiski salabot.</p>",
+        "id": 320562177,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673391881
+    },
+    {
+        "content": "<p>Šis interesants - es gan neceru, ka <span class=\"user-mention\" data-user-id=\"574669\">@UrSuS</span> atcerēsies, kas tur ir darīts pirms 10 gadiem :D<br>\n<a href=\"/user_uploads/49624/hZA8QydNuXHgqjKp83zl2rZy/image.png\">building=no 2013ajā</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/hZA8QydNuXHgqjKp83zl2rZy/image.png\" title=\"building=no 2013ajā\"><img src=\"/user_uploads/49624/hZA8QydNuXHgqjKp83zl2rZy/image.png\"></a></div>",
+        "id": 320563439,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673392537
+    },
+    {
+        "content": "<p>Vēl dīvaināk.<br>\n<a href=\"/user_uploads/49624/OCHSzvi0bqGXVxi42R1lrMfh/image.png\">maybe yes, maybe no</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/OCHSzvi0bqGXVxi42R1lrMfh/image.png\" title=\"maybe yes, maybe no\"><img src=\"/user_uploads/49624/OCHSzvi0bqGXVxi42R1lrMfh/image.png\"></a></div>",
+        "id": 320564219,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673392959
+    },
+    {
+        "content": "<p>Viss, Latvijā vairs nav <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dno\">building=no</a> :)</p>",
+        "id": 320566453,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673394428
+    },
+    {
+        "content": "<p>Un tagad <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahorse%3Dno\">horse=no</a> <span aria-label=\"horse\" class=\"emoji emoji-1f40e\" role=\"img\" title=\"horse\">:horse:</span> <span aria-label=\"no entry\" class=\"emoji emoji-26d4\" role=\"img\" title=\"no entry\">:no_entry:</span></p>",
+        "id": 320566854,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673394689
+    },
+    {
+        "content": "<p><a href=\"https://www.openstreetmap.org/way/291214607\">https://www.openstreetmap.org/way/291214607</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/291214607\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/291214607\" title=\"Way: 291214607 | OpenStreetMap\">Way: 291214607 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 320574260,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673399017
+    },
+    {
+        "content": "<p>Te vēl vērtības, kuras vajadzētu pārskatīt:<br>\nabandoned<br>\nbasement<br>\nbridge<br>\nCiecere<br>\ncollapsed<br>\nforest<br>\nfoundations<br>\nguard<br>\nplanned<br>\nuti</p>",
+        "id": 320575630,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673399911
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/360959-adreses/topic/building.3Dno/near/320563439\">said</a>:</p>\n<blockquote>\n<p>Šis interesants - es gan neceru, ka <span class=\"user-mention silent\" data-user-id=\"574669\">UrSuS</span> atcerēsies, kas tur ir darīts pirms 10 gadiem :D<br>\n<a href=\"/user_uploads/49624/hZA8QydNuXHgqjKp83zl2rZy/image.png\">building=no 2013ajā</a></p>\n</blockquote>\n<p>Neatceros gan <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span> un vēl jāpārbauda bildes no 2013, varbūt tur vairāk izskatījās pēc ruins</p>",
+        "id": 320643092,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1673426086
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360959-adreses/topic/building.3Dno/near/320566854\">said</a>:</p>\n<blockquote>\n<p>Un tagad <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahorse%3Dno\">horse=no</a> <span aria-label=\"horse\" class=\"emoji emoji-1f40e\" role=\"img\" title=\"horse\">:horse:</span> <span aria-label=\"no entry\" class=\"emoji emoji-26d4\" role=\"img\" title=\"no entry\">:no_entry:</span></p>\n</blockquote>\n<p>Ar to lai darbojas zirgu entuziasti :)</p>",
+        "id": 320660947,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673432044
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360959-adreses/topic/building.3Dno/near/320575630\">said</a>:</p>\n<blockquote>\n<p>Te vēl vērtības, kuras vajadzētu pārskatīt:<br>\nabandoned<br>\nbasement<br>\nbridge<br>\nCiecere<br>\ncollapsed<br>\nforest<br>\nfoundations<br>\nguard<br>\nplanned<br>\nuti</p>\n</blockquote>\n<p>Skatos, ka daļu esi salabojis - vai te vēl kas palicis?</p>",
+        "id": 321051026,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673564507
+    },
+    {
+        "content": "<p>Ja ne visus, tad nejauši palaidu garām. Es tur <span aria-label=\"check\" class=\"emoji emoji-2705\" role=\"img\" title=\"check\">:check:</span> pieliku, kā pabeigtu <span aria-label=\"sunglasses\" class=\"emoji emoji-1f60e\" role=\"img\" title=\"sunglasses\">:sunglasses:</span></p>",
+        "id": 321051204,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673564579
+    },
+    {
+        "content": "<p>Super, liels paldies :)</p>",
+        "id": 321053238,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673565503
+    },
+    {
+        "content": "<p>Es arī dažus izlaboju</p>",
+        "id": 321100579,
+        "sender_full_name": "Colby",
+        "timestamp": 1673597008
+    }
+]
