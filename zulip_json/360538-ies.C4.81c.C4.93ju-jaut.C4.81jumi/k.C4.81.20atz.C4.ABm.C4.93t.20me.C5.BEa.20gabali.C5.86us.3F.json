@@ -1,0 +1,56 @@
+[
+    {
+        "content": "<p>labvakar. var kāds palīdzēt, kā atzīmēt tādus mazus meža gabaliņus? landuse: forest, vai natural: wood, vai kk citādāk?<br>\n<a href=\"/user_uploads/49624/tdDHaHbJW4lddzDtiA-bOsXM/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/tdDHaHbJW4lddzDtiA-bOsXM/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/tdDHaHbJW4lddzDtiA-bOsXM/image.png\"></a></div>",
+        "id": 375325549,
+        "sender_full_name": "devinoff_",
+        "timestamp": 1689352587
+    },
+    {
+        "content": "<p>vai varbūt, kā jūs to atzīmējāt? jo osm wiki ir dažādi varianti, ka to atzīmēt:<br>\n<a href=\"/user_uploads/49624/n62fKmCP0jfKTgOx88RgiFWA/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/n62fKmCP0jfKTgOx88RgiFWA/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/n62fKmCP0jfKTgOx88RgiFWA/image.png\"></a></div>",
+        "id": 375326514,
+        "sender_full_name": "devinoff_",
+        "timestamp": 1689352830
+    },
+    {
+        "content": "<p>Tas ir īstenībā sarežģīts jautājums. Precīzi ir, ka <code>managed</code> ir uzturēts un kontrolēts mežs un <code>wood</code> ir savvaļas nekopts neuzturēts mežs. Bet praktiski, daudzi liek gan to gan to. Tīri oficiāli, visi meži Latvijā un vispār Eiropā ir <code>managed</code>, jo tie visi ir  vai nu LVM vai privātīpašumi un tiek uzturēti. Tāpēc <code>wood</code> faktiski paliek maziem gabaliem, kurus bieži zīmē vienkārši daudz sauaugušiem kokiem, kur <code>scrub</code> pa maz. Šitādu gabalu kā piemērā es pats nezinu, ko liktu. Drošvien <code>wood</code>, jo pārāk mazs tur kaut ko uzturēt un darīt. Ja balkus būtu vairāk mežu, tad drošvien <code>managed</code>, jo skaitītu tos kopā. Bet vispār es daudz nesaspringstu un es neesmu manījis, ka citi daudz sapringtu. Galvenais, lai LVM meži ir <code>managed</code> un saauguši koki pagalmā <code>wood</code>.</p>",
+        "id": 375326699,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689352871
+    },
+    {
+        "content": "<p>No tā linka, Approach 1/3 (lielu atšķirību neredzu) ir de facto Latvijā. Es <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Amanaged\">managed=*</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Awood\">wood=*</a> pie mums neesmu redzējis.</p>",
+        "id": 375327053,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689352953
+    },
+    {
+        "content": "<p>Mums ir precīzi viens mežs as <code>wood</code> un tas pats nepareizi. <a href=\"https://www.openstreetmap.org/way/263549635\">https://www.openstreetmap.org/way/263549635</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/263549635\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/263549635\" title=\"Way: 263549635 | OpenStreetMap\">Way: 263549635 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 375327365,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689353029
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/k.C4.81.20atz.C4.ABm.C4.93t.20me.C5.BEa.20gabali.C5.86us.3F/near/375326699\">said</a>:</p>\n<blockquote>\n<p>Tas ir īstenībā sarežģīts jautājums. Precīzi ir, ka <code>managed</code> ir uzturēts un kontrolēts mežs un <code>wood</code> ir savvaļas nekopts neuzturēts mežs. Bet praktiski, daudzi liek gan to gan to. Tīri oficiāli, visi meži Latvijā un vispār Eiropā ir <code>managed</code>, jo tie visi ir  vai nu LVM vai privātīpašumi un tiek uzturēti. Tāpēc <code>wood</code> faktiski paliek maziem gabaliem, kurus bieži zīmē vienkārši daudz sauaugušiem kokiem, kur <code>scrub</code> pa maz. Šitādu gabalu kā piemērā es pats nezinu, ko liktu. Drošvien <code>wood</code>, jo pārāk mazs tur kaut ko uzturēt un darīt. Ja balkus būtu vairāk mežu, tad drošvien <code>managed</code>, jo skaitītu tos kopā. Bet vispār es daudz nesaspringstu un es neesmu manījis, ka citi daudz sapringtu. Galvenais, lai LVM meži ir <code>managed</code> un saauguši koki pagalmā <code>wood</code>.</p>\n</blockquote>\n<p>Vai jūs minējāt 'landuse:forest' 'managed' vietā?</p>",
+        "id": 375328317,
+        "sender_full_name": "devinoff_",
+        "timestamp": 1689353244
+    },
+    {
+        "content": "<p>Sorry, es nenoprecizēju un jaucu visu kopā - izlaboju oriģinālo message.</p>",
+        "id": 375329273,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689353487
+    },
+    {
+        "content": "<p>\"managed forest\" ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alanduse%3Dforest\">landuse=forest</a> nosaukums tagging presetā</p>",
+        "id": 375329483,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689353530
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/k.C4.81.20atz.C4.ABm.C4.93t.20me.C5.BEa.20gabali.C5.86us.3F/near/375329483\">said</a>:</p>\n<blockquote>\n<p>\"managed forest\" ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alanduse%3Dforest\">landuse=forest</a> nosaukums tagging presetā</p>\n</blockquote>\n<p>sapratu, liels jums paldies!</p>",
+        "id": 375329803,
+        "sender_full_name": "devinoff_",
+        "timestamp": 1689353616
+    }
+]
