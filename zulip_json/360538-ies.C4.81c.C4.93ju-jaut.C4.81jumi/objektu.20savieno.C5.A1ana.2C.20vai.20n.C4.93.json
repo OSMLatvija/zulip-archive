@@ -1,0 +1,56 @@
+[
+    {
+        "content": "<p>Gribētu dzirdēt Jūsu ietekumus, ko labāk vēlams savienot, ko ne? <br>\nLai aizsāktu kategorijas, piemēram, saprotu, ka labāk nesavienot \"landuse\" ar ceļiem un ēkām, bet kā, piemēram ar:<br>\n\"Landuse\" - cits \"Landuse\"<br>\n\"Landuse\" - citas zonas, piemēram, zāle, gājēju zonas, u.t.t<br>\nVai celiņus savieno ar celiņiem, vai arī ar pedastrian area arī? <br>\nĒkas - zālājs<br>\nGājēju celiņu beigas - vai labāk pievienot ielām? <br>\nU.c., kas Jums ienāk prātā, ar ko gribētu padalīties....:)</p>",
+        "id": 392285848,
+        "sender_full_name": "Līga Rutka",
+        "timestamp": 1695289325
+    },
+    {
+        "content": "<ul>\n<li>\"Landuse\" - cits \"Landuse\" --- lielākoties jā, ja robežas tuvu.</li>\n<li>\"Landuse\" - citas zonas, piemēram, zāle, gājēju zonas, u.t.t --- principā nē, jo tās ir citas kategorijas. Piem., zāle būs daļa no residential. Tur gan var būt neliels sajukums ar <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Anatural%3Dgrassland\">natural=grassland</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alanduse%3Dgrass\">landuse=grass</a>.</li>\n<li>Vai celiņus savieno ar celiņiem, vai arī ar pedastrian area arī? --- savieno ar visiem footway, pedestrian, service utt area visās krustošanās vietās (citādāk dažādi maršrutēšanas risinājumi dažādos veidos maldīsies).</li>\n<li>Ēkas - zālājs --- nav īsti viedokļa. Pats laikam esmu abējādi zīmējis.</li>\n<li>Gājēju celiņu beigas - vai labāk pievienot ielām? --- par šo nesen runājām <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/nepievienoti.20ietvju.20gali\">#general &gt; nepievienoti ietvju gali</a> .</li>\n</ul>\n<p>Vēl jau pamatlietas - nesavieno lietas dažādos līmeņos (ceļi, strauti, grāvji - kur ir tilti, caurtekas utt).</p>\n<p>Noteikti citi palabos, ja ko būšu pārpratis.</p>",
+        "id": 392287773,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1695290086
+    },
+    {
+        "content": "<p>Pirmkārt, lai nesajauktos - landuse var būt abstrakts (dzīvojamā teritorija, bērnudārza teritorija, parks, utt) un fizisks jeb \"land cover\" (zāle, pļava, mežs, utt.). Abstrakts ar abstraktu parasti savienojas, kad tuvu (dzīvojamā ter. blakus veikaliem blakus rūpnīcai blakus parkam, utml.). Abstrakts ar fizisku dažreiz sakrīt, dažreiz nē un var arī mierīgi pārklāties (zāle parkā, koki starp daudzstāvenēm, gājēju pleķis pie veikala utt.) Fiziskus gandrīz vienmēr var savienot, jo tie faktiski gandrīz vienmēr ir kopā, protams, ja tie ir reāli iezīmēti atbilstoši. Piemēram, celiņu vienmēr zīmē ar līniju, bet var arī fizisku precīzu laukumu ar <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aarea%3Ahighway%3Dfootway\">area:highway=footway</a> - pirmo ar landuse nesavieno, otro savieno ar fizisku landuse (zāle pienāk celiņam). Pedestrian area utml. fiziskas robežas parasti jau savieno ar celiņu, kur tie satiekās. Celiņus ar celiņiem un ielām visām loģiski savienojamajās vietās savieno, lai tur maršrutētu. Citus fiziskus objektus arī var savienot ar fizisku landuse, to pašu ēku ar zāli var, jā (padomju daudzstāvenēm tā daudz, bet ir arī tādas, kur atstarpe un teorētiski maziņš betonēts gabaliņš). Ietves teorētiski jāsavieno krustojumos ar visām četrām pusēm pēc situācijas, lai var no jebkuras vietas uz jebkuru. Jebkurā gadījumā, ja piezīmē līdz pat ceļam, tad arī var savienot ar ceļu (ja ir zināms, ka ietve tur reāli savienojas bez kaut kādas barjeras vai vispār pārtrūkst). Nāk vēl ļoti daudz ar ko padalīties. Jūrmala nav tas pats labākais piemērs - tur daudz šķībi savā laikā (meži visi savienoti ar dzīvojamām teritorijām, daudz kur savienots ar celiņiem, utt.)</p>",
+        "id": 392351489,
+        "sender_full_name": "HellMap",
+        "timestamp": 1695311905
+    },
+    {
+        "content": "<p>BTW, \"fizisks ar fizisku\" arī var būt izņēmumi - piem., ūdens objekti un meža laukumi. Tie parasti nepārklāsies, bet arī tam būs savi izņēmumi (\"koki ūdenī\").</p>",
+        "id": 392447700,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1695363557
+    },
+    {
+        "content": "<p>Ūdens mežā parasti būs multipoligons, tā kā tehniski tie \"savienosies\". Parasti tavs piemērs sastopās kā \"purvs mežā\" - tad loģiskāk nesavienot, jo tad ir tiešām \"koki dūņās\"</p>",
+        "id": 392457118,
+        "sender_full_name": "HellMap",
+        "timestamp": 1695367883
+    },
+    {
+        "content": "<p>Jā, vai citos reģionos \"mangrove\" meži.<br>\nVietas, kur par savienošanu vai nē neesmu pārliecināts - upju un ezeru krasti, kur visapkārt nav mežs. Šķiet, tas jau atkarīgs no situācijas un attāluma dabā.</p>",
+        "id": 392460013,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1695369047
+    },
+    {
+        "content": "<p>Ūdenstilpnes es gandrīz vienmēr izgriežu, ūdenteces parasti sākot ar platākām upēm, bet tas drīzāk dēļ lielā darba to darīt.</p>",
+        "id": 392460803,
+        "sender_full_name": "HellMap",
+        "timestamp": 1695369340
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/objektu.20savieno.C5.A1ana.2C.20vai.20n.C4.93/near/392457118\">said</a>:</p>\n<blockquote>\n<p>Ūdens mežā parasti būs multipoligons, tā kā tehniski tie \"savienosies\". Parasti tavs piemērs sastopās kā \"purvs mežā\" - tad loģiskāk nesavienot, jo tad ir tiešām \"koki dūņās\"</p>\n</blockquote>\n<p>Bet, ja, piemēram mežā ir \"wetland\", tad to zīmē mežam pa virsu, vai arī mežā izgriež \"caurumu?</p>",
+        "id": 392470552,
+        "sender_full_name": "Līga Rutka",
+        "timestamp": 1695372544
+    },
+    {
+        "content": "<p>Atkarīgs no tā, vai tur aug koki - ja nav, tad labāk izgriezt ārā.</p>",
+        "id": 392471863,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1695373049
+    }
+]
