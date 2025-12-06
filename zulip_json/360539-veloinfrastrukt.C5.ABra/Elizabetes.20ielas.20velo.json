@@ -1,0 +1,80 @@
+[
+    {
+        "content": "<p>Hey velokartētāji, ko domājat par šo piezīmi?<br>\n<a href=\"https://www.openstreetmap.org/note/4986400\">https://www.openstreetmap.org/note/4986400</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/note/4986400\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/note/4986400\" title=\"Note: 4986400\">Note: 4986400</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 547054196,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1761395452
+    },
+    {
+        "content": "<p>This topic was moved here from <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/channel/358602-general/topic/Elizabetes.20ielas.20velo\">#general &gt; Elizabetes ielas velo</a> by <span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span>.</p>",
+        "id": 547054875,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1761396134
+    },
+    {
+        "content": "<p>Es uz to paskatījos, jā. Autors arī nomainīja vienu. Nu jā, mums ir kā ir. Vieni vispirms iekartē atsevišķi, otri pēc tam kā ceļa tegus vai arī otrādi. \"Pareizi\" jau gan neatdalītas velojoslas nav kartēt atsevišķi. Bet arguments parasti, lai varētu vismaz kaut kādu veloinfrastruktūru \"redzēt\". Jau daudz reižu ar dažādiem autoriem vai nu vienā vai otrā virzienā mainīts. Ja kāds no OSM lielākas kopienas pievērstu uzmanību, tad gan jau visi tie atsevišķie ātri tiktu nonesti. Bet pagaidām mēs ne par ko vietēji neesam vienojušies vēl...</p>",
+        "id": 547054889,
+        "sender_full_name": "HellMap",
+        "timestamp": 1761396152
+    },
+    {
+        "content": "<p>Te pa kanāliem daudz piemēru. Changeset komentārus man slikums sameklēt visus.</p>",
+        "id": 547054991,
+        "sender_full_name": "HellMap",
+        "timestamp": 1761396261
+    },
+    {
+        "content": "<p>Es veloinfrastruktūrā mazāk esmu iedziļinājies, varbūt vērts kaut kādu lokālo praksi definēt.<br>\nAtsevišķi kartētu grūtāk uzturēt.<br>\nSavukārt neatdalītu laikam specializētie velo rendereri arī rāda normāli, vai ne?</p>",
+        "id": 547055330,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1761396532
+    },
+    {
+        "content": "<p>No pieredzes, atsevišķi kartētu noteikti vieglāk uzturēt, jo birkas un trajektorijas utt. nemaisās. Ceļi bieži saskaldīti katrā pagriezienā ar turn restricitoniem, dažādām sidewalk/parking birkām, utt. Piemēram Čaka ir 100 gabali un uz karta ir tas <code>cycleway</code>. Ja kaut kas jāmaina, tad visi 100 gabali.</p>",
+        "id": 547055522,
+        "sender_full_name": "HellMap",
+        "timestamp": 1761396702
+    },
+    {
+        "content": "<p>Neatdalītu specializētie renderē jā, bet tur ir diezgan liela putra arī, ja daudz ceļu. Saprast var, bet krustojumos kaut kādos protams neko saprast no trajektorijām nevar, jo datos tās vispār nav.</p>",
+        "id": 547055611,
+        "sender_full_name": "HellMap",
+        "timestamp": 1761396788
+    },
+    {
+        "content": "<p>Tad gandrīz vai labāk atsevišķi kartēt joslas tomēr?<br>\nNez, pie kā ir nonākuši valstīs, kur to joslu ir daudz vairāk.</p>",
+        "id": 547871693,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1761811892
+    },
+    {
+        "content": "<p>Kamēr tie nebūs redzami default slāni, es zīmēšu atsevišķi</p>",
+        "id": 547872319,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1761812118
+    },
+    {
+        "content": "<p>Cik zinu, visur kur kartētāju ir vismaz nedaudz vairāk, joslas nekad nav atsevišķi. Tas ir gan wiki aprakstīts, gan katreiz apspriešanās secināts. Lūk tagad kāds arī pamanījis, ka Latvijā sazīmēts citādi. Protams vajadzētu darīt vai nu vienā veidā vai otrā, bet ne kā pie mums - kur pagadās tā, kur ne tā. Un vismaz <a href=\"https://wiki.openstreetmap.org/wiki/Tag:cycleway%3Dlane#Use_on_cycleways_themselves\">cycleway=lane</a> tegiem tām atsevišķām joslām jābūt saliktiem.</p>",
+        "id": 547895206,
+        "sender_full_name": "HellMap",
+        "timestamp": 1761819050
+    },
+    {
+        "content": "<p>Es šajā tēmā īsti neesmu iedziļinājies - varbūt tiem, kuri vairāk sapratuši, ir iespēja dokumentēt kopienas lēmumu? Tad arī varētu vērt to piezīmi ciet (ar vai bez izmaiņām datos).</p>",
+        "id": 555321288,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1763030635
+    },
+    {
+        "content": "<p>Tur jau tā lieta - kas tieši ir kopienas lēmums? Mums kaut kur 50 uz 50 viedokļi, cik es zinu.</p>",
+        "id": 555324074,
+        "sender_full_name": "HellMap",
+        "timestamp": 1763031416
+    },
+    {
+        "content": "<p>Sarežģīti :)<br>\nVai jaunais vektoru slānis situāciju kaut kā uzlabo vai nē?</p>",
+        "id": 556913528,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1763407657
+    }
+]
