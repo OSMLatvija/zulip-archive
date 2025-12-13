@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p><a href=\"https://mastodon.social/@watmildon@en.osm.town/114690524299305305\">https://mastodon.social/@watmildon@en.osm.town/114690524299305305</a></p>\n<p>Kādas mums īsti ir?</p>",
+        "id": 524191921,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1750058018
+    },
+    {
+        "content": "<p>Tev vajadzētu linkus pa taisno nevis caur pāradresatoru, kurš vispirms \"You need to login or sign up before continuing.\" prasa. <a href=\"https://en.osm.town/@watmildon/114690524212379611\">https://en.osm.town/@watmildon/114690524212379611</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://en.osm.town/@watmildon/114690524212379611\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/db8d14f9d045ba6bfb8e65fc58f5479ce272aeac/68747470733a2f2f63646e2e6d6173746f2e686f73742f656e6f736d746f776e2f6d656469615f6174746163686d656e74732f66696c65732f3131342f3639302f3438322f3830302f3038302f3637332f6f726967696e616c2f356465633534663266323531656136342e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://en.osm.town/@watmildon/114690524212379611\" title=\"watmildon (@watmildon@en.osm.town)\">watmildon (@watmildon@en.osm.town)</a></div><div class=\"message_embed_description\">Attached: 1 image\n\nDoes your city/state/country have a well established nickname? Make sure it is added to OpenStreetMap using the nickname tag!\n\nIt's quite fun to see everything rendered in a less \"official\" fashion.\n\n#nicknames #OpenStreetMap \n\nhttps://overpass-ultra.us/#map&amp;query=gist:1d3d4d0698f7163abdeea59846a6e2c1</div></div></div>",
+        "id": 524206329,
+        "sender_full_name": "HellMap",
+        "timestamp": 1750063299
+    },
+    {
+        "content": "<p>Es nevienu nezinu, bet ja ir, tad tiem vajadzētu izpildīt <a href=\"https://wiki.openstreetmap.org/wiki/Verifiability\">https://wiki.openstreetmap.org/wiki/Verifiability</a></p>",
+        "id": 524206508,
+        "sender_full_name": "HellMap",
+        "timestamp": 1750063365
+    },
+    {
+        "content": "<p>Loginu gan laikam neprasīja, tikai parādīja \"you are leaving\", ne?<br>\nBet jā, neiedomājos, ka tāds būs.</p>",
+        "id": 524207272,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1750063650
+    }
+]
