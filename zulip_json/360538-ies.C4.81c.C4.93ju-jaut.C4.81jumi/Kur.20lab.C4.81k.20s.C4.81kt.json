@@ -1,0 +1,116 @@
+[
+    {
+        "content": "<p>Sveiki visiem,</p>\n<p>Prieks redzēt aktīvo kopienu! Liels paldies <span class=\"user-mention\" data-user-id=\"571825\">@HellMap</span> , kas jau atbildēja uz dažiem maniem iesācēju jautājumiem.</p>\n<p>Es gribētu jautāt, ar ko labāk sākt. Man apkārt ir dažas atvērtas kartes piezīmes un dažas zonas, kurās trūkst detaļu.</p>\n<p>Kādi būtu ieteikumi?</p>",
+        "id": 385691757,
+        "sender_full_name": "Antons J.",
+        "timestamp": 1692283989
+    },
+    {
+        "content": "<p>Parastā OSM atbilde ir - kas labāk patīk, to var arī darīt. Īstenībā tas tāds grūts jautājums. Nekam Latvijā īpaši prioritāte nav, ko baigi vajadzētu. Varbūt kaut kādus trūkstošos vai šķībus ceļus Latgalē vai kaut kas tāds. Lielākā daļa aktīvo kartētāju parasti vispirms dabā apskatās/apmeklē vietu, un pēc tas sazīmē tik sīkumus, cik gribās.</p>",
+        "id": 385696609,
+        "sender_full_name": "HellMap",
+        "timestamp": 1692285280
+    },
+    {
+        "content": "<p>Ir <a href=\"https://osmlatvija.github.io/Osmalyzer/\">https://osmlatvija.github.io/Osmalyzer/</a>, tur var apskatīties sarakstus ar potenciāli labojamām lietām.</p>",
+        "id": 385697720,
+        "sender_full_name": "i-ky",
+        "timestamp": 1692285621
+    },
+    {
+        "content": "<p>(tas gan nav gluži iesācēju friendly)</p>",
+        "id": 385699727,
+        "sender_full_name": "HellMap",
+        "timestamp": 1692286141
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Kur.20lab.C4.81k.20s.C4.81kt/near/385697720\">said</a>:</p>\n<blockquote>\n<p>Ir <a href=\"https://osmlatvija.github.io/Osmalyzer/\">https://osmlatvija.github.io/Osmalyzer/</a>, tur var apskatīties sarakstus ar potenciāli labojamām lietām.</p>\n</blockquote>\n<p>Jā, Ļoti interesants saraksts, piekrītu :). Nezinu kā citiem iesācējiem, bet man uz šo apskatoties pilnīgi nekas nav skaidrs <span aria-label=\"face with peeking eye\" class=\"emoji emoji-1fae3\" role=\"img\" title=\"face with peeking eye\">:face_with_peeking_eye:</span> .</p>",
+        "id": 385700107,
+        "sender_full_name": "Liga Rutka",
+        "timestamp": 1692286217
+    },
+    {
+        "content": "<p>Tādi saiti kā <a href=\"https://tools.geofabrik.de/osmi/\">https://tools.geofabrik.de/osmi/</a> vai <a href=\"https://nominatim.org/qa\">https://nominatim.org/qa</a> ir daaaaaudz vairāk, ko labot. Vispār OSM ir bezgalīgi daudz sarakstu ar to, ko varētu darīt. Es gan ieteiktu iesākumam pazīmēt, ko pašam gribās, pirms maldīties pa projektu labirintiem. Tad varētu labāk novērtēt, kādā virzienā interese.</p>",
+        "id": 385700119,
+        "sender_full_name": "HellMap",
+        "timestamp": 1692286221
+    },
+    {
+        "content": "<p>nezinu, cik tālu richlv ticis līdz pilnīgam sarakstam, bet <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/Projekti\">#general &gt; Projekti</a> is visādi, ko darīt vietēji</p>",
+        "id": 385700454,
+        "sender_full_name": "HellMap",
+        "timestamp": 1692286314
+    },
+    {
+        "content": "<p>Es ieteiktu skatīties no sava skatpunkta - kā Tu pats lieto OSM vai kādus OSM-balstītus risinājumus? Tad Tavs ieguldījums būs Tev pašam labāk redzams un veidosies pozitīva atgriezeniska saite.</p>",
+        "id": 385700583,
+        "sender_full_name": "i-ky",
+        "timestamp": 1692286350
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Kur.20lab.C4.81k.20s.C4.81kt/near/385700583\">said</a>:</p>\n<blockquote>\n<p>Es ieteiktu skatīties no sava skatpunkta - kā Tu pats lieto OSM vai kādus OSM-balstītus risinājumus? Tad Tavs ieguldījums būs Tev pašam labāk redzams un veidosies pozitīva atgriezeniska saite.</p>\n</blockquote>\n<p>Kā piemēru - es personīgi braukāju ar riteni, filmēju video, lieku bildes Mapillary, un pēc tam savu maršrutu salaboju visu galveno kamēr svaigi atmiņā, un pēc tam varbūt pazīmēju kaut kādu vietu sīkāk. Maršrutu arī izvēlos tā, lai kaut kur jaunā vietā aizbrauktu, kur vēl nav filmēts/zīmēts. Tādā veidā apvienoju OSM hobiju ar savu hobiju.</p>",
+        "id": 385701123,
+        "sender_full_name": "HellMap",
+        "timestamp": 1692286498
+    },
+    {
+        "content": "<p>Paldies par jūsu atbildēm!</p>\n<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Kur.20lab.C4.81k.20s.C4.81kt/near/385701123\">said</a>:</p>\n<blockquote>\n<p>Kā piemēru - es personīgi braukāju ar riteni, filmēju video, lieku bildes Mapillary, un pēc tam savu maršrutu salaboju visu galveno kamēr svaigi atmiņā, un pēc tam varbūt pazīmēju kaut kādu vietu sīkāk. Maršrutu arī izvēlos tā, lai kaut kur jaunā vietā aizbrauktu, kur vēl nav filmēts/zīmēts. Tādā veidā apvienoju OSM hobiju ar savu hobiju.</p>\n</blockquote>\n<p>Esmu ievērojis, ka esi daudz braucis ar velosipēdu! Mani ļoti interesē tava velosipēda un kameras \"konfigurācija\".</p>\n<p>Varbūt jau esi par to rakstījis?</p>",
+        "id": 385733493,
+        "sender_full_name": "Antons J.",
+        "timestamp": 1692298450
+    },
+    {
+        "content": "<p>Man ļoti sarežģīta konfigurācija. Principā <span class=\"user-mention\" data-user-id=\"568771\">@Rihards Olups</span> dara to pašu tikai vienkāršāk - viņš varētu aprakstīt. Parasti visi lieto GoPro timelapse iespēju ar ieslēgtu GPS. Es īsumā ar GoPro 8 filmēju 4K video (ar Labs firmware, kur uzlikts manuāli shutter speed), tad pārtaisu video uz bildēm, ar telefonu OsmAndā (ar kuru navigēju) ierakstu GPS (jo GoPro GPS dažreiz ir ļoti slikts un ļoti bieži nokarās), tad paštaisītā programmā izlaboju GPS un pielieku klāt bildēm, tad izdzēšu liekās bildes un tad lādēju Mapillary. Man liekas neviens cits tā nedara un tā ir čakarēšanās. Vajag megalielu SD karti un ar kartēm vislaik problēmas. Bet man vajag gan video (gan iespēju izslēgt uz laiku atsevišķi no GPS) gan GPS failu veselu, tāpēc es to visu daru atsevišķi. Plus man patīk izlabot GPS, lai nav tā ka visādos tuneļos un daudzdzīvokļu namu pagalmos GPS pa visām malām lido. Tā lai es uz ielas varētu atšķirt vai es braucu pa ietvi vai ceļu. Velosipēdam kamera pielikta priekšā \"zem\" stema līdzīgi <br>\n<a href=\"/user_uploads/49624/Ik45Ld-JaixxnjyhtHYOkIUj/199122-00-d-374321.jpg\">199122-00-d-374321.jpg</a> plus aizsargapvalks/stikliņš.</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/Ik45Ld-JaixxnjyhtHYOkIUj/199122-00-d-374321.jpg\" title=\"199122-00-d-374321.jpg\"><img src=\"/user_uploads/49624/Ik45Ld-JaixxnjyhtHYOkIUj/199122-00-d-374321.jpg\"></a></div>",
+        "id": 385740363,
+        "sender_full_name": "HellMap",
+        "timestamp": 1692301645
+    },
+    {
+        "content": "<p>Man ir vecāks GoPro uz stūres, uz augšu (lai bildes biš labākas). Wide angle, 0.5 sekunžu frekvence. Tādiem foto manāmi lielāka izšķirtspēja, nekā no video (derīgi iezūmot kaut kur veikala nosaukumam, adresei utt).<br>\nAgrāk liku no iekārtām, kurām pašām nav GPS, tad līmēju kopā ar GPX no Garmina - pa tiešo no GoPro daudz vienkāršāk.<br>\nŠis gan velk uz jaunu topiku :)</p>",
+        "id": 385742672,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1692302651
+    },
+    {
+        "content": "<p>Paldies par informāciju. Kā ar akumulatoru? Izskatās, ka vajag daudz powerbanku.</p>",
+        "id": 385742677,
+        "sender_full_name": "Antons J.",
+        "timestamp": 1692302652
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Kur.20lab.C4.81k.20s.C4.81kt/near/385700119\">said</a>:</p>\n<blockquote>\n<p>Tādi saiti kā <a href=\"https://tools.geofabrik.de/osmi/\">https://tools.geofabrik.de/osmi/</a> vai <a href=\"https://nominatim.org/qa\">https://nominatim.org/qa</a> ir daaaaaudz vairāk, ko labot. Vispār OSM ir bezgalīgi daudz sarakstu ar to, ko varētu darīt. Es gan ieteiktu iesākumam pazīmēt, ko pašam gribās, pirms maldīties pa projektu labirintiem. Tad varētu labāk novērtēt, kādā virzienā interese.</p>\n</blockquote>\n<p>Es laikam liktu šos trīs kā savu ieteikumu top, secība nav svarīga:</p>\n<p>a) Savu māju, lauku vai kādu citu reģionu vai sevi interesējošus datus;<br>\nb) Projektu idejas iepriekš pielinkotajā threadā - var gan kādā iesaistīties (zīmējot ēkas un piena galdus Latgalē vai pārbaudot visas vietējās kebabnīcas vai ATM utt), gan no tiem smelties idejas par to, ko vēl var zīmēt.<br>\nc) Aiziet uz kādu OSM pasākumu, tur var aprunāties un gūt iedvesmu :)</p>",
+        "id": 385743143,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1692302880
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"640966\">Antons J.</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Kur.20lab.C4.81k.20s.C4.81kt/near/385742677\">said</a>:</p>\n<blockquote>\n<p>Paldies par informāciju. Kā ar akumulatoru? Izskatās, ka vajag daudz powerbanku.</p>\n</blockquote>\n<p>O jā. Kā <span class=\"user-mention\" data-user-id=\"568802\">@i-ky</span> varbūt atceras, ar 10mAh tādai vienai pilnīgi pilnai dienai nemaz nepietika :)<br>\n20mAh līdz šim nav bijis par īsu vienai dienai.</p>",
+        "id": 385743371,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1692302997
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"640966\">Antons J.</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Kur.20lab.C4.81k.20s.C4.81kt/near/385742677\">said</a>:</p>\n<blockquote>\n<p>Paldies par informāciju. Kā ar akumulatoru? Izskatās, ka vajag daudz powerbanku.</p>\n</blockquote>\n<p>A jā, galīgi aizmirsu par to visu. Man 2 powerbanki - viens kamerai, viens mobilajam. Laikam 10000 mAh katrs (vismaz reklamētais skaitlis). Ar to pietiek kādām 8-9 stundām kamerai 4K video un mobilajam kādas 7-8 stundas vislaik ieslēgts ekrāns ar navigatoru.</p>",
+        "id": 385743806,
+        "sender_full_name": "HellMap",
+        "timestamp": 1692303143
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Kur.20lab.C4.81k.20s.C4.81kt/near/385742672\">said</a>:</p>\n<blockquote>\n<p>Tādiem foto manāmi lielāka izšķirtspēja, nekā no video (derīgi iezūmot kaut kur veikala nosaukumam, adresei utt).</p>\n</blockquote>\n<p>Jā, foto būs labāki par video, jo video ir noteikts bitrate (man uzlikts 30 FPS kā kompromiss, lai labāka kvalitāte bitratam). Es arī domāju taisīt timelapse/foto bet man ļoti gribējās video. Es arī pēc tam mājās no video bieži zīmēju un man no bildēm galīgi nepatīk. Bet nu tādas 8 stundas video is 300+ GB. ;)</p>",
+        "id": 385744472,
+        "sender_full_name": "HellMap",
+        "timestamp": 1692303407
+    },
+    {
+        "content": "<p>Man grūti sameklēt uzreiz piemēru, kur es un rich vienādos apstākļos vienu un to pašu nofilmējām, bet piemēram <br>\n<a href=\"/user_uploads/49624/1_YkFJc2ZuOBFDNfdS52skKq/hell.png\">hell.png</a><br>\n<a href=\"/user_uploads/49624/V7xo1R7iHeSZIjZfPtkVMVHq/rich.png\">rich.png</a><br>\nŅemot vidēji, atšķirība nav tik liela. Mazus štruntīgus uzrakstus tik un tā nevar izlasīt ne ar ko. Es to savā laikā ilgi testēju ar visām kombinācijām.</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/1_YkFJc2ZuOBFDNfdS52skKq/hell.png\" title=\"hell.png\"><img src=\"/user_uploads/49624/1_YkFJc2ZuOBFDNfdS52skKq/hell.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/V7xo1R7iHeSZIjZfPtkVMVHq/rich.png\" title=\"rich.png\"><img src=\"/user_uploads/49624/V7xo1R7iHeSZIjZfPtkVMVHq/rich.png\"></a></div>",
+        "id": 385745883,
+        "sender_full_name": "HellMap",
+        "timestamp": 1692303976
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"581217\">Liga Rutka</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Kur.20lab.C4.81k.20s.C4.81kt/near/385700107\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Kur.20lab.C4.81k.20s.C4.81kt/near/385697720\">said</a>:</p>\n<blockquote>\n<p>Ir <a href=\"https://osmlatvija.github.io/Osmalyzer/\">https://osmlatvija.github.io/Osmalyzer/</a>, tur var apskatīties sarakstus ar potenciāli labojamām lietām.</p>\n</blockquote>\n<p>Jā, Ļoti interesants saraksts, piekrītu :). Nezinu kā citiem iesācējiem, bet man uz šo apskatoties pilnīgi nekas nav skaidrs <span aria-label=\"face with peeking eye\" class=\"emoji emoji-1fae3\" role=\"img\" title=\"face with peeking eye\">:face_with_peeking_eye:</span> .</p>\n</blockquote>\n<p>Tur katram report'am vajag skatīties \"background story\" kaut kur šajā čatā. Var droši jautāt, ja kaut kas nav skaidrs.</p>",
+        "id": 385842014,
+        "sender_full_name": "i-ky",
+        "timestamp": 1692343152
+    }
+]

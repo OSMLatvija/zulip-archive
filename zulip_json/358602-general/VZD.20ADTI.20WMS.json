@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>4 messages were moved here from <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/channel/358602-general/topic/Rimi.20Ik.C5.A1.C4.B7il.C4.93/with/565214287\">#general &gt; Rimi Ikšķilē</a> by <span class=\"user-mention silent\" data-user-id=\"571929\">Dāvis Kļaviņš</span>.</p>",
+        "id": 565254318,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1766562784
+    },
+    {
+        "content": "<p>Ja izmanto JOSM, tad iestatījumos jāveic izmaiņas pāris vietās, lai attēlotu visu pieejamo informāciju:<br>\nImagery → Settings → TMS Settings → Max. zoom level jānomaina uz 22,<br>\nColors → background jānomaina uz #FFFFFF (ātrais risinājums, kas atkal padarīs neredzamus tos OSM objektus, kas iestatījumos tiek attēloti baltā krāsā, attiecīgi krāsa būtu jāmaina arī tiem; iespējams, ka pastāv jau citu izveidotas krāsu shēmas, kad nepieciešams gaišs fons).</p>",
+        "id": 565254740,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1766563119
+    }
+]
