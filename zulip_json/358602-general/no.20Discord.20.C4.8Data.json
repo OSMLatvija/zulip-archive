@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Pārsūtu no Discord čata:</p>\n<blockquote>\n<p><strong>m1raz</strong> 05/08/2023 11:35 PM<br>\nČau, vai šajā changesetā viss ok? <a href=\"https://www.openstreetmap.org/changeset/135868571#map=19/56.95385/24.11779&amp;layers=N\">https://www.openstreetmap.org/changeset/135868571#map=19/56.95385/24.11779&amp;layers=N</a></p>\n</blockquote>",
+        "id": 365496929,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686562375
+    },
+    {
+        "content": "<p>Ļoti abstrakti - vai kaut kas šķiet ne-OK, vai arī to jautā changeset autors?</p>",
+        "id": 365500036,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1686563087
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/no.20Discord.20.C4.8Data/near/365500036\">said</a>:</p>\n<blockquote>\n<p>Ļoti abstrakti - vai kaut kas šķiet ne-OK, vai arī to jautā changeset autors?</p>\n</blockquote>\n<p>Izskatās, ka autors.</p>",
+        "id": 365500615,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686563210
+    },
+    {
+        "content": "<p>Es šito changesetu redzēju - tur jauns crossings, kas nebija uz ortofoto - es viņu jau tad pielaboju</p>",
+        "id": 365501106,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686563310
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/no.20Discord.20.C4.8Data/near/365500615\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/no.20Discord.20.C4.8Data/near/365500036\">said</a>:</p>\n<blockquote>\n<p>Ļoti abstrakti - vai kaut kas šķiet ne-OK, vai arī to jautā changeset autors?</p>\n</blockquote>\n<p>Izskatās, ka autors.</p>\n</blockquote>\n<p>Ta jau autoram var iedot linku un šo tēmu un pateikt, ka kaut ko nedaudz jau pirms kāda laika pielaboja :)</p>",
+        "id": 365501781,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1686563482
+    }
+]
