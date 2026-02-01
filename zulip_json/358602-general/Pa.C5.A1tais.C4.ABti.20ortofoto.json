@@ -1,0 +1,116 @@
+[
+    {
+        "content": "<p>Kā jau tika minēts <a href=\"https://mastodon.social/@richlv/111901437880994175\">(slepenajā) Mastodon</a>, es izveidoju ortofoto no drona bildēm. <a href=\"https://map.openaerialmap.org/#/24.8895263671875,57.10641902897248,8/user/62b4b9b4daddb8000523e90e?_k=drg1sq\">Publicēti OpenAerialMap</a>. Var pievienot visus OpenAerialMap ortofoto savai mīļākajai rediģēšanas programmai ar <a href=\"https://apps.kontur.io/raster-tiler/oam/mosaic/%7Bzoom%7D/%7Bx%7D/%7By%7D.png\">TMS</a> (JOSM jau ir).</p>\n<div class=\"message_inline_image\"><a href=\"https://apps.kontur.io/raster-tiler/oam/mosaic/%7Bzoom%7D/%7Bx%7D/%7By%7D.png\" title=\"TMS\"><img src=\"https://uploads.zulipusercontent.net/7a23c991bfba81998d329b4c86bc8d31d763c540/68747470733a2f2f617070732e6b6f6e7475722e696f2f7261737465722d74696c65722f6f616d2f6d6f736169632f2537427a6f6f6d2537442f253742782537442f253742792537442e706e67\"></a></div><p>Nepareizu kameras iestatījumu dēļ gan vietās, it īpaši, gar mājas malām, kā arī ap ortofoto malām ir visādi artefakti, tiem var nepievērst uzmanību. :D</p>\n<p>#reklama</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://map.openaerialmap.org/#/24.8895263671875,57.10641902897248,8/user/62b4b9b4daddb8000523e90e?_k=drg1sq\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/a6818923d8af8b83951d506d0da6b5f562e4b8c6\\/68747470733a2f2f6d61702e6f70656e61657269616c6d61702e6f72672f64656661756c742d6d6574612d696d6167652e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://map.openaerialmap.org/#/24.8895263671875,57.10641902897248,8/user/62b4b9b4daddb8000523e90e?_k=drg1sq\" title=\"OpenAerialMap\">OpenAerialMap</a></div><div class=\"message_embed_description\">Browse the open collection of aerial imagery.</div></div></div>",
+        "id": 421435686,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1707914240
+    },
+    {
+        "content": "<p><span aria-label=\"fire\" class=\"emoji emoji-1f525\" role=\"img\" title=\"fire\">:fire:</span> Kaut kad skatījos OAM un mums nebija gandrīz nekā, bet tas bija se-e-e-e-e-en.</p>",
+        "id": 421436770,
+        "sender_full_name": "HellMap",
+        "timestamp": 1707914659
+    },
+    {
+        "content": "<p>Šis ir superīgi - un tie ir salīdzinoši riktīgi svaigi :)<br>\nVarbūt kaut kad vasarā jātaisa workshops, kurā var demonstrēt visu procesu, arī pastāstot, kas tur nebija pareizi ar kameru :)</p>",
+        "id": 421437346,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1707914869
+    },
+    {
+        "content": "<p>Tad tikai vajag dronus dabūt ^^</p>",
+        "id": 421437711,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1707914990
+    },
+    {
+        "content": "<p>Jā, interesanti, cik tas process čakarīgs. Teiksim, cik man papildus darba būtu, ja es būtu mugursomā dronu paņēmis un kaut kur izlaidis <del>pastaigāties</del> palidoties. Cik pēc tam mājā darba?</p>",
+        "id": 421437985,
+        "sender_full_name": "HellMap",
+        "timestamp": 1707915085
+    },
+    {
+        "content": "<p>Atkarīgs kādu programmatūru tu vēlies izmantot, ir visādas nebrīvas un maksas, kas visu izdari automātiski, tad tikai jāaugšupielādē. Taču es izmantoju WebODM, ja nevēlas maksāt par kāda cita serveri, tad arī jāmāk uzstādīt uz sava datora, bet ja ir kādas Docker zināšanas, tad viss itkā vienkārši. Pats grūtākais man bija noregulēt apstrādāšanas iestatījumus, tur ir diezgan daudz parametri, ar kuriem nepieciešams paspēlēties un skatīties, kas izveido labāko ortofoto.</p>",
+        "id": 421438887,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1707915402
+    },
+    {
+        "content": "<p>Ehhh, žēl, ka man 2024. gada budžets jau iztērēts jaunam mobilajam un <del>telefonam</del> gopro Mapillary taisīšanai <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>",
+        "id": 421440068,
+        "sender_full_name": "HellMap",
+        "timestamp": 1707915744
+    },
+    {
+        "content": "<p>Pirmo reizi pakartēju no drona bildēm <a href=\"https://www.openstreetmap.org/changeset/147450408\">https://www.openstreetmap.org/changeset/147450408</a> Nedrīkst tā daudz darīt, citādi vairs no ortofoto negribēsies kartēt <span aria-label=\"melting face\" class=\"emoji emoji-1fae0\" role=\"img\" title=\"melting face\">:melting_face:</span></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/changeset/147450408\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/changeset/147450408\" title=\"Changeset: 147450408 | OpenStreetMap\">Changeset: 147450408 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 421440747,
+        "sender_full_name": "HellMap",
+        "timestamp": 1707915968
+    },
+    {
+        "content": "<p>Es varu piedāvāt arī Iļģuciema 3d modeli, taču vēl nesanāca atvērt ārpus WebODM lapas, varbūt kaut kā ar QGIS? </p>\n<p><a href=\"https://webodm.em.id.lv/public/task/ee37b638-59bf-4c0e-9bbf-cf765bac9f4f/3d/\">https://webodm.em.id.lv/public/task/ee37b638-59bf-4c0e-9bbf-cf765bac9f4f/3d/</a></p>\n<p>Stūrī ir arī opcija lejupielādēt</p>",
+        "id": 421443452,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1707916893
+    },
+    {
+        "content": "<p>Tikko pamanīju, ka <a href=\"https://map.openaerialmap.org/#/24.06320214271545,56.963976573310006,16/square/120122210223312/65b3d48e71b11e0001cea9a1?_k=uatbvv\">Iļģuciems</a> nerādas kopīgajā <a href=\"http://Kontur.io\">Kontur.io</a> slānī<span aria-label=\"thinking\" class=\"emoji emoji-1f914\" role=\"img\" title=\"thinking\">:thinking:</span></p>\n<p>Var pievienot atsevišķi ar <a href=\"https://tiles.openaerialmap.org/65b3d18471b11e0001cea99f/0/65b3d18471b11e0001cea9a0/%7Bz%7D/%7Bx%7D/%7By%7D\">TMS</a> vai <a href=\"https://tiles.openaerialmap.org/65b3d18471b11e0001cea99f/0/65b3d18471b11e0001cea9a0/wmts\">WMTS</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://map.openaerialmap.org/#/24.06320214271545,56.963976573310006,16/square/120122210223312/65b3d48e71b11e0001cea9a1?_k=uatbvv\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/a6818923d8af8b83951d506d0da6b5f562e4b8c6\\/68747470733a2f2f6d61702e6f70656e61657269616c6d61702e6f72672f64656661756c742d6d6574612d696d6167652e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://map.openaerialmap.org/#/24.06320214271545,56.963976573310006,16/square/120122210223312/65b3d48e71b11e0001cea9a1?_k=uatbvv\" title=\"OpenAerialMap\">OpenAerialMap</a></div><div class=\"message_embed_description\">Browse the open collection of aerial imagery.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"http://Kontur.io\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/906ace021bb12770735e79b690d1f8988013483b\\/68747470733a2f2f7777772e6b6f6e7475722e696f2f77702d636f6e74656e742f75706c6f6164732f323032332f30382f4672616d652d34312e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"http://Kontur.io\" title=\"Geospatial solutions for rapid decision-making - Kontur Inc.\">Geospatial solutions for rapid decision-making - Kontur Inc.</a></div><div class=\"message_embed_description\">Location data and real-time risk management for business, government and humanitarian organizations</div></div></div>",
+        "id": 421461431,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1707922286
+    },
+    {
+        "content": "<p>Es pat nebiju pamanījis, kurā brīdī iD vispār parādījās \"OpenAerialMap Mosaic, by <a href=\"http://Kontur.io\">Kontur.io</a>\" slānis sarakstā, man liekas agrāk nebija</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"http://Kontur.io\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/906ace021bb12770735e79b690d1f8988013483b\\/68747470733a2f2f7777772e6b6f6e7475722e696f2f77702d636f6e74656e742f75706c6f6164732f323032332f30382f4672616d652d34312e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"http://Kontur.io\" title=\"Geospatial solutions for rapid decision-making - Kontur Inc.\">Geospatial solutions for rapid decision-making - Kontur Inc.</a></div><div class=\"message_embed_description\">Location data and real-time risk management for business, government and humanitarian organizations</div></div></div>",
+        "id": 422215724,
+        "sender_full_name": "HellMap",
+        "timestamp": 1708342964
+    },
+    {
+        "content": "<p>BTW, ar kādu dronu/kameru šie veidoti?<br>\nJa tagad meklētu kādu dronu šādai vajadzībai, kāds/kurš būtu vislabākais?</p>",
+        "id": 422397427,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1708428394
+    },
+    {
+        "content": "<p>Mazsalaca ir uzņemta ar DJI Mini 3 Pro (kamera - FC3582)  <br>\nRīga ar DJI Air 3 (kamera - FC8282)</p>\n<p>Taču šiem droniem, cik es atceros, nebija labas, bezmaksas <em>mission planner</em> funkcijas, tāpēc uzlikt, lai drons automātiski nolido, bija sarežģiti.</p>",
+        "id": 422399247,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1708429152
+    },
+    {
+        "content": "<p>Par labāko es nezinu, atkarīgs no tā, cik vēlas maksāt, bet, man šķiet, ka jebkurš DJI drons ir pietiekams, lai izveidotu ortofoto</p>",
+        "id": 422404163,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1708431104
+    },
+    {
+        "content": "<p>Ja Tu skatītos \"ar šo ir ērti\" (tātad laikam arī iekļaujot \"mission planner\"), no kāda cenu līmeņa apmēram tādi droni sākas?<br>\nVai tam izmanto ko tādu kā QGroundControl/Ardupilot/PX4?</p>",
+        "id": 422413785,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1708434584
+    },
+    {
+        "content": "<blockquote>\n<p>QGroundControl/Ardupilot/PX4</p>\n</blockquote>\n<p>Šie jau vairāk būs paštaisītiem droniem, tie nestrādā ar parastajiem. Ja ir pietiekama vēlme, tad, manuprāt, DIY drons pat varētu būt labāka izvēle.</p>\n<p>Bet, cik es zinu, tad šajā profesijā parasti izmanto DroneDeploy, Pix4DMapper u.c. ar tiem pašiem DJI droniem. Vienīgi, tās ir abonomenta programmas, kas maksā vairākus simtus mēnesī. :/</p>\n<p>Abos gadījumos drona cena būs kā minimums pāris simti, ja ne pat ap tūkstoti.</p>",
+        "id": 422421998,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1708437197
+    },
+    {
+        "content": "<p>Hmm, kā ar wrapperiem, piem., <a href=\"https://github.com/RosettaDrone/rosettadrone\">https://github.com/RosettaDrone/rosettadrone</a> ?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/RosettaDrone/rosettadrone\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/ca27abd5b69eba973e8f4d309bb4f6cdbc5639dd\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f663637343738613833623738346539303163633030363932343533306234393332613836323934333363333764383264653338386336316231343139396438622f526f736574746144726f6e652f726f736574746164726f6e65)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/RosettaDrone/rosettadrone\" title=\"GitHub - RosettaDrone/rosettadrone: MAVlink and H.264 Video for DJI drones\">GitHub - RosettaDrone/rosettadrone: MAVlink and H.264 Video for DJI drones</a></div><div class=\"message_embed_description\">MAVlink and H.264 Video for DJI drones. Contribute to RosettaDrone/rosettadrone development by creating an account on GitHub.</div></div></div>",
+        "id": 422437312,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1708441659
+    },
+    {
+        "content": "<p>Šodien redzēju netālu no Mežaparka militāro policiju uz pārrunām ar kādu, kas kaut kādu mazo dronu lidināja laikam kaut kā ne tā vai pa augstu. Izskatās, ka viņiem laikam ir kaut kādas sistēmas/radari, kas tos var pat šitā sameklēt precīzi.</p>",
+        "id": 539420342,
+        "sender_full_name": "HellMap",
+        "timestamp": 1757867776
+    },
+    {
+        "content": "<p>Netālu no Mežaparka gan jau ka arī tuvu LA objektiem. Tur gan jau ka kompāniju var ātri dabūt :)</p>",
+        "id": 540437324,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1758283060
+    }
+]

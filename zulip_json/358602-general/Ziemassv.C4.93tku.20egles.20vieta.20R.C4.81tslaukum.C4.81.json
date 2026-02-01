@@ -1,0 +1,116 @@
+[
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"581217\">Līga Rutka</span> <a href=\"#narrow/stream/360540-pas.C4.81kumi/topic/pas.C4.81kumu.20pl.C4.81no.C5.A1ana/near/401422935\">said</a>:</p>\n<blockquote>\n<p>Nu vismaz varētu ielikt Rātslaukumā to senākās z-svētku egles vietu. Skatos kartē nav :).</p>\n</blockquote>\n<p>Vai tik tas nav šis?<br>\n<a href=\"https://www.openstreetmap.org/node/10015533430\">https://www.openstreetmap.org/node/10015533430</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/10015533430\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/10015533430\" title=\"Node: 10015533430 | OpenStreetMap\">Node: 10015533430 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 401441500,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1699653411
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/360540-pas.C4.81kumi/topic/pas.C4.81kumu.20pl.C4.81no.C5.A1ana/near/401441500\">said</a>:</p>\n<blockquote>\n<p>Vai tik tas nav šis?<br>\n<a href=\"https://www.openstreetmap.org/node/10015533430\">https://www.openstreetmap.org/node/10015533430</a></p>\n</blockquote>\n<p>Es arī skatījos uz šo :), vieta it kā diezgan tuvu, bet, pēc manas saprašanas, tā noteikti nav \"<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amemorial%3Dstatue\">memorial=statue</a>\", tā ir tikai plāksne:<br>\n<a href=\"https://www.mapillary.com/app/?lat=56.9473841&amp;lng=24.106597499972&amp;z=17&amp;pKey=854428525759946&amp;focus=photo&amp;x=0.45616423951727186&amp;y=0.5369039442998781&amp;zoom=1.2074642914186848\">https://www.mapillary.com/app/?lat=56.9473841&amp;lng=24.106597499972&amp;z=17&amp;pKey=854428525759946&amp;focus=photo&amp;x=0.45616423951727186&amp;y=0.5369039442998781&amp;zoom=1.2074642914186848</a> - tā, kas aiz akas uz Okupācijas muzeja pusi. <br>\nKas šķiet būtu piemērots apzīmējums?</p>",
+        "id": 401491469,
+        "sender_full_name": "Līga Rutka",
+        "timestamp": 1699690617
+    },
+    {
+        "content": "<p><a href=\"#narrow/stream/358602-general/topic/Ziemassv.C4.93tku.20egles.20vieta.20R.C4.81tslaukum.C4.81/near/401422935\">A message</a> was moved here from <a class=\"stream-topic\" data-stream-id=\"360540\" href=\"/#narrow/stream/360540-pas.C4.81kumi/topic/pas.C4.81kumu.20pl.C4.81no.C5.A1ana\">#pasākumi &gt; pasākumu plānošana</a> by <span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span>.</p>",
+        "id": 401517513,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1699715025
+    },
+    {
+        "content": "<p>Taisnība, iezīmēta ir šī, kas acīmredzot bija pagaidu.<br>\n<a href=\"https://www.mapillary.com/app/?pKey=573933193969193\">https://www.mapillary.com/app/?pKey=573933193969193</a><br>\nAtliek nomainīt tipu un varbūt pielikt papildinfo.</p>",
+        "id": 401517709,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1699715187
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Ziemassv.C4.93tku.20egles.20vieta.20R.C4.81tslaukum.C4.81/near/401517709\">said</a>:</p>\n<blockquote>\n<p>Taisnība, iezīmēta ir šī, kas acīmredzot bija pagaidu.<br>\n<a href=\"https://www.mapillary.com/app/?pKey=573933193969193\">https://www.mapillary.com/app/?pKey=573933193969193</a><br>\nAtliek nomainīt tipu un varbūt pielikt papildinfo.</p>\n</blockquote>\n<p>Nu jā, bet tā īsti jau arī nevar saprast, kas būtu atbilstošākais tips: <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amemorial%3Dplaque\">memorial=plaque</a>? Un tad papildus <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Axmas%3Afeature%3Dtree\">xmas:feature=tree</a>?</p>",
+        "id": 401633406,
+        "sender_full_name": "Līga Rutka",
+        "timestamp": 1699815475
+    },
+    {
+        "content": "<p>Vai tā egle tiek novietota tieši uz tās plāksnes?</p>",
+        "id": 401633584,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699815643
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Ziemassv.C4.93tku.20egles.20vieta.20R.C4.81tslaukum.C4.81/near/401633584\">said</a>:</p>\n<blockquote>\n<p>Vai tā egle tiek novietota tieši uz tās plāksnes?</p>\n</blockquote>\n<p>Es tā saprotu, bet pati neesmu bijusi aculieciniece: <a href=\"https://www.liveriga.com/lv/3232-ratslaukums\">https://www.liveriga.com/lv/3232-ratslaukums</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.liveriga.com/lv/3232-ratslaukums\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/db9801629fb48c8409434dfdbdcf68b4fad4b63f\\/68747470733a2f2f7777772e6c697665726967612e636f6d2f7573657266696c65732f696d616765732f61706d656b6c652f6b6f2d7265647a65742f6170736b617465732d7669657461732f70696c73657461732d6c61756b756d692f726174736c61756b756d732f726174736c61756b756d735f7a69656d61735f76616b6172612e6a7067)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.liveriga.com/lv/3232-ratslaukums\" title=\"\n                    Rātslaukums | LiveRiga            \">\n                    Rātslaukums | LiveRiga            </a></div><div class=\"message_embed_description\">Rātslaukums. Rīga ir lielisks galamērķis ikvienam. Biznesa iespējas, mākslas galerijas, muzeji, pārgājieni un daudz kas cits, ko atradīsiet Rīgā!</div></div></div>",
+        "id": 401634011,
+        "sender_full_name": "Līga Rutka",
+        "timestamp": 1699815946
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/tSASfGakCRXfujZO1MHNs6AP/image.png\">image.png</a><br>\nOtraja bildē gan nav...</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/tSASfGakCRXfujZO1MHNs6AP/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/tSASfGakCRXfujZO1MHNs6AP/image.png\"></a></div>",
+        "id": 401634194,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699816180
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"581217\">Līga Rutka</span> <a href=\"#narrow/stream/358602-general/topic/Ziemassv.C4.93tku.20egles.20vieta.20R.C4.81tslaukum.C4.81/near/401633406\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Ziemassv.C4.93tku.20egles.20vieta.20R.C4.81tslaukum.C4.81/near/401517709\">said</a>:</p>\n<blockquote>\n<p>Taisnība, iezīmēta ir šī, kas acīmredzot bija pagaidu.<br>\n<a href=\"https://www.mapillary.com/app/?pKey=573933193969193\">https://www.mapillary.com/app/?pKey=573933193969193</a><br>\nAtliek nomainīt tipu un varbūt pielikt papildinfo.</p>\n</blockquote>\n<p>Nu jā, bet tā īsti jau arī nevar saprast, kas būtu atbilstošākais tips: <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amemorial%3Dplaque\">memorial=plaque</a>? Un tad papildus <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Axmas%3Afeature%3Dtree\">xmas:feature=tree</a>?</p>\n</blockquote>\n<p>Laikam plaque, jā.<br>\nEgli es laikam liktu kā atsevišķu punktu, lai nejūk - un arī tiem gadījumiem, kad egli uzliek citur.</p>",
+        "id": 401636747,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1699819309
+    },
+    {
+        "content": "<p>Runājot par Ziemassvētku tirdziņiem un eglēm, mums laikam šis tas palicis no iepriekšējiem gadiem :)<br>\n<a href=\"https://greymiche.lima-city.de/xmas/\">https://greymiche.lima-city.de/xmas/</a><br>\n<a href=\"/user_uploads/49624/4NiKr3bbh9EInh4JVO_Ovcc1/image.png\">xmas</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/4NiKr3bbh9EInh4JVO_Ovcc1/image.png\" title=\"xmas\"><img src=\"/user_uploads/49624/4NiKr3bbh9EInh4JVO_Ovcc1/image.png\"></a></div>",
+        "id": 404823136,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1701250727
+    },
+    {
+        "content": "<p>Jā, tās egles es saliku. Bet viņas tur katru gadu, cik es atceros.</p>",
+        "id": 404823211,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701250760
+    },
+    {
+        "content": "<p>Ja tās krūzes ir tie Ziemassvētku tirgi, tad tie laikam teorētiski arī katru gadu laukumos (Rātslaukms?)</p>",
+        "id": 404823293,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701250799
+    },
+    {
+        "content": "<p>Y, tie ir tirgi. Kad apmēram liek tās egles?</p>",
+        "id": 404823384,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1701250822
+    },
+    {
+        "content": "<p>Tu neticēsi - ap Ziemassvētkiem <span aria-label=\"star struck\" class=\"emoji emoji-1f929\" role=\"img\" title=\"star struck\">:star_struck:</span></p>",
+        "id": 404823496,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701250863
+    },
+    {
+        "content": "<p>Nu tik precīzi es nepateikšu - kaut kad dažas nedēļas ap to visu laiku.</p>",
+        "id": 404823562,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701250893
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/woxGmf5IdfDs9oZ_aA7J3Y_b/alfa.jpg\">alfa.jpg</a><br>\n<a href=\"/user_uploads/49624/Rn87fIjlKXUVAoNThNXa-Qdk/jugla.jpg\">jugla.jpg</a><br>\nAbas egles šogad tur pat. rich jau gribēja izdzēst visu, bet izdevās izglābt <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/woxGmf5IdfDs9oZ_aA7J3Y_b/alfa.jpg\" title=\"alfa.jpg\"><img src=\"/user_uploads/49624/woxGmf5IdfDs9oZ_aA7J3Y_b/alfa.jpg\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/Rn87fIjlKXUVAoNThNXa-Qdk/jugla.jpg\" title=\"jugla.jpg\"><img src=\"/user_uploads/49624/Rn87fIjlKXUVAoNThNXa-Qdk/jugla.jpg\"></a></div>",
+        "id": 409014245,
+        "sender_full_name": "HellMap",
+        "timestamp": 1703019053
+    },
+    {
+        "content": "<p>VIŅA TUR ATKAL IR<br>\nVai vismaz bija pirms nedēļas :)<br>\n<a href=\"/user_uploads/49624/jF6PgtoMKYjcySJKNVKq9uzO/image.png\">egles skulptūra</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/jF6PgtoMKYjcySJKNVKq9uzO/image.png\" title=\"egles skulptūra\"><img src=\"/user_uploads/49624/jF6PgtoMKYjcySJKNVKq9uzO/image.png\"></a></div>",
+        "id": 425391833,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1709844347
+    },
+    {
+        "content": "<p>Ā ups, aizmirsu nobraukt tur decembrī. Drošvien var likt artwork sculpture tur pa virsu.</p>",
+        "id": 425393147,
+        "sender_full_name": "HellMap",
+        "timestamp": 1709844820
+    },
+    {
+        "content": "<p>Tik nez, cik ilgi.</p>",
+        "id": 425399115,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1709847324
+    }
+]
