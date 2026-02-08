@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>Labojot <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/dubultie.20nosaukumi.20up.C4.93m\">#general &gt; dubultie nosaukumi upēm</a> pamanīju, ka dažiem ir pielikts <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afoot%3Dimpassable\">foot=impassable</a>:</p>\n<div class=\"codehilite\" data-code-language=\"overpass\"><pre><span></span><code>[out:json][timeout:50];\n{{geocodeArea:Latvia}}-&gt;.searchArea;\nnwr[foot=impassable](area.searchArea);\nout geom;\n</code></pre></div>\n<p>Es aptuveni saprotu, kas ir domāts, bet tāda izmantošana nav dokumentēta.</p>",
+        "id": 323295317,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674577319
+    },
+    {
+        "content": "<p>Nu doma skaidra, jā. Agrāk arī redzēju šitos saliktus. Tā kā tas ne ar ko nekonfliktē un neko nepareizu nerada, tad es teiktu, ka <a href=\"https://wiki.openstreetmap.org/wiki/Any_tags_you_like\">https://wiki.openstreetmap.org/wiki/Any_tags_you_like</a>.</p>",
+        "id": 323299426,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674578337
+    }
+]
