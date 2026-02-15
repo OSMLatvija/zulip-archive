@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>Sveiki! Šeit ir iespēja, lai veidot misijas priekš datu validācijas izmantojot Mapillary bildes. <span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span><br>\n<a href=\"https://pic4review.pavie.info/#/\">https://pic4review.pavie.info/#/</a></p>",
+        "id": 479945915,
+        "sender_full_name": "Aldis_Ceroklis",
+        "timestamp": 1730402601
+    },
+    {
+        "content": "<p>Varbūt ir kāda ideja Latvijai? :)</p>",
+        "id": 479948153,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1730403501
+    },
+    {
+        "content": "<p>Uj, kā minēju <a class=\"stream-topic\" data-stream-id=\"394092\" href=\"/#narrow/channel/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Mapillary.20to.20OSM.20programma\">#programmēšanas pulciņš &gt; Mapillary to OSM programma</a> man personīgi bija simtiem ideju... Es, kad skatījos Pic4Review, man tur trūka iespējas. Es gribēju aplikāciju pats uztaisīt, kas vilktu bildes un rādītu ortofoto un gps un galvenais ātru OSM rediģēšanu konkrētām lietām un vispār visu ko, lai var ātri \"misijas\" pildīt. Bet tas baigais darbs... Bet tās tūkstošiem bilžu arī gribētos izmantot, jo daudz info un maz kartēts.</p>",
+        "id": 479948970,
+        "sender_full_name": "HellMap",
+        "timestamp": 1730403871
+    },
+    {
+        "content": "<p>No galvenajām idejām - gājēju pāreju lietošanas informācija - luksofori, poga,  apmales, taktīlais, u.c.</p>",
+        "id": 479949049,
+        "sender_full_name": "HellMap",
+        "timestamp": 1730403917
+    },
+    {
+        "content": "<p>Tad ceļu posmu segums un track'iem grade - manuāli baigais čakars meklēt, kur katrs ceļš bet seguma un kāds katrā posmā segums. Bet tas nav vienkārši - jo vajag bildes pa visu posmu un neviens esošais kā P4R to nedara.</p>",
+        "id": 479949280,
+        "sender_full_name": "HellMap",
+        "timestamp": 1730404020
+    },
+    {
+        "content": "<p>Fantazēt tad var ļoti daudz - ēku veidi, ēku stāvi, stāvvietu ierobežojumi, segumi, kvalitāte, barjeru veidi, fordu/braslu pārbaude, velo novietņu veidi, utt. Mikrokartēšanai ir ļoti daudz iespēju. Principā gandrīz viss, ko <a href=\"https://streetcomplete.app/\">SC</a> piedāvā - var arī no Mapillary ņemt.</p>",
+        "id": 479949562,
+        "sender_full_name": "HellMap",
+        "timestamp": 1730404182
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/channel/358602-general/topic/par.20datu.20valid.C4.81ciju.20pic4review/near/479948153\">писал/а</a>:</p>\n<blockquote>\n<p>Varbūt ir kāda ideja Latvijai? :)</p>\n</blockquote>\n<p>Biju klonējis CCTV kameru misiju..., bet Latvijā ir aktuāla problēma gājēju ceļa seguma tips manuprāt ...piemērs  <span aria-label=\"working on it\" class=\"emoji emoji-1f6e0\" role=\"img\" title=\"working on it\">:working_on_it:</span> <br>\n<a href=\"https://pic4review.pavie.info/#/mission/2712/summary\">https://pic4review.pavie.info/#/mission/2712/summary</a></p>",
+        "id": 479950873,
+        "sender_full_name": "Aldis_Ceroklis",
+        "timestamp": 1730404781
+    }
+]
