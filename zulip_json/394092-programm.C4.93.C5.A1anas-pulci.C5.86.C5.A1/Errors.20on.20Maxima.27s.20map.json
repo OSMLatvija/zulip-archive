@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>I decided to poke Maxima about errors on their site (stores in Aizpute and Lielvārde in random places, duplication of the store on Deglava)<br>\nJust am curious if they will react at all.<br>\nWill report here how or if they will react</p>",
+        "id": 574822007,
+        "sender_full_name": "markalex",
+        "timestamp": 1771535244
+    },
+    {
+        "content": "<p>It seems those errors are on their shop map (not just some API/scraping), so they might reply/fix</p>",
+        "id": 574835432,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771541052
+    },
+    {
+        "content": "<p>I also realize Osmalyzer doesn't detect duplicates in source data; these could probably be auto-detected and reported separately... may be. Not sure if this is more helpful because it's already on map, just a little confusing first time you see.</p>",
+        "id": 574835548,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771541122
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/gZcbiHsIWrGvPIt3kgaB5tNs/image.png\">image.png</a><br>\n<a href=\"/user_uploads/49624/63tOSqsP6K1M-OW-Z8IerT9L/image.png\">image.png</a><br>\nAlso holy heck the difference between OSM and GMaps</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/gZcbiHsIWrGvPIt3kgaB5tNs/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"820x588\" src=\"/user_uploads/thumbnail/49624/gZcbiHsIWrGvPIt3kgaB5tNs/image.png/840x560.webp\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/63tOSqsP6K1M-OW-Z8IerT9L/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"454x285\" src=\"/user_uploads/thumbnail/49624/63tOSqsP6K1M-OW-Z8IerT9L/image.png/840x560.webp\"></a></div>",
+        "id": 574835681,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771541197
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Errors.20on.20Maxima's.20map/near/574835432\">said</a>:</p>\n<blockquote>\n<p>It seems those errors are on their shop map (not just some API/scraping), so they might reply/fix</p>\n</blockquote>\n<p>Yes, this is completely on their side. That's why decided to poke them.<br>\nThey might, or they might completely ignore me. I'm curious to find out which one will happen =)</p>",
+        "id": 574836020,
+        "sender_full_name": "markalex",
+        "timestamp": 1771541376
+    },
+    {
+        "content": "<p>I don't think detecting duplicates makes sense in broader sense. For other analysers this might be more problems, than help.</p>",
+        "id": 574836197,
+        "sender_full_name": "markalex",
+        "timestamp": 1771541458
+    },
+    {
+        "content": "<p>And yeah, I don't know for whom gmaps are made, but those are definitely not humans.</p>",
+        "id": 574836307,
+        "sender_full_name": "markalex",
+        "timestamp": 1771541522
+    },
+    {
+        "content": "<p>I got response this morning:<br>\n\"Paldies par Jūsu sniegto informāciju.\"<br>\nThat's all.<br>\nLet's see if they will act on it :)</p>",
+        "id": 574890474,
+        "sender_full_name": "markalex",
+        "timestamp": 1771577204
+    }
+]
