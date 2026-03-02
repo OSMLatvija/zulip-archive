@@ -1,0 +1,157 @@
+<html>
+<head><meta charset="utf-8"><title>Latvija Pasts data · programmēšanas pulciņš · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/index.html">programmēšanas pulciņš</a></h2>
+<h3>Topic: <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Latvija.20Pasts.20data.html">Latvija Pasts data</a></h3>
+
+<hr>
+
+<base href="https://osmlatvija.zulipchat.com">
+
+<head><link href="https://osmlatvija.github.io/zulip-archive/style.css" rel="stylesheet"></head>
+
+<a name="574902154"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Latvija%20Pasts%20data/near/574902154" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Latvija.20Pasts.20data.html#574902154">(Feb 20 2026 at 09:52)</a>:</h4>
+<p>So, let me put here info I found and some progress, because I'm not sure I'll be able to act on it.</p>
+<h3>URL</h3>
+<p><code>https://mans.pasts.lv/api/public/addresses/service_location?type[]=6&amp;type[]=1&amp;type[]=2&amp;country[]=LV&amp;search=&amp;itemsPerPage=10000&amp;page=1</code> is "curlable", so we can fetch and use this data.<br>
+Without filtration data also has locations at LT and EE, but filtration by countries can be done in the URL (already in the example url above)</p>
+<h3>Types</h3>
+<p>7 - UniSend<br>
+6 - Latvija Pasts parcel locker<br>
+2 - post box<br>
+1 - post office<br>
+Don't know (didn't look) what 3-5 mean or if they exist.</p>
+<h3>Data</h3>
+<p>Example of data</p>
+<div class="codehilite" data-code-language="JSON"><pre><span></span><code><span class="w">    </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/api/addresses/service_location/3122"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ServiceLocation"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"3122"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"countryCode"</span><span class="p">:</span><span class="w"> </span><span class="s2">"LV"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"postCode"</span><span class="p">:</span><span class="w"> </span><span class="s2">"LV-1055"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"readableAddress"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Cementa iela 12, Rīga, LV-1055"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"label"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Iļģuciema pasta nodaļa"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"latitude"</span><span class="p">:</span><span class="w"> </span><span class="mf">56.969091258159</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"longitude"</span><span class="p">:</span><span class="w"> </span><span class="mf">24.061597193063</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"workingHours"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">"@type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"WorkingHours"</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"monday"</span><span class="p">:</span><span class="w"> </span><span class="s2">"09:00-18:00"</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"tuesday"</span><span class="p">:</span><span class="w"> </span><span class="s2">"09:00-18:00"</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"wednesday"</span><span class="p">:</span><span class="w"> </span><span class="s2">"09:00-18:00"</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"thursday"</span><span class="p">:</span><span class="w"> </span><span class="s2">"09:00-18:00"</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"friday"</span><span class="p">:</span><span class="w"> </span><span class="s2">"09:00-18:00"</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"saturday"</span><span class="p">:</span><span class="w"> </span><span class="s2">"-"</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"sunday"</span><span class="p">:</span><span class="w"> </span><span class="s2">"-"</span>
+<span class="w">      </span><span class="p">},</span>
+<span class="w">      </span><span class="nt">"workingHoursCombined"</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span>
+<span class="w">      </span><span class="nt">"outside"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"status"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"info"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"locationPostCode"</span><span class="p">:</span><span class="w"> </span><span class="s2">"LV-1055"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"officeFcd"</span><span class="p">:</span><span class="w"> </span><span class="s2">"LV1055"</span>
+<span class="w">    </span><span class="p">}</span>
+</code></pre></div>
+
+
+
+<a name="574902341"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Latvija%20Pasts%20data/near/574902341" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Latvija.20Pasts.20data.html#574902341">(Feb 20 2026 at 09:53)</a>:</h4>
+<p>I guess everything what was implemented in Osmalyzer before can be updated, and also a bunch more (for example stuff like inside flag)</p>
+
+
+
+<a name="574944668"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Latvija%20Pasts%20data/near/574944668" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Latvija.20Pasts.20data.html#574944668">(Feb 20 2026 at 13:50)</a>:</h4>
+<p><span class="user-mention" data-user-id="571825">@HellMap</span>, I think that maybe I fixed fetching data. You can see here: <a href="https://github.com/OSMLatvija/Osmalyzer/compare/main...markalex2209:Osmalyzer:main">https://github.com/OSMLatvija/Osmalyzer/compare/main...markalex2209:Osmalyzer:main</a></p>
+<p>But results for post offices and boxes look very suspicious.<br>
+I've heard that some offices were closed, but I don't think so much.<br>
+And boxes - it's like almost all of them are missing? Were they just replaced with lockers or something?</p>
+<div class="message_embed"><a class="message_embed_image" href="https://github.com/OSMLatvija/Osmalyzer/compare/main...markalex2209:Osmalyzer:main" style="background-image: url(&quot;https://uploads.zulipusercontent.net/6a1fc6f3f6600a8ff6ae919fc80cf656775f0060/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f653866643139383265636139393232343730653461373366633763663238393531616634333838303530303165303366326636616264656536653636323139332f4f534d4c617476696a612f4f736d616c797a6572&quot;)"></a><div class="data-container"><div class="message_embed_title"><a href="https://github.com/OSMLatvija/Osmalyzer/compare/main...markalex2209:Osmalyzer:main" title="Comparing OSMLatvija:main...markalex2209:main · OSMLatvija/Osmalyzer">Comparing OSMLatvija:main...markalex2209:main · OSMLatvija/Osmalyzer</a></div><div class="message_embed_description">Parsing OSM data in Latvia against various data sources - Comparing OSMLatvija:main...markalex2209:main · OSMLatvija/Osmalyzer</div></div></div>
+
+
+
+<a name="574958259"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Latvija%20Pasts%20data/near/574958259" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Latvija.20Pasts.20data.html#574958259">(Feb 20 2026 at 14:48)</a>:</h4>
+<p>I'll check it out</p>
+
+
+
+<a name="574979496"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Latvija%20Pasts%20data/near/574979496" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Latvija.20Pasts.20data.html#574979496">(Feb 20 2026 at 16:17)</a>:</h4>
+<p>So the type values have changed from before</p>
+<div class="codehilite"><pre><span></span><code>case 1: // e.g. &quot;Juglas pasta nodaļa&quot; or Klientu centrs Kauguri&quot;
+case 2: // e.g. &quot;Iļģuciema pasta nodaļa&quot; or &quot;Klientu centrs Ziepniekkalns&quot;
+    return LatviaPostItemType.Office;
+// I have no idea what the difference between 1 and 2 is - both have offices and client centers
+// and none of the other data fields suggest any clear difference
+
+case 6: // e.g. &quot;Rīga Biķernieku iela Rimi&quot; or &quot;Jelgava TC Valdeka&quot; or &quot;Unisend 8009 Rimi&quot;
+    return LatviaPostItemType.ParcelLocker;
+
+// 7 appear to be Unisend LT and EE parcel lockers
+// e.g. &quot;Visalaukio g. 1, Vilnius, 08428&quot; or &quot;Ehitajate tee 107, Tallinn, 13511&quot;
+
+case 9: // e.g. &quot;Jelgava vēstuļu kastīte Nr.3007&quot; or &quot;Rīga vēstuļu kastīte Nr.5&quot;
+    return LatviaPostItemType.PostBox;
+</code></pre></div>
+
+
+
+<a name="575019987"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Latvija%20Pasts%20data/near/575019987" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Latvija.20Pasts.20data.html#575019987">(Feb 20 2026 at 20:04)</a>:</h4>
+<p>Nice find!<br>
+I'm baffled that both type 1 and 2 are post offices, to be honest.<br>
+But very glad you caught it</p>
+
+
+
+<a name="575021235"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Latvija%20Pasts%20data/near/575021235" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Latvija.20Pasts.20data.html#575021235">(Feb 20 2026 at 20:14)</a>:</h4>
+<p>Yeah, I loaded the json into Excel to just look at the values. It's weird, I cannot determine what possible difference there is between 1 and 2. It seems completely arbitrary. Thei website doesn't have a filter for mailboxes, but you can still get them from API (although there seem to only be 160 or so, it's possible they are being dismantled slowly as few people use letters).</p>
+
+
+
+<a name="575021478"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Latvija%20Pasts%20data/near/575021478" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Latvija.20Pasts.20data.html#575021478">(Feb 20 2026 at 20:16)</a>:</h4>
+<p>I don't know if I trust their data to mass-update. But also current OSM data is so out of date that even broken LP data would be better...</p>
+
+
+
+<a name="575022431"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Latvija%20Pasts%20data/near/575022431" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Latvija.20Pasts.20data.html#575022431">(Feb 20 2026 at 20:23)</a>:</h4>
+<p>Only thing what can theoretically split post offices I can think right now is a boring old office versus one responsible for multiple post codes. But based on the data I don't think it's the case.</p>
+<p>Also possibly there is some kind of invisible difference, like office handles packages or not, or accepts payments or not, etc. I suspect we'll never know.</p>
+
+
+
+<a name="575023002"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Latvija%20Pasts%20data/near/575023002" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Latvija.20Pasts.20data.html#575023002">(Feb 20 2026 at 20:27)</a>:</h4>
+<p>Regarding mail boxes - I remember we discussed a year ago that they started setting up locker with integrated mailbox. I suspect those will eventually kill mailboxes entirely.</p>
+
+
+
+<a name="575023067"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Latvija%20Pasts%20data/near/575023067" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Latvija.20Pasts.20data.html#575023067">(Feb 20 2026 at 20:27)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/channel/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Latvija.20Pasts.20data/near/575021478">said</a>:</p>
+<blockquote>
+<p>I don't know if I trust their data to mass-update. But also current OSM data is so out of date that even broken LP data would be better...</p>
+</blockquote>
+<p>IMO, mass-update is reasonable here. Indeed too much of outdated offices and mailboxes to process them manually in any kind of time.</p>
+
+
+
+<a name="576354079"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Latvija%20Pasts%20data/near/576354079" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Latvija.20Pasts.20data.html#576354079">(Feb 27 2026 at 21:42)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="715892">markalex</span> <a href="#narrow/channel/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Latvija.20Pasts.20data/near/575022431">said</a>:</p>
+<blockquote>
+<p>Only thing what can theoretically split post offices I can think right now is a boring old office versus one responsible for multiple post codes. But based on the data I don't think it's the case.</p>
+<p>Also possibly there is some kind of invisible difference, like office handles packages or not, or accepts payments or not, etc. I suspect we'll never know.</p>
+</blockquote>
+<p>Two years ;)<br>
+<a class="stream-topic" data-stream-id="358602" href="/#narrow/channel/358602-general/topic/Latvijas.20Pasts.20pakom.C4.81tu.20v.C4.93stu.C4.BCu.20s.C5.ABt.C4.AB.C5.A1ana/with/441784385">#general &gt; Latvijas Pasts pakomātu vēstuļu sūtīšana</a></p>
+
+
+
+<hr><p>Last updated: Mar 02 2026 at 10:27 UTC</p>
+</html>

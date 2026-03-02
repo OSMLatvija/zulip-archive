@@ -1,0 +1,40 @@
+<html>
+<head><meta charset="utf-8"><title>type=turnlanes:turns · general · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/index.html">general</a></h2>
+<h3>Topic: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/type.3Dturnlanes.3Aturns.html">type=turnlanes:turns</a></h3>
+
+<hr>
+
+<base href="https://osmlatvija.zulipchat.com">
+
+<head><link href="https://osmlatvija.github.io/zulip-archive/style.css" rel="stylesheet"></head>
+
+<a name="319022535"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/type%3Dturnlanes%3Aturns/near/319022535" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/type.3Dturnlanes.3Aturns.html#319022535">(Jan 02 2023 at 16:25)</a>:</h4>
+<p><a href="https://wiki.openstreetmap.org/wiki/Tag:type=turnlanes:turns">Apraksts saka</a>, ka tas ir</p>
+<blockquote>
+<p>Obsolete method for describing allowed turns from a given (turn) lane.</p>
+</blockquote>
+<p>Laikam būtu forši aizvietot ar <a href="https://wiki.openstreetmap.org/wiki/Key%3Aturn">turn=*</a>.</p>
+<div class="codehilite" data-code-language="overpass"><pre><span></span><code>[out:json][timeout:25];
+{{geocodeArea:Latvia}}-&gt;.searchArea;
+nwr[type="turnlanes:turns"](area.searchArea);
+out geom;
+</code></pre></div>
+
+
+
+<a name="319022777"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/type%3Dturnlanes%3Aturns/near/319022777" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/type.3Dturnlanes.3Aturns.html#319022777">(Jan 02 2023 at 16:27)</a>:</h4>
+<p>Ha, burtiski tikko uz tādu skatījos.</p>
+
+
+
+<a name="319028828"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/type%3Dturnlanes%3Aturns/near/319028828" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/type.3Dturnlanes.3Aturns.html#319028828">(Jan 02 2023 at 17:13)</a>:</h4>
+<p>Apsaktījos, sarežģīti. Bet es esmu par šitādu relation samazināšanu, kas tikai visiem lielākiem krustojumiem pa 12 relation sataisa, kur pietiktu ar <a href="https://wiki.openstreetmap.org/wiki/Key%3Aturn:lanes">turn:lanes=*</a></p>
+
+
+
+<hr><p>Last updated: Mar 02 2026 at 10:27 UTC</p>
+</html>

@@ -1,0 +1,64 @@
+<html>
+<head><meta charset="utf-8"><title>ēkas bez ceļiem · general · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/index.html">general</a></h2>
+<h3>Topic: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/.C4.93kas.20bez.20ce.C4.BCiem.html">ēkas bez ceļiem</a></h3>
+
+<hr>
+
+<base href="https://osmlatvija.zulipchat.com">
+
+<head><link href="https://osmlatvija.github.io/zulip-archive/style.css" rel="stylesheet"></head>
+
+<a name="346063261"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/%C4%93kas%20bez%20ce%C4%BCiem/near/346063261" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/.C4.93kas.20bez.20ce.C4.BCiem.html#346063261">(Mar 31 2023 at 21:55)</a>:</h4>
+<p>Iemetīšu te, lai pēc tam var atrast :)</p>
+<p>Zīmējot tās ēkas Rēzeknes novadā, kļuva interesanti - kuras / cik daudz ēkas tur ir ar ceļiem ļoti tālu?<br>
+Tā kā visas ēkas sazīmētas vēl nav, ņēmu addr:housename tagu.<br>
+Šis zemāk atrod punktus un ceļus ar šo tagu un skatās, no kuriem ceļi ir tālāk par 2km.<br>
+Protams, sazīmējot ceļus, varēs attālumu palēnām mazināt :)</p>
+<div class="codehilite" data-code-language="overpass"><pre><span></span><code>[out:json][timeout:250];
+{{geocodeArea:Rēzeknes novads}}-&gt;.searchArea;
+
+(
+  node["addr:housename"](area.searchArea);
+  way["addr:housename"](area.searchArea);
+)-&gt;.housenames;
+
+(
+  way[highway](area.searchArea);
+)-&gt;.roads;
+
+(
+  node.housenames(around.roads:2000);
+  way.housenames(around.roads:2000);
+)-&gt;.namesNearRoads;
+
+(.housenames; - .namesNearRoads;);
+
+out geom meta;
+</code></pre></div>
+
+
+
+<a name="370410784"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/%C4%93kas%20bez%20ce%C4%BCiem/near/370410784" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/.C4.93kas.20bez.20ce.C4.BCiem.html#370410784">(Jun 28 2023 at 12:30)</a>:</h4>
+<p>Tagad Rēzeknes novadā nav adrešu punktu, kam ceļi tālāk par 2 km :)</p>
+
+
+
+<a name="370411379"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/%C4%93kas%20bez%20ce%C4%BCiem/near/370411379" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/.C4.93kas.20bez.20ce.C4.BCiem.html#370411379">(Jun 28 2023 at 12:32)</a>:</h4>
+<p>Bet vai ir ielu nosaukumi visām adresēm? <br>
+<a href="/user_uploads/49624/YEHHVGqBqI8DikDBIuyMDkif/the-answer-is-no-back-to-work.png">the-answer-is-no-back-to-work.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/YEHHVGqBqI8DikDBIuyMDkif/the-answer-is-no-back-to-work.png" title="the-answer-is-no-back-to-work.png"><img src="/user_uploads/49624/YEHHVGqBqI8DikDBIuyMDkif/the-answer-is-no-back-to-work.png"></a></div>
+
+
+
+<a name="370430944"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/%C4%93kas%20bez%20ce%C4%BCiem/near/370430944" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/.C4.93kas.20bez.20ce.C4.BCiem.html#370430944">(Jun 28 2023 at 13:30)</a>:</h4>
+<p>Tam vajag atsevišķu topiku projektu streamā ;)</p>
+
+
+
+<hr><p>Last updated: Mar 02 2026 at 10:27 UTC</p>
+</html>

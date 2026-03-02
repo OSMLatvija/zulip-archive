@@ -1,0 +1,50 @@
+<html>
+<head><meta charset="utf-8"><title>adreses punkts ēkas iekšā · adreses · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://osmlatvija.github.io/zulip-archive/stream/360959-adreses/index.html">adreses</a></h2>
+<h3>Topic: <a href="https://osmlatvija.github.io/zulip-archive/stream/360959-adreses/topic/adreses.20punkts.20.C4.93kas.20iek.C5.A1.C4.81.html">adreses punkts ēkas iekšā</a></h3>
+
+<hr>
+
+<base href="https://osmlatvija.zulipchat.com">
+
+<head><link href="https://osmlatvija.github.io/zulip-archive/style.css" rel="stylesheet"></head>
+
+<a name="320188659"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360959-adreses/topic/adreses%20punkts%20%C4%93kas%20iek%C5%A1%C4%81/near/320188659" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/360959-adreses/topic/adreses.20punkts.20.C4.93kas.20iek.C5.A1.C4.81.html#320188659">(Jan 09 2023 at 10:15)</a>:</h4>
+<p>No Signal "krājumiem":</p>
+<div class="codehilite" data-code-language="overpass"><pre><span></span><code>/*[out:json]*/[timeout:25][bbox:{{bbox}}];
+area["building"];
+map_to_area-&gt;.buildings;
+node(area.buildings)["ref:LV:addr"][!"amenity"][!"craft"][!"emergency"][!"information"][!"leisure"][!"man_made"][!"office"][!"recycling_type"][!"shop"][!"tourism"];
+out;
+</code></pre></div>
+<p>Tas sameklē potenciāli labojamas vietas, kur adreses punkts atrodas ēkas konturē. Tādas ēkas būtu jāsadala.</p>
+
+
+
+<a name="320261815"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360959-adreses/topic/adreses%20punkts%20%C4%93kas%20iek%C5%A1%C4%81/near/320261815" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/360959-adreses/topic/adreses.20punkts.20.C4.93kas.20iek.C5.A1.C4.81.html#320261815">(Jan 09 2023 at 15:58)</a>:</h4>
+<p>Bet kas nosaka vai fiziski ēkas ir sadalāmas. Varbūt tur viena ēka. Piemēram, padomju garāžas arī dalīt?</p>
+
+
+
+<a name="320272606"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360959-adreses/topic/adreses%20punkts%20%C4%93kas%20iek%C5%A1%C4%81/near/320272606" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dāvis Kļaviņš <a href="https://osmlatvija.github.io/zulip-archive/stream/360959-adreses/topic/adreses.20punkts.20.C4.93kas.20iek.C5.A1.C4.81.html#320272606">(Jan 09 2023 at 16:41)</a>:</h4>
+<p>Tīri pēc kadastra. Protams, ja šķībi iezīmēts, kļūdas nav jākopē, bet jāpārnes princips, savstarpējās attiecības.</p>
+
+
+
+<a name="320888766"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360959-adreses/topic/adreses%20punkts%20%C4%93kas%20iek%C5%A1%C4%81/near/320888766" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/360959-adreses/topic/adreses.20punkts.20.C4.93kas.20iek.C5.A1.C4.81.html#320888766">(Jan 12 2023 at 09:23)</a>:</h4>
+<p>Var būt arī tā, ka ēka sazīmēta no aerial un tur izskatās pēc viena jumta, bet no fasādes var skaidri redzēt, ka ir divas mājas.</p>
+
+
+
+<a name="321046733"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360959-adreses/topic/adreses%20punkts%20%C4%93kas%20iek%C5%A1%C4%81/near/321046733" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/360959-adreses/topic/adreses.20punkts.20.C4.93kas.20iek.C5.A1.C4.81.html#321046733">(Jan 12 2023 at 22:30)</a>:</h4>
+<p>Lai gan ja it kā no fasādes (vai jumta) izskatās pēc divām, bet kadastrā viena, tad vajadzētu vienu. Ja fiziski atšķiras (stāvu skaits, materiāls utt), tad building:part.</p>
+
+
+
+<hr><p>Last updated: Mar 02 2026 at 10:27 UTC</p>
+</html>

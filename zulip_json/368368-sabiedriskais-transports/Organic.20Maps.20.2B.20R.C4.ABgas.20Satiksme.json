@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Ja kādam ir interese, var pielikt <span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span> un/vai pakomentēt:<br>\n<a href=\"https://github.com/organicmaps/organicmaps/discussions/3931\">https://github.com/organicmaps/organicmaps/discussions/3931</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/organicmaps/organicmaps/discussions/3931\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/5fe02fb3d6ee5bbaf4459f3070c5ff141fa84e97\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f316636303132376535616265376435663735623331373866656536633261366430303738353932303536653062633637323330303030323235346339376230392f6f7267616e69636d6170732f6f7267616e69636d6170732f64697363757373696f6e732f33393331)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/organicmaps/organicmaps/discussions/3931\" title=\"Rigas satiksme (public transportation) integration · Discussion #3931 · organicmaps/organicmaps\">Rigas satiksme (public transportation) integration · Discussion #3931 · organicmaps/organicmaps</a></div><div class=\"message_embed_description\">When I want to use public transport I have to use site developed by rigas satiksme : https://saraksti.rigassatiksme.lv/index.html#plan/3011/1541,1542 and mostly it is unconvenient to do. As I have ...</div></div></div>",
+        "id": 322447066,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674201091
+    },
+    {
+        "content": "<p>Ja pareizi saprotu, labāk būtu salabot OSM datus, nevis mēģināt importēt pieturas no RS?</p>",
+        "id": 322453230,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674203610
+    },
+    {
+        "content": "<p>Man liekas, ka runa nav par pieturām, bet par kursēšanas laikiem.</p>",
+        "id": 322453734,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674203766
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Public_transport\">Pašlaik</a> OSM datos var salikt tikai <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Ainterval\">interval=*</a>, <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aduration\">duration=*</a> uz maršruta un <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aopening_hours\">opening_hours=*</a> uz pieturām. Tas nav tas. Un <a href=\"https://wiki.openstreetmap.org/wiki/Routing/online_routers\">pieejamais routing pārsvarā nemāk izmantot sabiedrisko transportu</a>. Ir <a href=\"https://wiki.openstreetmap.org/wiki/Proposed_features/Public_transport_schedules/Timetable_relations\">https://wiki.openstreetmap.org/wiki/Proposed_features/Public_transport_schedules/Timetable_relations</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Proposed_features/Public_transport_timetables\">https://wiki.openstreetmap.org/wiki/Proposed_features/Public_transport_timetables</a>, bet pat tur ir atzīts, ka</p>\n<blockquote>\n<p>Timetable data, while crucial information, is probably too volatile for adding to OpenStreetMap.</p>\n</blockquote>",
+        "id": 322455228,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674204255
+    },
+    {
+        "content": "<p>Hmm jā, tur tā nekonkrēti.<br>\n\"most of stop places are already indexed in the map (some of them are misplaced, mby old database)\" mazliet mulsina.</p>",
+        "id": 322455503,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674204354
+    }
+]

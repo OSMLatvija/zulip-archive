@@ -1,0 +1,80 @@
+[
+    {
+        "content": "<p>Šis noteikti pamatīgs iesācēju jautājums bet man noderētu kāds padoms kā var vieglāk apsekot/survey kādu rajonu. Agrāk šodien precizēju savā vietējā rajonā ēku un žogu atrašanās vietas, rezultāts jau beigās laikam sanāca tīri ok bet surveja pieraksti telefonā no kuriem visu bija jāsavada datorā bija tāda putra ka pats knapi varēju saprast ko esmu tur sazīmējis. Šim procesam noteikti katram ir sava pieeja bet varbūt ir kāds ieteikums, metode, vai kāda aplikācija kas to padara vieglāku?</p>",
+        "id": 471827297,
+        "sender_full_name": "Big Knoop",
+        "timestamp": 1726863891
+    },
+    {
+        "content": "<p>Sveiki, nu jā, tas ir sarežģīts individuāls jautājums ar daudzām pieejām no vienkārša līdz ļoti laikietilpīgam. Un iedziļinoties, tas ārti pāriet no iesācēju jautājuma uz pamatīgu kartēšanu. Lielākā daļa kartētāju dara ļoti konkrētas lietas - zīmē tikai savu rajonu, lieto tikai <a href=\"https://streetcomplete.app/\">StreetComplete</a> / <a href=\"https://every-door.app/\">EveryDoor</a>, zīmē tikai no ortofoto, pievieno konkrētu infrastruktūru, apmeklētās vietas, tikai labo kļūdas vai veic importus, utt. Ko katrs grib, kur intereses un ar ko parasti sāk. Tādu \"daru visu\" kartētāju ir mazāk, jo tas ir baigais darbs. Jo vairāk iedziļinies, jo tieši otrādāk - viss paliek sarežģītāk <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>",
+        "id": 471831901,
+        "sender_full_name": "HellMap",
+        "timestamp": 1726865891
+    },
+    {
+        "content": "<p>Personīgi, es survey'oju tikai ar riteni un es vienmēr ierakstu video, kuru es pēc tam mājās varu skatīties, cik reižu un kurā vietā vajag. Arī nav tad uzreiz jāzīmē un jāatcerās, kas kur bija, jo iegaumēt kaut kādus veikalu nosaukumus vai kurā tur gājēju pārejā bija vai nebija zebras nav iespējams. Braucot atstāju ar OsmAnd īsas piezīmes vietās, kur kaut ko konkrētu jāiezīmē, lai nav jāskatās visā garumā video, bet es pats vēlāk atcerētos un GPX punkts būtu precīzāks. Pa tādu izbraucienu var iznāk 50+ piezīmes, tad bez tām es tādas vietas aizmirstu. Ierakstu arī reizē GPS treku, lai var uzreiz iD redzēt, kur es biju un redzēt atvērtās piezīmes. Tad laboju konkrētas vietas, kur kaut ko viegli izmainīt vai izlabot, kur tiešām daudz nepareizi, kur ļoti kaut kas trūkst, vai arī interesanta vieta, ko sīkāk pakartēt. Principā laika man nav pat 10% no redzētām vietām iekartēt un noteikti ne visus sīkumus. Sanāk vairāk izvēlēties, kas man pašam interesantāk un kas OSM varētu būt prioritātē. Video pēc tam arī ielādēju Mapillary, ko var citi redzēt (piem. <a href=\"https://www.mapillary.com/app/?focus=photo&amp;pKey=357942397344130\">https://www.mapillary.com/app/?focus=photo&amp;pKey=357942397344130</a> ). Pašus braucienus arī parasti plānoju tā, lai nefilmētas un neredzētas vietas vai, kur kaut kas jauns vai iepriekš atzīmēts kā izpētāms. Un tā es personīgi 80% kartēšanas apvienoju ar riteņbraukšanu pa visādām vietām. Bet tas aizņem salīdzinoši ļoti daudz laika (+aparatūra). Esmu mēģinājis <a href=\"https://streetcomplete.app/\">StreetComplete</a> / <a href=\"https://every-door.app/\">EveryDoor</a>, bet ar riteni tas ir neiespējami.</p>",
+        "id": 471831915,
+        "sender_full_name": "HellMap",
+        "timestamp": 1726865899
+    },
+    {
+        "content": "<p>Pats izdomāju ka jāsāk editot kautko OSM jo esmu riteņbraucējs un pārāk daudz reizes ir sanācis izplānot kādu maršrutu pa taku kas reāli dabā neeksistē, vai čakarēties stravā ar \"manual\" punktiem jo gribu izveidot maršrutu kur dzīvē ir taka bet kartē nekas nav iezīmēts. Bet tagad kad sāku kautko editot vispār liekas diezgan interesanti un gribās vismaz savu vietējo apkārti sataisīt pēc iespējas precīzāku, un tad beigās sanāk ka mēģinu darīt visu <span aria-label=\"rolling on the floor laughing\" class=\"emoji emoji-1f923\" role=\"img\" title=\"rolling on the floor laughing\">:rolling_on_the_floor_laughing:</span> <br>\nTas Mapillary gan liekas interesants jo es tāpat savai drošībai ar video jau ierakstu katru savu treniņbraucienu (kā dashcam velosipēdam) bet varētu tos video likt arī mapillary ja tas nav pārāk sarežģīti, varbut kādam noderēs.</p>",
+        "id": 471836861,
+        "sender_full_name": "Big Knoop",
+        "timestamp": 1726868187
+    },
+    {
+        "content": "<p>Jā, Stravas heatmapā dažreiz paskatos, kur un kā var braukt un kur vietējie brauc. Un dažreiz sanāk, ka OSM kaut kas nav īsti vai vispār taku/ceļu nav. Vai otrādi - Stravā pārrāvums, jo nevar izbraukt, bet OSM nav ielikts nekas \"bloķējošs\".</p>",
+        "id": 471837991,
+        "sender_full_name": "HellMap",
+        "timestamp": 1726868799
+    },
+    {
+        "content": "<p>Es Mapillary nebiju rakstījis līdz pāris gadiem atpakaļ, bet video biju filmējis jau ļoti sen - bet kamera (GoPro) līdz diezgan pēdējiem modeļiem nevarēja labu video uztaisīt īpaši pirms iebūvētās stabilizācijas.</p>",
+        "id": 471838292,
+        "sender_full_name": "HellMap",
+        "timestamp": 1726868946
+    },
+    {
+        "content": "<p>Ārpus Rīgas kādus 20 km sākas meži, kur takas un stigas ir ļoti maz sazīmētas. Ļoti populāras vietas kā piemēram Siguldas vai Ogres Zilo kalnu meži būs daudz un diezgan precīzi vairākums. Vietas kā Saulriešu karjers kā kurā vietā - parasti atkarīgs, vai ir kāds vietējais zīmētājs, jo tā ne vietējam braukt takas meklēt nezināmā vietā arī ir sarežģīti/neērti. Es pats tur tikai vienreiz biju pa jau iezīmēto galveno \"apli\", kur jau tā dabūju daudz labot. Faktiski jau ap Ārpus apdzīvotām vietām (piemēram, kaut kur aiz Cekules) ar takām būs ļoti bēdīgi.</p>",
+        "id": 471839039,
+        "sender_full_name": "HellMap",
+        "timestamp": 1726869330
+    },
+    {
+        "content": "<p>Sauriešu karjerā ir ĻOTI daudz neiezīmētas takas, lielākoties moto takas, bet vairākas ar atbilstošām prasmēm ir braucamas arī ar MTB. Tās ko es tur iezīmēju ir \"vienkāršākās\" kas braucamas ar riteni, ir arī daudz ļoti stāvas un sarežģītas takas kuras pat īsti negribas likt OSM jo tad kāds kurš nav vietējais un nezin kas tur ir var baigi iekulties. <br>\nAiz cekules cik es esmu bijis ir baigās smiltis un lielākā daļa tās stigas nav braucamas. tad neviens nebrauc un rezultātā arī kartē tā ir kā ir ar tām takām</p>",
+        "id": 471840297,
+        "sender_full_name": "Big Knoop",
+        "timestamp": 1726869949
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/EJDHzAWYmravRy7WsHHBsNkN/image.png\">image.png</a><br>\nEs to karjeru pārzinu labi, lūk tik daudz takas tur reāli ir. Ar sarkanu iezīmēju tās kur es neesmu saņēmies ar riteni nobraukt, orandžais protams mans personīgais heatmap. ja salīdzina ar šī brīža OSM karti var redzēt ka daudz kas trūkst</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/EJDHzAWYmravRy7WsHHBsNkN/image.png\" title=\"image.png\"><img data-original-dimensions=\"609x730\" src=\"/user_uploads/thumbnail/49624/EJDHzAWYmravRy7WsHHBsNkN/image.png/840x560.webp\"></a></div>",
+        "id": 471844173,
+        "sender_full_name": "Big Knoop",
+        "timestamp": 1726871451
+    },
+    {
+        "content": "<p>Sveiks!<br>\nEs parasti apvienoju pastaigas ar teritorijas apsekošanu. Ja vide ir slikti kartēta un izmaiņu ir daudz, dodos turp vairākas reizes. Vispirms atzīmēju lielās izmaiņas un pagaidu, līdz tās tiek attēlotas kartē, pēc tam atgriežos, lai atzīmētu sīkākās izmaiņas.</p>\n<p>Pašlaik velosipēdam nav action kameras, tāpēc, braucot ar to, galvenokārt papildinu karti ar ceļu ģeometrijas izmaiņām, pievienoju trūkstošās takas un ceļus, kā arī noņemu neesošos.</p>\n<p>Rupjākas neprecizitātes kartē (piemēram, neprecīzi iezīmēti meža masīvi, pļavas u.c.) precizēju attālināti, izmantojot ortofoto, DTM, DSM vai citus pieejamos datus.</p>\n<p>Reizēm papildinu karti, izmantojot arī <a href=\"https://streetcomplete.app/\">StreetComplete</a> aplikācijas uzdevumus.</p>",
+        "id": 471904436,
+        "sender_full_name": "Mezonens",
+        "timestamp": 1726907267
+    },
+    {
+        "content": "<p>Survey - atkarīgs no daudziem faktoriem.<br>\na) POI - mūsdienās bieži <a href=\"https://every-door.app/\">EveryDoor</a> + GoMap!! \"on the go\" :)<br>\nb) Vispārīgi - photomapping man ir vistuvākā lieta. Fotografēju objektus/vietas, kurus plānoju zīmēt. Agrāk ar fotoaparātu + GPS trace, tad iekš JOSM correlate. Tagad vairāk ar telefonu, kur uzreiz ir geotagging. Pēc tam iekš JOSM sazīmēju.<br>\nc) Paralēli cenšos arī veidot Mapillary (nedaudz arī Panoramax :) ), kas palīdz pēc tam precizēt detaļas, kuras tik labi nav izdevies nofotografēt.</p>",
+        "id": 471915261,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1726912075
+    },
+    {
+        "content": "<p>Ja reģionā ir vēl interesenti, vai ieinteresēta pašvaldība / izglītības iestāde, varbūt varam apsvērt kādu kartēšanas pasākumu arī :)</p>",
+        "id": 471915374,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1726912116
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"757384\">Big Knoop</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/R.C4.ABki.2Fpadomi.20lai.20viegl.C4.81k.20apsekotu.20un.20atjaunotu.20k.C4.81du.20rajonu/near/471840297\">said</a>:</p>\n<blockquote>\n<p>Sauriešu karjerā ir ĻOTI daudz neiezīmētas takas, lielākoties moto takas, bet vairākas ar atbilstošām prasmēm ir braucamas arī ar MTB. Tās ko es tur iezīmēju ir \"vienkāršākās\" kas braucamas ar riteni, ir arī daudz ļoti stāvas un sarežģītas takas kuras pat īsti negribas likt OSM jo tad kāds kurš nav vietējais un nezin kas tur ir var baigi iekulties. <br>\nAiz cekules cik es esmu bijis ir baigās smiltis un lielākā daļa tās stigas nav braucamas. tad neviens nebrauc un rezultātā arī kartē tā ir kā ir ar tām takām</p>\n</blockquote>\n<p>OSM droši var likt visas, pieliekot klāt atbilstošos tagus - protams, tad, ja cits personīgi vairāk interesējošais jau beidzies :)</p>",
+        "id": 471915467,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1726912173
+    }
+]

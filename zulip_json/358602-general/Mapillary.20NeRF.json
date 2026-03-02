@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Tā izskatās ka manuāli. Mobilā aplikācijā bija limits 300 bilžu viena batchā, interesanti vai tos var apvienot ja tie ir uzņemtie viena vietā.</p>",
+        "id": 430197329,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1711683580
+    },
+    {
+        "content": "<p>NeRF nav nekas ļoti jauns, tos var arī uztaisīt uz sava datora no savām bildēm. <a href=\"https://docs.nerf.studio/\">https://docs.nerf.studio/</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://docs.nerf.studio/\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/f523865ab9d3edab9b843732bf6e1f9816690831\\/68747470733a2f2f6173736574732e6e6572662e73747564696f2f6f70672e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://docs.nerf.studio/\" title=\"Contents\">Contents</a></div><div class=\"message_embed_description\">Nerfstudio Documentation</div></div></div>",
+        "id": 430200538,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1711686363
+    },
+    {
+        "content": "<p>Ziņa nebija par to ka NeRF ka jaunumu, bet par to ka tas ir tagad pieejams Mapillary</p>",
+        "id": 430203035,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1711688653
+    },
+    {
+        "content": "<p>Es piemēram nezinu citu servisu kur var nošerot to publiski</p>",
+        "id": 430203076,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1711688707
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>Ehh tie CLC importi <span aria-label=\"rolling eyes\" class=\"emoji emoji-1f644\" role=\"img\" title=\"rolling eyes\">:rolling_eyes:</span> <a href=\"/user_uploads/49624/dqnlTF0HBtz_LjWWeDZEB8dO/clc-importi.png\">clc-importi.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/dqnlTF0HBtz_LjWWeDZEB8dO/clc-importi.png\" title=\"clc-importi.png\"><img src=\"/user_uploads/49624/dqnlTF0HBtz_LjWWeDZEB8dO/clc-importi.png\"></a></div><p>Vai ir kāda jēga no tiem <code>CLC_Novads=</code> tegiem? Tik un tā reāli viņi visi ir ļoti aptuveni. Un vai pat jēga no <code>source=CLC_2006</code>? Es, ja laboju, tos dzēšu tik un tā, jo nav vairs pareizs <code>source</code>, ja es ortofoto izmantoju.</p>",
+        "id": 322480091,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674211661
+    },
+    {
+        "content": "<p>Kam screenshotā jāpievērš uzmanība?</p>",
+        "id": 322485621,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674213404
+    },
+    {
+        "content": "<p>Vienkārši jāpapriecājas par meža skaistumiem</p>",
+        "id": 322485812,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674213482
+    },
+    {
+        "content": "<p>Nē, bet dažus metrus garam ar CLC tegiem apzīmētam wayam, kas veido meža multipoligonu</p>",
+        "id": 322485868,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674213488
+    },
+    {
+        "content": "<p>Skaidrs, paldies. Jā vērtīgs multipoligona ceļš :)<br>\nTagus arī cenšos atcerēties noņemt, ja laboju.<br>\nTāpat nost neņemu, lai uzreiz redzams, kāpēc šķībs mežs.</p>",
+        "id": 322486235,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674213615
+    },
+    {
+        "content": "<p>What does CLC mean here? I just noticed this tag when looking through undocumented tags for Lithuania (because geographic boundaries aren't fully respected in Taginfo I guess)</p>",
+        "id": 526189831,
+        "sender_full_name": "DodoGTA",
+        "timestamp": 1751100416
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"902178\">DodoGTA</span> <a href=\"#narrow/channel/358602-general/topic/CLC.20importu.20tagi/near/526189831\">said</a>:</p>\n<blockquote>\n<p>What does CLC mean here? I just noticed this tag when looking through undocumented tags for Lithuania (because geographic boundaries aren't fully respected in Taginfo I guess)</p>\n</blockquote>\n<p>I only know it means corine land cover, like a forest import for countries in europe</p>",
+        "id": 526190114,
+        "sender_full_name": "Evіdence",
+        "timestamp": 1751100771
+    },
+    {
+        "content": "<p>Yes, CLC stands for \"CORINE Land Cover\" and was added when forests were being imported. The tag is a bit misused, it should have been in <code>source</code>. But also, it shouldn't be added to begin with because it's the changeset that defines the source. Almost every single forest has been edited since, so these values are out of date - the forest no longer matches CLC data. I personally remove these whenever I modify the geometry. At some point we should just agree to finally remove them all in bulk.</p>",
+        "id": 526192095,
+        "sender_full_name": "HellMap",
+        "timestamp": 1751103164
+    }
+]

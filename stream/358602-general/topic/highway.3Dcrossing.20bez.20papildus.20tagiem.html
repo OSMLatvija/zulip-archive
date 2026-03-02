@@ -1,0 +1,80 @@
+<html>
+<head><meta charset="utf-8"><title>highway=crossing bez papildus tagiem · general · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/index.html">general</a></h2>
+<h3>Topic: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/highway.3Dcrossing.20bez.20papildus.20tagiem.html">highway=crossing bez papildus tagiem</a></h3>
+
+<hr>
+
+<base href="https://osmlatvija.zulipchat.com">
+
+<head><link href="https://osmlatvija.github.io/zulip-archive/style.css" rel="stylesheet"></head>
+
+<a name="364270683"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/highway%3Dcrossing%20bez%20papildus%20tagiem/near/364270683" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/highway.3Dcrossing.20bez.20papildus.20tagiem.html#364270683">(Jun 07 2023 at 12:59)</a>:</h4>
+<p>Es redzu, ka daudzviet <img alt=":node:" class="emoji" src="https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40175.png" title="node"> divu <a href="https://wiki.openstreetmap.org/wiki/Key%3Ahighway">highway=*</a> krustpunktā pielikts <a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dcrossing">highway=crossing</a> un vairāk nekādu citu tagu. Daudzos gadījumos tie ir ietvju krustojumi ar piebraucamiem ceļiem, autostāvvietu un pagalmu izbraukumi utt. Es tādas vietas raksturotu kā "ceļš krusto ietvi" nevis "ietve krusto ceļu", tāpēc, manuprāt, tur pat <a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dcrossing">highway=crossing</a> nav jābūt. Es piedāvātu tādus <a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dcrossing">highway=crossing</a> ņemt nost. Kādas ir domas par to?</p>
+<div class="codehilite" data-code-language="overpass"><pre><span></span><code>[out:json][timeout:250];
+{{geocodeArea:Latvia}}-&gt;.searchArea;
+node[highway=crossing](area.searchArea)(if: count_tags() == 1);
+out geom;
+</code></pre></div>
+
+
+
+<a name="364276165"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/highway%3Dcrossing%20bez%20papildus%20tagiem/near/364276165" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/highway.3Dcrossing.20bez.20papildus.20tagiem.html#364276165">(Jun 07 2023 at 13:17)</a>:</h4>
+<p>Es piekristu, neredzu jēgu no tāda taga. Jēga ir tad, ja tur ir kas marķēts utt.</p>
+
+
+
+<a name="364281219"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/highway%3Dcrossing%20bez%20papildus%20tagiem/near/364281219" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/highway.3Dcrossing.20bez.20papildus.20tagiem.html#364281219">(Jun 07 2023 at 13:34)</a>:</h4>
+<p>Un ja tos nenoņemt, tad <a href="https://streetcomplete.app/">StreetComplete</a> jautās par <a href="https://wiki.openstreetmap.org/wiki/Key%3Acrossing">crossing=*</a> tipu, kas tikai pasliktina situāciju.</p>
+
+
+
+<a name="364281928"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/highway%3Dcrossing%20bez%20papildus%20tagiem/near/364281928" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/highway.3Dcrossing.20bez.20papildus.20tagiem.html#364281928">(Jun 07 2023 at 13:37)</a>:</h4>
+<p>Un arī jāpārliecinās, lai <a href="https://streetcomplete.app/">StreetComplete</a> nepievieno <a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dcrossing">highway=crossing</a> atpakaļ. Ja es pareizi saprotu <a href="https://github.com/streetcomplete/StreetComplete/blob/de2831b1686334beb2cc0817bbcf2ca1a00ca618/app/src/main/java/de/westnordost/streetcomplete/quests/crossing/AddCrossing.kt">kodu</a>, to var izdarīt nomainot <a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dfootway">highway=footway</a> uz <a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dsidewalk">highway=sidewalk</a>.</p>
+
+
+
+<a name="364285633"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/highway%3Dcrossing%20bez%20papildus%20tagiem/near/364285633" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/highway.3Dcrossing.20bez.20papildus.20tagiem.html#364285633">(Jun 07 2023 at 13:49)</a>:</h4>
+<p>Uztaisīju arī <a href="https://github.com/streetcomplete/StreetComplete/issues/5056">https://github.com/streetcomplete/StreetComplete/issues/5056</a></p>
+<div class="message_embed"><a class="message_embed_image" href="https://github.com/streetcomplete/StreetComplete/issues/5056" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/3fee65cce486c19156aee76580e9e19d0ce27e97\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f306536613763366564323035323232626430646239373132323161366664356633653537343133653333363261646361323535356330343435626138626635302f737472656574636f6d706c6574652f537472656574436f6d706c6574652f6973737565732f35303536)"></a><div class="data-container"><div class="message_embed_title"><a href="https://github.com/streetcomplete/StreetComplete/issues/5056" title="AddCrossingType should provide an answer option to remove highway=crossing · Issue #5056 · streetcomplete/StreetComplete">AddCrossingType should provide an answer option to remove highway=crossing · Issue #5056 · streetcomplete/StreetComplete</a></div><div class="message_embed_description">Use case I see quite a lot of places, where StreetComplete asks about crossing type, where highway=crossing was added by mistake (for various reasons). Proposed Solution There should be an answer o...</div></div></div>
+
+
+
+<a name="364382019"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/highway%3Dcrossing%20bez%20papildus%20tagiem/near/364382019" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/highway.3Dcrossing.20bez.20papildus.20tagiem.html#364382019">(Jun 07 2023 at 19:51)</a>:</h4>
+<p>Viss atkarīgs, kur tas ir. Ja tiešām "ceļš krusto ietvi", tad jēgas nav. Bet tavs piemērs par autostāvvietu - tur gan es vienmēr liktu - galu galā, tā ir intensīva krustošanās vieta. "Pagalms" arī ir ļoti plašs jēdziens - privātmājas pagalms štrunts, bet daudzstāvu māju rajonu pagalmos ir simtiem mašīnu, kur brauc 100x vairāk par daudziem V ceļiem. Pliks punkts nozīmē, ka neviens vēl nav uzlicis, kas tur ir.</p>
+
+
+
+<a name="364397690"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/highway%3Dcrossing%20bez%20papildus%20tagiem/near/364397690" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/highway.3Dcrossing.20bez.20papildus.20tagiem.html#364397690">(Jun 07 2023 at 21:22)</a>:</h4>
+<p>Intensīva vieta no neintensīvas, šķiet, saturiski neatšķiras - pašu krustošanās faktu var noteikt no kartes datiem, bet satiksmes intensitāti kartē laikam tomēr neliekam.<br>
+Šķiet, "crossing" ir jēga likt tikai tad, ja tur ir kaut kas kartējams - zīmes, zebra, lukso...</p>
+
+
+
+<a name="364401875"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/highway%3Dcrossing%20bez%20papildus%20tagiem/near/364401875" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/highway.3Dcrossing.20bez.20papildus.20tagiem.html#364401875">(Jun 07 2023 at 21:53)</a>:</h4>
+<p><a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dcrossing">highway=crossing</a> ir visām vietām, kur paredzēta pāreja, nevis tikai speciāli marķētām. Visas ietves, kas sastopas ar visādiem izbraucamiem ceļiem ir pārejas - jo ietve abās pusēs turpinās un šeit gājēji šķērso brauktuvi. Vienkārši nemarķētas. Tās ir gandrīz visas autostāvietas un lielie pagalmi. Un tur gandrīz visur var likt <code>kerb</code>, <code>wheelchair</code>, <code>tacticle_paving</code>, <code>lit</code> un daudz visādu datu gājēju maršrutēšanai, īpaši mobilitātei.</p>
+
+
+
+<a name="364451486"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/highway%3Dcrossing%20bez%20papildus%20tagiem/near/364451486" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/highway.3Dcrossing.20bez.20papildus.20tagiem.html#364451486">(Jun 08 2023 at 06:07)</a>:</h4>
+<p>Man nav iebildumu likt <a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dcrossing">highway=crossing</a> + <a href="https://wiki.openstreetmap.org/wiki/Tag%3Acrossing%3Dunmarked">crossing=unmarked</a> (vai vienkārši <a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dcrossing">highway=crossing</a>, ja nekas cits nav zinams) tur, kur ietve šķērso brauktuvi. Runa ir par vietām, kur ir otrādi - brauktuve šķērso ietvi. Ietve ir nepārtraukta, un tieši brauktuve beidzas pirms un turpinās pēc ietves. Nevaru iedomāties, ka tur kādreiz izveidos luksoforus, zebras vai <a href="https://wiki.openstreetmap.org/wiki/Key%3Akerb">kerb=*</a>.</p>
+
+
+
+<a name="370719091"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/highway%3Dcrossing%20bez%20papildus%20tagiem/near/370719091" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/highway.3Dcrossing.20bez.20papildus.20tagiem.html#370719091">(Jun 29 2023 at 10:25)</a>:</h4>
+<p>Redzēju, ka <a href="https://streetcomplete.app/">SC</a> to issue aiztaisīja. Te tāds piemērs ar ietve šķērso brauktuvi <a href="https://www.mapillary.com/app/?pKey=831936294592968&amp;focus=photo">https://www.mapillary.com/app/?pKey=831936294592968&amp;focus=photo</a> Bet te pat <a href="https://streetcomplete.app/">SC</a> nejautātu, jo driveway</p>
+
+
+
+<hr><p>Last updated: Mar 02 2026 at 10:27 UTC</p>
+</html>

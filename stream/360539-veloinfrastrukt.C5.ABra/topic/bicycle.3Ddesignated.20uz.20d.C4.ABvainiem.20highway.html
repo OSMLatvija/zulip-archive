@@ -1,0 +1,232 @@
+<html>
+<head><meta charset="utf-8"><title>bicycle=designated uz dīvainiem highway · veloinfrastruktūra · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/index.html">veloinfrastruktūra</a></h2>
+<h3>Topic: <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway.html">bicycle=designated uz dīvainiem highway</a></h3>
+
+<hr>
+
+<base href="https://osmlatvija.zulipchat.com">
+
+<head><link href="https://osmlatvija.github.io/zulip-archive/style.css" rel="stylesheet"></head>
+
+<a name="320710682"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/bicycle%3Ddesignated%20uz%20d%C4%ABvainiem%20highway/near/320710682" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway.html#320710682">(Jan 11 2023 at 14:07)</a>:</h4>
+<p>Šķiet aizdomīgi, ka <a href="https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Ddesignated">bicycle=designated</a> ir salikti uz visādiem:</p>
+<ul>
+<li><a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dliving_street">highway=living_street</a></li>
+<li><a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dresidential">highway=residential</a></li>
+<li><a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dsecondary">highway=secondary</a></li>
+<li><a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dservice">highway=service</a></li>
+<li><a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dtertiary">highway=tertiary</a></li>
+<li><a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dtrack">highway=track</a></li>
+<li><a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dunclassified">highway=unclassified</a></li>
+</ul>
+<div class="codehilite" data-code-language="overpass"><pre><span></span><code>[out:json][timeout:25];
+{{geocodeArea:Latvia}}-&gt;.searchArea;
+nwr[bicycle=designated][highway][highway!=proposed][highway!=construction][highway!=cycleway][highway!=footway][highway!=pedestrian][highway!=path][highway!=crossing](area.searchArea);
+out geom;
+</code></pre></div>
+
+
+
+<a name="320714403"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/bicycle%3Ddesignated%20uz%20d%C4%ABvainiem%20highway/near/320714403" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway.html#320714403">(Jan 11 2023 at 14:22)</a>:</h4>
+<p>Jūrmalā ir velo norādes are neoficiālām ceļa zīmēm, bet nezinu, vai tur īsti pareizi tā likt - <a href="https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes">bicycle=yes</a> it kā pa maz - jo tas jau ir visur - kā routerim pareikt, ka te ir bicycle.... umm... designated? :)</p>
+
+
+
+<a name="320715266"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/bicycle%3Ddesignated%20uz%20d%C4%ABvainiem%20highway/near/320715266" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway.html#320715266">(Jan 11 2023 at 14:25)</a>:</h4>
+<p>Āgenskalnā līdzīgi - starp pārrāvumiem veloceļos pa ceļiem ar norādēm. Tur gan nedaudz kļūdaini. Arī kaut kā routerim jāpasaka.</p>
+
+
+
+<a name="320715823"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/bicycle%3Ddesignated%20uz%20d%C4%ABvainiem%20highway/near/320715823" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway.html#320715823">(Jan 11 2023 at 14:27)</a>:</h4>
+<p>Zasulaukā tas pats - pārrāvums un velo sūta pa ielu. Tur norādes kaut kādas arī.</p>
+
+
+
+<a name="320716588"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/bicycle%3Ddesignated%20uz%20d%C4%ABvainiem%20highway/near/320716588" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway.html#320716588">(Jan 11 2023 at 14:30)</a>:</h4>
+<p>Purvciemā gabals nepareizs, cik zinu - noņēmu. Nav tur nekādu zīmju vai norāžu.</p>
+
+
+
+<a name="320717170"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/bicycle%3Ddesignated%20uz%20d%C4%ABvainiem%20highway/near/320717170" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway.html#320717170">(Jan 11 2023 at 14:33)</a>:</h4>
+<p>Ikšķiles promenāde ir teorētiski veloceļš bet praktiski asfaltēts ar servisa mašīnām braucams, man liekas tur pareizi. Bet ja pārliktu kā footway/cycleway kā Ogres promenādē - es arī piekristu, ka pareizi.</p>
+
+
+
+<a name="320717427"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/bicycle%3Ddesignated%20uz%20d%C4%ABvainiem%20highway/near/320717427" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway.html#320717427">(Jan 11 2023 at 14:34)</a>:</h4>
+<p>Ogrē abi gabali ir apzīmēti velo, bet mašīnām ļauts destination - tur piebrauktuve mājām un servisa ēkāms, arī viss laikam pareizi</p>
+
+
+
+<a name="320717949"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/bicycle%3Ddesignated%20uz%20d%C4%ABvainiem%20highway/near/320717949" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway.html#320717949">(Jan 11 2023 at 14:36)</a>:</h4>
+<p>Jelgavā pussabrucis (māšīnām ciet) tilts ir ar velo(ceļa) zīmi kaut kādu, cik atceros. Tur arī pastulbi - bet teorētiski pareizi</p>
+
+
+
+<a name="320718825"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/bicycle%3Ddesignated%20uz%20d%C4%ABvainiem%20highway/near/320718825" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway.html#320718825">(Jan 11 2023 at 14:40)</a>:</h4>
+<p>Siguldā serpentīna ceļa sākumā ir velo zīme, tur nav kur braukt, nomainīju uz veloceļu.</p>
+
+
+
+<a name="320719468"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/bicycle%3Ddesignated%20uz%20d%C4%ABvainiem%20highway/near/320719468" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway.html#320719468">(Jan 11 2023 at 14:42)</a>:</h4>
+<p>Siguldas mežā random track gan nav designated - tur visur maršruti, bet nekādu tādu zīmju. Noņēmu.</p>
+
+
+
+<a name="320719740"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/bicycle%3Ddesignated%20uz%20d%C4%ABvainiem%20highway/near/320719740" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway.html#320719740">(Jan 11 2023 at 14:44)</a>:</h4>
+<p>Par cycleway is a lie posmu - no comment</p>
+
+
+
+<a name="320720017"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/bicycle%3Ddesignated%20uz%20d%C4%ABvainiem%20highway/near/320720017" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway.html#320720017">(Jan 11 2023 at 14:45)</a>:</h4>
+<p>Valmierā izskatās, ka pa Greenway salikts - neko personīgi nezinu, bet iespējams , ka daudz kas pareizi. Tur gan caurumi pa vidu, uz lieliem ceļiem un kaut kādi sānceļi. Jāskatās Mapillary vai jābrauc pētīt vai kādam, kas zin, jāremontē.</p>
+
+
+
+<a name="320720062"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/bicycle%3Ddesignated%20uz%20d%C4%ABvainiem%20highway/near/320720062" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway.html#320720062">(Jan 11 2023 at 14:45)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway/near/320715823">said</a>:</p>
+<blockquote>
+<p>Zasulaukā tas pats - pārrāvums un velo sūta pa ielu. Tur norādes kaut kādas arī.</p>
+</blockquote>
+<p><a href="https://www.mapillary.com/app/?lat=56.951244199972&amp;lng=24.0461901&amp;z=17&amp;pKey=767202893964427">No viena gala</a> tur ietve atzīmēta ar <a href="https://osmlatvija.github.io/road-signs/417.html">417.</a><br>
+<a href="https://www.mapillary.com/app/?lat=56.950950950951&amp;lng=24.053558437686&amp;z=17&amp;pKey=1092525181465888">No otra gala</a> arī itkā <a href="https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Ddesignated">bicycle=designated</a> jābūt uz ietves.<br>
+<a href="https://www.mapillary.com/app/?lat=56.950629999972&amp;lng=24.051714199972&amp;z=17&amp;pKey=472693863804650">Uz ceļa</a> tikai <a href="https://osmlatvija.github.io/road-signs/857.html">857.</a></p>
+
+
+
+<a name="320720361"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/bicycle%3Ddesignated%20uz%20d%C4%ABvainiem%20highway/near/320720361" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway.html#320720361">(Jan 11 2023 at 14:47)</a>:</h4>
+<p>Rēzekne, Duagavpils neko nezinu, bet izskatās, ka nepareizi.</p>
+
+
+
+<a name="320721297"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/bicycle%3Ddesignated%20uz%20d%C4%ABvainiem%20highway/near/320721297" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway.html#320721297">(Jan 11 2023 at 14:51)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway/near/320720062">said</a>:</p>
+<blockquote>
+<p><a href="https://www.mapillary.com/app/?lat=56.951244199972&amp;lng=24.0461901&amp;z=17&amp;pKey=767202893964427">No viena gala</a> tur ietve atzīmēta ar <a href="https://osmlatvija.github.io/road-signs/417.html">417.</a><br>
+<a href="https://www.mapillary.com/app/?lat=56.950950950951&amp;lng=24.053558437686&amp;z=17&amp;pKey=1092525181465888">No otra gala</a> arī itkā <a href="https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Ddesignated">bicycle=designated</a> jābūt uz ietves.<br>
+<a href="https://www.mapillary.com/app/?lat=56.950629999972&amp;lng=24.051714199972&amp;z=17&amp;pKey=472693863804650">Uz ceļa</a> tikai <a href="https://osmlatvija.github.io/road-signs/857.html">857.</a></p>
+</blockquote>
+<p>Es nezinu, kā to tur var salikt. Veloietvi var uzzīmēt. Bet tad sanāk vienvirziena... Principā jau tās velo maršrutu zīmes neko nenozīmē, bet praksē tomēr gribētos routeriem uzsvērt, kur jābrauc. Ko tu piedāvā likt visiem šitiem neveloceļiem?</p>
+
+
+
+<a name="320722583"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/bicycle%3Ddesignated%20uz%20d%C4%ABvainiem%20highway/near/320722583" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway.html#320722583">(Jan 11 2023 at 14:57)</a>:</h4>
+<p>Par Rēzekni pajautāju - <a href="https://www.openstreetmap.org/changeset/128771685">https://www.openstreetmap.org/changeset/128771685</a> - iespējams tur veloceļš vai kas tāds, negribu uzreiz aiztikt.</p>
+<div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/changeset/128771685" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/changeset/128771685" title="Changeset: 128771685 | OpenStreetMap">Changeset: 128771685 | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="320724821"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/bicycle%3Ddesignated%20uz%20d%C4%ABvainiem%20highway/near/320724821" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway.html#320724821">(Jan 11 2023 at 15:06)</a>:</h4>
+<p>Izlaboju Daugavpili. Also - lol <a href="https://www.mapillary.com/app/?pKey=323866912475616&amp;focus=photo">https://www.mapillary.com/app/?pKey=323866912475616&amp;focus=photo</a></p>
+
+
+
+<a name="320726240"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/bicycle%3Ddesignated%20uz%20d%C4%ABvainiem%20highway/near/320726240" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway.html#320726240">(Jan 11 2023 at 15:12)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway/near/320721297">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway/near/320720062">said</a>:</p>
+<blockquote>
+<p><a href="https://www.mapillary.com/app/?lat=56.951244199972&amp;lng=24.0461901&amp;z=17&amp;pKey=767202893964427">No viena gala</a> tur ietve atzīmēta ar <a href="https://osmlatvija.github.io/road-signs/417.html">417.</a><br>
+<a href="https://www.mapillary.com/app/?lat=56.950950950951&amp;lng=24.053558437686&amp;z=17&amp;pKey=1092525181465888">No otra gala</a> arī itkā <a href="https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Ddesignated">bicycle=designated</a> jābūt uz ietves.<br>
+<a href="https://www.mapillary.com/app/?lat=56.950629999972&amp;lng=24.051714199972&amp;z=17&amp;pKey=472693863804650">Uz ceļa</a> tikai <a href="https://osmlatvija.github.io/road-signs/857.html">857.</a></p>
+</blockquote>
+<p>Es nezinu, kā to tur var salikt. Veloietvi var uzzīmēt. Bet tad sanāk vienvirziena... Principā jau tās velo maršrutu zīmes neko nenozīmē, bet praksē tomēr gribētos routeriem uzsvērt, kur jābrauc. Ko tu piedāvā likt visiem šitiem neveloceļiem?</p>
+</blockquote>
+<p>Ja mēs paliekam ar <a href="https://wiki.openstreetmap.org/wiki/Key%3Asidewalk">sidewalk=*</a> uz <a href="https://wiki.openstreetmap.org/wiki/Key%3Ahighway">highway=*</a> tajā vietā, tad es nomainītu <a href="https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Ddesignated">bicycle=designated</a> uz <a href="https://wiki.openstreetmap.org/wiki/Tag%3Acycleway:right%3Dtrack">cycleway:right=track</a> + <a href="https://wiki.openstreetmap.org/wiki/Tag%3Acycleway:right:oneway%3Dno">cycleway:right:oneway=no</a> (kā <a href="https://wiki.openstreetmap.org/wiki/Tag:cycleway%3Dtrack">aprakstīts šeit</a> un <a href="https://wiki.openstreetmap.org/wiki/Sidewalks#Cycleway_and_footway_on_sidewalk">šeit</a>). Tur arī aprakstīti tagošanas varianti, ja zīmē atsevišķi.</p>
+
+
+
+<a name="320726398"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/bicycle%3Ddesignated%20uz%20d%C4%ABvainiem%20highway/near/320726398" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway.html#320726398">(Jan 11 2023 at 15:13)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway/near/320724821">said</a>:</p>
+<blockquote>
+<p>Izlaboju Daugavpili. Also - lol <a href="https://www.mapillary.com/app/?pKey=323866912475616&amp;focus=photo">https://www.mapillary.com/app/?pKey=323866912475616&amp;focus=photo</a></p>
+</blockquote>
+<p>Brutāli :D</p>
+
+
+
+<a name="323449982"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/bicycle%3Ddesignated%20uz%20d%C4%ABvainiem%20highway/near/323449982" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway.html#323449982">(Jan 25 2023 at 10:32)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway/near/320714403">said</a>:</p>
+<blockquote>
+<p>Jūrmalā ir velo norādes are neoficiālām ceļa zīmēm, bet nezinu, vai tur īsti pareizi tā likt - <a href="https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes">bicycle=yes</a> it kā pa maz - jo tas jau ir visur - kā routerim pareikt, ka te ir bicycle.... umm... designated? :)</p>
+</blockquote>
+<p><a href="https://www.openstreetmap.org/way/35278234">Šīs posma</a> neatbilst <a href="https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Ddesignated">bicycle=designated</a> ("object is explicitly designated for use by cyclists"), jo <a href="https://www.mapillary.com/app/?lat=56.971730291744&amp;lng=23.814253246753&amp;z=17&amp;pKey=514273520259886">tur ir tikai</a> <a href="https://osmlatvija.github.io/road-signs/857.html">857.</a> zīme ("Velomaršruts"). Tāpat <a href="https://www.mapillary.com/app/?lat=56.970415099972&amp;lng=23.803860499972&amp;z=19.9&amp;pKey=2805796813004821&amp;focus=photo">no otra gala</a>. Nomainīju uz <a href="https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes">bicycle=yes</a>.</p>
+<div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/way/35278234" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/way/35278234" title="Way: 35278234 | OpenStreetMap">Way: 35278234 | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class="message_embed"><a class="message_embed_image" href="https://osmlatvija.github.io/road-signs/857.html" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/464882a8661b053b7f570bcfe65fe6c6ec674d09\/68747470733a2f2f6c696b756d692e6c762f77777772616b7374692f323031352f3132312f42494c4445532f4e5f3237392f494d4147453336392e4a5047)"></a><div class="data-container"><div class="message_embed_title"><a href="https://osmlatvija.github.io/road-signs/857.html" title="857">857</a></div></div></div>
+
+
+
+<a name="323451291"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/bicycle%3Ddesignated%20uz%20d%C4%ABvainiem%20highway/near/323451291" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway.html#323451291">(Jan 25 2023 at 10:38)</a>:</h4>
+<p>Es teiktu, ka atbilst, bet es īpaši nestrīdēšos. Tā nav 857 zīme, bet tādas pašizdomātas horizontālās, kādas saliktas Jūrmalā visvisur. Nu jā, pēc CSN nav velo te nekas, par maršruts te nav, jo nav officiāla zīme. Bet prakstiski vairāk vai mazāk tā domāts.</p>
+
+
+
+<a name="323451333"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/bicycle%3Ddesignated%20uz%20d%C4%ABvainiem%20highway/near/323451333" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway.html#323451333">(Jan 25 2023 at 10:38)</a>:</h4>
+<p>Vienīgais, Jūrmalā pus ietvju un ceļu nepareizi salikti ar <a href="https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes">bicycle=yes</a> kaut kad...</p>
+
+
+
+<a name="323451733"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/bicycle%3Ddesignated%20uz%20d%C4%ABvainiem%20highway/near/323451733" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway.html#323451733">(Jan 25 2023 at 10:40)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway/near/323451291">said</a>:</p>
+<blockquote>
+<p>Tā nav 857 zīme, bet tādas pašizdomātas horizontālās, kādas saliktas Jūrmalā visvisur.</p>
+</blockquote>
+<p>Ir bilde? Es neatceros tādas zīmes...</p>
+
+
+
+<a name="323456901"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/bicycle%3Ddesignated%20uz%20d%C4%ABvainiem%20highway/near/323456901" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway.html#323456901">(Jan 25 2023 at 11:08)</a>:</h4>
+<p>Par <a href="https://www.openstreetmap.org/way/912580800">šo</a> es neatceros un bilžu nav. Lai paliek...<br>
+Palaboju tur blakus ietvi saskaņā ar <a href="https://osmlatvija.github.io/road-signs/421.html">421.</a> zīmi.</p>
+<div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/way/912580800" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/way/912580800" title="Way: ‪Stendes iela‬ (‪912580800‬) | OpenStreetMap">Way: ‪Stendes iela‬ (‪912580800‬) | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class="message_embed"><a class="message_embed_image" href="https://osmlatvija.github.io/road-signs/421.html" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/0060b6066602a3cd4a4fec5007ea18473faa3616\/68747470733a2f2f6c696b756d692e6c762f77777772616b7374692f323031352f3132312f42494c4445532f4e5f3237392f494d4147453135372e4a5047)"></a><div class="data-container"><div class="message_embed_title"><a href="https://osmlatvija.github.io/road-signs/421.html" title="421">421</a></div></div></div>
+
+
+
+<a name="323457898"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/bicycle%3Ddesignated%20uz%20d%C4%ABvainiem%20highway/near/323457898" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway.html#323457898">(Jan 25 2023 at 11:13)</a>:</h4>
+<p>Pēc bildēm, tur no vienas puses <a href="https://osmlatvija.github.io/road-signs/421.html">421.</a>, no otras <a href="https://osmlatvija.github.io/road-signs/413.html">413.</a> <span aria-label="sweat smile" class="emoji emoji-1f605" role="img" title="sweat smile">:sweat_smile:</span> Bet es precīzi neatceros, tikai atceros, ka tur neskaidrs, ja nezini</p>
+<div class="message_embed"><a class="message_embed_image" href="https://osmlatvija.github.io/road-signs/421.html" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/0060b6066602a3cd4a4fec5007ea18473faa3616\/68747470733a2f2f6c696b756d692e6c762f77777772616b7374692f323031352f3132312f42494c4445532f4e5f3237392f494d4147453135372e4a5047)"></a><div class="data-container"><div class="message_embed_title"><a href="https://osmlatvija.github.io/road-signs/421.html" title="421">421</a></div></div></div><div class="message_embed"><a class="message_embed_image" href="https://osmlatvija.github.io/road-signs/413.html" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/7a45856359fb883b8d7e18444f04f94583c77c02\/68747470733a2f2f6c696b756d692e6c762f77777772616b7374692f323031352f3132312f42494c4445532f4e5f3237392f494d4147453134392e4a5047)"></a><div class="data-container"><div class="message_embed_title"><a href="https://osmlatvija.github.io/road-signs/413.html" title="413">413</a></div></div></div>
+
+
+
+<a name="323458184"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/bicycle%3Ddesignated%20uz%20d%C4%ABvainiem%20highway/near/323458184" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway.html#323458184">(Jan 25 2023 at 11:14)</a>:</h4>
+<p>Pagāšgad nepaspēju izbraukt, šogad gan jau tur nobraukšu visos virzienos</p>
+
+
+
+<a name="323464167"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/bicycle%3Ddesignated%20uz%20d%C4%ABvainiem%20highway/near/323464167" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway.html#323464167">(Jan 25 2023 at 11:45)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway/near/320715266">said</a>:</p>
+<blockquote>
+<p>Āgenskalnā līdzīgi - starp pārrāvumiem veloceļos pa ceļiem ar norādēm. Tur gan nedaudz kļūdaini. Arī kaut kā routerim jāpasaka.</p>
+</blockquote>
+<p>Tur arī nomainīju uz <a href="https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes">bicycle=yes</a>, jo ir tikai "Velomaršruts" zīmes. Principā tie pārrāvumi nav tik gari un ir <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aroute%3Dbicycle">route=bicycle</a> daļas, tāpēc router visticamāk izmantos tos pašus ceļus, kā iepriekš. Bet nebūs arī nepareizi, ja routing vedīs pa blakus ielām, jo reāli tur nekādas specifiskas infrastruktūras nav.</p>
+
+
+
+<hr><p>Last updated: Mar 02 2026 at 10:27 UTC</p>
+</html>

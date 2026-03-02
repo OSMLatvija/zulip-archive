@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>Zulipa RSS ziņās dash un punkts nezkādēļ dabū ekstra escape.</p>\n<blockquote>\n<p>Mapper since: 2024\\-07\\-23 17:35:03<br>\nRegistration: 2024\\-01\\-26 16:53:44<br>\nUID: 20939339<br>\nFirst active near: Sila Māja (0\\.31 km) (Latvia)<br>\nFirst Changeset: <a href=\"https://osm.org/changeset/154317668\">154317668</a><br>\nEditor used: iD 2\\.29\\.0</p>\n</blockquote>",
+        "id": 454449863,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1722072923
+    },
+    {
+        "content": "<p>Oi, pamanīju, ka nu jau sen bija pull requests...<br>\nKo sakāt par šo?</p>\n<p><a href=\"https://github.com/OSMLatvija/zulip-rss/pull/1\">https://github.com/OSMLatvija/zulip-rss/pull/1</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/OSMLatvija/zulip-rss/pull/1\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/4c6d46a0cb620cd4f75c8f654a82b0ae957146f0/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f386163393731633465313364393938666661313933313134343435373337656366303666616537356430393935316338383530363735646264306333353263312f4f534d4c617476696a612f7a756c69702d7273732f70756c6c2f31&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/OSMLatvija/zulip-rss/pull/1\" title=\"Pin markdownify version by i-ky · Pull Request #1 · OSMLatvija/zulip-rss\">Pin markdownify version by i-ky · Pull Request #1 · OSMLatvija/zulip-rss</a></div><div class=\"message_embed_description\">This fixes https://osmlatvija.github.io/zulip-archive/stream/362235-Zulip/topic/par.20daudz.20backslashu.html which was caused by matthewwithanm/python-markdownify#118.\nNote that there are improvem...</div></div></div>",
+        "id": 487111564,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1733782873
+    },
+    {
+        "content": "<p>Lai gan varbūt mēs izcietām un sagaidījām <a href=\"https://github.com/matthewwithanm/python-markdownify/pull/149\">https://github.com/matthewwithanm/python-markdownify/pull/149</a> ?<br>\nVai vēl kaut kur ir par daudz backslashu?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/matthewwithanm/python-markdownify/pull/149\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/67f4e18c250a58b236ea9ad5146d8b2a02b5b49f/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f363636313632316134313136626266313462613434633866336531623930653533343162363431623436366364626138643935656461643662346463386334332f6d61747468657777697468616e6d2f707974686f6e2d6d61726b646f776e6966792f70756c6c2f313439&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/matthewwithanm/python-markdownify/pull/149\" title=\"More selective escaping of `-#.)` (alternative approach) by jsm28 · Pull Request #149 · matthewwithanm/python-markdownify\">More selective escaping of `-#.)` (alternative approach) by jsm28 · Pull Request #149 · matthewwithanm/python-markdownify</a></div><div class=\"message_embed_description\">This is a partial alternative to #122 (open since April) for more selective escaping of some special characters.\nHere, we fix the test function naming (as noted in that PR) so the tests are actuall...</div></div></div>",
+        "id": 487112499,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1733783177
+    },
+    {
+        "content": "<p>Viņš to bija laikam mēģinājis - tur bija vēl kaut kādas problēmas, ja es pareizi atceros.</p>",
+        "id": 487112703,
+        "sender_full_name": "HellMap",
+        "timestamp": 1733783267
+    },
+    {
+        "content": "<p>Tas MR bija tikai pinojis iepriekšējo versiju - pirms divām nedēļām iznāca 0.14 / 0.14.1.<br>\nIzskatās, ka tas ir problēmu salabojis, ne?</p>",
+        "id": 487112947,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1733783354
+    },
+    {
+        "content": "<p>It kā jā. Es vairs neatceros, kas īsti tur bija. Tur bija vairākas lietas. Bet espacing problēma laikam salabota</p>",
+        "id": 487113404,
+        "sender_full_name": "HellMap",
+        "timestamp": 1733783525
+    }
+]

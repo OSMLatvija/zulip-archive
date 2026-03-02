@@ -1,0 +1,88 @@
+<html>
+<head><meta charset="utf-8"><title>highway=footway un velo routing · general · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/index.html">general</a></h2>
+<h3>Topic: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/highway.3Dfootway.20un.20velo.20routing.html">highway=footway un velo routing</a></h3>
+
+<hr>
+
+<base href="https://osmlatvija.zulipchat.com">
+
+<head><link href="https://osmlatvija.github.io/zulip-archive/style.css" rel="stylesheet"></head>
+
+<a name="314702860"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/highway%3Dfootway%20un%20velo%20routing/near/314702860" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/highway.3Dfootway.20un.20velo.20routing.html#314702860">(Dec 08 2022 at 15:36)</a>:</h4>
+<p>Mums (vismaz Rīgā) ir daudz celiņu, kas ir iezīmēti kā <a href="https://wiki.openstreetmap.org/wiki/Tag:highway%3Dfootway"><code>highway=footway</code></a> bez <a href="https://wiki.openstreetmap.org/wiki/Key:foot"><code>foot</code></a> (kas pēc noklusējuma nozīmē <a href="https://wiki.openstreetmap.org/wiki/Tag:foot%3Ddesignated"><code>foot=designated</code></a>), bez <a href="https://wiki.openstreetmap.org/wiki/Key:footway"><code>footway</code></a> (t.i. tie nav <a href="https://wiki.openstreetmap.org/wiki/Tag:footway%3Dsidewalk"><code>footway=sidewalk</code></a>) un bez <a href="https://wiki.openstreetmap.org/wiki/Key:bicycle"><code>bicycle</code></a> (kas pēc noklusējuma nozīmē <a href="https://wiki.openstreetmap.org/wiki/Tag:bicycle%3Dno"><code>bicycle=no</code></a>):</p>
+<div class="codehilite" data-code-language="overpass"><pre><span></span><code>[out:json][timeout:5][bbox:{{bbox}}];
+{{geocodeArea:Latvia}}-&gt;.search;
+nwr[highway=footway][!foot][!footway][!bicycle](area.search);
+out geom;
+</code></pre></div>
+<p><a href="https://wiki.openstreetmap.org/wiki/Key:highway#Paths">Wiki saka</a>, ka <code>highway=footway</code> ir</p>
+<blockquote>
+<p>For designated footpaths; i.e., mainly/exclusively for pedestrians. This includes walking tracks and gravel paths. If bicycles are allowed as well, you can indicate this by adding a <code>bicycle=yes</code> tag.</p>
+</blockquote>
+<p>Pirmkārt, es ļoti šaubos, ka mums ir tik daudz ceļu, apzīmētu ar zīmēm 415., 417., 419., 421. Otrkārt, velo routing neizmantos šos ceļus vai brīdinās, ka riteņbraucējiem tur vajag kāpt nost no divriteņa un iet kājām. Tā kā tie celiņi nav atzīmēti kā ietves, visticamāk tur nav arī paralēlas brauktuves, ko routing varētu izmantot.<br>
+Kā to situāciju labot? Celiņu ir tik daudz, ka visiem pielikt <a href="https://wiki.openstreetmap.org/wiki/Tag:bicycle%3Dyes"><code>bicycle=yes</code></a> būtu grūti un tas neaizsargā no jauniem celiņiem, ko cilvēki turpinās zīmēt ar Footway iD presetu. Varbūt mēs gribam Latvijai specifiskus <a href="https://wiki.openstreetmap.org/wiki/OSM_tags_for_routing/Access_restrictions">noteikumus pēc noklusējuma</a>?</p>
+
+
+
+<a name="314881114"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/highway%3Dfootway%20un%20velo%20routing/near/314881114" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/highway.3Dfootway.20un.20velo.20routing.html#314881114">(Dec 09 2022 at 12:11)</a>:</h4>
+<p>415 <a href="/user_uploads/49624/_eSEfYSmymrQroFNBCPN6HJx/image.png">image.png</a> 417 <a href="/user_uploads/49624/SEZ4Xdej_csjpFiKO-ApDuAO/image.png">image.png</a> 419 <a href="/user_uploads/49624/eWRr6QgmArIXeIANGeOZpNne/image.png">image.png</a> 421 <a href="/user_uploads/49624/azW2o2M1yvIOMuzNRXaIRsm1/image.png">image.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/_eSEfYSmymrQroFNBCPN6HJx/image.png" title="image.png"><img src="/user_uploads/49624/_eSEfYSmymrQroFNBCPN6HJx/image.png"></a></div><div class="message_inline_image"><a href="/user_uploads/49624/SEZ4Xdej_csjpFiKO-ApDuAO/image.png" title="image.png"><img src="/user_uploads/49624/SEZ4Xdej_csjpFiKO-ApDuAO/image.png"></a></div><div class="message_inline_image"><a href="/user_uploads/49624/eWRr6QgmArIXeIANGeOZpNne/image.png" title="image.png"><img src="/user_uploads/49624/eWRr6QgmArIXeIANGeOZpNne/image.png"></a></div><div class="message_inline_image"><a href="/user_uploads/49624/azW2o2M1yvIOMuzNRXaIRsm1/image.png" title="image.png"><img src="/user_uploads/49624/azW2o2M1yvIOMuzNRXaIRsm1/image.png"></a></div>
+
+
+
+<a name="314882894"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/highway%3Dfootway%20un%20velo%20routing/near/314882894" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/highway.3Dfootway.20un.20velo.20routing.html#314882894">(Dec 09 2022 at 12:21)</a>:</h4>
+<p>Ja nav <code>sidewalk</code>, tad noklusētais ir teorētiski <code>bicycle=yes</code> - bet tāpēc, ka nav ne ar ko aizliegts, nevis tāpēc, ka ir speciāli atļauts. Ja ir <code>sidewalk</code> tad ir kaut kas līdzīgs <code>bicycle=permissive</code>, jo aizliegts nav, bet velo "pēc iespējas jāizmanto" veloinfrastruktūra un brauktuve. Es nezinu, kā to varētu noklusētās vērtībās ielikt un kā routeri to izmantotu. Jo nav jau <code>bicycle=no</code> pa ietvēm.</p>
+
+
+
+<a name="315076611"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/highway%3Dfootway%20un%20velo%20routing/near/315076611" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/highway.3Dfootway.20un.20velo.20routing.html#315076611">(Dec 10 2022 at 13:18)</a>:</h4>
+<p>Jā, tā tam jābūt pēc CSN, bet pēc OSM Wiki viss sanāk savādāk, jo nav Latvijai specifisku noteikumu un "worldwide" noteikumi atšķiras.</p>
+
+
+
+<a name="315182372"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/highway%3Dfootway%20un%20velo%20routing/near/315182372" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/highway.3Dfootway.20un.20velo.20routing.html#315182372">(Dec 11 2022 at 09:52)</a>:</h4>
+<p>Ne par tagošanu, bet OpenStreetBrowser tagad jauna kategorija, "footways" - var palīdzēt kartēšanā.<br>
+<a href="https://openstreetbrowser.org/#map=16/56.9550/24.1249&amp;categories=footways">https://openstreetbrowser.org/#map=16/56.9550/24.1249&amp;categories=footways</a><br>
+<a href="/user_uploads/49624/PsfRFf2oc1uEaTF2g9WTBwtH/image.png">image.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/PsfRFf2oc1uEaTF2g9WTBwtH/image.png" title="image.png"><img src="/user_uploads/49624/PsfRFf2oc1uEaTF2g9WTBwtH/image.png"></a></div>
+
+
+
+<a name="315312068"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/highway%3Dfootway%20un%20velo%20routing/near/315312068" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/highway.3Dfootway.20un.20velo.20routing.html#315312068">(Dec 12 2022 at 08:30)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568771">Rihards Olups</span> <a href="#narrow/stream/358602-general/topic/highway.3Dfootway.20un.20velo.20routing/near/315182372">said</a>:</p>
+<blockquote>
+<p>Ne par tagošanu, bet OpenStreetBrowser tagad jauna kategorija, "footways" - var palīdzēt kartēšanā.<br>
+<a href="https://openstreetbrowser.org/#map=16/56.9550/24.1249&amp;categories=footways">https://openstreetbrowser.org/#map=16/56.9550/24.1249&amp;categories=footways</a><br>
+<a href="/user_uploads/49624/PsfRFf2oc1uEaTF2g9WTBwtH/image.png">image.png</a></p>
+</blockquote>
+<p>Man liekas, tas ir pirmais off-topic :)<br>
+Cik sapratu, tur ir tikai par <code>footway</code> un <code>sidewalk=left/right/both</code>, nekāda sakara ar velo.</p>
+
+
+
+<a name="315441186"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/highway%3Dfootway%20un%20velo%20routing/near/315441186" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/highway.3Dfootway.20un.20velo.20routing.html#315441186">(Dec 12 2022 at 19:15)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/358602-general/topic/highway.3Dfootway.20un.20velo.20routing/near/315312068">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="568771">Rihards Olups</span> <a href="#narrow/stream/358602-general/topic/highway.3Dfootway.20un.20velo.20routing/near/315182372">said</a>:</p>
+<blockquote>
+<p>Ne par tagošanu, bet OpenStreetBrowser tagad jauna kategorija, "footways" - var palīdzēt kartēšanā.<br>
+<a href="https://openstreetbrowser.org/#map=16/56.9550/24.1249&amp;categories=footways">https://openstreetbrowser.org/#map=16/56.9550/24.1249&amp;categories=footways</a><br>
+<a href="/user_uploads/49624/PsfRFf2oc1uEaTF2g9WTBwtH/image.png">image.png</a></p>
+</blockquote>
+<p>Man liekas, tas ir pirmais off-topic :)<br>
+Cik sapratu, tur ir tikai par <code>footway</code> un <code>sidewalk=left/right/both</code>, nekāda sakara ar velo.</p>
+</blockquote>
+<p>Nu, tas var ļaut vieglāk paskatīties, kā ir sazīmēti footways (kā tags pie ceļa vai kā atsevišķs ceļš? vai ir footway=sidewalk? kā ar velo tagiem), un saprast, kāda tagošanas shēma būtu piemērotākā un reālistiskākā :)</p>
+
+
+
+<hr><p>Last updated: Mar 02 2026 at 10:27 UTC</p>
+</html>

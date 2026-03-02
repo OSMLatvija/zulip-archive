@@ -1,0 +1,278 @@
+<html>
+<head><meta charset="utf-8"><title>embedded_rails + embedded_rails:lanes · general · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/index.html">general</a></h2>
+<h3>Topic: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html">embedded_rails + embedded_rails:lanes</a></h3>
+
+<hr>
+
+<base href="https://osmlatvija.zulipchat.com">
+
+<head><link href="https://osmlatvija.github.io/zulip-archive/style.css" rel="stylesheet"></head>
+
+<a name="318995795"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/318995795" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#318995795">(Jan 02 2023 at 13:49)</a>:</h4>
+<p>Pēc nesenas diskusijas <a class="stream-topic" data-stream-id="358602" href="/#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway">#general &gt; railway=tram + highway</a> mums tagad ir vietas ar <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aembedded_rails%3Dtram">embedded_rails=tram</a> un <a href="https://wiki.openstreetmap.org/wiki/Key%3Aembedded_rails:lanes">embedded_rails:lanes=*</a>:</p>
+<div class="codehilite" data-code-language="overpass"><pre><span></span><code>[out:json][timeout:25];
+{{geocodeArea:Latvia}}-&gt;.searchArea;
+nwr[embedded_rails=tram]["embedded_rails:lanes"](area.searchArea);
+out geom;
+</code></pre></div>
+<p>Man šķiet, ka lietot tos kopā ir kļūdaini, jo <a href="https://wiki.openstreetmap.org/wiki/Lanes"><code>:lane</code> sufiksa apraksts</a> saka:</p>
+<blockquote>
+<p>If the value of a specific lane is left blank, the (possibly assumed/implicit) value of the main key without <code>:lanes</code>-suffix applies (the so called <em>default value</em>).</p>
+</blockquote>
+<p>Sanāk, ka <code>embedded_rails:lanes=|tram|tram|</code> kopā ar <code>embedded_rails=tram</code> ir tas pats, kā <code>embedded_rails:lanes=tram|tram|tram|tram</code>. Man liekas, ka jādzēš <code>embedded_rails=tram</code>, lai <em>default value</em> būtu tukša.</p>
+
+
+
+<a name="318996597"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/318996597" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#318996597">(Jan 02 2023 at 13:54)</a>:</h4>
+<p>Hmm. Jā, tā sanāk.</p>
+
+
+
+<a name="318997127"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/318997127" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#318997127">(Jan 02 2023 at 13:57)</a>:</h4>
+<p>Vēl tur rakstīts:</p>
+<blockquote>
+<p>The value of that tag then contains the values for each lane separated by a | (vertical bar) in left-to-right order as viewed in the respective driving direction of those lanes.</p>
+</blockquote>
+<p>Tā kā ir runa par "driving direction" nevis par way orientāciju, tad vietās bez <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aoneway%3Dyes">oneway=yes</a>, obligāti jādala uz <a href="https://wiki.openstreetmap.org/wiki/Key%3Aembedded_rails:lanes:forward">embedded_rails:lanes:forward=*</a> un <a href="https://wiki.openstreetmap.org/wiki/Key%3Aembedded_rails:lanes:backward">embedded_rails:lanes:backward=*</a>.</p>
+
+
+
+<a name="318997920"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/318997920" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#318997920">(Jan 02 2023 at 14:02)</a>:</h4>
+<p>Vai tad tas jādara, ja ir simetriski? Un vai tad tas jādara, ja apzīmē visas left-to-right vērtības, kas ir defaultā way direction? Nebiju nekad iedziļinājies.... Hmmm.</p>
+
+
+
+<a name="318999709"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/318999709" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#318999709">(Jan 02 2023 at 14:12)</a>:</h4>
+<p>Hmm, jā, pēc wiki, visu norāda ar <code>:forward/backward</code>, nekas nekur nav teikts, ka simetriskas ielas var vienkāršot...</p>
+
+
+
+<a name="319000209"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/319000209" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#319000209">(Jan 02 2023 at 14:14)</a>:</h4>
+<p>Un tad laikam sanāk norādit <code>surface=asphalt</code> + <code>surface:lanes:xxxward=sett|</code></p>
+
+
+
+<a name="319000779"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/319000779" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#319000779">(Jan 02 2023 at 14:17)</a>:</h4>
+<p>Tad sanāk kā <a href="https://wiki.openstreetmap.org/wiki/Lv:Latvian_tagging_guidelines#Piem%C4%93ri">https://wiki.openstreetmap.org/wiki/Lv:Latvian_tagging_guidelines#Piem%C4%93ri</a>?</p>
+
+
+
+<a name="319001205"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/319001205" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#319001205">(Jan 02 2023 at 14:19)</a>:</h4>
+<p>Es arī nekad iepriekš nebiju iedziļinājis... Ja, neskaita vietas ar <code>embedded_rails:lanes</code>, Latvijā ir tikai viena vieta ar <code>*:lanes</code> un bez <code>oneway=yes</code> - <a href="https://www.openstreetmap.org/way/891378570">https://www.openstreetmap.org/way/891378570</a> - un tur kaut kas nav pareizi sazīmēts...</p>
+<div class="codehilite" data-code-language="overpass"><pre><span></span><code>[out:json][timeout:25];
+{{geocodeArea:Latvia}}-&gt;.searchArea;
+nwr[~":lanes$"~".*"][oneway!=yes][junction!=roundabout][!"embedded_rails:lanes"](area.searchArea);
+out geom;
+</code></pre></div>
+<div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/way/891378570" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/way/891378570" title="Way: ‪Pulkveža Brieža iela‬ (‪891378570‬) | OpenStreetMap">Way: ‪Pulkveža Brieža iela‬ (‪891378570‬) | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="319001776"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/319001776" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#319001776">(Jan 02 2023 at 14:22)</a>:</h4>
+<p>Es tad pielabošu drīz. Pa laimi mums gandrīz visi šitie ceļi ir vienādi - asfalts, sliedes/bruģis, sliedes/bruģis, asfalts. Labi, ka es nepaspēju citur vēl salikt...</p>
+
+
+
+<a name="319007307"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/319007307" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#319007307">(Jan 02 2023 at 14:52)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes/near/319001205">said</a>:</p>
+<blockquote>
+<p>Es arī nekad iepriekš nebiju iedziļinājis... Ja, neskaita vietas ar <code>embedded_rails:lanes</code>, Latvijā ir tikai viena vieta ar <code>*:lanes</code> un bez <code>oneway=yes</code> - <a href="https://www.openstreetmap.org/way/891378570">https://www.openstreetmap.org/way/891378570</a> - un tur kaut kas nav pareizi sazīmēts...</p>
+<p><div class="codehilite" data-code-language="overpass"><pre><span></span><code>[out:json][timeout:25];
+{{geocodeArea:Latvia}}-&gt;.searchArea;
+nwr[~":lanes$"~".*"][oneway!=yes][junction!=roundabout][!"embedded_rails:lanes"](area.searchArea);
+out geom;
+</code></pre></div><br>
+</p>
+</blockquote>
+<p>Palaboju to vietu - <a href="https://www.openstreetmap.org/changeset/130791131">https://www.openstreetmap.org/changeset/130791131</a></p>
+<div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/changeset/130791131" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/changeset/130791131" title="Changeset: 130791131 | OpenStreetMap">Changeset: 130791131 | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="319009890"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/319009890" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#319009890">(Jan 02 2023 at 15:07)</a>:</h4>
+<p>Salaboju direction tegus <a href="https://www.openstreetmap.org/changeset/130791679">https://www.openstreetmap.org/changeset/130791679</a></p>
+<div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/changeset/130791679" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/changeset/130791679" title="Changeset: 130791679 | OpenStreetMap">Changeset: 130791679 | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="319018977"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/319018977" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#319018977">(Jan 02 2023 at 16:03)</a>:</h4>
+<p>Hm, a <a href="https://wiki.openstreetmap.org/wiki/Tag%3Acycleway%3Dshared_lane">cycleway=shared_lane</a> arī pa lanes tad jādala?</p>
+
+
+
+<a name="319019704"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/319019704" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#319019704">(Jan 02 2023 at 16:08)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes/near/319018977">said</a>:</p>
+<blockquote>
+<p>Hm, a <a href="https://wiki.openstreetmap.org/wiki/Tag%3Acycleway%3Dshared_lane">cycleway=shared_lane</a> arī pa lanes tad jādala?</p>
+</blockquote>
+<p><a href="https://wiki.openstreetmap.org/wiki/Key%3Alanes">lanes=*</a> neiekļauj velojoslas. Man liekas, tur neko papildus nevajag darīt.</p>
+
+
+
+<a name="319022828"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/319022828" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#319022828">(Jan 02 2023 at 16:27)</a>:</h4>
+<p>Barona pie Brīvības <a href="https://www.openstreetmap.org/way/182216386">https://www.openstreetmap.org/way/182216386</a> tad sanāk:<br>
+<a href="https://wiki.openstreetmap.org/wiki/Tag%3Alanes%3D3">lanes=3</a><br>
+<a href="https://wiki.openstreetmap.org/wiki/Tag%3Alanes:backward%3D1">lanes:backward=1</a><br>
+<a href="https://wiki.openstreetmap.org/wiki/Tag%3Alanes:forward%3D2">lanes:forward=2</a><br>
+<a href="https://wiki.openstreetmap.org/wiki/Tag%3Aoneway%3Dyes">oneway=yes</a><br>
+<a href="https://wiki.openstreetmap.org/wiki/Tag%3Aoneway:tram%3Dno">oneway:tram=no</a><br>
+<a href="https://wiki.openstreetmap.org/wiki/Tag%3Aembedded_rails:lanes:backward%3Dtram">embedded_rails:lanes:backward=tram</a><br>
+embedded_rails:lanes:forward=|tram<br>
+<a href="https://wiki.openstreetmap.org/wiki/Tag%3Asurface%3Dpaving_stones">surface=paving_stones</a><br>
+<a href="https://wiki.openstreetmap.org/wiki/Tag%3Asurface:lanes:backward%3Dunhewn_cobblestone">surface:lanes:backward=unhewn_cobblestone</a><br>
+surface:lanes:forward=|unhewn_cobblestone</p>
+<div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/way/182216386" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/way/182216386" title="Way: ‪Krišjāņa Barona iela‬ (‪182216386‬) | OpenStreetMap">Way: ‪Krišjāņa Barona iela‬ (‪182216386‬) | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="319023784"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/319023784" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#319023784">(Jan 02 2023 at 16:34)</a>:</h4>
+<p>Hmm. CSN "Ja braukšanas joslās ceļu satiksme ir intensīva, apbraucot vai apsteidzot atļauts braukt pa tramvaja sliežu ceļa klātni tajā pašā virzienā vietās, kur sliežu ceļa klātne atrodas <strong>pa kreisi</strong> vienā līmenī ar brauktuvi"... Bet te piemērā ir pa labi. Ko mēs te daram? Diez vai tādi defaulti eksistē, pat ja gribētos kaut kā norādīt bez papildus tagiem. Tad jāliek pagaidām laikam klāt vēl <a href="https://wiki.openstreetmap.org/wiki/Tag%3Avehicle:lanes%3Dyes">vehicle:lanes=yes</a>|no</p>
+
+
+
+<a name="319036737"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/319036737" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#319036737">(Jan 02 2023 at 18:22)</a>:</h4>
+<p>lanes:backward kopā ar <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aoneway%3Dyes">oneway=yes</a> izskatās aizdomīgi...</p>
+
+
+
+<a name="319036908"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/319036908" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#319036908">(Jan 02 2023 at 18:24)</a>:</h4>
+<p><a href="https://wiki.openstreetmap.org/wiki/Tag%3Aoneway:tram%3Dno">oneway:tram=no</a> arī aizdomīgs. Pirmkārt, tramvajam ir savs way, kas apzīmē sliedes, tramvaja lietām jābūt tur. Otrkārt, es neredzu <code>:tram</code> sufiksu <a href="https://wiki.openstreetmap.org/wiki/Key:access#Transport_mode_restrictions">transporta veidu sarakstā</a>.</p>
+
+
+
+<a name="319037418"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/319037418" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#319037418">(Jan 02 2023 at 18:28)</a>:</h4>
+<p>Bet ja liek <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aoneway%3Dno">oneway=no</a>, bet tad tā iela visos routeros būs divvirzienu. Cik labi routeri sapratīs <a href="https://wiki.openstreetmap.org/wiki/Tag%3Avehicle:backward%3Dno">vehicle:backward=no</a> utml?</p>
+
+
+
+<a name="319080130"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/319080130" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#319080130">(Jan 02 2023 at 18:35)</a>:</h4>
+<p>Un ja neliek klāt <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aoneway:tram%3Dno">oneway:tram=no</a>, tad ir tikai <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aoneway%3Dno">oneway=no</a> un tad visi :backward izskatās vēl aizdomīgāk...</p>
+
+
+
+<a name="319080565"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/319080565" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#319080565">(Jan 02 2023 at 18:39)</a>:</h4>
+<p>Jā, sarakstā nav, <a href="https://taginfo.openstreetmap.org/tags/oneway%3Atram=no#overview">taginfo lietots reti</a>. Bet tādas situācija, kad konkrēti tramvajam jānorāda laikam arī ir ļoti reti.</p>
+
+
+
+<a name="319080848"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/319080848" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#319080848">(Jan 02 2023 at 18:42)</a>:</h4>
+<p>Teorētiski, vai <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aoneway%3Dyes">oneway=yes</a> vietā var uzlikt <a href="https://wiki.openstreetmap.org/wiki/Tag%3Avehicle:forward%3Dyes">vehicle:forward=yes</a> + <a href="https://wiki.openstreetmap.org/wiki/Tag%3Avehicle:backward%3Dno">vehicle:backward=no</a>...</p>
+
+
+
+<a name="319081908"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/319081908" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#319081908">(Jan 02 2023 at 18:53)</a>:</h4>
+<p>Es pareizi saprotu, ka tur var braukt tikai vienā virzienā un tikai pa vienu joslu? Un ka pa tramvaja sliedēm braukt nevar?</p>
+
+
+
+<a name="319082081"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/319082081" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#319082081">(Jan 02 2023 at 18:54)</a>:</h4>
+<p>Jā</p>
+
+
+
+<a name="319082164"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/319082164" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#319082164">(Jan 02 2023 at 18:55)</a>:</h4>
+<p>Pie Brasas gan būs variants, kur var autobusi pa sliedēm pretējā virzienā (ja es neko nejaucu)</p>
+
+
+
+<a name="319082656"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/319082656" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#319082656">(Jan 02 2023 at 19:00)</a>:</h4>
+<p>Tad man liekas, ka vajag <a href="https://wiki.openstreetmap.org/wiki/Tag%3Alanes%3D1">lanes=1</a> + <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aoneway%3Dyes">oneway=yes</a> un nekādu embedded_tracks nevajag.</p>
+
+
+
+<a name="319083271"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/319083271" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#319083271">(Jan 02 2023 at 19:06)</a>:</h4>
+<p>Tīri lai iezīmētu drošvien, jā. Bet ja runa par embedded_tracks, man gan liekas, ka te ir pilnīgi noteikti "sliedes uz ceļa" - <a href="https://www.mapillary.com/app/?pKey=4003677389722640&amp;focus=photo">https://www.mapillary.com/app/?pKey=4003677389722640&amp;focus=photo</a>. Hmm...</p>
+
+
+
+<a name="319083380"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/319083380" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#319083380">(Jan 02 2023 at 19:06)</a>:</h4>
+<p>Tur pat vienā pusē pāri sliedēm parkings un otrā pusē ietve un veloceļš</p>
+
+
+
+<a name="319085204"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/319085204" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#319085204">(Jan 02 2023 at 19:25)</a>:</h4>
+<p>Kā zīmēt stāvvietas es nevaru pateikt...<br>
+Veloceļš tur ir drīzāk ietves daļa, nekā brauktuves daļa.</p>
+
+
+
+<a name="319086510"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/319086510" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#319086510">(Jan 02 2023 at 19:38)</a>:</h4>
+<p>Galvenā doma, ka sliedes ir ceļam uz brauktuves vienā līmenī nesadalīti - tas ir teorētiski priekš kā tas embedded_tracks arī paredzēts. Bet tikai šajā gadījumā sanāk auto satiskme vienā virzienā.</p>
+<p>Labāks piemērs laikam ir Miera iela pie Brasas tilta - <a href="https://www.mapillary.com/app/?pKey=329437135447591&amp;focus=photo">https://www.mapillary.com/app/?pKey=329437135447591&amp;focus=photo</a> (Tur pašlaik ar 2 ceļiem iezīmēts.) Šeit pa sliedēm var braukt, ja vajag, bet vienā virzienā. Pretējā virzienā pa sliedēm var braukt autobusi.</p>
+
+
+
+<a name="319088785"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/319088785" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#319088785">(Jan 02 2023 at 20:01)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes/near/319086510">said</a>:</p>
+<blockquote>
+<p>Galvenā doma, ka sliedes ir ceļam uz brauktuves vienā līmenī nesadalīti - tas ir teorētiski priekš kā tas embedded_tracks arī paredzēts. Bet tikai šajā gadījumā sanāk auto satiskme vienā virzienā.</p>
+</blockquote>
+<p><a href="https://wiki.openstreetmap.org/wiki/Key%3Aembedded_rails">embedded_rails=*</a> ir domāts gadījumiem, ja transportam, kas brauc pa <a href="https://wiki.openstreetmap.org/wiki/Key%3Ahighway">highway=*</a>, jābrauc pa sliedēm:</p>
+<blockquote>
+<p>The key <a href="https://wiki.openstreetmap.org/wiki/Key%3Aembedded_rails">embedded_rails=*</a> is added to features tagged with <a href="https://wiki.openstreetmap.org/wiki/Key%3Ahighway">highway=*</a> to notify other traffic that a highway (or a section of it) actually has some type of railway tracks embedded in it</p>
+</blockquote>
+<p>Nekas nav teikts par atdalīts/neatdalīts. Barona ielas posmā no Pērnavas ielas līdz Brīvibas ielai pa sliedēm nav jābrauc, jo nedrīkst. Līdz ar to nav jēgas no <a href="https://wiki.openstreetmap.org/wiki/Key%3Aembedded_tracks">embedded_tracks=*</a>.</p>
+
+
+
+<a name="319089149"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/319089149" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#319089149">(Jan 02 2023 at 20:04)</a>:</h4>
+<p>Hmmmm. Ok. Tad Barona tas gabals bez tram tagiem.</p>
+
+
+
+<a name="319089810"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/319089810" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#319089810">(Jan 02 2023 at 20:11)</a>:</h4>
+<p>A ko darīt ar Miera ielu? Tur visi 3 no <a href="https://wiki.openstreetmap.org/wiki/Key%3Aembedded_rails#Description">https://wiki.openstreetmap.org/wiki/Key%3Aembedded_rails#Description</a> izpildās it kā.</p>
+
+
+
+<a name="319089891"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/319089891" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#319089891">(Jan 02 2023 at 20:11)</a>:</h4>
+<p>(Ja mēs uzskatam, ka "other traffic aside from the (possible) railway-specific traffic" iekļauj autobusus/sabiedrisko)</p>
+
+
+
+<a name="320114517"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/embedded_rails%20%2B%20embedded_rails%3Alanes/near/320114517" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes.html#320114517">(Jan 08 2023 at 20:07)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes/near/319089810">said</a>:</p>
+<blockquote>
+<p>A ko darīt ar Miera ielu? Tur visi 3 no <a href="https://wiki.openstreetmap.org/wiki/Key%3Aembedded_rails#Description">https://wiki.openstreetmap.org/wiki/Key%3Aembedded_rails#Description</a> izpildās it kā.</p>
+</blockquote>
+<p>Svaiga info <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/320114186">šeit</a>.</p>
+
+
+
+<hr><p>Last updated: Mar 02 2026 at 10:27 UTC</p>
+</html>

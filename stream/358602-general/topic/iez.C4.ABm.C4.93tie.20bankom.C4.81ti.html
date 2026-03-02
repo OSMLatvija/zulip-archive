@@ -1,0 +1,577 @@
+<html>
+<head><meta charset="utf-8"><title>iezīmētie bankomāti · general · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/index.html">general</a></h2>
+<h3>Topic: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html">iezīmētie bankomāti</a></h3>
+
+<hr>
+
+<base href="https://osmlatvija.zulipchat.com">
+
+<head><link href="https://osmlatvija.github.io/zulip-archive/style.css" rel="stylesheet"></head>
+
+<a name="350005107"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/350005107" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#350005107">(Apr 14 2023 at 17:09)</a>:</h4>
+<p>Latvijā un Rīgā iezīmētie bankomāti.</p>
+<p>Oranžs - Swedbank<br>
+Zaļš - SEB<br>
+Lillā - Luminor<br>
+Sarkans - Citadele<br>
+Zils - pārējie.</p>
+<p>Dažus "pārējos" paspēju nedaudz palabot - trūka "operator" tags, "Swedban" utt :)<br>
+<a href="/user_uploads/49624/Glsv1t4HZFJ5zp_NDgHv6SSi/image.png">Bankomāti Latvijā</a><br>
+<a href="/user_uploads/49624/52yh7YJOwznt-A1sRaKv-eOc/image.png">Bankomāti Rīgā</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/Glsv1t4HZFJ5zp_NDgHv6SSi/image.png" title="Bankomāti Latvijā"><img src="/user_uploads/49624/Glsv1t4HZFJ5zp_NDgHv6SSi/image.png"></a></div><div class="message_inline_image"><a href="/user_uploads/49624/52yh7YJOwznt-A1sRaKv-eOc/image.png" title="Bankomāti Rīgā"><img src="/user_uploads/49624/52yh7YJOwznt-A1sRaKv-eOc/image.png"></a></div><div class="codehilite" data-code-language="overpass"><pre><span></span><code>[out:json][timeout:250];
+{{geocodeArea:latvia}}-&gt;.searchArea;
+(
+nwr["amenity"="atm"](area.searchArea);
+);
+out center;
+&gt;;
+
+{{style:
+  node
+    { color:blue; fill-color:blue; }
+  node[operator=Swedbank]
+    { color:orange; fill-color:orange; opacity:1; fill-opacity:.6 }
+  node[operator=~/SEB.*/]
+    { color:green; fill-color:green; opacity:1; }
+  node[operator=~/Luminor.*/]
+    { color:purple; fill-color:purple; opacity:1; }
+  node[operator=Citadele]
+    { color:red; fill-color:red; opacity:1; }
+}}
+</code></pre></div>
+
+
+
+<a name="371193837"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/371193837" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#371193837">(Jun 30 2023 at 14:53)</a>:</h4>
+<p>Cenšos dabūt OSM "perfektu" bankomātu datu kopu - šo to pats pamanu un salaboju, šo to pastāsta cilvēki Mastodon.<br>
+Ja ir iespēja, prasiet radiem-draugiem-visiem, kur kaut kas nav pareizi bankomātu datos, un stāstiet man (vai pa tiešo labojiet :) ).</p>
+<p>Te šībrīža situācija, kas šķietami korelē ar iedzīvotāju blīvumu un ekonomisko aktivitāti.<br>
+<a href="/user_uploads/49624/sf3ehu021GyJeUmSfexG_-yG/image.png">Bankomāti Latvijā</a><br>
+<a href="/user_uploads/49624/u-BblDKn54UqAa-sWh7DffmJ/image.png">Bankomāti Rīgā</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/sf3ehu021GyJeUmSfexG_-yG/image.png" title="Bankomāti Latvijā"><img src="/user_uploads/49624/sf3ehu021GyJeUmSfexG_-yG/image.png"></a></div><div class="message_inline_image"><a href="/user_uploads/49624/u-BblDKn54UqAa-sWh7DffmJ/image.png" title="Bankomāti Rīgā"><img src="/user_uploads/49624/u-BblDKn54UqAa-sWh7DffmJ/image.png"></a></div>
+
+
+
+<a name="377774933"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/377774933" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#377774933">(Jul 23 2023 at 09:05)</a>:</h4>
+<p>Kopš pēdējām ziņām esmu atradis neiezīmētus bankomātus Rīgā, Koknesē un Rēzeknē.<br>
+Jauki cilvēki ir palīdzējuši ar precizējumiem vai paši zīmējuši kartē Siguldā (čau Mastodonam :) ), Pāvilostā un citur.<br>
+Noteikti vēl kaut kur kaut kas ir labojams vai pievienojams :)</p>
+
+
+
+<a name="377787580"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/377787580" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#377787580">(Jul 23 2023 at 10:00)</a>:</h4>
+<p>Es gribēju izparsēt banku lapu sarakastu, bet viņi bija salikuši aiz skriptiem uz neizparsējamām kartēm ar saviem iebūvētiem datiem. Jāpaskatās vēlreiz. Tad varētu salīdzināt, cik trūkst.</p>
+
+
+
+<a name="377798932"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/377798932" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#377798932">(Jul 23 2023 at 10:49)</a>:</h4>
+<p>Teorētiski ir <a href="https://www.bank.lv/pakalpojumi/bankomatu-karte">https://www.bank.lv/pakalpojumi/bankomatu-karte</a> , bet tur a) laikam nav atvērti dati; b) arī ir kļūdas...</p>
+<div class="message_embed"><a class="message_embed_image" href="https://www.bank.lv/pakalpojumi/bankomatu-karte" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/d3d016b2e1a1add0632dee5e19eb6558c6755552\/68747470733a2f2f7777772e62616e6b2e6c762f)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.bank.lv/pakalpojumi/bankomatu-karte" title="Bankomātu karte">Bankomātu karte</a></div><div class="message_embed_description">Karšu risinājums par visiem Latvijas teritorijā uzstādītajiem bankomātiem ar iespēju atrast sev vistuvāko bankomātu, kurā var...</div></div></div>
+
+
+
+<a name="377800131"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/377800131" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#377800131">(Jul 23 2023 at 10:54)</a>:</h4>
+<p>Ehh, man tā karte vispār nestrādā tur. Otra karte neko nepievelk. Un nez, cik bieži viņi parsē banku datus vai kā vispār tos saņem. Vislabāk jau no pirmavota ņemt.</p>
+
+
+
+<a name="377800295"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/377800295" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#377800295">(Jul 23 2023 at 10:54)</a>:</h4>
+<p>Es gan Swedbank atradu datu failu pa taisno, kur viņi ielādē no skripta lapu atverot</p>
+
+
+
+<a name="377802600"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/377802600" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#377802600">(Jul 23 2023 at 11:04)</a>:</h4>
+<p>SEB pirms daudziem gadiem savus datus iedeva kā CSV. Bet tur bija dažiem bankomātiem pat 100 metru nobīde, nekāds imports nesanāca.</p>
+
+
+
+<a name="377803812"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/377803812" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#377803812">(Jul 23 2023 at 11:09)</a>:</h4>
+<p>Es cenšos ņemt no mājaslapas publiskās kartes, kas teorētiski ir, lai cilvēki meklētu - tur kļūdām nevajadzētu būt. SEB paskatīšos vēlāk arī.</p>
+
+
+
+<a name="377806352"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/377806352" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#377806352">(Jul 23 2023 at 11:20)</a>:</h4>
+<p>Hehe, kas tas par trap location datos <a href="/user_uploads/49624/1fSAfUQhd9Z_at80tkYQAO4d/itsatrap.png">itsatrap.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/1fSAfUQhd9Z_at80tkYQAO4d/itsatrap.png" title="itsatrap.png"><img src="/user_uploads/49624/1fSAfUQhd9Z_at80tkYQAO4d/itsatrap.png"></a></div>
+
+
+
+<a name="377806756"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/377806756" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#377806756">(Jul 23 2023 at 11:22)</a>:</h4>
+<p>Viņu pašu mājas lapā arī ir <a href="/user_uploads/49624/45G8rrOZAihbSqxH4zbwFBWd/orisit.png">orisit.png</a> var jau protams uzrakstīt pateikt, bet tad vēl kāds izdomās vispār datu failu noslēpt <span aria-label="face with open eyes and hand over mouth" class="emoji emoji-1fae2" role="img" title="face with open eyes and hand over mouth">:face_with_open_eyes_and_hand_over_mouth:</span></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/45G8rrOZAihbSqxH4zbwFBWd/orisit.png" title="orisit.png"><img src="/user_uploads/49624/45G8rrOZAihbSqxH4zbwFBWd/orisit.png"></a></div>
+
+
+
+<a name="377819740"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/377819740" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#377819740">(Jul 23 2023 at 12:18)</a>:</h4>
+<p>Izparsēju Swedbank <a href="https://osmlatvija.github.io/Osmalyzer/Bank%20Locations%20report.html">https://osmlatvija.github.io/Osmalyzer/Bank%20Locations%20report.html</a> Daudz kur liels attālums ar nobīdi, piemēram visādos tirdzniecības centros</p>
+
+
+
+<a name="377833462"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/377833462" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#377833462">(Jul 23 2023 at 13:16)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti/near/377803812">said</a>:</p>
+<blockquote>
+<p>Es cenšos ņemt no mājaslapas publiskās kartes, kas teorētiski ir, lai cilvēki meklētu - tur kļūdām nevajadzētu būt. SEB paskatīšos vēlāk arī.</p>
+</blockquote>
+<p>Simtsmetrīgas laikam vairs nebūs, bet iebakstīts punkts iepirkšanās centra vidū var gadīties :)</p>
+
+
+
+<a name="377833545"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/377833545" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#377833545">(Jul 23 2023 at 13:17)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti/near/377806352">said</a>:</p>
+<blockquote>
+<p>Hehe, kas tas par trap location datos <a href="/user_uploads/49624/1fSAfUQhd9Z_at80tkYQAO4d/itsatrap.png">itsatrap.png</a></p>
+</blockquote>
+<p>Superīgs piemērs par dažādu datu kopu kvalitāti :)</p>
+
+
+
+<a name="377835532"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/377835532" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#377835532">(Jul 23 2023 at 13:27)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568771">Rihards Olups</span> <a href="#narrow/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti/near/377833545">said</a>:</p>
+<blockquote>
+<p>Superīgs piemērs par dažādu datu kopu kvalitāti :)</p>
+</blockquote>
+<p>Elvi arī ir tāds veikals <a href="https://osmlatvija.github.io/Osmalyzer/Shop%20Networks%20report.html#g1">https://osmlatvija.github.io/Osmalyzer/Shop%20Networks%20report.html#g1</a></p>
+
+
+
+<a name="377870024"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/377870024" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#377870024">(Jul 23 2023 at 16:00)</a>:</h4>
+<p>Elvi piemērs burvīgs - interesanti, kā tāds radies.<br>
+Mani Neste baigi atšuva pirms dažiem gadiem, tagad nav skaidrs, vai vērts ar uzņēmumiem vispār sazināties.</p>
+<p>BTW, varbūt veikalu tēmu jāpārnes atsevišķā projekta topikā?</p>
+
+
+
+<a name="377873180"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/377873180" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#377873180">(Jul 23 2023 at 16:13)</a>:</h4>
+<p>Nu es jau tikai vienu komentāru. Ja tu gribi vairāk par to, var jau pārnest. Man tur nav pagaidām neko daudz ko patiekt.</p>
+
+
+
+<a name="377873304"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/377873304" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#377873304">(Jul 23 2023 at 16:13)</a>:</h4>
+<p>Un Elvi koordinātei abi skaitļi vienādi - ievades kļūda.</p>
+
+
+
+<a name="379030580"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/379030580" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Regita Zeiļa <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#379030580">(Jul 27 2023 at 07:09)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568771">Rihards Olups</span> <a href="#narrow/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti/near/371193837">said</a>:</p>
+<blockquote>
+<p>Cenšos dabūt OSM "perfektu" bankomātu datu kopu - šo to pats pamanu un salaboju, šo to pastāsta cilvēki Mastodon.<br>
+Ja ir iespēja, prasiet radiem-draugiem-visiem, kur kaut kas nav pareizi bankomātu datos, un stāstiet man (vai pa tiešo labojiet :) ).</p>
+<p>Te šībrīža situācija, kas šķietami korelē ar iedzīvotāju blīvumu un ekonomisko aktivitāti.<br>
+<a href="/user_uploads/49624/sf3ehu021GyJeUmSfexG_-yG/image.png">Bankomāti Latvijā</a><br>
+<a href="/user_uploads/49624/u-BblDKn54UqAa-sWh7DffmJ/image.png">Bankomāti Rīgā</a></p>
+</blockquote>
+<p>Jautājums par ATM = vai var norādīt, ka ir contactless?</p>
+
+
+
+<a name="379088177"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/379088177" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#379088177">(Jul 27 2023 at 10:08)</a>:</h4>
+<p>Ļoti labs jautājums. <a href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Datm">https://wiki.openstreetmap.org/wiki/Tag:amenity%3Datm</a> un diskusiju lapā neko tādu nemanu.</p>
+<p>Maksājumu tagam <a href="https://wiki.openstreetmap.org/wiki/Key:payment:*#Contactless_payment">https://wiki.openstreetmap.org/wiki/Key:payment:*#Contactless_payment</a> ir diezgan daudz dažādas versijas, bet nezinu, vai kas tāds vispār ir atbilstošs ATM.</p>
+<p>Ir arī maz lietots contactless tags (22 reizes): <a href="https://taginfo.openstreetmap.org/keys/contactless#values">https://taginfo.openstreetmap.org/keys/contactless#values</a> . Viens charging_station (laikam jābūt payment), daļa miskastēm, bet daļa arī ATM: <a href="https://overpass-turbo.eu/s/1y4C">https://overpass-turbo.eu/s/1y4C</a> .</p>
+<p>Es piedāvātu lietot <a href="https://wiki.openstreetmap.org/wiki/Tag%3Acontactless%3Dyes">contactless=yes</a>/no un dokumentēt to <a href="https://wiki.openstreetmap.org/wiki/Tag:amenity%3Datm">ATM lapā</a>.</p>
+
+
+
+<a name="392655554"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/392655554" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Edgars Košovojs <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#392655554">(Sep 23 2023 at 07:13)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568771">Rihards Olups</span> <a href="#narrow/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti/near/377798932">said</a>:</p>
+<blockquote>
+<p>Teorētiski ir <a href="https://www.bank.lv/pakalpojumi/bankomatu-karte">https://www.bank.lv/pakalpojumi/bankomatu-karte</a> , bet tur a) laikam nav atvērti dati; b) arī ir kļūdas...</p>
+</blockquote>
+<p>šajā kartē datiem jābūt labākiem kā ir atsevišķu banku mājaslapās (ja vien LB nedod atpakaļ datus, par ko es šaubītos). cik atminos, šajā kartē bankomātis likām pēc adreses (ar visām no tā izrietošajām problēmām :) )</p>
+
+
+
+<a name="392693202"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/392693202" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#392693202">(Sep 23 2023 at 12:30)</a>:</h4>
+<p>Tur atradām bankomātus, kuri dabā jau sen vairs nebija, līdz ar to uzticamība datu kopai samazinājās ;)<br>
+Likšana pēc adreses - o jā, tad skaidrs par novietojumu. Tā daudzās datu kopās joprojām ir pakomāti utt.</p>
+
+
+
+<a name="392792012"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/392792012" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Edgars Košovojs <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#392792012">(Sep 24 2023 at 07:28)</a>:</h4>
+<p>parasti tajos datos, kas sastopami uzņēmumu mājaslapās/datubāzēs, adreses ir labākas kvalitātes nekā koordinātas, tāpēc mēs pārsvarā tās arī izmantojam.</p>
+
+
+
+<a name="400771718"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/400771718" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Regita Zeiļa <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#400771718">(Nov 07 2023 at 16:08)</a>:</h4>
+<p>Te panesās diskusija par bankomātiem Xā, vai vari iedot Overpass linku, kurā vienuviet var apskatīt iezīmētos? <span class="user-mention" data-user-id="568771">@Rihards Olups</span>  <span aria-label="octopus" class="emoji emoji-1f419" role="img" title="octopus">:octopus:</span></p>
+
+
+
+<a name="400778916"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/400778916" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#400778916">(Nov 07 2023 at 16:46)</a>:</h4>
+<p>Links ir pirmajā messagā, nospiežot "show more" un labajā augšajā stūrī kodam ir "view in overpass". Tur links garš, bet var uztaisīt īsaku ar Share</p>
+
+
+
+<a name="400818147"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/400818147" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#400818147">(Nov 07 2023 at 21:24)</a>:</h4>
+<p>Mobilajā lietotnē tas "View in..." nestrādā.</p>
+
+
+
+<a name="400820264"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/400820264" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#400820264">(Nov 07 2023 at 21:40)</a>:</h4>
+<p><a href="https://overpass-turbo.eu/s/1D5C">https://overpass-turbo.eu/s/1D5C</a></p>
+
+
+
+<a name="400928880"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/400928880" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#400928880">(Nov 08 2023 at 11:57)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="573577">Regita Zeiļa</span> <a href="#narrow/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti/near/400771718">said</a>:</p>
+<blockquote>
+<p>Te panesās diskusija par bankomātiem Xā, vai vari iedot Overpass linku, kurā vienuviet var apskatīt iezīmētos? <span class="user-mention silent" data-user-id="568771">Rihards Olups</span>  <span aria-label="octopus" class="emoji emoji-1f419" role="img" title="octopus">:octopus:</span></p>
+</blockquote>
+<p>Jā, pirmais posts un HellMap kopētais links laikam būs pareizie. Diezgan daudz info par nepieciešamām izmaiņām nākusi no <a href="https://mastodon.social/@richlv/110198236923813071">https://mastodon.social/@richlv/110198236923813071</a> .<br>
+Vakardienas tikšanās laikā tika pieminēts viens vairs neesošs Brīvības ielā, to šodien pārbaudīju Mapillary bildēs un izņēmu :)</p>
+<p>Kāda diskusija par bankomātiem?</p>
+<div class="message_embed"><a class="message_embed_image" href="https://mastodon.social/@richlv/110198236923813071" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6931e99dd073618cac60c84292fcb0fed13fc999\/68747470733a2f2f66696c65732e6d6173746f646f6e2e736f6369616c2f6d656469615f6174746163686d656e74732f66696c65732f3131302f3139382f3233362f3232322f3934322f3430382f6f726967696e616c2f663164333865343735633662333931372e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://mastodon.social/@richlv/110198236923813071" title="Rihards Olups (@richlv@mastodon.social)">Rihards Olups (@richlv@mastodon.social)</a></div><div class="message_embed_description">Attached: 2 images
+
+#OpenStreetMap iezīmētie bankomāti Latvijā un Rīgā.
+
+Oranžs - Swedbank
+Zaļš - SEB
+Lillā - Luminor
+Sarkans - Citadele
+Zils - pārējie.</div></div></div>
+
+
+
+<a name="401440279"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/401440279" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Regita Zeiļa <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#401440279">(Nov 10 2023 at 21:38)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568771">Rihards Olups</span> <a href="#narrow/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti/near/400928880">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="573577">Regita Zeiļa</span> <a href="#narrow/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti/near/400771718">said</a>:</p>
+<blockquote>
+<p>Te panesās diskusija par bankomātiem Xā, vai vari iedot Overpass linku, kurā vienuviet var apskatīt iezīmētos? <span class="user-mention silent" data-user-id="568771">Rihards Olups</span>  <span aria-label="octopus" class="emoji emoji-1f419" role="img" title="octopus">:octopus:</span></p>
+</blockquote>
+<p>Jā, pirmais posts un HellMap kopētais links laikam būs pareizie. Diezgan daudz info par nepieciešamām izmaiņām nākusi no <a href="https://mastodon.social/@richlv/110198236923813071">https://mastodon.social/@richlv/110198236923813071</a> .<br>
+Vakardienas tikšanās laikā tika pieminēts viens vairs neesošs Brīvības ielā, to šodien pārbaudīju Mapillary bildēs un izņēmu :)</p>
+<p>Kāda diskusija par bankomātiem?</p>
+</blockquote>
+<p>Te bija īsumā, bet cik saprotu, kaut kur citur plašāk runāts: <br>
+<a href="https://twitter.com/laurijss/status/1721806649474584663?s=61&amp;t=wVXlPNLDSFj7ORfcJwCUjg">https://twitter.com/laurijss/status/1721806649474584663?s=61&amp;t=wVXlPNLDSFj7ORfcJwCUjg</a></p>
+
+
+
+<a name="401441220"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/401441220" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#401441220">(Nov 10 2023 at 21:52)</a>:</h4>
+<p>Ai, man šo vairs never vaļā :)<br>
+Ja nu sanāk iekopēt, būtu burvīgi.</p>
+
+
+
+<a name="404730884"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/404730884" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#404730884">(Nov 28 2023 at 22:32)</a>:</h4>
+<p>Vēl noparsēju SEB bankomātus/filiāles <a href="https://osmlatvija.github.io/Osmalyzer/SEB%20Locations%20report.html">https://osmlatvija.github.io/Osmalyzer/SEB%20Locations%20report.html</a> Tādu čakarēšanos sen nebiju darījis... bankas kā parasti pārspēj visus ar stulbām mājas lapām.</p>
+
+
+
+<a name="404823853"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/404823853" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#404823853">(Nov 29 2023 at 09:43)</a>:</h4>
+<p>Paldies, no šī var kaut ko medīt.<br>
+Daļa gan ir šādi, kur Rocketdata brutāli blakus esošam bankomāta punktam iedēstīja jaunu.<br>
+<a href="/user_uploads/49624/xpPG_fs-U4rdTKUsGhe5df89/image.png">Rocketdata darbs</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/xpPG_fs-U4rdTKUsGhe5df89/image.png" title="Rocketdata darbs"><img src="/user_uploads/49624/xpPG_fs-U4rdTKUsGhe5df89/image.png"></a></div>
+
+
+
+<a name="404827522"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/404827522" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#404827522">(Nov 29 2023 at 10:04)</a>:</h4>
+<p>Vai var kaut kā marķēt vietas, kurās OSM darti daudz labāki (lai nākamajā versijā neparādās)?<br>
+<a href="/user_uploads/49624/zoC8BwJ-3laQ8WPzLFh-X4RU/image.png">SEB dati Vecpiebalgā</a><br>
+<a href="/user_uploads/49624/plwTCdNTOXuyGLcNw7KvRtKc/image.png">SEB dati Ogrē</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/zoC8BwJ-3laQ8WPzLFh-X4RU/image.png" title="SEB dati Vecpiebalgā"><img src="/user_uploads/49624/zoC8BwJ-3laQ8WPzLFh-X4RU/image.png"></a></div><div class="message_inline_image"><a href="/user_uploads/49624/plwTCdNTOXuyGLcNw7KvRtKc/image.png" title="SEB dati Ogrē"><img src="/user_uploads/49624/plwTCdNTOXuyGLcNw7KvRtKc/image.png"></a></div>
+
+
+
+<a name="404828011"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/404828011" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#404828011">(Nov 29 2023 at 10:07)</a>:</h4>
+<p>Oi, tādu ir simtiem <span aria-label="grinning face with smiling eyes" class="emoji emoji-1f601" role="img" title="grinning face with smiling eyes">:grinning_face_with_smiling_eyes:</span></p>
+
+
+
+<a name="404828096"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/404828096" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#404828096">(Nov 29 2023 at 10:07)</a>:</h4>
+<p>Tu jau te izvēlējies smukus piemērus, kur blakus. Bankām dažās vietās 300+ metri, kur pēc adreses ielikts.</p>
+
+
+
+<a name="404828305"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/404828305" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#404828305">(Nov 29 2023 at 10:08)</a>:</h4>
+<p>Nu jā, bet marķējot kā false positives atlikušo būs vieglāk pārbaudīt.</p>
+
+
+
+<a name="404828380"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/404828380" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#404828380">(Nov 29 2023 at 10:09)</a>:</h4>
+<p>Te WTF piemērs. Pat adrese te nav...<br>
+<a href="/user_uploads/49624/QMMagLh2b9bxBaVQMcYxjAr5/image.png">SEB dati Ādažos</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/QMMagLh2b9bxBaVQMcYxjAr5/image.png" title="SEB dati Ādažos"><img src="/user_uploads/49624/QMMagLh2b9bxBaVQMcYxjAr5/image.png"></a></div>
+
+
+
+<a name="404828413"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/404828413" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#404828413">(Nov 29 2023 at 10:09)</a>:</h4>
+<p>Jā, varētu padomāt par kaut kādu "feedback" sistēmu norādīt, ka viss ok ar "problēmu". Te gan "problēma" - kā man unikāli atpazīt katru problēmu? Un ja kaut kas izmainās...? Doma laikam oriģināli bija nemēģināt bakstīt manuāli, bet ļaut automātiski salīdzināt.</p>
+
+
+
+<a name="404828523"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/404828523" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#404828523">(Nov 29 2023 at 10:10)</a>:</h4>
+<p>Jā, Ādažu bankomāts ir tālāk nekā 300 metri :)</p>
+
+
+
+<a name="404828668"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/404828668" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#404828668">(Nov 29 2023 at 10:11)</a>:</h4>
+<p>Te tas pats. Kaut kāds bankomāts randomā citā veikalā.<br>
+<a href="/user_uploads/49624/Kuy0mclPljP-CLRRQfvWKT4o/image.png">SEB dati Ādažos 2</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/Kuy0mclPljP-CLRRQfvWKT4o/image.png" title="SEB dati Ādažos 2"><img src="/user_uploads/49624/Kuy0mclPljP-CLRRQfvWKT4o/image.png"></a></div>
+
+
+
+<a name="404828684"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/404828684" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#404828684">(Nov 29 2023 at 10:11)</a>:</h4>
+<p>Tagad, kad prakstiski var redzēt, kā izskatās rezultāts, var kaut kā domāt par false positives risināšanu.</p>
+
+
+
+<a name="404829028"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/404829028" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#404829028">(Nov 29 2023 at 10:12)</a>:</h4>
+<p>Ja es nejaucu - agrāk (laikam 5+ gadi) Ādažos Elvi tur bija vecā ēkā, pēc tam pārbrauca uz jauno ēku. Bet protams banka jau karti nelabos :D</p>
+
+
+
+<a name="404829289"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/404829289" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#404829289">(Nov 29 2023 at 10:13)</a>:</h4>
+<p>Vēl ir tīri praktiska problēma - es gluži nezinu, kur un kā datus glabāt, ja users tos norādīs. Jo te viss readonly pagaidām. Tas saits arī katru reizi pa jauno nonesās viss. Tad kaut kur atpakaļ githubā - bet tad būs bezgalīgi commiti. Es nez. Maksāt par savu hostingu un vispār tik tālu čakarēties, nezinu.</p>
+
+
+
+<a name="404829749"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/404829749" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#404829749">(Nov 29 2023 at 10:16)</a>:</h4>
+<p><a href="http://github.io">github.io</a> arī laikam ir static - tur nemaz neielikt kaut ko, kas ne uz usera ekrāna kaut ko dara (tad pašam userim vajadzēs github kontu vai kaut ko tādu)</p>
+
+
+
+<a name="404831479"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/404831479" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dāvis Kļaviņš <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#404831479">(Nov 29 2023 at 10:25)</a>:</h4>
+<p>Pieglabā no bankas mājaslapas izgūtos datus, nākamajā reizē salīdzini pret iepriekšējiem, bet tālak ar OSM salīdzini tikai tos, kas mainījušies, nākuši klāt vai dzēsti. Datus pārbaudei var ielikt kaut rediģējamā Google Spreadsheet, kur papildus kolonna ar pārbaudes statusu. Tehniski prasti, bet vienkārši realizēt.</p>
+
+
+
+<a name="404832750"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/404832750" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#404832750">(Nov 29 2023 at 10:30)</a>:</h4>
+<p>Jā, publisku Google spreadsheet lapu varētu izmantot (vai arī ne publisku, bet autorizēt, kurš prasa). Userim gan būs jābūt kontam tam. Gribētos jau ideāli lai OSM kontu lieto, bet ar to tad jātaisa kaut kāds custom risinājums.</p>
+
+
+
+<a name="404835456"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/404835456" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#404835456">(Nov 29 2023 at 10:41)</a>:</h4>
+<p>Ar "datiem" vēl ir problēma, ka tie dati nav īpaši stabili vai standartizēti. Es nevaru tos glabāt sākotnējā veidā (kaut kāds xml vai html gabals vai geo fails vai kas tik ne) - es varu glabāt tikai izparsēto. Tātad es varu identificēt unikāli ierakstus pēc to satura (un kaut kādu hashu uztaisīt). Un tad glabāt sarakstu ar tiem, ko users pasaka "ir ok" konkrētam problēmas tipam. Bet tikai te - users jau to saka OSM elementam, ka viss ok. Tāpēc teorētiski es glabātu OSM id un OSM tegus. Citādi - kāds novāks "SEB" no nosaukuma, bet tas nerādīs, kā problēmu. No otras puses, kāds pieliks <a href="https://wiki.openstreetmap.org/wiki/Tag%3Atoilets%3Dyes">toilets=yes</a> pie tā un tas atkal parādīsies kā problēma. Tāpēc arī te vajag konkrētus tegus saglabāt. Un tad laikam būs tāds dati-osm-rezultāts ieraksts. Hmmm.</p>
+
+
+
+<a name="404836696"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/404836696" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#404836696">(Nov 29 2023 at 10:47)</a>:</h4>
+<p>Klau, tajos datos nav kaut kāds "vēsturisks" atribūts?<br>
+SEB lapā it kā Ādažu duplicētie neparādās.</p>
+
+
+
+<a name="404837360"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/404837360" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#404837360">(Nov 29 2023 at 10:50)</a>:</h4>
+<p>Ēēē, tev vajadzēs konkrētāk piemēru/bildi, es ne visai saprotu, ko tas nozīmē. (Jeb precīzāk - tajos visos datus ir tik daudz šķībuma, ka neuzminēt, kura problēma tev <span aria-label="upside down" class="emoji emoji-1f643" role="img" title="upside down">:upside_down:</span> )</p>
+
+
+
+<a name="404837620"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/404837620" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#404837620">(Nov 29 2023 at 10:51)</a>:</h4>
+<p>Ja tur ir kaut kādi vēsturiski, tad tie ir nenormāli tizli. Piemēram,<br>
+<a href="/user_uploads/49624/VeY9R_NdY7EkK6i5ZDfQfaG4/demon.png">demon.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/VeY9R_NdY7EkK6i5ZDfQfaG4/demon.png" title="demon.png"><img src="/user_uploads/49624/VeY9R_NdY7EkK6i5ZDfQfaG4/demon.png"></a></div>
+
+
+
+<a name="404837982"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/404837982" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#404837982">(Nov 29 2023 at 10:54)</a>:</h4>
+<p>Cik es saprotu Ādažus, tad tur ir tā: <br>
+<a href="/user_uploads/49624/_DjnEXU4LlzHiO7AA4Ke0yLQ/image.png">image.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/_DjnEXU4LlzHiO7AA4Ke0yLQ/image.png" title="image.png"><img src="/user_uploads/49624/_DjnEXU4LlzHiO7AA4Ke0yLQ/image.png"></a></div>
+
+
+
+<a name="404838540"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/404838540" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#404838540">(Nov 29 2023 at 10:56)</a>:</h4>
+<p>Laikam jāuztaisa dažādas ikonas. Te teorētiski ir 4 problēmas 2 reāliem gadījumiem. Tā kā tik liels attālums, tad parsētājs tos pat "nesavieno". Tāpēc atrod OSM bez datu biedra un atrod SEB ierakstu bez OSM biedra.</p>
+
+
+
+<a name="404840291"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/404840291" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#404840291">(Nov 29 2023 at 11:05)</a>:</h4>
+<p>Teorētiski, vēl es varētu "savienot" pēc sakrītošas adreses un atļaut lielāku attālumu gadījumiem, ja ir šāda "cieša" sakritība. Te gan jāparsē tā manuāli rakstītā adrese bankas sarakstā salīdzināt ar OSM adresi.</p>
+
+
+
+<a name="404842160"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/404842160" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#404842160">(Nov 29 2023 at 11:17)</a>:</h4>
+<p>Ā, sapratu - pie OSM punktiem nemaz nav SEB punktu. Un jā, viņu mājaslapā arī viss tik pat šķībi, pirms tam pārskatījos.<br>
+SEB lapā pat kartes nav, ir tikai linki uz GMaps.</p>
+
+
+
+<a name="404946347"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/404946347" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#404946347">(Nov 29 2023 at 20:42)</a>:</h4>
+<p>Varbūt <span class="user-mention" data-user-id="573577">@Regita Zeiļa</span>, <span class="user-mention" data-user-id="634605">@Amanda Anusāne</span> var pastāstīt par <a href="https://www.openstreetmap.org/node/3709531147">https://www.openstreetmap.org/node/3709531147</a> - šis bankomāts tur varbūt vairs nav? :)</p>
+<div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/node/3709531147" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/node/3709531147" title="Node: 3709531147 | OpenStreetMap">Node: 3709531147 | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="405119728"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/405119728" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#405119728">(Nov 30 2023 at 13:41)</a>:</h4>
+<p>Uzlaboju nedaudz atpazīšanu arī pavisam tālākiem objektiem, ja iespējams tos identificēt kā cieši sakrītošus (šeit pēc adreses) <a href="/user_uploads/49624/NOIaFX5XI-df9SoXiIBDUUGD/SEB-better.png">SEB-better.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/NOIaFX5XI-df9SoXiIBDUUGD/SEB-better.png" title="SEB-better.png"><img src="/user_uploads/49624/NOIaFX5XI-df9SoXiIBDUUGD/SEB-better.png"></a></div>
+
+
+
+<a name="405196971"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/405196971" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#405196971">(Nov 30 2023 at 20:34)</a>:</h4>
+<p>Ooo powah, būs jāspēlējas vēlāk :)</p>
+
+
+
+<a name="405208560"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/405208560" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#405208560">(Nov 30 2023 at 21:28)</a>:</h4>
+<p>Tev par prieku <a href="https://osmlatvija.github.io/Osmalyzer/Citadele%20Locations%20report.html">Citadele</a> un <a href="https://osmlatvija.github.io/Osmalyzer/Luminor%20Locations%20report.html">Luminor</a> izparsējumi <span aria-label="money face" class="emoji emoji-1f911" role="img" title="money face">:money_face:</span></p>
+
+
+
+<a name="405320897"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/405320897" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#405320897">(Dec 01 2023 at 09:28)</a>:</h4>
+<p>Ooo, powah :)</p>
+
+
+
+<a name="405321072"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/405321072" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#405321072">(Dec 01 2023 at 09:29)</a>:</h4>
+<p>Un arī šādi.<br>
+<a href="/user_uploads/49624/OV4GzEHmJOs2kxRb3pYI5LYu/image.png">1</a><br>
+<a href="/user_uploads/49624/Ho-LdJRgf0NuFBbbnqO3jNkw/image.png">2</a><br>
+<a href="/user_uploads/49624/GJKqmaelqz241baNAHHBLKw-/image.png">3</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/OV4GzEHmJOs2kxRb3pYI5LYu/image.png" title="1"><img src="/user_uploads/49624/OV4GzEHmJOs2kxRb3pYI5LYu/image.png"></a></div><div class="message_inline_image"><a href="/user_uploads/49624/Ho-LdJRgf0NuFBbbnqO3jNkw/image.png" title="2"><img src="/user_uploads/49624/Ho-LdJRgf0NuFBbbnqO3jNkw/image.png"></a></div><div class="message_inline_image"><a href="/user_uploads/49624/GJKqmaelqz241baNAHHBLKw-/image.png" title="3"><img src="/user_uploads/49624/GJKqmaelqz241baNAHHBLKw-/image.png"></a></div>
+
+
+
+<a name="405321919"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/405321919" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#405321919">(Dec 01 2023 at 09:34)</a>:</h4>
+<p>Pfff, nu jā, te reāli bankai jāraksta jāsūdzās tad. To visu viņiem kāds ar rokām tur bakstījis. Un pirms mums diez vai kāds īpaši šitā salīdzinājis. Protams var taisīt to manuālo "viss ok", bet nu...</p>
+
+
+
+<a name="405322402"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/405322402" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#405322402">(Dec 01 2023 at 09:36)</a>:</h4>
+<p>Es to 333 pazinu no pēdējās bildes, kur atvēru. Man vispirms nepieleca, ka tu to pašu vietu 3 reiz pievilki <span aria-label="melting face" class="emoji emoji-1fae0" role="img" title="melting face">:melting_face:</span></p>
+
+
+
+<a name="405496145"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/405496145" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Regita Zeiļa <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#405496145">(Dec 02 2023 at 05:13)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568771">Rihards Olups</span> <a href="#narrow/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti/near/404946347">said</a>:</p>
+<blockquote>
+<p>Varbūt <span class="user-mention silent" data-user-id="573577">Regita Zeiļa</span>, <span class="user-mention silent" data-user-id="634605">Amanda Anusāne</span> var pastāstīt par <a href="https://www.openstreetmap.org/node/3709531147">https://www.openstreetmap.org/node/3709531147</a> - šis bankomāts tur varbūt vairs nav? :)</p>
+</blockquote>
+<p>Ir, ir! Darbojas</p>
+
+
+
+<a name="405516447"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/405516447" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#405516447">(Dec 02 2023 at 09:24)</a>:</h4>
+<p>Super, liels paldies :)<br>
+Ļoti interesanti, ka it kā SEB datos tāda nav.<br>
+<a href="/user_uploads/49624/0K8dJV6iDFrZ-H5x-edfSr85/image.png">SEB Rēzeknē</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/0K8dJV6iDFrZ-H5x-edfSr85/image.png" title="SEB Rēzeknē"><img src="/user_uploads/49624/0K8dJV6iDFrZ-H5x-edfSr85/image.png"></a></div>
+
+
+
+<a name="405519922"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/405519922" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#405519922">(Dec 02 2023 at 10:13)</a>:</h4>
+<p>Varbūt tur tomēr nav 2?</p>
+
+
+
+<a name="405544832"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/405544832" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#405544832">(Dec 02 2023 at 15:47)</a>:</h4>
+<p>Jā, skatos Mapillary - izskatās, ka tomēr varētu būt zudis.<br>
+<span class="user-mention" data-user-id="573577">@Regita Zeiļa</span>, vai ir tieši tas - ēkā, kur agrāk bija DNB?</p>
+
+
+
+<a name="405544945"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/405544945" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#405544945">(Dec 02 2023 at 15:49)</a>:</h4>
+<p>Pati filiāle ir blakus zaļajam. Būtu dīvaini, ka vēl viens bankomāts blakus mājā.</p>
+
+
+
+<a name="405545500"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/405545500" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#405545500">(Dec 02 2023 at 15:57)</a>:</h4>
+<p>O, atradu svaigu Mapillary bildi. Izskatās, ka prom i'.<br>
+<a href="https://www.mapillary.com/app/?pKey=998885854641163">https://www.mapillary.com/app/?pKey=998885854641163</a></p>
+
+
+
+<a name="405545597"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/405545597" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#405545597">(Dec 02 2023 at 15:59)</a>:</h4>
+<p>A varbūt vienkārši zem palaga? <a href="https://wiki.openstreetmap.org/wiki/Tag%3Acovered%3Dyes">covered=yes</a> <span aria-label="grinning face with smiling eyes" class="emoji emoji-1f601" role="img" title="grinning face with smiling eyes">:grinning_face_with_smiling_eyes:</span></p>
+
+
+
+<a name="405546522"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/405546522" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#405546522">(Dec 02 2023 at 16:09)</a>:</h4>
+<p>Nē, ir vecākas bildes, kur redzams, ka bankomāta vieta vispār aizmūrēta :)</p>
+
+
+
+<a name="405557188"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/405557188" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Regita Zeiļa <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#405557188">(Dec 02 2023 at 18:41)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568771">Rihards Olups</span> <a href="#narrow/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti/near/405544832">said</a>:</p>
+<blockquote>
+<p>Jā, skatos Mapillary - izskatās, ka tomēr varētu būt zudis.<br>
+<span class="user-mention silent" data-user-id="573577">Regita Zeiļa</span>, vai ir tieši tas - ēkā, kur agrāk bija DNB?</p>
+</blockquote>
+<p>jap, tomēr cita lokācija, tagad sapratu, ka sajaucu ar to, kas ir iekš filiāles!</p>
+
+
+
+<a name="405619451"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/iez%C4%ABm%C4%93tie%20bankom%C4%81ti/near/405619451" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti.html#405619451">(Dec 03 2023 at 08:46)</a>:</h4>
+<p>Paldies, nomainīju uz "disused".</p>
+
+
+
+<hr><p>Last updated: Mar 02 2026 at 10:27 UTC</p>
+</html>

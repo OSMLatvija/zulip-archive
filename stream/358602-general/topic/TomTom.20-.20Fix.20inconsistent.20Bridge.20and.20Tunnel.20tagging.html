@@ -1,0 +1,79 @@
+<html>
+<head><meta charset="utf-8"><title>TomTom - Fix inconsistent Bridge and Tunnel tagging · general · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/index.html">general</a></h2>
+<h3>Topic: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/TomTom.20-.20Fix.20inconsistent.20Bridge.20and.20Tunnel.20tagging.html">TomTom - Fix inconsistent Bridge and Tunnel tagging</a></h3>
+
+<hr>
+
+<base href="https://osmlatvija.zulipchat.com">
+
+<head><link href="https://osmlatvija.github.io/zulip-archive/style.css" rel="stylesheet"></head>
+
+<a name="366784731"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/TomTom%20-%20Fix%20inconsistent%20Bridge%20and%20Tunnel%20tagging/near/366784731" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tomek_Koz <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/TomTom.20-.20Fix.20inconsistent.20Bridge.20and.20Tunnel.20tagging.html#366784731">(Jun 16 2023 at 11:06)</a>:</h4>
+<p>Hi Latvia community!<br>
+I bet some of you remember me from State of the Map Baltics last week, where I had a talk about TomTom’s cooperation with and contribution to OpenStreetMap.<br>
+As said during the presentation (which I think will be available shortly as a recording for those who could not attend) I want to share a couple of MapRoulette challenges that can help fix map issues in your country.<br>
+You’re welcome to try these out, and we appreciate any feedback you may have.</p>
+<p>Challenge urls:<br>
+Fix inconsistent Bridge and Tunnel tagging: <a href="https://maproulette.org/browse/challenges/39498">https://maproulette.org/browse/challenges/39498</a></p>
+<p>You can find more information about each challenge in the description in MapRoulette.<br>
+Our editing team may also work on these challenges in a couple of week.</p>
+<p>If you have another topic you’d like to discuss, or other map issues you’d like us to look into, feel free to send me a personal message or contact <a href="mailto:osm@tomtom.com">osm@tomtom.com</a>.</p>
+<p>Thank you!</p>
+<p>Regards,<br>
+Tomasz</p>
+
+
+
+<a name="366798065"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/TomTom%20-%20Fix%20inconsistent%20Bridge%20and%20Tunnel%20tagging/near/366798065" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/TomTom.20-.20Fix.20inconsistent.20Bridge.20and.20Tunnel.20tagging.html#366798065">(Jun 16 2023 at 11:51)</a>:</h4>
+<p>Hi, thank you for the interest in OSM data quality.<br>
+There seems to be very little information on what is actually checked - even the Maproulette task itself has just this:</p>
+<blockquote>
+<p>Expectation<br>
+Identify and fix cases where the bridge or tunnel has an incorrect tag.<br>
+Origin of Leads<br>
+Based on OSM Wiki guidelines, we developed an FME workbench which detected inconsistently tagged bridges and tunnels.</p>
+</blockquote>
+<p>Where could we find all the rules/cases that are included here?</p>
+
+
+
+<a name="366810650"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/TomTom%20-%20Fix%20inconsistent%20Bridge%20and%20Tunnel%20tagging/near/366810650" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tomasz Kozlowski <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/TomTom.20-.20Fix.20inconsistent.20Bridge.20and.20Tunnel.20tagging.html#366810650">(Jun 16 2023 at 12:30)</a>:</h4>
+<p>Hi Rihards,<br>
+each task is attributed with detailed information in properties, where issue is described; we were reviewing the data based on bridge or tunnel tag and related components, like is layer correctly added to an element, if attributes are not contradicted, etc. Of course, if you want I can provide more detailed information per each 'issue type'.</p>
+
+
+
+<a name="366818531"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/TomTom%20-%20Fix%20inconsistent%20Bridge%20and%20Tunnel%20tagging/near/366818531" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/TomTom.20-.20Fix.20inconsistent.20Bridge.20and.20Tunnel.20tagging.html#366818531">(Jun 16 2023 at 12:51)</a>:</h4>
+<p>Do you expect explicit <code>layer=0</code> on <code>tunnel</code> that is at ground level?<br>
+Description of <a href="https://wiki.openstreetmap.org/wiki/Key%3Alayer">layer=*</a> says:</p>
+<blockquote>
+<p>0 should not be used explicitly.</p>
+</blockquote>
+<p>and</p>
+<blockquote>
+<p>Features at layer 0 should not normally have a layer tag.</p>
+</blockquote>
+
+
+
+<a name="366819829"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/TomTom%20-%20Fix%20inconsistent%20Bridge%20and%20Tunnel%20tagging/near/366819829" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tomasz Kozlowski <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/TomTom.20-.20Fix.20inconsistent.20Bridge.20and.20Tunnel.20tagging.html#366819829">(Jun 16 2023 at 12:54)</a>:</h4>
+<p>Hi i-ky,<br>
+We do not want to solve an error only to have that fixed. There are of course general capturing rules and exceptions out of that. If the tunnel is at the ground level, we are not pushing to solve this situation - we understand that it is not to be solved. For an exceptions, please, add a status 'Not an issue'. We are analyzing this kind of tasks after the challenge is done to see, what possible implementation can be done in our process, so there are less cases like that in our challenges.</p>
+
+
+
+<a name="366838952"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/TomTom%20-%20Fix%20inconsistent%20Bridge%20and%20Tunnel%20tagging/near/366838952" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/TomTom.20-.20Fix.20inconsistent.20Bridge.20and.20Tunnel.20tagging.html#366838952">(Jun 16 2023 at 13:50)</a>:</h4>
+<p>It seems to me that it would be very helpful to have a description about what a challenge includes - "these are the things included here, and these are the exact conditions for each of them".<br>
+It manages the contributor expectations, and it could allow detecting any potentially controversial, risky or incorrect suggestions before some eager mapper creates a lot of changesets that need to be reverted :)</p>
+
+
+
+<hr><p>Last updated: Mar 02 2026 at 10:27 UTC</p>
+</html>

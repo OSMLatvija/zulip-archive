@@ -1,0 +1,122 @@
+[
+    {
+        "content": "<p><a href=\"/user_uploads/49624/FVv2Hs8eP0xjzMfIAk2ZeReF/image.png\">karte</a><br>\n<a href=\"/user_uploads/49624/mg2zziYtGxDQGDyJmgTgmYZ6/ūdenstorņi.geojson\">ūdenstorņi.geojson</a><br>\nsarkanie - adreses kur ir pieminēti ūdenstorņi bet OSM tuvumā neviens nav, zaļie - jau pievienotie torņi</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/FVv2Hs8eP0xjzMfIAk2ZeReF/image.png\" title=\"karte\"><img src=\"/user_uploads/49624/FVv2Hs8eP0xjzMfIAk2ZeReF/image.png\"></a></div>",
+        "id": 406734146,
+        "sender_full_name": "Colby",
+        "timestamp": 1702032795
+    },
+    {
+        "content": "<p>Oho, kas ir datu avots?</p>",
+        "id": 406734406,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1702032902
+    },
+    {
+        "content": "<p>VZD un overpass</p>",
+        "id": 406734443,
+        "sender_full_name": "Colby",
+        "timestamp": 1702032913
+    },
+    {
+        "content": "<p>mazliet ar QGIS piestrādāju</p>",
+        "id": 406734472,
+        "sender_full_name": "Colby",
+        "timestamp": 1702032924
+    },
+    {
+        "content": "<p>Super, paldies. Tā ir atvērta datu kopa, ja?<br>\nŪdenstorņus lielākoties var smuki no ortofoto sazīmēt :)</p>",
+        "id": 406734557,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1702032961
+    },
+    {
+        "content": "<p>tā pati no kurienes adrešu imports<br>\nvispār diezgan var atrast - kaļķu cepļi, ķieģeļu cepļi, pienotovas, veikali, ūdens torņi, transformatori, utt<br>\nprotams daudz novecojusi informācija</p>",
+        "id": 406734841,
+        "sender_full_name": "Colby",
+        "timestamp": 1702033072
+    },
+    {
+        "content": "<p>/me prepares to steal idea <span aria-label=\"face in clouds\" class=\"emoji emoji-1f636-200d-1f32b\" role=\"img\" title=\"face in clouds\">:face_in_clouds:</span></p>",
+        "id": 406734984,
+        "sender_full_name": "HellMap",
+        "timestamp": 1702033122
+    },
+    {
+        "content": "<p>Es adresēs esmu redzējis visādus nosaukumus, kas ir it kā apraksti kā \"tornis\", bet tas gan nav garantēti vai ne?</p>",
+        "id": 406735309,
+        "sender_full_name": "HellMap",
+        "timestamp": 1702033227
+    },
+    {
+        "content": "<p>Tas gan parasti telekomunikāciju torņiem utml.</p>",
+        "id": 406735481,
+        "sender_full_name": "HellMap",
+        "timestamp": 1702033278
+    },
+    {
+        "content": "<p>Jā, piemēram <a href=\"https://www.openstreetmap.org/way/246128256\">https://www.openstreetmap.org/way/246128256</a> nav kā tornis iezīmēts blakus \"Vasku ūdenstornis un artēziskā aka\" adresei <br>\n<a href=\"/user_uploads/49624/1XXKmOeyb3zvoi32iTitHM77/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/1XXKmOeyb3zvoi32iTitHM77/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/1XXKmOeyb3zvoi32iTitHM77/image.png\"></a></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/246128256\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/246128256\" title=\"Way: 246128256 | OpenStreetMap\">Way: 246128256 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 406736909,
+        "sender_full_name": "HellMap",
+        "timestamp": 1702033773
+    },
+    {
+        "content": "<p>Parasti visas malas ar šitiem <br>\n<a href=\"/user_uploads/49624/-RXw-fDeyhtvfVEauuUjTDZ4/image.png\">image.png</a><br>\n<a href=\"/user_uploads/49624/ls7imHi_Rdyu1Lpy0lXmS3P8/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/-RXw-fDeyhtvfVEauuUjTDZ4/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/-RXw-fDeyhtvfVEauuUjTDZ4/image.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/ls7imHi_Rdyu1Lpy0lXmS3P8/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/ls7imHi_Rdyu1Lpy0lXmS3P8/image.png\"></a></div>",
+        "id": 406737244,
+        "sender_full_name": "HellMap",
+        "timestamp": 1702033908
+    },
+    {
+        "content": "<p>JOSM to geojson neko nerāda (varbūt es nemāku). QGIS ver protams, bet no turienes grūti tikt uz karti.</p>",
+        "id": 406737391,
+        "sender_full_name": "HellMap",
+        "timestamp": 1702033951
+    },
+    {
+        "content": "<p>opendata pluginu ieinstalē</p>",
+        "id": 406737494,
+        "sender_full_name": "Colby",
+        "timestamp": 1702033991
+    },
+    {
+        "content": "<p>Hmm. Man ir opendata, bet tas neko neizmainīja. JOSM to failu atvēra arī bez plugina pirms tam.</p>",
+        "id": 406737972,
+        "sender_full_name": "HellMap",
+        "timestamp": 1702034149
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/9JgHU2SuxDRWH1BZYs2NXAsf/ūdenstorņi-shp.zip\">ūdenstorņi-shp.zip</a></p>",
+        "id": 406738293,
+        "sender_full_name": "Colby",
+        "timestamp": 1702034224
+    },
+    {
+        "content": "<p>laikam eksportējot kautko nepareizi ar projekciju izdarīju??</p>",
+        "id": 406738374,
+        "sender_full_name": "Colby",
+        "timestamp": 1702034249
+    },
+    {
+        "content": "<p><a href=\"https://www.osm.org/way/317270551\">https://www.osm.org/way/317270551</a><br>\nar Ņ ir tikai 3 un diviem jau ir iezīmēti, šim pat vecos ortofoto neredzu neko</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.osm.org/way/317270551\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.osm.org/way/317270551\" title=\"Way: 317270551 | OpenStreetMap\">Way: 317270551 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 406738885,
+        "sender_full_name": "Colby",
+        "timestamp": 1702034442
+    },
+    {
+        "content": "<p>Haha, nu tas izskatās, ka tur blakus tas garais ir nokritis tornis</p>",
+        "id": 406739001,
+        "sender_full_name": "HellMap",
+        "timestamp": 1702034497
+    },
+    {
+        "content": "<p>(žēl, ka teorija neapstiprinās vecajos orto)</p>",
+        "id": 406739035,
+        "sender_full_name": "HellMap",
+        "timestamp": 1702034518
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/483GuXIYaqocCqiZoY_PAf2_/ūdens-atstarpe-torņi.zip\">ūdens-atstarpe-torņi.zip</a></p>",
+        "id": 406739561,
+        "sender_full_name": "Colby",
+        "timestamp": 1702034733
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>Hi Latvia community!<br>\nI bet some of you remember me from State of the Map Baltics last week, where I had a talk about TomTom’s cooperation with and contribution to OpenStreetMap.<br>\nAs said during the presentation (which I think will be available shortly as a recording for those who could not attend) I want to share a couple of MapRoulette challenges that can help fix map issues in your country.<br>\nYou’re welcome to try these out, and we appreciate any feedback you may have.</p>\n<p>Challenge urls:<br>\nFix inconsistent Bridge and Tunnel tagging: <a href=\"https://maproulette.org/browse/challenges/39498\">https://maproulette.org/browse/challenges/39498</a></p>\n<p>You can find more information about each challenge in the description in MapRoulette.<br>\nOur editing team may also work on these challenges in a couple of week.</p>\n<p>If you have another topic you’d like to discuss, or other map issues you’d like us to look into, feel free to send me a personal message or contact <a href=\"mailto:osm@tomtom.com\">osm@tomtom.com</a>.</p>\n<p>Thank you!</p>\n<p>Regards,<br>\nTomasz</p>",
+        "id": 366784731,
+        "sender_full_name": "Tomek_Koz",
+        "timestamp": 1686913592
+    },
+    {
+        "content": "<p>Hi, thank you for the interest in OSM data quality.<br>\nThere seems to be very little information on what is actually checked - even the Maproulette task itself has just this:</p>\n<blockquote>\n<p>Expectation<br>\nIdentify and fix cases where the bridge or tunnel has an incorrect tag.<br>\nOrigin of Leads<br>\nBased on OSM Wiki guidelines, we developed an FME workbench which detected inconsistently tagged bridges and tunnels.</p>\n</blockquote>\n<p>Where could we find all the rules/cases that are included here?</p>",
+        "id": 366798065,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1686916274
+    },
+    {
+        "content": "<p>Hi Rihards,<br>\neach task is attributed with detailed information in properties, where issue is described; we were reviewing the data based on bridge or tunnel tag and related components, like is layer correctly added to an element, if attributes are not contradicted, etc. Of course, if you want I can provide more detailed information per each 'issue type'.</p>",
+        "id": 366810650,
+        "sender_full_name": "Tomasz Kozlowski",
+        "timestamp": 1686918656
+    },
+    {
+        "content": "<p>Do you expect explicit <code>layer=0</code> on <code>tunnel</code> that is at ground level?<br>\nDescription of <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Alayer\">layer=*</a> says:</p>\n<blockquote>\n<p>0 should not be used explicitly.</p>\n</blockquote>\n<p>and</p>\n<blockquote>\n<p>Features at layer 0 should not normally have a layer tag.</p>\n</blockquote>",
+        "id": 366818531,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686919881
+    },
+    {
+        "content": "<p>Hi i-ky,<br>\nWe do not want to solve an error only to have that fixed. There are of course general capturing rules and exceptions out of that. If the tunnel is at the ground level, we are not pushing to solve this situation - we understand that it is not to be solved. For an exceptions, please, add a status 'Not an issue'. We are analyzing this kind of tasks after the challenge is done to see, what possible implementation can be done in our process, so there are less cases like that in our challenges.</p>",
+        "id": 366819829,
+        "sender_full_name": "Tomasz Kozlowski",
+        "timestamp": 1686920071
+    },
+    {
+        "content": "<p>It seems to me that it would be very helpful to have a description about what a challenge includes - \"these are the things included here, and these are the exact conditions for each of them\".<br>\nIt manages the contributor expectations, and it could allow detecting any potentially controversial, risky or incorrect suggestions before some eager mapper creates a lot of changesets that need to be reverted :)</p>",
+        "id": 366838952,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1686923454
+    }
+]

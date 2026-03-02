@@ -1,0 +1,48 @@
+<html>
+<head><meta charset="utf-8"><title>smoothness bez surface vai tracktype · general · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/index.html">general</a></h2>
+<h3>Topic: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/smoothness.20bez.20surface.20vai.20tracktype.html">smoothness bez surface vai tracktype</a></h3>
+
+<hr>
+
+<base href="https://osmlatvija.zulipchat.com">
+
+<head><link href="https://osmlatvija.github.io/zulip-archive/style.css" rel="stylesheet"></head>
+
+<a name="374607619"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/smoothness%20bez%20surface%20vai%20tracktype/near/374607619" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/smoothness.20bez.20surface.20vai.20tracktype.html#374607619">(Jul 12 2023 at 12:49)</a>:</h4>
+<p>Man šķiet dīvaini, ja ir <a href="https://wiki.openstreetmap.org/wiki/Key%3Asmoothness">smoothness=*</a> bez <a href="https://wiki.openstreetmap.org/wiki/Key%3Asurface">surface=*</a> vai <a href="https://wiki.openstreetmap.org/wiki/Key%3Atracktype">tracktype=*</a>.</p>
+<div class="codehilite" data-code-language="overpass"><pre><span></span><code>[out:json][timeout:250];
+{{geocodeArea:Latvia}}-&gt;.searchArea;
+nwr[smoothness][!surface][!tracktype](area.searchArea);
+out geom;
+</code></pre></div>
+
+
+
+<a name="374728587"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/smoothness%20bez%20surface%20vai%20tracktype/near/374728587" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/smoothness.20bez.20surface.20vai.20tracktype.html#374728587">(Jul 12 2023 at 20:00)</a>:</h4>
+<p>Protams, prioritāri <code>surface</code> būtu labāk un <code>track</code>iem <code>tracktype</code> kartei. Bet no otras puses, visiem <code>path</code> un <code>track</code> jau tā pat skaidrs, ka 99.9% <code>unpaved</code> un <code>path</code> drošvien 99%, ka <code>ground</code>. Default karte <code>path</code> nerāda tik un tā <code>surface</code>, tāpēc es varētu saprast, kāpēc to lēni liek. Bet nu no otras puses, <code>smoothness</code> jau vispār gandrīz nekas nerāda. Personīgi, es prioritizēju <code>tracktype</code>, tad <code>surface</code> un tad <code>smoothness</code>.</p>
+
+
+
+<a name="374729232"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/smoothness%20bez%20surface%20vai%20tracktype/near/374729232" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/smoothness.20bez.20surface.20vai.20tracktype.html#374729232">(Jul 12 2023 at 20:03)</a>:</h4>
+<p>Stulbāk, ja nav ne <code>track</code>, ne <code>path</code>, bet kaut kāds <code>service</code>. Es pieņemu, ka bieži šitie rodās dalot ceļus un mainot ģeomterijas. Šitie sīkie tegi turpu šurpu nepamanot pieliekās. Piemēram, sadala <code>track</code> un daļu kā <code>service</code>. Bet tur bije <code>smoothness</code>. Bet <code>surface</code> jaunajam <code>service</code> neuzlika.</p>
+
+
+
+<a name="374729379"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/smoothness%20bez%20surface%20vai%20tracktype/near/374729379" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/smoothness.20bez.20surface.20vai.20tracktype.html#374729379">(Jul 12 2023 at 20:04)</a>:</h4>
+<p>Nezinu, vai te var kaut ko izdarīt katru individuāli neskatoties.</p>
+
+
+
+<a name="374735193"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/smoothness%20bez%20surface%20vai%20tracktype/near/374735193" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/smoothness.20bez.20surface.20vai.20tracktype.html#374735193">(Jul 12 2023 at 20:12)</a>:</h4>
+<p>Skatīties vajag, protams. Tas bija vairāk domāts "ja nav ko darīt". :)</p>
+
+
+
+<hr><p>Last updated: Mar 02 2026 at 10:27 UTC</p>
+</html>

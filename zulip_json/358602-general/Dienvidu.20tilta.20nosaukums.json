@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p><a href=\"#narrow/channel/358602-general/topic/Dienvidu.20tilta.20nosaukums/near/538105587\">A message</a> was moved here from <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/channel/358602-general/topic/.C4.81truma.20ierobe.C5.BEojumu.20kart.C4.93.C5.A1ana/with/538104822\">#general &gt; ātruma ierobežojumu kartēšana</a> by <span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span>.</p>",
+        "id": 538106293,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1757280158
+    },
+    {
+        "content": "<p>Nosaukumus oficiāli it kā apkopo VZD. Viņiem vēl jautrāka versija.<br>\nVarētu būt derīgi uzrakstīt VZD, pastāstot arī par šībrīža OSM kartēto.</p>\n<p>Tā kā nosaukumus VZD primāri tikai apkopo, tie varētu nākt no... RD vai LVC?<br>\nBet VZD līdz šim ir ļoti forši reaģējuši, sazinājušies ar saviem info avotiem.</p>\n<p><a href=\"/user_uploads/49624/g__YhH5Ut7mshsbDQICyNR9L/image.png\">Dienvidu tilta nav</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/g__YhH5Ut7mshsbDQICyNR9L/image.png\" title=\"Dienvidu tilta nav\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"1180x1064\" src=\"/user_uploads/thumbnail/49624/g__YhH5Ut7mshsbDQICyNR9L/image.png/840x560.webp\"></a></div>",
+        "id": 538106463,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1757280321
+    },
+    {
+        "content": "<p>Uj, godīgi sakot, baigais slinkums viņiem rakstīt un vēl ar šo ņemties :)<br>\nEs pagaidām atstāšu kā ir... Varbūt kādam citam būs laiks. Es vienkārši iedomājos, ka ir kaut kāds avots kam var uzticēties šajā jomā un \"ņemt par pamatu\", bet ja realitātē tāda nav un ir atkal vairāki avoti (kā ar ceļa zīmēm), tad lai paliek kā ir :)</p>",
+        "id": 538106871,
+        "sender_full_name": "Tigran",
+        "timestamp": 1757280845
+    },
+    {
+        "content": "<p>Hmm... nu jā. Te ir atšķirība starp ielas nosaukumu un starp tilta nosaukumu. Tilta robeža tiešām varētu būt tuvāk nekā pašlaik kartēts, tie viadukti laikam nav tomēr tilts. Tas viss projekts bija \"Dienvidu tilts X. kārta\", bet tur jau ietilpst daudz kas cits.</p>\n<p>It kā pareizi ceļiem vajadzētu būt ar ielas nosaukumu, bet tilta nosaukumam uz paša tilta elementa. <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Abridge%3Aname\">bridge:name=*</a> var ceļam arī pielikt, bet to gan arī it kā neliek, ja ir jau atsevišķi tilta elements.</p>",
+        "id": 538157884,
+        "sender_full_name": "HellMap",
+        "timestamp": 1757319196
+    }
+]

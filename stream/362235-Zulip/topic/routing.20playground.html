@@ -1,0 +1,129 @@
+<html>
+<head><meta charset="utf-8"><title>routing playground · Zulip · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://osmlatvija.github.io/zulip-archive/stream/362235-Zulip/index.html">Zulip</a></h2>
+<h3>Topic: <a href="https://osmlatvija.github.io/zulip-archive/stream/362235-Zulip/topic/routing.20playground.html">routing playground</a></h3>
+
+<hr>
+
+<base href="https://osmlatvija.zulipchat.com">
+
+<head><link href="https://osmlatvija.github.io/zulip-archive/style.css" rel="stylesheet"></head>
+
+<a name="326562228"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/362235-Zulip/topic/routing%20playground/near/326562228" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/362235-Zulip/topic/routing.20playground.html#326562228">(Feb 08 2023 at 11:21)</a>:</h4>
+<p>Būtu interesanti pamēģināt uztaisīt <a href="https://zulip.com/help/code-blocks#code-playgrounds">code playround</a> priekš routing testēšanas. Mēs šeit rakstīsim:</p>
+<div class="codehilite"><pre><span></span><code>```routing
+...
+```
+</code></pre></div>
+<p>Zulip to <code>...</code> sūtīs uz servisu, kas to pārveidos par OSM datiem, pados tos tālāk routing'am un atspoguļos routing'a rezultātus. Ja izdosies routing'u un pārējas komponentes nokompilēt kā <a href="https://webassembly.org/">WebAssembly</a>, tad servisam var izmantot <a href="https://pages.github.com/">GitHub Pages</a>. Kas būs <code>...</code> vietā ir atklāts jautājums, bet piemēram var iedvesmoties no <a href="https://github.com/Project-OSRM/osrm-backend/wiki/Cucumber-Test-Suite">OSRM testiem</a>.</p>
+<div class="message_embed"><a class="message_embed_image" href="https://zulip.com/help/code-blocks#code-playgrounds" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/df83b8ca6f665e54aab5f8f261d9ceb696f2f5c3\/68747470733a2f2f7a756c6970636861742e636f6d2f7374617469632f696d616765732f6c6f676f2f7a756c69702d69636f6e2d313238783132382e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://zulip.com/help/code-blocks#code-playgrounds" title="Code spans and blocks | Zulip help center">Code spans and blocks | Zulip help center</a></div><div class="message_embed_description">Zulip supports the standard Markdown syntax for inline code spans and code blocks: | Sending the above message in Zulip will render like this: | You can also use ~~~ to start code blocks, or just indent the code 4 or more spaces. | A widget in the top right corner of code blocks allows you to easily copy the code to your clipboard. | Tagging a code block with a language enables syntax highlighting and (if configured) code playgrounds. Zulip supports syntax highlighting for hundreds of languages. | A code block can be tagged by typing the language name after the fence (```) that begins a code block, as shown here. Typeahead will help you enter the name for the language. The Short names values from the Pygments lexer documentation are the complete set of values that support syntax highlighting.</div></div></div><div class="message_embed"><a class="message_embed_image" href="https://github.com/Project-OSRM/osrm-backend/wiki/Cucumber-Test-Suite" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/de030a8b9dbe6b5fcff95b0ddf1d7d241ef805d1\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f636231323037316239663433343964323936613132663430383336333834636630393135633632343232373331373138333035343233316162353930366666322f50726f6a6563742d4f53524d2f6f73726d2d6261636b656e64)"></a><div class="data-container"><div class="message_embed_title"><a href="https://github.com/Project-OSRM/osrm-backend/wiki/Cucumber-Test-Suite" title="Cucumber Test Suite">Cucumber Test Suite</a></div><div class="message_embed_description">Open Source Routing Machine - C++ backend. Contribute to Project-OSRM/osrm-backend development by creating an account on GitHub.</div></div></div>
+
+
+
+<a name="326575273"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/362235-Zulip/topic/routing%20playground/near/326575273" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/362235-Zulip/topic/routing.20playground.html#326575273">(Feb 08 2023 at 12:27)</a>:</h4>
+<p>Izklausās interesanti, kādi usecases nāk prātā?</p>
+
+
+
+<a name="326577357"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/362235-Zulip/topic/routing%20playground/near/326577357" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/362235-Zulip/topic/routing.20playground.html#326577357">(Feb 08 2023 at 12:38)</a>:</h4>
+<p>Ir gadījumi, kad routing uzvedās kaut kā neadekvāti, piemēram <a href="https://www.openstreetmap.org/note/3360766">šeit</a>. Iespējams, pats routing dara kaut ko nepareizi, bet iespējams arī kaut kas nav pareizi uzzīmēts. Ja priekš "debugging" lieto routing no <a href="http://osm.org">osm.org</a>, tad ilgi jāgaida, kamēr routing atjaunos savu "datubāzi" ar OSM labojumiem. Ar šo servisu būs vienkāršāk saprast, kas ir kas, ar "trial and error" pieeju. Un routing developeri laikam novērtētu minimālu piemēru, ja tas ir viņu bug.</p>
+<div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/note/3360766" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/note/3360766" title="Note: 3360766 | OpenStreetMap">Note: 3360766 | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class="message_embed"><a class="message_embed_image" href="http://osm.org" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="http://osm.org" title="OpenStreetMap">OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="326579094"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/362235-Zulip/topic/routing%20playground/near/326579094" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/362235-Zulip/topic/routing.20playground.html#326579094">(Feb 08 2023 at 12:47)</a>:</h4>
+<p>Kas būtu routing backenda serviss?</p>
+
+
+
+<a name="326582211"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/362235-Zulip/topic/routing%20playground/near/326582211" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/362235-Zulip/topic/routing.20playground.html#326582211">(Feb 08 2023 at 13:02)</a>:</h4>
+<p>Ne tikai. Tur jābūt arī ievaddatu parserim un kaut kādai vizualizācijai arī.</p>
+
+
+
+<a name="326606067"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/362235-Zulip/topic/routing%20playground/near/326606067" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/362235-Zulip/topic/routing.20playground.html#326606067">(Feb 08 2023 at 14:45)</a>:</h4>
+<p>Tas bija domāts kā jautājums - kas (kurš produkts) būtu routing backends :)</p>
+
+
+
+<a name="326606416"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/362235-Zulip/topic/routing%20playground/near/326606416" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/362235-Zulip/topic/routing.20playground.html#326606416">(Feb 08 2023 at 14:47)</a>:</h4>
+<p>OSRM?</p>
+
+
+
+<a name="326606721"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/362235-Zulip/topic/routing%20playground/near/326606721" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/362235-Zulip/topic/routing.20playground.html#326606721">(Feb 08 2023 at 14:48)</a>:</h4>
+<p>Sūtot pieprasījumus kādas publiskas instances API?</p>
+
+
+
+<a name="326607896"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/362235-Zulip/topic/routing%20playground/near/326607896" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/362235-Zulip/topic/routing.20playground.html#326607896">(Feb 08 2023 at 14:53)</a>:</h4>
+<p>Nē, OSRM publiskā instance operē ar reāliem visas planētas datiem. Ideja bija laist savu instanci.</p>
+
+
+
+<a name="326630978"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/362235-Zulip/topic/routing%20playground/near/326630978" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/362235-Zulip/topic/routing.20playground.html#326630978">(Feb 08 2023 at 16:27)</a>:</h4>
+<p>Ar Latvijas datiem?</p>
+
+
+
+<a name="326632586"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/362235-Zulip/topic/routing%20playground/near/326632586" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/362235-Zulip/topic/routing.20playground.html#326632586">(Feb 08 2023 at 16:34)</a>:</h4>
+<p>Nē, ar datiem no koda bloka.</p>
+
+
+
+<a name="326633882"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/362235-Zulip/topic/routing%20playground/near/326633882" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/362235-Zulip/topic/routing.20playground.html#326633882">(Feb 08 2023 at 16:39)</a>:</h4>
+<p>Ā. T.i., piemēram, kas rūtējas pa <a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dtrack">highway=track</a> ar <a href="https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dbollard">barrier=bollard</a> utml?</p>
+
+
+
+<a name="326634868"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/362235-Zulip/topic/routing%20playground/near/326634868" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/362235-Zulip/topic/routing.20playground.html#326634868">(Feb 08 2023 at 16:43)</a>:</h4>
+<p>Jā, kaut kā tā. Kinda <a href="https://en.wikipedia.org/wiki/Minimal_reproducible_example">minimal reproducible example</a>.</p>
+
+
+
+<a name="326659175"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/362235-Zulip/topic/routing%20playground/near/326659175" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/362235-Zulip/topic/routing.20playground.html#326659175">(Feb 08 2023 at 18:35)</a>:</h4>
+<p>Tas jau arī ļoti atkarīgs no maršrutēšanas profiliem, gan OSRM, gan Graphopper, gan citus var dažādi sakonfigurēt.<br>
+Kāds plāns tajā virzienā?</p>
+
+
+
+<a name="326665717"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/362235-Zulip/topic/routing%20playground/near/326665717" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/362235-Zulip/topic/routing.20playground.html#326665717">(Feb 08 2023 at 19:12)</a>:</h4>
+<p>Plāns ir pieskaņoties tai konfigurācijai/profiliem, ko izmanto publiskas instances, kuras integrētas ar <a href="http://osm.org">osm.org</a></p>
+<div class="message_embed"><a class="message_embed_image" href="http://osm.org" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="http://osm.org" title="OpenStreetMap">OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="343373388"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/362235-Zulip/topic/routing%20playground/near/343373388" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/362235-Zulip/topic/routing.20playground.html#343373388">(Mar 21 2023 at 13:40)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/362235-Zulip/topic/routing.20playground/near/326562228">said</a>:</p>
+<blockquote>
+<p>Ja izdosies routing'u un pārējas komponentes nokompilēt kā <a href="https://webassembly.org/">WebAssembly</a>, tad servisam var izmantot <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+</blockquote>
+<p>Note to self. <a href="https://supabase.com/blog/postgres-wasm">Te</a> stāsts par to, ka izdevās palaist Postgres browser'ī. Un pat nevajadzēja kompilēt WebAssembly, jo var izmantot <a href="https://github.com/copy/v86">x86 emulatoru</a>.</p>
+<div class="message_embed"><a class="message_embed_image" href="https://supabase.com/blog/postgres-wasm" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/c60952eb174393f2a53ed4c629bf8f199c001f37\/68747470733a2f2f73757061626173652e636f6d2f696d616765732f626c6f672f706f7374677265732d7761736d2f706f7374677265732d7761736d2e6a7067)"></a><div class="data-container"><div class="message_embed_title"><a href="https://supabase.com/blog/postgres-wasm" title="Postgres WASM by Snaplet and Supabase">Postgres WASM by Snaplet and Supabase</a></div><div class="message_embed_description">We're open sourcing postgres-wasm, a PostgresQL server that runs inside a browser, with our friends at Snaplet.</div></div></div><div class="message_embed"><a class="message_embed_image" href="https://github.com/copy/v86" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/661554522c8716dfa9ace906e9c6910a85041340\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f613363393735386461663461376263376434376331386563336331376634653834643934363466393764353264666438633263313937613033313931666530322f636f70792f763836)"></a><div class="data-container"><div class="message_embed_title"><a href="https://github.com/copy/v86" title="GitHub - copy/v86: x86 virtualization in your browser, recompiling x86 to wasm on the fly">GitHub - copy/v86: x86 virtualization in your browser, recompiling x86 to wasm on the fly</a></div><div class="message_embed_description">x86 virtualization in your browser, recompiling x86 to wasm on the fly - GitHub - copy/v86: x86 virtualization in your browser, recompiling x86 to wasm on the fly</div></div></div>
+
+
+
+<a name="343376660"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/362235-Zulip/topic/routing%20playground/near/343376660" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/362235-Zulip/topic/routing.20playground.html#343376660">(Mar 21 2023 at 13:51)</a>:</h4>
+<p>Es tieši domāju, ka browseri pārāk ātri strādā <span aria-label="grinning face with smiling eyes" class="emoji emoji-1f601" role="img" title="grinning face with smiling eyes">:grinning_face_with_smiling_eyes:</span> <span aria-label="skull and crossbones" class="emoji emoji-2620" role="img" title="skull and crossbones">:skull_and_crossbones:</span></p>
+
+
+
+<hr><p>Last updated: Mar 02 2026 at 10:27 UTC</p>
+</html>

@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Man šķiet dīvaini, ja ir <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Asmoothness\">smoothness=*</a> bez <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Asurface\">surface=*</a> vai <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Atracktype\">tracktype=*</a>.</p>\n<div class=\"codehilite\" data-code-language=\"overpass\"><pre><span></span><code>[out:json][timeout:250];\n{{geocodeArea:Latvia}}-&gt;.searchArea;\nnwr[smoothness][!surface][!tracktype](area.searchArea);\nout geom;\n</code></pre></div>",
+        "id": 374607619,
+        "sender_full_name": "i-ky",
+        "timestamp": 1689166166
+    },
+    {
+        "content": "<p>Protams, prioritāri <code>surface</code> būtu labāk un <code>track</code>iem <code>tracktype</code> kartei. Bet no otras puses, visiem <code>path</code> un <code>track</code> jau tā pat skaidrs, ka 99.9% <code>unpaved</code> un <code>path</code> drošvien 99%, ka <code>ground</code>. Default karte <code>path</code> nerāda tik un tā <code>surface</code>, tāpēc es varētu saprast, kāpēc to lēni liek. Bet nu no otras puses, <code>smoothness</code> jau vispār gandrīz nekas nerāda. Personīgi, es prioritizēju <code>tracktype</code>, tad <code>surface</code> un tad <code>smoothness</code>.</p>",
+        "id": 374728587,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689192030
+    },
+    {
+        "content": "<p>Stulbāk, ja nav ne <code>track</code>, ne <code>path</code>, bet kaut kāds <code>service</code>. Es pieņemu, ka bieži šitie rodās dalot ceļus un mainot ģeomterijas. Šitie sīkie tegi turpu šurpu nepamanot pieliekās. Piemēram, sadala <code>track</code> un daļu kā <code>service</code>. Bet tur bije <code>smoothness</code>. Bet <code>surface</code> jaunajam <code>service</code> neuzlika.</p>",
+        "id": 374729232,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689192221
+    },
+    {
+        "content": "<p>Nezinu, vai te var kaut ko izdarīt katru individuāli neskatoties.</p>",
+        "id": 374729379,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689192260
+    },
+    {
+        "content": "<p>Skatīties vajag, protams. Tas bija vairāk domāts \"ja nav ko darīt\". :)</p>",
+        "id": 374735193,
+        "sender_full_name": "i-ky",
+        "timestamp": 1689192767
+    }
+]

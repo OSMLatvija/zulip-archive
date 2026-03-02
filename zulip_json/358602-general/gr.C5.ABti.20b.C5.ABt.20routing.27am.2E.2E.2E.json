@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/gr.C5.ABti.20b.C5.ABt.20routing'am.2E.2E.2E/near/323039710\">said</a>:</p>\n<blockquote>\n<p>Man būtu saraksts ar teritorijām, kurām ir kopīgi ierobežojumi, t.i. valstis, štati, utml. Un tur būtu saraksts at admin robežām, un ko tās nozīmē. (<a href=\"https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#10_admin_level_values_for_specific_countries\">https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#10_admin_level_values_for_specific_countries</a>) Pēc tam skatos tabulu, kā tur jābūt, kam man konkrēti vajag. (<a href=\"https://wiki.openstreetmap.org/wiki/Default_speed_limits\">https://wiki.openstreetmap.org/wiki/Default_speed_limits</a>)</p>\n</blockquote>\n<p>Pat ja ļoti primitīvi, ja valstī ir tikai divi ātruma ierobežojumi - pilsētā un ārpus, ja visas administratīvas robežas ir ideālas, routing'am vajag <em>izskaitļot</em> katram ceļa <img alt=\":node:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40175.png\" title=\"node\">, vai tas atrodas pilsētas robežās, vai nē - tas ir laikietilpīgs process (un par to nevar dabūt Bitcoin'us). Tagad iedomājies, ka to vajag darīt katru dienu visas pasaules mērogos.</p>",
+        "id": 323078768,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674495316
+    }
+]

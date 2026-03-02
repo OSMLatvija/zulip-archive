@@ -1,0 +1,194 @@
+[
+    {
+        "content": "<p><a href=\"http://www.vidzeme.com/lv/forums/velomarsrutu-nr/velomarsrutu-numuru-pieskirsanas-kartiba.html\">http://www.vidzeme.com/lv/forums/velomarsrutu-nr/velomarsrutu-numuru-pieskirsanas-kartiba.html</a></p>\n<blockquote>\n<p>Pašlaik strādājam pie jaunas mājaslapas izveides un jau 2023. gada pavasarī visi pēc vienotās numerācijas marķētie velomaršruti tiks atspoguļoti mūsdienīgā un lietotājam draudzīgā mājaslapā!</p>\n</blockquote>\n<p>Nu ko, gaidīsim? Vai pastāstīsim par <a href=\"https://cycling.waymarkedtrails.org/\">https://cycling.waymarkedtrails.org/</a>?</p>",
+        "id": 356093761,
+        "sender_full_name": "i-ky",
+        "timestamp": 1683300164
+    },
+    {
+        "content": "<p>Nu varbūt viņi tur paši iezīmēs no tām savām kartēm nevis linkus uz novecojušiem datiem, kur neko nevar salasīt. Un pēc tam arī uzturēs, ja izmaiņas notiek.</p>",
+        "id": 356100765,
+        "sender_full_name": "HellMap",
+        "timestamp": 1683301554
+    },
+    {
+        "content": "<p>Vispār jāpalabo kartē maršruti. Pa gadiem baigi daudz šķirbu un šķību gabalu saradies.</p>",
+        "id": 356101746,
+        "sender_full_name": "HellMap",
+        "timestamp": 1683301781
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/velomar.C5.A1rutu.20karte/near/356100765\">said</a>:</p>\n<blockquote>\n<p>Nu varbūt viņi tur paši iezīmēs no tām savām kartēm nevis linkus uz novecojušiem datiem, kur neko nevar salasīt. Un pēc tam arī uzturēs, ja izmaiņas notiek.</p>\n</blockquote>\n<p>Cerams... Bet es šaubos. Man šķiet, ka viņiem padomā kaut kas līdzīgs <a href=\"https://militaryheritagetourism.info/\">https://militaryheritagetourism.info/</a>, kur viņi savus datus zīmēs pa virsu.</p>",
+        "id": 356102280,
+        "sender_full_name": "i-ky",
+        "timestamp": 1683301907
+    },
+    {
+        "content": "<p>Jā, es to arī domāju, ka pa virsu. Ne jau pa taisno OSM viņi zīmētu - es to galīgi negaidītu.</p>",
+        "id": 356102982,
+        "sender_full_name": "HellMap",
+        "timestamp": 1683302074
+    },
+    {
+        "content": "<p>Varbūt viņus var pierunāt atklāt viņu datus? Lai nav jāgaida viņu \"mūsdienīgo un lietotājiem draudzīgo mājaslapu\". Un lai varētu automātiski sinhronizēt maršrutus ar OSM.</p>",
+        "id": 356104908,
+        "sender_full_name": "i-ky",
+        "timestamp": 1683302525
+    },
+    {
+        "content": "<p>Es nedomāju, ka automātiski sanāks (tur daudz nesakritību pat ar oficiālajiem maršrutiem). Bet prasīt datus gan noteikti var. Tā, kuram te patīk vēstules rakstīt uz kantoriem? <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>",
+        "id": 356107663,
+        "sender_full_name": "HellMap",
+        "timestamp": 1683303154
+    },
+    {
+        "content": "<p>Ir jau vēl arī šāds projekts, tikai nezinu, cik tas tiek uzturēts...<br>\n\"Latvijas veloceliņu karte ir tapusi pēc Latvijas riteņbraucēju apvienības iniciatīvas, sadarbojoties ar pašvaldībām. Kartes izveidi atbalsta CSDD un Latvijas Valsts policija. Tehnisko risinājumu un uzturēšanu nodrošina <a href=\"http://KurTuEsi.lv\">KurTuEsi.lv</a>\"<br>\n<a href=\"http://velokarte.divritenis.lv/\">http://velokarte.divritenis.lv/</a></p>",
+        "id": 356141512,
+        "sender_full_name": "Andris",
+        "timestamp": 1683312238
+    },
+    {
+        "content": "<p>Man tā <a href=\"http://divriteņa.lv\">divriteņa.lv</a> karte nekad nestrādā - tas saits ir mega šķībi taisīts - visi skripti un kas tik tur ir salauzti. Kaut kad sen skatījos, tur it kā nebija daudzi maršruti, bet es vairs neatceros.</p>",
+        "id": 356142616,
+        "sender_full_name": "HellMap",
+        "timestamp": 1683312590
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/GYYeCTA2_yNsYYu_VG9Na02G/image.png\">kur</a><br>\nmiera iela - ēdoles iela savienojumi nav bijuši kopš kādiem 90tiem<br>\nun pievelkot tuvāk tie pazūd, jocīga karte</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/GYYeCTA2_yNsYYu_VG9Na02G/image.png\" title=\"kur\"><img src=\"/user_uploads/49624/GYYeCTA2_yNsYYu_VG9Na02G/image.png\"></a></div>",
+        "id": 356143236,
+        "sender_full_name": "Colby",
+        "timestamp": 1683312761
+    },
+    {
+        "content": "<p>A kas tur ir par karti? Uz OSM bāzēta?</p>",
+        "id": 356144645,
+        "sender_full_name": "HellMap",
+        "timestamp": 1683313218
+    },
+    {
+        "content": "<p>leaflet bet no OSM datiem neko neredzu</p>",
+        "id": 356144713,
+        "sender_full_name": "Colby",
+        "timestamp": 1683313237
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/velomar.C5.A1rutu.20karte/near/356102982\">said</a>:</p>\n<blockquote>\n<p>Jā, es to arī domāju, ka pa virsu. Ne jau pa taisno OSM viņi zīmētu - es to galīgi negaidītu.</p>\n</blockquote>\n<p>Lauku ceļotājs šo to no Mežtakas un citām lietām laikam zīmēja.<br>\nBet kopumā jā, no Rīgas domes, Apeirona un Dabas datiem līdz tūrisma asociācijām, daudzi taisa projektus un atsevišķas datu kopas, kuras pēc tam nekur netiek integrētas un bieži ir grūtības ar uzturēšanu.<br>\nVajag paslavēt tos, kuri liek OSM :)</p>",
+        "id": 356238511,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1683361480
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/velomar.C5.A1rutu.20karte/near/356107663\">said</a>:</p>\n<blockquote>\n<p>Es nedomāju, ka automātiski sanāks (tur daudz nesakritību pat ar oficiālajiem maršrutiem). Bet prasīt datus gan noteikti var. Tā, kuram te patīk vēstules rakstīt uz kantoriem? <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>\n</blockquote>\n<p>Vidzemes tūrisma asociācija ir tie, kuri piešķir oficiālos numurus, tā ka tie laikam ir \"visoficiālākie\".<br>\nDatu kvalitāte/precizitāte gan laikam būs sarežģīta tēma.</p>",
+        "id": 356238702,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1683361541
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572009\">Andris</span> <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/velomar.C5.A1rutu.20karte/near/356141512\">said</a>:</p>\n<blockquote>\n<p>Ir jau vēl arī šāds projekts, tikai nezinu, cik tas tiek uzturēts...<br>\n\"Latvijas veloceliņu karte ir tapusi pēc Latvijas riteņbraucēju apvienības iniciatīvas, sadarbojoties ar pašvaldībām. Kartes izveidi atbalsta CSDD un Latvijas Valsts policija. Tehnisko risinājumu un uzturēšanu nodrošina <a href=\"http://KurTuEsi.lv\">KurTuEsi.lv</a>\"<br>\n<a href=\"http://velokarte.divritenis.lv/\">http://velokarte.divritenis.lv/</a></p>\n</blockquote>\n<p>Varbūt uz nākamo sanākšanu jāuzaicina cilvēki no riteņbraucēju apvienības.<br>\nMums bieži šķiet, ka visiem zināms par OSM un saistītiem risinājumiem, bet daudzi gluži vienkārši nezina par to pašu WayMarkedTrails, GPX dabūšanu un citiem risinājumiem.</p>",
+        "id": 356239166,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1683361712
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/velomar.C5.A1rutu.20karte/near/356093761\">said</a>:</p>\n<blockquote>\n<p><a href=\"http://www.vidzeme.com/lv/forums/velomarsrutu-nr/velomarsrutu-numuru-pieskirsanas-kartiba.html\">http://www.vidzeme.com/lv/forums/velomarsrutu-nr/velomarsrutu-numuru-pieskirsanas-kartiba.html</a></p>\n<blockquote>\n<p>Pašlaik strādājam pie jaunas mājaslapas izveides un jau 2023. gada pavasarī visi pēc vienotās numerācijas marķētie velomaršruti tiks atspoguļoti mūsdienīgā un lietotājam draudzīgā mājaslapā!</p>\n</blockquote>\n<p>Nu ko, gaidīsim? Vai pastāstīsim par <a href=\"https://cycling.waymarkedtrails.org/\">https://cycling.waymarkedtrails.org/</a>?</p>\n</blockquote>\n<p>Starp citu, es pirms pāris nedēļām uzrakstīju viņiem <span aria-label=\"love letter\" class=\"emoji emoji-1f48c\" role=\"img\" title=\"love letter\">:love_letter:</span><br>\nPagaidām nekādas reakcijas... <span aria-label=\"empty mailbox\" class=\"emoji emoji-1f4ed\" role=\"img\" title=\"empty mailbox\">:empty_mailbox:</span></p>",
+        "id": 369937026,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687850079
+    },
+    {
+        "content": "<p>Jā, interesanti, ka nemaz neatbild.</p>",
+        "id": 369975967,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1687857394
+    },
+    {
+        "content": "<p>Varbūt tiešām pasaukt viņus uz pasākumu? <span aria-label=\"beers\" class=\"emoji emoji-1f37b\" role=\"img\" title=\"beers\">:beers:</span></p>",
+        "id": 370061807,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687872214
+    },
+    {
+        "content": "<p>Ja uz aicinājumu atbildētu, noteikti :)</p>",
+        "id": 370103999,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1687878988
+    },
+    {
+        "content": "<p>Tagad ir uztaisīta <a href=\"https://balticcycling.com/karte/\">https://balticcycling.com/karte/</a> (ar Eiropas Savienības līdzfinansējumu).<br>\nIzmanto kaut kādu dikti pliku ArcGIS kartes slāni, varbūt vēl nav pabeigta (piem., <a href=\"https://balticcycling.com/marsruts/110-birini-ledurga-vidrizi-igates-pils/\">https://balticcycling.com/marsruts/110-birini-ledurga-vidrizi-igates-pils/</a> ir tukšs).<br>\n<a href=\"/user_uploads/49624/8aqOLTEUFBzUgosiFWSRn26z/image.png\">110. ir tukšs</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/8aqOLTEUFBzUgosiFWSRn26z/image.png\" title=\"110. ir tukšs\"><img src=\"/user_uploads/49624/8aqOLTEUFBzUgosiFWSRn26z/image.png\"></a></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://balticcycling.com/karte/\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/41d12ada44ce557adc9a0e1e2e1ae83d6c3cebaa\\/68747470733a2f2f62616c7469636379636c696e672e636f6d2f77702d636f6e74656e742f75706c6f6164732f323032332f30332f6b617274652d62616e6e65724032782d7363616c65642e6a7067)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://balticcycling.com/karte/\" title=\"Karte - Latvijas Velo Maršrutu Karte\">Karte - Latvijas Velo Maršrutu Karte</a></div><div class=\"message_embed_description\">Kontakti</div></div></div>",
+        "id": 374226957,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1689074222
+    },
+    {
+        "content": "<p>Bāzes karte nu riktīgs mēsls... es vairs nezinu, kā objektīvāk pateikt. Nu kurš liek baltu karti bez gandrīz nekā... Es vispār nesaprotu pa kādiem ceļiem kurš maršruts. Pievelc pavisam tuvu un \"map data no available\".</p>",
+        "id": 374228398,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689074508
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/tBVcp15BuJSy78ksiwuBuQdX/best-route.png\">best-route.png</a><br>\nUn kādam par to maksā algu...</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/tBVcp15BuJSy78ksiwuBuQdX/best-route.png\" title=\"best-route.png\"><img src=\"/user_uploads/49624/tBVcp15BuJSy78ksiwuBuQdX/best-route.png\"></a></div>",
+        "id": 374229332,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689074697
+    },
+    {
+        "content": "<p>Nav vārdu...</p>",
+        "id": 374232446,
+        "sender_full_name": "i-ky",
+        "timestamp": 1689075358
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/YF0MTrVtF0vBu5VgmT2aJlfO/image.png\">\"ietvaors\"</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/YF0MTrVtF0vBu5VgmT2aJlfO/image.png\" title=\"&quot;ietvaors&quot;\"><img src=\"/user_uploads/49624/YF0MTrVtF0vBu5VgmT2aJlfO/image.png\"></a></div>",
+        "id": 374240968,
+        "sender_full_name": "i-ky",
+        "timestamp": 1689076998
+    },
+    {
+        "content": "<p>Nu, var gadīties, ka cilvēki pārslogoti vai citi objektīvi iemesli.<br>\nNo otras puses - tie, kuri raksta projektu pieteikumus, nav tie, kuri superīgi zīmē OSM.<br>\nLatvijas kopienā noteikti ir vieta PR speciālistiem, projektu pieteikumu rakstītājiem utt. Ir kopiena ar milzīgu spēju paveikt lietas, bet paveikto projektu rakstītāji pat neizmanto :)<br>\nRegita arī šo uzreiz pamanīja. Varbūt mums vajag atsevišķu semināru \"projektu rakstītājiem\", lai nākamā velo lapa jau ir gandrīz perfekta :)</p>",
+        "id": 374242760,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1689077381
+    },
+    {
+        "content": "<p>Būs vēl nākamā?! <span aria-label=\"astonished\" class=\"emoji emoji-1f632\" role=\"img\" title=\"astonished\">:astonished:</span> Cik tad novecojošo/nelietojamu velolapu mums vajag?</p>",
+        "id": 374243742,
+        "sender_full_name": "i-ky",
+        "timestamp": 1689077573
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/24i_0XWbefNaTNmn3NwWr3EQ/image.png\">Lubāns Vidzemē?</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/24i_0XWbefNaTNmn3NwWr3EQ/image.png\" title=\"Lubāns Vidzemē?\"><img src=\"/user_uploads/49624/24i_0XWbefNaTNmn3NwWr3EQ/image.png\"></a></div>",
+        "id": 374245887,
+        "sender_full_name": "i-ky",
+        "timestamp": 1689078010
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/velomar.C5.A1rutu.20karte/near/374243742\">said</a>:</p>\n<blockquote>\n<p>Būs vēl nākamā?! <span aria-label=\"astonished\" class=\"emoji emoji-1f632\" role=\"img\" title=\"astonished\">:astonished:</span> Cik tad novecojošo/nelietojamu velolapu mums vajag?</p>\n</blockquote>\n<p>It kā smieklīgi, bet es tā reālistiski skatos - šitie visi ir projektu naudas projekti, bez kopienas iesaistes. Tie visi kaut kad mirst, paraujot datus līdzi (tas pats ar citiem datiem, ieskaitot Apeirona projektus utt).<br>\nTā ka varam jau morāli sagatavoties nākamajai lapai, ja vien neizdodas kāds ilgtermiņa OSM bāzēts projekts :)</p>",
+        "id": 374260610,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1689080899
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/velomar.C5.A1rutu.20karte/near/374245887\">said</a>:</p>\n<blockquote>\n<p><a href=\"/user_uploads/49624/24i_0XWbefNaTNmn3NwWr3EQ/image.png\">Lubāns Vidzemē?</a></p>\n</blockquote>\n<p>Kam negadās. Es vienreiz esot lielai publikai stāstījis, ka Ape esot Kurzemē :D</p>",
+        "id": 374260810,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1689080942
+    },
+    {
+        "content": "<p>Stulbākais jau ir, ka visi tie maršruti principā OSM jau ir, cik es zinu</p>",
+        "id": 374260811,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689080942
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/velomar.C5.A1rutu.20karte/near/374260811\">said</a>:</p>\n<blockquote>\n<p>Stulbākais jau ir, ka visi tie maršruti principā OSM jau ir, cik es zinu</p>\n</blockquote>\n<p>Jā, un arī vēl citi - <a href=\"https://cycling.waymarkedtrails.org\">https://cycling.waymarkedtrails.org</a> .<br>\n<span class=\"user-mention\" data-user-id=\"574669\">@UrSuS</span> un citi daudz smuki sazīmējuši.</p>",
+        "id": 374261220,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1689081011
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/velomar.C5.A1rutu.20karte/near/374260810\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/velomar.C5.A1rutu.20karte/near/374245887\">said</a>:</p>\n<blockquote>\n<p><a href=\"/user_uploads/49624/24i_0XWbefNaTNmn3NwWr3EQ/image.png\">Lubāns Vidzemē?</a></p>\n</blockquote>\n<p>Kam negadās. Es vienreiz esot lielai publikai stāstījis, ka Ape esot Kurzemē :D</p>\n</blockquote>\n<p>Tu to droši vien darīji par brīvu, bet šeit par to nauda samaksāta.</p>",
+        "id": 374261466,
+        "sender_full_name": "i-ky",
+        "timestamp": 1689081052
+    }
+]

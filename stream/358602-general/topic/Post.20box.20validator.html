@@ -1,0 +1,211 @@
+<html>
+<head><meta charset="utf-8"><title>Post box validator · general · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/index.html">general</a></h2>
+<h3>Topic: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Post.20box.20validator.html">Post box validator</a></h3>
+
+<hr>
+
+<base href="https://osmlatvija.zulipchat.com">
+
+<head><link href="https://osmlatvija.github.io/zulip-archive/style.css" rel="stylesheet"></head>
+
+<a name="354914700"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Post%20box%20validator/near/354914700" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Michael Validator <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Post.20box.20validator.html#354914700">(May 01 2023 at 16:05)</a>:</h4>
+<p>Hi Latvian community! A few weeKs ago I developed tool to validate post boxes on openstreetmap for one country (Belarus). It compares data on <a href="http://openstreetmap.org">openstreetmap.org</a> and public post service website and build web page with map where all post boxes are marKed in different colors depend on how full post box is described in OSM. I found that <a href="https://pasts.lv/en/Category/Post_Offices/">Latvias Pasts</a>  provide info about post boxes. I am interested to implement the same validator for Latvia. You could see as it worKs <a href="https://mapillaryby.github.io/PostboxValidator/index.html">here</a>  If somebody agree to support this tool then please provide set of tags for <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dpost_box">amenity=post_box</a> that you would accept as fully described post box on OSM map. Example for belarus</p>
+<div class="message_embed"><a class="message_embed_image" href="http://openstreetmap.org" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="http://openstreetmap.org" title="OpenStreetMap">OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="354914728"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Post%20box%20validator/near/354914728" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Michael Validator <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Post.20box.20validator.html#354914728">(May 01 2023 at 16:05)</a>:</h4>
+<p><a href="https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dpost_box">amenity=post_box</a><br>
+<a href="https://wiki.openstreetmap.org/wiki/Tag%3Acollection_times%3DMo">collection_times=Mo</a> 15:15; Tu-Fr 15:15; Sa 15:45<br>
+<a href="https://wiki.openstreetmap.org/wiki/Tag%3Amapillary%3D102590672831658">mapillary=102590672831658</a><br>
+operator=Белпошта<br>
+operator:be=Белпошта<br>
+<a href="https://wiki.openstreetmap.org/wiki/Tag%3Aoperator:en%3DBelposhta">operator:en=Belposhta</a><br>
+operator:ru=Белпочта<br>
+<a href="https://wiki.openstreetmap.org/wiki/Tag%3Aoperator:wikidata%3DQ2662336">operator:wikidata=Q2662336</a><br>
+<a href="https://wiki.openstreetmap.org/wiki/Tag%3Apost_box:type%3Dlamp">post_box:type=lamp</a><br>
+<a href="https://wiki.openstreetmap.org/wiki/Tag%3Aref%3D19">ref=19</a>-497<br>
+<a href="https://wiki.openstreetmap.org/wiki/Tag%3Aref:belpost%3D5991">ref:belpost=5991</a><br>
+<a href="https://wiki.openstreetmap.org/wiki/Tag%3Asupport%3Dpole">support=pole</a></p>
+
+
+
+<a name="354931928"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Post%20box%20validator/near/354931928" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Michael Validator <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Post.20box.20validator.html#354931928">(May 01 2023 at 17:20)</a>:</h4>
+<p>Now there are 205 of 450 boxes on the map. But most of its don't have a ref nor an operator nor collection_times.</p>
+
+
+
+<a name="354932065"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Post%20box%20validator/near/354932065" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Post.20box.20validator.html#354932065">(May 01 2023 at 17:21)</a>:</h4>
+<p>That sounds like a great idea. But someone else might chime in, because I'm not sure that the data from Latvijas Pasts is open data and compatible with OSM licensing. I cannot find any mention of licensing and it's not part of government open data repository <a href="https://data.gov.lv">https://data.gov.lv</a></p>
+
+
+
+<a name="354935041"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Post%20box%20validator/near/354935041" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Michael Validator <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Post.20box.20validator.html#354935041">(May 01 2023 at 17:34)</a>:</h4>
+<p>I see. Could you please  start to  identify list of tags and values for post box of Latvijas Pasts? It is not create any legal issue. You Just need to define the operator name (I guess Latvijas Pasts). Do  you need operator:en or others languages. Do you want to have <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aoperator:wiKidata%3DQ1807088">operator:wiKidata=Q1807088</a>.   BTW why  can't I use letters lower case  K and J here in the chat?</p>
+
+
+
+<a name="354935417"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Post%20box%20validator/near/354935417" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Post.20box.20validator.html#354935417">(May 01 2023 at 17:35)</a>:</h4>
+<p>Yeah, we can definitely add operator and its wikidata and may be :ru and :en names. There's probably an example somewhere, I might take a look later.</p>
+
+
+
+<a name="354935734"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Post%20box%20validator/near/354935734" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Post.20box.20validator.html#354935734">(May 01 2023 at 17:37)</a>:</h4>
+<p>I have no idea about k and j... that sounds very weird.</p>
+
+
+
+<a name="355059088"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Post%20box%20validator/near/355059088" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Post.20box.20validator.html#355059088">(May 02 2023 at 07:46)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="613824">Michael Validator</span> <a href="#narrow/stream/358602-general/topic/Post.20box.20validator/near/354935041">said</a>:</p>
+<blockquote>
+<p>BTW why  can't I use letters lower case  K and J here in the chat?</p>
+</blockquote>
+<p>I'd suggest taking this question to <a class="stream" data-stream-id="362235" href="/#narrow/stream/362235-Zulip">#Zulip</a> channel.</p>
+
+
+
+<a name="355076127"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Post%20box%20validator/near/355076127" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Post.20box.20validator.html#355076127">(May 02 2023 at 08:46)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="613824">Michael Validator</span> <a href="#narrow/stream/358602-general/topic/Post.20box.20validator/near/354935041">said</a>:</p>
+<blockquote>
+<p>Could you please  start to  identify list of tags and values for post box of Latvijas Pasts?</p>
+</blockquote>
+<p>I guess we should keep them in sync with Name Suggestion Index:<br>
+<a href="https://nsi.guide/index.html?t=operators&amp;k=amenity&amp;v=post_box&amp;tt=Latvijas%20Pasts">https://nsi.guide/index.html?t=operators&amp;k=amenity&amp;v=post_box&amp;tt=Latvijas%20Pasts</a><br>
+<a href="https://nsi.guide/index.html?t=operators&amp;k=amenity&amp;v=post_office&amp;tt=Latvijas%20Pasts">https://nsi.guide/index.html?t=operators&amp;k=amenity&amp;v=post_office&amp;tt=Latvijas%20Pasts</a><br>
+By the way, NSI provides Overpass queries that colorize mapped entities with tags not to spec.</p>
+
+
+
+<a name="355077801"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Post%20box%20validator/near/355077801" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Post.20box.20validator.html#355077801">(May 02 2023 at 08:54)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/Post.20box.20validator/near/354932065">said</a>:</p>
+<blockquote>
+<p>I'm not sure that the data from Latvijas Pasts is open data and compatible with OSM licensing.</p>
+</blockquote>
+<p>Licensing is one question and data accuracy is another one. If Latvijas Pasts data are compatible with OSM licence and accurate enough, I guess we would consider an automatic solution to synchronize Latvijas Pasts data with OSM (like the address <a href="https://github.com/Davis-Klavins/osm-latvia-bot">bot</a> we already have) instead of a validator website that requires a lot of manual work.</p>
+<div class="message_embed"><a class="message_embed_image" href="https://github.com/Davis-Klavins/osm-latvia-bot" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)"></a><div class="data-container"><div class="message_embed_title"><a href="https://github.com/Davis-Klavins/osm-latvia-bot" title="GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class="message_embed_description">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>
+
+
+
+<a name="355078762"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Post%20box%20validator/near/355078762" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Post.20box.20validator.html#355078762">(May 02 2023 at 08:58)</a>:</h4>
+<p>Also <a href="https://streetcomplete.app/">StreetComplete</a> has "What are the pickup times of this collection box?" and "What’s the identification number here?" <a href="https://wiki.openstreetmap.org/wiki/StreetComplete/Quests">quests</a> regadring <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dpost_box">amenity=post_box</a>.</p>
+
+
+
+<a name="355157693"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Post%20box%20validator/near/355157693" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Michael Validator <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Post.20box.20validator.html#355157693">(May 02 2023 at 13:50)</a>:</h4>
+<p>Meanwhile  I published map with current post box state. It can help to realize current state and  estimate coordinate precision on official site.<br>
+<a href="https://mapillaryby.github.io/PostboxValidator/latvia_index.html">https://mapillaryby.github.io/PostboxValidator/latvia_index.html</a><br>
+It will be great if somebody could provide translation to your native language otherwise I will use google translate.</p>
+
+
+
+<a name="355159422"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Post%20box%20validator/near/355159422" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Post.20box.20validator.html#355159422">(May 02 2023 at 13:57)</a>:</h4>
+<p>I think you can just use English, no need for Latvian for these. And I guess many speak Russian too if you don't translate.</p>
+
+
+
+<a name="355159886"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Post%20box%20validator/near/355159886" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Michael Validator <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Post.20box.20validator.html#355159886">(May 02 2023 at 13:58)</a>:</h4>
+<p>There is example when long distance between coordinates on site and on OSM<br>
+<a href="/user_uploads/49624/MypUr5viQU73ueh0-IjFP3hO/image.png">image.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/MypUr5viQU73ueh0-IjFP3hO/image.png" title="image.png"><img src="/user_uploads/49624/MypUr5viQU73ueh0-IjFP3hO/image.png"></a></div>
+
+
+
+<a name="355160019"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Post%20box%20validator/near/355160019" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Post.20box.20validator.html#355160019">(May 02 2023 at 13:59)</a>:</h4>
+<p>You have a small error here:<br>
+"Рекомендуемы теги:<br>
+<a href="https://wiki.openstreetmap.org/wiki/Tag%3Aoperator%3Datvijas">operator=atvijas</a> Pasts"</p>
+
+
+
+<a name="355160430"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Post%20box%20validator/near/355160430" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Michael Validator <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Post.20box.20validator.html#355160430">(May 02 2023 at 14:00)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/Post.20box.20validator/near/355160019">said</a>:</p>
+<blockquote>
+<p>You have a small error here:<br>
+"Рекомендуемы теги:<br>
+<a href="https://wiki.openstreetmap.org/wiki/Tag%3Aoperator%3Datvijas">operator=atvijas</a> Pasts"</p>
+</blockquote>
+<p>Thanks, I see.</p>
+
+
+
+<a name="355160434"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Post%20box%20validator/near/355160434" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Post.20box.20validator.html#355160434">(May 02 2023 at 14:01)</a>:</h4>
+<p>It seems the post website uses address points rather than actual locations. This one appears to be wrong address as well - 1 instead of 1A</p>
+
+
+
+<a name="355161527"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Post%20box%20validator/near/355161527" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Post.20box.20validator.html#355161527">(May 02 2023 at 14:04)</a>:</h4>
+<p>By the way, in case you want to parse the website data for collection times:<br>
+"Vēstuļu kastītes tukšošanas laiks&lt;br /&gt;Darba dienās: 10:00&lt;br /&gt;Sestdienās: -&lt;br /&gt;Svētdienās: -"<br>
+means<br>
+"Post box emptying times&lt;br /&gt;Work days: ....&lt;br /&gt;Saturdays: ....&lt;br /&gt;Sundays: ...."<br>
+It seems they all follow this syntax</p>
+
+
+
+<a name="355161803"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Post%20box%20validator/near/355161803" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Michael Validator <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Post.20box.20validator.html#355161803">(May 02 2023 at 14:05)</a>:</h4>
+<p>Yes, I have it in my plan for the next release.</p>
+
+
+
+<a name="355169468"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Post%20box%20validator/near/355169468" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Post.20box.20validator.html#355169468">(May 02 2023 at 14:31)</a>:</h4>
+<p>Are you planning to publish source code for HTML generator? (I assume you don't write it manually...)</p>
+
+
+
+<a name="355173006"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Post%20box%20validator/near/355173006" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Michael Validator <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Post.20box.20validator.html#355173006">(May 02 2023 at 14:42)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/358602-general/topic/Post.20box.20validator/near/355169468">said</a>:</p>
+<blockquote>
+<p>Are you planning to publish source code for HTML generator? (I assume you don't write it manually...)</p>
+</blockquote>
+<p>I will publish source code later. Now my goal is to create solution where new country can be added just by new section in config file. I am far from that for now. Code is not refactored and in the current state, it will show me bad in front of colleagues.</p>
+
+
+
+<a name="355449103"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Post%20box%20validator/near/355449103" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Post.20box.20validator.html#355449103">(May 03 2023 at 13:48)</a>:</h4>
+<p>Looks great, and the import-oriented approach <span class="user-mention" data-user-id="568802">@i-ky</span> mentioned might be wonderful as well - just that we'll need to contact Latvijas pasts and get a permission to use their data.<br>
+Historically, they haven't had the time to go the open data route.</p>
+
+
+
+<a name="355575525"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Post%20box%20validator/near/355575525" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Michael Validator <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Post.20box.20validator.html#355575525">(May 03 2023 at 18:16)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568771">Rihards Olups</span> <a href="#narrow/stream/358602-general/topic/Post.20box.20validator/near/355449103">said</a>:</p>
+<blockquote>
+<p>Looks great, and the import-oriented approach <span class="user-mention silent" data-user-id="568802">i-ky</span> mentioned might be wonderful as well - just that we'll need to contact Latvijas pasts and get a permission to use their data.<br>
+Historically, they haven't had the time to go the open data route.</p>
+</blockquote>
+<p>It looks like import is imposible due Lavijas Past has coordinates of bulding with post box adress. As result all post boxes will be in center of building instead of at external wall. Also we already found several examples where distance between real post box and coordinates more then a few dozens of meters.</p>
+
+
+
+<a name="357279785"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Post%20box%20validator/near/357279785" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Post.20box.20validator.html#357279785">(May 10 2023 at 12:53)</a>:</h4>
+<p>Heya all, anybody got a chance to check with Latvijas pasts on the postbox data licencing?</p>
+
+
+
+<hr><p>Last updated: Mar 02 2026 at 10:27 UTC</p>
+</html>

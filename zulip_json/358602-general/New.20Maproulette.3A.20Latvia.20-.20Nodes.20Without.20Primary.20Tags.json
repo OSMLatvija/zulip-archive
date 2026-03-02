@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>Hello OSM Latvia,</p>\n<p>A new <a href=\"https://maproulette.org/\">MapRoulette</a> challenge is live:  <strong><a href=\"https://maproulette.org/browse/challenges/54208\">Latvia - Nodes Without Primary Tags</a></strong>!<br>\nThe aim of this challenge is to improve data completeness by adding appropriate primary tags to OSM nodes that currently have a <code>name=*</code> tag but lack top-level tags defining the features (such as <code>amenity=</code>, <code>shop=</code>, <code>place=*,</code> etc.)</p>\n<p>Your comments, feedback, and suggestions are very welcome.</p>\n<p>Thank you,</p>\n<p>Priscilla - TomTom</p>",
+        "id": 575557432,
+        "sender_full_name": "Priscilla Zachee",
+        "timestamp": 1771943537
+    },
+    {
+        "content": "<p>Hi, looks good!</p>\n<p>I would advise anyone slight caution when editing these, some need special care to fix, including research and surveys. Some don't have any OSM established tags to use.</p>\n<p>There is also a daily report at <a href=\"https://osmlatvija.github.io/Osmalyzer/Non-defining%20Tagging%20report.html\">https://osmlatvija.github.io/Osmalyzer/Non-defining%20Tagging%20report.html</a> that detects these (and more) in Latvia. I've myself fixed a lot of the obvious ones before. Many of the ones remaining are harder-to-fix cases.</p>",
+        "id": 575563843,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771944877
+    },
+    {
+        "content": "<p>Thanks for the appreciation and the heads‑up. You’re absolutely right — this challenge will likely call for fairly experienced mappers, with solid tagging knowledge  and, when needed, it might require survey and broader investigation to identify appropriate tag.</p>",
+        "id": 575580104,
+        "sender_full_name": "Priscilla Zachee",
+        "timestamp": 1771948460
+    },
+    {
+        "content": "<p>Yay, thank you :)<br>\nYeah, many here will be tricky. I took a look at two of them and couldn't complete either right away.<br>\nI mean, <a href=\"https://www.openstreetmap.org/node/12862422480/history\">https://www.openstreetmap.org/node/12862422480/history</a> ...</p>",
+        "id": 576353508,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1772228275
+    },
+    {
+        "content": "<p>I completed one, then failed to find <strong>anything</strong> for three next ones in a row and stopped</p>",
+        "id": 576402230,
+        "sender_full_name": "markalex",
+        "timestamp": 1772266295
+    },
+    {
+        "content": "<p>Haha, welcome to undefined tagging list where I fixed 90% of easy ones and left the hard ones for you guys. <span aria-label=\"melting face\" class=\"emoji emoji-1fae0\" role=\"img\" title=\"melting face\">:melting_face:</span></p>",
+        "id": 576413791,
+        "sender_full_name": "HellMap",
+        "timestamp": 1772276484
+    }
+]

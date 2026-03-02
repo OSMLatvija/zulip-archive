@@ -1,0 +1,254 @@
+[
+    {
+        "content": "<p>Dzīvojamās ielas ar <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Amaxspeed\">maxspeed=*</a>. Teorētiski nevienai nav jābūt. Bet daudz kur nav arī dzīvojamā zona.</p>\n<div class=\"codehilite\" data-code-language=\"overpass\"><pre><span></span><code>[out:json][timeout:25];\n{{geocodeArea:latvia}}-&gt;.searchArea;\nway[highway=living_street][maxspeed](area.searchArea);\nout geom;\n{{style:\nway[maxspeed=20] { color:orange; }\nway[maxspeed!=20] { color:red; }\n}}\n</code></pre></div>\n<p>Sarkanie - maxspeed nav 20<br>\nOranžie - maxspeed ir 20</p>\n<p>Pārsvarā ap un Rīgā <a href=\"/user_uploads/49624/90zNno-TGmrU4DNQX4nJadIu/lz-mess.png\">lz-mess.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/90zNno-TGmrU4DNQX4nJadIu/lz-mess.png\" title=\"lz-mess.png\"><img src=\"/user_uploads/49624/90zNno-TGmrU4DNQX4nJadIu/lz-mess.png\"></a></div>",
+        "id": 322782089,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674337689
+    },
+    {
+        "content": "<p>Kādēļ nav jābūt?</p>",
+        "id": 322786342,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674341020
+    },
+    {
+        "content": "<p>Principā jau pareizs jautājums būtu - kādēļ ir jābūt? <code>maxspeed</code> norāda, ja ir kaut kādi speciāli ierobežojumi. Te nav nekādu papildus ierobežojumu - te jau ir implied default. Tas ir tā pat kā uzlikt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aaccess%3Dyes\">access=yes</a> un pēc tam vēl uzlikt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Avehicle%3Dyes\">vehicle=yes</a>. Nepareizi datu ziņā nav, bet tikai rada papildus maintenance un neskaidrību, kāpēc vispār salikts.</p>",
+        "id": 322787551,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674341847
+    },
+    {
+        "content": "<p>Kaut kad sen lasīju labu argumentu, kāpēc \"implied maxspeed\" tomēr labāk norādīt, tikai neatceros, kāds tas bija :)<br>\nVarbūt tas vairāk bija par parastiem ceļiem, kuriem grūti noteikti, kur sākas/beidzas apdzīvota vieta.<br>\nliving_street + ne-20 ierobežojums gan nešķiet sakarīgi.</p>",
+        "id": 322886686,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674407881
+    },
+    {
+        "content": "<p>Cik es zinu, galvenais arguments kāpēc nonorādīt <em>expected</em> implied default`us ir, ja tie kādreiz nomainās. Piemēram, dzīvojamā zonā uztaisa 15. Un tagad pekšņi visur nepareizi. A ja tur reāli bija uzlikta zīme 20 un tagad noteikumi atļauj 20, ja tāda ir? Vairs nevar pateikt, kāpēc tur 20 bija uzlikts. Protams tas ļoti teorētisks gadījums. Bet ja pilsētā nomainītu uz 30, tad gan būtu pilns ar ziepēm.</p>",
+        "id": 322886921,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674408007
+    },
+    {
+        "content": "<p>Dzirdēts, bet tik retai iespējai diez vai vērts pieasistīt visu kartēšanas principu.</p>",
+        "id": 322888807,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674409163
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed/near/322886686\">said</a>:</p>\n<blockquote>\n<p>living_street + ne-20 ierobežojums gan nešķiet sakarīgi.</p>\n</blockquote>\n<p>Ņemot vērā, ka</p>\n<blockquote>\n<p>The <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Amaxspeed\">maxspeed=*</a> tag is used on ways to define the maximum <em>legal</em> speed limit</p>\n</blockquote>\n<p>...un to, ka pie mums pārsniegšanu par 10 km/st. \"soda\" ar brīdinājumu, šķiet loģiski likt <code>maxspeed</code>'ā to, kas ir uz zīmes + 10 km/st. Routingam būs reālistiskāka prognoze par braukšanas laikiem.</p>\n<p>Tas ir borderline sarkasms, borderline izmisums par mūsu stulbiem likumiem. Es nesaku, ka es atbalstu tādu praksi, es vienkārši mēģinu izskaidrot, kāpēc var būt <code>maxspeed=30</code> uz <code>highway=living_street</code>.</p>",
+        "id": 322968890,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674465007
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed/near/322886921\">said</a>:</p>\n<blockquote>\n<p>Cik es zinu, galvenais arguments kāpēc nonorādīt <em>expected</em> implied default`us ir, ja tie kādreiz nomainās. Piemēram, dzīvojamā zonā uztaisa 15. Un tagad pekšņi visur nepareizi. A ja tur reāli bija uzlikta zīme 20 un tagad noteikumi atļauj 20, ja tāda ir? Vairs nevar pateikt, kāpēc tur 20 bija uzlikts. Protams tas ļoti teorētisks gadījums. Bet ja pilsētā nomainītu uz 30, tad gan būtu pilns ar ziepēm.</p>\n</blockquote>\n<p>Ja <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Amaxspeed\">maxspeed=*</a> norādīts kopā ar <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Asource:maxspeed\">source:maxspeed=*</a>, tad nav tādas problēmas.</p>",
+        "id": 322972563,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674466314
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed/near/322886686\">said</a>:</p>\n<blockquote>\n<p>Kaut kad sen lasīju labu argumentu, kāpēc \"implied maxspeed\" tomēr labāk norādīt, tikai neatceros, kāds tas bija :)</p>\n</blockquote>\n<p><a href=\"https://wiki.openstreetmap.org/wiki/Routing\">Šeit</a> rakstīts:</p>\n<blockquote>\n<p>In order to better calculate the fastest route, please consider helping by adding speed data using the <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Amaxspeed\">maxspeed=*</a> tag. This is especially important where the speed limit differs from the assumed maximum permitted speed for the road type per country and vehicle-type.</p>\n</blockquote>\n<p>Ja neatšķiras, tad sanāk \"not especially important\". Tātad var nelikt?</p>\n<p><a href=\"https://wiki.openstreetmap.org/wiki/OSM_tags_for_routing/Maxspeed\">Šeit</a> rakstīts:</p>\n<blockquote>\n<p>(*7): It is not possible to distinguish outside/inside place, because <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aplace\">place=*</a> is usually set on nodes, not on areas. If maxspeed differs from default, <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Amaxspeed\">maxspeed=*</a> (possibly with <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Asource:maxspeed\">source:maxspeed=*</a>) is explicitly set.</p>\n</blockquote>\n<p>...bet tas attiecās uz Austriju.</p>\n<p>Ir arī <a href=\"https://wiki.openstreetmap.org/wiki/Default_speed_limits\">tabula ar implicit noteikumiem</a> (Latvija arī labi aprakstīta), bet nezinu, cik daudzi routing risinājumi to izmanto.</p>",
+        "id": 322977426,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674467708
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed/near/322968890\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed/near/322886686\">said</a>:</p>\n<blockquote>\n<p>living_street + ne-20 ierobežojums gan nešķiet sakarīgi.</p>\n</blockquote>\n<p>Ņemot vērā, ka</p>\n<blockquote>\n<p>The <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Amaxspeed\">maxspeed=*</a> tag is used on ways to define the maximum <em>legal</em> speed limit</p>\n</blockquote>\n<p>...un to, ka pie mums pārsniegšanu par 10 km/st. \"soda\" ar brīdinājumu, šķiet loģiski likt <code>maxspeed</code>'ā to, kas ir uz zīmes + 10 km/st. Routingam būs reālistiskāka prognoze par braukšanas laikiem.</p>\n<p>Tas ir borderline sarkasms, borderline izmisums par mūsu stulbiem likumiem. Es nesaku, ka es atbalstu tādu praksi, es vienkārši mēģinu izskaidrot, kāpēc var būt <code>maxspeed=30</code> uz <code>highway=living_street</code>.</p>\n</blockquote>\n<p>Haha, diez vai kāds tā ir licis, ticamāk, ka tur nav living_street, vai arī maxspeed palicis no vēsturiskas situācijas :)<br>\nPar ātrumiem, principā jau arī par +20 vai +40 dabūt sodu ir ļoti maza iespēja, tā ka pagaidām tas mazāk par likumiem, vairāk par kontroles trūkumu.</p>",
+        "id": 322981048,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674468823
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed/near/322977426\">said</a>:</p>\n<blockquote>\n<p>Ir arī <a href=\"https://wiki.openstreetmap.org/wiki/Default_speed_limits\">tabula ar implicit noteikumiem</a> (Latvija arī labi aprakstīta), bet nezinu, cik daudzi routing risinājumi to izmanto.</p>\n</blockquote>\n<p>Jā, pieņemu, ka daudzi (visi?) neizmanto, kas būtu pieņemams iemesls tomēr pievienot.</p>",
+        "id": 322981193,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674468868
+    },
+    {
+        "content": "<p>Huh? Es biju domājis, ka to izmanto pilnīgi visi routeri, kas ātrumus rāda. Kā tad savādāk var ātrumu dabūt? Es minētu, ka 95%+ ielu nav ātrumi uzlikti. Es par pieņēmumu, ka routeri neizmanto, pieliktu resnu <strong>[citation needed]</strong></p>",
+        "id": 322994065,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674472673
+    },
+    {
+        "content": "<p>Piem., OSRM ir šādi defaultie: <a href=\"https://github.com/Project-OSRM/osrm-backend/blob/master/profiles/car.lua#L141\">https://github.com/Project-OSRM/osrm-backend/blob/master/profiles/car.lua#L141</a> .</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Project-OSRM/osrm-backend/blob/master/profiles/car.lua#L141\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/b16b4895fc7aaa198da718bb25b673ea006b821a\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f363535316162383037336234363463393935633161633962313737663764336339386131646235356362383236303862343636666239663136373661623261652f50726f6a6563742d4f53524d2f6f73726d2d6261636b656e64)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Project-OSRM/osrm-backend/blob/master/profiles/car.lua#L141\" title=\"osrm-backend/car.lua at master · Project-OSRM/osrm-backend\">osrm-backend/car.lua at master · Project-OSRM/osrm-backend</a></div><div class=\"message_embed_description\">Open Source Routing Machine - C++ backend. Contribute to Project-OSRM/osrm-backend development by creating an account on GitHub.</div></div></div>",
+        "id": 322996828,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674473570
+    },
+    {
+        "content": "<p>Un šādi valstu specifiskie: <a href=\"https://github.com/Project-OSRM/osrm-backend/blob/master/profiles/car.lua#L270\">https://github.com/Project-OSRM/osrm-backend/blob/master/profiles/car.lua#L270</a> .<br>\nTā ka kaut ko izmanto, bet tas atbalsts ir ļoti nekonsekvents.<br>\nKaut vai paskat, kā nav Latvijas specifisko - un tas ir OSRM. Mazāk populāriem routeriem būs vēl vājāks atbalsts lielākoties.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Project-OSRM/osrm-backend/blob/master/profiles/car.lua#L270\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/b16b4895fc7aaa198da718bb25b673ea006b821a\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f363535316162383037336234363463393935633161633962313737663764336339386131646235356362383236303862343636666239663136373661623261652f50726f6a6563742d4f53524d2f6f73726d2d6261636b656e64)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Project-OSRM/osrm-backend/blob/master/profiles/car.lua#L270\" title=\"osrm-backend/car.lua at master · Project-OSRM/osrm-backend\">osrm-backend/car.lua at master · Project-OSRM/osrm-backend</a></div><div class=\"message_embed_description\">Open Source Routing Machine - C++ backend. Contribute to Project-OSRM/osrm-backend development by creating an account on GitHub.</div></div></div>",
+        "id": 322997584,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674473770
+    },
+    {
+        "content": "<p>Tātad problēma ar routeriem nevis tagošanu <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>",
+        "id": 322998235,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674473959
+    },
+    {
+        "content": "<p>Nu to pašu var teikt par area routing.<br>\nBet paskaties no routera implementētāja viedokļa - cik praktiski ir ne tikai atbalstīt reģionu ievākšanu (urban vs rural), bet vēl arī ieviest un uzturēt visu valstu specifiskos limitus.</p>",
+        "id": 322998594,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674474056
+    },
+    {
+        "content": "<p>Bet vispār - kā Tu Latvijā noteiktu, vai šoseja caur apdzīvotu vietu ir 90 vai 50?</p>",
+        "id": 322998657,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674474076
+    },
+    {
+        "content": "<p>Tāpēc jau limiti aprakstīti wiki mašīnlasāmā veidā un to uztur mapperi.</p>",
+        "id": 322998837,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674474133
+    },
+    {
+        "content": "<p>Ja to neizmanto visi routeri, tas neko baigi daudz nedod.</p>",
+        "id": 322998939,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674474159
+    },
+    {
+        "content": "<p>Šoseja caur apdzīvotu vietu bez maxspeed - 50, citādi pēc maxspeed. A kā braucot ar mašīnu to noteikt?</p>",
+        "id": 322998968,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674474171
+    },
+    {
+        "content": "<p>Kā noteiksi no OSM datiem, vai tā ir baltās vai zilās zīmes apdz. vieta?</p>",
+        "id": 322999166,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674474237
+    },
+    {
+        "content": "<p>Ko tad, ja admin. robeža ir viena, bet baltā zīme nostāk?</p>",
+        "id": 322999220,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674474248
+    },
+    {
+        "content": "<p>Tur pēkšņi vajag kaudzi ar citiem datiem, kuri ir daudz detalizētāki par maspeed, un vairāk \"fragile\".<br>\nTādi dati arī ir daudz sarežģītāk parsējami.</p>\n<p>Es nesaku, ka tā nav jauka doma - bet man aizdomas, ka šobrīd tā ir utopija.</p>",
+        "id": 322999412,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674474319
+    },
+    {
+        "content": "<p>Bet tu apraksti izņēmuma gadījumus, kur man personīgi nav problēmu, ja kāds saliks maxspeed (jo routeri un admin borderi nav vēl sakārtoti), nevis par tādiem piemēriem, kad visa Jūrmala 50 katrai sānielai.</p>",
+        "id": 322999494,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674474346
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed/near/322998837\">said</a>:</p>\n<blockquote>\n<p>Tāpēc jau limiti aprakstīti wiki mašīnlasāmā veidā un to uztur mapperi.</p>\n</blockquote>\n<p>Man šķiet tā lapa ir samēra jauna. Varbūt routeri vēl \"nepaspēja\" ieviest tās izmantošanu.</p>",
+        "id": 322999958,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674474512
+    },
+    {
+        "content": "<p>Un arī, atpakaļ pie šī topika konkrētā gadījuma, kurš bija par living_street, kur ir <em>vienmēr</em> 20 un routeriem kā tajā OSMR piemērā pielikt 20 defaultu ir ļoti vienkārši. Jāuzraksta issue viņiem.</p>",
+        "id": 323000013,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674474540
+    },
+    {
+        "content": "<p><a href=\"https://github.com/Project-OSRM/osrm-backend/issues/6519\">https://github.com/Project-OSRM/osrm-backend/issues/6519</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Project-OSRM/osrm-backend/issues/6519\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/151e25c4ee025ebede03a39223b3bd919476cc2e\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f353266656339643736353162383738313666383634643337643134353532343439383662616637356234623135633133636134363631356635643730336331332f50726f6a6563742d4f53524d2f6f73726d2d6261636b656e642f6973737565732f36353139)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Project-OSRM/osrm-backend/issues/6519\" title=\"Living zone maxspeed=20 in Latvia · Issue #6519 · Project-OSRM/osrm-backend\">Living zone maxspeed=20 in Latvia · Issue #6519 · Project-OSRM/osrm-backend</a></div><div class=\"message_embed_description\">Hello! Please add an exception to https://github.com/Project-OSRM/osrm-backend/blob/master/profiles/car.lua#L270 for Latvia for living_street, which is always 20 kmh. I suppose it would be [&quot;l...</div></div></div>",
+        "id": 323001743,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674475096
+    },
+    {
+        "content": "<p>Bet ja vēl vairāk atpakaļ pie actual problēmas, tad te labojami tie šķībie gadījumi, kur ātrums nav 20, bet kaut kas cits ielikts. Tāpēc es arī pa krāsām nodalīju Overpass, jo <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amaxspeed%3D20\">maxspeed=20</a> <em>teorētiski</em> nav nepareizi.</p>",
+        "id": 323002064,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674475187
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed/near/322999494\">said</a>:</p>\n<blockquote>\n<p>Bet tu apraksti izņēmuma gadījumus, kur man personīgi nav problēmu, ja kāds saliks maxspeed (jo routeri un admin borderi nav vēl sakārtoti), nevis par tādiem piemēriem, kad visa Jūrmala 50 katrai sānielai.</p>\n</blockquote>\n<p>Bet kā Tu noteiktu ātrumu kādam ceļa posmam pasaulē? Kādi konkrēti būtu soļi?</p>",
+        "id": 323036727,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674484882
+    },
+    {
+        "content": "<p>Man būtu saraksts ar teritorijām, kurām ir kopīgi ierobežojumi, t.i. valstis, štati, utml. Un tur būtu saraksts at admin robežām, un ko tās nozīmē. (<a href=\"https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#10_admin_level_values_for_specific_countries\">https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#10_admin_level_values_for_specific_countries</a>) Pēc tam skatos tabulu, kā tur jābūt, kam man konkrēti vajag. (<a href=\"https://wiki.openstreetmap.org/wiki/Default_speed_limits\">https://wiki.openstreetmap.org/wiki/Default_speed_limits</a>)</p>",
+        "id": 323039710,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674485580
+    },
+    {
+        "content": "<p>Bet admin robežas mēdz nesakrist ar apdzīvotas vietas robežām, ko tādiem gadījumiem?<br>\nExplicit maxspeed nav pielikts.</p>",
+        "id": 323058056,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674490009
+    },
+    {
+        "content": "<p>Darīt to pašu, ko dara ar visu, kas nesakrīt ar oficiālajiem vai implied datiem - liek izņēmumus</p>",
+        "id": 323058632,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674490147
+    },
+    {
+        "content": "<p>Lai būtu vēl vieglāk saprast, ko labot:</p>\n<div class=\"codehilite\" data-code-language=\"overpass\"><pre><span></span><code>[out:json][timeout:25];\n{{geocodeArea:Latvia}}-&gt;.searchArea;\nway[highway=living_street][maxspeed][maxspeed!=20](area.searchArea);\nout geom;\n</code></pre></div>",
+        "id": 323069321,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674492837
+    },
+    {
+        "content": "<p>Tagad vēl ir Osmalyzer report - <a href=\"https://osmlatvija.github.io/Osmalyzer/Living%20Zone%20Speeds%20report.html\">https://osmlatvija.github.io/Osmalyzer/Living%20Zone%20Speeds%20report.html</a></p>",
+        "id": 369985936,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687859090
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"571825\">@HellMap</span>, vai nav <a href=\"https://github.com/OSMLatvija/Osmalyzer/blob/main/Osmalyzer/Analyzers/LivingZoneSpeedAnalyzer.cs\">pa daudz koda</a>, ja tos pašus rezultātus var dabūt ar <a href=\"#narrow/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed/near/323069321\">vienkāršu Overpass vaicājumu</a>?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/OSMLatvija/Osmalyzer/blob/main/Osmalyzer/Analyzers/LivingZoneSpeedAnalyzer.cs\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/920e73182babba4f299d627f4a393193172f13e9\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f386135356535616637333134376534396632616337646530653066656136613465373561386231326261366136663432396337313764643861346461623562392f4f534d4c617476696a612f4f736d616c797a6572)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/OSMLatvija/Osmalyzer/blob/main/Osmalyzer/Analyzers/LivingZoneSpeedAnalyzer.cs\" title=\"Osmalyzer/Osmalyzer/Analyzers/LivingZoneSpeedAnalyzer.cs at main · OSMLatvija/Osmalyzer\">Osmalyzer/Osmalyzer/Analyzers/LivingZoneSpeedAnalyzer.cs at main · OSMLatvija/Osmalyzer</a></div><div class=\"message_embed_description\">Parsing OSM data when it's too complex for Overpass - Osmalyzer/Osmalyzer/Analyzers/LivingZoneSpeedAnalyzer.cs at main · OSMLatvija/Osmalyzer</div></div></div>",
+        "id": 369986634,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687859213
+    },
+    {
+        "content": "<p>Jā, es vakar iztīrīju kādu pārsimtu, palicis, ko nepamanīju vai nepabeidzu</p>",
+        "id": 369986843,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687859250
+    },
+    {
+        "content": "<p>Jā, var ar Overpass, bet es to visu tik un tā priekš sevis rakstu. Piemēram, es gribu lai es browserī redzētu, vai es jau esmu linku nospiedis. Es gribu redzēt ielas nosaukumu un tagadējo ātrumu. Un es gribu iespēju nākotnē kaut ko pielikt klāt nevis sasniegt Overpass robežu un viss. Un es negribu neko rakstīt Overpass valodā.</p>",
+        "id": 369992639,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687860191
+    },
+    {
+        "content": "<p>Varētu gan vienreiz uzrakstīt generic query un linku pielikt no reporta.</p>",
+        "id": 369997335,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687860913
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed/near/369997335\">said</a>:</p>\n<blockquote>\n<p>Varētu gan vienreiz uzrakstīt generic query un linku pielikt no reporta.</p>\n</blockquote>\n<p>Ko nozīmē \"generic query\"?</p>",
+        "id": 369997697,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687860968
+    },
+    {
+        "content": "<p>Ka es varu query stringu uztaisīt vienkāršam vaicājumam automātiski pasakot \"gribu <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dliving_street\">highway=living_street</a> bez maxspeed\" un man izmet standarta query sintaksi ar standarta linku/aprkastu, ko man pēc tam viegli citur pielikt pēc vēlmes.</p>",
+        "id": 369998642,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687861073
+    },
+    {
+        "content": "<p>Es domāju nevis palaist, bet iedot reportā lasītājam noklikšķināt</p>",
+        "id": 369999120,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687861119
+    },
+    {
+        "content": "<p>Nepareizi palikušas 3 vietas, kur es nevaru pateikt. Uzprasīju autoriem, bet lielas cerības uz atbildi nav.</p>",
+        "id": 370338303,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687942827
+    }
+]

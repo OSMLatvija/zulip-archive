@@ -1,0 +1,49 @@
+<html>
+<head><meta charset="utf-8"><title>amenity=bicycle_repair_station valves · veloinfrastruktūra · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/index.html">veloinfrastruktūra</a></h2>
+<h3>Topic: <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/amenity.3Dbicycle_repair_station.20valves.html">amenity=bicycle_repair_station valves</a></h3>
+
+<hr>
+
+<base href="https://osmlatvija.zulipchat.com">
+
+<head><link href="https://osmlatvija.github.io/zulip-archive/style.css" rel="stylesheet"></head>
+
+<a name="321604253"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/amenity%3Dbicycle_repair_station%20valves/near/321604253" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/amenity.3Dbicycle_repair_station.20valves.html#321604253">(Jan 16 2023 at 10:18)</a>:</h4>
+<p>Vai es pareizi saprotu, ka vienīgais veids, kā norādīt vārstu tipus, kurus var piepumpēt ar velo remonta stacijas pumpi, ir likt <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aservice:bicycle:pump%3Dseparate">service:bicycle:pump=separate</a> uz <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dbicycle_repair_station">amenity=bicycle_repair_station</a> un zīmēt atsevišķu <img alt=":node:" class="emoji" src="https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40175.png" title="node"> <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dcompressed_air">amenity=compressed_air</a> + <a href="https://wiki.openstreetmap.org/wiki/Key%3Avalves">valves=*</a>?</p>
+
+
+
+<a name="321607564"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/amenity%3Dbicycle_repair_station%20valves/near/321607564" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/amenity.3Dbicycle_repair_station.20valves.html#321607564">(Jan 16 2023 at 10:36)</a>:</h4>
+<p>Nja, wiki neko īsti neredzu un taginfo arī nav lietots. <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dcompressed_air">amenity=compressed_air</a> jau it kā tomēr ir priekš automātiskajiem/ar kompresoru? Ar <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aservice:bicycle:pump%3Dseparate">service:bicycle:pump=separate</a> tādi ir 3 uzzīmēti - diviem pēc Mapillary reāli ir separate un vienu Mapillary neredzu. Citi salikti veikaliem visādiem nevis repair station.</p>
+<div class="codehilite" data-code-language="overpass"><pre><span></span><code>[out:json][timeout:25];
+nw[amenity=bicycle_repair_station]["service:bicycle:pump"="separate"];
+out geom;
+</code></pre></div>
+<p>Es teiktu loģiski it kā jau būtu likt <a href="https://wiki.openstreetmap.org/wiki/Key%3Aservice:bicycle:pump:valves">service:bicycle:pump:valves=*</a> -- time to <a href="https://wiki.openstreetmap.org/wiki/Any_tags_you_like">innovate</a> (tādi ir 11 taginfo, bet ne repair stationam)</p>
+
+
+
+<a name="321608496"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/amenity%3Dbicycle_repair_station%20valves/near/321608496" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/amenity.3Dbicycle_repair_station.20valves.html#321608496">(Jan 16 2023 at 10:42)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/amenity.3Dbicycle_repair_station.20valves/near/321607564">said</a>:</p>
+<blockquote>
+<p><a href="https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dcompressed_air">amenity=compressed_air</a> jau it kā tomēr ir priekš automātiskajiem/ar kompresoru?</p>
+</blockquote>
+<p>Vai tad? Es neko tādu neredzu, vienīgi šo:</p>
+<blockquote>
+<p>Since <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dcompressed_air">amenity=compressed_air</a> is usually oriented towards cars, some people prefer to map cycle pumps as a bicycle repair station with just a pump and no other services.</p>
+</blockquote>
+
+
+
+<a name="321609184"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/360539-veloinfrastrukt%C5%ABra/topic/amenity%3Dbicycle_repair_station%20valves/near/321609184" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/360539-veloinfrastrukt.C5.ABra/topic/amenity.3Dbicycle_repair_station.20valves.html#321609184">(Jan 16 2023 at 10:46)</a>:</h4>
+<p>Hmm, jā, laikam tas ir visiem sanāk. Bet reāli jau to laikam neliek velo, jo tie <code>bicycle_repair_station</code> un <code>service:bicycle:pump</code></p>
+
+
+
+<hr><p>Last updated: Mar 02 2026 at 10:27 UTC</p>
+</html>

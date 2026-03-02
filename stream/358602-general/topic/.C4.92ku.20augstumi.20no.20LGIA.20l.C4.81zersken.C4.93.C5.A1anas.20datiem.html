@@ -1,0 +1,95 @@
+<html>
+<head><meta charset="utf-8"><title>Ēku augstumi no LGIA lāzerskenēšanas datiem · general · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/index.html">general</a></h2>
+<h3>Topic: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/.C4.92ku.20augstumi.20no.20LGIA.20l.C4.81zersken.C4.93.C5.A1anas.20datiem.html">Ēku augstumi no LGIA lāzerskenēšanas datiem</a></h3>
+
+<hr>
+
+<base href="https://osmlatvija.zulipchat.com">
+
+<head><link href="https://osmlatvija.github.io/zulip-archive/style.css" rel="stylesheet"></head>
+
+<a name="523537196"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/%C4%92ku%20augstumi%20no%20LGIA%20l%C4%81zersken%C4%93%C5%A1anas%20datiem/near/523537196" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Anrijs <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/.C4.92ku.20augstumi.20no.20LGIA.20l.C4.81zersken.C4.93.C5.A1anas.20datiem.html#523537196">(Jun 11 2025 at 11:18)</a>:</h4>
+<p>Radās doma ka varētu sapildīt OSM ēku augstumus (height=) no LAS datiem.</p>
+<p>Aptuvenais process varētu izskatīties šāds:</p>
+<ol>
+<li>
+<p>Uzģenerē divus DEM TIFF:<br>
+1.1 Reljefa modelis (LAS Classification == 2)<br>
+1.2 Ēkas (LAS Classification == 6)</p>
+</li>
+<li>
+<p>No OSM datiem paņem ēkas poligonu</p>
+</li>
+<li>Sarēķina vidējo augstumu poligonā no DEM</li>
+<li>Augstums = h_Ēka - h_Reljefs </li>
+</ol>
+<p>Sākumā kā proof of concept varētu paņemt kādu mazāku apgabalu un uzģenerēt CSV failu ar aprēķinātajiem ēku augstumiem.<br>
+Jāizdomā arī ko darīt ar nestandarta gadījumiem, kad ēkai ir vairāki augstumi, bet viens poligons.<br>
+<a href="/user_uploads/49624/IXaWCudNaIQowYTVIrcdxLWh/osm_dem.png">osm_dem.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/IXaWCudNaIQowYTVIrcdxLWh/osm_dem.png" title="osm_dem.png"><img data-original-content-type="image/png" data-original-dimensions="900x900" src="/user_uploads/thumbnail/49624/IXaWCudNaIQowYTVIrcdxLWh/osm_dem.png/840x560.webp"></a></div>
+
+
+
+<a name="523611291"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/%C4%92ku%20augstumi%20no%20LGIA%20l%C4%81zersken%C4%93%C5%A1anas%20datiem/near/523611291" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/.C4.92ku.20augstumi.20no.20LGIA.20l.C4.81zersken.C4.93.C5.A1anas.20datiem.html#523611291">(Jun 11 2025 at 17:50)</a>:</h4>
+<p>Izklausās ļoti interesanti - varbūt kādā mazā rajonā iespējams testa datu kopu uztaisīt?</p>
+
+
+
+<a name="523678323"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/%C4%92ku%20augstumi%20no%20LGIA%20l%C4%81zersken%C4%93%C5%A1anas%20datiem/near/523678323" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Anrijs <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/.C4.92ku.20augstumi.20no.20LGIA.20l.C4.81zersken.C4.93.C5.A1anas.20datiem.html#523678323">(Jun 12 2025 at 05:13)</a>:</h4>
+<p>Šobrīd bez nekādas filtrēšanas. Vienkārši katram ēkas poligonam sarēķinātas vērtības<br>
+<a href="/user_uploads/49624/kPyNzBV4OzU_CSZFm1WdQIcL/buildings.csv">buildings.csv</a></p>
+
+
+
+<a name="523728463"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/%C4%92ku%20augstumi%20no%20LGIA%20l%C4%81zersken%C4%93%C5%A1anas%20datiem/near/523728463" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Anrijs <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/.C4.92ku.20augstumi.20no.20LGIA.20l.C4.81zersken.C4.93.C5.A1anas.20datiem.html#523728463">(Jun 12 2025 at 10:44)</a>:</h4>
+<p>Lasu ka <a href="https://wiki.openstreetmap.org/wiki/Key:height#Height_of_buildings">augstums esot jāliek jumta maksimālais</a>. No augstumu datu kopas varētu atmest kādus 1-5%. Tad max vērtībai vajadzētu būt aptuveni pareizajai.</p>
+
+
+
+<a name="523729981"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/%C4%92ku%20augstumi%20no%20LGIA%20l%C4%81zersken%C4%93%C5%A1anas%20datiem/near/523729981" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Anrijs <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/.C4.92ku.20augstumi.20no.20LGIA.20l.C4.81zersken.C4.93.C5.A1anas.20datiem.html#523729981">(Jun 12 2025 at 10:52)</a>:</h4>
+<p>Salīdzinot dažu ēku 99% max augstumus ar 3D Rīga izmērīto, kļūda ir 0.2m līdz 0.5m</p>
+
+
+
+<a name="523741038"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/%C4%92ku%20augstumi%20no%20LGIA%20l%C4%81zersken%C4%93%C5%A1anas%20datiem/near/523741038" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/.C4.92ku.20augstumi.20no.20LGIA.20l.C4.81zersken.C4.93.C5.A1anas.20datiem.html#523741038">(Jun 12 2025 at 11:59)</a>:</h4>
+<p>Doma laba. Prakstiski, būs gan grūtāk drošvien. Jāņem vērā, ka OSM ēkas nav iezīmētas precīzi - ir nobīdes, ir apvienotas, ir sadalītas. Piemēram, kas notiks ar ielikto <code>height</code> vērtību, ja kāds to ēku izlabos vai pabīdīs? Ar tādiem importiem (līdzīgi kā adresēm) ir gandrīz svarīgāk pēc tam to uzturēt nekā pirmo reizi pievienot. Un kā sekot līdzi ēku izmaiņām dabā kopš datu datuma arī grūti uzreiz iedomāties - piemēram, nojaukts šķūnis, uzbūvēta piecstāvu ēka, bet datos augstums 5 metri tajā vietā...</p>
+
+
+
+<a name="523883646"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/%C4%92ku%20augstumi%20no%20LGIA%20l%C4%81zersken%C4%93%C5%A1anas%20datiem/near/523883646" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Anrijs <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/.C4.92ku.20augstumi.20no.20LGIA.20l.C4.81zersken.C4.93.C5.A1anas.20datiem.html#523883646">(Jun 13 2025 at 07:03)</a>:</h4>
+<p>Pagaidām doma ir izrēķināt lidar pārklājumu ēkai un mediānas/95% maksimālā augstuma attiecību.<br>
+Attēlā:</p>
+<ul>
+<li>Melns punkts - pārklājums mazāks par 66%</li>
+<li>Sarkans rombs - max un mediānas augstuma starpība lielāka par 33%</li>
+</ul>
+<p><a href="/user_uploads/49624/I7_sMzZz0lu2w0aWY-P53tKz/Screenshot-2025-06-13-at-10.00.59.png">Screenshot 2025-06-13 at 10.00.59.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/I7_sMzZz0lu2w0aWY-P53tKz/Screenshot-2025-06-13-at-10.00.59.png" title="Screenshot 2025-06-13 at 10.00.59.png"><img data-original-content-type="image/png" data-original-dimensions="1992x1718" src="/user_uploads/thumbnail/49624/I7_sMzZz0lu2w0aWY-P53tKz/Screenshot-2025-06-13-at-10.00.59.png/840x560.webp"></a></div>
+
+
+
+<a name="524046216"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/%C4%92ku%20augstumi%20no%20LGIA%20l%C4%81zersken%C4%93%C5%A1anas%20datiem/near/524046216" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/.C4.92ku.20augstumi.20no.20LGIA.20l.C4.81zersken.C4.93.C5.A1anas.20datiem.html#524046216">(Jun 14 2025 at 07:09)</a>:</h4>
+<p>Laba doma par uzturēšanu. Vai svaigi LIDAR dati vispār tagad būs pieejami, vai arī viss tiks šausmīgi saslepenots?</p>
+
+
+
+<a name="524051169"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/%C4%92ku%20augstumi%20no%20LGIA%20l%C4%81zersken%C4%93%C5%A1anas%20datiem/near/524051169" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Anrijs <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/.C4.92ku.20augstumi.20no.20LGIA.20l.C4.81zersken.C4.93.C5.A1anas.20datiem.html#524051169">(Jun 14 2025 at 08:58)</a>:</h4>
+<p>Šķet ka 2. cikls vispār tika nopauzēts un nezinu kad pabeigs... Un ja tie nebūs brīvi pieejami, tad arī nekāda uzturēšana no tiem nevar sanākt.</p>
+<p>Nojauktajiem šķūņiem varētu skatīties node/way modificēšanas datums un salīdzināt ar aptuveno LiDAR skenēšanas datumu.<br>
+building:levels=, protams, būtu drošāks variants, bet to nebūtu pareizi minēt no augstuma.</p>
+<p>Katrā ziņā, šobrīd uz šo neskatos kā automatizētu importu, bet vairāk kā datu avotu, ko varētu izmantot kopā ar cilvēka loģisko domāšanu</p>
+
+
+
+<hr><p>Last updated: Mar 02 2026 at 10:27 UTC</p>
+</html>

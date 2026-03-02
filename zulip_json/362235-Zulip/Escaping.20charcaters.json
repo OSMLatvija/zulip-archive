@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>A kā Zulipā escape tipa \\* uztaisīt? Kā piemēram uzrakstīt * piecus pēc kartās? Rāda šitā <strong>*</strong></p>",
+        "id": 402223227,
+        "sender_full_name": "HellMap",
+        "timestamp": 1700050961
+    },
+    {
+        "content": "<p><a href=\"https://github.com/zulip/zulip/issues/18202\">Nevar</a>. Bet ja ļoti gribas, var izmantot Latex: <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mtext>*****</mtext></mrow><annotation encoding=\"application/x-tex\">\\text{*****}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.75em;\"></span><span class=\"mord text\"><span class=\"mord\">*****</span></span></span></span></span></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/zulip/zulip/issues/18202\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/76fb6e918191acbe01e13a4586ca450342985456\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f646233303661336462373438616136363639646139356161666364353630306636626630366463613832613364663335326162366134616261326431366530382f7a756c69702f7a756c69702f6973737565732f3138323032)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/zulip/zulip/issues/18202\" title=\"Markdown escapes via &quot;\\&quot; are not handled correctly · Issue #18202 · zulip/zulip\">Markdown escapes via \"\\\" are not handled correctly · Issue #18202 · zulip/zulip</a></div><div class=\"message_embed_description\">To reproduce, type the following message: \\*hello\\* This should render as follows: *hello* I.e., this should show an asterisk followed by \"hello\" followed by an asterisk, all in standard font. On Z...</div></div></div>",
+        "id": 402225586,
+        "sender_full_name": "i-ky",
+        "timestamp": 1700051540
+    }
+]

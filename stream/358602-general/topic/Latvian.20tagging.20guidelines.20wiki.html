@@ -1,0 +1,287 @@
+<html>
+<head><meta charset="utf-8"><title>Latvian tagging guidelines wiki · general · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/index.html">general</a></h2>
+<h3>Topic: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html">Latvian tagging guidelines wiki</a></h3>
+
+<hr>
+
+<base href="https://osmlatvija.zulipchat.com">
+
+<head><link href="https://osmlatvija.github.io/zulip-archive/style.css" rel="stylesheet"></head>
+
+<a name="316950774"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/316950774" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#316950774">(Dec 20 2022 at 13:32)</a>:</h4>
+<p>Pieliku vairāk info <a href="https://wiki.openstreetmap.org/wiki/Lv:Latvian_tagging_guidelines">https://wiki.openstreetmap.org/wiki/Lv:Latvian_tagging_guidelines</a>, pārsvarā "Veloceļi un veloinfrastruktūra" un "Ceļu satiksmes ierobežojumi". Galvenais mērķis iekļaut vietējos CSN/likumus un aprakstīt vietējo praksi. Centos neko neinterprēt un vienkārši aprakstīt - tā jābūt, tā ir, tā varētu. Protams vēl var daudz ko var pierakstīt, lai varētu uz to atsaukties laika gaitā. Protams, jo dziļāk, jo grūtāk neintepretēt, tāpēc droši vien man ir daudz jautājumu un dažas lietas es pat nezinu. Pats daudz ko neprecīzi esmu zīmējis. Tur arī daudz kas esošais novecojis, neprecīzs vai arī pārāk interpretējoši un praksei neatbilstoši. Būtu ideāli, lai lapa tiešām kalpotu atsauksmei. Iespējams gan, ka vajag apspriest/piekrist visādiem punktiem, jo kartētāju maz un daudz kas nemaz nav standartizēts. Ja kāds varētu pārlasīt, ko es tur pielieku un piekrist vai nepiekrist vai tā tiešām ir.</p>
+
+
+
+<a name="316951530"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/316951530" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#316951530">(Dec 20 2022 at 13:36)</a>:</h4>
+<p>Viens spilgts piemērs ir <code>access=*</code> vai <code>motor_vehicle</code> vietās, kur reāli ir <code>vehicle=*</code>. Bet iD pirmais lauks ir <code>access</code> un <code>vehicle </code> vispār nav. Tāpēc drošvien arī daudz kur salikts neprecīzi - mašīnām pietiek, bet gājēji un velo sastopas ar wtf. Tas teiksim piemērs uz ko varētu atsaukties, ja kādam jāpasaka par pareizu tegošanu. Es pats pus ceļu nepareizi esmu salicis ar iD īpaši dziļi nedomājot agrāk. Pietiktu tikai wiki vienreiz izlasīt un es būtu pareizi licis... Domāju līdzīgi ir ar daudzām lietām.</p>
+
+
+
+<a name="316957204"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/316957204" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#316957204">(Dec 20 2022 at 14:02)</a>:</h4>
+<p>Vai ir jēga likt <code>bicycle=designated</code> un <code>foot=no</code> pie <code>highway=cycleway</code>, ja tas sakrīt ar <a href="https://wiki.openstreetmap.org/wiki/OSM_tags_for_routing/Access_restrictions#Worldwide">vērtībām pēc noklusējuma</a>?</p>
+
+
+
+<a name="316958009"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/316958009" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#316958009">(Dec 20 2022 at 14:05)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki/near/316957204">said</a>:</p>
+<blockquote>
+<p>Vai ir jēga likt <code>bicycle=designated</code> un <code>foot=no</code> pie <code>highway=cycleway</code>, ja tas sakrīt ar <a href="https://wiki.openstreetmap.org/wiki/OSM_tags_for_routing/Access_restrictions#Worldwide">vērtībām pēc noklusējuma</a>?</p>
+</blockquote>
+<p>Hmmm. Jā, es nokopēju no <a href="https://wiki.openstreetmap.org/wiki/Lv:Key:highway#Celi%C5%86i">https://wiki.openstreetmap.org/wiki/Lv:Key:highway#Celi%C5%86i</a> bet man liekas to lapu varēs redirectēt drīz (tur no 2013 gada nav atjaunots). <a href="https://wiki.openstreetmap.org/wiki/OSM_tags_for_routing/Access_restrictions">https://wiki.openstreetmap.org/wiki/OSM_tags_for_routing/Access_restrictions</a> arī par Latviju jāpieliek</p>
+
+
+
+<a name="316958860"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/316958860" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#316958860">(Dec 20 2022 at 14:09)</a>:</h4>
+<p>Izlaboju. Nezinu kāpēc man likās, ka uz Latviju tas neattiecas. Drošvien, jo nav defaulti norādīti nekur (cik zinu).</p>
+
+
+
+<a name="316959342"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/316959342" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#316959342">(Dec 20 2022 at 14:11)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki/near/316958860">said</a>:</p>
+<blockquote>
+<p>Izlaboju. Nezinu kāpēc man likās, ka uz Latviju tas neattiecas. Drošvien, jo nav defaulti norādīti nekur (cik zinu).</p>
+</blockquote>
+<p>Jā, Latvijai specifiskus defaults arī nekur neredzēju.</p>
+
+
+
+<a name="316959353"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/316959353" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#316959353">(Dec 20 2022 at 14:11)</a>:</h4>
+<p>Bet <code>bicycle=designated</code> man liekas jāliek vienmēr, jo savādāk putra par to, kurš no veidiem ir pareizais. Bet laikam varētu pateikt, ka to parasti liek (gan iD gan JOSM preseti vismaz) kaut arī principā varētu iztikt.</p>
+
+
+
+<a name="316960821"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/316960821" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#316960821">(Dec 20 2022 at 14:18)</a>:</h4>
+<p>Es teiktu, ja visi to dara, tad vajadzētu turpināt to darīt, ja nav nolemts citādi. Personīgi, ja ir uzlikts <code>highway=cycleway</code>, es uzskatu, ka kartētājs nezina, vai tur ir atsevišķs/kopīgs/sadalīts - un tas vēl jāprecizē. Pieliku wiki piezīmi par to, ka prakstiski to visi lieto.</p>
+
+
+
+<a name="316961101"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/316961101" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#316961101">(Dec 20 2022 at 14:19)</a>:</h4>
+<p>(Kaut kur varētu arī pierakstīt par <a href="#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/highway.3Dfootway.20un.20velo.20routing">https://osmlatvija.zulipchat.com/#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/highway.3Dfootway.20un.20velo.20routing</a> un to ka nav nekas izdomāts pagaidām)</p>
+
+
+
+<a name="316962410"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/316962410" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#316962410">(Dec 20 2022 at 14:25)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki/near/316960821">said</a>:</p>
+<blockquote>
+<p>Personīgi, ja ir uzlikts <code>highway=cycleway</code>, es uzskatu, ka kartētājs nezina, vai tur ir atsevišķs/kopīgs/sadalīts - un tas vēl jāprecizē.</p>
+</blockquote>
+<p>Man grūti iedomāties, ka kartētājs zin, kur atrodas veloceļš, bet nezin tipu. Zīmēt veloceliņu, nepārbaudot zīmes, man  šķiet bezatbildīgi, jo tas var novest pie "bike path is a lie" situācijām.</p>
+
+
+
+<a name="316964157"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/316964157" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#316964157">(Dec 20 2022 at 14:33)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki/near/316962410">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki/near/316960821">said</a>:</p>
+<blockquote>
+<p>Personīgi, ja ir uzlikts <code>highway=cycleway</code>, es uzskatu, ka kartētājs nezina, vai tur ir atsevišķs/kopīgs/sadalīts - un tas vēl jāprecizē.</p>
+</blockquote>
+<p>Man grūti iedomāties, ka kartētājs zin, kur atrodas veloceļš, bet nezin tipu. Zīmēt veloceliņu, nepārbaudot zīmes, man  šķiet bezatbildīgi, jo tas var novest pie "bike path is a lie" situācijām.</p>
+</blockquote>
+<p>Jā, pierkrītu. Bet nu praksē diezgan bieži sastopami pirms 15 gadiem zīmēti ceļi visādi, kur es pirmais reāli esmu dabā apskatījies un uzlicis pareizus tegus. Bet nu tas man personīgais novērojums. Par galveno es teiktu - darīt, kā visi un visi dara kā iD/JOSM, tāpēc arī ir tas <code>bicycle=designated</code> visur.</p>
+
+
+
+<a name="316964175"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/316964175" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#316964175">(Dec 20 2022 at 14:33)</a>:</h4>
+<p>Pie reizes var arī pierakstīt, kā zīmēt velojoslas. <a href="https://www.openstreetmap.org/way/1004445884">Barona ielā uzzīmēta kā <code>cycleway(:left/right)=lane</code></a>, <a href="https://www.openstreetmap.org/way/875449861">Čaka iela - kā atsevišķa <code>highway=cycleway</code>)</a>.</p>
+<div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/way/1004445884" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/way/1004445884" title="Way: ‪Krišjāņa Barona iela‬ (‪1004445884‬) | OpenStreetMap">Way: ‪Krišjāņa Barona iela‬ (‪1004445884‬) | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/way/875449861" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/way/875449861" title="Way: 875449861 | OpenStreetMap">Way: 875449861 | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="316964745"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/316964745" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#316964745">(Dec 20 2022 at 14:36)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki/near/316964175">said</a>:</p>
+<blockquote>
+<p>Pie reizes var arī pierakstīt, kā zīmēt velojoslas.</p>
+</blockquote>
+<p>Vai kaut kad par to bija apspriests? No lietošanas viedokļa (personīgi ar riteni braucot), atsevišķi ceļi ir daudz labāk nekā autocentriski lane/cycleway tegi. Bet nu tas ir garš sarežģīts stāsts. Pamēģināšu kaut ko uzrakstīt, bet tur laikam būs drīzāk apraksts, kā pie mums mēdz būt. Jāskatās Overpass, kur reāli ir tie <code>lane</code>.</p>
+
+
+
+<a name="316964850"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/316964850" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#316964850">(Dec 20 2022 at 14:37)</a>:</h4>
+<p>Starp citu, Barona ir nepareizi - tas nav nekāds lane</p>
+
+
+
+<a name="316965735"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/316965735" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#316965735">(Dec 20 2022 at 14:40)</a>:</h4>
+<p>Uz barona ir 956. ceļa marķējums, tā saucamais "sharrow", un tas "apzīmē brauktuves daļu, kas paredzēta velosipēdu un elektroskrejriteņu braukšanai, bet pa kuru atļauts braukt arī pārējiem transportlīdzekļiem" - tā ir josla un <code>cycleway=shared_lane</code></p>
+
+
+
+<a name="316965798"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/316965798" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#316965798">(Dec 20 2022 at 14:40)</a>:</h4>
+<p><a href="/user_uploads/49624/hpuku2sFVlSaTtsUcTBNyv7I/image.png">image.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/hpuku2sFVlSaTtsUcTBNyv7I/image.png" title="image.png"><img src="/user_uploads/49624/hpuku2sFVlSaTtsUcTBNyv7I/image.png"></a></div>
+
+
+
+<a name="316966130"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/316966130" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#316966130">(Dec 20 2022 at 14:42)</a>:</h4>
+<p>Droši vien jautājums jaunam topikam - bet vai tad nebija kaut kur teikts, ka OSM tegi linkos uz OSM wiki? Vai arī to es nosapņoju...</p>
+
+
+
+<a name="316966230"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/316966230" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#316966230">(Dec 20 2022 at 14:42)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki/near/316964157">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki/near/316962410">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki/near/316960821">said</a>:</p>
+<blockquote>
+<p>Personīgi, ja ir uzlikts <code>highway=cycleway</code>, es uzskatu, ka kartētājs nezina, vai tur ir atsevišķs/kopīgs/sadalīts - un tas vēl jāprecizē.</p>
+</blockquote>
+<p>Man grūti iedomāties, ka kartētājs zin, kur atrodas veloceļš, bet nezin tipu. Zīmēt veloceliņu, nepārbaudot zīmes, man  šķiet bezatbildīgi, jo tas var novest pie "bike path is a lie" situācijām.</p>
+</blockquote>
+<p>Jā, pierkrītu. Bet nu praksē diezgan bieži sastopami pirms 15 gadiem zīmēti ceļi visādi, kur es pirmais reāli esmu dabā apskatījies un uzlicis pareizus tegus. Bet nu tas man personīgais novērojums. Par galveno es teiktu - darīt, kā visi un visi dara kā iD/JOSM, tāpēc arī ir tas <code>bicycle=designated</code> visur.</p>
+</blockquote>
+<p>Diezgan daudz <code>highway=cycleway</code> bez <code>bicycle=...</code>:</p>
+<div class="codehilite" data-code-language="overpass"><pre><span></span><code>[out:json][timeout:15];
+{{geocodeArea:Latvia}}-&gt;.search;
+nwr[highway=cycleway][!bicycle](area.search);
+out geom;
+</code></pre></div>
+
+
+
+<a name="316966924"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/316966924" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#316966924">(Dec 20 2022 at 14:45)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki/near/316966230">said</a>:</p>
+<blockquote>
+<p>Diezgan daudz <code>highway=cycleway</code> bez <code>bicycle=...</code>:</p>
+</blockquote>
+<p>Ēē... es tiešām sajaucis kaut ko esmu. Tas <code>designated</code> ir tikai pie kopējiem. iD nemaz neliek uz "parastā". Izlabošu.</p>
+
+
+
+<a name="316967652"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/316967652" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#316967652">(Dec 20 2022 at 14:49)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki/near/316965798">said</a>:</p>
+<blockquote>
+<p><a href="/user_uploads/49624/hpuku2sFVlSaTtsUcTBNyv7I/image.png">image.png</a></p>
+</blockquote>
+<p>Diemžēl, <a href="#narrow/stream/358602-general/topic/ce.C4.BCaz.C4.ABmju.20bots/near/315765048">ceļa apzīmējumi pagaidām nepārvēršas par linkiem automatiski</a>. :(<br>
+Šeit noderētu.</p>
+
+
+
+<a name="316968660"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/316968660" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#316968660">(Dec 20 2022 at 14:53)</a>:</h4>
+<p>Ar <code>highway=cycleway</code> ir 104 <code>foot</code> + <code>!bicycle</code> un 1660 <code>foot</code> + <code>biccyle</code> - tas ir tas, ko es domāju par kopējo celiņu tegiem un iD/JOSM, bet sajaucu visu <span aria-label="smiling face with tear" class="emoji emoji-1f972" role="img" title="smiling face with tear">:smiling_face_with_tear:</span></p>
+
+
+
+<a name="316968914"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/316968914" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#316968914">(Dec 20 2022 at 14:54)</a>:</h4>
+<p>Es domāju, ka 94% cerams var uzskatīt par "gandrīz visi", ko es tekstā ieliku</p>
+
+
+
+<a name="316970340"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/316970340" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#316970340">(Dec 20 2022 at 15:01)</a>:</h4>
+<p>No otras puses, skatos visādas vietas un daļa ir piemēram šitādi labojumi <a href="https://www.openstreetmap.org/changeset/69928576">https://www.openstreetmap.org/changeset/69928576</a>, kas nodzēš to <code>designated</code> jo JOSM drošvien sūdzējās par kaut ko... Tas nekas, ka visur citur ir pielikts <span aria-label="speechless" class="emoji emoji-1f636" role="img" title="speechless">:speechless:</span></p>
+<div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/changeset/69928576" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/changeset/69928576" title="Changeset: 69928576 | OpenStreetMap">Changeset: 69928576 | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="317543184"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/317543184" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#317543184">(Dec 23 2022 at 11:22)</a>:</h4>
+<p>Kāds zina, kur vēl Latvijā ir sharrows? Pēc <code>cycleway=shared_lane</code> overpass atrada tikai vienā vietā pie Kuldīgas un tur pilnīgi nepareizi. <a href="/user_uploads/49624/VAuZfE-eZ_evFX-LB_fKowv8/sharrows-wrong.png">sharrows-wrong.png</a> <a href="/user_uploads/49624/q3665NWxSWsRINIOvvwFgXbd/actual-road.png">actual-road.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/VAuZfE-eZ_evFX-LB_fKowv8/sharrows-wrong.png" title="sharrows-wrong.png"><img src="/user_uploads/49624/VAuZfE-eZ_evFX-LB_fKowv8/sharrows-wrong.png"></a></div><div class="message_inline_image"><a href="/user_uploads/49624/q3665NWxSWsRINIOvvwFgXbd/actual-road.png" title="actual-road.png"><img src="/user_uploads/49624/q3665NWxSWsRINIOvvwFgXbd/actual-road.png"></a></div>
+
+
+
+<a name="317559868"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/317559868" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#317559868">(Dec 23 2022 at 12:50)</a>:</h4>
+<p>Kamēr meklēju visādus tegus skatoties situāciju, tik daudz visādu prikolu... <a href="/user_uploads/49624/tKy76l2jErF_K1R5nY2KkaXJ/tags.png">tags.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/tKy76l2jErF_K1R5nY2KkaXJ/tags.png" title="tags.png"><img src="/user_uploads/49624/tKy76l2jErF_K1R5nY2KkaXJ/tags.png"></a></div>
+
+
+
+<a name="317864061"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/317864061" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#317864061">(Dec 25 2022 at 18:19)</a>:</h4>
+<p>Taisījos nodzēst <a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Droad">highway=road</a> no guidelines, lai namaisās, un sen neviens nelieto, bet izrādās vēl 70 gabali palikuši visvisur <a href="/user_uploads/49624/WywDdB57v9IP-EPFOSCiri4I/highway-road.png">highway-road.png</a> ... jāpatīra</p>
+<div class="message_inline_image"><a href="/user_uploads/49624/WywDdB57v9IP-EPFOSCiri4I/highway-road.png" title="highway-road.png"><img src="/user_uploads/49624/WywDdB57v9IP-EPFOSCiri4I/highway-road.png"></a></div>
+
+
+
+<a name="317993818"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/317993818" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#317993818">(Dec 26 2022 at 18:50)</a>:</h4>
+<p>Labāk atstāt ar piebildi, ka to nevajadzētu izmantot.</p>
+
+
+
+<a name="317994165"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/317994165" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#317994165">(Dec 26 2022 at 18:54)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568771">Rihards Olups</span> <a href="#narrow/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki/near/317993818">said</a>:</p>
+<blockquote>
+<p>Labāk atstāt ar piebildi, ka to nevajadzētu izmantot.</p>
+</blockquote>
+<p>Jā, to arī izdarīju.</p>
+
+
+
+<a name="318257670"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/318257670" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#318257670">(Dec 28 2022 at 13:43)</a>:</h4>
+<p>Atgādinājums uz nākotni (sev) pielikt par tramvajiem/ceļiem ar piemēriem. (<a href="https://wiki.openstreetmap.org/wiki/Tag%3Arailway%3Dtram">railway=tram</a>, <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aoneway%3Dyes">oneway=yes</a>, <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aembedded_rails%3Dtram">embedded_rails=tram</a>)</p>
+
+
+
+<a name="318727088"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/318727088" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#318727088">(Dec 31 2022 at 12:12)</a>:</h4>
+<p>Sarakstīju par tramvajiem - <a href="https://wiki.openstreetmap.org/wiki/Lv:Latvian_tagging_guidelines#Tramvaji">https://wiki.openstreetmap.org/wiki/Lv:Latvian_tagging_guidelines#Tramvaji</a>. Aprakstīju kā teorētiski jābūt un vairākoties Latvijā tā arī ir. Bet Rīgā ir daudz ceļu, kas sazīmēti ar 2 wayiem katru savā virzienā kaut gan sliedes ir vienā platumā ar brauktuvi. Pieminēju to, bet nezinu vai ir jēga dziļi aprakstīt to. Principā tie gabali ir jāizlabo, tikai baigais čakars (<a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway">https://osmlatvija.zulipchat.com/#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway</a>).</p>
+
+
+
+<a name="318983476"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/318983476" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#318983476">(Jan 02 2023 at 12:29)</a>:</h4>
+<blockquote>
+<p><code>railway=tram_crossing</code> - Vieta, kur gājēju celiņš, gājēju pāreja vai taka šķērso sliedes.</p>
+</blockquote>
+<p>Es teiktu, ka šo tagu vajag likt tikai tajās vietās, kas ir pielāgotas sliežu šķērsošanai. Piemēram, ja tur ir brīdinājuma zīmes vai luksofors. Vai takas gadījumā, ja tur nav "jālēkā" pāri sliedēm, bet var mierīgi pārbraukt ar invalīdkrēslu, bērnu ratiņiem, divriteni, utml. Ja taka vienkārši šķērso sliedes, tad lai ir vienkāršs punkts bez tagiem. <a href="https://en.wiktionary.org/wiki/less_is_more">"Less is more"</a> šajā gadījumā.</p>
+
+
+
+<a name="318986403"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/318986403" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#318986403">(Jan 02 2023 at 12:49)</a>:</h4>
+<p>Hmmm. Es teiktu, ka tā ir vieta, kur "on the ground" cilvēki šķērso sliedes. Ja šķērsojums ir "paštaisīts", tad tas būtu <a href="https://wiki.openstreetmap.org/wiki/Tag%3Ainformal%3Dyes">informal=yes</a>. Priekš kustības traucējumiem ir <a href="https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Ddismount">bicycle=dismount</a> un <a href="https://wiki.openstreetmap.org/wiki/Tag%3Awheelchair%3Dno">wheelchair=no</a>. Var pat pielikt smoothness=*. Ja tur ir luksofors, tad <a href="https://wiki.openstreetmap.org/wiki/Tag%3Acrossing%3Dtraffic_signals">crossing=traffic_signals</a>. Es neteiktu, ka satiekoties ar tukšu punktu "less ir more", jo nav ne jausmas, kas tur ir. Protams, ja nav pielikti papildus tagi, nevar atšķirt. </p>
+<p>Pierakstīju piezīmi; nezinu, kā to labāk aprakstīt. Un plus vēl par to, ka tie tram_ varianti vispār it tikai no iD parādījušies.</p>
+
+
+
+<a name="319088020"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/319088020" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#319088020">(Jan 02 2023 at 19:53)</a>:</h4>
+<p>Man nepatīk pieeja, ka vajag likt 50 tagus, lai pateikt, ka tur vispār neka nav, vienkārši cilvēki staigā pāri sliedēm. Diez vai cilvēks, kas liks <a href="https://wiki.openstreetmap.org/wiki/Tag%3Arailway%3Dtram_crossing">railway=tram_crossing</a> padomās par riteņbraucējiem vai invalīdiem. Bet routing, ieraugot tādu node iztēlosies tādu pāreju, kas ir OSM Wiki bildē, asfaltētu, notīrītu no sniega, utt.</p>
+
+
+
+<a name="319811757"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/319811757" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#319811757">(Jan 06 2023 at 16:11)</a>:</h4>
+<p>Atgādinājums sev - pielikt JOSM variantu kopīgiem veloceļiem <a href="#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/velo.20infrastrukt.C5.ABras.20tago.C5.A1ana.20Latvij.C4.81/near/319808034">https://osmlatvija.zulipchat.com/#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/velo.20infrastrukt.C5.ABras.20tago.C5.A1ana.20Latvij.C4.81/near/319808034</a></p>
+
+
+
+<a name="566165616"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Latvian%20tagging%20guidelines%20wiki/near/566165616" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dāvis Kļaviņš <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki.html#566165616">(Jan 03 2026 at 17:48)</a>:</h4>
+<p>Atjaunoju ar aktuālo informāciju par adresēm (iztulkoju no <a href="https://wiki.openstreetmap.org/wiki/Addresses#Latvia">angļu valodas</a>). Blakus bija sadaļas par ēkām un teritorijām, kas zemāk dublējās, sakopu, bet <span class="user-mention" data-user-id="571825">@HellMap</span> derētu apskatīt to sadaļu par mazdārziņiem, vai, man pielabojot, nav kas būtisks no sākotnēji rakstītā pazudis.</p>
+
+
+
+<hr><p>Last updated: Mar 02 2026 at 10:27 UTC</p>
+</html>

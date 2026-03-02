@@ -1,0 +1,328 @@
+<html>
+<head><meta charset="utf-8"><title>area:highway ar nosaukumu · general · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/index.html">general</a></h2>
+<h3>Topic: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html">area:highway ar nosaukumu</a></h3>
+
+<hr>
+
+<base href="https://osmlatvija.zulipchat.com">
+
+<head><link href="https://osmlatvija.github.io/zulip-archive/style.css" rel="stylesheet"></head>
+
+<a name="322080659"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/area%3Ahighway%20ar%20nosaukumu/near/322080659" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html#322080659">(Jan 18 2023 at 15:28)</a>:</h4>
+<p>Tāpat kā ar <a class="stream-topic" data-stream-id="358602" href="/#narrow/stream/358602-general/topic/dubultie.20nosaukumi.20up.C4.93m">#general &gt; dubultie nosaukumi upēm</a>, <code>name</code> nav jābūt arī uz <a href="https://wiki.openstreetmap.org/wiki/Key%3Aarea:highway">area:highway=*</a>, ja <code>name</code> jau ir uz <img alt=":way:" class="emoji" src="https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40176.png" title="way"></p>
+<div class="codehilite" data-code-language="overpass"><pre><span></span><code>[out:json][timeout:250];
+{{geocodeArea:Latvia}}-&gt;.searchArea;
+nwr["area:highway"][name](area.searchArea);
+out geom;
+</code></pre></div>
+
+
+
+<a name="322082233"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/area%3Ahighway%20ar%20nosaukumu/near/322082233" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html#322082233">(Jan 18 2023 at 15:34)</a>:</h4>
+<p>Vai <code>area:highway</code> vai tad vispār kaut kad name jābūt?</p>
+
+
+
+<a name="322084421"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/area%3Ahighway%20ar%20nosaukumu/near/322084421" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html#322084421">(Jan 18 2023 at 15:42)</a>:</h4>
+<p>Šķiet, ka nē. Bet Overpass vaicājums atrodas visādus brīnumus, ne visiem jādzēš nost <code>name</code>. Piemēram, Doma laukumam jānomaina <code>area:highway</code> uz <code>highway</code> + <code>area=yes</code>.</p>
+
+
+
+<a name="322094975"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/area%3Ahighway%20ar%20nosaukumu/near/322094975" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html#322094975">(Jan 18 2023 at 16:24)</a>:</h4>
+<p>Šķiet, iD ieteikumu vai taml. iemesla dēļ Latvijā kāda daudz ko pārtaisīja uz area:highway, lielu daļu, šķiet, nepareizi.</p>
+
+
+
+<a name="322095428"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/area%3Ahighway%20ar%20nosaukumu/near/322095428" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html#322095428">(Jan 18 2023 at 16:25)</a>:</h4>
+<p>Jā, iD nav preseta <a href="https://wiki.openstreetmap.org/wiki/Key%3Ahighway">highway=*</a> + <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aarea%3Dyes">area=yes</a> - iD to kā kļūdu rāda. Mani arī tas nedaudz kaitina.</p>
+
+
+
+<a name="322097288"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/area%3Ahighway%20ar%20nosaukumu/near/322097288" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html#322097288">(Jan 18 2023 at 16:33)</a>:</h4>
+<p>Urghhhh... līnajs pa virsu vien otrai <a href="/user_uploads/49624/iy3q-7FWll6NhAeXVd8NOfpH/crossing.png">crossing.png</a> Es arī neesmu entuziasts zīmēt road area kamēr mums nav superprecīzs satelīts - jo šitās pēc tam maintainance nightmare. Forši jau protams, ja uzzīmē no satelīta un tad līdz pārbūvei, kad var visu nonest. Bet mēs vēl labojam ceļus no 2 gadiem atpakaļ...</p>
+<div class="message_inline_image"><a href="/user_uploads/49624/iy3q-7FWll6NhAeXVd8NOfpH/crossing.png" title="crossing.png"><img src="/user_uploads/49624/iy3q-7FWll6NhAeXVd8NOfpH/crossing.png"></a></div>
+
+
+
+<a name="322097487"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/area%3Ahighway%20ar%20nosaukumu/near/322097487" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html#322097487">(Jan 18 2023 at 16:34)</a>:</h4>
+<p><a href="https://wiki.openstreetmap.org/wiki/Tag%3Aaccess%3Ddestination">access=destination</a> un tā <a href="https://www.openstreetmap.org/way/28970292">https://www.openstreetmap.org/way/28970292</a> arī laikam nevajadzētu likt</p>
+<div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/way/28970292" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/way/28970292" title="Way: 28970292 | OpenStreetMap">Way: 28970292 | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="322097558"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/area%3Ahighway%20ar%20nosaukumu/near/322097558" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html#322097558">(Jan 18 2023 at 16:34)</a>:</h4>
+<p>Vai arī te ir doma, ka nākotnē renderēs access uz tādiem?</p>
+
+
+
+<a name="322123284"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/area%3Ahighway%20ar%20nosaukumu/near/322123284" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html#322123284">(Jan 18 2023 at 18:28)</a>:</h4>
+<p>area:highway nav maršrutējami, līdz ar to arī access nešķiet derīgs tur.</p>
+
+
+
+<a name="322222753"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/area%3Ahighway%20ar%20nosaukumu/near/322222753" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html#322222753">(Jan 19 2023 at 08:31)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568771">Rihards Olups</span> <a href="#narrow/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu/near/322094975">said</a>:</p>
+<blockquote>
+<p>... iD ieteikumu vai taml. iemesla dēļ ...</p>
+</blockquote>
+<p>Tādiem apgalvojumiem prasās pierādījums. Runa par <a href="https://github.com/openstreetmap/id-tagging-schema/pull/328">šo</a>?</p>
+<div class="message_embed"><a class="message_embed_image" href="https://github.com/openstreetmap/id-tagging-schema/pull/328" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/98fd887dfd7d808a9bf145bc6b8e3f50c09bd02a\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f326533356334343538393566313265393139656437373464613762333530616234636539383834333435323137623934313437643466636565376164353763312f6f70656e7374726565746d61702f69642d74616767696e672d736368656d612f70756c6c2f333238)"></a><div class="data-container"><div class="message_embed_title"><a href="https://github.com/openstreetmap/id-tagging-schema/pull/328" title="remove name from area:highway by matkoniecz · Pull Request #328 · openstreetmap/id-tagging-schema">remove name from area:highway by matkoniecz · Pull Request #328 · openstreetmap/id-tagging-schema</a></div><div class="message_embed_description">as far as I know it is not useful, recommended, desirable, good idea or a common idea to repeat name on area:highway</div></div></div>
+
+
+
+<a name="322224391"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/area%3Ahighway%20ar%20nosaukumu/near/322224391" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html#322224391">(Jan 19 2023 at 08:42)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu/near/322095428">said</a>:</p>
+<blockquote>
+<p>Jā, iD nav preseta <a href="https://wiki.openstreetmap.org/wiki/Key%3Ahighway">highway=*</a> + <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aarea%3Dyes">area=yes</a> - iD to kā kļūdu rāda. Mani arī tas nedaudz kaitina.</p>
+</blockquote>
+<p>Šim arī prasās pierādījums. Pašlaik <a href="https://www.openstreetmap.org/way/26561508">Doma laukums</a> ir ar <a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dpedestrian">highway=pedestrian</a> + <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aarea%3Dyes">area=yes</a> un iD man nekādu kļūdu par to nerāda.<br>
+"Pedestrian Area" preset arī <a href="https://github.com/openstreetmap/id-tagging-schema/blob/9fdecc983443ce75185c2923caae9f7703f2cae4/data/presets/highway/pedestrian_area.json">eksistē</a>. Vienīgi, man neizdevās to atrast, lai pielikt jaunam <img alt=":closed_way:" class="emoji" src="https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40179.png" title="closed way"></p>
+<div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/way/26561508" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/way/26561508" title="Way: ‪Doma laukums‬ (‪26561508‬) | OpenStreetMap">Way: ‪Doma laukums‬ (‪26561508‬) | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class="message_embed"><a class="message_embed_image" href="https://github.com/openstreetmap/id-tagging-schema/blob/9fdecc983443ce75185c2923caae9f7703f2cae4/data/presets/highway/pedestrian_area.json" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/efcc660df962188df7e1fdecf3d4541b166f4f38\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f326262613063616231333764633635616331323062633763333064336333373637363434326330386531376233346166356165336263333863393733363833302f6f70656e7374726565746d61702f69642d74616767696e672d736368656d61)"></a><div class="data-container"><div class="message_embed_title"><a href="https://github.com/openstreetmap/id-tagging-schema/blob/9fdecc983443ce75185c2923caae9f7703f2cae4/data/presets/highway/pedestrian_area.json" title="id-tagging-schema/pedestrian_area.json at 9fdecc983443ce75185c2923caae9f7703f2cae4 · openstreetmap/id-tagging-schema">id-tagging-schema/pedestrian_area.json at 9fdecc983443ce75185c2923caae9f7703f2cae4 · openstreetmap/id-tagging-schema</a></div><div class="message_embed_description">🆔🏷 The presets and other tagging data used by the iD editor - id-tagging-schema/pedestrian_area.json at 9fdecc983443ce75185c2923caae9f7703f2cae4 · openstreetmap/id-tagging-schema</div></div></div>
+
+
+
+<a name="322253311"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/area%3Ahighway%20ar%20nosaukumu/near/322253311" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html#322253311">(Jan 19 2023 at 11:13)</a>:</h4>
+<p><a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dpedestrian">highway=pedestrian</a> + <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aarea%3Dyes">area=yes</a> ir speciāls "Pedestrian Area" presets - bet tas eksistē tikai <a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dpedestrian">highway=pedestrian</a>. Nezinu, kāpēc tev neatrod. <a href="/user_uploads/49624/eeHhKURdDdft5ugjndOexPQe/ped-area.png">ped-area.png</a> Ja tu uzliksi jebkuru citu pazīstamu <a href="https://wiki.openstreetmap.org/wiki/Key%3Ahighway">highway=*</a> + <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aarea%3Dyes">area=yes</a>, rādīs - <a href="/user_uploads/49624/oWBTJ2S92V_NoLEK0559qMZP/should-be-line.png">should-be-line.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/eeHhKURdDdft5ugjndOexPQe/ped-area.png" title="ped-area.png"><img src="/user_uploads/49624/eeHhKURdDdft5ugjndOexPQe/ped-area.png"></a></div><div class="message_inline_image"><a href="/user_uploads/49624/oWBTJ2S92V_NoLEK0559qMZP/should-be-line.png" title="should-be-line.png"><img src="/user_uploads/49624/oWBTJ2S92V_NoLEK0559qMZP/should-be-line.png"></a></div>
+
+
+
+<a name="322255902"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/area%3Ahighway%20ar%20nosaukumu/near/322255902" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html#322255902">(Jan 19 2023 at 11:28)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu/near/322222753">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="568771">Rihards Olups</span> <a href="#narrow/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu/near/322094975">said</a>:</p>
+<blockquote>
+<p>... iD ieteikumu vai taml. iemesla dēļ ...</p>
+</blockquote>
+<p>Tādiem apgalvojumiem prasās pierādījums. Runa par <a href="https://github.com/openstreetmap/id-tagging-schema/pull/328">šo</a>?</p>
+</blockquote>
+<p><a href="https://www.openstreetmap.org/changeset/113444022">https://www.openstreetmap.org/changeset/113444022</a></p>
+<p>"i use ID editor, this is fixes offered by it."</p>
+<div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/changeset/113444022" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/changeset/113444022" title="Changeset: 113444022 | OpenStreetMap">Changeset: 113444022 | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="322256004"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/area%3Ahighway%20ar%20nosaukumu/near/322256004" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html#322256004">(Jan 19 2023 at 11:29)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu/near/322253311">said</a>:</p>
+<blockquote>
+<p><a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dpedestrian">highway=pedestrian</a> + <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aarea%3Dyes">area=yes</a> ir speciāls "Pedestrian Area" presets - bet tas eksistē tikai <a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dpedestrian">highway=pedestrian</a>. Nezinu, kāpēc tev neatrod. <a href="/user_uploads/49624/eeHhKURdDdft5ugjndOexPQe/ped-area.png">ped-area.png</a> Ja tu uzliksi jebkuru citu pazīstamu <a href="https://wiki.openstreetmap.org/wiki/Key%3Ahighway">highway=*</a> + <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aarea%3Dyes">area=yes</a>, rādīs - <a href="/user_uploads/49624/oWBTJ2S92V_NoLEK0559qMZP/should-be-line.png">should-be-line.png</a></p>
+</blockquote>
+<p><a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dservice">highway=service</a> + <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aarea%3Dyes">area=yes</a> (piemēram <a href="https://www.openstreetmap.org/way/423630908">šeit</a> ir "<a href="https://github.com/openstreetmap/id-tagging-schema/blob/7a9a9d5e391a2f08b1a74588eeb0e6edd56eec31/data/presets/highway/service_area.json">Paved Service Area</a>" un arī nerāda kļūdas.<br>
+Uz <a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dfootway">highway=footway</a> + <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aarea%3Dyes">area=yes</a> rāda kļūdu. Piemēram <a href="https://www.openstreetmap.org/way/172869371">šeit</a>. Konkrētā piemērā laikam bija domāts <a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dpedestrian">highway=pedestrian</a>, diez vai tur ir <img alt=":415:" class="emoji" src="https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40520.image" title="415"> zīme. Bet vispār <a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dfootway">highway=footway</a> it kā atļauts likt uz <img alt=":area:" class="emoji" src="https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40177.png" title="area"> Tāpat <a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Draceway">highway=raceway</a> un daudziem citiem. Bet <a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dsteps">highway=steps</a> uz <img alt=":area:" class="emoji" src="https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40177.png" title="area"> nedrīkst likt, un tur (piemēram <a href="https://www.openstreetmap.org/way/1052332951">šeit</a>) kļūda ir pamatota.</p>
+<p>Vaicājums apmēram tāds:</p>
+<div class="codehilite" data-code-language="overpass"><pre><span></span><code>[out:json][timeout:250];
+{{geocodeArea:Latvia}}-&gt;.searchArea;
+nwr[area=yes][highway][highway!=pedestrian][highway!=service][highway!=footway](area.searchArea);
+out geom;
+</code></pre></div>
+
+
+
+<a name="322256135"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/area%3Ahighway%20ar%20nosaukumu/near/322256135" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html#322256135">(Jan 19 2023 at 11:30)</a>:</h4>
+<p>Ja par <a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dservice">highway=service</a> vairs nebrēc, tas labi - varbūt salabojuši :)</p>
+
+
+
+<a name="322256519"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/area%3Ahighway%20ar%20nosaukumu/near/322256519" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html#322256519">(Jan 19 2023 at 11:32)</a>:</h4>
+<p>Paved Service Area arī kaut kas jauns iD (vai arī es nebiju pamanījis) un tad sanāk vēl viens izņēmums; presets arī nav meklējams</p>
+
+
+
+<a name="322257716"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/area%3Ahighway%20ar%20nosaukumu/near/322257716" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html#322257716">(Jan 19 2023 at 11:39)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568771">Rihards Olups</span> <a href="#narrow/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu/near/322255902">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu/near/322222753">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="568771">Rihards Olups</span> <a href="#narrow/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu/near/322094975">said</a>:</p>
+<blockquote>
+<p>... iD ieteikumu vai taml. iemesla dēļ ...</p>
+</blockquote>
+<p>Tādiem apgalvojumiem prasās pierādījums. Runa par <a href="https://github.com/openstreetmap/id-tagging-schema/pull/328">šo</a>?</p>
+</blockquote>
+<p><a href="https://www.openstreetmap.org/changeset/113444022">https://www.openstreetmap.org/changeset/113444022</a></p>
+<p>"i use ID editor, this is fixes offered by it."</p>
+</blockquote>
+<p>Paldies. Būtu forši sameklēt arī iD izejkoda gabalu, kas ir atbildīgs par tādiem labojumiem, vai issue, kas prasa to izlabot. Ja issue vēl nav, tad vajag uzrakstīt.</p>
+
+
+
+<a name="322257879"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/area%3Ahighway%20ar%20nosaukumu/near/322257879" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html#322257879">(Jan 19 2023 at 11:40)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu/near/322256519">said</a>:</p>
+<blockquote>
+<p>Paved Service Area arī kaut kas jauns iD (vai arī es nebiju pamanījis) un tad sanāk vēl viens izņēmums; presets arī nav meklējams</p>
+</blockquote>
+<p>"Meklējamības trūkums" varētu būt vēl viens issue.</p>
+
+
+
+<a name="322257979"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/area%3Ahighway%20ar%20nosaukumu/near/322257979" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html#322257979">(Jan 19 2023 at 11:40)</a>:</h4>
+<p>iD daudzus presetus liek nemeklējamus, jo "iesācējiem nevajag tos likt", bet ja ir uzlikti, tad lai nerāda, kā kļūdu</p>
+
+
+
+<a name="322258217"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/area%3Ahighway%20ar%20nosaukumu/near/322258217" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html#322258217">(Jan 19 2023 at 11:42)</a>:</h4>
+<p>OK, tad tas izklausās pēc fīčas...</p>
+
+
+
+<a name="322258425"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/area%3Ahighway%20ar%20nosaukumu/near/322258425" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html#322258425">(Jan 19 2023 at 11:43)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568771">Rihards Olups</span> <a href="#narrow/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu/near/322256135">said</a>:</p>
+<blockquote>
+<p>Ja par <a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dservice">highway=service</a> vairs nebrēc, tas labi - varbūt salabojuši :)</p>
+</blockquote>
+<p>Jā, <a href="https://github.com/openstreetmap/id-tagging-schema/issues/431">salaboja</a>.</p>
+<div class="message_embed"><a class="message_embed_image" href="https://github.com/openstreetmap/id-tagging-schema/issues/431" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/8a576134b8906c8776707dedfbe822d89996c20d\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f366136626565646161376330656562643162623731313861313366666239303963626163393333633263376663346139356337313237626130303362356535372f6f70656e7374726565746d61702f69642d74616767696e672d736368656d612f6973737565732f343331)"></a><div class="data-container"><div class="message_embed_title"><a href="https://github.com/openstreetmap/id-tagging-schema/issues/431" title="`highway=service` areas neither provided nor accepted · Issue #431 · openstreetmap/id-tagging-schema">`highway=service` areas neither provided nor accepted · Issue #431 · openstreetmap/id-tagging-schema</a></div><div class="message_embed_description">Carto renders area=yes; highway=service, but iD suggests area:highway=service for the "Road Area" preset and complains about the former not being a line.</div></div></div>
+
+
+
+<a name="322269234"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/area%3Ahighway%20ar%20nosaukumu/near/322269234" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html#322269234">(Jan 19 2023 at 12:36)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu/near/322097487">said</a>:</p>
+<blockquote>
+<p><a href="https://wiki.openstreetmap.org/wiki/Tag%3Aaccess%3Ddestination">access=destination</a> un tā <a href="https://www.openstreetmap.org/way/28970292">https://www.openstreetmap.org/way/28970292</a> arī laikam nevajadzētu likt</p>
+</blockquote>
+<p>Es noņemu <a href="https://wiki.openstreetmap.org/wiki/Key%3Aoneway">oneway=*</a>, kas bija acīmredzami nepareizs, bet <a href="https://wiki.openstreetmap.org/wiki/Key%3Aaccess">access=*</a> gribēju sākumā noskaidrot. To arī jāņem nost.<br>
+Man bija ideja uzrakstīt vaicājumu, lai atrast visus <code>area:highway</code> ar neatbilstošiem tagiem, bet tas ātri aizgāja greizi...</p>
+<div class="codehilite" data-code-language="overpass"><pre><span></span><code>[out:json][timeout:250];
+{{geocodeArea:Latvia}}-&gt;.searchArea;
+((((((((nwr["area:highway"](area.searchArea);
+- way["area:highway"](area.searchArea)(if: count_tags() == 1););
+- relation["area:highway"][type=multipolygon](area.searchArea)(if: count_tags() == 2););
+- way["area:highway"][area=yes](area.searchArea)(if: count_tags() == 2););
+- relation["area:highway"][type=multipolygon][area=yes](area.searchArea)(if: count_tags() == 3););
+- way["area:highway"][surface](area.searchArea)(if: count_tags() == 2););
+- relation["area:highway"][type=multipolygon][surface](area.searchArea)(if: count_tags() == 3););
+- way["area:highway"][area=yes][surface](area.searchArea)(if: count_tags() == 3););
+- relation["area:highway"][type=multipolygon][area=yes][surface](area.searchArea)(if: count_tags() == 4););
+out geom;
+</code></pre></div>
+
+
+
+<a name="322273148"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/area%3Ahighway%20ar%20nosaukumu/near/322273148" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html#322273148">(Jan 19 2023 at 12:56)</a>:</h4>
+<p>Nu jā, principā jau tur der visi tie paši tegi, kas highway - surface, lit, traffic_calming, hazard, etc. Es tā pat manuāli <a href="#narrow/stream/358602-general/topic/tuk.C5.A1i.20elementi/near/321672466">https://osmlatvija.zulipchat.com/#narrow/stream/358602-general/topic/tuk.C5.A1i.20elementi/near/321672466</a> biju salicis visu, ko atradu</p>
+
+
+
+<a name="322297966"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/area%3Ahighway%20ar%20nosaukumu/near/322297966" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html#322297966">(Jan 19 2023 at 14:44)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu/near/322258425">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="568771">Rihards Olups</span> <a href="#narrow/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu/near/322256135">said</a>:</p>
+<blockquote>
+<p>Ja par <a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dservice">highway=service</a> vairs nebrēc, tas labi - varbūt salabojuši :)</p>
+</blockquote>
+<p>Jā, <a href="https://github.com/openstreetmap/id-tagging-schema/issues/431">salaboja</a>.</p>
+</blockquote>
+<p>O, liels paldies, ka atradi.<br>
+Ta jau varēs lēnā garā labot to, ko cilvēki ar iD gadu gaitā "salaboja" :)</p>
+
+
+
+<a name="322298193"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/area%3Ahighway%20ar%20nosaukumu/near/322298193" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html#322298193">(Jan 19 2023 at 14:45)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu/near/322273148">said</a>:</p>
+<blockquote>
+<p>Nu jā, principā jau tur der visi tie paši tegi, kas highway - surface, lit, traffic_calming, hazard, etc. Es tā pat manuāli <a href="#narrow/stream/358602-general/topic/tuk.C5.A1i.20elementi/near/321672466">https://osmlatvija.zulipchat.com/#narrow/stream/358602-general/topic/tuk.C5.A1i.20elementi/near/321672466</a> biju salicis visu, ko atradu</p>
+</blockquote>
+<p>Vai sanāk to visu duplicēt gan galvenajam ceļam, gan area:highway?</p>
+
+
+
+<a name="322298930"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/area%3Ahighway%20ar%20nosaukumu/near/322298930" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html#322298930">(Jan 19 2023 at 14:48)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568771">Rihards Olups</span> <a href="#narrow/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu/near/322298193">said</a>:</p>
+<blockquote>
+<p>Vai sanāk to visu duplicēt gan galvenajam ceļam, gan area:highway?</p>
+</blockquote>
+<p>Es neko neduplicētu, bet es vispār area tā nezīmētu nesaistīti ar galveno ceļu. Wiki cik zinu nekas par to nav un nekur nav skaidrs, kas ir vai nav jānorāda/jāduplicē. Ja kaut kur ir kaut kas aprakstīts - nez. Bet es nevaru pateikt, ka tas ir automātiski (ne)pareizi.</p>
+
+
+
+<a name="322300905"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/area%3Ahighway%20ar%20nosaukumu/near/322300905" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html#322300905">(Jan 19 2023 at 14:57)</a>:</h4>
+<p>Hmm, par tiem tagiem ir par <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aarea%3Dyes">area=yes</a> vai area:highway?</p>
+
+
+
+<a name="322472967"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/area%3Ahighway%20ar%20nosaukumu/near/322472967" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html#322472967">(Jan 20 2023 at 10:13)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu/near/322269234">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu/near/322097487">said</a>:</p>
+<blockquote>
+<p><a href="https://wiki.openstreetmap.org/wiki/Tag%3Aaccess%3Ddestination">access=destination</a> un tā <a href="https://www.openstreetmap.org/way/28970292">https://www.openstreetmap.org/way/28970292</a> arī laikam nevajadzētu likt</p>
+</blockquote>
+<p>Es noņemu <a href="https://wiki.openstreetmap.org/wiki/Key%3Aoneway">oneway=*</a>, kas bija acīmredzami nepareizs, bet <a href="https://wiki.openstreetmap.org/wiki/Key%3Aaccess">access=*</a> gribēju sākumā noskaidrot. To arī jāņem nost.<br>
+Man bija ideja uzrakstīt vaicājumu, lai atrast visus <code>area:highway</code> ar neatbilstošiem tagiem, bet tas ātri aizgāja greizi...</p>
+<p><div class="codehilite" data-code-language="overpass"><pre><span></span><code>[out:json][timeout:250];
+{{geocodeArea:Latvia}}-&gt;.searchArea;
+((((((((nwr["area:highway"](area.searchArea);
+- way["area:highway"](area.searchArea)(if: count_tags() == 1););
+- relation["area:highway"][type=multipolygon](area.searchArea)(if: count_tags() == 2););
+- way["area:highway"][area=yes](area.searchArea)(if: count_tags() == 2););
+- relation["area:highway"][type=multipolygon][area=yes](area.searchArea)(if: count_tags() == 3););
+- way["area:highway"][surface](area.searchArea)(if: count_tags() == 2););
+- relation["area:highway"][type=multipolygon][surface](area.searchArea)(if: count_tags() == 3););
+- way["area:highway"][area=yes][surface](area.searchArea)(if: count_tags() == 3););
+- relation["area:highway"][type=multipolygon][area=yes][surface](area.searchArea)(if: count_tags() == 4););
+out geom;
+</code></pre></div><br>
+</p>
+</blockquote>
+<p>Šis jau izskatās labāk:</p>
+<div class="codehilite" data-code-language="overpass"><pre><span></span><code>[out:json][timeout:50];
+{{geocodeArea:Latvia}}-&gt;.searchArea;
+nwr["area:highway"](area.searchArea);
+foreach-&gt;.ah
+{
+  for.ah(keys())
+  {
+    if (_.val != "area:highway" &amp;&amp; _.val != "area" &amp;&amp; _.val != "type" &amp;&amp; _.val != "surface" &amp;&amp; _.val != "source")
+    {
+      .ah out geom;
+    }
+  }
+}
+</code></pre></div>
+<p>Meklē daudz ātrāk un var viegli pielikt tagus, kas šķiet OK izmatot uz <code>area:highway</code>.</p>
+
+
+
+<a name="322531698"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/area%3Ahighway%20ar%20nosaukumu/near/322531698" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html#322531698">(Jan 20 2023 at 14:51)</a>:</h4>
+<p>Kādas domas par <a href="https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dkerb">barrier=kerb</a> uz <a href="https://wiki.openstreetmap.org/wiki/Key%3Aarea:highway">area:highway=*</a>?</p>
+
+
+
+<a name="322537900"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/area%3Ahighway%20ar%20nosaukumu/near/322537900" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/area.3Ahighway.20ar.20nosaukumu.html#322537900">(Jan 20 2023 at 15:16)</a>:</h4>
+<p>Principā, tādas pašas, kā <a href="https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dfence">barrier=fence</a> uz <a href="https://wiki.openstreetmap.org/wiki/Tag%3Alanduse%3Dresidential">landuse=residential</a></p>
+
+
+
+<hr><p>Last updated: Mar 02 2026 at 10:27 UTC</p>
+</html>

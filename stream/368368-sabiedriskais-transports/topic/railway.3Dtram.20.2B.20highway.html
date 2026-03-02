@@ -1,0 +1,575 @@
+<html>
+<head><meta charset="utf-8"><title>railway=tram + highway · sabiedriskais transports · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/index.html">sabiedriskais transports</a></h2>
+<h3>Topic: <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html">railway=tram + highway</a></h3>
+
+<hr>
+
+<base href="https://osmlatvija.zulipchat.com">
+
+<head><link href="https://osmlatvija.github.io/zulip-archive/style.css" rel="stylesheet"></head>
+
+<a name="318233963"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318233963" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318233963">(Dec 28 2022 at 11:06)</a>:</h4>
+<p>Ir dažas vietas, kur <a href="https://wiki.openstreetmap.org/wiki/Tag%3Arailway%3Dtram">railway=tram</a> ir lietots kopā ar highway:</p>
+<div class="codehilite" data-code-language="overpass"><pre><span></span><code>[out:json][timeout:30];
+{{geocodeArea:Latvia}}-&gt;.search;
+way[railway=tram][highway](area.search);
+out geom;
+</code></pre></div>
+<p>Vai tas ir pareizi? OSM Wiki rekomendē zīmēt highway kā atsevišķu way:</p>
+<blockquote>
+<p>Where single-track trams run on a street and trams share the same space with the traffic, a new way is drawn for the tram, which can also use the same nodes as the road.</p>
+</blockquote>
+
+
+
+<a name="318240285"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318240285" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318240285">(Dec 28 2022 at 11:48)</a>:</h4>
+<p>"two ways, each using the same nodes" - a kāpēc ne relāciju? <span aria-label="rolling on the floor laughing" class="emoji emoji-1f923" role="img" title="rolling on the floor laughing">:rolling_on_the_floor_laughing:</span></p>
+
+
+
+<a name="318240404"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318240404" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318240404">(Dec 28 2022 at 11:49)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/318240285">said</a>:</p>
+<blockquote>
+<p>"two ways, each using the same nodes" - a kāpēc ne relāciju? <span aria-label="rolling on the floor laughing" class="emoji emoji-1f923" role="img" title="rolling on the floor laughing">:rolling_on_the_floor_laughing:</span></p>
+</blockquote>
+<p>Tāpēc kā "same nodes" jau saista divus ways datubāzē?</p>
+
+
+
+<a name="318240545"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318240545" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318240545">(Dec 28 2022 at 11:50)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/318240404">said</a>:</p>
+<blockquote>
+<p>Tāpēc kā "same nodes" jau saista divus ways datubāzē?</p>
+</blockquote>
+<p>Tas bija joks par relācijām. Nedrīkst taču lai 2 way viens otram virsū.</p>
+
+
+
+<a name="318240619"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318240619" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318240619">(Dec 28 2022 at 11:50)</a>:</h4>
+<p>Es kaut kad sen skatījos par tramvajiem un tur bija bišķu savādāk aprakstīts un daudz variantu. Man liekas pa pēdējiem gadiem beidzot vienojušies par shēmu. Bet mums tur tik daudz Rīgā variantu, ka es joprojām no tā apraksta neuzzīmētu...</p>
+
+
+
+<a name="318240690"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318240690" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318240690">(Dec 28 2022 at 11:51)</a>:</h4>
+<p>Bet jā, laikam jāsāk dalīt pamazām nost <a href="https://wiki.openstreetmap.org/wiki/Tag%3Arailway%3Dtram">railway=tram</a> no higway=*</p>
+
+
+
+<a name="318240939"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318240939" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318240939">(Dec 28 2022 at 11:53)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/318240545">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/318240404">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/318240285">said</a>:</p>
+<blockquote>
+<p>"two ways, each using the same nodes" - a kāpēc ne relāciju? <span aria-label="rolling on the floor laughing" class="emoji emoji-1f923" role="img" title="rolling on the floor laughing">:rolling_on_the_floor_laughing:</span></p>
+</blockquote>
+<p>Tāpēc kā "same nodes" jau saista divus ways datubāzē?</p>
+</blockquote>
+<p>Tas bija joks par relācijām. Nedrīkst taču lai 2 way viens otram virsū.</p>
+</blockquote>
+<p>Katrā jokā ir tikai daļa joka... Kāpēc nedrīkst, lai 2 way viens otram virsū? Wiki rekomendē tā darīt ar <a href="https://wiki.openstreetmap.org/wiki/Tag%3Arailway%3Dtram">railway=tram</a> un ir vietas, kur tā izdarīts.</p>
+
+
+
+<a name="318241123"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318241123" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318241123">(Dec 28 2022 at 11:54)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/318240939">said</a>:</p>
+<blockquote>
+<p>Katrā jokā ir tikai daļa joka... Kāpēc nedrīkst, lai 2 way viens otram virsū? Wiki rekomendē tā darīt ar <a href="https://wiki.openstreetmap.org/wiki/Tag%3Arailway%3Dtram">railway=tram</a> un ir vietas, kur tā izdarīts.</p>
+</blockquote>
+<p>Jā, un joks bija tieši par to, ka protams drīkst un tā ir bieži daudz labāk. Relācijas te pilnīgi nevietā būtu.</p>
+
+
+
+<a name="318241494"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318241494" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318241494">(Dec 28 2022 at 11:56)</a>:</h4>
+<p>Man liekas mums ir diezgan maz vietu, kur tramvaja sliedes tikai vienā virzienā - pārsvarā ir abas.</p>
+
+
+
+<a name="318241848"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318241848" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318241848">(Dec 28 2022 at 11:59)</a>:</h4>
+<p>Tāpat Wiki rekomendē zīmēt katru <a href="https://wiki.openstreetmap.org/wiki/Tag%3Arailway%3Dtram">railway=tram</a> virzienu atsevišķi:</p>
+<blockquote>
+<p>Mapping each tram track separately so that two tracks are lined up side by side is preferred.</p>
+</blockquote>
+
+
+
+<a name="318241889"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318241889" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318241889">(Dec 28 2022 at 11:59)</a>:</h4>
+<p>"Where trams run two lanes on a road that is not structurally separate in directional lanes, the tram tracks are drawn as two ways and the road as a way in between." -- tad te ir domāts, ka Barona ir nepareizi un Matīsa ir pareizi? <a href="/user_uploads/49624/QiXIf39c3EA51c8cvNFESLcj/barona-nepareizi.png">barona-nepareizi.png</a> <a href="/user_uploads/49624/CEaDWTAS8an_ke4_RYXUkqLM/matisa-pareizi.png">matisa-pareizi.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/QiXIf39c3EA51c8cvNFESLcj/barona-nepareizi.png" title="barona-nepareizi.png"><img src="/user_uploads/49624/QiXIf39c3EA51c8cvNFESLcj/barona-nepareizi.png"></a></div><div class="message_inline_image"><a href="/user_uploads/49624/CEaDWTAS8an_ke4_RYXUkqLM/matisa-pareizi.png" title="matisa-pareizi.png"><img src="/user_uploads/49624/CEaDWTAS8an_ke4_RYXUkqLM/matisa-pareizi.png"></a></div>
+
+
+
+<a name="318242246"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318242246" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318242246">(Dec 28 2022 at 12:01)</a>:</h4>
+<p>"Where tram run along a track enclosed by the road, the trams are drawn as two ways and the road as ways on both sides." - ko tas nozīmē - "enclosed by the road"?</p>
+
+
+
+<a name="318242574"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318242574" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318242574">(Dec 28 2022 at 12:03)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/318242246">said</a>:</p>
+<blockquote>
+<p>"Where tram run along a track enclosed by the road, the trams are drawn as two ways and the road as ways on both sides." - ko tas nozīmē - "enclosed by the road"?</p>
+</blockquote>
+<p>Es arī nesaprotu starpību starp</p>
+<blockquote>
+<p>Where trams run two lanes on a road that is not structurally separate in directional lanes</p>
+</blockquote>
+<p>un</p>
+<blockquote>
+<p>Where tram run along a track enclosed by the road</p>
+</blockquote>
+
+
+
+<a name="318242803"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318242803" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318242803">(Dec 28 2022 at 12:05)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/318241848">said</a>:</p>
+<blockquote>
+<p>Tāpat Wiki rekomendē zīmēt katru <a href="https://wiki.openstreetmap.org/wiki/Tag%3Arailway%3Dtram">railway=tram</a> virzienu atsevišķi:</p>
+<blockquote>
+<p>Mapping each tram track separately so that two tracks are lined up side by side is preferred.</p>
+</blockquote>
+</blockquote>
+<p>Man liekas, ka mums jau visur jau tā ir. Apskatījos visus ceļus overpass Rīgu, Daugavpili un Liepāju un visur ir "dubultie"</p>
+
+
+
+<a name="318243158"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318243158" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318243158">(Dec 28 2022 at 12:07)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/318242803">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/318241848">said</a>:</p>
+<blockquote>
+<p>Tāpat Wiki rekomendē zīmēt katru <a href="https://wiki.openstreetmap.org/wiki/Tag%3Arailway%3Dtram">railway=tram</a> virzienu atsevišķi:</p>
+<blockquote>
+<p>Mapping each tram track separately so that two tracks are lined up side by side is preferred.</p>
+</blockquote>
+</blockquote>
+<p>Man liekas, ka mums jau visur jau tā ir. Apskatījos visus ceļus overpass Rīgu, Daugavpili un Liepāju un visur ir "dubultie"</p>
+</blockquote>
+<p>Bet daudziem (visiem?) trūkst <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aoneway%3Dyes">oneway=yes</a>:</p>
+<div class="codehilite" data-code-language="overpass"><pre><span></span><code>[out:json][timeout:30];
+{{geocodeArea:Latvia}}-&gt;.search;
+nwr[railway=tram][!oneway](area.search);
+out geom;
+</code></pre></div>
+
+
+
+<a name="318243447"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318243447" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318243447">(Dec 28 2022 at 12:09)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/318242574">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/318242246">said</a>:</p>
+<blockquote>
+<p>"Where tram run along a track enclosed by the road, the trams are drawn as two ways and the road as ways on both sides." - ko tas nozīmē - "enclosed by the road"?</p>
+</blockquote>
+<p>Es arī nesaprotu starpību starp</p>
+<blockquote>
+<p>Where trams run two lanes on a road that is not structurally separate in directional lanes</p>
+</blockquote>
+<p>un</p>
+<blockquote>
+<p>Where tram run along a track enclosed by the road<br>
+</p>
+</blockquote>
+</blockquote>
+<p>Hm, ir <a href="/user_uploads/49624/u6a4aD_t3xRguTkslq_UQVfE/image.png">bilde, kas paskaidro</a>... Laikam starpība ir single vai dual carriageway.</p>
+<div class="message_inline_image"><a href="/user_uploads/49624/u6a4aD_t3xRguTkslq_UQVfE/image.png" title="bilde, kas paskaidro"><img src="/user_uploads/49624/u6a4aD_t3xRguTkslq_UQVfE/image.png"></a></div>
+
+
+
+<a name="318243452"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318243452" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318243452">(Dec 28 2022 at 12:09)</a>:</h4>
+<p>Jā, karte ar sliedēm īpaši neatšķiras no kartes ar sliedēm bez oneway :D Un embedded tegi highway'am jau arī diez vai salikti.</p>
+
+
+
+<a name="318244268"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318244268" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318244268">(Dec 28 2022 at 12:15)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/318241889">said</a>:</p>
+<blockquote>
+<p>"Where trams run two lanes on a road that is not structurally separate in directional lanes, the tram tracks are drawn as two ways and the road as a way in between." -- tad te ir domāts, ka Barona ir nepareizi un Matīsa ir pareizi? <a href="/user_uploads/49624/QiXIf39c3EA51c8cvNFESLcj/barona-nepareizi.png">barona-nepareizi.png</a> <a href="/user_uploads/49624/CEaDWTAS8an_ke4_RYXUkqLM/matisa-pareizi.png">matisa-pareizi.png</a></p>
+</blockquote>
+<p>Jā, sanāk, ka Barona iela ir uzzīmēta nepareizi.</p>
+
+
+
+<a name="318249023"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318249023" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318249023">(Dec 28 2022 at 12:44)</a>:</h4>
+<p><a href="https://wiki.openstreetmap.org/wiki/Tag%3Arailway%3Dswitch">railway=switch</a> arī nav daudz kur iezīmēts</p>
+
+
+
+<a name="318251489"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318251489" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318251489">(Dec 28 2022 at 13:00)</a>:</h4>
+<p>Uzliku Rīgā <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aoneway%3Dyes">oneway=yes</a>/no - <a href="https://www.openstreetmap.org/changeset/130600324">https://www.openstreetmap.org/changeset/130600324</a>. 98% jau bija pareizajā virzienā iezīmēti. Rīgā ir vairākas vietas, kur (servisa) tramvaji var apgriezties, lai pa pretējo virzienu brauktu, tur neko neliku. Dažās vietās servisa sliedes, tur kā kuram, daudziem neliku. Depo arī nekur neliku. iD validators centīgi pasūdzējās par nesavienotiem ceļiem - <a href="/user_uploads/49624/84yDZQ7WLxAGaq4oAM3ewf8f/tram-crosses.png">tram-crosses.png</a> . Teorētiski laikam tur viss tas ir savienots/vienā līmenī dabā (es neko neaiztiku).</p>
+<div class="message_inline_image"><a href="/user_uploads/49624/84yDZQ7WLxAGaq4oAM3ewf8f/tram-crosses.png" title="tram-crosses.png"><img src="/user_uploads/49624/84yDZQ7WLxAGaq4oAM3ewf8f/tram-crosses.png"></a></div><div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/changeset/130600324" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/changeset/130600324" title="Changeset: 130600324 | OpenStreetMap">Changeset: 130600324 | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="318254939"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318254939" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318254939">(Dec 28 2022 at 13:25)</a>:</h4>
+<p>Nomainīju apvienotus service/tram pie Botāniskā dārza Rīgā - <a href="https://www.openstreetmap.org/changeset/130601708">https://www.openstreetmap.org/changeset/130601708</a>. Jā, bišku sarežģīti ar viesiem transporta relationiem tur, bet nu it kā sanāca kā pēc wiki. <a href="/user_uploads/49624/S4acWCBggqsKFsSPG2Q3NIji/bot1.png">bot1.png</a> <a href="/user_uploads/49624/YhQNgtgSUToShkguwCsh35ra/bot2.png">bot2.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/S4acWCBggqsKFsSPG2Q3NIji/bot1.png" title="bot1.png"><img src="/user_uploads/49624/S4acWCBggqsKFsSPG2Q3NIji/bot1.png"></a></div><div class="message_inline_image"><a href="/user_uploads/49624/YhQNgtgSUToShkguwCsh35ra/bot2.png" title="bot2.png"><img src="/user_uploads/49624/YhQNgtgSUToShkguwCsh35ra/bot2.png"></a></div><div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/changeset/130601708" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/changeset/130601708" title="Changeset: 130601708 | OpenStreetMap">Changeset: 130601708 | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="318256640"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318256640" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318256640">(Dec 28 2022 at 13:36)</a>:</h4>
+<p>Te piemērs, kad tram un highway sakrīt - <a href="https://www.openstreetmap.org/way/86383397">https://www.openstreetmap.org/way/86383397</a> - un ir divi wayi pa tiem pašiem punktiem. Sajūta gan to zīmējot dīvaina. Es tikai area (vai area + way) esmu zīmējis as sakrītošiem punktiem un nekad 2+ wayus.</p>
+<div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/way/86383397" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/way/86383397" title="Way: ‪Āpšu iela‬ (‪86383397‬) | OpenStreetMap">Way: ‪Āpšu iela‬ (‪86383397‬) | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="318257376"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318257376" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318257376">(Dec 28 2022 at 13:40)</a>:</h4>
+<p>A ko te darīt <a href="https://www.openstreetmap.org/way/522844818">https://www.openstreetmap.org/way/522844818</a> ? Ceļu pa vidu vai pa vienu pusi? Wiki tāda gadījuma nav. Principā tas, ka vienvirziena ceļš laikam nemaina, ka pa vidu pamatgadījums.</p>
+<div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/way/522844818" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/way/522844818" title="Way: 522844818 | OpenStreetMap">Way: 522844818 | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="318259609"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318259609" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318259609">(Dec 28 2022 at 13:54)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/318257376">said</a>:</p>
+<blockquote>
+<p>A ko te darīt <a href="https://www.openstreetmap.org/way/522844818">https://www.openstreetmap.org/way/522844818</a> ? Ceļu pa vidu vai pa vienu pusi? Wiki tāda gadījuma nav. Principā tas, ka vienvirziena ceļš laikam nemaina, ka pa vidu pamatgadījums.</p>
+</blockquote>
+<p><a href="https://saraksti.rigassatiksme.lv/index.html#stop/3009/28-12-2022">Platformu virzienā uz centru</a> izmanto tikai tramvaji, <a href="https://saraksti.rigassatiksme.lv/index.html#stop/3012/28-12-2022">no centra</a> arī auto- un trolejbusi. Bet segums tur laikam vienāds visā platumā, tāpēc laikam arī <a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dservice_road">highway=service_road</a> jābūt visā platumā ar centra līniju pa vidu starp sliedēm.</p>
+
+
+
+<a name="318260107"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318260107" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318260107">(Dec 28 2022 at 13:57)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/318256640">said</a>:</p>
+<blockquote>
+<p>Te piemērs, kad tram un highway sakrīt - <a href="https://www.openstreetmap.org/way/86383397">https://www.openstreetmap.org/way/86383397</a> - un ir divi wayi pa tiem pašiem punktiem. Sajūta gan to zīmējot dīvaina. Es tikai area (vai area + way) esmu zīmējis as sakrītošiem punktiem un nekad 2+ wayus.</p>
+</blockquote>
+<p>Vēl viens piemērs ir Brasas tilts - <a href="https://www.openstreetmap.org/way/757063469">https://www.openstreetmap.org/way/757063469</a></p>
+<div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/way/757063469" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/way/757063469" title="Way: 757063469 | OpenStreetMap">Way: 757063469 | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="318288670"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318288670" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318288670">(Dec 28 2022 at 16:29)</a>:</h4>
+<p>Saliku oneway arī Daugavpilī un Liepājā.</p>
+
+
+
+<a name="318289936"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318289936" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318289936">(Dec 28 2022 at 16:37)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/318260107">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/318256640">said</a>:</p>
+<blockquote>
+<p>Te piemērs, kad tram un highway sakrīt - <a href="https://www.openstreetmap.org/way/86383397">https://www.openstreetmap.org/way/86383397</a> - un ir divi wayi pa tiem pašiem punktiem. Sajūta gan to zīmējot dīvaina. Es tikai area (vai area + way) esmu zīmējis as sakrītošiem punktiem un nekad 2+ wayus.</p>
+</blockquote>
+<p>Vēl viens piemērs ir Brasas tilts - <a href="https://www.openstreetmap.org/way/757063469">https://www.openstreetmap.org/way/757063469</a></p>
+</blockquote>
+<p>Ar šo query var atrast visus highway, kas sakrīt ar <a href="https://wiki.openstreetmap.org/wiki/Tag%3Arailway%3Dtram">railway=tram</a> Rīgā:</p>
+<div class="codehilite" data-code-language="overpass"><pre><span></span><code>[out:json][timeout:300];
+{{geocodeArea:Riga}}-&gt;.search;
+way[railway=tram](area.search)-&gt;.trams;
+foreach.trams-&gt;.tram(
+  way[highway][area!=yes](around.tram:0)-&gt;.highways;
+  foreach.highways-&gt;.highway(
+    node(w.tram)(w.highway);
+    if (count(nodes)&gt;1) {
+      .highway out geom;
+    }
+  );
+);
+</code></pre></div>
+<p>Atrod arī highway, kas vienkārši vismaz divas reizes krusto <a href="https://wiki.openstreetmap.org/wiki/Tag%3Arailway%3Dtram">railway=tram</a>, bet tur vajag jau ar acīm skatīties. :)</p>
+
+
+
+<a name="318294001"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318294001" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318294001">(Dec 28 2022 at 17:03)</a>:</h4>
+<p>Izmainīju/izlaboju pie Akmens tilta <a href="https://www.openstreetmap.org/changeset/130610847">https://www.openstreetmap.org/changeset/130610847</a> - <a href="/user_uploads/49624/67JlwfdLlxI-6WEP99iR1WiJ/at1.png">at1.png</a> <a href="/user_uploads/49624/yVYX2UOVc-CAdYlAVD2ylFQ3/at2.png">at2.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/67JlwfdLlxI-6WEP99iR1WiJ/at1.png" title="at1.png"><img src="/user_uploads/49624/67JlwfdLlxI-6WEP99iR1WiJ/at1.png"></a></div><div class="message_inline_image"><a href="/user_uploads/49624/yVYX2UOVc-CAdYlAVD2ylFQ3/at2.png" title="at2.png"><img src="/user_uploads/49624/yVYX2UOVc-CAdYlAVD2ylFQ3/at2.png"></a></div><div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/changeset/130610847" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/changeset/130610847" title="Changeset: 130610847 | OpenStreetMap">Changeset: 130610847 | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="318295709"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318295709" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318295709">(Dec 28 2022 at 17:16)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/318289936">said</a>:</p>
+<blockquote>
+<p>Ar šo query var atrast visus highway, kas sakrīt ar <a href="https://wiki.openstreetmap.org/wiki/Tag%3Arailway%3Dtram">railway=tram</a> Rīgā:</p>
+</blockquote>
+<p>Iespējams, ka <a href="https://www.openstreetmap.org/way/86383397">https://www.openstreetmap.org/way/86383397</a> Latvijā ir vienīgais, kur sliedes un ceļš pa vieniem punktiem ir pareizi</p>
+<div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/way/86383397" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/way/86383397" title="Way: ‪Āpšu iela‬ (‪86383397‬) | OpenStreetMap">Way: ‪Āpšu iela‬ (‪86383397‬) | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="318296134"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318296134" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318296134">(Dec 28 2022 at 17:19)</a>:</h4>
+<p><a href="https://www.openstreetmap.org/way/757063465">https://www.openstreetmap.org/way/757063465</a> arī laikam jādzēš. Un uz galvenā ceļa access yes/no/psv ar :forward/backward + embedded_rails + embedded_rails:lanes= . Tikai jautājums, kurā vietā to galveno ceļu zīmēt/bīdīt?</p>
+<div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/way/757063465" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/way/757063465" title="Way: 757063465 | OpenStreetMap">Way: 757063465 | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="318403754"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318403754" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318403754">(Dec 29 2022 at 11:57)</a>:</h4>
+<p>Pārtaisīju Barona par vienu wayu <a href="https://www.openstreetmap.org/changeset/130641390">https://www.openstreetmap.org/changeset/130641390</a>, tas gan bija čakars. <a href="/user_uploads/49624/rL1ncOmiH3pOJwEYsKdsSeYX/bar1.png">bar1.png</a> <a href="/user_uploads/49624/IY4DG8TYJd7aElJ8dy2acnGe/bar2.png">bar2.png</a> </p>
+<div class="message_inline_image"><a href="/user_uploads/49624/rL1ncOmiH3pOJwEYsKdsSeYX/bar1.png" title="bar1.png"><img src="/user_uploads/49624/rL1ncOmiH3pOJwEYsKdsSeYX/bar1.png"></a></div><div class="message_inline_image"><a href="/user_uploads/49624/IY4DG8TYJd7aElJ8dy2acnGe/bar2.png" title="bar2.png"><img src="/user_uploads/49624/IY4DG8TYJd7aElJ8dy2acnGe/bar2.png"></a></div><p><a href="/user_uploads/49624/QsOfqrDJMzXdlQ9z5KKSeLCf/barb1.png">barb1.png</a> <a href="/user_uploads/49624/JzKMdZpnQacQRtXd0HKw7yZk/barb2.png">barb2.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/QsOfqrDJMzXdlQ9z5KKSeLCf/barb1.png" title="barb1.png"><img src="/user_uploads/49624/QsOfqrDJMzXdlQ9z5KKSeLCf/barb1.png"></a></div><div class="message_inline_image"><a href="/user_uploads/49624/JzKMdZpnQacQRtXd0HKw7yZk/barb2.png" title="barb2.png"><img src="/user_uploads/49624/JzKMdZpnQacQRtXd0HKw7yZk/barb2.png"></a></div><div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/changeset/130641390" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/changeset/130641390" title="Changeset: 130641390 | OpenStreetMap">Changeset: 130641390 | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="318404173"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318404173" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318404173">(Dec 29 2022 at 12:00)</a>:</h4>
+<p>Jautājums - kā/vai šīs vietas savienot?</p>
+<p>"Viena virziena" way pāri sliedēm, kur faktiski nav pāri <a href="/user_uploads/49624/JiS8y3bX3zXdthxZN7Yf8Qk3/oneway-connect.png">oneway-connect.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/JiS8y3bX3zXdthxZN7Yf8Qk3/oneway-connect.png" title="oneway-connect.png"><img src="/user_uploads/49624/JiS8y3bX3zXdthxZN7Yf8Qk3/oneway-connect.png"></a></div><p>"Divu virzienu" way pāri tikai vienas puses sliedēm, kur faktiski vai nu pāri abām vai arī nevienām <a href="/user_uploads/49624/GJKBR7bL1deBieaPmxcZHkci/twoway-connect.png">twoway-connect.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/GJKBR7bL1deBieaPmxcZHkci/twoway-connect.png" title="twoway-connect.png"><img src="/user_uploads/49624/GJKBR7bL1deBieaPmxcZHkci/twoway-connect.png"></a></div>
+
+
+
+<a name="318408864"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318408864" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318408864">(Dec 29 2022 at 12:28)</a>:</h4>
+<p>Vai vispār vajag savienot? Tur taču nav vajadzības likt <a href="https://wiki.openstreetmap.org/wiki/Tag%3Acrossing%3Dtraffic_signals">crossing=traffic_signals</a> vai <a href="https://wiki.openstreetmap.org/wiki/Tag%3Acrossing%3Duncontrolled">crossing=uncontrolled</a>, kas prasītu <a href="https://wiki.openstreetmap.org/wiki/Tag%3Arailway%3Dtram_crossing">railway=tram_crossing</a> vai <a href="https://wiki.openstreetmap.org/wiki/Tag%3Arailway%3Dtram_level_crossing">railway=tram_level_crossing</a> punktu. Cik daudz sliežu jāpārbrauc būs skaidrs no <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aembedded_rails%3Dtram">embedded_rails=tram</a> un embedded_rails:lanes=*.</p>
+
+
+
+<a name="318411040"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318411040" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318411040">(Dec 29 2022 at 12:40)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/318408864">said</a>:</p>
+<blockquote>
+<p>Vai vispār vajag savienot? Tur taču nav vajadzības likt <a href="https://wiki.openstreetmap.org/wiki/Tag%3Acrossing%3Dtraffic_signals">crossing=traffic_signals</a> vai <a href="https://wiki.openstreetmap.org/wiki/Tag%3Acrossing%3Duncontrolled">crossing=uncontrolled</a>, kas prasītu <a href="https://wiki.openstreetmap.org/wiki/Tag%3Arailway%3Dtram_crossing">railway=tram_crossing</a> vai <a href="https://wiki.openstreetmap.org/wiki/Tag%3Arailway%3Dtram_level_crossing">railway=tram_level_crossing</a> punktu. Cik daudz sliežu jāpārbrauc būs skaidrs no <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aembedded_rails%3Dtram">embedded_rails=tram</a> un embedded_rails:lanes=*.</p>
+</blockquote>
+<p>Es piekrītu, bet argumenta pēc - to pašu arī var pateikt par "pilniem" krustojumiem: <a href="/user_uploads/49624/L-sGSMFzjguCgdhfxOWbw3rt/allway-oneway-connect.png">allway-oneway-connect.png</a> <a href="/user_uploads/49624/a2gd9oVeUIlpRzCfq5rKpxNV/allway-connect.png">allway-connect.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/L-sGSMFzjguCgdhfxOWbw3rt/allway-oneway-connect.png" title="allway-oneway-connect.png"><img src="/user_uploads/49624/L-sGSMFzjguCgdhfxOWbw3rt/allway-oneway-connect.png"></a></div><div class="message_inline_image"><a href="/user_uploads/49624/a2gd9oVeUIlpRzCfq5rKpxNV/allway-connect.png" title="allway-connect.png"><img src="/user_uploads/49624/a2gd9oVeUIlpRzCfq5rKpxNV/allway-connect.png"></a></div>
+
+
+
+<a name="318415157"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318415157" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318415157">(Dec 29 2022 at 13:08)</a>:</h4>
+<p><a href="/user_uploads/49624/L-sGSMFzjguCgdhfxOWbw3rt/allway-oneway-connect.png">Šeit</a> <a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dcrossing">highway=crossing</a> norāda vietu, kur gājēji var pāriet ielu ar <a href="https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk%3Dboth">sidewalk=both</a>.<br>
+<a href="/user_uploads/49624/a2gd9oVeUIlpRzCfq5rKpxNV/allway-connect.png">Šeit</a> luksoforu iezīmēšana atpaliek no micromapping'a. Braucot pa Ģertrūdes ielu jāgaida tikai viens luksofors, kas atbild gan par gājēju pārejām, gan par brauktuvi, gan par tramvaja sliedēm.</p>
+<div class="message_inline_image"><a href="/user_uploads/49624/L-sGSMFzjguCgdhfxOWbw3rt/allway-oneway-connect.png" title="Šeit"><img src="/user_uploads/49624/L-sGSMFzjguCgdhfxOWbw3rt/allway-oneway-connect.png"></a></div><div class="message_inline_image"><a href="/user_uploads/49624/a2gd9oVeUIlpRzCfq5rKpxNV/allway-connect.png" title="Šeit"><img src="/user_uploads/49624/a2gd9oVeUIlpRzCfq5rKpxNV/allway-connect.png"></a></div>
+
+
+
+<a name="318415334"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318415334" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318415334">(Dec 29 2022 at 13:09)</a>:</h4>
+<p>Es tur ne to punktu apvilku pirmajā <span aria-label="man facepalming" class="emoji emoji-1f926-200d-2642" role="img" title="man facepalming">:man_facepalming:</span></p>
+
+
+
+<a name="318415915"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318415915" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318415915">(Dec 29 2022 at 13:12)</a>:</h4>
+<p>Kurš bija domāts?</p>
+
+
+
+<a name="318415978"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318415978" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318415978">(Dec 29 2022 at 13:13)</a>:</h4>
+<p>Tur luksofori un crossing is salikti kā kurais. Tas vēl viss jāsalbo. Es te tikai piemēra pēc konkrēti šitos krustojumus. Runa par vispārīgu gadījumu. <a href="/user_uploads/49624/8Ptg4gXkeIjNPdMvQzQ29Rlc/pure-example.png">pure-example.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/8Ptg4gXkeIjNPdMvQzQ29Rlc/pure-example.png" title="pure-example.png"><img src="/user_uploads/49624/8Ptg4gXkeIjNPdMvQzQ29Rlc/pure-example.png"></a></div>
+
+
+
+<a name="318417409"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318417409" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318417409">(Dec 29 2022 at 13:22)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/318415978">said</a>:</p>
+<blockquote>
+<p>Runa par vispārīgu gadījumu. <a href="/user_uploads/49624/8Ptg4gXkeIjNPdMvQzQ29Rlc/pure-example.png">pure-example.png</a></p>
+</blockquote>
+<p>Vai iD/JOSM par kādu no tiem punktiem sūdzas, ja <a href="https://wiki.openstreetmap.org/wiki/Tag%3Arailway%3Dtram">railway=tram</a> un highway nav savienoti?</p>
+
+
+
+<a name="318417689"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318417689" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318417689">(Dec 29 2022 at 13:24)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/318417409">said</a>:</p>
+<blockquote>
+<p>Vai iD/JOSM par kādu no tiem punktiem sūdzas, ja <a href="https://wiki.openstreetmap.org/wiki/Tag%3Arailway%3Dtram">railway=tram</a> un highway nav savienoti?</p>
+</blockquote>
+<p>O jā, viss pilns ar "road/footway crossing rail". Te jau viņiem būtu jāskatās <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aembedded_rails%3Dtram">embedded_rails=tram</a> vai kaut kāds <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aembedded%3Dyes">embedded=yes</a> pašam rail</p>
+
+
+
+<a name="318418088"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318418088" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318418088">(Dec 29 2022 at 13:27)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/318417689">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/318417409">said</a>:</p>
+<blockquote>
+<p>Vai iD/JOSM par kādu no tiem punktiem sūdzas, ja <a href="https://wiki.openstreetmap.org/wiki/Tag%3Arailway%3Dtram">railway=tram</a> un highway nav savienoti?</p>
+</blockquote>
+<p>O jā, viss pilns ar "road/footway crossing rail". Te jau viņiem būtu jāskatās <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aembedded_rails%3Dtram">embedded_rails=tram</a> vai kaut kāds <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aembedded%3Dyes">embedded=yes</a> pašam rail</p>
+</blockquote>
+<p>Bet ja ir kopīgs node? Ar to domāts "vienkārši punkts", bez <a href="https://wiki.openstreetmap.org/wiki/Tag%3Arailway%3Dtram_crossing">railway=tram_crossing</a> utml.</p>
+
+
+
+<a name="318418459"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318418459" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318418459">(Dec 29 2022 at 13:29)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/318418088">said</a>:</p>
+<blockquote>
+<p>Bet ja ir kopīgs node? Ar to domāts "vienkārši punkts", bez <a href="https://wiki.openstreetmap.org/wiki/Tag%3Arailway%3Dtram_crossing">railway=tram_crossing</a> utml.</p>
+</blockquote>
+<p>Ja ir kopīgi punkti, ne par ko nesūdzās. Viņiem nav tāds "should be tagged/crossing" tukšam punktam. Bet piemēram StreetComplete gan jautās - kas te ir?</p>
+
+
+
+<a name="318419442"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318419442" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318419442">(Dec 29 2022 at 13:34)</a>:</h4>
+<p><a href="/user_uploads/49624/CrsyBHEldrpq_jZDERg7s_AC/tram-cross.png">tram-cross.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/CrsyBHEldrpq_jZDERg7s_AC/tram-cross.png" title="tram-cross.png"><img src="/user_uploads/49624/CrsyBHEldrpq_jZDERg7s_AC/tram-cross.png"></a></div>
+
+
+
+<a name="318422389"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318422389" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318422389">(Dec 29 2022 at 13:53)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/318418459">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/318418088">said</a>:</p>
+<blockquote>
+<p>Bet ja ir kopīgs node? Ar to domāts "vienkārši punkts", bez <a href="https://wiki.openstreetmap.org/wiki/Tag%3Arailway%3Dtram_crossing">railway=tram_crossing</a> utml.</p>
+</blockquote>
+<p>Ja ir kopīgi punkti, ne par ko nesūdzās. Viņiem nav tāds "should be tagged/crossing" tukšam punktam. Bet piemēram StreetComplete gan jautās - kas te ir?</p>
+</blockquote>
+<p>Nezinu, kā StreetComplete uzvedas ar <a href="https://wiki.openstreetmap.org/wiki/Tag%3Arailway%3Dtram">railway=tram</a>, bet highway/footpath gadījumā viņš neko nejauta, ja ir vienkārši kopīgais node. Piemēram, <a href="https://www.openstreetmap.org/node/8973668881/history">šeit</a> agrāk bija <a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dcrossing">highway=crossing</a> un StreetComplete jautāja par luksoforiem, apmalēm, tactile paving, utt. Es noņemu <a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dcrossing">highway=crossing</a>, palika tikai kopīgs punkts, un StreetComplete vairs neko nejauta par to.</p>
+<div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/node/8973668881/history" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/node/8973668881/history" title="Node History: 8973668881 | OpenStreetMap">Node History: 8973668881 | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="318423933"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318423933" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318423933">(Dec 29 2022 at 14:03)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/318422389">said</a>:</p>
+<blockquote>
+<p>[..] Es noņemu <a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dcrossing">highway=crossing</a>, palika tikai kopīgs punkts, un <a href="https://streetcomplete.app/">StreetComplete</a> vairs neko nejauta par to.</p>
+</blockquote>
+<p>Hmm... laikam jā, paskatījos <a href="https://streetcomplete.app/">SC</a>. Varbūt es to nepareizi atceros, jo visu laiku redzēti <a href="https://streetcomplete.app/">SC</a> editi ar <a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dcrossing">highway=crossing</a>. Bet varbūt tur reāli visur jau bija un tas ir iD, kas auto-saliek, ja savieno. Nu tad laikam neviens redaktors neko nesaka par tukšiem punktiem.</p>
+
+
+
+<a name="318426633"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318426633" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318426633">(Dec 29 2022 at 14:18)</a>:</h4>
+<p>Bet tad savienot vai nē?</p>
+
+
+
+<a name="318426726"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318426726" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318426726">(Dec 29 2022 at 14:18)</a>:</h4>
+<p>Es domāju, ka jā.</p>
+
+
+
+<a name="318428622"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318428622" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318428622">(Dec 29 2022 at 14:29)</a>:</h4>
+<p>Labi, pagaidām lai ir savienoti: <a href="https://www.openstreetmap.org/changeset/130648579">https://www.openstreetmap.org/changeset/130648579</a> (lol - resolved:crossing_ways:highway-railway 34)</p>
+<div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/changeset/130648579" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/changeset/130648579" title="Changeset: 130648579 | OpenStreetMap">Changeset: 130648579 | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="318743091"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/318743091" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#318743091">(Dec 31 2022 at 14:06)</a>:</h4>
+<p>Diezgan skumja situācija ar tiem sadalītajiem ceļiem apkārt sliedēm. It kā tā teorētiski varētu vairāk sīkumus norādīt, bet prakstiski tur vēl vairāk kļūdu. Piemēram, blakus ceļš vispār nav savienots ar otru pusi: <a href="/user_uploads/49624/U0MDEGGZKdheNTlVER6VyOtX/I-guess-no-connect.png">I-guess-no-connect.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/U0MDEGGZKdheNTlVER6VyOtX/I-guess-no-connect.png" title="I-guess-no-connect.png"><img src="/user_uploads/49624/U0MDEGGZKdheNTlVER6VyOtX/I-guess-no-connect.png"></a></div>
+
+
+
+<a name="319090068"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/319090068" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#319090068">(Jan 02 2023 at 20:13)</a>:</h4>
+<p>Klasiskais OSM (un ne tikai) noteikums - jo vairāk detaļu, jo grūtāk uzturēt (ieskaitot kļūdu apjomu).<br>
+Tādēļ cenšos maksimāli vienkāršot OSM zīmēto (bez liekām nodēm utt).<br>
+Par sliežu zīmēšanu grūti komentēt, pats ļoti maz esmu zīmējis.</p>
+
+
+
+<a name="319090539"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/319090539" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#319090539">(Jan 02 2023 at 20:18)</a>:</h4>
+<p>Par vietām, kur apvienoju uz vienu ceļu: <a href="/user_uploads/49624/FvRll7mJ3tqNUjSMGYja6e-A/OV-FB-1.png">OV-FB-1.png</a> <a href="/user_uploads/49624/1pwDYhd6HXd8VJNVoL8CrVwY/OV-FB-2.png">OV-FB-2.png</a> </p>
+<div class="message_inline_image"><a href="/user_uploads/49624/FvRll7mJ3tqNUjSMGYja6e-A/OV-FB-1.png" title="OV-FB-1.png"><img src="/user_uploads/49624/FvRll7mJ3tqNUjSMGYja6e-A/OV-FB-1.png"></a></div><div class="message_inline_image"><a href="/user_uploads/49624/1pwDYhd6HXd8VJNVoL8CrVwY/OV-FB-2.png" title="OV-FB-2.png"><img src="/user_uploads/49624/1pwDYhd6HXd8VJNVoL8CrVwY/OV-FB-2.png"></a></div><p><a href="/user_uploads/49624/EiUBZbLweezi_6YVwj4zJhrp/Slokas-N-1.png">Slokas-N-1.png</a> <a href="/user_uploads/49624/8F1gmNekmoPu78QTtufUogXJ/Slokas-N-2.png">Slokas-N-2.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/EiUBZbLweezi_6YVwj4zJhrp/Slokas-N-1.png" title="Slokas-N-1.png"><img src="/user_uploads/49624/EiUBZbLweezi_6YVwj4zJhrp/Slokas-N-1.png"></a></div><div class="message_inline_image"><a href="/user_uploads/49624/8F1gmNekmoPu78QTtufUogXJ/Slokas-N-2.png" title="Slokas-N-2.png"><img src="/user_uploads/49624/8F1gmNekmoPu78QTtufUogXJ/Slokas-N-2.png"></a></div><p><a href="/user_uploads/49624/1kIa4rNIKmN5c7vWqvkMMaWk/Dag-1.png">Dag-1.png</a> <a href="/user_uploads/49624/xmRVaumwhJcWUtvaBpsOkpz5/Dag-2.png">Dag-2.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/1kIa4rNIKmN5c7vWqvkMMaWk/Dag-1.png" title="Dag-1.png"><img src="/user_uploads/49624/1kIa4rNIKmN5c7vWqvkMMaWk/Dag-1.png"></a></div><div class="message_inline_image"><a href="/user_uploads/49624/xmRVaumwhJcWUtvaBpsOkpz5/Dag-2.png" title="Dag-2.png"><img src="/user_uploads/49624/xmRVaumwhJcWUtvaBpsOkpz5/Dag-2.png"></a></div><p><a href="/user_uploads/49624/XNs4OoCxgsB-23zk4fmzVw01/Slokas-A-1.png">Slokas-A-1.png</a> <a href="/user_uploads/49624/wDhwz0ZcT8JGqkNM5gcbrs1A/Slokas-A-2.png">Slokas-A-2.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/XNs4OoCxgsB-23zk4fmzVw01/Slokas-A-1.png" title="Slokas-A-1.png"><img src="/user_uploads/49624/XNs4OoCxgsB-23zk4fmzVw01/Slokas-A-1.png"></a></div><div class="message_inline_image"><a href="/user_uploads/49624/wDhwz0ZcT8JGqkNM5gcbrs1A/Slokas-A-2.png" title="Slokas-A-2.png"><img src="/user_uploads/49624/wDhwz0ZcT8JGqkNM5gcbrs1A/Slokas-A-2.png"></a></div><p><a href="/user_uploads/49624/tqIJOuBI7M8KgDsSwK9xtPea/Slokas-B-1.png">Slokas-B-1.png</a> <a href="/user_uploads/49624/Cc0W-Hm0Jgq4vaMM2sHplPti/Slokas-B-2.png">Slokas-B-2.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/tqIJOuBI7M8KgDsSwK9xtPea/Slokas-B-1.png" title="Slokas-B-1.png"><img src="/user_uploads/49624/tqIJOuBI7M8KgDsSwK9xtPea/Slokas-B-1.png"></a></div><div class="message_inline_image"><a href="/user_uploads/49624/Cc0W-Hm0Jgq4vaMM2sHplPti/Slokas-B-2.png" title="Slokas-B-2.png"><img src="/user_uploads/49624/Cc0W-Hm0Jgq4vaMM2sHplPti/Slokas-B-2.png"></a></div><p>Ceļi un savienojumi protams palika vienkāršāk. Bet embedded rail tagi gan tur tagad ir daudz :) Bet nu tie ir tā - vienreiz uzliek un nekad jau īsti nav jāmaina, ja vien to ceļu nepārbūvē. Bet tad drošvien tikai kaut kādi surface vai kaut kas. Tāpēc arī cenšos dokumentēt, lai uzreiz pareizi saliktu.</p>
+
+
+
+<a name="319090765"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/319090765" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#319090765">(Jan 02 2023 at 20:20)</a>:</h4>
+<p>Tagad var ietves saskatīt :)</p>
+
+
+
+<a name="320114186"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/320114186" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#320114186">(Jan 08 2023 at 20:03)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/318296134">said</a>:</p>
+<blockquote>
+<p><a href="https://www.openstreetmap.org/way/757063465">https://www.openstreetmap.org/way/757063465</a> arī laikam jādzēš. Un uz galvenā ceļa access yes/no/psv ar :forward/backward + embedded_rails + embedded_rails:lanes= . Tikai jautājums, kurā vietā to galveno ceļu zīmēt/bīdīt?</p>
+</blockquote>
+<p>Šodien izbraucu tur. Miera ielā uz sliedēm vienkārši noparkoti auto, 11T autobuss virzienā uz centru brauc pa "normālu" brauktuvi. Virzienā uz Mežaparku 11T brauc pa Kluso ielu, kur iezīmēta pagaidu sabiedriska transporta josla.</p>
+
+
+
+<a name="320134984"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/320134984" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#320134984">(Jan 09 2023 at 01:03)</a>:</h4>
+<p>Tad jau tur disused rail jāliek... Un serviss jādzēš, jo nekas nebrauc. Un tas viss jau laikam tikai līdz tilta remontam. Pēc tam tad skatīsimies. Ehhh, kāpēc viss tik sarežģīti? <span aria-label="smiling face with tear" class="emoji emoji-1f972" role="img" title="smiling face with tear">:smiling_face_with_tear:</span></p>
+
+
+
+<a name="320209035"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/320209035" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#320209035">(Jan 09 2023 at 12:04)</a>:</h4>
+<p>Plāno pabeigt līdz jūnijam <a href="https://lr1.lsm.lv/lv/raksts/pecpusdiena/brasas-tilta-buvdarbus-planots-pabeigt-lidz-2023.gada-dziesmu-un.a160826/">https://lr1.lsm.lv/lv/raksts/pecpusdiena/brasas-tilta-buvdarbus-planots-pabeigt-lidz-2023.gada-dziesmu-un.a160826/</a> <a href="https://www.lsm.lv/raksts/kultura/dziesmu-un-deju-svetki/visparejie-dziesmu-un-deju-svetki-2023-gada-notiks-no-30-junija.a443658/">https://www.lsm.lv/raksts/kultura/dziesmu-un-deju-svetki/visparejie-dziesmu-un-deju-svetki-2023-gada-notiks-no-30-junija.a443658/</a> (rant: un kā var uzrakstīt ziņu rakstu ar datumu, kas atsaucās uz kaut kādu citu notikumu - kā es varu zināt, kad ir jaut kādi svētki?)</p>
+<div class="message_embed"><a class="message_embed_image" href="https://lr1.lsm.lv/lv/raksts/pecpusdiena/brasas-tilta-buvdarbus-planots-pabeigt-lidz-2023.gada-dziesmu-un.a160826/" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/07ff610505aeff3c3e7379df3212e85180b38b8e\/68747470733a2f2f7069632e6c617476696a6173726164696f2e6c762f7075626c69632f6173736574732f6d656469612f392f642f6d6c617267655f62343931623035662e6a7067)"></a><div class="data-container"><div class="message_embed_title"><a href="https://lr1.lsm.lv/lv/raksts/pecpusdiena/brasas-tilta-buvdarbus-planots-pabeigt-lidz-2023.gada-dziesmu-un.a160826/" title="Brasas tilta būvdarbus plānots pabeigt līdz 2023.gada Dziesmu un deju svētkiem">Brasas tilta būvdarbus plānots pabeigt līdz 2023.gada Dziesmu un deju svētkiem</a></div><div class="message_embed_description">Brasas tilta būvdarbus plānots pabeigt līdz 2023.gada Dziesmu un deju svētkiem, ceturtdien preses konferencē sacīja Rīgas domes priekšsēdētāja vietnieks satiksmes infrastruktūras un attīstības jautājumos Vilnis Ķirsis (Jaunā Vienotība). 
+</div></div></div><div class="message_embed"><a class="message_embed_image" href="https://www.lsm.lv/raksts/kultura/dziesmu-un-deju-svetki/visparejie-dziesmu-un-deju-svetki-2023-gada-notiks-no-30-junija.a443658/" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/5fdfe1dd0b70d18e4d6e369e314075a71fd99eec\/68747470733a2f2f7374617469632e6c736d2e6c762f6d656469612f323031382f31302f6c617267652f312f61347a792e6a7067)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.lsm.lv/raksts/kultura/dziesmu-un-deju-svetki/visparejie-dziesmu-un-deju-svetki-2023-gada-notiks-no-30-junija.a443658/" title="Vispārējie dziesmu un deju svētki 2023. gadā notiks no 30. jūnija">Vispārējie dziesmu un deju svētki 2023. gadā notiks no 30. jūnija</a></div><div class="message_embed_description">Ievērojot svētku norises cikliskumu, kārtējie XXVII Vispārējie latviešu dziesmu un XVII Deju svētki notiks 2023. gadā no 30. jūnija līdz 9. jūlijam Rīgā, 15. februāra sēdē lēma Ministru kabinets.</div></div></div>
+
+
+
+<a name="320222522"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/320222522" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#320222522">(Jan 09 2023 at 13:14)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/320114186">said</a>:</p>
+<blockquote>
+<p>11T autobuss</p>
+</blockquote>
+<p>11T kartē vispār nav iezīmēts. Bet ir 9 autobuss, kas izskatās, ka dara tā pat. Pārliku uz blakus ceļu. Tur vēl tilta Ziemeļos tagad nav vienvirziena uz laiku. <a href="https://www.openstreetmap.org/changeset/131054633">https://www.openstreetmap.org/changeset/131054633</a> Cerams neko īpaši nesalauzu.</p>
+<div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/changeset/131054633" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/changeset/131054633" title="Changeset: 131054633 | OpenStreetMap">Changeset: 131054633 | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="320222694"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/320222694" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#320222694">(Jan 09 2023 at 13:15)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway/near/320114186">said</a>:</p>
+<blockquote>
+<p>Šodien izbraucu tur.</p>
+</blockquote>
+<p>Tu gadījumā neapskatījies, kur uz Klusās ielas pieturas tagad?</p>
+
+
+
+<a name="320233273"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/320233273" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#320233273">(Jan 09 2023 at 13:57)</a>:</h4>
+<p>Diemžēl, nē. Rīgas Satiksmes vai 1188 datus nedrīkst izmantot?</p>
+
+
+
+<a name="395568093"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/railway%3Dtram%20%2B%20highway/near/395568093" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/railway.3Dtram.20.2B.20highway.html#395568093">(Oct 08 2023 at 18:54)</a>:</h4>
+<p>Nu skat, gads vēl nepagādjis, pielaboju Maskavas forštates gabalu. Un 2027. jau viss būs salabots.<br>
+<a href="/user_uploads/49624/AddqoWbPrzgqfPe5ooW_5tkd/mask-bef.png">mask-bef.png</a><br>
+<a href="/user_uploads/49624/DWVwK1vY67u5xFvwusp6mTi2/mask-aft.png">mask-aft.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/AddqoWbPrzgqfPe5ooW_5tkd/mask-bef.png" title="mask-bef.png"><img src="/user_uploads/49624/AddqoWbPrzgqfPe5ooW_5tkd/mask-bef.png"></a></div><div class="message_inline_image"><a href="/user_uploads/49624/DWVwK1vY67u5xFvwusp6mTi2/mask-aft.png" title="mask-aft.png"><img src="/user_uploads/49624/DWVwK1vY67u5xFvwusp6mTi2/mask-aft.png"></a></div>
+
+
+
+<hr><p>Last updated: Mar 02 2026 at 10:27 UTC</p>
+</html>

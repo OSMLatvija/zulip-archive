@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> has marked this topic as unresolved.</p>",
+        "id": 318572292,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1672402109
+    },
+    {
+        "content": "<p>Man liekas, ka kaut kas tomēr mainījās Overpass pusē. <a href=\"#narrow/stream/358602-general/topic/nepareiza.20ang.C4.81ru.20klasifik.C4.81cija/near/316003516\">Re kur</a> ir Wizard query bez pēdiņām, un man liekas, ka agrāk tas strādāja... Vai kāds atceras?</p>",
+        "id": 318572718,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672402253
+    },
+    {
+        "content": "<div class=\"codehilite\" data-code-language=\"wizard\"><pre><span></span><code>addr:street=\"Tālivalža iela\" in Riga\n</code></pre></div>\n<div class=\"codehilite\" data-code-language=\"wizard\"><pre><span></span><code>addr:street=\"Tālivalža iela\" in \"Riga\"\n</code></pre></div>",
+        "id": 318572951,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672402328
+    },
+    {
+        "content": "<p>Es nepievērsu uzmanību, tāpēc neko nepateikšu, kā bija. Bet nu jā, tas \\n traucē</p>",
+        "id": 318573208,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672402435
+    },
+    {
+        "content": "<p><a href=\"https://github.com/tyrasd/overpass-turbo/issues/609\">https://github.com/tyrasd/overpass-turbo/issues/609</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/tyrasd/overpass-turbo/issues/609\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/7a3baa699d7fb0e1a4ffb9bed58ccb8590197b89\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f376438626338373262333763373861343962396664343266623162356334663861636133343762653037643835613463376536306537633937393563653037652f7479726173642f6f766572706173732d747572626f2f6973737565732f363039)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/tyrasd/overpass-turbo/issues/609\" title=\"Wizard query with trailing newline results in a broken Overpass query · Issue #609 · tyrasd/overpass-turbo\">Wizard query with trailing newline results in a broken Overpass query · Issue #609 · tyrasd/overpass-turbo</a></div><div class=\"message_embed_description\">Long story short, when passing Wizard query with trailing newline as URL parameter, newline is treated as part of area name. For example, https://overpass-turbo.eu/?w=addr%3Astreet%3D%22T%C4%81liva...</div></div></div>",
+        "id": 318584680,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672406372
+    }
+]

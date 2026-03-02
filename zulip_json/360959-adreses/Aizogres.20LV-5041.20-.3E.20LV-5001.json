@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Pirmo reizi (laikam) kopš bоts adreses taisa ir pasta indeks mainījies - starp Ogri un Ķegumu <a href=\"/user_uploads/49624/vSLeAasGV4q9TTcq7ZTEh9_K/osmchaogrepo.png\">osmchaogrepo.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/vSLeAasGV4q9TTcq7ZTEh9_K/osmchaogrepo.png\" title=\"osmchaogrepo.png\"><img src=\"/user_uploads/49624/vSLeAasGV4q9TTcq7ZTEh9_K/osmchaogrepo.png\"></a></div>",
+        "id": 380124689,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690747979
+    },
+    {
+        "content": "<p>Es tā saprotu bоts neliek <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aold_addr%3Apostcode\">old_addr:postcode=*</a> . Nezinu, vai to vajag likt. It kā jau var noderēt tā pat, kā ar citām adreses daļām, ja kaut kur veci dati.</p>",
+        "id": 380125002,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690748044
+    },
+    {
+        "content": "<p>Jā, Ciemupē indekss mainīts: <a href=\"https://www.pasts.lv/lv/zinas/7395-no-2023gada-17julija-atbilstosi-iedzivotaju-velmem-ogres-novada-ciemupe-mainas-apkalpojosa-pasta-nodala-un-indekss\">https://www.pasts.lv/lv/zinas/7395-no-2023gada-17julija-atbilstosi-iedzivotaju-velmem-ogres-novada-ciemupe-mainas-apkalpojosa-pasta-nodala-un-indekss</a>. Izmaiņas gan ir plašākas nekā pasta pievienotajā sarakstā.<br>\nNeatbalstu veco pasta indeksu likšanu, jo šobrīd old_addr tagi lietoti tikai iepriekšējai adresei, ja mainījies mājas nosaukums/Nr./ielas nosaukums. Pieliekot citus old_addr tagus, iestāsies bardaks, jo tiem nebūs garantēta sasaiste ar jau izmantotajiem old_addr tagiem, kas var būt mainīti citā laika periodā (šobrīd visas izmaiņas notikušas vienā brīdī un visi old_addr tagi veido adresi attiecīgajā brīdī). Maz arī agrākais pasta indekss tiek lietots: <a href=\"https://taginfo.openstreetmap.org/keys/old_addr:postcode#overview\">https://taginfo.openstreetmap.org/keys/old_addr:postcode#overview</a>.</p>",
+        "id": 380186543,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1690777356
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/43R7JvGjiHnsd6UD1Cjy2mZF/pi2.png\">pi2.png</a><br>\nO, vēl viens indeks nomainīts Rīgā no LV-1046 uz LV-1083 . <a href=\"https://nra.lv/latvija/riga/422416-likvides-rigas-46-pasta-nodalu-un-dalai-adresu-mainis-indeksu.htm\">https://nra.lv/latvija/riga/422416-likvides-rigas-46-pasta-nodalu-un-dalai-adresu-mainis-indeksu.htm</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/43R7JvGjiHnsd6UD1Cjy2mZF/pi2.png\" title=\"pi2.png\"><img src=\"/user_uploads/49624/43R7JvGjiHnsd6UD1Cjy2mZF/pi2.png\"></a></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://nra.lv/latvija/riga/422416-likvides-rigas-46-pasta-nodalu-un-dalai-adresu-mainis-indeksu.htm\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/0dd9140e0da5aa7297ce934a48564d5955fd1948\\/68747470733a2f2f7a696e61732e6e72612e6c762f5f6d6d2f70686f746f732f323032332d30372f38363070782f3632313835335f303461346361613833392e6a7067)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://nra.lv/latvija/riga/422416-likvides-rigas-46-pasta-nodalu-un-dalai-adresu-mainis-indeksu.htm\" title=\"Likvidēs Rīgas 46.pasta nodaļu un daļai adrešu mainīs indeksu\">Likvidēs Rīgas 46.pasta nodaļu un daļai adrešu mainīs indeksu</a></div><div class=\"message_embed_description\">Saistībā ar telpu nomas līguma izbeigšanos un klientu klātienes apmeklējumu skaita kritumu augusta beigās tiks likvidēta Rīgas 46.pasta nodaļa Kalnciema ielā un daļai šīs nodaļas līdz šim apkalpoto adrešu tiks mainīts pasta indekss, aģentūru LETA informēja VAS \"Latvijas pasts\" pārstāvji.</div></div></div>",
+        "id": 390369471,
+        "sender_full_name": "HellMap",
+        "timestamp": 1694458149
+    }
+]

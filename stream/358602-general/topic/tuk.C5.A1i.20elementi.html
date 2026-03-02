@@ -1,0 +1,164 @@
+<html>
+<head><meta charset="utf-8"><title>tukši elementi · general · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/index.html">general</a></h2>
+<h3>Topic: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/tuk.C5.A1i.20elementi.html">tukši elementi</a></h3>
+
+<hr>
+
+<base href="https://osmlatvija.zulipchat.com">
+
+<head><link href="https://osmlatvija.github.io/zulip-archive/style.css" rel="stylesheet"></head>
+
+<a name="321477494"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/tuk%C5%A1i%20elementi/near/321477494" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/tuk.C5.A1i.20elementi.html#321477494">(Jan 15 2023 at 12:22)</a>:</h4>
+<p>Te līnijas tikai ar <a href="https://wiki.openstreetmap.org/wiki/Key%3Asource">source=*</a>:</p>
+<div class="codehilite" data-code-language="overpass"><pre><span></span><code>[out:json][timeout:120];
+{{geocodeArea:Latvia}}-&gt;.searchArea;
+way[source](area.searchArea)(if:count_tags()==1)-&gt;.onetag;
+rel(bw.onetag)-&gt;.rels; // select relations that .onetag ways are in
+way(r.rels)-&gt;.inrel; // select all member ways of relations .rels
+(.onetag; - .inrel;); // remove ways in relations from .onetag ways
+out geom;
+</code></pre></div>
+<p>Daudz nav: <a href="/user_uploads/49624/kCuFXb1g8ysMLD7GAue-1lDh/source-onyl-way.png">source-onyl-way.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/kCuFXb1g8ysMLD7GAue-1lDh/source-onyl-way.png" title="source-onyl-way.png"><img src="/user_uploads/49624/kCuFXb1g8ysMLD7GAue-1lDh/source-onyl-way.png"></a></div>
+
+
+
+<a name="321477758"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/tuk%C5%A1i%20elementi/near/321477758" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/tuk.C5.A1i.20elementi.html#321477758">(Jan 15 2023 at 12:24)</a>:</h4>
+<p>Interesanti, vai ir vēl kādi "pārpalikuma" tegi, kas elementu padara "tukšu" un drošvien kā kļūdu pārbaudāmu.</p>
+
+
+
+<a name="321660591"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/tuk%C5%A1i%20elementi/near/321660591" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/tuk.C5.A1i.20elementi.html#321660591">(Jan 16 2023 at 14:55)</a>:</h4>
+<p>Tikai "name". Tikai "ele". Gan jau ka vēl daudz kas.</p>
+
+
+
+<a name="321661450"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/tuk%C5%A1i%20elementi/near/321661450" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/tuk.C5.A1i.20elementi.html#321661450">(Jan 16 2023 at 14:59)</a>:</h4>
+<p>...keep going :)</p>
+
+
+
+<a name="321672466"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/tuk%C5%A1i%20elementi/near/321672466" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/tuk.C5.A1i.20elementi.html#321672466">(Jan 16 2023 at 15:51)</a>:</h4>
+<p>Līnijas ar vienu nepazīstamu tegu (ilgi meklēs):</p>
+<div class="codehilite" data-code-language="overpass"><pre><span></span><code>[out:json][timeout:120];
+{{geocodeArea:Latvia}}-&gt;.searchArea;
+way(area.searchArea)(if:count_tags()==1)-&gt;.onetag;
+way.onetag[!building][!highway][!amenity][!landuse][!natural][!"addr:country"][!power][!waterway][!barrier][!place][!railway][!man_made][!shop][!water][!public_transport][!tourism][!emergency][!golf][!historic][!noexit][!leisure][!"building:part"][!"area:highway"][!traffic_calming][!military][!aeroway][!aerialway][!landcover][!"area:footway"][!playground][!indoor][!fixme]-&gt;.uncommontag;
+(.uncommontag; - way.uncommontag[~"^(was|disused|demolished|abandoned|construction|planned|proposed|removed|razed|destroyed|ruins):"~"."];)-&gt;.uncommontag;
+rel(bw.uncommontag)-&gt;.rels;
+way(r.rels)-&gt;.inrel;
+(.uncommontag; - .inrel;);
+out geom;
+</code></pre></div>
+<p>Izskatās, ka gandrīz visi izlabojami. <a href="/user_uploads/49624/buUuegKzmXRRcNRwM_jyvXt3/onetag-weird.png">onetag-weird.png</a>  Garā čuska ir <a href="https://www.openstreetmap.org/way/144820533">https://www.openstreetmap.org/way/144820533</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/buUuegKzmXRRcNRwM_jyvXt3/onetag-weird.png" title="onetag-weird.png"><img src="/user_uploads/49624/buUuegKzmXRRcNRwM_jyvXt3/onetag-weird.png"></a></div><div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/way/144820533" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/way/144820533" title="Way: 144820533 | OpenStreetMap">Way: 144820533 | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="321727410"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/tuk%C5%A1i%20elementi/near/321727410" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/tuk.C5.A1i.20elementi.html#321727410">(Jan 16 2023 at 22:36)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/tuk.C5.A1i.20elementi/near/321661450">said</a>:</p>
+<blockquote>
+<p>...keep going :)</p>
+</blockquote>
+<p>Hehe, nu es tā gadu gaitā neesmu īsti pierakstījis, gan jau ka savāktos daudz :)<br>
+Var ar lietuviešiem aprunāties, varbūt viņu QA rīkti ko līdzīgu dara (viņi ĻOTI visam seko līdzi).</p>
+
+
+
+<a name="322281971"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/tuk%C5%A1i%20elementi/near/322281971" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/tuk.C5.A1i.20elementi.html#322281971">(Jan 19 2023 at 13:38)</a>:</h4>
+<p>Tukši punkti:</p>
+<div class="codehilite" data-code-language="overpass"><pre><span></span><code>[out:json][timeout:120];
+{{geocodeArea:Latvia}}-&gt;.searchArea;
+node(area.searchArea)(if:count_tags()==0)-&gt;.nodes;
+way(bn.nodes)-&gt;.nodeways;
+rel(bn.nodes)-&gt;.noderels;
+(.nodes; - node(w.nodeways);)-&gt;.nodes;
+(.nodes; - node(r.noderels););
+out geom;
+</code></pre></div>
+<p><a href="/user_uploads/49624/xGJlPsQ9-Dkpcrl9-Ipv91Ez/empty-points.png">empty-points.png</a><br>
+It kā jau teorētiski jāpārbauda kāpēc - varbūt kļūda. Bet baigais darbs, jo šķiet, ka daudzi no izdzēstiem wayiem, bet tad ir visa izmaiņa jālāde OsmCha... katru tā darīt baigais čakars. Un te daudzi ir vecāki nekā OsmCha vispār var. Un ja tur vēl kaut kāds revert/import errors, tad sameklēt kartam iemeslu...</p>
+<div class="message_inline_image"><a href="/user_uploads/49624/xGJlPsQ9-Dkpcrl9-Ipv91Ez/empty-points.png" title="empty-points.png"><img src="/user_uploads/49624/xGJlPsQ9-Dkpcrl9-Ipv91Ez/empty-points.png"></a></div>
+
+
+
+<a name="322287785"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/tuk%C5%A1i%20elementi/near/322287785" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/tuk.C5.A1i.20elementi.html#322287785">(Jan 19 2023 at 14:05)</a>:</h4>
+<p>Izskatās, ka vairākumam (196 no 240) ir arī <code>version()==1</code>. Man liekas, tos var ar mierīgu sirdi dzēst.</p>
+
+
+
+<a name="322289553"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/tuk%C5%A1i%20elementi/near/322289553" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/tuk.C5.A1i.20elementi.html#322289553">(Jan 19 2023 at 14:12)</a>:</h4>
+<p>Bet <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aversion%3D1">version=1</a> nenozīmē, ka tur nebija ceļš pa viņiem agrāk. Bet nu jā, drošvien var mierīgāk tādus. Jānones.</p>
+
+
+
+<a name="322289942"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/tuk%C5%A1i%20elementi/near/322289942" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/tuk.C5.A1i.20elementi.html#322289942">(Jan 19 2023 at 14:14)</a>:</h4>
+<p>Nu var vēl paskatīties <code>timestamp()</code> un kaut kā salīdzināt... bet es tik advancēti Overpass nemāku.</p>
+
+
+
+<a name="322297559"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/tuk%C5%A1i%20elementi/near/322297559" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/tuk.C5.A1i.20elementi.html#322297559">(Jan 19 2023 at 14:42)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/tuk.C5.A1i.20elementi/near/322281971">said</a>:</p>
+<blockquote>
+<p>Tukši punkti:</p>
+<div class="codehilite" data-code-language="overpass"><pre><span></span><code>[out:json][timeout:120];
+{{geocodeArea:Latvia}}-&gt;.searchArea;
+node(area.searchArea)(if:count_tags()==0)-&gt;.nodes;
+way(bn.nodes)-&gt;.nodeways;
+rel(bn.nodes)-&gt;.noderels;
+(.nodes; - node(w.nodeways);)-&gt;.nodes;
+(.nodes; - node(r.noderels););
+out geom;
+</code></pre></div>
+<p><a href="/user_uploads/49624/xGJlPsQ9-Dkpcrl9-Ipv91Ez/empty-points.png">empty-points.png</a><br>
+It kā jau teorētiski jāpārbauda kāpēc - varbūt kļūda. Bet baigais darbs, jo šķiet, ka daudzi no izdzēstiem wayiem, bet tad ir visa izmaiņa jālāde OsmCha... katru tā darīt baigais čakars. Un te daudzi ir vecāki nekā OsmCha vispār var. Un ja tur vēl kaut kāds revert/import errors, tad sameklēt kartam iemeslu...</p>
+</blockquote>
+<p>Pirms daudziem gadiem es šādus KeepRight vai kur tur medīju, un Latvijā diezgan ilgi nebija neviens (ilgāk par pāris dienām).<br>
+Bet nu baigais darbs.<br>
+Var lādēt iekš JOSM un skatīties, bet tur garantēts risks - pamanīs kaut ko šķību vai trūkstošu un aizzīmēsies līdz rītam :)</p>
+
+
+
+<a name="322299190"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/tuk%C5%A1i%20elementi/near/322299190" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/tuk.C5.A1i.20elementi.html#322299190">(Jan 19 2023 at 14:49)</a>:</h4>
+<p>Te piemēram <a href="https://github.com/Davis-Klavins/osm-latvia-bot">bots</a> noņēma adresi <a href="https://www.openstreetmap.org/node/765569094/history">https://www.openstreetmap.org/node/765569094/history</a> un <a href="https://www.openstreetmap.org/node/8882599199/history">https://www.openstreetmap.org/node/8882599199/history</a></p>
+<div class="message_embed"><a class="message_embed_image" href="https://github.com/Davis-Klavins/osm-latvia-bot" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/fc94da75988ca0e87c616c0465ccb8790fcbc98a\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f653661366363346131343735326436643063333139386136616462616633336665346538333337653235363034663264373435663962613039616236346636312f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)"></a><div class="data-container"><div class="message_embed_title"><a href="https://github.com/Davis-Klavins/osm-latvia-bot" title="GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class="message_embed_description">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div><div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/node/765569094/history" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/node/765569094/history" title="Node History: 765569094 | OpenStreetMap">Node History: 765569094 | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/node/8882599199/history" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/node/8882599199/history" title="Node History: 8882599199 | OpenStreetMap">Node History: 8882599199 | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="322301342"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/tuk%C5%A1i%20elementi/near/322301342" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/tuk.C5.A1i.20elementi.html#322301342">(Jan 19 2023 at 14:58)</a>:</h4>
+<p>Ooo, šis labi pamanīts.<br>
+<span class="user-mention" data-user-id="571929">@Dāvis Kļaviņš</span>, varbūt <a href="https://github.com/Davis-Klavins/osm-latvia-bot">botam</a> vērts ieviest pārbaudi, lai neatstāj tukšas nodes?<br>
+Lai gan man atmiņā, ka it kā dzēsa tādus punktus...</p>
+<div class="message_embed"><a class="message_embed_image" href="https://github.com/Davis-Klavins/osm-latvia-bot" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/fc94da75988ca0e87c616c0465ccb8790fcbc98a\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f653661366363346131343735326436643063333139386136616462616633336665346538333337653235363034663264373435663962613039616236346636312f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)"></a><div class="data-container"><div class="message_embed_title"><a href="https://github.com/Davis-Klavins/osm-latvia-bot" title="GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class="message_embed_description">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>
+
+
+
+<a name="322312966"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/tuk%C5%A1i%20elementi/near/322312966" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/tuk.C5.A1i.20elementi.html#322312966">(Jan 19 2023 at 15:43)</a>:</h4>
+<p>Nodzēsu visus punktus ar vēsturi -- 80% dedaction, 20% kau kādi pārpalikumi -- pusi salaboju, pusei nekas nebija labojams. Tagad palikuši 3 no <span aria-label="hiking boot" class="emoji emoji-1f97e" role="img" title="hiking boot">:hiking_boot:</span>.</p>
+
+
+
+<a name="322332158"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/tuk%C5%A1i%20elementi/near/322332158" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dāvis Kļaviņš <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/tuk.C5.A1i.20elementi.html#322332158">(Jan 19 2023 at 17:09)</a>:</h4>
+<p>Par <a href="https://www.openstreetmap.org/node/8882599199/history">https://www.openstreetmap.org/node/8882599199/history</a> skaidrs, kāpēc. <a href="https://github.com/Davis-Klavins/osm-latvia-bot/commit/f20f74e3e57ef0191fe67748c1e1303ef319cdaa">Pamainīju kodu</a>, lai šādus atlikumus nodzēstu. Abiem pārējiem punktiem teorētiski bija jābūt izdzēstiem. <a href="https://www.openstreetmap.org/changeset/131475760">Izdzēsu</a> visu trīs manuāli, jo <a href="https://github.com/Davis-Klavins/osm-latvia-bot">bots</a> tagad vairs tos nepaņemtu. Ja šādi gadījumi tomēr parādās vēl, padodiet ziņu, skatīšos, kāpēc nenostrādā.</p>
+<div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/node/8882599199/history" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/node/8882599199/history" title="Node History: 8882599199 | OpenStreetMap">Node History: 8882599199 | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class="message_embed"><a class="message_embed_image" href="https://github.com/Davis-Klavins/osm-latvia-bot/commit/f20f74e3e57ef0191fe67748c1e1303ef319cdaa" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/f6f3f30968a919cf1d4b0bf05bb3354b2c44a184\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f326133626538633364636665643838383361343835343061343636373466363039613230363965663037386437663061336638613262333065623738366532332f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f742f636f6d6d69742f66323066373465336535376566303139316665363737343863316531333033656633313963646161)"></a><div class="data-container"><div class="message_embed_title"><a href="https://github.com/Davis-Klavins/osm-latvia-bot/commit/f20f74e3e57ef0191fe67748c1e1303ef319cdaa" title="Update addresses.sql · Davis-Klavins/osm-latvia-bot@f20f74e">Update addresses.sql · Davis-Klavins/osm-latvia-bot@f20f74e</a></div><div class="message_embed_description">Reorder to remove empty nodes and ways after tags that resemble addresses or indicate that there is no address have been removed.</div></div></div><div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/changeset/131475760" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/changeset/131475760" title="Changeset: 131475760 | OpenStreetMap">Changeset: 131475760 | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class="message_embed"><a class="message_embed_image" href="https://github.com/Davis-Klavins/osm-latvia-bot" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/fc94da75988ca0e87c616c0465ccb8790fcbc98a\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f653661366363346131343735326436643063333139386136616462616633336665346538333337653235363034663264373435663962613039616236346636312f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)"></a><div class="data-container"><div class="message_embed_title"><a href="https://github.com/Davis-Klavins/osm-latvia-bot" title="GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class="message_embed_description">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>
+
+
+
+<hr><p>Last updated: Mar 02 2026 at 10:27 UTC</p>
+</html>

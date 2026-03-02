@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>Varētu Zilupei issue ierakstīt, ka ar alt+select tekstu pazaudē fokusu. Piemēram, iezīmējot linkam teksta daļu (kuru nevar bez Alt, jo tad mēģinās kaut ko vilkt uz kaut kurieni), viņš uzreiz pazaudē fokusu un spiežot Ctrl+C nekas nenotiks - jābaksta ar labo klikšķi</p>",
+        "id": 321609912,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673866154
+    },
+    {
+        "content": "<p>Es atļauju, vari uzrakstīt :)<br>\n<a href=\"https://github.com/zulip/zulip/issues/new\">https://github.com/zulip/zulip/issues/new</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/zulip/zulip/issues/new\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/b5e10a0f83e419d2648838c8ed717ecc6c676daf\\/68747470733a2f2f6769746875622e6769746875626173736574732e636f6d2f696d616765732f6d6f64756c65732f6f70656e5f67726170682f6769746875622d6f63746f6361742e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/zulip/zulip/issues/new\" title=\"Build software better, together\">Build software better, together</a></div><div class=\"message_embed_description\">GitHub is where people build software. More than 94 million people use GitHub to discover, fork, and contribute to over 330 million projects.</div></div></div>",
+        "id": 321610945,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673866402
+    },
+    {
+        "content": "<p>Jā, man laika nav <span aria-label=\"cry\" class=\"emoji emoji-1f622\" role=\"img\" title=\"cry\">:cry:</span> , te jau kādi 10 sakrājušies, kur man vēstules jāsūta un issue jāraksta un featuriem jākomentē un tas tikai no tā, kas šeit...</p>",
+        "id": 321611527,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673866565
+    },
+    {
+        "content": "<blockquote>\n<p>zulip/zulip/issues</p>\n</blockquote>\n<p>Tas ir tikai tad, ja atvērts komentāra rakstīšanas lauks. Ja nav, viss strādā (vismaz Firefox).</p>",
+        "id": 321659704,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673880648
+    },
+    {
+        "content": "<p>Man ir Desktop klients.</p>",
+        "id": 321661279,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673881123
+    },
+    {
+        "content": "<p>Man arī neizdevas atkārtot (Desktop klients uz Ubuntu 22.04), ja es vispār pareizi sapratu, par ko ir runa. Tev pašam būs jāraksta issue un jākomunicē ar maintainer'iem, jo mēs visas detaļas nezinam. Es varu tikai atstāt starred un ik pa laiku atgādināt :)</p>",
+        "id": 321912617,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673984739
+    },
+    {
+        "content": "<p><a href=\"https://github.com/zulip/zulip/issues/24096\">https://github.com/zulip/zulip/issues/24096</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/zulip/zulip/issues/24096\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1be4837e5e96562dfed2290cb11596c9508770f3\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f616165653164613733643166656232316631636161643336666530643036343437653839653365393433336362616364303439633838366565373164383338342f7a756c69702f7a756c69702f6973737565732f3234303936)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/zulip/zulip/issues/24096\" title=\"Alt+selecting text refocuses to main menu on Desktop client · Issue #24096 · zulip/zulip\">Alt+selecting text refocuses to main menu on Desktop client · Issue #24096 · zulip/zulip</a></div><div class=\"message_embed_description\">On Desktop client, when mouse drag-selecting text while holding Alt, upon mouse release the message text loses focus and instead the main menu gets the focus. This means attempting to Ctrl+C the te...</div></div></div>",
+        "id": 321917175,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673986324
+    },
+    {
+        "content": "<p>Es testēju browsera klientā, BTW.</p>",
+        "id": 322034169,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674043007
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/362235-Zulip/topic/Alt.20iez.C4.ABm.C4.93.C5.A1ana.20pazaud.C4.93.20fokusu/near/322034169\">said</a>:</p>\n<blockquote>\n<p>Es testēju browsera klientā, BTW.</p>\n</blockquote>\n<p>Jā, tu to teici augstāk, bet es negribēju piesārņot bug report ar tik daudz informācijas.</p>",
+        "id": 322034896,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674043261
+    },
+    {
+        "content": "<p>Hehe <a href=\"/user_uploads/49624/umY95x4yH2SnRC6Ri5MySkKi/login.png\">login.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/umY95x4yH2SnRC6Ri5MySkKi/login.png\" title=\"login.png\"><img src=\"/user_uploads/49624/umY95x4yH2SnRC6Ri5MySkKi/login.png\"></a></div>",
+        "id": 322160518,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674078703
+    }
+]

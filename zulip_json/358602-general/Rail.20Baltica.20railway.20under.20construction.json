@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Mums pašlaik Rail Baltica dzelzceļa līnijas ir saliktas kā <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Arailway%3Dconstruction\">railway=construction</a>. Dabā protams nekas tur nenotiek un daudz kur vēl daudz gadu nenotiks. Vai mēs gribam šīs līnijas likt/atstāt kā <code>construction</code> vai arī kaut ko precīzāku kā <code>planned</code>?</p>",
+        "id": 453934072,
+        "sender_full_name": "HellMap",
+        "timestamp": 1721910540
+    },
+    {
+        "content": "<p>planned <span aria-label=\"check\" class=\"emoji emoji-2705\" role=\"img\" title=\"check\">:check:</span></p>",
+        "id": 453944258,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1721912815
+    },
+    {
+        "content": "<p>Tā ir probēma ar OSM carto - =proposed renderingu noņēma.<br>\nBet cilvēki ļoti grib redzēt šādus plānotus ceļus, dzelzceļus utt. Līdz ar to dažreiz labāk var būt... nepareizāk :)</p>",
+        "id": 454449699,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1722072741
+    },
+    {
+        "content": "<p>Bet tikai datos tagad Baltija (drošvien) pirmajā vietā pasaulē ar aktīviem dzelzceļa būvniecības garumiem...</p>",
+        "id": 454486580,
+        "sender_full_name": "HellMap",
+        "timestamp": 1722094844
+    },
+    {
+        "content": "<p>Hehe. Jā, vajag atjaunot \"proposed\" renderēšanu :)</p>",
+        "id": 454611105,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1722172284
+    }
+]

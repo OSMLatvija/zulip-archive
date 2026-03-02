@@ -1,0 +1,3311 @@
+{
+    "streams": {
+        "RSS": {
+            "id": 388728,
+            "latest_id": 576603985,
+            "topic_data": {
+                "Latest OpenStreetMap Contributors (last 7 Days) - Feed fo...": {
+                    "latest_date": 1772281319,
+                    "size": 510
+                },
+                "Latest OpenStreetMap OSM Changeset Discussions - Feed for...": {
+                    "latest_date": 1772413556,
+                    "size": 1363
+                },
+                "Opened OpenStreetMap notes (past 7 Days) - Feed for Latvia": {
+                    "latest_date": 1772433706,
+                    "size": 9570
+                },
+                "stream events": {
+                    "latest_date": 1684266804,
+                    "size": 1
+                }
+            }
+        },
+        "Zulip": {
+            "id": 362235,
+            "latest_id": 563337364,
+            "topic_data": {
+                "Alt iezīmēšana pazaudē fokusu": {
+                    "latest_date": 1674078703,
+                    "size": 10
+                },
+                "Escaping charcaters": {
+                    "latest_date": 1700051540,
+                    "size": 2
+                },
+                "GeoJSON playground": {
+                    "latest_date": 1696587487,
+                    "size": 2
+                },
+                "Mastadon feed": {
+                    "latest_date": 1707311366,
+                    "size": 1
+                },
+                "Mastodon feed": {
+                    "latest_date": 1707315587,
+                    "size": 3
+                },
+                "Matrix bridge": {
+                    "latest_date": 1709728994,
+                    "size": 15
+                },
+                "Message retention period": {
+                    "latest_date": 1684433248,
+                    "size": 6
+                },
+                "OSM emojis": {
+                    "latest_date": 1672745907,
+                    "size": 4
+                },
+                "OSM key/tag linkifier": {
+                    "latest_date": 1695208056,
+                    "size": 38
+                },
+                "OSM linki bez informācijas": {
+                    "latest_date": 1675853044,
+                    "size": 6
+                },
+                "Overpass Turbo short link bot": {
+                    "latest_date": 1698329963,
+                    "size": 2
+                },
+                "Overpass Turbo stable vs. latest": {
+                    "latest_date": 1687804168,
+                    "size": 3
+                },
+                "Overpass Wizard linki un pēdiņas": {
+                    "latest_date": 1672406372,
+                    "size": 5
+                },
+                "Overpass un map state": {
+                    "latest_date": 1675418695,
+                    "size": 4
+                },
+                "Projektu stream": {
+                    "latest_date": 1686929795,
+                    "size": 1
+                },
+                "RSS debugging": {
+                    "latest_date": 1685954746,
+                    "size": 2
+                },
+                "Resultmaps RSS": {
+                    "latest_date": 1700046147,
+                    "size": 82
+                },
+                "Spoiler un link preview": {
+                    "latest_date": 1700651916,
+                    "size": 3
+                },
+                "Topiku linkošana": {
+                    "latest_date": 1740756419,
+                    "size": 1
+                },
+                "Tulkojumi": {
+                    "latest_date": 1684250885,
+                    "size": 1
+                },
+                "Zulip Standard plāns": {
+                    "latest_date": 1735154418,
+                    "size": 4
+                },
+                "Zulip community index": {
+                    "latest_date": 1673226418,
+                    "size": 3
+                },
+                "Zulip updates": {
+                    "latest_date": 1765523891,
+                    "size": 23
+                },
+                "Zulip+Mapillary integrācija": {
+                    "latest_date": 1672090071,
+                    "size": 12
+                },
+                "bildes no StreetComplete": {
+                    "latest_date": 1716409756,
+                    "size": 3
+                },
+                "ceļazīmju bots": {
+                    "latest_date": 1681846542,
+                    "size": 78
+                },
+                "channel events": {
+                    "latest_date": 1735157401,
+                    "size": 1
+                },
+                "code playground autocomplete": {
+                    "latest_date": 1672236033,
+                    "size": 1
+                },
+                "dažreiz nestrādājoši burti k, j": {
+                    "latest_date": 1684915785,
+                    "size": 2
+                },
+                "informācija par Zulip": {
+                    "latest_date": 1687804737,
+                    "size": 2
+                },
+                "message editing": {
+                    "latest_date": 1670938373,
+                    "size": 13
+                },
+                "node, way, area and relation emojis": {
+                    "latest_date": 1672691552,
+                    "size": 1
+                },
+                "par daudz backslashu": {
+                    "latest_date": 1733783525,
+                    "size": 6
+                },
+                "poll trūkumi": {
+                    "latest_date": 1670932824,
+                    "size": 5
+                },
+                "reaction'u nav arhīvā": {
+                    "latest_date": 1674053097,
+                    "size": 5
+                },
+                "resolving topic breaks links": {
+                    "latest_date": 1672148161,
+                    "size": 3
+                },
+                "routing playground": {
+                    "latest_date": 1679406708,
+                    "size": 17
+                },
+                "stream aktivitātēm (projektiem)": {
+                    "latest_date": 1675165902,
+                    "size": 6
+                },
+                "stream events": {
+                    "latest_date": 1671615177,
+                    "size": 1
+                },
+                "topic resolving permissions": {
+                    "latest_date": 1693352055,
+                    "size": 2
+                },
+                "topic resolving un notifications (bot)": {
+                    "latest_date": 1705003869,
+                    "size": 4
+                },
+                "wtf": {
+                    "latest_date": 1681724338,
+                    "size": 4
+                },
+                "✔ Alt iezīmēšana pazaudē fokusu": {
+                    "latest_date": 1687804025,
+                    "size": 1
+                },
+                "✔ Message retention period": {
+                    "latest_date": 1687803827,
+                    "size": 1
+                },
+                "✔ OSM emojis": {
+                    "latest_date": 1672922429,
+                    "size": 2
+                },
+                "✔ Overpass Wizard linki un pēdiņas": {
+                    "latest_date": 1672915320,
+                    "size": 1
+                },
+                "✔ Overpass linki un pēdiņas": {
+                    "latest_date": 1672321039,
+                    "size": 6
+                },
+                "✔ Overpass un map state": {
+                    "latest_date": 1687803979,
+                    "size": 1
+                },
+                "✔ Zulip Standard plāns": {
+                    "latest_date": 1735160243,
+                    "size": 4
+                },
+                "✔ Zulip community index": {
+                    "latest_date": 1675166440,
+                    "size": 1
+                },
+                "✔ code playground autocomplete": {
+                    "latest_date": 1672915288,
+                    "size": 1
+                },
+                "✔ poll trūkumi": {
+                    "latest_date": 1671616665,
+                    "size": 1
+                }
+            }
+        },
+        "adreses": {
+            "id": 360959,
+            "latest_id": 568235759,
+            "topic_data": {
+                "44. (lidostas) pasta nodaļas indekss": {
+                    "latest_date": 1719911556,
+                    "size": 21
+                },
+                "Adrese tags_4_addresses.csv poligoniem, kas atrodas ēkās": {
+                    "latest_date": 1704146026,
+                    "size": 6
+                },
+                "Adreses laukumiem": {
+                    "latest_date": 1674045240,
+                    "size": 1
+                },
+                "Adreses un pārvietošana": {
+                    "latest_date": 1738859612,
+                    "size": 1
+                },
+                "Adreses uz disused:": {
+                    "latest_date": 1694460571,
+                    "size": 3
+                },
+                "Adrešu māju nosaukumu atpēdiņošana": {
+                    "latest_date": 1734903479,
+                    "size": 7
+                },
+                "Adrešu numuru vizualizācija": {
+                    "latest_date": 1695020410,
+                    "size": 1
+                },
+                "Aizogres LV-5041 -> LV-5001": {
+                    "latest_date": 1694458149,
+                    "size": 4
+                },
+                "Aizstāt addr:floor ar level": {
+                    "latest_date": 1697483936,
+                    "size": 13
+                },
+                "Ausekļu adrese": {
+                    "latest_date": 1712344291,
+                    "size": 12
+                },
+                "Baltā māja": {
+                    "latest_date": 1673595919,
+                    "size": 8
+                },
+                "Bot nobīdīja punktu pirms izņēma": {
+                    "latest_date": 1683621718,
+                    "size": 6
+                },
+                "Bota alfabetizācija un diakritikas": {
+                    "latest_date": 1734903435,
+                    "size": 3
+                },
+                "Bots liek ēkai klāt nepareizu adresi": {
+                    "latest_date": 1749151571,
+                    "size": 4
+                },
+                "Bots nodzēsa \"māju\"": {
+                    "latest_date": 1697324115,
+                    "size": 25
+                },
+                "Bots ņem nost addr:floor no indoor=room": {
+                    "latest_date": 1742935251,
+                    "size": 4
+                },
+                "Bots ņem nost ēkai pareizu adresi": {
+                    "latest_date": 1742678898,
+                    "size": 6
+                },
+                "Deleted ways and relations by latvia-bot to be reviewed": {
+                    "latest_date": 1697229002,
+                    "size": 1
+                },
+                "DubultPUTO": {
+                    "latest_date": 1712442384,
+                    "size": 6
+                },
+                "Dubulti adrešu punkti pēc sabīdīšanas": {
+                    "latest_date": 1691008357,
+                    "size": 2
+                },
+                "Dzirkaļu iela": {
+                    "latest_date": 1673008108,
+                    "size": 2
+                },
+                "Garkalnes pagasts": {
+                    "latest_date": 1696362288,
+                    "size": 3
+                },
+                "Garāžas NN": {
+                    "latest_date": 1674749630,
+                    "size": 1
+                },
+                "Gaujastes x daudz": {
+                    "latest_date": 1696953637,
+                    "size": 6
+                },
+                "Ielu dīvainības": {
+                    "latest_date": 1721846227,
+                    "size": 39
+                },
+                "Ielu nosaukumu dīvainības": {
+                    "latest_date": 1673932688,
+                    "size": 38
+                },
+                "Ielu nosaukumu maiņu sekošana": {
+                    "latest_date": 1672695378,
+                    "size": 15
+                },
+                "Jaunbērzi": {
+                    "latest_date": 1702546651,
+                    "size": 3
+                },
+                "Jaunogres sākumskolas adrese": {
+                    "latest_date": 1675337247,
+                    "size": 3
+                },
+                "Jumta adrese": {
+                    "latest_date": 1685418533,
+                    "size": 3
+                },
+                "Jūrmala, Rāznas iela 54 k-1 vai k-2": {
+                    "latest_date": 1707082531,
+                    "size": 1
+                },
+                "Navigācijas sistēmā neatrodamās adreses": {
+                    "latest_date": 1694176208,
+                    "size": 10
+                },
+                "Nominatim QA Tool": {
+                    "latest_date": 1749488179,
+                    "size": 10
+                },
+                "Nominatim nemeklē adreses bez ielas": {
+                    "latest_date": 1768488995,
+                    "size": 5
+                },
+                "Pasta indekss": {
+                    "latest_date": 1672153488,
+                    "size": 11
+                },
+                "Rāmuļu skoludārzs": {
+                    "latest_date": 1675251411,
+                    "size": 5
+                },
+                "StreetComplete quest": {
+                    "latest_date": 1686517372,
+                    "size": 13
+                },
+                "Ulbroka \"palielinās\"": {
+                    "latest_date": 1694535578,
+                    "size": 13
+                },
+                "VZD datos trūkst ielu nosaukumi": {
+                    "latest_date": 1673472744,
+                    "size": 3
+                },
+                "VZD datu lietderība": {
+                    "latest_date": 1742985511,
+                    "size": 24
+                },
+                "Vālodžu Ziemeļi": {
+                    "latest_date": 1718907754,
+                    "size": 4
+                },
+                "Ways and relations with missing tags for review": {
+                    "latest_date": 1768443116,
+                    "size": 3
+                },
+                "Ways and relations without tags for review": {
+                    "latest_date": 1697308648,
+                    "size": 1
+                },
+                "Zemitāna laukums vs. Tālivalža iela": {
+                    "latest_date": 1673610609,
+                    "size": 1
+                },
+                "addr:place > addr:city": {
+                    "latest_date": 1672690565,
+                    "size": 2
+                },
+                "adrese un amenity=fuel": {
+                    "latest_date": 1708518098,
+                    "size": 2
+                },
+                "adreses Latvijā - kvalitāte": {
+                    "latest_date": 1675416098,
+                    "size": 1
+                },
+                "adreses Ulbrokā": {
+                    "latest_date": 1671048960,
+                    "size": 8
+                },
+                "adreses punkts ēkas iekšā": {
+                    "latest_date": 1673562653,
+                    "size": 5
+                },
+                "adrešu izmaiņu laiki": {
+                    "latest_date": 1708512523,
+                    "size": 19
+                },
+                "amenity adrese ar mājas nosaukumu": {
+                    "latest_date": 1720028551,
+                    "size": 4
+                },
+                "attālums no adreses līdz ielai": {
+                    "latest_date": 1675772447,
+                    "size": 1
+                },
+                "bota automatizācija - workshops?": {
+                    "latest_date": 1731584494,
+                    "size": 5
+                },
+                "bota infrastruktūra": {
+                    "latest_date": 1675074984,
+                    "size": 9
+                },
+                "bota izmainīta iela": {
+                    "latest_date": 1681748980,
+                    "size": 3
+                },
+                "bota izveidots tukšpunkts": {
+                    "latest_date": 1718910891,
+                    "size": 5
+                },
+                "bota punkta nobīde": {
+                    "latest_date": 1730745452,
+                    "size": 5
+                },
+                "botam nepatīk operator:addr": {
+                    "latest_date": 1706728400,
+                    "size": 12
+                },
+                "bots nobīdīja izmantotu adreses punktu": {
+                    "latest_date": 1689012754,
+                    "size": 8
+                },
+                "bots un vairākas ēkas ar adresi": {
+                    "latest_date": 1689008799,
+                    "size": 4
+                },
+                "bots un visi addr:*": {
+                    "latest_date": 1694459123,
+                    "size": 3
+                },
+                "building=no": {
+                    "latest_date": 1673597008,
+                    "size": 20
+                },
+                "building=yes un adreses": {
+                    "latest_date": 1676416793,
+                    "size": 3
+                },
+                "channel events": {
+                    "latest_date": 1735157348,
+                    "size": 1
+                },
+                "dzēstas-pievienotas adreses": {
+                    "latest_date": 1685434833,
+                    "size": 5
+                },
+                "gramatiski pareizi nosaukumi": {
+                    "latest_date": 1679481492,
+                    "size": 4
+                },
+                "imports mailing list": {
+                    "latest_date": 1673246673,
+                    "size": 4
+                },
+                "kadastra ēku neatbilstība un adreses": {
+                    "latest_date": 1681416938,
+                    "size": 2
+                },
+                "negaidīta adreses nomaiņa": {
+                    "latest_date": 1672593679,
+                    "size": 9
+                },
+                "nesakritibas": {
+                    "latest_date": 1683121520,
+                    "size": 6
+                },
+                "objekti ar vienādiem nosaukumiem": {
+                    "latest_date": 1675867600,
+                    "size": 5
+                },
+                "old_addr:housename ar &quot;": {
+                    "latest_date": 1672914025,
+                    "size": 2
+                },
+                "paved/unpaved renderings": {
+                    "latest_date": 1673569095,
+                    "size": 1
+                },
+                "stream events": {
+                    "latest_date": 1670937562,
+                    "size": 1
+                },
+                "ēka Elizabetes ielā bez adreses": {
+                    "latest_date": 1707329662,
+                    "size": 14
+                },
+                "ēku nosaukumi sakrīt ar māju nosaukumiem adresēs": {
+                    "latest_date": 1673637512,
+                    "size": 17
+                },
+                "Šķībs kadastrs = adrešu punkts nav faktiskai ēkai": {
+                    "latest_date": 1712144377,
+                    "size": 5
+                },
+                "✔ Adrešu māju nosaukumu atpēdiņošana": {
+                    "latest_date": 1735030482,
+                    "size": 1
+                },
+                "✔ Baltā māja": {
+                    "latest_date": 1674494263,
+                    "size": 1
+                },
+                "✔ Bota alfabetizācija un diakritikas": {
+                    "latest_date": 1735030486,
+                    "size": 1
+                },
+                "✔ Pasta indekss": {
+                    "latest_date": 1672158331,
+                    "size": 1
+                },
+                "✔ bota izmainīta iela": {
+                    "latest_date": 1681754556,
+                    "size": 3
+                },
+                "✔ bota izveidots tukšpunkts": {
+                    "latest_date": 1718911628,
+                    "size": 1
+                },
+                "✔ building=no": {
+                    "latest_date": 1674494339,
+                    "size": 1
+                },
+                "✔ dzēstas-pievienotas adreses": {
+                    "latest_date": 1685436392,
+                    "size": 1
+                },
+                "✔ negaidīta adreses nomaiņa": {
+                    "latest_date": 1673819674,
+                    "size": 3
+                },
+                "✔ old_addr:housename ar &quot;": {
+                    "latest_date": 1672928014,
+                    "size": 3
+                }
+            }
+        },
+        "general": {
+            "id": 358602,
+            "latest_id": 576414996,
+            "topic_data": {
+                "\"Lidmašīna\"": {
+                    "latest_date": 1728407890,
+                    "size": 8
+                },
+                "\"Ukrainas neatkarības iela\"s nosaukuma tulkojumi": {
+                    "latest_date": 1697277929,
+                    "size": 4
+                },
+                "\"doorstep\" kartēšana": {
+                    "latest_date": 1701250788,
+                    "size": 5
+                },
+                "\"kerb\" (apmaļu) mikrokartēšana": {
+                    "latest_date": 1672329757,
+                    "size": 1
+                },
+                "\"privatizēta\" pašvaldības zeme": {
+                    "latest_date": 1706269919,
+                    "size": 8
+                },
+                "2021. gada 8 cm ortofoto": {
+                    "latest_date": 1675859850,
+                    "size": 2
+                },
+                "360 bildes Avotos un Latgales apkaimē": {
+                    "latest_date": 1716997329,
+                    "size": 4
+                },
+                "A2 būvdarbi": {
+                    "latest_date": 1674473984,
+                    "size": 3
+                },
+                "Adding highways based on TomTom data in MapRoulette": {
+                    "latest_date": 1698327714,
+                    "size": 17
+                },
+                "Aiz-Ādažu A1>P1 pagrieziens ar ne-auto": {
+                    "latest_date": 1697901306,
+                    "size": 3
+                },
+                "Alejas": {
+                    "latest_date": 1698327351,
+                    "size": 21
+                },
+                "Alfa kadastrā vs LVM orto": {
+                    "latest_date": 1702508100,
+                    "size": 1
+                },
+                "Ambiguos raod name": {
+                    "latest_date": 1718482909,
+                    "size": 5
+                },
+                "Ambiguous road name": {
+                    "latest_date": 1718488466,
+                    "size": 1
+                },
+                "Arhitektu karte": {
+                    "latest_date": 1715002874,
+                    "size": 55
+                },
+                "AtsaucesTaNava": {
+                    "latest_date": 1702055495,
+                    "size": 1
+                },
+                "Austrumu maģistrāle atvēršana 21.12.2023": {
+                    "latest_date": 1703329277,
+                    "size": 22
+                },
+                "Avotu aplis": {
+                    "latest_date": 1703348714,
+                    "size": 5
+                },
+                "BRouter A2": {
+                    "latest_date": 1688040449,
+                    "size": 7
+                },
+                "Baldones apkaimes": {
+                    "latest_date": 1736579269,
+                    "size": 7
+                },
+                "Baldones jaunais aplis": {
+                    "latest_date": 1734723442,
+                    "size": 20
+                },
+                "Bench!": {
+                    "latest_date": 1710096230,
+                    "size": 25
+                },
+                "Bijušie objekti": {
+                    "latest_date": 1712687731,
+                    "size": 4
+                },
+                "Bilžu pārklāšanās": {
+                    "latest_date": 1731835149,
+                    "size": 1
+                },
+                "Bing RoadDetections": {
+                    "latest_date": 1679683104,
+                    "size": 13
+                },
+                "Bing Rīga 2024": {
+                    "latest_date": 1739391265,
+                    "size": 43
+                },
+                "Bing mapbuilder": {
+                    "latest_date": 1690966626,
+                    "size": 38
+                },
+                "Bing maps": {
+                    "latest_date": 1677180979,
+                    "size": 1
+                },
+                "Brasas tilta travaja līnijas pieturas": {
+                    "latest_date": 1674139277,
+                    "size": 5
+                },
+                "Brauktuvju atdalīšana stabiņu vietās": {
+                    "latest_date": 1729359854,
+                    "size": 3
+                },
+                "Bridge name": {
+                    "latest_date": 1718539658,
+                    "size": 25
+                },
+                "CLC importu tagi": {
+                    "latest_date": 1751103164,
+                    "size": 8
+                },
+                "CSP NUTS statistiskie reģioni": {
+                    "latest_date": 1767363726,
+                    "size": 9
+                },
+                "CSP iedzīvotāju skaits": {
+                    "latest_date": 1768310444,
+                    "size": 1
+                },
+                "Carto flowerbed rendering": {
+                    "latest_date": 1704984926,
+                    "size": 11
+                },
+                "Celju pārbūves ap Daugavpili": {
+                    "latest_date": 1744280122,
+                    "size": 1
+                },
+                "Celu apzimejumi": {
+                    "latest_date": 1764325960,
+                    "size": 3
+                },
+                "Ceļi bez virsmu info": {
+                    "latest_date": 1770737354,
+                    "size": 14
+                },
+                "Ceļu pārbūves ap Daugavpili": {
+                    "latest_date": 1745955127,
+                    "size": 1
+                },
+                "Ciemi": {
+                    "latest_date": 1745387460,
+                    "size": 8
+                },
+                "Ciems ar \"(ciems)\"": {
+                    "latest_date": 1689242065,
+                    "size": 2
+                },
+                "Ciemu, upju nosaukumi": {
+                    "latest_date": 1700074877,
+                    "size": 10
+                },
+                "DPD Latvijā un Name Suggestion Index": {
+                    "latest_date": 1716998656,
+                    "size": 49
+                },
+                "DUS amenity=fuel + landuse=retail": {
+                    "latest_date": 1716493137,
+                    "size": 1
+                },
+                "Dabas parku robežas": {
+                    "latest_date": 1757840471,
+                    "size": 4
+                },
+                "Daugavpils tramvaji": {
+                    "latest_date": 1672327602,
+                    "size": 11
+                },
+                "Demontētie pieminekļi": {
+                    "latest_date": 1703444641,
+                    "size": 9
+                },
+                "Denomination": {
+                    "latest_date": 1680466702,
+                    "size": 4
+                },
+                "Dienvidu tilta 4. kārta": {
+                    "latest_date": 1763374593,
+                    "size": 108
+                },
+                "Dienvidu tilta nosaukums": {
+                    "latest_date": 1757319196,
+                    "size": 4
+                },
+                "Duplicētas vilcienu maršrutu relācijas.": {
+                    "latest_date": 1725376129,
+                    "size": 20
+                },
+                "Dzelzceļa līnija Rīga—Daugavpils": {
+                    "latest_date": 1698877257,
+                    "size": 3
+                },
+                "Dzidriņas": {
+                    "latest_date": 1708033392,
+                    "size": 1
+                },
+                "Dzīvojamā zona - brīnumi": {
+                    "latest_date": 1758923590,
+                    "size": 11
+                },
+                "Dzīvojamā zona uz augstas klasifikācija ceļa": {
+                    "latest_date": 1715683282,
+                    "size": 18
+                },
+                "Dzīvojamās ielas ar maxspeed": {
+                    "latest_date": 1687942827,
+                    "size": 42
+                },
+                "Dīvains ceļu krustojums": {
+                    "latest_date": 1692885890,
+                    "size": 10
+                },
+                "Dīķa iela": {
+                    "latest_date": 1707404204,
+                    "size": 11
+                },
+                "EHRLE Automazgātavas": {
+                    "latest_date": 1728242722,
+                    "size": 5
+                },
+                "Elementi ar nezināmiem un/vai nenosakošiem tegiem": {
+                    "latest_date": 1706216257,
+                    "size": 26
+                },
+                "Esplanādes 360": {
+                    "latest_date": 1746002231,
+                    "size": 1
+                },
+                "Evanģēlijs - Evaņģēlijs": {
+                    "latest_date": 1717596190,
+                    "size": 17
+                },
+                "EveryDoor 5.0": {
+                    "latest_date": 1715697409,
+                    "size": 2
+                },
+                "EveryDoor iOS beta versijas": {
+                    "latest_date": 1696322326,
+                    "size": 1
+                },
+                "Ezīša kofīšops": {
+                    "latest_date": 1771191590,
+                    "size": 5
+                },
+                "Fixing incorrect highway junctions": {
+                    "latest_date": 1698085664,
+                    "size": 7
+                },
+                "Fixing incorrect junctions on roundabouts": {
+                    "latest_date": 1704980487,
+                    "size": 27
+                },
+                "Fog Of War On Cars": {
+                    "latest_date": 1732828164,
+                    "size": 14
+                },
+                "GEO RĪGA licences": {
+                    "latest_date": 1713975245,
+                    "size": 5
+                },
+                "GEO RĪGA licenzes": {
+                    "latest_date": 1703774132,
+                    "size": 1
+                },
+                "GPX no bildēm": {
+                    "latest_date": 1694603469,
+                    "size": 4
+                },
+                "Gaiļezera dzīvojamā zona": {
+                    "latest_date": 1681149242,
+                    "size": 7
+                },
+                "GeoJSON un GitHub": {
+                    "latest_date": 1696595892,
+                    "size": 2
+                },
+                "Geoscribble": {
+                    "latest_date": 1715460279,
+                    "size": 12
+                },
+                "German name of the streets": {
+                    "latest_date": 1718749705,
+                    "size": 17
+                },
+                "GitHub organization & website": {
+                    "latest_date": 1687896716,
+                    "size": 6
+                },
+                "Glika ozoli": {
+                    "latest_date": 1690030991,
+                    "size": 31
+                },
+                "Google Summer of Code idejas": {
+                    "latest_date": 1675265524,
+                    "size": 2
+                },
+                "Gājēju pāreju ceļa un punkta tegu nesakritība": {
+                    "latest_date": 1708602260,
+                    "size": 1
+                },
+                "Happy Dog, Happy Cat": {
+                    "latest_date": 1700428348,
+                    "size": 6
+                },
+                "Hello!": {
+                    "latest_date": 1716833678,
+                    "size": 2
+                },
+                "Humana?": {
+                    "latest_date": 1715604670,
+                    "size": 4
+                },
+                "Iecavas apvedceļš / E67": {
+                    "latest_date": 1751110749,
+                    "size": 32
+                },
+                "Iekštelpu kartēšana - plāni": {
+                    "latest_date": 1742643945,
+                    "size": 28
+                },
+                "Ielu nosaukumu maiņas brīdis": {
+                    "latest_date": 1701290491,
+                    "size": 9
+                },
+                "Ielu nosaukumu tulkojumi": {
+                    "latest_date": 1674592129,
+                    "size": 33
+                },
+                "Ikšķiles kapos jauns piemineklis": {
+                    "latest_date": 1746618320,
+                    "size": 3
+                },
+                "Inscription labojumi": {
+                    "latest_date": 1717604816,
+                    "size": 6
+                },
+                "Izdzēsti ielu nosaukumi krieviski": {
+                    "latest_date": 1699889458,
+                    "size": 36
+                },
+                "Jauna iela Kalngalē": {
+                    "latest_date": 1674214939,
+                    "size": 1
+                },
+                "Jaunmārupes bumbuļi": {
+                    "latest_date": 1725555289,
+                    "size": 3
+                },
+                "Jauns muzejs Līgatnē": {
+                    "latest_date": 1740942833,
+                    "size": 3
+                },
+                "Jelgavas ātrumi": {
+                    "latest_date": 1691584932,
+                    "size": 8
+                },
+                "Jēkabpils baznīcas": {
+                    "latest_date": 1693592915,
+                    "size": 3
+                },
+                "Jūrmala, Rāznas iela 54 k-1 vai k-2": {
+                    "latest_date": 1707082531,
+                    "size": 1
+                },
+                "Kaku draugi": {
+                    "latest_date": 1743018070,
+                    "size": 3
+                },
+                "Kapi pie Sakaiņu pilskalna": {
+                    "latest_date": 1679519660,
+                    "size": 13
+                },
+                "Kapsētas": {
+                    "latest_date": 1753187127,
+                    "size": 2
+                },
+                "Karaļauči - izmaiņas kartē": {
+                    "latest_date": 1684235865,
+                    "size": 11
+                },
+                "Karogi": {
+                    "latest_date": 1741110818,
+                    "size": 1
+                },
+                "Kartogrāfu dienu 2025": {
+                    "latest_date": 1739937443,
+                    "size": 1
+                },
+                "Kas šis par objektu?": {
+                    "latest_date": 1736802377,
+                    "size": 17
+                },
+                "Katastrofu pārvaldības centri": {
+                    "latest_date": 1748014742,
+                    "size": 1
+                },
+                "Koka dzēsēji": {
+                    "latest_date": 1766960562,
+                    "size": 9
+                },
+                "Komunikāciju torņi": {
+                    "latest_date": 1703695010,
+                    "size": 1
+                },
+                "Krucifiksi": {
+                    "latest_date": 1768317304,
+                    "size": 7
+                },
+                "Krustojumu rediģēšana - OSMPIE": {
+                    "latest_date": 1760521990,
+                    "size": 3
+                },
+                "Kuldīgas bibliotēka/sinagoga": {
+                    "latest_date": 1704710572,
+                    "size": 15
+                },
+                "Kuldīgas komunālie pakalpojmi": {
+                    "latest_date": 1709732763,
+                    "size": 4
+                },
+                "Kultūras mantojumi": {
+                    "latest_date": 1701788992,
+                    "size": 50
+                },
+                "Kurzemes alejas": {
+                    "latest_date": 1758921930,
+                    "size": 3
+                },
+                "LV tagging guidelines - Gājēji uz ceļiem": {
+                    "latest_date": 1733779193,
+                    "size": 5
+                },
+                "LVC V80: Eikaži, Eikāži...": {
+                    "latest_date": 1689072151,
+                    "size": 7
+                },
+                "LVC ceļi": {
+                    "latest_date": 1700651076,
+                    "size": 38
+                },
+                "LVC ceļu analīzes skripts": {
+                    "latest_date": 1687852575,
+                    "size": 161
+                },
+                "LVM GEO serveris lēns": {
+                    "latest_date": 1675077551,
+                    "size": 5
+                },
+                "LVM ceļi": {
+                    "latest_date": 1697368574,
+                    "size": 17
+                },
+                "LVM importa prikoli": {
+                    "latest_date": 1688828609,
+                    "size": 1
+                },
+                "LVM importu labojumi": {
+                    "latest_date": 1712785359,
+                    "size": 6
+                },
+                "LVM jaunimi": {
+                    "latest_date": 1681209138,
+                    "size": 1
+                },
+                "LVM jaunumi": {
+                    "latest_date": 1749218861,
+                    "size": 61
+                },
+                "LVM_import profils": {
+                    "latest_date": 1692710658,
+                    "size": 2
+                },
+                "Labais Bobs": {
+                    "latest_date": 1702911706,
+                    "size": 9
+                },
+                "Latgales Slāvu Krasta iela": {
+                    "latest_date": 1712830777,
+                    "size": 6
+                },
+                "Latgales... apkaime?": {
+                    "latest_date": 1715335605,
+                    "size": 4
+                },
+                "Latvia - Fix Intersecting Buildings": {
+                    "latest_date": 1730373155,
+                    "size": 4
+                },
+                "Latvian tagging guidelines wiki": {
+                    "latest_date": 1767462533,
+                    "size": 35
+                },
+                "Latviešu vēsturiskās zemes": {
+                    "latest_date": 1722193173,
+                    "size": 19
+                },
+                "Latvijas Pasta \"pasta pakalpojumi pēc pieprasījuma\" tegošana": {
+                    "latest_date": 1749156660,
+                    "size": 2
+                },
+                "Latvijas Pasts + Circle K": {
+                    "latest_date": 1718837750,
+                    "size": 7
+                },
+                "Latvijas Pasts pakomātu vēstuļu sūtīšana": {
+                    "latest_date": 1717182764,
+                    "size": 24
+                },
+                "Latvijas jūras robežas": {
+                    "latest_date": 1712140160,
+                    "size": 3
+                },
+                "Latviskās vadlīnijas": {
+                    "latest_date": 1714990754,
+                    "size": 13
+                },
+                "Lidl Cēsīs": {
+                    "latest_date": 1698419279,
+                    "size": 2
+                },
+                "Lidlauki Daugavpils apkaimē": {
+                    "latest_date": 1726390055,
+                    "size": 2
+                },
+                "Lidmašīnu karte": {
+                    "latest_date": 1768576952,
+                    "size": 7
+                },
+                "Liepāja landuse=residential": {
+                    "latest_date": 1673882160,
+                    "size": 4
+                },
+                "Liepājā jauna krasta aizsargbūve": {
+                    "latest_date": 1753459410,
+                    "size": 1
+                },
+                "Lietotāja archth izmaiņas": {
+                    "latest_date": 1684087567,
+                    "size": 7
+                },
+                "Lietotāja arcth izmaiņas": {
+                    "latest_date": 1684385860,
+                    "size": 2
+                },
+                "Lorupes tiltu atvērs": {
+                    "latest_date": 1760503763,
+                    "size": 3
+                },
+                "Lucavsalas parka nosaukums": {
+                    "latest_date": 1758909666,
+                    "size": 2
+                },
+                "LĢIA kartogrāfu diena 2023": {
+                    "latest_date": 1675614748,
+                    "size": 2
+                },
+                "MS ceļi un OSM": {
+                    "latest_date": 1699612735,
+                    "size": 2
+                },
+                "Malls or not malls?": {
+                    "latest_date": 1717086293,
+                    "size": 14
+                },
+                "MapRoulette - ēkas/ūdeņi": {
+                    "latest_date": 1685705565,
+                    "size": 12
+                },
+                "Mapbox": {
+                    "latest_date": 1769372554,
+                    "size": 6
+                },
+                "Mapillary": {
+                    "latest_date": 1711667307,
+                    "size": 2
+                },
+                "Mapillary 360 filmēšana": {
+                    "latest_date": 1760432461,
+                    "size": 28
+                },
+                "Mapillary NeRF": {
+                    "latest_date": 1711688707,
+                    "size": 4
+                },
+                "Mapillary bilžu pārklāšanās": {
+                    "latest_date": 1753977747,
+                    "size": 38
+                },
+                "Mapillary zīmju slāņu kvalitāte": {
+                    "latest_date": 1681761073,
+                    "size": 4
+                },
+                "Mapillio": {
+                    "latest_date": 1709734818,
+                    "size": 8
+                },
+                "Mazciemu skaits un izvietojums Latvijā": {
+                    "latest_date": 1767811812,
+                    "size": 10
+                },
+                "McDonalds A7": {
+                    "latest_date": 1765183847,
+                    "size": 5
+                },
+                "Mežu izmēri": {
+                    "latest_date": 1766957317,
+                    "size": 35
+                },
+                "Microsoft mapping campaign": {
+                    "latest_date": 1697455829,
+                    "size": 4
+                },
+                "Mikrokartēšana - ceriņi": {
+                    "latest_date": 1729843652,
+                    "size": 6
+                },
+                "Mikroliegumi": {
+                    "latest_date": 1699876102,
+                    "size": 67
+                },
+                "Militārās zonas kartē": {
+                    "latest_date": 1726423807,
+                    "size": 19
+                },
+                "Mobilly stāvvietas": {
+                    "latest_date": 1748191575,
+                    "size": 2
+                },
+                "Multi gabalu pagasts": {
+                    "latest_date": 1722249258,
+                    "size": 3
+                },
+                "Multipoligoni": {
+                    "latest_date": 1764269526,
+                    "size": 20
+                },
+                "Mākslas darbi": {
+                    "latest_date": 1740558689,
+                    "size": 1
+                },
+                "Mākslinieki": {
+                    "latest_date": 1718014827,
+                    "size": 5
+                },
+                "Māras dārza trepes": {
+                    "latest_date": 1732657154,
+                    "size": 3
+                },
+                "Narvesen Nestēs": {
+                    "latest_date": 1707774783,
+                    "size": 1
+                },
+                "New Maproulette: Latvia - Nodes Without Primary Tags": {
+                    "latest_date": 1772276484,
+                    "size": 6
+                },
+                "Noliktavu kartēšana": {
+                    "latest_date": 1758451378,
+                    "size": 4
+                },
+                "Nominatim special phrases": {
+                    "latest_date": 1672947293,
+                    "size": 5
+                },
+                "Nominatim special phrases / tulkojumi": {
+                    "latest_date": 1676654597,
+                    "size": 67
+                },
+                "Nosaukuma maiņa Arēna Rīga": {
+                    "latest_date": 1738004058,
+                    "size": 6
+                },
+                "Nosaukumi - latviski pareizi": {
+                    "latest_date": 1772227255,
+                    "size": 6
+                },
+                "Nosaukumu nevienādības": {
+                    "latest_date": 1688937158,
+                    "size": 65
+                },
+                "OSM 8. martā - Geochicas": {
+                    "latest_date": 1678300672,
+                    "size": 3
+                },
+                "OSM GSoC": {
+                    "latest_date": 1708867237,
+                    "size": 1
+                },
+                "OSM Relatify - sabiedriskā transporta kartēšana": {
+                    "latest_date": 1687433730,
+                    "size": 10
+                },
+                "OSM Savvaļā": {
+                    "latest_date": 1711709823,
+                    "size": 6
+                },
+                "OSM būs vektori": {
+                    "latest_date": 1709748478,
+                    "size": 1
+                },
+                "OSM izglītības iestādēs": {
+                    "latest_date": 1689614774,
+                    "size": 2
+                },
+                "OSM izglītībā": {
+                    "latest_date": 1687175503,
+                    "size": 1
+                },
+                "OSM key/tag linkifier": {
+                    "latest_date": 1671549329,
+                    "size": 11
+                },
+                "OSM note plūdi un StreetComplete bildes": {
+                    "latest_date": 1688153220,
+                    "size": 6
+                },
+                "OSM profils": {
+                    "latest_date": 1741809257,
+                    "size": 5
+                },
+                "OSM traces sunnypilot": {
+                    "latest_date": 1689621595,
+                    "size": 4
+                },
+                "OSM-20!": {
+                    "latest_date": 1723202981,
+                    "size": 1
+                },
+                "OSM/geo pastaiga Rīgā sestdien": {
+                    "latest_date": 1686231370,
+                    "size": 1
+                },
+                "Old Captain \"hotel\"": {
+                    "latest_date": 1683107126,
+                    "size": 6
+                },
+                "OpenHistoricalMap": {
+                    "latest_date": 1748462405,
+                    "size": 9
+                },
+                "OpenStreetMap kā datu avots oficiāliem datiem": {
+                    "latest_date": 1688132242,
+                    "size": 1
+                },
+                "Organic Maps + Rīgas Satiksme": {
+                    "latest_date": 1674204354,
+                    "size": 5
+                },
+                "Organic Maps + SteamDeck": {
+                    "latest_date": 1686601788,
+                    "size": 4
+                },
+                "Organic Maps konflikti": {
+                    "latest_date": 1747077426,
+                    "size": 26
+                },
+                "Organic Maps latviešu valodā": {
+                    "latest_date": 1729922492,
+                    "size": 21
+                },
+                "Ortofoto 8. cikls": {
+                    "latest_date": 1765057760,
+                    "size": 40
+                },
+                "Osmalyzer Lietuva": {
+                    "latest_date": 1745674052,
+                    "size": 3
+                },
+                "Overpass mācīšanās rīks": {
+                    "latest_date": 1689346702,
+                    "size": 1
+                },
+                "Overture POI": {
+                    "latest_date": 1690997731,
+                    "size": 8
+                },
+                "PMLP, geolatvija.lv, copyright": {
+                    "latest_date": 1771191013,
+                    "size": 4
+                },
+                "Pagasti un pagastu/novadu robežas": {
+                    "latest_date": 1749157152,
+                    "size": 21
+                },
+                "Pakomātu dažādība": {
+                    "latest_date": 1744457009,
+                    "size": 74
+                },
+                "Panoramax bilžu augšuplādēšana": {
+                    "latest_date": 1716456204,
+                    "size": 1
+                },
+                "Panoramax testa instance": {
+                    "latest_date": 1729358602,
+                    "size": 25
+                },
+                "Par notes lietošanu": {
+                    "latest_date": 1699985263,
+                    "size": 28
+                },
+                "Parkings ar laika un laika ierobežojumu": {
+                    "latest_date": 1718200678,
+                    "size": 5
+                },
+                "Pasta indekss": {
+                    "latest_date": 1672088385,
+                    "size": 3
+                },
+                "Patvertnes": {
+                    "latest_date": 1739372308,
+                    "size": 5
+                },
+                "Paštaisīti ortofoto": {
+                    "latest_date": 1758283060,
+                    "size": 19
+                },
+                "Periodika kā OSM avots": {
+                    "latest_date": 1708521298,
+                    "size": 2
+                },
+                "Piezīme Vecrīgā": {
+                    "latest_date": 1755605330,
+                    "size": 2
+                },
+                "Piezīme Ķengaragā": {
+                    "latest_date": 1732822113,
+                    "size": 12
+                },
+                "Pilsētu \"iesaukas\"": {
+                    "latest_date": 1750063650,
+                    "size": 4
+                },
+                "Pilsētu apkaimes/rajoni": {
+                    "latest_date": 1762177704,
+                    "size": 12
+                },
+                "Platformas bez ceļa": {
+                    "latest_date": 1689855485,
+                    "size": 14
+                },
+                "Plānotās ielas": {
+                    "latest_date": 1693645501,
+                    "size": 8
+                },
+                "Plānošanas reģioni": {
+                    "latest_date": 1696681419,
+                    "size": 7
+                },
+                "Post box validator": {
+                    "latest_date": 1683723223,
+                    "size": 24
+                },
+                "Projekti": {
+                    "latest_date": 1692608679,
+                    "size": 6
+                },
+                "Pāreju labošana": {
+                    "latest_date": 1733848139,
+                    "size": 2
+                },
+                "Pārventas skatu tornis": {
+                    "latest_date": 1755089793,
+                    "size": 2
+                },
+                "Pērnavas iela -> Barona iela": {
+                    "latest_date": 1693934293,
+                    "size": 21
+                },
+                "Pļavnieku tirgus": {
+                    "latest_date": 1709060072,
+                    "size": 5
+                },
+                "QGIS": {
+                    "latest_date": 1674287356,
+                    "size": 7
+                },
+                "RD pasākums par jauniem veloceļiem": {
+                    "latest_date": 1705488928,
+                    "size": 3
+                },
+                "RTA tiks pārsaukta": {
+                    "latest_date": 1744223656,
+                    "size": 7
+                },
+                "Rail Baltica railway under construction": {
+                    "latest_date": 1722172284,
+                    "size": 5
+                },
+                "Rampas": {
+                    "latest_date": 1690273288,
+                    "size": 1
+                },
+                "Reklāmas zīmes kadastrā": {
+                    "latest_date": 1685445040,
+                    "size": 1
+                },
+                "Residential landuse": {
+                    "latest_date": 1745751089,
+                    "size": 1
+                },
+                "Revival of OSM History Viewer and OSM Route Manager": {
+                    "latest_date": 1741375768,
+                    "size": 1
+                },
+                "Rimi Ikšķilē": {
+                    "latest_date": 1766560141,
+                    "size": 9
+                },
+                "Rimi NSI": {
+                    "latest_date": 1716980703,
+                    "size": 14
+                },
+                "Road routes": {
+                    "latest_date": 1772277540,
+                    "size": 16
+                },
+                "Route routes": {
+                    "latest_date": 1684931900,
+                    "size": 4
+                },
+                "Rīga attīstās": {
+                    "latest_date": 1698862395,
+                    "size": 2
+                },
+                "Rīgas HES aizsargdambja ceļu klasifikācija": {
+                    "latest_date": 1698153352,
+                    "size": 17
+                },
+                "Rīgas Ziemeļu transporta koridors": {
+                    "latest_date": 1673963699,
+                    "size": 3
+                },
+                "Rīgas pieminekļu aģentūra": {
+                    "latest_date": 1733255199,
+                    "size": 99
+                },
+                "Rīgas priekšpilsētas": {
+                    "latest_date": 1724672533,
+                    "size": 4
+                },
+                "Rīgas ūdens \"ūdens uzpildes stacija\"": {
+                    "latest_date": 1746691055,
+                    "size": 5
+                },
+                "Rīgā jauni ātrumvaļņi": {
+                    "latest_date": 1695918591,
+                    "size": 19
+                },
+                "Rīgā slēgta daļa Valdemāra ielas": {
+                    "latest_date": 1676908309,
+                    "size": 3
+                },
+                "SEO spama izķeršana OSM": {
+                    "latest_date": 1687271217,
+                    "size": 1
+                },
+                "Salaspils ūdensteka": {
+                    "latest_date": 1703963662,
+                    "size": 31
+                },
+                "Salūzuši ortofoto": {
+                    "latest_date": 1742827627,
+                    "size": 3
+                },
+                "Saraksts ar jaunākajiem ortofoto konkrētos Latvijas reģionos": {
+                    "latest_date": 1740913878,
+                    "size": 8
+                },
+                "Skanstes parka urnas": {
+                    "latest_date": 1734000236,
+                    "size": 5
+                },
+                "SketchMapTool": {
+                    "latest_date": 1677436388,
+                    "size": 2
+                },
+                "Skolu kartēšana": {
+                    "latest_date": 1741375838,
+                    "size": 5
+                },
+                "Slēpotāju ceļš un LVM imports": {
+                    "latest_date": 1674247375,
+                    "size": 3
+                },
+                "Slēpošanas trase/pastaigu trase": {
+                    "latest_date": 1701975832,
+                    "size": 13
+                },
+                "Stulbas ceļu zīmes": {
+                    "latest_date": 1755615405,
+                    "size": 109
+                },
+                "Terminu tulkojumi un latviskošana": {
+                    "latest_date": 1754751871,
+                    "size": 5
+                },
+                "TomTom - Fix building and highway intersection": {
+                    "latest_date": 1687180418,
+                    "size": 5
+                },
+                "TomTom - Fix inconsistent Bridge and Tunnel tagging": {
+                    "latest_date": 1686923454,
+                    "size": 6
+                },
+                "TomTom - Fix inconsistent highway intersection": {
+                    "latest_date": 1690226045,
+                    "size": 14
+                },
+                "TomTom - Isolated Highways challenge": {
+                    "latest_date": 1689600193,
+                    "size": 5
+                },
+                "TomTom AmiGO izmanto OSM... bet ne Latvijā": {
+                    "latest_date": 1707311012,
+                    "size": 1
+                },
+                "TomTom edits based on map feedback": {
+                    "latest_date": 1691164201,
+                    "size": 4
+                },
+                "Top! vai top! ?": {
+                    "latest_date": 1717490612,
+                    "size": 50
+                },
+                "Trīskāršs neplīst": {
+                    "latest_date": 1728034748,
+                    "size": 1
+                },
+                "Trūkstošas autortiesību atsauces": {
+                    "latest_date": 1771191387,
+                    "size": 56
+                },
+                "Tukši viensētu punkti": {
+                    "latest_date": 1751805530,
+                    "size": 34
+                },
+                "Tulkojumi Organic Maps": {
+                    "latest_date": 1741712116,
+                    "size": 6
+                },
+                "Ugunsgrēks Mežaparkā": {
+                    "latest_date": 1742141687,
+                    "size": 1
+                },
+                "Uzvaras parks": {
+                    "latest_date": 1698061953,
+                    "size": 3
+                },
+                "V22": {
+                    "latest_date": 1716973980,
+                    "size": 11
+                },
+                "VZD ADTI WMS": {
+                    "latest_date": 1769330553,
+                    "size": 8
+                },
+                "VZD datos trūkst ielu nosaukumi": {
+                    "latest_date": 1673456817,
+                    "size": 5
+                },
+                "VZD kodi OSM teritoriju/admin iedalījumiem": {
+                    "latest_date": 1767530433,
+                    "size": 20
+                },
+                "VZD konference par kadastra datiem": {
+                    "latest_date": 1715950658,
+                    "size": 4
+                },
+                "Vai Brīvības piemineklim ir jumts?": {
+                    "latest_date": 1686563252,
+                    "size": 2
+                },
+                "Valmieras apkaimes/rajoni": {
+                    "latest_date": 1740309430,
+                    "size": 5
+                },
+                "Valodu pārslēgšana osm.org": {
+                    "latest_date": 1753296096,
+                    "size": 1
+                },
+                "Valsts sociālās aprūpes centrs Rīga": {
+                    "latest_date": 1680368002,
+                    "size": 2
+                },
+                "Vecgaujas ditch&drain": {
+                    "latest_date": 1674660302,
+                    "size": 7
+                },
+                "Vecās dzīvojamās zonas zīmes": {
+                    "latest_date": 1706816042,
+                    "size": 13
+                },
+                "Veikparku trošu ceļi": {
+                    "latest_date": 1697809891,
+                    "size": 5
+                },
+                "Vektori osm.org!": {
+                    "latest_date": 1753293184,
+                    "size": 1
+                },
+                "Ventspils \"apzaļumota\"": {
+                    "latest_date": 1684931831,
+                    "size": 17
+                },
+                "Ventspils Piejūras parka enkuri": {
+                    "latest_date": 1691244676,
+                    "size": 30
+                },
+                "Veģetāro/vegānisko iespēju karte": {
+                    "latest_date": 1736057476,
+                    "size": 2
+                },
+                "Veļas žāvētāji": {
+                    "latest_date": 1738944899,
+                    "size": 2
+                },
+                "VidesSOS": {
+                    "latest_date": 1682359639,
+                    "size": 2
+                },
+                "Vietvārdu Datubāze": {
+                    "latest_date": 1767900291,
+                    "size": 25
+                },
+                "Vietvārdu datubāzes kapsētas": {
+                    "latest_date": 1731574467,
+                    "size": 13
+                },
+                "Vērmanīša 360": {
+                    "latest_date": 1737569123,
+                    "size": 3
+                },
+                "Vēsturiski-militārais mantojums": {
+                    "latest_date": 1731573977,
+                    "size": 1
+                },
+                "WaterwayMap - loops": {
+                    "latest_date": 1702910833,
+                    "size": 4
+                },
+                "When is construction construction?": {
+                    "latest_date": 1685575716,
+                    "size": 8
+                },
+                "Wikidata attēlošana osm.org": {
+                    "latest_date": 1705589857,
+                    "size": 1
+                },
+                "Wikidata/Wikipedia tagi": {
+                    "latest_date": 1717881019,
+                    "size": 27
+                },
+                "X-of-Y": {
+                    "latest_date": 1768051315,
+                    "size": 3
+                },
+                "Ziedoņdārza 360": {
+                    "latest_date": 1744531202,
+                    "size": 1
+                },
+                "Ziemassvētku egles vieta Rātslaukumā": {
+                    "latest_date": 1709847324,
+                    "size": 19
+                },
+                "Ziemassvētku elementi": {
+                    "latest_date": 1763310110,
+                    "size": 2
+                },
+                "Zulip+Mapillary integrācija": {
+                    "latest_date": 1671614365,
+                    "size": 10
+                },
+                "actiongames.lv": {
+                    "latest_date": 1737905677,
+                    "size": 2
+                },
+                "admin_level": {
+                    "latest_date": 1724183490,
+                    "size": 28
+                },
+                "adreses": {
+                    "latest_date": 1670822048,
+                    "size": 2
+                },
+                "adreses Ulbrokā": {
+                    "latest_date": 1670937309,
+                    "size": 4
+                },
+                "aizbērtā pierīga": {
+                    "latest_date": 1681720068,
+                    "size": 4
+                },
+                "antenas uz ūdenstorņiem": {
+                    "latest_date": 1703761323,
+                    "size": 7
+                },
+                "apron markings": {
+                    "latest_date": 1674050804,
+                    "size": 12
+                },
+                "apzīmējums ēkai vai kā punkts": {
+                    "latest_date": 1675268151,
+                    "size": 9
+                },
+                "area:highway ar nosaukumu": {
+                    "latest_date": 1674227791,
+                    "size": 30
+                },
+                "autortiesību atsauces": {
+                    "latest_date": 1766931354,
+                    "size": 94
+                },
+                "autostāvvietu kartēšana": {
+                    "latest_date": 1708099341,
+                    "size": 33
+                },
+                "balsošana - kā apzīmēt DPD pakomātus?": {
+                    "latest_date": 1716412768,
+                    "size": 1
+                },
+                "barrier=?": {
+                    "latest_date": 1684931725,
+                    "size": 26
+                },
+                "baznīcu piezīmes": {
+                    "latest_date": 1693682643,
+                    "size": 38
+                },
+                "boundary=forest": {
+                    "latest_date": 1681730359,
+                    "size": 5
+                },
+                "building labojumi pēc nosaukuma": {
+                    "latest_date": 1673541051,
+                    "size": 15
+                },
+                "building passege or covered?": {
+                    "latest_date": 1684915568,
+                    "size": 2
+                },
+                "building=garages vai garage": {
+                    "latest_date": 1673798530,
+                    "size": 4
+                },
+                "building=house jeijei66 reverts": {
+                    "latest_date": 1758736172,
+                    "size": 2
+                },
+                "building=yes vai building=roof?": {
+                    "latest_date": 1708784743,
+                    "size": 2
+                },
+                "busway": {
+                    "latest_date": 1718521218,
+                    "size": 7
+                },
+                "būvlaukumu \"check date\" vizualizācija": {
+                    "latest_date": 1712921652,
+                    "size": 12
+                },
+                "būvtāfeles, autortiesības": {
+                    "latest_date": 1682007447,
+                    "size": 1
+                },
+                "būvtāfeļu foto": {
+                    "latest_date": 1682007551,
+                    "size": 22
+                },
+                "cemety": {
+                    "latest_date": 1682788185,
+                    "size": 10
+                },
+                "ceļazīmju bots": {
+                    "latest_date": 1671049335,
+                    "size": 23
+                },
+                "ceļu pār-klasifikācija": {
+                    "latest_date": 1719944474,
+                    "size": 5
+                },
+                "changeset komentāri": {
+                    "latest_date": 1674592403,
+                    "size": 7
+                },
+                "channel events": {
+                    "latest_date": 1735157360,
+                    "size": 1
+                },
+                "currency:LVL=yes": {
+                    "latest_date": 1705432000,
+                    "size": 2
+                },
+                "cycle.travel mobilā aplikācija Android": {
+                    "latest_date": 1695674138,
+                    "size": 3
+                },
+                "cycleway quality index": {
+                    "latest_date": 1711395305,
+                    "size": 51
+                },
+                "dam or weir": {
+                    "latest_date": 1692795102,
+                    "size": 2
+                },
+                "darba laiks": {
+                    "latest_date": 1693829894,
+                    "size": 1
+                },
+                "data.gov.lv IP/reģionu bloķēšana": {
+                    "latest_date": 1724868959,
+                    "size": 2
+                },
+                "dati.e-skola.lv": {
+                    "latest_date": 1717242651,
+                    "size": 2
+                },
+                "defibrilatori": {
+                    "latest_date": 1718708290,
+                    "size": 1
+                },
+                "deportāciju memoriāli": {
+                    "latest_date": 1675014940,
+                    "size": 33
+                },
+                "depozīta punkti": {
+                    "latest_date": 1716812455,
+                    "size": 85
+                },
+                "dienasts -> dienests": {
+                    "latest_date": 1698236435,
+                    "size": 1
+                },
+                "dubultie nosaukumi upēm": {
+                    "latest_date": 1674750475,
+                    "size": 12
+                },
+                "duplicēti pakomāti": {
+                    "latest_date": 1711113485,
+                    "size": 3
+                },
+                "dy24 izmaiņas": {
+                    "latest_date": 1728290098,
+                    "size": 13
+                },
+                "dzelzceļa pārejas": {
+                    "latest_date": 1707761522,
+                    "size": 17
+                },
+                "dīvaina ielas relācija": {
+                    "latest_date": 1682015815,
+                    "size": 14
+                },
+                "dīvaini addr:housenumber": {
+                    "latest_date": 1681421319,
+                    "size": 9
+                },
+                "dīvaini footways Ziemeļvidzemē": {
+                    "latest_date": 1676041618,
+                    "size": 1
+                },
+                "embedded_rails + embedded_rails:lanes": {
+                    "latest_date": 1673208440,
+                    "size": 34
+                },
+                "erotiskās sveces": {
+                    "latest_date": 1718104274,
+                    "size": 3
+                },
+                "etimoloģija - kurši vai kursenieki?": {
+                    "latest_date": 1674748918,
+                    "size": 15
+                },
+                "fantasti Valmierā": {
+                    "latest_date": 1711622259,
+                    "size": 4
+                },
+                "fence_type=wire + material=wood": {
+                    "latest_date": 1684949433,
+                    "size": 4
+                },
+                "filmēšana": {
+                    "latest_date": 1717087284,
+                    "size": 6
+                },
+                "fixme": {
+                    "latest_date": 1681837887,
+                    "size": 9
+                },
+                "foot=impassable": {
+                    "latest_date": 1674578337,
+                    "size": 2
+                },
+                "georiga.lv": {
+                    "latest_date": 1765115098,
+                    "size": 19
+                },
+                "grūti būt routing'am...": {
+                    "latest_date": 1674495316,
+                    "size": 1
+                },
+                "highway=* uz relation": {
+                    "latest_date": 1674242362,
+                    "size": 7
+                },
+                "highway=crossing bez papildus tagiem": {
+                    "latest_date": 1688034302,
+                    "size": 10
+                },
+                "highway=footway un velo routing": {
+                    "latest_date": 1670872529,
+                    "size": 7
+                },
+                "highway=motorway_junction renderēšana": {
+                    "latest_date": 1708172392,
+                    "size": 16
+                },
+                "highway=service area=yes nomainīšana": {
+                    "latest_date": 1692631087,
+                    "size": 4
+                },
+                "highway=tertiary": {
+                    "latest_date": 1724449627,
+                    "size": 6
+                },
+                "horse=no": {
+                    "latest_date": 1675076322,
+                    "size": 15
+                },
+                "iD undelete": {
+                    "latest_date": 1703269939,
+                    "size": 2
+                },
+                "iecava": {
+                    "latest_date": 1760849376,
+                    "size": 7
+                },
+                "ielu nosaukumu maiņa un pieturvietas Rīgā": {
+                    "latest_date": 1709820359,
+                    "size": 15
+                },
+                "ietves / gājēju ceļi gar ielām ar nosaukumiem": {
+                    "latest_date": 1718713148,
+                    "size": 4
+                },
+                "iezīmētie bankomāti": {
+                    "latest_date": 1701593214,
+                    "size": 72
+                },
+                "infoboard foto": {
+                    "latest_date": 1682007593,
+                    "size": 18
+                },
+                "informācija par Zulip": {
+                    "latest_date": 1671614097,
+                    "size": 2
+                },
+                "intersection=yes": {
+                    "latest_date": 1674484886,
+                    "size": 3
+                },
+                "jauna aptieka Juglā": {
+                    "latest_date": 1719521824,
+                    "size": 5
+                },
+                "jeijei unclassified": {
+                    "latest_date": 1696076556,
+                    "size": 3
+                },
+                "kadastru neimportēsim": {
+                    "latest_date": 1681413329,
+                    "size": 11
+                },
+                "kartēšana Ulbrokā": {
+                    "latest_date": 1671137311,
+                    "size": 45
+                },
+                "konflikti": {
+                    "latest_date": 1711125339,
+                    "size": 3
+                },
+                "kravas auto Rīgā": {
+                    "latest_date": 1705682341,
+                    "size": 14
+                },
+                "krogu nosaukumi Londonā": {
+                    "latest_date": 1687900567,
+                    "size": 1
+                },
+                "landuse kartēšana": {
+                    "latest_date": 1697479069,
+                    "size": 44
+                },
+                "lidar": {
+                    "latest_date": 1694022022,
+                    "size": 31
+                },
+                "lidar datu intensitāte": {
+                    "latest_date": 1756455713,
+                    "size": 7
+                },
+                "lidosta Rīga": {
+                    "latest_date": 1694519939,
+                    "size": 3
+                },
+                "lielas drupas Rēzeknes novadā": {
+                    "latest_date": 1681192969,
+                    "size": 3
+                },
+                "mainīti ielu nosaukumu Rēzeknes novadā": {
+                    "latest_date": 1674770504,
+                    "size": 3
+                },
+                "mainīti ielu nosaukumu Rēzenes novadā": {
+                    "latest_date": 1674750994,
+                    "size": 1
+                },
+                "managing project topics": {
+                    "latest_date": 1693464799,
+                    "size": 12
+                },
+                "mapy.cz": {
+                    "latest_date": 1690996905,
+                    "size": 3
+                },
+                "message editing": {
+                    "latest_date": 1670938373,
+                    "size": 13
+                },
+                "mikrokartēšanas potenciāls - memoriāls": {
+                    "latest_date": 1675021677,
+                    "size": 1
+                },
+                "militārais poligons \"Sēlija\"": {
+                    "latest_date": 1718223412,
+                    "size": 4
+                },
+                "mājvārdi kā place=locality": {
+                    "latest_date": 1716140556,
+                    "size": 12
+                },
+                "mākslas darbs Rēzeknes novadā": {
+                    "latest_date": 1698778317,
+                    "size": 2
+                },
+                "name un name:lv": {
+                    "latest_date": 1704292779,
+                    "size": 53
+                },
+                "name-suggestion-index": {
+                    "latest_date": 1763030750,
+                    "size": 64
+                },
+                "name:en, kas ir tikai transliterācija": {
+                    "latest_date": 1717609867,
+                    "size": 52
+                },
+                "natural=ridge": {
+                    "latest_date": 1698744421,
+                    "size": 18
+                },
+                "natural_monument": {
+                    "latest_date": 1694978681,
+                    "size": 1
+                },
+                "ne VZD/kadastrs, ne OSM": {
+                    "latest_date": 1688550681,
+                    "size": 3
+                },
+                "neapvienot landuse=* un barrier=fence": {
+                    "latest_date": 1712144298,
+                    "size": 31
+                },
+                "negaidīta adreses nomaiņa": {
+                    "latest_date": 1670935181,
+                    "size": 5
+                },
+                "negaidīta ēka": {
+                    "latest_date": 1711394936,
+                    "size": 2
+                },
+                "neizmantotas ieejas ar dzīvokļu norādēm": {
+                    "latest_date": 1678103982,
+                    "size": 5
+                },
+                "nejaušināts piezīmju rīks": {
+                    "latest_date": 1719831457,
+                    "size": 1
+                },
+                "nepareiza angāru klasifikācija": {
+                    "latest_date": 1671561032,
+                    "size": 4
+                },
+                "nepieejamā Zemīte": {
+                    "latest_date": 1712687462,
+                    "size": 2
+                },
+                "nepievienot landuse ēkām": {
+                    "latest_date": 1716920573,
+                    "size": 1
+                },
+                "nepievienoti ietvju gali": {
+                    "latest_date": 1694943012,
+                    "size": 32
+                },
+                "new streams": {
+                    "latest_date": 1687864576,
+                    "size": 9
+                },
+                "no Discord čata": {
+                    "latest_date": 1686563482,
+                    "size": 5
+                },
+                "nosaukumi ar komersanta veidu": {
+                    "latest_date": 1671670777,
+                    "size": 2
+                },
+                "noņemti bunkura nosaukumi": {
+                    "latest_date": 1718015362,
+                    "size": 6
+                },
+                "objekts Kaldabruņā": {
+                    "latest_date": 1703451770,
+                    "size": 2
+                },
+                "objektu atpazīšana Panoramax bildēs": {
+                    "latest_date": 1709734755,
+                    "size": 29
+                },
+                "oneway=-1": {
+                    "latest_date": 1672670764,
+                    "size": 5
+                },
+                "osm-lump-ways": {
+                    "latest_date": 1722072837,
+                    "size": 5
+                },
+                "par datu validāciju pic4review": {
+                    "latest_date": 1730404781,
+                    "size": 7
+                },
+                "par projektiem": {
+                    "latest_date": 1675676050,
+                    "size": 8
+                },
+                "parcel locker + artwork": {
+                    "latest_date": 1750342314,
+                    "size": 4
+                },
+                "parcel tower": {
+                    "latest_date": 1716931377,
+                    "size": 8
+                },
+                "paved/unpaved renderings": {
+                    "latest_date": 1673725524,
+                    "size": 9
+                },
+                "piena galds, piena steķis": {
+                    "latest_date": 1696016086,
+                    "size": 45
+                },
+                "pieturu nosaukumu maiņa Rīgā": {
+                    "latest_date": 1673955797,
+                    "size": 2
+                },
+                "pilskalnu kartēšana": {
+                    "latest_date": 1672911694,
+                    "size": 14
+                },
+                "pirmsskolas izglītības iestādes": {
+                    "latest_date": 1673609308,
+                    "size": 5
+                },
+                "poll trūkumi": {
+                    "latest_date": 1670932824,
+                    "size": 5
+                },
+                "potenciāli labojamas sliežu krustošanas vietas": {
+                    "latest_date": 1693816694,
+                    "size": 4
+                },
+                "praktiskā OSM apmācība": {
+                    "latest_date": 1686918226,
+                    "size": 1
+                },
+                "problēmu reģistri": {
+                    "latest_date": 1709144056,
+                    "size": 39
+                },
+                "profila attēls": {
+                    "latest_date": 1671621645,
+                    "size": 12
+                },
+                "publiskie grāmatplaukti": {
+                    "latest_date": 1696322295,
+                    "size": 15
+                },
+                "pārvads Sarkandaugavā nodots ekspluatācijā": {
+                    "latest_date": 1682627671,
+                    "size": 27
+                },
+                "railway=level_crossing Latvijā": {
+                    "latest_date": 1738860562,
+                    "size": 2
+                },
+                "railway=tram + highway": {
+                    "latest_date": 1673272633,
+                    "size": 58
+                },
+                "rediģēšanas konflikts": {
+                    "latest_date": 1681493595,
+                    "size": 3
+                },
+                "redzēt.lv licence": {
+                    "latest_date": 1719667136,
+                    "size": 5
+                },
+                "relāciju lietošana": {
+                    "latest_date": 1741507574,
+                    "size": 29
+                },
+                "robeža ar Igauniju": {
+                    "latest_date": 1712728736,
+                    "size": 2
+                },
+                "saplisusi relacija": {
+                    "latest_date": 1756541137,
+                    "size": 5
+                },
+                "senākās piezīmes": {
+                    "latest_date": 1737492778,
+                    "size": 20
+                },
+                "service/living_street Stūnīšos": {
+                    "latest_date": 1673723758,
+                    "size": 6
+                },
+                "sidewalk=separate": {
+                    "latest_date": 1675093425,
+                    "size": 36
+                },
+                "slēgs ceļu Ķekavā": {
+                    "latest_date": 1683837344,
+                    "size": 15
+                },
+                "smoothness bez surface vai tracktype": {
+                    "latest_date": 1689192767,
+                    "size": 5
+                },
+                "soliņš": {
+                    "latest_date": 1702415143,
+                    "size": 2
+                },
+                "stabu rindas iezīmēšana": {
+                    "latest_date": 1680522457,
+                    "size": 3
+                },
+                "stream aktivitātēm (projektiem)": {
+                    "latest_date": 1689855697,
+                    "size": 19
+                },
+                "surface=gravel": {
+                    "latest_date": 1674473784,
+                    "size": 7
+                },
+                "sētu lielceļi": {
+                    "latest_date": 1751805587,
+                    "size": 2
+                },
+                "tank trap": {
+                    "latest_date": 1700574360,
+                    "size": 14
+                },
+                "terplānu importi": {
+                    "latest_date": 1671192103,
+                    "size": 1
+                },
+                "tirdzniecības centri - Alfa": {
+                    "latest_date": 1706087866,
+                    "size": 14
+                },
+                "topic daudz, stream maz": {
+                    "latest_date": 1675260059,
+                    "size": 14
+                },
+                "traffic_calming + surface": {
+                    "latest_date": 1696183013,
+                    "size": 7
+                },
+                "tram galapunkti": {
+                    "latest_date": 1672237334,
+                    "size": 1
+                },
+                "tram un tracks=1": {
+                    "latest_date": 1672319295,
+                    "size": 1
+                },
+                "transportdata.gov.lv": {
+                    "latest_date": 1718877755,
+                    "size": 3
+                },
+                "tree row part of fence": {
+                    "latest_date": 1673872844,
+                    "size": 2
+                },
+                "tukši elementi": {
+                    "latest_date": 1674148193,
+                    "size": 15
+                },
+                "type=turnlanes:turns": {
+                    "latest_date": 1672679623,
+                    "size": 3
+                },
+                "tūjas": {
+                    "latest_date": 1726065027,
+                    "size": 2
+                },
+                "uMap - kartes drukāšana": {
+                    "latest_date": 1755329532,
+                    "size": 1
+                },
+                "uMap 3.0.0: \"collaborative\" rediģēšana": {
+                    "latest_date": 1744581171,
+                    "size": 1
+                },
+                "un tomēr vārti eksistē": {
+                    "latest_date": 1707061334,
+                    "size": 8
+                },
+                "upju vizualizācija un QA": {
+                    "latest_date": 1697834695,
+                    "size": 5
+                },
+                "vecie vācu nosaukumi": {
+                    "latest_date": 1672948627,
+                    "size": 9
+                },
+                "velostatīvi vs pludmale": {
+                    "latest_date": 1717196487,
+                    "size": 3
+                },
+                "vending=parcel_pickup": {
+                    "latest_date": 1698226943,
+                    "size": 11
+                },
+                "vietu nosaukumi wikidatos": {
+                    "latest_date": 1674770567,
+                    "size": 6
+                },
+                "vārti Mežgarciemā": {
+                    "latest_date": 1712774863,
+                    "size": 5
+                },
+                "vējdzirnavu kartēšana": {
+                    "latest_date": 1693228702,
+                    "size": 6
+                },
+                "vēl ātrāka tagu rediģēšana": {
+                    "latest_date": 1702070392,
+                    "size": 1
+                },
+                "vēsturiskas Beļģijas kartes, ieskaitot OSM": {
+                    "latest_date": 1716182986,
+                    "size": 9
+                },
+                "waterway relation bez type": {
+                    "latest_date": 1676540519,
+                    "size": 9
+                },
+                "wiki: vēsturiskie jaunumi": {
+                    "latest_date": 1673271825,
+                    "size": 3
+                },
+                "wikidata": {
+                    "latest_date": 1672227555,
+                    "size": 9
+                },
+                "wikimedia_commons": {
+                    "latest_date": 1676577120,
+                    "size": 1
+                },
+                "Ādažu militārā poligona robežas GPX": {
+                    "latest_date": 1726505369,
+                    "size": 6
+                },
+                "Ādažu pašizdomātas zīmes": {
+                    "latest_date": 1674828644,
+                    "size": 3
+                },
+                "Ādažu rogaininga karte": {
+                    "latest_date": 1694704503,
+                    "size": 6
+                },
+                "Ātruma ierobežojums Biķernieku ielā": {
+                    "latest_date": 1729843902,
+                    "size": 12
+                },
+                "ātruma ierobežojumu kartēšana": {
+                    "latest_date": 1757615601,
+                    "size": 103
+                },
+                "Ēka nerādās dzelzceļa platformas zonā.": {
+                    "latest_date": 1717964059,
+                    "size": 5
+                },
+                "Ēkas Rēzeknes novadā: kartēšanas projekts": {
+                    "latest_date": 1706293318,
+                    "size": 151
+                },
+                "Ēkas simboliski savienotas": {
+                    "latest_date": 1685446429,
+                    "size": 3
+                },
+                "Ēku augstumi no LGIA lāzerskenēšanas datiem": {
+                    "latest_date": 1749891489,
+                    "size": 9
+                },
+                "Ēku stāvu skaits": {
+                    "latest_date": 1679608517,
+                    "size": 8
+                },
+                "Ēku sērijas": {
+                    "latest_date": 1724524445,
+                    "size": 8
+                },
+                "ēkas bez ceļiem": {
+                    "latest_date": 1687959041,
+                    "size": 4
+                },
+                "ēkas kā punkti": {
+                    "latest_date": 1676493197,
+                    "size": 9
+                },
+                "ēku celšanas gadi": {
+                    "latest_date": 1718280597,
+                    "size": 5
+                },
+                "ēku daudzums pagastos/pilsētas": {
+                    "latest_date": 1678701231,
+                    "size": 18
+                },
+                "ēku zīmēšanas projekti": {
+                    "latest_date": 1679692491,
+                    "size": 7
+                },
+                "ĢIS speciālista vakance Cēsīs": {
+                    "latest_date": 1672695638,
+                    "size": 1
+                },
+                "Ķekavas apvedceļa klasifikācija": {
+                    "latest_date": 1736095213,
+                    "size": 3
+                },
+                "Ķekavas apvedceļš": {
+                    "latest_date": 1697704779,
+                    "size": 38
+                },
+                "šķībi uzņēmumu dati": {
+                    "latest_date": 1703353383,
+                    "size": 15
+                },
+                "Ūdensteču kartēšana": {
+                    "latest_date": 1696182212,
+                    "size": 11
+                },
+                "Ūdenstorņi": {
+                    "latest_date": 1702034733,
+                    "size": 20
+                },
+                "ūdeņu inspektors": {
+                    "latest_date": 1679479786,
+                    "size": 2
+                },
+                "✔ Adding highways based on TomTom data in MapRoulette": {
+                    "latest_date": 1692696331,
+                    "size": 3
+                },
+                "✔ Ciems ar \"(ciems)\"": {
+                    "latest_date": 1689331949,
+                    "size": 1
+                },
+                "✔ Fixing incorrect highway junctions": {
+                    "latest_date": 1698086796,
+                    "size": 2
+                },
+                "✔ Fixing incorrect junctions on roundabouts": {
+                    "latest_date": 1704981637,
+                    "size": 4
+                },
+                "✔ LVM_import profils": {
+                    "latest_date": 1692711549,
+                    "size": 2
+                },
+                "✔ Nominatim special phrases / tulkojumi": {
+                    "latest_date": 1694518672,
+                    "size": 4
+                },
+                "✔ TomTom - Fix inconsistent highway intersection": {
+                    "latest_date": 1690879048,
+                    "size": 3
+                },
+                "✔ highway=* uz relation": {
+                    "latest_date": 1674495408,
+                    "size": 1
+                },
+                "✔ highway=crossing bez papildus tagiem": {
+                    "latest_date": 1693474910,
+                    "size": 1
+                },
+                "✔ lidosta Rīga": {
+                    "latest_date": 1694978664,
+                    "size": 1
+                },
+                "✔ oneway=-1": {
+                    "latest_date": 1672694039,
+                    "size": 2
+                }
+            }
+        },
+        "iesācēju jautājumi": {
+            "id": 360538,
+            "latest_id": 536735512,
+            "topic_data": {
+                "3D Rīga": {
+                    "latest_date": 1713384692,
+                    "size": 10
+                },
+                "AI": {
+                    "latest_date": 1680349127,
+                    "size": 29
+                },
+                "Adrešu punkti": {
+                    "latest_date": 1675614935,
+                    "size": 8
+                },
+                "Atvērti upju dati": {
+                    "latest_date": 1690387557,
+                    "size": 2
+                },
+                "Ceļa seguma  klasifikācija": {
+                    "latest_date": 1756453836,
+                    "size": 3
+                },
+                "Ceļa teritorija": {
+                    "latest_date": 1732285255,
+                    "size": 3
+                },
+                "Ciema robežas JOSM imports": {
+                    "latest_date": 1691748039,
+                    "size": 2
+                },
+                "Construction": {
+                    "latest_date": 1683379968,
+                    "size": 5
+                },
+                "Divkārtu virsmas apstrāde": {
+                    "latest_date": 1683260388,
+                    "size": 31
+                },
+                "Dreiliņu jaunceltnes": {
+                    "latest_date": 1686344208,
+                    "size": 20
+                },
+                "Drupas": {
+                    "latest_date": 1708538509,
+                    "size": 26
+                },
+                "GraphHopper": {
+                    "latest_date": 1707305223,
+                    "size": 22
+                },
+                "Highway": {
+                    "latest_date": 1720036050,
+                    "size": 6
+                },
+                "Iezīmēt": {
+                    "latest_date": 1679171247,
+                    "size": 4
+                },
+                "Izgaisis mežs": {
+                    "latest_date": 1723739053,
+                    "size": 10
+                },
+                "Koki": {
+                    "latest_date": 1694979103,
+                    "size": 5
+                },
+                "Kur labāk sākt": {
+                    "latest_date": 1692343152,
+                    "size": 19
+                },
+                "Landuse": {
+                    "latest_date": 1691005348,
+                    "size": 13
+                },
+                "Multipoligoni un \"caurumi\"": {
+                    "latest_date": 1694255701,
+                    "size": 3
+                },
+                "Māju daļas un renderējamie teksti": {
+                    "latest_date": 1732734464,
+                    "size": 11
+                },
+                "Nepārbaudītas takas": {
+                    "latest_date": 1698073368,
+                    "size": 38
+                },
+                "Objekts atpūtas vietā": {
+                    "latest_date": 1690452565,
+                    "size": 10
+                },
+                "Ortofoto": {
+                    "latest_date": 1721139369,
+                    "size": 4
+                },
+                "Overpass lietošana": {
+                    "latest_date": 1672081284,
+                    "size": 1
+                },
+                "Pagrabi": {
+                    "latest_date": 1718014748,
+                    "size": 19
+                },
+                "Projekti": {
+                    "latest_date": 1690197716,
+                    "size": 1
+                },
+                "Resursi": {
+                    "latest_date": 1679126275,
+                    "size": 2
+                },
+                "Rīki/padomi lai vieglāk apsekotu un atjaunotu kādu rajonu": {
+                    "latest_date": 1726912173,
+                    "size": 13
+                },
+                "ST pieturas": {
+                    "latest_date": 1718349166,
+                    "size": 4
+                },
+                "Satiksmes organizācijas izmaiņas BKUS apkārtnē": {
+                    "latest_date": 1695205000,
+                    "size": 4
+                },
+                "Siltumnīcas": {
+                    "latest_date": 1681413077,
+                    "size": 9
+                },
+                "Stāvēšanas ierobežojumi noteiktā laikā": {
+                    "latest_date": 1726161866,
+                    "size": 2
+                },
+                "Trepes + celiņš 50/50": {
+                    "latest_date": 1698058080,
+                    "size": 8
+                },
+                "Uzņēmuma nosaukuma tegi": {
+                    "latest_date": 1680472467,
+                    "size": 21
+                },
+                "VZD dati kā fona slānis": {
+                    "latest_date": 1691747801,
+                    "size": 27
+                },
+                "Vai drīkst labot un mainīt ceļu trajektorijas": {
+                    "latest_date": 1692287353,
+                    "size": 3
+                },
+                "Vairs neeksistējošas ēkas": {
+                    "latest_date": 1698407779,
+                    "size": 11
+                },
+                "Valsts robeža un upju tecējumi": {
+                    "latest_date": 1746002332,
+                    "size": 42
+                },
+                "Vandālisms": {
+                    "latest_date": 1718280281,
+                    "size": 6
+                },
+                "Velo un Mapillary": {
+                    "latest_date": 1692347344,
+                    "size": 2
+                },
+                "Vēsturiskās robežas / nosaukumi": {
+                    "latest_date": 1672944981,
+                    "size": 7
+                },
+                "baznīcu kartēšana": {
+                    "latest_date": 1672082591,
+                    "size": 4
+                },
+                "ceļa \"labajā\" pusē": {
+                    "latest_date": 1691165148,
+                    "size": 5
+                },
+                "channel events": {
+                    "latest_date": 1735157368,
+                    "size": 1
+                },
+                "elektroskrejriteņu uzlādes stacijas": {
+                    "latest_date": 1691259370,
+                    "size": 5
+                },
+                "fotoattēli un apraksti": {
+                    "latest_date": 1672082256,
+                    "size": 4
+                },
+                "ietves pakāpieni": {
+                    "latest_date": 1694089797,
+                    "size": 8
+                },
+                "kā atzīmēt meža gabaliņus?": {
+                    "latest_date": 1689353616,
+                    "size": 9
+                },
+                "kā rediģēt eksistējošu līniju": {
+                    "latest_date": 1689144403,
+                    "size": 21
+                },
+                "kādu programmu jūs lietojat": {
+                    "latest_date": 1689192940,
+                    "size": 7
+                },
+                "meza takas": {
+                    "latest_date": 1696172512,
+                    "size": 3
+                },
+                "multilingual names": {
+                    "latest_date": 1674512625,
+                    "size": 32
+                },
+                "objektu izmaiņas": {
+                    "latest_date": 1699521699,
+                    "size": 5
+                },
+                "objektu izmaiņu aizkavēšanās kartē": {
+                    "latest_date": 1700472916,
+                    "size": 11
+                },
+                "objektu savienošana, vai nē": {
+                    "latest_date": 1695373049,
+                    "size": 9
+                },
+                "stream events": {
+                    "latest_date": 1672062270,
+                    "size": 11
+                },
+                "tehniskās būves": {
+                    "latest_date": 1673727274,
+                    "size": 8
+                },
+                "tilti": {
+                    "latest_date": 1673718220,
+                    "size": 2
+                },
+                "trenažieri": {
+                    "latest_date": 1690224747,
+                    "size": 3
+                },
+                "vai es pareizi atzīmēju salu?": {
+                    "latest_date": 1689344793,
+                    "size": 9
+                },
+                "zāliens": {
+                    "latest_date": 1688326957,
+                    "size": 5
+                },
+                "Ēdnīcu tagošana": {
+                    "latest_date": 1749883117,
+                    "size": 2
+                },
+                "Ēku pārzīmēšana no ortofoto": {
+                    "latest_date": 1694611454,
+                    "size": 13
+                },
+                "✔ Overpass- tagu secība, datu papildināšana": {
+                    "latest_date": 1672142477,
+                    "size": 1
+                },
+                "✔ baznīcu kartēšana": {
+                    "latest_date": 1672144222,
+                    "size": 2
+                },
+                "✔ fotoattēli un apraksti": {
+                    "latest_date": 1672143086,
+                    "size": 1
+                },
+                "✔ ēku kontūras": {
+                    "latest_date": 1672142352,
+                    "size": 1
+                }
+            }
+        },
+        "pasākumi": {
+            "id": 360540,
+            "latest_id": 523144806,
+            "topic_data": {
+                "Aptauja: objekti kartēs": {
+                    "latest_date": 1749492932,
+                    "size": 16
+                },
+                "Bildes no Avotu ielas pasākuma": {
+                    "latest_date": 1694673325,
+                    "size": 1
+                },
+                "Fokusgrupas tikšanās trešdien 18:45": {
+                    "latest_date": 1748025087,
+                    "size": 4
+                },
+                "Kartogrāfu diena 2025": {
+                    "latest_date": 1739997775,
+                    "size": 3
+                },
+                "Kartogrāfu dienu 2025": {
+                    "latest_date": 1739961738,
+                    "size": 2
+                },
+                "Map_Challenge": {
+                    "latest_date": 1696867806,
+                    "size": 3
+                },
+                "Mapping party Rēzeknē": {
+                    "latest_date": 1671560879,
+                    "size": 4
+                },
+                "OSM dzimšansdien'": {
+                    "latest_date": 1691576360,
+                    "size": 3
+                },
+                "OSM pastaiga ceturtdien, 2024-02-08": {
+                    "latest_date": 1707548907,
+                    "size": 4
+                },
+                "OSM pasākums Avotu ielā 2023-09-13": {
+                    "latest_date": 1694678730,
+                    "size": 8
+                },
+                "OSM pasākums Avotu ielā 2023-11-07 - piena galdi": {
+                    "latest_date": 1699461338,
+                    "size": 10
+                },
+                "OSM tikšanās 16. martā - velo": {
+                    "latest_date": 1681283442,
+                    "size": 7
+                },
+                "OSM tikšanās Avotu ielā 2024-04-09": {
+                    "latest_date": 1712697801,
+                    "size": 7
+                },
+                "Rēzekne 21. jūlijā": {
+                    "latest_date": 1690047082,
+                    "size": 10
+                },
+                "Rēzekne 21.jūlijā": {
+                    "latest_date": 1688406168,
+                    "size": 2
+                },
+                "SOTM Baltics 2023": {
+                    "latest_date": 1694594592,
+                    "size": 27
+                },
+                "Streetview attēlu taisīšana Ķīpsalā": {
+                    "latest_date": 1716285248,
+                    "size": 22
+                },
+                "channel events": {
+                    "latest_date": 1735157374,
+                    "size": 1
+                },
+                "pasākumu plānošana": {
+                    "latest_date": 1699715025,
+                    "size": 9
+                },
+                "stream events": {
+                    "latest_date": 1670582285,
+                    "size": 1
+                },
+                "✔ Mapping party Rēzeknē": {
+                    "latest_date": 1672166672,
+                    "size": 9
+                }
+            }
+        },
+        "programmēšanas pulciņš": {
+            "id": 394092,
+            "latest_id": 576401692,
+            "topic_data": {
+                "Bus routes are duplicated": {
+                    "latest_date": 1771351210,
+                    "size": 8
+                },
+                "Depozīta punkts": {
+                    "latest_date": 1716982962,
+                    "size": 21
+                },
+                "Dzīvojamās ielas ar maxspeed": {
+                    "latest_date": 1687947042,
+                    "size": 18
+                },
+                "Errors on Maxima's map": {
+                    "latest_date": 1772265810,
+                    "size": 15
+                },
+                "GTFS dati cietiem pārvadātājiem": {
+                    "latest_date": 1687875692,
+                    "size": 12
+                },
+                "LVC ceļu analīzes skripts": {
+                    "latest_date": 1687867135,
+                    "size": 1
+                },
+                "Latvija Pasts data": {
+                    "latest_date": 1772228532,
+                    "size": 12
+                },
+                "Mapillary to OSM programma": {
+                    "latest_date": 1691066568,
+                    "size": 17
+                },
+                "Merge branch 'main'...": {
+                    "latest_date": 1695208415,
+                    "size": 2
+                },
+                "Osmalyzer Workflow": {
+                    "latest_date": 1701455095,
+                    "size": 19
+                },
+                "Osmalyzer js is not working": {
+                    "latest_date": 1717522230,
+                    "size": 3
+                },
+                "Osmalyzer salūza": {
+                    "latest_date": 1693395456,
+                    "size": 5
+                },
+                "Overpass-based QA": {
+                    "latest_date": 1688041714,
+                    "size": 16
+                },
+                "Parcel lockers": {
+                    "latest_date": 1718276165,
+                    "size": 98
+                },
+                "Poligonu importēšana": {
+                    "latest_date": 1688557106,
+                    "size": 17
+                },
+                "app hosting": {
+                    "latest_date": 1701975980,
+                    "size": 7
+                },
+                "ceļa zīmju palīgs": {
+                    "latest_date": 1690888934,
+                    "size": 12
+                },
+                "channel events": {
+                    "latest_date": 1735157414,
+                    "size": 1
+                },
+                "maxspeed:conditional syntax": {
+                    "latest_date": 1688481030,
+                    "size": 6
+                },
+                "stream events": {
+                    "latest_date": 1687864576,
+                    "size": 1
+                },
+                "valodas": {
+                    "latest_date": 1687950455,
+                    "size": 8
+                },
+                "✔ Osmalyzer salūza": {
+                    "latest_date": 1693397558,
+                    "size": 3
+                }
+            }
+        },
+        "sabiedriskais transports": {
+            "id": 368368,
+            "latest_id": 574793659,
+            "topic_data": {
+                "Brasas tilta travaja līnijas pieturas": {
+                    "latest_date": 1687294907,
+                    "size": 8
+                },
+                "Daugavpils tramvaji": {
+                    "latest_date": 1672327602,
+                    "size": 12
+                },
+                "Organic Maps + Rīgas Satiksme": {
+                    "latest_date": 1674204354,
+                    "size": 5
+                },
+                "PSV lane or not": {
+                    "latest_date": 1771524750,
+                    "size": 21
+                },
+                "Pieturvietas no ATD": {
+                    "latest_date": 1700201999,
+                    "size": 19
+                },
+                "Rīgas Satiksmes \"pietura pēc pieprasījuma\"": {
+                    "latest_date": 1731574385,
+                    "size": 2
+                },
+                "Rīgas Satiksmes nakts satiksme": {
+                    "latest_date": 1771439619,
+                    "size": 5
+                },
+                "Rīgas Satiksmes pieture analīze": {
+                    "latest_date": 1684946401,
+                    "size": 5
+                },
+                "Rīgas Satiksmes pieturu analīze": {
+                    "latest_date": 1687805516,
+                    "size": 11
+                },
+                "Rīgas satiksme atjauninājumi": {
+                    "latest_date": 1749053743,
+                    "size": 9
+                },
+                "Transporta diagramma": {
+                    "latest_date": 1749570352,
+                    "size": 8
+                },
+                "Trolejbusu maršrutu gabali bez vadu tega": {
+                    "latest_date": 1687805202,
+                    "size": 13
+                },
+                "channel events": {
+                    "latest_date": 1735157393,
+                    "size": 1
+                },
+                "embedded_rails + embedded_rails:lanes": {
+                    "latest_date": 1673208440,
+                    "size": 34
+                },
+                "railway=tram + highway": {
+                    "latest_date": 1696791290,
+                    "size": 59
+                },
+                "stream events": {
+                    "latest_date": 1675258417,
+                    "size": 1
+                },
+                "tram un tracks=1": {
+                    "latest_date": 1672319295,
+                    "size": 1
+                },
+                "✔ pieturu nosaukumu maiņa Rīgā": {
+                    "latest_date": 1679698082,
+                    "size": 2
+                }
+            }
+        },
+        "veloinfrastruktūra": {
+            "id": 360539,
+            "latest_id": 558006348,
+            "topic_data": {
+                "Berģu plānotie veloceļi pa Berģu un Upesciema ielām": {
+                    "latest_date": 1735343440,
+                    "size": 2
+                },
+                "Bicycle route is not a lie, but damn hard to follow": {
+                    "latest_date": 1683213274,
+                    "size": 1
+                },
+                "Bike DNA": {
+                    "latest_date": 1687438869,
+                    "size": 3
+                },
+                "Būvēs veloceļus uz Pinķiem, Ulbroku un Ķekavu": {
+                    "latest_date": 1705496876,
+                    "size": 35
+                },
+                "Elizabetes ielas velo": {
+                    "latest_date": 1763407657,
+                    "size": 13
+                },
+                "Imanta-Daugavgrīva veloceļa prikols": {
+                    "latest_date": 1695965509,
+                    "size": 45
+                },
+                "Ir velo navigācijas problēmas ap Dārziņi dzelzceļa staciju": {
+                    "latest_date": 1763488438,
+                    "size": 11
+                },
+                "Jaunas velojoslas Rīgā": {
+                    "latest_date": 1729840564,
+                    "size": 52
+                },
+                "Jelgavas aizpils parka \"veloceļi\"": {
+                    "latest_date": 1720996213,
+                    "size": 13
+                },
+                "Jūrmalas pašizdomātas zīmes": {
+                    "latest_date": 1674828275,
+                    "size": 13
+                },
+                "Kāju balsti": {
+                    "latest_date": 1733564016,
+                    "size": 15
+                },
+                "Mangaļi-Ziemeļblāzma būvdarbi": {
+                    "latest_date": 1673278805,
+                    "size": 10
+                },
+                "OSRM ved riteņbraucējus pāri Brasas tiltam": {
+                    "latest_date": 1673226726,
+                    "size": 15
+                },
+                "Pulvera ielas veloceliņš": {
+                    "latest_date": 1704989744,
+                    "size": 9
+                },
+                "Rāmkalnu 31km aplis": {
+                    "latest_date": 1694093296,
+                    "size": 36
+                },
+                "StreetComplete pedestrian is designated but bicycles allowed": {
+                    "latest_date": 1722346093,
+                    "size": 5
+                },
+                "amenity=bicycle_repair_station valves": {
+                    "latest_date": 1673865968,
+                    "size": 4
+                },
+                "bicycle=designated uz dīvainiem highway": {
+                    "latest_date": 1674647120,
+                    "size": 27
+                },
+                "channel events": {
+                    "latest_date": 1735157380,
+                    "size": 1
+                },
+                "cycle way is a lie": {
+                    "latest_date": 1717962453,
+                    "size": 3
+                },
+                "highway=footway un velo routing": {
+                    "latest_date": 1675148259,
+                    "size": 13
+                },
+                "offtopic - ebike īre Rīgā": {
+                    "latest_date": 1691686453,
+                    "size": 18
+                },
+                "routing is weird": {
+                    "latest_date": 1689586878,
+                    "size": 11
+                },
+                "sharrows": {
+                    "latest_date": 1671794541,
+                    "size": 4
+                },
+                "stream events": {
+                    "latest_date": 1670785645,
+                    "size": 2
+                },
+                "velo infrastruktūras tagošana Latvijā": {
+                    "latest_date": 1673227570,
+                    "size": 11
+                },
+                "veloceļu dubultā tagošana": {
+                    "latest_date": 1673527230,
+                    "size": 5
+                },
+                "velojoslas kā atsevišķi ceļi": {
+                    "latest_date": 1700135902,
+                    "size": 57
+                },
+                "velomaršrutu karte": {
+                    "latest_date": 1689081052,
+                    "size": 32
+                },
+                "Ķekavas veloceļa prikols": {
+                    "latest_date": 1684930380,
+                    "size": 16
+                },
+                "✔ Bicycle route is not a lie, but damn hard to follow": {
+                    "latest_date": 1687852239,
+                    "size": 1
+                },
+                "✔ Mangaļi-Ziemeļblāzma būvdarbi": {
+                    "latest_date": 1682787061,
+                    "size": 6
+                },
+                "✔ sharrows": {
+                    "latest_date": 1673516971,
+                    "size": 2
+                },
+                "✔ veloceļu dubultā tagošana": {
+                    "latest_date": 1673528306,
+                    "size": 2
+                }
+            }
+        }
+    },
+    "time": 1772447222.5497239
+}

@@ -1,0 +1,122 @@
+[
+    {
+        "content": "<p>ĀĀĀ KĀPĒC :)<br>\n(ēkas sastāv no sīkiem ceļu posmiņiem, kaut ko labot ir nāve)<br>\n<a href=\"/user_uploads/49624/kQNG3wRUfrCHW6VRzempLZUB/image.png\">Vecrīga</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/kQNG3wRUfrCHW6VRzempLZUB/image.png\" title=\"Vecrīga\"><img src=\"/user_uploads/49624/kQNG3wRUfrCHW6VRzempLZUB/image.png\"></a></div>",
+        "id": 365505298,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1686564287
+    },
+    {
+        "content": "<p>Jā, es pēdējā laikā nolēmu, ka laiku netērēšu uz pārmultipoligonētām vietām. Ja man tur jāčakarējas an n-tiem salīmētiem objektiem, kas ir reāli nepareizi un viss jābīda - tad tas jau kaut kāds piespiedu darbs. Tā kā labāk citur kaut ko darīšu.</p>",
+        "id": 365572603,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686578354
+    },
+    {
+        "content": "<p>Iespējams, lielākais multipoligons Latvijā :)<br>\n<a href=\"https://www.openstreetmap.org/relation/15665647/history\">https://www.openstreetmap.org/relation/15665647/history</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/relation/15665647/history\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/relation/15665647/history\" title=\"Relation History: 15665647 | OpenStreetMap\">Relation History: 15665647 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 432569795,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1712776559
+    },
+    {
+        "content": "<p>O, šis ir manta.<br>\nJOSM plugins, kurš pārtaisa multipoligonu par vienkāršu ceļu.<br>\nTagad izmantoju, jo citādāk buūtu padevies un nezīmētu izmaiņas.<br>\n<a href=\"https://help.openstreetmap.org/questions/63115/any-way-to-convert-outer-way-only-multipolygons-into-single-ways\">https://help.openstreetmap.org/questions/63115/any-way-to-convert-outer-way-only-multipolygons-into-single-ways</a></p>",
+        "id": 438869257,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1715800194
+    },
+    {
+        "content": "<p>Tas jau tas pats relation toolbox kaut kur minētais. Es ar to arī laboju vienā vietā, kur bija poligoni iztaisīti no visiem iespējamiem ceļiem un šoseja sagriezta 100 gabaliņos lai pievilktu tai klāt zāles pleķus. Visus vispirms uz atsevišķiem ceļiem, lai var atvienot un pabīdīt. Pēc tam var skatīties, ko ir jēga atapakaļ poligonēt.</p>",
+        "id": 438870154,
+        "sender_full_name": "HellMap",
+        "timestamp": 1715800574
+    },
+    {
+        "content": "<p>Pirms kāda laika pamaniju šāda veida labojumus no šī lietotāja (multipoligoni parasto ways vietā)<br>\n<a href=\"https://www.openstreetmap.org/changeset/151463624\">https://www.openstreetmap.org/changeset/151463624</a><br>\n<a href=\"https://osmcha.org/changesets/151463624\">https://osmcha.org/changesets/151463624</a><br>\nLūdzu koriģēt manu komentāru vai apstiprināt/papildināt</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/changeset/151463624\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/changeset/151463624\" title=\"Changeset: 151463624 | OpenStreetMap\">Changeset: 151463624 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 439868009,
+        "sender_full_name": "Konstantins Franckevics",
+        "timestamp": 1716313063
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Multipoligoni/near/438870154\">said</a>:</p>\n<blockquote>\n<p>Tas jau tas pats relation toolbox kaut kur minētais. Es ar to arī laboju vienā vietā, kur bija poligoni iztaisīti no visiem iespējamiem ceļiem un šoseja sagriezta 100 gabaliņos lai pievilktu tai klāt zāles pleķus. Visus vispirms uz atsevišķiem ceļiem, lai var atvienot un pabīdīt. Pēc tam var skatīties, ko ir jēga atapakaļ poligonēt.</p>\n</blockquote>\n<p><a href=\"https://www.openstreetmap.org/relation/17530590\">https://www.openstreetmap.org/relation/17530590</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/relation/17530590\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/relation/17530590\" title=\"Relation: 17530590 | OpenStreetMap\">Relation: 17530590 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 439868374,
+        "sender_full_name": "Konstantins Franckevics",
+        "timestamp": 1716313190
+    },
+    {
+        "content": "<p>Nu tur krietni par traku viss sapoligonēts un savilkts līdz ceļiem, tā galīgi nav jādara. Šķiet šeit autors iepazinies ar multipoligoniem un JOSMā atradis toolbox un aiziet <span aria-label=\"melting face\" class=\"emoji emoji-1fae0\" role=\"img\" title=\"melting face\">:melting_face:</span></p>",
+        "id": 439894664,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716321961
+    },
+    {
+        "content": "<p>Residential arī tā apvilkt ap mežu nevar it kā īpašums beidzas līdz ar pirmo koku. Un ja sapoligonē tādu - izlabot nav iespējams tagad.</p>",
+        "id": 439894830,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716322012
+    },
+    {
+        "content": "<p>Nav jau arī pareizi - tādi brīnumi kā dubultlīnijas <a href=\"https://www.openstreetmap.org/way/1277782374\">https://www.openstreetmap.org/way/1277782374</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/1277782374\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/1277782374\" title=\"Way: 1277782374 | OpenStreetMap\">Way: 1277782374 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 439894947,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716322065
+    },
+    {
+        "content": "<p>atkal savākušies daži<br>\n<a href=\"/user_uploads/49624/fxPzck2ICwlIun-aZpbQ6I9o/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/fxPzck2ICwlIun-aZpbQ6I9o/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/fxPzck2ICwlIun-aZpbQ6I9o/image.png\"></a></div><div class=\"codehilite\"><pre><span></span><code>[out:xml][timeout:90];\n{{geocodeArea:Latvia}}-&gt;.searchArea;\n(\n  relation[type=multipolygon](if:count_members()==1)(area.searchArea);\n);\n(._;&gt;;);\nout meta;\n</code></pre></div>",
+        "id": 440368809,
+        "sender_full_name": "Colby",
+        "timestamp": 1716485569
+    },
+    {
+        "content": "<p>un pretējā problēma...</p>\n<div class=\"codehilite\"><pre><span></span><code>[out:xml][timeout:90];\n{{geocodeArea:Latvia}}-&gt;.searchArea;\n(\n  rel[type=multipolygon][!name](if: count_members() &gt;= 100)(area.searchArea);\n);\n(._;&gt;;);\nout meta;\n</code></pre></div>\n<p><a href=\"https://cdn.discordapp.com/attachments/429092644438802432/1248185060780412968/image.png?ex=6662be6c&amp;is=66616cec&amp;hm=3124a99547f96d831e91eca1ddb4ed0d0e89eaf1d7c53f86ed5ffa01cd00b5cd&amp;\">Valle oof</a></p>\n<div class=\"message_inline_image\"><a href=\"https://cdn.discordapp.com/attachments/429092644438802432/1248185060780412968/image.png?ex=6662be6c&amp;is=66616cec&amp;hm=3124a99547f96d831e91eca1ddb4ed0d0e89eaf1d7c53f86ed5ffa01cd00b5cd&amp;\" title=\"Valle oof\"><img src=\"https://uploads.zulipusercontent.net/7d58d51e06981e8eca6f329e1f3b8b7f79d4f0df/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3432393039323634343433383830323433322f313234383138353036303738303431323936382f696d6167652e706e673f65783d36363632626536632669733d363636313663656326686d3d3331323461393935343766393664383331653931656361316464623465643064306538396561663164376335336638366564356666613031636430306235636426\"></a></div>",
+        "id": 442996991,
+        "sender_full_name": "Colby",
+        "timestamp": 1717661277
+    },
+    {
+        "content": "<p>Daudz outer vai inner?</p>",
+        "id": 443014786,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1717666525
+    },
+    {
+        "content": "<p>Problēma labojot un graizot poligonus ir tā, ka pāri var paliekt 2 nesavienoti un redaktori tos nepārtaisa par 2 atsevišķiem un, ja nav vispār vairs pārklājumu, atpakaļ uz vienu ceļu. Bet no otras puses, ja kartētājs zina, ka tik smakli graizīs, tad uzreiz varēja zīmēt pa jaunu - tas jau būs ātrāk nekā šitāda poligonēšana. Šitos laikam ar JOSMa toolboxu varētu visu pagaidām pārtaisīt par parastiem laukumiem. Citādi nekad neizlabot tādus brīnumus kā ceļa posmus izmantotus kā MP līnijas... <a href=\"https://www.openstreetmap.org/way/970848240\">https://www.openstreetmap.org/way/970848240</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/970848240\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/970848240\" title=\"Way: 970848240 | OpenStreetMap\">Way: 970848240 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 443017907,
+        "sender_full_name": "HellMap",
+        "timestamp": 1717667565
+    },
+    {
+        "content": "<p>Ā pag, tas bildē ir viens multipoligons? :D</p>",
+        "id": 443023122,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1717669150
+    },
+    {
+        "content": "<p><a href=\"https://www.openstreetmap.org/relation/13057496\">https://www.openstreetmap.org/relation/13057496</a> (un klāt visādi <a href=\"https://www.openstreetmap.org/relation/13057449\">https://www.openstreetmap.org/relation/13057449</a> <a href=\"https://www.openstreetmap.org/relation/13061441\">https://www.openstreetmap.org/relation/13061441</a> )</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/relation/13057496\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/relation/13057496\" title=\"Relation: 13057496 | OpenStreetMap\">Relation: 13057496 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/relation/13057449\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/relation/13057449\" title=\"Relation: 13057449 | OpenStreetMap\">Relation: 13057449 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/relation/13061441\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/relation/13061441\" title=\"Relation: 13061441 | OpenStreetMap\">Relation: 13061441 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 443023706,
+        "sender_full_name": "HellMap",
+        "timestamp": 1717669348
+    },
+    {
+        "content": "<p>Šajā tēmā \"multipoligoni, kuri mums lika padoties un neko nerediģēt\", vispārējā multipoligonu tēma <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/channel/358602-general/topic/rel.C4.81ciju.20lieto.C5.A1ana/with/317774803\">#general &gt; relāciju lietošana</a> :)</p>",
+        "id": 500823928,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1740041275
+    },
+    {
+        "content": "<p>Viena relācija \"mežam\" no desmitiem nesavienotu gabalu un kopā 100 memberu... <a href=\"https://www.openstreetmap.org/relation/13046882\">https://www.openstreetmap.org/relation/13046882</a> <br>\n<a href=\"/user_uploads/49624/7cgHg7drXODamK2aFoalMaqc/one-forest.png\">one forest.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/7cgHg7drXODamK2aFoalMaqc/one-forest.png\" title=\"one forest.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"778x896\" src=\"/user_uploads/thumbnail/49624/7cgHg7drXODamK2aFoalMaqc/one-forest.png/840x560.webp\"></a></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/relation/13046882\" style='background-image: url(\"https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67\")'></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/relation/13046882\" title=\"Relation: 13046882\">Relation: 13046882</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 501914469,
+        "sender_full_name": "HellMap",
+        "timestamp": 1740519611
+    },
+    {
+        "content": "<p><a class=\"message-link\" href=\"/#narrow/channel/358602-general/topic/Multipoligoni/near/442996991\">#general &gt; Multipoligoni @ 💬</a> <br>\nnetālu no turienes, vallē, ir vēl trakāki<br>\n<a href=\"https://www.openstreetmap.org/relation/13057496#map=14/56.51187/24.75117\">https://www.openstreetmap.org/relation/13057496#map=14/56.51187/24.75117</a><br>\nšim gandrīz 300</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/relation/13057496#map=14/56.51187/24.75117\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/relation/13057496#map=14/56.51187/24.75117\" title=\"Relation: 13057496\">Relation: 13057496</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 501986002,
+        "sender_full_name": "Colby",
+        "timestamp": 1740558046
+    },
+    {
+        "content": "<p>Katrs koks kā laukums un visi laukumi savienoti ar ēkām un viss sadalīts multipoligonos <br>\n<a href=\"/user_uploads/49624/8un4uqtGXHebh9BZg7tuEsar/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/8un4uqtGXHebh9BZg7tuEsar/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"1083x516\" src=\"/user_uploads/thumbnail/49624/8un4uqtGXHebh9BZg7tuEsar/image.png/840x560.webp\"></a></div>",
+        "id": 560657164,
+        "sender_full_name": "HellMap",
+        "timestamp": 1764269526
+    }
+]

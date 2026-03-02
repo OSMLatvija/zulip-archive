@@ -1,0 +1,168 @@
+<html>
+<head><meta charset="utf-8"><title>PSV lane or not · sabiedriskais transports · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/index.html">sabiedriskais transports</a></h2>
+<h3>Topic: <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/PSV.20lane.20or.20not.html">PSV lane or not</a></h3>
+
+<hr>
+
+<base href="https://osmlatvija.zulipchat.com">
+
+<head><link href="https://osmlatvija.github.io/zulip-archive/style.css" rel="stylesheet"></head>
+
+<a name="574764408"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/PSV%20lane%20or%20not/near/574764408" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/PSV.20lane.20or.20not.html#574764408">(Feb 19 2026 at 16:00)</a>:</h4>
+<p>I have a question about streets like Vaidavas and Avotu (in Riga) where they are oneway for usual traffic, but buses go the other direction too.<br>
+Signs there ("brick" with exception for bicycles, <a href="https://www.mapillary.com/app/?pKey=683893353969395">example</a>) don't indicate exception for buses. <br>
+I suspected, that this is to prevent taxies and electric cars from using those exceptions (my understanding was that since those can use bus lanes, they could use exceptions too).<br>
+Right now, they are tagged with <code>oneway:psv=no</code>. <a href="https://www.openstreetmap.org/way/172111594">Example</a>.</p>
+<p>So my question -- is it correct? Shouldn't it be tagged with <code>oneway:bus=no</code> instead, even though it's not legally defined?</p>
+<div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/way/172111594" style="background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/way/172111594" title="Way: ‪Vaidavas iela‬ (‪172111594‬)">Way: ‪Vaidavas iela‬ (‪172111594‬)</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="574770689"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/PSV%20lane%20or%20not/near/574770689" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/PSV.20lane.20or.20not.html#574770689">(Feb 19 2026 at 16:27)</a>:</h4>
+<p>Yes, <code>oneway</code> roads with psv routes on them <del>should be tagged as <code>oneway:psv=no</code></del>. Technically, the "brick" sign never applies to PSVs by traffic law. But it wouldn't make sense to tag EVERY road like that for OSM. So in practice places with dedicated routes or expected psv access (like depos) should have it.</p>
+
+
+
+<a name="574771074"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/PSV%20lane%20or%20not/near/574771074" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/PSV.20lane.20or.20not.html#574771074">(Feb 19 2026 at 16:29)</a>:</h4>
+<p>(Cars always look at me funny when I make that left turn there <span aria-label="grimacing" class="emoji emoji-1f62c" role="img" title="grimacing">:grimacing:</span> )</p>
+
+
+
+<a name="574772129"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/PSV%20lane%20or%20not/near/574772129" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/PSV.20lane.20or.20not.html#574772129">(Feb 19 2026 at 16:34)</a>:</h4>
+<blockquote>
+<p>Technically, the "brick" sign never applies to PSVs by traffic law.</p>
+</blockquote>
+<p>Wow. Does it mean that taxi can go under brick?<br>
+Or did I misunderstood what PSV mean?</p>
+
+
+
+<a name="574772362"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/PSV%20lane%20or%20not/near/574772362" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/PSV.20lane.20or.20not.html#574772362">(Feb 19 2026 at 16:34)</a>:</h4>
+<p>If you are asking <em>specifically</em> about <code>bus</code>es versus <code>psv</code> - the brick sign doesn't distinguish stuff like trolleybuses, microbuses, coaches, even <del>taxis</del>. I am not sure OSM should either. I guess one could look at what modes of transport go there, but I generally don't myself and I don't see the point. Like, if a bus can go there, then so can battery trolleybus and such.</p>
+
+
+
+<a name="574772467"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/PSV%20lane%20or%20not/near/574772467" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/PSV.20lane.20or.20not.html#574772467">(Feb 19 2026 at 16:35)</a>:</h4>
+<p>Oh, taxi, hmm....</p>
+
+
+
+<a name="574772633"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/PSV%20lane%20or%20not/near/574772633" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/PSV.20lane.20or.20not.html#574772633">(Feb 19 2026 at 16:36)</a>:</h4>
+<p>For some reason I didn't think <a href="https://wiki.openstreetmap.org/wiki/Key%3Ataxi">taxi=*</a> was under <a href="https://wiki.openstreetmap.org/wiki/Key%3Apsv">psv=*</a></p>
+
+
+
+<a name="574772701"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/PSV%20lane%20or%20not/near/574772701" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/PSV.20lane.20or.20not.html#574772701">(Feb 19 2026 at 16:36)</a>:</h4>
+<p>And I guess technically <a href="https://wiki.openstreetmap.org/wiki/Key%3Abus">bus=*</a> also includes <a href="https://wiki.openstreetmap.org/wiki/Key%3Atrolleybus">trolleybus=*</a></p>
+
+
+
+<a name="574774092"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/PSV%20lane%20or%20not/near/574774092" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/PSV.20lane.20or.20not.html#574774092">(Feb 19 2026 at 16:43)</a>:</h4>
+<p>Legally "pasažieru sabiedriskais transportlīdzeklis" in Latvia are buses, trolleybuses and trams. The <a href="https://osmlatvija.github.io/road-signs/301.html">301.</a> sign does not apply to them. This does not include taxis. There are separate rules for <em>lanes</em> when traffic signs aren't posted, which then allow EVs and taxis.</p>
+<div class="message_embed"><a class="message_embed_image" href="https://osmlatvija.github.io/road-signs/301.html" style="background-image: url(&quot;https://uploads.zulipusercontent.net/7f2c89387e204768c75dfd582798204d4c1a32d2/68747470733a2f2f6c696b756d692e6c762f77777772616b7374692f323031352f3132312f42494c4445532f4e5f3237392f494d4147453130332e4a5047&quot;)"></a><div class="data-container"><div class="message_embed_title"><a href="https://osmlatvija.github.io/road-signs/301.html" title="301. Iebraukt aizliegts">301. Iebraukt aizliegts</a></div></div></div>
+
+
+
+<a name="574774298"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/PSV%20lane%20or%20not/near/574774298" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/PSV.20lane.20or.20not.html#574774298">(Feb 19 2026 at 16:44)</a>:</h4>
+<p>I guess I see what you mean. Trams are always on separately-mapped rails, so all the possible access variants are buses and trolleybuses, and since trolleybuses are included in buses, then <code>bus</code> covers all.</p>
+
+
+
+<a name="574774665"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/PSV%20lane%20or%20not/near/574774665" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/PSV.20lane.20or.20not.html#574774665">(Feb 19 2026 at 16:45)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/channel/368368-sabiedriskais-transports/topic/PSV.20lane.20or.20not/near/574774298">said</a>:</p>
+<blockquote>
+<p>I guess I see what you mean. Trams are always on separately-mapped rails, so all the possible access variants are buses and trolleybuses, and since trolleybuses are included in buses, then <code>bus</code> covers all.</p>
+</blockquote>
+<p>Yes, that's what I meant exactly =)</p>
+
+
+
+<a name="574774896"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/PSV%20lane%20or%20not/near/574774896" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/PSV.20lane.20or.20not.html#574774896">(Feb 19 2026 at 16:46)</a>:</h4>
+<p>I've been radicalized by Rīgas Satiksme, I don't believe trolleybuses are buses! <span aria-label="upside down" class="emoji emoji-1f643" role="img" title="upside down">:upside_down:</span></p>
+
+
+
+<a name="574775106"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/PSV%20lane%20or%20not/near/574775106" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/PSV.20lane.20or.20not.html#574775106">(Feb 19 2026 at 16:47)</a>:</h4>
+<p>I think you are right, it should be <code>oneway:bus=no</code> and not <code>psv</code>, which includes taxis.</p>
+
+
+
+<a name="574777566"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/PSV%20lane%20or%20not/near/574777566" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/PSV.20lane.20or.20not.html#574777566">(Feb 19 2026 at 16:58)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/channel/368368-sabiedriskais-transports/topic/PSV.20lane.20or.20not/near/574774896">said</a>:</p>
+<blockquote>
+<p>I've been radicalized by Rīgas Satiksme, I don't believe trolleybuses are buses! <span aria-label="upside down" class="emoji emoji-1f643" role="img" title="upside down">:upside_down:</span></p>
+</blockquote>
+<p>What's up with that? <br>
+They are the ones who fail to colour buses and trolleybuses differently, so I'd assume their point was that buses and trolleybuses are one and the same ))</p>
+
+
+
+<a name="574779133"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/PSV%20lane%20or%20not/near/574779133" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/PSV.20lane.20or.20not.html#574779133">(Feb 19 2026 at 17:04)</a>:</h4>
+<p>I'm just joking, although they do clearly separate the two. In recent couple decades it's much less so, but there used to be a very different subjective perception when busses and trolleybuses were these <br>
+<a href="/user_uploads/49624/WURH_4OdaIc448E2oUXYDgka/image.png">image.png</a><br>
+<a href="/user_uploads/49624/-qpdjUNWAp4lV1NpuDi3IQ4X/image.png">image.png</a><br>
+Like they just felt different. Modern ones are indeed basically the same box with different engines.</p>
+<div class="message_inline_image"><a href="/user_uploads/49624/WURH_4OdaIc448E2oUXYDgka/image.png" title="image.png"><img data-original-content-type="image/png" data-original-dimensions="830x552" src="/user_uploads/thumbnail/49624/WURH_4OdaIc448E2oUXYDgka/image.png/840x560.webp"></a></div><div class="message_inline_image"><a href="/user_uploads/49624/-qpdjUNWAp4lV1NpuDi3IQ4X/image.png" title="image.png"><img data-original-content-type="image/png" data-original-dimensions="830x622" src="/user_uploads/thumbnail/49624/-qpdjUNWAp4lV1NpuDi3IQ4X/image.png/840x560.webp"></a></div>
+
+
+
+<a name="574781821"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/PSV%20lane%20or%20not/near/574781821" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/PSV.20lane.20or.20not.html#574781821">(Feb 19 2026 at 17:16)</a>:</h4>
+<p>That's not what meant.<br>
+I have a good sight, and still I need a moment to realise if something in from of me is a bus or a trolleybus.<br>
+Other cities solved this problem quite easily: you paint all buses one colour, and trolleybuses - the different one. <br>
+And if RS <strong>really</strong> wanted their blue and white, they can paint buses with blue on the bottom and trolleybuses with blue on the top.<br>
+<a href="/user_uploads/49624/cEIntrJVOj2_RaD2Ujx3h5sC/OIP.3STBDVlLAnolmLZ0v9qHGwHaEc.webp">OIP.3STBDVlLAnolmLZ0v9qHGwHaEc.webp</a><br>
+<a href="/user_uploads/49624/uJLCqpsacZ5MTJOkda5BhKcP/OIP.GK1tP202Oth_Kd6K48Z1oAHaE8.webp">OIP.GK1tP202Oth_Kd6K48Z1oAHaE8.webp</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/cEIntrJVOj2_RaD2Ujx3h5sC/OIP.3STBDVlLAnolmLZ0v9qHGwHaEc.webp" title="OIP.3STBDVlLAnolmLZ0v9qHGwHaEc.webp"><img data-original-content-type="image/webp" data-original-dimensions="474x284" src="/user_uploads/thumbnail/49624/cEIntrJVOj2_RaD2Ujx3h5sC/OIP.3STBDVlLAnolmLZ0v9qHGwHaEc.webp/840x560.webp"></a></div><div class="message_inline_image"><a href="/user_uploads/49624/uJLCqpsacZ5MTJOkda5BhKcP/OIP.GK1tP202Oth_Kd6K48Z1oAHaE8.webp" title="OIP.GK1tP202Oth_Kd6K48Z1oAHaE8.webp"><img data-original-content-type="image/webp" data-original-dimensions="474x316" src="/user_uploads/thumbnail/49624/uJLCqpsacZ5MTJOkda5BhKcP/OIP.GK1tP202Oth_Kd6K48Z1oAHaE8.webp/840x560.webp"></a></div>
+
+
+
+<a name="574786777"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/PSV%20lane%20or%20not/near/574786777" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/PSV.20lane.20or.20not.html#574786777">(Feb 19 2026 at 17:36)</a>:</h4>
+<p>I replaced <code>oneway:psv=no</code> with <code>oneway:bus=no</code> everywhere in Riga (after confirming signs)</p>
+
+
+
+<a name="574787470"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/PSV%20lane%20or%20not/near/574787470" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/PSV.20lane.20or.20not.html#574787470">(Feb 19 2026 at 17:40)</a>:</h4>
+<p>Seems like outside of Riga <code>oneway:psv</code> was not used</p>
+
+
+
+<a name="574788699"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/PSV%20lane%20or%20not/near/574788699" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/PSV.20lane.20or.20not.html#574788699">(Feb 19 2026 at 17:46)</a>:</h4>
+<p>Yes, the fact that buses and trolleybuses currently look the same was part of the joke <span aria-label="smiling face with tear" class="emoji emoji-1f972" role="img" title="smiling face with tear">:smiling_face_with_tear:</span></p>
+
+
+
+<a name="574792094"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/PSV%20lane%20or%20not/near/574792094" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/PSV.20lane.20or.20not.html#574792094">(Feb 19 2026 at 18:03)</a>:</h4>
+<p>Looks good, I think. I swear I thought there were more oneway streets in Riga with opposite PSV lanes... May be because half of them are places I regularly go past, it feels like there are more...</p>
+
+
+
+<a name="574793659"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/368368-sabiedriskais%20transports/topic/PSV%20lane%20or%20not/near/574793659" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex <a href="https://osmlatvija.github.io/zulip-archive/stream/368368-sabiedriskais-transports/topic/PSV.20lane.20or.20not.html#574793659">(Feb 19 2026 at 18:12)</a>:</h4>
+<p>Kinda the same. But I suspect we live not too far from each other, so affected by the same bias)</p>
+
+
+
+<hr><p>Last updated: Mar 02 2026 at 10:27 UTC</p>
+</html>

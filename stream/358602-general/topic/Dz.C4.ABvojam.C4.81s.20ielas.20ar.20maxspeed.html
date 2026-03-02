@@ -1,0 +1,352 @@
+<html>
+<head><meta charset="utf-8"><title>Dzīvojamās ielas ar maxspeed · general · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/index.html">general</a></h2>
+<h3>Topic: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html">Dzīvojamās ielas ar maxspeed</a></h3>
+
+<hr>
+
+<base href="https://osmlatvija.zulipchat.com">
+
+<head><link href="https://osmlatvija.github.io/zulip-archive/style.css" rel="stylesheet"></head>
+
+<a name="322782089"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/322782089" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#322782089">(Jan 21 2023 at 21:48)</a>:</h4>
+<p>Dzīvojamās ielas ar <a href="https://wiki.openstreetmap.org/wiki/Key%3Amaxspeed">maxspeed=*</a>. Teorētiski nevienai nav jābūt. Bet daudz kur nav arī dzīvojamā zona.</p>
+<div class="codehilite" data-code-language="overpass"><pre><span></span><code>[out:json][timeout:25];
+{{geocodeArea:latvia}}-&gt;.searchArea;
+way[highway=living_street][maxspeed](area.searchArea);
+out geom;
+{{style:
+way[maxspeed=20] { color:orange; }
+way[maxspeed!=20] { color:red; }
+}}
+</code></pre></div>
+<p>Sarkanie - maxspeed nav 20<br>
+Oranžie - maxspeed ir 20</p>
+<p>Pārsvarā ap un Rīgā <a href="/user_uploads/49624/90zNno-TGmrU4DNQX4nJadIu/lz-mess.png">lz-mess.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/90zNno-TGmrU4DNQX4nJadIu/lz-mess.png" title="lz-mess.png"><img src="/user_uploads/49624/90zNno-TGmrU4DNQX4nJadIu/lz-mess.png"></a></div>
+
+
+
+<a name="322786342"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/322786342" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#322786342">(Jan 21 2023 at 22:43)</a>:</h4>
+<p>Kādēļ nav jābūt?</p>
+
+
+
+<a name="322787551"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/322787551" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#322787551">(Jan 21 2023 at 22:57)</a>:</h4>
+<p>Principā jau pareizs jautājums būtu - kādēļ ir jābūt? <code>maxspeed</code> norāda, ja ir kaut kādi speciāli ierobežojumi. Te nav nekādu papildus ierobežojumu - te jau ir implied default. Tas ir tā pat kā uzlikt <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aaccess%3Dyes">access=yes</a> un pēc tam vēl uzlikt <a href="https://wiki.openstreetmap.org/wiki/Tag%3Avehicle%3Dyes">vehicle=yes</a>. Nepareizi datu ziņā nav, bet tikai rada papildus maintenance un neskaidrību, kāpēc vispār salikts.</p>
+
+
+
+<a name="322886686"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/322886686" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#322886686">(Jan 22 2023 at 17:18)</a>:</h4>
+<p>Kaut kad sen lasīju labu argumentu, kāpēc "implied maxspeed" tomēr labāk norādīt, tikai neatceros, kāds tas bija :)<br>
+Varbūt tas vairāk bija par parastiem ceļiem, kuriem grūti noteikti, kur sākas/beidzas apdzīvota vieta.<br>
+living_street + ne-20 ierobežojums gan nešķiet sakarīgi.</p>
+
+
+
+<a name="322886921"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/322886921" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#322886921">(Jan 22 2023 at 17:20)</a>:</h4>
+<p>Cik es zinu, galvenais arguments kāpēc nonorādīt <em>expected</em> implied default`us ir, ja tie kādreiz nomainās. Piemēram, dzīvojamā zonā uztaisa 15. Un tagad pekšņi visur nepareizi. A ja tur reāli bija uzlikta zīme 20 un tagad noteikumi atļauj 20, ja tāda ir? Vairs nevar pateikt, kāpēc tur 20 bija uzlikts. Protams tas ļoti teorētisks gadījums. Bet ja pilsētā nomainītu uz 30, tad gan būtu pilns ar ziepēm.</p>
+
+
+
+<a name="322888807"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/322888807" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#322888807">(Jan 22 2023 at 17:39)</a>:</h4>
+<p>Dzirdēts, bet tik retai iespējai diez vai vērts pieasistīt visu kartēšanas principu.</p>
+
+
+
+<a name="322968890"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/322968890" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#322968890">(Jan 23 2023 at 09:10)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568771">Rihards Olups</span> <a href="#narrow/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed/near/322886686">said</a>:</p>
+<blockquote>
+<p>living_street + ne-20 ierobežojums gan nešķiet sakarīgi.</p>
+</blockquote>
+<p>Ņemot vērā, ka</p>
+<blockquote>
+<p>The <a href="https://wiki.openstreetmap.org/wiki/Key%3Amaxspeed">maxspeed=*</a> tag is used on ways to define the maximum <em>legal</em> speed limit</p>
+</blockquote>
+<p>...un to, ka pie mums pārsniegšanu par 10 km/st. "soda" ar brīdinājumu, šķiet loģiski likt <code>maxspeed</code>'ā to, kas ir uz zīmes + 10 km/st. Routingam būs reālistiskāka prognoze par braukšanas laikiem.</p>
+<p>Tas ir borderline sarkasms, borderline izmisums par mūsu stulbiem likumiem. Es nesaku, ka es atbalstu tādu praksi, es vienkārši mēģinu izskaidrot, kāpēc var būt <code>maxspeed=30</code> uz <code>highway=living_street</code>.</p>
+
+
+
+<a name="322972563"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/322972563" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#322972563">(Jan 23 2023 at 09:31)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed/near/322886921">said</a>:</p>
+<blockquote>
+<p>Cik es zinu, galvenais arguments kāpēc nonorādīt <em>expected</em> implied default`us ir, ja tie kādreiz nomainās. Piemēram, dzīvojamā zonā uztaisa 15. Un tagad pekšņi visur nepareizi. A ja tur reāli bija uzlikta zīme 20 un tagad noteikumi atļauj 20, ja tāda ir? Vairs nevar pateikt, kāpēc tur 20 bija uzlikts. Protams tas ļoti teorētisks gadījums. Bet ja pilsētā nomainītu uz 30, tad gan būtu pilns ar ziepēm.</p>
+</blockquote>
+<p>Ja <a href="https://wiki.openstreetmap.org/wiki/Key%3Amaxspeed">maxspeed=*</a> norādīts kopā ar <a href="https://wiki.openstreetmap.org/wiki/Key%3Asource:maxspeed">source:maxspeed=*</a>, tad nav tādas problēmas.</p>
+
+
+
+<a name="322977426"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/322977426" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#322977426">(Jan 23 2023 at 09:55)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568771">Rihards Olups</span> <a href="#narrow/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed/near/322886686">said</a>:</p>
+<blockquote>
+<p>Kaut kad sen lasīju labu argumentu, kāpēc "implied maxspeed" tomēr labāk norādīt, tikai neatceros, kāds tas bija :)</p>
+</blockquote>
+<p><a href="https://wiki.openstreetmap.org/wiki/Routing">Šeit</a> rakstīts:</p>
+<blockquote>
+<p>In order to better calculate the fastest route, please consider helping by adding speed data using the <a href="https://wiki.openstreetmap.org/wiki/Key%3Amaxspeed">maxspeed=*</a> tag. This is especially important where the speed limit differs from the assumed maximum permitted speed for the road type per country and vehicle-type.</p>
+</blockquote>
+<p>Ja neatšķiras, tad sanāk "not especially important". Tātad var nelikt?</p>
+<p><a href="https://wiki.openstreetmap.org/wiki/OSM_tags_for_routing/Maxspeed">Šeit</a> rakstīts:</p>
+<blockquote>
+<p>(*7): It is not possible to distinguish outside/inside place, because <a href="https://wiki.openstreetmap.org/wiki/Key%3Aplace">place=*</a> is usually set on nodes, not on areas. If maxspeed differs from default, <a href="https://wiki.openstreetmap.org/wiki/Key%3Amaxspeed">maxspeed=*</a> (possibly with <a href="https://wiki.openstreetmap.org/wiki/Key%3Asource:maxspeed">source:maxspeed=*</a>) is explicitly set.</p>
+</blockquote>
+<p>...bet tas attiecās uz Austriju.</p>
+<p>Ir arī <a href="https://wiki.openstreetmap.org/wiki/Default_speed_limits">tabula ar implicit noteikumiem</a> (Latvija arī labi aprakstīta), bet nezinu, cik daudzi routing risinājumi to izmanto.</p>
+
+
+
+<a name="322981048"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/322981048" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#322981048">(Jan 23 2023 at 10:13)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed/near/322968890">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="568771">Rihards Olups</span> <a href="#narrow/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed/near/322886686">said</a>:</p>
+<blockquote>
+<p>living_street + ne-20 ierobežojums gan nešķiet sakarīgi.</p>
+</blockquote>
+<p>Ņemot vērā, ka</p>
+<blockquote>
+<p>The <a href="https://wiki.openstreetmap.org/wiki/Key%3Amaxspeed">maxspeed=*</a> tag is used on ways to define the maximum <em>legal</em> speed limit</p>
+</blockquote>
+<p>...un to, ka pie mums pārsniegšanu par 10 km/st. "soda" ar brīdinājumu, šķiet loģiski likt <code>maxspeed</code>'ā to, kas ir uz zīmes + 10 km/st. Routingam būs reālistiskāka prognoze par braukšanas laikiem.</p>
+<p>Tas ir borderline sarkasms, borderline izmisums par mūsu stulbiem likumiem. Es nesaku, ka es atbalstu tādu praksi, es vienkārši mēģinu izskaidrot, kāpēc var būt <code>maxspeed=30</code> uz <code>highway=living_street</code>.</p>
+</blockquote>
+<p>Haha, diez vai kāds tā ir licis, ticamāk, ka tur nav living_street, vai arī maxspeed palicis no vēsturiskas situācijas :)<br>
+Par ātrumiem, principā jau arī par +20 vai +40 dabūt sodu ir ļoti maza iespēja, tā ka pagaidām tas mazāk par likumiem, vairāk par kontroles trūkumu.</p>
+
+
+
+<a name="322981193"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/322981193" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#322981193">(Jan 23 2023 at 10:14)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568802">i-ky</span> <a href="#narrow/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed/near/322977426">said</a>:</p>
+<blockquote>
+<p>Ir arī <a href="https://wiki.openstreetmap.org/wiki/Default_speed_limits">tabula ar implicit noteikumiem</a> (Latvija arī labi aprakstīta), bet nezinu, cik daudzi routing risinājumi to izmanto.</p>
+</blockquote>
+<p>Jā, pieņemu, ka daudzi (visi?) neizmanto, kas būtu pieņemams iemesls tomēr pievienot.</p>
+
+
+
+<a name="322994065"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/322994065" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#322994065">(Jan 23 2023 at 11:17)</a>:</h4>
+<p>Huh? Es biju domājis, ka to izmanto pilnīgi visi routeri, kas ātrumus rāda. Kā tad savādāk var ātrumu dabūt? Es minētu, ka 95%+ ielu nav ātrumi uzlikti. Es par pieņēmumu, ka routeri neizmanto, pieliktu resnu <strong>[citation needed]</strong></p>
+
+
+
+<a name="322996828"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/322996828" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#322996828">(Jan 23 2023 at 11:32)</a>:</h4>
+<p>Piem., OSRM ir šādi defaultie: <a href="https://github.com/Project-OSRM/osrm-backend/blob/master/profiles/car.lua#L141">https://github.com/Project-OSRM/osrm-backend/blob/master/profiles/car.lua#L141</a> .</p>
+<div class="message_embed"><a class="message_embed_image" href="https://github.com/Project-OSRM/osrm-backend/blob/master/profiles/car.lua#L141" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/b16b4895fc7aaa198da718bb25b673ea006b821a\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f363535316162383037336234363463393935633161633962313737663764336339386131646235356362383236303862343636666239663136373661623261652f50726f6a6563742d4f53524d2f6f73726d2d6261636b656e64)"></a><div class="data-container"><div class="message_embed_title"><a href="https://github.com/Project-OSRM/osrm-backend/blob/master/profiles/car.lua#L141" title="osrm-backend/car.lua at master · Project-OSRM/osrm-backend">osrm-backend/car.lua at master · Project-OSRM/osrm-backend</a></div><div class="message_embed_description">Open Source Routing Machine - C++ backend. Contribute to Project-OSRM/osrm-backend development by creating an account on GitHub.</div></div></div>
+
+
+
+<a name="322997584"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/322997584" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#322997584">(Jan 23 2023 at 11:36)</a>:</h4>
+<p>Un šādi valstu specifiskie: <a href="https://github.com/Project-OSRM/osrm-backend/blob/master/profiles/car.lua#L270">https://github.com/Project-OSRM/osrm-backend/blob/master/profiles/car.lua#L270</a> .<br>
+Tā ka kaut ko izmanto, bet tas atbalsts ir ļoti nekonsekvents.<br>
+Kaut vai paskat, kā nav Latvijas specifisko - un tas ir OSRM. Mazāk populāriem routeriem būs vēl vājāks atbalsts lielākoties.</p>
+<div class="message_embed"><a class="message_embed_image" href="https://github.com/Project-OSRM/osrm-backend/blob/master/profiles/car.lua#L270" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/b16b4895fc7aaa198da718bb25b673ea006b821a\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f363535316162383037336234363463393935633161633962313737663764336339386131646235356362383236303862343636666239663136373661623261652f50726f6a6563742d4f53524d2f6f73726d2d6261636b656e64)"></a><div class="data-container"><div class="message_embed_title"><a href="https://github.com/Project-OSRM/osrm-backend/blob/master/profiles/car.lua#L270" title="osrm-backend/car.lua at master · Project-OSRM/osrm-backend">osrm-backend/car.lua at master · Project-OSRM/osrm-backend</a></div><div class="message_embed_description">Open Source Routing Machine - C++ backend. Contribute to Project-OSRM/osrm-backend development by creating an account on GitHub.</div></div></div>
+
+
+
+<a name="322998235"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/322998235" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#322998235">(Jan 23 2023 at 11:39)</a>:</h4>
+<p>Tātad problēma ar routeriem nevis tagošanu <span aria-label="grinning face with smiling eyes" class="emoji emoji-1f601" role="img" title="grinning face with smiling eyes">:grinning_face_with_smiling_eyes:</span></p>
+
+
+
+<a name="322998594"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/322998594" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#322998594">(Jan 23 2023 at 11:40)</a>:</h4>
+<p>Nu to pašu var teikt par area routing.<br>
+Bet paskaties no routera implementētāja viedokļa - cik praktiski ir ne tikai atbalstīt reģionu ievākšanu (urban vs rural), bet vēl arī ieviest un uzturēt visu valstu specifiskos limitus.</p>
+
+
+
+<a name="322998657"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/322998657" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#322998657">(Jan 23 2023 at 11:41)</a>:</h4>
+<p>Bet vispār - kā Tu Latvijā noteiktu, vai šoseja caur apdzīvotu vietu ir 90 vai 50?</p>
+
+
+
+<a name="322998837"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/322998837" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#322998837">(Jan 23 2023 at 11:42)</a>:</h4>
+<p>Tāpēc jau limiti aprakstīti wiki mašīnlasāmā veidā un to uztur mapperi.</p>
+
+
+
+<a name="322998939"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/322998939" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#322998939">(Jan 23 2023 at 11:42)</a>:</h4>
+<p>Ja to neizmanto visi routeri, tas neko baigi daudz nedod.</p>
+
+
+
+<a name="322998968"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/322998968" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#322998968">(Jan 23 2023 at 11:42)</a>:</h4>
+<p>Šoseja caur apdzīvotu vietu bez maxspeed - 50, citādi pēc maxspeed. A kā braucot ar mašīnu to noteikt?</p>
+
+
+
+<a name="322999166"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/322999166" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#322999166">(Jan 23 2023 at 11:43)</a>:</h4>
+<p>Kā noteiksi no OSM datiem, vai tā ir baltās vai zilās zīmes apdz. vieta?</p>
+
+
+
+<a name="322999220"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/322999220" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#322999220">(Jan 23 2023 at 11:44)</a>:</h4>
+<p>Ko tad, ja admin. robeža ir viena, bet baltā zīme nostāk?</p>
+
+
+
+<a name="322999412"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/322999412" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#322999412">(Jan 23 2023 at 11:45)</a>:</h4>
+<p>Tur pēkšņi vajag kaudzi ar citiem datiem, kuri ir daudz detalizētāki par maspeed, un vairāk "fragile".<br>
+Tādi dati arī ir daudz sarežģītāk parsējami.</p>
+<p>Es nesaku, ka tā nav jauka doma - bet man aizdomas, ka šobrīd tā ir utopija.</p>
+
+
+
+<a name="322999494"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/322999494" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#322999494">(Jan 23 2023 at 11:45)</a>:</h4>
+<p>Bet tu apraksti izņēmuma gadījumus, kur man personīgi nav problēmu, ja kāds saliks maxspeed (jo routeri un admin borderi nav vēl sakārtoti), nevis par tādiem piemēriem, kad visa Jūrmala 50 katrai sānielai.</p>
+
+
+
+<a name="322999958"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/322999958" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#322999958">(Jan 23 2023 at 11:48)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed/near/322998837">said</a>:</p>
+<blockquote>
+<p>Tāpēc jau limiti aprakstīti wiki mašīnlasāmā veidā un to uztur mapperi.</p>
+</blockquote>
+<p>Man šķiet tā lapa ir samēra jauna. Varbūt routeri vēl "nepaspēja" ieviest tās izmantošanu.</p>
+
+
+
+<a name="323000013"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/323000013" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#323000013">(Jan 23 2023 at 11:49)</a>:</h4>
+<p>Un arī, atpakaļ pie šī topika konkrētā gadījuma, kurš bija par living_street, kur ir <em>vienmēr</em> 20 un routeriem kā tajā OSMR piemērā pielikt 20 defaultu ir ļoti vienkārši. Jāuzraksta issue viņiem.</p>
+
+
+
+<a name="323001743"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/323001743" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#323001743">(Jan 23 2023 at 11:58)</a>:</h4>
+<p><a href="https://github.com/Project-OSRM/osrm-backend/issues/6519">https://github.com/Project-OSRM/osrm-backend/issues/6519</a></p>
+<div class="message_embed"><a class="message_embed_image" href="https://github.com/Project-OSRM/osrm-backend/issues/6519" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/151e25c4ee025ebede03a39223b3bd919476cc2e\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f353266656339643736353162383738313666383634643337643134353532343439383662616637356234623135633133636134363631356635643730336331332f50726f6a6563742d4f53524d2f6f73726d2d6261636b656e642f6973737565732f36353139)"></a><div class="data-container"><div class="message_embed_title"><a href="https://github.com/Project-OSRM/osrm-backend/issues/6519" title="Living zone maxspeed=20 in Latvia · Issue #6519 · Project-OSRM/osrm-backend">Living zone maxspeed=20 in Latvia · Issue #6519 · Project-OSRM/osrm-backend</a></div><div class="message_embed_description">Hello! Please add an exception to https://github.com/Project-OSRM/osrm-backend/blob/master/profiles/car.lua#L270 for Latvia for living_street, which is always 20 kmh. I suppose it would be [&quot;l...</div></div></div>
+
+
+
+<a name="323002064"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/323002064" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#323002064">(Jan 23 2023 at 11:59)</a>:</h4>
+<p>Bet ja vēl vairāk atpakaļ pie actual problēmas, tad te labojami tie šķībie gadījumi, kur ātrums nav 20, bet kaut kas cits ielikts. Tāpēc es arī pa krāsām nodalīju Overpass, jo <a href="https://wiki.openstreetmap.org/wiki/Tag%3Amaxspeed%3D20">maxspeed=20</a> <em>teorētiski</em> nav nepareizi.</p>
+
+
+
+<a name="323036727"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/323036727" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#323036727">(Jan 23 2023 at 14:41)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed/near/322999494">said</a>:</p>
+<blockquote>
+<p>Bet tu apraksti izņēmuma gadījumus, kur man personīgi nav problēmu, ja kāds saliks maxspeed (jo routeri un admin borderi nav vēl sakārtoti), nevis par tādiem piemēriem, kad visa Jūrmala 50 katrai sānielai.</p>
+</blockquote>
+<p>Bet kā Tu noteiktu ātrumu kādam ceļa posmam pasaulē? Kādi konkrēti būtu soļi?</p>
+
+
+
+<a name="323039710"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/323039710" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#323039710">(Jan 23 2023 at 14:53)</a>:</h4>
+<p>Man būtu saraksts ar teritorijām, kurām ir kopīgi ierobežojumi, t.i. valstis, štati, utml. Un tur būtu saraksts at admin robežām, un ko tās nozīmē. (<a href="https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#10_admin_level_values_for_specific_countries">https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#10_admin_level_values_for_specific_countries</a>) Pēc tam skatos tabulu, kā tur jābūt, kam man konkrēti vajag. (<a href="https://wiki.openstreetmap.org/wiki/Default_speed_limits">https://wiki.openstreetmap.org/wiki/Default_speed_limits</a>)</p>
+
+
+
+<a name="323058056"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/323058056" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#323058056">(Jan 23 2023 at 16:06)</a>:</h4>
+<p>Bet admin robežas mēdz nesakrist ar apdzīvotas vietas robežām, ko tādiem gadījumiem?<br>
+Explicit maxspeed nav pielikts.</p>
+
+
+
+<a name="323058632"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/323058632" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#323058632">(Jan 23 2023 at 16:09)</a>:</h4>
+<p>Darīt to pašu, ko dara ar visu, kas nesakrīt ar oficiālajiem vai implied datiem - liek izņēmumus</p>
+
+
+
+<a name="323069321"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/323069321" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#323069321">(Jan 23 2023 at 16:53)</a>:</h4>
+<p>Lai būtu vēl vieglāk saprast, ko labot:</p>
+<div class="codehilite" data-code-language="overpass"><pre><span></span><code>[out:json][timeout:25];
+{{geocodeArea:Latvia}}-&gt;.searchArea;
+way[highway=living_street][maxspeed][maxspeed!=20](area.searchArea);
+out geom;
+</code></pre></div>
+
+
+
+<a name="369985936"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/369985936" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#369985936">(Jun 27 2023 at 09:44)</a>:</h4>
+<p>Tagad vēl ir Osmalyzer report - <a href="https://osmlatvija.github.io/Osmalyzer/Living%20Zone%20Speeds%20report.html">https://osmlatvija.github.io/Osmalyzer/Living%20Zone%20Speeds%20report.html</a></p>
+
+
+
+<a name="369986634"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/369986634" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#369986634">(Jun 27 2023 at 09:46)</a>:</h4>
+<p><span class="user-mention" data-user-id="571825">@HellMap</span>, vai nav <a href="https://github.com/OSMLatvija/Osmalyzer/blob/main/Osmalyzer/Analyzers/LivingZoneSpeedAnalyzer.cs">pa daudz koda</a>, ja tos pašus rezultātus var dabūt ar <a href="#narrow/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed/near/323069321">vienkāršu Overpass vaicājumu</a>?</p>
+<div class="message_embed"><a class="message_embed_image" href="https://github.com/OSMLatvija/Osmalyzer/blob/main/Osmalyzer/Analyzers/LivingZoneSpeedAnalyzer.cs" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/920e73182babba4f299d627f4a393193172f13e9\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f386135356535616637333134376534396632616337646530653066656136613465373561386231326261366136663432396337313764643861346461623562392f4f534d4c617476696a612f4f736d616c797a6572)"></a><div class="data-container"><div class="message_embed_title"><a href="https://github.com/OSMLatvija/Osmalyzer/blob/main/Osmalyzer/Analyzers/LivingZoneSpeedAnalyzer.cs" title="Osmalyzer/Osmalyzer/Analyzers/LivingZoneSpeedAnalyzer.cs at main · OSMLatvija/Osmalyzer">Osmalyzer/Osmalyzer/Analyzers/LivingZoneSpeedAnalyzer.cs at main · OSMLatvija/Osmalyzer</a></div><div class="message_embed_description">Parsing OSM data when it's too complex for Overpass - Osmalyzer/Osmalyzer/Analyzers/LivingZoneSpeedAnalyzer.cs at main · OSMLatvija/Osmalyzer</div></div></div>
+
+
+
+<a name="369986843"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/369986843" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#369986843">(Jun 27 2023 at 09:47)</a>:</h4>
+<p>Jā, es vakar iztīrīju kādu pārsimtu, palicis, ko nepamanīju vai nepabeidzu</p>
+
+
+
+<a name="369992639"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/369992639" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#369992639">(Jun 27 2023 at 10:03)</a>:</h4>
+<p>Jā, var ar Overpass, bet es to visu tik un tā priekš sevis rakstu. Piemēram, es gribu lai es browserī redzētu, vai es jau esmu linku nospiedis. Es gribu redzēt ielas nosaukumu un tagadējo ātrumu. Un es gribu iespēju nākotnē kaut ko pielikt klāt nevis sasniegt Overpass robežu un viss. Un es negribu neko rakstīt Overpass valodā.</p>
+
+
+
+<a name="369997335"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/369997335" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#369997335">(Jun 27 2023 at 10:15)</a>:</h4>
+<p>Varētu gan vienreiz uzrakstīt generic query un linku pielikt no reporta.</p>
+
+
+
+<a name="369997697"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/369997697" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#369997697">(Jun 27 2023 at 10:16)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed/near/369997335">said</a>:</p>
+<blockquote>
+<p>Varētu gan vienreiz uzrakstīt generic query un linku pielikt no reporta.</p>
+</blockquote>
+<p>Ko nozīmē "generic query"?</p>
+
+
+
+<a name="369998642"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/369998642" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#369998642">(Jun 27 2023 at 10:17)</a>:</h4>
+<p>Ka es varu query stringu uztaisīt vienkāršam vaicājumam automātiski pasakot "gribu <a href="https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dliving_street">highway=living_street</a> bez maxspeed" un man izmet standarta query sintaksi ar standarta linku/aprkastu, ko man pēc tam viegli citur pielikt pēc vēlmes.</p>
+
+
+
+<a name="369999120"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/369999120" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#369999120">(Jun 27 2023 at 10:18)</a>:</h4>
+<p>Es domāju nevis palaist, bet iedot reportā lasītājam noklikšķināt</p>
+
+
+
+<a name="370338303"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Dz%C4%ABvojam%C4%81s%20ielas%20ar%20maxspeed/near/370338303" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed.html#370338303">(Jun 28 2023 at 09:00)</a>:</h4>
+<p>Nepareizi palikušas 3 vietas, kur es nevaru pateikt. Uzprasīju autoriem, bet lielas cerības uz atbildi nav.</p>
+
+
+
+<hr><p>Last updated: Mar 02 2026 at 10:27 UTC</p>
+</html>

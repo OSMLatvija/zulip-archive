@@ -1,0 +1,70 @@
+<html>
+<head><meta charset="utf-8"><title>traffic_calming + surface · general · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/index.html">general</a></h2>
+<h3>Topic: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/traffic_calming.20.2B.20surface.html">traffic_calming + surface</a></h3>
+
+<hr>
+
+<base href="https://osmlatvija.zulipchat.com">
+
+<head><link href="https://osmlatvija.github.io/zulip-archive/style.css" rel="stylesheet"></head>
+
+<a name="393915344"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/traffic_calming%20%2B%20surface/near/393915344" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/traffic_calming.20.2B.20surface.html#393915344">(Sep 29 2023 at 11:47)</a>:</h4>
+<p><a href="https://wiki.openstreetmap.org/wiki/Key%3Asurface">surface=*</a> ir norādīts kā _Useful combination_ tikai priekš <a href="https://wiki.openstreetmap.org/wiki/Tag%3Atraffic_calming%3Dtable">traffic_calming=table</a>. Un es vēl varētu saprast <a href="https://wiki.openstreetmap.org/wiki/Key%3Asurface">surface=*</a> uz <a href="https://wiki.openstreetmap.org/wiki/Tag%3Atraffic_calming%3Dhump">traffic_calming=hump</a>, bet uz <a href="https://wiki.openstreetmap.org/wiki/Tag%3Atraffic_calming%3Dbump">traffic_calming=bump</a> tas šķiet lieks.</p>
+<div class="codehilite" data-code-language="overpass"><pre><span></span><code>[out:json][timeout:25];
+{{geocodeArea:Latvia}}-&gt;.searchArea;
+nwr[traffic_calming][!highway][traffic_calming!=table][surface](area.searchArea);
+out geom;
+</code></pre></div>
+
+
+
+<a name="393937061"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/traffic_calming%20%2B%20surface/near/393937061" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/traffic_calming.20.2B.20surface.html#393937061">(Sep 29 2023 at 14:02)</a>:</h4>
+<p>Šķiet OK, jo var nošķirt uzskrūvētās plastmasas, asfalta vaļņus utt.<br>
+Alternatīva būtu material, bet diez vai vērts pēkšņi taisīt citādāk vienam tipam.</p>
+
+
+
+<a name="393946049"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/traffic_calming%20%2B%20surface/near/393946049" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/traffic_calming.20.2B.20surface.html#393946049">(Sep 29 2023 at 14:49)</a>:</h4>
+<p>Jā, bump daudz biežāk nesakrīt ar ceļa segumu (salīdzinot ar piemēram hump) - platsmasgumija, metāls, betons. Te drīzāk wiki neviens nav norādījis.</p>
+
+
+
+<a name="393980990"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/traffic_calming%20%2B%20surface/near/393980990" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/traffic_calming.20.2B.20surface.html#393980990">(Sep 29 2023 at 18:05)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568771">Rihards Olups</span> <a href="#narrow/stream/358602-general/topic/traffic_calming.20.2B.20surface/near/393937061">said</a>:</p>
+<blockquote>
+<p>Šķiet OK, jo var nošķirt uzskrūvētās plastmasas, asfalta vaļņus utt.</p>
+</blockquote>
+<p>Vai ir zināms, kas un kā šo informāciju lieto?</p>
+
+
+
+<a name="394213122"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/traffic_calming%20%2B%20surface/near/394213122" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/traffic_calming.20.2B.20surface.html#394213122">(Oct 01 2023 at 13:46)</a>:</h4>
+<p>Nē, šobrīd nenāk prātā - ko mēs varētu no tā noskaidrot?</p>
+
+
+
+<a name="394232836"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/traffic_calming%20%2B%20surface/near/394232836" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/traffic_calming.20.2B.20surface.html#394232836">(Oct 01 2023 at 16:23)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568771">Rihards Olups</span> <a href="#narrow/stream/358602-general/topic/traffic_calming.20.2B.20surface/near/394213122">said</a>:</p>
+<blockquote>
+<p>Nē, šobrīd nenāk prātā - ko mēs varētu no tā noskaidrot?</p>
+</blockquote>
+<p>Man būtu motivācija likt <a href="https://wiki.openstreetmap.org/wiki/Key%3Asurface">surface=*</a> uz <a href="https://wiki.openstreetmap.org/wiki/Key%3Atraffic_calming">traffic_calming=*</a>. Pašlaik nav.</p>
+
+
+
+<a name="394243562"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/traffic_calming%20%2B%20surface/near/394243562" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/traffic_calming.20.2B.20surface.html#394243562">(Oct 01 2023 at 17:56)</a>:</h4>
+<p>Iedomājos, ka satiksmes mierināšanas aktīvistiem varētu būt interesantas vizualizācijas, tādējādi nosakot populārākās metodes, ģeogrāfisko izplatību. Varētu arī vieglāk saprast, vai kaut kur nav nelegālie vaļņi salikti :)<br>
+Bet laikam jau kā ar visu OSM, sanāk zīmēt to, kas šķiet interesants.</p>
+
+
+
+<hr><p>Last updated: Mar 02 2026 at 10:27 UTC</p>
+</html>

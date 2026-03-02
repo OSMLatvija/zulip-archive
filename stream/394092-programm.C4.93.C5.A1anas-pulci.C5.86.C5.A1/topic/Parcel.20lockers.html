@@ -1,0 +1,854 @@
+<html>
+<head><meta charset="utf-8"><title>Parcel lockers · programmēšanas pulciņš · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/index.html">programmēšanas pulciņš</a></h2>
+<h3>Topic: <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html">Parcel lockers</a></h3>
+
+<hr>
+
+<base href="https://osmlatvija.zulipchat.com">
+
+<head><link href="https://osmlatvija.github.io/zulip-archive/style.css" rel="stylesheet"></head>
+
+<a name="441041950"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441041950" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441041950">(May 28 2024 at 13:34)</a>:</h4>
+<p>Opened PR for three of the locker providers: Omniva, Venipak and Smartpost/Itella.</p>
+<p>Those not added:</p>
+<ul>
+<li>DPD has only addresses, and we don't know how to address* that in Correlator©.</li>
+<li>Unisend is prohibited on my laptop, can't access it, and udrop has only part of the points.</li>
+<li>Latvijas Pasts - data for all three: lockers, boxes and offices is at the same page. Considering what will be the correct approach here: would prefer to parse it all in the same place. And then either use in three different analyzers, or put all of that into a single report. Open for ideas</li>
+</ul>
+<hr>
+<p>\* : pun very much intended</p>
+
+
+
+<a name="441081266"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441081266" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441081266">(May 28 2024 at 17:09)</a>:</h4>
+<p>"Unisend is prohibited on my laptop"?</p>
+
+
+
+<a name="441086617"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441086617" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441086617">(May 28 2024 at 17:47)</a>:</h4>
+<p>Ah, yeah shared a bit more details in ticket. But here it is:</p>
+<blockquote>
+<p>As I understand Unisend is an umbrella for parcel lockers branded as Unisend and Unisend uDrop.<br>
+Site in the description only has later ones.</p>
+<p>As far as I can tell, <a href="http://unisend.lv">unisend.lv</a> has its own map with both lockers there. But my laptop prevents me from accessing that site: it considered a security threat (don't have details as to why).</p>
+</blockquote>
+<p>Whenever I try to open <a href="http://unisend.lv">unisend.lv</a>, one of the security tools prevents me from doing it. This limitation is simply here, and cannot do anything about it at the moment.</p>
+<p>Probably if somebody would be kind enough to identify request to get locations, and will send me data file with it, I probably can place it into cache manually.</p>
+
+
+
+<a name="441091276"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441091276" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441091276">(May 28 2024 at 18:16)</a>:</h4>
+<p>Does <a href="https://my.unisend.lv/map">https://my.unisend.lv/map</a> work for you or same issue?</p>
+
+
+
+<a name="441093074"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441093074" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441093074">(May 28 2024 at 18:28)</a>:</h4>
+<p>Data appears to be at <a href="https://api-esavitarna.post.lt/terminal/list?size=9999">https://api-esavitarna.post.lt/terminal/list?size=9999</a></p>
+
+
+
+<a name="441093178"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441093178" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441093178">(May 28 2024 at 18:29)</a>:</h4>
+<p><a href="/user_uploads/49624/f4UlWKsTNJIbMA_dB0Nd2vVP/list.json">list.json</a><br>
+Here is the JSON content/response</p>
+
+
+
+<a name="441093712"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441093712" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441093712">(May 28 2024 at 18:32)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="715892">markalex2209</span> <a href="#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers/near/441041950">said</a>:</p>
+<blockquote>
+<ul>
+<li>DPD has only addresses</li>
+</ul>
+</blockquote>
+<p>Yeah, this sucks. But it theoretically possible to parse addresses as Latvia has all official addresses imported. The biggest problem will be all the broken syntax they will likely have. I have a partial hard-coded address string to actual OSM address matcher already.</p>
+
+
+
+<a name="441094033"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441094033" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441094033">(May 28 2024 at 18:34)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="715892">markalex2209</span> <a href="#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers/near/441041950">said</a>:</p>
+<blockquote>
+<ul>
+<li>Considering what will be the correct approach here: would prefer to parse it all in the same place.</li>
+</ul>
+</blockquote>
+<p>Parsing it in the same place is totally the way to go, yeah. Analyzers can just get whatever specific data they need..</p>
+
+
+
+<a name="441094642"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441094642" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441094642">(May 28 2024 at 18:39)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="715892">markalex2209</span> <a href="#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers/near/441041950">said</a>:</p>
+<blockquote>
+<ul>
+<li>And then either use in three different analyzers, or put all of that into a single report.</li>
+</ul>
+</blockquote>
+<p>I think it would be better to put at least parcel lockers in separate analyzers so that all parcel lockers share a common base class like you are already doing - then we can present them all similarly in the new parcel lockers section. I feel like post boxes and post offices are also fairly distinct and can be put in separate reports - they have a bunch of tagging stuff we can theoretically check. Since they are probably all using generic correlation logic, they are just copy-paste boilerplate code mostly anyway</p>
+
+
+
+<a name="441103974"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441103974" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441103974">(May 28 2024 at 19:44)</a>:</h4>
+<p>Same issue for <code>my.unisend.lv</code>. But api is accessible, thanks for the link.<br>
+Will try to add analyzer for it shortly.</p>
+
+
+
+<a name="441104606"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441104606" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441104606">(May 28 2024 at 19:49)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers/near/441093712">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="715892">markalex2209</span> <a href="#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers/near/441041950">said</a>:</p>
+<blockquote>
+<ul>
+<li>DPD has only addresses</li>
+</ul>
+</blockquote>
+<p>Yeah, this sucks. But it theoretically possible to parse addresses as Latvia has all official addresses imported. The biggest problem will be all the broken syntax they will likely have. I have a partial hard-coded address string to actual OSM address matcher already.</p>
+</blockquote>
+<p>I can't say that I have full understanding of what is present now.</p>
+<p>My current understanding of how this is possible is:</p>
+<ol>
+<li>Scrape addresses from DPD,</li>
+<li>Try to find coordinates from OSM by address (no idea how),</li>
+<li>Generate list of points with coordinates, and use it in the correlator as usual.</li>
+</ol>
+<p>If this is correct - it feels like to much hustle for now, TBH. There are a lot of low hanging fruits=)</p>
+
+
+
+<a name="441105554"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441105554" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441105554">(May 28 2024 at 19:57)</a>:</h4>
+<p>Oh yeah, for sure. Stuff like this gets complicated quickly. There's a bunch of online maps we can make quick correlations with. I might check out DPD later and see if it's viable.</p>
+
+
+
+<a name="441105718"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441105718" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441105718">(May 28 2024 at 19:58)</a>:</h4>
+<p>We do only have 5 (now 6 I guess with Unisend) major parcel locker companies though, so it would be.... interesting omitting what is essentially the biggest one in world scope sense</p>
+
+
+
+<a name="441106024"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441106024" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441106024">(May 28 2024 at 20:00)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers/near/441105718">said</a>:</p>
+<blockquote>
+<p>We do only have 5 major parcel locker companies though, so it would be.... interesting omitting what is essentially the biggest one in world scope sense</p>
+</blockquote>
+<p>Well, if they don't want to have map of their lockers, as mush as not to provide it on the site, who are we to force appearance of said lockers on any other map?)</p>
+
+
+
+<a name="441106385"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441106385" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441106385">(May 28 2024 at 20:02)</a>:</h4>
+<p>On one hand, yes. But, gee, you should see what I do for some data - literally running chrome browser and clicking on navigation buttons to scrape their live request data because they block everything and anything trying to interact directly. I think it was one of the banks.</p>
+
+
+
+<a name="441106755"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441106755" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441106755">(May 28 2024 at 20:05)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers/near/441106385">said</a>:</p>
+<blockquote>
+<p>On one hand, yes. But, gee, you should see what I do for some data - literally running chrome browser and clicking on navigation buttons to scrape their live request data because they block everything and anything trying to interact directly. I think it was one of the banks.</p>
+</blockquote>
+<p>Yes, I've seen selenium being in dependencies, and guessed something like that was a reason.</p>
+<p>By the way, DPD has some form of map, where you can put in your address/index and it'll show lockers nearby. But I don't see any reasonable way to use it.</p>
+
+
+
+<a name="441325034"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441325034" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441325034">(May 29 2024 at 21:55)</a>:</h4>
+<p><span class="user-mention" data-user-id="571825">@HellMap</span>, <a href="https://osmlatvija.github.io/Osmalyzer/">Osmalyzer</a> skipping Venipak for some reason. Can you check why?<br>
+When I run it locally, everything works fine.<br>
+<a href="/user_uploads/49624/9IAYQsMR__-4i17LOmPWd5zU/image.png">image.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/9IAYQsMR__-4i17LOmPWd5zU/image.png" title="image.png"><img src="/user_uploads/49624/9IAYQsMR__-4i17LOmPWd5zU/image.png"></a></div>
+
+
+
+<a name="441415179"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441415179" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441415179">(May 30 2024 at 09:12)</a>:</h4>
+<p>So the default web read fails on GitHub with</p>
+<div class="codehilite"><pre><span></span><code>Failed to retrieve with exception!
+Exception message: One or more errors occurred. (The SSL connection could not be established, see inner exception.)
+Inner exception message: The SSL connection could not be established, see inner exception.
+Inner exception message: Authentication failed, see inner exception.
+Inner exception message: SSL Handshake failed with OpenSSL error - SSL_ERROR_SSL.
+Inner exception message: error:0A000410:SSL routines::sslv3 alert handshake failure
+</code></pre></div>
+
+
+
+<a name="441415815"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441415815" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441415815">(May 30 2024 at 09:15)</a>:</h4>
+<p>I switched it to browsing instead of raw read as that sometimes helps, but whatever reply it got wasn't formatted as expected - it probably got some error page or something like Cloudflare protection or something. </p>
+<div class="codehilite"><pre><span></span><code>Exception message: Unexpected character encountered while parsing value: &lt;. Path &#39;&#39;, line 0, position 0.
+</code></pre></div>
+<p>Probably means it was a start of some sort of html instead of JSON</p>
+
+
+
+<a name="441418494"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441418494" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441418494">(May 30 2024 at 09:30)</a>:</h4>
+<p>Hmm, okay, so browsing response wraps it up into</p>
+<div class="codehilite"><pre><span></span><code>We were trying to parse: &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;color-scheme&quot; content=&quot;light dark&quot;&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;/head&gt;&lt;body&gt;&lt;pre&gt;[{&quot;id&quot;:3348,&quot;name&quot;:&quot;Venipak locker, Coop Venipak pakiautomaat&quot;,&quot;code&quot;:&quot;12142751&quot;,&quot;address&quot;:&quot;P\u00e4rn [1635718]...
+</code></pre></div>
+<p>So it sounds like the data is there, just... decorated. This doesn't happen on my local machine.</p>
+
+
+
+<a name="441420903"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441420903" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441420903">(May 30 2024 at 09:44)</a>:</h4>
+<p>Okay, I stripped the html from the response and it seems to work fine now. I have no idea why Github gets it wrapped in HTML and locally I don't. Or why their SSL fails with this site by default. I imagine whatever fails by default is what full Chromium/Selenium browser knows how to handle, but the result is different. I am not even going to try and debug this.</p>
+
+
+
+<a name="441422338"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441422338" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441422338">(May 30 2024 at 09:53)</a>:</h4>
+<p>To resume from <a href="https://github.com/OSMLatvija/Osmalyzer/pull/33#discussion_r1619420968">https://github.com/OSMLatvija/Osmalyzer/pull/33#discussion_r1619420968</a></p>
+<blockquote>
+<p>One thing that needs an alignment: how both of them should be tagged?<br>
+I assumed <code>brand=Unisend</code> + <code>operator=Unisend</code> and <code>brand=Unisend</code> + <code>operator=uDrop</code> (and already mapped a couple in that way). But maybe this is a correct usecase for <a href="https://wiki.openstreetmap.org/wiki/Key:network#Amenities"><code>network</code></a><code>=Unisend</code>?</p>
+</blockquote>
+<div class="message_embed"><a class="message_embed_image" href="https://github.com/OSMLatvija/Osmalyzer/pull/33#discussion_r1619420968" style="background-image: url(&quot;https://uploads.zulipusercontent.net/7f8077de3280ea3e7ffd4bf755be21da4ef154c1/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f356666363037373437386164336633383230346239356566393666326136636533306338633864353430376466306239613931616466623632663932333537612f4f534d4c617476696a612f4f736d616c797a65722f70756c6c2f3333&quot;)"></a><div class="data-container"><div class="message_embed_title"><a href="https://github.com/OSMLatvija/Osmalyzer/pull/33#discussion_r1619420968" title="#7 Parcel lockers by markalex2209 · Pull Request #33 · OSMLatvija/Osmalyzer">#7 Parcel lockers by markalex2209 · Pull Request #33 · OSMLatvija/Osmalyzer</a></div><div class="message_embed_description">Added three of desired parcel lockers for #7.
+Added category Parcel lockers and analysis for Venipak, Omniva and Smartpost.</div></div></div>
+
+
+
+<a name="441423382"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441423382" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441423382">(May 30 2024 at 10:00)</a>:</h4>
+<p>This is something I have never encountered. In fact, I wonder if anyone has? Like, are there any other companies in the world that offer parcel locker "rental" like this, so to speak. I have no idea how we are going to tag this. Like, what happens if a parcel locker is used by more than one service? We currently only have Unisend -branded lockers from uDrop, so it's almost fine to do <code>brand=Unisend</code> + <code>operator=uDrop</code>. But then what happens with <code>brand=Unisend;Superpackages;BoxShippers</code> + <code>operator=uDrop</code>?</p>
+
+
+
+<a name="441428192"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441428192" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441428192">(May 30 2024 at 10:30)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers/near/441420903">said</a>:</p>
+<blockquote>
+<p>Okay, I stripped the html from the response and it seems to work fine now. I have no idea why Github gets it wrapped in HTML and locally I don't. Or why their SSL fails with this site by default. I imagine whatever fails by default is what full Chromium/Selenium browser knows how to handle, but the result is different. I am not even going to try and debug this.</p>
+</blockquote>
+<p>It could be the Content-Type header or similar differences in how requests are sent. One could play with curl and see whether it explains the HTML vs JSON diff (and then possibly set that header in Github, if supported).</p>
+<p>SSL - could be missing the CA cert, or perhaps some validation differences. Can be debugged, but if there's a workaround... :)</p>
+
+
+
+<a name="441428249"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441428249" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441428249">(May 30 2024 at 10:30)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers/near/441423382">said</a>:</p>
+<blockquote>
+<p>This is something I have never encountered. In fact, I wonder if anyone has? Like, are there any other companies in the world that offer parcel locker "rental" like this, so to speak. I have no idea how we are going to tag this. Like, what happens if a parcel locker is used by more than one service? We currently only have Unisend -branded lockers from uDrop, so it's almost fine to do <code>brand=Unisend</code> + <code>operator=uDrop</code>. But then what happens with <code>brand=Unisend;Superpackages;BoxShippers</code> + <code>operator=uDrop</code>?</p>
+</blockquote>
+<p>I'd say make it work for the current situation, worry about potential scenarios once they appear.</p>
+
+
+
+<a name="441429216"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441429216" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441429216">(May 30 2024 at 10:37)</a>:</h4>
+<p>How would you debug something that is running on a Github machine? For example, I can't "play with curl", because that means making a repo, setting up actions, writing that custom curl code and runners to actually run it and it's not like I can debug in memory - all I get is output. And who says curl will work the same on Github as it works locally? So it's absolutely not worth the effort.</p>
+
+
+
+<a name="441433865"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441433865" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441433865">(May 30 2024 at 11:06)</a>:</h4>
+<p>I meant using curl elsewhere to figure out whether HTTP headers can predictably affect output.</p>
+
+
+
+<a name="441433933"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441433933" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441433933">(May 30 2024 at 11:07)</a>:</h4>
+<p>(or any other tool, just that curl would be my first choice)</p>
+
+
+
+<a name="441461603"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441461603" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441461603">(May 30 2024 at 13:52)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers/near/441415179">said</a>:</p>
+<blockquote>
+<p>So the default web read fails on GitHub with</p>
+<p><div class="codehilite"><pre><span></span><code>Failed to retrieve with exception!
+Exception message: One or more errors occurred. (The SSL connection could not be established, see inner exception.)
+Inner exception message: The SSL connection could not be established, see inner exception.
+Inner exception message: Authentication failed, see inner exception.
+Inner exception message: SSL Handshake failed with OpenSSL error - SSL_ERROR_SSL.
+Inner exception message: error:0A000410:SSL routines::sslv3 alert handshake failure
+</code></pre></div><br>
+</p>
+</blockquote>
+<p>I believe usual two suspects will be incorrect time(if github runner does something strange with their machine's time) and difference in supported protocols (if github enforses newer versions of tls then the one used on venipak's site).</p>
+<p>I don't think we can do much in either case, but I'll try to dig around a bit just out of curiosity.</p>
+
+
+
+<a name="441462211"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441462211" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441462211">(May 30 2024 at 13:55)</a>:</h4>
+<p>Regarding selenium - I'd guess this wrapping of json into html is something what browser could do. Don't have recent experience with selenium, but might be that your local setup uses different engine/version/options than one at github.</p>
+
+
+
+<a name="441463344"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441463344" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441463344">(May 30 2024 at 14:00)</a>:</h4>
+<p>For uDrop: I agree with Rihards. Let's decide based on how it is now, and we'll adjust if needed later. <br>
+If we'll enforce reasonable tagging, it should be rather easy to batch retag into a different way later. And I use word enforce loosely here.</p>
+
+
+
+<a name="441463474"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441463474" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441463474">(May 30 2024 at 14:00)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="715892">markalex2209</span> <a href="#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers/near/441462211">said</a>:</p>
+<blockquote>
+<p>Regarding selenium - I'd guess this wrapping of json into html is something what browser could do. Don't have recent experience with selenium, but might be that your local setup uses different engine/version/options than one at github.</p>
+</blockquote>
+<p>The thing is, it doesn't wrap it in html on local machine - it returns raw json as expected. May be there's some difference between Selenium versions or OS-specific stuff or just somewthing github does. But regardless, it's unlikely something we can do anything about.</p>
+
+
+
+<a name="441463934"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441463934" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441463934">(May 30 2024 at 14:02)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="715892">markalex2209</span> <a href="#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers/near/441463344">said</a>:</p>
+<blockquote>
+<p>it should be rather easy to batch retag into a different way later</p>
+</blockquote>
+<p>Famous last words before tagging scheme gets stuck forever. But, yeah, we would probably do the "normal" stuff for now. I am just thinking about potential future problems.</p>
+
+
+
+<a name="441504464"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441504464" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441504464">(May 30 2024 at 16:42)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers/near/441463474">said</a>:</p>
+<blockquote>
+<p>The thing is, it doesn't wrap it in html on local machine - it returns raw json as expected. May be there's some difference between Selenium versions or OS-specific stuff or just somewthing github does. But regardless, it's unlikely something we can do anything about.</p>
+</blockquote>
+<p>Can Github stuff specify HTTP headers?</p>
+
+
+
+<a name="441507487"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441507487" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441507487">(May 30 2024 at 16:55)</a>:</h4>
+<p>Github doesn't specify anything, it just runs the code. We specify headers in code. Or technically, it's all defaults currently. The same code runs on Github, just in a different environment. You aren't even supposed to specify headers, that's the point of headless browsing - to receive what the user would receive. More to the point - what headers would you want to specify/change?</p>
+
+
+
+<a name="441509041"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441509041" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441509041">(May 30 2024 at 17:02)</a>:</h4>
+<p>Oh, it's running a browser behind the scenes? Yeah, then it's weird, I thought it's some code/CLI solution directly requesting data.</p>
+
+
+
+<a name="441509669"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441509669" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441509669">(May 30 2024 at 17:05)</a>:</h4>
+<p>Yeah, as mentioned above from those errors, "direct" connection simply fails (as much as http client is a "direct" connection), so have to use a "full" browser here</p>
+
+
+
+<a name="441768426"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441768426" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441768426">(May 31 2024 at 17:49)</a>:</h4>
+<p><span class="user-mention" data-user-id="571825">@HellMap</span>, I need a clarification what exactly you meant by </p>
+<blockquote>
+<p>Latvijas Pasts (also has mail boxes)</p>
+</blockquote>
+<p>in <a href="https://github.com/OSMLatvija/Osmalyzer/issues/7">this issue</a>?</p>
+<p>Because I initially that that you refer to the usual mail boxes being listed on the same map with parcel lockers.</p>
+<p>But yesterday I noticed that a lot of LP parcel locker seem to be equipped with built-in mail boxes: <br>
+<a href="/user_uploads/49624/3zIipcjMwW8UdtC5EgQ2giNq/20240530_223150.jpg">20240530_223150.jpg</a><br>
+And now I'm a bit in doubt if I understood you correctly.</p>
+<div class="message_inline_image"><a href="/user_uploads/49624/3zIipcjMwW8UdtC5EgQ2giNq/20240530_223150.jpg" title="20240530_223150.jpg"><img src="/user_uploads/49624/3zIipcjMwW8UdtC5EgQ2giNq/20240530_223150.jpg"></a></div><div class="message_embed"><a class="message_embed_image" href="https://github.com/OSMLatvija/Osmalyzer/issues/7" style="background-image: url(&quot;https://uploads.zulipusercontent.net/d9909638b4fa6b94f98756e0fd8c52df7018c45a/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f353865323363343238393339316135363433346239666532646630373364656637316332663661336665626139313761346365643639643335323434626336392f4f534d4c617476696a612f4f736d616c797a65722f6973737565732f37&quot;)"></a><div class="data-container"><div class="message_embed_title"><a href="https://github.com/OSMLatvija/Osmalyzer/issues/7" title="Parcel locker locations · Issue #7 · OSMLatvija/Osmalyzer">Parcel locker locations · Issue #7 · OSMLatvija/Osmalyzer</a></div><div class="message_embed_description">Delivery network operators: Latvijas Pasts (also has mail boxes) Omniva DPD Venipak Itella / Smartpost lockers Pickup points (like at Narvessen/petrol stations) Unisend https://my.unisend.lv/map Pa...</div></div></div>
+
+
+
+<a name="441768961"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441768961" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441768961">(May 31 2024 at 17:52)</a>:</h4>
+<p>Well, I was not aware that exists</p>
+
+
+
+<a name="441769164"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441769164" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441769164">(May 31 2024 at 17:53)</a>:</h4>
+<p><a href="https://pasts.lv/lv/zinas/7875-latvijas-pasts-atklaj-pirmos-pakomatus-ar-vestulu-kastitem">https://pasts.lv/lv/zinas/7875-latvijas-pasts-atklaj-pirmos-pakomatus-ar-vestulu-kastitem</a> This seems very new</p>
+
+
+
+<a name="441769413"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441769413" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441769413">(May 31 2024 at 17:54)</a>:</h4>
+<p>Ok, I'm glad that at least my initial understanding was aligned with yours)<br>
+But now we need to figure out how to tag this stuff(</p>
+
+
+
+<a name="441770298"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441770298" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441770298">(May 31 2024 at 17:59)</a>:</h4>
+<p>I think this is world-first.... at least I cannot find anyone else already doing it.</p>
+
+
+
+<a name="441770390"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441770390" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441770390">(May 31 2024 at 17:59)</a>:</h4>
+<p>I guess we'll have to invent something, probably <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aletter_mail_in%3Dyes">letter_mail_in=yes</a>  to match <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aparcel_mail_in%3Dyes">parcel_mail_in=yes</a></p>
+
+
+
+<a name="441770572"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441770572" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441770572">(May 31 2024 at 18:00)</a>:</h4>
+<p>Since we cannot tag mail box on parcel locker, as both are amenity and then every consumer would break with 2 values</p>
+
+
+
+<a name="441770653"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441770653" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441770653">(May 31 2024 at 18:00)</a>:</h4>
+<p>According to <a href="https://www.parcelandpostaltechnologyinternational.com/analysis/analysis-sending-letters-via-parcel-locker-will-it-catch-on.html">https://www.parcelandpostaltechnologyinternational.com/analysis/analysis-sending-letters-via-parcel-locker-will-it-catch-on.html</a> InPost allows sending letters between parcel lockers, not entierly sure what that means</p>
+<div class="message_embed"><a class="message_embed_image" href="https://www.parcelandpostaltechnologyinternational.com/analysis/analysis-sending-letters-via-parcel-locker-will-it-catch-on.html" style="background-image: url(&quot;https://uploads.zulipusercontent.net/1ef8216d3de0930115b0bee6bb3276763c71488e/68747470733a2f2f7777772e70617263656c616e64706f7374616c746563686e6f6c6f6779696e7465726e6174696f6e616c2e636f6d2f77702d636f6e74656e742f75706c6f6164732f323032342f30332f46454154555245442d494d4147452d504d5f56657374756c752d6b6173746974652d31362d7363616c65642e6a7067&quot;)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.parcelandpostaltechnologyinternational.com/analysis/analysis-sending-letters-via-parcel-locker-will-it-catch-on.html" title="ANALYSIS: Sending letters via parcel locker – will it catch on? - Parcel and Postal Technology International">ANALYSIS: Sending letters via parcel locker – will it catch on? - Parcel and Postal Technology International</a></div><div class="message_embed_description">ANALYSIS: Sending letters via parcel locker – will it catch on? - read more about this with Parcel and Postal Technology International</div></div></div>
+
+
+
+<a name="441771631"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441771631" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441771631">(May 31 2024 at 18:06)</a>:</h4>
+<p>Video seems to indicate that InPost one and "ours" are different. I'd even say that InPost one doesn't require additional tagging, since they still operate in the same way as with packages, it's just that that "package" is very thin.</p>
+
+
+
+<a name="441771956"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441771956" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441771956">(May 31 2024 at 18:07)</a>:</h4>
+<p>But for LP this seems to be indeed an additional mail box, and then letters are handled as usual. <br>
+I like your idea with <code>letter_mail_in=yes</code>. Seems very reasonable and easy to adopt.</p>
+
+
+
+<a name="441773115"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441773115" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441773115">(May 31 2024 at 18:14)</a>:</h4>
+<p>Might be consumer-unfriendly, especially if this is unique to Latvia.<br>
+Maybe a two node solution?<br>
+Not great, but maybe as a stop-gap...</p>
+
+
+
+<a name="441774159"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441774159" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441774159">(May 31 2024 at 18:20)</a>:</h4>
+<p>We shouldn't really be setting precedent for breaking the core principle of one feature, one element. And this really should be an OSM proposal so everyoen is aware.</p>
+
+
+
+<a name="441775043"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441775043" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441775043">(May 31 2024 at 18:25)</a>:</h4>
+<p>Well, remotely similar is a bank branch with an ATM, where a widely accepted (and best even) practice is to map them separately - we could say that parcel locker is a bigger feature like bank branch, that has a smaller feature like ATM - letterbox ;)<br>
+Not something I'd push 100%, but there seems to be some similarity.</p>
+
+
+
+<a name="441776493"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441776493" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441776493">(May 31 2024 at 18:32)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="568771">Rihards Olups</span> <a href="#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers/near/441775043">said</a>:</p>
+<blockquote>
+<p>Well, remotely similar is a bank branch with an ATM, where a widely accepted (and best even) practice is to map them separately - we could say that parcel locker is a bigger feature like bank branch, that has a smaller feature like ATM - letterbox ;)<br>
+Not something I'd push 100%, but there seems to be some similarity.</p>
+</blockquote>
+<p>I disagree with this analogy. ATM is mapped separately to differentiate between tags of ATM and tags of branch. And additionally, to specify locations, if branch size too large.</p>
+<p>Here the object is inseparable.</p>
+
+
+
+<a name="441776747"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441776747" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441776747">(May 31 2024 at 18:34)</a>:</h4>
+<p>To add, by that logic, we should be placing a mailbox and a parcel locker on every post office.</p>
+
+
+
+<a name="441777095"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441777095" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441777095">(May 31 2024 at 18:35)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers/near/441776747">said</a>:</p>
+<blockquote>
+<p>To add, by that logic, we should be placing a mailbox and a parcel locker on every post office.</p>
+</blockquote>
+<p>Aren't we? I mean mail boxes are usually outside and act differently from post office.</p>
+
+
+
+<a name="441777617"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441777617" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441777617">(May 31 2024 at 18:38)</a>:</h4>
+<p>But let me maybe try a different approach to this problem. If parcel locker and mailbox were standing at the same place - would we tag them as two?<br>
+And if a usual mail box was hanged not on the wall, as it usually is, but on the side of parcel locker - would we then tag it as two?</p>
+
+
+
+<a name="441778085"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441778085" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441778085">(May 31 2024 at 18:41)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="715892">markalex2209</span> <a href="#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers/near/441777095">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers/near/441776747">said</a>:</p>
+<blockquote>
+<p>To add, by that logic, we should be placing a mailbox and a parcel locker on every post office.</p>
+</blockquote>
+<p>Aren't we? I mean mail boxes are usually outside and act differently from post office.</p>
+</blockquote>
+<p>Yes, but I mean, another mail box node where the counter is - because you can mail in directly with the person. And you can receive packages over the counter. These are obviously not the same objects as the separate mailbox and any PO boxes they have.</p>
+
+
+
+<a name="441778402"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441778402" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441778402">(May 31 2024 at 18:42)</a>:</h4>
+<p>I suppose if they did literally hang the mailbox on the side of the parcel locker and they didn't interoperate in any way, I would personally tag it as two nodes</p>
+
+
+
+<a name="441779246"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441779246" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441779246">(May 31 2024 at 18:47)</a>:</h4>
+<p>(By the way, I know we inter-replied to each other, so I might have made things more confusing. I was also replying to rich with a contrived example.)</p>
+
+
+
+<a name="441779665"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441779665" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441779665">(May 31 2024 at 18:49)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers/near/441778402">said</a>:</p>
+<blockquote>
+<p>I suppose if they did literally hang the mailbox on the side of the parcel locker and they didn't interoperate in any way, I would personally tag it as two nodes</p>
+</blockquote>
+<p>Well, I don't believe those two interoperate in any way. It's simply an additional locked space with a slit in a door. <br>
+I don't see why we would want to map it differently, just because mailbox is slickly hidden under the screen, and not nailed to the sidewall.</p>
+
+
+
+<a name="441780252"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441780252" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441780252">(May 31 2024 at 18:52)</a>:</h4>
+<hr>
+<p>I initially didn't thought this would result in a tagging scheme discussion. Shouldn't this part of chat be extracted and moved to <code>#general</code>?</p>
+
+
+
+<a name="441780991"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441780991" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441780991">(May 31 2024 at 18:56)</a>:</h4>
+<p>Probably... this should be a proposal on OSM technically if we are to introduce a new tag or consider double-tagging.</p>
+
+
+
+<a name="441784386"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441784386" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Notification Bot <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441784386">(May 31 2024 at 19:12)</a>:</h4>
+<p>23 messages were moved from this topic to <a class="stream-topic" data-stream-id="358602" href="/#narrow/stream/358602-general/topic/Latvijas.20Pasts.20pakom.C4.81tu.20v.C4.93stu.C4.BCu.20s.C5.ABt.C4.AB.C5.A1ana.20.2F.20parcel.20locker.20.2E.2E.2E">#general &gt; Latvijas Pasts pakomātu vēstuļu sūtīšana / parcel locker ...</a> by <span class="user-mention silent" data-user-id="571825">HellMap</span>.</p>
+
+
+
+<a name="441784738"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441784738" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441784738">(May 31 2024 at 19:14)</a>:</h4>
+<p>Urgh, after renaming the target topic (because the title got truncated due to length), it's no longer pointing to the right link. But it's <a class="stream-topic" data-stream-id="358602" href="/#narrow/stream/358602-general/topic/Latvijas.20Pasts.20pakom.C4.81tu.20v.C4.93stu.C4.BCu.20s.C5.ABt.C4.AB.C5.A1ana">#general &gt; Latvijas Pasts pakomātu vēstuļu sūtīšana</a></p>
+
+
+
+<a name="441794866"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441794866" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441794866">(May 31 2024 at 20:07)</a>:</h4>
+<p>Added PR for Latvija Pasts lockers and mail boxes.</p>
+
+
+
+<a name="441795260"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441795260" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441795260">(May 31 2024 at 20:09)</a>:</h4>
+<p>Scraped data also contains all other items from LP site. I believe it can be used directly for a couple tasks in #33, but I don't fully understand what is the vision there, so will not try anything with it.</p>
+
+
+
+<a name="441795303"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441795303" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441795303">(May 31 2024 at 20:09)</a>:</h4>
+<p>Cool, I 'll check it out. We probably want mailboxes separate because they have stuff like ref codes and collection times and we might want to check their tags and may be do some stats or something.</p>
+
+
+
+<a name="441795684"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441795684" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441795684">(May 31 2024 at 20:11)</a>:</h4>
+<p>I think Circle K is just parcel receival because LP doesn't have officies nearby</p>
+
+
+
+<a name="441795950"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441795950" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441795950">(May 31 2024 at 20:13)</a>:</h4>
+<p>Any additional fields should be fairly easy to add if needed.</p>
+
+
+
+<a name="441796059"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441796059" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441796059">(May 31 2024 at 20:13)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers/near/441795684">said</a>:</p>
+<blockquote>
+<p>I think Circle K is just parcel receival because LP doesn't have officies nearby</p>
+</blockquote>
+<p>I guess so.<br>
+But at least in Riga a lot of them also have lockers, so not sure.</p>
+
+
+
+<a name="441802055"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441802055" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441802055">(May 31 2024 at 20:43)</a>:</h4>
+<p>I've made also unisend, but found that their data also contains provider <code>cleveron</code>. No idea what to do with this fact at this point.<br>
+<a href="/user_uploads/49624/lyiWXwfhdRwNw1lAjuKuKVvO/tableConvert.com_j71g7t.xlsx">tableConvert.com_j71g7t.xlsx</a></p>
+<p>I think I've seen one of them, and don't recall any additional markings, but I'm basically  not sure in anything for this network RN.<br>
+<a href="/user_uploads/49624/5pY4sMeSH3KGwPJfnwTlFTcw/Unisend-Parcel-lockers-report.html">Unisend-Parcel-lockers-report.html</a></p>
+
+
+
+<a name="441898735"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441898735" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441898735">(Jun 01 2024 at 12:25)</a>:</h4>
+<p>Cleveron seem to be parcel locker manufacturer <a href="https://cleveron.com/products/cleveron-352">https://cleveron.com/products/cleveron-352</a></p>
+<div class="message_embed"><a class="message_embed_image" href="https://cleveron.com/products/cleveron-352" style="background-image: url(&quot;https://uploads.zulipusercontent.net/b2f77a3e368bb58ae656242221010e6c05081110/68747470733a2f2f6d656469612e766f6f672e636f6d2f303030302f303034342f303431342f70686f746f732f436c657665726f6e2532303335322d312e6a7067&quot;)"></a><div class="data-container"><div class="message_embed_title"><a href="https://cleveron.com/products/cleveron-352" title="Automated Outdoor Parcel Locker System — Cleveron">Automated Outdoor Parcel Locker System — Cleveron</a></div><div class="message_embed_description">Cleveron 352 is an automated outdoor parcel locker, which offers efficient last-mile delivery for the retail and logistics sector.</div></div></div>
+
+
+
+<a name="441898842"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/441898842" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#441898842">(Jun 01 2024 at 12:26)</a>:</h4>
+<p>But yeah, I also do not understand what they mean with their "provider" mixing "cleveron", "udrop" and "unisend"....</p>
+
+
+
+<a name="442060740"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/442060740" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#442060740">(Jun 02 2024 at 14:51)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="571825">HellMap</span> <a href="#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers/near/441415179">said</a>:</p>
+<blockquote>
+<p>So the default web read fails on GitHub with</p>
+<p><div class="codehilite"><pre><span></span><code>Failed to retrieve with exception!
+Exception message: One or more errors occurred. (The SSL connection could not be established, see inner exception.)
+Inner exception message: The SSL connection could not be established, see inner exception.
+Inner exception message: Authentication failed, see inner exception.
+Inner exception message: SSL Handshake failed with OpenSSL error - SSL_ERROR_SSL.
+Inner exception message: error:0A000410:SSL routines::sslv3 alert handshake failure
+</code></pre></div><br>
+</p>
+</blockquote>
+<p>Checked TLS protocols supported by venipak: <code>nmap --script ssl-enum-ciphers -p 443 go.venipak.lt</code></p>
+<div class="codehilite"><pre><span></span><code>Starting Nmap 7.95 ( https://nmap.org ) at 2024-06-02 17:39 FLE Daylight Time
+Nmap scan report for go.venipak.lt (46.255.211.5)
+Host is up (0.0098s latency).
+
+PORT    STATE SERVICE
+443/tcp open  https
+| ssl-enum-ciphers:
+|   TLSv1.0:
+|     ciphers:
+|       TLS_RSA_WITH_RC4_128_SHA (rsa 2048) - C
+|       TLS_RSA_WITH_CAMELLIA_256_CBC_SHA (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_CBC_SHA (rsa 2048) - A
+|       TLS_RSA_WITH_CAMELLIA_128_CBC_SHA (rsa 2048) - A
+|     compressors:
+|       NULL
+|     cipher preference: server
+|     warnings:
+|       Broken cipher RC4 is deprecated by RFC 7465
+|       Forward Secrecy not supported by any cipher
+|   TLSv1.1:
+|     ciphers:
+|       TLS_RSA_WITH_RC4_128_SHA (rsa 2048) - C
+|       TLS_RSA_WITH_CAMELLIA_256_CBC_SHA (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_CBC_SHA (rsa 2048) - A
+|       TLS_RSA_WITH_CAMELLIA_128_CBC_SHA (rsa 2048) - A
+|     compressors:
+|       NULL
+|     cipher preference: server
+|     warnings:
+|       Broken cipher RC4 is deprecated by RFC 7465
+|       Forward Secrecy not supported by any cipher
+|   TLSv1.2:
+|     ciphers:
+|       TLS_RSA_WITH_RC4_128_SHA (rsa 2048) - C
+|       TLS_RSA_WITH_AES_256_GCM_SHA384 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_CBC_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_CAMELLIA_256_CBC_SHA (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_GCM_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_CBC_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_CBC_SHA (rsa 2048) - A
+|       TLS_RSA_WITH_CAMELLIA_128_CBC_SHA (rsa 2048) - A
+|     compressors:
+|       NULL
+|     cipher preference: server
+|     warnings:
+|       Broken cipher RC4 is deprecated by RFC 7465
+|       Forward Secrecy not supported by any cipher
+|_  least strength: C
+
+Nmap done: 1 IP address (1 host up) scanned in 2.40 seconds
+</code></pre></div>
+<p>While those are OK, it's a bit sus, that only RSA is in the list.<br>
+Quick check through other sites used showed that other sites have other TLS ciphers supported. </p>
+<p>Have to guess that those RSA ciphers are disabled on build agent for some reason. Handshake error is inline with this.<br>
+Only thing I don't know is why browsers works. Most of browsers (only exception I know of FF and its "family") use OS protocols.</p>
+<p>If my conclusion is correct, there is not much of what we can do from our side: doubt you can control settings of OS.</p>
+
+
+
+<a name="442061467"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/442061467" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#442061467">(Jun 02 2024 at 15:01)</a>:</h4>
+<p>There might be some stuff one could control, but I am personally really not going to bother with this. This is just too much work and it's all very fragile. Sites break and change all the time and if they don't work with default setup, then theres only so much effort I'm willing to spend. I only decided to investigate RS site because I wanted to know if this is something I can just bulk-fix once for the future if this is really going to be a common problem.</p>
+
+
+
+<a name="442079638"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/442079638" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#442079638">(Jun 02 2024 at 17:30)</a>:</h4>
+<p>There's <a href="https://stackoverflow.com/a/71672975/272387">https://stackoverflow.com/a/71672975/272387</a> , but meh...</p>
+<div class="message_embed"><a class="message_embed_image" href="https://stackoverflow.com/a/71672975/272387" style="background-image: url(&quot;https://uploads.zulipusercontent.net/925df65c212e80f19e81fcac1fb25e660797c3ce/68747470733a2f2f63646e2e737374617469632e6e65742f53697465732f737461636b6f766572666c6f772f496d672f6170706c652d746f7563682d69636f6e40322e706e673f763d373364373961383962646564&quot;)"></a><div class="data-container"><div class="message_embed_title"><a href="https://stackoverflow.com/a/71672975/272387" title="The SSL connection could not be established, see inner exception when configuring Github Self-Hosted Runner">The SSL connection could not be established, see inner exception when configuring Github Self-Hosted Runner</a></div><div class="message_embed_description">I am studying Github Enterprise instances and when I am trying to add a new self-hosted runner to my GitHub enterprise instance by following the steps presented at the Settings/Actions/Runners/Create/</div></div></div>
+
+
+
+<a name="442084458"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/442084458" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#442084458">(Jun 02 2024 at 18:10)</a>:</h4>
+<p>As far as I can tell, <code>GITHUB_ACTIONS_RUNNER_TLS_NO_VERIFY=1</code> is for a different purpose: <a href="https://github.com/actions/runner/pull/1616">to skip cert verification for connection between build agent and Github</a>.</p>
+<p>Maybe there is something similar for general Http connections, but I don't think it would help us either.</p>
+<p>At this point problem is that client cannot finish handshake (agree with server on protocol+cipher to establish a connection). This happens before certificate validation, IIRC. I don't know .net enough to state anything authoritatively, but I doubt that it's possible to override list of supported algorithms from within app (at least for default http library). </p>
+<p>I guess(!) it's possible to use some different http lib, that doesn't rely on OS implementation/configs.</p>
+<div class="message_embed"><a class="message_embed_image" href="https://github.com/actions/runner/pull/1616" style="background-image: url(&quot;https://uploads.zulipusercontent.net/c713276b8986ea19cc4dc359eef5b65f52d32bd2/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f373361646166393164373437343437313561343132643261383233633839326438653535383732393566633963306339643965613732376332353234316132382f616374696f6e732f72756e6e65722f70756c6c2f31363136&quot;)"></a><div class="data-container"><div class="message_embed_title"><a href="https://github.com/actions/runner/pull/1616" title="Introduce GITHUB_ACTIONS_RUNNER_TLS_NO_VERIFY=1 to skip SSL cert verification for the runner. by TingluoHuang · Pull Request #1616 · actions/runner">Introduce GITHUB_ACTIONS_RUNNER_TLS_NO_VERIFY=1 to skip SSL cert verification for the runner. by TingluoHuang · Pull Request #1616 · actions/runner</a></div><div class="message_embed_description">Allow customers to turn off SSL validation when the runner connects to the service.
+export GITHUB_ACTIONS_RUNNER_TLS_NO_VERIFY=1 before configuring and running the runner.
+Use cases
+
+Behind proxy t...</div></div></div>
+
+
+
+<a name="442093293"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/442093293" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#442093293">(Jun 02 2024 at 19:28)</a>:</h4>
+<p>Ah, indeed. I guess this stays open for now then.</p>
+
+
+
+<a name="442210384"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/442210384" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#442210384">(Jun 03 2024 at 10:20)</a>:</h4>
+<p><a href="https://www.openstreetmap.org/node/11037705191">This</a> is a real DHL locker: have seen it with my own eyes. Should DHL be added into <a href="https://github.com/OSMLatvija/Osmalyzer/blob/main/data/parcel%20locker%20operators.tsv">the list of "expected brands"</a>?</p>
+<div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/node/11037705191" style="background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/node/11037705191" title="Node: 11037705191 | OpenStreetMap">Node: 11037705191 | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class="message_embed"><a class="message_embed_image" href="https://github.com/OSMLatvija/Osmalyzer/blob/main/data/parcel%20locker%20operators.tsv" style="background-image: url(&quot;https://uploads.zulipusercontent.net/191d452da0aa55b4c64c3bd1bcff0dd971d2810c/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f383932383466333333313463336561346663313164623234643866343963643438623331303235386463343031653865613164313033363563383732366465652f4f534d4c617476696a612f4f736d616c797a6572&quot;)"></a><div class="data-container"><div class="message_embed_title"><a href="https://github.com/OSMLatvija/Osmalyzer/blob/main/data/parcel%20locker%20operators.tsv" title="Osmalyzer/data/parcel locker operators.tsv at main · OSMLatvija/Osmalyzer">Osmalyzer/data/parcel locker operators.tsv at main · OSMLatvija/Osmalyzer</a></div><div class="message_embed_description">Parsing OSM data in Latvia against various data sources - OSMLatvija/Osmalyzer</div></div></div>
+
+
+
+<a name="442220934"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/442220934" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#442220934">(Jun 03 2024 at 11:07)</a>:</h4>
+<p>Wondered how many are there in Latvia, but the map in <a href="https://dhlexpresslatvia.lv/lv/dhl-paku-terminalis/">https://dhlexpresslatvia.lv/lv/dhl-paku-terminalis/</a> does not load for me (the "allow" button does nothing).</p>
+
+
+
+<a name="442221726"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/442221726" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#442221726">(Jun 03 2024 at 11:11)</a>:</h4>
+<p>Same</p>
+
+
+
+<a name="442223703"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/442223703" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#442223703">(Jun 03 2024 at 11:20)</a>:</h4>
+<p>Called DHL, it's their only parcel locker / mail-in station in Latvia.<br>
+A site where the map works: <a href="https://mydhl.express.dhl/lv/lv/locator.html">https://mydhl.express.dhl/lv/lv/locator.html</a> .<br>
+Although cannot find that locker in the map.</p>
+
+
+
+<a name="442225376"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/442225376" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#442225376">(Jun 03 2024 at 11:29)</a>:</h4>
+<p>Yeah, should add to the list. I know we also have a couple lockers that do not belong to any of the big networks but are more like "you can pick ups stuff from this shop after hours".</p>
+
+
+
+<a name="442227032"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/442227032" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#442227032">(Jun 03 2024 at 11:36)</a>:</h4>
+<p>For example, <a href="https://www.mapillary.com/app/?focus=photo&amp;pKey=611575394153040">https://www.mapillary.com/app/?focus=photo&amp;pKey=611575394153040</a> that I finally remembered to map <a href="https://www.openstreetmap.org/node/11953641656">https://www.openstreetmap.org/node/11953641656</a></p>
+<div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/node/11953641656" style="background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/node/11953641656" title="Node: 11953641656 | OpenStreetMap">Node: 11953641656 | OpenStreetMap</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="442227508"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/442227508" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#442227508">(Jun 03 2024 at 11:38)</a>:</h4>
+<p>Yes, I had noticed something like this in one of the pharmacies. Not sure though if it's correct to call one of those a parcel locker.</p>
+
+
+
+<a name="442228295"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/442228295" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#442228295">(Jun 03 2024 at 11:41)</a>:</h4>
+<p>I'm pretty sure it is - I mean, it's a storage locker for... parcels :) We don't have many that aren't from the main brands, let alone have them mapped. But I don't see why they wouldn't count - and what other tag would we choose?</p>
+
+
+
+<a name="442229206"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/442229206" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Notification Bot <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#442229206">(Jun 03 2024 at 11:46)</a>:</h4>
+<p>8 messages were moved from this topic to <a class="stream-topic" data-stream-id="358602" href="/#narrow/stream/358602-general/topic/Pakom.C4.81tu.20da.C5.BE.C4.81d.C4.ABba">#general &gt; Pakomātu dažādība</a> by <span class="user-mention silent" data-user-id="571825">HellMap</span>.</p>
+
+
+
+<a name="444417600"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/444417600" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Edgars Košovojs <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#444417600">(Jun 13 2024 at 09:06)</a>:</h4>
+<p>hi! you could get dpd parcel locations from json that is available here: <a href="https://www.dpd.com/ee/en/business-customer-solutions/">https://www.dpd.com/ee/en/business-customer-solutions/</a></p>
+
+
+
+<a name="444417716"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/444417716" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Edgars Košovojs <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#444417716">(Jun 13 2024 at 09:06)</a>:</h4>
+<p>the "Automatically updated parcel locker list" section</p>
+
+
+
+<a name="444418778"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/444418778" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#444418778">(Jun 13 2024 at 09:12)</a>:</h4>
+<p>Nice find!<br>
+Yes, that is exactly what is needed, will add those.</p>
+
+
+
+<a name="444418830"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/444418830" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#444418830">(Jun 13 2024 at 09:13)</a>:</h4>
+<p>Unless you want to implement it yourself)</p>
+
+
+
+<a name="444418872"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/444418872" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#444418872">(Jun 13 2024 at 09:13)</a>:</h4>
+<p>Neat, thanks. The opening hours format/contents is a bit weird, but that's probably not the first priority.<br>
+<a href="/user_uploads/49624/8EjTFXWjs_y-z3CJxffj35qK/image.png">DPD opening hours</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/8EjTFXWjs_y-z3CJxffj35qK/image.png" title="DPD opening hours"><img src="/user_uploads/49624/8EjTFXWjs_y-z3CJxffj35qK/image.png"></a></div>
+
+
+
+<a name="444419087"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/444419087" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#444419087">(Jun 13 2024 at 09:14)</a>:</h4>
+<p>We are ignoring opening hours for all of the lockers at the moment.</p>
+
+
+
+<a name="444425199"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/444425199" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#444425199">(Jun 13 2024 at 09:49)</a>:</h4>
+<p>Looks like all items are the same for opening times - 24/7. This seems more like someone trying to work around the scheme they had to use. But yeah, not using these yet. I think the ones that might have opening hours are inside shopping centers and such, so their hours match those. it would probably be an error to tag them as anything other than those hours.</p>
+
+
+
+<a name="444432499"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/444432499" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#444432499">(Jun 13 2024 at 10:26)</a>:</h4>
+<p>Parsed them <a href="https://osmlatvija.github.io/Osmalyzer/DPD%20Parcel%20lockers%20report.html">https://osmlatvija.github.io/Osmalyzer/DPD%20Parcel%20lockers%20report.html</a> Thanks for finding the data file</p>
+
+
+
+<a name="444432694"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/444432694" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Rihards Olups <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#444432694">(Jun 13 2024 at 10:27)</a>:</h4>
+<p>Yeah, absolutely.<br>
+Are you saying that some DPD lockers are inside shopping centres, but their data does not reflect that?</p>
+
+
+
+<a name="444433006"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/444433006" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#444433006">(Jun 13 2024 at 10:28)</a>:</h4>
+<p>Not specifically DPD, just lockers in general. I think it's only those stupid Smartpost ones that are always inside. Unfortunately, it's what Amazon uses, so it's a pain...</p>
+
+
+
+<a name="444436501"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/444436501" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#444436501">(Jun 13 2024 at 10:52)</a>:</h4>
+<p>Also quite a lot of Latvijas Pasts ones are inside stores.</p>
+
+
+
+<a name="444436601"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/444436601" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#444436601">(Jun 13 2024 at 10:52)</a>:</h4>
+<p>Oh, I hadn't seen them. I guess I just don't visit stores :D</p>
+
+
+
+<a name="444437040"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Parcel%20lockers/near/444437040" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Parcel.20lockers.html#444437040">(Jun 13 2024 at 10:56)</a>:</h4>
+<p>I didn't know until I needed to receive something from one, and struggled to find it)<br>
+Though my "usual" one is technically inside, between two entrance doors.</p>
+
+
+
+<hr><p>Last updated: Mar 02 2026 at 10:27 UTC</p>
+</html>

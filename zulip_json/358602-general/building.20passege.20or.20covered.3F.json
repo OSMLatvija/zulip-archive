@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>Vai tas ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Acovered%3Dyes\">covered=yes</a> vai <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Atunnel%3Dbuilding_passage\">tunnel=building_passage</a>? Aizdomājos, jo sastopos ar baigi platiem, kurus pa tuneli gluži nenosauksi - vienkārši māja uz kātiem. Wiki gan arī diezgan plats ir passage.<br>\n<a href=\"/user_uploads/49624/pQwzZa_OwILMgHlWLVF-ZPjt/bp-or-c.png\">bp-or-c.png</a> <br>\n<a href=\"/user_uploads/49624/J4YgePywLEll35mAWcLu96P_/bp-or-c-2.png\">bp-or-c-2.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/pQwzZa_OwILMgHlWLVF-ZPjt/bp-or-c.png\" title=\"bp-or-c.png\"><img src=\"/user_uploads/49624/pQwzZa_OwILMgHlWLVF-ZPjt/bp-or-c.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/J4YgePywLEll35mAWcLu96P_/bp-or-c-2.png\" title=\"bp-or-c-2.png\"><img src=\"/user_uploads/49624/J4YgePywLEll35mAWcLu96P_/bp-or-c-2.png\"></a></div>",
+        "id": 360622660,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684870107
+    },
+    {
+        "content": "<p>Pēc Wiki izskatās, ka izšķirošais faktors ir \"walls on both sides\". Šajā gadījumā es teiktu <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Acovered\">covered=*</a>.</p>",
+        "id": 360717518,
+        "sender_full_name": "i-ky",
+        "timestamp": 1684915568
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p><a href=\"https://github.com/OSMLatvija/Osmalyzer/actions/runs/6021280518/job/16333888528\">https://github.com/OSMLatvija/Osmalyzer/actions/runs/6021280518/job/16333888528</a><br>\nŅemot vērā, ka kodā nekādu izmaiņu nebija, salūza drīzāk kaut kas datos, bet pēc exception traceback nevar saprast, kur un kas tieši.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/OSMLatvija/Osmalyzer/actions/runs/6021280518/job/16333888528\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/920e73182babba4f299d627f4a393193172f13e9\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f386135356535616637333134376534396632616337646530653066656136613465373561386231326261366136663432396337313764643861346461623562392f4f534d4c617476696a612f4f736d616c797a6572)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/OSMLatvija/Osmalyzer/actions/runs/6021280518/job/16333888528\" title=\".github/workflows/main.yaml · OSMLatvija/Osmalyzer@103f40a\">.github/workflows/main.yaml · OSMLatvija/Osmalyzer@103f40a</a></div><div class=\"message_embed_description\">Parsing OSM data when it's too complex for Overpass - .github/workflows/main.yaml · OSMLatvija/Osmalyzer@103f40a</div></div></div>",
+        "id": 388084293,
+        "sender_full_name": "i-ky",
+        "timestamp": 1693394437
+    },
+    {
+        "content": "<p>Jā, drošvien datos. Es tur nekur pat nemēģināju no tā izvairīties. Interesanti, kāpēc viņš man nesūta vēstuli.</p>",
+        "id": 388085002,
+        "sender_full_name": "HellMap",
+        "timestamp": 1693394749
+    },
+    {
+        "content": "<p>Autotransporta direkcijai GTFS datos ID norāda uz neeksistējošu</p>",
+        "id": 388085562,
+        "sender_full_name": "HellMap",
+        "timestamp": 1693394960
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Osmalyzer.20sal.C5.ABza/near/388085002\">said</a>:</p>\n<blockquote>\n<p>Interesanti, kāpēc viņš man nesūta vēstuli.</p>\n</blockquote>\n<p><a href=\"https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/notifications-for-workflow-runs\">Cik interesanti</a>:</p>\n<blockquote>\n<p>Notifications for scheduled workflows are sent to the user who initially created the workflow. If a different user updates the cron syntax in the workflow file, subsequent notifications will be sent to that user instead. If a scheduled workflow is disabled and then re-enabled, notifications will be sent to the user who re-enabled the workflow rather than the user who last modified the cron syntax.</p>\n</blockquote>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/notifications-for-workflow-runs\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/9584cd39a683b9a4afc1c82dcfd92b6f7dc45189\\/68747470733a2f2f6769746875622e6769746875626173736574732e636f6d2f696d616765732f6d6f64756c65732f6f70656e5f67726170682f6769746875622d6c6f676f2e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/notifications-for-workflow-runs\" title=\"Notifications for workflow runs - GitHub Docs\">Notifications for workflow runs - GitHub Docs</a></div><div class=\"message_embed_description\">You can subscribe to notifications about workflow runs that you trigger.</div></div></div>",
+        "id": 388086033,
+        "sender_full_name": "i-ky",
+        "timestamp": 1693395156
+    },
+    {
+        "content": "<p>Jā, \"interesanti\"... <span aria-label=\"man facepalming\" class=\"emoji emoji-1f926-200d-2642\" role=\"img\" title=\"man facepalming\">:man_facepalming:</span></p>",
+        "id": 388086764,
+        "sender_full_name": "HellMap",
+        "timestamp": 1693395456
+    }
+]

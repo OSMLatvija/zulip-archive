@@ -1,0 +1,70 @@
+<html>
+<head><meta charset="utf-8"><title>Overpass Turbo short link bot · Zulip · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://osmlatvija.github.io/zulip-archive/stream/362235-Zulip/index.html">Zulip</a></h2>
+<h3>Topic: <a href="https://osmlatvija.github.io/zulip-archive/stream/362235-Zulip/topic/Overpass.20Turbo.20short.20link.20bot.html">Overpass Turbo short link bot</a></h3>
+
+<hr>
+
+<base href="https://osmlatvija.zulipchat.com">
+
+<head><link href="https://osmlatvija.github.io/zulip-archive/style.css" rel="stylesheet"></head>
+
+<a name="376333665"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/362235-Zulip/topic/Overpass%20Turbo%20short%20link%20bot/near/376333665" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/362235-Zulip/topic/Overpass.20Turbo.20short.20link.20bot.html#376333665">(Jul 18 2023 at 12:38)</a>:</h4>
+<p>Neskatoties uz to, ka mums ir <code>overpass</code> un <code>wizard</code> <a href="https://zulip.com/help/code-blocks#code-playgrounds">Code Playgrounds</a>, kas ļauj ierakstīt čatā vaicājuma tekstu un dabūt klīkšķināmo pogu, lai pāriet uz Overpass Turbo lapu, ik pa laiku kāds ie'paste'o short link (piemēram, <a href="#narrow/stream/360959-adreses/topic/.E2.9C.94.20building.3Dno/near/320104328">te</a>). Ideja ir uztaisīt Zulip <a href="https://github.com/Davis-Klavins/osm-latvia-bot">botu</a>, kas skanēs visus ienākošus massage'us, un ja tiek pamanīts tāds short link, <a href="https://github.com/Davis-Klavins/osm-latvia-bot">bots</a> atbildēs ar vaicājuma tekstu koda blokā.</p>
+<div class="message_embed"><a class="message_embed_image" href="https://zulip.com/help/code-blocks#code-playgrounds" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/df83b8ca6f665e54aab5f8f261d9ceb696f2f5c3\/68747470733a2f2f7a756c6970636861742e636f6d2f7374617469632f696d616765732f6c6f676f2f7a756c69702d69636f6e2d313238783132382e706e67)"></a><div class="data-container"><div class="message_embed_title"><a href="https://zulip.com/help/code-blocks#code-playgrounds" title="Code blocks | Zulip help center">Code blocks | Zulip help center</a></div><div class="message_embed_description">You can write snippets of code, code blocks, and other text in a fixed-width font using standard Markdown formatting. Zulip also has syntax highlighting and supports configuring custom code playgrounds. | Tagging a code block with a language enables syntax highlighting and (if configured) code playgrounds. Zulip supports syntax highlighting for hundreds of languages. | A code block can be tagged by typing the language name after the fence (```) that begins a code block, as shown here. Typeahead will help you enter the name for the language. The Short names values from the Pygments lexer documentation are the complete set of values that support syntax highlighting.</div></div></div><div class="message_embed"><a class="message_embed_image" href="https://github.com/Davis-Klavins/osm-latvia-bot" style="background-image: url(https\:\/\/uploads\.zulipusercontent\.net\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)"></a><div class="data-container"><div class="message_embed_title"><a href="https://github.com/Davis-Klavins/osm-latvia-bot" title="GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class="message_embed_description">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>
+
+
+
+<a name="398699777"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/362235-Zulip/topic/Overpass%20Turbo%20short%20link%20bot/near/398699777" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> i-ky <a href="https://osmlatvija.github.io/zulip-archive/stream/362235-Zulip/topic/Overpass.20Turbo.20short.20link.20bot.html#398699777">(Oct 26 2023 at 14:19)</a>:</h4>
+<div class="codehilite" data-code-language="Python"><pre><span></span><code><span class="ch">#!/usr/bin/env python3</span>
+
+<span class="kn">from</span> <span class="nn">base64</span> <span class="kn">import</span> <span class="n">urlsafe_b64decode</span>
+<span class="kn">from</span> <span class="nn">urllib.parse</span> <span class="kn">import</span> <span class="n">urlparse</span><span class="p">,</span> <span class="n">parse_qsl</span><span class="p">,</span> <span class="n">unquote</span>
+<span class="kn">from</span> <span class="nn">urllib.request</span> <span class="kn">import</span> <span class="n">build_opener</span><span class="p">,</span> <span class="n">HTTPRedirectHandler</span>
+
+<span class="c1"># https://github.com/tyrasd/overpass-turbo/blob/c16d92d43a68091b56d4ec65b2ef326950d7c586/js/misc.ts#L239-L262</span>
+<span class="k">def</span> <span class="nf">decompress</span><span class="p">(</span><span class="n">data</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+    <span class="n">d</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="n">currChar</span><span class="p">,</span> <span class="o">*</span><span class="n">rest</span> <span class="o">=</span> <span class="n">data</span>
+    <span class="n">oldPhrase</span> <span class="o">=</span> <span class="n">currChar</span>
+    <span class="k">yield</span> <span class="n">currChar</span>
+    <span class="n">code</span> <span class="o">=</span> <span class="mi">256</span>
+    <span class="n">phrase</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">rest</span><span class="p">:</span>
+        <span class="n">currCode</span> <span class="o">=</span> <span class="nb">ord</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">currCode</span> <span class="o">&lt;</span> <span class="mi">256</span><span class="p">:</span>
+            <span class="n">phrase</span> <span class="o">=</span> <span class="n">i</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">phrase</span> <span class="o">=</span> <span class="n">d</span><span class="p">[</span><span class="n">currCode</span><span class="p">]</span> <span class="k">if</span> <span class="n">currCode</span> <span class="ow">in</span> <span class="n">d</span> <span class="k">else</span> <span class="n">oldPhrase</span> <span class="o">+</span> <span class="n">currChar</span>
+        <span class="k">yield</span> <span class="n">phrase</span>
+        <span class="n">currChar</span> <span class="o">=</span> <span class="n">phrase</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">d</span><span class="p">[</span><span class="n">code</span><span class="p">]</span> <span class="o">=</span> <span class="n">oldPhrase</span> <span class="o">+</span> <span class="n">currChar</span>
+        <span class="n">code</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="n">oldPhrase</span> <span class="o">=</span> <span class="n">phrase</span>
+
+<span class="c1"># https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/escape</span>
+<span class="k">def</span> <span class="nf">escape</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">transform</span><span class="p">(</span><span class="n">c</span><span class="p">):</span>
+        <span class="k">if</span> <span class="s2">"A"</span> <span class="o">&lt;=</span> <span class="n">c</span> <span class="ow">and</span> <span class="n">c</span> <span class="o">&lt;=</span> <span class="s2">"Z"</span> <span class="ow">or</span> <span class="s2">"a"</span> <span class="o">&lt;=</span> <span class="n">c</span> <span class="ow">and</span> <span class="n">c</span> <span class="o">&lt;=</span> <span class="s2">"z"</span> <span class="ow">or</span> <span class="s2">"0"</span> <span class="o">&lt;=</span> <span class="n">c</span> <span class="ow">and</span> <span class="n">c</span> <span class="o">&lt;=</span> <span class="s2">"9"</span> <span class="ow">or</span> <span class="n">c</span> <span class="ow">in</span> <span class="sa">r</span><span class="s2">"@\*_+-./"</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">c</span>
+        <span class="n">o</span> <span class="o">=</span> <span class="nb">ord</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="s2">"%</span><span class="si">{</span><span class="n">o</span><span class="si">:</span><span class="s2">02x</span><span class="si">}</span><span class="s2">"</span> <span class="k">if</span> <span class="n">o</span> <span class="o">&lt;</span> <span class="mi">256</span> <span class="k">else</span> <span class="sa">f</span><span class="s2">"%u</span><span class="si">{</span><span class="n">o</span><span class="si">:</span><span class="s2">04x</span><span class="si">}</span><span class="s2">"</span>
+    <span class="k">return</span> <span class="s2">""</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="n">transform</span><span class="p">,</span> <span class="n">s</span><span class="p">))</span>
+
+<span class="k">class</span> <span class="nc">My</span><span class="p">(</span><span class="n">HTTPRedirectHandler</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">redirect_request</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">req</span><span class="p">,</span> <span class="n">fp</span><span class="p">,</span> <span class="n">code</span><span class="p">,</span> <span class="n">msg</span><span class="p">,</span> <span class="n">hdrs</span><span class="p">,</span> <span class="n">newurl</span><span class="p">):</span>
+        <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">parse_qsl</span><span class="p">(</span><span class="n">urlparse</span><span class="p">(</span><span class="n">newurl</span><span class="p">)</span><span class="o">.</span><span class="n">query</span><span class="p">,</span> <span class="n">strict_parsing</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">"ASCII"</span><span class="p">,</span> <span class="n">errors</span><span class="o">=</span><span class="s2">"strict"</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">k</span> <span class="o">==</span> <span class="s2">"q"</span><span class="p">:</span>
+                <span class="n">v</span> <span class="o">+=</span> <span class="s2">"="</span> <span class="o">*</span> <span class="p">((</span><span class="mi">4</span> <span class="o">-</span> <span class="nb">len</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="o">%</span> <span class="mi">4</span><span class="p">)</span> <span class="o">%</span> <span class="mi">4</span><span class="p">)</span>
+                <span class="nb">print</span><span class="p">(</span><span class="n">unquote</span><span class="p">(</span><span class="n">escape</span><span class="p">(</span><span class="s2">""</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">decompress</span><span class="p">(</span><span class="n">urlsafe_b64decode</span><span class="p">(</span><span class="n">v</span><span class="p">)</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="n">encoding</span><span class="o">=</span><span class="s2">"UTF-8"</span><span class="p">))))))</span>
+        <span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+
+<span class="n">build_opener</span><span class="p">(</span><span class="n">My</span><span class="p">)</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s2">"https://overpass-turbo.eu/s/1pUv"</span><span class="p">)</span>
+</code></pre></div>
+
+
+
+<hr><p>Last updated: Mar 02 2026 at 10:27 UTC</p>
+</html>

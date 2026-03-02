@@ -1,0 +1,74 @@
+[
+    {
+        "content": "<p>Ir tāda ideja, ka varētu uztaisīt (mobilo) lietotni, kas, uzdodot jautājumus un balstoties uz lietotāja atbildēm, varētu \"uzminēt\", kāda zīme ir lietotājam priekšā (un izskaidrot to nozīmi). Kaut kas līdzīgs <a href=\"https://en.akinator.com/\">Akinator'am</a>. Vairs nebūs jaskrollē viss zīmju saraksts (kas būtu $O(N)$), pietiktu atbildēt uz dažiem jautājumiem ($O(\\log N)$).</p>",
+        "id": 380393973,
+        "sender_full_name": "i-ky",
+        "timestamp": 1690817881
+    },
+    {
+        "content": "<p>Tagad, kad visur \"AI\", lietotāji gaidīs, ka var nobildēt un tāda programma no bildes pateiks. :)</p>",
+        "id": 380454363,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690828730
+    },
+    {
+        "content": "<p>Bet nu principā, ja programma uzdod kādus 5 jautājumus tabulā, tas jau izfiltrētu līdz 99%+</p>",
+        "id": 380455054,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690828889
+    },
+    {
+        "content": "<p>Jautājums tikai - no kurienes visas zīmes būs? Tad vajag reāli kaut kādu crowdsourcing zīmju bildēm. Jo mani jau parasti interesētu zīmes, kuras nav kaut kādi standarti, bet kaut kāda pašvaldība uzbāzusi kaut kur.</p>",
+        "id": 380455254,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690828928
+    },
+    {
+        "content": "<p>Ar AI no bildes būtu ideāli :)<br>\nBet tas kaut kad nākotnē.</p>",
+        "id": 380468115,
+        "sender_full_name": "i-ky",
+        "timestamp": 1690831510
+    },
+    {
+        "content": "<p>Primārais mērķis ir parastās ceļa zīmes no CSN. Pluss papildzīmes utml.</p>",
+        "id": 380468562,
+        "sender_full_name": "i-ky",
+        "timestamp": 1690831578
+    },
+    {
+        "content": "<p>Es drošvien taisītu uzreiz ar domu visai pasaulei pat ja sākumā salikt Latvijas zīmes. Un ar domu ne tikai CSN zīmes bet visādas pašvaldību izdomātās.</p>",
+        "id": 380640850,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690885784
+    },
+    {
+        "content": "<p><a href=\"https://en.wiktionary.org/wiki/blue-sky_thinking\">Pēc tam iD integrēt, lai varētu meklēt</a> :)</p>",
+        "id": 380641216,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690885843
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/ce.C4.BCa.20z.C4.ABmju.20pal.C4.ABgs/near/380641216\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://en.wiktionary.org/wiki/blue-sky_thinking\">Pēc tam iD integrēt, lai varētu meklēt</a> :)</p>\n</blockquote>\n<p>Ko meklēt?</p>",
+        "id": 380645700,
+        "sender_full_name": "i-ky",
+        "timestamp": 1690886688
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/s8XKbfSGCHWHtCSfUT-8wgri/image.png\">image.png</a><br>\n:)</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/s8XKbfSGCHWHtCSfUT-8wgri/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/s8XKbfSGCHWHtCSfUT-8wgri/image.png\"></a></div>",
+        "id": 380646577,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690886843
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/ce.C4.BCa.20z.C4.ABmju.20pal.C4.ABgs/near/380646577\">said</a>:</p>\n<blockquote>\n<p><a href=\"/user_uploads/49624/s8XKbfSGCHWHtCSfUT-8wgri/image.png\">image.png</a><br>\n:)</p>\n</blockquote>\n<p>OK, valid use case :D</p>",
+        "id": 380646978,
+        "sender_full_name": "i-ky",
+        "timestamp": 1690886912
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/ce.C4.BCa.20z.C4.ABmju.20pal.C4.ABgs/near/380640850\">said</a>:</p>\n<blockquote>\n<p>Es drošvien taisītu uzreiz ar domu visai pasaulei pat ja sākumā salikt Latvijas zīmes. Un ar domu ne tikai CSN zīmes bet visādas pašvaldību izdomātās.</p>\n</blockquote>\n<p>Nezinu, kā tas viss izskatīsies, kad es tikšu pie idejas realizācijas... Bet pagaidām ir doma, ka jautājumu un skaidrojumu loģika būs kaut kādā JSON/YAML/... formātā, lai varētu vieglāk uztaisīt automātisko QA, kas pārbaudītu, vai visas ceļa zīmes no CSN ir aptvertas, vai visi punkti, kas attiecās uz zīmi ir pieminēti utt. Tā kā paplašināt varēs relatīvi viegli uz citām \"zīmju kopām\".</p>",
+        "id": 380658305,
+        "sender_full_name": "i-ky",
+        "timestamp": 1690888934
+    }
+]

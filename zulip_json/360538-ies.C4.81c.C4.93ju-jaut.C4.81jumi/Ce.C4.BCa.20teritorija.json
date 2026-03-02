@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Sveiki! Vai apzīmējumu 'ceļa teritorija' bieži izmanto un vai var droši ar to iezīmēt dažus lielceļus?</p>",
+        "id": 483842780,
+        "sender_full_name": "Emīls Miķelsons",
+        "timestamp": 1732255491
+    },
+    {
+        "content": "<p>Sveiki, es neesmu pārliecināts, kas tieši redaktorā latviešu valodā tas ir, bet es pieņemu, ka <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aarea%3Ahighway\">area:highway=*</a> ? Citiem vārdiem, ceļa ģeometrija. Ja tā, tad var zīmēt, jā. Tas gan reti ir Latvijā lietots.</p>",
+        "id": 483871695,
+        "sender_full_name": "HellMap",
+        "timestamp": 1732268384
+    },
+    {
+        "content": "<p>Nenāktu par ļaunu piemērs, kur plānots izmantot, jo kā laukumus ceļus zīmē mikrokartēšanā. Maršrutēšanas dēļ līnijveida objektu tāpat vajag.</p>",
+        "id": 483921293,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1732285255
+    }
+]

@@ -1,0 +1,34 @@
+<html>
+<head><meta charset="utf-8"><title>Osmalyzer js is not working · programmēšanas pulciņš · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/index.html">programmēšanas pulciņš</a></h2>
+<h3>Topic: <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Osmalyzer.20js.20is.20not.20working.html">Osmalyzer js is not working</a></h3>
+
+<hr>
+
+<base href="https://osmlatvija.zulipchat.com">
+
+<head><link href="https://osmlatvija.github.io/zulip-archive/style.css" rel="stylesheet"></head>
+
+<a name="442518028"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Osmalyzer%20js%20is%20not%20working/near/442518028" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Osmalyzer.20js.20is.20not.20working.html#442518028">(Jun 04 2024 at 12:28)</a>:</h4>
+<p>Map on any report is not loading any icons for me. It seems like the problem is in the list of items to show: js doesn't understand item with dot in it. <br>
+If that is correct assessment, then I think cause is in commit f9b1cab, where extension of the images for icons was moved into values, instead of being appended on the fly.</p>
+<p><a href="/user_uploads/49624/w-zvbuceuYSL4RSv6BCm4sY4/image.png">image.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/w-zvbuceuYSL4RSv6BCm4sY4/image.png" title="image.png"><img src="/user_uploads/49624/w-zvbuceuYSL4RSv6BCm4sY4/image.png"></a></div>
+
+
+
+<a name="442518437"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Osmalyzer%20js%20is%20not%20working/near/442518437" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex2209 <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Osmalyzer.20js.20is.20not.20working.html#442518437">(Jun 04 2024 at 12:30)</a>:</h4>
+<p>Probably wrapping <code>_ICON_</code> in Osmalyzer\Reporting\Report templates\marker.js with quotes should work, but I'm not very familiar with that part yet to so say for sure if that's a right move.</p>
+
+
+
+<a name="442585293"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/394092-programm%C4%93%C5%A1anas%20pulci%C5%86%C5%A1/topic/Osmalyzer%20js%20is%20not%20working/near/442585293" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Osmalyzer.20js.20is.20not.20working.html#442585293">(Jun 04 2024 at 17:30)</a>:</h4>
+<p>Whooops, yeah, it must be the dot, will fix</p>
+
+
+
+<hr><p>Last updated: Mar 02 2026 at 10:27 UTC</p>
+</html>

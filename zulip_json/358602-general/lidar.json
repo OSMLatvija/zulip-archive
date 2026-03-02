@@ -1,0 +1,188 @@
+[
+    {
+        "content": "<p><a href=\"https://www.lgia.gov.lv/lv/Digit%C4%81lais%20virsmas%20modelis\">https://www.lgia.gov.lv/lv/Digit%C4%81lais%20virsmas%20modelis</a><br>\nvisādas iespējas</p>",
+        "id": 315544811,
+        "sender_full_name": "Colby",
+        "timestamp": 1670924004
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/x2kQSI7a36MicPGJBycieIo3/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/x2kQSI7a36MicPGJBycieIo3/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/x2kQSI7a36MicPGJBycieIo3/image.png\"></a></div>",
+        "id": 315545249,
+        "sender_full_name": "Colby",
+        "timestamp": 1670924154
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/4am62-5qa8apmALUCBDcXUea/2022-12-13_000.png\">2022-12-13_000.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/4am62-5qa8apmALUCBDcXUea/2022-12-13_000.png\" title=\"2022-12-13_000.png\"><img src=\"/user_uploads/49624/4am62-5qa8apmALUCBDcXUea/2022-12-13_000.png\"></a></div>",
+        "id": 315545448,
+        "sender_full_name": "Colby",
+        "timestamp": 1670924216
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/358602-general/topic/lidar/near/315545249\">said</a>:</p>\n<blockquote>\n<p><a href=\"/user_uploads/49624/x2kQSI7a36MicPGJBycieIo3/image.png\">image.png</a></p>\n</blockquote>\n<p>Mmm, fancy. Vai šādu kaut kā vienkārši var dabūt JOSM?</p>",
+        "id": 315566867,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1670931029
+    },
+    {
+        "content": "<p>Kaut kas ir LVM WMS slāņos, bet neatceros ēku slāni.</p>",
+        "id": 315568283,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1670931477
+    },
+    {
+        "content": "<p>LVM slāņos ir intensitāte, tas kas man otrajā bildē</p>",
+        "id": 315569765,
+        "sender_full_name": "Colby",
+        "timestamp": 1670931907
+    },
+    {
+        "content": "<p>izskatās ka diezgan vienkārši var dabūt ārā .tif bet izmēri milzīgi</p>",
+        "id": 315569856,
+        "sender_full_name": "Colby",
+        "timestamp": 1670931935
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/VtlY2poz1OOj2IuHUgQC8BCu/ekas_tif.zip\">ekas_tif.zip</a></p>",
+        "id": 315571035,
+        "sender_full_name": "Colby",
+        "timestamp": 1670932294
+    },
+    {
+        "content": "<p>aha kompresējas ok</p>",
+        "id": 315571079,
+        "sender_full_name": "Colby",
+        "timestamp": 1670932310
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/358602-general/topic/lidar/near/315571079\">said</a>:</p>\n<blockquote>\n<p>aha kompresējas ok</p>\n</blockquote>\n<p>Tas jau laikam liekam iekš geoserver vai tamlīdzīga, lai dabūtu WMS.</p>",
+        "id": 315572809,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1670932866
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/358602-general/topic/lidar/near/315569765\">said</a>:</p>\n<blockquote>\n<p>LVM slāņos ir intensitāte, tas kas man otrajā bildē</p>\n</blockquote>\n<p>Paskatījos WMS, sarkstā neko neatbilstošu nemanīju. Vai tur ko var JOSM iedabūt?</p>",
+        "id": 386591224,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1692705473
+    },
+    {
+        "content": "<p>to var ar CloudCompare vai QGIS</p>",
+        "id": 386591435,
+        "sender_full_name": "Colby",
+        "timestamp": 1692705543
+    },
+    {
+        "content": "<p>uz JOSM idk, mēģināju piclayer pasen un knapi darbojās<br>\nvarbūt WMS serveri lokāli kautkā palaiž?</p>",
+        "id": 386591715,
+        "sender_full_name": "Colby",
+        "timestamp": 1692705651
+    },
+    {
+        "content": "<p>Sk., paldies. Šoreiz laikam būs par traku :)</p>",
+        "id": 386597583,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1692707593
+    },
+    {
+        "content": "<p>Uzņēmos izaicinājumu un uzrakstīju skriptu, lai veidotu slāni, un uzliku WMS serveri. Tagad ir grūtākā daļa - jāgaida kamēr lejupielādējas visi 10TB ar LIDAR datiem. Pagaidām jau neliela Latgales daļa ir apstrādāta un to var redzēt ar <a href=\"https://geoserver.em.id.lv/geoserver/wms\">https://geoserver.em.id.lv/geoserver/wms</a>, taču negarantēju servera stabilitāti.</p>",
+        "id": 387644010,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1693220377
+    },
+    {
+        "content": "<p>A tik daudz LIDAR datus var novilkt bez problēmām?</p>",
+        "id": 387645995,
+        "sender_full_name": "HellMap",
+        "timestamp": 1693221244
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/lidar/near/387645995\">said</a>:</p>\n<blockquote>\n<p>A tik daudz LIDAR datus var novilkt bez problēmām?</p>\n</blockquote>\n<p>Nezinu, bet pagaidām neko nesaka</p>",
+        "id": 387646448,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1693221448
+    },
+    {
+        "content": "<p>Ahā, atradu Maltā.<br>\nDati vecāki par ortofoto, arī precīzai zīmēšanai nederēs -  bet apstiprināšanai \"kaut kas tur ir (bija)\" ļoti labs.<br>\nIespējams, transporta līdzekļi arī parādās kā ēkas dažreiz :)</p>\n<p><a href=\"/user_uploads/49624/-AeA94NnrCWkahm_qHshEfs5/image.png\">ēkas Maltā</a><br>\n<a href=\"/user_uploads/49624/yQ4PErvmI2qPQHqK6WojuCdF/image.png\">ēkas Maltā 2</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/-AeA94NnrCWkahm_qHshEfs5/image.png\" title=\"ēkas Maltā\"><img src=\"/user_uploads/49624/-AeA94NnrCWkahm_qHshEfs5/image.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/yQ4PErvmI2qPQHqK6WojuCdF/image.png\" title=\"ēkas Maltā 2\"><img src=\"/user_uploads/49624/yQ4PErvmI2qPQHqK6WojuCdF/image.png\"></a></div>",
+        "id": 387651592,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1693223544
+    },
+    {
+        "content": "<p>Tagad ir apstrādāta visa Latvija. Tā kā no šiem datiem var iegūt gandrīz visu ēku atrašanās vietas, vai būtu noderīgi uztaisīt kaut kādu trūkstošo ēku sarakstu?</p>",
+        "id": 388341689,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1693493308
+    },
+    {
+        "content": "<p>Baidos, ka tur būs miljons tādu ēku. Tad drīzāk jābūt kaut kādā kartes slānī. Jo faktiski jau jebkurā vietā Latvijā var pievilk un sākt zīmēt ēkas.</p>",
+        "id": 388343177,
+        "sender_full_name": "HellMap",
+        "timestamp": 1693493779
+    },
+    {
+        "content": "<p>Jā, šis varētu būt labs papildrīks ēku zīmēšanā (Rēzeknes novada projekts un citi).</p>",
+        "id": 388362421,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1693498855
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/lidar/near/388343177\">said</a>:</p>\n<blockquote>\n<p>Baidos, ka tur būs miljons tādu ēku. Tad drīzāk jābūt kaut kādā kartes slānī. Jo faktiski jau jebkurā vietā Latvijā var pievilk un sākt zīmēt ēkas.</p>\n</blockquote>\n<p>Vai ne, izņemot tiešām zem 10 vietām, kur būtu grūti atrast trūkstošu ēku... lai gan varbūt ar šo slāni varēs. Tik tad laikam arī noderēs izpētīšana dzīvē, jo dati nav ļoti svaigi un ļoti precīzi.</p>",
+        "id": 388362754,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1693498941
+    },
+    {
+        "content": "<p>Ja šo ir plāns uzturēt ilgāku laiku, varbūt vērts wiki īsi dokumentēt?</p>",
+        "id": 388362867,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1693498979
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/lidar/near/388343177\">said</a>:</p>\n<blockquote>\n<p>Baidos, ka tur būs miljons tādu ēku. Tad drīzāk jābūt kaut kādā kartes slānī. Jo faktiski jau jebkurā vietā Latvijā var pievilk un sākt zīmēt ēkas.</p>\n</blockquote>\n<p>Jā, laikam kā slānis būtu labāk. Vienīgi tad varētu būt grūtāk atrast tās trūkstošās ēkas.</p>",
+        "id": 388368721,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1693500623
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/lidar/near/388362867\">said</a>:</p>\n<blockquote>\n<p>Ja šo ir plāns uzturēt ilgāku laiku, varbūt vērts wiki īsi dokumentēt?</p>\n</blockquote>\n<p>Jā, mēģināšu uzturēt. :D</p>",
+        "id": 388369277,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1693500766
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/lidar/near/388362867\">said</a>:</p>\n<blockquote>\n<p>Ja šo ir plāns uzturēt ilgāku laiku, varbūt vērts wiki īsi dokumentēt?</p>\n</blockquote>\n<p>Ja runa ir par skriptu, tad to labāk likt uzreiz GitHub'ā un dokumentēt turpat.</p>",
+        "id": 388470254,
+        "sender_full_name": "i-ky",
+        "timestamp": 1693554001
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"607550\">@AmOosm</span>, mums ir <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/GitHub.20organization.20.26.20website\">#general &gt; GitHub organization &amp; website</a>, varam izveidot tur repo priekš Tava projekta. <span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> tā izstrādā <a href=\"https://github.com/OSMLatvija/Osmalyzer\">Osmalyzer</a>.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/OSMLatvija/Osmalyzer\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/920e73182babba4f299d627f4a393193172f13e9\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f386135356535616637333134376534396632616337646530653066656136613465373561386231326261366136663432396337313764643861346461623562392f4f534d4c617476696a612f4f736d616c797a6572)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/OSMLatvija/Osmalyzer\" title=\"GitHub - OSMLatvija/Osmalyzer: Parsing OSM data when it's too complex for Overpass\">GitHub - OSMLatvija/Osmalyzer: Parsing OSM data when it's too complex for Overpass</a></div><div class=\"message_embed_description\">Parsing OSM data when it's too complex for Overpass - GitHub - OSMLatvija/Osmalyzer: Parsing OSM data when it's too complex for Overpass</div></div></div>",
+        "id": 388470737,
+        "sender_full_name": "i-ky",
+        "timestamp": 1693554219
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/lidar/near/388470737\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"607550\">AmOosm</span>, mums ir <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/GitHub.20organization.20.26.20website\">#general &gt; GitHub organization &amp; website</a>, varam izveidot tur repo priekš Tava projekta. <span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> tā izstrādā <a href=\"https://github.com/OSMLatvija/Osmalyzer\">Osmalyzer</a>.</p>\n</blockquote>\n<p>Var tā darīt. Mani GitHub'ā sauc <code>Kite8409</code></p>",
+        "id": 388487056,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1693560648
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"607550\">AmOosm</span> <a href=\"#narrow/stream/358602-general/topic/lidar/near/388487056\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/lidar/near/388470737\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"607550\">AmOosm</span>, mums ir <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/GitHub.20organization.20.26.20website\">#general &gt; GitHub organization &amp; website</a>, varam izveidot tur repo priekš Tava projekta. <span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> tā izstrādā <a href=\"https://github.com/OSMLatvija/Osmalyzer\">Osmalyzer</a>.</p>\n</blockquote>\n<p>Var tā darīt. Mani GitHub'ā sauc <code>Kite8409</code></p>\n</blockquote>\n<p>Tad tālāku diskusiju var pārnest uz <a class=\"stream\" data-stream-id=\"394092\" href=\"/#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1\">#programmēšanas pulciņš</a>, jo sākas jau tehniskās lietas.<br>\nP.S. GitHub lietotājvārdu var pievienot Zulip profilam ;)</p>",
+        "id": 388488172,
+        "sender_full_name": "i-ky",
+        "timestamp": 1693561082
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/lidar/near/388470254\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/lidar/near/388362867\">said</a>:</p>\n<blockquote>\n<p>Ja šo ir plāns uzturēt ilgāku laiku, varbūt vērts wiki īsi dokumentēt?</p>\n</blockquote>\n<p>Ja runa ir par skriptu, tad to labāk likt uzreiz GitHub'ā un dokumentēt turpat.</p>\n</blockquote>\n<p>Jā, tas izklausās superīgi - wiki biju domājis \"lietotāju dokumentāciju\" - WMS endpointu, saturu, kādu piemēru.</p>",
+        "id": 388577926,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1693592710
+    },
+    {
+        "content": "<p>Pie <a href=\"https://geoserver.em.id.lv/geoserver/wms\">WMS</a> tagad pievienoju trūkstošo ēku slāni \"Missing buildings\". Iezīmēti ir ēku centru punkti, kuri nebija atrodami OSM datos.</p>",
+        "id": 389488211,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1694022022
+    }
+]

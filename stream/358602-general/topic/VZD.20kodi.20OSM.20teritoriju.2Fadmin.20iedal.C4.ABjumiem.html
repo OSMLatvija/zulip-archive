@@ -1,0 +1,200 @@
+<html>
+<head><meta charset="utf-8"><title>VZD kodi OSM teritoriju/admin iedalījumiem · general · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/index.html">general</a></h2>
+<h3>Topic: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/VZD.20kodi.20OSM.20teritoriju.2Fadmin.20iedal.C4.ABjumiem.html">VZD kodi OSM teritoriju/admin iedalījumiem</a></h3>
+
+<hr>
+
+<base href="https://osmlatvija.zulipchat.com">
+
+<head><link href="https://osmlatvija.github.io/zulip-archive/style.css" rel="stylesheet"></head>
+
+<a name="565986557"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/VZD%20kodi%20OSM%20teritoriju/admin%20iedal%C4%ABjumiem/near/565986557" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/VZD.20kodi.20OSM.20teritoriju.2Fadmin.20iedal.C4.ABjumiem.html#565986557">(Jan 01 2026 at 15:59)</a>:</h4>
+<p>Vai kādam ir iebildumi vai komentāri par <a href="https://wiki.openstreetmap.org/wiki/Key%3Aref">ref=*</a> kodu pievienošanu novadiem, pagastiem, pilsētām un ciemiem no VZD VAR kodiem? Tas sanāks tāds daļējs imports. Es Osmalyzer'ā izparsēju visus admin un pie reizes uzģenerēju trūkstošās iespējamās izmaiņas formātā, ko tad var JOSMā ielādēt. Es neplānoju to automatizēt vairāk par to, cik Osmalyzer pārbauda katru dienu, jo tie nemainās (un, ja mainās admin iedalījumi, tad arī visi tegi tur mainās un jālabo manuāli).</p>
+<p>Vienīgais jautājums par birku. Es līdz šim liku VZD kodus <a href="https://wiki.openstreetmap.org/wiki/Key%3Aref">ref=*</a> birkā, jo citu kodu mums it kā nav. Bet varbūt tos vajadzētu <a href="https://wiki.openstreetmap.org/wiki/Key%3Aref%3ALV%3Aaddr">ref:LV:addr=*</a> birkā lai sakristu ar adresēm? Teorētiski pēc VZD specifikācijas tas arī ir "adresācijas kods". Bet adresēm gan OSM bija problēma, ka sakritīs ar citu elementu ref. Bet šeit admin robežām un punktiem citu Latvijas mēroga ref (cik es zinu) nav. Personīgi, es liktu <code>ref</code>.</p>
+<p>Piemēram:<br>
+"Alūksnes novads": 100015694<br>
+"Kauguru pagasts": 100014522<br>
+"Ikšķile" (pilsēta): 100003487<br>
+"Mežāres" (ciems): 100184348<br>
+"Pilda" (mazciems): 100154460</p>
+<p>Uz doto brīdi ref trūkst 215/1340 ciemiem, 35/35 novadiem, 399/511 pagastiem, 67/81 pilsētām un 2579/4911 mazciemiem (tie gan nav sakartēti visi).</p>
+
+
+
+<a name="565988423"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/VZD%20kodi%20OSM%20teritoriju/admin%20iedal%C4%ABjumiem/near/565988423" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dāvis Kļaviņš <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/VZD.20kodi.20OSM.20teritoriju.2Fadmin.20iedal.C4.ABjumiem.html#565988423">(Jan 01 2026 at 16:43)</a>:</h4>
+<p>Ciemiem adrešu kodus pielikt var, tiem nekā piemērotāka nebūs (pārbaudītu gan ar vienu sākumā, lai redzētu, vai <a href="https://github.com/Davis-Klavins/osm-latvia-bot">bots</a> nesāk raustīt, ja tur ir ref:lv:addr), bet pagastiem, pilsētām un novadiem gan jāliek ATVK, nevis adrešu kodi. Tos var paņemt no <a href="https://data.gov.lv/dati/lv/dataset/atvk/resource/6d8624c4-e75a-4080-88eb-c755b5de230a">Atvērto datu portāla</a> (aktuālie ir tie, kam Validity_period_end nav aizpildīts). Jautājums, vai pietiek ar ref, vai vajag veidot ko specifisku, kā ref:lv:atvk.</p>
+<div class="message_embed"><a class="message_embed_image" href="https://github.com/Davis-Klavins/osm-latvia-bot" style="background-image: url(&quot;https://uploads.zulipusercontent.net/857e5fd04dda25d9f0d07b56ce3481db36fd77b3/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f313163623531666630336636356138653932303332383666346539396364366361323734396234653232616235303761663734366561663731653735636639322f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74&quot;)"></a><div class="data-container"><div class="message_embed_title"><a href="https://github.com/Davis-Klavins/osm-latvia-bot" title="GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses and tags). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses and tags). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class="message_embed_description">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses and tags). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - Davis-Klavins/os...</div></div></div>
+
+
+
+<a name="565989399"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/VZD%20kodi%20OSM%20teritoriju/admin%20iedal%C4%ABjumiem/near/565989399" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/VZD.20kodi.20OSM.20teritoriju.2Fadmin.20iedal.C4.ABjumiem.html#565989399">(Jan 01 2026 at 17:04)</a>:</h4>
+<p>A kapēc pagastiem, pilsētām, novadiem nevarētu arī ref:lv:addr tos salikt, ja tas ir tajos pašos datos? Viņi visi ir no "KODS" lauka un viņiem visiem ir "adrese". Galvenajos teritoriju telpiskajos datos tie visi ir kopā ar to kodu.</p>
+
+
+
+<a name="565989642"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/VZD%20kodi%20OSM%20teritoriju/admin%20iedal%C4%ABjumiem/near/565989642" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/VZD.20kodi.20OSM.20teritoriju.2Fadmin.20iedal.C4.ABjumiem.html#565989642">(Jan 01 2026 at 17:10)</a>:</h4>
+<p>ATVK paskatīšos. Bet tie ir vairāk statistikas vienības? Kur to kodu lieto praktiski? Tas ir kaut kādās citās datubāzēs vai kaut kur? <del>Jo teiksim tie VZD 100... kodi ir savā starpā saistīti no valsts līdz pat adresei. Bet ATVK ir nedaudz nummurēti hierarhijā, bet it kā paši par sevi, cik skatos.</del></p>
+
+
+
+<a name="565990393"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/VZD%20kodi%20OSM%20teritoriju/admin%20iedal%C4%ABjumiem/near/565990393" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dāvis Kļaviņš <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/VZD.20kodi.20OSM.20teritoriju.2Fadmin.20iedal.C4.ABjumiem.html#565990393">(Jan 01 2026 at 17:25)</a>:</h4>
+<p>ATVK lieto praktiski dažādos reģistros (Fizisko personu reģistrā, piemēram), lai identificētu attiecīgās teritorijas, bet adrešu kodus pagastiem, pilsētām un novadiem ārpus Adrešu reģistra nav gadījies redzēt lietojam ārpus adreses konteksta (ja būs, tad būs vienīgi adreses koda laukā un pagastu, pilsētu vai novadu kodi lietoti tikai tad, ja nekas precīzāks nav bijis zināms). ATVK arī Adrešu reģistrā ir lietots. Jā, statistikā arī plaši lieto. Nav līdz šim (par laimi) gadījies redzēt reģistru, kur kā teritoriju kodi būtu lietoti adrešu kodi.</p>
+
+
+
+<a name="565990669"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/VZD%20kodi%20OSM%20teritoriju/admin%20iedal%C4%ABjumiem/near/565990669" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/VZD.20kodi.20OSM.20teritoriju.2Fadmin.20iedal.C4.ABjumiem.html#565990669">(Jan 01 2026 at 17:31)</a>:</h4>
+<p>Tad izklausās, ka varbūt ATVK kodus likt pa taisno <code>ref</code>. Bet adrešu kodus (ja vispār likt) tikai <code>ref:LV:addr</code> (būs jāpārlabo esošie tad no maniem ciemu/pagastu pievienojumiem). ATVK dati tikai tad jāizparsē būs...</p>
+
+
+
+<a name="565990790"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/VZD%20kodi%20OSM%20teritoriju/admin%20iedal%C4%ABjumiem/near/565990790" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/VZD.20kodi.20OSM.20teritoriju.2Fadmin.20iedal.C4.ABjumiem.html#565990790">(Jan 01 2026 at 17:34)</a>:</h4>
+<p>A adrešu kodus tad sanāk vispār kaut kur lieto izņemot adresēm? Vai tikai faktiski VZD datubāzē? Tie vispār kaut ko OSM dod, ja tie nav nekur atrodami (piemēram, vai es varu pasta vēstuli nosūtīt "uz kodu")?</p>
+
+
+
+<a name="565990795"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/VZD%20kodi%20OSM%20teritoriju/admin%20iedal%C4%ABjumiem/near/565990795" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dāvis Kļaviņš <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/VZD.20kodi.20OSM.20teritoriju.2Fadmin.20iedal.C4.ABjumiem.html#565990795">(Jan 01 2026 at 17:34)</a>:</h4>
+<p>Jā, domāju, ka ar <code>ref</code> pietiktu, jo ATVK ir tas, ko kā identifikatoru lietotājs sagaidītu. <code>ref:LV:addr</code> paliek ciemiem, jo tiem ATVK nav.</p>
+
+
+
+<a name="565991142"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/VZD%20kodi%20OSM%20teritoriju/admin%20iedal%C4%ABjumiem/near/565991142" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dāvis Kļaviņš <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/VZD.20kodi.20OSM.20teritoriju.2Fadmin.20iedal.C4.ABjumiem.html#565991142">(Jan 01 2026 at 17:44)</a>:</h4>
+<p>Adrešu kodus lieto adresēm un vienmēr, ja adreses tiek uzturētas pareizi, t.i., sasaistē ar Adrešu reģistru. Būtībā savā datubāzē pietiek glabāt tikai adreses kodu, kas ir ārējā atslēga uz Adrešu reģistru. Praktiski gan mēdz pieglabāt arī pierakstu, kas var būt gan sadalīts, gan nesadalīts pa komponentēm. OSM jau ne tikai adrešu kodi, bet jebkādi unikālie identifikatori uz ārējām sistēmām, no kurām nākuši dati, būtu jāglabā, lai datus pēc tam varētu normāli uzturēt. Uz to pašu Vietvārdu datubāzi arī būtu bijis ļoti labi, ja savulaik būtu ID pielikti.</p>
+
+
+
+<a name="565991901"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/VZD%20kodi%20OSM%20teritoriju/admin%20iedal%C4%ABjumiem/near/565991901" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/VZD.20kodi.20OSM.20teritoriju.2Fadmin.20iedal.C4.ABjumiem.html#565991901">(Jan 01 2026 at 17:59)</a>:</h4>
+<p>Tad es tomēr liktu visām admin robežām to VZD adreses kodu, jo tas arī ir tas nummurs, kas atsaucas uz datiem, no kuriem tās admin robežas ir nākušas (izņemot mazciemus). Jo ATVK, cik saprotu, neatsaucas uz robežu līnijām.</p>
+<p>Es personīgi sarežģīti parsēju OSM datus meklējot tuvāko elementu ar konkrētiem tegiem, lai noteiktu, kuri OSM elementi atbilst kuriem VZD datu ierakstiem. Piemēram, tur jāzin konkrēti admin_level pakāpes. Automātiski procesi bez nummura nevarēs vienkārši datus piesaistīt pie VZD datiem, piemēram, lai salīdzinātu vai piesaistītu WikiData ierakstus (piemēram, lai saliktu WikiData teritorijas izmēru vai koordinātes, kas OSM būtu lieki, bet WikiData ļoti noderīgi). Tas it kā bija mans galvenais mērķis, lai visus admin iedalījumus OSM varētu piesaistīt VZD datiem.</p>
+
+
+
+<a name="565992506"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/VZD%20kodi%20OSM%20teritoriju/admin%20iedal%C4%ABjumiem/near/565992506" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dāvis Kļaviņš <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/VZD.20kodi.20OSM.20teritoriju.2Fadmin.20iedal.C4.ABjumiem.html#565992506">(Jan 01 2026 at 18:10)</a>:</h4>
+<p>Vari likt abus tad. Jo no datu lietojamības ārpus iekšējiem OSM procesiem ATVK būs noderīgāks. WikiData teritoriju platības un iedzīvotāju skaits jau tiek atjaunots automātiski, izņemot ciemiem.</p>
+
+
+
+<a name="566041655"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/VZD%20kodi%20OSM%20teritoriju/admin%20iedal%C4%ABjumiem/near/566041655" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/VZD.20kodi.20OSM.20teritoriju.2Fadmin.20iedal.C4.ABjumiem.html#566041655">(Jan 02 2026 at 10:15)</a>:</h4>
+<p>Jā, <a href="https://github.com/Davis-Klavins/osm-latvia-bot">bots</a> noņem <code>ref:LV:addr</code> <a href="https://www.openstreetmap.org/relation/287189">https://www.openstreetmap.org/relation/287189</a></p>
+<div class="message_embed"><a class="message_embed_image" href="https://github.com/Davis-Klavins/osm-latvia-bot" style="background-image: url(&quot;https://uploads.zulipusercontent.net/857e5fd04dda25d9f0d07b56ce3481db36fd77b3/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f313163623531666630336636356138653932303332383666346539396364366361323734396234653232616235303761663734366561663731653735636639322f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74&quot;)"></a><div class="data-container"><div class="message_embed_title"><a href="https://github.com/Davis-Klavins/osm-latvia-bot" title="GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses and tags). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses and tags). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class="message_embed_description">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses and tags). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - Davis-Klavins/os...</div></div></div><div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/relation/287189" style="background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/relation/287189" title="Relation: ‪Mežāres‬ (‪287189‬)">Relation: ‪Mežāres‬ (‪287189‬)</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="566044425"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/VZD%20kodi%20OSM%20teritoriju/admin%20iedal%C4%ABjumiem/near/566044425" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dāvis Kļaviņš <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/VZD.20kodi.20OSM.20teritoriju.2Fadmin.20iedal.C4.ABjumiem.html#566044425">(Jan 02 2026 at 10:48)</a>:</h4>
+<p>Pielaboju, lai relācijām, kurām ir <code>admin_level</code>, neņem nost <code>ref:lv:addr</code>. Jānotestē vēlreiz.</p>
+
+
+
+<a name="566044754"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/VZD%20kodi%20OSM%20teritoriju/admin%20iedal%C4%ABjumiem/near/566044754" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/VZD.20kodi.20OSM.20teritoriju.2Fadmin.20iedal.C4.ABjumiem.html#566044754">(Jan 02 2026 at 10:52)</a>:</h4>
+<p>Vienīgais <a href="https://wiki.openstreetmap.org/wiki/Tag%3Aplace%3Dhamlet">place=hamlet</a> nav admin_level, jo nav robežu, piem. <a href="https://www.openstreetmap.org/node/2069382489">https://www.openstreetmap.org/node/2069382489</a></p>
+<div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/node/2069382489" style="background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/node/2069382489" title="Node: ‪Gailiški‬ (‪2069382489‬)">Node: ‪Gailiški‬ (‪2069382489‬)</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="566046471"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/VZD%20kodi%20OSM%20teritoriju/admin%20iedal%C4%ABjumiem/near/566046471" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dāvis Kļaviņš <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/VZD.20kodi.20OSM.20teritoriju.2Fadmin.20iedal.C4.ABjumiem.html#566046471">(Jan 02 2026 at 11:13)</a>:</h4>
+<p>Pieliku arī <code>place=hamlet</code> pie izņēmumiem, kam nav jāņem nost <code>ref:lv:addr</code>. Ne tikai nodes, bet arī ways un relations.</p>
+
+
+
+<a name="566140649"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/VZD%20kodi%20OSM%20teritoriju/admin%20iedal%C4%ABjumiem/near/566140649" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/VZD.20kodi.20OSM.20teritoriju.2Fadmin.20iedal.C4.ABjumiem.html#566140649">(Jan 03 2026 at 10:42)</a>:</h4>
+<p>Es varbūt nepareizi sapratu, bet vai tu šīs b0ta izmaiņas jau esi paladis? Testa ref'us b0ts nonesa <a href="https://www.openstreetmap.org/relation/287189/history">https://www.openstreetmap.org/relation/287189/history</a> <a href="https://www.openstreetmap.org/node/1679457288/history">https://www.openstreetmap.org/node/1679457288/history</a></p>
+<div class="message_embed"><a class="message_embed_image" href="https://www.openstreetmap.org/relation/287189/history" style="background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)"></a><div class="data-container"><div class="message_embed_title"><a href="https://www.openstreetmap.org/relation/287189/history" title="Relation History: ‪Mežāres‬ (‪287189‬)">Relation History: ‪Mežāres‬ (‪287189‬)</a></div><div class="message_embed_description">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>
+
+
+
+<a name="566142189"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/VZD%20kodi%20OSM%20teritoriju/admin%20iedal%C4%ABjumiem/near/566142189" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dāvis Kļaviņš <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/VZD.20kodi.20OSM.20teritoriju.2Fadmin.20iedal.C4.ABjumiem.html#566142189">(Jan 03 2026 at 11:15)</a>:</h4>
+<p>Palaist palaidu, bet ar kļūdām, kuru dēļ nenostrādāja. Salaboju, jāmēģina vēlreiz.</p>
+
+
+
+<a name="566219935"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/VZD%20kodi%20OSM%20teritoriju/admin%20iedal%C4%ABjumiem/near/566219935" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/VZD.20kodi.20OSM.20teritoriju.2Fadmin.20iedal.C4.ABjumiem.html#566219935">(Jan 04 2026 at 12:34)</a>:</h4>
+<p>Izskatās, ka tegi izdzīvoja šodienas b0ta izmaiņas.</p>
+
+
+
+<a name="566220023"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/VZD%20kodi%20OSM%20teritoriju/admin%20iedal%C4%ABjumiem/near/566220023" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/VZD.20kodi.20OSM.20teritoriju.2Fadmin.20iedal.C4.ABjumiem.html#566220023">(Jan 04 2026 at 12:36)</a>:</h4>
+<p>Nu protams, ka Latvijā ir pagasti ar vienādiem nosaukumiem - 2 "Pilskalnes pagasts" un 2 "Salas pagasts". Bet ar to nepietiek, jo ir 2 ciemi "Pilskalne", kuri ir pa vienam katrā Pilskalnes pagastā.</p>
+
+
+
+<a name="566220265"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/VZD%20kodi%20OSM%20teritoriju/admin%20iedal%C4%ABjumiem/near/566220265" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/VZD.20kodi.20OSM.20teritoriju.2Fadmin.20iedal.C4.ABjumiem.html#566220265">(Jan 04 2026 at 12:40)</a>:</h4>
+<p>Rezumējot, uz doto brīdi, plānotās izmaiņas:</p>
+<div class="spoiler-block"><div class="spoiler-header">
+</div><div class="spoiler-content" aria-hidden="true">
+<p>Novadiem:<br>
+105 changes are proposed:<br>
+105 key modifications<br>
+35 relations are affected.<br>
+3 unique keys are modified.<br>
+Key ref:LV:addr has 35 all unique values changed.<br>
+Key ref has 35 all unique values changed.<br>
+Key ref:lau has 35 all unique values changed.</p>
+<p>Pilsētām:<br>
+320 changes are proposed:<br>
+320 key modifications<br>
+81 relations are affected.<br>
+6 unique keys are modified.<br>
+Key place has 1 values changed: 81 × city<br>
+Key ref has 81 all unique values changed.<br>
+Key ref:LV:addr has 81 all unique values changed.<br>
+Key wikidata has 60 all unique values changed.<br>
+Key ref:lau has 7 values changed: 1 × 0004000, 1 × 0006000, 1 × 0005000, 1 × 0003000, 1 × 0007000, 1 × 0002000, 1 × 0001000<br>
+Key designation has 1 values changed: 10 × valstspilsēta</p>
+<p>Pagastiem:<br>
+2009 changes are proposed:<br>
+2009 key modifications<br>
+513 relations are affected.<br>
+4 unique keys are modified.<br>
+Key place has 1 values changed: 513 × civil_parish<br>
+Key ref:LV:addr has 511 all unique values changed.<br>
+Key ref has 511 all unique values changed.<br>
+Key wikidata has 474 all unique values changed.</p>
+<p>Ciemiem:<br>
+3724 changes are proposed:<br>
+2600 key modifications<br>
+1124 key removals<br>
+1340 relations are affected.<br>
+4 unique keys are affected.<br>
+3 unique keys are modified<br>
+1 unique keys are removed<br>
+Key ref has 1 values changed: 1124 × &lt;removed&gt;<br>
+Key ref:LV:addr has 1339 all unique values changed.<br>
+Key wikidata has 985 all unique values changed.<br>
+Key place has 1 values changed: 276 × village</p>
+<p>Mazciemiem:<br>
+2678 changes are proposed:<br>
+2676 key modifications<br>
+2 key removals<br>
+2584 nodes are affected.<br>
+3 unique keys are affected.<br>
+2 unique keys are modified<br>
+1 unique keys are removed<br>
+Key ref:LV:addr has 2583 all unique values changed.<br>
+Key ref has 1 values changed: 2 × &lt;removed&gt;<br>
+Key wikidata has 93 all unique values changed.</p>
+</div></div>
+
+
+
+<hr><p>Last updated: Mar 02 2026 at 10:27 UTC</p>
+</html>

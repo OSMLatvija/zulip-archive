@@ -1,0 +1,31 @@
+<html>
+<head><meta charset="utf-8"><title>Ciems ar &quot;(ciems)&quot; · general · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/index.html">general</a></h2>
+<h3>Topic: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Ciems.20ar.20.22.28ciems.29.22.html">Ciems ar &quot;(ciems)&quot;</a></h3>
+
+<hr>
+
+<base href="https://osmlatvija.zulipchat.com">
+
+<head><link href="https://osmlatvija.github.io/zulip-archive/style.css" rel="stylesheet"></head>
+
+<a name="374866603"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Ciems%20ar%20%22%28ciems%29%22/near/374866603" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Ciems.20ar.20.22.28ciems.29.22.html#374866603">(Jul 13 2023 at 09:53)</a>:</h4>
+<p>Mums ir vairāki ciemi un apkaimes Pierīgā ar sakrītošu nosaukumu un robežām ir uzlikts <code>name</code> "Xxx (ciems)" / "Xxx (apkaime)". Datu ziņā tas ir nepareizi. Un kartei tas drošvien domāts, lai robežu uzraksti atšķirtos. Bet man liekas tas ir mapping for renderer un tā nevajadzētu darīt. Es piedāvāju tās paskaidrojuma iekavas novākt.</p>
+<div class="codehilite" data-code-language="overpass"><pre><span></span><code>[out:json][timeout:25];
+{{geocodeArea:Latvia}}-&gt;.searchArea;
+relation["boundary"="administrative"]["name"~"\\((ciems|apkaime)\\)$"](area.searchArea);
+out geom;
+</code></pre></div>
+
+
+
+<a name="374866773"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Ciems%20ar%20%22%28ciems%29%22/near/374866773" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> HellMap <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Ciems.20ar.20.22.28ciems.29.22.html#374866773">(Jul 13 2023 at 09:54)</a>:</h4>
+<p><a href="/user_uploads/49624/7TtISw-cCoZQKMkNbrtdYYkD/ciemspagasts.png">ciemspagasts.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/49624/7TtISw-cCoZQKMkNbrtdYYkD/ciemspagasts.png" title="ciemspagasts.png"><img src="/user_uploads/49624/7TtISw-cCoZQKMkNbrtdYYkD/ciemspagasts.png"></a></div>
+
+
+
+<hr><p>Last updated: Mar 02 2026 at 10:27 UTC</p>
+</html>

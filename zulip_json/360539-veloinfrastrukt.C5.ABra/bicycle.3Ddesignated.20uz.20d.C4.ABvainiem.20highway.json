@@ -1,0 +1,164 @@
+[
+    {
+        "content": "<p>Šķiet aizdomīgi, ka <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Ddesignated\">bicycle=designated</a> ir salikti uz visādiem:</p>\n<ul>\n<li><a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dliving_street\">highway=living_street</a></li>\n<li><a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dresidential\">highway=residential</a></li>\n<li><a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dsecondary\">highway=secondary</a></li>\n<li><a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dservice\">highway=service</a></li>\n<li><a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dtertiary\">highway=tertiary</a></li>\n<li><a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dtrack\">highway=track</a></li>\n<li><a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dunclassified\">highway=unclassified</a></li>\n</ul>\n<div class=\"codehilite\" data-code-language=\"overpass\"><pre><span></span><code>[out:json][timeout:25];\n{{geocodeArea:Latvia}}-&gt;.searchArea;\nnwr[bicycle=designated][highway][highway!=proposed][highway!=construction][highway!=cycleway][highway!=footway][highway!=pedestrian][highway!=path][highway!=crossing](area.searchArea);\nout geom;\n</code></pre></div>",
+        "id": 320710682,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673446033
+    },
+    {
+        "content": "<p>Jūrmalā ir velo norādes are neoficiālām ceļa zīmēm, bet nezinu, vai tur īsti pareizi tā likt - <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a> it kā pa maz - jo tas jau ir visur - kā routerim pareikt, ka te ir bicycle.... umm... designated? :)</p>",
+        "id": 320714403,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673446952
+    },
+    {
+        "content": "<p>Āgenskalnā līdzīgi - starp pārrāvumiem veloceļos pa ceļiem ar norādēm. Tur gan nedaudz kļūdaini. Arī kaut kā routerim jāpasaka.</p>",
+        "id": 320715266,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673447118
+    },
+    {
+        "content": "<p>Zasulaukā tas pats - pārrāvums un velo sūta pa ielu. Tur norādes kaut kādas arī.</p>",
+        "id": 320715823,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673447255
+    },
+    {
+        "content": "<p>Purvciemā gabals nepareizs, cik zinu - noņēmu. Nav tur nekādu zīmju vai norāžu.</p>",
+        "id": 320716588,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673447453
+    },
+    {
+        "content": "<p>Ikšķiles promenāde ir teorētiski veloceļš bet praktiski asfaltēts ar servisa mašīnām braucams, man liekas tur pareizi. Bet ja pārliktu kā footway/cycleway kā Ogres promenādē - es arī piekristu, ka pareizi.</p>",
+        "id": 320717170,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673447607
+    },
+    {
+        "content": "<p>Ogrē abi gabali ir apzīmēti velo, bet mašīnām ļauts destination - tur piebrauktuve mājām un servisa ēkāms, arī viss laikam pareizi</p>",
+        "id": 320717427,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673447673
+    },
+    {
+        "content": "<p>Jelgavā pussabrucis (māšīnām ciet) tilts ir ar velo(ceļa) zīmi kaut kādu, cik atceros. Tur arī pastulbi - bet teorētiski pareizi</p>",
+        "id": 320717949,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673447796
+    },
+    {
+        "content": "<p>Siguldā serpentīna ceļa sākumā ir velo zīme, tur nav kur braukt, nomainīju uz veloceļu.</p>",
+        "id": 320718825,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673448032
+    },
+    {
+        "content": "<p>Siguldas mežā random track gan nav designated - tur visur maršruti, bet nekādu tādu zīmju. Noņēmu.</p>",
+        "id": 320719468,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673448176
+    },
+    {
+        "content": "<p>Par cycleway is a lie posmu - no comment</p>",
+        "id": 320719740,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673448253
+    },
+    {
+        "content": "<p>Valmierā izskatās, ka pa Greenway salikts - neko personīgi nezinu, bet iespējams , ka daudz kas pareizi. Tur gan caurumi pa vidu, uz lieliem ceļiem un kaut kādi sānceļi. Jāskatās Mapillary vai jābrauc pētīt vai kādam, kas zin, jāremontē.</p>",
+        "id": 320720017,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673448336
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway/near/320715823\">said</a>:</p>\n<blockquote>\n<p>Zasulaukā tas pats - pārrāvums un velo sūta pa ielu. Tur norādes kaut kādas arī.</p>\n</blockquote>\n<p><a href=\"https://www.mapillary.com/app/?lat=56.951244199972&amp;lng=24.0461901&amp;z=17&amp;pKey=767202893964427\">No viena gala</a> tur ietve atzīmēta ar <a href=\"https://osmlatvija.github.io/road-signs/417.html\">417.</a><br>\n<a href=\"https://www.mapillary.com/app/?lat=56.950950950951&amp;lng=24.053558437686&amp;z=17&amp;pKey=1092525181465888\">No otra gala</a> arī itkā <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Ddesignated\">bicycle=designated</a> jābūt uz ietves.<br>\n<a href=\"https://www.mapillary.com/app/?lat=56.950629999972&amp;lng=24.051714199972&amp;z=17&amp;pKey=472693863804650\">Uz ceļa</a> tikai <a href=\"https://osmlatvija.github.io/road-signs/857.html\">857.</a></p>",
+        "id": 320720062,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673448349
+    },
+    {
+        "content": "<p>Rēzekne, Duagavpils neko nezinu, bet izskatās, ka nepareizi.</p>",
+        "id": 320720361,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673448439
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway/near/320720062\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://www.mapillary.com/app/?lat=56.951244199972&amp;lng=24.0461901&amp;z=17&amp;pKey=767202893964427\">No viena gala</a> tur ietve atzīmēta ar <a href=\"https://osmlatvija.github.io/road-signs/417.html\">417.</a><br>\n<a href=\"https://www.mapillary.com/app/?lat=56.950950950951&amp;lng=24.053558437686&amp;z=17&amp;pKey=1092525181465888\">No otra gala</a> arī itkā <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Ddesignated\">bicycle=designated</a> jābūt uz ietves.<br>\n<a href=\"https://www.mapillary.com/app/?lat=56.950629999972&amp;lng=24.051714199972&amp;z=17&amp;pKey=472693863804650\">Uz ceļa</a> tikai <a href=\"https://osmlatvija.github.io/road-signs/857.html\">857.</a></p>\n</blockquote>\n<p>Es nezinu, kā to tur var salikt. Veloietvi var uzzīmēt. Bet tad sanāk vienvirziena... Principā jau tās velo maršrutu zīmes neko nenozīmē, bet praksē tomēr gribētos routeriem uzsvērt, kur jābrauc. Ko tu piedāvā likt visiem šitiem neveloceļiem?</p>",
+        "id": 320721297,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673448697
+    },
+    {
+        "content": "<p>Par Rēzekni pajautāju - <a href=\"https://www.openstreetmap.org/changeset/128771685\">https://www.openstreetmap.org/changeset/128771685</a> - iespējams tur veloceļš vai kas tāds, negribu uzreiz aiztikt.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/changeset/128771685\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/changeset/128771685\" title=\"Changeset: 128771685 | OpenStreetMap\">Changeset: 128771685 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 320722583,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673449057
+    },
+    {
+        "content": "<p>Izlaboju Daugavpili. Also - lol <a href=\"https://www.mapillary.com/app/?pKey=323866912475616&amp;focus=photo\">https://www.mapillary.com/app/?pKey=323866912475616&amp;focus=photo</a></p>",
+        "id": 320724821,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673449595
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway/near/320721297\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway/near/320720062\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://www.mapillary.com/app/?lat=56.951244199972&amp;lng=24.0461901&amp;z=17&amp;pKey=767202893964427\">No viena gala</a> tur ietve atzīmēta ar <a href=\"https://osmlatvija.github.io/road-signs/417.html\">417.</a><br>\n<a href=\"https://www.mapillary.com/app/?lat=56.950950950951&amp;lng=24.053558437686&amp;z=17&amp;pKey=1092525181465888\">No otra gala</a> arī itkā <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Ddesignated\">bicycle=designated</a> jābūt uz ietves.<br>\n<a href=\"https://www.mapillary.com/app/?lat=56.950629999972&amp;lng=24.051714199972&amp;z=17&amp;pKey=472693863804650\">Uz ceļa</a> tikai <a href=\"https://osmlatvija.github.io/road-signs/857.html\">857.</a></p>\n</blockquote>\n<p>Es nezinu, kā to tur var salikt. Veloietvi var uzzīmēt. Bet tad sanāk vienvirziena... Principā jau tās velo maršrutu zīmes neko nenozīmē, bet praksē tomēr gribētos routeriem uzsvērt, kur jābrauc. Ko tu piedāvā likt visiem šitiem neveloceļiem?</p>\n</blockquote>\n<p>Ja mēs paliekam ar <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Asidewalk\">sidewalk=*</a> uz <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Ahighway\">highway=*</a> tajā vietā, tad es nomainītu <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Ddesignated\">bicycle=designated</a> uz <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Acycleway:right%3Dtrack\">cycleway:right=track</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Acycleway:right:oneway%3Dno\">cycleway:right:oneway=no</a> (kā <a href=\"https://wiki.openstreetmap.org/wiki/Tag:cycleway%3Dtrack\">aprakstīts šeit</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Sidewalks#Cycleway_and_footway_on_sidewalk\">šeit</a>). Tur arī aprakstīti tagošanas varianti, ja zīmē atsevišķi.</p>",
+        "id": 320726240,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673449956
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway/near/320724821\">said</a>:</p>\n<blockquote>\n<p>Izlaboju Daugavpili. Also - lol <a href=\"https://www.mapillary.com/app/?pKey=323866912475616&amp;focus=photo\">https://www.mapillary.com/app/?pKey=323866912475616&amp;focus=photo</a></p>\n</blockquote>\n<p>Brutāli :D</p>",
+        "id": 320726398,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673449992
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway/near/320714403\">said</a>:</p>\n<blockquote>\n<p>Jūrmalā ir velo norādes are neoficiālām ceļa zīmēm, bet nezinu, vai tur īsti pareizi tā likt - <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a> it kā pa maz - jo tas jau ir visur - kā routerim pareikt, ka te ir bicycle.... umm... designated? :)</p>\n</blockquote>\n<p><a href=\"https://www.openstreetmap.org/way/35278234\">Šīs posma</a> neatbilst <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Ddesignated\">bicycle=designated</a> (\"object is explicitly designated for use by cyclists\"), jo <a href=\"https://www.mapillary.com/app/?lat=56.971730291744&amp;lng=23.814253246753&amp;z=17&amp;pKey=514273520259886\">tur ir tikai</a> <a href=\"https://osmlatvija.github.io/road-signs/857.html\">857.</a> zīme (\"Velomaršruts\"). Tāpat <a href=\"https://www.mapillary.com/app/?lat=56.970415099972&amp;lng=23.803860499972&amp;z=19.9&amp;pKey=2805796813004821&amp;focus=photo\">no otra gala</a>. Nomainīju uz <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a>.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/35278234\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/35278234\" title=\"Way: 35278234 | OpenStreetMap\">Way: 35278234 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://osmlatvija.github.io/road-signs/857.html\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/464882a8661b053b7f570bcfe65fe6c6ec674d09\\/68747470733a2f2f6c696b756d692e6c762f77777772616b7374692f323031352f3132312f42494c4445532f4e5f3237392f494d4147453336392e4a5047)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://osmlatvija.github.io/road-signs/857.html\" title=\"857\">857</a></div></div></div>",
+        "id": 323449982,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674642737
+    },
+    {
+        "content": "<p>Es teiktu, ka atbilst, bet es īpaši nestrīdēšos. Tā nav 857 zīme, bet tādas pašizdomātas horizontālās, kādas saliktas Jūrmalā visvisur. Nu jā, pēc CSN nav velo te nekas, par maršruts te nav, jo nav officiāla zīme. Bet prakstiski vairāk vai mazāk tā domāts.</p>",
+        "id": 323451291,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674643105
+    },
+    {
+        "content": "<p>Vienīgais, Jūrmalā pus ietvju un ceļu nepareizi salikti ar <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a> kaut kad...</p>",
+        "id": 323451333,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674643125
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway/near/323451291\">said</a>:</p>\n<blockquote>\n<p>Tā nav 857 zīme, bet tādas pašizdomātas horizontālās, kādas saliktas Jūrmalā visvisur.</p>\n</blockquote>\n<p>Ir bilde? Es neatceros tādas zīmes...</p>",
+        "id": 323451733,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674643238
+    },
+    {
+        "content": "<p>Par <a href=\"https://www.openstreetmap.org/way/912580800\">šo</a> es neatceros un bilžu nav. Lai paliek...<br>\nPalaboju tur blakus ietvi saskaņā ar <a href=\"https://osmlatvija.github.io/road-signs/421.html\">421.</a> zīmi.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/912580800\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/912580800\" title=\"Way: ‪Stendes iela‬ (‪912580800‬) | OpenStreetMap\">Way: ‪Stendes iela‬ (‪912580800‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://osmlatvija.github.io/road-signs/421.html\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/0060b6066602a3cd4a4fec5007ea18473faa3616\\/68747470733a2f2f6c696b756d692e6c762f77777772616b7374692f323031352f3132312f42494c4445532f4e5f3237392f494d4147453135372e4a5047)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://osmlatvija.github.io/road-signs/421.html\" title=\"421\">421</a></div></div></div>",
+        "id": 323456901,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674644888
+    },
+    {
+        "content": "<p>Pēc bildēm, tur no vienas puses <a href=\"https://osmlatvija.github.io/road-signs/421.html\">421.</a>, no otras <a href=\"https://osmlatvija.github.io/road-signs/413.html\">413.</a> <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span> Bet es precīzi neatceros, tikai atceros, ka tur neskaidrs, ja nezini</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://osmlatvija.github.io/road-signs/421.html\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/0060b6066602a3cd4a4fec5007ea18473faa3616\\/68747470733a2f2f6c696b756d692e6c762f77777772616b7374692f323031352f3132312f42494c4445532f4e5f3237392f494d4147453135372e4a5047)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://osmlatvija.github.io/road-signs/421.html\" title=\"421\">421</a></div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://osmlatvija.github.io/road-signs/413.html\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/7a45856359fb883b8d7e18444f04f94583c77c02\\/68747470733a2f2f6c696b756d692e6c762f77777772616b7374692f323031352f3132312f42494c4445532f4e5f3237392f494d4147453134392e4a5047)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://osmlatvija.github.io/road-signs/413.html\" title=\"413\">413</a></div></div></div>",
+        "id": 323457898,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674645197
+    },
+    {
+        "content": "<p>Pagāšgad nepaspēju izbraukt, šogad gan jau tur nobraukšu visos virzienos</p>",
+        "id": 323458184,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674645272
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/bicycle.3Ddesignated.20uz.20d.C4.ABvainiem.20highway/near/320715266\">said</a>:</p>\n<blockquote>\n<p>Āgenskalnā līdzīgi - starp pārrāvumiem veloceļos pa ceļiem ar norādēm. Tur gan nedaudz kļūdaini. Arī kaut kā routerim jāpasaka.</p>\n</blockquote>\n<p>Tur arī nomainīju uz <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a>, jo ir tikai \"Velomaršruts\" zīmes. Principā tie pārrāvumi nav tik gari un ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aroute%3Dbicycle\">route=bicycle</a> daļas, tāpēc router visticamāk izmantos tos pašus ceļus, kā iepriekš. Bet nebūs arī nepareizi, ja routing vedīs pa blakus ielām, jo reāli tur nekādas specifiskas infrastruktūras nav.</p>",
+        "id": 323464167,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674647120
+    }
+]

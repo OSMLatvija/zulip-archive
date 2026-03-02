@@ -1,0 +1,494 @@
+[
+    {
+        "content": "<p><a href=\"http://resultmaps.neis-one.org/osm-notes-country?c=Latvia\">http://resultmaps.neis-one.org/osm-notes-country?c=Latvia</a><br>\n<a href=\"https://resultmaps.neis-one.org/newestosm?c=Latvia\">https://resultmaps.neis-one.org/newestosm?c=Latvia</a><br>\nRSS feed uz zulip topic? būtu vieglāk sekot līdzi jaunumiem</p>",
+        "id": 358107648,
+        "sender_full_name": "Colby",
+        "timestamp": 1683984175
+    },
+    {
+        "content": "<p>Es jau tagad redzu notes kanālu: HellMap HellMap HellMap HellMap HellMap HellMap HellMap HellMap HellMap HellMap HellMap</p>",
+        "id": 358108547,
+        "sender_full_name": "HellMap",
+        "timestamp": 1683984506
+    },
+    {
+        "content": "<p>Bet jā, ja Zulips mācētu integrēt kaut kādus RSS veida feedus, drošvien jau varētu padomāt, kurus gribētos. No otras puses, te būtu ļoti maz info - tik un tā es labāk skatos konkrētā saitā. Bet to var ar linkiem.</p>",
+        "id": 358108841,
+        "sender_full_name": "HellMap",
+        "timestamp": 1683984621
+    },
+    {
+        "content": "<p>Eksistē <a href=\"https://zulip.com/integrations/doc/rss\">oficiāls risinājums priekš RSS</a>, bet, cik saprotu, tas prasa serveri, kur tas risinājums grieztos. Mums tādas infrastruktūras nav, un es šaubos, ka to risinājumu var laist ar GitHub Actions.<br>\nBet droši vien ar GitHub Actions var dabūt OSM Notes jaunumus un aizsūtīt to uz Zulip, ja tas ir vēlamais rezultāts.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://zulip.com/integrations/doc/rss\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/df83b8ca6f665e54aab5f8f261d9ceb696f2f5c3\\/68747470733a2f2f7a756c6970636861742e636f6d2f7374617469632f696d616765732f6c6f676f2f7a756c69702d69636f6e2d313238783132382e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://zulip.com/integrations/doc/rss\" title=\"RSS | Zulip integrations\">RSS | Zulip integrations</a></div><div class=\"message_embed_description\">Zulip comes with over a hundred native integrations out of the box, and integrates with Zapier and IFTTT to provide hundreds more. Connect the apps you use every day to Zulip.</div></div></div>",
+        "id": 358160993,
+        "sender_full_name": "i-ky",
+        "timestamp": 1684008191
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/362235-Zulip/topic/Resultmaps.20RSS/near/358107648\">said</a>:</p>\n<blockquote>\n<p><a href=\"http://resultmaps.neis-one.org/osm-notes-country?c=Latvia\">http://resultmaps.neis-one.org/osm-notes-country?c=Latvia</a><br>\n<a href=\"https://resultmaps.neis-one.org/newestosm?c=Latvia\">https://resultmaps.neis-one.org/newestosm?c=Latvia</a><br>\nRSS feed uz zulip topic?</p>\n</blockquote>\n<p>Vai tie linki tiešām ir RSS? Es pamēģināju sakonfigurēt to Zulip'a oficiālo risinājumu uz sava datora un tas neko nesūta uz Zulip. Tas viņu skripts izmanto <a href=\"https://pypi.org/project/feedparser/\">feedparser</a> moduli, un pēc print-debug izskatās, ka tas modulis \"neredz\" nekādus <a href=\"https://feedparser.readthedocs.io/en/latest/reference-entry.html\">entries</a>.</p>\n<p>Full disclosure: es nekad iepriekš neesmu neko darījis ar RSS un ļoti miglaini zinu, kas tas tāds ir.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://pypi.org/project/feedparser/\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/8e8f5f58169611136e76bf480cfdeac25041d3fb\\/68747470733a2f2f707970692e6f72672f7374617469632f696d616765732f747769747465722e61626166346231392e77656270)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://pypi.org/project/feedparser/\" title=\"feedparser\">feedparser</a></div><div class=\"message_embed_description\">Universal feed parser, handles RSS 0.9x, RSS 1.0, RSS 2.0, CDF, Atom 0.3, and Atom 1.0 feeds</div></div></div>",
+        "id": 359078521,
+        "sender_full_name": "i-ky",
+        "timestamp": 1684356156
+    },
+    {
+        "content": "<p>RSS ir tipa speciāli formatēts xml. Browseri to atverot, tev piedāvātu kaut kā to RSS ielikt bookmarkos vai feedos, atkarībā no browsera. Es nezinu, kāpēc to viņu linku neatpazīst un neparsē uzreiz.</p>",
+        "id": 359082885,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684357777
+    },
+    {
+        "content": "<p>Tajā viņu failā nav <code>&lt;entries&gt;</code> elementa, uzreiz <code>&lt;entry&gt;</code></p>",
+        "id": 359083500,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684358006
+    },
+    {
+        "content": "<p>Un  jā, tehniski tas ir Atom nevis RSS, bet viņi līdzīgi un tā feedparser lapa ir par Atom.</p>",
+        "id": 359083681,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684358088
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/362235-Zulip/topic/Resultmaps.20RSS/near/359078521\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/362235-Zulip/topic/Resultmaps.20RSS/near/358107648\">said</a>:</p>\n<blockquote>\n<p><a href=\"http://resultmaps.neis-one.org/osm-notes-country?c=Latvia\">http://resultmaps.neis-one.org/osm-notes-country?c=Latvia</a><br>\n<a href=\"https://resultmaps.neis-one.org/newestosm?c=Latvia\">https://resultmaps.neis-one.org/newestosm?c=Latvia</a><br>\nRSS feed uz zulip topic?</p>\n</blockquote>\n<p>Vai tie linki tiešām ir RSS? Es pamēģināju sakonfigurēt to Zulip'a oficiālo risinājumu uz sava datora un tas neko nesūta uz Zulip. Tas viņu skripts izmanto <a href=\"https://pypi.org/project/feedparser/\">feedparser</a> moduli, un pēc print-debug izskatās, ka tas modulis \"neredz\" nekādus <a href=\"https://feedparser.readthedocs.io/en/latest/reference-entry.html\">entries</a>.</p>\n<p>Full disclosure: es nekad iepriekš neesmu neko darījis ar RSS un ļoti miglaini zinu, kas tas tāds ir.</p>\n</blockquote>\n<p><a href=\"http://resultmaps.neis-one.org/newestosmcountryfeed?c=Latvia\">http://resultmaps.neis-one.org/newestosmcountryfeed?c=Latvia</a><br>\n<a href=\"https://resultmaps.neis-one.org/osm-notes-country-feed?c=Latvia&amp;a=opened\">https://resultmaps.neis-one.org/osm-notes-country-feed?c=Latvia&amp;a=opened</a></p>",
+        "id": 359307100,
+        "sender_full_name": "Colby",
+        "timestamp": 1684385260
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/362235-Zulip/topic/Resultmaps.20RSS/near/359307100\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/362235-Zulip/topic/Resultmaps.20RSS/near/359078521\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/362235-Zulip/topic/Resultmaps.20RSS/near/358107648\">said</a>:</p>\n<blockquote>\n<p><a href=\"http://resultmaps.neis-one.org/osm-notes-country?c=Latvia\">http://resultmaps.neis-one.org/osm-notes-country?c=Latvia</a><br>\n<a href=\"https://resultmaps.neis-one.org/newestosm?c=Latvia\">https://resultmaps.neis-one.org/newestosm?c=Latvia</a><br>\nRSS feed uz zulip topic?</p>\n</blockquote>\n<p>Vai tie linki tiešām ir RSS? Es pamēģināju sakonfigurēt to Zulip'a oficiālo risinājumu uz sava datora un tas neko nesūta uz Zulip. Tas viņu skripts izmanto <a href=\"https://pypi.org/project/feedparser/\">feedparser</a> moduli, un pēc print-debug izskatās, ka tas modulis \"neredz\" nekādus <a href=\"https://feedparser.readthedocs.io/en/latest/reference-entry.html\">entries</a>.</p>\n<p>Full disclosure: es nekad iepriekš neesmu neko darījis ar RSS un ļoti miglaini zinu, kas tas tāds ir.</p>\n</blockquote>\n<p><a href=\"http://resultmaps.neis-one.org/newestosmcountryfeed?c=Latvia\">http://resultmaps.neis-one.org/newestosmcountryfeed?c=Latvia</a><br>\n<a href=\"https://resultmaps.neis-one.org/osm-notes-country-feed?c=Latvia&amp;a=opened\">https://resultmaps.neis-one.org/osm-notes-country-feed?c=Latvia&amp;a=opened</a></p>\n</blockquote>\n<p>O, tagad ir! Var apskatīt #RSS stream'ā uz izteikt viedokļus.</p>",
+        "id": 359431062,
+        "sender_full_name": "i-ky",
+        "timestamp": 1684424517
+    },
+    {
+        "content": "<p>Varbūt mēs gribētu katrai note savu topic'u?</p>",
+        "id": 359478137,
+        "sender_full_name": "i-ky",
+        "timestamp": 1684437343
+    },
+    {
+        "content": "<p>Es domāju, ka vajag katram savu message, lai var iznest topikā, ja vajag apsriest. Bet katram topiku būs krietni pa daudz.</p>",
+        "id": 359478863,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684437614
+    },
+    {
+        "content": "<p>Varbūt tam Neisa kungam ir \"notes per country\" kaut kādā machine-readable formātā?</p>",
+        "id": 359479862,
+        "sender_full_name": "i-ky",
+        "timestamp": 1684437979
+    },
+    {
+        "content": "<p>Pilnais saraksts ir šeit, kuru es parasti skatos <a href=\"http://resultmaps.neis-one.org/osm-notes-country?c=Latvia\">http://resultmaps.neis-one.org/osm-notes-country?c=Latvia</a></p>",
+        "id": 359480250,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684438154
+    },
+    {
+        "content": "<p>Ir visiem note aktivitātem feedi, bet tas tos vajag vienā streamā</p>",
+        "id": 359480414,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684438208
+    },
+    {
+        "content": "<p>Es vairāk par to <code>&lt;content&gt;</code> domāju. Ja mums vajag tikai opened, tad priekš kam katrā Zulip message'ā \"Action: opened\"? Ja būtu machine-readable <code>&lt;content&gt;</code>, tad mēs paši varētu noformatēt, kā gribam...</p>",
+        "id": 359481095,
+        "sender_full_name": "i-ky",
+        "timestamp": 1684438478
+    },
+    {
+        "content": "<p>Kad/cik bieži tiek atjaunoti tie RSS feeds?</p>",
+        "id": 362107697,
+        "sender_full_name": "i-ky",
+        "timestamp": 1685435102
+    },
+    {
+        "content": "<p>Par RSS tagad atbild <a href=\"https://github.com/OSMLatvija/zulip-rss\">https://github.com/OSMLatvija/zulip-rss</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/OSMLatvija/zulip-rss\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/7256b2930e041674bca3382a55686ae4246e61a6\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f386265323663663836306533363935356564633237396238613332326638623536386361376637636361323463666535623435643461373537653162323433302f4f534d4c617476696a612f7a756c69702d727373)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/OSMLatvija/zulip-rss\" title=\"GitHub - OSMLatvija/zulip-rss\">GitHub - OSMLatvija/zulip-rss</a></div><div class=\"message_embed_description\">Contribute to OSMLatvija/zulip-rss development by creating an account on GitHub.</div></div></div>",
+        "id": 362362341,
+        "sender_full_name": "i-ky",
+        "timestamp": 1685516520
+    },
+    {
+        "content": "<p>Vai mēs gribam kaut ko darīt ar to, ka dažreiz title nerenderējas pareizi (<a href=\"#narrow/stream/388728-RSS/topic/Opened.20OpenStreetMap.20notes.20.28past.207.20Days.29.20-.20Feed.20for.20Latvia/near/366585438\">piemērs</a>)?<br>\nCik es saprotu, tas notiek, ja note teksts sastāv no vairākām rindām. Tas viss ir iebāzts iekš title, un kad Zulip RSS skripts vēl pa virsu cenšas uzlikt saiti, Zulip Markdown rendered saka: \"Nē, nebūs\".</p>",
+        "id": 366869290,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686929105
+    },
+    {
+        "content": "<p>Heh, funkcionāli laikam pie visa var tikt, tik kā tas paskats.<br>\nLai gan... citās ziņās links uz piezīmi ir dubultā. Viens links gandrīz vai padara pārskatāmāku.</p>",
+        "id": 366877925,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1686930787
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/362235-Zulip/topic/Resultmaps.20RSS/near/366877925\">said</a>:</p>\n<blockquote>\n<p>Lai gan... citās ziņās links uz piezīmi ir dubultā.</p>\n</blockquote>\n<p>Kur?</p>",
+        "id": 366884049,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686931896
+    },
+    {
+        "content": "<p>Augšā un apakšā ir identiski linki.<br>\n<a href=\"/user_uploads/49624/cf0wKLbwqP-qsi6k5b4mRBkR/image.png\">links galore</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/cf0wKLbwqP-qsi6k5b4mRBkR/image.png\" title=\"links galore\"><img src=\"/user_uploads/49624/cf0wKLbwqP-qsi6k5b4mRBkR/image.png\"></a></div>",
+        "id": 366921744,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1686941454
+    },
+    {
+        "content": "<p>Jā, nezinu, kāpēc tā uztaisīja. <span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span></p>",
+        "id": 366928266,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686943282
+    },
+    {
+        "content": "<p>Es jau zinu, kā ar <code>pip</code> instalēt <code>zulip</code> moduli no git, tā kā varam noforkoties un uztaisīt, kā vajag.</p>",
+        "id": 366928770,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686943428
+    },
+    {
+        "content": "<p>Issue / pull request?</p>",
+        "id": 366938909,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1686946830
+    },
+    {
+        "content": "<p>Forkot šķiet biš ekstra pūles - principā tās notes kaut kad varētu dzīt iekšā gandrīz vai kādā issue sistēmā, līdzīgi kā lietuvieši ir uztaisījuši.<br>\nTik varbūt ne pilnīgi jaunu custom rakstīt :)</p>",
+        "id": 366939222,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1686946935
+    },
+    {
+        "content": "<p>Priekš pull request'a tāpat jā'fork'o, kādas extra pūles? :D<br>\nUn man ir šaubas, ka fix būs tik universāls, ka to pieņems.</p>",
+        "id": 367047546,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686972007
+    },
+    {
+        "content": "<p><a href=\"https://www.openstreetmap.org/note/3817837\">https://www.openstreetmap.org/note/3817837</a> - nav sarakstā, laikam šķība Latvijas kontūra neisam</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/note/3817837\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/note/3817837\" title=\"Note: 3817837 | OpenStreetMap\">Note: 3817837 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 382359822,
+        "sender_full_name": "HellMap",
+        "timestamp": 1691327677
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/362235-Zulip/topic/Resultmaps.20RSS/near/382359822\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://www.openstreetmap.org/note/3817837\">https://www.openstreetmap.org/note/3817837</a> - nav sarakstā, laikam šķība Latvijas kontūra neisam</p>\n</blockquote>\n<p>Itkā nav tuvu robežai, varbūt arī kaut kas cits kaut kur nofeiloja. Laikam būtu labi paziņot Neisam, bet es nezinu, kur to izdarīt.</p>",
+        "id": 382402254,
+        "sender_full_name": "i-ky",
+        "timestamp": 1691339661
+    },
+    {
+        "content": "<p>Biš necroposting, bet dažreiz par kļūdām ziņo komentāros pie bloga postiem - piem., <a href=\"https://neis-one.org/2013/05/osm-notes/\">https://neis-one.org/2013/05/osm-notes/</a> .</p>",
+        "id": 382536517,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1691396346
+    },
+    {
+        "content": "<p>Vai mēs varētu pielikt arī <a href=\"https://resultmaps.neis-one.org/osm-discussions\">https://resultmaps.neis-one.org/osm-discussions</a> changesetu komentāriem?</p>",
+        "id": 400927788,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699444179
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/362235-Zulip/topic/Resultmaps.20RSS/near/400927788\">said</a>:</p>\n<blockquote>\n<p>Vai mēs varētu pielikt arī <a href=\"https://resultmaps.neis-one.org/osm-discussions\">https://resultmaps.neis-one.org/osm-discussions</a> changesetu komentāriem?</p>\n</blockquote>\n<p><a href=\"https://github.com/OSMLatvija/zulip-rss/commit/045852d1f57e77d36a140279d42f09d105c67bc9\">Pieliku</a>.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/OSMLatvija/zulip-rss/commit/045852d1f57e77d36a140279d42f09d105c67bc9\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/075859aabc140bd8154ad03006ab07d76f17edbb\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656632326264396636323431646430643262366132623962363530316662626338323866653063313065353537643731653166343263616536336430393335652f4f534d4c617476696a612f7a756c69702d7273732f636f6d6d69742f30343538353264316635376537376433366131343032373964343266303964313035633637626339)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/OSMLatvija/zulip-rss/commit/045852d1f57e77d36a140279d42f09d105c67bc9\" title=\"Add changeset discussions feed · OSMLatvija/zulip-rss@045852d\">Add changeset discussions feed · OSMLatvija/zulip-rss@045852d</a></div><div class=\"message_embed_description\">Contribute to OSMLatvija/zulip-rss development by creating an account on GitHub.</div></div></div>",
+        "id": 400928536,
+        "sender_full_name": "i-ky",
+        "timestamp": 1699444485
+    },
+    {
+        "content": "<p>Man jau pirksti kasās uzrakstīt kaut kādu post-processing to RSS-&gt;message formātam, lai normāli izskatās...</p>",
+        "id": 400932078,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699445857
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/362235-Zulip/topic/Resultmaps.20RSS/near/400932078\">said</a>:</p>\n<blockquote>\n<p>Man jau pirksti kasās uzrakstīt kaut kādu post-processing to RSS-&gt;message formātam, lai normāli izskatās...</p>\n</blockquote>\n<p>Kas tieši nepatīk? Principā var no'fork'ot <a href=\"https://github.com/zulip/python-zulip-api\">https://github.com/zulip/python-zulip-api</a> un parediģēt <a href=\"https://github.com/zulip/python-zulip-api/blob/main/zulip/integrations/rss/rss-bot\">https://github.com/zulip/python-zulip-api/blob/main/zulip/integrations/rss/rss-bot</a> kā vajag.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/zulip/python-zulip-api\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/b6bd9b75c2ac2ac1e19223d3e72ab857cdfecf5c\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f613330636137306137356264333865616361323165373236653936636233613963306363623364313333666639386431316665636366346434623435633565392f7a756c69702f707974686f6e2d7a756c69702d617069)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/zulip/python-zulip-api\" title=\"GitHub - zulip/python-zulip-api: Python library for the Zulip API.\">GitHub - zulip/python-zulip-api: Python library for the Zulip API.</a></div><div class=\"message_embed_description\">Python library for the Zulip API. Contribute to zulip/python-zulip-api development by creating an account on GitHub.</div></div></div>",
+        "id": 400936849,
+        "sender_full_name": "i-ky",
+        "timestamp": 1699447723
+    },
+    {
+        "content": "<p>Nu kaut vai augtākminētais notes divas reizes vienu un to pašu raksta un salūzt pie jebkādas ne-sintakses</p>",
+        "id": 400937994,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699448098
+    },
+    {
+        "content": "<p>Hmm, viņš pa taisno no RSS uz Zulipu... Workflowā tad papildsoli neiebāzt. Jāforko un jāmaina pythona kods un tad vēl viens maintenance projekts. Jāraksta Zulipa b0tu, kas izlasīt RSS b0ta messagu, izdzēsīs un iekopēs izlabotu <span aria-label=\"melting face\" class=\"emoji emoji-1fae0\" role=\"img\" title=\"melting face\">:melting_face:</span></p>",
+        "id": 400938452,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699448262
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/362235-Zulip/topic/Resultmaps.20RSS/near/400938452\">said</a>:</p>\n<blockquote>\n<p>Jāforko un jāmaina pythona kods un tad vēl viens maintenance projekts.</p>\n</blockquote>\n<p>Ja labojums nav specifiski priekš mums, tad to labojumu var ie'push'ot upstream'ā, nevajadzēs maintain'ot pašiem.</p>",
+        "id": 400939220,
+        "sender_full_name": "i-ky",
+        "timestamp": 1699448514
+    },
+    {
+        "content": "<p>Tur jau tā problema, ka tas ir tā NEIS RSS komentārs šķībs - gan title gan content ar atkārtotu info. Sintaksi, kas konfliktē ar Zulipu, varbūt var arī labot plugina ietvaros.</p>",
+        "id": 400941909,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699449328
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/362235-Zulip/topic/Resultmaps.20RSS/near/400941909\">said</a>:</p>\n<blockquote>\n<p>Tur jau tā problema, ka tas ir tā NEIS RSS komentārs šķībs - gan title gan content ar atkārtotu info.</p>\n</blockquote>\n<p>Kur var pieteikt issue? Laikam tikai bloga komentāros?</p>",
+        "id": 400942563,
+        "sender_full_name": "i-ky",
+        "timestamp": 1699449562
+    },
+    {
+        "content": "<p>Varbūtība, ka izlabos jau nav liela. To, ka Zulipā slikti izskatās, diez vai uzskatīs par problēmu.</p>",
+        "id": 400942806,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699449644
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/362235-Zulip/topic/Resultmaps.20RSS/near/400942806\">said</a>:</p>\n<blockquote>\n<p>Varbūtība, ka izlabos jau nav liela. To, ka Zulipā slikti izskatās, diez vai uzskatīs par problēmu.</p>\n</blockquote>\n<p>Diez vai tikai Zulip'ā. Taisnība, ka rss-bot padara to nesmukāku, dzēšot ārā HTML tagus, bet, teiksim, datumi nelasāmā formātā un pie tam kaut kādā maģiskajā laika zonā nāk pa taisno no RSS.</p>",
+        "id": 400945533,
+        "sender_full_name": "i-ky",
+        "timestamp": 1699450578
+    },
+    {
+        "content": "<p>Varbūt jādomā par to, lai visu to ņemt pa taisno no OSM API bez RSS starpniecības?</p>",
+        "id": 400949307,
+        "sender_full_name": "i-ky",
+        "timestamp": 1699451927
+    },
+    {
+        "content": "<p>Filtrēt būs grūti. Tas NEIS tomēr apstrādā datus pa reģioniem un filtriem. Piemēram, viņš nespamo visus tos vandalisma revertus.</p>",
+        "id": 400950500,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699452234
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/362235-Zulip/topic/Resultmaps.20RSS/near/400945533\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/362235-Zulip/topic/Resultmaps.20RSS/near/400942806\">said</a>:</p>\n<blockquote>\n<p>Varbūtība, ka izlabos jau nav liela. To, ka Zulipā slikti izskatās, diez vai uzskatīs par problēmu.</p>\n</blockquote>\n<p>rss-bot padara to nesmukāku, dzēšot ārā HTML tagus</p>\n</blockquote>\n<p>Uztaisīju, lai mēģina konvertēt HTML uz Markdown. Palika labāk?</p>",
+        "id": 401026332,
+        "sender_full_name": "i-ky",
+        "timestamp": 1699479029
+    },
+    {
+        "content": "<p>It kā izskatās nedaudz labāk. Galvenā problēma gan ir atkārtota informācija, nevajadzīgs teksts, slikti formatēts teksts (datums, linki) un prezentācija nevajadzīgi mašīnveidīgi nevis normāli lasāmi.</p>",
+        "id": 401028813,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699480173
+    },
+    {
+        "content": "<p>For reference, tādu es to (personīgi) gribētu: <br>\n<a href=\"/user_uploads/49624/Rg33mTKdPh31YhGsW8C_yJtv/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/Rg33mTKdPh31YhGsW8C_yJtv/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/Rg33mTKdPh31YhGsW8C_yJtv/image.png\"></a></div>",
+        "id": 401029697,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699480567
+    },
+    {
+        "content": "<p>Bet to nepāks bez manuālas reformatēšanas konkrēti šitam RSS un tam vajag kaut ko pa vidu starp \"nolasīju RSS\" un \"sūtu message\".</p>",
+        "id": 401029827,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699480627
+    },
+    {
+        "content": "<p>Kā piemērs. <a href=\"#narrow/stream/388728-RSS/topic/Opened.20OpenStreetMap.20notes.20.28past.207.20Days.29.20-.20Feed.20for.20Latvia/near/401143816\">Šo</a>:</p>\n<blockquote>\n<p><strong><a href=\"https://www.openstreetmap.org/note/3979686\">Note 3979686 by richlv: \"Braukt Games not observed here. Where is it if it exists?\"</a></strong><br>\n<strong>Contributor:</strong> <a href=\"https://www.openstreetmap.org/user/richlv\">richlv</a><br>\n<strong>Action:</strong> opened <br>\n<strong>Comment:</strong> Braukt Games not observed here. Where is it if it exists?<br>\n<a href=\"https://www.openstreetmap.org/note/3979686\">https://www.openstreetmap.org/note/3979686</a></p>\n</blockquote>\n<p>...var noformatēt šādi:</p>\n<div class=\"spoiler-block\"><div class=\"spoiler-header\">\n<p><a href=\"https://www.openstreetmap.org/note/3979686\">Note 3979686 by richlv: \"Braukt Games not observed here. Where is it if it exists?\"</a></p>\n</div><div class=\"spoiler-content\" aria-hidden=\"true\">\n<p><strong>Contributor:</strong> <a href=\"https://www.openstreetmap.org/user/richlv\">richlv</a><br>\n<strong>Action:</strong> opened <br>\n<strong>Comment:</strong> Braukt Games not observed here. Where is it if it exists?</p>\n</div></div>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/note/3979686\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/note/3979686\" title=\"Note: 3979686 | OpenStreetMap\">Note: 3979686 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/user/richlv\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/user/richlv\" title=\"richlv | OpenStreetMap\">richlv | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 401153276,
+        "sender_full_name": "i-ky",
+        "timestamp": 1699535644
+    },
+    {
+        "content": "<p>Tikai tas salūzt ar linkiem</p>",
+        "id": 401153943,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699535918
+    },
+    {
+        "content": "<p>Changeset commentiem tas nestrādās, jo title nav paša komenta</p>",
+        "id": 401154251,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699536031
+    },
+    {
+        "content": "<p>Piemērs ar <a href=\"#narrow/stream/388728-RSS/topic/Latest.20OpenStreetMap.20OSM.20Changeset.20Discussions.20-.20Feed.20for.2E.2E.2E/near/400997989\">šo</a>:</p>\n<blockquote>\n<p><strong><a href=\"http://www.openstreetmap.org/changeset/143527825\">Changeset 143527825 (Comment no. 1) by richlv</a></strong><br>\n<strong>Contributor:</strong> <a href=\"http://www.openstreetmap.org/changeset/143527825\">richlv</a><br>\n<strong>Discussion Comment No.:</strong> 1 <br>\n<strong>Comment:</strong> Šī laikam nav oficiāla adrese, jo nav VZD datos? <br>\n<strong>Date:</strong> 2023-11-08T14:07:14+01:00<br>\n<a href=\"http://www.openstreetmap.org/changeset/143527825\">http://www.openstreetmap.org/changeset/143527825</a></p>\n</blockquote>\n<div class=\"spoiler-block\"><div class=\"spoiler-header\">\n<p><a href=\"http://www.openstreetmap.org/changeset/143527825\">Changeset 143527825 (Comment no. 1) by richlv</a></p>\n</div><div class=\"spoiler-content\" aria-hidden=\"true\">\n<p><strong>Contributor:</strong> <a href=\"http://www.openstreetmap.org/changeset/143527825\">richlv</a><br>\n<strong>Discussion Comment No.:</strong> 1 <br>\n<strong>Comment:</strong> Šī laikam nav oficiāla adrese, jo nav VZD datos? <br>\n<strong>Date:</strong> 2023-11-08T14:07:14+01:00</p>\n</div></div>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"http://www.openstreetmap.org/changeset/143527825\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"http://www.openstreetmap.org/changeset/143527825\" title=\"Changeset: 143527825 | OpenStreetMap\">Changeset: 143527825 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 401154630,
+        "sender_full_name": "i-ky",
+        "timestamp": 1699536168
+    },
+    {
+        "content": "<p>Piemērs ar <a href=\"#narrow/stream/388728-RSS/topic/Latest.20OpenStreetMap.20Contributors.20.28last.207.20Days.29.20-.20Feed.20fo.2E.2E.2E/near/400997958\">šo</a>:</p>\n<blockquote>\n<p><strong><a href=\"https://osm.org/user/Osis_%2800%3D%3D%5B%7C%7C%5D%5B%7C%7C%5D%3D%3D00%29\">New Contributor: Osis_(00==[||][||]==00)</a></strong><br>\nContributor: <a href=\"https://osm.org/user/Osis_%2800%3D%3D%5B%7C%7C%5D%5B%7C%7C%5D%3D%3D00%29\">Osis\\_(00==[||][||]==00)</a>   <br>\nMapper since: 2023-11-08 12:05:31   <br>\nRegistration: 2023-11-08 12:03:02   <br>\nUID: 20571233   <br>\nFirst active near: Šampēteris (1.20 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/143777095\">143777095</a>   <br>\nEditor used: <a href=\"https://streetcomplete.app/\">StreetComplete</a> 55.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Osis_%2800%3D%3D%5B%7C%7C%5D%5B%7C%7C%5D%3D%3D00%29\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Osis_%2800%3D%3D%5B%7C%7C%5D%5B%7C%7C%5D%3D%3D00%29\">https://osm.org/user/Osis_%2800%3D%3D%5B%7C%7C%5D%5B%7C%7C%5D%3D%3D00%29</a></p>\n</blockquote>\n<div class=\"spoiler-block\"><div class=\"spoiler-header\">\n<p><a href=\"https://osm.org/user/Osis_%2800%3D%3D%5B%7C%7C%5D%5B%7C%7C%5D%3D%3D00%29\">New Contributor: Osis_(00==[||][||]==00)</a></p>\n</div><div class=\"spoiler-content\" aria-hidden=\"true\">\n<p>Contributor: <a href=\"https://osm.org/user/Osis_%2800%3D%3D%5B%7C%7C%5D%5B%7C%7C%5D%3D%3D00%29\">Osis\\_(00==[||][||]==00)</a>   <br>\nMapper since: 2023-11-08 12:05:31   <br>\nRegistration: 2023-11-08 12:03:02   <br>\nUID: 20571233   <br>\nFirst active near: Šampēteris (1.20 km) (Latvia)   <br>\nFirst Changeset: <a href=\"https://osm.org/changeset/143777095\">143777095</a>   <br>\nEditor used: <a href=\"https://streetcomplete.app/\">StreetComplete</a> 55.0   <br>\nHow did <a href=\"https://hdyc.neis-one.org/?Osis_%2800%3D%3D%5B%7C%7C%5D%5B%7C%7C%5D%3D%3D00%29\">contribute</a> to OpenStreetMap?<br>\n<a href=\"https://osm.org/user/Osis_%2800%3D%3D%5B%7C%7C%5D%5B%7C%7C%5D%3D%3D00%29\">https://osm.org/user/Osis_%2800%3D%3D%5B%7C%7C%5D%5B%7C%7C%5D%3D%3D00%29</a></p>\n</div></div>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://osm.org/user/Osis_%2800%3D%3D%5B%7C%7C%5D%5B%7C%7C%5D%3D%3D00%29\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://osm.org/user/Osis_%2800%3D%3D%5B%7C%7C%5D%5B%7C%7C%5D%3D%3D00%29\" title=\"Osis_(00==[||][||]==00) | OpenStreetMap\">Osis_(00==[||][||]==00) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://osm.org/changeset/143777095\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://osm.org/changeset/143777095\" title=\"Changeset: 143777095 | OpenStreetMap\">Changeset: 143777095 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 401154934,
+        "sender_full_name": "i-ky",
+        "timestamp": 1699536269
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/362235-Zulip/topic/Resultmaps.20RSS/near/401154251\">said</a>:</p>\n<blockquote>\n<p>Changeset commentiem tas nestrādās, jo title nav paša komenta</p>\n</blockquote>\n<p>Vai vajag?</p>",
+        "id": 401155083,
+        "sender_full_name": "i-ky",
+        "timestamp": 1699536326
+    },
+    {
+        "content": "<p>Bet tas jau pats galvenais, ko personīgi skatos. New contributor tā vispār noslēpj visu. Tagad uz katru jāspiež atsevišķi.</p>",
+        "id": 401155299,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699536403
+    },
+    {
+        "content": "<p>Citiem vārdiem - (mana personīgā) problēma jau nav tas, ka datu par daudz (es pat gribētu vēl papildus citus datus (piemēram changset autors)), bet tas, ka slikta prezentācija.</p>",
+        "id": 401155945,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699536629
+    },
+    {
+        "content": "<p>Vari uztaisīt template (priekš katra topic: <a class=\"stream-topic\" data-stream-id=\"388728\" href=\"/#narrow/stream/388728-RSS/topic/Latest.20OpenStreetMap.20Contributors.20.28last.207.20Days.29.20-.20Feed.20fo.2E.2E.2E\">#RSS &gt; Latest OpenStreetMap Contributors (last 7 Days) - Feed fo...</a>, <a class=\"stream-topic\" data-stream-id=\"388728\" href=\"/#narrow/stream/388728-RSS/topic/Latest.20OpenStreetMap.20OSM.20Changeset.20Discussions.20-.20Feed.20for.2E.2E.2E\">#RSS &gt; Latest OpenStreetMap OSM Changeset Discussions - Feed for...</a>, <a class=\"stream-topic\" data-stream-id=\"388728\" href=\"/#narrow/stream/388728-RSS/topic/Opened.20OpenStreetMap.20notes.20.28past.207.20Days.29.20-.20Feed.20for.20Latvia\">#RSS &gt; Opened OpenStreetMap notes (past 7 Days) - Feed for Latvia</a>) ar tādu prezentāciju, kuru Tu nosauktu par nesliktu?</p>",
+        "id": 401157095,
+        "sender_full_name": "i-ky",
+        "timestamp": 1699536999
+    },
+    {
+        "content": "<p>Drošvien jau varētu, bet vai to varēs implementēt?</p>",
+        "id": 401157862,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699537271
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/362235-Zulip/topic/Resultmaps.20RSS/near/401157862\">said</a>:</p>\n<blockquote>\n<p>Drošvien jau varētu, bet vai to varēs implementēt?</p>\n</blockquote>\n<p>Tad domāsim. Bet man liekas, ka jā. Man tagad ir ideja izlaist RSS body caur regexp un tad rezultātu iebāzt format stringā.</p>",
+        "id": 401158192,
+        "sender_full_name": "i-ky",
+        "timestamp": 1699537385
+    },
+    {
+        "content": "<p>Tu domā pirms tas RSS nonāk pie plugina?</p>",
+        "id": 401158656,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699537531
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/362235-Zulip/topic/Resultmaps.20RSS/near/401158656\">said</a>:</p>\n<blockquote>\n<p>Tu domā pirms tas RSS nonāk pie plugina?</p>\n</blockquote>\n<p>Tie būs argumenti rss-bot skriptam:</p>\n<div class=\"codehilite\" data-code-language=\"Bash\"><pre><span></span><code>rss-bot<span class=\"w\"> </span>--body-regexp<span class=\"o\">=</span>...<span class=\"w\"> </span>--custom-format<span class=\"o\">=</span>...<span class=\"w\"> </span>...\n</code></pre></div>",
+        "id": 401158896,
+        "sender_full_name": "i-ky",
+        "timestamp": 1699537614
+    },
+    {
+        "content": "<p>Man liekas, ka kaut ko tādu varētu pieņemt upstream'ā kā PR.</p>",
+        "id": 401159009,
+        "sender_full_name": "i-ky",
+        "timestamp": 1699537674
+    },
+    {
+        "content": "<p>Tad vajadzētu gan input'am gan output'am to - jo gan ienākošais RSS ar tiem \"Contributor:\" sadalījumiem un plugina <code>content = f\"**[{entry.title}]({entry.link})**\\n{strip_tags(body)}\\n{entry.link}\"</code> kopā sataisa to visu</p>",
+        "id": 401159544,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699537875
+    },
+    {
+        "content": "<p>Es uztaisīšu vizuālus piemērus biški vēlāk. Varbūt regexus vēlāk, ja turpināsies.</p>",
+        "id": 401159630,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699537914
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/362235-Zulip/topic/Resultmaps.20RSS/near/401159544\">said</a>:</p>\n<blockquote>\n<p>Tad vajadzētu gan input'am gan output'am to - jo gan ienākošais RSS ar tiem \"Contributor:\" sadalījumiem un plugina <code>content = f\"**[{entry.title}]({entry.link})**\\n{strip_tags(body)}\\n{entry.link}\"</code> kopā sataisa to visu</p>\n</blockquote>\n<p>Mana ideja ir tāda, ka <code>--custom-format</code> būs <code>f\"...\"</code> vietā, un tur būs pieejami ne tikai <code>entry.title</code>, <code>entry.link</code>, <code>body</code>, utt., bet arī tas, ko <code>--body-regexp</code> capture'os no <code>body</code>.</p>",
+        "id": 401160147,
+        "sender_full_name": "i-ky",
+        "timestamp": 1699538089
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/362235-Zulip/topic/Resultmaps.20RSS/near/401028813\">said</a>:</p>\n<blockquote>\n<p>slikti formatēts teksts (datums, ...)</p>\n</blockquote>\n<p>Par datumiem iemetu ideju Zulip izstrādātājiem - <a href=\"https://chat.zulip.org/#narrow/stream/137-feedback/topic/Automaticaly.20render.20dates.20as.20Global.20times/near/1678923\">https://chat.zulip.org/#narrow/stream/137-feedback/topic/Automaticaly.20render.20dates.20as.20Global.20times/near/1678923</a>.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://chat.zulip.org/#narrow/stream/137-feedback/topic/Automaticaly.20render.20dates.20as.20Global.20times/near/1678923\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/f535ba07f95b99a83aa48e44fd62bbb6c6cf6615\\/68747470733a2f2f636861742e7a756c69702e6f72672f757365725f617661746172732f322f7265616c6d2f69636f6e2e706e673f76657273696f6e3d33)\"></a><div class=\"data-container\"><div class=\"message_embed_description\">If this message does not go away, try reloading the page.</div></div></div>",
+        "id": 401163133,
+        "sender_full_name": "i-ky",
+        "timestamp": 1699538959
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/0rqJabQyHj_pnU432cH1qIzD/image.png\">image.png</a><br>\n<a href=\"/user_uploads/49624/Gh6hYCigM9uNVPMcV8HsdIVA/image.png\">image.png</a><br>\nKaut kā tā iedomātos. Spoiler rāmī varētu iebāzt visu pārējo/pa laukiem sadalīto.</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/0rqJabQyHj_pnU432cH1qIzD/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/0rqJabQyHj_pnU432cH1qIzD/image.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/Gh6hYCigM9uNVPMcV8HsdIVA/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/Gh6hYCigM9uNVPMcV8HsdIVA/image.png\"></a></div>",
+        "id": 401202311,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699550259
+    },
+    {
+        "content": "<p>Varbūt tomēr sākumā sazināties ar <a href=\"https://wiki.openstreetmap.org/wiki/User:Pitscheplatsch\">Pascal Neis</a> un pajautāt, vai viņš būtu ar mieru uzlabot feed lasamību?</p>",
+        "id": 401346946,
+        "sender_full_name": "i-ky",
+        "timestamp": 1699614278
+    },
+    {
+        "content": "<p>Nē, nu protams tu vari ar visiem sazināties un cerēt, ka izmainīs pirms heat death of the universe <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span> Bet es šaubos, ka salauzīs visiem RSS sintaksi, jo mums te gribās. Tam NEIS visi RSS ir līdzīgi formatēti. Es tāpēc uzreiz teicu, ka kasās uzrakstīt pašam nevis iesaistīt citus. Bet tikai apskatoties, pēc tam sapratu, ka plugins nevar ērti izlaist ne ienākošo ne izejošo caur kaut kādu regexu vai custom workflow.</p>",
+        "id": 401349075,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699614963
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/362235-Zulip/topic/Resultmaps.20RSS/near/401349075\">said</a>:</p>\n<blockquote>\n<p>plugins nevar ērti izlaist ne ienākošo ne izejošo caur kaut kādu regexu vai custom workflow.</p>\n</blockquote>\n<p>Nu var esošo rss-bot risinājumu, kas dara visu uzreiz, sadalīt divās daļās - lasīt RSS ar kādu no <a href=\"https://github.com/marketplace?category=&amp;type=actions&amp;verification=&amp;query=rss\">šiem</a>, sūtīt uz Zulip ar <a href=\"https://github.com/marketplace/actions/zulip-send-message-action\">šo</a> - ar custom darbībām pa vidu.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/marketplace?category=&amp;type=actions&amp;verification=&amp;query=rss\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/10fa8754e9a566b88efa5ad5b77523a4876e4f20\\/68747470733a2f2f6769746875622e6769746875626173736574732e636f6d2f6173736574732f6d61726b6574706c6163652d6339663466343133366134632e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/marketplace?category=&amp;type=actions&amp;verification=&amp;query=rss\" title=\"GitHub Marketplace: actions to improve your workflow\">GitHub Marketplace: actions to improve your workflow</a></div><div class=\"message_embed_description\">Find the actions that help your team build better, together.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/marketplace/actions/zulip-send-message-action\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/c7fb1a5d16480ac59c6d4eb2c759ef9d7d6de537\\/68747470733a2f2f617661746172732e67697468756275736572636f6e74656e742e636f6d2f752f343932313935393f733d34303026763d34)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/marketplace/actions/zulip-send-message-action\" title=\"Zulip Send Message Action - GitHub Marketplace\">Zulip Send Message Action - GitHub Marketplace</a></div><div class=\"message_embed_description\">Sends a message to Zulip</div></div></div>",
+        "id": 401354901,
+        "sender_full_name": "i-ky",
+        "timestamp": 1699616432
+    },
+    {
+        "content": "<p>Tas izklausās labāk. Pa vidu starp RSS un Zulip drošvien var regex actionu. Es neesmu neko lasījis, kā tas zulip b0ts vispār strādā. Bet ja eksistē \"send zulip message\", tad jau tikai credentials jāieliek?</p>",
+        "id": 401357388,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699616982
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/362235-Zulip/topic/Resultmaps.20RSS/near/401354901\">said</a>:</p>\n<blockquote>\n<p>lasīt RSS ar kādu no <a href=\"https://github.com/marketplace?category=&amp;type=actions&amp;verification=&amp;query=rss\">šiem</a></p>\n</blockquote>\n<p>Short-list:</p>\n<ol>\n<li><a href=\"https://github.com/marketplace/actions/rss-parser\">https://github.com/marketplace/actions/rss-parser</a></li>\n<li><a href=\"https://github.com/marketplace/actions/rss-to-json\">https://github.com/marketplace/actions/rss-to-json</a></li>\n<li><a href=\"https://github.com/marketplace/actions/rss-feed-to-markdown\">https://github.com/marketplace/actions/rss-feed-to-markdown</a></li>\n<li><a href=\"https://github.com/marketplace/actions/rss-feed-fetch-action\">https://github.com/marketplace/actions/rss-feed-fetch-action</a></li>\n</ol>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/marketplace/actions/rss-parser\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/4ada4cef63a12b320c6e85035d96527043e70ea9\\/68747470733a2f2f617661746172732e67697468756275736572636f6e74656e742e636f6d2f752f3739313634323f733d34303026763d34)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/marketplace/actions/rss-parser\" title=\"RSS Parser - GitHub Marketplace\">RSS Parser - GitHub Marketplace</a></div><div class=\"message_embed_description\">GitHub Action to Parse RSS Feeds and take action</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/marketplace/actions/rss-to-json\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/bd36343adbff19e00bd0390b89713f1465171493\\/68747470733a2f2f617661746172732e67697468756275736572636f6e74656e742e636f6d2f752f373039333531383f733d34303026763d34)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/marketplace/actions/rss-to-json\" title=\"RSS to JSON - GitHub Marketplace\">RSS to JSON - GitHub Marketplace</a></div><div class=\"message_embed_description\">A GitHub Action which crawls RSS feeds and outputs a JSON file</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/marketplace/actions/rss-feed-to-markdown\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6b76ced7d003798379025da28f3d0acc354823da\\/68747470733a2f2f617661746172732e67697468756275736572636f6e74656e742e636f6d2f752f3534343032353f733d34303026763d34)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/marketplace/actions/rss-feed-to-markdown\" title=\"RSS Feed to Markdown - GitHub Marketplace\">RSS Feed to Markdown - GitHub Marketplace</a></div><div class=\"message_embed_description\">Converts RSS feed entries to Markdown files</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/marketplace/actions/rss-feed-fetch-action\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/04b616fe7b7ba75453a591756576075286cfed38\\/68747470733a2f2f617661746172732e67697468756275736572636f6e74656e742e636f6d2f752f3133343433343634343f733d34303026763d34)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/marketplace/actions/rss-feed-fetch-action\" title=\"RSS Feed Fetch Action - GitHub Marketplace\">RSS Feed Fetch Action - GitHub Marketplace</a></div><div class=\"message_embed_description\">Fetches an RSS feed and saves it to a file</div></div></div>",
+        "id": 401393850,
+        "sender_full_name": "i-ky",
+        "timestamp": 1699627977
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/362235-Zulip/topic/Resultmaps.20RSS/near/401346946\">said</a>:</p>\n<blockquote>\n<p>Varbūt tomēr sākumā sazināties ar <a href=\"https://wiki.openstreetmap.org/wiki/User:Pitscheplatsch\">Pascal Neis</a> un pajautāt, vai viņš būtu ar mieru uzlabot feed lasamību?</p>\n</blockquote>\n<p>Pamanīju, ka newline vietā Pascal izmanto <code>&lt;/br&gt;</code>. Tas nav HTML. Tādu es paciest nevaru, tāpēc uzrakstīju viņam <span aria-label=\"love letter\" class=\"emoji emoji-1f48c\" role=\"img\" title=\"love letter\">:love_letter:</span></p>",
+        "id": 401985417,
+        "sender_full_name": "i-ky",
+        "timestamp": 1699968160
+    },
+    {
+        "content": "<p>Nu jā, tas nav pareizi.&lt;/br&gt;&lt;/br&gt;Īpaši, jo tur norādīts <code>&lt;content type=\"html\"&gt;</code></p>",
+        "id": 401987946,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699969073
+    },
+    {
+        "content": "<p>Bet nu visi modernie browseri/parseri jau sen nemēģina tādas kietas par kļudām uzskatīt. Kaut kāds XML vēl cītīgi sūdzās par visu ko. Bet (X)HTML parseri jau sen padevušies.</p>",
+        "id": 401988166,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699969147
+    },
+    {
+        "content": "<p>Hm, interesanti... <a href=\"https://github.com/matthewwithanm/python-markdownify/issues/58#issuecomment-1275703664\">https://github.com/matthewwithanm/python-markdownify/issues/58#issuecomment-1275703664</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/matthewwithanm/python-markdownify/issues/58#issuecomment-1275703664\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/cd29aa49c5e6399ebda3c38e86ce512a6b46a4cc\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f653432386165393464613766633363666230353734393862663137336131323666656561343635656463666266323336666234336233623863313938636233302f6d61747468657777697468616e6d2f707974686f6e2d6d61726b646f776e6966792f6973737565732f3538)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/matthewwithanm/python-markdownify/issues/58#issuecomment-1275703664\" title=\"Issue with line-breaks tags · Issue #58 · matthewwithanm/python-markdownify\">Issue with line-breaks tags · Issue #58 · matthewwithanm/python-markdownify</a></div><div class=\"message_embed_description\">Hi, I'm facing an issue with line-breaks tags when they are written like &lt;br/&gt; instead of &lt;br&gt;. Considering this simple example: &gt;&gt;&gt; import markdownify &gt;&gt;&gt; markdownify.markdownify(\"&lt;p&gt;11111&lt;br&gt;2222...</div></div></div>",
+        "id": 401995209,
+        "sender_full_name": "i-ky",
+        "timestamp": 1699971226
+    },
+    {
+        "content": "<p>Tas ir tas, ko tas plugins izmanto?</p>",
+        "id": 401997155,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699971819
+    },
+    {
+        "content": "<p><code>&lt;p&gt;1&lt;br/&gt;2&lt;br/&gt;3&lt;br&gt;4&lt;br/&gt;5&lt;/br&gt;&lt;/p&gt;</code> is that a stroke you're having?</p>",
+        "id": 401997416,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699971900
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/362235-Zulip/topic/Resultmaps.20RSS/near/401997155\">said</a>:</p>\n<blockquote>\n<p>Tas ir tas, ko tas plugins izmanto?</p>\n</blockquote>\n<p>Par \"plugin\" Tu sauc rss-bot skriptu? Upstream'ā viņš vienkārši dzēš visus HTML tagus. Manejā fork'ā (kas tagad tiek izmantots workflow'ā, kas sūta uz <a class=\"stream\" data-stream-id=\"388728\" href=\"/#narrow/stream/388728-RSS\">#RSS</a>) es izmantoju <a href=\"https://pypi.org/project/markdownify/\">markdownify</a>, kuram apakšā ir <a href=\"https://pypi.org/project/beautifulsoup4/\">Beautiful Soup</a>, kuram apakšā var būt <code>html.parser</code> (ko markdownify izmanto pēc noklusējuma) vai <code>html5lib</code> (ko es <a href=\"https://github.com/i-ky/python-zulip-api/commit/fbd342d15b0d5895a7e8075265c7bd5b31ff1c0e\">mēģināšu izmantot turpmāk</a>, jo tas \"saprot\" <code>&lt;/br&gt;</code>).</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://pypi.org/project/markdownify/\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/8e8f5f58169611136e76bf480cfdeac25041d3fb\\/68747470733a2f2f707970692e6f72672f7374617469632f696d616765732f747769747465722e61626166346231392e77656270)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://pypi.org/project/markdownify/\" title=\"markdownify\">markdownify</a></div><div class=\"message_embed_description\">Convert HTML to markdown.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://pypi.org/project/beautifulsoup4/\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/8e8f5f58169611136e76bf480cfdeac25041d3fb\\/68747470733a2f2f707970692e6f72672f7374617469632f696d616765732f747769747465722e61626166346231392e77656270)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://pypi.org/project/beautifulsoup4/\" title=\"beautifulsoup4\">beautifulsoup4</a></div><div class=\"message_embed_description\">Screen-scraping library</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/i-ky/python-zulip-api/commit/fbd342d15b0d5895a7e8075265c7bd5b31ff1c0e\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/592bbef199da70f368a68d8c2795373a044aafdb\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f316566353738613133616634356665343830656438623237633266356233666631613138653464353835363464303837383838653039326361353235383565362f692d6b792f707974686f6e2d7a756c69702d6170692f636f6d6d69742f66626433343264313562306435383935613765383037353236356337626435623331666631633065)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/i-ky/python-zulip-api/commit/fbd342d15b0d5895a7e8075265c7bd5b31ff1c0e\" title=\"Use BeautifulSoup with html5lib for better results · i-ky/python-zulip-api@fbd342d\">Use BeautifulSoup with html5lib for better results · i-ky/python-zulip-api@fbd342d</a></div><div class=\"message_embed_description\">Python library for the Zulip API. Contribute to i-ky/python-zulip-api development by creating an account on GitHub.</div></div></div>",
+        "id": 401999988,
+        "sender_full_name": "i-ky",
+        "timestamp": 1699972670
+    },
+    {
+        "content": "<p>Links apēda nākamo vārdu: <a href=\"#narrow/stream/388728-RSS/topic/Latest.20OpenStreetMap.20OSM.20Changeset.20Discussions.20-.20Feed.20for.2E.2E.2E/near/402098719\">https://osmlatvija.zulipchat.com/#narrow/stream/388728-RSS/topic/Latest.20OpenStreetMap.20OSM.20Changeset.20Discussions.20-.20Feed.20for.2E.2E.2E/near/402098719</a> (arī pirms tam)</p>",
+        "id": 402183435,
+        "sender_full_name": "HellMap",
+        "timestamp": 1700039910
+    },
+    {
+        "content": "<p><code>&lt;/br&gt;</code> fix nenostrādāja... :(</p>",
+        "id": 402186382,
+        "sender_full_name": "i-ky",
+        "timestamp": 1700040827
+    },
+    {
+        "content": "<p>Ā, tas arī bija dēļ tā &lt;/\\br\\\\ /&gt;. Es nepamanīju vakar RSS linkus.</p>",
+        "id": 402187040,
+        "sender_full_name": "HellMap",
+        "timestamp": 1700041016
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/362235-Zulip/topic/Resultmaps.20RSS/near/402186382\">said</a>:</p>\n<blockquote>\n<p><code>&lt;/br&gt;</code> fix nenostrādāja... :(</p>\n</blockquote>\n<p>...un nenostrādāja tāpēc, ka nekādi <code>&lt;/br&gt;</code> pat netiek līdz Beautiful Soup, tos nogriež <a href=\"https://pypi.org/project/feedparser/\">feedparser</a>.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://pypi.org/project/feedparser/\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/8e8f5f58169611136e76bf480cfdeac25041d3fb\\/68747470733a2f2f707970692e6f72672f7374617469632f696d616765732f747769747465722e61626166346231392e77656270)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://pypi.org/project/feedparser/\" title=\"feedparser\">feedparser</a></div><div class=\"message_embed_description\">Universal feed parser, handles RSS 0.9x, RSS 1.0, RSS 2.0, CDF, Atom 0.3, and Atom 1.0 feeds</div></div></div>",
+        "id": 402205021,
+        "sender_full_name": "i-ky",
+        "timestamp": 1700046147
+    }
+]
