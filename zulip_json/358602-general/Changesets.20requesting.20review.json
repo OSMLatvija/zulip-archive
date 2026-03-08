@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Should there be an additional RSS topic for changesets requesting a review?</p>\n<p>I've made a change recently, that I was not 100% sure in. Since iD suggests to request review I decided to agree this time, but outside of changeset having additional tag, it doesn't seem like it is shown anywhere.</p>",
+        "id": 576983847,
+        "sender_full_name": "markalex",
+        "timestamp": 1772546600
+    },
+    {
+        "content": "<p>can get an RSS feed from osmcha with that<br>\n<a href=\"/user_uploads/49624/-A7PDYqzpTC3F3KuYb0u_hE2/image.png\">osmcha</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/-A7PDYqzpTC3F3KuYb0u_hE2/image.png\" title=\"osmcha\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"972x252\" src=\"/user_uploads/thumbnail/49624/-A7PDYqzpTC3F3KuYb0u_hE2/image.png/840x560.webp\"></a></div>",
+        "id": 577010260,
+        "sender_full_name": "Colby",
+        "timestamp": 1772552658
+    },
+    {
+        "content": "<p>would be good to have on zulip</p>",
+        "id": 577010305,
+        "sender_full_name": "Colby",
+        "timestamp": 1772552668
+    },
+    {
+        "content": "<p>Yeah, that's probably a good RSS to have.</p>",
+        "id": 577049270,
+        "sender_full_name": "HellMap",
+        "timestamp": 1772563311
+    },
+    {
+        "content": "<p>If I understood how current feeds work (which is not granted <span aria-label=\"slight smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"slight smile\">:slight_smile:</span>), feed on the same site already in use also exists.<br>\n<a href=\"https://resultmaps.neis-one.org/osm-suspicious?country=197&amp;hours=96&amp;tsearch=review_requested%3Dyes&amp;mappingdays=-1&amp;anyobj=t&amp;comp=%3E&amp;value=10&amp;action=d&amp;obj=n&amp;filterkey=#7/57.097/24.681\">https://resultmaps.neis-one.org/osm-suspicious?country=197&amp;hours=96&amp;tsearch=review_requested%3Dyes&amp;mappingdays=-1&amp;anyobj=t&amp;comp=%3E&amp;value=10&amp;action=d&amp;obj=n&amp;filterkey=#7/57.097/24.681</a></p>",
+        "id": 577174775,
+        "sender_full_name": "markalex",
+        "timestamp": 1772617844
+    }
+]

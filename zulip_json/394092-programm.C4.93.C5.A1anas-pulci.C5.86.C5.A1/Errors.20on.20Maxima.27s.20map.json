@@ -1,0 +1,92 @@
+[
+    {
+        "content": "<p>I decided to poke Maxima about errors on their site (stores in Aizpute and Lielvārde in random places, duplication of the store on Deglava)<br>\nJust am curious if they will react at all.<br>\nWill report here how or if they will react</p>",
+        "id": 574822007,
+        "sender_full_name": "markalex",
+        "timestamp": 1771535244
+    },
+    {
+        "content": "<p>It seems those errors are on their shop map (not just some API/scraping), so they might reply/fix</p>",
+        "id": 574835432,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771541052
+    },
+    {
+        "content": "<p>I also realize Osmalyzer doesn't detect duplicates in source data; these could probably be auto-detected and reported separately... may be. Not sure if this is more helpful because it's already on map, just a little confusing first time you see.</p>",
+        "id": 574835548,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771541122
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/gZcbiHsIWrGvPIt3kgaB5tNs/image.png\">image.png</a><br>\n<a href=\"/user_uploads/49624/63tOSqsP6K1M-OW-Z8IerT9L/image.png\">image.png</a><br>\nAlso holy heck the difference between OSM and GMaps</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/gZcbiHsIWrGvPIt3kgaB5tNs/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"820x588\" src=\"/user_uploads/thumbnail/49624/gZcbiHsIWrGvPIt3kgaB5tNs/image.png/840x560.webp\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/63tOSqsP6K1M-OW-Z8IerT9L/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"454x285\" src=\"/user_uploads/thumbnail/49624/63tOSqsP6K1M-OW-Z8IerT9L/image.png/840x560.webp\"></a></div>",
+        "id": 574835681,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771541197
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Errors.20on.20Maxima's.20map/near/574835432\">said</a>:</p>\n<blockquote>\n<p>It seems those errors are on their shop map (not just some API/scraping), so they might reply/fix</p>\n</blockquote>\n<p>Yes, this is completely on their side. That's why decided to poke them.<br>\nThey might, or they might completely ignore me. I'm curious to find out which one will happen =)</p>",
+        "id": 574836020,
+        "sender_full_name": "markalex",
+        "timestamp": 1771541376
+    },
+    {
+        "content": "<p>I don't think detecting duplicates makes sense in broader sense. For other analysers this might be more problems, than help.</p>",
+        "id": 574836197,
+        "sender_full_name": "markalex",
+        "timestamp": 1771541458
+    },
+    {
+        "content": "<p>And yeah, I don't know for whom gmaps are made, but those are definitely not humans.</p>",
+        "id": 574836307,
+        "sender_full_name": "markalex",
+        "timestamp": 1771541522
+    },
+    {
+        "content": "<p>I got response this morning:<br>\n\"Paldies par Jūsu sniegto informāciju.\"<br>\nThat's all.<br>\nLet's see if they will act on it :)</p>",
+        "id": 574890474,
+        "sender_full_name": "markalex",
+        "timestamp": 1771577204
+    },
+    {
+        "content": "<p>They updated their site <span aria-label=\"tada\" class=\"emoji emoji-1f389\" role=\"img\" title=\"tada\">:tada:</span><br>\nOnly error on Maxima's report is a shop bleeding through border from Estonia!</p>",
+        "id": 575564477,
+        "sender_full_name": "markalex",
+        "timestamp": 1771945008
+    },
+    {
+        "content": "<p>OSM data can be filtered to exact LV border for these cases, although not sure how important this is here.</p>",
+        "id": 575567229,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771945573
+    },
+    {
+        "content": "<p>What always amazes me is that there is a person who was paid to put those points on their website. You would think having their shops listed and advertised everywhere would be a top priority</p>",
+        "id": 575567562,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771945647
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Errors.20on.20Maxima's.20map/near/575567229\">said</a>:</p>\n<blockquote>\n<p>OSM data can be filtered to exact LV border for these cases, although not sure how important this is here.</p>\n</blockquote>\n<p>I think it is not important)</p>",
+        "id": 575616011,
+        "sender_full_name": "markalex",
+        "timestamp": 1771958062
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Errors.20on.20Maxima's.20map/near/575567562\">said</a>:</p>\n<blockquote>\n<p>What always amazes me is that there is a person who was paid to put those points on their website. You would think having their shops listed and advertised everywhere would be a top priority</p>\n</blockquote>\n<p>I don't think for Maxima (and other store chains in Latvia) it is really the case. At least in cities like Aizpute: everybody there probably already know that Maxima exists and where it is.<br>\nBut in general - yeah, I find it surprising that companies don't pay much attention to maps <span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span> <br>\nAnd the ones that pay at least some, from my experience, often just never have heard about OSM.</p>",
+        "id": 575617472,
+        "sender_full_name": "markalex",
+        "timestamp": 1771958594
+    },
+    {
+        "content": "<p>I did report to Rimi once a shop on their map being marked on the other side of a large street. Which they did fix.<br>\nBut yeah, many people  do not care about what they do, be it maintaining store locations on a map or something else. As long as that is socially acceptable, they can just slack off and work less :)</p>",
+        "id": 576354964,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1772228932
+    },
+    {
+        "content": "<p>Businesses operate under rule of good enough, and since most of them use google maps as basis for map, I'd honestly say that errors like other side of the street of even wrong building on the same street - is good enough.<br>\nBecause I can't reasonably expect from their workers to decipher that joke of a map to find correct building.</p>",
+        "id": 576401692,
+        "sender_full_name": "markalex",
+        "timestamp": 1772265810
+    }
+]
