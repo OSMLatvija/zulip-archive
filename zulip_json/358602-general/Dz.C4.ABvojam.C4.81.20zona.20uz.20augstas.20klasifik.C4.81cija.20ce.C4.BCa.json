@@ -1,0 +1,110 @@
+[
+    {
+        "content": "<p>Ko īsti darīt ar tādiem ceļiem kā <a href=\"https://www.openstreetmap.org/way/1127520957\">https://www.openstreetmap.org/way/1127520957</a>, kas ir it kā dzīvojamā zonā, bet pats ceļš secondary (vai pat augstāk kā <a href=\"https://www.openstreetmap.org/way/866081807\">https://www.openstreetmap.org/way/866081807</a>)? Pielikt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amaxspeed%3D20\">maxspeed=20</a> un viss?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/1127520957\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/1127520957\" title=\"Way: ‪Ērgļu iela‬ (‪1127520957‬) | OpenStreetMap\">Way: ‪Ērgļu iela‬ (‪1127520957‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/866081807\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/866081807\" title=\"Way: ‪C25‬ (‪866081807‬) | OpenStreetMap\">Way: ‪C25‬ (‪866081807‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 319611400,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672933098
+    },
+    {
+        "content": "<p>Vienā no piemēriem tā esmu izdarījis, likās pieņemamāk. Varbūt nav pareizi, kāds, kas vairāk zina, varētu ko vairāk komentēt. Katrā ziņā wiki Latvijas vadlīnijās vajadzētu atrunāt.</p>",
+        "id": 319641764,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1672941902
+    },
+    {
+        "content": "<p>Ja tur ir zilās zīmes, es tomēr balsotu par living_street. Dzīv. zona nav tikai ātruma ierobežojums, tur uzreiz ir priekšroka gājējiem un velosipēdistiem, priekšroka no tās izbraucot utt.</p>",
+        "id": 319648891,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672944195
+    },
+    {
+        "content": "<p>Jā, loģika šādā pamatojumā ir. Izlaboju to vienu posmu atpakaļ.</p>",
+        "id": 319659669,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1672947737
+    },
+    {
+        "content": "<p>Saulesdārzā dzīvojamo zonu noņēma, tagad 30</p>",
+        "id": 435790176,
+        "sender_full_name": "HellMap",
+        "timestamp": 1714252529
+    },
+    {
+        "content": "<p>Ņja, Ādažos ir sataisīts labs misklītis (dzīv. zona, 30 zona, tikai zīme 30, tikai zīme 20...). Un varbūt kaut kur arī zīmes joprojām nepareizi, vēl tur jāpēta dabā.<br>\nBet tas nozīmē, ka Latvijā noteikti ir residential ar <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amaxspeed%3D20\">maxspeed=20</a>.</p>",
+        "id": 436083815,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1714406311
+    },
+    {
+        "content": "<p>Jā, 20 zonas ir redzētas. Pēdējo pie jaunā Lidla uz Mask.... ēē Latgales ielas. Nav gluži residential, bet es tā uzreiz natceros citur<br>\n<a href=\"/user_uploads/49624/WOUF_kwf5NjUknSOLXy2d3dY/lidl-20.png\">lidl-20.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/WOUF_kwf5NjUknSOLXy2d3dY/lidl-20.png\" title=\"lidl-20.png\"><img src=\"/user_uploads/49624/WOUF_kwf5NjUknSOLXy2d3dY/lidl-20.png\"></a></div>",
+        "id": 436090105,
+        "sender_full_name": "HellMap",
+        "timestamp": 1714407991
+    },
+    {
+        "content": "<p>Ādažos pat nav zona, tikai \"20\".</p>",
+        "id": 436101385,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1714411562
+    },
+    {
+        "content": "<p>Bet man liekas 20 zona ir retāk par 20. Jo, ja liek zonas, tad uz tādām 20 vietām uzreiz liek dzīvojamo. Es tikai dažas reizes 20 zonu esmu redzējis un katreiz aizdomājos</p>",
+        "id": 436104807,
+        "sender_full_name": "HellMap",
+        "timestamp": 1714412684
+    },
+    {
+        "content": "<p>Dzīvojamajai zonai CSN ir nosacījumi ne tikai maksimālajam ātrumam: <a href=\"https://m.likumi.lv/ta/id/274865#p139\">https://m.likumi.lv/ta/id/274865#p139</a> Acīmredzot, ja šie papildnosacījumi nav vēlami, liek 20 km/h zonu.</p>",
+        "id": 436192904,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1714452961
+    },
+    {
+        "content": "<p>Y, tik tas, ka šādas zonas ir mulsinošas visiem satiksmes dalībniekiem. Ja jau mēdz dzīv. zonas zīmes likt prom no krustojuma un kopā ar \"dodiet ceļu\" tāpēc, ka autovadītāji nezina noteikumus, šādi mikšļi diez vai līdz :)</p>",
+        "id": 436648066,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1714640591
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/qfuIKekrzpx66oISv1ZLMSya/olaine-20.png\">olaine-20.png</a><br>\nPagaidām atradu tikai 20 \"normāli\" uz \"īstas\" ielas</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/qfuIKekrzpx66oISv1ZLMSya/olaine-20.png\" title=\"olaine-20.png\"><img src=\"/user_uploads/49624/qfuIKekrzpx66oISv1ZLMSya/olaine-20.png\"></a></div>",
+        "id": 437802669,
+        "sender_full_name": "HellMap",
+        "timestamp": 1715253052
+    },
+    {
+        "content": "<p>Carnikavā 20 zona privātmāju rajonā <a href=\"https://www.mapillary.com/app/?focus=photo&amp;pKey=105164178625360\">https://www.mapillary.com/app/?focus=photo&amp;pKey=105164178625360</a> <br>\n<a href=\"/user_uploads/49624/7KUbQ8qdMwPup0CoENvJ_Tuj/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/7KUbQ8qdMwPup0CoENvJ_Tuj/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/7KUbQ8qdMwPup0CoENvJ_Tuj/image.png\"></a></div>",
+        "id": 437804832,
+        "sender_full_name": "HellMap",
+        "timestamp": 1715254355
+    },
+    {
+        "content": "<p>Ādažos/Kadagā uz sīkam sānielām <a href=\"https://www.mapillary.com/app/?focus=photo&amp;pKey=1095265951582592\">https://www.mapillary.com/app/?focus=photo&amp;pKey=1095265951582592</a> <br>\n<a href=\"/user_uploads/49624/9w1kLBFIghKWNWhEvz3iEEJX/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/9w1kLBFIghKWNWhEvz3iEEJX/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/9w1kLBFIghKWNWhEvz3iEEJX/image.png\"></a></div>",
+        "id": 437805167,
+        "sender_full_name": "HellMap",
+        "timestamp": 1715254586
+    },
+    {
+        "content": "<p>Dubults neplīst.... <a href=\"https://www.mapillary.com/app/?focus=photo&amp;pKey=884090512143660\">https://www.mapillary.com/app/?focus=photo&amp;pKey=884090512143660</a> <br>\n<a href=\"/user_uploads/49624/s5VgRrRqZluq4QnO2JdzQDVP/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/s5VgRrRqZluq4QnO2JdzQDVP/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/s5VgRrRqZluq4QnO2JdzQDVP/image.png\"></a></div>",
+        "id": 437805368,
+        "sender_full_name": "HellMap",
+        "timestamp": 1715254698
+    },
+    {
+        "content": "<p>Sāku pievēst uzmanību, tagad visās malās pēkšņi pamanu 20 zonas :D<br>\n<a href=\"/user_uploads/49624/69qTo6Axw0cNM0JbOjrOMfjt/20-z-garkalne.png\">20-z-garkalne.png</a><br>\nGarkalnē. Bet te gan brauc <code>hgv</code>, tāpēc pamatoti nav dzīvojamā - jo tad nevarētu. Uz sānceļiem ir saliktas dzīvojamās zonas.</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/69qTo6Axw0cNM0JbOjrOMfjt/20-z-garkalne.png\" title=\"20-z-garkalne.png\"><img src=\"/user_uploads/49624/69qTo6Axw0cNM0JbOjrOMfjt/20-z-garkalne.png\"></a></div>",
+        "id": 438352077,
+        "sender_full_name": "HellMap",
+        "timestamp": 1715604137
+    },
+    {
+        "content": "<p>It kā jau noteikumos nav teikts, ka dzīvojamā zona atceļ 20 zonu vai otrādi - abas var būt reizē vai atsevišķu. Kaut kad sen instruktoram prasīju - a vai pilsētas robežas zīme atceļ zonas zīmi - jo noteikumos jau it kā nē? Saulkrastos ir zona 30 un tad pēkšņi pilsētas beigas un šoseja. Gudrāks neviens nepalika par to padomājot.</p>",
+        "id": 438545818,
+        "sender_full_name": "HellMap",
+        "timestamp": 1715682398
+    },
+    {
+        "content": "<p>Iespējams, vēl viens brāķītis CSN.</p>",
+        "id": 438548076,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1715683282
+    }
+]

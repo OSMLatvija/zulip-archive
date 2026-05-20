@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>Kā Jūs iezīmējat dažādas tehniskās būves = šķūnis un cita tehniskā veida būves? Vai arī tādas, kur nevar zināt, kam tieši tiek lietots, bet nav dzīvojamā māja?</p>",
+        "id": 321386877,
+        "sender_full_name": "Regita Zeiļa",
+        "timestamp": 1673716276
+    },
+    {
+        "content": "<p>Šķūnis būtu <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dshed\">building=shed</a>, garāžu ēkas <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuillding%3Dgarages\">buillding=garages</a> (es lieku vienmēr daudzskaitlī).<br>\nCitas ēku kategorijas pieejamas šeit: <a href=\"https://wiki.openstreetmap.org/wiki/Key:building\">https://wiki.openstreetmap.org/wiki/Key:building</a> .<br>\nJa kategorija nav īsti skaidra, ir pilnīgi OK, ja ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dyes\">building=yes</a>. To pēc tam arī var precizēt.</p>",
+        "id": 321388681,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673717234
+    },
+    {
+        "content": "<p>Kāpēc <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dgarage\">building=garage</a> vienmēr daudzskaitlī?</p>",
+        "id": 321398973,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673723243
+    },
+    {
+        "content": "<p>Jo es negribu (parasti no ortofoto) minēt, cik auto tur ir vieta, vai cik dažādi īpašnieki/ģimenes izmanto :)</p>",
+        "id": 321400552,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673724175
+    },
+    {
+        "content": "<p>Bet ja tu mini, tad tik un tā statistiski labāk minēt garage nekā garages. Cik tādu kopēju garāžu reāli ir?</p>",
+        "id": 321400710,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673724247
+    },
+    {
+        "content": "<p>Visas garāžu kooperatīvos :)<br>\nEs arī īsti neredzu ieguvumu no šādi nošķirtiem tagiem.</p>",
+        "id": 321402825,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673725717
+    },
+    {
+        "content": "<p>Man liekas mēs runājam par dažādām garažām. Pie privātmājas garāža ir gandrīz vienmēr <code>garage</code>. Ārpus, gandrīz vienmēr <code>garages</code>. Reti  stāv individuālas kastes. Dubultā vai apvienotā garāža ir kaut kādām dvīņu mājām, bet to nav daudz. Es tā sapratu runa bija drīžāk par viensētām un privātmājām, kur ļoti reti ir <code>garages</code>.</p>",
+        "id": 321403103,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673725934
+    },
+    {
+        "content": "<p>5 messages were moved from this topic to <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/building.3Dgarages.20vai.20garage\">#general &gt; building=garages vai garage</a> by <span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span>.</p>",
+        "id": 321404832,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1673727274
+    }
+]

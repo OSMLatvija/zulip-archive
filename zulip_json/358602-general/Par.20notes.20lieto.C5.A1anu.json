@@ -1,0 +1,170 @@
+[
+    {
+        "content": "<p>Es taisu daudz notes. Es zinu, ka Latvijā ir maz aktīvu kartētāju un notes ir vaļā gadiem ilgi. Es saprotu, ka daudzi notes ir grūti atrisināmi - bet tādēļ jau tie ir notes, ko nevar vienmēr no dīvāna salabot. Es uzskatu, ka labāk, lai tur ir note par situāciju nevis nav nekā. Salīdzinot ar visādiem <a href=\"https://streetcomplete.app/\">SC</a> \"what are the opening hours?\" notes, es domāju \"manuāli\" notes ir daudz lielāka mēroga. Bieži es lieku notes, jo man nav ne laika ne iespējas pašam atrisināt lielākas lietas. It vēl tūkstošiem sīku lieku par konkrētiem elementiem, kuriem man nav laika salikt <code>note/fixme</code> tagus. Negribu konkrēti izcelt šo mapperi, bet relevant diskusija/piemērs <a href=\"https://www.openstreetmap.org/note/3954278\">https://www.openstreetmap.org/note/3954278</a> un <a href=\"https://www.openstreetmap.org/note/3633782\">https://www.openstreetmap.org/note/3633782</a> . Es saprotu, ka citās valstīs daudz kartētāju un kaut kādā Vācijā note'us attaisa un aiztaisa tai pašā dienā. Bet cik es zinu, nekur nav teikts, ka notes jābūt uzreiz atrisināmām. Es uzskatu, ka es lietoju notes feature pamatoti - ar nolūku uzlabot karti, it īpaši Latvijas kontekstā. Varbūt ne šodien un ne rīt, bet es arī nevaru paredzēt, kas un kad mainīsies, un kurš un kad kartēs. Vai ir kādi viedokļi par šo?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/note/3954278\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/note/3954278\" title=\"Note: 3954278 | OpenStreetMap\">Note: 3954278 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/note/3633782\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/note/3633782\" title=\"Note: 3633782 | OpenStreetMap\">Note: 3633782 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 398136637,
+        "sender_full_name": "HellMap",
+        "timestamp": 1698085589
+    },
+    {
+        "content": "<p>Mateušs bija Rīgā BalticGIT2023, būtu bijusi laba tēma klātienē :)<br>\nKā iepriekš runājām, viena problēma ar daudzām piezīmēm - es nevaru tās ielikt GPS un kādā reģionā visu izpētīt.<br>\nPotenciāls risinājums būtu piezīmju kategorijas un filtri (piem., \"living zone\", \"survey needed\", \"construction ongoing\"), bet tādi drīzumā varētu nebūt.<br>\nŠķiet, labāk būtu visu, izņemot \"survey needed\", likt atsevišķi - ideāli būtu individuāli ieraksti (varbūt pat ar iespēju pievienot attēlus), kurus var redzēt kartē.</p>\n<p><span class=\"user-mention\" data-user-id=\"568802\">@i-ky</span> vienbrīd piedāvāja Github issues, bet nezinu, kā ko tādu varētu vizualizēt kartē.<br>\nIepriekšējā diskusija - <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/probl.C4.93mu.20re.C4.A3istri\">#general &gt; problēmu reģistri</a>.</p>",
+        "id": 398138727,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1698086641
+    },
+    {
+        "content": "<p>Vispārīgi runājot, negribu par katru punktu... bet konkrēti uzprasīšu - kāpēc tu nevari GPX ielikt? Ja es atzīmēju ielu \"nav zīmes\" un tu tur ar Mapillary nobrauc - ideāli, ir jaunāki dati, kuri iegūti tikai tādēļ, ka note's ielikts. Es tāpēc ne visai saprotu, kāpēc nevar lietot tā?</p>",
+        "id": 398140985,
+        "sender_full_name": "HellMap",
+        "timestamp": 1698087618
+    },
+    {
+        "content": "<p>Dodos uz kādu reģionu, paskatos kartē - tur desmitiem piezīmju. Sāku skatīties - te nav zīmes, te būs būvniecība nākamo desmit gadu laikā, te piecus gadus sarežģīta diskusija par labāko kartēšanas pieeju...<br>\nJa man ir dažas minūtes, lai sagatavotos, un pēc tam kāda pusstunda, kuras laikā varētu kādu piezīmi apmeklēt un atrisināt, es zaudēju laiku manuāli pētot piezīmes pa vienai (jo nevaru pagrābt reģionu ar <a href=\"https://github.com/richlv/osmnotes\">https://github.com/richlv/osmnotes</a> ).<br>\nUn pēc dažām tādām reizēm padodos un piezīmēs ieskatos daudz retāk.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/richlv/osmnotes\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1990179f5a67cce42fcd8cde8f4621f892608dc2\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f333339343863313264386631323239643234323935633663326532666164356462643162626635356337633131613830323166363866656631653161623231652f726963686c762f6f736d6e6f746573)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/richlv/osmnotes\" title=\"GitHub - richlv/osmnotes: Retrieve OpenStreetMap notes and save in a GPX file, suitable for GPS.\">GitHub - richlv/osmnotes: Retrieve OpenStreetMap notes and save in a GPX file, suitable for GPS.</a></div><div class=\"message_embed_description\">Retrieve OpenStreetMap notes and save in a GPX file, suitable for GPS. - GitHub - richlv/osmnotes: Retrieve OpenStreetMap notes and save in a GPX file, suitable for GPS.</div></div></div>",
+        "id": 398145444,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1698089930
+    },
+    {
+        "content": "<p>Skatīties notes pa vienai nav mūsdienīgi, vajag tam skriptam ChatGPT pieskrūvēt. <span aria-label=\"robot\" class=\"emoji emoji-1f916\" role=\"img\" title=\"robot\">:robot:</span></p>",
+        "id": 398150937,
+        "sender_full_name": "i-ky",
+        "timestamp": 1698092977
+    },
+    {
+        "content": "<p>Man personīgi nav iebildumu pret to, kā <span class=\"user-mention\" data-user-id=\"571825\">@HellMap</span> lieto notes.</p>",
+        "id": 398151332,
+        "sender_full_name": "i-ky",
+        "timestamp": 1698093109
+    },
+    {
+        "content": "<p>Vajag izdomāt hestagu tipa #survey un pielikt piezīmēm. RSS mums ir - varēs jaunajām arī salikt. Tad rich, tu varētu izfiltrēt tikai tās notes, kas vajadzīgas. Downside, ka tādi komentāri visiem notes autoriem sūtīs paziņojumu. Un visos toolos rādis, ka notam ir \"atbilde\". Hmm... tagad padomājot, laikam labāk tā nedarīt <span aria-label=\"shushing face\" class=\"emoji emoji-1f92b\" role=\"img\" title=\"shushing face\">:shushing_face:</span></p>",
+        "id": 398157096,
+        "sender_full_name": "HellMap",
+        "timestamp": 1698095530
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/Par.20notes.20lieto.C5.A1anu/near/398150937\">said</a>:</p>\n<blockquote>\n<p>Skatīties notes pa vienai nav mūsdienīgi, vajag tam skriptam ChatGPT pieskrūvēt. <span aria-label=\"robot\" class=\"emoji emoji-1f916\" role=\"img\" title=\"robot\">:robot:</span></p>\n</blockquote>\n<p><code>Tā ir interesanta ideja! Šāds skripts varētu uzlabot efektivitāti un ērtumu, kad tiek skatīti piezīmju faili. Tas būtu iespējams realizēt, izmantojot C# un piemērotus bibliotēkas darbam ar piezīmju failiem.</code></p>",
+        "id": 398157148,
+        "sender_full_name": "HellMap",
+        "timestamp": 1698095577
+    },
+    {
+        "content": "<p>On a totally unrelated note - kopš kura laika ChatGPT māk latviski atbildēt... <span aria-label=\"robot\" class=\"emoji emoji-1f916\" role=\"img\" title=\"robot\">:robot:</span> <span aria-label=\"fire\" class=\"emoji emoji-1f525\" role=\"img\" title=\"fire\">:fire:</span></p>",
+        "id": 398157189,
+        "sender_full_name": "HellMap",
+        "timestamp": 1698095604
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/Par.20notes.20lieto.C5.A1anu/near/398150937\">said</a>:</p>\n<blockquote>\n<p>Skatīties notes pa vienai nav mūsdienīgi, vajag tam skriptam ChatGPT pieskrūvēt. <span aria-label=\"robot\" class=\"emoji emoji-1f916\" role=\"img\" title=\"robot\">:robot:</span></p>\n</blockquote>\n<p>Nu...</p>\n<blockquote>\n<p>Why did I ask ChatGPT for help with my problems? I've got 99 problems, and now I've got a GPT-3.5 that's gone all GPT-3.9, leaving me with 99 more!</p>\n</blockquote>",
+        "id": 398240796,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1698137840
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Par.20notes.20lieto.C5.A1anu/near/398157189\">said</a>:</p>\n<blockquote>\n<p>On a totally unrelated note - kopš kura laika ChatGPT māk latviski atbildēt... <span aria-label=\"robot\" class=\"emoji emoji-1f916\" role=\"img\" title=\"robot\">:robot:</span> <span aria-label=\"fire\" class=\"emoji emoji-1f525\" role=\"img\" title=\"fire\">:fire:</span></p>\n</blockquote>\n<p>Diezgan sen jau, bet saturs vēl trakāks :)</p>",
+        "id": 398240984,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1698137884
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Par.20notes.20lieto.C5.A1anu/near/398240796\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/Par.20notes.20lieto.C5.A1anu/near/398150937\">said</a>:</p>\n<blockquote>\n<p>Skatīties notes pa vienai nav mūsdienīgi, vajag tam skriptam ChatGPT pieskrūvēt. <span aria-label=\"robot\" class=\"emoji emoji-1f916\" role=\"img\" title=\"robot\">:robot:</span></p>\n</blockquote>\n<p>Nu...</p>\n<blockquote>\n<p>Why did I ask ChatGPT for help with my problems? I've got 99 problems, and now I've got a GPT-3.5 that's gone all GPT-3.9, leaving me with 99 more!<br>\n</p>\n</blockquote>\n</blockquote>\n<p>Par ChatGPT bija joks/pārspīlējums. Bet notes filtrēšanu pēc atslēgvārdiem/autora taču var pielikt Tavam skriptam.</p>",
+        "id": 398242415,
+        "sender_full_name": "i-ky",
+        "timestamp": 1698138238
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/oVsoOOrNsdV04QGUdZXMm8Oq/noppers.png\">noppers.png</a><br>\nEhhh... may be in 10 years.</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/oVsoOOrNsdV04QGUdZXMm8Oq/noppers.png\" title=\"noppers.png\"><img src=\"/user_uploads/49624/oVsoOOrNsdV04QGUdZXMm8Oq/noppers.png\"></a></div>",
+        "id": 398251857,
+        "sender_full_name": "HellMap",
+        "timestamp": 1698141143
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/Par.20notes.20lieto.C5.A1anu/near/398151332\">said</a>:</p>\n<blockquote>\n<p>Man personīgi nav iebildumu pret to, kā <span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> lieto notes.</p>\n</blockquote>\n<p>O jā, man nav iebildumu - es pats tādas piezīmes pietiekami daudz esmu salicis.<br>\nBet tas rada problēmas, līdz ar to es gan mazāk piezīmes skatos, gan arī mazāk lieku \"ilgtermiņa\" piezīmes.</p>",
+        "id": 398260728,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1698144545
+    },
+    {
+        "content": "<p>Paprasīju Masto, vienu hackish risinājumu minēja :)</p>\n<blockquote>\n<ol>\n<li>github issues from an issue template</li>\n<li>a github action running a cron job daily</li>\n<li>in that cron job turn issues into a .pmtiles file</li>\n<li>put that .pmtiles file into a gh pages branch</li>\n<li>optionally add images to that branch, too</li>\n</ol>\n</blockquote>",
+        "id": 398260813,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1698144584
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/Par.20notes.20lieto.C5.A1anu/near/398242415\">said</a>:</p>\n<blockquote>\n<p>Par ChatGPT bija joks/pārspīlējums. Bet notes filtrēšanu pēc atslēgvārdiem/autora taču var pielikt Tavam skriptam.</p>\n</blockquote>\n<p>Tas bija skaidrs, jā :)<br>\nFiltrēšana ir baigais čakars (visu laiku jāuztur filtra teksts), pēc autora filtrēt nevar, un tas nekā nepalīdz tad, kad piezīmes skatos telefonā browserī vai GoMap!!.</p>",
+        "id": 398261229,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1698144744
+    },
+    {
+        "content": "<p>Vēl cilvēki iesaka uMap (kuru mēs jau bijām apsvēruši), bet vizualizācija no Github issues nav skaidra.</p>",
+        "id": 398261826,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1698145000
+    },
+    {
+        "content": "<p>Vizualizācijai varētu noderēt arī GitHub GeoJSON spējas (<a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/GeoJSON.20un.20GitHub\">#general &gt; GeoJSON un GitHub</a>).</p>",
+        "id": 398262699,
+        "sender_full_name": "i-ky",
+        "timestamp": 1698145358
+    },
+    {
+        "content": "<p>Ja to var ģenerēt no issues, varbūt tas sanāk kā risinājums, jā. To jau pēc tam var likt daudz kur citur arī (uMap, JOSM etc).</p>",
+        "id": 398304797,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1698158962
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/LyxapY_t-8ADcPGRbNnRDslw/image.png\">JOSM</a><br>\nvar atķeksēt tikai notes un paņemt visas krietni lielā reģionā</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/LyxapY_t-8ADcPGRbNnRDslw/image.png\" title=\"JOSM\"><img src=\"/user_uploads/49624/LyxapY_t-8ADcPGRbNnRDslw/image.png\"></a></div>",
+        "id": 398349203,
+        "sender_full_name": "Colby",
+        "timestamp": 1698176108
+    },
+    {
+        "content": "<p>Tas gan laikam nelīdz piezīmju kategorizācijai?</p>",
+        "id": 398442865,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1698224867
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Par.20notes.20lieto.C5.A1anu/near/398260813\">said</a>:</p>\n<blockquote>\n<p>Paprasīju Masto, vienu hackish risinājumu minēja :)</p>\n<blockquote>\n<ol>\n<li>github issues from an issue template</li>\n<li>a github action running a cron job daily</li>\n<li>in that cron job turn issues into a .pmtiles file</li>\n<li>put that .pmtiles file into a gh pages branch</li>\n<li>optionally add images to that branch, too<br>\n</li>\n</ol>\n</blockquote>\n</blockquote>\n<p>Man liekas, jābeidz jautāt, ko mēs <em>varētu izdarīt</em> ar notes/issues/whatever, un pajautāt, ko mēs <em>gribētu izdarīt</em>. T.i. jābūt tehniskajam uzdevumam, ko mēs galu galā gribam redzēt, lai visiem būtu ērti. Tad jau domāsim, kā to panākt.</p>",
+        "id": 401836490,
+        "sender_full_name": "i-ky",
+        "timestamp": 1699905837
+    },
+    {
+        "content": "<p>Personīgi, es izmantoju notes kā vienu nelielu faktoru maršrutu plānošanā. Paskatos kādi notes ir galamērķī vai pa ceļam un, ja kaut kas interesants, zīmējot maršrutu, ievelku uz turieni pa ceļam. Bet skatos katru individuāli, jo neesmu sastapies ar situāciju, ka varētu visus notes pēc kārtas braukt skatīties. espējams, ja būtu tāds \"surveyable now\" karodziņš, tad es vairāk izmantotu. Bet notes pašlaik man ir ne pirmajā un pat ne piektajā vietā priekš faktoriem survey mērķiem - parasti tie ir ceļi, kur neesmu bijis, kur nav Mapillary filmēts, kur kaut kas jauns, kur vienkārši pa ceļam, kur strava is bijusi, kur nesen zīmēju, utt. Tā kā grūti teikt, ka kaut kādas nelielas vai neglobālas izmaiņas notes sistēmā man daudz dotu - te ir vai nu \"uzreiz visu pārtaisa\" risinājums vai arī no ļoti specifiski tieši man risinājums - tā teikt, es personīgi salieku notes \"watchlistā\" ar savu komentāru (piem. \"pēc jūnija nobraukt te\").</p>",
+        "id": 401964246,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699960606
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/Par.20notes.20lieto.C5.A1anu/near/401836490\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Par.20notes.20lieto.C5.A1anu/near/398260813\">said</a>:</p>\n<blockquote>\n<p>Paprasīju Masto, vienu hackish risinājumu minēja :)</p>\n<blockquote>\n<ol>\n<li>github issues from an issue template</li>\n<li>a github action running a cron job daily</li>\n<li>in that cron job turn issues into a .pmtiles file</li>\n<li>put that .pmtiles file into a gh pages branch</li>\n<li>optionally add images to that branch, too<br>\n</li>\n</ol>\n</blockquote>\n</blockquote>\n<p>Man liekas, jābeidz jautāt, ko mēs <em>varētu izdarīt</em> ar notes/issues/whatever, un pajautāt, ko mēs <em>gribētu izdarīt</em>. T.i. jābūt tehniskajam uzdevumam, ko mēs galu galā gribam redzēt, lai visiem būtu ērti. Tad jau domāsim, kā to panākt.</p>\n</blockquote>\n<p>Hmm jā, pirms tam bijām rakstījuši par funkcionalitāti.<br>\n<a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/probl.C4.93mu.20re.C4.A3istri\">#general &gt; problēmu reģistri</a> pirmais posts nav gluži tehniska specene, bet \"ko mēs gribētu\" mazliet ir :)<br>\nJa detalizētāks apraksts noderētu, priecāšos turpināt apkopojumu.<br>\nSākot ar \"problem statement\", kuru HellMap arī nupat pieminēja - nav tā, ka piezīmes būtu dabā pētāmas vai pat vispār šobrīd atrisināmas, kas samazina to lietojamību.</p>",
+        "id": 402032115,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1699982100
+    },
+    {
+        "content": "<p>Problēma ir tā, ka tā problēma ir subjektīva. Katram notam ir sava specifika. Es piemēr ar riteni nepētīšu notus uz motorway. Un kāds ar mašīnu nepētīs takas caur kāpām. Un neviens nepētīs \"Sia SpamReklāma\" notus industrijas rajonos. Un \"pārbaudīt, vai ziemā egle\" vispār neviens nevarēs pagaidām. Bez kaut kādas ļoti specializētas sistēmas, šī \"problēma\" vienmēr paliks, jo sākotnējais rich'a lietojums \"taisīt GPX no notiem\" kaut kā paredz, ka tie note'i ir tiešām tā lietojami. Bet tā jau nekad gluži nav bijis.</p>",
+        "id": 402033070,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699982452
+    },
+    {
+        "content": "<p>Taisnība, vienmēr būs edge cases. Bet domājot par perfektu risinājumu kā vienīgo lietderīgo nekad neko nevarēs uzsākt :)</p>\n<p>Piem,. ja atsevišķi izfiltrētu vietas, kur pašvaldība vai LVC šķībi salikuši zīmes, jau derīgāka datu kopa.<br>\nTad atsevišķi tās vietas, kur \"kaut kad nākotnē būs būvdarbi\" (un klāt varbūt vēl datumu, pēc kura vērts skatīties).<br>\nAtsevišķi \"dabā nav ko skatīties, atliek tikai izmainīt\" (un šo vēl 2 daļās, kur atsevišķi ir \"nav skaidrs, kādus tagus lai lieto\"...).</p>\n<p>Un tā paturpinot varbūt dabūsim vairākas derīgas datu kopas :)</p>",
+        "id": 402039025,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1699984737
+    },
+    {
+        "content": "<p>Jā, var uztaisīt custom kategorizēšanu ar \"role\" metadatu - tad varēs strīdēties, kādām jābūt kategorijām un kādu kuram jāliek. <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span> Tas būtu kā minētais #hashtag tikai iebūvēts sistēmā (vai wrapperi tam visam apkārt) kā wiki lapām. Bet tas ir jāmaina sistēma un man nav cerību, ka tas būs kaut kad drīz un ka vispār būs. Parastā atbilde \"you can always make your own tool on top of OSM that does this\".</p>",
+        "id": 402040183,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699985121
+    },
+    {
+        "content": "<p>Bet ko var tagad izdarīt - es nezinu. Ja netaisīt notiem komentārus vai atsevišķu sistēmu, kura nebūs nekur citur (tā jau tos notes neviens* nelieto).</p>",
+        "id": 402040490,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699985263
+    }
+]

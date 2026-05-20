@@ -1,0 +1,512 @@
+[
+    {
+        "content": "<p>Šobrīd depozīta vietu kartēšana ir ļoti nekonsekventa - piem., viens:<br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dvending_machine\">amenity=vending_machine</a><br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Avending%3Dbottle_return\">vending=bottle_return</a><br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aoperator%3DRimi\">operator=Rimi</a></p>",
+        "id": 329225872,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1676994758
+    },
+    {
+        "content": "<p>Cits:<br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Drecycling\">amenity=recycling</a><br>\nbrand=Depozīta punkts<br>\nname=Depozīta punkts<br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Arecycling:cans%3Dyes\">recycling:cans=yes</a><br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Arecycling:glass_bottles%3Dyes\">recycling:glass_bottles=yes</a><br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Arecycling:plastic_bottles%3Dyes\">recycling:plastic_bottles=yes</a><br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Arecycling_type%3Dcentre\">recycling_type=centre</a></p>",
+        "id": 329226154,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1676994832
+    },
+    {
+        "content": "<p>Pirmkārt jau <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Arecycling_type%3Dcentre\">recycling_type=centre</a> šķiet nepareizi, jo \"These centres are dedicated areas for collecting a wider range of recyclable household materials.\"</p>\n<p>Otrkārt, name laikam būtu ņemams nost.</p>\n<p>Treškārt, nav skaidrs ar brand. Jā, var teikt, ka visi viņi ir \"Depozīta punkts\", bet reāli jau ikdienā apkopj (iztukšo) veikali.<br>\nPie tam, vajag norādīt, kuros veikalos vispār derēs kuponi.</p>",
+        "id": 329227035,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1676995020
+    },
+    {
+        "content": "<p>NSI ir divi preset'i:</p>\n<ol>\n<li><a href=\"https://nsi.guide/index.html?t=brands&amp;k=amenity&amp;v=recycling#depozitapunkts-831330\">https://nsi.guide/index.html?t=brands&amp;k=amenity&amp;v=recycling#depozitapunkts-831330</a></li>\n<li><a href=\"https://nsi.guide/index.html?t=brands&amp;k=amenity&amp;v=vending_machine#depozitapunkts-cc4c61\">https://nsi.guide/index.html?t=brands&amp;k=amenity&amp;v=vending_machine#depozitapunkts-cc4c61</a></li>\n</ol>\n<p>Pie tam pievienoti <a href=\"https://github.com/osmlab/name-suggestion-index/commit/df7f4035e802a3145ce07d062a1d92b14b700393\">ar vienu commit'u</a>.</p>\n<p>Pēc Overpass skatoties 1. ir populārāks.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/osmlab/name-suggestion-index/commit/df7f4035e802a3145ce07d062a1d92b14b700393\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/30f964fc3cf96e21b655f278b4da457329d1ec84\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f376636323661626564356663653663396163323433626266333935616638366630316266303262643531623463353933366663373938623465316432356438652f6f736d6c61622f6e616d652d73756767657374696f6e2d696e6465782f636f6d6d69742f64663766343033356538303261333134356365303764303632613164393262313462373030333933)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/osmlab/name-suggestion-index/commit/df7f4035e802a3145ce07d062a1d92b14b700393\" title=\"Add Depozīta punkts · osmlab/name-suggestion-index@df7f403\">Add Depozīta punkts · osmlab/name-suggestion-index@df7f403</a></div><div class=\"message_embed_description\">Canonical common brand names, operators, transit and flags for OpenStreetMap. - Add Depozīta punkts · osmlab/name-suggestion-index@df7f403</div></div></div>",
+        "id": 329228717,
+        "sender_full_name": "i-ky",
+        "timestamp": 1676995373
+    },
+    {
+        "content": "<p>Hmm, tas centre šķiet pamatīgi nepareizs, ja vien kaut kur tiešām nav lieli \"Depozīta punkts\" centri.<br>\nUn abiem \"name\" šķiet diezgan garām.</p>",
+        "id": 329242252,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1676998910
+    },
+    {
+        "content": "<p>A kas īsti ir tajās sakranajās depozīta punkta būdās? Es tur neesmu bijis nekad. Kartē arī neesmu īsti atzīmējis.</p>",
+        "id": 329312143,
+        "sender_full_name": "HellMap",
+        "timestamp": 1677021781
+    },
+    {
+        "content": "<p>Depozīta aparāti, viens vai divi. Apspriežot ar starptautisko kopienu, tika ieteikts zīmēt būdiņas atsevišķi un tad attiecīgi vienu vai divas aparātu nodes.</p>",
+        "id": 329405703,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1677066442
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Arecycling_type%3Dcentre\">recycling_type=centre</a> var būt garām, bet vismaz to var redzēt uz default OSM flīzēm. <a href=\"https://www.openstreetmap.org/node/10549103219\">Šeit</a> piemēram, <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Avending%3Dbottle_return\">vending=bottle_return</a> ir pilnīgi neredzams, bet divi <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Arecycling_type%3Dcontainer\">recycling_type=container</a> blakus katrs dabū savu ikoniņu. Lasot <a href=\"https://github.com/gravitystorm/openstreetmap-carto/issues/4580\">https://github.com/gravitystorm/openstreetmap-carto/issues/4580</a> rodas tāds WTF moments...</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/10549103219\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/10549103219\" title=\"Node: ‪Depozīta punkts‬ (‪10549103219‬) | OpenStreetMap\">Node: ‪Depozīta punkts‬ (‪10549103219‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/gravitystorm/openstreetmap-carto/issues/4580\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/b438d221f6d0a2f7700825e8bfc80223d8e47dae\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f653838303536633564643839643933613763363639626239643362326235663438613031333337633365613131326436613364643434303938336438643661642f6772617669747973746f726d2f6f70656e7374726565746d61702d636172746f2f6973737565732f34353830)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/gravitystorm/openstreetmap-carto/issues/4580\" title=\"Add rendering for vending=bottle_return · Issue #4580 · gravitystorm/openstreetmap-carto\">Add rendering for vending=bottle_return · Issue #4580 · gravitystorm/openstreetmap-carto</a></div><div class=\"message_embed_description\">It would be great to render vending=bottle_return on nodes. https://wiki.openstreetmap.org/wiki/Tag:vending%3Dbottle_return Deposit return places exist in many countries, but the mapping of these i...</div></div></div>",
+        "id": 329409254,
+        "sender_full_name": "i-ky",
+        "timestamp": 1677067496
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/depoz.C4.ABta.20punkti/near/329405703\">said</a>:</p>\n<blockquote>\n<p>Apspriežot ar starptautisko kopienu, tika ieteikts zīmēt būdiņas atsevišķi un tad attiecīgi vienu vai divas aparātu nodes.</p>\n</blockquote>\n<p>Ja veikalam ir divi kases aparāti, tad to arī zīmēt kā divus <img alt=\":node:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40175.png\" title=\"node\">?!</p>",
+        "id": 329414030,
+        "sender_full_name": "i-ky",
+        "timestamp": 1677068820
+    },
+    {
+        "content": "<p>Jā, tās Github issue loģikai īsti nepiekrītu, lai gan daļa ir saprotama. Tā novecojušā SVG jēgu neizpratu :)<br>\nPievienoju komentāru, neko citu jau tur neizdarīs.<br>\nVaram demonstratīvi vienoties, ka Latvijā šos tagosim kā recycling centre :D</p>\n<p>Kases aparāti - vai tad tos kāds cenšas iezīmēt OSM?</p>",
+        "id": 329425991,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1677072124
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/depoz.C4.ABta.20punkti/near/329425991\">said</a>:</p>\n<blockquote>\n<p>Kases aparāti - vai tad tos kāds cenšas iezīmēt OSM?</p>\n</blockquote>\n<p>Nē, jo man būtu vienalga, cik kases aparāti ir veikalā. Tāpat man nav svarīgi, cik aparātu ir Depozīta punktā.<br>\nŅemot vērā, ka uz ortofoto būdiņu vēl nav, es būtu priecīgs arī ja ir vienkārši <img alt=\":node:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40175.png\" title=\"node\"></p>",
+        "id": 329428370,
+        "sender_full_name": "i-ky",
+        "timestamp": 1677072801
+    },
+    {
+        "content": "<p>Es sākumā tos tagus pievienoju būdiņai, bet pēc tās sarunas sāku likt kā punktus.<br>\nProtams, ka viens punkts labāk nekā nekas - kā jau OSM ierasts, tuvinājumi ir standarta prakse :)</p>",
+        "id": 329506289,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1677092240
+    },
+    {
+        "content": "<p>Vēl viena lieta par tiem <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Drecycling\">amenity=recycling</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Arecycling_type\">recycling_type=*</a> vs. <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dvending\">amenity=vending</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Avending%3Dbottle_return\">vending=bottle_return</a> - vajag atcerēties, ka Nominatim special phrases ir tikai vienu tagu \"dziļi\", un ja nevarēs meklēt depozīta punktus pēc <code>name</code> vai <code>brand</code> (teiksim, ja viņiem parādīsies \"konkurents\"), tad būs pavisam skumji.<br>\nPat šobrīd ar Nominatim nav ideāli. Viņš rāda rezultāta \"kategoriju\" (laikam arī balstās uz special phrases) un dažiem Depozīta punktiem tā ir \"Recycling\", bet dažiem - \"Vending machine\".</p>\n<div class=\"codehilite\" data-code-language=\"nominatim\"><pre><span></span><code>Depozīta punkts\n</code></pre></div>",
+        "id": 329805644,
+        "sender_full_name": "i-ky",
+        "timestamp": 1677181600
+    },
+    {
+        "content": "<p>Vai pareizi sapratu, ka <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Drecycling\">amenity=recycling</a> gadījumā tādā situācijā nevarētu atrast, jo nebūtu viena identificējoša taga kā <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Avending%3Dbottle_return\">vending=bottle_return</a>?</p>",
+        "id": 338190268,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1677436476
+    },
+    {
+        "content": "<p>Nē, <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Avending\">vending=*</a> vispār nepiedalās atlasē, jo tas ir second class citizen. Var meklēt vai nu \"Recycling station\" (un tad Depozīta punkti būs kopā ar konteineriem un citiem <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Drecycling\">amenity=recycling</a>), vai nu \"Vending machine\" (un tad Depozīta punkti būs kopā ar citiem <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dvending\">amenity=vending</a>).</p>",
+        "id": 338271283,
+        "sender_full_name": "i-ky",
+        "timestamp": 1677488884
+    },
+    {
+        "content": "<p>Tāpēc man vairāk patīk variants zīmēt tos kā <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Drecycling\">amenity=recycling</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Arecycling_type%3Dmachine\">recycling_type=machine</a> vai līdzīgi, kā bija pieminēts <a href=\"https://github.com/gravitystorm/openstreetmap-carto/issues/4580#issuecomment-1171151106\">šeit</a>. <code>recycling_type=machine|vending_machine|reverse_vending_machine</code> šobrīd ir aptuveni 10 reiz mazāk nekā <code>vending=bottle_return</code>, bet arī <code>vending=bottle_return</code> vēl nav pārāk daudz.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/gravitystorm/openstreetmap-carto/issues/4580#issuecomment-1171151106\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/e4665acf387ee6d3b8c37ff50931dd70ad9e29e2\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f333032306535313538653932323239353632373661613634356530396166643332663238393836353036396466326331343033393730383262613536343161622f6772617669747973746f726d2f6f70656e7374726565746d61702d636172746f2f6973737565732f34353830)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/gravitystorm/openstreetmap-carto/issues/4580#issuecomment-1171151106\" title=\"Add rendering for vending=bottle_return · Issue #4580 · gravitystorm/openstreetmap-carto\">Add rendering for vending=bottle_return · Issue #4580 · gravitystorm/openstreetmap-carto</a></div><div class=\"message_embed_description\">It would be great to render vending=bottle_return on nodes. https://wiki.openstreetmap.org/wiki/Tag:vending%3Dbottle_return Deposit return places exist in many countries, but the mapping of these i...</div></div></div>",
+        "id": 338272377,
+        "sender_full_name": "i-ky",
+        "timestamp": 1677489236
+    },
+    {
+        "content": "<p>Kā tādā gadījumā strādātu meklēšana?<br>\nUn vai Nominatim būtu reāli to uzlabot, lai vieglāk varētu meklēt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Avending%3Dbottle_return\">vending=bottle_return</a>?</p>",
+        "id": 338710488,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1677625663
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/depoz.C4.ABta.20punkti/near/338710488\">said</a>:</p>\n<blockquote>\n<p>Kā tādā gadījumā strādātu meklēšana?</p>\n</blockquote>\n<p>Ja es pareizi saprotu, ar \"Recycling station\" special phrase varētu atrast gan Depozīta punktus, gan konteinerus, gan pārstrādes centrus. Arī meklējot pēc nosaukuma Depozīta punktiem būtu \"Recycling\" kategorija rezultātu sarakstā.</p>",
+        "id": 338791856,
+        "sender_full_name": "i-ky",
+        "timestamp": 1677665650
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/depoz.C4.ABta.20punkti/near/338710488\">said</a>:</p>\n<blockquote>\n<p>Un vai Nominatim būtu reāli to uzlabot, lai vieglāk varētu meklēt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Avending%3Dbottle_return\">vending=bottle_return</a>?</p>\n</blockquote>\n<p>Es nepazīstu Nominatim kodu, tāpēc nevaru atbildēt. Par to jājautā maintainer'iem. Var atdzīvināt <a href=\"https://github.com/osm-search/Nominatim/discussions/2477\">šo diskusiju</a>, tur arī runa ir par \"secondary tags\" (<code>amenity=bank</code> + <code>atm=yes</code> = ATM, <code>amenity=pub</code> + <code>food=yes</code> = fast food, etc.)</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/osm-search/Nominatim/discussions/2477\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/2fb76689f5f639459f90b967c567d9292b3aaf66\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f333962373333613962303963333132353336336664616364653563386264333632356635643535353239646632313830376164396666356537306361623433642f6f736d2d7365617263682f4e6f6d696e6174696d2f64697363757373696f6e732f32343737)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/osm-search/Nominatim/discussions/2477\" title=\"Some questions about special phrases · osm-search/Nominatim · Discussion #2477\">Some questions about special phrases · osm-search/Nominatim · Discussion #2477</a></div><div class=\"message_embed_description\">Hi, I&#39;ve recently modified Spanish special phrases and it seems that they have been loaded into nominatim now. Among several corrections, I added several new sections, some are working as expec...</div></div></div>",
+        "id": 338792600,
+        "sender_full_name": "i-ky",
+        "timestamp": 1677665871
+    },
+    {
+        "content": "<p>Par depozītiem - daļai ir / ir pielikti name=\"Depozīta punkts\".<br>\nŠķiet, tie visi būtu ņemami nost, vai ir kādi iebildumi?</p>",
+        "id": 363303488,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1685797859
+    },
+    {
+        "content": "<p>Kāpēc? Pēc NSI datiem tiem jābūt ar tādiem name.</p>",
+        "id": 363358936,
+        "sender_full_name": "i-ky",
+        "timestamp": 1685815763
+    },
+    {
+        "content": "<p>Uz tām būdām tač ir liels uzraksts \"Depozīta punkts\" - tas būtu vistaisnākais on-the-ground name</p>",
+        "id": 363359592,
+        "sender_full_name": "HellMap",
+        "timestamp": 1685816040
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/depoz.C4.ABta.20punkti/near/363358936\">said</a>:</p>\n<blockquote>\n<p>Kāpēc? Pēc NSI datiem tiem jābūt ar tādiem name.</p>\n</blockquote>\n<p>NSI var būt un dažreiz ir kļūdaini - tad tik pull requesti :)</p>",
+        "id": 363651256,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1685955278
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/depoz.C4.ABta.20punkti/near/363359592\">said</a>:</p>\n<blockquote>\n<p>Uz tām būdām tač ir liels uzraksts \"Depozīta punkts\" - tas būtu vistaisnākais on-the-ground name</p>\n</blockquote>\n<p>Uz dažiem lauku veikaliem ir \"veikals\", bet tas noteikti nav to vietu _vārds_/nosaukums.<br>\nUz Swedbank bankomātiem ir \"Swedbank\", bet tas nav bankomātiem name. Arī pieminētajā NSI tas atspoguļots: <a href=\"https://nsi.guide/index.html?t=brands&amp;k=amenity&amp;v=atm#swedbank-ab2e60\">https://nsi.guide/index.html?t=brands&amp;k=amenity&amp;v=atm#swedbank-ab2e60</a> .</p>",
+        "id": 363652046,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1685955434
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/depoz.C4.ABta.20punkti/near/363651256\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/depoz.C4.ABta.20punkti/near/363358936\">said</a>:</p>\n<blockquote>\n<p>Kāpēc? Pēc NSI datiem tiem jābūt ar tādiem name.</p>\n</blockquote>\n<p>NSI var būt un dažreiz ir kļūdaini - tad tik pull requesti :)</p>\n</blockquote>\n<p>Tur <em>ļoti</em> daudz ierakstu, kam sakrīt <code>name</code> un <code>brand</code>...<br>\nVari uztaisīt PR par Depozīta punktiem, redzēsim, ko maintainer'i teiks.</p>",
+        "id": 363652642,
+        "sender_full_name": "i-ky",
+        "timestamp": 1685955548
+    },
+    {
+        "content": "<p>Depozīta punktiem ir [vismaz] divi operator - ikdienas darbību nodrošinošais, kas attiecīgi ir veikals, kurš nomaina pilnos konteinerus, tīra utml uztur šīs vietas.<br>\nDepozīta punkts tos remontē utt.</p>\n<p>Es teiktu, ka  Depozīta punkts pat nav operator OSM kontekstā nemaz, jo tā sasaiste ar veikalu ir daudz praktiskāka un datu izmantotājam nozīmīgāka.<br>\nNo viena lietotājiem ir pilnīgi 0 ieguvumu, no otra - praktiski skaidrs, ar kuru veikalu šim punktam ir sasaiste.</p>",
+        "id": 363653496,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1685955710
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/depoz.C4.ABta.20punkti/near/363652642\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/depoz.C4.ABta.20punkti/near/363651256\">said</a>:</p>\n<blockquote>\n<p>Pēc NSI datiem tiem jābūt ar tādiem name.</p>\n<div class=\"codehilite\"><pre><span></span><code>NSI var būt un dažreiz ir kļūdaini - tad tik pull requesti :)\n````\n\nTur *ļoti* daudz ierakstu, kam sakrīt `name` un `brand`...\nVari uztaisīt PR par Depozīta punktiem, redzēsim, ko maintainer&#39;i teiks.\n`````\n\nIr tradicionāli lietotie, dažām veikalu ķēdēm utt.\nMaintaineri lielākoties necenšas neko uzspiest - uztaisa sanity check, un pievieno :)\nMums kopienā būtu jāvienojas, lai nav rediģēšanas konflikti.\n</code></pre></div>\n</blockquote>\n</blockquote>",
+        "id": 363653973,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1685955810
+    },
+    {
+        "content": "<p>Es šos pielīdzinātu ATM, pakomātiem utt.<br>\nNav nosaukumi \"Omniva\", \"DPD\", \"SEB\"...</p>",
+        "id": 363654158,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1685955855
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/depoz.C4.ABta.20punkti/near/363654158\">said</a>:</p>\n<blockquote>\n<p>Es šos pielīdzinātu ATM, pakomātiem utt.<br>\nNav nosaukumi \"Omniva\", \"DPD\", \"SEB\"...</p>\n</blockquote>\n<p>Nominatim ir problēmas ar ATM bez <code>name</code>, lūk:</p>\n<div class=\"codehilite\" data-code-language=\"nominatim\"><pre><span></span><code>atm near domina shopping\n</code></pre></div>\n<p>Viņam šķiet, ka bankomāta adrese ir svarīgāka par <code>operator</code>. Es nepiekritu.</p>",
+        "id": 363661160,
+        "sender_full_name": "i-ky",
+        "timestamp": 1685957464
+    },
+    {
+        "content": "<p>Tāpēc pirms mēs ņemam nost <code>name</code> no Depozīta punktiem, es gribētu pārliecināties, ka tas nerādīs problēmas ar default renderer'i, Nominatim, populāro aplikāciju stiliem utt.</p>",
+        "id": 363661642,
+        "sender_full_name": "i-ky",
+        "timestamp": 1685957594
+    },
+    {
+        "content": "<p>Nominatim rezultāti jokaini, jā.<br>\nVai ir zināms kāds reports Nominatim autoriem? Pameklēju, nevarēju atrast.</p>",
+        "id": 363664789,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1685958300
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/depoz.C4.ABta.20punkti/near/363664789\">said</a>:</p>\n<blockquote>\n<p>Nominatim rezultāti jokaini, jā.<br>\nVai ir zināms kāds reports Nominatim autoriem? Pameklēju, nevarēju atrast.</p>\n</blockquote>\n<p><a href=\"https://github.com/osm-search/Nominatim/pull/2639\">Šeit</a> pieminēts, ka tagad <code>brand</code> tiek vairāk izmantots <code>operator</code> vietā. <a href=\"https://github.com/osm-search/Nominatim/issues/1396#issuecomment-500043506\">Šeit</a> pateikts, ka jātaisa jaunus issues, ja gribat indeksēt <code>operator</code> noteikta tipa objektiem.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/osm-search/Nominatim/pull/2639\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/3b587871c1bce80e30584ce413a3f4854e05cde6\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f613130643663313863376339303164393932373163323336363531383332623837643665383636633365663263323139323738613964636339333435633733332f6f736d2d7365617263682f4e6f6d696e6174696d2f70756c6c2f32363339)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/osm-search/Nominatim/pull/2639\" title=\"No longer use operator tag as a name by lonvia · Pull Request #2639 · osm-search/Nominatim\">No longer use operator tag as a name by lonvia · Pull Request #2639 · osm-search/Nominatim</a></div><div class=\"message_embed_description\">operator used to contain the name of the franchise, especially for restaurants and fuel stations. The tagging has changed in the last years and brand is now the tag of choice. In the meantime, the ...</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/osm-search/Nominatim/issues/1396#issuecomment-500043506\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/d15ff060fdf0c52f3b485b42843187425eb417f2\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f636164376163376361663861636261346566623465636635666361336237363837373264613836623635373063656231323438323862626364376662636262392f6f736d2d7365617263682f4e6f6d696e6174696d2f6973737565732f31333936)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/osm-search/Nominatim/issues/1396#issuecomment-500043506\" title=\"&quot;operator&quot; field not indexed on some (?) objects · Issue #1396 · osm-search/Nominatim\">\"operator\" field not indexed on some (?) objects · Issue #1396 · osm-search/Nominatim</a></div><div class=\"message_embed_description\">https://nominatim.openstreetmap.org/details.php?place_id=3601277 gives Name: Railyards (name) Victoria Harbour Ferry (operator). The underlying OSM node is https://www.openstreetmap.org/node/373729...</div></div></div>",
+        "id": 363667842,
+        "sender_full_name": "i-ky",
+        "timestamp": 1685958951
+    },
+    {
+        "content": "<p>Ahh. Hmm.<br>\nTad varbūt bankomātiem brand, un depozīta punktiem <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aoperator%3Dveikals\">operator=veikals</a>, brand=\"Depozīta punkts\"?</p>",
+        "id": 363680275,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1685961605
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/depoz.C4.ABta.20punkti/near/363680275\">said</a>:</p>\n<blockquote>\n<p>Ahh. Hmm.<br>\nTad varbūt bankomātiem brand, un depozīta punktiem <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aoperator%3Dveikals\">operator=veikals</a>, brand=\"Depozīta punkts\"?</p>\n</blockquote>\n<p>Vismaz Nominatim šādus (piemēram <a href=\"https://www.openstreetmap.org/node/10090339646\">šo</a>) var atrast pēc vaicājuma:</p>\n<div class=\"codehilite\" data-code-language=\"nominatim\"><pre><span></span><code>Depozīta punkts\n</code></pre></div>\n<p>Vienīgi bez <code>name</code> ar default stilu to nevar atšķirt no parasta recycling konteinera, kas ir slikti.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/10090339646\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/10090339646\" title=\"Node: 10090339646 | OpenStreetMap\">Node: 10090339646 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 363682493,
+        "sender_full_name": "i-ky",
+        "timestamp": 1685962161
+    },
+    {
+        "content": "<p>Reāli es meklētu piemēram \"Depozīta punkts Rimi\"... No results found</p>",
+        "id": 363687413,
+        "sender_full_name": "HellMap",
+        "timestamp": 1685963307
+    },
+    {
+        "content": "<p>Vispār, tas, ka meklējot punktus nerāda uzreiz kartē visus ir ļoti bēdīgi. Man tā visa OSMF nostāja, ka galvenā karte tas ir tikai tā - paraugs - nepatīk. Lietotāju adopcija nav un nebūs ar tādu pieeju.</p>",
+        "id": 363693185,
+        "sender_full_name": "HellMap",
+        "timestamp": 1685964749
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/depoz.C4.ABta.20punkti/near/363687413\">said</a>:</p>\n<blockquote>\n<p>Reāli es meklētu piemēram \"Depozīta punkts Rimi\"... No results found</p>\n</blockquote>\n<p>Būtu labs issue priekš Nominatim, man neizdevās atrast neko līdzīgu.</p>",
+        "id": 363695678,
+        "sender_full_name": "i-ky",
+        "timestamp": 1685965375
+    },
+    {
+        "content": "<p>Skatoties, cik ilgi aizņem <a href=\"https://github.com/gravitystorm/openstreetmap-carto/issues/1874\">uzpildes stacijām pielikt <code>brand</code></a> paliek ļoti skumji.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/gravitystorm/openstreetmap-carto/issues/1874\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/fb3c9b24690f34125a8727f669eb32b11f3c8f08\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f393930623135666362336633666632633665643762303237653633336231613238396333353639376464303837343438393565396165623665653230633232632f6772617669747973746f726d2f6f70656e7374726565746d61702d636172746f2f6973737565732f31383734)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/gravitystorm/openstreetmap-carto/issues/1874\" title=\"Render brand=* for amenity=fuel · Issue #1874 · gravitystorm/openstreetmap-carto\">Render brand=* for amenity=fuel · Issue #1874 · gravitystorm/openstreetmap-carto</a></div><div class=\"message_embed_description\">Hi! Sorry for my beginner English. I propose to render on maps the label brand=* instead of name=* tag. \"Brand\" should be prioritised rather than \"Name\". Brand should be rendered if do not exist Na...</div></div></div>",
+        "id": 363699354,
+        "sender_full_name": "i-ky",
+        "timestamp": 1685966225
+    },
+    {
+        "content": "<p>Par tagiem - tagad jauni tagi parādījušies piedāvājumā:<br>\n<a href=\"https://wiki.openstreetmap.org/w/index.php?title=Tag:vending%3Dbottle_return&amp;diff=0&amp;oldid=2494709\">https://wiki.openstreetmap.org/w/index.php?title=Tag:vending%3Dbottle_return&amp;diff=0&amp;oldid=2494709</a></p>\n<p>recycling:refund_bottles<br>\nrecycling:refund_bottle_crates</p>",
+        "id": 366629293,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1686863922
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/depoz.C4.ABta.20punkti/near/366629293\">said</a>:</p>\n<blockquote>\n<p>Par tagiem - tagad jauni tagi parādījušies piedāvājumā:<br>\n<a href=\"https://wiki.openstreetmap.org/w/index.php?title=Tag:vending%3Dbottle_return&amp;diff=0&amp;oldid=2494709\">https://wiki.openstreetmap.org/w/index.php?title=Tag:vending%3Dbottle_return&amp;diff=0&amp;oldid=2494709</a></p>\n<p>recycling:refund_bottles<br>\nrecycling:refund_bottle_crates</p>\n</blockquote>\n<ul>\n<li><code>recycling:glass_bottles=*</code> Indicates whether the machine accepts glass bottles</li>\n<li><code>recycling:plastic_bottles=*</code> Indicates whether the machine accepts plastic bottles</li>\n<li><code>recycling:refund_bottles=*</code> Indicates whether the machine accepts bottles... made of refund? No, actually both bottles and cans.</li>\n</ul>\n<p>Consistency Award 2023 <span aria-label=\"applause\" class=\"emoji emoji-1f44f\" role=\"img\" title=\"applause\">:applause:</span></p>",
+        "id": 366714650,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686899428
+    },
+    {
+        "content": "<p>Kāpēc nevar <code>recycling:accepts=cans;glass_bottles;plastic_bottles;bottle_crates</code>?</p>",
+        "id": 366716792,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686899951
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"715892\">markalex2209</span> <a href=\"#narrow/stream/358602-general/topic/name-suggestion-index/near/440204828\">said</a>:</p>\n<blockquote>\n<hr>\n<p>I have a question regarding Depozīta punkts.<br>\nRight now they are added as two types: <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Drecycling\">amenity=recycling</a> or <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dvending_machine\">amenity=vending_machine</a><br>\n<a href=\"https://github.com/osmlab/name-suggestion-index/commit/df7f4035e802a3145ce07d062a1d92b14b700393\">https://github.com/osmlab/name-suggestion-index/commit/df7f4035e802a3145ce07d062a1d92b14b700393</a><br>\nI can only assume that they were added just because they started appearing in this two types, and author didn't actually know that these are the same(?) things. </p>\n<p>Should we fix this, and leave only one (and which one)?<br>\nOr should we leave it as is (and maybe ascribe some mnemonic meaning, like vending machine is when it's inside a shop, and recycling centre is a standalone building)?</p>\n</blockquote>\n<p>No distinction, at least no convention, based on their layout - for some context, see <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/depoz.C4.ABta.20punkti\">#general &gt; depozīta punkti</a>.<br>\nUnifying them would be great, but it cannot be a pure mechanical edit, manual verification still needed.</p>",
+        "id": 440276128,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716454192
+    },
+    {
+        "content": "<p>To keep it all a bit more organised, took the liberty to move some posts here - hopefully that's OK.</p>",
+        "id": 440276445,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716454286
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"715892\">markalex2209</span> <a href=\"#narrow/stream/358602-general/topic/depoz.C4.ABta.20punkti/near/440205067\">said</a>:</p>\n<blockquote>\n<p>Also, is there any kind of established practice for tagging manual deposit points?</p>\n</blockquote>\n<p>Not that I know of, but others could chime in.<br>\nThese would be great to map, although that would most likely happen from the official upstream source, as surveying them would be nearly impossible.</p>",
+        "id": 440276945,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716454441
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/depoz.C4.ABta.20punkti/near/440276945\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"715892\">markalex2209</span> <a href=\"#narrow/stream/358602-general/topic/depoz.C4.ABta.20punkti/near/440205067\">said</a>:</p>\n<blockquote>\n<p>Also, is there any kind of established practice for tagging manual deposit points?</p>\n</blockquote>\n<p>Not that I know of, but others could chime in.<br>\nThese would be great to map, although that would most likely happen from the official upstream source, as surveying them would be nearly impossible.</p>\n</blockquote>\n<p>Yeah, this question is related to osmalyzer)<br>\nWe found that upstream contains both automatically and manual ones. And I don't know if we have any agreement how to tag manual ones so that we could actually compare upstream with osm.</p>",
+        "id": 440277586,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1716454628
+    },
+    {
+        "content": "<p>Also, there is some strange third type (mentioned it in issue, forgot how it's called exactly now, something like bohentaromats)<br>\nNo clue for now what it is, and what to do with it.</p>",
+        "id": 440278283,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1716454846
+    },
+    {
+        "content": "<ul>\n<li>Beramtaromāts</li>\n</ul>",
+        "id": 440280447,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1716455585
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"715892\">markalex2209</span> <a href=\"#narrow/stream/358602-general/topic/depoz.C4.ABta.20punkti/near/440280447\">said</a>:</p>\n<blockquote>\n<ul>\n<li>Beramtaromāts</li>\n</ul>\n</blockquote>\n<p>I relied on the issue about that one before I read this. It's a vending machine. Same as \"A\" but not in a dedicated building.</p>",
+        "id": 440281921,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716456124
+    },
+    {
+        "content": "<p>I'm really not sure about manual return at shop. I don't see any tags to add to a shop or amenity.</p>",
+        "id": 440282792,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716456456
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"715892\">markalex2209</span> <a href=\"#narrow/stream/358602-general/topic/depoz.C4.ABta.20punkti/near/440278283\">said</a>:</p>\n<blockquote>\n<p>Also, there is some strange third type (mentioned it in issue, forgot how it's called exactly now, something like bohentaromats)<br>\nNo clue for now what it is, and what to do with it.</p>\n</blockquote>\n<p>From the name, it seems like on of those where bottles/cans are poured in a large opening, as opposed to being fed one by one - and then the machine just sorts them out automatically.<br>\nBut I didn't know we have them in Latvia?</p>\n<p>Bērt = to pour [for non-liquids]<br>\nBerams, berama (masculine, femnine) - one to be poured. Thus \"beram\" loses the gender-specific ending, leaving it to the second part of the compound word.</p>",
+        "id": 440284786,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716457105
+    },
+    {
+        "content": "<p>Also, notably, you cannot return glass there.</p>",
+        "id": 440285256,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716457262
+    },
+    {
+        "content": "<p>But it's basically just a bigger hole than regular ones - you can put multiples in. I am not sure there is a tag to distinguish this...</p>",
+        "id": 440285328,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716457288
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/depoz.C4.ABta.20punkti/near/440284786\">said</a>:</p>\n<blockquote>\n<p>But I didn't know we have them in Latvia?</p>\n</blockquote>\n<p><a href=\"https://www.depozitapunkts.lv/darbibu-uzsak-latvija-pirmais-beramtaromats\">https://www.depozitapunkts.lv/darbibu-uzsak-latvija-pirmais-beramtaromats</a></p>",
+        "id": 440287855,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1716458207
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/depoz.C4.ABta.20punkti/near/440284786\">said</a>:</p>\n<blockquote>\n<p>Bērt = to pour [for non-liquids]<br>\nBerams, berama (masculine, femnine) - one to be poured. Thus \"beram\" loses the gender-specific ending, leaving it to the second part of the compound word.</p>\n</blockquote>\n<p>I can't wait for you to explain \"taromāts\" <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span></p>",
+        "id": 440298628,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716462249
+    },
+    {
+        "content": "<p>Reserving that for the next in-person event ;)</p>",
+        "id": 440302570,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716463756
+    },
+    {
+        "content": "<p>Heya <span class=\"user-mention\" data-user-id=\"715892\">@markalex2209</span>, noticed you changing these to vending machines.<br>\nWhile that was something I preferred, we didn't quite reach conclusion (and there might be editors with a recycling centre preset).</p>\n<p>Perhaps it's worth reopening that discussion :)</p>",
+        "id": 440486538,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716548530
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/depoz.C4.ABta.20punkti/near/440486538\">said</a>:</p>\n<blockquote>\n<p>Heya <span class=\"user-mention silent\" data-user-id=\"715892\">markalex2209</span>, noticed you changing these to vending machines.<br>\nWhile that was something I preferred, we didn't quite reach conclusion (and there might be editors with a recycling centre preset).</p>\n<p>Perhaps it's worth reopening that discussion :)</p>\n</blockquote>\n<p>Yeah based on <a href=\"https://wiki.openstreetmap.org/wiki/Tag:amenity%3Drecycling#Recycling_type\">this wiki page</a> and your comment, I've gone ahead and replaced them to vending machines (popping out them into POIs from buildings were there were ones)</p>",
+        "id": 440521303,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1716561015
+    },
+    {
+        "content": "<p>I assumed that this wiki indicates consensus. And ambiguous tagging is undesired</p>",
+        "id": 440521499,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1716561083
+    },
+    {
+        "content": "<p>andrisl also <a href=\"https://www.openstreetmap.org/changeset/151733371\">shown disagreement with my action</a>. I asked them to join this chat.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/changeset/151733371\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/changeset/151733371\" title=\"Changeset: 151733371 | OpenStreetMap\">Changeset: 151733371 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 440523941,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1716561860
+    },
+    {
+        "content": "<p>Let me do, what I probably should have done before, and share my vision, and let community to judge how accurate it is.</p>\n<p>I think that all automated taromats should be tagged as <code>amenity=vending_machine</code> + <code>vending=bottle_return</code> (usual ones with <code>recycling:cans</code>, <code>recycling:plastic_bottles</code> and <code>recycling:glass_bottles</code> and beromtaromats without last one). <br>\nAdditionally, each usual ones and beromtaromats to have a single instance in NSI (two in total) in <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dvending_machine\">amenity=vending_machine</a> category.</p>\n<p>Also, shops that provide manual reclamation of bottles, to be tagged with <code>recycling:cans</code>, <code>recycling:plastic_bottles</code> and <code>recycling:glass_bottles</code>.</p>",
+        "id": 440526084,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1716562577
+    },
+    {
+        "content": "<p>Also, <span class=\"user-mention\" data-user-id=\"568771\">@Rihards Olups</span> thank you very much for your explanation of word formation. This feels like out of my league for now, but I very much appreciate this)</p>",
+        "id": 440526522,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1716562737
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"715892\">@markalex2209</span> Tagging itself is okay and I would have no objections but, as I said in my comment under your changeset, <code>amenity=vending_machine</code> is not rendered on the default map. So as a result of your changeset, all of the Depozīta punkts elements got hidden. Considering that <code>amenity=recycling</code> at least gives a hint about the purpose of Depozīta Punkts (people leave their bottles there, they are taken away and recycled), this tag IMO is the most accurate one.  I know some might call this \"tagging for the renderer\" but this is not really true in this case.</p>\n<p>If <code>recycling_type=centre</code> is not a desirable tag, then perhaps Depozīta Punkts POI's could be tagged with only <code>amenity=recycling</code> tag without <code>recycling_type=*</code>.</p>",
+        "id": 440545943,
+        "sender_full_name": "Andris Liepiņš",
+        "timestamp": 1716570167
+    },
+    {
+        "content": "<p>I will say that it is unfortunate that the default renderer does not show <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dvending_machine\">amenity=vending_machine</a> on the map...</p>",
+        "id": 440557230,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716574778
+    },
+    {
+        "content": "<p>I think that buildings that house the recycling vending machine should be themselves tagged as <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Drecycling\">amenity=recycling</a> location and not a vending machine. And if we want to micromap, then a POI for the vending machine can be placed in it(there may be 2 or more or even manual). But the amenity itself is a designated recycling location that happens to have a vending machine.</p>",
+        "id": 440557824,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716575042
+    },
+    {
+        "content": "<p>Whether it is rendered or not (on the default map, other maps might differ - for example, OsmAnd does show bottle return vending machines) should not be a deciding factor, but it does add some strength to the choice as basically what A.L. said above.</p>",
+        "id": 440558012,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716575123
+    },
+    {
+        "content": "<p>The solitary vending machine POIs that are in shops or other places I would agree with M should be simply vending machines and as I said - it is unfortunate they don't render. But I cannot really justify \"mistagging\" them as recycling locations just for the rendering. I feel this is something we need to request Carto to start rendering.</p>",
+        "id": 440558351,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716575274
+    },
+    {
+        "content": "<p>Just to be clear, when I encountered buildings tagged as <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Drecycling\">amenity=recycling</a> (it was 13 of them in linked changeset and a couple more later) I retagged them into <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dvending_machine\">amenity=vending_machine</a> and in a later changeset extracted node from them.</p>",
+        "id": 440563126,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1716577495
+    },
+    {
+        "content": "<p>I still feel a bit doubtful about <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Drecycling\">amenity=recycling</a>, because in my mind those should be something significantly bigger than our buildings.<br>\nAnd this part of wiki</p>\n<blockquote>\n<p>These centres are dedicated areas for collecting a <em>wider range</em> of recyclable household materials.</p>\n</blockquote>\n<p>(emphasis mine), I'd say agrees with me. </p>\n<p>But on the other hand, I agree that there is a clear distinction between those two, and there might be some benefit in tagging them in a distinct way.</p>",
+        "id": 440567068,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1716579409
+    },
+    {
+        "content": "<p>I should note I do not believe these should be tagged <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Arecycling_type%3Dcentre\">recycling_type=centre</a></p>",
+        "id": 440567379,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716579581
+    },
+    {
+        "content": "<p>I feel like the current mini-building that Latvia has is something quite new in the world of vending-recycling, so OSM doesn't have an exact tag for this. We could literally create one for this purpose/function - that's basically how OSM works, although it's very rare to make up new stuff nowadays that isn't just a few examples.</p>",
+        "id": 440567627,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716579706
+    },
+    {
+        "content": "<p>Additional note: some deposit point buildings haven't been mapped yet like <del><a href=\"https://www.openstreetmap.org/node/11472738965\">here</a></del>, <del><a href=\"https://www.openstreetmap.org/node/10253105184\">here</a></del>, <a href=\"https://www.openstreetmap.org/node/10090356661\">here</a>, <a href=\"https://www.openstreetmap.org/node/10090339662\">here</a>, <a href=\"https://www.openstreetmap.org/node/10931360024\">here</a>. Results of your edit now imply that there are single vending machines in the middle of a street without buildings. Now we have to draw every deposit point building to specify that there is building with a vending machine not vending machine alone in the middle of street or parking. <code>amenity=recycling</code> made up for the building implying that there is a <em>place</em> where stuff is recycled.</p>\n<p>Edit: fixed two of them</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/10090356661\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/10090356661\" title=\"Node: ‪Depozīta punkts‬ (‪10090356661‬) | OpenStreetMap\">Node: ‪Depozīta punkts‬ (‪10090356661‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/10090339662\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/10090339662\" title=\"Node: ‪Depozīta punkts‬ (‪10090339662‬) | OpenStreetMap\">Node: ‪Depozīta punkts‬ (‪10090339662‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/10931360024\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/10931360024\" title=\"Node: ‪Depozīta punkts‬ (‪10931360024‬) | OpenStreetMap\">Node: ‪Depozīta punkts‬ (‪10931360024‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/11472738965\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/11472738965\" title=\"Node: ‪Depozīta punkts‬ (‪11472738965‬) | OpenStreetMap\">Node: ‪Depozīta punkts‬ (‪11472738965‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/10253105184\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/10253105184\" title=\"Node: ‪Depozīta punkts‬ (‪10253105184‬) | OpenStreetMap\">Node: ‪Depozīta punkts‬ (‪10253105184‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 440567845,
+        "sender_full_name": "Andris Liepiņš",
+        "timestamp": 1716579810
+    },
+    {
+        "content": "<p>Good point, Andris. Haven't thought about this implication.</p>",
+        "id": 440568134,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1716579968
+    },
+    {
+        "content": "<p>As an example, this newish DP with beramtaromāts <a href=\"https://www.mapillary.com/app/?pKey=460168579826229&amp;focus=photo\">https://www.mapillary.com/app/?pKey=460168579826229&amp;focus=photo</a> actually has 4 vending machines in it - one is beramtaromāts (no glass) and the other 3 are regular - this is something we could theoretically micromap <br>\n<a href=\"/user_uploads/49624/fDbMgcS1Af0duIk7K7wjpSg3/max-dp-beram.png\">max-dp-beram.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/fDbMgcS1Af0duIk7K7wjpSg3/max-dp-beram.png\" title=\"max-dp-beram.png\"><img src=\"/user_uploads/49624/fDbMgcS1Af0duIk7K7wjpSg3/max-dp-beram.png\"></a></div>",
+        "id": 440570480,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716581178
+    },
+    {
+        "content": "<p>So I think it's reasonable to tag the building as recycling amenity with appropriate types of items and then if desired also add vending machines which can elaborate how exactly it can be done. But not just the vending machines, of which there can be 2+.</p>",
+        "id": 440570782,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716581317
+    },
+    {
+        "content": "<p>I'm not sure I fully get this sentence:</p>\n<blockquote>\n<p>But not just the vending machines, of which there can be 2+.</p>\n</blockquote>",
+        "id": 440571937,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1716581903
+    },
+    {
+        "content": "<p>I mean - not have a vending machine node POI by itself without a building + recycling amenity. In addition, there can be 2+ vending machines in that building, so having a single POI (by itself) also isn't technically accurate.</p>",
+        "id": 440572154,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716582021
+    },
+    {
+        "content": "<p>Ok. I suggest a plan, please indicate if this is adequate.</p>\n<ol>\n<li>I go through currently mapped punkts, and if they have buildings around then (solely dedicated ones) or if it's obvious that they do, I tag that building with </li>\n</ol>\n<div class=\"codehilite\"><pre><span></span><code>amenity=recycling\nbrand=Depozīta punkts\nbrand:wikidata=Q110979381\nname=Depozīta punkts\nrecycling:cans=yes\nrecycling:glass_bottles=yes\nrecycling:plastic_bottles=yes\n</code></pre></div>\n<p>!without <code>recycling_type=centre</code>,</p>\n<ol start=\"2\">\n<li>Somebody familiar with Latvian OSM wiki (and capable of doing that, so sadly not me) edits in description of how to tag depozita punkts, all three reclamation modes: manual, usual taromats and beramtaromats. And also, dedicated building if there is one.</li>\n<li>I (or whoever wants to) request change in NSI to exclude <code>recycling_type=centre</code> from <code>amenity=recycling</code> one, add beramtaromats into <code>amenity=vending_machine</code> and add notes explaining how to use all three of them.</li>\n</ol>\n<p>One unresolved issue: what to do with places where building is not immediately obvious? Tag with fixme? Leave note?</p>",
+        "id": 440580962,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1716586721
+    },
+    {
+        "content": "<p>A quick note, not sure if you intended or not, but the building should still have <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Abuilding\">building=*</a> with some appropriate value (I haven't looked into it, but if we're standartizing, might as well pick a value)</p>",
+        "id": 440581803,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716587308
+    },
+    {
+        "content": "<p>No, when I wrote this I had in mind simple <code>building=yes</code>. And if it already had <code>addr</code> tags to leave them in place.<br>\nBut you are right, since we are at it, might just as well discuss this detail.</p>",
+        "id": 440582153,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1716587554
+    },
+    {
+        "content": "<p>I haven't found perfect match, but my favourite is <code>building=kiosk</code>. It doesn't exactly match description in wiki, but we already have quite a few \"walk-in\" Narvessens with same exact situation.</p>",
+        "id": 440629704,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1716636838
+    },
+    {
+        "content": "<p>That sounds good, that's a pretty good description actually</p>",
+        "id": 440635036,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716642433
+    },
+    {
+        "content": "<p>I've tagged buildings for outside of Riga and Valmiera. Those two have a lot, I'll do it later.</p>",
+        "id": 440698841,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1716714175
+    },
+    {
+        "content": "<p>Also, I stumbled upon this issue: <a href=\"https://github.com/gravitystorm/openstreetmap-carto/issues/4580\">https://github.com/gravitystorm/openstreetmap-carto/issues/4580</a>, and I find it very sad.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/gravitystorm/openstreetmap-carto/issues/4580\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/e4665acf387ee6d3b8c37ff50931dd70ad9e29e2/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f333032306535313538653932323239353632373661613634356530396166643332663238393836353036396466326331343033393730383262613536343161622f6772617669747973746f726d2f6f70656e7374726565746d61702d636172746f2f6973737565732f34353830&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/gravitystorm/openstreetmap-carto/issues/4580\" title=\"Add rendering for vending=bottle_return · Issue #4580 · gravitystorm/openstreetmap-carto\">Add rendering for vending=bottle_return · Issue #4580 · gravitystorm/openstreetmap-carto</a></div><div class=\"message_embed_description\">It would be great to render vending=bottle_return on nodes. https://wiki.openstreetmap.org/wiki/Tag:vending%3Dbottle_return Deposit return places exist in many countries, but the mapping of these i...</div></div></div>",
+        "id": 440699047,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1716714407
+    },
+    {
+        "content": "<p>Hehe, people rediscover that issue every few months :)</p>",
+        "id": 440739023,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716756331
+    },
+    {
+        "content": "<p>I've tagged buildings as <code>amenity=recycling</code> back (actually way more than I removed initially)</p>",
+        "id": 440842896,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1716812455
+    }
+]

@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<blockquote>\n<p>This is the first release to officially support colaborative real-time map editing.</p>\n</blockquote>\n<p><a href=\"https://github.com/umap-project/umap/releases/tag/3.0.0\">https://github.com/umap-project/umap/releases/tag/3.0.0</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/umap-project/umap/releases/tag/3.0.0\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/f997d47200fc6803b3278623a258f1748382ce93/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f383133663861626362626265653933393230333630313839383037636538373866616535653732663438373661613937353336363234653732636665643461622f756d61702d70726f6a6563742f756d61702f72656c65617365732f7461672f332e302e30&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/umap-project/umap/releases/tag/3.0.0\" title=\"Release 3.0.0 - 2025-04-07 · umap-project/umap\">Release 3.0.0 - 2025-04-07 · umap-project/umap</a></div><div class=\"message_embed_description\">This is the first release to officially support colaborative real-time map editing.\nIt introduces ASGI deployement, to support websockets, and adds Redis in the stack.\nBut it's still possible to co...</div></div></div>",
+        "id": 511945949,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1744581171
+    }
+]

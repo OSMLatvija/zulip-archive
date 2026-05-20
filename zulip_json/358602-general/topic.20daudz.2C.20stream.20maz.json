@@ -1,0 +1,86 @@
+[
+    {
+        "content": "<blockquote>\n<p>topic daudz, stream maz</p>\n</blockquote>\n<p>Tā tam jābūt, manuprāt. Jaunu stream izveidot nav problēma, tā jau bija ar adresēm (<a href=\"#narrow/stream/358602-general/topic/new.20streams/near/315587887\">priekšlikums</a>, <a href=\"#narrow/stream/358602-general/topic/new.20streams/near/315588388\">risinājums</a>), un man nav iebildumu veidot vēl vairāk stream'us, bet sākumā jābūt kaut kam, ar ko to jaunu stream piepildīt. Negribas, lai būtu desmitiem stream, ar vienu topic katrā.</p>",
+        "id": 316267030,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671197499
+    },
+    {
+        "content": "<p>Taisot jaunus steam, tie automātiski nepieraksta? adreses puse esošo nav subscribed. Tas ir tā domāts?</p>",
+        "id": 316267517,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671197638
+    },
+    {
+        "content": "<blockquote>\n<p>problēmu reģistrs - terplāniem, pilskalniem, utt</p>\n</blockquote>\n<p><a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/probl.C4.93mu.20re.C4.A3istri\">#general &gt; problēmu reģistri</a> sākumā bija par alternatīvu priekš OSM Notes. Manuprāt, nav pareizi \"reģistrēt\" tajā topic'ā citas \"problēmas\". Principā, katrs topic šeit ir savā ziņā problēma, tāpēc taisīt \"problēmu reģistru\" ka stream šķiet nepareizi, jo tāds nosaukums neko neizsaka.</p>",
+        "id": 316268087,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671197786
+    },
+    {
+        "content": "<blockquote>\n<p>meta - boti, zulip, github</p>\n</blockquote>\n<p>Es piekrītu, ka pašlaik <a class=\"stream\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general\">#general</a> ietver sevī pārāk daudz high-tech diskusiju par Zulip, GitHub un visādām integrācijām. Ja tas ģenerē spamu, varu iznest tehniskas diskusijas uz jaunu stream.</p>",
+        "id": 316268684,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671197971
+    },
+    {
+        "content": "<blockquote>\n<p>general - parastai klačošanai</p>\n</blockquote>\n<p>Nesaprotu, kas īsti domāts ar \"klačošanu\", es latviešu valoda nav mana dzimta valoda. <a class=\"stream\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general\">#general</a> ir visam, kam vēl nav specifiska stream.</p>",
+        "id": 316269472,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671198202
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/topic.20daudz.2C.20stream.20maz/near/316267517\">said</a>:</p>\n<blockquote>\n<p>Taisot jaunus steam, tie automātiski nepieraksta? adreses puse esošo nav subscribed. Tas ir tā domāts?</p>\n</blockquote>\n<p>Taisot jaunu stream var izvēlēties subscribers. Var, teiksim, ar roku pielikt konkrētus lietotājus, var pielikt lietotājus no grupas (kuru mums pagaidām nav), var pielikt subscribers no cita stream. Kad taisīju <a class=\"stream\" data-stream-id=\"360959\" href=\"/#narrow/stream/360959-adreses\">#adreses</a> , es speciāli nevienu nepieliku (varbūt tikai tos, kas piedalījās topic'os par adresēm, neatceros...), jo temats ir diezgan specifisks un varbūt nav interesants visiem. Specifiskiem stream \"opt-in\" pieeja man liekas atbilstoša. Ja taisīsim vispārīgus stream (piemēram, #announcements), tad es pieliktu visus (ieskaitot jaunus lietotājus).</p>\n<p>Protams, šo politiku var apspriest un mainīt, kā vēlāties.</p>",
+        "id": 316271283,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671198659
+    },
+    {
+        "content": "<p>\"klačošanās\" tehniski ir žargonvārds, kas nozīmē \"tenkošana\", bet šajā kontekstā tas laikam bija domāts \"vispārīgas sarunas\" :)</p>",
+        "id": 317019685,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671563255
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/topic.20daudz.2C.20stream.20maz/near/316268684\">said</a>:</p>\n<blockquote>\n<blockquote>\n<p>meta - boti, zulip, github</p>\n</blockquote>\n<p>Es piekrītu, ka pašlaik <a class=\"stream\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general\">#general</a> ietver sevī pārāk daudz high-tech diskusiju par Zulip, GitHub un visādām integrācijām. Ja tas ģenerē spamu, varu iznest tehniskas diskusijas <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/poll.20tr.C5.ABkumi\">#general &gt; poll trūkumi</a>, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/message.20editing\">#general &gt; message editing</a>, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/ce.C4.BCaz.C4.ABmju.20bots\">#general &gt; ceļazīmju bots</a>, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/Zulip.2BMapillary.20integr.C4.81cija\">#general &gt; Zulip+Mapillary integrācija</a>) uz jaunu stream.</p>\n</blockquote>\n<p>Vismaz pagaidām izskatās, ka tādu topiku visvairāk.<br>\nVarbūt tiešām atsevišķs stream noderētu, lai pašas kartēšanas diskusijas nepazustu.</p>",
+        "id": 317031845,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671567298
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/topic.20daudz.2C.20stream.20maz/near/317031845\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/topic.20daudz.2C.20stream.20maz/near/316268684\">said</a>:</p>\n<blockquote>\n<blockquote>\n<p>meta - boti, zulip, github</p>\n</blockquote>\n<p>Es piekrītu, ka pašlaik <a class=\"stream\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general\">#general</a> ietver sevī pārāk daudz high-tech diskusiju par Zulip, GitHub un visādām integrācijām. Ja tas ģenerē spamu, varu iznest tehniskas diskusijas <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/poll.20tr.C5.ABkumi\">#general &gt; poll trūkumi</a>, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/message.20editing\">#general &gt; message editing</a>, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/ce.C4.BCaz.C4.ABmju.20bots\">#general &gt; ceļazīmju bots</a>, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/Zulip.2BMapillary.20integr.C4.81cija\">#general &gt; Zulip+Mapillary integrācija</a>) uz jaunu stream.</p>\n</blockquote>\n<p>Vismaz pagaidām izskatās, ka tādu topiku visvairāk.<br>\nVarbūt tiešām atsevišķs stream noderētu, lai pašas kartēšanas diskusijas nepazustu.</p>\n</blockquote>\n<p>Uztaisīju <a class=\"stream\" data-stream-id=\"362235\" href=\"/#narrow/stream/362235-Zulip\">#Zulip</a> un pabīdīju tur iepriekš minētus topic'us. Visi iesaistītie pievienoti kā subscribers.</p>",
+        "id": 317116339,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671615470
+    },
+    {
+        "content": "<p>Vai ir pienācis laiks vel kaut ko no #general izdalīt atsevišķā stream'ā? Piemēram, bija dažas sarunas par sabiedrisko transportu (<a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/tram.20un.20tracks.3D1\">#general &gt; tram un tracks=1</a>, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/Daugavpils.20tramvaji\">#general &gt; Daugavpils tramvaji</a>, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/embedded_rails.20.2B.20embedded_rails.3Alanes\">#general &gt; embedded_rails + embedded_rails:lanes</a>, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway\">#general &gt; railway=tram + highway</a>, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/Organic.20Maps.20.2B.20R.C4.ABgas.20Satiksme\">#general &gt; Organic Maps + Rīgas Satiksme</a>, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/Brasas.20tilta.20travaja.20l.C4.ABnijas.20pieturas\">#general &gt; Brasas tilta travaja līnijas pieturas</a>).</p>",
+        "id": 324895943,
+        "sender_full_name": "i-ky",
+        "timestamp": 1675167381
+    },
+    {
+        "content": "<p>Nav iebildumu :)</p>",
+        "id": 324988954,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675190741
+    },
+    {
+        "content": "<p><a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/horse.3Dno\">#general &gt; horse=no</a> arī sabiedriskais transports, vai ne? <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>",
+        "id": 325162577,
+        "sender_full_name": "HellMap",
+        "timestamp": 1675259288
+    },
+    {
+        "content": "<p>Par nosaukumiem: <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/nosaukumi.20ar.20komersanta.20veidu\">#general &gt; nosaukumi ar komersanta veidu</a>, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/Ielu.20nosaukumu.20mai.C5.86as.20br.C4.ABdis\">#general &gt; Ielu nosaukumu maiņas brīdis</a>, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/vecie.20v.C4.81cu.20nosaukumi\">#general &gt; vecie vācu nosaukumi</a>, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/nosaukumi.20d.C4.ABvain.C4.81m.20liet.C4.81m\">#general &gt; nosaukumi dīvainām lietām</a>, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/pirmsskolas.20izgl.C4.ABt.C4.ABbas.20iest.C4.81des\">#general &gt; pirmsskolas izglītības iestādes</a>, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/Ielu.20nosaukumu.20tulkojumi\">#general &gt; Ielu nosaukumu tulkojumi</a>, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/main.C4.ABti.20ielu.20nosaukumu.20R.C4.93zeknes.20novad.C4.81\">#general &gt; mainīti ielu nosaukumu Rēzeknes novadā</a>, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/vietu.20nosaukumi.20wikidatos\">#general &gt; vietu nosaukumi wikidatos</a>, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/Nominatim.20special.20phrases.20.2F.20tulkojumi\">#general &gt; Nominatim special phrases / tulkojumi</a></p>\n<p>Par datu avotiem: <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/Ortofoto.208.2E.20cikls\">#general &gt; Ortofoto 8. cikls</a>, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/LVM.20GEO.20serveris.20l.C4.93ns\">#general &gt; LVM GEO serveris lēns</a></p>\n<p>Par ūdenstilpnēm: <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/.C5.AAdenste.C4.8Du.20kart.C4.93.C5.A1ana\">#general &gt; Ūdensteču kartēšana</a>, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/Vecgaujas.20ditch.26drain\">#general &gt; Vecgaujas ditch&amp;drain</a>, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/dubultie.20nosaukumi.20up.C4.93m\">#general &gt; dubultie nosaukumi upēm</a></p>\n<p>Par auto lietām: <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/autost.C4.81vvietu.20kart.C4.93.C5.A1ana\">#general &gt; autostāvvietu kartēšana</a>, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/LVC.20ce.C4.BCi\">#general &gt; LVC ceļi</a>, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/type.3Dturnlanes.3Aturns\">#general &gt; type=turnlanes:turns</a>, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/.E2.9C.94.20oneway.3D-1\">#general &gt; ✔ oneway=-1</a>, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/Dz.C4.ABvojam.C4.81.20zona.20uz.20augstas.20klasifik.C4.81cija.20ce.C4.BCa\">#general &gt; Dzīvojamā zona uz augstas klasifikācija ceļa</a>, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/R.C4.ABgas.20Zieme.C4.BCu.20transporta.20koridors\">#general &gt; Rīgas Ziemeļu transporta koridors</a>, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/A2.20b.C5.ABvdarbi\">#general &gt; A2 būvdarbi</a>, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed\">#general &gt; Dzīvojamās ielas ar maxspeed</a></p>",
+        "id": 325164280,
+        "sender_full_name": "i-ky",
+        "timestamp": 1675259737
+    },
+    {
+        "content": "<p>Jā, nosaukumus visticamāk arī var - tur vēl daži ir. Pārejie laikam nav tik bieži un daudz (pagaidām). Auto arī ir ļoti vispārīgi - te drīzāk vienkārši ceļu lietošana visādos veidos - nezinu, vai tam vajag atsevišķi, bet varbūt var. Būs grūti pateikt, kas ir par ceļiem un kas par ne ceļiem. Tad jau ietves un pārejas un principā viss ar ceļiem saistītais tur būs, kaut vai <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/.22kerb.22.20.28apma.C4.BCu.29.20mikrokart.C4.93.C5.A1ana\">#general &gt; \"kerb\" (apmaļu) mikrokartēšana</a></p>",
+        "id": 325165587,
+        "sender_full_name": "HellMap",
+        "timestamp": 1675260059
+    }
+]
