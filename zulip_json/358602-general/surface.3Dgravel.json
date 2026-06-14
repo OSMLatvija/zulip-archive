@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>grants... <br>\n<a href=\"/user_uploads/49624/9nttOVVhahPdJFzjh7-2_r43/image.png\">gravel</a> <br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgravel\">https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgravel</a><br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag:surface%3Dcompacted\">https://wiki.openstreetmap.org/wiki/Tag:surface%3Dcompacted</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/9nttOVVhahPdJFzjh7-2_r43/image.png\" title=\"gravel\"><img src=\"/user_uploads/49624/9nttOVVhahPdJFzjh7-2_r43/image.png\"></a></div>",
+        "id": 322904432,
+        "sender_full_name": "Colby",
+        "timestamp": 1674419385
+    },
+    {
+        "content": "<p>Ar to granti ir tā ka, ja to neuztur, tad tā kļūst par compacted. Un compacted kļūst pat ground sliktās vietās. Un reāli to maz kur uztur. Bieži redzu gravel saliktu X gadus atpakaļ, kur no gravel nav ne vēsts.</p>",
+        "id": 322905017,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674419788
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/358602-general/topic/surface.3Dgravel/near/322904432\">said</a>:</p>\n<blockquote>\n<p>grants... <br>\n<a href=\"/user_uploads/49624/9nttOVVhahPdJFzjh7-2_r43/image.png\">gravel</a> <br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgravel\">https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgravel</a><br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag:surface%3Dcompacted\">https://wiki.openstreetmap.org/wiki/Tag:surface%3Dcompacted</a></p>\n</blockquote>\n<p>Man trūkst vārdu, lai saprast, par ko ir runa. :)</p>",
+        "id": 322977758,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674467820
+    },
+    {
+        "content": "<p>cik saprotu gravel ir lielas šķembas un compacted ir smalka grants<br>\nproblēma ka grants tulkojas uz gravel lai gan OSM pareizāk būtu compacted</p>",
+        "id": 322993224,
+        "sender_full_name": "Colby",
+        "timestamp": 1674472370
+    },
+    {
+        "content": "<p>Tā nav tikai latviešu valodas problēma, <a href=\"https://wiki.openstreetmap.org/wiki/Tag:surface%3Dgravel\">OSM Wiki</a>:</p>\n<blockquote>\n<p>But \"gravel roads\" term is often used in many countries for something where far smaller pieces of rock are used, some of such roads would qualify for <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asurface%3Dcompacted\">surface=compacted</a>.</p>\n</blockquote>",
+        "id": 322994275,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674472743
+    },
+    {
+        "content": "<p>Labi, ka <a href=\"https://streetcomplete.app/\">SC</a> rāda attēlus, lai būtu vieglāk klasificēt seguma veidus.</p>",
+        "id": 322995731,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674473209
+    },
+    {
+        "content": "<p>Es vismaz lieku tā:<br>\nGrants: <a href=\"https://www.mapillary.com/app/user/hellphoto?pKey=523892129592190&amp;focus=photo\">https://www.mapillary.com/app/user/hellphoto?pKey=523892129592190&amp;focus=photo</a><br>\nCompacted: <a href=\"https://www.mapillary.com/app/user/hellphoto?pKey=1261504014385357&amp;focus=photo\">https://www.mapillary.com/app/user/hellphoto?pKey=1261504014385357&amp;focus=photo</a> (agrāk bija grants un daudzi to joprojām liek tādus, kā grants)</p>",
+        "id": 322997646,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674473784
+    }
+]

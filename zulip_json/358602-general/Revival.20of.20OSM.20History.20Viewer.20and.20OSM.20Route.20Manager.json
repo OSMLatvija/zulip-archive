@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<p><a href=\"https://www.openstreetmap.org/user/Candid%20Dauth/diary/406269\">https://www.openstreetmap.org/user/Candid%20Dauth/diary/406269</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/user/Candid%20Dauth/diary/406269\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/7d6a1308f6e1827745559fd3683632512eff53fe/68747470733a2f2f77696b692e6f70656e7374726565746d61702e6f72672f772f696d616765732f662f66312f466163696c4d61705f4368616e67657365745f3237313239393430332e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/user/Candid%20Dauth/diary/406269\" title=\"Revival of OSM History Viewer and OSM Route Manager\">Revival of OSM History Viewer and OSM Route Manager</a></div><div class=\"message_embed_description\">OSM History Viewer and OSM Route Manager are two ancient tools that help visualising and analysing changesets and route relations. In particular, they provide the following features:\n* Show the geographic and tag changes that a specific changeset has caused\n* Render a route relation (with support for nested relations), detect gaps and inconsistencies, and export the route as GPX\n* Analyze the history of relation members and show who last edited (and is thus to blame for) which section of the ...</div></div></div>",
+        "id": 504169072,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1741375768
+    }
+]

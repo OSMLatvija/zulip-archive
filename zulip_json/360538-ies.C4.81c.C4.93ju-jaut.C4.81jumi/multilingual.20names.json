@@ -1,0 +1,194 @@
+[
+    {
+        "content": "<p>Vai tā ir kļūda, ja <code>name:&lt;lang_code&gt;</code> nav <em>&lt;lang_code&gt;</em> valodā? Piemēram, <a href=\"https://www.openstreetmap.org/node/4608397289\">šeit</a> gan <code>name</code>, gan <code>name:{en,lv,ru}</code> ir viens un tas pats. <a href=\"https://wiki.openstreetmap.org/wiki/Multilingual_names#Repeating_name_with_language_specific_tag\">OSM Wiki saka</a>:</p>\n<blockquote>\n<p>do not tag names that do not exist. An unremarkable village somewhere in Poland might have only one name (recorded in <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aname\">name=*</a>). In all other languages, this village would be called by its Polish name, because it has no other name. Just because all other languages use the Polish name, you should not add <code>name:&lt;lang_code&gt;</code> tags for all other languages containing the Polish name!</p>\n</blockquote>\n<p>Šīs query sameklē potenciāli labojamas vietas ar <code>name:ru</code>, kas sastāv tikai un vienīgi no latiņu burtiem:</p>\n<div class=\"codehilite\" data-code-language=\"overpass\"><pre><span></span><code>[out:json][timeout:25];\n{{geocodeArea:Latvia}}-&gt;.searchArea;\nnwr[\"name:ru\"][\"name:ru\"!~\"[^a-zA-Z]\"](area.searchArea);\nout geom;\n</code></pre></div>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/4608397289\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/4608397289\" title=\"Node: ‪Humana‬ (‪4608397289‬) | OpenStreetMap\">Node: ‪Humana‬ (‪4608397289‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 319364101,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672829864
+    },
+    {
+        "content": "<p>Es nedomāju, ka uzņēmumu nosaukumiem ir kaut kādi tulkojumi, ja nav kaut kur viņu mājas lapā (piem. <a href=\"https://humanalatvia.lv/ru/onas\">https://humanalatvia.lv/ru/onas</a>). Norādīt \"tulkojumu\", kas ir tas pats nosaukums manuprāt ir nevajadzīgi un pašizdomāti.</p>",
+        "id": 319371406,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672832622
+    },
+    {
+        "content": "<p>Identiski var būt (piem., valstij <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aname%3DMalta\">name=Malta</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aname:lv%3DMalta\">name:lv=Malta</a>), bet šie piemēri gan aizvācami.</p>",
+        "id": 319650362,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672944677
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/multilingual.20names/near/319371406\">said</a>:</p>\n<blockquote>\n<p>Es nedomāju, ka uzņēmumu nosaukumiem ir kaut kādi tulkojumi, ja nav kaut kur viņu mājas lapā (piem. <a href=\"https://humanalatvia.lv/ru/onas\">https://humanalatvia.lv/ru/onas</a>). Norādīt \"tulkojumu\", kas ir tas pats nosaukums manuprāt ir nevajadzīgi un pašizdomāti.</p>\n</blockquote>\n<p>Tādi diezgan bieži ir - bet ne vienmēr. Piem., universitātēm Latvijā ir utt.<br>\nRandomā tulkot, ja tāds netiek lietots (kā minēji, mājaslapā), tiešam nevajag.</p>",
+        "id": 319650575,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672944752
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/multilingual.20names/near/319650362\">said</a>:</p>\n<blockquote>\n<p>Identiski var būt (piem., valstij <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aname%3DMalta\">name=Malta</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aname:lv%3DMalta\">name:lv=Malta</a>)</p>\n</blockquote>\n<p>Jautājums nebija par tādiem. \"Malta\" ir latviešu vārds, ko <a href=\"https://tezaurs.lv/Malta\">var atrast vārdnīcā</a>. Jautājums ir drīzāk par to, vai <code>name:lv=McDonald's</code> ir pareizi. \"McDonald's\" nav latviešu vārds. Varbūt pareizāk likt \"<a href=\"https://tezaurs.lv/makdonalds\">makdonalds</a>\" kā <code>name:lv</code>?</p>",
+        "id": 320440697,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673354332
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/multilingual.20names/near/320440697\">said</a>:</p>\n<blockquote>\n<p>Varbūt pareizāk likt \"<a href=\"https://tezaurs.lv/makdonalds\">makdonalds</a>\" kā <code>name:lv</code>?</p>\n</blockquote>\n<p>Sarunvalodas nosaukumus gan man liekas nevajadzētu nekad likt. Protams ir visādi <code>local_name</code>, bet tas jau nav sarunvalodas izdomājumiem visādiem, bet nosaukumiem, kuri lokāli ir plaši zināmi savādāk nekā oficiālie. Citādi, tad jau arī <code>name:ru</code> jāliek \"Макдак\". Jo tad jau sāksies visādi Purčiks, Maskačka, Zoļiks utt. Vienīgais arguments, ka tas ir transliterēts nosaukums, bet tas būtu tā pat kā ar neoficiāliem tulkojumiem - var pielikt pilnīgi visam visās valodās.</p>",
+        "id": 320443244,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673355108
+    },
+    {
+        "content": "<p><a href=\"https://www.openstreetmap.org/way/380059745\">Labāks piemērs</a>, kur <code>name:en=Rīga Stradiņš University</code>. \"Rīga\" nav angliski, jābūt \"Riga Stradiņš University\".<br>\n<a href=\"https://www.openstreetmap.org/node/9885246824\">Vēl viens piemērs</a>, kur <code>name:en=Hiltests Karostas Doktorāts</code> arī nav angliski.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/380059745\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/380059745\" title=\"Way: ‪Rīgas Stradiņa universitāte‬ (‪380059745‬) | OpenStreetMap\">Way: ‪Rīgas Stradiņa universitāte‬ (‪380059745‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/9885246824\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/9885246824\" title=\"Node: ‪Doktorāts‬ (‪9885246824‬) | OpenStreetMap\">Node: ‪Doktorāts‬ (‪9885246824‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 320452415,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673357892
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/multilingual.20names/near/320443244\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/multilingual.20names/near/320440697\">said</a>:</p>\n<blockquote>\n<p>Varbūt pareizāk likt \"<a href=\"https://tezaurs.lv/makdonalds\">makdonalds</a>\" kā <code>name:lv</code>?</p>\n</blockquote>\n<p>Sarunvalodas nosaukumus gan man liekas nevajadzētu nekad likt. Protams ir visādi <code>local_name</code>, bet tas jau nav sarunvalodas izdomājumiem visādiem, bet nosaukumiem, kuri lokāli ir plaši zināmi savādāk nekā oficiālie. Citādi, tad jau arī <code>name:ru</code> jāliek \"Макдак\". Jo tad jau sāksies visādi Purčiks, Maskačka, Zoļiks utt. Vienīgais arguments, ka tas ir transliterēts nosaukums, bet tas būtu tā pat kā ar neoficiāliem tulkojumiem - var pielikt pilnīgi visam visās valodās.</p>\n</blockquote>\n<p>Vai tad slikti, ka lietotājs var uzrakstīt viņam saprotamā valodā:</p>\n<div class=\"codehilite\" data-code-language=\"nominatim\"><pre><span></span><code>макдак париж\n</code></pre></div>\n<p>un atrast <a href=\"https://www.openstreetmap.org/node/281001425\">vēlamo</a>? :D<br>\nJa nosaukums tiek reāli izmantots, man personīgi nav nekādu iebildumu pret <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aloc_name\">loc_name=*</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Areg_name\">reg_name=*</a>.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/281001425\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/281001425\" title=\"Node: ‪McDonald's‬ (‪281001425‬) | OpenStreetMap\">Node: ‪McDonald's‬ (‪281001425‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 320455322,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673358748
+    },
+    {
+        "content": "<p>Ja godīgi, nezinu, ko darīt. Es tik un tā ņemtu no mājas lapas. RSU ir angļu versija - to arī liktu, Hiltests nav - tur neko neliktu. Es nezinu, ko darīt ar visādiem \"pašsaprotamiem\" tulkojumiem/angliskojumiem. Nerunājot jau par slengiem.</p>",
+        "id": 320456549,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673359111
+    },
+    {
+        "content": "<p>RSU nosaukumā ņ un š arī nav angļu valodā. Kāpēc ī ir noņemta diakritiskā zīme? Tāpēc, ka Rīga angliski ir oficiāli Riga? Bet tas jau nenozīmē, ka visi citi īpašvārdi nosaukumi automātiski tā pat dara. Tik pat labi Latvija -&gt; Latvia. Vai tas nozīmē, kā būs nevis Latvijas Gāze bet Latvia Gāze vai Latvia's Gāze? Katram piemēram pretī cits piemērs. Es personīgi neņemtos kaut ko minēt un tulkot.</p>",
+        "id": 320456595,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673359127
+    },
+    {
+        "content": "<p>Un tas макдак jau protams arī ielikts no jauna konta ar 1 editu <span aria-label=\"face with peeking eye\" class=\"emoji emoji-1fae3\" role=\"img\" title=\"face with peeking eye\">:face_with_peeking_eye:</span></p>",
+        "id": 320456675,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673359152
+    },
+    {
+        "content": "<p>Atradu atbildi uz savu jautājumu <a href=\"https://wiki.openstreetmap.org/wiki/Names#When_to_avoid_transliteration\">OSM Wiki</a>:</p>\n<blockquote>\n<p>Situations where transliterations should be avoided include:</p>\n<ul>\n<li>...</li>\n<li>Brand and shop names which do not have a commonly used transliteration.</li>\n</ul>\n</blockquote>",
+        "id": 320474154,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673363685
+    },
+    {
+        "content": "<p>Nu te protams var pastrīdēties, ka Riga ir common transliterācija. Kaut gan viņi paši to nelieto. Ehhh...</p>",
+        "id": 320475344,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673363990
+    },
+    {
+        "content": "<p>RSU nav brends.</p>",
+        "id": 320476071,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673364082
+    },
+    {
+        "content": "<p>Es teiktu, ka ir. Bet, pat ja nav - vai nebūtu pēc tāda paša principa?</p>",
+        "id": 320477965,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673364558
+    },
+    {
+        "content": "<p>Pirmkārt, \"Rīgas Stradiņš University\" nav vienkārši transliterācija, \"universitāte\" tomēr ir iztulkota. Otrkārt, es pieļauju, tas nosaukums ir \"commonly used\" <a href=\"https://pubmed.ncbi.nlm.nih.gov/?term=Stradin%CC%A7s%CC%8C%5BAffiliation%5D&amp;sort=\">publikācijās angļu valodā</a>.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://pubmed.ncbi.nlm.nih.gov/?term=Stradin%CC%A7s%CC%8C%5BAffiliation%5D&amp;sort=\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/0f059929674ea303c705026f0ee824758174b63b\\/68747470733a2f2f63646e2e6e6362692e6e6c6d2e6e69682e676f762f7075626d65642f70657273697374656e742f7075626d65642d6d6574612d696d6167652e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://pubmed.ncbi.nlm.nih.gov/?term=Stradin%CC%A7s%CC%8C%5BAffiliation%5D&amp;sort=\" title=\"Stradiņš[Affiliation] - Search Results - PubMed\">Stradiņš[Affiliation] - Search Results - PubMed</a></div><div class=\"message_embed_description\">Stradiņš[Affiliation] - Search Results - PubMed</div></div></div>",
+        "id": 320480750,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673365371
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/multilingual.20names/near/320474154\">said</a>:</p>\n<blockquote>\n<p>Atradu atbildi uz savu jautājumu <a href=\"https://wiki.openstreetmap.org/wiki/Names#When_to_avoid_transliteration\">OSM Wiki</a>:</p>\n<blockquote>\n<p>Situations where transliterations should be avoided include:</p>\n<ul>\n<li>...</li>\n<li>Brand and shop names which do not have a commonly used transliteration.<br>\n</li>\n</ul>\n</blockquote>\n</blockquote>\n<p>Es kaut kā uz sitiena nevaru izdomāt neviena brenda transliterāciju latviešu valodā. Agrāk, man liekas, bija \"Svedbanka\", bet tagad visi raksta \"Swedbank\".</p>",
+        "id": 320482096,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673365691
+    },
+    {
+        "content": "<p>Nu tas bija hypothetical question. RSU ir oficiāli iztulkots mājas lapā. Par to jau man liekas jautājumu arī nebija? Es to tikai piemēra pēc ņemu visādiem variantiem, ja tāda oficiāla tulkojuma nebūtu un mēs mēģinātu translitarizēt.</p>",
+        "id": 320482219,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673365732
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/multilingual.20names/near/320440697\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/multilingual.20names/near/319650362\">said</a>:</p>\n<blockquote>\n<p>Identiski var būt (piem., valstij <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aname%3DMalta\">name=Malta</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aname:lv%3DMalta\">name:lv=Malta</a>)</p>\n</blockquote>\n<p>Jautājums nebija par tādiem. \"Malta\" ir latviešu vārds, ko <a href=\"https://tezaurs.lv/Malta\">var atrast vārdnīcā</a>. Jautājums ir drīzāk par to, vai <code>name:lv=McDonald's</code> ir pareizi. \"McDonald's\" nav latviešu vārds. Varbūt pareizāk likt \"<a href=\"https://tezaurs.lv/makdonalds\">makdonalds</a>\" kā <code>name:lv</code>?</p>\n</blockquote>\n<p>Šobrīd nešķiet, ka \"makdonalds\" būtu liekams kartes datos.</p>",
+        "id": 320536883,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673381791
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/multilingual.20names/near/320480750\">said</a>:</p>\n<blockquote>\n<p>Pirmkārt, \"Rīgas Stradiņš University\" nav vienkārši transliterācija, \"universitāte\" tomēr ir iztulkota. Otrkārt, es pieļauju, tas nosaukums ir \"commonly used\" <a href=\"https://pubmed.ncbi.nlm.nih.gov/?term=Stradin%CC%A7s%CC%8C%5BAffiliation%5D&amp;sort=\">publikācijās angļu valodā</a>.</p>\n</blockquote>\n<p>Jā, šis ir pietiekami oficiāls nosaukums angliski - tāpat kā tāds ir LU, RTU utt.</p>",
+        "id": 320537000,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673381853
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/multilingual.20names/near/320452415\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://www.openstreetmap.org/way/380059745\">Labāks piemērs</a>, kur <code>name:en=Rīga Stradiņš University</code>. \"Rīga\" nav angliski, jābūt \"Riga Stradiņš University\".<br>\n<a href=\"https://www.openstreetmap.org/node/9885246824\">Vēl viens piemērs</a>, kur <code>name:en=Hiltests Karostas Doktorāts</code> arī nav angliski.</p>\n</blockquote>\n<p>Doktorātam name:en pielikts ar Organic Maps. Tur vai nu aplikācijas kļūda, vai sapīšanās interfeisā - vienkārši jāņem nost.</p>",
+        "id": 320537243,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673381951
+    },
+    {
+        "content": "<p>O, re kur daudz piemēru - <a href=\"https://www.openstreetmap.org/way/37953112\">https://www.openstreetmap.org/way/37953112</a> :D</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/37953112\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/37953112\" title=\"Way: ‪Domina Shopping‬ (‪37953112‬) | OpenStreetMap\">Way: ‪Domina Shopping‬ (‪37953112‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 320880264,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673513115
+    },
+    {
+        "content": "<p>Ko es piedāvātu:</p>\n<ol>\n<li>Ja <code>name</code> ir latviešu valodā vai izmanto latviešu gramatikas/fonētikas noteikumus (piemēram \"Vairāk saules\", \"XS Rotaļlietas\", \"Čili pica\", \"Valters un Rapa\", \"Stenders\", \"Danija\"), tad<ol>\n<li>ir OK papildus pielikt <code>name:lv</code> ar to pašu nosaukumu,</li>\n<li>bet ir kļūdaini likt to pašu nosaukumu kā <code>name:en</code> utt.</li>\n<li><code>name:en</code> un citus var pielikt, ja ir \"plaši izmantojams\" (piemēram mājaslapā) tulkojums/transliterācija.</li>\n</ol>\n</li>\n<li>Ja <code>name</code> ir angļu valodā vai izmanto angļu gramatikas/fonētikas noteikumus (piemēram \"Sports Direct\", \"iRobot\", \"New Yorker\", \"Lloyd\"), tad<ol>\n<li>ir OK papildus pielikt <code>name:en</code> ar to pašu nosaukumu,</li>\n<li>bet ir kļūdaini likt to pašu nosaukumu kā <code>name:lv</code>.</li>\n</ol>\n</li>\n<li>Līdzīgi ar citām valodām, piemēram OK būtu <code>name:lt=Audimas</code>, <code>name:da=JYSK</code></li>\n</ol>",
+        "id": 320885970,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673514448
+    },
+    {
+        "content": "<p>Kopumā izklausās ļoti labi, lai gan es neliktu dublējošus name:xx tagus. Bet par šo tēmu kopienā kopumā viedokļi atšķiras, tā ka formulējums \"ir OK/pieņemami\" man šķiet OK :)</p>",
+        "id": 321047014,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673562762
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/multilingual.20names/near/321047014\">said</a>:</p>\n<blockquote>\n<p>Kopumā izklausās ļoti labi, lai gan es neliktu dublējošus name:xx tagus. Bet par šo tēmu kopienā kopumā viedokļi atšķiras, tā ka formulējums \"ir OK/pieņemami\" man šķiet OK :)</p>\n</blockquote>\n<p>Nu nezinu, <a href=\"https://wiki.openstreetmap.org/wiki/Multilingual_names#Repeating_name_with_language_specific_tag\">OSM Wiki</a> rekomendē atkārtot <code>name</code> ar <code>name:&lt;lang_code&gt;</code> (ja pats <code>name:&lt;lang_code&gt;</code> nav ņemts no debesīm) un paskaidro to visu ar loģisku piemēru.</p>",
+        "id": 321115545,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673602608
+    },
+    {
+        "content": "<p><a href=\"https://www.openstreetmap.org/way/38137783\">https://www.openstreetmap.org/way/38137783</a><br>\n<a href=\"/user_uploads/49624/CVeIDufkWzZucVUyZ9yQQJek/image.png\">ezeri</a> <br>\nUz robežām daudziem ir šādi ar /, ko ar tiem darīt?</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/CVeIDufkWzZucVUyZ9yQQJek/image.png\" title=\"ezeri\"><img src=\"/user_uploads/49624/CVeIDufkWzZucVUyZ9yQQJek/image.png\"></a></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/38137783\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/38137783\" title=\"Way: ‪Garais ezers / Доўгае возера‬ (‪38137783‬) | OpenStreetMap\">Way: ‪Garais ezers / Доўгае возера‬ (‪38137783‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 321118042,
+        "sender_full_name": "Colby",
+        "timestamp": 1673603335
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/multilingual.20names/near/321118042\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://www.openstreetmap.org/way/38137783\">https://www.openstreetmap.org/way/38137783</a><br>\n<a href=\"/user_uploads/49624/CVeIDufkWzZucVUyZ9yQQJek/image.png\">ezeri</a> <br>\nUz robežām daudziem ir šādi ar /, ko ar tiem darīt?</p>\n</blockquote>\n<p>Tur viss ir OK. <a href=\"https://wiki.openstreetmap.org/wiki/Key:name?uselang=en#Multiple_names\">OSM Wiki</a> saka:</p>\n<blockquote>\n<p>Sometimes <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aname\">name=*</a> itself can contain multiple values separated by semicolons:</p>\n<ul>\n<li>In multilingual regions or localities, multiple names in different languages may be relevant enough to include in <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aname\">name=*</a>. A separator other than a semicolon, such as \"/\" or \"-\", may be customary locally. This is not a substitute for language-specific keys, such as <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aname:en\">name:en=*</a> for English.</li>\n<li>Some international boundary features (often bodies of water) have multiple values in <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aname\">name=*</a>, so as not to favor one country's preferred name over another's.</li>\n</ul>\n</blockquote>",
+        "id": 321119476,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673603846
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/multilingual.20names/near/321115545\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/multilingual.20names/near/321047014\">said</a>:</p>\n<blockquote>\n<p>Kopumā izklausās ļoti labi, lai gan es neliktu dublējošus name:xx tagus. Bet par šo tēmu kopienā kopumā viedokļi atšķiras, tā ka formulējums \"ir OK/pieņemami\" man šķiet OK :)</p>\n</blockquote>\n<p>Nu nezinu, <a href=\"https://wiki.openstreetmap.org/wiki/Multilingual_names#Repeating_name_with_language_specific_tag\">OSM Wiki</a> rekomendē atkārtot <code>name</code> ar <code>name:&lt;lang_code&gt;</code> (ja pats <code>name:&lt;lang_code&gt;</code> nav ņemts no debesīm) un paskaidro to visu ar loģisku piemēru.</p>\n</blockquote>\n<p>Y, tur vienas pieejas cilvēki aktīvāki wiki rediģētāji :)</p>",
+        "id": 321140303,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673610333
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/multilingual.20names/near/320885970\">said</a>:</p>\n<blockquote>\n<p>Ko es piedāvātu:</p>\n<ol>\n<li>Ja <code>name</code> ir latviešu valodā vai izmanto latviešu gramatikas/fonētikas noteikumus (piemēram \"Vairāk saules\", \"XS Rotaļlietas\", \"Čili pica\", \"Valters un Rapa\", \"Stenders\", \"Danija\"), tad<ol>\n<li>ir OK papildus pielikt <code>name:lv</code> ar to pašu nosaukumu,</li>\n<li>bet ir kļūdaini likt to pašu nosaukumu kā <code>name:en</code> utt.</li>\n<li><code>name:en</code> un citus var pielikt, ja ir \"plaši izmantojams\" (piemēram mājaslapā) tulkojums/transliterācija.</li>\n</ol>\n</li>\n<li>Ja <code>name</code> ir angļu valodā vai izmanto angļu gramatikas/fonētikas noteikumus (piemēram \"Sports Direct\", \"iRobot\", \"New Yorker\", \"Lloyd\"), tad<ol>\n<li>ir OK papildus pielikt <code>name:en</code> ar to pašu nosaukumu,</li>\n<li>bet ir kļūdaini likt to pašu nosaukumu kā <code>name:lv</code>.</li>\n</ol>\n</li>\n<li>Līdzīgi ar citām valodām, piemēram OK būtu <code>name:lt=Audimas</code>, <code>name:da=JYSK</code></li>\n</ol>\n</blockquote>\n<p>Par brendiem runājot... Pastāv <a href=\"https://github.com/osmlab/name-suggestion-index/wiki\">name-suggestion-index projekts</a>, kam viens no mērķiem ir</p>\n<blockquote>\n<p>We can support localization of the features, (\"Starbucks\", Старбакс\", \"星巴克\"), by showing appropriate labels for features in different parts of the world.</p>\n</blockquote>\n<p>Tāpēc vajag pieteikt viņiem PR, nevis cīnīties par/ar atsevišķiem <code>name:en</code>, <code>name:lv</code> un <code>name:ru</code>.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/osmlab/name-suggestion-index/wiki\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/43c4bdf4a7612335aeae8bdc6981a36df9477a28\\/68747470733a2f2f7265706f7369746f72792d696d616765732e67697468756275736572636f6e74656e742e636f6d2f31333831323333372f30616466353838302d626433302d313165392d393133652d643135623030323734346362)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/osmlab/name-suggestion-index/wiki\" title=\"Home · osmlab/name-suggestion-index Wiki\">Home · osmlab/name-suggestion-index Wiki</a></div><div class=\"message_embed_description\">Canonical common brand names, operators, transit and flags for OpenStreetMap. - Home · osmlab/name-suggestion-index Wiki</div></div></div>",
+        "id": 322077318,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674054951
+    },
+    {
+        "content": "<p>Tas jā, un arī no Wikidata nosaukumi. Bet te laikam galvenā doma par nepopulāriem veikaliem, ielām utt, kuriem nav un diez vai kaut kad būs atsevišķi nosaukumu/brendu tulkojumi. Tā teikt, vispārīgais gadījums.</p>",
+        "id": 322082015,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674056028
+    },
+    {
+        "content": "<p>Es domāju, ka būtu forši Latvijas brendus pievienot, bet to būs jādara manuāli, jo pasaules mērogos tie visi ir \"nepopulāri\". NSI <a href=\"https://github.com/osmlab/name-suggestion-index/wiki/Adding-Wikidata-Tags#add-missing-brands\">automātiski pievieno brendus ar 50+ lietojuma gadījumiem</a>.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/osmlab/name-suggestion-index/wiki/Adding-Wikidata-Tags#add-missing-brands\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/43c4bdf4a7612335aeae8bdc6981a36df9477a28\\/68747470733a2f2f7265706f7369746f72792d696d616765732e67697468756275736572636f6e74656e742e636f6d2f31333831323333372f30616466353838302d626433302d313165392d393133652d643135623030323734346362)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/osmlab/name-suggestion-index/wiki/Adding-Wikidata-Tags#add-missing-brands\" title=\"Adding Wikidata Tags · osmlab/name-suggestion-index Wiki\">Adding Wikidata Tags · osmlab/name-suggestion-index Wiki</a></div><div class=\"message_embed_description\">Canonical common brand names, operators, transit and flags for OpenStreetMap. - Adding Wikidata Tags · osmlab/name-suggestion-index Wiki</div></div></div>",
+        "id": 323074052,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674494032
+    },
+    {
+        "content": "<p>Jā, dažiem jau vajadzētu būt ;)</p>\n<p><a href=\"https://github.com/osmlab/name-suggestion-index/pull/2993\">https://github.com/osmlab/name-suggestion-index/pull/2993</a><br>\n<a href=\"https://github.com/osmlab/name-suggestion-index/pull/4655\">https://github.com/osmlab/name-suggestion-index/pull/4655</a><br>\n<a href=\"https://github.com/osmlab/name-suggestion-index/pull/4844\">https://github.com/osmlab/name-suggestion-index/pull/4844</a><br>\n<a href=\"https://github.com/osmlab/name-suggestion-index/pull/4845\">https://github.com/osmlab/name-suggestion-index/pull/4845</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/osmlab/name-suggestion-index/pull/2993\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/60be137e028e64f836a4d398049df8dfb7b7c795\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f363565353935336431353066626463323834633939666466383061616664353639396234643736376233616138326436393063613465656666303064376435622f6f736d6c61622f6e616d652d73756767657374696f6e2d696e6465782f70756c6c2f32393933)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/osmlab/name-suggestion-index/pull/2993\" title=\"add pub &quot;Ezītis miglā&quot; by richlv · Pull Request #2993 · osmlab/name-suggestion-index\">add pub \"Ezītis miglā\" by richlv · Pull Request #2993 · osmlab/name-suggestion-index</a></div><div class=\"message_embed_description\">\n No description provided. \n</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/osmlab/name-suggestion-index/pull/4655\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/be538d1da3e59edb84d499a93737287fa6184d50\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f316465663437363539363762663433646630323534373964626230363831646666666432306564393964313265646135626364343633353232636138623864302f6f736d6c61622f6e616d652d73756767657374696f6e2d696e6465782f70756c6c2f34363535)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/osmlab/name-suggestion-index/pull/4655\" title=\"Add &quot;Euroaptieka&quot; in Latvia by richlv · Pull Request #4655 · osmlab/name-suggestion-index\">Add \"Euroaptieka\" in Latvia by richlv · Pull Request #4655 · osmlab/name-suggestion-index</a></div><div class=\"message_embed_description\">\n No description provided. \n</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/osmlab/name-suggestion-index/pull/4844\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/4739adf949c8ee19ba0faeb8b106b4bf19096311\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f663737343738626639353966313364613938383630626436623861313736396566366366363737376466656433363264306430336365633763623337303139362f6f736d6c61622f6e616d652d73756767657374696f6e2d696e6465782f70756c6c2f34383434)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/osmlab/name-suggestion-index/pull/4844\" title=\"Add Tamrex in Latvia by richlv · Pull Request #4844 · osmlab/name-suggestion-index\">Add Tamrex in Latvia by richlv · Pull Request #4844 · osmlab/name-suggestion-index</a></div><div class=\"message_embed_description\">\n No description provided. \n</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/osmlab/name-suggestion-index/pull/4845\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1c35a44d6c3cf054ef4376b7b3aa2b70f933040d\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f393731633836383462366433336130633439393564623463393461666237366135336132313938666637303764336562623765313635356138333666616539382f6f736d6c61622f6e616d652d73756767657374696f6e2d696e6465782f70756c6c2f34383435)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/osmlab/name-suggestion-index/pull/4845\" title=\"For Benu, also match &quot;benu aptieka&quot; by richlv · Pull Request #4845 · osmlab/name-suggestion-index\">For Benu, also match \"benu aptieka\" by richlv · Pull Request #4845 · osmlab/name-suggestion-index</a></div><div class=\"message_embed_description\">That's the same in Latvia as \"benu vaistinė\" in Lithuania.</div></div></div>",
+        "id": 323129551,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674512625
+    }
+]

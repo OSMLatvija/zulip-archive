@@ -1,0 +1,302 @@
+[
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"581217\">Liga Rutka</span> <a href=\"#narrow/stream/358602-general/topic/autorties.C4.ABbu.20atsauces/near/378029812\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"573577\">Regita Zeiļa</span> <a href=\"#narrow/stream/358602-general/topic/autorties.C4.ABbu.20atsauces/near/377801021\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/autorties.C4.ABbu.20atsauces/near/377798687\">said</a>:</p>\n<blockquote>\n<p>Opā. <span class=\"user-mention silent\" data-user-id=\"573577\">Regita Zeiļa</span>, vai varam kaut kā pa tiešo nodot info, vai jāraksta oficiālāka vēstule?</p>\n</blockquote>\n<p>Uzreiz nenāk prātā kontakts, bet varu aprunāties ar Rēzeknes Kultūras mantojuma pārvaldi, varbūt var ieteikt labāko ceļu (mūsu OSM pasākumā Rēzeknē arī bija)</p>\n</blockquote>\n<p>Domāju, ka rezultatīvāk ir sazināties ar NKMP pa tiešo, nevis ar reģionālo nodaļu:  <a href=\"https://www.nkmp.gov.lv/lv/struktura\">https://www.nkmp.gov.lv/lv/struktura</a>. Bet neesmu iedziļinājusies Jūsu jautājumā :). Šeit jau, laikam, jautājums abpusējs - vai drīkst izmantot NKMP datus un par autortiesību atsaucēm?</p>\n</blockquote>\n<p>Par autortiesību jautājumu tomēr nedaudz apjuku un tagad nevaru saprast, kur labāk ierakstīt jautājumu šeit, vai \"iesācēju jautājumu\" daļā. Šobrīd jautājums nevis par OSM autortiesību atsauci, kas kartē bija, bet par NKMP datu izmantošanu OSM. <br>\n<span class=\"user-mention\" data-user-id=\"573577\">@Regita Zeiļa</span> pieminētajā  <a href=\"https://karte.mantojums.lv/\">https://karte.mantojums.lv/</a> ,  iezīmējot katru objektu,  redzams links uz <a href=\"http://matojums.lv\">matojums.lv</a> lapu, kur atrodama informācija par objektu. Pirms kāda laika bija doma, ka varētu ēkām pievienot celšanas gadus un kā reiz bija plāns, ka varētu sākt ar <a href=\"http://mantojums.lv\">mantojums.lv</a> pieejamo arhitektūras pieminekļu sarakstu un tur atrodamo info par celšanas gadiem. Kā šeit ar atsaucēm? Kā šo risinat, kā veidojat/neveidojat atsauces? Vai brīvi drīkst ņemt info no NKMP lapām, piemēram no šīs lapas: <a href=\"https://mantojums.lv/cultural-objects\">https://mantojums.lv/cultural-objects</a>?</p>",
+        "id": 378111304,
+        "sender_full_name": "Liga Rutka",
+        "timestamp": 1690200030
+    },
+    {
+        "content": "<p><a href=\"#narrow/stream/358602-general/topic/Kult.C5.ABras.20mantojumi/near/378111304\">A message</a> was moved here from <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/autorties.C4.ABbu.20atsauces\">#general &gt; autortiesību atsauces</a> by <span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span>.</p>",
+        "id": 378116136,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1690200874
+    },
+    {
+        "content": "<p>Pārnesu jaunā tēmā, lai pakomentētu konkrēti par mantojumiem.</p>",
+        "id": 378116217,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690200893
+    },
+    {
+        "content": "<p>Īsumā - nē, neko no NKMP datiem no <a href=\"http://mantojums.lv\">mantojums.lv</a> nevar izmantot. OSM var pievienot tikai tādus datus, kuriem ir atbilstoša licenze. Tā kā autortiesības ir automātiskas un, ja NKMP vai <a href=\"http://mantojums.lv\">mantojums.lv</a> lapā nav speciāli rakstīts, ka dati ir brīvi izmantojami vai vismaz brīvi izmantojami OSM, tad tos nevar tā pat ņemt. (Viņi tur vēl pat ielikuši \"Visas tiesības aizsargātas (c) 2020\") Jābūt licenzei, kas sakrīt ar <a href=\"https://wiki.osmfoundation.org/wiki/Licence/Licence_Compatibility\">https://wiki.osmfoundation.org/wiki/Licence/Licence_Compatibility</a> vai arī kaut kāda formāta atļauja OSM kā <a href=\"https://wiki.osmfoundation.org/wiki/Licence/Waiver_and_Permission_Templates\">https://wiki.osmfoundation.org/wiki/Licence/Waiver_and_Permission_Templates</a>. Piemēram, Atvērtie dati ir (visi?) ar licenzēm, kuras var izmantot - <a href=\"https://data.gov.lv\">https://data.gov.lv</a>.</p>",
+        "id": 378118476,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690201252
+    },
+    {
+        "content": "<p>Ja kāds grib ilgi lasīt likumus, protams var izburties cauri tam visam. Bet īsumā - NKMP uztur un internetā izliek oficiālo datu publisko daļu - bet datu publicēšana pati par sevi nedod atļauju atkalizmantot tos tālāk. Likumi nosaka, kā iestādes publicē informāciju - bet tie nekļūst par atvētiem datiem līdz iestāde tos speciāli nelicenzē tādā veidā. Iestādēm arī var prasīt izsniegt datus uz atkalizmantošanu - bet, pat ja viņiem būs resursi to izdarīt, tas būs uz vienu reizi. Lielākā daļa par to likumā <a href=\"https://likumi.lv/ta/id/50601-informacijas-atklatibas-likums\">https://likumi.lv/ta/id/50601-informacijas-atklatibas-likums</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://likumi.lv/ta/id/50601-informacijas-atklatibas-likums\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/91d1c88287840a065f2a7c4bd960e319f144ed00\\/68747470733a2f2f6c696b756d692e6c762f6c696b756d695f62696c6465732f5049432f4c494b3230302e4a5047)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://likumi.lv/ta/id/50601-informacijas-atklatibas-likums\" title=\"Informācijas atklātības likums\">Informācijas atklātības likums</a></div><div class=\"message_embed_description\">Tiesību akti un to izmaiņas: visi jaunumi un arhīvs. Sistematizēti tiesību akti. Plašas meklēšanas un personalizētās iespējas. Vietni uztur „Latvijas Vēstnesis”</div></div></div>",
+        "id": 378125569,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690202498
+    },
+    {
+        "content": "<p>Jāprasa NKMP, lai vai nu taisa atvērtos datus vai arī izsniedz speciāli neierobežotu licenzi priekš OSM, bet nu tur viņiem nav pienākums neko tādu darīt.</p>",
+        "id": 378125966,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690202580
+    },
+    {
+        "content": "<p>Vēl konkrēti tādām lietām kā kultūras mantojumi - tie visi ir paziņoti oficiālās publikācijas Latvijas Vēstnesī, kas nozīmē, ka tie ir pieejami atkalizmantošanai, ja iestādei aizsūta par tiem pieprasījumu. Iestāde nevar pateikt - ka tie ir viņu dati. Te gan iestāde arī var izdomāt, ka viņiem nav resursu - bet principā viņiem būtu jāsniedz dati. Praksē gan nezinu, kā tur iet. Kāds cits, kas to darījis varbūt var nokomentēt.</p>",
+        "id": 378127046,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690202785
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Kult.C5.ABras.20mantojumi/near/378127046\">said</a>:</p>\n<blockquote>\n<p>Vēl konkrēti tādām lietām kā kultūras mantojumi - tie visi ir paziņoti oficiālās publikācijas Latvijas Vēstnesī, kas nozīmē, ka tie ir pieejami atkalizmantošanai, ja iestādei aizsūta par tiem pieprasījumu. Iestāde nevar pateikt - ka tie ir viņu dati. Te gan iestāde arī var izdomāt, ka viņiem nav resursu - bet principā viņiem būtu jāsniedz dati. Praksē gan nezinu, kā tur iet. Kāds cits, kas to darījis varbūt var nokomentēt.</p>\n</blockquote>\n<p>Varbūt kāds no šeit esošajiem ir kādreiz jau tulkojis OSM atļaujas sagataves formu?</p>",
+        "id": 378184775,
+        "sender_full_name": "Liga Rutka",
+        "timestamp": 1690212502
+    },
+    {
+        "content": "<p>Te vēl piemēri <a href=\"https://wiki.openstreetmap.org/wiki/Import/Getting_permission\">https://wiki.openstreetmap.org/wiki/Import/Getting_permission</a> .</p>",
+        "id": 378187913,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690212998
+    },
+    {
+        "content": "<p>Šāda atbilde no NKMP iekritusi e-pastā no Simonas Čeveres pirms paspēju pajautāt par atsaucēm un sazināties ar viņu pati (to formālo atļauju vēl nebiju rakstījusi):</p>\n<p>Labdien!</p>\n<p>Ļoti novērtējam un priecājamies, ka Jūs interesē kultūras mantojums un Jūs vēlaties to popularizēt <span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span></p>\n<p>Mēs esam plānojuši  datus par valsts aizsargājamiem kultūras pieminekļiem publicēt atvērto datu portālā, bet diemžēl neesam vēl paspējuši sagatavot atbilstošu datu kopu - pēdējos gadus intensīvi notika sistēmas Mantojums izstrāde un ģeodatubāzes pilnveidošana.<br>\nBez tam vēl arvien procesā ir IS Mantojums datu papildināšana un pilnveidošana, kas tieši ietekmē iespēju korekti sagatavot atvērto datu kopu.<br>\nNākotnē plānota arī  NKMP publiskā karšu pārlūka tālāka attīstīšana, <a href=\"http://t.sk\">t.sk</a>., tematiskās kartēšanas ieviešana.</p>\n<p>Nacionālā kultūras mantojuma pārvalde ir datu par valsts aizsargājamiem kultūras pieminekļiem turētājs un tādēļ mums ir ļoti svarīgi, lai informācija par kultūras pieminekļiem, kas tiek publicēta citos resursos, būtu precīza un atbilstoša.<br>\nManuprāt būtisks aspekts attiecībā uz datiem ir tas, ka dati nav statiski - pieminekļa statuss tiek noteikts jauniem objektiem, pieminekļiem tiek veikti grozījumi, bet kādi citi objekti statusu zaudē. Arī ģeotelpiskie dati tiek regulāri pārbaudīti un nepieciešamības gadījumā precizēti.<br>\nVēl viens aspekts - kultūras pieminekļi ir dažādi , daļai nav un nebūs zināmi autori (arheoloģiskie objektiem, tautas celtniecības objektiem utt.), pieminekļu datējuma diapazons ir ļoti plašs, bez tam bieži vien vienam piemineklim ir dažādu periodu datējumi.</p>\n<p>Mēs labprāt dotu iespēju mūsu datus izmantot, bet gribētu arī noslēgt vienošanos, ka OSM tiek nodrošināta  aktuālu un atbilstošu datu attēlošana par kultūras pieminekļiem.<br>\nNo IS Mantojums datus var saņemt ar API, te piemērs datiem  <a href=\"https://api.mantojums.lv/api/CulturalObjects/1\">https://api.mantojums.lv/api/CulturalObjects/1</a><br>\nĢeotelpiskos datus iespējams saņemt WMS vai WFS servisu veidā.</p>",
+        "id": 390738266,
+        "sender_full_name": "Liga Rutka",
+        "timestamp": 1694615829
+    },
+    {
+        "content": "<p>Burvīgi, ka vēlas datus atvērt un priecājas par izmantošanu - arī rūpes par datu svaigumu ir labas.<br>\nVienošanās, protams, nav iespējamas vairāku iemeslu dēļ (ieskaitot to, ka tādas ir pretrunā atvērtu datu principiem).<br>\nMēs gan arī gribētu datus maksimāli atjauninātus, līdz ar to te importa/sinhronizācijas potenciāls, līdzīgi kā Dāvis izveidoja adresēm.<br>\nInteresanti, ka API piemērā ir pareizrakstības kļūda, \"J.Endzelīna\" :)<br>\nJāatzīst, ka karšu pārlūks mūs laikam interesē vismazāk.</p>\n<p>Vai tam API ir kaut kur atrodama dokumentācija?</p>",
+        "id": 390872083,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1694677490
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Kult.C5.ABras.20mantojumi/near/390872083\">said</a>:</p>\n<blockquote>\n<p>Vienošanās, protams, nav iespējamas vairāku iemeslu dēļ (ieskaitot to, ka tādas ir pretrunā atvērtu datu principiem).<br>\nMēs gan arī gribētu datus maksimāli atjauninātus, līdz ar to te importa/sinhronizācijas potenciāls, līdzīgi kā Dāvis izveidoja adresēm.</p>\n<p>Vai tam API ir kaut kur atrodama dokumentācija?</p>\n</blockquote>\n<p>Nu re, man arī jāatbild, bet godīgi sakot no šī visa tik maz saprotu. Labākajā gadījumā varētu uzrakstīt to OSM formālo atļauju - bet tagad sanāk, ka viņu prasības pretrunīgas.<br>\nPar datu sinhronizēšanu (kas nepieciešams no NKMP un pat, ja dati būtu pieejami, vai kāds šeit to var izdarīt?  - piemēram, es noteikti to nevarētu izdarīt :D - tas ir tik tālu no manas specialitātes un saprašanas). </p>\n<p>Par API - vai var pajautāt man saprotamākā formā :)? Dokumentācija domāta...</p>",
+        "id": 390953151,
+        "sender_full_name": "Liga Rutka",
+        "timestamp": 1694703621
+    },
+    {
+        "content": "<p>API tas ir viņu saitā mašīnlasāmi dati, kurus var pieprasīt par konkrētiem objektiem ar to identifikācijas nummuru. Piemēram, tajā saitē ir speciāli formatēti dati objektam #1, lai tos varētu ar kaut kādu programmu apstrādāt. Kas nav precīzi zināms, tas ir ko nozīmē katrs lauks, piemēram - kas tas tāds <code>protectionNumber = 1</code>. Iespējams ir arī citas lapaspuses, kur var dabūt kaut kādu apkopotu sarakstu - piemēram, kā zināt, kādi vispār nummuri pastāv? Dokumentācija to visu aprakstītu - kā piekļūt, kādā formātā, ko katrs ieraksts un lauks nozīmē, utt.</p>",
+        "id": 390964862,
+        "sender_full_name": "HellMap",
+        "timestamp": 1694704917
+    },
+    {
+        "content": "<p>Bet tas viss ir aktuāli tikai, ja pēc atvērto datu izveides, šis API arī tiks uzskatīt par tiem atvērtajiem licenzētajiem datiem. Nevis tā ka izliks citu kopiju atvērto datu portālā citā formātā.</p>",
+        "id": 390965204,
+        "sender_full_name": "HellMap",
+        "timestamp": 1694705007
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"581217\">Liga Rutka</span> <a href=\"#narrow/stream/358602-general/topic/Kult.C5.ABras.20mantojumi/near/390953151\">said</a>:</p>\n<blockquote>\n<p>Par datu sinhronizēšanu (kas nepieciešams no NKMP un pat, ja dati būtu pieejami, vai kāds šeit to var izdarīt?  - piemēram, es noteikti to nevarētu izdarīt :D - tas ir tik tālu no manas specialitātes un saprašanas). </p>\n</blockquote>\n<p><a class=\"stream\" data-stream-id=\"394092\" href=\"/#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1\">#programmēšanas pulciņš</a> stream'am ir diezgan daudz subscribers.</p>",
+        "id": 391110476,
+        "sender_full_name": "i-ky",
+        "timestamp": 1694766518
+    },
+    {
+        "content": "<p>Jā, HellMap jau aprakstīja - un tādam API varētu būt arī kaut kādi citi pieprasījumi tipi (piem., iespēja filtrēt rezultātus), kurus gandrīz neiespējami uzminēt bez dokumentācijas.<br>\nJa API pieejamie dati ir pareizi licencēti, tos jau varētu izmantot importam/sinhronizācijai - kā i-ky minēja, kopienā ir šī virziena eksperti :)</p>",
+        "id": 391125512,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1694771006
+    },
+    {
+        "content": "<p>Paldies - <span class=\"user-mention\" data-user-id=\"571825\">@HellMap</span> , <span class=\"user-mention\" data-user-id=\"568802\">@i-ky</span> un <span class=\"user-mention\" data-user-id=\"568771\">@Rihards Olups</span> - kļuva nedaudz skaidrāk. Mēģināšu kaut ko sadzejot, tad jau redzēs, kāds būs progress :). Ļoti novērtēju Jūsu izveidoto grupu un atbalstu!</p>",
+        "id": 391130067,
+        "sender_full_name": "Liga Rutka",
+        "timestamp": 1694772405
+    },
+    {
+        "content": "<p>Milzīgs Tev paldies par tik burvīgu saziņu ar NKMP.</p>",
+        "id": 391136798,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1694774886
+    },
+    {
+        "content": "<p>Var viņus paaicināt šeit vai vismaz iedot saiti uz <a href=\"https://osmlatvija.github.io/zulip-archive/\">publisko čata arhīvu</a>.</p>",
+        "id": 391138454,
+        "sender_full_name": "i-ky",
+        "timestamp": 1694775506
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Kult.C5.ABras.20mantojumi/near/390872083\">said</a>:</p>\n<blockquote>\n<p>Mēs gan arī gribētu datus maksimāli atjauninātus, līdz ar to te importa/sinhronizācijas potenciāls, līdzīgi kā Dāvis izveidoja adresēm.</p>\n</blockquote>\n<p>Uz adrešu <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bota</a> kodu arī var iedot saiti. Varbūt nav ideāls, ir \"zemūdens\" daļa, ko pārzin tikai <span class=\"user-mention\" data-user-id=\"571929\">@Dāvis Kļaviņš</span>, bet ir plāni to uzlabot (<a class=\"stream-topic\" data-stream-id=\"394092\" href=\"/#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/bota.20infrastrukt.C5.ABra\">#programmēšanas pulciņš &gt; bota infrastruktūra</a>). Turpmākiem sinhronizācijas/automatizācijas projektiem jābūt maksimāli caurredzamiem.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 391154375,
+        "sender_full_name": "i-ky",
+        "timestamp": 1694780282
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Kult.C5.ABras.20mantojumi/near/390965204\">said</a>:</p>\n<blockquote>\n<p>Bet tas viss ir aktuāli tikai, ja pēc atvērto datu izveides, šis API arī tiks uzskatīt par tiem atvērtajiem licenzētajiem datiem. Nevis tā ka izliks citu kopiju atvērto datu portālā citā formātā.</p>\n</blockquote>\n<p>Labs jautājums. Es šogad ziņoju AS \"Pasažieru vilciens\" par to, ka Google Maps \"nezin\" par dažiem vilcieniem viņu sarakstā un par to, ka GFTS validators atrod ļoti daudz kļūdu viņu datos atvērto datu portālā. Pēc kāda laika Google Maps daļa tika salabota, bet atvērto datu portālā joprojām \"Datu izdošanas datums 2021-01-11\". Uz manu jautājumu, kur meklēt aktuālus datus, atbildes nebija.</p>",
+        "id": 391156724,
+        "sender_full_name": "i-ky",
+        "timestamp": 1694780792
+    },
+    {
+        "content": "<p>Priekš OSM piemērotākais būtu WFS, jo nepieciešami ģeotelpiskie dati, ko no API izgūt ir laikietilpīgāk. Attiecīgi jautājums par WFS licenci, jo tā jaunā WFS adrese (<a href=\"https://geoserver.mantojums.lv/geoserver/monument/wfs\">https://geoserver.mantojums.lv/geoserver/monument/wfs</a>) vispār nekur no viņu puses neizskatās publicēta. Attiecīgi viņiem pašiem vispirms tā būtu jādara oficiāli publiski zināma kopā ar licenci. CC 4.0 BY gan jau iedot nebūtu problēmu, bet priekš OSM tad papildus vajadzētu atļauju līdzīgi kā VZD datiem. Sinhronizāciju izveide priekš OSM gan ir ļoti laiktietilpīga.</p>",
+        "id": 391174230,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1694785417
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571929\">Dāvis Kļaviņš</span> <a href=\"#narrow/stream/358602-general/topic/Kult.C5.ABras.20mantojumi/near/391174230\">said</a>:</p>\n<blockquote>\n<p>Priekš OSM piemērotākais būtu WFS, jo nepieciešami ģeotelpiskie dati, ko no API izgūt ir laikietilpīgāk.</p>\n</blockquote>\n<p>Bez API dokumentācijas nevar neko tādu secināt.</p>",
+        "id": 391175618,
+        "sender_full_name": "i-ky",
+        "timestamp": 1694785812
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/Kult.C5.ABras.20mantojumi/near/391156724\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Kult.C5.ABras.20mantojumi/near/390965204\">said</a>:</p>\n<blockquote>\n<p>Bet tas viss ir aktuāli tikai, ja pēc atvērto datu izveides, šis API arī tiks uzskatīt par tiem atvērtajiem licenzētajiem datiem. Nevis tā ka izliks citu kopiju atvērto datu portālā citā formātā.</p>\n</blockquote>\n<p>Labs jautājums. Es šogad ziņoju AS \"Pasažieru vilciens\" par to, ka Google Maps \"nezin\" par dažiem vilcieniem viņu sarakstā un par to, ka GFTS validators atrod ļoti daudz kļūdu viņu datos atvērto datu portālā. Pēc kāda laika Google Maps daļa tika salabota, bet atvērto datu portālā joprojām \"Datu izdošanas datums 2021-01-11\". Uz manu jautājumu, kur meklēt aktuālus datus, atbildes nebija.</p>\n</blockquote>\n<p>Var tādu pieklājīgu jautājumu ielikt OSM diary vai tamlīdzīgā vietā - varbūt publiskots jautājums saņemtu lielāku uzmanību.</p>",
+        "id": 391175927,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1694785911
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/Kult.C5.ABras.20mantojumi/near/391175618\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"571929\">Dāvis Kļaviņš</span> <a href=\"#narrow/stream/358602-general/topic/Kult.C5.ABras.20mantojumi/near/391174230\">said</a>:</p>\n<blockquote>\n<p>Priekš OSM piemērotākais būtu WFS, jo nepieciešami ģeotelpiskie dati, ko no API izgūt ir laikietilpīgāk.</p>\n</blockquote>\n<p>Bez API dokumentācijas nevar neko tādu secināt.</p>\n</blockquote>\n<p>Nu it kā jau API ir kaut kāda ģeometrija arī iekšā. Cik lietojama, nav ne jausmas.</p>",
+        "id": 391176230,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1694786000
+    },
+    {
+        "content": "<p>Lai redzētu, kā API ģeometrija publicēta, dokumentāciju nevajag. Protams, izmantot var, bet no WFS ir krietni vieglāk, jo var paņemt gatavu ģeometriju, kamēr no API ir dotas virsotņu koordinātas, no kurām tā ir jāsaliek kopā. API gan ir vairāk lauku nekā WFS, no kuriem daļu ir jēga iekļaut OSM, ja reiz pat dokumentēti tagi eksistē (piemēram, xxx:inscription_date, skat. <a href=\"https://wiki.openstreetmap.org/wiki/Key:heritage\">https://wiki.openstreetmap.org/wiki/Key:heritage</a>).</p>",
+        "id": 391179758,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1694786932
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Kult.C5.ABras.20mantojumi/near/390964862\">said</a>:</p>\n<blockquote>\n<p>kas tas tāds <code>protectionNumber = 1</code></p>\n</blockquote>\n<p>Pieminekļa ID, OSM atbilst ref:xxx iekš <a href=\"https://wiki.openstreetmap.org/wiki/Key:heritage\">https://wiki.openstreetmap.org/wiki/Key:heritage</a>. <a href=\"https://mantojums.lv/cultural-objects/1\">https://mantojums.lv/cultural-objects/1</a> URL beigās.</p>\n<blockquote>\n<p>kā zināt, kādi vispār nummuri pastāv?</p>\n</blockquote>\n<p>Viens no variantiem izgūt tos, kas ir WFS.<br>\nŠis, protams, nenozīmē, ka API dokumentāciju nevajag. Vajag, un tai ir jābūt publicētai.</p>",
+        "id": 391181808,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1694787478
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571929\">Dāvis Kļaviņš</span> <a href=\"#narrow/stream/358602-general/topic/Kult.C5.ABras.20mantojumi/near/391181808\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Kult.C5.ABras.20mantojumi/near/390964862\">said</a>:</p>\n<blockquote>\n<p>kas tas tāds <code>protectionNumber = 1</code></p>\n</blockquote>\n<p>Pieminekļa ID, OSM atbilst ref:xxx iekš <a href=\"https://wiki.openstreetmap.org/wiki/Key:heritage\">https://wiki.openstreetmap.org/wiki/Key:heritage</a>. <a href=\"https://mantojums.lv/cultural-objects/1\">https://mantojums.lv/cultural-objects/1</a> URL beigās.</p>\n</blockquote>\n<p>Oi, es tak to pilnīgi nejauši paņēmu kā piemēru.</p>",
+        "id": 391234278,
+        "sender_full_name": "HellMap",
+        "timestamp": 1694801483
+    },
+    {
+        "content": "<p><a href=\"http://Mantojums.lv\">Mantojums.lv</a> API dokumentācija gara teksta palaga formā neeksistē, taču ir šis resurss <a href=\"https://api.mantojums.lv/docs/index.html\">https://api.mantojums.lv/docs/index.html</a>, kas spēj sniegt atbildes uz vairumu interesējošo jautājumu.</p>\n<p>Par \"protectionNumber\" - ar šo uzmanīgi, nejaukt ar sistēmas ID! Šis ir kultūras pieminekļa valsts aizsardzības numurs (dažkārt tā arī tiek apzimēts - VAN), objekta numurs valsts kultūras pieminekļu sarakstā. Taču tas nav tas pats, kas objekta sistēmas ID jaunajā sistēmā. Mulsums rodas apstāklī, ka vairumam objektu saraksta apakšgalā šie numuri sakrīt, taču, piemēram, <a href=\"https://api.mantojums.lv/api/CulturalObjects/9250\">https://api.mantojums.lv/api/CulturalObjects/9250</a> var redzēt, ka \"protectionNumber = 9261\".</p>",
+        "id": 391645834,
+        "sender_full_name": "Edgars Šulcs",
+        "timestamp": 1695026614
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"651110\">Edgars Šulcs</span> <a href=\"#narrow/stream/358602-general/topic/Kult.C5.ABras.20mantojumi/near/391645834\">said</a>:</p>\n<blockquote>\n<p>...ir šis resurss <a href=\"https://api.mantojums.lv/docs/index.html\">https://api.mantojums.lv/docs/index.html</a>, kas spēj sniegt atbildes uz vairumu interesējošo jautājumu.</p>\n</blockquote>\n<p>To grūti nosaukt par dokumentāciju, jo nevienai metodei un nevienam input/output laukam nav apraksta.</p>",
+        "id": 391650792,
+        "sender_full_name": "i-ky",
+        "timestamp": 1695028199
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"651110\">@Edgars Šulcs</span>  - sveicināti! Vai pareizi saprotu, ka esat šeit kā NKMP pārstāvis? <br>\nPaldies par pievienošanos :), ceram uz sadarbību!</p>",
+        "id": 391664207,
+        "sender_full_name": "Līga Rutka",
+        "timestamp": 1695031762
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"581217\">@Līga Rutka</span> - jā, esmu no NKMP puses, taču manā atbildībā ir tikai tehniskā puse. Varu mēģināt atbildēt uz jautājumiem un pastāstīt, kā lietas notiek \"lācītim vēderā\", varam mēģināt pa visiem kopā saprast, kāds būtu jēdzīgākais tehniskais risinājums, lai dabūtu dziesmā to, ko gribētos, taču par juridisko pusi tāpat jārunā un jāskaņo ar kolēģi Simonu, viņa ir datu turētājs, es tikai tehniskais čalis.</p>\n<p>Te augstāk pavīdēja jautājums, vai iespējams dabūt visus pieminekļu numurus. Sāku skatīties API un secināju, ka ne vella, tikai pa porcijām, pa vienai lapai ar 3 ierakstiem. It kā nav liela bēda, var jau savākt tāpat arī šādi, taču ērtāk būtu vienā pieprasījumā. Šodien saņēmu atbildi no sistēmas izstrādātājiem, ka tā tik tiešām ir, neko neesmu sajaucis, vienā pieprasījumā izdabūt nevar. Pats veikt labojumus sistēmā diemžēl nevaru, varu vien piešķilt kaut kādu mikroservisu, kas izsniedz vajadzīgos datus vajadzīgajā formātā, izzvejojot tos pa taisno no datubāzes (nav īsti pareizi, bet konceptuāli varam runāt arī par šādiem variantiem - protams, saskaņojot ar Simonu).</p>",
+        "id": 391905925,
+        "sender_full_name": "Edgars Šulcs",
+        "timestamp": 1695128025
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"651110\">Edgars Šulcs</span> <a href=\"#narrow/stream/358602-general/topic/Kult.C5.ABras.20mantojumi/near/391905925\">said</a>:</p>\n<blockquote>\n<p>Sāku skatīties API un secināju, ka ne vella, tikai pa porcijām, pa vienai lapai ar 3 ierakstiem.</p>\n</blockquote>\n<p>Ne 3, bet 30. Vismaz <a href=\"https://api.mantojums.lv/api/CulturalObjects?group=All&amp;ShouldPage=false&amp;ShouldSort=false&amp;ShouldLimit=false\">https://api.mantojums.lv/api/CulturalObjects?group=All&amp;ShouldPage=false&amp;ShouldSort=false&amp;ShouldLimit=false</a> atgriež 30 ierakstus. <code>ShouldPage</code> un <code>ShouldLimit</code>, acīmredzami, nav nekādas jēgas.</p>",
+        "id": 391908110,
+        "sender_full_name": "i-ky",
+        "timestamp": 1695128715
+    },
+    {
+        "content": "<p>Tfpu, jā, 30, ne 3, kļūdījos, vienlaikus runājot pa telefonu.<br>\nBet, jā, tie ShouldLimit un ShouldPage neko nedod, es arī vakar pabakstījos, cerībā, ka ar ShouldPage/ShouldLimit=False varētu dabūt visu sarakstu, bet nekā.</p>",
+        "id": 391908896,
+        "sender_full_name": "Edgars Šulcs",
+        "timestamp": 1695128959
+    },
+    {
+        "content": "<p>Tā kā <code>\"total\": 7317,</code> pēc pirmā vaicājuma ir zināms, tad teorētiski jau savākt visas lapaspuses pa 30 nav daudz savādāk, kā citiem API ar ierakstu pieprasījuma skaita limitiem, ja šitam API nav pieprasījumu limitu. Gribētos protams vairāk, jo vienkārši būs ļoti lēni 250 lapas vākt. (Vienīgais, kas var notikt ir, ka dati var izmainīties kamēr taisa pieprasījumus, jo te nav kaut kāda \"query continue\" principa. Varbūtība protams minimāla - cik tad bieži tur mainās kaut kas tāds, kas var praktiski kaut ko nojaukt.)</p>",
+        "id": 391912038,
+        "sender_full_name": "HellMap",
+        "timestamp": 1695129869
+    },
+    {
+        "content": "<p>Es gan atkārtošu augstākminēto par vajadzību zināt, vai nākotnē būs \"atvērtie dati == API piekļuve?\" pirms kāds ar API sāk aizrauties.</p>",
+        "id": 391912516,
+        "sender_full_name": "HellMap",
+        "timestamp": 1695130016
+    },
+    {
+        "content": "<p>No mūsu puses - jā, tāda ir doma, ka nopublicēts tiek API, nevis kaut kāda mistiska xls/csv kopija reizi mēnesī. Mēs esam par to, lai no mums datus ņem iespējami svaigākos. Bet, godīgi sakot, neesmu iedziļinājies, kā praktiski notiek atvērto datu publicēšana un vai tas iet cauri, ka vienkārši iemetam saiti uz savu API, nevis šķiļam klāt kaut kādu jaunu, tikai tam paredzētu servisu. Lai nu kā - exceļu un jebkādu citu statisku datu publicēšana, manuprāt, ir noiets etaps, un no tā vajag iespēju robežās kratīties vaļā.</p>",
+        "id": 391916964,
+        "sender_full_name": "Edgars Šulcs",
+        "timestamp": 1695131383
+    },
+    {
+        "content": "<p>Liels paldies par info - kā ar šo API un tā dokumentāciju, kad varētu būt kādi jaunumi?</p>",
+        "id": 396683039,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1697323970
+    },
+    {
+        "content": "<p>Beidzot uzģenerēju salīdzinājumu ar OSM -- <a href=\"https://osmlatvija.github.io/Osmalyzer/Cultural%20Monuments%20report.html\">https://osmlatvija.github.io/Osmalyzer/Cultural%20Monuments%20report.html</a></p>\n<p><a href=\"/user_uploads/49624/nNh3UkwUpONUvl-qlFjDYVUr/cultmon.png\">cultmon.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/nNh3UkwUpONUvl-qlFjDYVUr/cultmon.png\" title=\"cultmon.png\"><img src=\"/user_uploads/49624/nNh3UkwUpONUvl-qlFjDYVUr/cultmon.png\"></a></div><p>Ļoti grūti pateikt, cik objektu reāli ir sakartēti, jo reāli tas objekts var būt jebkas un kārtīgi atpazīt var tikai ar <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aheritage%3D2\">heritage=2</a>,<br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aheritage%3Aoperator%3Dvkpai\">heritage:operator=vkpai</a>, <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aref%3ALV%3Avkpai%3D123\">ref:LV:vkpai=123</a> vai, ja paveicās, name. Bet tādu uz pirkstiem saskaitāmi. Bez tegiem protams daudz kas ir - ēkas, baznīcas utt. Importēt baidos pat teorētiski neko nesanāks sākotnēji, jo automātiski nepateikt, kam tas heritage jāliek. Tur pat pašam skatoties grūti pateikt, ko darīt.</p>",
+        "id": 404729894,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701210222
+    },
+    {
+        "content": "<p>Par API runājot. Tā kā sarakstu var dabūt tikai 30 pa reizi un no 7000+ elementiem tās ir 230+ lapas, tad es to nemaz nemēģināju. Dabūt kaut kā pēdējo datumu un izmaiņas neatradu. Un arī, ja darītu, tur tik un tā nav koordinātes, kas ir jāņem katru lapu pa vienai - tātad 7000 reižu. Varbūt es kaut ko neatradu, bet bez dokumentācijas un piemēriem grūti uzminēt.</p>\n<p>Par \"laimi\", tajā pašā <a href=\"https://karte.mantojums.lv\">https://karte.mantojums.lv</a> kartē savu API nelieto un ir (iepriekš) ģenerēti datu faili, kurus es arī varu novilkt un izparsēt ģeo informāciju.</p>",
+        "id": 404730007,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701210281
+    },
+    {
+        "content": "<p><a href=\"https://w.wiki/8K2c\">https://w.wiki/8K2c</a><br>\nWikidatu varbūt var izmantot</p>",
+        "id": 404802170,
+        "sender_full_name": "Colby",
+        "timestamp": 1701242823
+    },
+    {
+        "content": "<p>Jā, par to var padomāt. Lieta gan tāda, ka tas īpaši daudz nemaina, jo <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Awikidata\">wikidata=*</a> s jau nav saliktas gandrīz nevienam OSM elementam; bet lietot WD kā sarakstu problemātiski, jo dati nav aktuāli vai automātizēti - kādam tie jāuztur - un stabilu OSM elementu ID salikti ir ļoti reti kad. Bet nu VKPAI pašu karte arī nav aktuāla - drošvien ģenerē ik pa laiku. (Tāpēc jau bija liels prieks, ka iespējams API.)</p>",
+        "id": 404822410,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701250479
+    },
+    {
+        "content": "<p>Stāsts par māju-pieminekli ortobildēs <a href=\"https://mantojums.lv/cultural-objects/5689\">#5869</a> <br>\n<a href=\"/user_uploads/49624/3mkvuntuPpN4AXT4RyawivR8/cm1.png\">cm1.png</a><br>\n<a href=\"/user_uploads/49624/-bZoZcxHdk9uD7c6eMQU9nC4/cm2.png\">cm2.png</a><br>\n<a href=\"/user_uploads/49624/pvk4fbrwoedn6GM8Nxc1A02p/cm3.png\">cm3.png</a><br>\n<a href=\"/user_uploads/49624/_M3y8VmfDJ35NCOsvyysImIf/cm4.png\">cm4.png</a><br>\n<a href=\"/user_uploads/49624/oUdX6rb3SHnq91OxW-gqyw2c/cm5.png\">cm5.png</a><br>\nTagad pieminekļa lapā garš dokumentu saraksts beigās ar administratīvo lietu utt. <span aria-label=\"smiling face with tear\" class=\"emoji emoji-1f972\" role=\"img\" title=\"smiling face with tear\">:smiling_face_with_tear:</span> <br>\nDrošvien jau nav nekāds retais brīnums, bet neesmu personīgi \"sastapies\" agrāk</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/3mkvuntuPpN4AXT4RyawivR8/cm1.png\" title=\"cm1.png\"><img src=\"/user_uploads/49624/3mkvuntuPpN4AXT4RyawivR8/cm1.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/-bZoZcxHdk9uD7c6eMQU9nC4/cm2.png\" title=\"cm2.png\"><img src=\"/user_uploads/49624/-bZoZcxHdk9uD7c6eMQU9nC4/cm2.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/pvk4fbrwoedn6GM8Nxc1A02p/cm3.png\" title=\"cm3.png\"><img src=\"/user_uploads/49624/pvk4fbrwoedn6GM8Nxc1A02p/cm3.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/_M3y8VmfDJ35NCOsvyysImIf/cm4.png\" title=\"cm4.png\"><img src=\"/user_uploads/49624/_M3y8VmfDJ35NCOsvyysImIf/cm4.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/oUdX6rb3SHnq91OxW-gqyw2c/cm5.png\" title=\"cm5.png\"><img src=\"/user_uploads/49624/oUdX6rb3SHnq91OxW-gqyw2c/cm5.png\"></a></div>",
+        "id": 405894547,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701716762
+    },
+    {
+        "content": "<p>Oho. Kur ta šis?</p>",
+        "id": 405904780,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1701720961
+    },
+    {
+        "content": "<p>Ā, atradu linku. Smieklīgi, ka pirmais minējums bija Jūrmala :D</p>",
+        "id": 405904870,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1701720985
+    },
+    {
+        "content": "<p>Interesants piemērs, ka RĪGA robežzīmes ir tikai viens kultūras pieminekļa ieraksts, kas sastāv no objektiem, kas ir diezgan tālu viens no otra <a href=\"https://mantojums.lv/cultural-objects/9013\">https://mantojums.lv/cultural-objects/9013</a> <a href=\"https://www.openstreetmap.org/relation/16786891\">https://www.openstreetmap.org/relation/16786891</a> Un es nemaz nezināju, ka tie iekļauti sarakstā.<br>\n<a href=\"/user_uploads/49624/4umXyq7Y3rIqk4_67jzhbHcH/riga-border-sign-cult-mon.png\">riga-border-sign-cult-mon.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/4umXyq7Y3rIqk4_67jzhbHcH/riga-border-sign-cult-mon.png\" title=\"riga-border-sign-cult-mon.png\"><img src=\"/user_uploads/49624/4umXyq7Y3rIqk4_67jzhbHcH/riga-border-sign-cult-mon.png\"></a></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/relation/16786891\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/relation/16786891\" title=\"Relation: ‪Dizaina objekti robežzīmes RĪGA‬ (‪16786891‬) | OpenStreetMap\">Relation: ‪Dizaina objekti robežzīmes RĪGA‬ (‪16786891‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 406024028,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701771775
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Kult.C5.ABras.20mantojumi/near/405894547\">said</a>:</p>\n<blockquote>\n<p><a href=\"/user_uploads/49624/oUdX6rb3SHnq91OxW-gqyw2c/cm5.png\">cm5.png</a></p>\n</blockquote>\n<p>No kurienes ortobilde ar tenisa kortu?</p>",
+        "id": 406060056,
+        "sender_full_name": "Līga Rutka",
+        "timestamp": 1701784061
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"581217\">Līga Rutka</span> <a href=\"#narrow/stream/358602-general/topic/Kult.C5.ABras.20mantojumi/near/406060056\">said</a>:</p>\n<blockquote>\n<p>No kurienes ortobilde ar tenisa kortu?</p>\n</blockquote>\n<p>Visas ortobildes no vienas vietas, tikai cita gada. Tajā piemenkļa linkā ir karte, tas ir te <a href=\"https://www.openstreetmap.org/node/9883629655\">https://www.openstreetmap.org/node/9883629655</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/9883629655\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/9883629655\" title=\"Node: 9883629655 | OpenStreetMap\">Node: 9883629655 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 406060885,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701784348
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Kult.C5.ABras.20mantojumi/near/406060885\">said</a>:</p>\n<blockquote>\n<p>Visas ortobildes no vienas vietas, tikai cita gada. Tajā piemenkļa linkā ir karte, tas ir te <a href=\"https://www.openstreetmap.org/node/9883629655\">https://www.openstreetmap.org/node/9883629655</a></p>\n</blockquote>\n<p>Jā, vietu atradu :), bet 5. bildē ir tenisa korts, bet nevienā ortophoto korta nav.</p>",
+        "id": 406078037,
+        "sender_full_name": "Līga Rutka",
+        "timestamp": 1701788885
+    },
+    {
+        "content": "<p>Tas ir ESRI, drusku jaunāks par LVMGEO</p>",
+        "id": 406078553,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701788992
+    }
+]

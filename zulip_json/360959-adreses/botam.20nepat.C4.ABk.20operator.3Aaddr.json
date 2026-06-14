@@ -1,0 +1,74 @@
+[
+    {
+        "content": "<p>Te piemērs, kur <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aoperator%3Aaddr%3Acountry\">operator:addr:country=*</a> noņēmās <a href=\"https://www.openstreetmap.org/way/38146830/history\">https://www.openstreetmap.org/way/38146830/history</a> Tas arī ārpus Latvijas teritorijas, tā kā laikam vajadzēja būt izfiltrētam (<a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/name.20un.20name.3Alv\">#general &gt; name un name:lv</a> minētais ārpus robežas)</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/38146830/history\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/38146830/history\" title=\"Way History: ‪Ventspils - Nynäshamn‬ (‪38146830‬) | OpenStreetMap\">Way History: ‪Ventspils - Nynäshamn‬ (‪38146830‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 419036325,
+        "sender_full_name": "HellMap",
+        "timestamp": 1706706751
+    },
+    {
+        "content": "<p>Tas ir adrešu taga dēļ. Tas lietojums vispār ir normāls?</p>",
+        "id": 419037768,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1706707262
+    },
+    {
+        "content": "<p>Es būtu domājis, ka tas būtu operator:country, bet tāds nav lietots nekur. operator:addr:country lietots kādu 150 reižu, pārsvarā kaut kādiem maršrutiem, bet ir arī atsevišķi elementi. Nezinu, vai tas pareizi, bet b0tam tik un tā drošvien nevajadzēja to ņemt nost, jo tā jau nav adrese.</p>",
+        "id": 419039168,
+        "sender_full_name": "HellMap",
+        "timestamp": 1706707693
+    },
+    {
+        "content": "<p>Tāpēc jau ņem nost, ka nav adrese, lai nebūtu kaut kādas nejaušas interpretācijas ar addr tagiem. Šo manīju changeset bbox dēļ, bet atzinu noņemšanu par labu esam, jo tas lietojums, iepinot addr vērtību tagā, neliekas pieņemams.</p>",
+        "id": 419043297,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1706709027
+    },
+    {
+        "content": "<p>Bet ja tā nav adrese, tad tas nav b0ta kompetencē to aiztikt. Tas, ka tur ir burtisks teksts \"addr:\" to nepadara par adresi vai ne-adresi. B0ts nevar zināt, ko lietotājs tur domājis un nodzēst datus nešķiet pareizi. Ja tas ir jālabo par kaut ko citu, tad tas arī ir jālabo manuāli.</p>",
+        "id": 419046070,
+        "sender_full_name": "HellMap",
+        "timestamp": 1706709778
+    },
+    {
+        "content": "<p>Nuuu - šāda pieeja, notīrīt visus addr tagus, kas nav izmantoti adresēm, ir jau no paša sākuma un nevienam par to nav bijuši iebildumi. Addr tagi jau ir domāto adresēm, līdz ar to tas ir <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bota</a> kompetencē. Konkrētais gadījums man izskatās pēc namespace piesārņošanas.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 419046967,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1706710018
+    },
+    {
+        "content": "<p>Es jau nebiju domājis, ka b0tam OSM var nebūt whitelist saraksts ar tegiem, jo lietotāji var brīvi izdomāt un pievienot jekādus tegus un to nevar automātiski dzēst. Varbūt mums vienkārši tādu piemēru agrāk nebija vai arī neviens nepārbaudīja sākumā. Ja es pielikšu kaut kādu \"<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Anot%3Aaddr%3Acity%3DValmiera\">not:addr:city=Valmiera</a>\", tad tu vari man rakstīt komentāru, kāpēc tas vajadzīgs. Bet tu nevari to automatizēti bez pārbaudes dzēst. Piemēram, memorial:addr:city 2000 reižu lietots <a href=\"https://taginfo.openstreetmap.org/keys/memorial%3Aaddr%3Acity#overview\">https://taginfo.openstreetmap.org/keys/memorial%3Aaddr%3Acity#overview</a> Visādi historic:addr:street, source:addr:street, was:addr:street, proposed:addr:city, note:addr:city, utt lietoti. Pareizi vai nepareizi, vēlami vai nevēlami, bet tas ir manuāli izskatāms.</p>",
+        "id": 419051300,
+        "sender_full_name": "HellMap",
+        "timestamp": 1706711185
+    },
+    {
+        "content": "<p>Ja grib datus uzturēt tīrus, nevis akumulēt drazu, tad bez strikta whitelist neiztikt. Ja tags ir korekts un nodzēsts (jo tagi var nāk klāt), tad nav problēmu ielikt <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bota</a> whitelistā, bet šajā gadījumā, <a href=\"https://taghistory.raifer.tech/#***/operator%3Aaddr%3Acountry/\">redzot</a> pīķi pagājušā gada oktobrī un esamību jūnijā sāktajā <a href=\"https://taginfo.openstreetmap.org/keys/operator%3Aaddr%3Acountry#projects\">OpenNWB projektā</a>, būtu jāsazinās ar autoru un jāskaidro, ka šādi tagot (izmantojot addr daļu tagā) šajā gadījumā ir slikta prakse. Teorētiski dzēstos addr tagus, kas nav starp tiem, ko pieliek <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bots</a> vai ir tā whitelist, var mēģināt pielikt, lai ieliek Zulip.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 419091740,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1706722767
+    },
+    {
+        "content": "<p>Hmm, <a href=\"https://wiki.openstreetmap.org/wiki/Key:operator\">wiki</a> <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aoperator%3Aaddr%3Acountry\">operator:addr:country=*</a> kopā ar vēl citiem ir kā \"postal address to contact the operator\". Nāksies tad vien pievienot operator:addr* whitelist. Būtu tiem pāris objektiem aizpildītas arī citas sadaļas, būtu vieglāk bijis domu šim saprast.</p>",
+        "id": 419103563,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1706726896
+    },
+    {
+        "content": "<p>Kodā <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot/commit/e2a691196343f38c70ad641b27f214bb0f42aa5f\">izlaboju</a>, OSM datos <a href=\"https://www.openstreetmap.org/changeset/146917553\">atgriezu manuāli</a>.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot/commit/e2a691196343f38c70ad641b27f214bb0f42aa5f\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/f1822bb28bd40a7203e152f3e9e68d45075166f2\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f653462393366613661366637373166346262346335353032373131616663643839366232356565623663626265303265323533373436313233653439366234392f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f742f636f6d6d69742f65326136393131393633343366333863373061643634316232376632313462623066343261613566)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot/commit/e2a691196343f38c70ad641b27f214bb0f42aa5f\" title=\"Update addresses.sql · Davis-Klavins/osm-latvia-bot@e2a6911\">Update addresses.sql · Davis-Klavins/osm-latvia-bot@e2a6911</a></div><div class=\"message_embed_description\">Whitelisted (exempted from processing) operator:addr* tags, see discussion at https://osmlatvija.github.io/zulip-archive/stream/360959-adreses/topic/botam.20nepat.C4.ABk.20operator.3Aaddr.html.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/changeset/146917553\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/changeset/146917553\" title=\"Changeset: 146917553 | OpenStreetMap\">Changeset: 146917553 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 419106564,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1706727997
+    },
+    {
+        "content": "<p>Kopumā gan labāk šķiet šādu info atstāt wikidatiem, OSM ieliekot tikai wikidatu tagu, kas šiem objektiem jau ir pielikts, bet tas jau ārpus LV kopienas būtu diskutējams.</p>",
+        "id": 419107479,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1706728344
+    },
+    {
+        "content": "<p>Es arī teiktu, ka to visu Wikidatos jāliek, jo nevar katram objektam likt bezgalīgus tegus. Bet nu, ja ir, tad ir pagaidām...</p>",
+        "id": 419107625,
+        "sender_full_name": "HellMap",
+        "timestamp": 1706728400
+    }
+]

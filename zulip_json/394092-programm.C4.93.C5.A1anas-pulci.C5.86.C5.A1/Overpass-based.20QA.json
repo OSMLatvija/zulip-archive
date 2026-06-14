@@ -1,0 +1,98 @@
+[
+    {
+        "content": "<p>Ideja jau noskanēja <a href=\"#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed/near/370028575\">šeit</a>, bet tagad aprakstīšu sīkāk.</p>\n<p>Doma ir tāda, ka daudzas problēmas var diezgan vienkārši atlasīt ar Overpass palīdzību, nevajag pārāk iedziļināties OSM PBF datu formātā utt. Mums šeit Zulip'ā jau sakrājas vairāki vaicājumi, ar kuriem varētu sākt.</p>\n<p>Tātad katram problēmu tipam būs Overpass vaicājums, kas atrod problemātiskās vietas. Ar to no Overpass API var dabūt JSON vai CSV (tam pat nevajag nekādu kodu rakstīt, pietiek ar curl uztaisīt POST). Tālāk to <a href=\"https://jekyllrb.com/docs/datafiles/\">JSON/CSV iebaro Jekyll template'ā</a> (kas pa lielam ir HTML), kas uztaisa smuku sarakstu ar saitēm uz problemātiskiem <img alt=\":node:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40175.png\" title=\"node\">/<img alt=\":way:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40176.png\" title=\"way\">/<img alt=\":area:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40177.png\" title=\"area\">/<img alt=\":relation:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40178.png\" title=\"relation\"> un apraksta, kā konkrēto problēmu labot. Rezultātā būs web vietne, kuru mēs hostojam uz GitHub Pages un atjaunojam ar GitHub Actions.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://jekyllrb.com/docs/datafiles/\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/c4d58415efe3ac94379f57450b3c2728e9ecb629\\/68747470733a2f2f6a656b796c6c72622e636f6d2f696d672f6a656b796c6c2d6f672e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://jekyllrb.com/docs/datafiles/\" title=\"Data Files\">Data Files</a></div><div class=\"message_embed_description\">In addition to the built-in variables available from Jekyll, you can specify your own custom data that can be accessed via the Liquid templating system.</div></div></div>",
+        "id": 370717743,
+        "sender_full_name": "i-ky",
+        "timestamp": 1688034092
+    },
+    {
+        "content": "<p>Izklausās burvīgi. Kā varētu atzīmēt izņēmumus, kad ir false positive?<br>\nDrošvien arī nav vērts reimplementēt to, kas jau ir citur - piemēram, Keepright.</p>\n<p><a href=\"https://www.keepright.at/report_map.php?zoom=14&amp;lat=48.20808&amp;lon=16.37221\">https://www.keepright.at/report_map.php?zoom=14&amp;lat=48.20808&amp;lon=16.37221</a><br>\n<a href=\"/user_uploads/49624/fkiMOzgW4YllZxfkLnVviMpR/image.png\">Keepright pie Rīgas</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/fkiMOzgW4YllZxfkLnVviMpR/image.png\" title=\"Keepright pie Rīgas\"><img src=\"/user_uploads/49624/fkiMOzgW4YllZxfkLnVviMpR/image.png\"></a></div>",
+        "id": 370719495,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1688034357
+    },
+    {
+        "content": "<p>Jā, mans jautājums arī būtu par redundant un papildus geoscoped - vai tas ir tam, kas nav pievienojams citiem QA tooliem? Grūti iedomāties, ka ar Overpass var daudz uzrakstīt, ko citi QA nav uztaisījuši. Un vai tas ir limitēts konkrēti Latvijas teritorijai un kāpēc ne visai pasaulei tad? Vai te ir konkrēti Latvijas specifika?</p>",
+        "id": 370720475,
+        "sender_full_name": "HellMap",
+        "timestamp": 1688034491
+    },
+    {
+        "content": "<p>No routēšanas viedokļa var labot / nepārklāties ar BRouter, piem.: <a href=\"https://brouter.de/brouter/suspects/Latvia/all\">https://brouter.de/brouter/suspects/Latvia/all</a> .</p>",
+        "id": 370720575,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1688034510
+    },
+    {
+        "content": "<p>Vēl piebildīšu, ka lielākā problēma ar QA tooliem it tas, ka tie nevar bez cilvēka iejaukšanās saprast vai tur ir kļūda vai nē. Un tāpēc rediģēt vietas, kur tu nekad neesi bijis būtu problemātiski. Piemēram, OSMI <a href=\"https://tools.geofabrik.de/osmi\">https://tools.geofabrik.de/osmi</a> taisa karti un tu vari savu rajonu paņemt, lai varētu gan no survey gan Mapillary. Vai ir plāns tad karti taisīt? Bet tad ir daudz papildjautājumu - via es varu nospiest uz katru ikonu un tur ir pogas uz visu ko kā piemēram OSMI?</p>",
+        "id": 370721675,
+        "sender_full_name": "HellMap",
+        "timestamp": 1688034689
+    },
+    {
+        "content": "<p>Un līdzīgs Keepright - Osmose:<br>\n<a href=\"https://osmose.openstreetmap.fr/en/map/#zoom=13&amp;lat=56.99358&amp;lon=24.2469\">https://osmose.openstreetmap.fr/en/map/#zoom=13&amp;lat=56.99358&amp;lon=24.2469</a><br>\n<a href=\"/user_uploads/49624/SjMb66_euLxgoBk8G-vbibos/image.png\">Osmose pie Rīgas</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/SjMb66_euLxgoBk8G-vbibos/image.png\" title=\"Osmose pie Rīgas\"><img src=\"/user_uploads/49624/SjMb66_euLxgoBk8G-vbibos/image.png\"></a></div>",
+        "id": 370721716,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1688034694
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Overpass-based.20QA/near/370719495\">said</a>:</p>\n<blockquote>\n<p>Kā varētu atzīmēt izņēmumus, kad ir false positive?</p>\n</blockquote>\n<p>Es šo rosinātu apspriest tad, kad būs false positive. :D<br>\nKas ienāk prātā tagad:</p>\n<ol>\n<li>Var likt tagu <code>LV:QA:ignore=yes</code> vai tml. un attiecīgi pielāgot Overpass vaicājumu, lai tādus rezultātus filtrē ārā.</li>\n<li>Var glabāt JSON/CSV ar false positive sarakstu GitHub'ā un kaut kā diff'ot Overpasss API rezultātus ar known issues pirms barot Jekyll'am.</li>\n</ol>",
+        "id": 370738153,
+        "sender_full_name": "i-ky",
+        "timestamp": 1688037404
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Overpass-based.20QA/near/370719495\">said</a>:</p>\n<blockquote>\n<p>Drošvien arī nav vērts reimplementēt to, kas jau ir citur - piemēram, Keepright.</p>\n</blockquote>\n<p>Tam noteikti būs zemāka prioritāte, bet varbūt tomēr ir vērts reimplementēt, ja nav pārāk sarežģīti. Vienkārši lai zināt, cik labi/slikti ar tiem problēmu veidiem ir Latvijā.</p>",
+        "id": 370739062,
+        "sender_full_name": "i-ky",
+        "timestamp": 1688037559
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Overpass-based.20QA/near/370720475\">said</a>:</p>\n<blockquote>\n<p>Jā, mans jautājums arī būtu par redundant un papildus geoscoped - vai tas ir tam, kas nav pievienojams citiem QA tooliem? Grūti iedomāties, ka ar Overpass var daudz uzrakstīt, ko citi QA nav uztaisījuši. Un vai tas ir limitēts konkrēti Latvijas teritorijai un kāpēc ne visai pasaulei tad? Vai te ir konkrēti Latvijas specifika?</p>\n</blockquote>\n<p>Man liekas, ka vieglāk būtu sākt ar Latviju, jo rakstīt vaicājumus ņemot vērā visas iespējamas tagošanas shēmas, kas pastāv pasaulēs mērogā, būs pagrūti. Un man personīgi negribētos uzņemties atbildību par reģioniem ārpus Latvijas. Ja tur kaut kas derēs no mūsu vaicājumiem/pieejas, var droši nokopēt kodu no GitHub.</p>",
+        "id": 370740328,
+        "sender_full_name": "i-ky",
+        "timestamp": 1688037795
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Overpass-based.20QA/near/370720575\">said</a>:</p>\n<blockquote>\n<p>No routēšanas viedokļa var labot / nepārklāties ar BRouter, piem.: <a href=\"https://brouter.de/brouter/suspects/Latvia/all\">https://brouter.de/brouter/suspects/Latvia/all</a> .</p>\n</blockquote>\n<p>Labs! Uz tādu un līdzīgiem resursiem (kur var apskatīt atsevišķi Latviju) var iedot saiti pa taisno no <a href=\"https://osmlatvija.github.io/\">https://osmlatvija.github.io/</a>.</p>",
+        "id": 370741871,
+        "sender_full_name": "i-ky",
+        "timestamp": 1688038065
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Overpass-based.20QA/near/370721675\">said</a>:</p>\n<blockquote>\n<p>Vēl piebildīšu, ka lielākā problēma ar QA tooliem it tas, ka tie nevar bez cilvēka iejaukšanās saprast vai tur ir kļūda vai nē.</p>\n</blockquote>\n<p>QA rīka darbs ir atrast <em>potenciālas</em> kļūdas, tālāk iejaucās cilvēks un izlemj, vai tā tiešām ir kļūda un izlabo. Nekāda automātiska rediģēšana nav paredzēta.</p>",
+        "id": 370744495,
+        "sender_full_name": "i-ky",
+        "timestamp": 1688038561
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Overpass-based.20QA/near/370721675\">said</a>:</p>\n<blockquote>\n<p>Vai ir plāns tad karti taisīt?</p>\n</blockquote>\n<p>Nē, karti taisīt nav plānu. Ir plāns ielikt saiti uz Overpass Turbo ar izmantoto vaicājumu - tur būs karte un var biežāk laist vaicājumu, ja lietotājs ļoti aktīvi labo problēmas un ar GitHub Actions atjaunošanas frekvenci nepietiek.</p>",
+        "id": 370745451,
+        "sender_full_name": "i-ky",
+        "timestamp": 1688038750
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Overpass-based.20QA/near/370744495\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Overpass-based.20QA/near/370721675\">said</a>:</p>\n<blockquote>\n<p>Vēl piebildīšu, ka lielākā problēma ar QA tooliem it tas, ka tie nevar bez cilvēka iejaukšanās saprast vai tur ir kļūda vai nē.</p>\n</blockquote>\n<p>QA rīka darbs ir atrast <em>potenciālas</em> kļūdas, tālāk iejaucās cilvēks un izlemj, vai tā tiešām ir kļūda un izlabo. Nekāda automātiska rediģēšana nav paredzēta.</p>\n</blockquote>\n<p>Nesapratu gluži, kur tu par automātisku rediģēšanu izlasīji.</p>",
+        "id": 370750541,
+        "sender_full_name": "HellMap",
+        "timestamp": 1688039622
+    },
+    {
+        "content": "<p>A message was moved from this topic to <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/BRouter.20A2\">#general &gt; BRouter A2</a> by <span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span>.</p>",
+        "id": 370751847,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1688039850
+    },
+    {
+        "content": "<p>Tur varētu kaut ko kā <a href=\"https://github.com/DavidJVitale/jekyll-leaflet\">https://github.com/DavidJVitale/jekyll-leaflet</a> izmantot kartei. Un es tā saprotu tos JSON datus var sabāzt kā punktus līdzīgi</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/DavidJVitale/jekyll-leaflet\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/7806ebdc269d1e194f74ba7f57ed659a8656e0dc\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f323563356661386661343338613232353638646132383861303633356233363036623838363137616230356538636662373134303463366661326261383761342f44617669644a566974616c652f6a656b796c6c2d6c6561666c6574)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/DavidJVitale/jekyll-leaflet\" title=\"GitHub - DavidJVitale/jekyll-leaflet: 🗺️ Create leatlet.js maps in Jekyll\">GitHub - DavidJVitale/jekyll-leaflet: 🗺️ Create leatlet.js maps in Jekyll</a></div><div class=\"message_embed_description\"> 🗺️ Create leatlet.js maps in Jekyll. Contribute to DavidJVitale/jekyll-leaflet development by creating an account on GitHub.</div></div></div>",
+        "id": 370760973,
+        "sender_full_name": "HellMap",
+        "timestamp": 1688041408
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Overpass-based.20QA/near/370760973\">said</a>:</p>\n<blockquote>\n<p>Tur varētu kaut ko kā <a href=\"https://github.com/DavidJVitale/jekyll-leaflet\">https://github.com/DavidJVitale/jekyll-leaflet</a> izmantot kartei. Un es tā saprotu tos JSON datus var sabāzt kā punktus līdzīgi</p>\n</blockquote>\n<p>Man pagaidām nav skaidrs, priekš kam vajag karti. Bet ja vajag, droši vien uztaisīt var.</p>",
+        "id": 370762633,
+        "sender_full_name": "i-ky",
+        "timestamp": 1688041714
+    }
+]

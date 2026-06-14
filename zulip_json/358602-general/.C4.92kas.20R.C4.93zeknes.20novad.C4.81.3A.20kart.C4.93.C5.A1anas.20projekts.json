@@ -1,0 +1,908 @@
+[
+    {
+        "content": "<p>Izveidots kartēšanas projekts pateicoties Šveices OSM kopienai - ēku kartēšana Rēzeknes novadā.<br>\nIzvēlamies kādu laukumu, uzsākam kartēšanu. No LĢIA/LVM ortofoto sazīmējam visas ēkas, pielabojot arī esošās, ja nepieciešams.<br>\nKad viss laukumā pabeigts, norādām, ka izvēlētais laukums kartēts.<br>\nJa kādi laukumi jau kartēti, pārbaudām tos - ja visas ēkas šķiet pareizi sazīmētas, norādām, ka šis laukums ir pārbaudīts (validated). Ja pamanām, ka ēkas trūkst vai nepareizi iezīmētas, norādām, ja šim laukumam vēl nepieciešama kartēšana.</p>\n<p>Zīmējam tikai ēkas, un tikai izvēlētajā laukumā :)</p>\n<p><a href=\"http://tasks.osm.ch/projects/37/\">http://tasks.osm.ch/projects/37/</a></p>\n<p><a href=\"/user_uploads/49624/7G1gfQ4fHOg000ZqSgynF4Zz/image.png\">Rēzeknes novads - tasking manager</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/7G1gfQ4fHOg000ZqSgynF4Zz/image.png\" title=\"Rēzeknes novads - tasking manager\"><img src=\"/user_uploads/49624/7G1gfQ4fHOg000ZqSgynF4Zz/image.png\"></a></div>",
+        "id": 341412690,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678701071
+    },
+    {
+        "content": "<p>Pagaidām tikai Rēzeknes novads, jo lapa lielāku reģionu neļauj ievietot - un arī šis novads ir pietiekami liels, lai kādu laiku būtu kartējamais.<br>\nCentos izvēlēties pieņemamu laukumu, lai tie nebūtu pārāk sīki, bet arī lai nebūtu tādi, ka vienā piegājienā būtu neiespējami sazīmēt.<br>\nPilsētas mazliet sadalīju sīkāk. Ja kaut kur šķiet par lielu, sakiet - dalīsim vēl sīkāk.</p>",
+        "id": 341414239,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678701439
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341412690\">said</a>:</p>\n<blockquote>\n<p>Izvēlamies kādu laukumu, uzsākam kartēšanu. </p>\n</blockquote>\n<p>Kā konkrēti tajā saitā izvēlēties laukumu un palaist kartēšanu?</p>",
+        "id": 341440335,
+        "sender_full_name": "HellMap",
+        "timestamp": 1678708816
+    },
+    {
+        "content": "<p>Man tā ļeģenda uz kartes vispār neparādās</p>",
+        "id": 341440498,
+        "sender_full_name": "HellMap",
+        "timestamp": 1678708869
+    },
+    {
+        "content": "<p>Latgale protams ir vismazāk sazīmēta, bet es gan būtu tomēr licis kaut kur rietumos lai ir jaunais orotofoto cikls, kur vismazāk izmaiņu</p>",
+        "id": 341441693,
+        "sender_full_name": "HellMap",
+        "timestamp": 1678709178
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341440335\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341412690\">said</a>:</p>\n<blockquote>\n<p>Izvēlamies kādu laukumu, uzsākam kartēšanu. </p>\n</blockquote>\n<p>Kā konkrēti tajā saitā izvēlēties laukumu un palaist kartēšanu?</p>\n</blockquote>\n<p>Jāielogojas, jānospiež \"Contribute\", tad varēs izvēlēties gabalu un \"Map selected task\" ar JOSM vai iD.</p>",
+        "id": 341441825,
+        "sender_full_name": "i-ky",
+        "timestamp": 1678709214
+    },
+    {
+        "content": "<p>....ā to lielo milzīgo sarkano pogu? <span aria-label=\"man facepalming\" class=\"emoji emoji-1f926-200d-2642\" role=\"img\" title=\"man facepalming\">:man_facepalming:</span> Man nez kāpēc tas associējās ar kaut kādu koda github linku vai project support</p>",
+        "id": 341442067,
+        "sender_full_name": "HellMap",
+        "timestamp": 1678709283
+    },
+    {
+        "content": "<p>\"If a building has collapsed but the walls remain, modify the existing building outline or trace a new one and tag it with <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dwall\">barrier=wall</a>.\" - huh? Vai tad drupas mēs zīmējam ar sienu? Es nekad tā neesmu darījis, pat ja tur reāli 4 sienas...</p>",
+        "id": 341442299,
+        "sender_full_name": "HellMap",
+        "timestamp": 1678709354
+    },
+    {
+        "content": "<p>Ē, tur iD kaut kāds forks un nemaz nevar neko izņemot building izvēlēties....</p>",
+        "id": 341442738,
+        "sender_full_name": "HellMap",
+        "timestamp": 1678709498
+    },
+    {
+        "content": "<p>urgh, un tur nemaz kadastra slāni nevar ieslēgt... grūti ļoti, ja man vajag zem kokiem aptuveni noteikt mājas izmēru</p>",
+        "id": 341443626,
+        "sender_full_name": "HellMap",
+        "timestamp": 1678709791
+    },
+    {
+        "content": "<blockquote>\n<p>Please use LVM-hosted LĢIA imagery only, as others have an offset.</p>\n</blockquote>\n<p>Šito būtu loģiski pārnest no projekta apraksta uz instrukcijām. Un kas ir \"LVM-hosted LĢIA imagery\"? iD tādas opcijas nav vai tā saucās savādāk. Vispār vajag palūgt, lai to varētu izvēlēties \"IMAGERY Any available source\" vietā.</p>",
+        "id": 341443867,
+        "sender_full_name": "i-ky",
+        "timestamp": 1678709877
+    },
+    {
+        "content": "<p>Tur kur robeža, šādi vai ne? <a href=\"/user_uploads/49624/1iREK9Eo1Y-N98iBB7uEjs2W/hihihii.png\">hihihii.png</a> <span aria-label=\"shushing face\" class=\"emoji emoji-1f92b\" role=\"img\" title=\"shushing face\">:shushing_face:</span></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/1iREK9Eo1Y-N98iBB7uEjs2W/hihihii.png\" title=\"hihihii.png\"><img src=\"/user_uploads/49624/1iREK9Eo1Y-N98iBB7uEjs2W/hihihii.png\"></a></div>",
+        "id": 341445213,
+        "sender_full_name": "HellMap",
+        "timestamp": 1678710220
+    },
+    {
+        "content": "<p>A saits automātiski atzīmē, ka laukums ir in progress? Ja jūs skataties uz karti, jūr redzat, kuru laukumu es paņēmu?</p>",
+        "id": 341445711,
+        "sender_full_name": "HellMap",
+        "timestamp": 1678710350
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341445711\">said</a>:</p>\n<blockquote>\n<p>A saits automātiski atzīmē, ka laukums ir in progress? Ja jūs skataties uz karti, jūr redzat, kuru laukumu es paņēmu?</p>\n</blockquote>\n<p><a href=\"/user_uploads/49624/PA89gChmKCew2mAy2jXOflpV/image.png\">Jā</a>. Un uz kartes arī atzīmēts ar <span aria-label=\"locked\" class=\"emoji emoji-1f512\" role=\"img\" title=\"locked\">:locked:</span></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/PA89gChmKCew2mAy2jXOflpV/image.png\" title=\"Jā\"><img src=\"/user_uploads/49624/PA89gChmKCew2mAy2jXOflpV/image.png\"></a></div>",
+        "id": 341446672,
+        "sender_full_name": "i-ky",
+        "timestamp": 1678710616
+    },
+    {
+        "content": "<p>Jā, kadastru gribētos slāni.... Šito nekad nebūtu pamanījis, ja nebūtu adrešu punkts <a href=\"/user_uploads/49624/t6N7mLDdcZGekNgHMBNW4NJm/punktins-nekur.png\">punktins-nekur.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/t6N7mLDdcZGekNgHMBNW4NJm/punktins-nekur.png\" title=\"punktins-nekur.png\"><img src=\"/user_uploads/49624/t6N7mLDdcZGekNgHMBNW4NJm/punktins-nekur.png\"></a></div>",
+        "id": 341448437,
+        "sender_full_name": "HellMap",
+        "timestamp": 1678711061
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341442299\">said</a>:</p>\n<blockquote>\n<p>\"If a building has collapsed but the walls remain, modify the existing building outline or trace a new one and tag it with <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dwall\">barrier=wall</a>.\" - huh? Vai tad drupas mēs zīmējam ar sienu? Es nekad tā neesmu darījis, pat ja tur reāli 4 sienas...</p>\n</blockquote>\n<p>Ja tiešām palikušas tikai sienas un tas pat ortofoto redzams, būtu maldinoši to zīmēt kā ēku. Tad šķiet pareizāk un atbilstošāk iezīmēt kā sienas.<br>\nPiemēram, dažreiz no ēkas palikušas tikai divas vai viena siena...</p>",
+        "id": 341448494,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678711079
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341441693\">said</a>:</p>\n<blockquote>\n<p>Latgale protams ir vismazāk sazīmēta, bet es gan būtu tomēr licis kaut kur rietumos lai ir jaunais orotofoto cikls, kur vismazāk izmaiņu</p>\n</blockquote>\n<p>Nu jā, ar kaut ko jau jāsāk :)<br>\nLatgalē paņēmu novadu, jo Regita minēja regulāru ēku zīmēšanu.</p>",
+        "id": 341448747,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678711122
+    },
+    {
+        "content": "<p>Nu iD tur izslēgts viss izņemot <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dyes\">building=yes</a>.... es protams varu pats tegos ierakstīt, ko gribu, bet sienas zīmēt tur čakarīgi un par ruins zīmēt čakarīgi</p>",
+        "id": 341449136,
+        "sender_full_name": "HellMap",
+        "timestamp": 1678711215
+    },
+    {
+        "content": "<p>urgh, iD automātiski ieliek hastag no changeset commenta - sanāk <code>#OSMLatvija</code></p>",
+        "id": 341450198,
+        "sender_full_name": "HellMap",
+        "timestamp": 1678711515
+    },
+    {
+        "content": "<p>Un iD veiksmīgi nokārās mēģinot upload, jo nav logins un mēģinot login, redirektē uz <a href=\"http://tasks.osm.ch\">tasks.osm.ch</a> lapu, kas ir 404</p>",
+        "id": 341451865,
+        "sender_full_name": "HellMap",
+        "timestamp": 1678711935
+    },
+    {
+        "content": "<p>Pamēģināju citu browseri, tas pats... es tač nevaru būt vienīgais vai arī viņiem kaut kas tik tikko salūza...</p>",
+        "id": 341454202,
+        "sender_full_name": "HellMap",
+        "timestamp": 1678712504
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341448494\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341442299\">said</a>:</p>\n<blockquote>\n<p>\"If a building has collapsed but the walls remain, modify the existing building outline or trace a new one and tag it with <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dwall\">barrier=wall</a>.\" - huh? Vai tad drupas mēs zīmējam ar sienu? Es nekad tā neesmu darījis, pat ja tur reāli 4 sienas...</p>\n</blockquote>\n<p>Ja tiešām palikušas tikai sienas un tas pat ortofoto redzams, būtu maldinoši to zīmēt kā ēku. Tad šķiet pareizāk un atbilstošāk iezīmēt kā sienas.<br>\nPiemēram, dažreiz no ēkas palikušas tikai divas vai viena siena...</p>\n</blockquote>\n<p>Burtiski lasot OSM Wiki, jā, ēka bez jumta nav <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Abuilding\">building=*</a>:</p>\n<blockquote>\n<p>In OpenStreetMap, a building is a man-made structure with a roof, standing more or less permanently in one place.</p>\n</blockquote>\n<p>...bet es teiktu, ka nav arī <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dwall\">barrier=wall</a>:</p>\n<blockquote>\n<p>a freestanding structure, designed to restrict or prevent movement across a boundary</p>\n</blockquote>",
+        "id": 341457212,
+        "sender_full_name": "i-ky",
+        "timestamp": 1678713182
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341442738\">said</a>:</p>\n<blockquote>\n<p>Ē, tur iD kaut kāds forks un nemaz nevar neko izņemot building izvēlēties....</p>\n</blockquote>\n<p>Paldies, ka pieminēji - es ar iD nemaz vēl nebiju mēģinājis tur kartēt. Izskatās, ka nevar atļaut zīmēt visu, var tikai specifiskus key/tagus pievienot.</p>",
+        "id": 341458269,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678713479
+    },
+    {
+        "content": "<p><a href=\"https://github.com/hotosm/tasking-manager/issues/5630\">https://github.com/hotosm/tasking-manager/issues/5630</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/hotosm/tasking-manager/issues/5630\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/584c3cf8586348b5f7270c7bc54ecd6dc2945df8\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f646137306533316535613436626132303638316635336564386463646137346561303031623731393735316564363161343138336139373538386564666333332f686f746f736d2f7461736b696e672d6d616e616765722f6973737565732f35363330)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/hotosm/tasking-manager/issues/5630\" title=\"[BUG] iD fails to login and upload changes, authorization request redirects to a missing page · Issue #5630 · hotosm/tasking-manager\">[BUG] iD fails to login and upload changes, authorization request redirects to a missing page · Issue #5630 · hotosm/tasking-manager</a></div><div class=\"message_embed_description\">Embedded iD saving fails to login and upload changes, authorization request redirects to a missing page Open some projects (I was doing http://tasks.osm.ch/projects/37) Click contribute, select squ...</div></div></div>",
+        "id": 341458801,
+        "sender_full_name": "HellMap",
+        "timestamp": 1678713599
+    },
+    {
+        "content": "<p>Šodienai pietiks <span aria-label=\"exhausted\" class=\"emoji emoji-1f625\" role=\"img\" title=\"exhausted\">:exhausted:</span></p>",
+        "id": 341458924,
+        "sender_full_name": "HellMap",
+        "timestamp": 1678713620
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341443626\">said</a>:</p>\n<blockquote>\n<p>urgh, un tur nemaz kadastra slāni nevar ieslēgt... grūti ļoti, ja man vajag zem kokiem aptuveni noteikt mājas izmēru</p>\n</blockquote>\n<p>Ah, JOSM viss bija. iD laikam var vienu custom slāni pielikt, bet tur uzreiz x/y/z formātā laikam jāliek, pagaidām neizdevās.</p>",
+        "id": 341458964,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678713626
+    },
+    {
+        "content": "<p>Protams, jāatzeras, ka kadastrā ēku izmērs arī mēdz atšķirties no reālā :)</p>",
+        "id": 341458987,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678713631
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341458964\">said</a>:</p>\n<blockquote>\n<p>Ah, JOSM viss bija. iD laikam var vienu custom slāni pielikt, bet tur uzreiz x/y/z formātā laikam jāliek, pagaidām neizdevās.</p>\n</blockquote>\n<p>custom slāni nevar pielikt - es mēģināju, viņš ļauj ierakstīt WMS URL bet neko pēc tam nedara, neļauj izvēlēties to custom</p>",
+        "id": 341459160,
+        "sender_full_name": "HellMap",
+        "timestamp": 1678713679
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341443867\">said</a>:</p>\n<blockquote>\n<blockquote>\n<p>Please use LVM-hosted LĢIA imagery only, as others have an offset.</p>\n</blockquote>\n<p>Šito būtu loģiski pārnest no projekta apraksta uz instrukcijām. Un kas ir \"LVM-hosted LĢIA imagery\"? iD tādas opcijas nav vai tā saucās savādāk. Vispār vajag palūgt, lai to varētu izvēlēties \"IMAGERY Any available source\" vietā.</p>\n</blockquote>\n<p>Paldies, pārliku. Kā tajā integrētajā iD ļaut vairāk izpausties ar imagery īsti neredzu, vēl roku.</p>",
+        "id": 341459559,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678713778
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341445213\">said</a>:</p>\n<blockquote>\n<p>Tur kur robeža, šādi vai ne? <a href=\"/user_uploads/49624/1iREK9Eo1Y-N98iBB7uEjs2W/hihihii.png\">hihihii.png</a> <span aria-label=\"shushing face\" class=\"emoji emoji-1f92b\" role=\"img\" title=\"shushing face\">:shushing_face:</span></p>\n</blockquote>\n<p>Hehe, es parasti skatos, vai ir ~ puse. Ja izteikti mazāk nekā puse, nezīmēju. Tas primāri noder tāpēc, lai samazinātu duplicēšanos/konfliktus pie laukumu robežām.</p>",
+        "id": 341459743,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678713826
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341445711\">said</a>:</p>\n<blockquote>\n<p>A saits automātiski atzīmē, ka laukums ir in progress? Ja jūs skataties uz karti, jūr redzat, kuru laukumu es paņēmu?</p>\n</blockquote>\n<p>Jā, kā i-ky minēja, kartē izskatās šādi.<br>\n<a href=\"/user_uploads/49624/_ANeOijI8RICMbd52-CsBin7/image.png\">un laukums bija aizslēgts</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/_ANeOijI8RICMbd52-CsBin7/image.png\" title=\"un laukums bija aizslēgts\"><img src=\"/user_uploads/49624/_ANeOijI8RICMbd52-CsBin7/image.png\"></a></div>",
+        "id": 341460150,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678713944
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341457212\">said</a>:</p>\n<blockquote>\n<p>...<br>\n...bet es teiktu, ka nav arī <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dwall\">barrier=wall</a>:</p>\n<blockquote>\n<p>a freestanding structure, designed to restrict or prevent movement across a boundary</p>\n</blockquote>\n</blockquote>\n<p>Jā, tur es diezgan ilgi IRC un citur runāju ar cilvēkiem un mēģināju saprast, kā lai tago. Beigās paliku pie <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dwall\">barrier=wall</a>, jo tas pietiekami atbilst un nav kaut kāds pilnīgi custom tags.<br>\nVēl jau jāatceras, ka OSM wiki rediģētāji ne vienmēr tur pieraksta labāko, vai pieraksta pietiekami precīzi. Dokumentēšana ir laba, bet kaut kāds pamats tomēr ir \"wikifiddlers\" apzīmējumam ;)<br>\nŠajā kontekstā - ja gribas precīzāk, varam wiki vienkārši dokumentēt, ka <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dwall\">barrier=wall</a> tiek izmantots arī sienu apzīmēšanai, ja ēkai jau sen nav jumta. Wiki tiek dokumentēts tas, kā kopiena lieto tagus.</p>",
+        "id": 341461453,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678714243
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341450198\">said</a>:</p>\n<blockquote>\n<p>urgh, iD automātiski ieliek hashtag no changeset commenta - sanāk <code>#OSMLatvija</code></p>\n</blockquote>\n<p>To es speciāli ieliku, jo tā ir ieteikts rīkoties. Vai tas šķiet nepareizi?</p>",
+        "id": 341461643,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678714284
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341449136\">said</a>:</p>\n<blockquote>\n<p>Nu iD tur izslēgts viss izņemot <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dyes\">building=yes</a>.... es protams varu pats tegos ierakstīt, ko gribu, bet sienas zīmēt tur čakarīgi un pat ruins zīmēt čakarīgi</p>\n</blockquote>\n<p>Pieliku arī \"barrier\", bet tur tiešām pa vienam key/tagam jāpieliek.</p>",
+        "id": 341461801,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678714317
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341451865\">said</a>:</p>\n<blockquote>\n<p>Un iD veiksmīgi nokārās mēģinot upload, jo nav logins un mēģinot login, redirektē uz <a href=\"http://tasks.osm.ch\">tasks.osm.ch</a> lapu, kas ir 404</p>\n</blockquote>\n<p>Ah, sasodīts. Meklēju, vai kaut kā var pārsūtīt uz <a href=\"http://osm.org\">osm.org</a> iD.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"http://osm.org\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"http://osm.org\" title=\"OpenStreetMap\">OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 341461970,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678714348
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341459160\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341458964\">said</a>:</p>\n<blockquote>\n<p>Ah, JOSM viss bija. iD laikam var vienu custom slāni pielikt, bet tur uzreiz x/y/z formātā laikam jāliek, pagaidām neizdevās.</p>\n</blockquote>\n<p>custom slāni nevar pielikt - es mēģināju, viņš ļauj ierakstīt WMS URL bet neko pēc tam nedara, neļauj izvēlēties to custom</p>\n</blockquote>\n<p>Iespējams, tas ir tas, kur uzreiz vajag xyz sintaksi. Vēl īsti nez, pagaidām nav sanācis piedzīvināt.</p>",
+        "id": 341462159,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678714399
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341458801\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://github.com/hotosm/tasking-manager/issues/5630\">https://github.com/hotosm/tasking-manager/issues/5630</a></p>\n</blockquote>\n<p>Tā varētu nebūt paša Tasking Manager problēma, bet kaut kas ar konfigurāciju Šveices OSM kopienas hostētajā instancē.</p>",
+        "id": 341462625,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678714490
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341462625\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341458801\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://github.com/hotosm/tasking-manager/issues/5630\">https://github.com/hotosm/tasking-manager/issues/5630</a></p>\n</blockquote>\n<p>Tā varētu nebūt paša Tasking Manager problēma, bet kaut kas ar konfigurāciju Šveices OSM kopienas hostētajā instancē.</p>\n</blockquote>\n<p>Viņiem pat savs forks. Bet ar izslēgtiem issues...</p>",
+        "id": 341462887,
+        "sender_full_name": "i-ky",
+        "timestamp": 1678714550
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341462159\">said</a>:</p>\n<blockquote>\n<p>Iespējams, tas ir tas, kur uzreiz vajag xyz sintaksi. Vēl īsti nez, pagaidām nav sanācis piedzīvināt.</p>\n</blockquote>\n<p>Sintakse man ir pareiza, es parastajā <a href=\"http://osm.org\">osm.org</a> iD to lietoju. Te vienkārši kaut kas nestrādā vai atslēgts</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"http://osm.org\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"http://osm.org\" title=\"OpenStreetMap\">OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 341472462,
+        "sender_full_name": "HellMap",
+        "timestamp": 1678716684
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341462887\">said</a>:</p>\n<blockquote>\n<p>Viņiem pat savs forks. Bet ar izslēgtiem issues...</p>\n</blockquote>\n<p>Urgh... nu paši gan jau tiks galā, kur to issue jāliek. Viņu saitā links bija uz šito repo.</p>",
+        "id": 341472996,
+        "sender_full_name": "HellMap",
+        "timestamp": 1678716779
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341461643\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341450198\">said</a>:</p>\n<blockquote>\n<p>urgh, iD automātiski ieliek hashtag no changeset commenta - sanāk <code>#OSMLatvija</code></p>\n</blockquote>\n<p>To es speciāli ieliku, jo tā ir ieteikts rīkoties. Vai tas šķiet nepareizi?</p>\n</blockquote>\n<p>Laikam jau pareizi. Laikam es tur gaidīju projekta nosaukumu nevis konkrēti Latvijas OSM (it kā no citas valsts nedrīkst zīmēt). Bet varbūt tā pieņemts. Un iD automātiski ieliek un neļaun neko izmainīt. Pat ja es ieliku <code>square #151</code> iD ieliek <code>#151</code> kā hashtag...</p>",
+        "id": 341473524,
+        "sender_full_name": "HellMap",
+        "timestamp": 1678716897
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341473524\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341461643\">said</a>:</p>\n<blockquote>\n<p>To es speciāli ieliku, jo tā ir ieteikts rīkoties. Vai tas šķiet nepareizi?</p>\n</blockquote>\n<p>Laikam jau pareizi. Laikam es tur gaidīju projekta nosaukumu nevis konkrēti Latvijas OSM (it kā no citas valsts nedrīkst zīmēt). Bet varbūt tā pieņemts. Un iD automātiski ieliek un neļaun neko izmainīt. Pat ja es ieliku <code>square #151</code> iD ieliek <code>#151</code> kā hashtag...</p>\n</blockquote>\n<p>Noteikti varam uzlabot. Vai ir kādi labi ieteikumi šī projekta tagam?<br>\nCerams, izdosies šo pabeigt un šādus projektus taisīt arī citie novadiem :)</p>",
+        "id": 341489518,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678720108
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341451865\">said</a>:</p>\n<blockquote>\n<p>Un iD veiksmīgi nokārās mēģinot upload, jo nav logins un mēģinot login, redirektē uz <a href=\"http://tasks.osm.ch\">tasks.osm.ch</a> lapu, kas ir 404</p>\n</blockquote>\n<p>Jā, kaut kas tur nav ar callback, man tas pats. Uzrakstīju arī šveiciešiem.</p>",
+        "id": 341493389,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678720846
+    },
+    {
+        "content": "<p>Šo to pakartēju, pavalidēju.<br>\nPaldies <span class=\"user-mention\" data-user-id=\"568802\">@i-ky</span> un <span class=\"user-mention\" data-user-id=\"572039\">@Colby</span> par zīmēšanu un validēšanu :)<br>\nPie Rēzeknes vienu laukumu ar ēkām paņēmu... Uff, to veco, importēto ēku satīrīšana ir nereāli piņķerīga.<br>\nLabā ziņa - visiem vajadzētu būt iespējai laukumus dalīt vēl sīkāk. Kad atver kādu laukumu (tasku), tur ir vajdzētu būt \"split\" iespējai.<br>\nJa redzat laukumus, kuri šķiet par lielu, droši daliet sīkāk :)</p>",
+        "id": 341521434,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678727259
+    },
+    {
+        "content": "<p>man kādas 120 ēkas iezīmētas izdzēsa :( protams man vajadzēja vispirms pārbaudīt kaut ar vienu ēku uploadu, bet likās, ka tur viss ies</p>",
+        "id": 341522831,
+        "sender_full_name": "HellMap",
+        "timestamp": 1678727654
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/KBO7pIQHy3e8je9yxIxbm01M/image.png\">image.png</a> <a href=\"/user_uploads/49624/irbn3zbpqkSfvubKFePCSHOh/image.png\">image.png</a> <br>\nko ar šādām iesākt? liekas ka šķūnis/stallis savienots ar dzīvojamo, varbūt pat vēl ekstra siena</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/KBO7pIQHy3e8je9yxIxbm01M/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/KBO7pIQHy3e8je9yxIxbm01M/image.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/irbn3zbpqkSfvubKFePCSHOh/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/irbn3zbpqkSfvubKFePCSHOh/image.png\"></a></div>",
+        "id": 341523137,
+        "sender_full_name": "Colby",
+        "timestamp": 1678727744
+    },
+    {
+        "content": "<p>Paskatītos, kā tās ēkas kadastrā zīmētas.</p>",
+        "id": 341526220,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1678728597
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341522831\">said</a>:</p>\n<blockquote>\n<p>man kādas 120 ēkas iezīmētas izdzēsa :( protams man vajadzēja vispirms pārbaudīt kaut ar vienu ēku uploadu, bet likās, ka tur viss ies</p>\n</blockquote>\n<p>Ja neej prom no tā taska, varētu saglabāties state. Es gan nezinu, vai to kāds varēs salabot, lai varētu vēlāk saglabāt.</p>",
+        "id": 341566489,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678739070
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341523137\">said</a>:</p>\n<blockquote>\n<p><a href=\"/user_uploads/49624/KBO7pIQHy3e8je9yxIxbm01M/image.png\">image.png</a> <a href=\"/user_uploads/49624/irbn3zbpqkSfvubKFePCSHOh/image.png\">image.png</a> <br>\nko ar šādām iesākt? liekas ka šķūnis/stallis savienots ar dzīvojamo, varbūt pat vēl ekstra siena</p>\n</blockquote>\n<p>Ko Dāvis teica, tik jāatceras, ka kadastrā tas dalījums dažreiz ir ekstra dīvains.<br>\nVispār šobrīd es teiktu - vērts zīmēt tā, kā šķiet loģiski/vieglāk. Zīmējamā daudz, ka tik kontūras precīzas :)</p>",
+        "id": 341567464,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678739412
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341521434\">said</a>:</p>\n<blockquote>\n<p>Paldies <span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> un <span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> par zīmēšanu un validēšanu :)</p>\n</blockquote>\n<p>Es tikai mazus tukšus gabalus testēšanas nolūkos paskatījos.</p>",
+        "id": 341654468,
+        "sender_full_name": "i-ky",
+        "timestamp": 1678783978
+    },
+    {
+        "content": "<p>Nu pamazām kopā vismaz var progresu redzēt :)<br>\n<a href=\"/user_uploads/49624/8FVOJcbBtMpoWOiEyDT36hx5/image.png\">Rēzeknes novada projekts</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/8FVOJcbBtMpoWOiEyDT36hx5/image.png\" title=\"Rēzeknes novada projekts\"><img src=\"/user_uploads/49624/8FVOJcbBtMpoWOiEyDT36hx5/image.png\"></a></div>",
+        "id": 341654993,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678784134
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341493389\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341451865\">said</a>:</p>\n<blockquote>\n<p>Un iD veiksmīgi nokārās mēģinot upload, jo nav logins un mēģinot login, redirektē uz <a href=\"http://tasks.osm.ch\">tasks.osm.ch</a> lapu, kas ir 404</p>\n</blockquote>\n<p>Jā, kaut kas tur nav ar callback, man tas pats. Uzrakstīju arī šveiciešiem.</p>\n</blockquote>\n<p>Kaut ko atbildēja? Baigi viltīgi, ka viņu fork repo issues ir izslēgti un source repo <a href=\"https://github.com/hotosm/tasking-manager/issues/5630#issuecomment-1466556011\">sūta pie fork maintainer'iem</a>.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/hotosm/tasking-manager/issues/5630#issuecomment-1466556011\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/75362c5602daf509d861a9ad8254d591a3e04ec9\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f363865353266393933663664383864383032396139653163376465323837353164353737383366383731623161366231376163636234333461663763303363372f686f746f736d2f7461736b696e672d6d616e616765722f6973737565732f35363330)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/hotosm/tasking-manager/issues/5630#issuecomment-1466556011\" title=\"[BUG] iD fails to login and upload changes, authorization request redirects to a missing page · Issue #5630 · hotosm/tasking-manager\">[BUG] iD fails to login and upload changes, authorization request redirects to a missing page · Issue #5630 · hotosm/tasking-manager</a></div><div class=\"message_embed_description\">Embedded iD saving fails to login and upload changes, authorization request redirects to a missing page Open some projects (I was doing http://tasks.osm.ch/projects/37) Click contribute, select squ...</div></div></div>",
+        "id": 341656113,
+        "sender_full_name": "i-ky",
+        "timestamp": 1678784441
+    },
+    {
+        "content": "<p>Par integrēto iD - šveicieši atbildēja, ka īsti nezina, vai tas ir agrāk strādājis...</p>",
+        "id": 341656343,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678784501
+    },
+    {
+        "content": "<p>Bet es te šodien paspēlējos un laikam izdevās pielikt <a href=\"http://osm.org\">osm.org</a> iD!<br>\nPinging <span class=\"user-mention\" data-user-id=\"571825\">@HellMap</span> :)</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"http://osm.org\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"http://osm.org\" title=\"OpenStreetMap\">OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 341656487,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678784532
+    },
+    {
+        "content": "<p>Izdevās kaut ko arī augšuplādēt, tā ka vismaz pamatlietas strādā.<br>\nKey/tagus joprojām vajag specifiski norādīt - kuri ir atļauti šī taska ietvaros.<br>\nBet varbūt tagad strādā tie custom layers? To HellMap varēs pastāstīt.</p>",
+        "id": 341656971,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678784665
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341656487\">said</a>:</p>\n<blockquote>\n<p>Bet es te šodien paspēlējos un laikam izdevās pielikt <a href=\"http://osm.org\">osm.org</a> iD!<br>\nPinging <span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> :)</p>\n</blockquote>\n<p><del><a href=\"https://github.com/openstreetmap/iD/blob/develop/data/imagery.json\">\"Cadastral map, Latvia\" overlay</a> joprojām trūkst.</del> Ā, tur tagad ir opcija rediģēt ar \"<a href=\"http://osm.org\">osm.org</a> iD\". Bet to nevar izvelēties, kā Default editor savā profilā.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"http://osm.org\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"http://osm.org\" title=\"OpenStreetMap\">OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/openstreetmap/iD/blob/develop/data/imagery.json\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/b8beb7cab456ae8ce230d70c6e1eab40c4d89a76\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f326165373331643466386330663934393961643235636631626530346434653661656235303831313130613661316436356431363464303562653032316265332f6f70656e7374726565746d61702f6944)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/openstreetmap/iD/blob/develop/data/imagery.json\" title=\"iD/imagery.json at develop · openstreetmap/iD\">iD/imagery.json at develop · openstreetmap/iD</a></div><div class=\"message_embed_description\">🆔 The easy-to-use OpenStreetMap editor in JavaScript. - iD/imagery.json at develop · openstreetmap/iD</div></div></div>",
+        "id": 341659401,
+        "sender_full_name": "i-ky",
+        "timestamp": 1678785240
+    },
+    {
+        "content": "<p>Kāpēc šveiciešiem ir savs tasking-manager fork?</p>",
+        "id": 341668334,
+        "sender_full_name": "i-ky",
+        "timestamp": 1678787598
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341659401\">said</a>:</p>\n<blockquote>\n<p>Ā, tur tagad ir opcija rediģēt ar \"<a href=\"http://osm.org\">osm.org</a> iD\". Šķiet, ka strādā OK. Bet to nevar izvelēties, kā Default editor savā profilā.</p>\n</blockquote>\n<p>Jā, labākais ko laikam var izdarīt - izslēgt salauzto \"built-in\" iD. Bet laikam defaultais būs JOSM.</p>",
+        "id": 341787590,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678799225
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341668334\">said</a>:</p>\n<blockquote>\n<p>Kāpēc šveiciešiem ir savs tasking-manager fork?</p>\n</blockquote>\n<p>Pieņemot, ka jautājums tieši par forku, ne instanci - nezinu.<br>\nVispār jau arī nez, vai tiek lietots forks vai tomēr upstream TM3.</p>",
+        "id": 341788234,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678799360
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/341656971\">said</a>:</p>\n<blockquote>\n<p>Izdevās kaut ko arī augšuplādēt, tā ka vismaz pamatlietas strādā.<br>\nKey/tagus joprojām vajag specifiski norādīt - kuri ir atļauti šī taska ietvaros.<br>\nBet varbūt tagad strādā tie custom layers? To HellMap varēs pastāstīt.</p>\n</blockquote>\n<p>Nu galvenajā OSM lapā custom layers strādā, tur jau arī nebija problēmu.</p>",
+        "id": 341838224,
+        "sender_full_name": "HellMap",
+        "timestamp": 1678809460
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/7BdIISRU5RQoMFlmGontLcMU/image.png\">JOSM</a> <br>\nvaru ieteikt nomainīt 'inactive' lai robežas labāk redzamas</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/7BdIISRU5RQoMFlmGontLcMU/image.png\" title=\"JOSM\"><img src=\"/user_uploads/49624/7BdIISRU5RQoMFlmGontLcMU/image.png\"></a></div>",
+        "id": 342005503,
+        "sender_full_name": "Colby",
+        "timestamp": 1678874144
+    },
+    {
+        "content": "<p>Šveiciešiem kaut kas krietni salūza. Error'i visās malās.</p>",
+        "id": 342278979,
+        "sender_full_name": "i-ky",
+        "timestamp": 1678965207
+    },
+    {
+        "content": "<p>Jā, par to vakar uzrakstīju viņiem - esot centušies salabot iebūvēto iD, bet salūzis vēl vairāk :)<br>\nVēl nezinot, vai šonedēļ sanākšot laiks pētīt tālāk.</p>",
+        "id": 342344552,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678979813
+    },
+    {
+        "content": "<p>Derētu iD presetiem pielikt Greenhouse, jo tos no orto var skaidri atšķirt lielākoties un katrā lauku sētā pa 3 gabaliem. P.S. Ehhh, man bija kādreiz doma uztaisīt aplikāciju, kas parādītu plikus <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dyes\">building=yes</a> un ortofoto un pajautā - kas tas tāds? - un one-click izvēlni. Tad tur var tādus greenhouse un gazebo ļoti ātri nomainīt un daudz ko citu arī daudzos gadījumos - detached, apartments, etc. Bet nu...</p>",
+        "id": 342347214,
+        "sender_full_name": "HellMap",
+        "timestamp": 1678980316
+    },
+    {
+        "content": "<p>Teorētiski, pēc ēnas var arī <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Droof\">building=roof</a> atpazīt, bet tā mēs nekad netiksim līdz galam...</p>",
+        "id": 342350696,
+        "sender_full_name": "i-ky",
+        "timestamp": 1678980980
+    },
+    {
+        "content": "<p>Nu nezinu, cik liela atšķirība nospiest 30 pixeļus augstāk vai zemāk sarakstā</p>",
+        "id": 342350903,
+        "sender_full_name": "HellMap",
+        "timestamp": 1678981024
+    },
+    {
+        "content": "<p>Kad tūlis būs pieejams, paskatīšos, vai greenhouse var kaut kā sakarīgi pielikt.<br>\nEs gan cenšos mazās siltumnīcas nezīmēt, jo tās šad tad ir ļoti īslaicīgas - bet varbūt to tiešām var pielikt tā, ka īpaši netraucē ēku zīmēšanai.</p>\n<p>Bet i-ky taisnība, ļoti jāuzmanās ar papildus lietām. Mēs jau redzam, cik lēni iet ar vienu novadu. Un tādu ir daudz, un citos būs vēl daudz vairāk ēku...<br>\nPieņemu, ka tas ir viens no iemesliem, kāpēc ir ierobežots pieejamo tagu skaits - citādāk cilvēki aizrautos un projekti nekad nebeigtos :)</p>",
+        "id": 342492774,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1679040441
+    },
+    {
+        "content": "<p>oho, cik forši, ka Rēzeknes novads izvēlēts, liels paldies, ļoti priecājos! Man šajā galā pietiekami vientuļi iet, daudz tukšumu, forši, ka būs redzami sazīmēts vairāk! :)</p>",
+        "id": 342639661,
+        "sender_full_name": "Regita Zeiļa",
+        "timestamp": 1679077841
+    },
+    {
+        "content": "<p>Tikai tagad šo pamanīju - forši, liels prieks, ka izvēlēts Rēzeknes novads, es šaipus ik pa laikam jūtos vientuļi, jo ļoti daudz nesazīmētā un darba lauks ir plašs! Būs jauki redzēt papildinājumus!</p>",
+        "id": 342639871,
+        "sender_full_name": "Regita Zeiļa",
+        "timestamp": 1679077909
+    },
+    {
+        "content": "<p>Jū, tur jau daudz ēkas sazīmējām, tik risinājums salūza. Cerams, nākamnedēļ būs atpakaļ, varēsim kvadrātiņus aizpildīt :)</p>",
+        "id": 342726373,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1679125920
+    },
+    {
+        "content": "<p>OOOOO. Mišaels (ja pareizi pārveidoju latviski :) ) salaboja - tagad ne tikai strādā risinājums, bet arī iebūvētais iD.<br>\n<a href=\"http://osm.org\">osm.org</a> iD atstāju, jo iebūvētajā laikam bija kaut kādas problēmas ar WMS utt.</p>\n<p>Regita, varbūt kādiem pasniedzējiem vai citiem aktīviem cilvēkiem interesētu šāds projektiņš ar vizualizāciju?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"http://osm.org\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"http://osm.org\" title=\"OpenStreetMap\">OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 344104867,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1679606836
+    },
+    {
+        "content": "<p>ēēē, man iD tomēr iepriekšējās cached izmaiņas atļāva uploadot woo <span aria-label=\"tada\" class=\"emoji emoji-1f389\" role=\"img\" title=\"tada\">:tada:</span></p>",
+        "id": 344107234,
+        "sender_full_name": "HellMap",
+        "timestamp": 1679607722
+    },
+    {
+        "content": "<p>custom WMS arī strādā</p>",
+        "id": 344107820,
+        "sender_full_name": "HellMap",
+        "timestamp": 1679607945
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/344107234\">said</a>:</p>\n<blockquote>\n<p>ēēē, man iD tomēr iepriekšējās cached izmaiņas atļāva uploadot woo <span aria-label=\"tada\" class=\"emoji emoji-1f389\" role=\"img\" title=\"tada\">:tada:</span></p>\n</blockquote>\n<p>Yay, man jau šķita, ka tā vajadzētu būt :)</p>",
+        "id": 344109197,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1679608550
+    },
+    {
+        "content": "<p>Nu jā, bet pagājusi nedēļa. Un es tur reload 10 reizes taisīju un man jau bija ielādēt bez izmaiņu uplaod piedāvāšanas, tā kā es necerēju</p>",
+        "id": 344109394,
+        "sender_full_name": "HellMap",
+        "timestamp": 1679608620
+    },
+    {
+        "content": "<p>Taisnība, tie tādi riskantāki faktori. Varbūt tā \"embedded\" iD īpatnība, ka kaut kā taska ietvaros ir cache.</p>",
+        "id": 344111174,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1679609359
+    },
+    {
+        "content": "<p>Drošvien katram domainam savi cookies</p>",
+        "id": 344111321,
+        "sender_full_name": "HellMap",
+        "timestamp": 1679609418
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"568771\">@Rihards Olups</span>, vai RapiD tur apzināti izslēgts mūsu projektam? Es šodien atklāju, ka RapiD'ā ir ielādētas ēkas, ko Microsoft ar ML detektēja no Bing attēliem. Kvalitāte nav superīga, bet ideja ir tāda, ka tos datus būtu forši redzēt kopā ar kadastru, lai zināt, kur varbūt ir vērts rūpīgāk pameklēt ēkas uz ortofoto.</p>",
+        "id": 344282075,
+        "sender_full_name": "i-ky",
+        "timestamp": 1679668455
+    },
+    {
+        "content": "<p>Nē, no defaultā mainīts ir tikai tas, ka pielikts <a href=\"http://osm.org\">osm.org</a> iD.<br>\nPabakstījos settingos, atradu RapiD un ieslēdzu. Tā uzreiz gan neko nerāda, tā ka kādam būs jāpatestē, vai var dabūt lietojamu :)</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"http://osm.org\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"http://osm.org\" title=\"OpenStreetMap\">OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 344311499,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1679674438
+    },
+    {
+        "content": "<p>Paldies, strādā!</p>",
+        "id": 344340330,
+        "sender_full_name": "i-ky",
+        "timestamp": 1679682067
+    },
+    {
+        "content": "<p>Pamanīju, ka pēc salabošanas vairs nevaru sadalīt lielākus laukumus - pat vislielāko dalot:<br>\n\"It was not possible to split the task<br>\nThis task is already too small and can not be split.\"</p>\n<p>Vai jums tāpat?<br>\nPiemēram, šo vēlējos sadalīt (ja links strādās): <a href=\"https://tasks.osm.ch/projects/37/map/?editor=ID#background=LV_ORTOFOTO_C6&amp;map=14.00/56.3287/27.5317\">https://tasks.osm.ch/projects/37/map/?editor=ID#background=LV_ORTOFOTO_C6&amp;map=14.00/56.3287/27.5317</a> .</p>",
+        "id": 344344813,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1679683498
+    },
+    {
+        "content": "<p>Links redirektē uz <a href=\"https://tasks.osm.ch/projects/37/tasks/\">https://tasks.osm.ch/projects/37/tasks/</a> un neko neizvēlas</p>",
+        "id": 344345332,
+        "sender_full_name": "HellMap",
+        "timestamp": 1679683675
+    },
+    {
+        "content": "<p>Bet jā, saka \"It was not possible to split the task\". Drošvien kaut kur kaut kāds settings salūza</p>",
+        "id": 344345841,
+        "sender_full_name": "HellMap",
+        "timestamp": 1679683839
+    },
+    {
+        "content": "<p>Hmm par to more mapping needed, laikam tāds gabals būtu jādala vēl 4 un tad viens stūris vēl 4... Bet nu man arī liekas tā nekad nepabeigs. Vispār baigais čakars, ja godīgi, galīgi nav motivācijas ilgi zīmēt ar pašvaku orto lauku būdas :(</p>",
+        "id": 344347557,
+        "sender_full_name": "HellMap",
+        "timestamp": 1679684400
+    },
+    {
+        "content": "<p>Ja nevar kādās 15-20 min sazīmēt, tad noteikti dalītu 4 daļās, jā.<br>\nPabeigs, pabeigs - pagaidām tač vēl ārpus Zulip nav reklamēts, varbūt Latgalē atradīsies kādi aktīvi skolotāji/skolēni/studenti, varbūt kādu online mapatonu uzrīkosim...<br>\nNu un tad jau būs jāķeras pie nākamā novada ;)<br>\nUn gan jau ka tur ir arī smukas un koptas mājas ne tikai būdas ;)</p>",
+        "id": 344353072,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1679686299
+    },
+    {
+        "content": "<p>Es jau tāpat dažreiz atslodzei no orto kaut ko pazīmēju random vietās. Tagad ir mazāk random, dodos uz Tasking Manager =)</p>",
+        "id": 344353178,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1679686337
+    },
+    {
+        "content": "<p>Nu man \"galvenais projekts\" ir ielu nosaukumus salikt, kur adreses ar tiem no tām problēmu kartēm. Tad pie reizes var viss ko salabot. bet nu lai zīmētu lauku mājas Latgalē, galīgi nav motivācijas. Ja vēl zīmētu tur, kur es pats braukāju, tad vēl tā. Personīgi, pamēģināju, bet man neiet.</p>",
+        "id": 344353360,
+        "sender_full_name": "HellMap",
+        "timestamp": 1679686424
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/344353072\">said</a>:</p>\n<blockquote>\n<p>Nu un tad jau būs jāķeras pie nākamā novada ;)</p>\n</blockquote>\n<p>Lūdzu kaut kur ar svaigiem ortofoto! ;)</p>",
+        "id": 344353680,
+        "sender_full_name": "i-ky",
+        "timestamp": 1679686561
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/344353360\">said</a>:</p>\n<blockquote>\n<p>Nu man \"galvenais projekts\" ir ielu nosaukumus salikt, kur adreses ar tiem no tām problēmu kartēm. Tad pie reizes var viss ko salabot. bet nu lai zīmētu lauku mājas Latgalē, galīgi nav motivācijas. Ja vēl zīmētu tur, kur es pats braukāju, tad vēl tā. Personīgi, pamēģināju, bet man neiet.</p>\n</blockquote>\n<p>Protams, OSM jau tā burvība - katrs izvēlas sev tīkamo jomu.<br>\nLatgalei pluss, ka mazāk biezi apdzīvota, var ātrāk sazīmēt ēkas ;)<br>\nMan šķiet smuka tā kartes aizpildīšanās. Nu un ja šis aiziet, ta jau var likt mērķi sazīmēt visas Latvijas ēkas, kas būtu arī foršs reklāmas veids, kā piesaistīt vairāk attālināto kartētāju arī ārpus Latvijas.</p>",
+        "id": 344354560,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1679686890
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/344353680\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/344353072\">said</a>:</p>\n<blockquote>\n<p>Nu un tad jau būs jāķeras pie nākamā novada ;)</p>\n</blockquote>\n<p>Lūdzu kaut kur ar svaigiem ortofoto! ;)</p>\n</blockquote>\n<p>Hehe, man jau vēl labā atmiņā laiks, kad Latgalē vispār nekas īpaši labāks par Landsatu nebija (citur bija) :)<br>\nDomāju, ka pēc Rēzeknes novada pabeigšanas varam taisīt mini \"konkursu\" - piem., ja kāda pašvaldība iedod svaigu drona ortofoto slāni, tie uzreiz tiek pie projekta vai kā tamlīdzīgi.</p>",
+        "id": 344354836,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1679686974
+    },
+    {
+        "content": "<p>Re, kāds smuks lēciens redzams. Un tas tikai līdz 18. martam, vēl bez vakardienas un šodienas papildinājumiem :)<br>\n<a href=\"/user_uploads/49624/lp_sJfkeYTl96sKuuInsKgIR/image.png\">Rēzekne + Rēzeknes novads</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/lp_sJfkeYTl96sKuuInsKgIR/image.png\" title=\"Rēzekne + Rēzeknes novads\"><img src=\"/user_uploads/49624/lp_sJfkeYTl96sKuuInsKgIR/image.png\"></a></div>",
+        "id": 344357243,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1679687836
+    },
+    {
+        "content": "<p>A message was moved from this topic to <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/.C4.93ku.20z.C4.ABm.C4.93.C5.A1anas.20projekti\">#general &gt; ēku zīmēšanas projekti</a> by <span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span>.</p>",
+        "id": 344357499,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1679687929
+    },
+    {
+        "content": "<p>Man sākumā pašai būtu jāiebrauc, kā tas viss strādā <span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span></p>",
+        "id": 344692292,
+        "sender_full_name": "Regita Zeiļa",
+        "timestamp": 1679850232
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/_Cvjm5DLcoSOUrGbSCGlbCt0/image.png\">task #46 amogus</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/_Cvjm5DLcoSOUrGbSCGlbCt0/image.png\" title=\"task #46 amogus\"><img src=\"/user_uploads/49624/_Cvjm5DLcoSOUrGbSCGlbCt0/image.png\"></a></div>",
+        "id": 344703494,
+        "sender_full_name": "Colby",
+        "timestamp": 1679856965
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"573577\">Regita Zeiļa</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/344692292\">said</a>:</p>\n<blockquote>\n<p>Man sākumā pašai būtu jāiebrauc, kā tas viss strādā <span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span></p>\n</blockquote>\n<p>Ojā, noteikti - cerams, uzlabojumi ēku (un arī citādā, jo nevar jau nociesties, kaut kur paralēli nepazīmējot ceļus vai ūdeņus...) ziņā pamanāmi :)</p>",
+        "id": 344940423,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1679942065
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/344703494\">said</a>:</p>\n<blockquote>\n<p><a href=\"/user_uploads/49624/_Cvjm5DLcoSOUrGbSCGlbCt0/image.png\">task #46 amogus</a></p>\n</blockquote>\n<p>Hah, pietiekami īpatns. Nez, ko tur centušies saveidot.</p>",
+        "id": 344940484,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1679942084
+    },
+    {
+        "content": "<p><span aria-label=\"100\" class=\"emoji emoji-1f4af\" role=\"img\" title=\"100\">:100:</span>  <a href=\"/user_uploads/49624/DM6OJjif-YqsQUXHPQe8PGyY/image.png\">!</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/DM6OJjif-YqsQUXHPQe8PGyY/image.png\" title=\"!\"><img src=\"/user_uploads/49624/DM6OJjif-YqsQUXHPQe8PGyY/image.png\"></a></div>",
+        "id": 346390325,
+        "sender_full_name": "Colby",
+        "timestamp": 1680455254
+    },
+    {
+        "content": "<p>Un labas ziņas - salabota laukumu sadalīšana, atkal strādā \"Split\" funkcija.<br>\nTo vērts izmantot apdzīvotās vietās, ja viena esošā laukuma kartēšana ir daudz par daudz.</p>",
+        "id": 346409315,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1680466434
+    },
+    {
+        "content": "<p>Nevaru izdomāt, kā šo vislabāk būtu iezīmēt.<br>\nbollard rinda gluži nebūs :)<br>\n<a href=\"/user_uploads/49624/lJRoXlUav9FVlIrCn1haGtVu/image.png\">Stabi</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/lJRoXlUav9FVlIrCn1haGtVu/image.png\" title=\"Stabi\"><img src=\"/user_uploads/49624/lJRoXlUav9FVlIrCn1haGtVu/image.png\"></a></div>",
+        "id": 346409552,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1680466566
+    },
+    {
+        "content": "<p>Izskatās pēc noliktavas balstiem. Es to visu ar <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Druins\">building=ruins</a> apvilktu. Sīkāk nojauktām ēkām es necenšos.</p>",
+        "id": 346409771,
+        "sender_full_name": "HellMap",
+        "timestamp": 1680466705
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Druins\">building=ruins</a> ir tāds biš neviennozīmīgs tags.<br>\nNo wiki:<br>\n\"However, according to the meaning of <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Abuilding\">building=*</a>, this tag should be used for a building constructed as ruins (for example sham or scenic ruins in an English landscape garden). Frequently the use of this tag is in conflict with other <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Abuilding\">building=*</a> values, for example, <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Druins\">building=ruins</a> used for a house that is abandoned (but still is a building) conflicts with tagging it as <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dhouse\">building=house</a>.\"</p>\n<p>Arī datu lietotājiem tas nav diezko ērti, ka kaut kāda stabu rinda pēkšņi var parādīties kā liela ēka...</p>",
+        "id": 346410868,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1680467394
+    },
+    {
+        "content": "<p>Jā, ruins ir viens no tiem tegiem, ko visi lieto no seniem laikiem kā \"ēkas paliekas\", bet ar laiku paliek vajadzība pāriet un life cycle prefixu. bet nu, nav jau pirmais un pēdējais izņēmums, kad tegs ar konkrētu vērtību ne to nozīmē, ko tegs parasti. Kaut vai tas pats <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aconstruction%3Dminor\">construction=minor</a> vai katrs otrais landuse.</p>",
+        "id": 346411146,
+        "sender_full_name": "HellMap",
+        "timestamp": 1680467563
+    },
+    {
+        "content": "<p>Uzreiz kartē var redzēt, kur <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bots</a> salicis adreses jaunajām ēkām <a href=\"/user_uploads/49624/xJIH-KGA6rMFNozsBsJVwp0F/rez-ek-bot-adr.png\">rez-ek-bot-adr.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/xJIH-KGA6rMFNozsBsJVwp0F/rez-ek-bot-adr.png\" title=\"rez-ek-bot-adr.png\"><img src=\"/user_uploads/49624/xJIH-KGA6rMFNozsBsJVwp0F/rez-ek-bot-adr.png\"></a></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 346521147,
+        "sender_full_name": "HellMap",
+        "timestamp": 1680518086
+    },
+    {
+        "content": "<p>Tās ir adreses bez atbilstošām ielām?<br>\nT.i., varbūt arī bez jebkādām ēkām pagaidām, kur tikai piešķirti adrešu punkti.</p>",
+        "id": 346528948,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1680519902
+    },
+    {
+        "content": "<p>Nē, nē, tie ir nodzēstie punkti/nodes, jo dati pielikti ēku kontūrām/ways - OSMCha rāda lielu sarkanu nodzēstam, zem viņa nevar redzēt zilās jaunā līnijas</p>",
+        "id": 346552669,
+        "sender_full_name": "HellMap",
+        "timestamp": 1680525206
+    },
+    {
+        "content": "<p>Bet ielu nosaukumi arī Rēzeknē daudzi nav, bet tās ir garas ielas un varētu ātri salikt</p>",
+        "id": 346553207,
+        "sender_full_name": "HellMap",
+        "timestamp": 1680525310
+    },
+    {
+        "content": "<p>Tur gan nesakritība, jo kādam patīk pilnie ielu nosaukumi, kas nav kadastrā, nevis saīsinātie ;)</p>",
+        "id": 346553370,
+        "sender_full_name": "HellMap",
+        "timestamp": 1680525345
+    },
+    {
+        "content": "<p>Te gan mājas kāds cītīgi ar adresēm savienojis vai ēku novietojumu izlabojis, bet <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bots</a> izņēmis atpakaļ punktus, jo kadastra dati nesakrīt ar lauku būdelēm <a href=\"/user_uploads/49624/v3DSWEi6y3EjZEi5jN3b9Q-x/adr-not-on-b.png\">adr-not-on-b.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/v3DSWEi6y3EjZEi5jN3b9Q-x/adr-not-on-b.png\" title=\"adr-not-on-b.png\"><img src=\"/user_uploads/49624/v3DSWEi6y3EjZEi5jN3b9Q-x/adr-not-on-b.png\"></a></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 346576018,
+        "sender_full_name": "HellMap",
+        "timestamp": 1680530244
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/346576018\">said</a>:</p>\n<blockquote>\n<p>Te gan mājas kāds cītīgi ar adresēm savienojis vai ēku novietojumu izlabojis, bet <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bots</a> izņēmis atpakaļ punktus, jo kadastra dati nesakrīt ar lauku būdelēm <a href=\"/user_uploads/49624/v3DSWEi6y3EjZEi5jN3b9Q-x/adr-not-on-b.png\">adr-not-on-b.png</a></p>\n</blockquote>\n<p>Tur arī jāuzmanās ar orto, jāizmanto tikai LĢIA/LVM (lai OSM datos nav nobīdes). Es adreses nepievienoju, ja punkts nav iezīmētajā ēkā, tāpat <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bots</a> izņems.<br>\nPing <span class=\"user-mention\" data-user-id=\"573577\">@Regita Zeiļa</span>, ja nu noder info augstāk :)</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 346576617,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1680530394
+    },
+    {
+        "content": "<p>Vizuālais progress.<br>\n<a href=\"/user_uploads/49624/vr5JeV8nwQZXAg77tL2KVk3M/image.png\">Rēzeknes novada ēkas</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/vr5JeV8nwQZXAg77tL2KVk3M/image.png\" title=\"Rēzeknes novada ēkas\"><img src=\"/user_uploads/49624/vr5JeV8nwQZXAg77tL2KVk3M/image.png\"></a></div>",
+        "id": 347258383,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1680730845
+    },
+    {
+        "content": "<p>Un vēl mazliet papildināts :)<br>\n<a href=\"/user_uploads/49624/8-VTQoSw29uZET8wj2TUqyaX/image.png\">Vairāk ēku</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/8-VTQoSw29uZET8wj2TUqyaX/image.png\" title=\"Vairāk ēku\"><img src=\"/user_uploads/49624/8-VTQoSw29uZET8wj2TUqyaX/image.png\"></a></div>",
+        "id": 347753491,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1680905798
+    },
+    {
+        "content": "<p>Jautājums tiem, kuri ir šeit zīmējuši.<br>\nJa jūsu zīmētam laukumam tiek pievienoti komentāri, vai saņemat kādu notifikāciju?</p>",
+        "id": 347754832,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1680906573
+    },
+    {
+        "content": "<p>tur saitā ir notification saraksts</p>",
+        "id": 347755230,
+        "sender_full_name": "HellMap",
+        "timestamp": 1680906772
+    },
+    {
+        "content": "<p>Ja to neskatās speciāli, tad laikam nekāds epasts vai paziņojums nenāk, vai ne?</p>",
+        "id": 347757023,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1680907645
+    },
+    {
+        "content": "<p>neatceros, ka būtu kaut ko saņēmis</p>",
+        "id": 347757416,
+        "sender_full_name": "HellMap",
+        "timestamp": 1680907813
+    },
+    {
+        "content": "<p>Progress progresē.<br>\n<a href=\"/user_uploads/49624/TGevRRF8rf7ZlflUoD-hxont/image.png\">Rēzeknes novada ēkas</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/TGevRRF8rf7ZlflUoD-hxont/image.png\" title=\"Rēzeknes novada ēkas\"><img src=\"/user_uploads/49624/TGevRRF8rf7ZlflUoD-hxont/image.png\"></a></div>",
+        "id": 348071090,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681062052
+    },
+    {
+        "content": "<p>#54 tik daudz drupu... bija kur izpausties :) Nezin, kas tas bijis par objektu ar izbetonēto laukumu un milzīgās ēkas drupām vidū?</p>",
+        "id": 348076696,
+        "sender_full_name": "Andris",
+        "timestamp": 1681064729
+    },
+    {
+        "content": "<p>Laikam vajadzēs kādu linku, nezinu, kā pēc numura atrast varētu.</p>",
+        "id": 348077050,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681064931
+    },
+    {
+        "content": "<p><a href=\"https://tasks.osm.ch/projects/37/tasks?search=54\">https://tasks.osm.ch/projects/37/tasks?search=54</a></p>",
+        "id": 348138490,
+        "sender_full_name": "Andris",
+        "timestamp": 1681104551
+    },
+    {
+        "content": "<p>4 messages were moved from this topic to <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/lielas.20drupas.20R.C4.93zeknes.20novad.C4.81\">#general &gt; lielas drupas Rēzeknes novadā</a> by <span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span>.</p>",
+        "id": 348274131,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1681149446
+    },
+    {
+        "content": "<p>Starp citu, ja kāds nonāk pie laukuma, kur daudz ēku un grūti saņemties ķerties klāt, droši dalām sīkāk.<br>\nNoteikti nevajag to darīt laukumos ar retu apbūvi, bet apdzīvotās vietās tas būtu labāk. Arī validējot būs vieglāk pamanīt ko labojamu, un būs vieglāk pieķerties :)<br>\nEs tā Kaunatu sadalīju - lai gan tur jau pagājšgad lielu daļu ēku biju sazīmējis, ar visu vienā piegājienā negribējās cīnīties.</p>",
+        "id": 348559529,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681246098
+    },
+    {
+        "content": "<p>Piesēdos vakarā atkal biš ēkas pazīmēt.<br>\nPrincipā, ja kārtīgi zīmē, šādu gandrīz vai prasās dalīt 4 daļās =)<br>\n<a href=\"/user_uploads/49624/E4YcET-GJTrHR2oWYBQu05MD/image.png\">Malta</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/E4YcET-GJTrHR2oWYBQu05MD/image.png\" title=\"Malta\"><img src=\"/user_uploads/49624/E4YcET-GJTrHR2oWYBQu05MD/image.png\"></a></div>",
+        "id": 360897736,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1684962547
+    },
+    {
+        "content": "<p>Vienmēr gribās uzprasīt - priekš kam tev segmentiem jāzin numurs pēc kārtas?</p>",
+        "id": 360898636,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684962948
+    },
+    {
+        "content": "<p>Var vieglāk pamanīt kļūdas, kur ir ceļu paš-pārklāšanās vai citas dīvainības.</p>",
+        "id": 360899316,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1684963216
+    },
+    {
+        "content": "<p>Vēl mazliet pazīmēju ēkas te. Vismaz man ir sajūta, ka lielāko daļu no atlikušajiem laukumiem būs jādala vismaz 4, varbūt vairāk daļās.<br>\nGan zīmēšanu prasās dalīt īsākos laikos, gan validācija laukumam ar daudzām ēkām ir grūta.</p>",
+        "id": 382749184,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1691439256
+    },
+    {
+        "content": "<p>Bija taisnība, ka projektam vajag savu tagu.<br>\nŠobrīd statistika ir varbūt mazliet neprecīza - bet tomēr 7300 ēkas iezīmētas.<br>\n<a href=\"/user_uploads/49624/4fHa3jQeEHY8RCILi3n2HOnP/image.png\">projekta statistika</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/4fHa3jQeEHY8RCILi3n2HOnP/image.png\" title=\"projekta statistika\"><img src=\"/user_uploads/49624/4fHa3jQeEHY8RCILi3n2HOnP/image.png\"></a></div>",
+        "id": 383221854,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1691576461
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/4eyvJMOg8w4HY3uXLAdBFZwm/image.png\">log-in</a><br>\n:(</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/4eyvJMOg8w4HY3uXLAdBFZwm/image.png\" title=\"log-in\"><img src=\"/user_uploads/49624/4eyvJMOg8w4HY3uXLAdBFZwm/image.png\"></a></div>",
+        "id": 383233640,
+        "sender_full_name": "Colby",
+        "timestamp": 1691578538
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/383233640\">said</a>:</p>\n<blockquote>\n<p><a href=\"/user_uploads/49624/4eyvJMOg8w4HY3uXLAdBFZwm/image.png\">log-in</a><br>\n:(</p>\n</blockquote>\n<p>Gribēju pievienoties projektam, bet arī diemžēl neizdodas pieslēgties.</p>",
+        "id": 386344922,
+        "sender_full_name": "Liga Rutka",
+        "timestamp": 1692610116
+    },
+    {
+        "content": "<p>Kā ar šo linku (https http vietā)?<br>\n<a href=\"https://tasks.osm.ch/projects/37/tasks\">https://tasks.osm.ch/projects/37/tasks</a></p>",
+        "id": 386345810,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1692610379
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/386345810\">said</a>:</p>\n<blockquote>\n<p>Kā ar šo linku (https http vietā)?<br>\n<a href=\"https://tasks.osm.ch/projects/37/tasks\">https://tasks.osm.ch/projects/37/tasks</a></p>\n</blockquote>\n<p>Jā, ielogoties tagad izdevās, paldies :)! Tālāk gan mēģināšu, kad būs brīvāks brītiņš, ceru uz \"gludu\" turpinājumu :).</p>",
+        "id": 386346544,
+        "sender_full_name": "Liga Rutka",
+        "timestamp": 1692610581
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/W5eLHEeEmBGhsFQSwmXzK0Sp/image.png\">YOSMHM</a><br>\nvar sākt pamanīt novada robežas<br>\n<a href=\"https://yosmhm.neis-one.org/?Colbertson\">https://yosmhm.neis-one.org/?Colbertson</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/W5eLHEeEmBGhsFQSwmXzK0Sp/image.png\" title=\"YOSMHM\"><img src=\"/user_uploads/49624/W5eLHEeEmBGhsFQSwmXzK0Sp/image.png\"></a></div>",
+        "id": 386361072,
+        "sender_full_name": "Colby",
+        "timestamp": 1692614960
+    },
+    {
+        "content": "<p>Dažos laukumos ēkas nav redzamas nemaz - un nevar saprast, vai tās vairs nav, vai veiksmīgi paslēpušās zem kokiem.<br>\nEs piedāvāju šādos gadījumos ēkas nezīmēt, jo kadastra dati noteikti nav izmantojami.<br>\nJa ēkai vismaz daļa redzama kādā ortofoto slānī, cenšamies iezīmēt, cik nu labi var. Ja nav redzams nekas, nezīmējam.<br>\n<a href=\"/user_uploads/49624/ncYFVcxjeY2BSD1_QHugz7L7/image.png\">ēkas ir, ēku nav</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/ncYFVcxjeY2BSD1_QHugz7L7/image.png\" title=\"ēkas ir, ēku nav\"><img src=\"/user_uploads/49624/ncYFVcxjeY2BSD1_QHugz7L7/image.png\"></a></div><p>Vai šāda pieeja šķiet OK?</p>",
+        "id": 386578593,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1692700858
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/IsdPxWK7J8SFoJqmeVxbN6hW/image.png\">lidar</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/IsdPxWK7J8SFoJqmeVxbN6hW/image.png\" title=\"lidar\"><img src=\"/user_uploads/49624/IsdPxWK7J8SFoJqmeVxbN6hW/image.png\"></a></div>",
+        "id": 386581971,
+        "sender_full_name": "Colby",
+        "timestamp": 1692702031
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/386581971\">said</a>:</p>\n<blockquote>\n<p><a href=\"/user_uploads/49624/IsdPxWK7J8SFoJqmeVxbN6hW/image.png\">lidar</a></p>\n</blockquote>\n<p>Kur tādu lidar slāni var dabūt? <br>\nDažviet diezgan daudz ēku kokos un nevar saprast, vai 5-10 gadu laikā, tās pusbrukušas, vai tomēr koki izauguši :).</p>",
+        "id": 386585179,
+        "sender_full_name": "Liga Rutka",
+        "timestamp": 1692703322
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"581217\">Liga Rutka</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/386585179\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/386581971\">said</a>:</p>\n<blockquote>\n<p><a href=\"/user_uploads/49624/IsdPxWK7J8SFoJqmeVxbN6hW/image.png\">lidar</a></p>\n</blockquote>\n<p>Kur tādu lidar slāni var dabūt? </p>\n</blockquote>\n<p><a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/lidar\">#general &gt; lidar</a></p>",
+        "id": 386586283,
+        "sender_full_name": "i-ky",
+        "timestamp": 1692703752
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts/near/386581971\">said</a>:</p>\n<blockquote>\n<p><a href=\"/user_uploads/49624/IsdPxWK7J8SFoJqmeVxbN6hW/image.png\">lidar</a></p>\n</blockquote>\n<p>Vai ir bijuši kādi salīdzinājumi, kā ar sagruvušām ēkām, pamatiem utt?<br>\nNeizskatās varbūt tik pārliecinoši, lai zīmētu (ja vien nav dabā redzēts, tad var izmantot precizēšanai).</p>",
+        "id": 386586801,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1692703905
+    },
+    {
+        "content": "<p>Starp citu, atceramies - 99% ēku noder orthogonalise (\"make square\"), lai kontūras ģeometriski smukākas.</p>",
+        "id": 386591351,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1692705510
+    },
+    {
+        "content": "<p>Cik labi, ka šeit kāds uzraksta :). Man visas iepriekšējās ēkas šķības :) - tikai tagad ieraudzīju tādu funkciju :). Mūžu dzīvo, mūžu mācies :). Un kāds teica, ka te viss tik vienkārši un nevar kļūdīties :D - re kā var sazīmēt neglītu karti :D.</p>",
+        "id": 386592494,
+        "sender_full_name": "Liga Rutka",
+        "timestamp": 1692705940
+    },
+    {
+        "content": "<p>Nēnē, kļūdīties tieši drīkst, jo tā vislabāk kaut ko var iemācīties ;)</p>",
+        "id": 386597718,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1692707643
+    },
+    {
+        "content": "<p>Ir nedaudz progress aizpildīto lauciņu ziņā.<br>\n\"Validation\" gan ir grūta lieta, ja detalizēti gribas norādīt, kur kas vēl labojams. Derētu kaut kāds vizuāls veids, kā to darīt :)<br>\n<a href=\"/user_uploads/49624/X9dLjat5Czi2Rs7a79MFh74x/image.png\">statuss</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/X9dLjat5Czi2Rs7a79MFh74x/image.png\" title=\"statuss\"><img src=\"/user_uploads/49624/X9dLjat5Czi2Rs7a79MFh74x/image.png\"></a></div>",
+        "id": 387444827,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1693070935
+    },
+    {
+        "content": "<p>Es pie validišēnas izlaboju kļūdas, liekas ātrāk nekā kkādu sarakstu veidot</p>",
+        "id": 387445242,
+        "sender_full_name": "Colby",
+        "timestamp": 1693071336
+    },
+    {
+        "content": "<p>Noteikti daudz ātrāk, bet šķiet, ka ilgtermiņā tā sanāktu mazāk labojamais, jo tad mēs viens otram palīdzam precīzāk sazīmēt.</p>",
+        "id": 387512863,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1693128304
+    },
+    {
+        "content": "<p>Ēkas Rēzeknes novadā palēnām turpinām pievienot un uzlabot :)<br>\nLai gan izskatās, ka tieši šodien TM lapā nobira karte - redzēs, vai/kad to izdosies salabot.</p>\n<p><a href=\"/user_uploads/49624/6ZjDxy7DyLlEedhqiRAm_8ev/image.png\">grafiks</a><br>\n<a href=\"/user_uploads/49624/JOspDc3KLuNsLoMHLgDYVgiu/image.png\">uzdevumu skaits</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/6ZjDxy7DyLlEedhqiRAm_8ev/image.png\" title=\"grafiks\"><img src=\"/user_uploads/49624/6ZjDxy7DyLlEedhqiRAm_8ev/image.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/JOspDc3KLuNsLoMHLgDYVgiu/image.png\" title=\"uzdevumu skaits\"><img src=\"/user_uploads/49624/JOspDc3KLuNsLoMHLgDYVgiu/image.png\"></a></div>",
+        "id": 412003355,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1704830482
+    },
+    {
+        "content": "<p>Karte daļēji salabota, lai gan nav pārāk skaidra daudzos tuvinājumos.</p>\n<p>Edit: vieglākai projekta piekļuvei, te links:<br>\n<a href=\"https://tasks.osm.ch/projects/37/tasks/\">https://tasks.osm.ch/projects/37/tasks/</a></p>",
+        "id": 412185702,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1704906596
+    },
+    {
+        "content": "<p>Starp citu, es vēl biežāk tagad apgabalus dalu mazākās daļās.<br>\nJa ir tāds \"ehhh, te daudz ēku, baigā zīmēšana/labošana, nevar pieķerties...\" - dalu :)<br>\nArī validācijā mazāki apgabali vieglāk pētāmi. Un labāk jau progress pa bišķim, nekā apstāšanās pārāk sarežģītu apgabalu dēļ.</p>",
+        "id": 412346700,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1704981197
+    },
+    {
+        "content": "<p>Man drīzāk \"atnāks 8. ortocikls un atkal varēs pa jaunu zīmēt\" <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>",
+        "id": 412347168,
+        "sender_full_name": "HellMap",
+        "timestamp": 1704981350
+    },
+    {
+        "content": "<p>Kad vēl tas būs legāli pieejams...</p>",
+        "id": 412348676,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1704981792
+    },
+    {
+        "content": "<p>Tas no <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/Ortofoto.208.2E.20cikls\">#general &gt; Ortofoto 8. cikls</a>  Vai tad tas nebūs automātiski kā LVM (atvērtie) ortofoto dati? Vai 6./7. ciklam/mozaīkai kāds atļauju prasīja? Tagad arī 8. cikls mozaīkā un to visi lieto. Mēs taču netaisīsim revertu visiem Latvijas rietumiem par pēdējo gadu...</p>",
+        "id": 412349705,
+        "sender_full_name": "HellMap",
+        "timestamp": 1704982120
+    },
+    {
+        "content": "<p>Iepriekšējie bija ar atvērtām licencēm kaut kad, bet tur varbūt arī atkarīgs no izveides datuma. Tik sīki nezinu.\"</p>\n<p>Par kartēšanu - es tā ceru, ka vajadzīgās izmaiņas nebūs tik milzīgas, ja šajā fāzē tā rūpīgi sazīmēsim.<br>\nBūs kāda ēka sagruvusi, kāda jauna uzcelta, kādu varēs precizēt.</p>",
+        "id": 412358918,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1704984613
+    },
+    {
+        "content": "<p>Pašu datus kā atvērtos LĢIA pēdējos publicēja 6. ciklu. Bet LVM GEO WMS ir brīvpieejas, tā kā OK to izmantot. Nu, ja ļoti grib, var jau no viņiem rakstisku atļauju priekš OSM paprasīt.</p>",
+        "id": 412408271,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1705001689
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/IQozfXOJZTJqHBKXZD7eij7P/image.png\">Ēku skaita pieaugums</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/IQozfXOJZTJqHBKXZD7eij7P/image.png\" title=\"Ēku skaita pieaugums\"><img src=\"/user_uploads/49624/IQozfXOJZTJqHBKXZD7eij7P/image.png\"></a></div>",
+        "id": 418328756,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1706293318
+    }
+]

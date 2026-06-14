@@ -1,0 +1,128 @@
+[
+    {
+        "content": "<p>Labdien. Vai kāds var lūdzu palīdzēt, vai ir ērtāks veids kā rediģēt jau eksistējošu līniju, bez dubultklikšķiem? Vai es varu piemērām izdzēst daļu no līnijas, un pēc tam izveidot jaunu līniju izdzēstas daļas vietā?</p>",
+        "id": 374390211,
+        "sender_full_name": "devinoff_",
+        "timestamp": 1689110865
+    },
+    {
+        "content": "<p>Sveiki! Runa drošvien par iD redaktoru - to, kas no OSM saita. Izvēlies uz līnijas punktu un uztaisi Split ar X. Tad lieko daļu var nodzēst un zīmēt no palikušās. Izvēloties (jebkuras) līnijas pēdējo punktu var turpināt zīmēt ar Continue ar A.</p>",
+        "id": 374392732,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689111945
+    },
+    {
+        "content": "<p>(Ar Continue/A var turpināt arī ja punkts \"pieder\" 2 vai varāk līnijām, bet vajag izvēlēties gan punktu gan līniju ar Shift)</p>",
+        "id": 374392898,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689112017
+    },
+    {
+        "content": "<p>Varbūt nav pamanīts, bet esošajām līnijām vēl pa vidu ir trīsstūrītis, kas norāda virzienu - to arī var pavilk un tas uztaisīs jaunu punktu pa vidu.</p>",
+        "id": 374393091,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689112099
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/k.C4.81.20redi.C4.A3.C4.93t.20eksist.C4.93jo.C5.A1u.20l.C4.ABniju/near/374392732\">said</a>:</p>\n<blockquote>\n<p>Sveiki! Runa drošvien par iD redaktoru - to, kas no OSM saita. Izvēlies uz līnijas punktu un uztaisi Split ar X. Tad lieko daļu var nodzēst un zīmēt no palikušās. Izvēloties (jebkuras) līnijas pēdējo punktu var turpināt zīmēt ar Continue ar A.</p>\n</blockquote>\n<p>Paldies. Viss sanāca, tikai vai es varu beigās apvienot 2 līnijas? Piemēram es gribu rediģēt daļu no Gaujas, bet manuprāt izskatīsies slikti, ja būs splits upes vidū.</p>",
+        "id": 374439997,
+        "sender_full_name": "devinoff_",
+        "timestamp": 1689113371
+    },
+    {
+        "content": "<p>Ar Shift var izvēlēties 2 līnijas un Merge ar C. (Tā var savienot daudz ko, piemēram ēku ar adreses punktu.)</p>",
+        "id": 374440475,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689113578
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/k.C4.81.20redi.C4.A3.C4.93t.20eksist.C4.93jo.C5.A1u.20l.C4.ABniju/near/374440475\">said</a>:</p>\n<blockquote>\n<p>Ar Shift var izvēlēties 2 līnijas un Merge ar C. (Tā var savienot daudz ko, piemēram ēku ar adreses punktu.)</p>\n</blockquote>\n<p>Liels jums paldies!</p>",
+        "id": 374440763,
+        "sender_full_name": "devinoff_",
+        "timestamp": 1689113705
+    },
+    {
+        "content": "<p>Ar ļoti garām līnijām gan vajadzētu uzmanīgi, jo tur vienam no gabaliem būs vēsture, kuru nebūtu slikti saglabāt. Tur tā gluži izdzēst iD arī neizdosies, jo navarēs redzēt visu. Un Upēm vēl ir relācijas, kur var sabojāties. Principā visu var izdarīt, bet vienkārši vajag paaugstināti uzmanību tādām līnijām.</p>",
+        "id": 374440775,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689113713
+    },
+    {
+        "content": "<p>Bet teorētiski jā - var upi sadalīt 3 līnijās, pa vidu izdzēst, tad no viena gala sazīmēt smalkāk un beigās savienot. Tā kā upes ir garas, tad vēsture paliks vispirms uz viena no garajiem gabaliem un savienojot atkal būs oriģinālam. Personīgi man tā reti sanāk zīmēt, bet principā tam vajadzētu strādāt.</p>",
+        "id": 374441297,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689113947
+    },
+    {
+        "content": "<p>Varbūt arī nevajag dzēst to vienu daļu, bet pēc split pamainīt apzīmējumus (tagus).<br>\nVieglāk būtu ar konkrētu piemēru - kādu daļu bija vēlme dzēst?</p>",
+        "id": 374448843,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1689117104
+    },
+    {
+        "content": "<p>Un ar kādu nolūku - piemēram, vienam ceļam (way) nevar būt dažādiem posmiem dažādi tagi.<br>\nJa tas nepieciešams, tad vienmēr nāksies split un atstāt dažādus ceļus ar tiem atšķirīgajiem tagiem.</p>",
+        "id": 374449108,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1689117212
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/k.C4.81.20redi.C4.A3.C4.93t.20eksist.C4.93jo.C5.A1u.20l.C4.ABniju/near/374441297\">said</a>:</p>\n<blockquote>\n<p>Bet teorētiski jā - var upi sadalīt 3 līnijās, pa vidu izdzēst, tad no viena gala sazīmēt smalkāk un beigās savienot. Tā kā upes ir garas, tad vēsture paliks vispirms uz viena no garajiem gabaliem un savienojot atkal būs oriģinālam. Personīgi man tā reti sanāk zīmēt, bet principā tam vajadzētu strādāt.</p>\n</blockquote>\n<p>Šādām darbībām nenāk prātā piemērots scenārijs - ja gribas kādu posmu precizēt, to vislabāk ir darīt esošo objektu (nodes, ceļi) ietvaros.<br>\nVai ir kāda specifiska situācija, kad šāda dzēšana nepieciešama?</p>",
+        "id": 374449339,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1689117307
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/k.C4.81.20redi.C4.A3.C4.93t.20eksist.C4.93jo.C5.A1u.20l.C4.ABniju/near/374449339\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/k.C4.81.20redi.C4.A3.C4.93t.20eksist.C4.93jo.C5.A1u.20l.C4.ABniju/near/374441297\">said</a>:</p>\n<blockquote>\n<p>Bet teorētiski jā - var upi sadalīt 3 līnijās, pa vidu izdzēst, tad no viena gala sazīmēt smalkāk un beigās savienot. Tā kā upes ir garas, tad vēsture paliks vispirms uz viena no garajiem gabaliem un savienojot atkal būs oriģinālam. Personīgi man tā reti sanāk zīmēt, bet principā tam vajadzētu strādāt.</p>\n</blockquote>\n<p>Šādām darbībām nenāk prātā piemērots scenārijs - ja gribas kādu posmu precizēt, to vislabāk ir darīt esošo objektu (nodes, ceļi) ietvaros.<br>\nVai ir kāda specifiska situācija, kad šāda dzēšana nepieciešama?</p>\n</blockquote>\n<p><a href=\"/user_uploads/49624/Vp0ZryAPq6BjEUbHLIQ7pBLl/image.png\">image.png</a><br>\nTe piemērs. Ar gaiši zilu līniju ir atzīmētās novadu robežas, bet ar tirkīzu līniju ir apzīmēta Gauja.</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/Vp0ZryAPq6BjEUbHLIQ7pBLl/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/Vp0ZryAPq6BjEUbHLIQ7pBLl/image.png\"></a></div>",
+        "id": 374454320,
+        "sender_full_name": "devinoff_",
+        "timestamp": 1689119966
+    },
+    {
+        "content": "<p>Jā, te droši var Gauju precizēt - šķiet, var iztikt bez ceļa dalīšanas (split).<br>\nVai nāk prātā kāds iemesls, kāpēc Gauju vajadzētu dalīt un/vai daļu dzēst?</p>",
+        "id": 374456948,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1689121258
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/k.C4.81.20redi.C4.A3.C4.93t.20eksist.C4.93jo.C5.A1u.20l.C4.ABniju/near/374456948\">said</a>:</p>\n<blockquote>\n<p>Jā, te droši var Gauju precizēt - šķiet, var iztikt bez ceļa dalīšanas (split).<br>\nVai nāk prātā kāds iemesls, kāpēc Gauju vajadzētu dalīt un/vai daļu dzēst?</p>\n</blockquote>\n<p>Man šķiet, jo ātrāk ir zīmēt jaunu līniju, nevis rediģēt eksistējošo.</p>",
+        "id": 374457311,
+        "sender_full_name": "devinoff_",
+        "timestamp": 1689121426
+    },
+    {
+        "content": "<p>splitot divās vietās, vidējo daļu dzēst, pēc tam paņemt vienu galu no pirmās līnijas un savienot to ar otru. pēc tam merge tās, lai būtu atkal viena līnija.</p>",
+        "id": 374457669,
+        "sender_full_name": "devinoff_",
+        "timestamp": 1689121564
+    },
+    {
+        "content": "<p>Hmm, OSM \"pareizi\" skaitās uzlabot esošo, ne dzēst - tā tomēr labāk redzamas gan izmaiņas, gan saglabājas pārējo agrākā veikuma vēsture.<br>\nVarbūt vērts pamēģināt citus rīkus, ja gribas ātrāku/\"advancētāku\" zīmēšanu - piemēram, JOSM \"Improve Way Accuracy\" rīks te var noderēt: <a href=\"https://josm.openstreetmap.de/wiki/Help/Action/ImproveWayAccuracy\">https://josm.openstreetmap.de/wiki/Help/Action/ImproveWayAccuracy</a> .</p>",
+        "id": 374458279,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1689121812
+    },
+    {
+        "content": "<p>Atradu pat video, kas to mazliet parāda :)<br>\n<a href=\"https://youtu.be/TiuQbHCEHTA?t=618\">YouTube - Map Roads using JOSM like a Pro</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"TiuQbHCEHTA\" href=\"https://youtu.be/TiuQbHCEHTA?t=618\"><img src=\"https://uploads.zulipusercontent.net/d908eb6ad981d20583f2d5f3ef940c7555a775e3/68747470733a2f2f692e7974696d672e636f6d2f76692f54697551624843454854412f64656661756c742e6a7067\"></a></div>",
+        "id": 374458831,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1689122047
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/k.C4.81.20redi.C4.A3.C4.93t.20eksist.C4.93jo.C5.A1u.20l.C4.ABniju/near/374458831\">said</a>:</p>\n<blockquote>\n<p>Atradu pat video, kas to mazliet parāda <span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span><br>\n<a href=\"https://youtu.be/TiuQbHCEHTA?t=618\">https://youtu.be/TiuQbHCEHTA?t=618</a></p>\n</blockquote>\n<p>Paldies! Izskatās interesanti, obligāti pamēģināšu.</p>",
+        "id": 374459550,
+        "sender_full_name": "devinoff_",
+        "timestamp": 1689122361
+    },
+    {
+        "content": "<p>Super, lai izdodas - un liels paldies par datu uzlabošanu :)</p>",
+        "id": 374460134,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1689122595
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"577761\">devinoff_</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/k.C4.81.20redi.C4.A3.C4.93t.20eksist.C4.93jo.C5.A1u.20l.C4.ABniju/near/374457311\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/k.C4.81.20redi.C4.A3.C4.93t.20eksist.C4.93jo.C5.A1u.20l.C4.ABniju/near/374456948\">said</a>:</p>\n<blockquote>\n<p>Jā, te droši var Gauju precizēt - šķiet, var iztikt bez ceļa dalīšanas (split).<br>\nVai nāk prātā kāds iemesls, kāpēc Gauju vajadzētu dalīt un/vai daļu dzēst?</p>\n</blockquote>\n<p>Man šķiet, jo ātrāk ir zīmēt jaunu līniju, nevis rediģēt eksistējošo.</p>\n</blockquote>\n<p>\"Līnija\" nav vienkārši līnija, tā ir līnija ar tagiem. Man liekas, ka sinhronizēt tagus jaunai līnijas posmam ar veco būs diezgan laikietilpīgs process.</p>\n<p>Es arī lietoju iD un pabīdīt līniju vai precizēt to nav nekādas problēmas. Var \"vilkt\" aiz eksistējošiem <img alt=\":node:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40175.png\" title=\"node\"> (apaļie punkti), lai vienkārši pabīdīt. Var vilkt aiz posmu viduspunktiem (trīsstūrīši), lai veidotos jaunie <img alt=\":node:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40175.png\" title=\"node\">. Par to arī stāsta iD Walkthrough (<em>Help</em> (H) -&gt; <em>Start the Walkthrough</em>).</p>",
+        "id": 374504885,
+        "sender_full_name": "i-ky",
+        "timestamp": 1689144403
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p><a href=\"/user_uploads/49624/5UN2fT-eU4CeZkrVAewC3qgi/image.png\">Ielas nesakritība ar adresēm</a><br>\n<a href=\"https://nominatim.org/qa/#map=16.85/56.98/24.10&amp;layer=addr_street_wrong_name\">https://nominatim.org/qa/#map=16.85/56.98/24.10&amp;layer=addr_street_wrong_name</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/5UN2fT-eU4CeZkrVAewC3qgi/image.png\" title=\"Ielas nesakritība ar adresēm\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"353x435\" src=\"/user_uploads/thumbnail/49624/5UN2fT-eU4CeZkrVAewC3qgi/image.png/840x560.webp\"></a></div>",
+        "id": 523093229,
+        "sender_full_name": "Colby",
+        "timestamp": 1749475434
+    },
+    {
+        "content": "<p>Es parasti <a href=\"https://tools.geofabrik.de/osmi/?view=addresses&amp;lon=24.10260&amp;lat=56.97911&amp;zoom=17&amp;baselayer=Geofabrik%20Standard&amp;opacity=1.00&amp;overlays=street_not_found\">https://tools.geofabrik.de/osmi/?view=addresses&amp;lon=24.10260&amp;lat=56.97911&amp;zoom=17&amp;baselayer=Geofabrik%20Standard&amp;opacity=1.00&amp;overlays=street_not_found</a> skatos</p>",
+        "id": 523093674,
+        "sender_full_name": "HellMap",
+        "timestamp": 1749475600
+    },
+    {
+        "content": "<p>Kadastrā tagad ir pareizi.  <br>\n<a href=\"/user_uploads/49624/tWM2n9kSxb0Hurzbx1jMU5SA/image.png\">image.png</a> Izksatās, ka izlabots bija <code>addr:street=Mazā Vējzaķsalas iela</code> <code>old_addr:street=Mazā Vējzaķsala</code></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/tWM2n9kSxb0Hurzbx1jMU5SA/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"930x677\" src=\"/user_uploads/thumbnail/49624/tWM2n9kSxb0Hurzbx1jMU5SA/image.png/840x560.webp\"></a></div>",
+        "id": 523094128,
+        "sender_full_name": "HellMap",
+        "timestamp": 1749475748
+    },
+    {
+        "content": "<p>to ieliku kā piemēru nevis kā jautājumu<br>\nrīks labs, vienīgi ieplānotās ielas/adreses mazliet nojauc skatu</p>",
+        "id": 523097369,
+        "sender_full_name": "Colby",
+        "timestamp": 1749476910
+    },
+    {
+        "content": "<p>Es plānotiem lieku <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dproposed\">highway=proposed</a>, bieži tie pārtop par <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dconstruction\">highway=construction</a> un, ja ir no kadastra laicīgi iezīmēts, mazāka varbūtība, ka būs šķībi iezīmēts pēc tam</p>",
+        "id": 523101338,
+        "sender_full_name": "HellMap",
+        "timestamp": 1749478301
+    },
+    {
+        "content": "<p>Saldus!<br>\n<a href=\"/user_uploads/49624/S9Dn2fvuC6PSlMJ9feH0Tyqo/image.png\">achavi</a><br>\n<a href=\"/user_uploads/49624/QjJd5AKjEV9eTR7I5pXPU7mJ/image.png\">nominatim qa</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/S9Dn2fvuC6PSlMJ9feH0Tyqo/image.png\" title=\"achavi\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"1011x799\" src=\"/user_uploads/thumbnail/49624/S9Dn2fvuC6PSlMJ9feH0Tyqo/image.png/840x560.webp\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/QjJd5AKjEV9eTR7I5pXPU7mJ/image.png\" title=\"nominatim qa\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"1075x892\" src=\"/user_uploads/thumbnail/49624/QjJd5AKjEV9eTR7I5pXPU7mJ/image.png/840x560.webp\"></a></div>",
+        "id": 523113375,
+        "sender_full_name": "Colby",
+        "timestamp": 1749482284
+    },
+    {
+        "content": "<p>Es ap pierrīgu biju daudz salicis trūktošās ielas pēc tam, kad adreses parādījās.  <br>\n<a href=\"/user_uploads/49624/lt8gg2qHemVdLMJ6YKIe7itt/before.png\">before.png</a><br>\n<a href=\"/user_uploads/49624/sgcxoS1a3SOf-pJqVviABbFl/now.png\">now.png</a><br>\nBet tālāk neesmu ticis - baigais darbs.</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/lt8gg2qHemVdLMJ6YKIe7itt/before.png\" title=\"before.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"1857x1107\" src=\"/user_uploads/thumbnail/49624/lt8gg2qHemVdLMJ6YKIe7itt/before.png/840x560.webp\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/sgcxoS1a3SOf-pJqVviABbFl/now.png\" title=\"now.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"1386x929\" src=\"/user_uploads/thumbnail/49624/sgcxoS1a3SOf-pJqVviABbFl/now.png/840x560.webp\"></a></div>",
+        "id": 523119039,
+        "sender_full_name": "HellMap",
+        "timestamp": 1749483876
+    },
+    {
+        "content": "<p>Rīgas ziemeļos aizdomīgs pleķis. Jaunas ielas?</p>",
+        "id": 523131288,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1749487537
+    },
+    {
+        "content": "<p>Pāris vietās adreses ļoti tālu no ielām. Minēts bija <a class=\"stream-topic\" data-stream-id=\"360959\" href=\"/#narrow/channel/360959-adreses/topic/att.C4.81lums.20no.20adreses.20l.C4.ABdz.20ielai/with/320486942\">#adreses &gt; attālums no adreses līdz ielai</a></p>",
+        "id": 523133338,
+        "sender_full_name": "HellMap",
+        "timestamp": 1749488139
+    },
+    {
+        "content": "<p>Centrā pārsvarā adresē \"XXX laukums\", kam OSM nav nosaukuma \"ielai\"</p>",
+        "id": 523133452,
+        "sender_full_name": "HellMap",
+        "timestamp": 1749488179
+    }
+]

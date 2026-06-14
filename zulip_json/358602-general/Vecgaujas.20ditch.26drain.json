@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>Vai tiešām visi šie <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Awaterway%3Dditch\">waterway=ditch</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Awaterway%3Ddrain\">waterway=drain</a> saucās \"Vecgauja\"?</p>\n<div class=\"codehilite\" data-code-language=\"overpass\"><pre><span></span><code>[out:json][timeout:50];\n{{geocodeArea:Latvia}}-&gt;.searchArea;\nway[name=Vecgauja](area.searchArea)-&gt;.Vecgauja;\n(\n  way.Vecgauja[waterway=ditch];\n  way.Vecgauja[waterway=drain];\n);\nout geom;\n</code></pre></div>\n<p>Pēc <a href=\"https://lv.wikipedia.org/wiki/Vecgauja\">Vikipēdijas</a> spriežot, pati Vecgauja ir tikai tā daļa, kas ir Carnikavā.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://lv.wikipedia.org/wiki/Vecgauja\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/d33fcab6872df0dea8ac365b3e9bbc56bc9d889b\\/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f642f64362f4c61747669615f72656c6965665f6c6f636174696f6e5f6d61702e7376672f36343070782d4c61747669615f72656c6965665f6c6f636174696f6e5f6d61702e7376672e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://lv.wikipedia.org/wiki/Vecgauja\" title=\"Vecgauja — Vikipēdija\">Vecgauja — Vikipēdija</a></div><div class=\"message_embed_description\">Vecgauja [1] ir Gaujas kreisā krasta atteka Ādažu novadā. \n</div></div></div>",
+        "id": 323496405,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674656331
+    },
+    {
+        "content": "<p>Es vairs precīzi neatceros, bet es kaut kad skatījos tieši uz šito, kad zīmēju kaut ko tur (laikam teritoriālo plāno) un tas viss bija Vecgauja, jā. Bet iespējams, ka es ne to atceros un vispār neko nezinu. <span aria-label=\"clown\" class=\"emoji emoji-1f921\" role=\"img\" title=\"clown\">:clown:</span></p>",
+        "id": 323508914,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674659238
+    },
+    {
+        "content": "<p>Bet tas ditch gan aizdomīgi.</p>",
+        "id": 323511653,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674659808
+    },
+    {
+        "content": "<p>Vispār es nezinu, kur garāk tur Gauja gājā - ļoti iespējams, ka tiešām pa turieni. Bet vai sen nosusinātam grāvim palicis nosaukums - hmm</p>",
+        "id": 323512149,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674659913
+    },
+    {
+        "content": "<p>Pielikts ar šo <a href=\"https://www.openstreetmap.org/changeset/100451377\">https://www.openstreetmap.org/changeset/100451377</a> ar komentāru \"Jāņa Sēta maps\" <span aria-label=\"see no evil\" class=\"emoji emoji-1f648\" role=\"img\" title=\"see no evil\">:see_no_evil:</span></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/changeset/100451377\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/changeset/100451377\" title=\"Changeset: 100451377 | OpenStreetMap\">Changeset: 100451377 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 323512214,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674659929
+    },
+    {
+        "content": "<p>To var atstāt citai dienai, kad ķersimies pie <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/.C5.AAdenste.C4.8Du.20kart.C4.93.C5.A1ana\">#general &gt; Ūdensteču kartēšana</a></p>",
+        "id": 323512519,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674659996
+    },
+    {
+        "content": "<p>Terplānā nosaukums tikai pie pašas iztekas <a href=\"/user_uploads/49624/SImQqNKvXEMLpNDGvUC8sKjm/vecgteen.png\">vecgteen.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/SImQqNKvXEMLpNDGvUC8sKjm/vecgteen.png\" title=\"vecgteen.png\"><img src=\"/user_uploads/49624/SImQqNKvXEMLpNDGvUC8sKjm/vecgteen.png\"></a></div>",
+        "id": 323514000,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674660302
+    }
+]

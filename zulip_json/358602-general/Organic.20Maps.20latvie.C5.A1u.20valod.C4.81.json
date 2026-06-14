@@ -1,0 +1,128 @@
+[
+    {
+        "content": "<p>Sveiki. Vai kādam bija vēlme pārtulkot Organic Maps latviešu valodā? Lietuvieši to izdarīja <a href=\"https://github.com/organicmaps/organicmaps/pull/5163/files\">pirms gada</a>. Es atradu, ka to var sākumā izdarīt ar DeepL palīdzību un pēc tam izlabot. Ja kāds to uzsāks, es pievienotos labošanai.</p>\n<p>Te ir <a href=\"https://github.com/organicmaps/organicmaps/blob/master/docs/TRANSLATIONS.md\">instrukcija</a>.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/organicmaps/organicmaps/pull/5163/files\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/0454f7d4026e90561948faf539a138785d1f5326/68747470733a2f2f617661746172732e67697468756275736572636f6e74656e742e636f6d2f752f37383438373134363f733d34303026763d34&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/organicmaps/organicmaps/pull/5163/files\" title=\"Added Lithuanian strings to strings.txt by Karalynx · Pull Request #5163 · organicmaps/organicmaps\">Added Lithuanian strings to strings.txt by Karalynx · Pull Request #5163 · organicmaps/organicmaps</a></div><div class=\"message_embed_description\">🍃 Organic Maps is a free Android &amp; iOS offline maps app for travelers, tourists, hikers, and cyclists. It uses crowd-sourced OpenStreetMap data and is developed with love by MapsWithMe (MapsMe) founders and our community. No ads, no tracking, no data collection, no crapware. Please donate to support the development! - Added Lithuanian strings to strings.txt by Karalynx · Pull Request #5163 · organicmaps/organicmaps</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/organicmaps/organicmaps/blob/master/docs/TRANSLATIONS.md\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/7f2fc65eef00d6a1cbaf3bfb31ad9c7aedb1ff03/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656531333634646132346138303736303839333630383935393363363334346162373730326133343564323366623731363833396534333464306136323936362f6f7267616e69636d6170732f6f7267616e69636d617073&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/organicmaps/organicmaps/blob/master/docs/TRANSLATIONS.md\" title=\"organicmaps/docs/TRANSLATIONS.md at master · organicmaps/organicmaps\">organicmaps/docs/TRANSLATIONS.md at master · organicmaps/organicmaps</a></div><div class=\"message_embed_description\">🍃 Organic Maps is a free Android &amp; iOS offline maps app for travelers, tourists, hikers, and cyclists. It uses crowd-sourced OpenStreetMap data and is developed with love by MapsWithMe (MapsMe)...</div></div></div>",
+        "id": 443936651,
+        "sender_full_name": "soshial",
+        "timestamp": 1718091804
+    },
+    {
+        "content": "<p>Izklausās burvīgi, šur tur pareklamēšu :)</p>",
+        "id": 443974145,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1718103923
+    },
+    {
+        "content": "<p><a href=\"https://github.com/organicmaps/organicmaps/pull/9211\">Paradijies tulkojums</a>. Aicinu visus apskatit piedavatas izmainas un pielabot vai apspriest manus labojumus.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/organicmaps/organicmaps/pull/9211\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/d711843a14a59be9bb5e035b04bcd97f72c5e35b/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f393338663234393133656234323464323461363834633237336536396264646535656339343034343763643833353363376232386232363837306539633434612f6f7267616e69636d6170732f6f7267616e69636d6170732f70756c6c2f39323131&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/organicmaps/organicmaps/pull/9211\" title=\"[strings] Latvian translations from @ttrasuns by biodranik · Pull Request #9211 · organicmaps/organicmaps\">[strings] Latvian translations from @ttrasuns by biodranik · Pull Request #9211 · organicmaps/organicmaps</a></div><div class=\"message_embed_description\">@ttrasuns thanks!</div></div></div>",
+        "id": 468891213,
+        "sender_full_name": "soshial",
+        "timestamp": 1725907745
+    },
+    {
+        "content": "<p>Uj, cik tur daudz to stringu... Apskatīšos, bet es ar latviešu valodas terminiem aplikācijās ne visai draudzējos - visu lietoju angliski</p>",
+        "id": 468892855,
+        "sender_full_name": "HellMap",
+        "timestamp": 1725908230
+    },
+    {
+        "content": "<p>Nu, tur nav tik daudz to terminu, manuprat — un tie kas tiek lietoti pareizi. Vertigak ir parbaudit vai nav drukas kludu vai konteksta kludu.</p>",
+        "id": 468893127,
+        "sender_full_name": "soshial",
+        "timestamp": 1725908330
+    },
+    {
+        "content": "<p>Oooo, burvīgi, jāpareklamē un jāpaskatās :)</p>",
+        "id": 468893425,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1725908430
+    },
+    {
+        "content": "<p>Gribēju pateikt, ka \"Kopīgot\" priekš \"Share\" kaut kāds dīvains vārds un vajadzētu \"Dalīties\" vai kā tā, bet iegūglēju un izskatās, ka tas ir faktiski vārds/termins... nekad nebiju dzirdējis. Baidos no manis te jēgas būs maz.</p>",
+        "id": 468895084,
+        "sender_full_name": "HellMap",
+        "timestamp": 1725908956
+    },
+    {
+        "content": "<p>BTW, visas izmainas var atrast te: <a href=\"https://github.com/organicmaps/organicmaps/pull/9211/files\">https://github.com/organicmaps/organicmaps/pull/9211/files</a>, nospiezot \"Load diff\"</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/organicmaps/organicmaps/pull/9211/files\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/3d0c402582385ac5e8dce3052035bb210ff85156/68747470733a2f2f617661746172732e67697468756275736572636f6e74656e742e636f6d2f752f3137303236333f733d34303026763d34&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/organicmaps/organicmaps/pull/9211/files\" title=\"[strings] Latvian translations from @ttrasuns by biodranik · Pull Request #9211 · organicmaps/organicmaps\">[strings] Latvian translations from @ttrasuns by biodranik · Pull Request #9211 · organicmaps/organicmaps</a></div><div class=\"message_embed_description\">@ttrasuns thanks!</div></div></div>",
+        "id": 468897401,
+        "sender_full_name": "soshial",
+        "timestamp": 1725909642
+    },
+    {
+        "content": "<p>Paldies, Rihard, ka piedalies</p>",
+        "id": 468901520,
+        "sender_full_name": "soshial",
+        "timestamp": 1725910890
+    },
+    {
+        "content": "<p>Liels paldies Tev un Tomam, Masto ieminējos, ka tulkojums ir pamanīts :)</p>",
+        "id": 469187263,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1725995093
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Organic.20Maps.20latvie.C5.A1u.20valod.C4.81/near/468895084\">said</a>:</p>\n<blockquote>\n<p>Gribēju pateikt, ka \"Kopīgot\" priekš \"Share\" kaut kāds dīvains vārds un vajadzētu \"Dalīties\" vai kā tā, bet iegūglēju un izskatās, ka tas ir faktiski vārds/termins... nekad nebiju dzirdējis. Baidos no manis te jēgas būs maz.</p>\n</blockquote>\n<p>Gan jau ka nav tik traki, sanity check vienmēr noder :)</p>",
+        "id": 469187318,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1725995108
+    },
+    {
+        "content": "<p>Es visus komentārus paskatījos un man neko jaunu nebija, ko pateikt. Pa ātro visu garo sarakstu izbraucu, bet gandrīz visam, kam man būtu komentārs, es drīzāk latviski iztulkot nemācēšu ar \"tehnoloģijas\" terminiem.</p>",
+        "id": 469190595,
+        "sender_full_name": "HellMap",
+        "timestamp": 1725995997
+    },
+    {
+        "content": "<p>Vai kadam ir ideja ar kuru vardu var iztulkot \"recorded track\". Sobrid ir piedavats \"ceļš\", bet es kka neesmu dross. Poliski ta ir \"trasa\", parejas valodas ir visadi \"trek\" tulkojumi.</p>",
+        "id": 469273948,
+        "sender_full_name": "soshial",
+        "timestamp": 1726027536
+    },
+    {
+        "content": "<p>Atbilstošākais no <a href=\"http://termini.gov.lv\">termini.gov.lv</a> piedāvātajiem \"track\" tulkojumiem šķiet \"ceļa līnija\".</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"http://termini.gov.lv\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/a6b4fdc78581ea2ed0c39e31fb40be4c219639ad/687474703a2f2f7465726d696e692e676f762e6c762f6173736574732f6f672d696d6167652e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"http://termini.gov.lv\" title=\"Latvijas Nacionālais terminoloģijas portāls\">Latvijas Nacionālais terminoloģijas portāls</a></div><div class=\"message_embed_description\">Terminoloģijas portālā apkopota apstiprināta nozaru terminoloģija.</div></div></div>",
+        "id": 469285504,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1726032123
+    },
+    {
+        "content": "<p><a href=\"https://github.com/osmandapp/OsmAnd/blob/b72200cd0b49ebe00d38b2d4301468bfd084038b/OsmAnd/res/values-lv/strings.xml#L1094\">OsmAnds lieto</a> \"treks\"</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/osmandapp/OsmAnd/blob/b72200cd0b49ebe00d38b2d4301468bfd084038b/OsmAnd/res/values-lv/strings.xml#L1094\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/58e9d2dbb1cc9a07e3a6fd81edc316fc93ac9b22/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f653932663438613664643365636630376635626461626530653165383730623930363737646133393637366135393462303966303330346166396563666561392f6f736d616e646170702f4f736d416e64&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/osmandapp/OsmAnd/blob/b72200cd0b49ebe00d38b2d4301468bfd084038b/OsmAnd/res/values-lv/strings.xml#L1094\" title=\"OsmAnd/OsmAnd/res/values-lv/strings.xml at b72200cd0b49ebe00d38b2d4301468bfd084038b · osmandapp/OsmAnd\">OsmAnd/OsmAnd/res/values-lv/strings.xml at b72200cd0b49ebe00d38b2d4301468bfd084038b · osmandapp/OsmAnd</a></div><div class=\"message_embed_description\">OsmAnd. Contribute to osmandapp/OsmAnd development by creating an account on GitHub.</div></div></div>",
+        "id": 469334273,
+        "sender_full_name": "HellMap",
+        "timestamp": 1726045474
+    },
+    {
+        "content": "<p>\"treks\" ir kalks, \"ceļa līnija\" ir diezgan gari.<br>\nBet nenāk prātā nekas labāks - \"trase\" ir ar citu nozīmi jau...</p>",
+        "id": 470128250,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1726303830
+    },
+    {
+        "content": "<p>Vai kāds zina, kas šis Trasuns ir (kas izveidoja to tulkojumu)? <span class=\"user-mention\" data-user-id=\"568771\">@Rihards Olups</span>  <span class=\"user-mention\" data-user-id=\"571825\">@HellMap</span></p>",
+        "id": 471556372,
+        "sender_full_name": "soshial",
+        "timestamp": 1726776679
+    },
+    {
+        "content": "<p>Cik nu nedaudz Masto komunicēts :)<br>\n<a href=\"https://toot.lv/@ttrasuns\">https://toot.lv/@ttrasuns</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://toot.lv/@ttrasuns\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/5d088b94065386f3429229785631f670cc605a02/68747470733a2f2f66696c65732e746f6f742e6c762f6163636f756e74732f617661746172732f3130392f3432322f3536362f3030352f3134392f3935322f6f726967696e616c2f353332376330623533373037663630392e6a7067&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://toot.lv/@ttrasuns\" title=\"Toms Trasūns (@ttrasuns@toot.lv)\">Toms Trasūns (@ttrasuns@toot.lv)</a></div><div class=\"message_embed_description\">736 Ziņas, 239 Seko, 104 Sekotāji · Hei, hei...\r\n\r\nVecais profils: ttrasuns@mastodon.social\r\nnobot</div></div></div>",
+        "id": 471556628,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1726776835
+    },
+    {
+        "content": "<p>Paldies, uzrakstīju viņam tur.</p>",
+        "id": 471557289,
+        "sender_full_name": "soshial",
+        "timestamp": 1726777107
+    },
+    {
+        "content": "<p>Ko īsti nozīmē šis?</p>\n<blockquote>\n<p>Anyway, \"lv\" language is still missing when <a href=\"http://generate_localizations.sh\">generate_localizations.sh</a> (same as \"lt\"), should add stubs?</p>\n</blockquote>",
+        "id": 477271184,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1729101766
+    },
+    {
+        "content": "<p>Nozime, ka tulkojumi ir, bet nav uzgenereti iOSam un Androidam</p>",
+        "id": 479024685,
+        "sender_full_name": "soshial",
+        "timestamp": 1729922492
+    }
+]

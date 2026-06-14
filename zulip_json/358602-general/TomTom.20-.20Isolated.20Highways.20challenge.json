@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Hi Latvian community!<br>\nMy team at TomTom created a MapRoulette challenge you may find useful – Isolated Highways - <a href=\"https://maproulette.org/browse/challenges/39508\">https://maproulette.org/browse/challenges/39508</a>. We identified 129 elements which are disconnected by analyzing OpenStreetMap highway network for the whole country. </p>\n<p>There is information on the GitHub page - <a href=\"https://github.com/tomtom-international/open-data/issues/59\">https://github.com/tomtom-international/open-data/issues/59</a> - and challenge description that may help you resolve the tasks, but please do not hesitate to contact me with any inquiries, remarks or comments. </p>\n<p>Our editors may also work on some of the tasks in a couple of weeks, using the detailed instructions in the MapRoulette challenge.</p>\n<p>Regards,<br>\nTomasz</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/tomtom-international/open-data/issues/59\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6350736176c196a548e4560f9092c8c9ed3f66a1\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f306530346631346565313066623765323363613039646663666530306162626634653034393935316139356237326439666262343131653032643639666564302f746f6d746f6d2d696e7465726e6174696f6e616c2f6f70656e2d646174612f6973737565732f3539)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/tomtom-international/open-data/issues/59\" title=\"Latvia | Data Improvements · Issue #59 · tomtom-international/open-data\">Latvia | Data Improvements · Issue #59 · tomtom-international/open-data</a></div><div class=\"message_embed_description\">Project description Goal To improve the map quality in Latvia, we propose to make data improvements by sharing challenges that can help fix data errors and add or edit certain features such as buil...</div></div></div>",
+        "id": 375984160,
+        "sender_full_name": "Tomasz Kozlowski",
+        "timestamp": 1689593156
+    },
+    {
+        "content": "<p><a href=\"https://maproulette.org/challenge/39508/task/169274877\">https://maproulette.org/challenge/39508/task/169274877</a> makes me think that you don't consider <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dparking\">amenity=parking</a> a routable area. Why not?</p>",
+        "id": 375987119,
+        "sender_full_name": "i-ky",
+        "timestamp": 1689593734
+    },
+    {
+        "content": "<p>I would guess that most routers don't, and more precise routing in parking areas is still useful.<br>\nPersonally I support such criteria :)</p>",
+        "id": 376019382,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1689599623
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/TomTom.20-.20Isolated.20Highways.20challenge/near/375987119\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://maproulette.org/challenge/39508/task/169274877\">https://maproulette.org/challenge/39508/task/169274877</a> makes me think that you don't consider <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dparking\">amenity=parking</a> a routable area. Why not?</p>\n</blockquote>\n<p>I will get back to you with an answer from the team. My personal one would be, I understand <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dparking\">amenity=parking</a> more as visualization component of the map. Services with parking_aisle attribute would be considered as routing part of <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dparking\">amenity=parking</a> for me.</p>",
+        "id": 376021954,
+        "sender_full_name": "Tomasz Kozlowski",
+        "timestamp": 1689600086
+    },
+    {
+        "content": "<p>Here is a new quest idea for you: <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dparking\">amenity=parking</a> without parking_aisle.</p>",
+        "id": 376022475,
+        "sender_full_name": "i-ky",
+        "timestamp": 1689600193
+    }
+]

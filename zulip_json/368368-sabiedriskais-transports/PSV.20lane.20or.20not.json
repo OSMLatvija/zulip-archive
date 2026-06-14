@@ -1,0 +1,128 @@
+[
+    {
+        "content": "<p>I have a question about streets like Vaidavas and Avotu (in Riga) where they are oneway for usual traffic, but buses go the other direction too.<br>\nSigns there (\"brick\" with exception for bicycles, <a href=\"https://www.mapillary.com/app/?pKey=683893353969395\">example</a>) don't indicate exception for buses. <br>\nI suspected, that this is to prevent taxies and electric cars from using those exceptions (my understanding was that since those can use bus lanes, they could use exceptions too).<br>\nRight now, they are tagged with <code>oneway:psv=no</code>. <a href=\"https://www.openstreetmap.org/way/172111594\">Example</a>.</p>\n<p>So my question -- is it correct? Shouldn't it be tagged with <code>oneway:bus=no</code> instead, even though it's not legally defined?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/172111594\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/172111594\" title=\"Way: ‪Vaidavas iela‬ (‪172111594‬)\">Way: ‪Vaidavas iela‬ (‪172111594‬)</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 574764408,
+        "sender_full_name": "markalex",
+        "timestamp": 1771516814
+    },
+    {
+        "content": "<p>Yes, <code>oneway</code> roads with psv routes on them <del>should be tagged as <code>oneway:psv=no</code></del>. Technically, the \"brick\" sign never applies to PSVs by traffic law. But it wouldn't make sense to tag EVERY road like that for OSM. So in practice places with dedicated routes or expected psv access (like depos) should have it.</p>",
+        "id": 574770689,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771518450
+    },
+    {
+        "content": "<p>(Cars always look at me funny when I make that left turn there <span aria-label=\"grimacing\" class=\"emoji emoji-1f62c\" role=\"img\" title=\"grimacing\">:grimacing:</span> )</p>",
+        "id": 574771074,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771518541
+    },
+    {
+        "content": "<blockquote>\n<p>Technically, the \"brick\" sign never applies to PSVs by traffic law.</p>\n</blockquote>\n<p>Wow. Does it mean that taxi can go under brick?<br>\nOr did I misunderstood what PSV mean?</p>",
+        "id": 574772129,
+        "sender_full_name": "markalex",
+        "timestamp": 1771518843
+    },
+    {
+        "content": "<p>If you are asking <em>specifically</em> about <code>bus</code>es versus <code>psv</code> - the brick sign doesn't distinguish stuff like trolleybuses, microbuses, coaches, even <del>taxis</del>. I am not sure OSM should either. I guess one could look at what modes of transport go there, but I generally don't myself and I don't see the point. Like, if a bus can go there, then so can battery trolleybus and such.</p>",
+        "id": 574772362,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771518898
+    },
+    {
+        "content": "<p>Oh, taxi, hmm....</p>",
+        "id": 574772467,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771518927
+    },
+    {
+        "content": "<p>For some reason I didn't think <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Ataxi\">taxi=*</a> was under <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Apsv\">psv=*</a></p>",
+        "id": 574772633,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771518978
+    },
+    {
+        "content": "<p>And I guess technically <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Abus\">bus=*</a> also includes <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Atrolleybus\">trolleybus=*</a></p>",
+        "id": 574772701,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771518994
+    },
+    {
+        "content": "<p>Legally \"pasažieru sabiedriskais transportlīdzeklis\" in Latvia are buses, trolleybuses and trams. The <a href=\"https://osmlatvija.github.io/road-signs/301.html\">301.</a> sign does not apply to them. This does not include taxis. There are separate rules for <em>lanes</em> when traffic signs aren't posted, which then allow EVs and taxis.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://osmlatvija.github.io/road-signs/301.html\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/7f2c89387e204768c75dfd582798204d4c1a32d2/68747470733a2f2f6c696b756d692e6c762f77777772616b7374692f323031352f3132312f42494c4445532f4e5f3237392f494d4147453130332e4a5047&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://osmlatvija.github.io/road-signs/301.html\" title=\"301. Iebraukt aizliegts\">301. Iebraukt aizliegts</a></div></div></div>",
+        "id": 574774092,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771519384
+    },
+    {
+        "content": "<p>I guess I see what you mean. Trams are always on separately-mapped rails, so all the possible access variants are buses and trolleybuses, and since trolleybuses are included in buses, then <code>bus</code> covers all.</p>",
+        "id": 574774298,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771519444
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/368368-sabiedriskais-transports/topic/PSV.20lane.20or.20not/near/574774298\">said</a>:</p>\n<blockquote>\n<p>I guess I see what you mean. Trams are always on separately-mapped rails, so all the possible access variants are buses and trolleybuses, and since trolleybuses are included in buses, then <code>bus</code> covers all.</p>\n</blockquote>\n<p>Yes, that's what I meant exactly =)</p>",
+        "id": 574774665,
+        "sender_full_name": "markalex",
+        "timestamp": 1771519548
+    },
+    {
+        "content": "<p>I've been radicalized by Rīgas Satiksme, I don't believe trolleybuses are buses! <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>",
+        "id": 574774896,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771519609
+    },
+    {
+        "content": "<p>I think you are right, it should be <code>oneway:bus=no</code> and not <code>psv</code>, which includes taxis.</p>",
+        "id": 574775106,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771519658
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/368368-sabiedriskais-transports/topic/PSV.20lane.20or.20not/near/574774896\">said</a>:</p>\n<blockquote>\n<p>I've been radicalized by Rīgas Satiksme, I don't believe trolleybuses are buses! <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>\n</blockquote>\n<p>What's up with that? <br>\nThey are the ones who fail to colour buses and trolleybuses differently, so I'd assume their point was that buses and trolleybuses are one and the same ))</p>",
+        "id": 574777566,
+        "sender_full_name": "markalex",
+        "timestamp": 1771520289
+    },
+    {
+        "content": "<p>I'm just joking, although they do clearly separate the two. In recent couple decades it's much less so, but there used to be a very different subjective perception when busses and trolleybuses were these <br>\n<a href=\"/user_uploads/49624/WURH_4OdaIc448E2oUXYDgka/image.png\">image.png</a><br>\n<a href=\"/user_uploads/49624/-qpdjUNWAp4lV1NpuDi3IQ4X/image.png\">image.png</a><br>\nLike they just felt different. Modern ones are indeed basically the same box with different engines.</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/WURH_4OdaIc448E2oUXYDgka/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"830x552\" src=\"/user_uploads/thumbnail/49624/WURH_4OdaIc448E2oUXYDgka/image.png/840x560.webp\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/-qpdjUNWAp4lV1NpuDi3IQ4X/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"830x622\" src=\"/user_uploads/thumbnail/49624/-qpdjUNWAp4lV1NpuDi3IQ4X/image.png/840x560.webp\"></a></div>",
+        "id": 574779133,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771520682
+    },
+    {
+        "content": "<p>That's not what meant.<br>\nI have a good sight, and still I need a moment to realise if something in from of me is a bus or a trolleybus.<br>\nOther cities solved this problem quite easily: you paint all buses one colour, and trolleybuses - the different one. <br>\nAnd if RS <strong>really</strong> wanted their blue and white, they can paint buses with blue on the bottom and trolleybuses with blue on the top.<br>\n<a href=\"/user_uploads/49624/cEIntrJVOj2_RaD2Ujx3h5sC/OIP.3STBDVlLAnolmLZ0v9qHGwHaEc.webp\">OIP.3STBDVlLAnolmLZ0v9qHGwHaEc.webp</a><br>\n<a href=\"/user_uploads/49624/uJLCqpsacZ5MTJOkda5BhKcP/OIP.GK1tP202Oth_Kd6K48Z1oAHaE8.webp\">OIP.GK1tP202Oth_Kd6K48Z1oAHaE8.webp</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/cEIntrJVOj2_RaD2Ujx3h5sC/OIP.3STBDVlLAnolmLZ0v9qHGwHaEc.webp\" title=\"OIP.3STBDVlLAnolmLZ0v9qHGwHaEc.webp\"><img data-original-content-type=\"image/webp\" data-original-dimensions=\"474x284\" src=\"/user_uploads/thumbnail/49624/cEIntrJVOj2_RaD2Ujx3h5sC/OIP.3STBDVlLAnolmLZ0v9qHGwHaEc.webp/840x560.webp\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/uJLCqpsacZ5MTJOkda5BhKcP/OIP.GK1tP202Oth_Kd6K48Z1oAHaE8.webp\" title=\"OIP.GK1tP202Oth_Kd6K48Z1oAHaE8.webp\"><img data-original-content-type=\"image/webp\" data-original-dimensions=\"474x316\" src=\"/user_uploads/thumbnail/49624/uJLCqpsacZ5MTJOkda5BhKcP/OIP.GK1tP202Oth_Kd6K48Z1oAHaE8.webp/840x560.webp\"></a></div>",
+        "id": 574781821,
+        "sender_full_name": "markalex",
+        "timestamp": 1771521395
+    },
+    {
+        "content": "<p>I replaced <code>oneway:psv=no</code> with <code>oneway:bus=no</code> everywhere in Riga (after confirming signs)</p>",
+        "id": 574786777,
+        "sender_full_name": "markalex",
+        "timestamp": 1771522565
+    },
+    {
+        "content": "<p>Seems like outside of Riga <code>oneway:psv</code> was not used</p>",
+        "id": 574787470,
+        "sender_full_name": "markalex",
+        "timestamp": 1771522804
+    },
+    {
+        "content": "<p>Yes, the fact that buses and trolleybuses currently look the same was part of the joke <span aria-label=\"smiling face with tear\" class=\"emoji emoji-1f972\" role=\"img\" title=\"smiling face with tear\">:smiling_face_with_tear:</span></p>",
+        "id": 574788699,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771523184
+    },
+    {
+        "content": "<p>Looks good, I think. I swear I thought there were more oneway streets in Riga with opposite PSV lanes... May be because half of them are places I regularly go past, it feels like there are more...</p>",
+        "id": 574792094,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771524235
+    },
+    {
+        "content": "<p>Kinda the same. But I suspect we live not too far from each other, so affected by the same bias)</p>",
+        "id": 574793659,
+        "sender_full_name": "markalex",
+        "timestamp": 1771524750
+    }
+]
