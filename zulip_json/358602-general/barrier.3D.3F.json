@@ -1,0 +1,158 @@
+[
+    {
+        "content": "<p>Jau ilgu laiku atlieku noskaidrot kādus tagus jāizmanto šāda tipa norobežojumiem<br>\n<a href=\"https://www.mapillary.com/app/?pKey=533363285674757\">https://www.mapillary.com/app/?pKey=533363285674757</a><br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dfence\">barrier=fence</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afence_type%3Drailing\">fence_type=railing</a> ?</p>",
+        "id": 360729354,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1684918875
+    },
+    {
+        "content": "<p>Es teiktu, ka <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dguard_rail\">barrier=guard_rail</a> vairāk atbilst <a href=\"https://wiki.openstreetmap.org/wiki/Map_features#Linear_barriers\">pēc apraksta</a>:</p>\n<blockquote>\n<table>\n<thead>\n<tr>\n<th>Key</th>\n<th>Value</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>barrier</td>\n<td>fence</td>\n<td>A freestanding structure designed to restrict or prevent movement across a boundary, generally distinguished from a wall by the lightness of its construction.</td>\n</tr>\n<tr>\n<td>barrier</td>\n<td>guard_rail</td>\n<td>A rail, typically metal, designed to keep vehicles within their roadway and prevent dangerous collisions</td>\n</tr>\n</tbody>\n</table>\n</blockquote>",
+        "id": 360733035,
+        "sender_full_name": "i-ky",
+        "timestamp": 1684919872
+    },
+    {
+        "content": "<p>Norobežojums bildē un \"prevent dangerous collisions\" neiet kopā. Tas norobežojums vairāk gājējiem domāts</p>",
+        "id": 360733474,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1684919983
+    },
+    {
+        "content": "<p>Nu \"prevent movement across a boundary\" arī nav, jo nav boundary.</p>",
+        "id": 360733874,
+        "sender_full_name": "i-ky",
+        "timestamp": 1684920075
+    },
+    {
+        "content": "<p>Tas ir jebkuram <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Abarrier\">barrier=*</a>, pat guard_rail un bildē boundary ir starp ceļu un ietvi</p>",
+        "id": 360735507,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1684920469
+    },
+    {
+        "content": "<p>Pēc piemēriem <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afence_type%3Dkrest\">fence_type=krest</a> derētu, bet tās ir tikai vienam tipam Krievijā</p>",
+        "id": 360735828,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1684920562
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"574669\">UrSuS</span> <a href=\"#narrow/stream/358602-general/topic/barrier.3D.3F/near/360735828\">said</a>:</p>\n<blockquote>\n<p>Pēc piemēriem <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afence_type%3Dkrest\">fence_type=krest</a> derētu, bet tās ir tikai vienam tipam Krievijā</p>\n</blockquote>\n<p>Jā, pārāk specifisks tags.</p>",
+        "id": 360736016,
+        "sender_full_name": "i-ky",
+        "timestamp": 1684920615
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"574669\">UrSuS</span> <a href=\"#narrow/stream/358602-general/topic/barrier.3D.3F/near/360735507\">said</a>:</p>\n<blockquote>\n<p>Tas ir jebkuram <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Abarrier\">barrier=*</a>, pat guard_rail un bildē boundary ir starp ceļu un ietvi</p>\n</blockquote>\n<p>Starp ceļu un ietvi nav \"robeža\", <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dguard_rail\">barrier=guard_rail</a> aprakstā nelieto vārdu \"boundary\". <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dkerb\">barrier=kerb</a> aprakstā lieto \"edge of a road\".</p>",
+        "id": 360737567,
+        "sender_full_name": "i-ky",
+        "timestamp": 1684921076
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/barrier.3D.3F/near/360737567\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"574669\">UrSuS</span> <a href=\"#narrow/stream/358602-general/topic/barrier.3D.3F/near/360735507\">said</a>:</p>\n<blockquote>\n<p>Tas ir jebkuram <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Abarrier\">barrier=*</a>, pat guard_rail un bildē boundary ir starp ceļu un ietvi</p>\n</blockquote>\n<p>Starp ceļu un ietvi nav \"robeža\", <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dguard_rail\">barrier=guard_rail</a> aprakstā nelieto vārdu \"boundary\". <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dkerb\">barrier=kerb</a> aprakstā lieto \"edge of a road\".</p>\n</blockquote>\n<p>Jā, tas tas bija uz <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dfence\">barrier=fence</a>. Bet wiki aprakstus arī var mainīt jebkurš kā grib un laikam tikai mēs šeit pie ķeramies katram vārdam :)</p>",
+        "id": 360739502,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1684921578
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"574669\">UrSuS</span> <a href=\"#narrow/stream/358602-general/topic/barrier.3D.3F/near/360733474\">said</a>:</p>\n<blockquote>\n<p>Norobežojums bildē un \"prevent dangerous collisions\" neiet kopā. Tas norobežojums vairāk gājējiem domāts</p>\n</blockquote>\n<p>Man nav skaidrs, kam domāts tāds ierobežojums. Es to parasti esmu redzējis vietās, kur ir veloceļi uz ietvēm (<a href=\"https://www.openstreetmap.org/way/1126188020\">pie Botāniskā dārza</a>, Imantā pie Lidl (nav atzīmēts), <a href=\"https://www.openstreetmap.org/way/487715933\">pie Zunda</a>, <a href=\"https://www.openstreetmap.org/way/678288863\">Vecmīlgrāvī</a>, ...). Kāda bija ideja, es nezinu. Kā riteņbraucējs es tos ienīstu, jo man vienmēr bail ieķerties tur ar stūri.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/1126188020\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/1126188020\" title=\"Way: 1126188020 | OpenStreetMap\">Way: 1126188020 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/487715933\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/487715933\" title=\"Way: 487715933 | OpenStreetMap\">Way: 487715933 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/678288863\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/678288863\" title=\"Way: 678288863 | OpenStreetMap\">Way: 678288863 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 360739562,
+        "sender_full_name": "i-ky",
+        "timestamp": 1684921596
+    },
+    {
+        "content": "<p>Varbūt <span class=\"user-mention\" data-user-id=\"605945\">@Oto Ozols</span> var paskaidrot, kam tie īsti domāti.</p>",
+        "id": 360739844,
+        "sender_full_name": "i-ky",
+        "timestamp": 1684921678
+    },
+    {
+        "content": "<p>Tas man liekas domāts lai gājēji vai riteņbraucēji nešķērso ielu neatļautā vietā</p>",
+        "id": 360740248,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1684921774
+    },
+    {
+        "content": "<p><a href=\"https://www.mapillary.com/app/?pKey=945624326562034\">https://www.mapillary.com/app/?pKey=945624326562034</a></p>",
+        "id": 360740557,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1684921856
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"574669\">UrSuS</span> <a href=\"#narrow/stream/358602-general/topic/barrier.3D.3F/near/360740557\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://www.mapillary.com/app/?pKey=945624326562034\">https://www.mapillary.com/app/?pKey=945624326562034</a></p>\n</blockquote>\n<p>Tas ir cits stāsts...</p>",
+        "id": 360740788,
+        "sender_full_name": "i-ky",
+        "timestamp": 1684921915
+    },
+    {
+        "content": "<p>Tas pats kā šeit starp ceļiem tikai smukāk.</p>",
+        "id": 360740796,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1684921917
+    },
+    {
+        "content": "<p>Es vienmēr lieku railing tā saucamajiem \"lopu žogiem\" - tie pēc funkcijas ierobežo gājēju kustību. Sadursmes un avarēšanu tas samazina/pasargā tik pat kā kaut kāds žogs vai siena - tā nav funkcija, tas ir tikai papild \"bonus\", ja sanāk kaut ko pasargāt (parasti avārija nones tos ar visiem kātiem). Guard rail tiek būvēti pēc standartiem un lai novērstu smagāku avarēšanu - tiem taisa crumple (zone), viņiem is speciāla uzbūve.</p>",
+        "id": 360740863,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684921925
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"574669\">UrSuS</span> <a href=\"#narrow/stream/358602-general/topic/barrier.3D.3F/near/360740248\">said</a>:</p>\n<blockquote>\n<p>Tas man liekas domāts lai gājēji vai riteņbraucēji nešķērso ielu neatļautā vietā</p>\n</blockquote>\n<p>Uz Vecāķu prospekta arī? Tur pat ietves otrajā ceļa pusē nav. Šaubos, ka tur daudz cilvēku grib šķērsot.</p>",
+        "id": 360742176,
+        "sender_full_name": "i-ky",
+        "timestamp": 1684922285
+    },
+    {
+        "content": "<p>Kad sastopu lēnus velosipēdistus vai gājējus, kuri iet visā platumā, man gribējās pārslēgties uz ceļu, bet tie norobežojumi man apstāv</p>",
+        "id": 360743351,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1684922626
+    },
+    {
+        "content": "<p>Un pasargā bērnus nenokļūt ceļā</p>",
+        "id": 360743560,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1684922671
+    },
+    {
+        "content": "<p>Vienīgais es nekad neesmu izdomājis, ko darīt, ja ir reizē guard rail un railing/fence kā <a href=\"https://www.mapillary.com/app/user/hellphoto?pKey=755030202926790&amp;focus=photo\">https://www.mapillary.com/app/user/hellphoto?pKey=755030202926790&amp;focus=photo</a> Šitādus es parasti arī lieku guard rail un ceru, ka nākotnē kāds izdomās tegus.</p>",
+        "id": 360743656,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684922701
+    },
+    {
+        "content": "<p>Un jā, Vecāķu prospekts tas gar ceļa gabals ir railing nevis guard rail - tie nepasargā no avārijas sekām, tie ir taisīti tizli nodalīt velo no ceļa. Viena no stulbākajām vietām, bet nu.</p>",
+        "id": 360744228,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684922834
+    },
+    {
+        "content": "<p>Man liekas, tie tomēr var pasargāt no noteikta veida avārijām, ja gājējs/riteņbraucējs \"nejauši izkrīt\" no ietves uz brauktuves tieši mašīnai zem ratiem.</p>",
+        "id": 360745562,
+        "sender_full_name": "i-ky",
+        "timestamp": 1684923158
+    },
+    {
+        "content": "<p>Jā, bet stabs arī var pasargāt ;) Tā ir papildfunkcija, tas nav pamatmērķis. Savadāk starp tiem kartes datos nebūs nekādas atšķirības.</p>",
+        "id": 360746376,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684923410
+    },
+    {
+        "content": "<p>Piekrītu par railing, es arī tā esmu kartējis kaut kur (ļoti maz gan).</p>",
+        "id": 360775886,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1684931554
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/barrier.3D.3F/near/360746376\">said</a>:</p>\n<blockquote>\n<p>Jā, bet stabs arī var pasargāt ;) Tā ir papildfunkcija, tas nav pamatmērķis. Savadāk starp tiem kartes datos nebūs nekādas atšķirības.</p>\n</blockquote>\n<p>Vienīgais, kas nāk prātā - mazi bērni. Ja brauc ģimene ar velo, tad varbūt ir mierīgāk. Bet jā, citādi vairāk negatīva funkcija.</p>",
+        "id": 360776127,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1684931623
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/barrier.3D.3F/near/360743656\">said</a>:</p>\n<blockquote>\n<p>Vienīgais es nekad neesmu izdomājis, ko darīt, ja ir reizē guard rail un railing/fence kā <a href=\"https://www.mapillary.com/app/user/hellphoto?pKey=755030202926790&amp;focus=photo\">https://www.mapillary.com/app/user/hellphoto?pKey=755030202926790&amp;focus=photo</a> Šitādus es parasti arī lieku guard rail un ceru, ka nākotnē kāds izdomās tegus.</p>\n</blockquote>\n<p>Te laikam arī guardrail + fence. Piekrītu Tavam risinājumam :)<br>\n<a href=\"https://www.mapillary.com/app/?pKey=547200460559952\">https://www.mapillary.com/app/?pKey=547200460559952</a></p>",
+        "id": 360776522,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1684931725
+    }
+]

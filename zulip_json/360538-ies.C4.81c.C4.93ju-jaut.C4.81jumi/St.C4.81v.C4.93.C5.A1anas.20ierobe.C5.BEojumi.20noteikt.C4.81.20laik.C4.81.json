@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>Nesen Rīgā ieviesti stāvēšanas ierobežojumi noteiktā dienā noteiktā laika posmā (<a href=\"https://www.riga.lv/lv/jaunums/ielu-uzturesanas-darbu-veiksanai-vairakas-rigas-ielas-mainis-satiksmes-organizaciju\">https://www.riga.lv/lv/jaunums/ielu-uzturesanas-darbu-veiksanai-vairakas-rigas-ielas-mainis-satiksmes-organizaciju</a>)<br>\nVēlējos Kuldīgas ielā precizēt šo informāciju un vēlējos precizēt, kā to labāk izdarīt. No šī saprotu, ka pie \"Apzīmējumi\" jānorāda </p>\n<div class=\"codehilite\"><pre><span></span><code>parking:right:restriction:reason:conditional=street_cleaning @ (Tu 9:00-17:00)\n</code></pre></div>\n<p>un otrai ielas pusei</p>\n<div class=\"codehilite\"><pre><span></span><code>parking:right:restriction:reason:conditional=street_cleaning @ (We 9:00-17:00)\n</code></pre></div>\n<p>Vai esmu pareizi sapratis vai arī tas kaut kā citādāk jānorāda?</p>",
+        "id": 469731123,
+        "sender_full_name": "Jēkabs Balodis",
+        "timestamp": 1726160439
+    },
+    {
+        "content": "<p>Hmm. Skatoties wiki un taginfo, laikam jā - <code>parking:right=*</code> + <code>parking:right:restriction:conditional=no_stopping @ (Tu 9:00-17:00)</code> + <code>parking:right:restriction:reason:conditional=street_cleaning @ (Tu 9:00-17:00)</code> (tas pats duplicēts \"@...\", kaut gan es jēgu neredzu duplikācijai, bet tā lieto vairākums)</p>",
+        "id": 469735437,
+        "sender_full_name": "HellMap",
+        "timestamp": 1726161866
+    }
+]

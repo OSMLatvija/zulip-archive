@@ -1,0 +1,188 @@
+[
+    {
+        "content": "<p>lvm's maps are currently unavailable due to a massive breach and ransomware attack in their systems</p>",
+        "id": 606466455,
+        "sender_full_name": "maemolol",
+        "timestamp": 1782387813
+    },
+    {
+        "content": "<p>Where can I get more info on this?</p>",
+        "id": 606466649,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1782387877
+    },
+    {
+        "content": "<p>i learned about this through <a href=\"https://old.reddit.com/r/latvia/comments/1ued2xx/latvias_state_forests_kaboom_kablaow/\">a reddit post</a>, and confirmed it by just going on the lvm maps site<br>\n<img alt=\"grafik.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"1920x990\" data-original-src=\"/user_uploads/49624/1tMJsmTzcCPmz9prt2CcLZlU/grafik.png\" src=\"/user_uploads/thumbnail/49624/1tMJsmTzcCPmz9prt2CcLZlU/grafik.png/840x560.webp\"></p>",
+        "id": 606467122,
+        "sender_full_name": "maemolol",
+        "timestamp": 1782388021
+    },
+    {
+        "content": "<p>3 messages were moved here from <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/channel/358602-general/topic/LVM.20ce.C4.BCi/with/590967299\">#general &gt; LVM ceļi</a> by <span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span>.</p>",
+        "id": 606467971,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1782388289
+    },
+    {
+        "content": "<p>I was wondering why it was down for so long. I assumed it's just another of their regular \"we broke something\".</p>",
+        "id": 606468333,
+        "sender_full_name": "HellMap",
+        "timestamp": 1782388335
+    },
+    {
+        "content": "<p><a href=\"https://www.lsm.lv/raksts/zinas/latvija/25.06.2026-latvijas-valsts-mezi-piedzivojusi-kiberuzbrukumu-velesanu-sistema-nav-cietusi.a652634/\">https://www.lsm.lv/raksts/zinas/latvija/25.06.2026-latvijas-valsts-mezi-piedzivojusi-kiberuzbrukumu-velesanu-sistema-nav-cietusi.a652634/</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.lsm.lv/raksts/zinas/latvija/25.06.2026-latvijas-valsts-mezi-piedzivojusi-kiberuzbrukumu-velesanu-sistema-nav-cietusi.a652634/\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/df77cea72dbcb25a4be33607da33831a68aaa579/68747470733a2f2f7374617469632e6c736d2e6c762f6d656469612f323032352f31302f6c617267652f312f72706e722e6a7067&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.lsm.lv/raksts/zinas/latvija/25.06.2026-latvijas-valsts-mezi-piedzivojusi-kiberuzbrukumu-velesanu-sistema-nav-cietusi.a652634/\" title=\"«Latvijas Valsts meži» piedzīvojuši kiberuzbrukumu; vēlēšanu sistēma nav cietusi\">«Latvijas Valsts meži» piedzīvojuši kiberuzbrukumu; vēlēšanu sistēma nav cietusi</a></div><div class=\"message_embed_description\">Ļaundaris veicis kiberuzbrukumu \"Latvijas Valsts mežu\" (LVM) informācijas tehnoloģiju infrastruktūrai, Latvijas Radio apstiprināja uzņēmumā.</div></div></div>",
+        "id": 606470884,
+        "sender_full_name": "Colby",
+        "timestamp": 1782388850
+    },
+    {
+        "content": "<p>My concern is that because this attack seems to have happened via geo server vulnerabilities, that they might end up further restricting or limiting access. Their WMS stuff is already so bad</p>",
+        "id": 606471588,
+        "sender_full_name": "HellMap",
+        "timestamp": 1782389031
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/channel/358602-general/topic/LVM.20Jun.202026.20outage/near/606470884\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://www.lsm.lv/raksts/zinas/latvija/25.06.2026-latvijas-valsts-mezi-piedzivojusi-kiberuzbrukumu-velesanu-sistema-nav-cietusi.a652634/\">https://www.lsm.lv/raksts/zinas/latvija/25.06.2026-latvijas-valsts-mezi-piedzivojusi-kiberuzbrukumu-velesanu-sistema-nav-cietusi.a652634/</a></p>\n</blockquote>\n<blockquote>\n<p>20 hour old reddit post<br>\n3 hour old article</p>\n</blockquote>\n<p>did they <em>just</em> realise that a <em>breach</em> happened???</p>",
+        "id": 606471996,
+        "sender_full_name": "maemolol",
+        "timestamp": 1782389161
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/channel/358602-general/topic/LVM.20Jun.202026.20outage/near/606470884\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://www.lsm.lv/raksts/zinas/latvija/25.06.2026-latvijas-valsts-mezi-piedzivojusi-kiberuzbrukumu-velesanu-sistema-nav-cietusi.a652634/\">https://www.lsm.lv/raksts/zinas/latvija/25.06.2026-latvijas-valsts-mezi-piedzivojusi-kiberuzbrukumu-velesanu-sistema-nav-cietusi.a652634/</a></p>\n</blockquote>\n<p>\"ļaunatūra\". karteiz lasot IT ziņas, jāņem klāt vārdnīca, lai saprastu latviskojumus</p>",
+        "id": 606472118,
+        "sender_full_name": "HellMap",
+        "timestamp": 1782389203
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"1064771\">maemolol</span> <a href=\"#narrow/channel/358602-general/topic/LVM.20Jun.202026.20outage/near/606471996\">said</a>:</p>\n<blockquote>\n<blockquote>\n<p>20 hour old reddit post<br>\n3 hour old article</p>\n</blockquote>\n<p>did they <em>just</em> realise that a <em>breach</em> happened???</p>\n</blockquote>\n<p>That article is also devoid of any real information. You could have written the same article about literally any breach. It doesn't even say they aren't paying ransom, although I think it's implied. In any case - it's all may bes and perhapses.</p>",
+        "id": 606472475,
+        "sender_full_name": "HellMap",
+        "timestamp": 1782389313
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"1064771\">maemolol</span> <a href=\"#narrow/channel/358602-general/topic/LVM.20Jun.202026.20outage/near/606471996\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/channel/358602-general/topic/LVM.20Jun.202026.20outage/near/606470884\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://www.lsm.lv/raksts/zinas/latvija/25.06.2026-latvijas-valsts-mezi-piedzivojusi-kiberuzbrukumu-velesanu-sistema-nav-cietusi.a652634/\">https://www.lsm.lv/raksts/zinas/latvija/25.06.2026-latvijas-valsts-mezi-piedzivojusi-kiberuzbrukumu-velesanu-sistema-nav-cietusi.a652634/</a></p>\n</blockquote>\n<blockquote>\n<p>20 hour old reddit post<br>\n3 hour old article</p>\n</blockquote>\n<p>did they <em>just</em> realise that a <em>breach</em> happened???</p>\n</blockquote>\n<p>Probably they have  just prepared some official announcement</p>",
+        "id": 606472606,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1782389347
+    },
+    {
+        "content": "<p>Also that article is so intent on saying it's some random guy not politically motivated and just bragging about this and ransoming for money. Do they realize that what they are actually saying then is that if this is just some random guy so easily breaching this, then what do you imagine a hostile state-sponsored actor might be able to do?</p>",
+        "id": 606473416,
+        "sender_full_name": "HellMap",
+        "timestamp": 1782389589
+    },
+    {
+        "content": "<p><a href=\"https://www.lsm.lv/raksts/zinas/latvija/26.06.2026-eksperts-kiberuzbrukuma-latvijas-valsts-meziem-izmantota-septinus-gadus-veca-ievainojamiba.a652888\">https://www.lsm.lv/raksts/zinas/latvija/26.06.2026-eksperts-kiberuzbrukuma-latvijas-valsts-meziem-izmantota-septinus-gadus-veca-ievainojamiba.a652888</a><br>\n<a href=\"https://www.lsm.lv/raksts/zinas/latvija/26.06.2026-certlv-atbildibu-par-kiberuzbrukumu-latvijas-valsts-meziem-uznemies-arvalstu-izspiedejvirusu-grupejums.a652861\">https://www.lsm.lv/raksts/zinas/latvija/26.06.2026-certlv-atbildibu-par-kiberuzbrukumu-latvijas-valsts-meziem-uznemies-arvalstu-izspiedejvirusu-grupejums.a652861</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.lsm.lv/raksts/zinas/latvija/26.06.2026-eksperts-kiberuzbrukuma-latvijas-valsts-meziem-izmantota-septinus-gadus-veca-ievainojamiba.a652888\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/68a2a8bcd64896ed8ce892f5810563a35f7d07e2/68747470733a2f2f7374617469632e6c736d2e6c762f6d656469612f323032342f30392f6c617267652f372f6f6f71662e6a7067&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.lsm.lv/raksts/zinas/latvija/26.06.2026-eksperts-kiberuzbrukuma-latvijas-valsts-meziem-izmantota-septinus-gadus-veca-ievainojamiba.a652888\" title=\"Eksperts: Kiberuzbrukumā «Latvijas Valsts mežiem» izmantota septiņus gadus veca ievainojamība\">Eksperts: Kiberuzbrukumā «Latvijas Valsts mežiem» izmantota septiņus gadus veca ievainojamība</a></div><div class=\"message_embed_description\">Pēc vērienīga kiberuzbrukuma \"Latvijas Valsts mežu\" (LVM) informācijas tehnoloģiju (IT) sistēmām premjerministrs Andris Kulbergs (\"Apvienotais saraksts\")&nbsp;pieprasījis visām ministrijām sniegt info...</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.lsm.lv/raksts/zinas/latvija/26.06.2026-certlv-atbildibu-par-kiberuzbrukumu-latvijas-valsts-meziem-uznemies-arvalstu-izspiedejvirusu-grupejums.a652861\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/87d7f9eb839ca4605f4af0a48bfeaef2598800f3/68747470733a2f2f7374617469632e6c736d2e6c762f6d656469612f323031372f31312f6c617267652f312f386836612e6a7067&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.lsm.lv/raksts/zinas/latvija/26.06.2026-certlv-atbildibu-par-kiberuzbrukumu-latvijas-valsts-meziem-uznemies-arvalstu-izspiedejvirusu-grupejums.a652861\" title=\"«Cert.lv»: Atbildību par kiberuzbrukumu «Latvijas Valsts mežiem» uzņēmies ārvalstu izspiedējvīrusu grupējums\">«Cert.lv»: Atbildību par kiberuzbrukumu «Latvijas Valsts mežiem» uzņēmies ārvalstu izspiedējvīrusu grupējums</a></div><div class=\"message_embed_description\">Atbildību par kiberuzbrukumu \"Latvijas Valsts mežiem\" (LVM) uzņēmies ārvalstu finansiāli motivēts&nbsp;izspiedējvīrusu grupējums, informēja kiberincidentu novēršanas institūcija \"Cert.lv\". Valsts poli...</div></div></div>",
+        "id": 606886033,
+        "sender_full_name": "Colby",
+        "timestamp": 1782548193
+    },
+    {
+        "content": "<p>bruh</p>",
+        "id": 606888968,
+        "sender_full_name": "maemolol",
+        "timestamp": 1782551255
+    },
+    {
+        "content": "<p>not the second one, that much is already in the reddit thread i originally sent, but the first one... if you're a government company, please do at least <em>annual</em> comprehensive security tests</p>",
+        "id": 606889048,
+        "sender_full_name": "maemolol",
+        "timestamp": 1782551350
+    },
+    {
+        "content": "<p>Apparently, government is 2 years late implementing new cybersecurity regulations meanwhile they still have budget of 24 million for \"cybersecurity\".</p>",
+        "id": 606889408,
+        "sender_full_name": "HellMap",
+        "timestamp": 1782551759
+    },
+    {
+        "content": "<p>Also I guess someone finally read the reddit post, so they actually admit it was a dude ransomwaring <span aria-label=\"man facepalming\" class=\"emoji emoji-1f926-200d-2642\" role=\"img\" title=\"man facepalming\">:man_facepalming:</span></p>",
+        "id": 606889813,
+        "sender_full_name": "HellMap",
+        "timestamp": 1782552160
+    },
+    {
+        "content": "<p>would have been fun seeing the gaslighting if the hacker wasnt so open about their methods</p>",
+        "id": 606890934,
+        "sender_full_name": "Colby",
+        "timestamp": 1782553243
+    },
+    {
+        "content": "<p><a href=\"https://www.lsm.lv/raksts/zinas/latvija/28.06.2026-eksperts-hakeris-par-latvijas-valsts-mezu-datu-atsifresanu-sagaida-vairak-neka-600-000-eiro.a652989/\">https://www.lsm.lv/raksts/zinas/latvija/28.06.2026-eksperts-hakeris-par-latvijas-valsts-mezu-datu-atsifresanu-sagaida-vairak-neka-600-000-eiro.a652989/</a></p>\n<p><a href=\"https://www.lsm.lv/raksts/zinas/latvija/29.06.2026-sak-kriminalprocesu-pret-kiberdrosibas-ekspertu-strazdinu-pec-atklasmem-par-kiberuzbrukumu-latvijas-valsts-meziem.a653185/\">https://www.lsm.lv/raksts/zinas/latvija/29.06.2026-sak-kriminalprocesu-pret-kiberdrosibas-ekspertu-strazdinu-pec-atklasmem-par-kiberuzbrukumu-latvijas-valsts-meziem.a653185/</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.lsm.lv/raksts/zinas/latvija/28.06.2026-eksperts-hakeris-par-latvijas-valsts-mezu-datu-atsifresanu-sagaida-vairak-neka-600-000-eiro.a652989/\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/8f868acc76c49e96e53edc0e0fcc3619a3b151e2/68747470733a2f2f7374617469632e6c736d2e6c762f6d656469612f323032332f30322f6c617267652f342f6b3378762e6a7067&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.lsm.lv/raksts/zinas/latvija/28.06.2026-eksperts-hakeris-par-latvijas-valsts-mezu-datu-atsifresanu-sagaida-vairak-neka-600-000-eiro.a652989/\" title=\"Eksperts: Hakeris par «Latvijas Valsts mežu» datu atšifrēšanu sagaida vairāk nekā 600 000 eiro\">Eksperts: Hakeris par «Latvijas Valsts mežu» datu atšifrēšanu sagaida vairāk nekā 600 000 eiro</a></div><div class=\"message_embed_description\">Kiberuzbrukumu AS \"Latvijas Valsts meži\" (LVM) īstenojušais hakeris par LVM datu atšifrēšanu sagaida vairāk nekā 600 000 eiro, izriet no kiberdrošības eksperta Elvisa Strazdiņa kontā vietnē \"YouTube\"...</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.lsm.lv/raksts/zinas/latvija/29.06.2026-sak-kriminalprocesu-pret-kiberdrosibas-ekspertu-strazdinu-pec-atklasmem-par-kiberuzbrukumu-latvijas-valsts-meziem.a653185/\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/79798eab927e9444abf8bffa0c3f76fd03b4c461/68747470733a2f2f7374617469632e6c736d2e6c762f6d656469612f323032352f30322f6c617267652f312f706f6f742e6a7067&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.lsm.lv/raksts/zinas/latvija/29.06.2026-sak-kriminalprocesu-pret-kiberdrosibas-ekspertu-strazdinu-pec-atklasmem-par-kiberuzbrukumu-latvijas-valsts-meziem.a653185/\" title=\"Sāk kriminālprocesu pret kiberdrošības ekspertu Strazdiņu pēc atklāsmēm par kiberuzbrukumu «Latvijas Valsts mežiem»\">Sāk kriminālprocesu pret kiberdrošības ekspertu Strazdiņu pēc atklāsmēm par kiberuzbrukumu «Latvijas Valsts mežiem»</a></div><div class=\"message_embed_description\">Pret kiberdrošības ekspertu un tehnoloģiju entuziastu Elvisu Strazdiņu, kurš bija sazinājies ar hakeri, kurš aizvadītajā nedēļā veica kiberuzbrukumu uzņēmumam \"Latvijas Valsts meži\" (LVM),&nbsp;sākts...</div></div></div>",
+        "id": 607324672,
+        "sender_full_name": "HellMap",
+        "timestamp": 1782810634
+    },
+    {
+        "content": "<blockquote>\n<p>Pēc \"Panorāmas\" vēstītā, hakeris ir [..] izdzēsis rezerves kopijas.</p>\n</blockquote>\n<blockquote>\n<p>LVM aģentūrai LETA jau ziņoja, [..] ka visiem failiem [..] ir rezerves kopijas.</p>\n</blockquote>\n<p>So which it?</p>",
+        "id": 607325666,
+        "sender_full_name": "HellMap",
+        "timestamp": 1782810878
+    },
+    {
+        "content": "<p><a href=\"https://www.facebook.com/share/1BAiFVSwV6/\">https://www.facebook.com/share/1BAiFVSwV6/</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.facebook.com/share/1BAiFVSwV6/\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6ac26c6214a603190189ca1c0089d345b2e330f9/68747470733a2f2f73636f6e74656e742d696164362d312e78782e666263646e2e6e65742f762f7433392e33303830382d362f3733353835383930315f313537303130373736383234313531345f383131363839343430343738373538393235345f6e2e6a70673f7374703d6473742d6a70675f74743626637374703d6d78313038307831333530266374703d7036303078363030265f6e635f6361743d313030266363623d312d37265f6e635f7369643d636165313238265f6e635f6f68633d737a2d386b5376706c356b51376b4e7677457058656c30265f6e635f6f633d416471726737544c484b68636d56616c745f76594856664b54573845444e7571546752554b57506e5f314147686e6875556a3065345a54635254463135305f55573945265f6e635f7a743d3233265f6e635f68743d73636f6e74656e742d696164362d312e7878265f6e635f6769643d2d59686a623462486544583373724178437a712d7441265f6e635f73733d3738323066266f683d30305f4151415642383958427349703437744d55484c576554535a72767262473143416a6f52303834336e6a652d354e67266f653d3641343934303341&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.facebook.com/share/1BAiFVSwV6/\" title=\"LVM GEO\">LVM GEO</a></div><div class=\"message_embed_description\">Vēlamies teikt paldies visiem, kuri interesējas par mobilās lietotnes, publiskā karšu pārlūka un publisko datu servisu pieejamību. Šobrīd ļoti aktīvi strādājam pie visu LVM GEO sistēmu atjaunošanas....</div></div></div>",
+        "id": 607326065,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1782811001
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/358602-general/topic/LVM.20Jun.202026.20outage/near/607325666\">said</a>:</p>\n<blockquote>\n<blockquote>\n<p>Pēc \"Panorāmas\" vēstītā, hakeris ir [..] izdzēsis rezerves kopijas.</p>\n</blockquote>\n<blockquote>\n<p>LVM aģentūrai LETA jau ziņoja, [..] ka visiem failiem [..] ir rezerves kopijas.</p>\n</blockquote>\n<p>So which it?</p>\n</blockquote>\n<p>maybe someone stored a backup on their personal machine? brave choice in terms of opsec, but, y'know, turned out to be useful one day</p>",
+        "id": 607326320,
+        "sender_full_name": "maemolol",
+        "timestamp": 1782811092
+    },
+    {
+        "content": "<p>then again that is several dozen <em>tera</em>bytes of data at least, so seems really unlikely</p>",
+        "id": 607326404,
+        "sender_full_name": "maemolol",
+        "timestamp": 1782811126
+    },
+    {
+        "content": "<p><a href=\"https://www.lvm.lv/jaunumi/8020-latvijas-valsts-meziem-izpirkuma-maksa-par-datu-atsifresanu-nav-pieprasita\">https://www.lvm.lv/jaunumi/8020-latvijas-valsts-meziem-izpirkuma-maksa-par-datu-atsifresanu-nav-pieprasita</a></p>\n<blockquote>\n<p>Mums ir pieejamas visu uzņēmuma datu rezerves kopijas un nekādi datu zudumi nav konstatēti</p>\n</blockquote>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.lvm.lv/jaunumi/8020-latvijas-valsts-meziem-izpirkuma-maksa-par-datu-atsifresanu-nav-pieprasita\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/8d480e21ed32d8a3ae50c42210ddae0b9ccb20f4/68747470733a2f2f7777772e6c766d2e6c762f696d616765732f6c766d2f6a61756e756d692f323032362f6d657a732d7061766173617269732e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.lvm.lv/jaunumi/8020-latvijas-valsts-meziem-izpirkuma-maksa-par-datu-atsifresanu-nav-pieprasita\" title=\"Latvijas valsts mežiem izpirkuma maksa par datu atšifrēšanu nav pieprasīta\">Latvijas valsts mežiem izpirkuma maksa par datu atšifrēšanu nav pieprasīta</a></div><div class=\"message_embed_description\">Pēc pagājušajā nedēļā notikušā kiberincidenta AS “Latvijas valsts meži” (LVM) IT infrastruktūrai, medijos izplatīta nepatiesa...</div></div></div>",
+        "id": 607326488,
+        "sender_full_name": "HellMap",
+        "timestamp": 1782811159
+    },
+    {
+        "content": "<p><a href=\"https://www.lvm.lv/jaunumi/8019-lvm-pazinojums-klientiem-un-sadarbibas-partneriem-par-kiberdrosibas-incidentu-un-konstateto-personas-datu-aizsardzibas-parkapumu\">https://www.lvm.lv/jaunumi/8019-lvm-pazinojums-klientiem-un-sadarbibas-partneriem-par-kiberdrosibas-incidentu-un-konstateto-personas-datu-aizsardzibas-parkapumu</a></p>\n<blockquote>\n<p>Personas dati, kas, pamatojoties uz šobrīd pieejamo informāciju, iespējams, ir skarti: [..] citi personas dati, kas atradās ietekmētajās sistēmās</p>\n</blockquote>\n<p>Hope none of you registered for map access or something... oh wait</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.lvm.lv/jaunumi/8019-lvm-pazinojums-klientiem-un-sadarbibas-partneriem-par-kiberdrosibas-incidentu-un-konstateto-personas-datu-aizsardzibas-parkapumu\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/09209d8d287b27d4331173c41ad63d80ab34de81/68747470733a2f2f7777772e6c766d2e6c762f696d616765732f6c766d2f6a61756e756d692f323032362f7661646962612f6d657a612d61696e612e6a7067&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.lvm.lv/jaunumi/8019-lvm-pazinojums-klientiem-un-sadarbibas-partneriem-par-kiberdrosibas-incidentu-un-konstateto-personas-datu-aizsardzibas-parkapumu\" title=\"LVM paziņojums klientiem un sadarbības partneriem par kiberdrošības incidentu un konstatēto personas datu aizsardzības pārkāpumu\">LVM paziņojums klientiem un sadarbības partneriem par kiberdrošības incidentu un konstatēto personas datu aizsardzības pārkāpumu</a></div><div class=\"message_embed_description\">AS “Latvijas valsts meži” (LVM) jau informēja, ka šī gada 22. jūnijā tika konstatēts kiberdrošības incidents, kura rezultātā...</div></div></div>",
+        "id": 607326994,
+        "sender_full_name": "HellMap",
+        "timestamp": 1782811315
+    },
+    {
+        "content": "<p>this is a great way to remind you all that you can set up breach alerts on have i been pwned</p>",
+        "id": 607327260,
+        "sender_full_name": "maemolol",
+        "timestamp": 1782811401
+    },
+    {
+        "content": "<blockquote>\n<p>personas datu drošība uzņēmumam ir būtiska prioritāte</p>\n</blockquote>\n<blockquote>\n<p>7000~ password list</p>\n</blockquote>\n<p>I think we have a different definition of \"priority\" when there is an unencryped password list on their servers.</p>",
+        "id": 607327697,
+        "sender_full_name": "HellMap",
+        "timestamp": 1782811507
+    },
+    {
+        "content": "<p>i guess i'm reacting to this with the perspective of a software developer, but erm... how does one miss password hashing on a public thing?</p>",
+        "id": 607329205,
+        "sender_full_name": "maemolol",
+        "timestamp": 1782811909
+    },
+    {
+        "content": "<p>Here's the guy's quick video <a href=\"https://www.youtube.com/watch?v=BviBCjW2SjQ\">YouTube -  - YouTube</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"BviBCjW2SjQ\" href=\"https://www.youtube.com/watch?v=BviBCjW2SjQ\"><img src=\"https://uploads.zulipusercontent.net/5a987972141f09317243f6434a07b45543a41c00/68747470733a2f2f692e7974696d672e636f6d2f76692f42766942436a5732536a512f6d7164656661756c742e6a7067\"></a></div><p>Literal command injection. I just cannot believe how basic/stupid this whole is \"hack\" is.</p>\n<p>He didn't link this, but this seems to be CVE-2024-36401 <a href=\"https://nvd.nist.gov/vuln/detail/cve-2024-36401\">https://nvd.nist.gov/vuln/detail/cve-2024-36401</a></p>",
+        "id": 607330793,
+        "sender_full_name": "HellMap",
+        "timestamp": 1782812307
+    },
+    {
+        "content": "<div class=\"message_inline_image\"><a href=\"https://media1.tenor.com/m/0IHINvvs6ccAAAAC/disintegrating-funny.gif\"><img src=\"https://uploads.zulipusercontent.net/3f60e62bd1b6250b3ea5d0edfc447934165a0b2f/68747470733a2f2f6d65646961312e74656e6f722e636f6d2f6d2f304948494e76767336636341414141432f646973696e746567726174696e672d66756e6e792e676966\"></a></div>",
+        "id": 607332496,
+        "sender_full_name": "maemolol",
+        "timestamp": 1782812759
+    },
+    {
+        "content": "<p><a href=\"https://www.lsm.lv/raksts/zinas/latvija/30.06.2026-blogeris-strazdins-gatavs-tiesaties-saistiba-ar-policijas-parmetumiem.a653360/\">https://www.lsm.lv/raksts/zinas/latvija/30.06.2026-blogeris-strazdins-gatavs-tiesaties-saistiba-ar-policijas-parmetumiem.a653360/</a></p>\n<blockquote>\n<p>Vienlaikus policija apgalvo – pret Elvi Strazdiņu nav sākts kriminālprocess. Viņam tikai piemērots statuss \"persona, pret kuru sākts kriminālprocesss\".</p>\n</blockquote>\n<p>I'm not hitting you, you're just repeatedly colliding yourself with my fist!</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.lsm.lv/raksts/zinas/latvija/30.06.2026-blogeris-strazdins-gatavs-tiesaties-saistiba-ar-policijas-parmetumiem.a653360/\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/72982a9082d835682252e367555e4035965e8a44/68747470733a2f2f7374617469632e6c736d2e6c762f6d656469612f323032362f30362f6c617267652f312f746e76662e6a7067&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.lsm.lv/raksts/zinas/latvija/30.06.2026-blogeris-strazdins-gatavs-tiesaties-saistiba-ar-policijas-parmetumiem.a653360/\" title=\"Blogeris Strazdiņš gatavs tiesāties saistībā ar policijas pārmetumiem\">Blogeris Strazdiņš gatavs tiesāties saistībā ar policijas pārmetumiem</a></div><div class=\"message_embed_description\">Negaidīta policijas vizīte, kratīšana, izņemta ierīce, pratināšana iecirknī un statuss \"persona, pret kuru sākts kriminālprocess\". Šādus notikumus piedzīvoja blogeris Elviss Strazdiņš pēc tam, kad int...</div></div></div>",
+        "id": 607568848,
+        "sender_full_name": "HellMap",
+        "timestamp": 1782898769
+    }
+]

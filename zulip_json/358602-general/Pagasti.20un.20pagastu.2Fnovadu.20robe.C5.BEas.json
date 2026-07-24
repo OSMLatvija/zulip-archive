@@ -1,0 +1,128 @@
+[
+    {
+        "content": "<p>Beidzot sazīmēju līdz galam visus pagastus. <br>\n<a href=\"/user_uploads/49624/e71iIr8BOh7Pgw3Nhg0U0c2D/pagasti.png\">pagasti.png</a><br>\nLīdz manīm bija kāda trešdaļa iezīmēta (no arcth).</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/e71iIr8BOh7Pgw3Nhg0U0c2D/pagasti.png\" title=\"pagasti.png\"><img data-original-dimensions=\"1735x1058\" src=\"/user_uploads/thumbnail/49624/e71iIr8BOh7Pgw3Nhg0U0c2D/pagasti.png/840x560.webp\"></a></div>",
+        "id": 491882483,
+        "sender_full_name": "HellMap",
+        "timestamp": 1736001903
+    },
+    {
+        "content": "<p>Pagastu kopā ir 511 . Ilgi meklēju kļūdu, jo datos ir 511, bet wiki lapā <a href=\"https://lv.wikipedia.org/wiki/Latvijas_pagastu_uzskait%C4%ABjums\">https://lv.wikipedia.org/wiki/Latvijas_pagastu_uzskait%C4%ABjums</a> pateikts, ka ir 512, un tabulā it kā 512 . Bet faktiskā kļūda ir wiki starp 281 un 283 ir izlaista rindiņa...</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://lv.wikipedia.org/wiki/Latvijas_pagastu_uzskait%C4%ABjums\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/25ff32617f030f593947cd1c63da006bfd8e123c/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f322f32302f4c61747669615f61646d696e6973747261746976655f6469766973696f6e735f6c6162656c6c65642e7376672f36343070782d4c61747669615f61646d696e6973747261746976655f6469766973696f6e735f6c6162656c6c65642e7376672e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://lv.wikipedia.org/wiki/Latvijas_pagastu_uzskait%C4%ABjums\" title=\"Latvijas pagastu uzskaitījums — Vikipēdija\">Latvijas pagastu uzskaitījums — Vikipēdija</a></div><div class=\"message_embed_description\">Šajā uzskaitījumā apkopoti visi pašreiz esošie Latvijas pagasti. 2021. gadā Latvijas teritorijā bija 512 pagasti.\n</div></div></div>",
+        "id": 491882576,
+        "sender_full_name": "HellMap",
+        "timestamp": 1736001993
+    },
+    {
+        "content": "<p>Principā 80% no \"zīmēšanas\" ir manuāli bīdīt līnijas, pievienot esošajām, labot relācijas, taisīt punktus, utt. Plus katram piektajam pagastam vēl tur kaut kādi prikoli OSM datos. Tā kā automātisks imports galīgi nesanāk un es pat nevaru gluži iedomāties, kā to izdarīt tā, lai pēc tam nav tik un tā ar rokām jālabo visur. Par valsts robežām nerunājot, kur nesakrīt ar VZD gandrīz nekur un līnijas sagrieztas miljons gabalos. Vismaz tagad, kad ir visas \"iekšējās\" līnijas, iespējams var importēt precizējumus. Bet godīgi sakot, ja netaisa jaunu reformu, tad laikam JOSMā ātrāk izmainīt nekā tur rakstīt kaut kādu importa softu.</p>",
+        "id": 491882855,
+        "sender_full_name": "HellMap",
+        "timestamp": 1736002256
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/358602-general/topic/Pagasti.20un.20pagastu.2Fnovadu.20robe.C5.BEas/near/491882576\">said</a>:</p>\n<blockquote>\n<p>Pagastu kopā ir 511 . Ilgi meklēju kļūdu, jo datos ir 511, bet wiki lapā <a href=\"https://lv.wikipedia.org/wiki/Latvijas_pagastu_uzskait%C4%ABjums\">https://lv.wikipedia.org/wiki/Latvijas_pagastu_uzskait%C4%ABjums</a> pateikts, ka ir 512, un tabulā it kā 512 . Bet faktiskā kļūda ir wiki starp 281 un 283 ir izlaista rindiņa...</p>\n</blockquote>\n<p>palauzījos ar šo<br>\n<a href=\"https://www.tablesgenerator.com/mediawiki_tables\">https://www.tablesgenerator.com/mediawiki_tables</a><br>\nkautkas sanāk bet bail ka vietā ieliekšu tabulu ar citiem iestatījumiem un nebūs labi<br>\nnezinu ko tie !! un ! nozīmē un kāpēc 1. vietā parādās 1</p>",
+        "id": 491885023,
+        "sender_full_name": "Colby",
+        "timestamp": 1736004235
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/358602-general/topic/Pagasti.20un.20pagastu.2Fnovadu.20robe.C5.BEas/near/491882576\">said</a>:</p>\n<blockquote>\n<p>Pagastu kopā ir 511 . Ilgi meklēju kļūdu, jo datos ir 511, bet wiki lapā <a href=\"https://lv.wikipedia.org/wiki/Latvijas_pagastu_uzskait%C4%ABjums\">https://lv.wikipedia.org/wiki/Latvijas_pagastu_uzskait%C4%ABjums</a> pateikts, ka ir 512, un tabulā it kā 512 . Bet faktiskā kļūda ir wiki starp 281 un 283 ir izlaista rindiņa...</p>\n</blockquote>\n<p>palauzījos ar <a href=\"https://www.tablesgenerator.com/mediawiki_tables\">https://www.tablesgenerator.com/mediawiki_tables</a><br>\nšķiet izdevās pareizi izlabot..<br>\n<a href=\"https://lv.wikipedia.org/w/index.php?title=Latvijas_pagastu_uzskait%C4%ABjums&amp;diff=prev&amp;oldid=4203641\">https://lv.wikipedia.org/w/index.php?title=Latvijas_pagastu_uzskait%C4%ABjums&amp;diff=prev&amp;oldid=4203641</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://lv.wikipedia.org/w/index.php?title=Latvijas_pagastu_uzskait%C4%ABjums&amp;diff=prev&amp;oldid=4203641\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/25ff32617f030f593947cd1c63da006bfd8e123c/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f322f32302f4c61747669615f61646d696e6973747261746976655f6469766973696f6e735f6c6162656c6c65642e7376672f36343070782d4c61747669615f61646d696e6973747261746976655f6469766973696f6e735f6c6162656c6c65642e7376672e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://lv.wikipedia.org/w/index.php?title=Latvijas_pagastu_uzskait%C4%ABjums&amp;diff=prev&amp;oldid=4203641\" title=\"Latvijas pagastu uzskaitījums: Atšķirības starp versijām — Vikipēdija\">Latvijas pagastu uzskaitījums: Atšķirības starp versijām — Vikipēdija</a></div><div class=\"message_embed_description\">Šajā uzskaitījumā apkopoti visi pašreiz esošie Latvijas pagasti. 2021. gadā Latvijas teritorijā bija 511 pagasti.\n</div></div></div>",
+        "id": 491885709,
+        "sender_full_name": "Colby",
+        "timestamp": 1736004819
+    },
+    {
+        "content": "<p>būtu super šo visu importēt arī  <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/channel/358602-general/topic/OpenHistoricalMap/with/507885947\">#general &gt; OpenHistoricalMap</a></p>",
+        "id": 520192812,
+        "sender_full_name": "Colby",
+        "timestamp": 1748089463
+    },
+    {
+        "content": "<p>Būtu... bet man personīgi nav vispār laika OHM. Es ar OSM netieku galā ar visu, kur pat uz vietas apsekoju. Tā kā, ja tikai kādam ļoti gribas. Šitā visa pagastu-novadu putra bija liels darbs, jo tur bija jāsavieno ar esošo. Es nezinu situāciju OHM, bet, ja tur izmanto vienas un tās pašas līnijas vēsturiskiem boundary, es pat nestādos priekšā, kā to visu importēt, jo tur tie relationi būs krietni vairāk nekā OSM.</p>",
+        "id": 520193243,
+        "sender_full_name": "HellMap",
+        "timestamp": 1748089851
+    },
+    {
+        "content": "<p>šobrīd latvijā tikai dažas robežas, kautkādas senas 1500to un apkārtējo impērju robežas<br>\nsavienošanas putra vienīgi pie valsts robežas un varbūt upēm</p>",
+        "id": 520195070,
+        "sender_full_name": "Colby",
+        "timestamp": 1748091260
+    },
+    {
+        "content": "<p>gan jau izdarītu pats bet nesaprotu kā masveidā uztaisīt relācijas</p>",
+        "id": 520195261,
+        "sender_full_name": "Colby",
+        "timestamp": 1748091408
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/channel/358602-general/topic/Pagasti.20un.20pagastu.2Fnovadu.20robe.C5.BEas/near/520195070\">said</a>:</p>\n<blockquote>\n<p>savienošanas putra vienīgi pie valsts robežas un varbūt upēm</p>\n</blockquote>\n<p>Bet kā pēc tam ar citām vēsturiskām robežām? Vai tad OHM zīmē jaunas līnijas vecām robežām? Jo tur visur vajadzēs pa jaunu līnijas lietot un viņas daudz kur nesakritīs.</p>",
+        "id": 520195434,
+        "sender_full_name": "HellMap",
+        "timestamp": 1748091549
+    },
+    {
+        "content": "<p>¯\\_(ツ)_/¯<br>\n<a href=\"https://www.openhistoricalmap.org/relation/2801388\">https://www.openhistoricalmap.org/relation/2801388</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openhistoricalmap.org/relation/2801388\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/e0febc262d029965d8680b7a0b338e21d7bb830b/68747470733a2f2f7777772e6f70656e686973746f726963616c6d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d613230393131613932663163323661666261376261383931383665323037306565363161653139356636613531613763396437616335633463656161383936612e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openhistoricalmap.org/relation/2801388\" title=\"Relation: ‪Latvia‬ (‪2801388‬)\">Relation: ‪Latvia‬ (‪2801388‬)</a></div><div class=\"message_embed_description\">OpenHistoricalMap is an interactive map of the world throughout history, created by people like you and dedicated to the public domain.</div></div></div>",
+        "id": 520195693,
+        "sender_full_name": "Colby",
+        "timestamp": 1748091752
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/channel/358602-general/topic/Pagasti.20un.20pagastu.2Fnovadu.20robe.C5.BEas/near/520195261\">said</a>:</p>\n<blockquote>\n<p>nesaprotu kā masveidā uztaisīt relācijas</p>\n</blockquote>\n<p>Es atvērtos datus no QGIS uz JOSMu eksportēju. Exportā ieliku lai taisa multipolygonus. Tad JOSM tos automātiski piesaista. Tu gan bija vēl JOSM multipoligona jābaksta, jo ne visu salika pareizi (es vairs precīzi neatcetos). Tad visi tegi jāsaliek. Protams, visas līnijas ar OSM datiem nekādīgi automātiski nesavienojas. Vienā slānī OSM, otrā imports. Un tad manuāli skatos, kurus var \"pa taisno\" ielikt OSM slāni un kuri jāsavieno ar esošiem, kuras līnijas jāmaina, kuras jābīda, kuras var izmantot, kuras jādala, utt. Un tas ir tas, kas aizņem 99% laika. Te pagāja kāds mēnesis. Tā kā \"imports\" tas ir tā nosacīti pateikts - faktiski tur ļoti daudz ar rokām. Tad, ja skatās <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/channel/358602-general/topic/Ciemi/with/513379585\">#general &gt; Ciemi</a>, tur ļoti daudz robežu bija jāsavieno ar pilsētu, pagastu, novadu, valsts robežām. Nu tad vēl pāris mēneši ik pa laikam to taisot.</p>",
+        "id": 520196275,
+        "sender_full_name": "HellMap",
+        "timestamp": 1748092256
+    },
+    {
+        "content": "<p>Tagad iedomājies, ka 80% līniju jau ir un vecāku datu imports ir faktiski tikai dažas jaunas līnijas, bet visu pārējo vajag manuāli kopēt, dzēst un savienot līnijas visiem vecajiem nodaviem utt. Es meklēju, kā to varētu importēt, bet neko jēdzīgu neatradu. Problēma ir, ka nekas nemāk labi savienot ar esošajiem OSM datiem. Varbūt, ja līnijas ir ļoti precīzas, tad var kaut kā vēl to dabūt. Bet teiksim OSM datos esošie bija ļoti aptuveni dažviet. Un tad vēl visādi savienojumi ar upēm, ezeriem, nepareizām un vecām robežām. Un faktiski jāskatās katrs gadījums manuāli. Īsumā - es nezinu, kā to izdarīt kaut kā ātrāk.</p>",
+        "id": 520196552,
+        "sender_full_name": "HellMap",
+        "timestamp": 1748092472
+    },
+    {
+        "content": "<blockquote>\n<p>Exportā ieliku lai taisa multipolygonus</p>\n</blockquote>\n<p>te arī iesprūdu, eksportēju uz .shp un JOSM nekādi multipoligoni nav<br>\n<a href=\"/user_uploads/49624/4s1hd7ClsP57bcHiUYnvznol/image.png\">:(</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/4s1hd7ClsP57bcHiUYnvznol/image.png\" title=\":(\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"442x423\" src=\"/user_uploads/thumbnail/49624/4s1hd7ClsP57bcHiUYnvznol/image.png/840x560.webp\"></a></div>",
+        "id": 520196911,
+        "sender_full_name": "Colby",
+        "timestamp": 1748092750
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/0RqegoRA8duTsxgHv5qUqlpc/image.png\">image.png</a><br>\naha izdevās ar izcili stulbu ideju, ieliku visos caurumu vidū</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/0RqegoRA8duTsxgHv5qUqlpc/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"414x381\" src=\"/user_uploads/thumbnail/49624/0RqegoRA8duTsxgHv5qUqlpc/image.png/840x560.webp\"></a></div>",
+        "id": 520197499,
+        "sender_full_name": "Colby",
+        "timestamp": 1748093251
+    },
+    {
+        "content": "<p>QGISā bija speciāli jānorāda kaut kāds \"multiline\" - es vairs precīzi neatceros</p>",
+        "id": 520198124,
+        "sender_full_name": "HellMap",
+        "timestamp": 1748093755
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/I0ShEb8Jz7OxihWjjP-B1Udp/image.png\">image.png</a><br>\n<a href=\"/user_uploads/49624/ySqb5ONakrLHaAgngXL_1iS1/image.png\">image.png</a><br>\nJa es pareizi atceros. Es SHP pa taisno JOSMā neliku.</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/I0ShEb8Jz7OxihWjjP-B1Udp/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"178x37\" src=\"/user_uploads/thumbnail/49624/I0ShEb8Jz7OxihWjjP-B1Udp/image.png/840x560.webp\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/ySqb5ONakrLHaAgngXL_1iS1/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"462x46\" src=\"/user_uploads/thumbnail/49624/ySqb5ONakrLHaAgngXL_1iS1/image.png/840x560.webp\"></a></div>",
+        "id": 520198316,
+        "sender_full_name": "HellMap",
+        "timestamp": 1748093887
+    },
+    {
+        "content": "<p>Un pašā JOSMā iespējams vajadzēs paspaidīt multipoligona pluginā. Es neatceros, kam es to taisīju, bet bija dati, kas negribēja multipoligonēties. Iespējams tieši novadi/pagasti.</p>",
+        "id": 520198684,
+        "sender_full_name": "HellMap",
+        "timestamp": 1748094189
+    },
+    {
+        "content": "<p>paskatījos tuvāk OHM latvijas robežas<br>\n<a href=\"/user_uploads/49624/aggnLhofznnqxWtdhT72bCpl/image.png\">oof</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/aggnLhofznnqxWtdhT72bCpl/image.png\" title=\"oof\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"407x624\" src=\"/user_uploads/thumbnail/49624/aggnLhofznnqxWtdhT72bCpl/image.png/840x560.webp\"></a></div>",
+        "id": 520199668,
+        "sender_full_name": "Colby",
+        "timestamp": 1748095003
+    },
+    {
+        "content": "<p>laikam padodos</p>",
+        "id": 520199719,
+        "sender_full_name": "Colby",
+        "timestamp": 1748095051
+    },
+    {
+        "content": "<p>Nais. Šķiet, OHM vajadzēs pārdomāt datu modeli tomēr.<br>\nEs gan līdzīgi kā HellMap diez vai kam tādam vēl atradīšu maģiski laiku =)</p>",
+        "id": 522668537,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1749157152
+    }
+]

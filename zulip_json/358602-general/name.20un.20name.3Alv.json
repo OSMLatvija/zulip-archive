@@ -1,0 +1,320 @@
+[
+    {
+        "content": "<p>Attīstot <a href=\"#narrow/stream/358602-general/topic/Nosaukumu.20nevien.C4.81d.C4.ABbas\">tēmu par nosaukumu vienādošanu</a> un palasot <a href=\"https://wiki.openstreetmap.org/wiki/Multilingual_names#Repeating_name_with_language_specific_tag\">wiki par nosaukumu tulkošanu</a>, nolūkā <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">botam</a> pielikt arī nosacījumus tagu automātiskai labošanai, ir priekšlikums tam pievienot divus nosacījumus:<br>\n1) dzēst name:* tagus, ja pilnīgi visi no tiem sakrīt ar name;<br>\n2) pievienot name:lv tagu, kas sakrīt ar name, ja ir name:* tagi, kas atšķiras no name, bet starp tiem nav name:lv.<br>\nPiemērs node tagiem, kas tiktu mainīti (ne svaigākā OSM versija, bet principu ieskatam tas nemaina): <a href=\"/user_uploads/49624/ALu9UsYeW3u2sRhmC4kETsc3/name_nodes.xlsx\">name_nodes.xlsx</a><br>\nJa ir OK, tad pierakstītu ways un relations un papildinātu kodu.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 366940630,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1686947389
+    },
+    {
+        "content": "<p>Vēl arī 3) - pievienot trūkstošos name tagus no name:lv, ja tādi jau ir pievienoti. Šādi gadījumi gan ir tikai daži desmiti.</p>",
+        "id": 367228780,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1687025582
+    },
+    {
+        "content": "<p>Es palasīju wiki un kaut kā es neesmu pārliecināts par 1) loģiku. A kā var zināt, kā citās valodās ir <code>name:*</code>? Noņemot visus nost vairs nevar zināt, kurām valodām sakrīt un kuras vēl nav pieliktas. Ja man ir <code>name=Leto</code> + <code>name:lv=Leto</code> +  <code>name:en=Leto</code>; tad <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bots</a> noņem tikai uz <code>name=Leto</code>; bet tad kāds pieliek <code>name:ru=Лето</code>; un tagad kā var zināt, kāds ir <code>name:en</code> vai pat <code>name:lv</code>? Kāpēc <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bots</a> domāja, ka visās valodās būs tā pat \"Leto\" un var ņemt nost?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 367230283,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687026204
+    },
+    {
+        "content": "<p>Latvijā name un name:lv būtu jāsakrīt, izņemot gadījumus, kad elementi atrodas vairākās valstīs. Labojamo gadījumu nav pārāk daudz, kādi pāris simti, šie gan jāskata manuāli. Ja kāds pieliks name:* , kas no name atšķiras, tad name:lv tik pielikts atpakaļ automātiski (sakritīs ar name). Par citām agrāk pieliktajām valodām taisnība, vēsturē vienīgi var redzēt. Var piekodēt klāt, ka <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bots</a> paša noņemtās no vēstures pieliek atpakaļ (ņem jaunāko name:* no visām <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bota</a> veiktajām izmaiņām), ja parādījušies jauni name:*, kas no name atšķiras (pieliek tās, kuru nav jaunākajā versijā). Jāatrod vai jāizveido kāds elements testam, kur šis nosacījums izpildītos. Vairumā gadījumu jau tie tulkojumi, kas visās valodās ir vienādi, izskatās sakopēti nedomājot.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 367238771,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1687029742
+    },
+    {
+        "content": "<p>Latvijā nav vietu, kur name būtu līvu vai latgaliešu valodā?</p>",
+        "id": 367255496,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687038595
+    },
+    {
+        "content": "<p>Latgaliešu valodai/dialektam ir name:ltg, līvu tiek lietots name:liv.</p>",
+        "id": 367297026,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1687064691
+    },
+    {
+        "content": "<p>Tā kā ir gadījumi, kad pamatnosaukums tomēr tiek lietots latgaliešu valodā, tad 2) Latgalē jāapstrādā atsevišķi - neliekot trūkstošo name:lv no name, ja ir norādīts name:ltg. Šobrīd gan tādi gadījumi OSM datos ir uz gatera strādnieka rokas pirkstiem saskaitāmi. Elementus, kas atbilst atlases nosacījumiem, atliek vai nu izskatīt manuāli, vai atstāt vēlākam laikam.<br>\n1) nosacījumā jāapstrādā arī alt_name. Papildus nāk klāt nosacījums dzēst alt_name, ja sakrīt ar name:ltg (vadoties pēc <a href=\"https://wiki.openstreetmap.org/wiki/Key:alt_name\">wiki</a>).</p>",
+        "id": 367460660,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1687122747
+    },
+    {
+        "content": "<p>Off-topic, bet, skatoties, kas tagots ar name_1, atradās šāds ar visai interesantu vēsturi: <a href=\"https://www.openstreetmap.org/node/1684473449/history\">https://www.openstreetmap.org/node/1684473449/history</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/1684473449/history\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/1684473449/history\" title=\"Node History: ‪Digitālo Servisu Parks‬ (‪1684473449‬) | OpenStreetMap\">Node History: ‪Digitālo Servisu Parks‬ (‪1684473449‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 367461439,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1687123102
+    },
+    {
+        "content": "<p>Ņemot vērā iepriekšējos ieteikumus par latgaliešu valodu un tulkojumu nepazaudēšanu gadījumos, kad vēlāk tiek pievienoti nosaukumi citās valodas, kas atšķiras no name, kā arī papildinot ar vēl dažiem nosacījumiem, loģika izskatās šāda:</p>\n<p>--1. Trim values.<br>\n---Nodes.<br>\n---Ways.<br>\n---Relations.<br>\n--2. Remove semicolons at the end of values.<br>\n---Nodes.<br>\n---Ways.<br>\n---Relations.<br>\n--3. Trim and sort multiple semicolon separated values in alt_name* and old_name* keys.<br>\n---Nodes.<br>\n---Ways.<br>\n---Relations.<br>\n--4. If missing, add name equal to name:lv if it's already present. name:lv might be deleted in later steps.<br>\n---Nodes.<br>\n---Ways.<br>\n---Relations.<br>\n--5. Remove multilingual names if all match default name.<br>\n---Exclude some keys in Latgale.<br>\n----Nodes. In Latgale, exclude key \"place\".<br>\n----Ways. In Latgale, exclude keys \"place\", \"natural\" and \"waterway\".<br>\n----Relations.<br>\n---In Latgale, keep *name:lv and *name:ltg keys as in some cases Latgalian might be used as name and otherwise it might be impossible to distinguish which language is used.<br>\n----Nodes. Only key \"place\".<br>\n----Ways. Only keys \"place\", \"natural\" and \"waterway\".<br>\n----Relations. Only keys \"place\", \"natural\" and \"waterway\".<br>\n--Remove multilingual alt_names if all match default alt_name. Identical principles to name except for ways and relations exclude cross border features having name in more than one language.<br>\n---Exclude some keys in Latgale.<br>\n----Nodes. In Latgale, exclude key \"place\".<br>\n----Ways. In Latgale, exclude keys \"place\", \"natural\" and \"waterway\".<br>\n----Relations.<br>\n---In Latgale, keep *alt_name:lv and *alt_name:ltg keys as in some cases Latgalian might be used as alt_name and otherwise it might be impossible to distinguish which language is used.<br>\n----Nodes. Only key \"place\".<br>\n----Ways. Only keys \"place\", \"natural\" and \"waterway\".<br>\n----Relations. Only keys \"place\", \"natural\" and \"waterway\".<br>\n--Remove multilingual old_names if all match default old_name. Identical principles to alt_name.<br>\n---Exclude some keys in Latgale.<br>\n----Nodes. In Latgale, exclude key \"place\".<br>\n----Ways. In Latgale, exclude keys \"place\", \"natural\" and \"waterway\".<br>\n----Relations.<br>\n---In Latgale, keep *old_name:lv and *old_name:ltg keys as in some cases Latgalian might be used as old_name and otherwise it might be impossible to distinguish which language is used.<br>\n----Nodes. Only key \"place\".<br>\n----Ways. Only keys \"place\", \"natural\" and \"waterway\".<br>\n----Relations. Only keys \"place\", \"natural\" and \"waterway\".<br>\n--6. From history, restore multilingual names all matching default name if multilingual names that differ from the default name have been added.  In case of multiple values for the same key, retrieve the latest.<br>\n---Nodes.<br>\n---Ways.<br>\n---Relations.<br>\n--7. Remove alt_name if it matches name:ltg.<br>\n---Nodes.<br>\n---Ways.<br>\n---Relations.<br>\n--8. For isolated dwellings, remove multilingual names.<br>\n---Exclude Latgale.<br>\n----Nodes.<br>\n----Ways.<br>\n----Relations.<br>\n---In Latgale, keep only name:lv and name:ltg.<br>\n----Nodes.<br>\n----Ways.<br>\n----Relations.<br>\n--9. If missing, add name:lv that equals default name if multilingual names that differ from the default name exist.<br>\n---Exclude Latgale.<br>\n----Nodes.<br>\n----Ways.<br>\n----Relations.<br>\n---In Latgale, don't add name:lv if name matches name:lgt as some names use Latgalian as default name.<br>\n----Nodes.<br>\n----Ways.<br>\n----Relations.</p>\n<p>Viensētu nosaukumi nav jātulko, atstāju vienīgi latgaliešu valodā Latgalē. Citādi šobrīd ir tādi gadījumi kā <a href=\"https://www.openstreetmap.org/node/653417496/history\">https://www.openstreetmap.org/node/653417496/history</a>, kad kāds sameklējis visus objektus ar attiecīgo nosaukumu pievienojis tulkojumus, lai gan jātulko bija tikai ciema nosaukums.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/653417496/history\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/653417496/history\" title=\"Node History: ‪Ērgļi‬ (‪653417496‬) | OpenStreetMap\">Node History: ‪Ērgļi‬ (‪653417496‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 373929668,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1688989344
+    },
+    {
+        "content": "<blockquote>\n<p>Trim and sort multiple semicolon separated values</p>\n</blockquote>\n<p>Kāpēc sort? Retāks nosaukums var būt speciāli vēlāk ielikts. Visādos sarakstos būs zemāk.</p>",
+        "id": 373987200,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689000238
+    },
+    {
+        "content": "<p>Wiki kaut kur ir aprakstīts, ka alt_name un old_name secībai ir jābūt pēc nozīmības? <a href=\"https://wiki.openstreetmap.org/wiki/Semi-colon_value_separator\">https://wiki.openstreetmap.org/wiki/Semi-colon_value_separator</a>, <a href=\"https://wiki.openstreetmap.org/wiki/Key:alt_name\">https://wiki.openstreetmap.org/wiki/Key:alt_name</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Key:old_name\">https://wiki.openstreetmap.org/wiki/Key:old_name</a> neko tādu neatradu.</p>",
+        "id": 373990503,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1689001075
+    },
+    {
+        "content": "<p>Bet vai tad kaut kur minēts, ka nozīmes nav?</p>",
+        "id": 373992138,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689001333
+    },
+    {
+        "content": "<p>Ja ir nozīme, tad tad ir jābūt kaut kur minētai. Ja nav minēts, tad nebūtu pamata pieņemt, ka būtu kāda nozīme.</p>",
+        "id": 373993339,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1689001541
+    },
+    {
+        "content": "<p>Tās Ērgļu māju nosaukuma transliterācijas gan mazliet velk uz ņemšanu nost, kādas jums domas?</p>",
+        "id": 374214574,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1689071652
+    },
+    {
+        "content": "<p>Es nonestu. Tā ir mehāniska neapspriesta rediģēšana. Bet nu, no otras puses neviens īpaši neiebilda pret mehānisko \"Krasta Street\" tulkošanu <a href=\"#narrow/stream/358602-general/topic/Ielu.20nosaukumu.20tulkojumi\">https://osmlatvija.zulipchat.com/#narrow/stream/358602-general/topic/Ielu.20nosaukumu.20tulkojumi</a></p>",
+        "id": 374215275,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689071819
+    },
+    {
+        "content": "<p>Nav jau tā, ka neviens neiebilda. Tur būtu Nominatim tulkojumiem jābūt nomenklatūras (VZD terminoloģijā) vārdiem, tad varētu Latvijā visus name:en ielām dzēst. Kamēr to nav, tikmēr izskatās, ka lielākajām tiek atbalstīta atstāšana. Viensētu nosaukumi nav jātulko vispār, ja neskaita latgaliešu valodu Latgalē, līdz ar to priekšlikums ir tos visus dzēst, ne tikai vienām Ērgļu mājām, kas bija tikai kā piemērs.</p>",
+        "id": 374224077,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1689073635
+    },
+    {
+        "content": "<p>Varētu pakustināt šo. Kādi citiem viedokļi par alt_name* and old_name* vērtību sakārtošanu alfabētiski, ja ir vairākas vērtības?<br>\nArīdzan ieskatam pielikumā ekselis ar tagiem, kas tiktu mainīti, realizējot <a href=\"https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/name.20un.20name.3Alv.html#373929668\">https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/name.20un.20name.3Alv.html#373929668</a> aprakstīto. Dati oktobra sākumā.<br>\n<a href=\"/user_uploads/49624/J8Hpcsm0ShPEOquJKtnQTWmc/osm_names_check.xlsx\">osm_names_check.xlsx</a></p>",
+        "id": 396672914,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1697311633
+    },
+    {
+        "content": "<p>Skatoties esošos name var redzēt, cik daudz salikti nepareizi...</p>",
+        "id": 396673524,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697312374
+    },
+    {
+        "content": "<p>ŠItajā tabulā ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aname%3Dxxx\">name=xxx</a> -&gt; <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aname%3Dxxx\">name=xxx</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aname%3Alv%3Dxxx\">name:lv=xxx</a> . Es varbūt nesaprotu sarakstu, bet, ja nav citu ne-lv name:xx, tad name:lv nebija plānots likt?</p>",
+        "id": 396673619,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697312479
+    },
+    {
+        "content": "<p>Jā, to arī pamanīju, uzkrītoši. Šis būtu par labu nemainīt vispār neko, jo, ja satagots šķībi nosaukumu tagos, tad liela iespējamība, ka ir vēl problēmas. Tikai apjoms tūkstošos, nav īsti resursu visu manuāli labot.</p>",
+        "id": 396674157,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1697313228
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/name.20un.20name.3Alv/near/373987200\">said</a>:</p>\n<blockquote>\n<p>Kāpēc sort? Retāks nosaukums var būt speciāli vēlāk ielikts. Visādos sarakstos būs zemāk.</p>\n</blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/name.20un.20name.3Alv/near/373992138\">said</a>:</p>\n<blockquote>\n<p>Bet vai tad kaut kur minēts, ka nozīmes nav?</p>\n</blockquote>\n<p><span class=\"user-mention\" data-user-id=\"571825\">@HellMap</span>  Tev pret alt_name* and old_name* vērtību sakārtošanu alfabētiski joprojām ir iebildumi?</p>",
+        "id": 397746350,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1697820405
+    },
+    {
+        "content": "<p>Ņemot vērā, cik mums to gadījumu, man principā vienalga, ja tie salfabetizēsies. Es jau neiešu kaut ko labot un mainīt un prasīt katram gadījumam, kāpēc secība tāda. Bet principā OSM semikolona atdalītām vērtību secībai bieži ir nozīme, tāpēc es sliektos uzskatīt, ka nozīme ir un secība jāsaglabā. Pietiktu ar vienu gadījumu, lai parādītu, ka ir nozīme. Es varētu tādu gadījumu vienmēr uztaisīt, piemēram <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aname%3DBurtnieks\">name=Burtnieks</a> <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aalt_name%3DBurtnieku\">alt_name=Burtnieku</a> ezers;Astjervs <a href=\"https://www.ezeri.lv/database/1846/\">https://www.ezeri.lv/database/1846/</a> . Vai es tādu Astrjevs liktu pirmo? Diez vai. Bet nu no otras puses to visu jāsabāž Wikidatā ar avotiem, gadiem utt. nevis OSM, un secību teorētiski izlems aplikācija. Tāpēc es stipri nepārdzīvošu.</p>",
+        "id": 397750350,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697822374
+    },
+    {
+        "content": "<p>Jā, ir tagi, kur vērtību secībai ir nozīme, bet tā tad parasti ir arī aprakstīta (piem., <a href=\"https://wiki.openstreetmap.org/wiki/Key:seamark:buoy_lateral:colour\">seamark:buoy_lateral:colour</a> no <a href=\"https://blog.jochentopf.com/2013-09-23-semicolons-in-osm-tags.html\">https://blog.jochentopf.com/2013-09-23-semicolons-in-osm-tags.html</a>). Ir tagi kā <a href=\"https://wiki.openstreetmap.org/wiki/Key:cuisine\">cuisine</a>, kuriem ir <a href=\"https://wiki.openstreetmap.org/wiki/Talk:Key:cuisine#Significance_of_value_order\">garas diskusijas</a> par to, vai ir secībai nozīme vai nav. Piemērs par Burtnieku, protams, ir uzskatāms, bet neiztēlojos, kā to varētu uzturēt, jo, ja vai nu visas vērtības nav sakārtotas loģiskā (kas reizēm ir subjektīva) secībā, vai arī nevar norādīt, vai norādītā secība ir domāta ar nozīmi, tad no izmantošanas viedokļa dati tāpat ir nesakārtoti. Uzturēt sakārtotu prasa tik lielus cilvēkresursus, kuru mums Latvijā nav.</p>",
+        "id": 397774332,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1697834931
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aold_name\">old_name=*</a> var būt arī sadalīts pa laikposmiem, piem., old_name:1921-1932= .<br>\nBet nu to tikai dažiem objektiem būtu vērts likt. Brīvības, Miera ielas Rīgā, piem.</p>",
+        "id": 397774593,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1697835078
+    },
+    {
+        "content": "<p>Tā kā alt_name nekur plaši nav noteikts, vai secībai nozīme ir vai nav, tad to katrs ir licis, kā gribējis pēc OSM principiem \"vispirms tego, pēc tam DE maillistā strīdās\". Tāpēc es nepārdzīvošu par šitiem, ja gribi standartizēt un gribās alfabetizēt. Es gan teiktu if it's not broken, don't fix it. Ja secībai bija nozīme - sakārtošana to nodzēsīs. Ja nebija nozīme - tad arī nekas nemainīsies.</p>",
+        "id": 397775046,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697835337
+    },
+    {
+        "content": "<p><a href=\"https://www.openstreetmap.org/changeset/145177286\">Palaidu</a>.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/changeset/145177286\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/changeset/145177286\" title=\"Changeset: 145177286 | OpenStreetMap\">Changeset: 145177286 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 408324078,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1702719043
+    },
+    {
+        "content": "<p>Changeset komentāru gan varēja labāku.</p>",
+        "id": 408348327,
+        "sender_full_name": "HellMap",
+        "timestamp": 1702736475
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot/Tags\">https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot/Tags</a></p>",
+        "id": 408348351,
+        "sender_full_name": "HellMap",
+        "timestamp": 1702736500
+    },
+    {
+        "content": "<p>Nākamajam būs addresses un tags. <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">Bota</a> wiki lapa taču konkrēti aprakstīts. Būtu vēl kaut kafas cita tipa izmsiņas tad jau vispār refucētos uz automated updates in Latvia vai k-kā tā.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 408349150,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1702737079
+    },
+    {
+        "content": "<p>Es gan noteikti gribētu, lai adrešu izmaiņas un šitās tegu izmaiņas būtu ar atsevišķiem changesetiem. Jau tā ir ļoti grūti pārskatīt <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bota</a> izmaiņas, jo tur simtiem izmaiņu. Bet ja būs vēl kopā dažāda tipa izmaiņas - kļūs grūtāk. Piemēram, pašlaik var atrast ielu nosaukumu izmaiņas un tamlīdzīgi no adrešu importa, jo tegu izmaiņas visas līdzīgas.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 408349411,
+        "sender_full_name": "HellMap",
+        "timestamp": 1702737283
+    },
+    {
+        "content": "<p>Automated edits gan ir teikts \"A \"comment\" tag to the changeset that describes the changes made in this changeset in a human-readable way.\" un \"You must link to the wiki page or user page documenting your changes from changeset\".</p>",
+        "id": 408349480,
+        "sender_full_name": "HellMap",
+        "timestamp": 1702737352
+    },
+    {
+        "content": "<p>Nodalīti changeseti izklausās ļoti labi, problēmu gadījumos būs daudz, daudz vieglāk.</p>",
+        "id": 408350182,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1702737883
+    },
+    {
+        "content": "<p>Saite uz wiki ir no lietotāja lapas. Ņemot vērā, ka tiek komentāri visiem changeset būtībā ir vienādi, nešķiet, ka būtu jēga likt saiti arī pie changeset. Pielikt jau, protams, var, bet, vai vajag. Izsekot jau var arī tagad.</p>",
+        "id": 408352104,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1702739176
+    },
+    {
+        "content": "<p>Par changesetu nodalīšanu pa tēmām - no izsekojamības viedokļa piekrītu, bet tehniski, ņemot vērā, kā <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bots</a> ir veidots, to ir ķēpīgi realizēt, kā arī apstrāde būtiski paildzinātos.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 408353038,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1702739917
+    },
+    {
+        "content": "<p>OsmCha galīgi nelādē changesetu, jo tur pa daudz izmaiņu. Tik daudz protams nekad vairs nebūs, bet šo izmaiņu apskatīties nav iespējams. JOSM pārāk ilgi lādē (&gt;1h, es atcēlu), jo katram elementam vēsturi velk no API. Achavi normāli ielādē, bet tur grūti kaut ko sameklēt.</p>",
+        "id": 408442752,
+        "sender_full_name": "HellMap",
+        "timestamp": 1702820489
+    },
+    {
+        "content": "<p><a href=\"https://www.openstreetmap.org/way/38146830\">https://www.openstreetmap.org/way/38146830</a> diez vai Latviski nosaukums ir \"Ventspils - Nynäshamn\" (t.b Nīneshamna). Šitam elementam viduspunkts nav Latvijas robežās, tāpēc es vispār nebūtu gaidījis, ka to mainītu. Internacionālus maršrutus drošvien vispār nevajadzētu iekļaut, bet tur gan jātaisa \"kas ir maršruts?\" tegu saraksts.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/38146830\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/38146830\" title=\"Way: ‪Ventspils - Nynäshamn‬ (‪38146830‬) | OpenStreetMap\">Way: ‪Ventspils - Nynäshamn‬ (‪38146830‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 408442949,
+        "sender_full_name": "HellMap",
+        "timestamp": 1702820663
+    },
+    {
+        "content": "<p><a href=\"https://www.openstreetmap.org/way/37900596/history\">https://www.openstreetmap.org/way/37900596/history</a> <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aname%3Ala\">name:la=*</a> ir Latīņu, to nevajadzēja aiztikt, kaut arī tas bija nepareizi. B0ta lapā nekas par \"la\" (vai citiem) nav minēts, tāpēc grūti uzminēt, kurš punkts te izpildījās.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/37900596/history\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/37900596/history\" title=\"Way History: ‪Glušačoks‬ (‪37900596‬) | OpenStreetMap\">Way History: ‪Glušačoks‬ (‪37900596‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 408443456,
+        "sender_full_name": "HellMap",
+        "timestamp": 1702821165
+    },
+    {
+        "content": "<p>Šeit piemēram :la atstāja <a href=\"https://www.openstreetmap.org/way/1066754066/history\">https://www.openstreetmap.org/way/1066754066/history</a> (bet te atšķirīgs)</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/1066754066/history\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/1066754066/history\" title=\"Way History: ‪Spārnenes zemgaļu pilsnovada centrs‬ (‪1066754066‬) | OpenStreetMap\">Way History: ‪Spārnenes zemgaļu pilsnovada centrs‬ (‪1066754066‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 408443568,
+        "sender_full_name": "HellMap",
+        "timestamp": 1702821282
+    },
+    {
+        "content": "<p>Hmm, tam maršrutam teorētiski nebija jābūt iekļautam, jo šķērso robežu, būs japaskatās, kāpec nav nostrādājis, kā domāts.</p>",
+        "id": 408443583,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1702821303
+    },
+    {
+        "content": "<p>Tur, kur :la, pielika :lv, jo ir nosaukums citā valodā. Tas tā kā būtu atbilstoši aprakstam.</p>",
+        "id": 408443697,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1702821426
+    },
+    {
+        "content": "<p>Te piemērs, kur name nebija latviski. <a href=\"https://www.openstreetmap.org/way/624510910\">https://www.openstreetmap.org/way/624510910</a> Protams tas ir GIGO, bet nu tas tā piemēram, ka ne visu kartētāji liek latviski name vai nelatviskos name:xx.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/624510910\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/624510910\" title=\"Way: ‪Saldus Ceļinieks Coating Plant‬ (‪624510910‬) | OpenStreetMap\">Way: ‪Saldus Ceļinieks Coating Plant‬ (‪624510910‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 408444236,
+        "sender_full_name": "HellMap",
+        "timestamp": 1702821824
+    },
+    {
+        "content": "<p>Pēc <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bota</a> loģikas šis OK. Name būtu jābūt latviski. Šis jālabo manuāli šā kā tā.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 408444899,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1702822420
+    },
+    {
+        "content": "<p>Par alt name secību piemērs - <a href=\"https://www.openstreetmap.org/relation/1108902\">https://www.openstreetmap.org/relation/1108902</a> \"Vecpilsēta;Iekšrīga\" -&gt; \"Iekšrīga;Vecpilsēta\". Es neteiktu, ka vēsturisks \"Iekšrīga\" ir svarīgāks par \"Vecpilsēta\", kas ir arī tagadējais apkaimes nosaukums. Bet nu esmu daļēji samierinājies, ka tos sortē/tīra priekš salīdzināšanas un b0ts nevar citādi. Tāpēc pieminu for the record.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/relation/1108902\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/relation/1108902\" title=\"Relation: ‪Vecrīga‬ (‪1108902‬) | OpenStreetMap\">Relation: ‪Vecrīga‬ (‪1108902‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 408444907,
+        "sender_full_name": "HellMap",
+        "timestamp": 1702822432
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571929\">Dāvis Kļaviņš</span> <a href=\"#narrow/stream/358602-general/topic/name.20un.20name.3Alv/near/408444899\">said</a>:</p>\n<blockquote>\n<p>Šis jālabo manuāli šā kā tā.</p>\n</blockquote>\n<p>Jā, kā saku, es to minu piemēram, nevis, ka tas nepareizi. Tas no lietotāja viedokļa, ka tas nebija name = name:lv.</p>",
+        "id": 408445044,
+        "sender_full_name": "HellMap",
+        "timestamp": 1702822538
+    },
+    {
+        "content": "<p>Te b0ts lieku atstarpi nodzēsa citā tegā. <a href=\"https://www.openstreetmap.org/node/11196585246/history\">https://www.openstreetmap.org/node/11196585246/history</a> Tas gan laikam nav speciāli, bet drošvien automātiski kaut kas nosanatizējis? Vienīgi, kāpēc tas punkts vispār iekļāvies uploadu sarakstā, jo tur nav nekas labojams?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/11196585246/history\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/11196585246/history\" title=\"Node History: ‪Elvi‬ (‪11196585246‬) | OpenStreetMap\">Node History: ‪Elvi‬ (‪11196585246‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 408445337,
+        "sender_full_name": "HellMap",
+        "timestamp": 1702822802
+    },
+    {
+        "content": "<p>Trim ir visām vērtībām, šim konkrēti note beigās bija lieka atstarpe.</p>",
+        "id": 408445998,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1702823348
+    },
+    {
+        "content": "<p>Ā, tu gribi teikt, ka trim ir vienmēr un visam, ne tikai elementiem, kur kaut kas nozīmīgs labots</p>",
+        "id": 408446220,
+        "sender_full_name": "HellMap",
+        "timestamp": 1702823535
+    },
+    {
+        "content": "<p>Jā, kā pirmā darbība, pirms kaut ko tālāk sāk darīt.</p>",
+        "id": 408448406,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1702825351
+    },
+    {
+        "content": "<p><a href=\"https://www.openstreetmap.org/way/624510910\">https://www.openstreetmap.org/way/624510910</a> salaboju tagus manuāli. Izskatās gan, ka tur multipoligons būtu jāveido.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/624510910\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/624510910\" title=\"Way: ‪Saldus Ceļinieks Coating Plant‬ (‪624510910‬) | OpenStreetMap\">Way: ‪Saldus Ceļinieks Coating Plant‬ (‪624510910‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 408449448,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1702826162
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571929\">Dāvis Kļaviņš</span> <a href=\"#narrow/stream/358602-general/topic/name.20un.20name.3Alv/near/408443583\">said</a>:</p>\n<blockquote>\n<p>Hmm, tam maršrutam teorētiski nebija jābūt iekļautam, jo šķērso robežu, būs japaskatās, kāpec nav nostrādājis, kā domāts.</p>\n</blockquote>\n<p>Iemesls būtu skaidrs - nākamā node aiz Ventspils ostas ir Zviedrijas teritoriālajos ūdeņos un attiecīgi nav saglabājusies pēc Geofabrik datu apstrādes ar osmupdate, izgriežot pēc aptuvenās robežas, līdz ar to ceļš apgriezts tā, ka izbeidzas turpat ostā un attiecīgi ar robežu nekrustojas. Būs jāpielabo.</p>",
+        "id": 408474899,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1702841864
+    },
+    {
+        "content": "<p>A kurš īsti punkts šeit nostrādāja: <a href=\"https://www.openstreetmap.org/node/2790112177/history\">https://www.openstreetmap.org/node/2790112177/history</a> ? Vai te pieliktais old name laika posmam ir nepareizs pēc kaut kāda faktora?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/2790112177/history\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/2790112177/history\" title=\"Node History: ‪Iļģuciema Kravas stacija‬ (‪2790112177‬) | OpenStreetMap\">Node History: ‪Iļģuciema Kravas stacija‬ (‪2790112177‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 410659205,
+        "sender_full_name": "HellMap",
+        "timestamp": 1704055639
+    },
+    {
+        "content": "<p>Kļūda skriptā, būs jāsalabo.</p>",
+        "id": 410730629,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1704121595
+    },
+    {
+        "content": "<p>Kodā <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot/commit/56d272009e97acfcafcdc52d942e8d8f88754716\">izlaboju</a>.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot/commit/56d272009e97acfcafcdc52d942e8d8f88754716\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/8052348d566ab7f807dce2567a8b89967968d387\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f373637393032343933366266333037336432653734346464623639303966663562306430613333383661666234336566646431373663613839336530656564332f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f742f636f6d6d69742f35366432373230303965393761636663616663646335326439343265386438663838373534373136)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot/commit/56d272009e97acfcafcdc52d942e8d8f88754716\" title=\"Update tags.sql · Davis-Klavins/osm-latvia-bot@56d2720\">Update tags.sql · Davis-Klavins/osm-latvia-bot@56d2720</a></div><div class=\"message_embed_description\">Corrected bug reported at https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/name.20un.20name.3Alv.html#410659205. Identify multilingual old names similarly as names.</div></div></div>",
+        "id": 411025400,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1704292779
+    }
+]

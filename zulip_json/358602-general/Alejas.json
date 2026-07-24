@@ -1,0 +1,128 @@
+[
+    {
+        "content": "<p>Pieredzējušie, iesakiet. Nezinu kā velosipēdistiem, bet motociklistiem patīk skaistās koku alejas. Man ir vīzija salikt OSM skaistas alejas, es pat atradu kādu, kurs kādas 100 ir safotografējis. Iesakiet - kā to tehniski pareizāk izdarīt. Man padomā, ka tās vajadzētu arī kaut kā izcelt kā POI objektus, lai tie būtu kā ceļojumu mērķi.</p>",
+        "id": 396767429,
+        "sender_full_name": "Jānis Grīnvalds",
+        "timestamp": 1697386797
+    },
+    {
+        "content": "<p>Kas tieši ir \"aleja\"? OSM princips ir kartēt individuālus elementus, kas eksistē un ir pārbaudāms. \"Koku aleja\" pati par sevi ir ceļš, kam (Latvijā parasti) katrā pusē koki. OSM tāds jēdziens \"aleja\" gluži nav. Var kokiem vai koku līnijām pielikt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Adenotation%3Davenue\">denotation=avenue</a>. POI objektus arī var likt tikai, ja tie reāli eksistē - tā pat gluži nē. Te gan jāskatās konkrēti. Ir tādi vispārināti <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Atourism\">tourism=*</a> objekti, bet parasti tos dabā varēs kaut kā noteikt.</p>",
+        "id": 396767989,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697387401
+    },
+    {
+        "content": "<p>BIldes pašā OSM pa taisno nav. Bet ir iespējams ar visādiem <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aimage\">image=*</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Awikimedia_commons\">wikimedia_commons=*</a> pielikt tās konkrētiem elementiem kā saiti. Arī elementi, kas saistīti ar WikiData var saņemt bildes no turienes (protams, ja aplikācija māk)</p>",
+        "id": 396768045,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697387444
+    },
+    {
+        "content": "<p>Tūrismam arī zīmē maršrutus, bet tie gan visi būs vismaz kaut kur oficiāli atrodami - vai nu pašvaldību/organizāciju saitos vai nu dabā marķēti vai dabā uz kartes/plāknes.</p>",
+        "id": 396768162,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697387623
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"658955\">Jānis Grīnvalds</span> <a href=\"#narrow/stream/358602-general/topic/Alejas/near/396767429\">said</a>:</p>\n<blockquote>\n<p>Pieredzējušie, iesakiet. Nezinu kā velosipēdistiem, bet motociklistiem patīk skaistās koku alejas. Man ir vīzija salikt OSM skaistas alejas, es pat atradu kādu, kurs kādas 100 ir safotografējis. Iesakiet - kā to tehniski pareizāk izdarīt. Man padomā, ka tās vajadzētu arī kaut kā izcelt kā POI objektus, lai tie būtu kā ceļojumu mērķi.</p>\n</blockquote>\n<p>No velosipēdistu puses varu pateikt, ka, teiksim, Komoot lietotnē ir tāda lieta kā <a href=\"https://www.komoot.com/help/highlights\">highlights</a>, kas ļauj atzīmēt īpaši patīkamas vietas, pievienot bildes, komentārus. Tad lietotne tos zīmē pa virsu kartei, ļauj izmantot maršrutu plānošanā, utt. Nav obligāti visus iespējamus datus vilkt uz OSM.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.komoot.com/help/highlights\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/15d259242f1a18d462e3a119f805d2a2eda68d4b\\/68747470733a2f2f7777772e6b6f6d6f6f742e636f6d2f696d616765732f6f672d696d616765732f6f672d696d6167652d68656c702d6775696465732d686967686c69676874732e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.komoot.com/help/highlights\" title=\"Highlights | Komoot\">Highlights | Komoot</a></div><div class=\"message_embed_description\">Highlights are awesome places as recommended by the komoot community. Find hidden gems in your area and further afield—and recommend your own in turn.</div></div></div>",
+        "id": 396848724,
+        "sender_full_name": "i-ky",
+        "timestamp": 1697444610
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Adenotation%3Davenue\">denotation=avenue</a> gan ir tegs priekš kokiem un būs tikai uz <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Anatural%3Dtree\">natural=tree</a> vai <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Anatural%3Dtree_row\">natural=tree_row</a> un ne uz <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Ahighway\">highway=*</a> . Kā jau minēts, vismaz pagaidām OSM nav tādu aleju tegu (teorētiski varbūt kādreiz būs un varbūt pat lietos tam denotation). Bet pagaidām tomēr jāzīmē tree row, ja jau tur tāds ir.</p>",
+        "id": 397158598,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697565655
+    },
+    {
+        "content": "<p>Vēl ir tāds <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Atree_lined%3Dyes\">tree_lined=yes</a></p>",
+        "id": 397159158,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697565855
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Alejas/near/397159158\">said</a>:</p>\n<blockquote>\n<p>Vēl ir tāds <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Atree_lined%3Dyes\">tree_lined=yes</a></p>\n</blockquote>\n<p><a href=\"https://wiki.openstreetmap.org/wiki/Key%3Atree_lined\">tree_lined=*</a> izskatās visvienkāršākais pielikšanas ziņa. Un arī routing profilā būs vieglāk izmantot, jo tags ir uz paša ceļa.</p>",
+        "id": 397261615,
+        "sender_full_name": "i-ky",
+        "timestamp": 1697618500
+    },
+    {
+        "content": "<p>Ja tā ir īpaši skaista aleja, kura minēta tūrisma ceļvežos utt, diezgan droši var likt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aattraction%3Dtourism\">attraction=tourism</a> - bet tādas laikam būs tikai dažas.</p>",
+        "id": 397773556,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1697834526
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Atree_lined%3Dyes\">tree_lined=yes</a> gan ir tāds, vispār bez apraksta... Nav pat definēts, kādiem objektiem būtu jāliek.<br>\nMan tas tags laikam patīk, bet bez apraksta to kāds varētu salikt visiem ceļiem caur mežiem :)</p>",
+        "id": 397773611,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1697834565
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Alejas/near/397773611\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Atree_lined%3Dyes\">tree_lined=yes</a> gan ir tāds, vispār bez apraksta... </p>\n</blockquote>\n<p><a href=\"https://wiki.openstreetmap.org/wiki/Key%3Atree_lined\">tree_lined=*</a></p>",
+        "id": 397773835,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697834668
+    },
+    {
+        "content": "<p>Oh duh. Kāpēc tam yes vispār atsevišķa lapa... Ieliku tur linku uz =* :)</p>",
+        "id": 397774128,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1697834816
+    },
+    {
+        "content": "<p>Viņam nebija lapa. Wiki jebkuru Tag: lapu rāda tā <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asurface%3Dketchup\">surface=ketchup</a></p>",
+        "id": 397774488,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697835008
+    },
+    {
+        "content": "<p>Ja tu taisi lapu, tad tev manuāli jāliek tad infobox un kategorijas un kas tik vēl ne</p>",
+        "id": 397774616,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697835092
+    },
+    {
+        "content": "<p>Ah, tiešām, sen nebiju wiki spēlējies.<br>\nBet baigi mulsinoši, ja kāds to =yes lapu atver... Domā, to jauno būtu jādzēš?</p>",
+        "id": 397774736,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1697835152
+    },
+    {
+        "content": "<p>Man neliekas, ka ir daudz ko pateikt par konkrēti \"yes\" variantu, kas nav jau pateikts galvenajā lapā. Es netaisītu jaunu.</p>",
+        "id": 397775188,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697835418
+    },
+    {
+        "content": "<p>Jā, tādēļ ne - biju tik domājis, ja nu kāds nonāk tajā lapā un, līdzīgi kā es, izdomā - nav dokumentēts.</p>",
+        "id": 397776061,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1697835867
+    },
+    {
+        "content": "<p>Nu jā, tā ir. Wiki vajag skaidrāku notice, ka tur lapas nav, tikai auto-ģenerāta info</p>",
+        "id": 397776169,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697835940
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Alejas/near/397774128\">said</a>:</p>\n<blockquote>\n<p>Oh duh. Kāpēc tam yes vispār atsevišķa lapa... Ieliku tur linku uz =* :)</p>\n</blockquote>\n<p>Vēl būtu noderīgi aizvietot <code>tree_lined=yes</code> ar <code>tree_lined=*</code> <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Adenotation%3Davenue\">denotation=avenue</a> lapā, tas visus samulsināja. Kaut gan Wiki saite ir uz pareizo lapu, kopējot uz Zulip sanāca saite uz <code>=yes</code>, jo mūsu linkifier nav pietiekami advancēts.</p>",
+        "id": 397844767,
+        "sender_full_name": "i-ky",
+        "timestamp": 1697889613
+    },
+    {
+        "content": "<p>Nomainīju wiki, vismaz see also. Es vairs neatceros, vai es reāli no turienes kopēju vai nē.</p>",
+        "id": 397845473,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697890238
+    },
+    {
+        "content": "<p>Nu re, kāds uztaisīja redirektu :)<br>\n<a href=\"https://wiki.openstreetmap.org/w/index.php?title=Tag:tree_lined%3Dyes&amp;diff=0&amp;oldid=2607007\">https://wiki.openstreetmap.org/w/index.php?title=Tag:tree_lined%3Dyes&amp;diff=0&amp;oldid=2607007</a></p>",
+        "id": 398690651,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1698327351
+    }
+]

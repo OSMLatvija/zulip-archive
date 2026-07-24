@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Labdien,</p>\n<p><a href=\"https://www.riga.lv/lv/jaunums/ieviesis-satiksmes-organizacijas-izmainas-bernu-kliniskas-universitates-slimnicas-apkartne\">https://www.riga.lv/lv/jaunums/ieviesis-satiksmes-organizacijas-izmainas-bernu-kliniskas-universitates-slimnicas-apkartne</a></p>\n<p>Esmu veicis izmaiņas saistībā ar vienvirziena satiksmi (<a href=\"https://www.openstreetmap.org/changeset/141497300\">https://www.openstreetmap.org/changeset/141497300</a>). Kāds būtu labākais veids, kā piemērot 30 km/h ātruma ierobežojumu? Vienkārši mainit attiecīgās ielas vai ir kāda ātruma zona?</p>\n<p>Paldies</p>",
+        "id": 392078428,
+        "sender_full_name": "Antons J.",
+        "timestamp": 1695202589
+    },
+    {
+        "content": "<p>Ātruma ierobežojumiem pamata tegs jebkurā gadījumā ir <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Amaxspeed\">maxspeed=*</a>. Ja ir vēlme sīki norādīt no kurienes tas ir, var papildus pielikt <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Amaxspeed%3Atype\">maxspeed:type=*</a>, piemēram <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amaxspeed%3Atype%3Dsign\">maxspeed:type=sign</a>, ja vienkārši zīme, vai <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amaxspeed%3Atype%3DLV\">maxspeed:type=LV</a>:zone30 zonām. Var arī pielikt konkrētās vietās <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Atraffic_sign%3Dmaxspeed\">traffic_sign=maxspeed</a> parastajai zīmei vai <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Atraffic_sign%3DLV\">traffic_sign=LV</a>:525[30] zonai. Prakstiski, izņemot pašu <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Amaxspeed\">maxspeed=*</a>, reti kurš kartē tik sīki (jo baigais darbs). Tādas \"zones\", ko varētu iezīmēt ar vienu laukumu OSM nav.</p>",
+        "id": 392079676,
+        "sender_full_name": "HellMap",
+        "timestamp": 1695203045
+    },
+    {
+        "content": "<p>Šķiet, maxspeed pielikšana/nomainīšana vislabākais variants.<br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amaxspeed%3Atype%3DLV\">maxspeed:type=LV</a>:urban tad jāmaina vai jāņem nost.</p>",
+        "id": 392079680,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1695203047
+    },
+    {
+        "content": "<p>Paldies.</p>",
+        "id": 392085220,
+        "sender_full_name": "Antons J.",
+        "timestamp": 1695205000
+    }
+]

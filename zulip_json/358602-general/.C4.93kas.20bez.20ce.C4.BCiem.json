@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Iemetīšu te, lai pēc tam var atrast :)</p>\n<p>Zīmējot tās ēkas Rēzeknes novadā, kļuva interesanti - kuras / cik daudz ēkas tur ir ar ceļiem ļoti tālu?<br>\nTā kā visas ēkas sazīmētas vēl nav, ņēmu addr:housename tagu.<br>\nŠis zemāk atrod punktus un ceļus ar šo tagu un skatās, no kuriem ceļi ir tālāk par 2km.<br>\nProtams, sazīmējot ceļus, varēs attālumu palēnām mazināt :)</p>\n<div class=\"codehilite\" data-code-language=\"overpass\"><pre><span></span><code>[out:json][timeout:250];\n{{geocodeArea:Rēzeknes novads}}-&gt;.searchArea;\n\n(\n  node[\"addr:housename\"](area.searchArea);\n  way[\"addr:housename\"](area.searchArea);\n)-&gt;.housenames;\n\n(\n  way[highway](area.searchArea);\n)-&gt;.roads;\n\n(\n  node.housenames(around.roads:2000);\n  way.housenames(around.roads:2000);\n)-&gt;.namesNearRoads;\n\n(.housenames; - .namesNearRoads;);\n\nout geom meta;\n</code></pre></div>",
+        "id": 346063261,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1680299718
+    },
+    {
+        "content": "<p>Tagad Rēzeknes novadā nav adrešu punktu, kam ceļi tālāk par 2 km :)</p>",
+        "id": 370410784,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1687955423
+    },
+    {
+        "content": "<p>Bet vai ir ielu nosaukumi visām adresēm? <br>\n<a href=\"/user_uploads/49624/YEHHVGqBqI8DikDBIuyMDkif/the-answer-is-no-back-to-work.png\">the-answer-is-no-back-to-work.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/YEHHVGqBqI8DikDBIuyMDkif/the-answer-is-no-back-to-work.png\" title=\"the-answer-is-no-back-to-work.png\"><img src=\"/user_uploads/49624/YEHHVGqBqI8DikDBIuyMDkif/the-answer-is-no-back-to-work.png\"></a></div>",
+        "id": 370411379,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687955533
+    },
+    {
+        "content": "<p>Tam vajag atsevišķu topiku projektu streamā ;)</p>",
+        "id": 370430944,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1687959041
+    }
+]

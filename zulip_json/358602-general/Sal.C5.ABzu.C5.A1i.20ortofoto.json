@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Šodien zīmēšana no augstas izšķirtspējas ortofoto principā ir neiespējama iekš JOSM.</p>\n<p>Bing - <strong>Error: Attribution is not loaded yet</strong><br>\nLĢIA - <strong>Error: java.lang.NullPointerException</strong></p>\n<p>Tiem, kuri izmanto JOSM un vēlas zīmēt no ortofoto ir pagaidām jāiztiek ar Esri un Mapbox.</p>",
+        "id": 507720989,
+        "sender_full_name": "Andris Liepiņš",
+        "timestamp": 1742813834
+    },
+    {
+        "content": "<p>LĢIA ortofoto tagad strādā.</p>",
+        "id": 507728891,
+        "sender_full_name": "Andris Liepiņš",
+        "timestamp": 1742815601
+    },
+    {
+        "content": "<p>Bing strādā noteiktu brīdi katru dienu. Nezinu cik ilgi un cikos</p>",
+        "id": 507787936,
+        "sender_full_name": "petons",
+        "timestamp": 1742827627
+    }
+]

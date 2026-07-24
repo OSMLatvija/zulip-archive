@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Nez, vai šādu kāds QA rīks tā viegli varētu noķert.</p>\n<p><a href=\"https://www.openstreetmap.org/node/1302653955/history\">https://www.openstreetmap.org/node/1302653955/history</a></p>\n<p><img alt=\"SEB-Fenikss\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"323x455\" data-original-src=\"/user_uploads/49624/Rgrcvm4STFqm4_jQUkVBO1CC/image.png\" src=\"/user_uploads/thumbnail/49624/Rgrcvm4STFqm4_jQUkVBO1CC/image.png/840x560.webp\"></p>",
+        "id": 611668561,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1784554954
+    },
+    {
+        "content": "<p>Nu nezinu gan. Vēsturē pārveidots punkta tips, bet tā it ļoti bieža parādība. Tas tā pat kā frizētavas vietā tagad picērija. Tad jātaisa kaut kāds saraksts ar savstarpēji nemaināmiem punktu veidiem.</p>",
+        "id": 611670103,
+        "sender_full_name": "HellMap",
+        "timestamp": 1784555377
+    },
+    {
+        "content": "<p>Varbūt tikai šajā brīdī <br>\n<img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"402x501\" data-original-src=\"/user_uploads/49624/j2aot7z9haWVJgrICvEkTn_m/image.png\" src=\"/user_uploads/thumbnail/49624/j2aot7z9haWVJgrICvEkTn_m/image.png/840x560.webp\"><br>\nno kaut kāda NSI vai cita saraksta pamanīt nesakritību.</p>",
+        "id": 611670162,
+        "sender_full_name": "HellMap",
+        "timestamp": 1784555396
+    },
+    {
+        "content": "<p>Bet nu tur būs ļoti daudz false positives, jo kā QA zināt par visu, kas nav NSI sarakstā...</p>",
+        "id": 611670805,
+        "sender_full_name": "HellMap",
+        "timestamp": 1784555563
+    }
+]
