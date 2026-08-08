@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Saite <a href=\"#narrow/stream/360540-pas.C4.81kumi/topic/.E2.9C.94.20Mapping.20party.20R.C4.93zekn.C4.93/near/317993639\">no šejienes</a> vairs neved <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/.E2.9C.94.20.C4.93ku.20kont.C5.ABras\">uz šejieni</a>, jo es resolve'oju topic'u un tam mainījās nosaukums.<br>\n<a href=\"https://github.com/zulip/zulip/issues/21505\">https://github.com/zulip/zulip/issues/21505</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/zulip/zulip/issues/21505\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/4158bd72966046d3b8b32810c58ecf59468f6963\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f643866383134313335316234613134303938346166316664613330353531306364333466353233643132323039626338306438663938393863396330646466322f7a756c69702f7a756c69702f6973737565732f3231353035)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/zulip/zulip/issues/21505\" title=\"Provide permalinks for topics · Issue #21505 · zulip/zulip\">Provide permalinks for topics · Issue #21505 · zulip/zulip</a></div><div class=\"message_embed_description\">As @CohenCyril reported at #15290: The links (for streams, topics and messages) we obtain by clicking &quot;Copy link&quot;/&quot;Copy link to conversation&quot; in the interface, or automatically ...</div></div></div>",
+        "id": 318089353,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672144753
+    },
+    {
+        "content": "<p>Mēs varam vienoties neizmantot \"resolve topic\". Izslēgt to, laikam, nav iespējams.</p>",
+        "id": 318090027,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672144949
+    },
+    {
+        "content": "<p>Oi, labi pamanīts.<br>\nPievienojos \"resolve topic\" nelietošanai kā pagaidu risinājumam.</p>",
+        "id": 318097955,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672148161
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Hi all, long time no see)<br>\nToday I stumbled onto this page at the PMLP's site: <a href=\"https://www.pmlp.gov.lv/lv/filiale/rigas-1-nodala\">https://www.pmlp.gov.lv/lv/filiale/rigas-1-nodala</a><br>\nIt has a map with markers for divisions. As I understand, map is provided by some <a href=\"http://geolatvija.lv\">geolatvija.lv</a><br>\nBut usually, when osm rendering is used, there is a copyright somewhere, linking back to osm.<br>\nDo you know if absence of the copyright is because geolatvija has some kind of deal with osm?</p>",
+        "id": 573992607,
+        "sender_full_name": "markalex",
+        "timestamp": 1771176067
+    },
+    {
+        "content": "<p>This appears to be just another case of <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/channel/358602-general/topic/Tr.C5.ABksto.C5.A1as.20autorties.C4.ABbu.20atsauces/with/562577034\">#general &gt; Trūkstošas autortiesību atsauces</a> (\"missing copyright notices\") That widget looks like made by LVM to include multiple sources, but the layer they use for OSM is just the default tiles. OSM cannot make any \"deals\" about absence of copyright notice, because basically it's required by the retroactive license - anyone who has edited here has contributed under the license that requires attribution.</p>",
+        "id": 573994443,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771177239
+    },
+    {
+        "content": "<p>Yes, appears that way. Sorry, failed to find that channel myself :)</p>\n<p>A couple questions: LVM is Latvija valsts meži, right? The one doing orthophotos and having something called LVM GEO.<br>\nIs geolatvia related to it? Their site says that they are under VDAA.</p>",
+        "id": 573996525,
+        "sender_full_name": "markalex",
+        "timestamp": 1771178599
+    },
+    {
+        "content": "<p>My guess would be that LVM (yes, Latvijas valsts meži, sharing WMS etc via their LVM GEO division) is supplying the tile service and/or additional components. There's probably a public procurement document somewhere...</p>",
+        "id": 574008341,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1771191013
+    }
+]

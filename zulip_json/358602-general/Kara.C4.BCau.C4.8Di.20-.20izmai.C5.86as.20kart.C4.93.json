@@ -1,0 +1,68 @@
+[
+    {
+        "content": "<p><a href=\"/user_uploads/49624/op2UoX7res5L3LyjUdO2Ukqb/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/op2UoX7res5L3LyjUdO2Ukqb/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/op2UoX7res5L3LyjUdO2Ukqb/image.png\"></a></div>",
+        "id": 358551240,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1684177981
+    },
+    {
+        "content": "<p>Ko nozīmē \"īesaka\"? Vai vispār ir kaut kāds saraksts kaut kur ar oficiāliem tulkojumiem? No kurienes vispār tie ir salikti OSMā?</p>",
+        "id": 358553107,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684178574
+    },
+    {
+        "content": "<p><a href=\"https://likumi.lv/ta/id/243610-vietvardu-informacijas-noteikumi\">https://likumi.lv/ta/id/243610-vietvardu-informacijas-noteikumi</a><br>\nVVC lapā gan neko atrast nevar.</p>\n<blockquote>\n<p>Ārvalstu vietvārdus latviešu valodā atveido atbilstoši Valsts valodas likuma prasībām un citvalodu īpašvārdu atveides noteikumiem (norādījumiem par citvalodu īpašvārdu atveidi un pareizrunu latviešu literārajā valodā). Tradicionāli atveidoto ārvalstu vietvārdu sarakstu sastāda Valsts valodas centrs.</p>\n</blockquote>\n<blockquote>\n<p>Ārvalstu ģeogrāfisko objektu nosaukumu oficiālos atveidojumus latviešu valodā apstiprina un to statusu maina Valsts valodas centrs.</p>\n</blockquote>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://likumi.lv/ta/id/243610-vietvardu-informacijas-noteikumi\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/91d1c88287840a065f2a7c4bd960e319f144ed00\\/68747470733a2f2f6c696b756d692e6c762f6c696b756d695f62696c6465732f5049432f4c494b3230302e4a5047)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://likumi.lv/ta/id/243610-vietvardu-informacijas-noteikumi\" title=\"Vietvārdu informācijas noteikumi\">Vietvārdu informācijas noteikumi</a></div><div class=\"message_embed_description\">Tiesību akti un to izmaiņas: visi jaunumi un arhīvs. Sistematizēti tiesību akti. Plašas meklēšanas un personalizētās iespējas. Vietni uztur „Latvijas Vēstnesis”</div></div></div>",
+        "id": 358554429,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1684178969
+    },
+    {
+        "content": "<p>Jā, neko saitā neredzu. Piedāvāju saīsināt no VVC uz WC.</p>",
+        "id": 358555211,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684179210
+    },
+    {
+        "content": "<p>Varbūt sēdē būs kādreiz <a href=\"https://www.vvc.gov.lv/lv/latviesu-valodas-ekspertu-komisijas-lemumu-parskati\">https://www.vvc.gov.lv/lv/latviesu-valodas-ekspertu-komisijas-lemumu-parskati</a></p>",
+        "id": 358555495,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684179293
+    },
+    {
+        "content": "<p>Jā, principā derētu normāla datu kopa ar visiem lēmumiem. Strukturēta, protams, lai var viegli iesūkt dažādos tūļos un skriptēt :)</p>",
+        "id": 358573966,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1684185888
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Kara.C4.BCau.C4.8Di.20-.20izmai.C5.86as.20kart.C4.93/near/358555495\">said</a>:</p>\n<blockquote>\n<p>Varbūt sēdē būs kādreiz <a href=\"https://www.vvc.gov.lv/lv/latviesu-valodas-ekspertu-komisijas-lemumu-parskati\">https://www.vvc.gov.lv/lv/latviesu-valodas-ekspertu-komisijas-lemumu-parskati</a></p>\n</blockquote>\n<p>No \"2018. gada 12. septembrī (sēdes protokola Nr. 5)\":</p>\n<blockquote>\n<p>Eksperti vienbalsīgi nolēma atbalstīt papildinājumus \"Vispārlietojamo saīsinājumu saraksta\" 2. daļā \"Biežāk lietotie mērvienību apzīmējumi un to saīsinājumi\", kas paredz izmaiņas dažu mērvienību apzīmējumu (ampērstunda, kilovatstunda, megavatstunda, vatstunda, lūmensekunde, lukssekunde ņūtonmetrs, ommetrs, voltampērs) saīsinājumu rakstībā. Šo mērvienību apzīmējumu saīsinājumi turpmāk rakstāmi bez punkta – <strong>Ah</strong>, <strong>kWh</strong>, <strong>MWh</strong>, <strong>Wh</strong>, <strong>lms</strong>, <strong>lxs</strong>, <strong>NM</strong>, <strong>ΩM</strong>, <strong>VA</strong>.</p>\n</blockquote>\n<p>Tās ir <a href=\"https://en.wikipedia.org/wiki/International_System_of_Units\">SI</a> mērvienības un to <a href=\"https://en.wikipedia.org/wiki/International_System_of_Units#General_rules\">pareizrakstību nosaka globāls standarts</a>, kas prasa:</p>\n<blockquote>\n<p>Symbols for derived units formed by multiplication are joined with a centre dot (⋅) or a non-breaking space; e.g., N⋅m or N m.</p>\n</blockquote>\n<p>Kārtēja bezjēdzīga komisija...</p>",
+        "id": 358649521,
+        "sender_full_name": "i-ky",
+        "timestamp": 1684223793
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/Kara.C4.BCau.C4.8Di.20-.20izmai.C5.86as.20kart.C4.93/near/358649521\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Kara.C4.BCau.C4.8Di.20-.20izmai.C5.86as.20kart.C4.93/near/358555495\">said</a>:</p>\n<blockquote>\n<p>Varbūt sēdē būs kādreiz <a href=\"https://www.vvc.gov.lv/lv/latviesu-valodas-ekspertu-komisijas-lemumu-parskati\">https://www.vvc.gov.lv/lv/latviesu-valodas-ekspertu-komisijas-lemumu-parskati</a></p>\n</blockquote>\n<p>No \"2018. gada 12. septembrī (sēdes protokola Nr. 5)\":</p>\n<blockquote>\n<p>Eksperti vienbalsīgi nolēma atbalstīt papildinājumus \"Vispārlietojamo saīsinājumu saraksta\" 2. daļā \"Biežāk lietotie mērvienību apzīmējumi un to saīsinājumi\", kas paredz izmaiņas dažu mērvienību apzīmējumu (ampērstunda, kilovatstunda, megavatstunda, vatstunda, lūmensekunde, lukssekunde ņūtonmetrs, ommetrs, voltampērs) saīsinājumu rakstībā. Šo mērvienību apzīmējumu saīsinājumi turpmāk rakstāmi bez punkta – <strong>Ah</strong>, <strong>kWh</strong>, <strong>MWh</strong>, <strong>Wh</strong>, <strong>lms</strong>, <strong>lxs</strong>, <strong>NM</strong>, <strong>ΩM</strong>, <strong>VA</strong>.</p>\n</blockquote>\n<p>Tās ir <a href=\"https://en.wikipedia.org/wiki/International_System_of_Units\">SI</a> mērvienības un to <a href=\"https://en.wikipedia.org/wiki/International_System_of_Units#General_rules\">pareizrakstību nosaka globāls standarts</a>, kas prasa:</p>\n<blockquote>\n<p>Symbols for derived units formed by multiplication are joined with a centre dot (⋅) or a non-breaking space; e.g., N⋅m or N m.</p>\n</blockquote>\n<p>Kārtēja bezjēdzīga komisija...</p>\n</blockquote>\n<p>Dažādas komisijas ne vienmēr ir tik zinošas, kā mums gribētos, jā :)<br>\nAtceros, ka bija viens brīdis, kad komisija lēma par datumu formātu Latvijā (sen-sen). Kā izrādījās, viņi nebija ņēmuši vērā visus apsvērumus, līdz ar to mēs varbūt nemaz nebijām tik tālu no ISO datuma formāta...</p>\n<p>Mērvienības - varbūt vērts uzrakstīt pieklājīgu epastu ar argumentiem (ieguvumi izmantojot SI utt). Gan jau ka komisija skatījās uz tādiem argumentiem kā ērtums lietošanā un \"vēsturiskais\" lietojums, bet varbūt ņems vērā arī mūsdienu situāciju.</p>",
+        "id": 358686430,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1684233382
+    },
+    {
+        "content": "<p>Oi, tai komisijai bija arī pamatojums, kāpēc Apvienotā Karaliste par Lielbritāniju jāsauc: <a href=\"https://twitter.com/_vvc/status/1070660932555169792?lang=en\">https://twitter.com/_vvc/status/1070660932555169792?lang=en</a> Tur nozaru kompetenču trūkst. Lēmumi jāfiltrē, kurus ņemt par pilnu.</p>\n<div class=\"inline-preview-twitter\"><div class=\"twitter-tweet\"><a href=\"https://twitter.com/_vvc/status/1070660932555169792?lang=en\"><img class=\"twitter-avatar\" src=\"https://uploads.zulipusercontent.net/88e462797bb86b2b8c5f96522714ec06ed068f23/68747470733a2f2f7062732e7477696d672e636f6d2f70726f66696c655f696d616765732f3837363739343733383730373530353135322f49345f594c3957375f6e6f726d616c2e6a7067\"></a><p><a href=\"https://twitter.com/Davis_Klavins\">@Davis_Klavins</a> <a href=\"https://twitter.com/VestnesisLV\">@VestnesisLV</a> Lielbritānija ir tradicionāls īsais nosaukums valstij \"Lielbritānijas un Ziemeļīrijas Apvienotā Karaliste\". Apvienotā Karaliste kā īsais nosaukums neder, jo tajā nav ietverts neviens vietvārds vai etnonīms.</p><span>- Valodas centrs (@_vvc)</span></div></div>",
+        "id": 358688331,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1684233885
+    },
+    {
+        "content": "<p>Šis viss gan nemaina, ka Karaļauči ir OK. Komisijas vietā gan Kēnigsbergu kā līdzvērtīgu alternatīvu nebūtu minējis.</p>",
+        "id": 358689129,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1684234100
+    },
+    {
+        "content": "<p>Man spilgtākā atmiņa ir par Īslandi, tā kā jā - konsultēties ar nozaru speciālistiem viņi varētu biežāk un veiksmīgāk :)</p>",
+        "id": 358696434,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1684235865
+    }
+]

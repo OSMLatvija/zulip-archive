@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Does anybody know how to map skateboard and scooter parking?<br>\n<a href=\"/user_uploads/49624/tI3o1jijjJTCJriZLLlq0zOR/20260308_151836.jpg\">20260308_151836.jpg</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/tI3o1jijjJTCJriZLLlq0zOR/20260308_151836.jpg\" title=\"20260308_151836.jpg\"><img data-original-content-type=\"image/jpeg\" data-original-dimensions=\"4000x3000\" src=\"/user_uploads/thumbnail/49624/tI3o1jijjJTCJriZLLlq0zOR/20260308_151836.jpg/840x560.webp\"></a></div>",
+        "id": 578025219,
+        "sender_full_name": "markalex",
+        "timestamp": 1772991112
+    },
+    {
+        "content": "<p>First time I'm seeing these. (Although I don't exactly bike through schoolyards much). Most likely <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dkick-scooter_parking\">amenity=kick-scooter_parking</a> and <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dskateboard_parking\">amenity=skateboard_parking</a></p>",
+        "id": 578025982,
+        "sender_full_name": "HellMap",
+        "timestamp": 1772991752
+    },
+    {
+        "content": "<p>Many thanks!<br>\nAdded</p>",
+        "id": 578038353,
+        "sender_full_name": "markalex",
+        "timestamp": 1773004522
+    }
+]

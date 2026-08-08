@@ -1,0 +1,104 @@
+[
+    {
+        "content": "<p>Runājot par mikroliegumu importēšanu <a href=\"#narrow/stream/358602-general/topic/Mikroliegumi\">https://osmlatvija.zulipchat.com/#narrow/stream/358602-general/topic/Mikroliegumi</a> . Pameklēju internetā, bet tā arī gluži neatradu, kā to labāk darīt. Te lielākā problēma - kā es varētu to visu savienot ar esošiem liiegumiem pēc izvēles? Kāds to vispār Latvijā ir darījis? Es redzu tās administratīvo robežu labojumus, bet neesmu redzējis nekur importa aprakstus. Man liekas neviens to nemaz nav aprakstījis.</p>",
+        "id": 372539741,
+        "sender_full_name": "HellMap",
+        "timestamp": 1688553118
+    },
+    {
+        "content": "<p>Hootenanny laikam māk apvienot (conflation) poligonus, bet sīkāk nezinu. To tūli izmantoja LVM ceļu importam.</p>",
+        "id": 372540636,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1688553311
+    },
+    {
+        "content": "<p>Jā, es palasīju nedaudz <a href=\"https://wiki.openstreetmap.org/wiki/LV:LVM-import\">https://wiki.openstreetmap.org/wiki/LV:LVM-import</a> . Bet es neteiktu, ka LVC imports bija pareizs. Ja skatās, cik tur kļūdu bija, tad es iedomājos, kā tas liegumu līnijas savienos...</p>",
+        "id": 372541311,
+        "sender_full_name": "HellMap",
+        "timestamp": 1688553450
+    },
+    {
+        "content": "<p>Pielāgošana + osc aplūkošana iekš JOSM varētu derēt pirmajam piegājienam, pēc tam jau to varēs pasludināt par autoritatīvo avotu un automatizēt vieglāk.</p>",
+        "id": 372541992,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1688553594
+    },
+    {
+        "content": "<p><a href=\"http://junglebus.io/MobilityData/benchmarks/Benchmark%20of%20existing%20open%20source%20solutions%20for%20conflating%20structured,%20geographical%20and%20transit%20data.html\">http://junglebus.io/MobilityData/benchmarks/Benchmark%20of%20existing%20open%20source%20solutions%20for%20conflating%20structured,%20geographical%20and%20transit%20data.html</a> ir interesants, bet nav par poligoniem.</p>",
+        "id": 372542278,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1688553658
+    },
+    {
+        "content": "<p>Automatizēt es pagaidām netaisos (vismaz es nezinu, kā), tas ir pa daudz priekš manis. Es to vienreiz izdarītu visiem neesošajiem. Pēc tam pa vienam zīmētu vai arī kaut kā, nezinu. 2022. gadā bija 54 jauni liegumi.</p>",
+        "id": 372542868,
+        "sender_full_name": "HellMap",
+        "timestamp": 1688553782
+    },
+    {
+        "content": "<p>Problēma, ka te daudz manuālu soļu. Var protams aprakstīt precīzi procesu, lai jebkurš varētu izsekot. Bet tas ir ļoti optimistiski, ka kāds to darīs. Tas pats LVC imports ar soļiem aprakstītiem - pagaidām neviens nav neko darījis vēlreiz un es uz to lielas cerības neliktu.</p>",
+        "id": 372543157,
+        "sender_full_name": "HellMap",
+        "timestamp": 1688553854
+    },
+    {
+        "content": "<p>Apskatīšos pagaidām to Hooteru.</p>",
+        "id": 372543419,
+        "sender_full_name": "HellMap",
+        "timestamp": 1688553921
+    },
+    {
+        "content": "<p>Principā te problēma ir tā pati, kas administratīvo robežu importam. Nezinu, cik tālu kāds ar to ticis. Cik zinu pēdējo, tad pēc problēmu apskatīšanās, tas viss tā klusi piebremzējās. <span aria-label=\"face with hand over mouth\" class=\"emoji emoji-1f92d\" role=\"img\" title=\"face with hand over mouth\">:face_with_hand_over_mouth:</span></p>",
+        "id": 372544330,
+        "sender_full_name": "HellMap",
+        "timestamp": 1688554121
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Poligonu.20import.C4.93.C5.A1ana/near/372542868\">said</a>:</p>\n<blockquote>\n<p>Automatizēt es pagaidām netaisos (vismaz es nezinu, kā), tas ir pa daudz priekš manis.</p>\n</blockquote>\n<p>Ar tiem pašiem GitHub Actions nevar? Es varētu palīdzēt, bet nevaru apsolīt, ka tas būs <em>uzreiz</em>.</p>",
+        "id": 372545241,
+        "sender_full_name": "i-ky",
+        "timestamp": 1688554324
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Poligonu.20import.C4.93.C5.A1ana/near/372543157\">said</a>:</p>\n<blockquote>\n<p>Problēma, ka te daudz manuālu soļu.</p>\n</blockquote>\n<p>Kādi ir tie manuālie soļi? Ja būtu apraksts, varētu pamazām tos automatizēt.</p>",
+        "id": 372545608,
+        "sender_full_name": "i-ky",
+        "timestamp": 1688554395
+    },
+    {
+        "content": "<p>Manuāli soļi ir tāpēc, ka es nezinu, kā to izdarīt automātiski. Kaut vai piemēram, atrast OSM sakrītošus liegumus un tos neimportēt.</p>",
+        "id": 372545930,
+        "sender_full_name": "HellMap",
+        "timestamp": 1688554458
+    },
+    {
+        "content": "<p>Es pašlaik esmu posmā - datus apskatījos, it kā pačakarēju un palaboju un izdomāju, ko varētu importēt. Bet kā to darīt - nez. Un to visu pārveidot par automātisku - ne jausmas.</p>",
+        "id": 372546308,
+        "sender_full_name": "HellMap",
+        "timestamp": 1688554544
+    },
+    {
+        "content": "<p>Piemērtam, es esošos liegumus vispār neaiztieku ar importu un manuāli izlabotu.</p>",
+        "id": 372546453,
+        "sender_full_name": "HellMap",
+        "timestamp": 1688554569
+    },
+    {
+        "content": "<p>Urgh, Hooternanny vajag Linux serveri... Kaut kā man slinkums to visu darīt, lai tikai paskatītos, kas tur it.</p>",
+        "id": 372548793,
+        "sender_full_name": "HellMap",
+        "timestamp": 1688555073
+    },
+    {
+        "content": "<p>Vai ta kaut kāds WSL2 nav padarījis Windows gandrīz lietojamu mūsdienās? ;)</p>",
+        "id": 372550704,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1688555496
+    },
+    {
+        "content": "<p>Gitpod'ā arī var dabūt Linux'u paspēlēties.</p>",
+        "id": 372558540,
+        "sender_full_name": "i-ky",
+        "timestamp": 1688557106
+    }
+]

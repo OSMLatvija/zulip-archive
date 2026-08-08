@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Es esmu vienīgais, kam <a href=\"http://lvmgeoserver.lvm.lv\">lvmgeoserver.lvm.lv</a> bieži drausmīgi lēni lādē? Ir bijis pat minūti jāgaida kamēr salādē redzamo. Man ir custom WMS url ar orto + kadastra slāņiem. Bet parastais viens orto slānis arī bremzē. Varbūt es kaut ko nepareizi esmu izvēlējies un man kaut kādus limitus saliek?</p>",
+        "id": 321814713,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673957298
+    },
+    {
+        "content": "<p>Arī ir novērots pēdējā laikā neatkarīgi no programmas. Tā kā var apjautāties LVM.</p>",
+        "id": 321827918,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673961535
+    },
+    {
+        "content": "<p>Pēdējā laikā lielāko daļu laika vienkārši nelietojams <a href=\"/user_uploads/49624/gB4vIAhRSKSqvthZyuc5E0Wr/typical.png\">typical.png</a> Reāli jāraksta vēstule, jo es vairs rediģēt nevaru normāli neko...</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/gB4vIAhRSKSqvthZyuc5E0Wr/typical.png\" title=\"typical.png\"><img src=\"/user_uploads/49624/gB4vIAhRSKSqvthZyuc5E0Wr/typical.png\"></a></div>",
+        "id": 323239102,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674563601
+    },
+    {
+        "content": "<p>Agrāk viņiem bija kaut kāds resource leak, kura dēļ šad tad vajadzēja restartēt. Tas gan sen nebija manīts.<br>\nVarbūt tagad vaina tur, ka daudzi izmanto slāņus savos produktos.<br>\nGan jau ka var apjautāties epastā, varbūt te kāds pamana un atbild :)</p>",
+        "id": 323345639,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674591549
+    },
+    {
+        "content": "<p>Problēma, ka tas custom layer, ar ko tas notiek. Pilna konsole ar lvm servera kļūdām... ehh, būs kaut kad jāraksta drošvien. <a href=\"/user_uploads/49624/vathbaoaam3p3-GksdiXq66l/lvmuu.png\">lvmuu.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/vathbaoaam3p3-GksdiXq66l/lvmuu.png\" title=\"lvmuu.png\"><img src=\"/user_uploads/49624/vathbaoaam3p3-GksdiXq66l/lvmuu.png\"></a></div>",
+        "id": 324580879,
+        "sender_full_name": "HellMap",
+        "timestamp": 1675077551
+    }
+]

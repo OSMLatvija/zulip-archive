@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>RS pieturām jāsaliek <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Arequest_stop%3Dyes\">request_stop=yes</a>, bet tikai viņu sarakstos nav īsti skaidrs, kuras pieturas tās ir. <a href=\"https://www.rigassatiksme.lv/lv/aktu%C4%81la%20inform%C4%81cija/no-19-oktobra-vairakos-autobusu-marsrutos-tiks-ieviesta-pietura-pec-pieprasijuma-1/\">https://www.rigassatiksme.lv/lv/aktu%C4%81la%20inform%C4%81cija/no-19-oktobra-vairakos-autobusu-marsrutos-tiks-ieviesta-pietura-pec-pieprasijuma-1/</a> Apsekot visas būs... jā. Mapillary varbūt pa pāris gadiem savāksies.</p>",
+        "id": 481923975,
+        "sender_full_name": "HellMap",
+        "timestamp": 1731410851
+    },
+    {
+        "content": "<p>Var viņiem uzrakstīt vai piezvanīt. Varbūt priecāsies, ka informācija kādu interesē :)<br>\nMan Rimi nesen smuki iedeva info par skaidras naudas aparātiem.</p>",
+        "id": 482337632,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1731574385
+    },
+    {
+        "content": "<p>Vai kāds ar šo kaut ko ir darījis?</p>\n<p>Papētiju Rīgas Satiksmes publicētos atvērtos datus un izskatās, ka tagad pickup_type, drop_off_type atbilst pieturām pēc pieprasījuma. Viņiem tas csv drusku šķībs bet izskatās lietojams.</p>",
+        "id": 613518468,
+        "sender_full_name": "kaposts",
+        "timestamp": 1785358459
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"1178723\">kaposts</span> <a href=\"#narrow/channel/368368-sabiedriskais-transports/topic/R.C4.ABgas.20Satiksmes.20.22pietura.20p.C4.93c.20piepras.C4.ABjuma.22/near/613518468\">said</a>:</p>\n<blockquote>\n<p>Vai kāds ar šo kaut ko ir darījis?</p>\n</blockquote>\n<p>Cik zinu, nē</p>",
+        "id": 613519975,
+        "sender_full_name": "HellMap",
+        "timestamp": 1785359047
+    },
+    {
+        "content": "<p>Urgh, tie pickup_type ir iekš stop_times.txt nevis stops.txt, jāvāc vērtības pa reisiem. Un 8 lauki ar 7 headeriem... Agrāk bija pareizi - 7-7. Tagad kaut kāds 0 starp stop_sequence un pickup_type. Vērtības tad ir 0 un 3, bet ko tie nozīmē nez...</p>",
+        "id": 613527651,
+        "sender_full_name": "HellMap",
+        "timestamp": 1785362892
+    },
+    {
+        "content": "<p><img alt=\"rs blue purple.jpg\" class=\"inline-image\" data-original-content-type=\"image/jpeg\" data-original-dimensions=\"1575x1318\" data-original-src=\"/user_uploads/49624/WAOxtJtTXj4aXhngrrLHQ4Xj/rs-blue-purple.jpg\" src=\"/user_uploads/thumbnail/49624/WAOxtJtTXj4aXhngrrLHQ4Xj/rs-blue-purple.jpg/840x560.webp\"><br>\nzaļš - 0; violets - 3</p>",
+        "id": 613527778,
+        "sender_full_name": "HellMap",
+        "timestamp": 1785362974
+    },
+    {
+        "content": "<p>Bet tikai man neliekas, ka tas ir pareizi visur... Pilns centrs ar 3 - tad tie visi pēc pieprasījuma sanāk. Varbūt tā tiešām ir - es īstenībā nezinu. Japaskatās mapillary, vai pieturām ir tā plāksne</p>",
+        "id": 613528039,
+        "sender_full_name": "HellMap",
+        "timestamp": 1785363150
+    },
+    {
+        "content": "<p>0, 3 vērtības atbilsts GTFS specifikācijai <a href=\"https://gtfs.org/documentation/schedule/reference/#stopstxt\">https://gtfs.org/documentation/schedule/reference/#stopstxt</a></p>\n<p><code>0</code> or empty - Regularly scheduled pickup.<br>\n<code>1</code> - No pickup available.<br>\n<code>2</code> - Must phone agency to arrange pickup.<br>\n<code>3</code> - Must coordinate with driver to arrange pickup.</p>\n<p>Nosaukt pogas nospiešanu \"must coordinate with driver\" sķiet saprātīgi.</p>\n<p>Par 3 centrā -&gt; vismaz vizuāli atbilst <a href=\"https://saraksti.lv/\">https://saraksti.lv/</a> kartei.  Tā kā viņiem pašiem labāki dati diez vai ir.</p>\n<p>Datu piesaiste stop_times.txt nevis stops.txt droši vien dēļ specifikācijas.  Pārbaudīju Rīgas satiksme tur neko aizdomīgu nedara - katrai pieturai (vismaz pēc viņu id) tikai viens unikāls tips kas sakrīt gan pickup_type and drop_off_type.</p>\n<p>(pēc kolonu nosaukumu salabošanas)<br>\n<code>csvsql --query \"SELECT stop_id, pickup_type, drop_off_type FROM stop_times GROUP BY stop_id HAVING COUNT(DISTINCT drop_off_type)&gt;1 OR COUNT(DISTINCT pickup_type) &gt; 1\" ./stop_times.txt</code></p>\n<p><code>csvsql --query \"SELECT stop_id, pickup_type, drop_off_type FROM stop_times where pickup_type != drop_off_type\" ./stop_times.txt</code></p>",
+        "id": 613529629,
+        "sender_full_name": "kaposts",
+        "timestamp": 1785364133
+    },
+    {
+        "content": "<p>Hmm, nu varbūt tad tiešām tie dati ir pareizi. Es laikam nestādījos priekšā, ka tik daudz pēc pieprasījuma pilnīgi centra vidū</p>",
+        "id": 613530113,
+        "sender_full_name": "HellMap",
+        "timestamp": 1785364417
+    },
+    {
+        "content": "<p>Centra vidū bet daudzas no tām ir reti izmantotas pieturas, 1-2 maršruti reizi stundā.  Laikam speciāli sadalīts tā lai pieturas mazāk pārklātos un šoferiem nebūtu jāmin vai pieturā stāvošais cilvēks grib iekāpt vai gaida citu transportu.</p>\n<p>Piemēram Nacionālā bibliotēka uz Valguma ielas - tikai 57 autobuss,  Tērbatas iela - tikai 1 trolejbuss, Dzirnavu iela tikai 13 trolejbuss.</p>",
+        "id": 613532385,
+        "sender_full_name": "kaposts",
+        "timestamp": 1785365951
+    }
+]

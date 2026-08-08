@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>4 messages were moved here from <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/channel/358602-general/topic/Rimi.20Ik.C5.A1.C4.B7il.C4.93/with/565214287\">#general &gt; Rimi Ikšķilē</a> by <span class=\"user-mention silent\" data-user-id=\"571929\">Dāvis Kļaviņš</span>.</p>",
+        "id": 565254318,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1766562784
+    },
+    {
+        "content": "<p>Ja izmanto JOSM, tad iestatījumos jāveic izmaiņas pāris vietās, lai attēlotu visu pieejamo informāciju:<br>\nImagery → Settings → TMS Settings → Max. zoom level jānomaina uz 22,<br>\nColors → background jānomaina uz #FFFFFF (ātrais risinājums, kas atkal padarīs neredzamus tos OSM objektus, kas iestatījumos tiek attēloti baltā krāsā, attiecīgi krāsa būtu jāmaina arī tiem; iespējams, ka pastāv jau citu izveidotas krāsu shēmas, kad nepieciešams gaišs fons).</p>",
+        "id": 565254740,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1766563119
+    },
+    {
+        "content": "<p>Tu varētu screenshotu ielikt piemēram ap to Rimi kā tas slānis izskatās? Kas tieši un cik smalki ir tā topo karte? Tie taču nav detāl/lokālplānojumi? Bet tu tik sīki tos ceļus un laukumus sazīmēji ap Rimi?</p>",
+        "id": 565568789,
+        "sender_full_name": "HellMap",
+        "timestamp": 1766927726
+    },
+    {
+        "content": "<p>Nosūtīju DM. ADTI ir apvidū faktiski esošais atbilstoši <a href=\"https://likumi.lv/ta/id/246998-augstas-detalizacijas-topografiskas-informacijas-un-tas-centralas-datubazes-noteikumi\">MK noteikumiem</a>.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://likumi.lv/ta/id/246998-augstas-detalizacijas-topografiskas-informacijas-un-tas-centralas-datubazes-noteikumi\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/91d1c88287840a065f2a7c4bd960e319f144ed00/68747470733a2f2f6c696b756d692e6c762f6c696b756d695f62696c6465732f5049432f4c494b3230302e4a5047&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://likumi.lv/ta/id/246998-augstas-detalizacijas-topografiskas-informacijas-un-tas-centralas-datubazes-noteikumi\" title=\"Augstas detalizācijas topogrāfiskās informācijas un tās centrālās datubāzes noteikumi\">Augstas detalizācijas topogrāfiskās informācijas un tās centrālās datubāzes noteikumi</a></div><div class=\"message_embed_description\">Tiesību akti un to izmaiņas: visi jaunumi un arhīvs. Sistematizēti tiesību akti. Plašas meklēšanas un personalizētās iespējas. Vietni uztur „Latvijas Vēstnesis”</div></div></div>",
+        "id": 565570765,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1766930402
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"571929\">@Dāvis Kļaviņš</span> cik ātri VZD atsūtīja līgumu?</p>",
+        "id": 566545790,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1767707005
+    },
+    {
+        "content": "<p>Kopumā process vairākas nedēļas aizņēma, katrs solis apmēram vienu. Tikko garās brīvdienas beidzās, šonedēļ vēl pagaidītu.</p>",
+        "id": 566547555,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1767707644
+    },
+    {
+        "content": "<p>Paldies <span class=\"user-mention\" data-user-id=\"571929\">@Dāvis Kļaviņš</span>  par to, ka pievērsāt manu uzmanību šim WMS!</p>\n<p>Pēc sākotnējā pieprasījuma VZD man nosūtīja līgumu parakstīšanai 14 darba dienu laikā, pēc parakstīšanas bija nepieciešamas 8 darba dienas, lai saņemtu parakstītu kopiju, un pēc tam apmēram 1 stunda, lai saņemtu SMS ar paroli autentifikācijas failam.</p>\n<p>Kad man bija personīgā WMS saite, tā darbojās labi manā privātajā klēpjdatorā, bet manā darba klēpjdatorā radās SSL sertifikāta kļūda, jo WMS SSL sertifikātā trūka daži sertifikāti. Kaut kādā veidā pārlūkprogramma var iegūt trūkstošos SSL sertifikātus, bet JAVA ir stingra, tāpēc es atradu līdzīgu problēmu <a href=\"https://community.openstreetmap.org/t/obejscie-problemu-istnieje-josm-zaniemogl-przy-warstwach-geoportalu/9444/11\">OSM forumā</a>, un risinājums, kas man palīdzēja, ir palaist .jar ar</p>\n<blockquote>\n<p>-Dcom.sun.security.enableAIAcaIssuers=true</p>\n</blockquote>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://community.openstreetmap.org/t/obejscie-problemu-istnieje-josm-zaniemogl-przy-warstwach-geoportalu/9444/11\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/59dc33c5ebd3d7c8a7710e95b2b150aaa166f420/68747470733a2f2f636f6d6d756e6974792d63646e2e6f70656e7374726565746d61702e6f72672f75706c6f6164732f64656661756c742f6f726967696e616c2f31582f316563333234323737363666326566646338316331666431613638373965343038346266643030642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://community.openstreetmap.org/t/obejscie-problemu-istnieje-josm-zaniemogl-przy-warstwach-geoportalu/9444/11\" title=\"[obejście problemu istnieje] JOSM zaniemógł przy warstwach Geoportalu\">[obejście problemu istnieje] JOSM zaniemógł przy warstwach Geoportalu</a></div><div class=\"message_embed_description\">Tylko że cały czas sugeruję, że to nie jest błąd JOSM-a ani Javy.</div></div></div>",
+        "id": 569938783,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1769330018
+    },
+    {
+        "content": "<p>Esmu pamanījis, ADTI datu slānis izskatās līdzīgi 2008. gada Rīgas Ģeometrs (<a href=\"http://gisnet.lv\">gisnet.lv</a> ) datu slānim<br>\n<a href=\"/user_uploads/49624/G7J83zbM_X9yG3RhiK9iNBV5/image.png\">image.png</a><br>\n<a href=\"/user_uploads/49624/gnr4zWCEmOz98Q_72Kj62aqw/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/G7J83zbM_X9yG3RhiK9iNBV5/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"1707x1104\" src=\"/user_uploads/thumbnail/49624/G7J83zbM_X9yG3RhiK9iNBV5/image.png/840x560.webp\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/gnr4zWCEmOz98Q_72Kj62aqw/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"1667x1119\" src=\"/user_uploads/thumbnail/49624/gnr4zWCEmOz98Q_72Kj62aqw/image.png/840x560.webp\"></a></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"http://gisnet.lv\" style='background-image: url(\"https://uploads.zulipusercontent.net/0bbb3322df515ecd58b2106630822288e1413bb4/68747470733a2f2f7777772e6769736e65742e6c762f66617669636f6e2e69636f\")'></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"http://gisnet.lv\" title=\"ĢISnet\">ĢISnet</a></div><div class=\"message_embed_description\">Par un ap ĢIS Latvijā un pasaulē</div></div></div>",
+        "id": 569939189,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1769330553
+    }
+]
