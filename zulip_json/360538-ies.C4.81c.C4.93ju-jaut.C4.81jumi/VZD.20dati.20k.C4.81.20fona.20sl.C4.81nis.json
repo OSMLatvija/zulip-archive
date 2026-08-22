@@ -1,0 +1,164 @@
+[
+    {
+        "content": "<p>Kur vispār var sameklēt VZD slāņu linkus?</p>",
+        "id": 319097844,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672695803
+    },
+    {
+        "content": "<p>LVM uzturētos - piem., JOSM liekam jaunu WMS slāni un izmantojam <a href=\"https://lvmgeoserver.lvm.lv/geoserver/public/wms\">https://lvmgeoserver.lvm.lv/geoserver/public/wms</a>? .<br>\nTad no diezgan gara saraksta var izvēlēties.</p>",
+        "id": 319098631,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672696332
+    },
+    {
+        "content": "<p>Bet tur jau nav kadastrs</p>",
+        "id": 319099039,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672696569
+    },
+    {
+        "content": "<p>Atradu <a href=\"https://lvmgeoserver.lvm.lv/geoserver/ows\">https://lvmgeoserver.lvm.lv/geoserver/ows</a></p>",
+        "id": 319099340,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672696787
+    },
+    {
+        "content": "<p>Ar <code>https://lvmgeoserver.lvm.lv/geoserver/ows?FORMAT=image/jpeg&amp;VERSION=1.3.0&amp;SERVICE=WMS&amp;REQUEST=GetMap&amp;LAYERS=public:Orto_LKS,publicwfs:Kadastra_karte,publicwfs:arisstreet,publicwfs:arisroad,publicwfs:arisbuilding&amp;STYLES=&amp;CRS={proj}&amp;WIDTH={width}&amp;HEIGHT={height}&amp;BBOX={bbox}</code> <a href=\"/user_uploads/49624/bFx1f6SzsZnITpfo5FLwX4UM/sjdg.png\">sjdg.png</a> - tieši tas, ko man vajag</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/bFx1f6SzsZnITpfo5FLwX4UM/sjdg.png\" title=\"sjdg.png\"><img src=\"/user_uploads/49624/bFx1f6SzsZnITpfo5FLwX4UM/sjdg.png\"></a></div>",
+        "id": 319099927,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672697234
+    },
+    {
+        "content": "<p>Man gan drīzāk jautājums - kā parastam cilvēkam caur saitu labirintiem atrast to \"<a href=\"https://lvmgeoserver.lvm.lv/geoserver/ows\">https://lvmgeoserver.lvm.lv/geoserver/ows</a>\"?</p>",
+        "id": 319101117,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672698023
+    },
+    {
+        "content": "<p>Ā jā, šis tiešām bija OWS endpointā. Teorētiski linki ir LVM lapās, bet tad tiešām jāzina, ka tur kaut kur jāmeklē.<br>\nVarētu wiki dokumentēt, tik tad varbūt prasās uzreiz blakus visas licencēšanas detaļas.</p>",
+        "id": 319153499,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672737817
+    },
+    {
+        "content": "<p>(deleted)</p>",
+        "id": 361159717,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1685046396
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/VZD.20dati.20k.C4.81.20fona.20sl.C4.81nis/near/319098631\">said</a>:</p>\n<blockquote>\n<p>LVM uzturētos - piem., JOSM liekam jaunu WMS slāni un izmantojam <a href=\"https://lvmgeoserver.lvm.lv/geoserver/public/wms\">https://lvmgeoserver.lvm.lv/geoserver/public/wms</a>? .<br>\nTad no diezgan gara saraksta var izvēlēties.</p>\n</blockquote>\n<p>Vai var lūgt nedaudz detalizētāk pastāstīt netehniskiem cilvēkiem, kur var JOSM ielikt jaunu WMS slāni :)?</p>",
+        "id": 376912597,
+        "sender_full_name": "Liga Rutka",
+        "timestamp": 1689846637
+    },
+    {
+        "content": "<p>LV wiki lapā par to ir īsumā: <a href=\"https://wiki.openstreetmap.org/wiki/Lv:Source#JOSM_sl%C4%81%C5%86u_izv%C4%93le/pievieno%C5%A1ana\">Lv:Source#JOSM_slāņu_izvēle/pievienošana</a></p>",
+        "id": 376913152,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689846748
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/VZD.20dati.20k.C4.81.20fona.20sl.C4.81nis/near/376913152\">said</a>:</p>\n<blockquote>\n<p>LV wiki lapā par to ir īsumā: <a href=\"https://wiki.openstreetmap.org/wiki/Lv:Source#JOSM_sl%C4%81%C5%86u_izv%C4%93le/pievieno%C5%A1ana\">Lv:Source#JOSM_slāņu_izvēle/pievienošana</a></p>\n</blockquote>\n<p>Paldies! :)</p>",
+        "id": 376913424,
+        "sender_full_name": "Liga Rutka",
+        "timestamp": 1689846806
+    },
+    {
+        "content": "<p>Labdien! Vai ir kādas idejas iesācējam, kur meklēt legālu, atvērtu informāciju par upēm un to nosaukumiem? Kuros posmos upēm ir nosaukumi un kādi, utml.</p>",
+        "id": 378252767,
+        "sender_full_name": "BriedisUn",
+        "timestamp": 1690227530
+    },
+    {
+        "content": "<p><a href=\"https://geolatvija.lv/geo/p/303\">https://geolatvija.lv/geo/p/303</a><br>\n<code>Ūdensteču vietvārdi .shp formātā</code><br>\nvar atvērt ar JOSM ja ieinstalē opendata pluginu</p>",
+        "id": 378253070,
+        "sender_full_name": "Colby",
+        "timestamp": 1690227613
+    },
+    {
+        "content": "<p>Iepriekš info: <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/.C5.AAdenste.C4.8Du.20kart.C4.93.C5.A1ana\">#general &gt; Ūdensteču kartēšana</a></p>",
+        "id": 378255322,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690228283
+    },
+    {
+        "content": "<p>Piebildīšu, ka zīmēt diezgan ērti var no LIDAR slāņa. Cik tie dati sakrīt nezinu.</p>",
+        "id": 378255588,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690228357
+    },
+    {
+        "content": "<p>sakrīt tikai aptuveni, kā jau viņi saka tie ir tikai lai redzētu kur kādi nosaukumi</p>",
+        "id": 378255715,
+        "sender_full_name": "Colby",
+        "timestamp": 1690228394
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/VZD.20dati.20k.C4.81.20fona.20sl.C4.81nis/near/378253070\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://geolatvija.lv/geo/p/303\">https://geolatvija.lv/geo/p/303</a><br>\n<code>Ūdensteču vietvārdi .shp formātā</code><br>\nvar atvērt ar JOSM ja ieinstalē opendata pluginu</p>\n</blockquote>\n<p>Super! Liels jums paldies! <span aria-label=\"tada\" class=\"emoji emoji-1f389\" role=\"img\" title=\"tada\">:tada:</span></p>",
+        "id": 378258148,
+        "sender_full_name": "BriedisUn",
+        "timestamp": 1690229066
+    },
+    {
+        "content": "<p>JOSM VZD slāni ielikt izdevās - paldies :)! Tomēr, kamēr nav pierasts pie JOSM, šķiet ērtāk lietot iD redaktoru. Dažreiz sadaļā zem \"overlays\", kadastra slānis kā opcija neparādās- vai ir kādas idejas, kāpēc tas tā varētu būt?</p>",
+        "id": 380963952,
+        "sender_full_name": "Liga Rutka",
+        "timestamp": 1690968628
+    },
+    {
+        "content": "<p>Kadastra slānis neparādās parasti pie Latvijas robežām - jo uzzīmētā līnija nav precīza <a href=\"https://osmlab.github.io/editor-layer-index/\">https://osmlab.github.io/editor-layer-index/</a> . Viens risinājums ir jāpabrauc uz vietu, kur var nospiest - jāizvēlas un tad atpakaļ jāpabrauc, kur vajag.</p>",
+        "id": 380966555,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690969111
+    },
+    {
+        "content": "<p>iD to pašu slāni kā JOSM var ielikt pie Background-&gt;Custom... Tad vienalga, vai robeža sakrīt</p>",
+        "id": 380966847,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690969169
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/VZD.20dati.20k.C4.81.20fona.20sl.C4.81nis/near/380966847\">said</a>:</p>\n<blockquote>\n<p>iD to pašu slāni kā JOSM var ielikt pie Background-&gt;Custom... Tad vienalga, vai robeža sakrīt</p>\n</blockquote>\n<p>:), paldies- izdevās ar pabraukšanu uz vietu, kur parādās!</p>",
+        "id": 380968842,
+        "sender_full_name": "Liga Rutka",
+        "timestamp": 1690969572
+    },
+    {
+        "content": "<p>JOSM var pielikt kā jaunu slāni, tad neizmantos robežas - bet tā varētu būt pietiekami reta vajadzība.</p>",
+        "id": 380971408,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1690970048
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/2oWI-jjsCX179jM7Jh7cGo5J/WhatsApp-Image-2023-08-11-at-09.26.501.jpeg\">WhatsApp-Image-2023-08-11-at-09.26.501.jpeg</a><br>\nLabrīt! Mēģinām pievienot Latgales ciematu robežas no VZD atvērtajiem datiem. Diemžēl šī ir mūsu pirmā reize ar JOSM, un viņš mums met ārā šādu te erroru, kad gribam ciemata robežu augšupielādēt.</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/2oWI-jjsCX179jM7Jh7cGo5J/WhatsApp-Image-2023-08-11-at-09.26.501.jpeg\" title=\"WhatsApp-Image-2023-08-11-at-09.26.501.jpeg\"><img src=\"/user_uploads/49624/2oWI-jjsCX179jM7Jh7cGo5J/WhatsApp-Image-2023-08-11-at-09.26.501.jpeg\"></a></div><p>Pati datu dabūšana iekš JOSM arī nav tā vieglākā, jo neatradām, kā shapefile varētu ielādēt, tāpēc no sākuma QGISā atlasījām konkrētu ciemu un eksportējām tā robežu GPX datos.</p>",
+        "id": 383839055,
+        "sender_full_name": "BriedisUn",
+        "timestamp": 1691735476
+    },
+    {
+        "content": "<p>1) Importējamos datus jāpārkopē OSM datu slānī (Edit &gt; Paste at source position).<br>\n2) Priekš shapefile ir paplašinājums (opendata).<br>\n3) Ciemu robežas ir dati, kas būtu uzturami automatizēti un gan jau ar gadiem pie tā nonāks, tāpēc personīgi labāk laiku investētu rediģēšanā, kas nav automatizējama. Liegts, protams, nav.</p>",
+        "id": 383847728,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1691738043
+    },
+    {
+        "content": "<p>Paldies liels!</p>",
+        "id": 383856098,
+        "sender_full_name": "BriedisUn",
+        "timestamp": 1691740298
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571929\">Dāvis Kļaviņš</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/VZD.20dati.20k.C4.81.20fona.20sl.C4.81nis/near/383847728\">said</a>:</p>\n<blockquote>\n<p>3) Ciemu robežas ir dati, kas būtu uzturami automatizēti un gan jau ar gadiem pie tā nonāks, tāpēc personīgi labāk laiku investētu rediģēšanā, kas nav automatizējama. Liegts, protams, nav.</p>\n</blockquote>\n<p>Good point, bet šajā gadījumā ļoti gribējās izmēģināt <a href=\"https://streetcompleteness.haukauntrie.de/\">https://streetcompleteness.haukauntrie.de/</a> , savādāk ar importiem nemaz nemēģinātu čakarēties <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+        "id": 383865509,
+        "sender_full_name": "Jul",
+        "timestamp": 1691742248
+    },
+    {
+        "content": "<p>4 messages were moved from this topic to <a class=\"stream-topic\" data-stream-id=\"360538\" href=\"/#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Ciema.20robe.C5.BEas.20JOSM.20imports\">#iesācēju jautājumi &gt; Ciema robežas JOSM imports</a> by <span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span>.</p>",
+        "id": 383893449,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1691747801
+    }
+]

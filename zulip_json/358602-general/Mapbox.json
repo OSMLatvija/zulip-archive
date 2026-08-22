@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>Jauni ortofoto<br>\n<a href=\"https://www.mapbox.com/blog/mapbox-adds-10-million-sq-km-of-new-30-cm-satellite-imagery\">https://www.mapbox.com/blog/mapbox-adds-10-million-sq-km-of-new-30-cm-satellite-imagery</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.mapbox.com/blog/mapbox-adds-10-million-sq-km-of-new-30-cm-satellite-imagery\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/a9373f72bc5c844d057b1cdd7e3deb1c7e09413b/68747470733a2f2f63646e2e70726f642e776562736974652d66696c65732e636f6d2f3630396564343630353565323761303266666330373439622f3639346163343233323037323833373038633964306530345f507972616d6964732532306f6625323047697a615f75706461746564253230696d61676572795f6d6b7467253230617070726f7665645f446563253230323032352e77656270&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.mapbox.com/blog/mapbox-adds-10-million-sq-km-of-new-30-cm-satellite-imagery\" title=\"Mapbox adds 10 million square km of 30 cm satellite imagery\">Mapbox adds 10 million square km of 30 cm satellite imagery</a></div><div class=\"message_embed_description\">The update to the mapbox.satellite tileset integrates 30 cm satellite imagery from Vantor (formerly Maxar Intelligence), for unparalleled resolution and accuracy.</div></div></div>",
+        "id": 568652089,
+        "sender_full_name": "Colby",
+        "timestamp": 1768729762
+    },
+    {
+        "content": "<p>Mums arī kaut kas pieejams?</p>",
+        "id": 568656524,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1768734646
+    },
+    {
+        "content": "<blockquote>\n<p>primarily areas with populations over 500,000 people<br>\n<a href=\"/user_uploads/49624/BrXOETOyEKIQd-f_LajNipcA/image.png\">image.png</a><br>\nIzskatās, ka ap Rīgu un Jelgavu.</p>\n</blockquote>",
+        "id": 568656527,
+        "sender_full_name": "HellMap",
+        "timestamp": 1768734649
+    },
+    {
+        "content": "<p>Es nezinu, vai viņi to jau ir ieviesuši vairāk kā pirms tam bija. <a href=\"https://www.mapbox.com/blog/670k-sq-km-of-updated-aerial-imagery-for-the-us-and-europe\">Rīgā pietuvinot</a> pārslēdz uz to pašu Bing aerofoto. Jelgavā it kā tikai satelīts. Grūti pateikt, kura gada, bet nav pavisam svaigs. Viņiem gan tiles nav metadata info pielikts. Nezinu cik svaigāks, bet par LVM Jelgava vismaz ir, tikai izšķirtspēja maza un nobīde liela. <br>\n<a href=\"/user_uploads/49624/NzAXTWZP23USwV8ytB8AcBbn/image.png\">lvm</a><br>\n<a href=\"/user_uploads/49624/PL_TmymGOZEw7RGwjRBv-V9k/image.png\">mapbox</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/NzAXTWZP23USwV8ytB8AcBbn/image.png\" title=\"lvm\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"651x474\" src=\"/user_uploads/thumbnail/49624/NzAXTWZP23USwV8ytB8AcBbn/image.png/840x560.webp\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/PL_TmymGOZEw7RGwjRBv-V9k/image.png\" title=\"mapbox\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"651x474\" src=\"/user_uploads/thumbnail/49624/PL_TmymGOZEw7RGwjRBv-V9k/image.png/840x560.webp\"></a></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.mapbox.com/blog/670k-sq-km-of-updated-aerial-imagery-for-the-us-and-europe\" style='background-image: url(\"https://uploads.zulipusercontent.net/a1cd5893b6ed23edd31e00d47867158ec451f84c/68747470733a2f2f63646e2e70726f642e776562736974652d66696c65732e636f6d2f3630396564343630353565323761303266666330373439622f3639323463366239646662636134323564303263663637615f70616c6d5f6261795f666c5f625f6d6b7467253230617070726f7665645f536570253230323032352e6a7067\")'></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.mapbox.com/blog/670k-sq-km-of-updated-aerial-imagery-for-the-us-and-europe\" title=\"Updated High-Resolution Aerial Imagery | Mapbox\">Updated High-Resolution Aerial Imagery | Mapbox</a></div><div class=\"message_embed_description\">Mapbox adds 670,000+ sq km of updated aerial imagery across major U.S. and European cities, delivering crisp 10–20 cm resolution for clearer, more detailed maps.</div></div></div>",
+        "id": 568657194,
+        "sender_full_name": "HellMap",
+        "timestamp": 1768735474
+    },
+    {
+        "content": "<p>Eh. Atkal jāžonglē ar slāņiem, jo LĢIA skopojas.<br>\nCik nostaļģiski :)</p>",
+        "id": 569978398,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1769370986
+    },
+    {
+        "content": "<p>Te gan Mapbox it ka svaigāks par LĢIA/LVM par kādu 1-2 gadiem atkarībā no vietas. Faktiski laikam sanāk tikai ap Jelgavu (ap Rīgu Bing). Lielākā problēma, kā to zināt kartētājiem, kas neseko tam visam līdzi...</p>",
+        "id": 569979983,
+        "sender_full_name": "HellMap",
+        "timestamp": 1769372554
+    }
+]

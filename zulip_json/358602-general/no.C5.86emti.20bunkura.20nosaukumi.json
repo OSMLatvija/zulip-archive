@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>Ja šis bunkurs vēl eksistē, šķiet, kaut kas no nosaukumiem būtu saglābjams - kādas domas?<br>\n(skat. objekta vēsturi)</p>\n<p><a href=\"https://www.openstreetmap.org/way/381734745/history\">https://www.openstreetmap.org/way/381734745/history</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/381734745/history\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/381734745/history\" title=\"Way History: 381734745 | OpenStreetMap\">Way History: 381734745 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 443635741,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1717964513
+    },
+    {
+        "content": "<p>Kaut kā ļoti dīvaini bez paskaidrojuma nodzēst. Bet nu tam kartētājam katru reizi pa visu Latviju izmaiņas un nevienai paskaidrojuma īsti nav...</p>",
+        "id": 443636201,
+        "sender_full_name": "HellMap",
+        "timestamp": 1717964720
+    },
+    {
+        "content": "<p>Es te gan liktu <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Adescription\">description=*</a> nevis <code>name</code>. Diez vai tas ir par name uzskatāms.</p>",
+        "id": 443636216,
+        "sender_full_name": "HellMap",
+        "timestamp": 1717964730
+    },
+    {
+        "content": "<p>Vispār <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dbunker\">building=bunker</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aruins%3Dyes\">ruins=yes</a> tas ir vienkārši <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Anatural%3Dmeadow\">natural=meadow</a> <span aria-label=\"troll\" class=\"emoji emoji-1f9cc\" role=\"img\" title=\"troll\">:troll:</span></p>",
+        "id": 443637288,
+        "sender_full_name": "HellMap",
+        "timestamp": 1717965274
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/no.C5.86emti.20bunkura.20nosaukumi/near/443636216\">said</a>:</p>\n<blockquote>\n<p>Es te gan liktu <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Adescription\">description=*</a> nevis <code>name</code>. Diez vai tas ir par name uzskatāms.</p>\n</blockquote>\n<p>Tāds pa vidam, jā - bet šajā situācijā es laikam vairāk sliektos uz name, jo a) bunkurcilvēki tā apzīmē; b) tas padara kartes datus nedaudz lietojamākus.<br>\nPagaidām pieliku atpakaļ name, lai nezūd.<br>\n<code>description</code> bija divi linki. FB links vairs nestrādāja, diggers linkam noņēmu tracking un pieliku kā <code>source</code>.</p>",
+        "id": 443736001,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1718015217
+    },
+    {
+        "content": "<p>Par detaļu noņemšanu arī komentārs <a href=\"https://www.openstreetmap.org/changeset/115141893\">https://www.openstreetmap.org/changeset/115141893</a> .</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/changeset/115141893\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/changeset/115141893\" title=\"Changeset: 115141893 | OpenStreetMap\">Changeset: 115141893 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 443736782,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1718015362
+    }
+]

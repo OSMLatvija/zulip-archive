@@ -1,0 +1,404 @@
+[
+    {
+        "content": "<p>Kas Latviski ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aplace%3Dtown\">place=town</a>? Pilsēta vai Ciems/ciemats?</p>",
+        "id": 323694206,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674732184
+    },
+    {
+        "content": "<p>Pilsēta. <a href=\"https://wiki.openstreetmap.org/wiki/Nominatim/Special_Phrases/RU\">Krieviski</a> arī gan <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aplace%3Dtown\">place=town</a>, gan <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aplace%3Dcity\">place=city</a> ir \"город\". Nominatim ar to nav problēmu:</p>\n<div class=\"codehilite\" data-code-language=\"nominatim\"><pre><span></span><code>город около Москва\n</code></pre></div>\n<p>Atrod gan \"town\", gan \"city\".</p>",
+        "id": 323695138,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674732502
+    },
+    {
+        "content": "<p>Mans progress (no angļu versijas): <a href=\"https://wiki.openstreetmap.org/wiki/User:HellMap/sandbox\">https://wiki.openstreetmap.org/wiki/User:HellMap/sandbox</a></p>",
+        "id": 323707130,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674736419
+    },
+    {
+        "content": "<p>Latviski gan laikam ir \"medību tornis\" (pat ja tikai pāris metrus augsts), ne \"Medību stends\"?</p>",
+        "id": 323762991,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674750596
+    },
+    {
+        "content": "<p>Kļūdas tur noteikti ir. Es ar visādiem latviešu terminiem uz Jūs.</p>",
+        "id": 323763260,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674750643
+    },
+    {
+        "content": "<p>Atļāvos izlabot \"Nakstklui\" un \"Nakstklubs\" :D</p>",
+        "id": 323918034,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674770724
+    },
+    {
+        "content": "<p>Lidosta/Lidlauks nebūtu maināmi vietām?</p>",
+        "id": 323918167,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674770766
+    },
+    {
+        "content": "<p>Tie ir abi <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aaeroway%3Daerodrome\">aeroway=aerodrome</a></p>",
+        "id": 323918222,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674770799
+    },
+    {
+        "content": "<p>\"pub\" būtu labāk tulkojams kā \"krogs\"?</p>",
+        "id": 323918241,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674770810
+    },
+    {
+        "content": "<p>Uz angļu nosaukumiem neskaties ipaši, tie ir tikai kā orientiers - es pēc tega galveno kārt</p>",
+        "id": 323918296,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674770831
+    },
+    {
+        "content": "<p>Ā hmm, tie pirmajā stabiņā neietekmē lookup?</p>",
+        "id": 323918334,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674770853
+    },
+    {
+        "content": "<p>Pirmais stabiņš pēc tam izdzēsts būs (īstajā lapā tikai vienā valodā) - tas tikai lai skaidrs, par to runa</p>",
+        "id": 323918411,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674770887
+    },
+    {
+        "content": "<p>Āskaidrs, paldies :)</p>",
+        "id": 323918449,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674770909
+    },
+    {
+        "content": "<p>\"bureau_de_change\" būs \"Valūtas maiņa\" vai varbūt \"Valūtas maiņas punkts\"</p>",
+        "id": 323918507,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674770932
+    },
+    {
+        "content": "<p>Ups, Bārs divreiz - jā, es taisījos krogs rakstīt</p>",
+        "id": 323918516,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674770939
+    },
+    {
+        "content": "<p>Āāāā es skatījos uz to buereau un nesapratu, es tikai currency exchange zināju, tad jā</p>",
+        "id": 323918701,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674771017
+    },
+    {
+        "content": "<p>lol <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aaeroway%3Daerodrome\">aeroway=aerodrome</a> Rīga piemērā</p>",
+        "id": 323918874,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674771111
+    },
+    {
+        "content": "<p>Šķiet, \"Veterinary Surgery\" būs vienkārši \"Vetārsts\".</p>",
+        "id": 323918981,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674771142
+    },
+    {
+        "content": "<p>Jā, un laikam Veterinārā klīnika</p>",
+        "id": 323919020,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674771164
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Nominatim.20special.20phrases.20.2F.20tulkojumi/near/323918507\">said</a>:</p>\n<blockquote>\n<p>\"bureau_de_change\" būs \"Valūtas maiņa\" vai varbūt \"Valūtas maiņas punkts\"</p>\n</blockquote>\n<p>Jā, OSM ir iespēja daudz vārdus samācīties.<br>\nPārsteidzoši cik daudzi pat ar dzimto angļu valodu nezina, kas ir \"bollard\" :)<br>\n\"Kissing gate\" arī labs \"party talk\".</p>",
+        "id": 323919105,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674771203
+    },
+    {
+        "content": "<p>Es tur vēl plānoju pielikt pēc tam<br>\namenity     parcel_locker <br>\namenity     dressing_room <br>\namenity     stripclub <br>\namenity     recycling <br>\namenity     clock <br>\namenity     internet_cafe <br>\nbet man jau piegriezies šodien, tā kā vēlāk</p>",
+        "id": 323919497,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674771345
+    },
+    {
+        "content": "<p>recycling kā miskastes, tegi jāpaskatās, ja kāds meklē, kur plastmasu izmest</p>",
+        "id": 323919659,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674771383
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Nominatim.20special.20phrases.20.2F.20tulkojumi/near/323918874\">said</a>:</p>\n<blockquote>\n<p>lol <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aaeroway%3Daerodrome\">aeroway=aerodrome</a> Rīga piemērā</p>\n</blockquote>\n<p>Jau 2012. gada maijā vēl kā statiska bilde pielikta: <a href=\"https://wiki.openstreetmap.org/w/index.php?title=Tag:aeroway%3Daerodrome&amp;oldid=767280\">https://wiki.openstreetmap.org/w/index.php?title=Tag:aeroway%3Daerodrome&amp;oldid=767280</a> , paldies Yarl no Polijas :)</p>",
+        "id": 323919715,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674771406
+    },
+    {
+        "content": "<p>kas vēl Latvijā populārs? tur laikam Lombards nebija :D</p>",
+        "id": 323919750,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674771418
+    },
+    {
+        "content": "<p>Depozīta punkti :D</p>",
+        "id": 323919801,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674771441
+    },
+    {
+        "content": "<p>To laikam pie recycling arī var - es tur šķirošanas punkti ieliku, bet no otras puses depozīta punkti it kā nosaukums</p>",
+        "id": 323919871,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674771474
+    },
+    {
+        "content": "<p>varētu arī vēlāk izdomāt vai var iela/šoseja salikt pie highway</p>",
+        "id": 323919999,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674771511
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Nominatim.20special.20phrases.20.2F.20tulkojumi/near/323919801\">said</a>:</p>\n<blockquote>\n<p>Depozīta punkti :D</p>\n</blockquote>\n<p>Šitais <a href=\"https://nsi.guide/index.html?t=brands&amp;tt=Depoz%C4%ABta%20punkts\">ir brends jau</a>.</p>",
+        "id": 323963167,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674796451
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Nominatim.20special.20phrases.20.2F.20tulkojumi/near/323918507\">said</a>:</p>\n<blockquote>\n<p>\"bureau_de_change\" būs \"Valūtas maiņa\" vai varbūt \"Valūtas maiņas punkts\"</p>\n</blockquote>\n<p>Var likt abus variantus, jo lietotājs var meklēt gan tā, gan tā.</p>\n<blockquote>\n<p>If there are additional synonyms, alternate phrases or even alternative spellings that mean the same thing add additional lines as required.</p>\n</blockquote>",
+        "id": 323963670,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674796820
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/Nominatim.20special.20phrases.20.2F.20tulkojumi/near/323963670\">said</a>:</p>\n<blockquote>\n<p>Var likt abus variantus</p>\n</blockquote>\n<p>Jā, es jau pieliku abus. Es daudz kur saliku sinonīmus, ja tādus izdomāju.</p>",
+        "id": 324004068,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674813034
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/Nominatim.20special.20phrases.20.2F.20tulkojumi/near/323963167\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Nominatim.20special.20phrases.20.2F.20tulkojumi/near/323919801\">said</a>:</p>\n<blockquote>\n<p>Depozīta punkti :D</p>\n</blockquote>\n<p>Šitais <a href=\"https://nsi.guide/index.html?t=brands&amp;tt=Depoz%C4%ABta%20punkts\">ir brends jau</a>.</p>\n</blockquote>\n<p>Ā jā, <a href=\"https://depozitapunkts.lv/\">https://depozitapunkts.lv/</a> .<br>\nKā dat vispārīgi saukt tās vietas? \"Depozīta punkts\" šķiet OK, bet varbūt ir kas labāks?</p>",
+        "id": 324129170,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674844976
+    },
+    {
+        "content": "<p>Pārkopēju uz galveno sarakstu.</p>",
+        "id": 328459737,
+        "sender_full_name": "HellMap",
+        "timestamp": 1676637574
+    },
+    {
+        "content": "<p>Uzrakstīju Nominatim issue, lai iekļauj <a href=\"https://github.com/osm-search/Nominatim/issues/2982\">https://github.com/osm-search/Nominatim/issues/2982</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/osm-search/Nominatim/issues/2982\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/54d021c42f8ba04035eef1a1cadfe36c9d606463\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f306236356235616134396637633031326264653663306364363631353466643032373363316635626666653038393531636161333338393134303633363665362f6f736d2d7365617263682f4e6f6d696e6174696d2f6973737565732f32393832)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/osm-search/Nominatim/issues/2982\" title=\"Add Latvia (LV) to special phrases wiki import script's list · Issue #2982 · osm-search/Nominatim\">Add Latvia (LV) to special phrases wiki import script's list · Issue #2982 · osm-search/Nominatim</a></div><div class=\"message_embed_description\">In short, please add newly-created https://wiki.openstreetmap.org/wiki/Nominatim/Special_Phrases/LV to https://github.com/osm-search/Nominatim/blob/master/nominatim/tools/special_phrases/sp_wiki_lo...</div></div></div>",
+        "id": 328459789,
+        "sender_full_name": "HellMap",
+        "timestamp": 1676637591
+    },
+    {
+        "content": "<p>Oooo, burvīgi :)</p>",
+        "id": 328460077,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1676637671
+    },
+    {
+        "content": "<p>Klau, no <a href=\"https://wiki.openstreetmap.org/wiki/Nominatim/Special_Phrases\">https://wiki.openstreetmap.org/wiki/Nominatim/Special_Phrases</a> :<br>\n\"If the same phrase is both the singular and the plural please include 2 lines, one labelled plural 'Y' and the other labelled plural 'N'. \"<br>\nVai to dažiem nevajadzētu pievienot?</p>",
+        "id": 328460747,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1676637859
+    },
+    {
+        "content": "<p>BTW, \"Pulkstens\" -&gt; \"Pulkstenis\".</p>",
+        "id": 328460774,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1676637866
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Nominatim.20special.20phrases.20.2F.20tulkojumi/near/328460747\">said</a>:</p>\n<blockquote>\n<p>Klau, no <a href=\"https://wiki.openstreetmap.org/wiki/Nominatim/Special_Phrases\">https://wiki.openstreetmap.org/wiki/Nominatim/Special_Phrases</a> :<br>\n\"If the same phrase is both the singular and the plural please include 2 lines, one labelled plural 'Y' and the other labelled plural 'N'. \"<br>\nVai to dažiem nevajadzētu pievienot?</p>\n</blockquote>\n<p>Urgh... nepamanīju, jā jāsaliek... tikai regex uzrakstīt tādam pagrūti</p>",
+        "id": 328467585,
+        "sender_full_name": "HellMap",
+        "timestamp": 1676639817
+    },
+    {
+        "content": "<p>Ko darīt, saliku ar rokām.... 100x ātrāk, bet bez automatizācijas jūtos, kā kartupeļu racējs</p>",
+        "id": 328468489,
+        "sender_full_name": "HellMap",
+        "timestamp": 1676640066
+    },
+    {
+        "content": "<p>\"Velosipēdu novietne\" varētu duplicēt ar saīsināto variantu \"Velonovietne\". Arī \"Velosipēdu noma\" var papildināt ar \"Velonoma\".</p>\n<blockquote>\n<p>If there are additional synonyms, alternate phrases or even alternative spellings that mean the same thing add additional lines as required.</p>\n</blockquote>",
+        "id": 328469706,
+        "sender_full_name": "i-ky",
+        "timestamp": 1676640414
+    },
+    {
+        "content": "<p>Tagad bordelim 10 sinonīmus, tas pie mums aktuāli tūristiem :D</p>",
+        "id": 328470218,
+        "sender_full_name": "HellMap",
+        "timestamp": 1676640584
+    },
+    {
+        "content": "<p>...except tūristi nerakstīs latviski... tad tas aktuāli latviešu tūristiem kaut kādā Singapūrā, nez...</p>",
+        "id": 328470309,
+        "sender_full_name": "HellMap",
+        "timestamp": 1676640610
+    },
+    {
+        "content": "<p>\"Zobārstniecība\" kā \"Zobārsts\" sinonīms?</p>",
+        "id": 328470403,
+        "sender_full_name": "i-ky",
+        "timestamp": 1676640644
+    },
+    {
+        "content": "<p>\"Doktorāts\" kā \"Ārsts\" sinonīms?</p>",
+        "id": 328470504,
+        "sender_full_name": "i-ky",
+        "timestamp": 1676640682
+    },
+    {
+        "content": "<p>Es domāju tu droši vari pats rakstīt klāt visu, ko izdomāsi, saraksts jau nav pat tuvu pilns, es nemaz neiztulkoju pat no angļu visus :)</p>",
+        "id": 328470629,
+        "sender_full_name": "HellMap",
+        "timestamp": 1676640720
+    },
+    {
+        "content": "<p>\"Ūdens\" vai \"Dzeramais ūdens\" kā \"Ūdens krāns\" sinonīms?</p>",
+        "id": 328470704,
+        "sender_full_name": "i-ky",
+        "timestamp": 1676640730
+    },
+    {
+        "content": "<p>Es pēc tam salikšu, ja tu te sagudrosi daudz</p>",
+        "id": 328470719,
+        "sender_full_name": "HellMap",
+        "timestamp": 1676640734
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Nominatim.20special.20phrases.20.2F.20tulkojumi/near/328470629\">said</a>:</p>\n<blockquote>\n<p>Es domāju tu droši vari pats rakstīt klāt visu, ko izdomāsi, saraksts jau nav pat tuvu pilns, es nemaz neiztulkoju pat no angļu visus :)</p>\n</blockquote>\n<p>Tur nevajag speciāli kontu taisīt?</p>",
+        "id": 328471137,
+        "sender_full_name": "i-ky",
+        "timestamp": 1676640854
+    },
+    {
+        "content": "<p>ā, laikam vajag, ar IP nevar</p>",
+        "id": 328471283,
+        "sender_full_name": "HellMap",
+        "timestamp": 1676640899
+    },
+    {
+        "content": "<p>¯\\_(ツ)_/¯</p>",
+        "id": 328471317,
+        "sender_full_name": "HellMap",
+        "timestamp": 1676640909
+    },
+    {
+        "content": "<p>\"Bērnudārzs\" kā alternative spelling priekš \"Bērnu dārzs\"?</p>",
+        "id": 328471481,
+        "sender_full_name": "i-ky",
+        "timestamp": 1676640963
+    },
+    {
+        "content": "<p>hmm, Bērnu dārzs laikam ir nepareizi</p>",
+        "id": 328471594,
+        "sender_full_name": "HellMap",
+        "timestamp": 1676640991
+    },
+    {
+        "content": "<p>Visādi saīsinājumi - \"DUS\", \"PII\", ...</p>",
+        "id": 328471643,
+        "sender_full_name": "i-ky",
+        "timestamp": 1676641007
+    },
+    {
+        "content": "<p>\"Pastkaste\" kā \"Pastkastīte\" sinonīms?</p>",
+        "id": 328472001,
+        "sender_full_name": "i-ky",
+        "timestamp": 1676641104
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/Nominatim.20special.20phrases.20.2F.20tulkojumi/near/328472001\">said</a>:</p>\n<blockquote>\n<p>\"Pastkaste\" kā \"Pastkaste\" sinonīms?</p>\n</blockquote>\n<p>Excuse me? :D</p>",
+        "id": 328472039,
+        "sender_full_name": "HellMap",
+        "timestamp": 1676641119
+    },
+    {
+        "content": "<p>Nezinu, cik tas ir korekti, bet \"Dabas parks\" kā \"Nacionālais parks\" sinonīms?</p>",
+        "id": 328472614,
+        "sender_full_name": "i-ky",
+        "timestamp": 1676641275
+    },
+    {
+        "content": "<p>Dabas parks laikam būs tad tuvāk <code>leisure=nature_reserve</code>, kur tagad Dabas liegums - tipa Piejūras Dabas Parks</p>",
+        "id": 328472873,
+        "sender_full_name": "HellMap",
+        "timestamp": 1676641357
+    },
+    {
+        "content": "<p>Gaujas Nacionālais Parks mums ir arī <code>boundary=national_park</code>, tā kā it kā sakrīt</p>",
+        "id": 328473150,
+        "sender_full_name": "HellMap",
+        "timestamp": 1676641431
+    },
+    {
+        "content": "<p>\"Poligons\" kā \"Militārā zona\" sinonīms?</p>",
+        "id": 328473270,
+        "sender_full_name": "i-ky",
+        "timestamp": 1676641456
+    },
+    {
+        "content": "<p>Ķemeru gan ir abi ielikti</p>",
+        "id": 328473300,
+        "sender_full_name": "HellMap",
+        "timestamp": 1676641466
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/Nominatim.20special.20phrases.20.2F.20tulkojumi/near/328473270\">said</a>:</p>\n<blockquote>\n<p>\"Poligons\" kā \"Militārā zona\" sinonīms?</p>\n</blockquote>\n<p>Mums ir daudz visādu militāro zonu, kas nav poligoni - tipa apkārt kaut kādām ēkām vai kaut kāds radars</p>",
+        "id": 328473378,
+        "sender_full_name": "HellMap",
+        "timestamp": 1676641502
+    },
+    {
+        "content": "<p>Ir tikai \"Autobusa pietura\". \"Trolejbusa pietura\", \"Tramvaja pietura\", \"Sabiedriska transporta pietura\", vienkārši \"Pietura\"?</p>",
+        "id": 328474542,
+        "sender_full_name": "i-ky",
+        "timestamp": 1676641832
+    },
+    {
+        "content": "<p>\"Iedzert\" kā \"Bārs\" un \"Krogs\" sinonīms? :D<br>\nBet nopietnāk, es šaubos, ka mūsu cilvēki spēj atšķirt krogu no bāra. Man liekas, gan \"Bārs\", gan \"Krogs\" jāmeklē gan <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dbar\">amenity=bar</a>, gan <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dpub\">amenity=pub</a>.</p>",
+        "id": 328475201,
+        "sender_full_name": "i-ky",
+        "timestamp": 1676642041
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/Nominatim.20special.20phrases.20.2F.20tulkojumi/near/328474542\">said</a>:</p>\n<blockquote>\n<p>Ir tikai \"Autobusa pietura\". \"Trolejbusa pietura\", \"Tramvaja pietura\", \"Sabiedriska transporta pietura\", vienkārši \"Pietura\"?</p>\n</blockquote>\n<p>Pieliku <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Arailway%3Dtram_stop\">railway=tram_stop</a> , bet trolejbusam te gluži nevar, jo tas ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dbus_stop\">highway=bus_stop</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Atrolleybus%3Dyes\">trolleybus=yes</a> . A kam tieši likt vienkārši \"pietura\"?</p>",
+        "id": 328478077,
+        "sender_full_name": "HellMap",
+        "timestamp": 1676642653
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/Nominatim.20special.20phrases.20.2F.20tulkojumi/near/328475201\">said</a>:</p>\n<blockquote>\n<p>\"Iedzert\" kā \"Bārs\" un \"Krogs\" sinonīms? :D<br>\nBet nopietnāk, es šaubos, ka mūsu cilvēki spēj atšķirt krogu no bāra. Man liekas, gan \"Bārs\", gan \"Krogs\" jāmeklē gan <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dbar\">amenity=bar</a>, gan <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dpub\">amenity=pub</a>.</p>\n</blockquote>\n<p>Nu es teiktu, ka atbraucot uz Angliju un meklējot krogs vs bārs ir liela atšķirība, bet nu... man grūti pateikt, ko \"mūsu cilvēki\" atpazīst vai nē</p>",
+        "id": 328478293,
+        "sender_full_name": "HellMap",
+        "timestamp": 1676642715
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Nominatim.20special.20phrases.20.2F.20tulkojumi/near/328478077\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/Nominatim.20special.20phrases.20.2F.20tulkojumi/near/328474542\">said</a>:</p>\n<blockquote>\n<p>Ir tikai \"Autobusa pietura\". \"Trolejbusa pietura\", \"Tramvaja pietura\", \"Sabiedriska transporta pietura\", vienkārši \"Pietura\"?</p>\n</blockquote>\n<p>Pieliku <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Arailway%3Dtram_stop\">railway=tram_stop</a> , bet trolejbusam te gluži nevar, jo tas ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dbus_stop\">highway=bus_stop</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Atrolleybus%3Dyes\">trolleybus=yes</a> . A kam tieši likt vienkārši \"pietura\"?</p>\n</blockquote>\n<p>\"Pietura\" ir sinonīms gan autobusu, gan trolejbusu, gan tramvaju pieturām.</p>\n<blockquote>\n<p>If the same word or phrase could be used to search for different key/value pairs include additional lines for those as well</p>\n</blockquote>",
+        "id": 328482676,
+        "sender_full_name": "i-ky",
+        "timestamp": 1676643893
+    },
+    {
+        "content": "<p>Tad tu piedāvā pielikt abus \"Sabiedriskā transporta pietura\" un \"Pietura\" pie <code>highway=bus_stop</code> un <code>railway=tram_stop</code>?</p>",
+        "id": 328484049,
+        "sender_full_name": "HellMap",
+        "timestamp": 1676644308
+    },
+    {
+        "content": "<p>Nezinu, vai piekrītu par tram_stop, but also I don't really care <span aria-label=\"sunglasses\" class=\"emoji emoji-1f60e\" role=\"img\" title=\"sunglasses\">:sunglasses:</span></p>",
+        "id": 328524109,
+        "sender_full_name": "HellMap",
+        "timestamp": 1676654597
+    }
+]

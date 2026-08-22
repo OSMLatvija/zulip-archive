@@ -1,0 +1,68 @@
+[
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/velojoslas.20k.C4.81.20atsevi.C5.A1.C4.B7i.20ce.C4.BCi/near/319660141\">said</a>:</p>\n<blockquote>\n<p>Es atceros, ka Signal'ā kāds teica, ka visas velojoslas/ceļi ir sazīmēti nepareizi. Vajadzētu to sameklēt...</p>\n</blockquote>\n<ol start=\"2022\">\n<li>gada 6. janvārī, 11:08:08 (GMT+3) <span class=\"user-mention\" data-user-id=\"571929\">@Dāvis Kļaviņš</span> teica:</li>\n</ol>\n<blockquote>\n<p>Velo infrastruktūras tagošanā Latvijā ir diezgan liels bardaks. Ļoti daudzos gadījumos apvienotas (gan nodalītas, gan nenodalītas) gājēju un velo ietves/ceļi ir tagoti kā cycleway, kas ir kļūda.  JOSM in korektas tagu kombinācijas, ja tās lieto, ir OK. Arīdzan ar <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a> jābūt uzmanīgam un lieki (kur nav nozīmes) ar to nepapildināt.</p>\n</blockquote>\n<ol start=\"2022\">\n<li>gada 6. janvārī, 14:18:04 (GMT+3) <span class=\"user-mention\" data-user-id=\"568771\">@Rihards Olups</span> teica:</li>\n</ol>\n<blockquote>\n<p>Pieļauju, ka šādus gadījumus priekš vadlīnijām der apkopot, ja ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahigway%3Dpath\">higway=path</a>/footway + tunnel, tad jāpieliek <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a> maršrutēšanas dēļ.</p>\n</blockquote>",
+        "id": 319808034,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673020427
+    },
+    {
+        "content": "<p>Es kaut kā neteiktu, ka JOSM preseti ir pareizāki. Pasaulē <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dcycleway\">highway=cycleway</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afoot%3Ddesignated\">foot=designated</a> ir 503K un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dpath\">highway=path</a>/footway +bicycle=designated ir 625K (no kuriem 75K fooway) - un abi ir no iD un JOSM un presetiem. Latvijā 1670 un 650 respektīvi.</p>",
+        "id": 319811656,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673021466
+    },
+    {
+        "content": "<p>Par <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a> sabāztu piekrītu - tā pat kā <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahorse%3Dno\">horse=no</a> - bez īpaša pamatojuma nav ko likt. Pus Jūrmala piemēram ietves ar <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a>.</p>",
+        "id": 319812023,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673021593
+    },
+    {
+        "content": "<p>Par tuneli neko nesapratu.</p>",
+        "id": 319812195,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673021648
+    },
+    {
+        "content": "<p>Vai nav tā, ka daudzi routeri <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dfootway\">highway=footway</a> neuzskata par riteņbraukšanai lietojamu, līdz ar to <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a> tur ir noderīgs?</p>",
+        "id": 320099884,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673198244
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/velo.20infrastrukt.C5.ABras.20tago.C5.A1ana.20Latvij.C4.81/near/320099884\">said</a>:</p>\n<blockquote>\n<p>Vai nav tā, ka daudzi routeri <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dfootway\">highway=footway</a> neuzskata par riteņbraukšanai lietojamu, līdz ar to <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a> tur ir noderīgs?</p>\n</blockquote>\n<p>Par to ir <a class=\"stream-topic\" data-stream-id=\"360539\" href=\"/#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/highway.3Dfootway.20un.20velo.20routing\">#veloinfrastruktūra &gt; highway=footway un velo routing</a>.</p>",
+        "id": 320104789,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673201733
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/velo.20infrastrukt.C5.ABras.20tago.C5.A1ana.20Latvij.C4.81/near/319811656\">said</a>:</p>\n<blockquote>\n<p>Es kaut kā neteiktu, ka JOSM preseti ir pareizāki. Pasaulē <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dcycleway\">highway=cycleway</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afoot%3Ddesignated\">foot=designated</a> ir 503K un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dpath\">highway=path</a>/footway +bicycle=designated ir 625K (no kuriem 75K fooway) - un abi ir no iD un JOSM un presetiem. Latvijā 1670 un 650 respektīvi.</p>\n</blockquote>\n<p>Ko tā statistika izsaka? Vai ir statistika par to, cik ir atdalītu/neatdalītu veloceļu/joslu \"on the ground\"?</p>",
+        "id": 320105039,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673201920
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/velo.20infrastrukt.C5.ABras.20tago.C5.A1ana.20Latvij.C4.81/near/319812195\">said</a>:</p>\n<blockquote>\n<p>Par tuneli neko nesapratu.</p>\n</blockquote>\n<p>Signalā bija otra diskusija par konkrētu tuneli, kas bija ar zīmēm apzīmēta kā \"gājēju ceļš\" un viens dalībnieks stāstīja par to, ka pielika tur <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a>, jo savādāk routing veda kaut kā dīvaini... Es nokopēju šeit <span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> vārdus vairāk \"priekš vadlīnijām der apkopot\" dēļ. Vadlīniju noteikti trūkst.</p>",
+        "id": 320105375,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673202175
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/velo.20infrastrukt.C5.ABras.20tago.C5.A1ana.20Latvij.C4.81/near/320105375\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/velo.20infrastrukt.C5.ABras.20tago.C5.A1ana.20Latvij.C4.81/near/319812195\">said</a>:</p>\n<blockquote>\n<p>Par tuneli neko nesapratu.</p>\n</blockquote>\n<p>Signalā bija otra diskusija par konkrētu tuneli, kas bija ar zīmēm apzīmēta kā \"gājēju ceļš\" un viens dalībnieks stāstīja par to, ka pielika tur <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a>, jo savādāk routing veda kaut kā dīvaini... Es nokopēju šeit <span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> vārdus vairāk \"priekš vadlīnijām der apkopot\" dēļ. Vadlīniju noteikti trūkst.</p>\n</blockquote>\n<p>Papildus konteksts. Signal lietotājs <code>erv</code> 2022 gada 6. janvārī ap 14:07-14:12 (GMT+3) teica:</p>\n<blockquote>\n<p>A par to ka nevajag aizrauties ar velo tagiem - ir par piemēru vieta Saulkalnē - gājēju tunelis zem lielās šosejas - Googles StreetView bilde ar visu explicit zīmi<br>\nOSM tur velo taga nebija un, iespējams, tādēļ kaut kas no šitiem softiem, man liekas tas pats Organic Maps tur routēja riņķī, liekot braukt ārā uz šoseju un tad uz apgriešanās vietu - brrrr<br>\nEs viņu tādēļ nesen tur ieliku. No tagu korektuma viedokļa drošvien slikti<br>\nGājēju \"plūsma\" tur ir tāda, ka pa retam velo tur nevienam neiekaitēs<br>\n<a href=\"https://www.google.com/maps/@56.8459499,24.4373734,3a,44.6y,1.3h,85.99t/data=!3m6!1e1!3m4!1s3NBOb-BtSPhqr-DkTCGrGg!2e0!7i13312!8i6656\">https://www.google.com/maps/@56.8459499,24.4373734,3a,44.6y,1.3h,85.99t/data=!3m6!1e1!3m4!1s3NBOb-BtSPhqr-DkTCGrGg!2e0!7i13312!8i6656</a></p>\n</blockquote>",
+        "id": 320111417,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673206205
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/velo.20infrastrukt.C5.ABras.20tago.C5.A1ana.20Latvij.C4.81/near/320105039\">said</a>:</p>\n<blockquote>\n<p>Ko tā statistika izsaka? Vai ir statistika par to, cik ir atdalītu/neatdalītu veloceļu/joslu \"on the ground\"?</p>\n</blockquote>\n<p>Tas tikai par to, ka abi varianti ir lietoti pie mums. Cik reāli tādu ceļu tas neko nesaka. Bet tie ir drošvien iezīmētie ar iD vai JOSM presetiem. Kopētais komentārs teica, ka JOSM presets ir korekts - bet ne kāpēc. Wiki ir aprakstīti abi varianti. Pasaulē tagoti abi. Latvijā arī abi. Ja mēs gribam lietot vienu vai otru, tad tur vajadzētu argumentu kāpēc nevis tāpēc, ka JOSM tā dara. Un tā kā gan iD gan JOSM (gan citus) lieto un tie diez vai mainīs presetus, ja tos nemainīs globāli, tad praktiski diez vai var nolemt lietot tikai vienu.</p>",
+        "id": 320135990,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673227104
+    },
+    {
+        "content": "<div class=\"codehilite\"><pre><span></span><code>https://www.google.com/maps/@56.8459499,24.4373734,3a,44.6y,1.3h,85.99t/data=!3m6!1e1!3m4!1s3NBOb-BtSPhqr-DkTCGrGg!2e0!7i13312!8i6656\n</code></pre></div>\n<p>Nu tas gan man liekas ir nepareizi - te nav nekāds <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a>. Te ir legāli <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dno\">bicycle=no</a>. Šis ir gājēju ceļš un te ar velo braukt nedrīkst. OSM access tegi vienmēr bijuši legāliem/atļautiem - \"Access values describe legal permissions/restrictions and should follow ground truth; e.g., signage or legal ruling and not introduce guesswork.\" Es saprotu, ka gribās un neviens dzīvē uz tām zīmēm neskatās. Bet tik pat labi varētu uzlikt privātīpašumā <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aaccess%3Dyes\">access=yes</a>, jo vietējie tur staigā un celiņš ejams.</p>",
+        "id": 320136562,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673227570
+    }
+]

@@ -1,0 +1,68 @@
+[
+    {
+        "content": "<p>Nesen beidza būvēt BKUS slimnīcas korpusu un nolēmu tur nedaudz pakartēt. Ne īpaši sekmīgi. Jaunajā mājā (45 k-21) ir divas daļas — ambulatorā un neatliekamā. OSM defaultais renderētājs nemaz nesaprata, ko es tur mēģināju pateikt — nosaukumi nerādās.</p>",
+        "id": 484771822,
+        "sender_full_name": "Rūdolfs Mazurs",
+        "timestamp": 1732729862
+    },
+    {
+        "content": "<p>Vēl viena lieta — BKUS visur liek akcentu, kur atrodas dažādas reģistratūras (R1 - R6) un tas parādās visās zīmēs un kartēs. Cik skatījos viki, neatradu atbilstošu tagu. Ir kāds atbilstošs tags, kurš daudz maz garantēti uzrenderētos? Es skatos, ka agrāk tika izmantots Address punkts, bet tas salūza līdz ar automātisko adrešu importu.</p>",
+        "id": 484772356,
+        "sender_full_name": "Rūdolfs Mazurs",
+        "timestamp": 1732730066
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"783476\">Rūdolfs Mazurs</span> <a href=\"#narrow/channel/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/M.C4.81ju.20da.C4.BCas.20un.20render.C4.93jamie.20teksti/near/484771822\">said</a>:</p>\n<blockquote>\n<p>Nesen beidza būvēt BKUS slimnīcas korpusu un nolēmu tur nedaudz pakartēt. Ne īpaši sekmīgi. Jaunajā mājā (45 k-21) ir divas daļas — ambulatorā un neatliekamā. OSM defaultais renderētājs nemaz nesaprata, ko es tur mēģināju pateikt — nosaukumi nerādās.</p>\n</blockquote>\n<p>Iespējams, nerenderēsies, bet vērts pamēģināt pielikt name pie building:part, ja tik precīzi var iezīmēt.</p>",
+        "id": 484779143,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1732732786
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"783476\">Rūdolfs Mazurs</span> <a href=\"#narrow/channel/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/M.C4.81ju.20da.C4.BCas.20un.20render.C4.93jamie.20teksti/near/484772356\">said</a>:</p>\n<blockquote>\n<p>Vēl viena lieta — BKUS visur liek akcentu, kur atrodas dažādas reģistratūras (R1 - R6) un tas parādās visās zīmēs un kartēs. Cik skatījos viki, neatradu atbilstošu tagu. Ir kāds atbilstošs tags, kurš daudz maz garantēti uzrenderētos? Es skatos, ka agrāk tika izmantots Address punkts, bet tas salūza līdz ar automātisko adrešu importu.</p>\n</blockquote>\n<p>Ja tās ir ieejas, var likt entrance un ref. Ref nerenderējas, tāpēc renderēšanai var pielikt to pašu name ;)</p>",
+        "id": 484779284,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1732732835
+    },
+    {
+        "content": "<p>Sveiki! Īss jautājums, bet sarežģīta atbilde ar daudzām niansēm.</p>",
+        "id": 484781182,
+        "sender_full_name": "HellMap",
+        "timestamp": 1732733638
+    },
+    {
+        "content": "<p>Tīri par renderēšanu - man liekas, ka defaultais renderētājs nerāda un nav nekad rādijis ēku daļas (<a href=\"https://wiki.openstreetmap.org/wiki/Key%3Abuilding%3Apart\">building:part=*</a>) un nekādus to tegus (nosaukumus utml.). Arī par renderēšanu - tegus var likt, lai tie renderētos, bet nevar likt tegus nepareizi, tāpēc lai tie renderētos. Citiem vārdiem, datiem ir jābūt pareiziem, jo defaultā karte ir tikai viens no daudziem OSM izmantošanas veidiem. Un visādi nepareizi salikti nosaukumi putro datus. Diemžēl, OSM trūkst gan tegu, gan informācijas, gan redaktoru atbalsta, lai varētu iezīmēt un norenderēt daudz ko.</p>",
+        "id": 484781231,
+        "sender_full_name": "HellMap",
+        "timestamp": 1732733643
+    },
+    {
+        "content": "<p>Par ēku un ēku daļu tegošanu - te ir nedaudz putraini tas viss. Tīri korekti, nosaukumam ir jābūt nevis ēku daļām, bet objektam, kuram ir tas nosaukums. Ja viss objekts ir pa visu ēku (piemēram, veikals pa visu ēku), tad arī var būs viens elements abiem. Ja ēkā ir 3 objekti, tad būs 3 objektu punkti kaut kur ēkā. Ja ir vairāks ēkas vienam objektam, tad būs punkts vai laukums objektam un ēkas atsevišķi. No tā arī izriet, ka nosaukums ēkas daļai neko pats par sevi nenozīmē - jo kādam objektam tas nosaukums tad īsti ir? Pašām ēkām ir ļoti reti nosaukumi. Ar ēku daļu nosaukumiem es vispār nekad neesmu sastapies. Tāpēc šeit ir jāsaliek atbilstoši tegi pašiem objektiem. Piemēram, kas tas \"Ambulatorais veselības centrs\" tāds ir?</p>",
+        "id": 484781253,
+        "sender_full_name": "HellMap",
+        "timestamp": 1732733651
+    },
+    {
+        "content": "<p>Par slimnīcu sadalījumu ir nedaudz aprakstīts <a href=\"https://wiki.openstreetmap.org/wiki/Tag:amenity=hospital#Mapping_internal_hospital_structure\">https://wiki.openstreetmap.org/wiki/Tag:amenity=hospital#Mapping_internal_hospital_structure</a> . Īsumā, tas ir problemātski, jo tādi \"slimnīcas daļa\" tegi OSM neeksistē pagaidām. Kā alternatīvu kartētāji ir visādi to likuši. Ēku nosaukumus, jaunus slimnīcu punktus un visu ko. Bet daudz kas no tā ir nepareizi. Piemēram, šeit ēka izdalīta pa gabaliem kā kaut kad iezīmētais <a href=\"https://www.openstreetmap.org/way/197700223\">https://www.openstreetmap.org/way/197700223</a> - tas ir galīgi nepareizi. Kadastrā var redzēt faktiskās ēku kontūram. Un tas tā dalīts visticamāk tieši renderēšanai. Bet tagad dati šeit ir kļūdaini - te uzrādās 3 atsevišķas ēkas. <br>\n<a href=\"/user_uploads/49624/yur2mpEzCbcKcFhQ5GnR1Xef/hmm-parts.png\">hmm parts.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/yur2mpEzCbcKcFhQ5GnR1Xef/hmm-parts.png\" title=\"hmm parts.png\"><img data-original-dimensions=\"427x492\" src=\"/user_uploads/thumbnail/49624/yur2mpEzCbcKcFhQ5GnR1Xef/hmm-parts.png/840x560.webp\"></a></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/197700223\" style='background-image: url(\"https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67\")'></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/197700223\" title=\"Way: ‪Lor konsultācijas‬ (‪197700223‬)\">Way: ‪Lor konsultācijas‬ (‪197700223‬)</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 484781289,
+        "sender_full_name": "HellMap",
+        "timestamp": 1732733670
+    },
+    {
+        "content": "<p>Kodi kā \"R1\" tiek likti <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aref\">ref=*</a> tegos atbilstošam elementam/objektam. Ar renderēšanu tur ir kā kuram objektam. Adrešu punktos tas tiešām būtu neapreizi, arī pirms b0ta automatizācijas. Tikai, ja šī adrese ir kopā ar objektu, kuram tad šis ref arī atbilst.</p>",
+        "id": 484781543,
+        "sender_full_name": "HellMap",
+        "timestamp": 1732733774
+    },
+    {
+        "content": "<p>Tas nav korekti, bet iespējams var salikt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dclinic\">amenity=clinic</a> punktus katrai nodaļai ar name un ref. Ja OSM kaut kad parādīsies tegi tieši slimnīcu daļām/nodaļām/korpusiem, tad to varēs nomainīt. Te vistas-olas problēma. To <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dclinic\">amenity=clinic</a> var laikam arī tad pielikt pie tiem building:part (es gan liktu kā punktus) un tad objekts šajā vietā būs šī \"klīnika\" - tad arī renderēsies (laikam).</p>",
+        "id": 484782307,
+        "sender_full_name": "HellMap",
+        "timestamp": 1732734057
+    },
+    {
+        "content": "<p>Ar renderēšanu arī ir kā kur. Piemēram, OSM tās daļas rāda: <br>\n<a href=\"/user_uploads/49624/n05PhHGfhcd4dudCa3V-vNyF/osmand-parts.png\">osmand parts.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/n05PhHGfhcd4dudCa3V-vNyF/osmand-parts.png\" title=\"osmand parts.png\"><img data-original-dimensions=\"1006x1057\" src=\"/user_uploads/thumbnail/49624/n05PhHGfhcd4dudCa3V-vNyF/osmand-parts.png/840x560.webp\"></a></div>",
+        "id": 484783253,
+        "sender_full_name": "HellMap",
+        "timestamp": 1732734464
+    }
+]

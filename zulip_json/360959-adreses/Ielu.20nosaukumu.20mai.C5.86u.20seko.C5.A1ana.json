@@ -1,0 +1,92 @@
+[
+    {
+        "content": "<p>Vai kaut kur var sekot ielu nosaukumu maiņām? Es parasti paskatos adrešu <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bota</a> adrešu ielu izmaiņas, kas parasti tad nozīmē ielai mainījiem nosaukums. Bet tas diezgan tāds manuāls variants.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/fc94da75988ca0e87c616c0465ccb8790fcbc98a\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f653661366363346131343735326436643063333139386136616462616633336665346538333337653235363034663264373435663962613039616236346636312f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 318887865,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672594861
+    },
+    {
+        "content": "<p>Veicot pieprasījumu pret VZD datiem. <a href=\"https://nominatim.org/qa/\">Nominatim QA Tool</a> izvēloties \"Suspicious addr:street tag\", starp visām citām iespējamām kļūdām gan tiks parādīti arī šie gadījumi.</p>",
+        "id": 318896997,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1672600650
+    },
+    {
+        "content": "<p>Nominatim QA izskatās, ka rāda līdzīgi kā es parasti skatos <a href=\"https://tools.geofabrik.de/osmi/?view=addresses&amp;lon=24.25457&amp;lat=56.92434&amp;zoom=12&amp;baselayer=Geofabrik%20Standard&amp;opacity=1.00&amp;overlays=street_not_found\">https://tools.geofabrik.de/osmi/?view=addresses&amp;lon=24.25457&amp;lat=56.92434&amp;zoom=12&amp;baselayer=Geofabrik%20Standard&amp;opacity=1.00&amp;overlays=street_not_found</a> , bet tikai Nominatim nepazīst <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dproposed\">highway=proposed</a> - ļoti daudz adreses ir uz neesošām ielām</p>",
+        "id": 318897409,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672600983
+    },
+    {
+        "content": "<p>Nu principā te varētu sekot izmaiņām, tikai vispirms jāizlabo tie 60 tūkstoši esošo \"kļūdu\" <span aria-label=\"smiling face with tear\" class=\"emoji emoji-1f972\" role=\"img\" title=\"smiling face with tear\">:smiling_face_with_tear:</span></p>",
+        "id": 318897524,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672601078
+    },
+    {
+        "content": "<p>Jā, atgrieztie rezultāti abiem rīkiem ļoti līdzīgi. Ļoti daudz \"kļūdu\" ir piešķirtām adresēm vietās, kur ielu vēl nav (un varbūt nekad arī nebūs).</p>",
+        "id": 318897804,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1672601247
+    },
+    {
+        "content": "<p>ĀĀĀ :D<br>\n<a href=\"/user_uploads/49624/GUgzSWUD3s8ju6Mk1q_2zij0/image.png\">Silakrogs</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/GUgzSWUD3s8ju6Mk1q_2zij0/image.png\" title=\"Silakrogs\"><img src=\"/user_uploads/49624/GUgzSWUD3s8ju6Mk1q_2zij0/image.png\"></a></div>",
+        "id": 319093327,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672692538
+    },
+    {
+        "content": "<p>Ja Geogabrik atpazīst <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dproposed\">highway=proposed</a>, tad šim klasterim gan būtu drīz jāpazūd.</p>",
+        "id": 319093411,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672692585
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/360959-adreses/topic/Ielu.20nosaukumu.20mai.C5.86u.20seko.C5.A1ana/near/319093327\">said</a>:</p>\n<blockquote>\n<p>ĀĀĀ :D</p>\n</blockquote>\n<p>Es uz šitu vislaik skatos, bet man bija slinkums zīmēt tur, jo tur nav kadastra līniju.</p>",
+        "id": 319093577,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672692700
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/360959-adreses/topic/Ielu.20nosaukumu.20mai.C5.86u.20seko.C5.A1ana/near/319093411\">said</a>:</p>\n<blockquote>\n<p>Ja Geogabrik atpazīst <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dproposed\">highway=proposed</a>, tad šim klasterim gan būtu drīz jāpazūd.</p>\n</blockquote>\n<p>Geofabrik atpazīst proposed, es daudz proposed/planned esmu sazīmējis ap Rīgu tādās vietās.</p>",
+        "id": 319093603,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672692719
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360959-adreses/topic/Ielu.20nosaukumu.20mai.C5.86u.20seko.C5.A1ana/near/319093577\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/360959-adreses/topic/Ielu.20nosaukumu.20mai.C5.86u.20seko.C5.A1ana/near/319093327\">said</a>:</p>\n<blockquote>\n<p>ĀĀĀ :D</p>\n</blockquote>\n<p>Es uz šitu vislaik skatos, bet man bija slinkums zīmēt tur, jo tur nav kadastra līniju.</p>\n</blockquote>\n<p>Tur bija VZD ceļi - vai biji domājis zemes gabalu robežas?</p>",
+        "id": 319095035,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672693713
+    },
+    {
+        "content": "<p>Tajā reģionā vēl dažus klasterus sazīmēju.<br>\nGan eksitējošas, gan proposed.<br>\nDaudz kur vēl eksistējošām trūkst nosaukumu, jo īpaši kaut kādos semi-dārziņu reģionos.</p>",
+        "id": 319095081,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672693759
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/360959-adreses/topic/Ielu.20nosaukumu.20mai.C5.86u.20seko.C5.A1ana/near/319095035\">said</a>:</p>\n<blockquote>\n<p>Tur bija VZD ceļi - vai biji domājis zemes gabalu robežas?</p>\n</blockquote>\n<p>iD kadastra slānis rāda tikai robežas, jā. Es neesmu skatījiem, kur uzlikt kopā ar ielu slāni vai kā citādi. Ko JOSM lieto?</p>",
+        "id": 319095111,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672693790
+    },
+    {
+        "content": "<p>No LVM WMS izmantoju ceļu un adrešu slāņus.</p>",
+        "id": 319095243,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672693877
+    },
+    {
+        "content": "<p>Kā 2 atsevišķus slāņus?</p>",
+        "id": 319095264,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672693902
+    },
+    {
+        "content": "<p>Vienu, izskatās šādi (tur nezkāpēc grūti salasāmi teksti gan).<br>\n<a href=\"/user_uploads/49624/31WKl1IFT7YftZA3L92pHVdq/image.png\">VZD ceļi/adreses iekš LVM WMS</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/31WKl1IFT7YftZA3L92pHVdq/image.png\" title=\"VZD ceļi/adreses iekš LVM WMS\"><img src=\"/user_uploads/49624/31WKl1IFT7YftZA3L92pHVdq/image.png\"></a></div>",
+        "id": 319097407,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672695378
+    }
+]
