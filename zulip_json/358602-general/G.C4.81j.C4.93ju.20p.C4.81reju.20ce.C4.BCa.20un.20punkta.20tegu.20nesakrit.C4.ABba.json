@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<p>Izparsēju gājēju pāreju tegus lai atrastu nesakrītošas vērtības starp pāreju-ceļu un pāreju-punktu (uz šī ceļa), piemēram \"mismatched values for <code>crossing</code> - <code>marked</code> vs <code>unmarked</code>\" <a href=\"https://osmlatvija.github.io/Osmalyzer/Crossing%20Consistency%20report.html\">https://osmlatvija.github.io/Osmalyzer/Crossing%20Consistency%20report.html</a> Principā visi manuāli jālabo. Lielākā daļa ir no laika pirms standartizētās pāreju tegošanas ieviešanas.</p>",
+        "id": 422799248,
+        "sender_full_name": "HellMap",
+        "timestamp": 1708602260
+    }
+]

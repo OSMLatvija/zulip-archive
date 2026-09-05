@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>Ko jūs darāt ar adrešu punktiem, kur ortofoto nav mājas, ko iezīmēt? Dzēšat ārā vai atstājat? (Domājot baltu \"pin\" ikonu, droši vien, ka integrācija, bet precīzi nezinu). Nav variants, ka nesen kaut kas uzcelts, visticamāk, ka vienkārši adreses punkts.</p>",
+        "id": 325874007,
+        "sender_full_name": "Regita Zeiļa",
+        "timestamp": 1675538829
+    },
+    {
+        "content": "<p>\"Plikās\" adreses vajadzētu vienmēr atstāt. Tādu Latvijā pateicoties oficiālo datu importam ir tūkstošiem. Māja/ēka nav priekšnosacījums adresei, bieži tie ir vienkārši zemes gabali ar piederību, piemēram nākotnes būvniecībai. Latvijā ir veiksmīgi, ka ir brīvi dati, tāpēc <em>visas</em> adreses ir iekļautas, ne tikai tādas, kuras kāds no mājās sienas nolasījis. Pat ja izdzēsti, adrešu <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bots</a> tos nodzēstos vēlāk atjaunos atkal un kļūdas mēģinās izlabot. iD redaktorā tas \"pin\" nozīmē punktu node <img alt=\":node:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40175.png\" title=\"node\">, caur kuru neiet neviena līnija way <img alt=\":way:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40176.png\" title=\"way\">. Visi tādi \"atsevišķi\" punkti tā izskatās - veikali, koki, soliņi, utt. Tikai iD diemžēl adresēm nav ikonas, tāpēc izskatās, kā tukšs.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/c2a6cdcb4e65d97e294cd5413db5db7741dae60f\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f623331306433363934646364343738626234316432646337623633363736343063386666376334633761313731356561333731343739376333393466383163312f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 325874740,
+        "sender_full_name": "HellMap",
+        "timestamp": 1675539331
+    },
+    {
+        "content": "<p>Savukārt, ja māja nav kadastrā, bet ir ortofoto, tad to tik un tā iezīmēt, vai ne?</p>",
+        "id": 325875155,
+        "sender_full_name": "Regita Zeiļa",
+        "timestamp": 1675539655
+    },
+    {
+        "content": "<p>Un, ja adrešu punkta lokācijā iezīmēju māju, tad to punktu kombinēt ar mājas kontūru, vai tā?</p>",
+        "id": 325875216,
+        "sender_full_name": "Regita Zeiļa",
+        "timestamp": 1675539722
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"573577\">Regita Zeiļa</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Adre.C5.A1u.20punkti/near/325875155\">said</a>:</p>\n<blockquote>\n<p>Savukārt, ja māja nav kadastrā, bet ir ortofoto, tad to tik un tā iezīmēt, vai ne?</p>\n</blockquote>\n<p>Jā. Kadastra dati nav precīzi un dažreiz pat nepareizi, tāpēc droši var zīmēt, ja nav pamatotas aizdomas, ka tiešām vairs neeksistē. To dabā neizpētot protams ir grūti noteikt. Vietās, kur daudz kartētāju, iespējams kāds jau ir dabā noskaidrojis. Bet kaut kādos laukos, varbūtība visticamāk, ka vienkārši nav uzzīmēts un kadastrā deklarēts. Protams, visādi šķūņi un piebūves tur katru otro gadu var mainīties un ortofoto noveco (var pārslēgt Bing/Maxar paskatīties, ja kadastrs kaut ko galīgi citu rāda). Te ir tā, ka jāsamierinās ar to, ka kaut kas pa retam būs nepareizi iezīmēts no ortofoto.</p>",
+        "id": 325875629,
+        "sender_full_name": "HellMap",
+        "timestamp": 1675540037
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"573577\">Regita Zeiļa</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Adre.C5.A1u.20punkti/near/325875216\">said</a>:</p>\n<blockquote>\n<p>Un, ja adrešu punkta lokācijā iezīmēju māju, tad to punktu kombinēt ar mājas kontūru, vai tā?</p>\n</blockquote>\n<p>Jā. Te retos izņēmumos ir atkarīgs no tā, kam tā adrese ir piešķirta un kas tās pa mājām kādā izkārtojumā, bet principā jā - parasti māja un adrese ir viens un tas pats prakstisā nozīmē. <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">Bots</a> adreses automātiski savieno ar mājām, uz kurām tas punkts atrodas (arī vēlāk savienos, ja atsevišķi uzlikts - var pat pašam/i nesavienot, ja slinkums). Ir visādi gadījumi, kad dabā adrese un kartē adrese atšķiras - tos mēs it kā cenšamiem ziņot VZD lai labo - <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bots</a> pagaidām nemāk tādus \"izņēmumus\".</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/c2a6cdcb4e65d97e294cd5413db5db7741dae60f\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f623331306433363934646364343738626234316432646337623633363736343063386666376334633761313731356561333731343739376333393466383163312f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 325876101,
+        "sender_full_name": "HellMap",
+        "timestamp": 1675540430
+    },
+    {
+        "content": "<p><a class=\"stream\" data-stream-id=\"360959\" href=\"/#narrow/stream/360959-adreses\">#adreses</a> stream'ā var palasīt vairāk pa šo tēmu.</p>",
+        "id": 325884507,
+        "sender_full_name": "i-ky",
+        "timestamp": 1675547510
+    },
+    {
+        "content": "<p>Arī pirms importa bija tikai adrešu punkti, jo plāksnīte pie zemes gabala sētas vai ēku zem kokiem neredz.<br>\nBet jā, adreses visas atstājam, iezīmējot ēku var apvienot (JOSM - iezīmē punktu un ēku, cmd/ctrl+shift+g).</p>",
+        "id": 325984319,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675614935
+    }
+]

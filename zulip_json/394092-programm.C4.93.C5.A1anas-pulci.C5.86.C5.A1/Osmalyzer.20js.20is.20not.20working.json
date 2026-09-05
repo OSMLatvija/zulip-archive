@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Map on any report is not loading any icons for me. It seems like the problem is in the list of items to show: js doesn't understand item with dot in it. <br>\nIf that is correct assessment, then I think cause is in commit f9b1cab, where extension of the images for icons was moved into values, instead of being appended on the fly.</p>\n<p><a href=\"/user_uploads/49624/w-zvbuceuYSL4RSv6BCm4sY4/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/w-zvbuceuYSL4RSv6BCm4sY4/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/w-zvbuceuYSL4RSv6BCm4sY4/image.png\"></a></div>",
+        "id": 442518028,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1717504089
+    },
+    {
+        "content": "<p>Probably wrapping <code>_ICON_</code> in Osmalyzer\\Reporting\\Report templates\\marker.js with quotes should work, but I'm not very familiar with that part yet to so say for sure if that's a right move.</p>",
+        "id": 442518437,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1717504207
+    },
+    {
+        "content": "<p>Whooops, yeah, it must be the dot, will fix</p>",
+        "id": 442585293,
+        "sender_full_name": "HellMap",
+        "timestamp": 1717522230
+    }
+]

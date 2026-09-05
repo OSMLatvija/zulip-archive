@@ -1,0 +1,128 @@
+[
+    {
+        "content": "<p>A message was moved here from <a class=\"stream-topic\" data-stream-id=\"360538\" href=\"/#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/AI\">#iesācēju jautājumi &gt; AI</a> by <span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span>.</p>",
+        "id": 346154501,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1680345247
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Key:operator\">https://wiki.openstreetmap.org/wiki/Key:operator</a></p>",
+        "id": 346154946,
+        "sender_full_name": "Colby",
+        "timestamp": 1680345377
+    },
+    {
+        "content": "<p>Teorētiski officiālo nosaukumu kā \"SIA __\" / \"PII __\" utt. liek <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aofficial_name\">official_name=*</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aname\">name=*</a> vienkārši \"___\", bet praksē ļoti bieži tiek likts gan pa taisno <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aname\">name=*</a> gan daudz kur nepareizi kā <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aoperator\">operator=*</a></p>",
+        "id": 346155103,
+        "sender_full_name": "HellMap",
+        "timestamp": 1680345432
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aoperator\">operator=*</a> ir tāds... interesants tegs. Teorētiski, tas nav vispār jānorāda ja operator sakrīt ar name, piemēram kafejnīcas \"Tējas nams\" operators ir \"Tējas nams\" - to norādīt nav īsti jēgas. To drīzāk norāda stāvvietai blakus kafejnīcai - lai ir skaidrs, ka tā nav pašvaldības vai kā tā. Un ja operator tiek lietots, teorētiski jau norāda to pēc tāda paša principa kā <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aname\">name=*</a>, t.i. nevis \"SIA Tējas nams\" bet \"Tējas nams\". Vai piemēram LVM ceļiem operator pareizi salikts kā \"Latvijas valsts meži\" nevis \"AS “Latvijas valsts meži”\"</p>",
+        "id": 346156279,
+        "sender_full_name": "HellMap",
+        "timestamp": 1680345773
+    },
+    {
+        "content": "<p>Mums gan populāri salikts piemēram <code>name=PII \"Annele\"</code> vai <code>name=Privātā pirmsskolas izglītības iestāde “Pūcīte”</code>, bet gandrīz nav piemēram <code>name=Viršu dārzs</code> + <code>official_name=PII \"Viršu dārzs\"</code>. Ir arī piemēri <code>name = Knābis</code>+ <code>operator = SIA \"Mazo bērnu skola Knābis\"</code> Nezinu vai kaut kad apspriests vai vienkārši nav vēl bijis laika to nosaukumu \"vienkāršot\".</p>",
+        "id": 346158471,
+        "sender_full_name": "HellMap",
+        "timestamp": 1680346450
+    },
+    {
+        "content": "<p>Es pat nez, vai LVM bez AS ir tik pareizi.<br>\nMan tomēr šķiet, ka operator norādīt arī kā \"SIA Nosaukums\" ir vērts, jo citādāk ticamāk, ka tā info nav kartēta nemaz.</p>",
+        "id": 346227539,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1680368151
+    },
+    {
+        "content": "<p>Pareizi ir primary common name, kādu cilvēks gaida karti skatoties. \"Elvi\" nevis \"SIA VITA mārkets\". Ja vajag oficiālo nosaukumu, tad vajag arī atsevišķu tegu. Un <code>operator</code> nozīme ir aprakstīta wiki. Bet nu, kā jau saku, pie mums operatorā salikti uzņēmumu nosaukumi, un neviens nelabo, jo visi tā liek <span aria-label=\"man shrugging\" class=\"emoji emoji-1f937-200d-2642\" role=\"img\" title=\"man shrugging\">:man_shrugging:</span></p>",
+        "id": 346231804,
+        "sender_full_name": "HellMap",
+        "timestamp": 1680369981
+    },
+    {
+        "content": "<p>Elvi ir franšīze, un Vita markets ir operators tikai daļai šo veikalu.</p>",
+        "id": 346252520,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1680381950
+    },
+    {
+        "content": "<p>It kā viss izskatās saskaņā ar <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aoperator#Examples\">https://wiki.openstreetmap.org/wiki/Key%3Aoperator#Examples</a> .</p>",
+        "id": 346252706,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1680382052
+    },
+    {
+        "content": "<p>Bet varbūt mēs par dažādām lietām runājam - piem., ir daži Elvi kartē, kuriem \"operator\" ir \"Elvi\".<br>\nTas gan ir nepareizi.</p>\n<div class=\"codehilite\" data-code-language=\"overpass\"><pre><span></span><code>[out:json][timeout:25];\n{{geocodeArea:latvia}}-&gt;.searchArea;\n(\n  node[\"name\"=\"Elvi\"][\"operator\"](area.searchArea);\n  way[\"name\"=\"Elvi\"][\"operator\"](area.searchArea);\n  relation[\"name\"=\"Elvi\"][\"operator\"](area.searchArea);\n);\nout body;\n&gt;;\nout skel qt;\n</code></pre></div>",
+        "id": 346252924,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1680382187
+    },
+    {
+        "content": "<p>Pirmā daļa bija par <code>name</code> nevis <code>operator</code>.</p>",
+        "id": 346252981,
+        "sender_full_name": "HellMap",
+        "timestamp": 1680382206
+    },
+    {
+        "content": "<p>Un arī ja būtu par <code>operator</code>, tad arī wiki piemērs ir \"Le Méridien\" nevis \"Le Meridien Hotels and Resorts Ltd\" vai kas tur viņiem ir</p>",
+        "id": 346253075,
+        "sender_full_name": "HellMap",
+        "timestamp": 1680382287
+    },
+    {
+        "content": "<p>No pirmā piemēra:<br>\n\"<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aoperator%3DSome\">operator=Some</a> company (The company operating the restaurant. Usually visible on bills)\"<br>\nLatvijā uzņēmumu nosaukumiem parasti liek klāt uzņēmuma tipu.<br>\nCita lieta, ka nav vienota standarta, un UR reģistrē visu pēc kārtas... Vai tik <span class=\"user-mention\" data-user-id=\"584004\">@Peteris Bruns</span> par to neizteicās, ja nejaucu.<br>\nKaut kad sen par šo runājām OSM sakarā, ka derētu tomēr viens standarts, kā rakstīt. Tad, piemēram, 'SIA \"Nosaukums\"' šķiet viens no vissakarīgākajiem.</p>",
+        "id": 346253483,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1680382563
+    },
+    {
+        "content": "<p><code>operator</code> nav objekta uzņēmuma nosaukums, <code>operator</code> ir konkrētā objekts pārvaldītājs, kas var būt tas pats, cits, vai vispār neviens. <code>name</code> un <code>operator</code> nav saistīti. Tie var norādīt uz identisku subjektu, bet tik pat labi var norādīt dažādus.</p>\n<p>Ja jūs piedāvājat likt <code>name</code> laukā nosaukumu bez \"SIA\" un <code>operator</code> laukā ar \"SIA\", tad tas ir cits jautājums. Bet tie nav savā starpā saistīti tegi. Un pilnīgi noteikti nevar tā vispārīgi pateikt, ka \"SIA nosaukumu liek <code>operator</code>\". Tas tikai nozīmē, ka pierasts lietot nepareizi.</p>",
+        "id": 346255259,
+        "sender_full_name": "HellMap",
+        "timestamp": 1680383775
+    },
+    {
+        "content": "<p>Kāds būtu piemērs, kad nav operator nemaz?</p>",
+        "id": 346409617,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1680466614
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Uz.C5.86.C4.93muma.20nosaukuma.20tegi/near/346409617\">said</a>:</p>\n<blockquote>\n<p>Kāds būtu piemērs, kad nav operator nemaz?</p>\n</blockquote>\n<p>Tas kaut kā ļoti vispārīgs jautājums. Taka meža vidū?</p>",
+        "id": 346410919,
+        "sender_full_name": "HellMap",
+        "timestamp": 1680467405
+    },
+    {
+        "content": "<p>Jā, jāprecizē :)<br>\nObjektiem, kuriem tagad pielikts operator - vai no tiem ir kāds, par kuru šķiet - nav nemaz?</p>",
+        "id": 346411164,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1680467580
+    },
+    {
+        "content": "<p>Nu teorētiski visam, kas nav meža vidū, ir operators. Es neesmu gluži redzējis piemērus, kur ielikts operator, kura nav jābūt. Kartētājs jau nebūtu to licis bez jēgas vai tīri izdomāti. Es varu jau pameklēt, gan jau viss kas atradīsies, bet tikai kam tieši tas piemērs?</p>",
+        "id": 346411662,
+        "sender_full_name": "HellMap",
+        "timestamp": 1680467935
+    },
+    {
+        "content": "<p><a href=\"https://www.openstreetmap.org/way/848397946\">https://www.openstreetmap.org/way/848397946</a> <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/848397946\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/848397946\" title=\"Way: 848397946 | OpenStreetMap\">Way: 848397946 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 346411860,
+        "sender_full_name": "HellMap",
+        "timestamp": 1680468068
+    },
+    {
+        "content": "<p>Par piedāvājumiem - name liekam tikai to, kas ir īsts nosaukums.<br>\n\"operator\" būtu tas, kas nu menedžē to vietu - varbūt Elvi franšīzes ņēmējs, vai kāds mazais uzņēmums utt.<br>\nVar arī būt situācijas, kad name nav, bet ir tikai operator - piem., mazie lauku veikaliņi,</p>",
+        "id": 346417531,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1680472386
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Uz.C5.86.C4.93muma.20nosaukuma.20tegi/near/346411860\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://www.openstreetmap.org/way/848397946\">https://www.openstreetmap.org/way/848397946</a> <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>\n</blockquote>\n<p>Jā, šis ir gļuks un raujams nost :)</p>",
+        "id": 346417622,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1680472467
+    }
+]

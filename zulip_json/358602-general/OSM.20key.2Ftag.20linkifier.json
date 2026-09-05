@@ -1,0 +1,68 @@
+[
+    {
+        "content": "<p>Es arī par to sapņoju... :D<br>\nVar uztaisīt, lai visa <code>key=tag</code> kombinācija ved uz <code>Tag:key%3Dtag</code> lapu, bet tā, kā OSM Wiki taisa divus linkus (arī uz <code>Key%3Akey</code>) laikam neizdosies tehnisku iemeslu dēļ.</p>",
+        "id": 316968646,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671548012
+    },
+    {
+        "content": "<p>Test <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dcycleway\">highway=cycleway</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Ddesignated\">bicycle=designated</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afoot%3Dno\">foot=no</a></p>",
+        "id": 316971619,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671548789
+    },
+    {
+        "content": "<p>Fail - sidewalk:<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aleft%3Dyes\">left=yes</a></p>",
+        "id": 316971892,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671548869
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/OSM.20key.2Ftag.20linkifier/near/316971892\">said</a>:</p>\n<blockquote>\n<p>Fail - <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk:left%3Dyes\">sidewalk:left=yes</a></p>\n</blockquote>\n<p>Vēlreiz...</p>",
+        "id": 316972048,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671548910
+    },
+    {
+        "content": "<p>access=*</p>",
+        "id": 316972528,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671549059
+    },
+    {
+        "content": "<p>Bet nu tādu pa taisno arī neaizlinkot, tikai ja izdala access ārā</p>",
+        "id": 316972645,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671549089
+    },
+    {
+        "content": "<p><code>maxspeed:conditional=110 @ (May 1-Oct 1)</code></p>",
+        "id": 316972713,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671549107
+    },
+    {
+        "content": "<p><code>highway=footway</code></p>",
+        "id": 316972782,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671549123
+    },
+    {
+        "content": "<p>Koda blokos linkus nevar?</p>",
+        "id": 316972889,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671549147
+    },
+    {
+        "content": "<p>Jā, koda blokos viss ir \"as is\".</p>",
+        "id": 316973076,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671549200
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/OSM.20key.2Ftag.20linkifier/near/316972645\">said</a>:</p>\n<blockquote>\n<p>Bet nu tādu pa taisno arī neaizlinkot, tikai ja izdala access ārā</p>\n</blockquote>\n<p>Ja ir interese paspēlēties, <a href=\"https://zulip.com/help/add-a-custom-linkifier\">šeit</a> ir aprakstīts, kā tas ir konfigurējams. Pēc būtības, vajag <a href=\"https://github.com/google/re2/wiki/Syntax\"><code>re2</code></a> regulāro izteiksmi.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://zulip.com/help/add-a-custom-linkifier\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/df83b8ca6f665e54aab5f8f261d9ceb696f2f5c3\\/68747470733a2f2f7a756c6970636861742e636f6d2f7374617469632f696d616765732f6c6f676f2f7a756c69702d69636f6e2d313238783132382e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://zulip.com/help/add-a-custom-linkifier\" title=\"Add a custom linkifier | Zulip help center\">Add a custom linkifier | Zulip help center</a></div><div class=\"message_embed_description\">Linkifiers make it easy to refer to issues or tickets in third party issue trackers, like GitHub, Salesforce, Zendesk, and others. For instance, you can add a linkifier that automatically turns #2468 into a link to https://github.com/zulip/zulip/issues/2468. | If the pattern appears in a message topic, Zulip adds a little button to the right of the topic that links to the appropriate URL. | This is best explained by example. | Hash followed by a number of any length. | String of hexadecimal digits between 7 and 40 characters long.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/google/re2/wiki/Syntax\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/f284369b51681bf24228d8dfac358698bbacd48c\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f383430333031656564313439386130653262623831646262623465356263343634323062383332643932393031386334373230646365373939346565386430302f676f6f676c652f726532)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/google/re2/wiki/Syntax\" title=\"Syntax · google/re2 Wiki\">Syntax · google/re2 Wiki</a></div><div class=\"message_embed_description\">RE2 is a fast, safe, thread-friendly alternative to backtracking regular expression engines like those used in PCRE, Perl, and Python. It is a C++ library. - Syntax · google/re2 Wiki</div></div></div>",
+        "id": 316973552,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671549329
+    }
+]

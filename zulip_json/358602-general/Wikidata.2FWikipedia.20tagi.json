@@ -1,0 +1,164 @@
+[
+    {
+        "content": "<p>Tagad Latvijā visas atrastās Wikidata/Wikipedia tagu problēmas atrisinātas.<br>\nIzskatās, ka vismaz <span class=\"user-mention\" data-user-id=\"571825\">@HellMap</span> arī šos laboja :)<br>\n<a href=\"https://matkoniecz.github.io/OSM-wikipedia-tag-validator-reports/Latvija%20(Latvia,%20%C5%81otwa).html\">https://matkoniecz.github.io/OSM-wikipedia-tag-validator-reports/Latvija%20(Latvia,%20%C5%81otwa).html</a></p>\n<p>Daudziem objektiem vēl trūkst, bet vismaz esošie tagi tagad visi labi.</p>",
+        "id": 319098469,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672696216
+    },
+    {
+        "content": "<p>LVM ceļu importa wiki tagi<br>\n<a href=\"/user_uploads/49624/Aoz86xvhe3QRElWG8l8vojRG/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/Aoz86xvhe3QRElWG8l8vojRG/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/Aoz86xvhe3QRElWG8l8vojRG/image.png\"></a></div>",
+        "id": 319280330,
+        "sender_full_name": "Colby",
+        "timestamp": 1672780048
+    },
+    {
+        "content": "<p>Varētu autoram vēl paparasīt vai var kā kļūdu, ja ir norādīta Vikipēdijas lapa ne latviešu valodā, bet tāda eksistē. <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Awikipedia\">wikipedia=*</a> - \"Only provide, in normal circumstances, a link to a <strong>single</strong> Wikipedia article, which should be to the article in the <strong>primary (local) language</strong> for the subject.\" Piemēram, kāpēc Ogrei links uz angļu WP - <a href=\"https://www.openstreetmap.org/node/29532673\">https://www.openstreetmap.org/node/29532673</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/29532673\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/29532673\" title=\"Node: ‪Ogre‬ (‪29532673‬) | OpenStreetMap\">Node: ‪Ogre‬ (‪29532673‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 319372147,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672832893
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Wikidata.2FWikipedia.20tagi/near/319372147\">said</a>:</p>\n<blockquote>\n<p>Varētu autoram vēl paparasīt vai var kā kļūdu, ja ir norādīta Vikipēdijas lapa ne latviešu valodā, bet tāda eksistē. <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Awikipedia\">wikipedia=*</a> - \"Only provide, in normal circumstances, a link to a <strong>single</strong> Wikipedia article, which should be to the article in the <strong>primary (local) language</strong> for the subject.\" Piemēram, kāpēc Ogrei links uz angļu WP - <a href=\"https://www.openstreetmap.org/node/29532673\">https://www.openstreetmap.org/node/29532673</a></p>\n</blockquote>\n<p><a href=\"https://github.com/matkoniecz/OSM-wikipedia-tag-validator/issues/new\">https://github.com/matkoniecz/OSM-wikipedia-tag-validator/issues/new</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/matkoniecz/OSM-wikipedia-tag-validator/issues/new\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/b5e10a0f83e419d2648838c8ed717ecc6c676daf\\/68747470733a2f2f6769746875622e6769746875626173736574732e636f6d2f696d616765732f6d6f64756c65732f6f70656e5f67726170682f6769746875622d6f63746f6361742e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/matkoniecz/OSM-wikipedia-tag-validator/issues/new\" title=\"Build software better, together\">Build software better, together</a></div><div class=\"message_embed_description\">GitHub is where people build software. More than 94 million people use GitHub to discover, fork, and contribute to over 330 million projects.</div></div></div>",
+        "id": 319372790,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672833129
+    },
+    {
+        "content": "<p>Jā, es lai neaizmirstu to pierakstīju. May be later ;)</p>",
+        "id": 319372888,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672833174
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/358602-general/topic/Wikidata.2FWikipedia.20tagi/near/319280330\">said</a>:</p>\n<blockquote>\n<p>LVM ceļu importa wiki tagi<br>\n<a href=\"/user_uploads/49624/Aoz86xvhe3QRElWG8l8vojRG/image.png\">image.png</a></p>\n</blockquote>\n<p>Tiem ceļiem ir wiki lapas?</p>",
+        "id": 319650109,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672944601
+    },
+    {
+        "content": "<p>Today I was editing <a href=\"https://osm.org/edit?way=29974645\">this street</a>, and after I added a <code>wikidata</code> (with a dropdown, not manually) <code>wikipedia</code> was also added. I've never seen this before (at least hasn't noticed), but this was not the problem.<br>\nProblem is that wikipedia link was to ru wikipedia. Does anybody know why that is?<br>\nWikidata entry has two pages linked: lv and ru. I don't see any prioritization for those.<br>\nI checked a couple times: cleared wikipedia and wikidata (trash bin icon in editor, not manually) and selected wikidata entry again. And it selected same ru page again. </p>\n<p>I'd expect iD to select default language of the country. Can somebody check if they got the same?</p>\n<p>In theory lang preferences might play a role here, but I changed them (and refreshed everything with ctrl-F5) and no effect.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://osm.org/edit?way=29974645\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://osm.org/edit?way=29974645\" title=\"OpenStreetMap\">OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 443251332,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1717752033
+    },
+    {
+        "content": "<p>I have never seen this behaviour in iD (adding wikidata adds wikipedia) and I cannot reproduce it from any combination of original tags. You already changed the element's tags, so I cannot really check with exact original tags.</p>",
+        "id": 443258595,
+        "sender_full_name": "HellMap",
+        "timestamp": 1717754387
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Wikidata.2FWikipedia.20tagi/near/443258595\">said</a>:</p>\n<blockquote>\n<p>I have never seen this behaviour in iD (adding wikidata adds wikipedia) and I cannot reproduce it from any combination of original tags. You already changed the element's tags, so I cannot really check with exact original tags.</p>\n</blockquote>\n<p>As far as I can remember, there was neither wikidata, nor wikipedia tag on that street before. </p>\n<p>Regarding testing: if I delete both of them and re-add wikidata (without saving) it adds ru link.</p>",
+        "id": 443259963,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1717754764
+    },
+    {
+        "content": "<p>Can you repeat that?</p>",
+        "id": 443261330,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1717755080
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"715892\">markalex2209</span> <a href=\"#narrow/stream/358602-general/topic/Wikidata.2FWikipedia.20tagi/near/443261330\">said</a>:</p>\n<blockquote>\n<p>Can you repeat that?</p>\n</blockquote>\n<p>I cannot. I am in en locale. What locale are you in?</p>",
+        "id": 443262398,
+        "sender_full_name": "HellMap",
+        "timestamp": 1717755431
+    },
+    {
+        "content": "<p>Browser might affect this as well.<br>\nWorth trying:</p>\n<ul>\n<li>Try from a private window.</li>\n<li>Clear all <a href=\"http://openstreetmap.org\">openstreetmap.org</a> cookies.</li>\n<li>Restart the browser.</li>\n<li>Test with another browser.</li>\n</ul>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"http://openstreetmap.org\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"http://openstreetmap.org\" title=\"OpenStreetMap\">OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 443264091,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1717756074
+    },
+    {
+        "content": "<p>My preferred languages in the Account &gt; Preferences: <code>en-GB en ru lv</code>. Tried also changing to <code>en-GB en lv ru</code></p>",
+        "id": 443265482,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1717756538
+    },
+    {
+        "content": "<p>Same in private window and in a different browser.</p>",
+        "id": 443265815,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1717756666
+    },
+    {
+        "content": "<p>Preferred languages in browser: en-gb, en, ru.</p>",
+        "id": 443266263,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1717756808
+    },
+    {
+        "content": "<p>Yep, languages of browser (preferred language for displaying pages) were at play: after adding lv and putting it higher, automatic selection of the wiki page started using lv version.</p>",
+        "id": 443267105,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1717757029
+    },
+    {
+        "content": "<p>While I was at it, noticed that a couple more objects have link to ru wikipedia instead of lv one, possibly for same reason. Will edit them.<br>\nAlso will go through objects that have <code>wikipedia:xx</code> tags - seems unnecessary. </p>\n<p>One question: what is a policy for using wikipedia tag on the transborder objects, like rivers? Since there is no single \"language of the area\", should there be two lang-specific wikipedia tags and no default<code>wikipedia</code>? Or should such objects be split at the border?</p>",
+        "id": 443270485,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1717757796
+    },
+    {
+        "content": "<p>Example: <a href=\"https://www.openstreetmap.org/relation/8534004\">https://www.openstreetmap.org/relation/8534004</a><br>\nAs a bonus it stretches over 3 countries.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/relation/8534004\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/relation/8534004\" title=\"Relation: ‪Zilupe / Сінюха / Синяя‬ (‪8534004‬) | OpenStreetMap\">Relation: ‪Zilupe / Сінюха / Синяя‬ (‪8534004‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 443270893,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1717757881
+    },
+    {
+        "content": "<p>Firstly, I've personally never really looked into more details for this, so this is just from what I have seen before. As you say, I would probably put multiple wikipedia:xx and no default value for relation object like this. May be if there was a clear one, but here it's kind of split among multiple and \"default\" is not really useful. You should not split relations, it should cover the whole object (unless it's some meta-relation, but I am not sure rivers do that). After all, rivers don't care about country borders and it's the same object on the ground. It is weird though, I never really thought about how the same object gains different \"properties\" based on its location. But I guess that's why there are locale-specific values on individual ways like <a href=\"https://www.openstreetmap.org/way/228504519\">https://www.openstreetmap.org/way/228504519</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/228504519\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/228504519\" title=\"Way: ‪Zilupe‬ (‪228504519‬) | OpenStreetMap\">Way: ‪Zilupe‬ (‪228504519‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 443274586,
+        "sender_full_name": "HellMap",
+        "timestamp": 1717758490
+    },
+    {
+        "content": "<p>Ah, right, missed the meaning of Relation here. <br>\nThanks for explanation, will retag accordingly.</p>",
+        "id": 443276466,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1717759078
+    },
+    {
+        "content": "<p><code>wikipedia:xx</code> was the old syntax, manually fixing those would be great.</p>",
+        "id": 443294641,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1717765530
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Wikidata.2FWikipedia.20tagi/near/443294641\">said</a>:</p>\n<blockquote>\n<p><code>wikipedia:xx</code> was the old syntax, manually fixing those would be great.</p>\n</blockquote>\n<p>What do you mean old? As I understand it is still acceptable, as in described cases of trans-border objects.<br>\nI mean I will delete <code>wikipedia:xx</code> only for objects that are solely inside Latvia. For those crossing border I'll probably add them, if missing.</p>",
+        "id": 443296455,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1717766203
+    },
+    {
+        "content": "<p>Splitting also won't work for objects like rivers that determine (or used to determine...) the border.</p>\n<p>Hah, looks like <code>:xx</code> syntax has been retained for secondary languages. Also from <a href=\"https://wiki.openstreetmap.org/wiki/Key:wikipedia\">https://wiki.openstreetmap.org/wiki/Key:wikipedia</a> :</p>\n<blockquote>\n<p>In the past, the name of the attribute was put after the key (e.g. wikipedia:operator), but this was deprecated because it creates a conflict with the way <a href=\"https://wiki.openstreetmap.org/wiki/Key:wikipedia#Secondary_languages\">secondary languages</a> are linked.</p>\n</blockquote>\n<p>Whether here any language can be classified as a secondary is doubtful, but just skipping the \"primary\" might work.</p>",
+        "id": 443299086,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1717767063
+    },
+    {
+        "content": "<p>From what I remember, the problem with <code>wikipedia:xx</code> was that people would have to use <code>wikipedia:lv=whatever</code> for explicit default language and consumer apps would have to know about each language code AND the current region and its languages to actually suggest the link. So it got swapped to just <code>wikipedia=xx:whatver</code> so consumer can instantly know what the best link is. But that didn't mean other languages are not accepted, just that they aren't default/best case.</p>",
+        "id": 443299526,
+        "sender_full_name": "HellMap",
+        "timestamp": 1717767212
+    },
+    {
+        "content": "<p>I added <code>wikipedia</code> tag to all those object that had <code>wikipedia:lv</code> or <code>wikipedia:ru</code>, and remove those from elements (except for one on border where I left <code>wikipedia:lv</code> in addition to <code>wikipedia</code>). At least to those that left: I feel like somebody has also done same, as I think number ob objects for edit decrease since last time I looked.<br>\nAlso, updated a couple items that had wikipedia linked to ru articles. A couple still left, where no lv pages exist.</p>\n<p>What I haven't done: there is like 17 items having both <code>wikipedia</code> and <code>wikepedia:xx</code> (mainly <code>en</code>). Doubt that they do something, but since I don't have a clear reason, didn't touch them.</p>",
+        "id": 443510158,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1717872494
+    },
+    {
+        "content": "<p>Additionally, I noticed that there are <em>a lot</em> of item currently linking to en wikipedia. Since there are really a lot of them, (and the fact that OrganicMap doesn't care for original's link lang and shows excerpt in a preferred one), I don't plan to do anything. But AFAIK, this is against declared use of tag.</p>",
+        "id": 443510707,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1717872699
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"715892\">markalex2209</span> <a href=\"#narrow/stream/358602-general/topic/Wikidata.2FWikipedia.20tagi/near/443510707\">said</a>:</p>\n<blockquote>\n<p>Additionally, I noticed that there are <em>a lot</em> of item currently linking to en wikipedia. Since there are really a lot of them, (and the fact that OrganicMap doesn't care for original's link lang and shows excerpt in a preferred one), I don't plan to do anything. But AFAIK, this is against declared use of tag.</p>\n</blockquote>\n<p>Could be historic, could be editors being a bit careless.<br>\nLong term definitely worth improving.</p>",
+        "id": 443523146,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1717881019
+    }
+]

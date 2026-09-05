@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>Ierakstījos beidzot imports meiling listē, rezultātā pēc <a href=\"https://lists.openstreetmap.org/pipermail/imports/2023-January/007122.html\">komentāra</a> nomainīju ciemiem <a href=\"https://wiki.openstreetmap.org/wiki/Key:addr:place\">addr:place</a> uz <a href=\"https://wiki.openstreetmap.org/wiki/Key:addr:city\">addr:city</a>. Lai arī taga nosaukums var šķirst maldinošs lietošanai ciemiem, apraksts atbilst, jo ietver jebkādu apdzīvotu vietu (\"the name of the largest settlement (city / town / other) that is included in the address\"), līdz ar to lāgā nebija, ar ko pretargumentēt. Addr:village pat wiki lapas nav un lietots daudz mazāk. Arīdzan lietot vienu un to pašu tagu visiem apdzīvoto vietu veidiem šķiet loģiski.</p>",
+        "id": 318990690,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1672665478
+    },
+    {
+        "content": "<p>Super, liels paldies.<br>\nJa jau Nominatim maintainere tā saka, ta jau būs jātic :)</p>",
+        "id": 319090401,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672690565
+    }
+]

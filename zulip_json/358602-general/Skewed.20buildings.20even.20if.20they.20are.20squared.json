@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>I would like to know why buildings appear slightly not square when zoomed in even if they are squared using josm Q tool. It appears slightly unsquare on all popular osm apps like comaps, osmand for example.</p>",
+        "id": 620434142,
+        "sender_full_name": "Rinalds L.",
+        "timestamp": 1788207004
+    },
+    {
+        "content": "<p>And it only happens on buildings with narrow stuff. A simple rectangle is fine</p>",
+        "id": 620434493,
+        "sender_full_name": "Rinalds L.",
+        "timestamp": 1788207091
+    },
+    {
+        "content": "<p>I'm not sure I get what you are saying. I checked some random building in CoMaps, and it looks rectangular enough to my eye.<br>\nCan you show an example, maybe with screenshots?<br>\nHow did you check \"rectangularity\" in app?</p>",
+        "id": 620451352,
+        "sender_full_name": "markalex",
+        "timestamp": 1788211120
+    },
+    {
+        "content": "<p>Even  in riga. I always see something like this on buildings, slightly skewed<a href=\"/user_uploads/49624/yXKMFYx4Zgxt6WT0olh-hUmK/1000049879.png\">1000049879.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/yXKMFYx4Zgxt6WT0olh-hUmK/1000049879.png\" title=\"1000049879.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"1440x3120\" src=\"/user_uploads/thumbnail/49624/yXKMFYx4Zgxt6WT0olh-hUmK/1000049879.png/840x560.webp\"></a></div>",
+        "id": 620524915,
+        "sender_full_name": "Rinalds L.",
+        "timestamp": 1788237288
+    },
+    {
+        "content": "<p>I am not sure is that a projection issue or app render issue because if you would look at it in an editor for example it would not be skewed</p>",
+        "id": 620525963,
+        "sender_full_name": "Rinalds L.",
+        "timestamp": 1788237683
+    },
+    {
+        "content": "<p>I mean specifically Purvīša 15 is not squared. Inset cornet is not parallel to other walls, and whole shape is not squared.</p>",
+        "id": 620527331,
+        "sender_full_name": "markalex",
+        "timestamp": 1788238124
+    },
+    {
+        "content": "<p>Hm alright, maybe it just is actually unsquare buildings</p>",
+        "id": 620527742,
+        "sender_full_name": "Rinalds L.",
+        "timestamp": 1788238269
+    },
+    {
+        "content": "<p>osmand doesnt store coordinates as precise as carto<br>\nwith pre-rendered raster tiles it doesnt matter but when doing vector tiles you have to make some compromises to have good performance<br>\nshortbread and maptiler omt on the OSM website have the same issue<br>\n<a href=\"https://xkcd.com/2170/\">https://xkcd.com/2170/</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://xkcd.com/2170/\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/b21fdf4223547bbece0a6f7f5b1b4694f52c1be0/68747470733a2f2f696d67732e786b63642e636f6d2f636f6d6963732f636f6f7264696e6174655f707265636973696f6e5f32782e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://xkcd.com/2170/\" title=\"Coordinate Precision\">Coordinate Precision</a></div><div class=\"message_embed_description\">\nThis work is licensed under a\nCreative Commons Attribution-NonCommercial 2.5 License.\n</div></div></div>",
+        "id": 620547787,
+        "sender_full_name": "Colby",
+        "timestamp": 1788244709
+    },
+    {
+        "content": "<p>Ohhh yep, thanks for explaining!</p>",
+        "id": 620548112,
+        "sender_full_name": "Rinalds L.",
+        "timestamp": 1788244808
+    },
+    {
+        "content": "<p>Not just coordinate precision, some maps simplify the polygons by removing nodes. This can be easily  observed on openstreetmap website by switching between standard tileset and shortbread. Usually not a problem but unlucky node removal can sometimes cause visible distortions for shapes that don't have too many corners or when other nearby shapes serve as reference . </p>\n<p><img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"1111x870\" data-original-src=\"/user_uploads/49624/T2avPocaRl5bOu2Ytec9p4hG/image.png\" src=\"/user_uploads/thumbnail/49624/T2avPocaRl5bOu2Ytec9p4hG/image.png/840x560.webp\"><br>\n<img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"1111x870\" data-original-src=\"/user_uploads/49624/VNJT3IN_Ja184xlgO1hPes4X/image.png\" src=\"/user_uploads/thumbnail/49624/VNJT3IN_Ja184xlgO1hPes4X/image.png/840x560.webp\"></p>",
+        "id": 620580960,
+        "sender_full_name": "kaposts",
+        "timestamp": 1788252340
+    }
+]
