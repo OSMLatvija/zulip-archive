@@ -1,0 +1,110 @@
+[
+    {
+        "content": "<p>As I understand, school stadiums in Rīga (or at least reconstructed ones?) allow public use.<br>\nUsually, they have an infoboards at the gates, stating times when stadium open for public.<br>\nExamples <a href=\"https://streetcomplete.app/p/264708.jpg\">here</a> and <a href=\"/user_uploads/49624/hqZ69tFKH6ZGPElv6YueuDcy/20260308_152454_preview.jpeg\">here</a><br>\nIt's easy in case if stadium is standalone, like in case of <a href=\"https://www.openstreetmap.org/way/1090616108\">https://www.openstreetmap.org/way/1090616108</a>, but what to do with those embedded in the school grounds like <a href=\"https://www.openstreetmap.org/way/152292376\">this</a> or <a href=\"https://www.openstreetmap.org/relation/12706152\">this</a>?<br>\nShould whole school ground be tagged with opening_hours and access? Or gates? Or something else?</p>\n<div class=\"message_inline_image\"><a href=\"https://streetcomplete.app/p/264708.jpg\" title=\"here\"><img src=\"https://uploads.zulipusercontent.net/a59e5cbf9e61afb7b2e8582995d5938696912a9d/68747470733a2f2f737472656574636f6d706c6574652e6170702f702f3236343730382e6a7067\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/hqZ69tFKH6ZGPElv6YueuDcy/20260308_152454_preview.jpeg\" title=\"here\"><img data-original-content-type=\"image/jpeg\" data-original-dimensions=\"1920x1440\" src=\"/user_uploads/thumbnail/49624/hqZ69tFKH6ZGPElv6YueuDcy/20260308_152454_preview.jpeg/840x560.webp\"></a></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/1090616108\" style='background-image: url(\"https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67\")'></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/1090616108\" title=\"Way: ‪Centra sporta kvartāls‬ (‪1090616108‬)\">Way: ‪Centra sporta kvartāls‬ (‪1090616108‬)</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/152292376\" style='background-image: url(\"https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67\")'></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/152292376\" title=\"Way: ‪Rīgas Dārzciema vidusskola‬ (‪152292376‬)\">Way: ‪Rīgas Dārzciema vidusskola‬ (‪152292376‬)</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/relation/12706152\" style='background-image: url(\"https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67\")'></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/relation/12706152\" title=\"Relation: ‪Rīgas Angļu ģimnāzija‬ (‪12706152‬)\">Relation: ‪Rīgas Angļu ģimnāzija‬ (‪12706152‬)</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 579467386,
+        "sender_full_name": "markalex",
+        "timestamp": 1773519020
+    },
+    {
+        "content": "<p>Yeah, this is something I saw too that has \"appeared\" in last 5-10 years and I haven't really figured out how to tag it. Whole school grounds should probably not be tagged. In fact, this should probably be a separate area within the school grounds as <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aleisure%3Dsports_centre\">leisure=sports_centre</a> and tags go onto that plus whatever ways are needed to access it (other ways being private in schoolyards by default).</p>",
+        "id": 579468195,
+        "sender_full_name": "HellMap",
+        "timestamp": 1773519922
+    },
+    {
+        "content": "<p>This makes sense, but taking Dārzciema vidusskolu as an example: they have infoboards with working hours at both entrances from Sesku.<br>\nAnd entrance near <a href=\"https://www.openstreetmap.org/node/13531587990\">https://www.openstreetmap.org/node/13531587990</a> is way to far from stadium part to consider it part of this whole system, but it has infoboard too.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/13531587990\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/13531587990\" title=\"Node: 13531587990\">Node: 13531587990</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 579468559,
+        "sender_full_name": "markalex",
+        "timestamp": 1773520268
+    },
+    {
+        "content": "<p>It's probably going to have to be something like <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aaccess%3Dpermissive\">access=permissive</a></p>",
+        "id": 579468682,
+        "sender_full_name": "HellMap",
+        "timestamp": 1773520397
+    },
+    {
+        "content": "<p>For whole school grounds?</p>",
+        "id": 579468784,
+        "sender_full_name": "markalex",
+        "timestamp": 1773520530
+    },
+    {
+        "content": "<p>No, I mean for the footways intended to access the sports complex during public hours.</p>",
+        "id": 579468797,
+        "sender_full_name": "HellMap",
+        "timestamp": 1773520552
+    },
+    {
+        "content": "<p>Sure. But this minor concern)</p>",
+        "id": 579468950,
+        "sender_full_name": "markalex",
+        "timestamp": 1773520748
+    },
+    {
+        "content": "<p>I'm just not very happy with yet another seemingly randomly defined object to be drawn.</p>",
+        "id": 579468992,
+        "sender_full_name": "markalex",
+        "timestamp": 1773520804
+    },
+    {
+        "content": "<p>Sorry, what did you mean then by the entrances?</p>",
+        "id": 579468998,
+        "sender_full_name": "HellMap",
+        "timestamp": 1773520805
+    },
+    {
+        "content": "<p>I think it's perfectly valid per \"one feature, one element\" principle. It has specific purpose (shared in this case, but so are many feature), different access and rules, different opening hours, potentially its own name. I mean, it's no different than having multiple schools share a single yard or having like a library in a school area or something.</p>",
+        "id": 579469109,
+        "sender_full_name": "HellMap",
+        "timestamp": 1773520925
+    },
+    {
+        "content": "<p>I mean, it's somewhat unusual with multiple areas, but as an example, you can have a playground area and an excercise area area within a recreation area within a park area or some such. What I'm saying is that multiple areas by themselves are not a problem if they represent concrete real features.</p>",
+        "id": 579469207,
+        "sender_full_name": "HellMap",
+        "timestamp": 1773521009
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/358602-general/topic/School.20stadium.20opening.20hours/near/579468998\">said</a>:</p>\n<blockquote>\n<p>Sorry, what did you mean then by the entrances?</p>\n</blockquote>\n<p>I meant that if we draw <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aleisure%3Dsports_centre\">leisure=sports_centre</a>, and tag \"whatever ways are needed to access it\", then gate closest to main building entrance, and paths there, is not in that group.<br>\nBut next to that gate there is also an infoboard with working hours.</p>\n<p>I don't know why that board is there. Maybe School admin thinks that it's main entrance and it should be there.<br>\nJust thought that maybe this might also indicate that admin considers whole grounds except for building itself publicly accessible at the outlined time.</p>",
+        "id": 579469396,
+        "sender_full_name": "markalex",
+        "timestamp": 1773521168
+    },
+    {
+        "content": "<p>Ahh, well, yeah. For such a specific query, you would have to ask the admin themselves ;) I imagine your answer will be - \"sports area is public and you can use the footways to access it\". I don't think there is any solution here other than to apply some subjective common sense and tag whatever direct ways are used to access the actual area within. In your example, I would tag any footways from entrances with infoboards as intended access ways.</p>",
+        "id": 579469543,
+        "sender_full_name": "HellMap",
+        "timestamp": 1773521375
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/358602-general/topic/School.20stadium.20opening.20hours/near/579469109\">said</a>:</p>\n<blockquote>\n<p>I think it's perfectly valid per \"one feature, one element\" principle. It has specific purpose (shared in this case, but so are many feature), different access and rules, different opening hours, potentially its own name. I mean, it's no different than having multiple schools share a single yard or having like a library in a school area or something.</p>\n</blockquote>\n<p>100%<br>\nMy problem is with defining that area) Like where it starts and ends? How to draw it?<br>\nI understand this is not a court or cadastr. But I like it when there is clear rules for those kind of things.</p>",
+        "id": 579469545,
+        "sender_full_name": "markalex",
+        "timestamp": 1773521377
+    },
+    {
+        "content": "<p>What about opening hours?<br>\nAt <a href=\"https://www.openstreetmap.org/way/1090616108\">https://www.openstreetmap.org/way/1090616108</a> I used combination of <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aopening_hours\">opening_hours=*</a> and <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aaccess%3Aconditional\">access:conditional=*</a><br>\nWith rationale, that during school time it's open and operational, just not accessible to general public.<br>\nBut it feels somewhat cumbersome. And I'm not sure it would be clear in different clients.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/1090616108\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/1090616108\" title=\"Way: ‪Centra sporta kvartāls‬ (‪1090616108‬)\">Way: ‪Centra sporta kvartāls‬ (‪1090616108‬)</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 579469739,
+        "sender_full_name": "markalex",
+        "timestamp": 1773521646
+    },
+    {
+        "content": "<p>So for example, CoMaps sadly only shows opening hours.</p>",
+        "id": 579470118,
+        "sender_full_name": "markalex",
+        "timestamp": 1773522235
+    },
+    {
+        "content": "<p>You can forget the vast majority of apps understanding :conditional stuff for probably decades. It's still ok to map if there's no simpler way, but it's up to them to implement.</p>",
+        "id": 579470193,
+        "sender_full_name": "HellMap",
+        "timestamp": 1773522307
+    },
+    {
+        "content": "<p>I have to think about whetehr access or opening_hours or how to really tag this, I don't rightly know. It's probably also different for \"embedded\" areas versus this stand-alone one (mostly it's how it's presented tho).</p>",
+        "id": 579470233,
+        "sender_full_name": "HellMap",
+        "timestamp": 1773522349
+    }
+]

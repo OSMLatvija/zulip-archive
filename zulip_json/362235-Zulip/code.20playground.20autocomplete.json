@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<p>Mums noderētu <a href=\"https://github.com/zulip/zulip/issues/23935\">tāda fīča</a> (mums te ir <code>overpass</code> un <code>wizard</code> playground'i). Ja ir GitHub konts un nav slinkums, lūdzu, pielieciet <span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/zulip/zulip/issues/23935\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/872593bded7a88f6073d863b5838f8ae6c7e3efd\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f663031633564336162366461373637646338646565643164616562646234633630373366396335353634363231636666653065306163303636386664323235632f7a756c69702f7a756c69702f6973737565732f3233393335)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/zulip/zulip/issues/23935\" title=\"Autocomplete language for code block that targets Code playground with &quot;custom language name&quot; not supported by Pygments · Issue #23935 · zulip/zulip\">Autocomplete language for code block that targets Code playground with \"custom language name\" not supported by Pygments · Issue #23935 · zulip/zulip</a></div><div class=\"message_embed_description\">Zulip autocompletes language of the code block: zulip/static/js/composebox_typeahead.js Lines 612 to 633 in 9c18641 // Start syntax highlighting autocompleter if the first three characters are ``` ...</div></div></div>",
+        "id": 318260499,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672236033
+    }
+]

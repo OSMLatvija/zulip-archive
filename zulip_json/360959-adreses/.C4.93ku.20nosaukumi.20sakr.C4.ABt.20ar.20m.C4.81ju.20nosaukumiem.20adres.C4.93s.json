@@ -1,0 +1,104 @@
+[
+    {
+        "content": "<p>Ja kādam ir luste, var caurskatīt gadījumus (vairāk nekā tūkstoš), kad ceļiem (ways) nosaukums (name) sakrīt ar mājas nosaukumu (addr:housename), un dzēst nosaukumus, kur tie ir lieki (piem., privātmājām). Dati: <a href=\"https://docs.google.com/spreadsheets/d/1gIGeOq1zDj-x11JqbTI7W4xGV48pNgd7/edit?usp=sharing&amp;ouid=112911031198603926431&amp;rtpof=true&amp;sd=true\">https://docs.google.com/spreadsheets/d/1gIGeOq1zDj-x11JqbTI7W4xGV48pNgd7/edit?usp=sharing&amp;ouid=112911031198603926431&amp;rtpof=true&amp;sd=true</a></p>",
+        "id": 315252788,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1670789927
+    },
+    {
+        "content": "<p>ceļiem -&gt; ēkām, kas ir ceļi. Mīnuss, ka Zulip nevar rediģēt iepriekšējās ziņas, bet Signal arī nevar.</p>",
+        "id": 315290014,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1670822048
+    },
+    {
+        "content": "<p>Vai šis query meklē to pašu?</p>\n<div class=\"codehilite\" data-code-language=\"overpass\"><pre><span></span><code>[out:json][timeout:25];\n{{geocodeArea:Latvia}}-&gt;.searchArea;\nnwr[\"name\"][\"addr:housename\"](if:t[\"name\"]==t[\"addr:housename\"])(area.searchArea);\nout geom;\n</code></pre></div>\n<p>Vai vajag tikai <img alt=\":way:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40176.png\" title=\"way\"> atlasīt (skaits +/- tāds pats kā tabulā)?</p>",
+        "id": 320887740,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673515063
+    },
+    {
+        "content": "<p>Vai tā tabula atjaunojas automātiski?</p>",
+        "id": 320901165,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673519149
+    },
+    {
+        "content": "<p>Jā, nepieciešams atlasīt tikai <img alt=\":way:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40176.png\" title=\"way\"> un <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Abuilding\">building=*</a>. Tabulai automātiski netiek atjaunota, overpass vaicājums būtu piemērotāks.</p>",
+        "id": 320908205,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673521169
+    },
+    {
+        "content": "<p>Vai ir vispār gadījumi, kad tas ir pareizi? Jo nebūtu jau grūti to kaut kādā JOSMā izlabot. Es pieņemu, ka te liela daļa no tā \"LĢIA Vietvārdu DB\" importa</p>",
+        "id": 320909525,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673521541
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571929\">Dāvis Kļaviņš</span> <a href=\"#narrow/stream/360959-adreses/topic/.C4.93ku.20nosaukumi.20sakr.C4.ABt.20ar.20m.C4.81ju.20nosaukumiem.20adres.C4.93s/near/320908205\">said</a>:</p>\n<blockquote>\n<p>Jā, nepieciešams atlasīt tikai <img alt=\":way:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40176.png\" title=\"way\"> un <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Abuilding\">building=*</a>. Tabulai automātiski netiek atjaunota, overpass vaicājums būtu piemērotāks.</p>\n</blockquote>\n<p>OK, tad sanāk:</p>\n<div class=\"codehilite\" data-code-language=\"overpass\"><pre><span></span><code>[out:json][timeout:25];\n{{geocodeArea:Latvia}}-&gt;.searchArea;\nway[\"building\"][\"name\"][\"addr:housename\"](if:t[\"name\"]==t[\"addr:housename\"])(area.searchArea);\nout geom;\n</code></pre></div>",
+        "id": 320910024,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673521675
+    },
+    {
+        "content": "<p>Skat. jauno vaicājumu, kur tikai <img alt=\":way:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40176.png\" title=\"way\"> un <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Abuilding\">building=*</a>. Piemērs, kur tomēr vajag: <a href=\"https://www.openstreetmap.org/way/673352936\">https://www.openstreetmap.org/way/673352936</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/673352936\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/673352936\" title=\"Way: ‪Palsmanes evanģēliski luteriskā baznīca‬ (‪673352936‬) | OpenStreetMap\">Way: ‪Palsmanes evanģēliski luteriskā baznīca‬ (‪673352936‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 320913305,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673522728
+    },
+    {
+        "content": "<p>Varbūt vaicājumam vajag ignorēt elementus ar <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aamenity\">amenity=*</a>?</p>",
+        "id": 320913774,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673522881
+    },
+    {
+        "content": "<p>Jā, loģiska doma, jo, ja nu tur kaut kas būs nepareizi, tad tas būs amenity nosaukums, kas jau ir cita veida problēma.</p>",
+        "id": 320915785,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673523598
+    },
+    {
+        "content": "<p>Tad no otras puses jautājums - a kapēc baznīcai vajag bet mājai nevajag? Ja jau housename ir adrese un tas nav nosaukums, tad jau arī mājām tā pat? Ar ko šitai baznīcai ir savādāk?</p>",
+        "id": 320915891,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673523617
+    },
+    {
+        "content": "<p>Jo tas ir kā amenity nosaukums. Analoģiski ar shop, office u.c. Būtībā key vērtības no <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot/blob/main/tags_4_addresses.csv\">https://github.com/Davis-Klavins/osm-latvia-bot/blob/main/tags_4_addresses.csv</a>  varētu nosegt. Atlikušie gadījumi tad būtu tie, kur nav pielikti nepieciešamie papildus tagi, bet nosaukums ir. Ja tādi ir, jāskatās. Ja nav, tad var tomēr ielikt <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">botā,</a> lai izmēž automātiski.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot/blob/main/tags_4_addresses.csv\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/fc94da75988ca0e87c616c0465ccb8790fcbc98a\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f653661366363346131343735326436643063333139386136616462616633336665346538333337653235363034663264373435663962613039616236346636312f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot/blob/main/tags_4_addresses.csv\" title=\"osm-latvia-bot/tags_4_addresses.csv at main · Davis-Klavins/osm-latvia-bot\">osm-latvia-bot/tags_4_addresses.csv at main · Davis-Klavins/osm-latvia-bot</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - osm-latvia-bot/tags_4_add...</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/fc94da75988ca0e87c616c0465ccb8790fcbc98a\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f653661366363346131343735326436643063333139386136616462616633336665346538333337653235363034663264373435663962613039616236346636312f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 320917267,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673523986
+    },
+    {
+        "content": "<p>Varbūt jāskatās plašāk un ņemt nost <code>name</code> visām ēkām, kam nav attaisnojumu būt ar <code>name</code>?</p>",
+        "id": 320936378,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673529874
+    },
+    {
+        "content": "<p>Pie reizes varētu salikt trūkstošos tagus skolām utml., ko var atpazīt pēc <code>name</code>, piemēram <a href=\"https://www.openstreetmap.org/way/87425945\">šeit</a> prasās <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dkindergarten\">amenity=kindergarten</a>.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/87425945\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/87425945\" title=\"Way: ‪Rīgas 193. pirmsskolas izglītības iestāde‬ (‪87425945‬) | OpenStreetMap\">Way: ‪Rīgas 193. pirmsskolas izglītības iestāde‬ (‪87425945‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 320960603,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673535995
+    },
+    {
+        "content": "<p>4 messages were moved from this topic to <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/building.20labojumi.20p.C4.93c.20nosaukuma\">#general &gt; building labojumi pēc nosaukuma</a> by <span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span>.</p>",
+        "id": 320968510,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1673537925
+    },
+    {
+        "content": "<p>Es tomēr teiktu, ka tos <code>name</code> jāņem nost ar rokām, to nav tik daudz. Pie reizes var paskatīties apkārtnē un noņemt <code>name</code>, kas gandrīz sakrīt ar <code>addr:housename</code>, vai pabīdīt <code>building</code>, lai tas iekļautu blakusesošu adresi.</p>",
+        "id": 321118209,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673603396
+    },
+    {
+        "content": "<p>Mmh, pilnībā automatizēti šo nevar, jo reizēm lietotāji objekta veidu raksturojošos tagus nepieliek. Atjaunoju <a href=\"https://docs.google.com/spreadsheets/d/1gIGeOq1zDj-x11JqbTI7W4xGV48pNgd7/edit?usp=sharing&amp;ouid=112911031198603926431&amp;rtpof=true&amp;sd=true\">https://docs.google.com/spreadsheets/d/1gIGeOq1zDj-x11JqbTI7W4xGV48pNgd7/edit?usp=sharing&amp;ouid=112911031198603926431&amp;rtpof=true&amp;sd=true</a>, neņemot vērā tos, kuri ir tags_4_addresses.csv(<a href=\"https://github.com/Davis-Klavins/osm-latvia-bot/blob/main/tags_4_addresses.csv\">https://github.com/Davis-Klavins/osm-latvia-bot/blob/main/tags_4_addresses.csv</a>), kā arī <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Ahistoric\">historic=*</a>, bet atlasot arī tos, kuriem nosaukums no mājas nosaukuma adresē atšķiras. ~1400 objektu. Var apmēram piedzīt overpass vaicājumu. Tiem, kuri jālabo, labošana var būt lēna, jo ne vienmēr bez meklēšanas ir skaidrs, kādi tagi jāpieliek, un vai vispār nosaukums ir vajadzīgs.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://docs.google.com/spreadsheets/d/1gIGeOq1zDj-x11JqbTI7W4xGV48pNgd7/edit?usp=sharing&amp;ouid=112911031198603926431&amp;rtpof=true&amp;sd=true\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/de9a26823a745fe58846bd53c660db3fbe42644f\\/68747470733a2f2f6c68352e676f6f676c6575736572636f6e74656e742e636f6d2f796c4a7175534b4e4461726a746970685577554a4f534141554e3850422d467656644172554850454b69764147646e6972564f6c696850523333455a7263715f6368553d77313230302d683633302d70)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://docs.google.com/spreadsheets/d/1gIGeOq1zDj-x11JqbTI7W4xGV48pNgd7/edit?usp=sharing&amp;ouid=112911031198603926431&amp;rtpof=true&amp;sd=true\" title=\"ways_name_and_housename.xlsx\">ways_name_and_housename.xlsx</a></div><div class=\"message_embed_description\">Sheet1\n\nid,name,tags\n530667938,'Sēlijas mežs'' SIA,\"name\"=&gt;\"'Sēlijas mežs'' SIA\", \"building\"=&gt;\"commercial\", \"ref:LV:addr\"=&gt;\"104260373\", \"addr:country\"=&gt;\"LV\", \"addr:district\"=&gt;\"Jēkabpils novads\", \"addr:postcode\"=&gt;\"LV-5230\", \"addr:housename\"=&gt;\"Dolomīts M\", \"addr:subdistrict\"=&gt;\"Salas pagasts\"\n345652...</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot/blob/main/tags_4_addresses.csv\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/fc94da75988ca0e87c616c0465ccb8790fcbc98a\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f653661366363346131343735326436643063333139386136616462616633336665346538333337653235363034663264373435663962613039616236346636312f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot/blob/main/tags_4_addresses.csv\" title=\"osm-latvia-bot/tags_4_addresses.csv at main · Davis-Klavins/osm-latvia-bot\">osm-latvia-bot/tags_4_addresses.csv at main · Davis-Klavins/osm-latvia-bot</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - osm-latvia-bot/tags_4_add...</div></div></div>",
+        "id": 321238913,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673637512
+    }
+]

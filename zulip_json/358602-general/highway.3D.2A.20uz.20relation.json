@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>OSM Wiki saka, ka <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Ahighway\">highway=*</a> \"should not be used on <img alt=\":relation:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40178.png\" title=\"relation\">\". <span class=\"user-mention\" data-user-id=\"568771\">@Rihards Olups</span>, Tev ir ko pateikt par <a href=\"https://www.openstreetmap.org/relation/13026205\">https://www.openstreetmap.org/relation/13026205</a>?</p>\n<div class=\"codehilite\" data-code-language=\"overpass\"><pre><span></span><code>[out:json][timeout:50];\n{{geocodeArea:Latvia}}-&gt;.searchArea;\nrelation[highway](area.searchArea);\nout geom;\n</code></pre></div>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/relation/13026205\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/relation/13026205\" title=\"Relation: 13026205 | OpenStreetMap\">Relation: 13026205 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 322517740,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674222665
+    },
+    {
+        "content": "<p>Tas tač ne uz to attiecās. <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alanduse%3Dmeadow\">landuse=meadow</a> arī saka, ka relation nevar. Tātad dzēšam visus multipoligonus.</p>",
+        "id": 322518287,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674222811
+    },
+    {
+        "content": "<p>Multipoligon skaitās <img alt=\":area:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40177.png\" title=\"area\">? <a href=\"https://wiki.openstreetmap.org/wiki/Area\">Laikam jā</a>.</p>",
+        "id": 322518866,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674222977
+    },
+    {
+        "content": "<p>Vismaz es to tā vienmēr esmu sapratis. Precīzāk, jebkurš area var būt arī multipoligons, ja tur vajag kaut ko izgriezt. Un multipoligonus neskaita kā relation taggingu, kad wiki runa par speciāli relationiem taggingu. Diemžēl, OSM nav nodalīts relation priekš reāli relation, kā bus route kaut kāds, un relation priekš ģeometrijas zīmēšanas, t.i. caurumu taisīšanas.</p>",
+        "id": 322519722,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674223219
+    },
+    {
+        "content": "<p>Tāpat ir ko palabot:</p>\n<div class=\"codehilite\" data-code-language=\"overpass\"><pre><span></span><code>[out:json][timeout:50];\n{{geocodeArea:Latvia}}-&gt;.searchArea;\nrelation[highway][type!=multipolygon](area.searchArea);\nout geom;\n</code></pre></div>",
+        "id": 322520045,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674223304
+    },
+    {
+        "content": "<p>Veseli 5 ceļi! <span aria-label=\"scream\" class=\"emoji emoji-1f631\" role=\"img\" title=\"scream\">:scream:</span></p>",
+        "id": 322520462,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674223401
+    },
+    {
+        "content": "<p>Principā jā, laikam kā HellMap saka. Lai gan tas ir mulsinoši, ja skatās wiki.<br>\nEs gan daļēji piekrītu IRC mafijai par wikifiddlers dažreiz ;)</p>",
+        "id": 322597083,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674242362
+    }
+]

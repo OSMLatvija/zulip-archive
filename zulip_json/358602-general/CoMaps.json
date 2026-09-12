@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>Sveiki visiem. Uzlaboju atbalstu ceļazīmēm Latvijā CoMaps lietotnē: <a href=\"https://codeberg.org/comaps/comaps/pulls/4623\">https://codeberg.org/comaps/comaps/pulls/4623</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://codeberg.org/comaps/comaps/pulls/4623\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/465981c7893c15799e739a281de8a1810f2c6aad/68747470733a2f2f636f6465626572672e6f72672f636f6d6170732f636f6d6170732f70756c6c732f343632332f73756d6d6172792d63617264&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://codeberg.org/comaps/comaps/pulls/4623\" title=\"Support grey roadshields in Latvia\">Support grey roadshields in Latvia</a></div><div class=\"message_embed_description\">The codebase didn't have any grey background roadshield, so I introduced the official grey color used in Latvia (#A7A9AC, see https://lv.wikipedia.org/wiki/Autoceļš_V11). I hope it's not too light for the light theme. For dark theme I made it similar to existing dark roadshields.\n\nThe third scree...</div></div></div>",
+        "id": 607691500,
+        "sender_full_name": "soshial",
+        "timestamp": 1782935159
+    },
+    {
+        "content": "<p>Jā kādam paveicās ieraudzīt dzīvē to pelēko ceļanumuru, lūdzu ielieciet te bildi <span aria-label=\"folded hands\" class=\"emoji emoji-1f64f\" role=\"img\" title=\"folded hands\">:folded_hands:</span></p>",
+        "id": 607691659,
+        "sender_full_name": "soshial",
+        "timestamp": 1782935231
+    },
+    {
+        "content": "<p>Man likās CoMaps un citiem tas jau bija. OsmAndā tie ar baltu fonu (teorētiski ar baltu fonu ir C ceļi).</p>",
+        "id": 607693186,
+        "sender_full_name": "HellMap",
+        "timestamp": 1782935809
+    },
+    {
+        "content": "<p>Jā, bija melns teksts ar baltu fonu — tas ir lietotnes noklusējums visai pasaulei, bet LV jābūt ar pelēku fonu ar baltu tekstu.</p>",
+        "id": 607693445,
+        "sender_full_name": "soshial",
+        "timestamp": 1782935899
+    },
+    {
+        "content": "<p><img alt=\"osmand shields.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"464x543\" data-original-src=\"/user_uploads/49624/DhlBhrNxLpRqfH37-O3VKiEF/osmand-shields.png\" src=\"/user_uploads/thumbnail/49624/DhlBhrNxLpRqfH37-O3VKiEF/osmand-shields.png/840x560.webp\"><br>\nTad sanāk OsmAnds arī V nerāda, hmmm. Viņiem repo pārāk sarežģīts, es nevaru īsti sameklēt, kur tas definēts un man slinkums pētīt</p>",
+        "id": 607694860,
+        "sender_full_name": "HellMap",
+        "timestamp": 1782936384
+    },
+    {
+        "content": "<p>Es tagad sāku domāt - vai es vispār kādreiz esmu pelēkās V redzējis. Es esmu tikai dažās vietās C redzējis baltās un tās uzreiz pamanīju kā retu fenomenu <a href=\"https://www.mapillary.com/app/?pKey=1580148832676409&amp;focus=photo\">https://www.mapillary.com/app/?pKey=1580148832676409&amp;focus=photo</a> <br>\n<img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"336x251\" data-original-src=\"/user_uploads/49624/ZfgiBxOjzGSWngwqmyOLXfMA/image.png\" src=\"/user_uploads/thumbnail/49624/ZfgiBxOjzGSWngwqmyOLXfMA/image.png/840x560.webp\"></p>",
+        "id": 607696014,
+        "sender_full_name": "HellMap",
+        "timestamp": 1782936861
+    },
+    {
+        "content": "<p>Paldies tev, ka iedomājies. Saki, ja pamanīsi tādu dzīvē</p>",
+        "id": 608312191,
+        "sender_full_name": "soshial",
+        "timestamp": 1783274816
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "content": "<p>Te viens saits aplikācijai, kur saraksts ar datu avotiem: <a href=\"https://gsvalbe.id.lv/pieturas/avoti.html\">https://gsvalbe.id.lv/pieturas/avoti.html</a> Tur ir ne tikai Rīgai GTFS. Bet tikai dati no saita <a href=\"http://www.marsruti.lv/\">http://www.marsruti.lv/</a>, kas redirektē uz <a href=\"https://www.stops.lt\">https://www.stops.lt</a> saitu, ko taisa Merekas <a href=\"https://www.merakas.lt/\">https://www.merakas.lt/</a> kaut kāds satiksmes analizātors. Un no kurienes viņiem tie dati ir...? Es nevaru atrast nevienam citam GTFS failus pa taisno. Piemēram Liepājas transports linku liek atpakaļ uz to <a href=\"http://marsruti.lv\">marsruti.lv</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.merakas.lt/\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1b8eb272a100096a105e2b504fe68d824a1ae42b\\/68747470733a2f2f7777772e6d6572616b61732e6c742f696d616765732f73686172652e6a7067)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.merakas.lt/\" title=\"Merakas\">Merakas</a></div></div></div>",
+        "id": 370044300,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687869041
+    },
+    {
+        "content": "<p>Galvenais iemesls, kāpēc pārvadātājiem vispār ir aktuālie GTFS dati ir integrācija ar Google Maps. Pārvadātāji <a href=\"https://support.google.com/transitpartners/answer/1111577\">iesniedz</a> datus Google'am. Diemžēl (bet arī nav nekāds pārsteigums), Google savus avotus nekur nepublisko. Vismaz man neizdevās atrast, es mēģināju.</p>",
+        "id": 370049817,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687870052
+    },
+    {
+        "content": "<blockquote>\n<p>Manual upload via Transit partner dashboard: As a last resort ...</p>\n</blockquote>\n<p>O, \"last resort\", tātad mūsu iestādem vislabākais variants <span aria-label=\"smiling face with tear\" class=\"emoji emoji-1f972\" role=\"img\" title=\"smiling face with tear\">:smiling_face_with_tear:</span></p>",
+        "id": 370050404,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687870168
+    },
+    {
+        "content": "<p>Atvērto datu portālā var dabūt pāris URL:</p>\n<ol>\n<li>\n<p><a href=\"https://data.gov.lv/dati/lv/dataset/atd-gtfs/resource/b0a020e4-1ee6-4e1a-9a94-63b1f8defd6d\">Autotransporta direkcija</a>:</p>\n<blockquote>\n<p>URL: <a href=\"https://www.atd.lv/sites/default/files/GTFS/gtfs-latvia-lv.zip\">https://www.atd.lv/sites/default/files/GTFS/gtfs-latvia-lv.zip</a></p>\n</blockquote>\n</li>\n<li>\n<p><a href=\"https://data.gov.lv/dati/lv/dataset/iekszemes-dzelzcela-vilcienu-kustibas-saraksts-gtfs-formata/resource/9601b755-5353-46b4-a4c0-b09cbc8cbdc1\">Pasažieru vilciens</a>:</p>\n<blockquote>\n<p>URL: <a href=\"https://www.pv.lv/xml/atdtransit/\">https://www.pv.lv/xml/atdtransit/</a></p>\n</blockquote>\n</li>\n</ol>\n<p>Es pieļauju, ka šos pašus URL viņi iesniedz Google'am, tāpēc tiem jābūt aktuāliem. Tas, ka tie URL ir atvērto datu portālā noņem arī jautājumu par licencēm.</p>",
+        "id": 370051438,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687870351
+    },
+    {
+        "content": "<p>Es pieļauju, ka Rīgas Satiksme iesniedz Google'am <a href=\"https://saraksti.rigassatiksme.lv/riga/gtfs.zip\">https://saraksti.rigassatiksme.lv/riga/gtfs.zip</a>, bet tā ir tikai spekulācija, tāpēc ka oficiālos datos šīs URL nekur nav pieminēts. Par licenci arī nekas nav zināms.</p>",
+        "id": 370052259,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687870501
+    },
+    {
+        "content": "<p>Var mēģināt griezties pie Google, prasīt, lai viņi publisko datus, kurus izmanto Google Maps. Bet šaubos, ka kaut kas labs varētu sanākt ar licenci...</p>",
+        "id": 370053367,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687870691
+    },
+    {
+        "content": "<p>:) Nu Google tas ir bizness būt par līderi, tur neko viņi nedos</p>",
+        "id": 370053513,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687870723
+    },
+    {
+        "content": "<p>Var griezties pie pārvadātājiem.</p>",
+        "id": 370053555,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687870733
+    },
+    {
+        "content": "<p>Nu vot to, jā</p>",
+        "id": 370053741,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687870774
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/GTFS.20dati.20cietiem.20p.C4.81rvad.C4.81t.C4.81jiem/near/370050404\">said</a>:</p>\n<blockquote>\n<blockquote>\n<p>Manual upload via Transit partner dashboard: As a last resort ...</p>\n</blockquote>\n<p>O, \"last resort\", tātad mūsu iestādem vislabākais variants <span aria-label=\"smiling face with tear\" class=\"emoji emoji-1f972\" role=\"img\" title=\"smiling face with tear\">:smiling_face_with_tear:</span></p>\n</blockquote>\n<p><a href=\"https://discussions.apple.com/thread/254940497\">Apple'am, šķiet, ir tikai \"manual\" opcija</a> :D</p>",
+        "id": 370054181,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687870854
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/GTFS.20dati.20cietiem.20p.C4.81rvad.C4.81t.C4.81jiem/near/370053741\">said</a>:</p>\n<blockquote>\n<p>Nu vot to, jā</p>\n</blockquote>\n<p>Man liekas, jāsāk ar Rīgas Satiksmi, jo viņiem vismaz ir URL. Citi varbūt iesniedz manuāli, un būs grūtāk dabūt aktuālus datus.</p>",
+        "id": 370054788,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687870960
+    },
+    {
+        "content": "<p>Pieliku pagaidām tos, kas <a href=\"http://marsruti.lv\">marsruti.lv</a> citiem provideriem</p>",
+        "id": 370083186,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687875692
+    }
+]

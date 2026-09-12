@@ -1,0 +1,80 @@
+[
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571929\">Dāvis Kļaviņš</span> <a href=\"#narrow/stream/358602-general/topic/adreses/near/315290014\">said</a>:</p>\n<blockquote>\n<p>Mīnuss, ka Zulip nevar rediģēt iepriekšējās ziņas, bet Signal arī nevar.</p>\n</blockquote>\n<p>Īstenībā Zulip'ā var. Šobrīd ir sakonfigurēts tā, ka var rediģēt 10 minūtes pēc nosūtīšanas un ir ieslēgta rediģēšanas vēsture, bet varam mainīt to, kā gribam.</p>",
+        "id": 315310491,
+        "sender_full_name": "i-ky",
+        "timestamp": 1670833294
+    },
+    {
+        "content": "<p>Nevar rediģēt tests - I swear I saw it was possible.<br>\nEdit: var rediģēt, bet laikam tikai īsu brīdi.<br>\nEdit 2: <a href=\"/user_uploads/49624/S8Ct5wTaBcahg9PzopwRjO2_/edit.png\">edit.png</a><br>\nEdit 3: izlasīju šeit pēc tam, kad atbildēju adresēs. Bet labi, ka var Move message</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/S8Ct5wTaBcahg9PzopwRjO2_/edit.png\" title=\"edit.png\"><img src=\"/user_uploads/49624/S8Ct5wTaBcahg9PzopwRjO2_/edit.png\"></a></div>",
+        "id": 315336364,
+        "sender_full_name": "HellMap",
+        "timestamp": 1670842127
+    },
+    {
+        "content": "<p>A message was moved here from <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/adreses\">#general &gt; adreses</a> by <span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span>.</p>",
+        "id": 315336578,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1670842203
+    },
+    {
+        "content": "<p>Nja, Collapse message bezjēdzīgi - collapsed vēl vairāk vietu aizņem<br>\n<a href=\"/user_uploads/49624/IQC1bostsSK9h0EwX64zp4dw/a.png\">a.png</a> <a href=\"/user_uploads/49624/c2gEDn5CQzE7MnUGg3LfZpLA/b.png\">b.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/IQC1bostsSK9h0EwX64zp4dw/a.png\" title=\"a.png\"><img src=\"/user_uploads/49624/IQC1bostsSK9h0EwX64zp4dw/a.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/c2gEDn5CQzE7MnUGg3LfZpLA/b.png\" title=\"b.png\"><img src=\"/user_uploads/49624/c2gEDn5CQzE7MnUGg3LfZpLA/b.png\"></a></div>",
+        "id": 315336971,
+        "sender_full_name": "HellMap",
+        "timestamp": 1670842331
+    },
+    {
+        "content": "<p>@_<strong>Notification <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">Bot</a>|100006</strong> <a href=\"#narrow/stream/358602-general/topic/message.20editing/near/315336578\">said</a>:</p>\n<blockquote>\n<p>A message was moved here from <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/adreses\">#general &gt; adreses</a> by <span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span>.</p>\n</blockquote>\n<p>Diemžēl, to nevar izslēgt. Bet var dzēst manuāli.</p>",
+        "id": 315340022,
+        "sender_full_name": "i-ky",
+        "timestamp": 1670843283
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/message.20editing/near/315310491\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"571929\">Dāvis Kļaviņš</span> <a href=\"#narrow/stream/358602-general/topic/adreses/near/315290014\">said</a>:</p>\n<blockquote>\n<p>Mīnuss, ka Zulip nevar rediģēt iepriekšējās ziņas, bet Signal arī nevar.</p>\n</blockquote>\n<p>Īstenībā Zulip'ā var. Šobrīd ir sakonfigurēts tā, ka var rediģēt 10 minūtes pēc nosūtīšanas un ir ieslēgta rediģēšanas vēsture, bet varam mainīt to, kā gribam.</p>\n</blockquote>\n<p>Jā, te mēs sākumā palikām pie kaut kā \"resonable\", t.i. - 10 minūšu limita.<br>\nDaļēji doma tāda, ka pēc ilga laika rediģējot visa sarunas doma var pazust.</p>\n<p>Dāvi, pārējie - kā jums šķiet, tas ir OK?</p>",
+        "id": 315441581,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1670872666
+    },
+    {
+        "content": "<p>Es mierīgi liktu nedēļu+. Tur taču edit history ir un \"edited\" arī pielikts.</p>",
+        "id": 315442729,
+        "sender_full_name": "HellMap",
+        "timestamp": 1670873102
+    },
+    {
+        "content": "<p>Ir edit history, bet uz atsevišķiem \"commit'iem\" nav iespējams atsaukties, man liekas.</p>",
+        "id": 315454742,
+        "sender_full_name": "i-ky",
+        "timestamp": 1670876694
+    },
+    {
+        "content": "<p>Vai tad kāds reāli mainīs message saturu?</p>",
+        "id": 315457126,
+        "sender_full_name": "HellMap",
+        "timestamp": 1670877308
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/message.20editing/near/315457126\">said</a>:</p>\n<blockquote>\n<p>Vai tad kāds reāli mainīs message saturu?</p>\n</blockquote>\n<p>Pieņemot, ka kopiena aug, un ka te saaicinām arī skolēnus un studentus no visiem pasākumiem, visādi var gadīties :)</p>",
+        "id": 315457596,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1670877439
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/TfMY-RogKZhnG0tk2DZ4CGym/image.png\">Opcijas</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/TfMY-RogKZhnG0tk2DZ4CGym/image.png\" title=\"Opcijas\"><img src=\"/user_uploads/49624/TfMY-RogKZhnG0tk2DZ4CGym/image.png\"></a></div>",
+        "id": 315542834,
+        "sender_full_name": "i-ky",
+        "timestamp": 1670923288
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/message.20editing/near/315441581\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/message.20editing/near/315310491\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"571929\">Dāvis Kļaviņš</span> <a href=\"#narrow/stream/358602-general/topic/adreses/near/315290014\">said</a>:</p>\n<blockquote>\n<p>Mīnuss, ka Zulip nevar rediģēt iepriekšējās ziņas, bet Signal arī nevar.</p>\n</blockquote>\n<p>Īstenībā Zulip'ā var. Šobrīd ir sakonfigurēts tā, ka var rediģēt 10 minūtes pēc nosūtīšanas un ir ieslēgta rediģēšanas vēsture, bet varam mainīt to, kā gribam.</p>\n</blockquote>\n<p>Jā, te mēs sākumā palikām pie kaut kā \"resonable\", t.i. - 10 minūšu limita.<br>\nDaļēji doma tāda, ka pēc ilga laika rediģējot visa sarunas doma var pazust.</p>\n<p>Dāvi, pārējie - kā jums šķiet, tas ir OK?</p>\n</blockquote>\n<p>Ieliktu stundu tomēr. Konkrētajā gadījumā gan diena būtu bijusi vajadzīga, bet tas varētu arī būt par ilgu. Pieļauju, ka opcija līdz pirmajai atbildei vai reakcijai nav.</p>",
+        "id": 315590522,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1670938143
+    },
+    {
+        "content": "<p>Ieliku stundu.</p>",
+        "id": 315591495,
+        "sender_full_name": "i-ky",
+        "timestamp": 1670938373
+    }
+]

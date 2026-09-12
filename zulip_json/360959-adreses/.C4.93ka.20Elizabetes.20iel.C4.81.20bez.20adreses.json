@@ -1,0 +1,86 @@
+[
+    {
+        "content": "<p>Kā te sanāk, vai šī ēka Elizabetes ielā ir bez adreses?<br>\n27. numurs it kā piešķirts sētas mājai. Vai arī tas attiecas uz zemes gabalu, un abām ēkām nemaz nav adrešu?</p>\n<p><a href=\"https://www.openstreetmap.org/way/87971752/history\">https://www.openstreetmap.org/way/87971752/history</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/87971752/history\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/87971752/history\" title=\"Way History: ‪Elizabetes nams‬ (‪87971752‬) | OpenStreetMap\">Way History: ‪Elizabetes nams‬ (‪87971752‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 420242133,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1707309378
+    },
+    {
+        "content": "<p>Abām ēkām 27, bet adreses punkts uz sētas mājas. Agrāk pašvaldībai būtu bijis jāpiešķir atsevišķa adrese ielas mājai, bet tagadējo Adresācijas noteikumu 21.-23. punktā uzskaitīti izņēmumi. Šajā gadījumā 22.1.</p>",
+        "id": 420249572,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1707311858
+    },
+    {
+        "content": "<p>A-ha, <a href=\"https://likumi.lv/ta/id/324387#p22\">https://likumi.lv/ta/id/324387#p22</a> :</p>\n<blockquote>\n<p>ēkas atrodas uz vienas zemes vienības un tās ir funkcionāli saistītas</p>\n</blockquote>\n<p>Te gan tās ēkas izskatās tā, ka derētu atsevišķas adreses.<br>\nŠķiet, minēji, ka automātiskais process varētu arī šādas adreses mācēt sinhronizēt - kā tas izskatītos šajā gadījumā?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://likumi.lv/ta/id/324387#p22\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/91d1c88287840a065f2a7c4bd960e319f144ed00\\/68747470733a2f2f6c696b756d692e6c762f6c696b756d695f62696c6465732f5049432f4c494b3230302e4a5047)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://likumi.lv/ta/id/324387#p22\" title=\"Adresācijas noteikumi\">Adresācijas noteikumi</a></div><div class=\"message_embed_description\">Tiesību akti un to izmaiņas: visi jaunumi un arhīvs. Sistematizēti tiesību akti. Plašas meklēšanas un personalizētās iespējas. Vietni uztur „Latvijas Vēstnesis”</div></div></div>",
+        "id": 420253634,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1707313064
+    },
+    {
+        "content": "<p>Derētu, jā. Bet pieļauju, ka Rīgai vieglāk, ja nav jāmaina, tāpēc noteikumos kaut kad šādas izmaiņas ieviestas (vesturē var atrast, kad). Pielikt var, bet tad OSM būs vēl vairāk to gadījumu (<a href=\"http://t.sk\">t.sk</a>. meklēšanas rezultātos), kad būs vairākas ēkas ar vienadām adresēm. It kā tos gadījumus, kad ēkai jābūt vienai, bet jāizdala tās daļas, vieglāk salabot tagad, kad nav pielikti gadījumi, kad ēkas tiešām ir dažādas. Tur gan labojamais daudz, tāpec nez, vai kadreiz tiks salabots, tā kā varbūt var arī kādā brīdī likt klāt.</p>",
+        "id": 420256129,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1707313868
+    },
+    {
+        "content": "<p>Ak jā, atsevišķām ēkām vienu adresi pielikt tā normāli nevar...<br>\nTik dumji, ka tagad ielas ēka bez adreses. 27. numuru tagad mazliet grūtāk atrast, un kāds var gribēt to adresi pievienot.</p>",
+        "id": 420257607,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1707314327
+    },
+    {
+        "content": "<p>Vienu var tikai ar relāciju priekš adreses, bet vai to pēc tam varēs tālāk izmantot, cits jautājums.</p>",
+        "id": 420260137,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1707315008
+    },
+    {
+        "content": "<p>Tieši to domāju, jā - bet par to datu lietotāji var nebūt priecīgi.</p>",
+        "id": 420260245,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1707315043
+    },
+    {
+        "content": "<p>Jautājums jau, vai pat noklusētais renderis un Nominatim to sagremos. To gan manuāli var pārbaudīt.</p>",
+        "id": 420263576,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1707315993
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Atype%3Dmultipolygon\">type=multipolygon</a>? JOSM tad prasa ari <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Arole%3Douter\">role=outer</a>. Var pielikt, protams. Bet tāpat ir brīdinājums, ka aprakstošie tagi varētu trūkt. JOSM arī nerenderē pliku adrešu relāciju, tā kā domāju, ka nav nemaz vērts šo eksperimentu augšupielādēt.</p>",
+        "id": 420273949,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1707318649
+    },
+    {
+        "content": "<p>Multipoliigonus gan jau sapratīs, jo māju ar caurumiem ir pietiekami piemēru. Bet tikai tad tie vairs nebūs pareizi dati, jo tā nav viena ēka ar divām daļām. Dēļ adresācijas nepilnībām noteikti nevajadzētu tādus prikolus taisīt.</p>",
+        "id": 420275139,
+        "sender_full_name": "HellMap",
+        "timestamp": 1707318964
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Addresses#Multiple_buildings_for_one_housenumber\">https://wiki.openstreetmap.org/wiki/Addresses#Multiple_buildings_for_one_housenumber</a> kaut ko min, bet nezinu, cik tas reāli ir pareizi, lietots un kurš vispār to wiki ieraksīja - nekad neesmu redzējis tādus adrešu multipoligonus vai site relācijas</p>",
+        "id": 420275239,
+        "sender_full_name": "HellMap",
+        "timestamp": 1707318996
+    },
+    {
+        "content": "<p>building tagu nebija domāts likt klāt, jo tad kartētais vairs neatbilstu situācijai apvidū. <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Atype%3Dsite\">type=site</a> izskatās atbilstošāk, bet noklusētais kartes skats šādi pasniegtas adreses nerāda un Nominatim neatrod, kas arī bija sagaidāms.</p>",
+        "id": 420282997,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1707321070
+    },
+    {
+        "content": "<p>Oi nē, relācijas šī dēļ nav vērts taisīt. Grūti uzturēt, tāpat reti kas atbalsta. B0ts arī salūzīs gan jau :)</p>",
+        "id": 420312643,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1707329475
+    },
+    {
+        "content": "<p>Uzrakstīt jau var, bet nebūs rīku, kas spēj izmantot, tāpēc nevajag.</p>",
+        "id": 420313207,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1707329662
+    }
+]

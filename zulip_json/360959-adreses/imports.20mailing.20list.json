@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Nomainīt <a href=\"https://lists.openstreetmap.org/pipermail/imports/2023-January/007132.html\">nācās</a> arī housename uz housenumber, ja mājas nosaukumu veido numurs, un otrādi. Arī Adresācijas noteikumu <a href=\"https://likumi.lv/ta/id/324387#p43\">43.1. punktā</a> rakstīts, ka \"apbūvei paredzētās zemes vienības, viensētas vai ēkas nosaukumu <strong>vai numuru</strong>, kas nav piesaistīts ielas nosaukumam, liek pēdiņās\". Tiesa, <a href=\"https://likumi.lv/ta/id/324387#p40\">40.1.</a> un <a href=\"https://likumi.lv/ta/id/324387#p41\">41.1. punktā</a> par numuru gan nav ne vēsts - visi ir nosaukumi. Lai vai kā, pie datu apstrādes var salikt arī atpakaļ pa laukiem tā, kā ir VZD sākotnējajos datos.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://likumi.lv/ta/id/324387#p43\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/91d1c88287840a065f2a7c4bd960e319f144ed00\\/68747470733a2f2f6c696b756d692e6c762f6c696b756d695f62696c6465732f5049432f4c494b3230302e4a5047)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://likumi.lv/ta/id/324387#p43\" title=\"Adresācijas noteikumi\">Adresācijas noteikumi</a></div><div class=\"message_embed_description\">Tiesību akti un to izmaiņas: visi jaunumi un arhīvs. Sistematizēti tiesību akti. Plašas meklēšanas un personalizētās iespējas. Vietni uztur „Latvijas Vēstnesis”</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://likumi.lv/ta/id/324387#p40\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/91d1c88287840a065f2a7c4bd960e319f144ed00\\/68747470733a2f2f6c696b756d692e6c762f6c696b756d695f62696c6465732f5049432f4c494b3230302e4a5047)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://likumi.lv/ta/id/324387#p40\" title=\"Adresācijas noteikumi\">Adresācijas noteikumi</a></div><div class=\"message_embed_description\">Tiesību akti un to izmaiņas: visi jaunumi un arhīvs. Sistematizēti tiesību akti. Plašas meklēšanas un personalizētās iespējas. Vietni uztur „Latvijas Vēstnesis”</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://likumi.lv/ta/id/324387#p41\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/91d1c88287840a065f2a7c4bd960e319f144ed00\\/68747470733a2f2f6c696b756d692e6c762f6c696b756d695f62696c6465732f5049432f4c494b3230302e4a5047)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://likumi.lv/ta/id/324387#p41\" title=\"Adresācijas noteikumi\">Adresācijas noteikumi</a></div><div class=\"message_embed_description\">Tiesību akti un to izmaiņas: visi jaunumi un arhīvs. Sistematizēti tiesību akti. Plašas meklēšanas un personalizētās iespējas. Vietni uztur „Latvijas Vēstnesis”</div></div></div>",
+        "id": 320113404,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673207627
+    },
+    {
+        "content": "<p>Laikam var pieņemt, ka noteikumi nav tik precīzi?</p>",
+        "id": 320115460,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673209164
+    },
+    {
+        "content": "<p>Varbūt tur kaut kāda doma ir apakšā, VZD tad būtu jājautā. Piem., atļautais un faktiskais lietojums.</p>",
+        "id": 320148131,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673238650
+    },
+    {
+        "content": "<p>Par neskaidro addr:place wiki dokumentāciju <a href=\"https://wiki.openstreetmap.org/wiki/Talk:Key:addr:place\">ierakstīju talk page</a>.</p>",
+        "id": 320157420,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673246673
+    }
+]

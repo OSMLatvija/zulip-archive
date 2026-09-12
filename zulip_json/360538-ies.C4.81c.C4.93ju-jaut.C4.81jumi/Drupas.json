@@ -1,0 +1,158 @@
+[
+    {
+        "content": "<p>Kā atzīmējam lauku viensētu drupas? <br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aplace%3Disolated_dwelling\">place=isolated_dwelling</a><br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aruins%3Dyes\">ruins=yes</a>?<br>\nUn vai atzīmē tikai centrālo ēku vai visas ēkas no kurām ir palikuši pāris akmeņi?</p>",
+        "id": 422576887,
+        "sender_full_name": "Mariss Zigats",
+        "timestamp": 1708508030
+    },
+    {
+        "content": "<p>Visprecīzāk ir <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aruins%3Abuilding\">ruins:building=*</a> katrai ēkai kā <a href=\"https://wiki.openstreetmap.org/wiki/Lifecycle_prefix\">life-cycle prefix</a>. <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aplace%3Disolated_dwelling\">place=isolated_dwelling</a> nav fizisks objekts, tāpēc tas ruins tīri tehniski nevar būt. Ja tur neviens nedzīvo, tad <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aplace%3Disolated_dwelling\">place=isolated_dwelling</a> vispār arī nebūtu jāliek. Ja tur tiešām ir nosaukums vietai, tad var atstāt (mums gan 90%+ nosaukumu sakrīt ar mājas adresi un tos var ņemt nost). <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aruins%3Dyes\">ruins=yes</a> pats par sevi ir viskur lietots, bet tas ir problemātisks tegs, jo ne visi parsētāji saprot tādu papildinājumu, kas pilnībā nomaina galvenā tega nozīmi. <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Abuilding\">building=*</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aruins%3Dyes\">ruins=yes</a> vai <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Druins\">building=ruins</a> ir daudz sastopami, bet tie nav gluži perfekti pareizi. Cik akmeņiem jāpaliek, lai tās sauktu par drupām... es vadītos - ja var saprast, ka te bija ēka, tad var uzskatīt, ka drupas.</p>",
+        "id": 422589315,
+        "sender_full_name": "HellMap",
+        "timestamp": 1708512289
+    },
+    {
+        "content": "<p>Ja palikušas sienas, tagoju tās ar <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dwall\">barrier=wall</a>.<br>\nPāris akmeņus īpaši netagoju, ja vien tur nav kaut kas no vēsturiska pieminekļa statusa.</p>",
+        "id": 422605075,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1708518178
+    },
+    {
+        "content": "<p>Tad saprotu, ka <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aruins%3Abuilding%3Dhouse\">ruins:building=house</a> būtu pareizi vietai, kur palikušas drupas un akmeņi no vecas dzīvojamās ēkas. Un, ja vēl ir saglabājušas kādas sienas, tad kādai no ēkām tad to var iezīmēt ar <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dwall\">barrier=wall</a>. Un, ja sanāk uzskriet vietai, kur vēl mazliet jumts turas tad tas būtu nevis ruins, bet <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aabandoned%3Abuilding%3Dhouse\">abandoned:building=house</a>?</p>",
+        "id": 422614979,
+        "sender_full_name": "Mariss Zigats",
+        "timestamp": 1708521359
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Drupas/near/422605075\">said</a>:</p>\n<blockquote>\n<p>Ja palikušas sienas, tagoju tās ar <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dwall\">barrier=wall</a>.<br>\nPāris akmeņus īpaši netagoju, ja vien tur nav kaut kas no vēsturiska pieminekļa statusa.</p>\n</blockquote>\n<p>Esmu redzējis, ka sienas tagotas ar <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dwall\">barrier=wall</a>, un manuprāt tā ir tegošana priekš renderera. Tad jāliek kaut kāds <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aruins%3Abarrier%3Dwall\">ruins:barrier=wall</a> - tā jau vairs nav siena, kurai funkcija ir siena. Bet nu tas ir tāds sīkuma, ka es nekad neesmu ne labojis ne aizticis tos piemērus. Es liktu sienu, ja tiešām tā ir ļoti gara, piemēram no noliktavas pamaties, bet ne kaut kādas lauku māju sienas.</p>",
+        "id": 422615467,
+        "sender_full_name": "HellMap",
+        "timestamp": 1708521504
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"634737\">Mariss Zigats</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Drupas/near/422614979\">said</a>:</p>\n<blockquote>\n<p>Tad saprotu, ka <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aruins%3Abuilding%3Dhouse\">ruins:building=house</a> būtu pareizi vietai, kur palikušas drupas un akmeņi no vecas dzīvojamās ēkas. Un, ja vēl ir saglabājušas kādas sienas, tad kādai no ēkām tad to var iezīmēt ar <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dwall\">barrier=wall</a>. Un, ja sanāk uzskriet vietai, kur vēl mazliet jumts turas tad tas būtu nevis ruins, bet <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aabandoned%3Abuilding%3Dhouse\">abandoned:building=house</a>?</p>\n</blockquote>\n<p>\"<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aabandoned%3Abuilding%3Dhouse\">abandoned:building=house</a>\" es laikam neliktu, jo nezinu, cik daudzi datu lietotāji vispār saprastu \"abandoned:building\".</p>",
+        "id": 422616233,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1708521761
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"634737\">Mariss Zigats</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Drupas/near/422614979\">said</a>:</p>\n<blockquote>\n<p>Un, ja sanāk uzskriet vietai, kur vēl mazliet jumts turas tad tas būtu nevis ruins, bet <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aabandoned%3Abuilding%3Dhouse\">abandoned:building=house</a>?</p>\n</blockquote>\n<p>Ar abandoned ir sarežģītāk. Te ir jāņēm vērā 2 faktori - kas tā lieta pēc būtības ir un kā to pēc būtības izmanto. Piemēram, <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dhouse\">building=house</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aabandoned%3Dyes\">abandoned=yes</a> / <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Adisused%3Dyes\">disused=yes</a> ir ok piemērs, ja ēka ir vienkārši pamesta, bet ne sagruvusi un teorētiski savu funkciju var pildīt. Kaut kāds <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ashop%3Dclothes\">shop=clothes</a> gan būtu jāliek <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Adisused%3Ashop%3Dclothes\">disused:shop=clothes</a>, jo veikals funkciju nepilda. Cik tam stāvoklim jābūt sliktam, lai ēka parvērstos no <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dhouse\">building=house</a> uz <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aabandoned%3Abuilding%3Dhouse\">abandoned:building=house</a> un pēc tam uz <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aruins%3Abuilding%3Dhouse\">ruins:building=house</a>, tas tad subjektīvi jāvērtē.</p>",
+        "id": 422616268,
+        "sender_full_name": "HellMap",
+        "timestamp": 1708521779
+    },
+    {
+        "content": "<p>Aha, tad jāpieturas pie  <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dhouse\">building=house</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aabandoned%3Dyes\">abandoned=yes</a></p>",
+        "id": 422616728,
+        "sender_full_name": "Mariss Zigats",
+        "timestamp": 1708521912
+    },
+    {
+        "content": "<p>Man pat šķiet, ka <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aabandoned%3Abuilding%3Dhouse\">abandoned:building=house</a> vispār nav (OSM) semantiski  derīgs.</p>",
+        "id": 422640208,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1708528575
+    },
+    {
+        "content": "<p>Kapēc? <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aabandoned%3Abuilding\">abandoned:building=*</a> ir 136,000 kartēti. Pat wiki lapa ar aprakstu un piemēriem. Piemēri arī izskatās, kā augstāk minēju - kad funkcija no \"izmantojams\" pārvēršas uz \"pamests\" bet nav vēl nojaukts vai sabrucis.</p>",
+        "id": 422655251,
+        "sender_full_name": "HellMap",
+        "timestamp": 1708532232
+    },
+    {
+        "content": "<p>Jo tad visiem datu lietotājiem jāsaprot/jāatbalsta šie prefiksi - un katrs prefikss nozīmē ko radikāli citu.<br>\nPatiesībā building= un abandoned:building= ir identiski - abos gadījumos ēka ir. Varbūt pareizāk būtu kas tāds kā <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dabandoned%3Aapartments\">building=abandoned:apartments</a>...</p>\n<p>Tas gandrīz vai ir Tevis dažreiz pieminētais trolltags. Pat osm-carto to neatbalsta, un mēs dabūjam šādus:<br>\n<a href=\"https://www.openstreetmap.org/way/87297619\">https://www.openstreetmap.org/way/87297619</a></p>\n<p>Šķiet, vajadzētu tikt no tiem Latvijā vaļā pat.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/87297619\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/87297619\" title=\"Way: 87297619 | OpenStreetMap\">Way: 87297619 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 422662964,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1708534282
+    },
+    {
+        "content": "<p>T.i., tas nav _ēkas_ lifecycle statuss, bet tās _satura_ lifecycle statuss.</p>",
+        "id": 422663169,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1708534337
+    },
+    {
+        "content": "<p>Un kā apzīmē esošu ēku, kurai nodedzis viens stāvs. Vai līdzīgi? It kā nav drupas, bet apdzīvota arī netiek. Gaida atjaunošanu, piemēram.</p>",
+        "id": 422663295,
+        "sender_full_name": "Līga Rutka",
+        "timestamp": 1708534384
+    },
+    {
+        "content": "<p>laikam tas pats? <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aabandoned%3Abuilding%3Dhouse\">abandoned:building=house</a> <span aria-label=\"rolling eyes\" class=\"emoji emoji-1f644\" role=\"img\" title=\"rolling eyes\">:rolling_eyes:</span></p>",
+        "id": 422665245,
+        "sender_full_name": "Līga Rutka",
+        "timestamp": 1708534941
+    },
+    {
+        "content": "<p>Es atkal noteikti neliktu abandoned:building.<br>\nTas objekts pazudīs no visām kartēm.<br>\nVarbūt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dabandoned%3Ahouse\">building=abandoned:house</a> (un ja tādu nav daudz, tas nekas, OSM lietas notiek darot ;) ).</p>",
+        "id": 422669130,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1708536056
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Drupas/near/422662964\">said</a>:</p>\n<blockquote>\n<p>Jo tad visiem datu lietotājiem jāsaprot/jāatbalsta šie prefiksi - un katrs prefikss nozīmē ko radikāli citu.</p>\n</blockquote>\n<p>Tieši tā. Life-cycle prefiksi nav kaut kāds rets izņēmums, bet standarta tegi ar miljoniem lietojumu. Ja datu lietotāji un kartes to neatbalsta, tad tā ir viņu problēma.</p>",
+        "id": 422669340,
+        "sender_full_name": "HellMap",
+        "timestamp": 1708536129
+    },
+    {
+        "content": "<p>Jo nu te... prasās uzzīmēt pa virsu vēl vienu ēku =)<br>\n<a href=\"/user_uploads/49624/coXUICLD2g3lmWbY-O14lr9j/image.png\">kā pamesta, tā izzūd</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/coXUICLD2g3lmWbY-O14lr9j/image.png\" title=\"kā pamesta, tā izzūd\"><img src=\"/user_uploads/49624/coXUICLD2g3lmWbY-O14lr9j/image.png\"></a></div>",
+        "id": 422669365,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1708536138
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"581217\">Līga Rutka</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Drupas/near/422663295\">said</a>:</p>\n<blockquote>\n<p>Un kā apzīmē esošu ēku, kurai nodedzis viens stāvs. Vai līdzīgi? It kā nav drupas, bet apdzīvota arī netiek. Gaida atjaunošanu, piemēram.</p>\n</blockquote>\n<p>Ja daļa nodegusi, es jau liktu ruins. To vairs nevar atgriezt izmantošanā bez nopietnas pārbūves.</p>",
+        "id": 422669689,
+        "sender_full_name": "HellMap",
+        "timestamp": 1708536247
+    },
+    {
+        "content": "<p>Nūū, jau tā cilvēki sūdzas, ka OSM datu modelis dažreiz ir \"user-hostile\".<br>\nJa pat <a href=\"http://osm.org\">osm.org</a> neatbalsta, tad rūpīgi jāizvērtē, vai tas ir kas sakarīgs.</p>\n<p>Un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aabandoned%3Abuilding%3Dhouse\">abandoned:building=house</a> šķiet tā kā neloģiski, maigi izsakoties.<br>\nĒka nekur nav zudusi. Tā joprojām ir building=. Tas, kas ir zudis - lietojums.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"http://osm.org\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"http://osm.org\" title=\"OpenStreetMap\">OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 422669744,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1708536269
+    },
+    {
+        "content": "<p>Es nebrīnītos, ja Overture abandoned:building vienkārši konvertētu uz building, ar to vien pāris miljonus nopelnot :&gt;</p>",
+        "id": 422669934,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1708536336
+    },
+    {
+        "content": "<p>Nu bet es jau augstāk arī teicu, ka <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dhouse\">building=house</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aabandoned%3Dyes\">abandoned=yes</a> ir normāls piemērs un <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aabandoned%3Abuilding\">abandoned:building=*</a> wiki lapā parādīti daudz pamestāki piemēri. Es jau nesaku visus <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aabandoned%3Dyes\">abandoned=yes</a> automātiski uz life-cycle prefix. Piemēra ēka ir jau izdemolēta un aizmūrēta līdz \"te pat ienākt bīstami\" pakāpei <a href=\"https://www.mapillary.com/app/?pKey=1789162918150402&amp;focus=photo\">https://www.mapillary.com/app/?pKey=1789162918150402&amp;focus=photo</a> Es šo uz vietas novērtēju toreiz kā ēkas funkciju nepildošu objektu, kuru nākotnē var tikai nojaukt un neko tur atjaunot nevar.</p>",
+        "id": 422670948,
+        "sender_full_name": "HellMap",
+        "timestamp": 1708536613
+    },
+    {
+        "content": "<p>Ja default kartes veidotāji nebūtu tik kategoriski vērsti pret visām izmaiņām, tad sen jau būtu pielikuši populāros life-cycle prefixus. Bet tur vienu issue uzrakstot uzreiz tev visi saka, ka nevajag to vispār zīmē - taisi savu karti un pats zīmē, ja vajag. Vispirms ar to attieksmi jātiek galā, bet paši dati priekš tā nebūtu jāmaina.</p>",
+        "id": 422671446,
+        "sender_full_name": "HellMap",
+        "timestamp": 1708536753
+    },
+    {
+        "content": "<p>Un par ēkām konkrēti, var jau pielikt <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Abuilding%3Ause\">building:use=*</a>, bet piemēros, ko es minu, ēku stāvoklis it tāds, ka building:use vairs nekāds nav un nevar būt.</p>",
+        "id": 422671605,
+        "sender_full_name": "HellMap",
+        "timestamp": 1708536807
+    },
+    {
+        "content": "<p>Bet ēka ir un fiziski ir pat ļoti pamanāma. Un šī pat neizskatās pēc tādas \"jāpārbūvē sienas\".<br>\nŠajā situācijā es pat atbalstītu carto uzturētājus, ja viņi apzināti abandoned:building nevēlētos atbalstīt - tas nevajadzīgi sarežģī dzīvi visiem.</p>\n<p>Heh, tagad tik palasīju <a href=\"https://wiki.openstreetmap.org/wiki/Key:abandoned:building\">https://wiki.openstreetmap.org/wiki/Key:abandoned:building</a> - pat tur ir \"some mappers\", un pieminēts strīdīgums :)</p>",
+        "id": 422675065,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1708538036
+    },
+    {
+        "content": "<p>Šis šķiet labs salīdzinājums:</p>\n<blockquote>\n<p>For the same reason why we shouldn't use <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aabandoned%3Abuilding\">abandoned:building=*</a>, we don't use \"<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abad%3Ahighway%3Dresidential\">bad:highway=residential</a>\", \"<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahorrible%3Ahighway%3Dresidential\">horrible:highway=residential</a>\", but we use \"<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dresidential\">highway=residential</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asmoothness%3Dbad\">smoothness=bad</a> / horrible\" - becuase it is still a road, in worse state but still a road. I won't cycle on such with horrible smoothness, but I can use other vehicles to pass.</p>\n</blockquote>",
+        "id": 422676360,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1708538481
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amud_when_rainy%3Ahighway%3Dsure\">mud_when_rainy:highway=sure</a></p>",
+        "id": 422676426,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1708538509
+    }
+]

@@ -1,0 +1,80 @@
+[
+    {
+        "content": "<p>Paldies. Iezīmēšu.</p>",
+        "id": 343745924,
+        "sender_full_name": "Andris",
+        "timestamp": 1679507028
+    },
+    {
+        "content": "<p>Rīki nav sarežģīti, ieliec sava changeset ID un viss redzams. Ir arī <a href=\"https://github.com/jgpacker/osm-smart-menu\">https://github.com/jgpacker/osm-smart-menu</a> ar ko var ātri atvērt kuru grib.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/jgpacker/osm-smart-menu\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/0edfb3a9830332a8b9f3a4964807ba5af9896a16\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f646438336237613331663931373263386266353937343937636137373732356465643331383034613866636233376236633564623065616334336638333837632f6a677061636b65722f6f736d2d736d6172742d6d656e75)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/jgpacker/osm-smart-menu\" title=\"GitHub - jgpacker/osm-smart-menu: An OpenStreetMap webextension for Firefox and Chrome\">GitHub - jgpacker/osm-smart-menu: An OpenStreetMap webextension for Firefox and Chrome</a></div><div class=\"message_embed_description\">An OpenStreetMap webextension for Firefox and Chrome - GitHub - jgpacker/osm-smart-menu: An OpenStreetMap webextension for Firefox and Chrome</div></div></div>",
+        "id": 343746289,
+        "sender_full_name": "Colby",
+        "timestamp": 1679507119
+    },
+    {
+        "content": "<p>Te jau problēma, ka changeset id nav zināms</p>",
+        "id": 343746409,
+        "sender_full_name": "HellMap",
+        "timestamp": 1679507150
+    },
+    {
+        "content": "<p>ar 13. gs kapiem varbūt <a href=\"https://wiki.openstreetmap.org/wiki/Lifecycle_prefix\">lifecycle prefix</a></p>",
+        "id": 343746785,
+        "sender_full_name": "Colby",
+        "timestamp": 1679507244
+    },
+    {
+        "content": "<p>Par JOSM runājot, varbūt to saglabāji izmaiņas failā nevis uploadoji uz serveri. JOSMā viegli sačakarēt</p>",
+        "id": 343748113,
+        "sender_full_name": "HellMap",
+        "timestamp": 1679507607
+    },
+    {
+        "content": "<p>15 messages were moved here from <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/Vietv.C4.81rdu.20Datub.C4.81ze\">#general &gt; Vietvārdu Datubāze</a> by <span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span>.</p>",
+        "id": 343748302,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1679507651
+    },
+    {
+        "content": "<p>Iespējams atradu, no kurienes informācija par <a href=\"http://13.gs\">13.gs</a>. kapiem - bet bildē manis iezīmētie 1PK kapi<br>\n<a href=\"https://timenote.info/lv/Kalninu-kapseta-(Kalning)\">https://timenote.info/lv/Kalninu-kapseta-(Kalning)</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://timenote.info/lv/Kalninu-kapseta-(Kalning)\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/865a568c92db3aa2b1f37881aeed350803c74e69\\/68747470733a2f2f6d65646961322e6e656b726f706f6c652e696e666f2f323031362f30312f4b616c6e696e752d6b6170736574612d2d4b616c6e696e672d5f353639663066343564306136662e6a7067)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://timenote.info/lv/Kalninu-kapseta-(Kalning)\" title=\"Kalniņu kapsēta (Kalning)\">Kalniņu kapsēta (Kalning)</a></div><div class=\"message_embed_description\">Vācu karavīru kapsēta \"Kalning\" pie Sakaiņu pilskalna (13 gs.).  Apbedīto skaits: 33   Pilskalnā vācu bunkuru un ierakumu pēdas, jo pilskalns bija svarīgs vācu </div></div></div>",
+        "id": 343759151,
+        "sender_full_name": "Andris",
+        "timestamp": 1679510736
+    },
+    {
+        "content": "<blockquote>\n<p>\"Vācu armijas karavīru kapi“Kalning” pie Sakaiņu pilskalna.&#8196;Kapos apglabāti 33 vācu armijas karavīri, kas ir lielākais kārtas numurs uz individuālā betona krustiņa, kas saglabājies. 1937. gadā uzstādīts centrālais piemineklis un individuālie betona krustiņi ar kritušā karavīra vārdu, karaspēka daļas piederību un bojāejas datējumu. Kapu teritoriju norobežo zemes valnis ar mūrētiem ieejas vārtiem.\" <a href=\"http://kekava.travel/images/kartes/kekavas_piemineklu_karte_2018.pdf\">http://kekava.travel/images/kartes/kekavas_piemineklu_karte_2018.pdf</a></p>\n</blockquote>\n<p>vietvārdu datubāzē šādi, vieta atbilst tam ko tu iezīmēji pāri ceļam</p>",
+        "id": 343780374,
+        "sender_full_name": "Colby",
+        "timestamp": 1679517469
+    },
+    {
+        "content": "<p>nesaprotu kur timenote izvilvilcis 13 gadsimtu</p>",
+        "id": 343780973,
+        "sender_full_name": "Colby",
+        "timestamp": 1679517665
+    },
+    {
+        "content": "<p>soshial ir osm world discordā<br>\npaprasīju viņam</p>",
+        "id": 343781941,
+        "sender_full_name": "Colby",
+        "timestamp": 1679518011
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Kapi.20pie.20Sakai.C5.86u.20pilskalna/near/343748113\">said</a>:</p>\n<blockquote>\n<p>Par JOSM runājot, varbūt to saglabāji izmaiņas failā nevis uploadoji uz serveri. JOSMā viegli sačakarēt</p>\n</blockquote>\n<p>Saglabājot lokāli jāievada faila nosaukums, tas jau uzreiz būs aizdomīgi un pamanāmi. Bet ja pēdējais changeset no 12. februāra, tad jā - kaut kas nebūs īsti uploadojies.</p>",
+        "id": 343786229,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1679519426
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Kapi.20pie.20Sakai.C5.86u.20pilskalna/near/343743063\">said</a>:</p>\n<blockquote>\n<p>Neredzu nevienu changesetu šitajā vietā. Vienīgais, kas min kapus ir <a href=\"https://www.openstreetmap.org/changeset/74189599\">https://www.openstreetmap.org/changeset/74189599</a></p>\n</blockquote>\n<p>Ieraudzīju \"Martenberg\" kapus, uzreiz atcerējos, ka tur ir būts un kaut kas zīmēts kartē :)</p>",
+        "id": 343786589,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1679519573
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572009\">Andris</span> <a href=\"#narrow/stream/358602-general/topic/Kapi.20pie.20Sakai.C5.86u.20pilskalna/near/343759151\">said</a>:</p>\n<blockquote>\n<p>Iespējams atradu, no kurienes informācija par <a href=\"http://13.gs\">13.gs</a>. kapiem - bet bildē manis iezīmētie 1PK kapi<br>\n<a href=\"https://timenote.info/lv/Kalninu-kapseta-(Kalning)\">https://timenote.info/lv/Kalninu-kapseta-(Kalning)</a></p>\n</blockquote>\n<p>Gan jau ka pilskalns ir 13. gadsimta, ne kapi.</p>",
+        "id": 343786870,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1679519660
+    }
+]

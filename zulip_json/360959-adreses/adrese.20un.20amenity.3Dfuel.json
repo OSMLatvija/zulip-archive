@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571929\">Dāvis Kļaviņš</span> <a href=\"#narrow/stream/360959-adreses/topic/adrese.20un.20amenity.3Dfuel/near/422549200\">said</a>:</p>\n<blockquote>\n<p>Jā, tas jau loģiski, jo visiem amenities u.c. adreses tiek liktas papildus. Adrešu punkta nebūtu, ja būtu ēka, bet šeit ēka nav iezīmēta.</p>\n</blockquote>\n<p>Ā, skaidrs. Nu jā, ja amenities visiem tā liek, laikam neko īpaši labāku tur nevar izdomāt.</p>",
+        "id": 422604710,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1708518048
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360959-adreses/topic/adrese.20un.20amenity.3Dfuel/near/422590006\">said</a>:</p>\n<blockquote>\n<p>Te diezgan šķībi iezīmēts. Laukumam jābūt fuel nevis retail un ēkai jābūt building nevis fuel. Es pielaboju.</p>\n</blockquote>\n<p>Tehniski amenity varētu būt arī uz tās jumta daļas, bet tas salīdzinoši sīkums. Šo es sāku labot un papildināt, bet tad visam uzliku undo, jo gribēju te pajautāt :)</p>",
+        "id": 422604826,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1708518098
+    }
+]

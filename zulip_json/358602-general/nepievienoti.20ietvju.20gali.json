@@ -1,0 +1,194 @@
+[
+    {
+        "content": "<p>Te tādi nepievienoti ietvju gali, kuri routingam traucē - vai tas kādreiz (izņemot tiešām fiziskus strupceļus) būtu noderīgi, vai arī vienkārši vienojam visus klāt?<br>\n<a href=\"https://www.openstreetmap.org/#map=19/56.95601/23.61686\">https://www.openstreetmap.org/#map=19/56.95601/23.61686</a><br>\n<a href=\"/user_uploads/49624/3XKkeIUYqa9zYFvw3GryBIt_/image.png\">gali</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/3XKkeIUYqa9zYFvw3GryBIt_/image.png\" title=\"gali\"><img src=\"/user_uploads/49624/3XKkeIUYqa9zYFvw3GryBIt_/image.png\"></a></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/#map=19/56.95601/23.61686\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/#map=19/56.95601/23.61686\" title=\"OpenStreetMap\">OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 373658293,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1688896471
+    },
+    {
+        "content": "<p>Es tādus esmu bieži atstājis. Es arī agrāk skatījos un nepabeigtām lietām un domāju - kāpēc ne līdz galam. Te ir vairāki faktori, piemēram:</p>\n<p>Es nezinu, kā tie konkrēti savienojas - kur ir apmale, utt. Savienojot uz minēšanu labot pēc tam ir grūtāk nekā apsekojot un \"pabeigt\" zīmēt. Šādi nepareizi savienojumi visu laiku sastopās un tad kāds piedomā klāt poligonus un uzliek route un pievieno landuse...</p>\n<p>Pirms tam nebija nekā - tagad vismaz kaut kas. Šis celiņš kaut kur beigtos jebkurā gadījumā - lai arī kur es nepārtrauktu zīmēt, nebūtu tālāk. Sliktākajā gadījumā - routings pirms tam nekad nebija un arī tagad nav.</p>\n<p>Es zīmēju pavisam kaut ko citu un uzzīmēju arī šos blakus, bet man nav laika līdz galam pabeigt katru sānceļu. Tagad, ja kāds cits grib savienot vai pabeigt, jau ir vismaz kaut kad iezīmēts.</p>\n<p>Tur pat apakšā piemērs ap <a href=\"https://www.openstreetmap.org/node/3531533602\">https://www.openstreetmap.org/node/3531533602</a>, kā ir kad \"savienojam līdz galam\" un gājēju ceļš pāri zālei, pāri servisa ceļam, nogriežot apmales un vispār tālāk neizbūvēts zemes celiņš.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/3531533602\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/3531533602\" title=\"Node: 3531533602 | OpenStreetMap\">Node: 3531533602 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 373661912,
+        "sender_full_name": "HellMap",
+        "timestamp": 1688897442
+    },
+    {
+        "content": "<p>Vispārīgi runājot - jā, tie jāpievieno klāt. Bet tas nav \"vienkārši\". Pirmkārt - jāzīmē katrā krustojumā \"četrstūris\" lai no katra gala uz katru būtu. Priekš tam ir jāzin, kurās pusēs vispār ir ietves. Ortofoto zem kokiem redzēt nevar. Katrs otrais krustojums ar izņēmumiem un specifiku. Piemēram, šitas pats - <a href=\"https://www.mapillary.com/app/?pKey=786652899539153&amp;focus=photo\">https://www.mapillary.com/app/?pKey=786652899539153&amp;focus=photo</a> -  vienā galā \"mežā\" turpinās, otrā galā uz dzīvojamo rajonu pārtrūkst - viss otrādāk nekā es būtu minējis.</p>",
+        "id": 373663827,
+        "sender_full_name": "HellMap",
+        "timestamp": 1688897987
+    },
+    {
+        "content": "<p>Kopumā noteikti, OSM dati ir \"vienmēr papildināmi\".<br>\nTādi nepievienoti ietvju gali gan bojā maršrutēšanu, tiem es pielietptu principu \"viss var palikt nepabeigts, ja tas nekaitē datu izmantošanai\" :)</p>",
+        "id": 374204988,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1689069919
+    },
+    {
+        "content": "<p>Paga, bet kā tas bojā maršrutēšanu?</p>",
+        "id": 374205055,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689069937
+    },
+    {
+        "content": "<p>Gājēju/velo maršrutēšana no tā punkta liek taisīt jocīgus līkumus, lai gan reāli tā neviens nepārvietotos.</p>",
+        "id": 374207649,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1689070467
+    },
+    {
+        "content": "<p>Es ne visai saprotu, kurš maršrutētājs tur kaut ko dara? Ja nav savienots, neviens tur neiet. Ja ir teorētiski maršrutētājs, kas saprot ietves, tad tas savienos (jebkurā ietves vietā).</p>",
+        "id": 374209006,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689070685
+    },
+    {
+        "content": "<p>Nu tikai, ja tu sāc maršrutēt reāli tieši šitajā vietā... bet nu.</p>",
+        "id": 374209231,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689070716
+    },
+    {
+        "content": "<p>Neviens neizmanto maršrutēšanu \"ceļojumiem\" uz pāris simts metriem. Ka maršruta sākums un beigas ir kaut kur tālumā, tad šajā posmā routing vedīs pa brauktuvi, ja vienīgi profilā nav uzlikts pietiekami liels penalty, lai cits garāks ceļš, kur garantēti ir ietve, izskatītos labāks. Nav ideāli, bet nav arī pilnīgi salauzts.</p>",
+        "id": 374209469,
+        "sender_full_name": "i-ky",
+        "timestamp": 1689070749
+    },
+    {
+        "content": "<p>Es protams varu savienot tikai no ortofoto, bet kā es varu zināt, ka tur nav piemēram (lopu) žogs? Es labāk atstāju napabeigtu nekā nepareizu. Man ir daudz vairāk bail savienot neesošu nekā atstāt nesavienotu esošu.</p>",
+        "id": 374210076,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689070849
+    },
+    {
+        "content": "<p>Jā, tieši sākums un beigas ir tie, ko es praktiski pamanu :)<br>\nUzlieku Garminā maršrutēšanu, un tur pēkšņi \"ej pa šo ielu simts metrus turp, tad apakaļ\".<br>\nŽoga iespējamība - jā, var būt, bet tie jau parasti lielākās pilsētās, mazākās netaisa nešķērsojamus krustojumus (un parasti jau kāda Mapillary bilde arī būs).</p>",
+        "id": 374221494,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1689073120
+    },
+    {
+        "content": "<p>Tādās vietās Mapillary gan gandrīz nekad nav. Un te jau atpakaļ pie tā, ka tad man tas speciāli jādara. Un ja izvēle nedarīt neko vai vismaz kaut ko...</p>",
+        "id": 374227074,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689074250
+    },
+    {
+        "content": "<p>Jā, gandrīz vai dilemma sanāk :)<br>\nBet zinkā, šitādiem notes derētu. Lieta, kuru ļoti viegli klātienē pārbaudīt.</p>",
+        "id": 374227317,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1689074299
+    },
+    {
+        "content": "<p>Nu ja es vēl notes likšu katram krustojumam, kur es pa 5 sekundēm pievelku ietvi braucot kaut kur nedadz citur garām... Šitas pats Jūrmala izbrauciens būtu kādi 200 notes.</p>",
+        "id": 374228750,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689074578
+    },
+    {
+        "content": "<p>Nulab, Jūrmalā ganrīz visur būs Mapillary :)<br>\nŽēl, ka Jūrmalā nav kāda skola vai kas tamlīdzīgs ar ieinteresētiem pasniedzējiem, tur daudz potenciāla.</p>",
+        "id": 374241608,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1689077140
+    },
+    {
+        "content": "<p>Nez kurā Jūrmalā tu skaties. Bet 90% vietu, kur es Jūrmalā braucu Mapillary nebija un, ja bija, tad ļoti vecs.<br>\n<a href=\"/user_uploads/49624/hEVAmjvj_D6kKLcoPgotU_sz/jurmala-mapil.png\">jurmala-mapil.png</a><br>\nEs jau nebraucu gar šoseju pa veloietvi, bet pa sīkiem ceļiem. Rajons, pa kuru piemērs ir bez nevienas bildes.</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/hEVAmjvj_D6kKLcoPgotU_sz/jurmala-mapil.png\" title=\"jurmala-mapil.png\"><img src=\"/user_uploads/49624/hEVAmjvj_D6kKLcoPgotU_sz/jurmala-mapil.png\"></a></div>",
+        "id": 374244989,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689077845
+    },
+    {
+        "content": "<p>Hehe, tieši tur tūlīt vajadzētu būt jaunām bildēm, pirms pāris dienām augšuplādētas :)<br>\nNebūs gan visas ielas, taisnība.</p>",
+        "id": 374257373,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1689080289
+    },
+    {
+        "content": "<p>Es tavas bildes pamazām redzu, jā. Bet tikai ņem vērā, ka mēs kopš šitā piemēra tajā vietā Jūrmalā pa 17000% bilžu palielinājām. Tāpēc nevarētu teikt, ka tos piemērus varēja kaut kādā veidā pirms tam vai tajā laikā labot (pat ja būtu vēlme).</p>",
+        "id": 374259093,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689080626
+    },
+    {
+        "content": "<p>Te piemērs, kur gājēju maršrutēšana vai nu vestu pa ielu, vai ar vairākus kvartālus lielu līkumošanu.<br>\n<a href=\"/user_uploads/49624/c_YioDMtgk5AAHLQ0RJO5yxc/image.png\">ietves</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/c_YioDMtgk5AAHLQ0RJO5yxc/image.png\" title=\"ietves\"><img src=\"/user_uploads/49624/c_YioDMtgk5AAHLQ0RJO5yxc/image.png\"></a></div>",
+        "id": 376591959,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1689758975
+    },
+    {
+        "content": "<p>Nu jā, tādu miljons. Reti kurš savieno ar ceļiem katrā krustojumā. Bet routeri arī vainīgi, jo sidewalk principā nozīmē, ka var nokļūt uz ceļu jebkurā vietā un jau gadiem neviens routers pat tuvu neimplementē.</p>",
+        "id": 376594957,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689759576
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/nepievienoti.20ietvju.20gali/near/376594957\">said</a>:</p>\n<blockquote>\n<p>Bet routeri arī vainīgi, jo sidewalk principā nozīmē, ka var nokļūt uz ceļu jebkurā vietā un jau gadiem neviens routers pat tuvu neimplementē.</p>\n</blockquote>\n<p>Pirmkārt, tur nav <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Asidewalk\">sidewalk=*</a> taga uz brauktuves. Otrkārt, <a href=\"#narrow/stream/358602-general/topic/nepievienoti.20ietvju.20gali/near/374210076\">pats agrāk teici, ka var būt žogs</a> vai zālājs/krūmi un nevar jebkurā vietā tikt no ietves uz brauktuvi.</p>",
+        "id": 376600339,
+        "sender_full_name": "i-ky",
+        "timestamp": 1689760676
+    },
+    {
+        "content": "<p>Cilvēki, diemžēl, nesaprot, ka micromapping nav \"all fun and games\". Vajag <em>daudz</em> vairāk zīmēt, lai sasniegtu to pašu lietojamības (no routing viedokļa) līmeni, ko var samēra vienkārši panākt ar <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Asidewalk\">sidewalk=*</a> uz brauktuvēm.</p>",
+        "id": 376601349,
+        "sender_full_name": "i-ky",
+        "timestamp": 1689760864
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/nepievienoti.20ietvju.20gali/near/376591959\">said</a>:</p>\n<blockquote>\n<p>Te piemērs, kur gājēju maršrutēšana vai nu vestu pa ielu, vai ar vairākus kvartālus lielu līkumošanu.</p>\n</blockquote>\n<p>Pat tad tā nebūs sliktāka par Google Maps. :)</p>",
+        "id": 376616699,
+        "sender_full_name": "i-ky",
+        "timestamp": 1689763856
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/nepievienoti.20ietvju.20gali/near/376600339\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/nepievienoti.20ietvju.20gali/near/376594957\">said</a>:</p>\n<blockquote>\n<p>Bet routeri arī vainīgi, jo sidewalk principā nozīmē, ka var nokļūt uz ceļu jebkurā vietā un jau gadiem neviens routers pat tuvu neimplementē.</p>\n</blockquote>\n<p>Pirmkārt, tur nav <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Asidewalk\">sidewalk=*</a> taga uz brauktuves. Otrkārt, <a href=\"#narrow/stream/358602-general/topic/nepievienoti.20ietvju.20gali/near/374210076\">pats agrāk teici, ka var būt žogs</a> vai zālājs/krūmi un nevar jebkurā vietā tikt no ietves uz brauktuvi.</p>\n</blockquote>\n<p>Es arī routera \"no footway uz ielu jebkur\" uzvedību uztvertu kā kļūdu. Pirmkārt, visādi žodziņi, augstas apmales utt vēl ilgi (vai nekad?) netiks sakartēti visur. Otrkārt, maršrutēšana tad būtu nenormāli sarežģīta, jo routeriem būtu jāņem vērā tik daudzi objekti un tas ir vēl trakāk nekā maršrutēšana, piem., <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dservice\">highway=service</a> <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aarea%3Dyes\">area=yes</a>...</p>",
+        "id": 376626226,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1689765739
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/nepievienoti.20ietvju.20gali/near/376601349\">said</a>:</p>\n<blockquote>\n<p>Cilvēki, diemžēl, nesaprot, ka micromapping nav \"all fun and games\". Vajag <em>daudz</em> vairāk zīmēt, lai sasniegtu to pašu lietojamības (no routing viedokļa) līmeni, ko var samēra vienkārši panākt ar <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Asidewalk\">sidewalk=*</a> uz brauktuvēm.</p>\n</blockquote>\n<p>Ļoti cenšos salabot tādas vietas, lai micromapping nepadarītu citus aspektus - kā maršrutēšanu sliktākus. Te arī savienoju, cik no ortofoto varēja noprast.<br>\nTur blakus tūlīt būs OSM pasākums, varbūt drīz arī vietējie visu reģionu uzlabos :)</p>",
+        "id": 376626517,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1689765815
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/nepievienoti.20ietvju.20gali/near/376616699\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/nepievienoti.20ietvju.20gali/near/376591959\">said</a>:</p>\n<blockquote>\n<p>Te piemērs, kur gājēju maršrutēšana vai nu vestu pa ielu, vai ar vairākus kvartālus lielu līkumošanu.</p>\n</blockquote>\n<p>Pat tad tā nebūs sliktāka par Google Maps. :)</p>\n</blockquote>\n<p>Šitā bīstami salīdzināt, cenšamies salīdzināt ar labākiem piemēriem, OSM agrāk un potenciāli labāko iespējamo, uz ko tiekties :)</p>",
+        "id": 376626841,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1689765872
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/nepievienoti.20ietvju.20gali/near/376626226\">said</a>:</p>\n<blockquote>\n<p>Es arī routera \"no footway uz ielu jebkur\" uzvedību uztvertu kā kļūdu.</p>\n</blockquote>\n<p>Tajā pašā laikā, kad <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Asidewalk\">sidewalk=*</a> uz brauktuves jebkurā savienojumā lēkā pāri 4 joslu brauktuvei par kļūdu netiek uzskatīts. <br>\n<a href=\"/user_uploads/49624/OYJ8YAcBGjIYFDVaYR0Uyzgw/swd.png\">swd.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/OYJ8YAcBGjIYFDVaYR0Uyzgw/swd.png\" title=\"swd.png\"><img src=\"/user_uploads/49624/OYJ8YAcBGjIYFDVaYR0Uyzgw/swd.png\"></a></div>",
+        "id": 376628647,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689766230
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/nepievienoti.20ietvju.20gali/near/376628647\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/nepievienoti.20ietvju.20gali/near/376626226\">said</a>:</p>\n<blockquote>\n<p>Es arī routera \"no footway uz ielu jebkur\" uzvedību uztvertu kā kļūdu.</p>\n</blockquote>\n<p>Tajā pašā laikā, kad <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Asidewalk\">sidewalk=*</a> uz brauktuves jebkurā savienojumā lēkā pāri 4 joslu brauktuvei par kļūdu netiek uzskatīts. <br>\n<a href=\"/user_uploads/49624/OYJ8YAcBGjIYFDVaYR0Uyzgw/swd.png\">swd.png</a></p>\n</blockquote>\n<p>To daļēji izskaidro <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk%3Dleft\">sidewalk=left</a> uz <a href=\"https://www.openstreetmap.org/way/876288972\">https://www.openstreetmap.org/way/876288972</a> (kas neatbilst patiesībai, jābūt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk%3Dseparate\">sidewalk=separate</a>). Routing domā, ka tur var iet pa ietvi.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/876288972\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/876288972\" title=\"Way: ‪Lubānas iela‬ (‪876288972‬) | OpenStreetMap\">Way: ‪Lubānas iela‬ (‪876288972‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 376630078,
+        "sender_full_name": "i-ky",
+        "timestamp": 1689766531
+    },
+    {
+        "content": "<p>Tieši tā - <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Asidewalk\">sidewalk=*</a> uz brauktuves nestrādā. Ja tur ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk%3Dleft\">sidewalk=left</a>, kāpēc routeris uzskata, ka var pāri ielai pārlekt? Tur nav <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk%3Dboth\">sidewalk=both</a>. Un tegi, lai aprakstītu, ko var savienojumā ar servisa ceļu darīt vispār OSM neeksistē.</p>",
+        "id": 376631444,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689766800
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/nepievienoti.20ietvju.20gali/near/376631444\">said</a>:</p>\n<blockquote>\n<p>Ja tur ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk%3Dleft\">sidewalk=left</a>, kāpēc routeris uzskata, ka var pāri ielai pārlekt? Tur nav <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk%3Dboth\">sidewalk=both</a>.</p>\n</blockquote>\n<p>Tur nav jālec no ietves uz ietvi pāri brauktuvei, tur pēc routera domām vajag <a href=\"https://www.openstreetmap.org/node/59721368\">vienā krustojumā</a> pāriet brauktuvi un pagriezties uz ietves. <a href=\"https://www.openstreetmap.org/node/1655515553\">Otrajā krustojumā</a> nogriezties no ietves uz servisa ceļu. Kāpēc gan to nebūtu iespējams izdarīt? <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alanes%3D4\">lanes=4</a> pats par sevi vēl neko neizsaka, var mierīgi būt 4 joslas un neviens nebrauc. Tāpat kā 2 joslas un nav iespējas pārskriet pāri (piemēram Baltezerā).</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/59721368\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/59721368\" title=\"Node: 59721368 | OpenStreetMap\">Node: 59721368 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/1655515553\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/1655515553\" title=\"Node: 1655515553 | OpenStreetMap\">Node: 1655515553 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 376641280,
+        "sender_full_name": "i-ky",
+        "timestamp": 1689768693
+    },
+    {
+        "content": "<p>Laikam arī <a href=\"https://www.openstreetmap.org/way/691377757\">https://www.openstreetmap.org/way/691377757</a> jāpagarina līdz <a href=\"https://www.openstreetmap.org/way/691380817\">https://www.openstreetmap.org/way/691380817</a>.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/691377757\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/691377757\" title=\"Way: 691377757 | OpenStreetMap\">Way: 691377757 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/691380817\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/691380817\" title=\"Way: 691380817 | OpenStreetMap\">Way: 691380817 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 376641987,
+        "sender_full_name": "i-ky",
+        "timestamp": 1689768842
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/nepievienoti.20ietvju.20gali/near/374259093\">said</a>:</p>\n<blockquote>\n<p>Jūrmalā pa 17000% bilžu palielinājām.</p>\n</blockquote>\n<p>Tālās Jūrmalas Mapillary palielināts par 75000%<br>\n<a href=\"/user_uploads/49624/mqIqhs3yyTVOyZaOVNaKbTOR/tjm.png\">tjm.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/mqIqhs3yyTVOyZaOVNaKbTOR/tjm.png\" title=\"tjm.png\"><img src=\"/user_uploads/49624/mqIqhs3yyTVOyZaOVNaKbTOR/tjm.png\"></a></div>",
+        "id": 391476287,
+        "sender_full_name": "HellMap",
+        "timestamp": 1694943012
+    }
+]

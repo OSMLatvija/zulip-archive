@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>Vai es pareizi saprotu, ka pēc reformas iepriekšējos ciemus visus pārtaisīja par ciemiem un mazciemiem (bet likvidēja visos tos lielciems, skrajciems, utt. iedalījumus). Ciemi ir ar robežlīnijām, mazciemi bez. Pašlaik ciemu ir 1340, mazciemu 4911. Bet vai VZD dati par tiem tiešām ir pareizi? Latgalē tagad pēc datiem atrodas 98% no visiem mazciemiem, bet pārējā Latvijā uz pirkstiem saskaitāmi. Man bail, ka es kaut ko datos nejaucu, bet nekur kļūdu it kā nevaru atrast. Kāpēc tāda situācija? <br>\n<a href=\"/user_uploads/49624/93W-EJUuLEOfcaUjjI6XjFiQ/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/93W-EJUuLEOfcaUjjI6XjFiQ/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"1704x1031\" src=\"/user_uploads/thumbnail/49624/93W-EJUuLEOfcaUjjI6XjFiQ/image.png/840x560.webp\"></a></div>",
+        "id": 566623127,
+        "sender_full_name": "HellMap",
+        "timestamp": 1767734087
+    },
+    {
+        "content": "<p>OSM pašlaik ārpus Latgales sakartēti vairāki simti mazciemu, bet pēc datiem tikai pārsimts  palikuši. Tie tad būs jāņem nost (drošvien par locality jātaisa), tikmēr Latgalē ir pāri 2000 neiekartēti/jauni un tikai nedaudzi likvidēti. <br>\n<a href=\"/user_uploads/49624/8bV3mSy2d0bJd59gOUB9Rd7a/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/8bV3mSy2d0bJd59gOUB9Rd7a/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"455x281\" src=\"/user_uploads/thumbnail/49624/8bV3mSy2d0bJd59gOUB9Rd7a/image.png/840x560.webp\"></a></div>",
+        "id": 566623185,
+        "sender_full_name": "HellMap",
+        "timestamp": 1767734116
+    },
+    {
+        "content": "<p>Pirms tam senais mazciemu imports bija no VDB un tur aprakstā (vismaz uz doto brīdi) ir teikts \"oficiāls mazciems atbilstoši Administratīvo teritoriju un apdzīvoto vietu likumam, kurā ir Adrešu klasifikatorā reģistrētas adreses ar statusu \"eksistē\", kā arī <strong>neoficiāls mazs ciems (nav ieraksta Adrešu klasifikatorā)</strong>\" . Tāpēc teorētiski VDB ir neoficiāli mazciemi. Nezinu īsti, ko ar tādiem darīt.</p>",
+        "id": 566775090,
+        "sender_full_name": "HellMap",
+        "timestamp": 1767803841
+    },
+    {
+        "content": "<p>Oficiālais dalījums ciemos un mazciemos un dalījums lielciemos, skrajciemos utt., kas agrāk izmantots arī Vietvārdu datubāzē, ir divas nesaistītas lietas. OSM apdzīvoto vietu veidus klasificē pēc apvidū esošās situācijas, tāpēc nevar vienkārši dzēst tos, kas nav VZD datos. Validācijai liktu klāt arī Vietvārdu DB datus, bet katrs gadījums pēc tam jāskata individuāli. <a href=\"https://wiki.openstreetmap.org/wiki/Tag:place=locality\">place=locality</a> jau var lietot tikai neapdzīvotām vietām. Latgalē mazciemu ir tik daudz sādžu dēļ, kas ir vēsturiskās attīstības rezultāts. Laiku, ciemus kārtojot, var notērēt ļoti daudz, tāpēc rīcība atkarīga no tā, cik daudz laika vēlies veltīt.</p>",
+        "id": 566778959,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1767804924
+    },
+    {
+        "content": "<p>Daļa no VZD ciemiem jau pēc savas būtības arī ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag:place=hamlet\">place=hamlet</a>, jo tajos dzīvo maz cilvēku. Dažos pat nedzīvo nemaz. Iedzīvotāju skaitu ciemos (bet ne mazciemos) var iegūt <a href=\"https://stat.gov.lv/lv/statistikas-temas/iedzivotaji/iedzivotaju-skaits/tabulas/rig010-iedzivotaji-pec-dzimuma-un-vecuma\">CSP datos</a>. Caurmērā, protams, var pieņemt, ka ciemi ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag:place=village\">place=village</a>, bet mazciemi ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag:place=hamlet\">place=hamlet</a>, taču ir izņēmumi.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://stat.gov.lv/lv/statistikas-temas/iedzivotaji/iedzivotaju-skaits/tabulas/rig010-iedzivotaji-pec-dzimuma-un-vecuma\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/440cbc523450fe543bebfdf7092a016cbaffbfcc/68747470733a2f2f737461742e676f762e6c762f7374617469632f66617669636f6e732f616e64726f69642d6368726f6d652d353132783531322e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://stat.gov.lv/lv/statistikas-temas/iedzivotaji/iedzivotaju-skaits/tabulas/rig010-iedzivotaji-pec-dzimuma-un-vecuma\" title=\"Oficiālās statistikas portāls\">Oficiālās statistikas portāls</a></div><div class=\"message_embed_description\">Vecuma grupa</div></div></div>",
+        "id": 566780778,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1767805393
+    },
+    {
+        "content": "<p>Nu jā, bet tā kā kopumā tādu 6000, esmu pārliecināts, ka neviens to neuzturēs, ja nebūs standards. Pirmais imports visiem interesants, bet tagad mēs ar visādiem VDB un CORINE un LVM utt. importiem labojam jau ilgi (un nekādi objektu ID tur nebija pielikti). Jau tikai pa gadu kopš ciema importa ap 100am robežas mainījušās. Negribētos salikt daudz dažādas vērtības ciemiem un mazciemiem, kuras pēc tam nevar saprast un izparsēt. Uz doto brīdi visi VZD ciemi ir iekartēti ar robežām kā <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aplace%3Dvillage\">place=village</a>. Tos vēl var uzturēt ar rokām vairāk vai mazāk. Tie, kas nebija kā ciemi pārlikti pārsvarā pagaidām uz <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aplace%3Dhamlet\">place=hamlet</a>. Visi VZD mazciemi ir pagaidām pievienoti kā <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aplace%3Dhamlet\">place=hamlet</a>, bet ir vēl klāt arī daudz no VDB palikuši. Tos uzturēt ar rokām ir ļoti grūti. Bet es pagaidām mazciemus neaiztieku (nedzēšu vai nemainu masveidā), tikai ciemus visus nostandartizēju pēc VZD robežām un nosaukumiem.</p>",
+        "id": 566783130,
+        "sender_full_name": "HellMap",
+        "timestamp": 1767806088
+    },
+    {
+        "content": "<p>Es izparsēšu VDB datus un paskatīšos, salīdzināšu kā ar tiem un cik un kas sakrīt, lai varētu kaut ko izsecināt varbūt.</p>",
+        "id": 566783412,
+        "sender_full_name": "HellMap",
+        "timestamp": 1767806177
+    },
+    {
+        "content": "<blockquote>\n<p>Dažos pat nedzīvo nemaz.</p>\n</blockquote>\n<p>Lietuvā šobrīd ir 4275 punkti ar <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Apopulation%3D0\">population=0</a></p>",
+        "id": 566789913,
+        "sender_full_name": "Colby",
+        "timestamp": 1767808221
+    },
+    {
+        "content": "<p>Es personīgi atstātu population priekš Wikidata, bet teorētiski no CSP var arī salikt to OSM. Es gan šaubos, ka tādiem mazciemiem kā sādžas tie populācijas dati vispār ir pareizi, bet neesmu skatījies tik sīki vēl.</p>",
+        "id": 566790570,
+        "sender_full_name": "HellMap",
+        "timestamp": 1767808438
+    },
+    {
+        "content": "<p>Iedzīvotāju skaitu domāju nevis likšanai OSM (lai gan ir key population, bet bez automātiskas atjaunošanas tam nebūtu jēga), bet, lai noteiktu, vai ciems nav jāklasificē kā mazciems vai pat locality (tur gan individuāli jaskatās, pēc atmiņas šķiet, vai tikai tie nebija mazdārziņi, un tad jau ar <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alanduse%3Dallotments\">landuse=allotments</a> pietiek).</p>",
+        "id": 566800828,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1767811812
+    }
+]

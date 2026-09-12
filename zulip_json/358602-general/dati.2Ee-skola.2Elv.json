@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p><a href=\"https://overpass-turbo.eu/s/1Mfr\">Multiple schools</a> have <a href=\"http://dati.e-skola.lv/\">dati.e-skola.lv</a> as the website. But it seems like this portal doesn't work anymore and hasn't been for a while (<a href=\"https://web.archive.org/web/20230125151919/dati.e-skola.lv/lv\">archive</a>).</p>",
+        "id": 441407889,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1717057565
+    },
+    {
+        "content": "<p>Interesting that some api front/wrapper is still running: <a href=\"http://dati.e-skola.lv/Katalogs/RigaSkolaVisas\">http://dati.e-skola.lv/Katalogs/RigaSkolaVisas</a> (taken from <a href=\"https://data.opendata.lv/rsim/rigas-skolas/skolas\">here</a>). That's obviously useless response, just funny that it's there after 5 years.</p>",
+        "id": 441895171,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1717242651
+    }
+]

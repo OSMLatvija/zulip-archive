@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>Jautājums par vēsturiskajiem datiem un to iekartēšanu  - patiesībā, divi jautājumi.</p>\n<p>1) Kā korektāk iekartēt vēsturiskos nosaukumus (piemēram, ciemies, lokālos nosaukumus)? Te sarežģītāk, ja ciems nav OSM fiksēts, tad arī jāsaprot robežas / novietojums<br>\n2) Kāds varētu būt variants OSM sazīmēt, piemēram, kolhozu teritoriju robežas? (I mean, varbūt ir iespēja veidot atsevišķu slāni vai kā savādāk? Lai nejauktu aktuālos datus ar vēsturiskajiem un šaurai auditorijai vajadzīgos. Vai arī te labāk lietot kādu citu risinājumu?)</p>",
+        "id": 319280215,
+        "sender_full_name": "Regita Zeiļa",
+        "timestamp": 1672779999
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Open_Historical_Map\">https://wiki.openstreetmap.org/wiki/Open_Historical_Map</a></p>",
+        "id": 319280646,
+        "sender_full_name": "Colby",
+        "timestamp": 1672780153
+    },
+    {
+        "content": "<p>tiem kas joprojām eksistē mūsdienās var likt old_name=</p>",
+        "id": 319280728,
+        "sender_full_name": "Colby",
+        "timestamp": 1672780189
+    },
+    {
+        "content": "<p>Personīgi neesmu neko vēsturisko zīmējis, bet <a href=\"https://wiki.openstreetmap.org/wiki/Good_practice#Don't_map_historic_events_and_historic_features\">pamatprincips OSM ir, ka dati ir aktuāli un paredzēti lietošanai</a>. Tas nozīmē, ka vēsturiskie dati tiek pievienoti tikai tiktāl, cik tas palīdz orientēties esošajos datos. Piemēram, veci nosaukumi ļautu atrast kaut kādas ceļa zīmes vai pajautāt kādam vietējam vai kā tamlīdzīgi. Bet jo tālāk vēsturē, jo tiem ir mazāks pielietojums.</p>",
+        "id": 319281073,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672780324
+    },
+    {
+        "content": "<p>Piemēram, visdziļākais OSM aprakstītais un standartizētais ir bijušie dzelzceļi - <a href=\"https://wiki.openstreetmap.org/wiki/Demolished_Railway\">https://wiki.openstreetmap.org/wiki/Demolished_Railway</a>. Tur gandrīz līdz absurdam speciālisti var pēc izcirtuma mežā pateikt, ka bija sliedes kaut kad.</p>",
+        "id": 319281141,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672780361
+    },
+    {
+        "content": "<p>Bet ja runa, kur rakstīt vēsturiskus datus, tad drošvien ne OSM, bet augstākminēto OHM vai kaut kur citur (personīgi nezinu, jo nelietoju).</p>",
+        "id": 319281234,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672780405
+    },
+    {
+        "content": "<p>Jā, vēsturiskos nosaukumus var likt klāt.<br>\nJa ciemam bijis cits nosaukums senāk, bet nav precīzas robežas, to var pagaidām iezīmēt kā punktu - bet tikai tad, ja tur joprojām ir ciems.<br>\nJa nav, tad tas tiešām labāk iederēsies OHM. Arī vecās kolhozu robežas tur labāk liekamas.</p>\n<p>Bonuss - visi tie paši rīki un datu struktūra, kas OSM :)</p>",
+        "id": 319651301,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672944981
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>Kā korekti iekartēt pastaigu takā esošu gājēju tiltu pāri upei, ja pati pastaigu taka nav iezīmēta (un neesmu fiksējusi GPS visu taku, tātad taku korekti nevaru iezīmēt), bet gājēju tiltu gan labprāt iezīmētu.</p>\n<p>Mēģinu atzīmēt \"bridge\", bet nav tādas izvēlnes, sāku lasīt, bet nesapratu, kā to praktiski darīt: <a href=\"https://wiki.openstreetmap.org/wiki/Key:bridge\">https://wiki.openstreetmap.org/wiki/Key:bridge</a></p>",
+        "id": 321383344,
+        "sender_full_name": "Regita Zeiļa",
+        "timestamp": 1673714621
+    },
+    {
+        "content": "<p>Parasti <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dfootway\">highway=footway</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abridge%3Dyes\">bridge=yes</a>.<br>\nTaku noteikti var iezīmēt arī daļēji - piemēram, ja ir zināms posms no tuvākā ceļa līdz tiltam, to labāk uzreiz iezīmēt. Nesavienoti ceļu posmi var radīt problēmas navigācijā, tādēļ tādus vēlams retāk ievietot.<br>\nVarbūt takai ir citi avoti - oficiāla maršruta shēma, GPX traces pašā OSM, kaut kas no Strava datiem utt?</p>",
+        "id": 321390285,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673718220
+    }
+]

@@ -1,0 +1,134 @@
+[
+    {
+        "content": "<p>Vai būtu vērts kaut kur likt kopīgi pieejamus būvtāfeļu foto?<br>\nSanāk dažreiz nofotografēt, un tur mēdz būt info, kura citur publiski nav pieejama (ieskaitot derīgas shēmas).<br>\nVarbūt ar ADTI datu atvēršanu tas būtu mazāk derīgi, bet kad tas būs - un vai būs viss sakarīgi pieejams - nav zināms.</p>",
+        "id": 321165725,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673617728
+    },
+    {
+        "content": "<p>Es shēmas parasti biju licis <a href=\"http://mapwarper.net\">mapwarper.net</a> lai pārzīmētu, tikai tur vislaik vietas nav. Mapillary nelieku, jo tās parasti īslaicīgas. A kāda info tur vēl ir?</p>",
+        "id": 321166795,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673618045
+    },
+    {
+        "content": "<p>OSM wiki/Wikimedia Commons?</p>",
+        "id": 321167080,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673618125
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/b.C5.ABvt.C4.81fe.C4.BCu.20foto/near/321166795\">said</a>:</p>\n<blockquote>\n<p>Es shēmas parasti biju licis <a href=\"http://mapwarper.net\">mapwarper.net</a> lai pārzīmētu, tikai tur vislaik vietas nav. Mapillary nelieku, jo tās parasti īslaicīgas. A kāda info tur vēl ir?</p>\n</blockquote>\n<p>Viens ir vieta, otrs - ar discoverability tur laikam grūti.<br>\nMapillary noteikti lieku, jo info jau būs aktuāla vēl ilgi - tikai tur gan ar discoverability slikti, gan bieži aizbluro visu derīgo :)<br>\nInfo - objektu nosaukumi, cita identificējoša info, kas var palīdzēt, piem., atrast vairāk info par objektu internetā.</p>",
+        "id": 321169115,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673618686
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571929\">Dāvis Kļaviņš</span> <a href=\"#narrow/stream/358602-general/topic/b.C5.ABvt.C4.81fe.C4.BCu.20foto/near/321167080\">said</a>:</p>\n<blockquote>\n<p>OSM wiki/Wikimedia Commons?</p>\n</blockquote>\n<p>Hmm, Wikimedia Commons pat varētu derēt, tur laikam var pievienot koordinātas un varbūt pēc tam pat kaut kā var dabūt ārā karti ar punktiem...<br>\nTikai vai tādi foto tur tiktu uzskatīti par derīgiem, jāpaprasa Wikimedia kopienai.</p>",
+        "id": 321169800,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673618854
+    },
+    {
+        "content": "<p><a href=\"https://streetcomplete.app/\">SC</a> māk taisīt OSM Note ar foto</p>",
+        "id": 321169814,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673618858
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/b.C5.ABvt.C4.81fe.C4.BCu.20foto/near/321169814\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://streetcomplete.app/\">SC</a> māk taisīt OSM Note ar foto</p>\n</blockquote>\n<p>Arī variants, tik gribētos, lai nepiesārņotos notes (Hellmap zina šo tēmu ;) ) - un arī saglabāt vieglu pieeju foto pēc tam, kad note aizvērta.<br>\nNu un arī tas, ka man nav Android, un nav pieejams <a href=\"https://streetcomplete.app/\">SC</a> :)</p>",
+        "id": 321170160,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673618937
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/b.C5.ABvt.C4.81fe.C4.BCu.20foto/near/321169814\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://streetcomplete.app/\">SC</a> māk taisīt OSM Note ar foto</p>\n</blockquote>\n<p>Attēli iekš <a href=\"https://streetcomplete.app/\">SC</a> notiem tiek izdzēsti, pēc tam kad noti tiek atrisināti.</p>",
+        "id": 321170512,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673619030
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/b.C5.ABvt.C4.81fe.C4.BCu.20foto/near/321169800\">said</a>:</p>\n<blockquote>\n<p>[..] jāpaprasa Wikimedia kopienai.</p>\n</blockquote>\n<p>Commons primāri vajag broadly-speaking educational use - <a href=\"https://commons.wikimedia.org/wiki/Commons:Project_scope#Must_be_realistically_useful_for_an_educational_purpose\">https://commons.wikimedia.org/wiki/Commons:Project_scope#Must_be_realistically_useful_for_an_educational_purpose</a> Man liekas tas vairāk vai mazāk der, bet neesmu redzējis to testētu praksē par tādām būvtāfelēm.</p>",
+        "id": 321170896,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673619131
+    },
+    {
+        "content": "<p><a href=\"https://commons.wikimedia.org/wiki/Category:Construction_project_signs\">https://commons.wikimedia.org/wiki/Category:Construction_project_signs</a> - tur gan daudzi nav kategorizēti, tas ir diezgan specifiski</p>",
+        "id": 321171433,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673619263
+    },
+    {
+        "content": "<p>Jā, saturiski priekš Wikimedia Commons der. Uz būvtāfelēm taču autortiesības neattiecas, vai ne?</p>",
+        "id": 321172140,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673619431
+    },
+    {
+        "content": "<p>Priekš kategorizācijas var izveidot \"Construction projects signs in Latvia\", ko likt zem \"Construction projects signs by country\" (arī jāizveido), ko likt zem  \"Construction projects signs\". Plus \"Construction projects signs in Latvia\" sadalīt kategorijās pa novadiem/valstspilsētām.</p>",
+        "id": 321176611,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673620561
+    },
+    {
+        "content": "<p>Urgh, tikai kā man tagad lietot Commons ar 2iem accountiem nekļūstot par sockpuppet...</p>",
+        "id": 321177306,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673620750
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/b.C5.ABvt.C4.81fe.C4.BCu.20foto/near/321171433\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://commons.wikimedia.org/wiki/Category:Construction_project_signs\">https://commons.wikimedia.org/wiki/Category:Construction_project_signs</a> - tur gan daudzi nav kategorizēti, tas ir diezgan specifiski</p>\n</blockquote>\n<p>Ahā, šis labs. Lai gan tur tikai 25+42 bildes.</p>",
+        "id": 321223139,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673632838
+    },
+    {
+        "content": "<p>Jāsaliek visi informatīvie stendi un jāpieliek Commons links. Es tos vislaik bildēju un gandrīz neko ar viņiem nedaru.</p>",
+        "id": 321273963,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673650758
+    },
+    {
+        "content": "<p>Commons links kur/kā?</p>",
+        "id": 321323402,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673689388
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/b.C5.ABvt.C4.81fe.C4.BCu.20foto/near/321323402\">said</a>:</p>\n<blockquote>\n<p>Commons links kur/kā?</p>\n</blockquote>\n<p><a href=\"https://wiki.openstreetmap.org/wiki/Key%3Awikimedia_commons\">wikimedia_commons=*</a></p>",
+        "id": 321339398,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673695578
+    },
+    {
+        "content": "<p>Piemēram, <a href=\"https://www.openstreetmap.org/node/9781475321\">https://www.openstreetmap.org/node/9781475321</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/9781475321\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/9781475321\" title=\"Node: 9781475321 | OpenStreetMap\">Node: 9781475321 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 321343752,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673697416
+    },
+    {
+        "content": "<p>Infoboard foto tēmu nodalīju iekš <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/infoboard.20foto\">#general &gt; infoboard foto</a> .<br>\nBūvtāfeles varbūt iederētos Commons, bet tās nebūs pietiekami pastāvīgi objekti, lai iezīmētu kartē.</p>",
+        "id": 321388123,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673716942
+    },
+    {
+        "content": "<p>Jā, kartē nav to, tāpēc arī permanent bilde ne visai vajadzīga. Es nezinu, vai es reāli liktu tās Commons visādiem maziem projektiem - tur tās informācijas īsti jau nav. Un baigais darbs. Varbūt lieliem gariem finansētiem projektiem.</p>",
+        "id": 321395458,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673721143
+    },
+    {
+        "content": "<p>Protams, liek tikai tās, kas jau safočētas. Ielikt jau nav grūti, ja foto ģeoreferencēts.<br>\nAndroid lietotājiem jau vispār: <a href=\"https://commons.wikimedia.org/wiki/Commons:Mobile_app\">https://commons.wikimedia.org/wiki/Commons:Mobile_app</a> .</p>",
+        "id": 321397741,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673722519
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571929\">Dāvis Kļaviņš</span> <a href=\"#narrow/stream/358602-general/topic/b.C5.ABvt.C4.81fe.C4.BCu.20foto/near/321172140\">said</a>:</p>\n<blockquote>\n<p>Jā, saturiski priekš Wikimedia Commons der. Uz būvtāfelēm taču autortiesības neattiecas, vai ne?</p>\n</blockquote>\n<p>Konkrēti par autortiesībām izveidoju <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/b.C5.ABvt.C4.81feles.2C.20autorties.C4.ABbas\">#general &gt; būvtāfeles, autortiesības</a>.</p>",
+        "id": 351372823,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1682007551
+    }
+]

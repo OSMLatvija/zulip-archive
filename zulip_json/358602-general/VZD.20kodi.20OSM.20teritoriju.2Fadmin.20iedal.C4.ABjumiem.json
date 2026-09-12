@@ -1,0 +1,122 @@
+[
+    {
+        "content": "<p>Vai kādam ir iebildumi vai komentāri par <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aref\">ref=*</a> kodu pievienošanu novadiem, pagastiem, pilsētām un ciemiem no VZD VAR kodiem? Tas sanāks tāds daļējs imports. Es Osmalyzer'ā izparsēju visus admin un pie reizes uzģenerēju trūkstošās iespējamās izmaiņas formātā, ko tad var JOSMā ielādēt. Es neplānoju to automatizēt vairāk par to, cik Osmalyzer pārbauda katru dienu, jo tie nemainās (un, ja mainās admin iedalījumi, tad arī visi tegi tur mainās un jālabo manuāli).</p>\n<p>Vienīgais jautājums par birku. Es līdz šim liku VZD kodus <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aref\">ref=*</a> birkā, jo citu kodu mums it kā nav. Bet varbūt tos vajadzētu <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aref%3ALV%3Aaddr\">ref:LV:addr=*</a> birkā lai sakristu ar adresēm? Teorētiski pēc VZD specifikācijas tas arī ir \"adresācijas kods\". Bet adresēm gan OSM bija problēma, ka sakritīs ar citu elementu ref. Bet šeit admin robežām un punktiem citu Latvijas mēroga ref (cik es zinu) nav. Personīgi, es liktu <code>ref</code>.</p>\n<p>Piemēram:<br>\n\"Alūksnes novads\": 100015694<br>\n\"Kauguru pagasts\": 100014522<br>\n\"Ikšķile\" (pilsēta): 100003487<br>\n\"Mežāres\" (ciems): 100184348<br>\n\"Pilda\" (mazciems): 100154460</p>\n<p>Uz doto brīdi ref trūkst 215/1340 ciemiem, 35/35 novadiem, 399/511 pagastiem, 67/81 pilsētām un 2579/4911 mazciemiem (tie gan nav sakartēti visi).</p>",
+        "id": 565986557,
+        "sender_full_name": "HellMap",
+        "timestamp": 1767283191
+    },
+    {
+        "content": "<p>Ciemiem adrešu kodus pielikt var, tiem nekā piemērotāka nebūs (pārbaudītu gan ar vienu sākumā, lai redzētu, vai <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bots</a> nesāk raustīt, ja tur ir ref:lv:addr), bet pagastiem, pilsētām un novadiem gan jāliek ATVK, nevis adrešu kodi. Tos var paņemt no <a href=\"https://data.gov.lv/dati/lv/dataset/atvk/resource/6d8624c4-e75a-4080-88eb-c755b5de230a\">Atvērto datu portāla</a> (aktuālie ir tie, kam Validity_period_end nav aizpildīts). Jautājums, vai pietiek ar ref, vai vajag veidot ko specifisku, kā ref:lv:atvk.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/857e5fd04dda25d9f0d07b56ce3481db36fd77b3/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f313163623531666630336636356138653932303332383666346539396364366361323734396234653232616235303761663734366561663731653735636639322f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses and tags). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses and tags). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses and tags). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - Davis-Klavins/os...</div></div></div>",
+        "id": 565988423,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1767285795
+    },
+    {
+        "content": "<p>A kapēc pagastiem, pilsētām, novadiem nevarētu arī ref:lv:addr tos salikt, ja tas ir tajos pašos datos? Viņi visi ir no \"KODS\" lauka un viņiem visiem ir \"adrese\". Galvenajos teritoriju telpiskajos datos tie visi ir kopā ar to kodu.</p>",
+        "id": 565989399,
+        "sender_full_name": "HellMap",
+        "timestamp": 1767287092
+    },
+    {
+        "content": "<p>ATVK paskatīšos. Bet tie ir vairāk statistikas vienības? Kur to kodu lieto praktiski? Tas ir kaut kādās citās datubāzēs vai kaut kur? <del>Jo teiksim tie VZD 100... kodi ir savā starpā saistīti no valsts līdz pat adresei. Bet ATVK ir nedaudz nummurēti hierarhijā, bet it kā paši par sevi, cik skatos.</del></p>",
+        "id": 565989642,
+        "sender_full_name": "HellMap",
+        "timestamp": 1767287411
+    },
+    {
+        "content": "<p>ATVK lieto praktiski dažādos reģistros (Fizisko personu reģistrā, piemēram), lai identificētu attiecīgās teritorijas, bet adrešu kodus pagastiem, pilsētām un novadiem ārpus Adrešu reģistra nav gadījies redzēt lietojam ārpus adreses konteksta (ja būs, tad būs vienīgi adreses koda laukā un pagastu, pilsētu vai novadu kodi lietoti tikai tad, ja nekas precīzāks nav bijis zināms). ATVK arī Adrešu reģistrā ir lietots. Jā, statistikā arī plaši lieto. Nav līdz šim (par laimi) gadījies redzēt reģistru, kur kā teritoriju kodi būtu lietoti adrešu kodi.</p>",
+        "id": 565990393,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1767288357
+    },
+    {
+        "content": "<p>Tad izklausās, ka varbūt ATVK kodus likt pa taisno <code>ref</code>. Bet adrešu kodus (ja vispār likt) tikai <code>ref:LV:addr</code> (būs jāpārlabo esošie tad no maniem ciemu/pagastu pievienojumiem). ATVK dati tikai tad jāizparsē būs...</p>",
+        "id": 565990669,
+        "sender_full_name": "HellMap",
+        "timestamp": 1767288719
+    },
+    {
+        "content": "<p>A adrešu kodus tad sanāk vispār kaut kur lieto izņemot adresēm? Vai tikai faktiski VZD datubāzē? Tie vispār kaut ko OSM dod, ja tie nav nekur atrodami (piemēram, vai es varu pasta vēstuli nosūtīt \"uz kodu\")?</p>",
+        "id": 565990790,
+        "sender_full_name": "HellMap",
+        "timestamp": 1767288890
+    },
+    {
+        "content": "<p>Jā, domāju, ka ar <code>ref</code> pietiktu, jo ATVK ir tas, ko kā identifikatoru lietotājs sagaidītu. <code>ref:LV:addr</code> paliek ciemiem, jo tiem ATVK nav.</p>",
+        "id": 565990795,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1767288896
+    },
+    {
+        "content": "<p>Adrešu kodus lieto adresēm un vienmēr, ja adreses tiek uzturētas pareizi, t.i., sasaistē ar Adrešu reģistru. Būtībā savā datubāzē pietiek glabāt tikai adreses kodu, kas ir ārējā atslēga uz Adrešu reģistru. Praktiski gan mēdz pieglabāt arī pierakstu, kas var būt gan sadalīts, gan nesadalīts pa komponentēm. OSM jau ne tikai adrešu kodi, bet jebkādi unikālie identifikatori uz ārējām sistēmām, no kurām nākuši dati, būtu jāglabā, lai datus pēc tam varētu normāli uzturēt. Uz to pašu Vietvārdu datubāzi arī būtu bijis ļoti labi, ja savulaik būtu ID pielikti.</p>",
+        "id": 565991142,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1767289491
+    },
+    {
+        "content": "<p>Tad es tomēr liktu visām admin robežām to VZD adreses kodu, jo tas arī ir tas nummurs, kas atsaucas uz datiem, no kuriem tās admin robežas ir nākušas (izņemot mazciemus). Jo ATVK, cik saprotu, neatsaucas uz robežu līnijām.</p>\n<p>Es personīgi sarežģīti parsēju OSM datus meklējot tuvāko elementu ar konkrētiem tegiem, lai noteiktu, kuri OSM elementi atbilst kuriem VZD datu ierakstiem. Piemēram, tur jāzin konkrēti admin_level pakāpes. Automātiski procesi bez nummura nevarēs vienkārši datus piesaistīt pie VZD datiem, piemēram, lai salīdzinātu vai piesaistītu WikiData ierakstus (piemēram, lai saliktu WikiData teritorijas izmēru vai koordinātes, kas OSM būtu lieki, bet WikiData ļoti noderīgi). Tas it kā bija mans galvenais mērķis, lai visus admin iedalījumus OSM varētu piesaistīt VZD datiem.</p>",
+        "id": 565991901,
+        "sender_full_name": "HellMap",
+        "timestamp": 1767290379
+    },
+    {
+        "content": "<p>Vari likt abus tad. Jo no datu lietojamības ārpus iekšējiem OSM procesiem ATVK būs noderīgāks. WikiData teritoriju platības un iedzīvotāju skaits jau tiek atjaunots automātiski, izņemot ciemiem.</p>",
+        "id": 565992506,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1767291000
+    },
+    {
+        "content": "<p>Jā, <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bots</a> noņem <code>ref:LV:addr</code> <a href=\"https://www.openstreetmap.org/relation/287189\">https://www.openstreetmap.org/relation/287189</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/857e5fd04dda25d9f0d07b56ce3481db36fd77b3/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f313163623531666630336636356138653932303332383666346539396364366361323734396234653232616235303761663734366561663731653735636639322f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses and tags). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses and tags). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses and tags). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - Davis-Klavins/os...</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/relation/287189\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/relation/287189\" title=\"Relation: ‪Mežāres‬ (‪287189‬)\">Relation: ‪Mežāres‬ (‪287189‬)</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 566041655,
+        "sender_full_name": "HellMap",
+        "timestamp": 1767348930
+    },
+    {
+        "content": "<p>Pielaboju, lai relācijām, kurām ir <code>admin_level</code>, neņem nost <code>ref:lv:addr</code>. Jānotestē vēlreiz.</p>",
+        "id": 566044425,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1767350930
+    },
+    {
+        "content": "<p>Vienīgais <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aplace%3Dhamlet\">place=hamlet</a> nav admin_level, jo nav robežu, piem. <a href=\"https://www.openstreetmap.org/node/2069382489\">https://www.openstreetmap.org/node/2069382489</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/2069382489\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/2069382489\" title=\"Node: ‪Gailiški‬ (‪2069382489‬)\">Node: ‪Gailiški‬ (‪2069382489‬)</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 566044754,
+        "sender_full_name": "HellMap",
+        "timestamp": 1767351145
+    },
+    {
+        "content": "<p>Pieliku arī <code>place=hamlet</code> pie izņēmumiem, kam nav jāņem nost <code>ref:lv:addr</code>. Ne tikai nodes, bet arī ways un relations.</p>",
+        "id": 566046471,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1767352384
+    },
+    {
+        "content": "<p>Es varbūt nepareizi sapratu, bet vai tu šīs b0ta izmaiņas jau esi paladis? Testa ref'us b0ts nonesa <a href=\"https://www.openstreetmap.org/relation/287189/history\">https://www.openstreetmap.org/relation/287189/history</a> <a href=\"https://www.openstreetmap.org/node/1679457288/history\">https://www.openstreetmap.org/node/1679457288/history</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/relation/287189/history\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/relation/287189/history\" title=\"Relation History: ‪Mežāres‬ (‪287189‬)\">Relation History: ‪Mežāres‬ (‪287189‬)</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 566140649,
+        "sender_full_name": "HellMap",
+        "timestamp": 1767436932
+    },
+    {
+        "content": "<p>Palaist palaidu, bet ar kļūdām, kuru dēļ nenostrādāja. Salaboju, jāmēģina vēlreiz.</p>",
+        "id": 566142189,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1767438929
+    },
+    {
+        "content": "<p>Izskatās, ka tegi izdzīvoja šodienas b0ta izmaiņas.</p>",
+        "id": 566219935,
+        "sender_full_name": "HellMap",
+        "timestamp": 1767530068
+    },
+    {
+        "content": "<p>Nu protams, ka Latvijā ir pagasti ar vienādiem nosaukumiem - 2 \"Pilskalnes pagasts\" un 2 \"Salas pagasts\". Bet ar to nepietiek, jo ir 2 ciemi \"Pilskalne\", kuri ir pa vienam katrā Pilskalnes pagastā.</p>",
+        "id": 566220023,
+        "sender_full_name": "HellMap",
+        "timestamp": 1767530192
+    },
+    {
+        "content": "<p>Rezumējot, uz doto brīdi, plānotās izmaiņas:</p>\n<div class=\"spoiler-block\"><div class=\"spoiler-header\">\n</div><div class=\"spoiler-content\" aria-hidden=\"true\">\n<p>Novadiem:<br>\n105 changes are proposed:<br>\n105 key modifications<br>\n35 relations are affected.<br>\n3 unique keys are modified.<br>\nKey ref:LV:addr has 35 all unique values changed.<br>\nKey ref has 35 all unique values changed.<br>\nKey ref:lau has 35 all unique values changed.</p>\n<p>Pilsētām:<br>\n320 changes are proposed:<br>\n320 key modifications<br>\n81 relations are affected.<br>\n6 unique keys are modified.<br>\nKey place has 1 values changed: 81 × city<br>\nKey ref has 81 all unique values changed.<br>\nKey ref:LV:addr has 81 all unique values changed.<br>\nKey wikidata has 60 all unique values changed.<br>\nKey ref:lau has 7 values changed: 1 × 0004000, 1 × 0006000, 1 × 0005000, 1 × 0003000, 1 × 0007000, 1 × 0002000, 1 × 0001000<br>\nKey designation has 1 values changed: 10 × valstspilsēta</p>\n<p>Pagastiem:<br>\n2009 changes are proposed:<br>\n2009 key modifications<br>\n513 relations are affected.<br>\n4 unique keys are modified.<br>\nKey place has 1 values changed: 513 × civil_parish<br>\nKey ref:LV:addr has 511 all unique values changed.<br>\nKey ref has 511 all unique values changed.<br>\nKey wikidata has 474 all unique values changed.</p>\n<p>Ciemiem:<br>\n3724 changes are proposed:<br>\n2600 key modifications<br>\n1124 key removals<br>\n1340 relations are affected.<br>\n4 unique keys are affected.<br>\n3 unique keys are modified<br>\n1 unique keys are removed<br>\nKey ref has 1 values changed: 1124 × &lt;removed&gt;<br>\nKey ref:LV:addr has 1339 all unique values changed.<br>\nKey wikidata has 985 all unique values changed.<br>\nKey place has 1 values changed: 276 × village</p>\n<p>Mazciemiem:<br>\n2678 changes are proposed:<br>\n2676 key modifications<br>\n2 key removals<br>\n2584 nodes are affected.<br>\n3 unique keys are affected.<br>\n2 unique keys are modified<br>\n1 unique keys are removed<br>\nKey ref:LV:addr has 2583 all unique values changed.<br>\nKey ref has 1 values changed: 2 × &lt;removed&gt;<br>\nKey wikidata has 93 all unique values changed.</p>\n</div></div>",
+        "id": 566220265,
+        "sender_full_name": "HellMap",
+        "timestamp": 1767530433
+    }
+]

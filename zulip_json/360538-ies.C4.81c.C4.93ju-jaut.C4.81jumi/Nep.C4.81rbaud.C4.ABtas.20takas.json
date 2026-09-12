@@ -1,0 +1,230 @@
+[
+    {
+        "content": "<p>Čau! Esmu nosacīti jauniņais. Esmu spiests kļūt par editoru(varbūt izveidosies par vaļas prieku), jo motomaršrutu plānortājs Kurviger(gan jau ne tikai) izmanto OSM datus. Un vakardienas izbrauciens izvērsās neizbraucamo, neatrodamo un aizliegto taku fiksēšanā. Tā nu saliku izmaiņas, ko varēju atcerēties.<br>\nPapildus, gribētos saprast divas lietas - vai ir kāda sistēma/iespēja atturēt cilvēkus hobija pēc likt randomas takas no satelīta, nepārbaudot tās dabā? 2. - Vai būtu iespēja(varbūt izveidojama) deliģēt cilvēkiem, kam patīk ceļot un izpētīt šīs nenoteiktu segumu un pieejas pārbaudīt un papildināt ar info?</p>",
+        "id": 396636210,
+        "sender_full_name": "Jānis Grīnvalds",
+        "timestamp": 1697277829
+    },
+    {
+        "content": "<p><a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Nep.C4.81rbaud.C4.ABtas.20takas/near/396636210\">A message</a> was moved here from <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/.22Ukrainas.20neatkar.C4.ABbas.20iela.22s.20nosaukuma.20tulkojumi\">#general &gt; \"Ukrainas neatkarības iela\"s nosaukuma tulkojumi</a> by <span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span>.</p>",
+        "id": 396636365,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1697277929
+    },
+    {
+        "content": "<p>Sveiki! Pārcēlu ziņu uz jaunu tēmu, lai šeit atbildētu.</p>",
+        "id": 396636377,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697277945
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Nep.C4.81rbaud.C4.ABtas.20takas/near/396636377\">said</a>:</p>\n<blockquote>\n<p>Sveiki! Pārcēlu ziņu uz jaunu tēmu, lai šeit atbildētu.</p>\n</blockquote>\n<p>Paldies!</p>",
+        "id": 396636542,
+        "sender_full_name": "Jānis Grīnvalds",
+        "timestamp": 1697278064
+    },
+    {
+        "content": "<p>Par 2. - vienmēr var atstāt OSM piezīmi (note), piemēram <a href=\"https://www.openstreetmap.org/note/2832463\">https://www.openstreetmap.org/note/2832463</a> . Varbūt kāds ar laiku to apskatīsies. Pie mums protams nav tik daudz kartētāju, un neizpētītas vietas visādos laukos vai diezgan ilgi tādas palikt. Var arī personīgi pajautāt un kādam vietējam. Bet nu protams tas ir visiem kartētājiem hobijs un ko nu kurš katrs pats gribēs darīt.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/note/2832463\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/note/2832463\" title=\"Note: 2832463 | OpenStreetMap\">Note: 2832463 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 396636650,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697278134
+    },
+    {
+        "content": "<p>Kopš nesena laika esmu programmētājs. Un man ienāca prātā, varbūt ir iespēja jaut kā no OSM datiem izfiltrēt kādas iezīmētas apkārtnes 10x10km ar servisa, aksesa ceļiem un takām, kurās ir skopa vai veca info. Būs jāuzprasa manam kolēgim - ChatGPT. Varbūt te ir kāds jau pieredzējis developeris, kas ņēmies ar OSM datiem?</p>",
+        "id": 396636853,
+        "sender_full_name": "Jānis Grīnvalds",
+        "timestamp": 1697278296
+    },
+    {
+        "content": "<p>Motobraukšana ar mērķi ir krietni aizraujošāka. Varbūt ir vēl OSM-Motobraucēji?</p>",
+        "id": 396636996,
+        "sender_full_name": "Jānis Grīnvalds",
+        "timestamp": 1697278401
+    },
+    {
+        "content": "<p>Par 1. Protams no ortofoto/satelīta ļoti daudz zīmē, jo faktiski tas ir vienīgais prakstiskais veids, kā sazīmēt visu to taku daudzumu, kas eksistē. Ja braukt personīgi katru taku apskatīties, tad pie mums nekas nebūtu sazīmēts, jo vienkārši taku skaits &gt;&gt;&gt; kartētāju skaits. Tāpēc tiešām gadām pietiekami bieži neizpētītas takas, kas var neatbilst realitātei. Diemžēl OSM nav tāda iebūvēta veida kā norādīt, ka taka nezināma. (Teorētiski ir, bet visādas kartes/aplikācijas to nelietos.) OSM arī nav tādu gluži aizliegumu zīmēt no ortofoto un tas principā ir 90% kartētāju datu avots. Parasti tas lielas problēmas nerada. Bet ja pamanam kādu, kas daudz liek nepareizi, tad vajag sakontaktēt un apspriest. Bet tas jau jāskatās konkrētiem gadījumiem.</p>",
+        "id": 396637043,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697278442
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Nep.C4.81rbaud.C4.ABtas.20takas/near/396636650\">said</a>:</p>\n<blockquote>\n<p>Par 2. - vienmēr var atstāt OSM piezīmi (note), piemēram <a href=\"https://www.openstreetmap.org/note/2832463\">https://www.openstreetmap.org/note/2832463</a> . Varbūt kāds ar laiku to apskatīsies. Pie mums protams nav tik daudz kartētāju, un neizpētītas vietas visādos laukos vai diezgan ilgi tādas palikt. Var arī personīgi pajautāt un kādam vietējam. Bet nu protams tas ir visiem kartētājiem hobijs un ko nu kurš katrs pats gribēs darīt.</p>\n</blockquote>\n<p>Redz, man nevisai gribas \"braukt un uzdurties\", bet gan saistosām būtu braukt konkrētus skopos datus uzlabot.</p>",
+        "id": 396637102,
+        "sender_full_name": "Jānis Grīnvalds",
+        "timestamp": 1697278475
+    },
+    {
+        "content": "<p>Ja būtu piemērs kādai takai, kas labota, es varbūt varētu pakomentēt no pieredzes situāciju. Jo te tiešām - cik taku, tik variantu, kas tur var būt ne tā.</p>",
+        "id": 396637124,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697278503
+    },
+    {
+        "content": "<p>Tur var būt 7 gadus sen iezīmēta taka kā Land Access bet tur nav nekādas info par segumu, pieejamību, utt. Tikai šī kategorija un viss.</p>",
+        "id": 396637262,
+        "sender_full_name": "Jānis Grīnvalds",
+        "timestamp": 1697278596
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"658955\">Jānis Grīnvalds</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Nep.C4.81rbaud.C4.ABtas.20takas/near/396636853\">said</a>:</p>\n<blockquote>\n<p>Kopš nesena laika esmu programmētājs. Un man ienāca prātā, varbūt ir iespēja jaut kā no OSM datiem izfiltrēt kādas iezīmētas apkārtnes 10x10km ar servisa, aksesa ceļiem un takām, kurās ir skopa vai veca info. Būs jāuzprasa manam kolēgim - ChatGPT. Varbūt te ir kāds jau pieredzējis developeris, kas ņēmies ar OSM datiem?</p>\n</blockquote>\n<p>Principā tad 90% Latvijas būs jāizfiltrē <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span> Šī principā ir vispasaules problēma. Var jau protams note atstāt un cerēt, ka kāds salabos. Bet nu diemžēl nav tik daudz to kartētāju mums - jebkurā vietā laukos var pievilkt un uzreiz kļūdas skatīties.</p>",
+        "id": 396637291,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697278614
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"658955\">Jānis Grīnvalds</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Nep.C4.81rbaud.C4.ABtas.20takas/near/396637262\">said</a>:</p>\n<blockquote>\n<p>Tur var būt 7 gadus sen iezīmēta taka kā Land Access bet tur nav nekādas info par segumu, pieejamību, utt. Tikai šī kategorija un viss.</p>\n</blockquote>\n<p>Jā, uz detaļām, kuras dabā jāpārbauda ir grūti sagaidīt. Es personīgi esmu salicis varbūt 5% no visām takām, kur esmu bijis. Jo darba labot ir nenormāli daudz, ja sāk sīki zīmēt. Ir visādas aplikācijas kā <a href=\"https://streetcomplete.app/\">StreetComplete</a> vai EveryDoor, ar kuru daudzi liek detaļas. Dēļ šīm aplikācijām ir labāk visu sazīmēt un tad ar laiku cerēt, ka būs kāds uz vietas. Es pats ar velo braucot pa mežies vislaik saskaros ar neizbraucamām takām un meža ceļiem. Un tur vēl jāņem vērā, ka pa 5 gadiem viss var aizagt, applūst vai pa citurieni aiziet.</p>",
+        "id": 396637449,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697278759
+    },
+    {
+        "content": "<p>Padevi man ideju.. pārbaudīt notes dabā. Jess</p>",
+        "id": 396637483,
+        "sender_full_name": "Jānis Grīnvalds",
+        "timestamp": 1697278787
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/yCMEzHEhKBXQ_rItyWF-JRQk/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/yCMEzHEhKBXQ_rItyWF-JRQk/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/yCMEzHEhKBXQ_rItyWF-JRQk/image.png\"></a></div><p>Šis ir inčīgi. Vesels normāla ceļa posms iztrūkst. :) Samērā jauns..paskatījos, ka Bingā vēl nav.</p>",
+        "id": 396637575,
+        "sender_full_name": "Jānis Grīnvalds",
+        "timestamp": 1697278841
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"658955\">Jānis Grīnvalds</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Nep.C4.81rbaud.C4.ABtas.20takas/near/396636996\">said</a>:</p>\n<blockquote>\n<p>Motobraukšana ar mērķi ir krietni aizraujošāka. Varbūt ir vēl OSM-Motobraucēji?</p>\n</blockquote>\n<p>Ar moto gandrīz nebraucu, bet ar riteni vālēju cik vien tālu varu pa visām malām. 90% maršrutu plānoju, lai izbrauktu pa jaunām vietām. Pie reizes filmēju Mapillary, kas ir Google Street View brīva alternatīva. Paskatos arī notes, kas apkārt, ja var nobraukt. OsmAnd aplikācijā var ieslēgt slāni ar notes braucot.</p>",
+        "id": 396637752,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697278974
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"658955\">Jānis Grīnvalds</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Nep.C4.81rbaud.C4.ABtas.20takas/near/396637575\">said</a>:</p>\n<blockquote>\n<p><a href=\"/user_uploads/49624/yCMEzHEhKBXQ_rItyWF-JRQk/image.png\">image.png</a></p>\n<p>Šis ir inčīgi. Vesels normāla ceļa posms iztrūkst. :) Samērā jauns..paskatījos, ka Bingā vēl nav.</p>\n</blockquote>\n<p>Jā, laukos tādu būs daudz. Faktiski, lai tādus iezīmētu, kādam to vajag pamanīt. Kas atkal ir, cik to kartētāju reāli ir mums. Un protams, kas kuram prioritāte. Kaut kādu atomātisku risinājumu gandrīz nav (piemēram, RapID / MapsWithAI). Bet arī tiem visiem vajag kādam reāli to pārbaudīt. Vēl var skatīties Strava Heat Map gps, kur kāds braucis - mums velo braucējo daudz un pa laukiem vis vālē. Nekādu automātisku salīdzinājumu gan nav pagaidām.</p>",
+        "id": 396638034,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697279187
+    },
+    {
+        "content": "<p>Par konkrēti track mums būs ļoooooti daudz bez info. Es pa 10 gadiem neesmu varējis sazīmēt pat tuvā apkārtnē visas pareizi, nerunājot jau par kaut kādām lauku teritorijām, kur neviens nav bijis vispār. Tā kā tas grūti. Bet no otras puses, tādu datu tik un tā OSM ir krietni vairāk nekā kaut kādās Googlēs. Tā kā te balans - cik daudz un cik pareizi...</p>",
+        "id": 396638168,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697279289
+    },
+    {
+        "content": "<p>Vēl konkrēti par privātīpašumiem - pie mums kā sēnes parādās visdažādākajās vietās, pat dziļos mežos. Tur visādi gadījumi, bet parasti kāds iegūst īpašumā kaut ko, piemēram mantojumā, kur nekas nav darīts un uzreiz sakārto teritoriju - saliek zīmes, sētas un barjeras. A vietējie brīnās - mēs tak te 50 gadus staigājam. Tāpēc bieži agrāk iezīmētas lietas var pēkšņi kļūt neizbraucamas. To gan tikai dabā var pateikt, ja vien gluži pa virsu ceļam ortofoto neparādās.</p>",
+        "id": 396638936,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697279901
+    },
+    {
+        "content": "<p>Es arī saprotu, ka dažviet garām mājām ejoša apgrūtinājuma ceļa slēgšana nav gluži legāli. Tas nekas, ka tas iet cauri īpašumam - tas nenozīmē, ka to drīkst slēgt - tā pat ka pieeju ūdeņiem - 7m zonu.</p>",
+        "id": 396639667,
+        "sender_full_name": "Jānis Grīnvalds",
+        "timestamp": 1697280416
+    },
+    {
+        "content": "<p>Pie mums jau pat uz pašvaldību ceļiem ir vārti dažās vietās <span aria-label=\"melting face\" class=\"emoji emoji-1fae0\" role=\"img\" title=\"melting face\">:melting_face:</span></p>",
+        "id": 396639849,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697280566
+    },
+    {
+        "content": "<p>Par tauvu zonu jau vispār nerunājot, kur katrs otrais aizsētojis ezerus un upes</p>",
+        "id": 396639873,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697280591
+    },
+    {
+        "content": "<p>Privātīpašumu zīmes tomēr ir jāvērtē, ja tai nav pamata, tad OSM ceļš kā privāts nebūtu jāatzīmē.</p>",
+        "id": 396640154,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1697280765
+    },
+    {
+        "content": "<p>mjā.. jo man būtu tiesības kaut vai stumjot moci apiet ezeru bez ierobežojuma</p>",
+        "id": 396640156,
+        "sender_full_name": "Jānis Grīnvalds",
+        "timestamp": 1697280767
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571929\">Dāvis Kļaviņš</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Nep.C4.81rbaud.C4.ABtas.20takas/near/396640154\">said</a>:</p>\n<blockquote>\n<p>Privātīpašumu zīmes tomēr ir jāvērtē, ja tai nav pamata, tad OSM ceļš kā privāts nebūtu jāatzīmē.</p>\n</blockquote>\n<p>tas vēl būtu tā - bet stāv vnk. barjera pāri, jeb elektriskais žogs, aiz kura tieši uz ceļa govis ganas.<br>\nEsmu redzējis video no Skotijas vai Īrijas, kur aižogotus, cauri ejošus (pat cauri aplokiem) ceļus droši izmanto - vnk atverot vārtus, neizlaižot lopiņu, aizver un brauc tālāk</p>",
+        "id": 396640414,
+        "sender_full_name": "Jānis Grīnvalds",
+        "timestamp": 1697280950
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571929\">Dāvis Kļaviņš</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Nep.C4.81rbaud.C4.ABtas.20takas/near/396640154\">said</a>:</p>\n<blockquote>\n<p>Privātīpašumu zīmes tomēr ir jāvērtē, ja tai nav pamata, tad OSM ceļš kā privāts nebūtu jāatzīmē.</p>\n</blockquote>\n<p>Jā, tie dabā ir katrs atsevišķi jāskatās. Es lieku private, ja ir zīme nevar staigāt/braukt vai arī fiziska barjera. Pati par sevi zīme \"privātīpašums\" vēl neko nenozīmē. Bet ja reāli piebrauktuve mājai, tad arī private. Bet servitūda ceļi mēdz būt privātīpašums un publiski pieejams. Protams, tās zīmes arī karts sabāž, kur grib, arī uz pašvaldību ceļiem. Nu tad jādomā, ko darīt - likt kā dabā vai kā legāli (principā OSM jāliek legāli).</p>",
+        "id": 396640559,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697281046
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"658955\">Jānis Grīnvalds</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Nep.C4.81rbaud.C4.ABtas.20takas/near/396640414\">said</a>:</p>\n<blockquote>\n<p>Esmu redzējis video no Skotijas vai Īrijas, kur aižogotus, cauri ejošus (pat cauri aplokiem) ceļus droši izmanto - vnk atverot vārtus, neizlaižot lopiņu, aizver un brauc tālāk</p>\n</blockquote>\n<p>Jā, te OSM katras valsts specifika. Lielbritānijā ir \"public right of way\" likumā un šitādi celiņi staigājami. Pie mums tāda gluži nav. Ir tikai servitūda ceļi, bet tie arī kā pagadās dabā. Tādi - ej caur lauku - gluži mums nav.</p>",
+        "id": 396640703,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697281149
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"658955\">Jānis Grīnvalds</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Nep.C4.81rbaud.C4.ABtas.20takas/near/396636210\">said</a>:</p>\n<blockquote>\n<p>Čau! Esmu nosacīti jauniņais. Esmu spiests kļūt par editoru(varbūt izveidosies par vaļas prieku), jo motomaršrutu plānortājs Kurviger(gan jau ne tikai) izmanto OSM datus. Un vakardienas izbrauciens izvērsās neizbraucamo, neatrodamo un aizliegto taku fiksēšanā. Tā nu saliku izmaiņas, ko varēju atcerēties.<br>\nPapildus, gribētos saprast divas lietas - vai ir kāda sistēma/iespēja atturēt cilvēkus hobija pēc likt randomas takas no satelīta, nepārbaudot tās dabā? 2. - Vai būtu iespēja(varbūt izveidojama) deliģēt cilvēkiem, kam patīk ceļot un izpētīt šīs nenoteiktu segumu un pieejas pārbaudīt un papildināt ar info?</p>\n</blockquote>\n<p>Čau, un paldies par kartes uzlabojumiem :)<br>\nAtturēt droši vien varētu ar tik labu karti, ka tur reti kas trūkst - bet līdz tam vēl mazliet ir ko padarboties.<br>\nNotes/piezīmes jau minētas - vē var apsvērt kartēšanas parādīšanu interešu grupās, varbūt ir kāda moto kopiena, kuru tas var ieinteresēt.</p>\n<p>Te vismaz divi klātesoši kartētāji zīmē karti rogaininga vajadzībām, un nesen, piemēram, ļoti smuki sazīmēja trūkstošās takas ap Ādažiem. Mazāk populārās vietās tas diezgan daudz būs atkarīgs no vietējo aktivitātes.</p>",
+        "id": 397771128,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1697833177
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"658955\">Jānis Grīnvalds</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Nep.C4.81rbaud.C4.ABtas.20takas/near/396636853\">said</a>:</p>\n<blockquote>\n<p>Kopš nesena laika esmu programmētājs. Un man ienāca prātā, varbūt ir iespēja jaut kā no OSM datiem izfiltrēt kādas iezīmētas apkārtnes 10x10km ar servisa, aksesa ceļiem un takām, kurās ir skopa vai veca info. Būs jāuzprasa manam kolēgim - ChatGPT. Varbūt te ir kāds jau pieredzējis developeris, kas ņēmies ar OSM datiem?</p>\n</blockquote>\n<p>Ar Overpass varētu pagrābt ceļus, kuri nav ilgāku laiku modificēti vai trūkst kāds tags, par skopo info var skatīties QA rīkos, bija arī vizualizācijas ar \"stale data\", šo to trūkstošu var ar <a href=\"https://streetcomplete.app/\">StreetComplete</a> atrast... Man gan arī tikai apkārt skatoties pietiek ar zīmējamo joprojām :)</p>",
+        "id": 397771728,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1697833489
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"658955\">Jānis Grīnvalds</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Nep.C4.81rbaud.C4.ABtas.20takas/near/396636996\">said</a>:</p>\n<blockquote>\n<p>Motobraukšana ar mērķi ir krietni aizraujošāka. Varbūt ir vēl OSM-Motobraucēji?</p>\n</blockquote>\n<p>O jā, tik ļoti šis.<br>\nNe tikai motobraukšana, arī velo, iešana... nu, jebkas. Un pēc tam vēl paliek kaut kas smuks un derīgs. Mmm.</p>\n<p>Es šobrīd esmu bez moto jau ilgāku laiku, bet mums te vismaz pāris citi ir - ceru, ka <span class=\"user-mention\" data-user-id=\"574669\">@UrSuS</span> un <span class=\"user-mention\" data-user-id=\"613326\">@Pēteris Caune</span> neļaunosies par ietagošanu :)</p>",
+        "id": 397771918,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1697833589
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"658955\">Jānis Grīnvalds</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Nep.C4.81rbaud.C4.ABtas.20takas/near/396637575\">said</a>:</p>\n<blockquote>\n<p><a href=\"/user_uploads/49624/yCMEzHEhKBXQ_rItyWF-JRQk/image.png\">image.png</a></p>\n<p>Šis ir inčīgi. Vesels normāla ceļa posms iztrūkst. :) Samērā jauns..paskatījos, ka Bingā vēl nav.</p>\n</blockquote>\n<p>LVM vai nē?</p>",
+        "id": 397772028,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1697833670
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Nep.C4.81rbaud.C4.ABtas.20takas/near/396639849\">said</a>:</p>\n<blockquote>\n<p>Pie mums jau pat uz pašvaldību ceļiem ir vārti dažās vietās <span aria-label=\"melting face\" class=\"emoji emoji-1fae0\" role=\"img\" title=\"melting face\">:melting_face:</span></p>\n</blockquote>\n<p>Daudzās vietās, es pat teiktu :)<br>\nTeorētiski jau to laikam VARAM vajadzētu kontrolēt (pašvaldības lielākoties nerisinās), bet viņiem jau ar tauvas joslu īsti neiet.</p>",
+        "id": 397772225,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1697833792
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"658955\">Jānis Grīnvalds</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Nep.C4.81rbaud.C4.ABtas.20takas/near/396639667\">said</a>:</p>\n<blockquote>\n<p>Es arī saprotu, ka dažviet garām mājām ejoša apgrūtinājuma ceļa slēgšana nav gluži legāli. Tas nekas, ka tas iet cauri īpašumam - tas nenozīmē, ka to drīkst slēgt - tā pat ka pieeju ūdeņiem - 7m zonu.</p>\n</blockquote>\n<p>No kurienes 7 metri? Tauvas josla ir 4, 10 vai 20 metri, atkarībā no tā, kāds ūdens tas ir.<br>\n<a href=\"https://likumi.lv/ta/id/34871-zvejniecibas-likums\">https://likumi.lv/ta/id/34871-zvejniecibas-likums</a></p>\n<blockquote>\n<p>(9) Dabiskās tauvas joslas platums ir:<br>\n1) gar privāto ūdeņu krastiem — 4 metri;<br>\n2) gar pārējo ūdeņu krastiem — 10 metru;<br>\n3) gar jūras piekrasti — 20 metru.</p>\n</blockquote>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://likumi.lv/ta/id/34871-zvejniecibas-likums\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/91d1c88287840a065f2a7c4bd960e319f144ed00\\/68747470733a2f2f6c696b756d692e6c762f6c696b756d695f62696c6465732f5049432f4c494b3230302e4a5047)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://likumi.lv/ta/id/34871-zvejniecibas-likums\" title=\"Zvejniecības likums\">Zvejniecības likums</a></div><div class=\"message_embed_description\">Tiesību akti un to izmaiņas: visi jaunumi un arhīvs. Sistematizēti tiesību akti. Plašas meklēšanas un personalizētās iespējas. Vietni uztur „Latvijas Vēstnesis”</div></div></div>",
+        "id": 397772499,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1697833924
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571929\">Dāvis Kļaviņš</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Nep.C4.81rbaud.C4.ABtas.20takas/near/396640154\">said</a>:</p>\n<blockquote>\n<p>Privātīpašumu zīmes tomēr ir jāvērtē, ja tai nav pamata, tad OSM ceļš kā privāts nebūtu jāatzīmē.</p>\n</blockquote>\n<p>Šis gan sarežģīti, jo kāds cits dabā to zīmi ieraudzīs, un sanāks mainīšana turp-atpakaļ.<br>\nBūtu jau jauki, ja par maldinošām zīmēm un pašvaldības zemes / tauvas joslas aizžogošanu VARAM varētu likt progresīvus sodus. Kamēr tā nav, laba risinājuma gan laikam nav :/</p>",
+        "id": 397772641,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1697834020
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"658955\">Jānis Grīnvalds</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Nep.C4.81rbaud.C4.ABtas.20takas/near/396640414\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"571929\">Dāvis Kļaviņš</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Nep.C4.81rbaud.C4.ABtas.20takas/near/396640154\">said</a>:</p>\n<blockquote>\n<p>Privātīpašumu zīmes tomēr ir jāvērtē, ja tai nav pamata, tad OSM ceļš kā privāts nebūtu jāatzīmē.</p>\n</blockquote>\n<p>tas vēl būtu tā - bet stāv vnk. barjera pāri, jeb elektriskais žogs, aiz kura tieši uz ceļa govis ganas.<br>\nEsmu redzējis video no Skotijas vai Īrijas, kur aižogotus, cauri ejošus (pat cauri aplokiem) ceļus droši izmanto - vnk atverot vārtus, neizlaižot lopiņu, aizver un brauc tālāk</p>\n</blockquote>\n<p>Tur ir gadu simtiem vai pat tūkstošiem senas \"right of way\". Nu tā, ka \"te ir privātīpašums, bet šī taciņa ir eksistējusi 1000 gadu, tāpēc te visi drīkst staigāt\".<br>\nLai gan tur arī pēdējos gados daudzi īpašnieki liekot žogus, slēdzot vārtus, un šī tradīcija esot apdraudēta.</p>",
+        "id": 397772830,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1697834135
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Nep.C4.81rbaud.C4.ABtas.20takas/near/396640559\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"571929\">Dāvis Kļaviņš</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Nep.C4.81rbaud.C4.ABtas.20takas/near/396640154\">said</a>:</p>\n<blockquote>\n<p>Privātīpašumu zīmes tomēr ir jāvērtē, ja tai nav pamata, tad OSM ceļš kā privāts nebūtu jāatzīmē.</p>\n</blockquote>\n<p>Jā, tie dabā ir katrs atsevišķi jāskatās. Es lieku private, ja ir zīme nevar staigāt/braukt vai arī fiziska barjera. Pati par sevi zīme \"privātīpašums\" vēl neko nenozīmē. Bet ja reāli piebrauktuve mājai, tad arī private. Bet servitūda ceļi mēdz būt privātīpašums un publiski pieejams. Protams, tās zīmes arī karts sabāž, kur grib, arī uz pašvaldību ceļiem. Nu tad jādomā, ko darīt - likt kā dabā vai kā legāli (principā OSM jāliek legāli).</p>\n</blockquote>\n<p>Servitūti mēdz būt dažādi - bieži tas ir servitūts piebraukšanai vienai vai dažām mājām, un (diemžēl :) ) nebūs oficiāli publiski pieejams.</p>",
+        "id": 397772960,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1697834196
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"658955\">Jānis Grīnvalds</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Nep.C4.81rbaud.C4.ABtas.20takas/near/396636853\">said</a>:</p>\n<blockquote>\n<p>Kopš nesena laika esmu programmētājs. ... Varbūt te ir kāds jau pieredzējis developeris, kas ņēmies ar OSM datiem?</p>\n</blockquote>\n<p>Mums ir <a class=\"stream\" data-stream-id=\"394092\" href=\"/#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1\">#programmēšanas pulciņš</a>, laipni lūdzam pievienoties, ja ir interese paprogrammēt saistībā ar OSM.</p>",
+        "id": 398103998,
+        "sender_full_name": "i-ky",
+        "timestamp": 1698073089
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"658955\">Jānis Grīnvalds</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Nep.C4.81rbaud.C4.ABtas.20takas/near/396636853\">said</a>:</p>\n<blockquote>\n<p>Un man ienāca prātā, varbūt ir iespēja jaut kā no OSM datiem izfiltrēt kādas iezīmētas apkārtnes 10x10km ar servisa, aksesa ceļiem un takām, kurās ir skopa vai veca info.</p>\n</blockquote>\n<p>To var darīt ar OSM Task Manager palīdzību (ja ir cilvēki, kas grib to darīt). Kā piemērs - <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts\">#general &gt; Ēkas Rēzeknes novadā: kartēšanas projekts</a>.</p>",
+        "id": 398105071,
+        "sender_full_name": "i-ky",
+        "timestamp": 1698073368
+    }
+]

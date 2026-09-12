@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p><a href=\"#narrow/stream/358602-general/topic/managing.20project.20topics/near/387865966\">Kā jau teicu</a>, šobrīd mums tikai <span class=\"user-group-mention\" data-user-group-id=\"350450\">@Zulip administratori</span> un <span class=\"user-group-mention\" data-user-group-id=\"350507\">@Zulip moderatori</span> var resolvēt un pārdēvēt topic'us. Es labprāt atļautu visiem resolvēt viņu pašu taisītus topic'us, bet man šķiet, ka topic'u pārdēvēšanu vajadzētu atstāt moderatoriem un administratoriem, jo tas, tāpat kā message pārvietošana, ir moderācijas darbs. Kādas ir jūsu domas?<br>\nJāņem vērā arī to, ka <a class=\"stream-topic\" data-stream-id=\"362235\" href=\"/#narrow/stream/362235-Zulip/topic/resolving.20topic.20breaks.20links\">#Zulip &gt; resolving topic breaks links</a>.</p>",
+        "id": 387868540,
+        "sender_full_name": "i-ky",
+        "timestamp": 1693310712
+    },
+    {
+        "content": "<p>Nav strikta viedokļa, bet vairāk sliecos piekrist tam, ka tā tomēr ir vairāk moderēšana.</p>",
+        "id": 387988587,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1693352055
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Jo es redzu, ka <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bots</a> var vairākas stundas neko nedarīt, vai arī būt baigi aktīvs. Vai tas viss atkarīgs no Riharda, kas ir <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bota</a> īpašnieks?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/533f2eb38a3c23d0cf38b48a39dbb54792351be9/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f303434383364643263653532663933346239663137373333336332623931363863616139373932626364376432613334363662656465323430353463336632382f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses and tags). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses and tags). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses and tags). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - Davis-Klavins/os...</div></div></div>",
+        "id": 620120504,
+        "sender_full_name": "Rinalds L.",
+        "timestamp": 1788103170
+    },
+    {
+        "content": "<p>Tu domā RSS \"b0tu\"? Tur kaut kur viņam salikti githubā laiki dažas reizes dienā. Neviens nav neko pagaidām mainījis. Es nezinu, cik ātri tie paši RSS atjaunojas.</p>",
+        "id": 620121602,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788103796
+    },
+    {
+        "content": "<p>Jā. Labi.</p>",
+        "id": 620124429,
+        "sender_full_name": "Rinalds L.",
+        "timestamp": 1788105545
+    },
+    {
+        "content": "<p>IIRC from last time I was looking at it - b0t was started 4 times a day at around 2 and 8 (am and pm), but with github trigger allowing for some flexibility.</p>",
+        "id": 620290674,
+        "sender_full_name": "markalex",
+        "timestamp": 1788177880
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"1184352\">Rinalds L.</span> <a href=\"#narrow/channel/388728-RSS/topic/Cik.20bie.C5.BEi.20bots.20skat.C4.81s.20jaunas.20izmai.C5.86as.3F/near/620120504\">said</a>:</p>\n<blockquote>\n<p>Jo es redzu, ka <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bots</a> var vairākas stundas neko nedarīt, vai arī būt baigi aktīvs. Vai tas viss atkarīgs no Riharda, kas ir <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bota</a> īpašnieks?</p>\n</blockquote>\n<p>Es tur neko neesmu mainījis, kopš to ieviesa.<br>\nVai ir vēlme/iedvesma kaut ko uzlabot?</p>",
+        "id": 620410536,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1788201337
+    }
+]

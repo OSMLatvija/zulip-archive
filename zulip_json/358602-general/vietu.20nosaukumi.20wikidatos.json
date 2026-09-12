@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>Šis principā laikam vairāk wikidata jautājus un varbūt <span class=\"user-mention\" data-user-id=\"574695\">@Edgars Košovojs</span> varēs palīdzēt...<br>\nBet šos datus tomēr arī referencējam OSM, tā ka galīgi offtopic nav.<br>\nSkatos <a href=\"https://www.wikidata.org/wiki/Q15219784\">https://www.wikidata.org/wiki/Q15219784</a> , un tur apdz. vietai \"Sondori\" kā angliskais nosaukums ir ielikts \"Sondor\".<br>\nVai tā tiešām ir pareizi?<br>\nVismaz OSM es nemēģinātu šādi \"noīsināt\" nosaukumu.</p>",
+        "id": 323762182,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674750404
+    },
+    {
+        "content": "<p>Oi, wikidatā label ir šķībi greizi. Šitais nez no kurienes <a href=\"https://www.wikidata.org/w/index.php?title=Q15219784&amp;diff=prev&amp;oldid=99086523\">https://www.wikidata.org/w/index.php?title=Q15219784&amp;diff=prev&amp;oldid=99086523</a> Var droši labot</p>",
+        "id": 323762599,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674750497
+    },
+    {
+        "content": "<p>Un tad vēl boti tulko visās valodās un kļūdas kopē</p>",
+        "id": 323762856,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674750565
+    },
+    {
+        "content": "<p>Hehe jā, to vēsturi biju apskatījies un noskurinājos :)<br>\nPirms rediģēšanas gribējās kāda Wikidata cilvēka apstiprinājumu, ko kāds tač ir licis klāt latvisko un to anglisko nav aizticis...</p>",
+        "id": 323764153,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674750832
+    },
+    {
+        "content": "<p>thanks, salabots</p>",
+        "id": 323905733,
+        "sender_full_name": "Edgars Košovojs",
+        "timestamp": 1674765995
+    },
+    {
+        "content": "<p>Yay, paldies :)</p>",
+        "id": 323917680,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1674770567
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "content": "<p>Kāds mīļš cilvēks uzzīmēja uz Brasas tilta <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dservice\">highway=service</a>, un tagad <a href=\"/user_uploads/49624/9Dqi8lr46oEQxEJCChTo-S3l/image.png\">OSRM'am tas patīk pat vairāk, nekā oficiālais veloceliņš, kas iet blakus</a> (<a href=\"https://www.openstreetmap.org/directions?engine=fossgis_osrm_bike&amp;route=56.97629%2C24.14505%3B56.98150%2C24.14962#map=17/56.97876/24.14776&amp;layers=N\">link</a>). Cik sapratu no OSRM <a href=\"https://github.com/Project-OSRM/osrm-backend/issues/5515\">issue</a> un <a href=\"https://github.com/Project-OSRM/osrm-backend/pull/55800\">pull request</a> diskusijām, likt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aembedded_rails%3Dtram\">embedded_rails=tram</a> baigi nepalīdzēs. Ko darīt? Likt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aaccess%3Dno\">access=no</a>?</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/9Dqi8lr46oEQxEJCChTo-S3l/image.png\" title=\"OSRM'am tas patīk pat vairāk, nekā oficiālais veloceliņš, kas iet blakus\"><img src=\"/user_uploads/49624/9Dqi8lr46oEQxEJCChTo-S3l/image.png\"></a></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/directions?engine=fossgis_osrm_bike&amp;route=56.97629%2C24.14505%3B56.98150%2C24.14962#map=17/56.97876/24.14776&amp;layers=N\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/directions?engine=fossgis_osrm_bike&amp;route=56.97629%2C24.14505%3B56.98150%2C24.14962#map=17/56.97876/24.14776&amp;layers=N\" title=\"OpenStreetMap\">OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Project-OSRM/osrm-backend/issues/5515\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/2e182cfc176e5fceec8f9df0693a0cf99697077a\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f636135336162313334613464323932613530343832386431306463346131393339363462653166363030366163613165333936636365313434613032316234612f50726f6a6563742d4f53524d2f6f73726d2d6261636b656e642f6973737565732f35353135)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Project-OSRM/osrm-backend/issues/5515\" title=\"Consider using embedded_rails tag in bicycle.lua profile · Issue #5515 · Project-OSRM/osrm-backend\">Consider using embedded_rails tag in bicycle.lua profile · Issue #5515 · Project-OSRM/osrm-backend</a></div><div class=\"message_embed_description\">I was thinking that it would be nice to add consideration of whether or not streets have embedded rails in the bicycle routing profile. This is a big issue (to my mind anyway) in Toronto where our ...</div></div></div>",
+        "id": 318266240,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672237909
+    },
+    {
+        "content": "<p>Es vispār šaubos, ka tas ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dservice\">highway=service</a>.</p>",
+        "id": 318267075,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672238169
+    },
+    {
+        "content": "<p>Kurš to zīmēja? Nekavējoties DWG banu!</p>",
+        "id": 318267943,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672238478
+    },
+    {
+        "content": "<p>Tur agrāk bija visā garumā (bez izdalīta tilta) <a href=\"https://www.openstreetmap.org/way/757063469\">https://www.openstreetmap.org/way/757063469</a> pa nodiem kopā ar tram. Un accessi <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amotorcar%3Dno\">motorcar=no</a> <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amotorcycle%3Dno\">motorcycle=no</a> <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Apsv%3Dyes\">psv=yes</a>. Bet jā, šķiet <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aaccess%3Dno\">access=no</a> <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Apsv%3Dyes\">psv=yes</a> - gājējiem uz Brasas arī sen nav atļauts.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/757063469\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/757063469\" title=\"Way: 757063469 | OpenStreetMap\">Way: 757063469 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 318268430,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672238641
+    },
+    {
+        "content": "<p>Un te laikam arī būs viens way nākotnē pa vidu tramvajiem. Varbūt labāk uzreiz tagad to arī izdalīt?</p>",
+        "id": 318268555,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672238676
+    },
+    {
+        "content": "<p>Bet te arī galvenajai ielai tad jābūt pa vidu nevis 2 wayi. Tad to service var likvidēt.</p>",
+        "id": 318268880,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672238793
+    },
+    {
+        "content": "<p>Tas remonts tikai visu to sačakarē, jo tagad tur viena puse, bet man liekas <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aconstruction%3Dminor\">construction=minor</a> un līnija pa vidu.</p>",
+        "id": 318269014,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672238847
+    },
+    {
+        "content": "<p>Vai arī autobusi tur brauc pa sliedēm nevis pa brauktuvi? Kaut gan tas mainītu kaut kādus lanes nevis pašu ceļu.</p>",
+        "id": 318269086,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672238878
+    },
+    {
+        "content": "<p>Tur starp citu veloceļš gar tiltu ir ciet kādu laiku laikam līdz pārbūves beigām. <a href=\"https://www.mapillary.com/app/?pKey=3043697609254753&amp;focus=photo\">https://www.mapillary.com/app/?pKey=3043697609254753&amp;focus=photo</a></p>",
+        "id": 318269355,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672238989
+    },
+    {
+        "content": "<p>Es varbūt šovakar saņemšos aizbraukt uz turieni un apskatīties, kas notiek dzīvē.</p>",
+        "id": 318269405,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672239003
+    },
+    {
+        "content": "<p><a href=\"https://www.mapillary.com/app/?pKey=2078743095663801&amp;focus=photo\">https://www.mapillary.com/app/?pKey=2078743095663801&amp;focus=photo</a></p>",
+        "id": 318269977,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672239185
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/OSRM.20ved.20rite.C5.86brauc.C4.93jus.20p.C4.81ri.20Brasas.20tiltam/near/318269405\">said</a>:</p>\n<blockquote>\n<p>Es varbūt šovakar saņemšos aizbraukt uz turieni un apskatīties, kas notiek dzīvē.</p>\n</blockquote>\n<p>OK, tas nebija tovakar, bet es beidzot tiku līdz turienei.<br>\n<a href=\"/user_uploads/49624/lRLusfwX1YhUTUETDK-XEOqj/IMG_20230108_132849_971.jpg\">Tā Brasas tilts šobrīd izskatās</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/lRLusfwX1YhUTUETDK-XEOqj/IMG_20230108_132849_971.jpg\" title=\"Tā Brasas tilts šobrīd izskatās\"><img src=\"/user_uploads/49624/lRLusfwX1YhUTUETDK-XEOqj/IMG_20230108_132849_971.jpg\"></a></div>",
+        "id": 320109452,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673204922
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/OSRM.20ved.20rite.C5.86brauc.C4.93jus.20p.C4.81ri.20Brasas.20tiltam/near/318269086\">said</a>:</p>\n<blockquote>\n<p>Vai arī autobusi tur brauc pa sliedēm nevis pa brauktuvi? Kaut gan tas mainītu kaut kādus lanes nevis pašu ceļu.</p>\n</blockquote>\n<p>Autobusi brauc pa ielu gar tiltu un pāri dzelzceļa pārbrauktuvei.</p>",
+        "id": 320109840,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673205179
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/OSRM.20ved.20rite.C5.86brauc.C4.93jus.20p.C4.81ri.20Brasas.20tiltam/near/318269355\">said</a>:</p>\n<blockquote>\n<p>Tur starp citu veloceļš gar tiltu ir ciet kādu laiku laikam līdz pārbūves beigām. <a href=\"https://www.mapillary.com/app/?pKey=3043697609254753&amp;focus=photo\">https://www.mapillary.com/app/?pKey=3043697609254753&amp;focus=photo</a></p>\n</blockquote>\n<p>Tas arī vēl spēkā. Manuprāt, vajadzētu pārzīmēt kartē. Kurš zin, cik ilgi vēl tas remonts turpināsies...</p>",
+        "id": 320110059,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673205312
+    },
+    {
+        "content": "<p>Es domāju ilgāk nekā lietošanas laiks OSM izmaiņām, tā kā vajadzētu pārzīmēt un salikt construction.</p>",
+        "id": 320135613,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673226726
+    }
+]
