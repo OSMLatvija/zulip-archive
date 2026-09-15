@@ -1,0 +1,80 @@
+[
+    {
+        "content": "<p>Vai ir kāds veids, kā varētu LAD lauku reġistru izmantot JOSM? Tā, ka var redzēt tāpat kā LVM GEO mobilajā aplikācijā un rāda piemēram \"Ābeles\"?</p>",
+        "id": 622740567,
+        "sender_full_name": "Rinalds L.",
+        "timestamp": 1788936451
+    },
+    {
+        "content": "<p>Varbūt lvm geo vektordatu wms ir?</p>",
+        "id": 622740724,
+        "sender_full_name": "Rinalds L.",
+        "timestamp": 1788936496
+    },
+    {
+        "content": "<p><a href=\"https://www.lad.gov.lv/lv/lauku-registra-dati\">https://www.lad.gov.lv/lv/lauku-registra-dati</a> ?</p>",
+        "id": 622741089,
+        "sender_full_name": "Rinalds L.",
+        "timestamp": 1788936615
+    },
+    {
+        "content": "<p>Tajā saitē taču ir WMS saites, kuras JOSM var pievienot. Man gan rodas jautājums, kādi dati no tā servisa priekš OSM izskatās noderīgi?</p>",
+        "id": 622742739,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1788937165
+    },
+    {
+        "content": "<p>Nu ir arī WFS. Man liekas tieši WFS ir tie dati. Dati par lauku bloka lietojumu - piemēram sinepes vai ābeles</p>",
+        "id": 622748232,
+        "sender_full_name": "Rinalds L.",
+        "timestamp": 1788938667
+    },
+    {
+        "content": "<p>Kultūras jau mainās katru gadu, ja nav, kas regulāri uztur, tad kultūras likt nevajag. WFS ir dati, jā, bet JOSM jāskatās paplašinajumi, ar kuriem var pievienot.</p>",
+        "id": 622751911,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1788939665
+    },
+    {
+        "content": "<p>Galvenā man problēma ir atškirt meadow (pļavu) no farmland (laukiem), bet arī vietas kur aug āboli, parasti augs tikai āboli (orchard)</p>",
+        "id": 622755432,
+        "sender_full_name": "Rinalds L.",
+        "timestamp": 1788940645
+    },
+    {
+        "content": "<p>Es domāju palīdzēs atškirt, vai ne?</p>",
+        "id": 622755492,
+        "sender_full_name": "Rinalds L.",
+        "timestamp": 1788940662
+    },
+    {
+        "content": "<p>Vai tomēr vienalga</p>",
+        "id": 622760750,
+        "sender_full_name": "Rinalds L.",
+        "timestamp": 1788941824
+    },
+    {
+        "content": "<p>Augļu koku un krūmu stādījumi tik bieži nemainās, tiem var noderēt, bet tos jau arī no ortofoto parasti var labi atšķirt. Pļavas var pārtapt par aramzemi un otrādi, bet tas nav ikgadēji, tā kā var izmantot, jā, bet neejot dziļāk kultūrās.</p>",
+        "id": 622766599,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1788943330
+    },
+    {
+        "content": "<p>Sapratu, paldies!</p>",
+        "id": 622766869,
+        "sender_full_name": "Rinalds L.",
+        "timestamp": 1788943401
+    },
+    {
+        "content": "<p>Piebilde, ka tie LAD dati var neatbilst faktiskajai situācijai, jo attēlo to, ko platību maksājumu saņēmējs paziņojis. Vienmēr jāpaskatās, kas ir redzams ortofoto, kas gan arī ir parasti līdz trim gadiem vecs.</p>",
+        "id": 622774174,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1788945020
+    },
+    {
+        "content": "<p>Neesmu nekad izmantojis šos, bet īsi paskatījos, kas tur īsti ir. Nu jā vārdi \"klienta deklarēto\" nedaudz problemātiski bez papildus nosacījumiem, jo deklarēt jau var visu ko. Nav ne jausmas, cik patiesi/precīzi tie ir un kurš to kontrolē un kas īsti notiek, ja deklarēts neapareizi, un vai ir vispār pienākums deklarēt un vai to vispār dara tie, kam nav pieejams atbalsts.</p>",
+        "id": 622775844,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788945308
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>Vai kāds ir izmantojis šos servisus? Varbūt ir ieteikumi?</p>\n<ol>\n<li><a href=\"https://render.com/\">https://render.com/</a></li>\n<li><a href=\"https://www.cyclic.sh/\">https://www.cyclic.sh/</a></li>\n<li><a href=\"https://deta.space/\">https://deta.space/</a></li>\n<li><a href=\"https://fly.io/\">https://fly.io/</a></li>\n</ol>\n<p>Meklēju māju priekš <a class=\"stream-topic\" data-stream-id=\"362235\" href=\"/#narrow/stream/362235-Zulip/topic/Overpass.20Turbo.20short.20link.20bot\">#Zulip &gt; Overpass Turbo short link bot</a>.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://render.com/\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/c1723f3577d2624f0d81da6995f943d3ecb0ff50\\/68747470733a2f2f72656e6465722e636f6d2f6f672d696d672e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://render.com/\" title=\"Cloud Application Hosting for Developers | Render\">Cloud Application Hosting for Developers | Render</a></div><div class=\"message_embed_description\">Render is a unified cloud to build and run all your apps and websites with free TLS certificates, global CDN, private networks and auto deploys from Git.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.cyclic.sh/\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/9a3a05793f0e00d9c5b12a3e24cfcc590eef0dd9\\/68747470733a2f2f7777772e6379636c69632e73682f6f672f73756d6d6172795f6c617267655f696d6167652e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.cyclic.sh/\" title=\"Cyclic.sh - Fullstack Javascript Apps - Deploy and Host in Seconds\">Cyclic.sh - Fullstack Javascript Apps - Deploy and Host in Seconds</a></div><div class=\"message_embed_description\">Fullstack Javascript Apps: Front-end, Backend, Database, Scheduled tasks. All running with zero-config.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://deta.space/\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/d09ac47c270b0510c3a6b8a7e9a9503bd7599fb9\\/68747470733a2f2f646574612e73706163652f6c616e64696e672d706167652f7374617469632f736f6369616c2d707265766965772e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://deta.space/\" title=\"Deta Space\">Deta Space</a></div><div class=\"message_embed_description\">The cloud for doers and dreamers</div></div></div>",
+        "id": 398895976,
+        "sender_full_name": "i-ky",
+        "timestamp": 1698412202
+    },
+    {
+        "content": "<p>Man arī ir līdzīgs jautājums un es neko par cloud runneriem nezinu. Es neesmu gatavs daudz maksāt (vairāk nekā tagad par vienkārši hostingu gadā), bet lasot free tier aprakstus, man liekas man gandrīz vai pietiek arī ar tiem. Tu nemini lielos servisus kā Amazon AWS principa pēc vai arī? Piemēram AWS brīvie limiti ir vidēji augstāki nekā šajos piemēros.</p>",
+        "id": 406507471,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701942886
+    },
+    {
+        "content": "<p>AWS īsti nav tāda \"free tier\". Ir kaut kādi bezmaksas servisi, bet daudz kas svarīgs sāk krāt maksu (DNS utt).<br>\nUn nevar arī uzlikt \"apstājies, ja sākas maksa\" :/</p>",
+        "id": 406527350,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1701950298
+    },
+    {
+        "content": "<p>Ir <a href=\"https://github.com/cloudcommunity/Cloud-Free-Tier-Comparison\">https://github.com/cloudcommunity/Cloud-Free-Tier-Comparison</a> , bet laikam vairākus gadus vecs.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/cloudcommunity/Cloud-Free-Tier-Comparison\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1a318adeaf7345aae46109cfab9883fb9a71dab7\\/68747470733a2f2f7265706f7369746f72792d696d616765732e67697468756275736572636f6e74656e742e636f6d2f3238373232373930372f39376664323930302d646435392d313165612d386433642d356266626562643466363962)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/cloudcommunity/Cloud-Free-Tier-Comparison\" title=\"GitHub - cloudcommunity/Cloud-Free-Tier-Comparison: Comparing the free tier offers of the major cloud providers like AWS, Azure, GCP, Oracle etc.\">GitHub - cloudcommunity/Cloud-Free-Tier-Comparison: Comparing the free tier offers of the major cloud providers like AWS, Azure, GCP, Oracle etc.</a></div><div class=\"message_embed_description\">Comparing the free tier offers of the major cloud providers like AWS, Azure, GCP, Oracle etc. - GitHub - cloudcommunity/Cloud-Free-Tier-Comparison: Comparing the free tier offers of the major cloud...</div></div></div>",
+        "id": 406528816,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1701950780
+    },
+    {
+        "content": "<p>Es lasīju <a href=\"https://aws.amazon.com/lambda/pricing/\">https://aws.amazon.com/lambda/pricing/</a>, bet tur ir tik daudz punktu ar visiem tiem servisiem, ka grūti pateikt, vai es visus nepieciešamos/potenciālos maksājumus esmu saskaitījis. Cik es zinu AWS, viņiem modelis ir \"brīvs brīvs brīvs ups sākas maksa, bet ko darīt, tu jau visu esi salicis\". Bet tas ir problēma kaut kādiem websaitiem, kuriem neparedzami patēriņi. Ja man teorētiski ir zināmi mani patēriņi un tie ir limitos... hmm. Un vai citi servisi nedarīs tieši to pašu?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://aws.amazon.com/lambda/pricing/\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1c19fcff3e51a7ffbb2154e32014652ad4e63811\\/68747470733a2f2f61302e6177737374617469632e636f6d2f6c696272612d6373732f696d616765732f6c6f676f732f6177735f6c6f676f5f736d696c655f31323030783633302e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://aws.amazon.com/lambda/pricing/\" title=\"Serverless Computing – AWS Lambda Pricing – Amazon Web Services\">Serverless Computing – AWS Lambda Pricing – Amazon Web Services</a></div><div class=\"message_embed_description\">With AWS Lambda, you pay only for what you use. You are charged based on the number of requests for your functions and the time your code executes.</div></div></div>",
+        "id": 406529803,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701951108
+    },
+    {
+        "content": "<p>Jā, un triks jau tajā, ka Lambda ir viena lieta, bet tad Tev varbūt vajag storage, tīklu, vēl kaut ko - un tur vai nu uzreiz sākas maksa, vai arī limiti ir ļoti zemi.<br>\nJa varētu uzlikt \"stop, ja sāktos jebkāda maksa\", varētu vismaz eksperimentēt - bet tagad arī eksperimentēšana var izvērsties dārga.</p>",
+        "id": 406535060,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1701953131
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/app.20hosting/near/406507471\">said</a>:</p>\n<blockquote>\n<p>Tu nemini lielos servisus kā Amazon AWS principa pēc vai arī?</p>\n</blockquote>\n<p>Principa pēc. AWS un Azure ir pārāk hype un pārāk empire-of-evil manā subjektīvā skatienā.</p>",
+        "id": 406604676,
+        "sender_full_name": "i-ky",
+        "timestamp": 1701975980
+    }
+]

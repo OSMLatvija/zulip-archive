@@ -1,0 +1,170 @@
+[
+    {
+        "content": "<p>Iekštelpu kartēšana (indoor mapping) īpaši noder lielākās ēkās - piem., tirdzniecības centros.<br>\nTas ļauj labāk novietot ieejas, veikalus utt, kad tos var izvietot relatīvi pret gaiteņiem.<br>\nBet grūti tā precīzi iezīmēt, jo īpaši lielās platībās.<br>\nIdeja - evakuācijas plāni var noderēt, jo tos var palikt apakšā JOSM un precīzāk sazīmēt.</p>",
+        "id": 486783041,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1733675174
+    },
+    {
+        "content": "<p>JOSM vai tad tagad ir image rectification kā native vai plugins?</p>",
+        "id": 486783406,
+        "sender_full_name": "HellMap",
+        "timestamp": 1733675520
+    },
+    {
+        "content": "<p>Es lietoju PicLayer pluginu: <a href=\"https://wiki.openstreetmap.org/wiki/JOSM/Plugins/PicLayer\">https://wiki.openstreetmap.org/wiki/JOSM/Plugins/PicLayer</a> .</p>",
+        "id": 486783496,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1733675575
+    },
+    {
+        "content": "<p>Mēģināju tā darīt kaut kad, bet man nešķita evakuācijas plānu bildes diezgan precīzas.</p>",
+        "id": 486851541,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1733725909
+    },
+    {
+        "content": "<p>Ha, interesanti. Cik neprecīzas bija, vai nāk prātā kāds konkrēts piemērs?</p>",
+        "id": 487098534,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1733778245
+    },
+    {
+        "content": "<p>Lai gan principā jā, te uzliekot plānu uz kadastra kontūras ir redzamas būtiskas nobīdes. Kadastra precizitāte gan arī potenciāli apšaubāma.<br>\n<a href=\"/user_uploads/49624/0uDGDZoIAkKfGi8oUa5IJSvx/image.png\">plāns vs kadastrs</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/0uDGDZoIAkKfGi8oUa5IJSvx/image.png\" title=\"plāns vs kadastrs\"><img data-original-dimensions=\"2808x1748\" src=\"/user_uploads/thumbnail/49624/0uDGDZoIAkKfGi8oUa5IJSvx/image.png/840x560.webp\"></a></div>",
+        "id": 487105100,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1733780554
+    },
+    {
+        "content": "<p>Nu labi, te laikam kadastrs tomēr šķībs :)<br>\n<a href=\"/user_uploads/49624/gBRhRnIq9U0dTAoEy89mZ4qW/image.png\">plāns &gt; kadastrs</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/gBRhRnIq9U0dTAoEy89mZ4qW/image.png\" title=\"plāns &gt; kadastrs\"><img data-original-dimensions=\"940x782\" src=\"/user_uploads/thumbnail/49624/gBRhRnIq9U0dTAoEy89mZ4qW/image.png/840x560.webp\"></a></div>",
+        "id": 487105650,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1733780757
+    },
+    {
+        "content": "<p>Vai internetā ir iespējams tos evakuācijas plānus dabūt?</p>",
+        "id": 487181644,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1733817011
+    },
+    {
+        "content": "<p>Man kādreiz bija vēlme atjaunot lidostu</p>",
+        "id": 487181786,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1733817075
+    },
+    {
+        "content": "<p>Nē, domāju, ka nav.<br>\nSanāk fotografēt tikai.</p>",
+        "id": 487182287,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1733817271
+    },
+    {
+        "content": "<p>Un lidostā nedrīkst fotografēt!!!!!</p>",
+        "id": 487216536,
+        "sender_full_name": "HellMap",
+        "timestamp": 1733827761
+    },
+    {
+        "content": "<p><a href=\"https://lv.wikipedia.org/wiki/Att%C4%93ls:Lidostas_%22R%C4%ABga%22_termin%C4%81%C4%BCa_pl%C4%81ns.jpg\">https://lv.wikipedia.org/wiki/Att%C4%93ls:Lidostas_%22R%C4%ABga%22_termin%C4%81%C4%BCa_pl%C4%81ns.jpg</a> Kaut kas tāds jau drošvien nav precīzi</p>\n<div class=\"message_inline_image\"><a href=\"https://lv.wikipedia.org/wiki/Att%C4%93ls:Lidostas_%22R%C4%ABga%22_termin%C4%81%C4%BCa_pl%C4%81ns.jpg\"><img src=\"https://uploads.zulipusercontent.net/1689964164f0b3e0c022e527332b6f67a01b3161/68747470733a2f2f6c762e77696b6970656469612e6f72672f77696b692f4174742543342539336c733a4c69646f737461735f2532325225433425414267612532325f7465726d696e254334253831254334254243615f706c2543342538316e732e6a7067\"></a></div>",
+        "id": 487216834,
+        "sender_full_name": "HellMap",
+        "timestamp": 1733827841
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/channel/358602-general/topic/Iek.C5.A1telpu.20kart.C4.93.C5.A1ana.20-.20pl.C4.81ni/near/487098534\">said</a>:</p>\n<blockquote>\n<p>Ha, interesanti. Cik neprecīzas bija, vai nāk prātā kāds konkrēts piemērs?</p>\n</blockquote>\n<p>Ir ļoti iespējams, ka problēma bija saistīta ar to, ka es nemācēju pareizi izmantot PicLayer, taču man nesakrita plāns ar ortofoto. (Cik daudz vairs neatceros, jo tas jau bija pirms kāda laika)</p>",
+        "id": 487217998,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1733828175
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/358602-general/topic/Iek.C5.A1telpu.20kart.C4.93.C5.A1ana.20-.20pl.C4.81ni/near/487216536\">said</a>:</p>\n<blockquote>\n<p>Un lidostā nedrīkst fotografēt!!!!!</p>\n</blockquote>\n<p>Pēdējoreiz esot lidostā es sabildēju vairākas vietas, lai pēc tam sakartētu. Neviens man neko neteica :P</p>",
+        "id": 487218604,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1733828355
+    },
+    {
+        "content": "<p>Pamēģināju beidzot PicLayer. Jā, ērti<br>\n<a href=\"/user_uploads/49624/Uyj59lIR0wmHymOHzBau0voI/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/Uyj59lIR0wmHymOHzBau0voI/image.png\" title=\"image.png\"><img data-original-dimensions=\"569x647\" src=\"/user_uploads/thumbnail/49624/Uyj59lIR0wmHymOHzBau0voI/image.png/840x560.webp\"></a></div>",
+        "id": 490196740,
+        "sender_full_name": "HellMap",
+        "timestamp": 1734713137
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"571825\">@HellMap</span> pārsteidzi <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>",
+        "id": 490201276,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1734714881
+    },
+    {
+        "content": "<p>Ko tad es tādu īpašu izdarīju?</p>",
+        "id": 490201862,
+        "sender_full_name": "HellMap",
+        "timestamp": 1734715121
+    },
+    {
+        "content": "<p>(Adresi dāvinājumiem nosūtīšu PM <span aria-label=\"melting face\" class=\"emoji emoji-1fae0\" role=\"img\" title=\"melting face\">:melting_face:</span> )</p>",
+        "id": 490202151,
+        "sender_full_name": "HellMap",
+        "timestamp": 1734715235
+    },
+    {
+        "content": "<p>Man šodien facebook lidar reklamēja lidaru</p>",
+        "id": 490202187,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1734715252
+    },
+    {
+        "content": "<p><a href=\"https://www.facebook.com/share/v/181mVu96jz/\">https://www.facebook.com/share/v/181mVu96jz/</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.facebook.com/share/v/181mVu96jz/\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/4d5392ce15817399c87fd38da939f262aea9f945/68747470733a2f2f73636f6e74656e742d696164332d322e78782e666263646e2e6e65742f762f7431352e353235362d31302f3437303438383136365f313132303636353435393039303635375f393032383935383538343837363437313137365f6e2e6a70673f5f6e635f6361743d313131266363623d312d37265f6e635f7369643d613237363634265f6e635f6f68633d715f6a45336f68746d577351376b4e766746706c686759265f6e635f7a743d3233265f6e635f68743d73636f6e74656e742d696164332d322e7878265f6e635f6769643d414639386648616d44702d45474a62656441557a683335266f683d30305f4159426c6976744c6a6b747063703042337432473965346d526953686530794d736d4a4f35734e31557a4d4b7641266f653d3637364237433934&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.facebook.com/share/v/181mVu96jz/\" title=\"279 reactions · 31 shares | Subscribe now for super early bird deals | 3DMakerpro Eagle LiDAR Scanner\n🚀Turning Views into Data, Reality into Virtuality\n\n✅Extensive Scanning Range: Precisely captures spatial data up to 140... | By 3DMakerpro | Facebook\">279 reactions · 31 shares | Subscribe now for super early bird deals | 3DMakerpro Eagle LiDAR Scanner\n🚀Turning Views into Data, Reality into Virtuality\n\n✅Extensive Scanning Range: Precisely captures spatial data up to 140... | By 3DMakerpro | Facebook</a></div><div class=\"message_embed_description\">3DMakerpro Eagle LiDAR Scanner\n🚀Turning Views into Data, Reality into Virtuality\n\n✅Extensive Scanning Range: Precisely captures spatial data up to 140...</div></div></div>",
+        "id": 490202192,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1734715254
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Iek.C5.A1telpu.20kart.C4.93.C5.A1ana.20-.20pl.C4.81ni/near/490201862\">said</a>:</p>\n<blockquote>\n<p>Ko tad es tādu īpašu izdarīju?</p>\n</blockquote>\n<p>Pic layer neesi izmantojis</p>",
+        "id": 490202233,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1734715275
+    },
+    {
+        "content": "<p>Ā, nu es parasti MapWarper lietoju, jo manas bildes parasti ar vienkāršu rectify nevar uztaisīt no kaut kādas teritorijas plāksnes, ko kāds ar roku kaut kad zīmējis...</p>",
+        "id": 490202402,
+        "sender_full_name": "HellMap",
+        "timestamp": 1734715341
+    },
+    {
+        "content": "<p>Ja drons pakaļ pats lidotu un tas visur būtu legāli, tad varbūt. Man viņu notrieks, kad garām Ādažiem braukšu <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>",
+        "id": 490203353,
+        "sender_full_name": "HellMap",
+        "timestamp": 1734715738
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/358602-general/topic/Iek.C5.A1telpu.20kart.C4.93.C5.A1ana.20-.20pl.C4.81ni/near/490196740\">said</a>:</p>\n<blockquote>\n<p>Pamēģināju beidzot PicLayer. Jā, ērti<br>\n<a href=\"/user_uploads/49624/Uyj59lIR0wmHymOHzBau0voI/image.png\">image.png</a></p>\n</blockquote>\n<p>Drošvien jau atradi, bet šādā situācijā noder transparency fonam, vai JOSM layer transparency.</p>",
+        "id": 490391611,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1734876348
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/channel/358602-general/topic/Iek.C5.A1telpu.20kart.C4.93.C5.A1ana.20-.20pl.C4.81ni/near/490391611\">said</a>:</p>\n<blockquote>\n<p>Drošvien jau atradi, bet šādā situācijā noder transparency fonam, vai JOSM layer transparency.</p>\n</blockquote>\n<p>Jā, tas screenshot's jau bija pēc tam, kad visu pabeidzu. Bez transparency es pat nestādos, kā to izdarīt. Varbūt ja pati bilde ir ar transparency</p>",
+        "id": 490392660,
+        "sender_full_name": "HellMap",
+        "timestamp": 1734877275
+    },
+    {
+        "content": "<p>Tirdzniecības centri viens pēc otra tiek pabeigti un karte kļūst pilnīgāka. Viens pats laika gaitā sakartēju veikalus Akropolē Rīgā, Dolē un Molā un šodien sakartēju veikalus Rīgā Plazā. Veikalus-saliņas (kuri man ļoti nepatīk) gan mēdzu izlaist.</p>",
+        "id": 507432503,
+        "sender_full_name": "Andris Liepiņš",
+        "timestamp": 1742634774
+    },
+    {
+        "content": "<p>Kas ir \"veikali-saliņas\"? Tie, kas ārpus t.c. telpām koridoros?</p>",
+        "id": 507439997,
+        "sender_full_name": "HellMap",
+        "timestamp": 1742640813
+    },
+    {
+        "content": "<p>Veikali iekšā tirdzniecības centrā pa vidu koridoriem. Rīga Plaza, Akropole Rīga, Akropole Alfa ir tādi.</p>",
+        "id": 507443861,
+        "sender_full_name": "Andris Liepiņš",
+        "timestamp": 1742643945
+    }
+]

@@ -1,0 +1,182 @@
+[
+    {
+        "content": "<p><a href=\"https://www.openstreetmap.org/node/1859986961\">OSM</a> un <a href=\"https://www.mapillary.com/app/?lat=57.38492360611198&amp;lng=21.531766277243037&amp;z=17&amp;pKey=829030501051257&amp;focus=photo&amp;x=0.4928100216234578&amp;y=0.5260339263441591&amp;zoom=0\">Mapillary</a><br>\nŠobrīd atzīmēti kā <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahistoric%3Dmemorial\">historic=memorial</a>. Tos uzmetinātos konusus varbūt var uzskatīt par <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Atourism%3Dartwork\">tourism=artwork</a> bet enkuri ir vienkārši enkuri kas izvilkti no ostas kad to padziļināja. Ir informācijas dēlis ar sarakstu kāds katram modelis un svars bet tas nav iekļuvis mapillary.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/1859986961\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/1859986961\" title=\"Node: 1859986961 | OpenStreetMap\">Node: 1859986961 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 369485608,
+        "sender_full_name": "Colby",
+        "timestamp": 1687718794
+    },
+    {
+        "content": "<p>Nu memorial tas noteikti nav pēc apraksta</p>",
+        "id": 369485926,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687718923
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahistoric%3Danchor\">historic=anchor</a> ?</p>",
+        "id": 369486100,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687718993
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/kcGGaGZzrCoHhuvoeGFz4Gzq/image.png\">wiki</a><br>\noh, tāpēc nevarēju atrast senāk</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/kcGGaGZzrCoHhuvoeGFz4Gzq/image.png\" title=\"wiki\"><img src=\"/user_uploads/49624/kcGGaGZzrCoHhuvoeGFz4Gzq/image.png\"></a></div>",
+        "id": 369486315,
+        "sender_full_name": "Colby",
+        "timestamp": 1687719056
+    },
+    {
+        "content": "<p>pamainīšu tos kurus var redzēt mapillary un ortofoto</p>",
+        "id": 369486434,
+        "sender_full_name": "Colby",
+        "timestamp": 1687719121
+    },
+    {
+        "content": "<p>Jā, nekad nebiju agrāk redzējis. Bet nekad nebiju arī tagojis. taginfo gan ja meklētu \"anchor\" drošvien būtu. Nākotnē zināšu arī. Piemēram <a href=\"https://www.openstreetmap.org/node/11006089517\">https://www.openstreetmap.org/node/11006089517</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/11006089517\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/11006089517\" title=\"Node: 11006089517 | OpenStreetMap\">Node: 11006089517 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 369486671,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687719205
+    },
+    {
+        "content": "<p>nākamreiz kad būšu ventspilī pastaigāšu ar everydoor un iebildēšu informācijas dēļus</p>",
+        "id": 369489860,
+        "sender_full_name": "Colby",
+        "timestamp": 1687720416
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Ventspils.20Piej.C5.ABras.20parka.20enkuri/near/369485926\">said</a>:</p>\n<blockquote>\n<p>Nu memorial tas noteikti nav pēc apraksta</p>\n</blockquote>\n<p>Kādēļ nevarētu būt memorial, ja tas ir vēsturisks objekts, kas bijis kādam kuģim?<br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahistoric%3Danchor\">historic=anchor</a> man īsti nepatīk, jo tas a) overloado historic key (aiziet, <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahistoric%3Dgas_pipe\">historic=gas_pipe</a>, <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahistoric%3Ddistribution_box\">historic=distribution_box</a> utt - tas padara OSM datus ļoti grūti lietojamus, jo jāzina visas šīs iespējamās vērtības) un b) rada problēmu - ko darīt, ja kāds enkurs ir kā piemiņas zīme nogrimušam kuģim vai kādam vēsturiskam notikumam?</p>\n<p>Epasta listē arī dažādi viedokļi ir bijuši: <a href=\"https://lists.openstreetmap.org/pipermail/tagging/2020-September/055321.html\">https://lists.openstreetmap.org/pipermail/tagging/2020-September/055321.html</a> .</p>",
+        "id": 369514526,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1687733660
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Ventspils.20Piej.C5.ABras.20parka.20enkuri/near/369514526\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Ventspils.20Piej.C5.ABras.20parka.20enkuri/near/369485926\">said</a>:</p>\n<blockquote>\n<p>Nu memorial tas noteikti nav pēc apraksta</p>\n</blockquote>\n<p>Kādēļ nevarētu būt memorial, ja tas ir vēsturisks objekts, kas bijis kādam kuģim?</p>\n</blockquote>\n<p>Jo tā nav kuģa/jūrnieku piemiņas vieta, bet drīzāk \"brīvdabas muzeja eksponāts\".</p>\n<blockquote>\n<p>aiziet, <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahistoric%3Dgas_pipe\">historic=gas_pipe</a>, <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahistoric%3Ddistribution_box\">historic=distribution_box</a> utt</p>\n</blockquote>\n<p>Kāpēc nevar būt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahistoric%3Dgas_pipe\">historic=gas_pipe</a>, ja ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahistoric%3Daqueduct\">historic=aqueduct</a>?</p>\n<blockquote>\n<p>ko darīt, ja kāds enkurs ir kā piemiņas zīme nogrimušam kuģim vai kādam vēsturiskam notikumam?</p>\n</blockquote>\n<p><a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahistoric%3Dmemorial\">historic=memorial</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amemorial%3Danchor\">memorial=anchor</a> (<a href=\"https://www.openstreetmap.org/node/9722206161\">viens tāds ir Rīgā</a>)</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/9722206161\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/9722206161\" title=\"Node: 9722206161 | OpenStreetMap\">Node: 9722206161 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 369599174,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687766640
+    },
+    {
+        "content": "<p>Ar <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahistoric%3Dgas_pipe\">historic=gas_pipe</a> biju domājis vertikāli novietotu cauruļvada gabalu, kurš ir kādas universitātes teritorijā izvietots (tik nekādi nevaru atcerēties, kurā valstī); līdzīgi Latvijā ir sūkņu, kanalizācijas sistēmu fragmenti; Latvenergo muzejā ir dažādi elektroinfrastruktūras elementi...</p>\n<p>\"Brīvdabas muzeja eksponāts\" izklausās pēc artwork - tas ir kaut kas agrāk praktisks bet ārpus savas vides, novietots mākslinieciski utt.</p>\n<p>Man nav 100% pārliecība par šo problēmu, bet \"historic\" key overload nešķiet labi. Datu lietotājiem to tač gandrīz neiespējami parsēt, jo īpaši ilgtermiņā.</p>",
+        "id": 369809270,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1687806959
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Ventspils.20Piej.C5.ABras.20parka.20enkuri/near/369809270\">said</a>:</p>\n<blockquote>\n<p>Man nav 100% pārliecība par šo problēmu, bet \"historic\" key overload nešķiet labi. Datu lietotājiem to tač gandrīz neiespējami parsēt, jo īpaši ilgtermiņā.</p>\n</blockquote>\n<p>Kas tad, tavuprāt, ir \"īstā\" <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Ahistoric\">historic=*</a> nozīmē (pirms overload)?</p>",
+        "id": 369816258,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687808529
+    },
+    {
+        "content": "<p>Pēc tāda ierobežojuma, tad arī visādus <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Ashop\">shop=*</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aman_made\">man_made=*</a> datu lietotāji arī nevar izparsēt. Šeit vismaz netiek likts kaut kāds izņēmums, bet vienkārši jaunas vērtības.</p>",
+        "id": 369816986,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687808748
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Ventspils.20Piej.C5.ABras.20parka.20enkuri/near/369809270\">said</a>:</p>\n<blockquote>\n<p>\"Brīvdabas muzeja eksponāts\" izklausās pēc artwork - tas ir kaut kas agrāk praktisks bet ārpus savas vides, novietots mākslinieciski utt.</p>\n</blockquote>\n<p>Nav ļoti verifiable. Kas ir \"mākslinieciski novietots\" priekš viena ir \"vienkārši nolikts\" priekš cita. Un arī nevar salīdzināt, kas ir svarīgāks - kādam vairāk interesē māksla, citam - vēsture.</p>\n<p>Rīgas centrā ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahistoric%3Dcannon\">historic=cannon</a> (<a href=\"https://www.openstreetmap.org/node/1801385312\">https://www.openstreetmap.org/node/1801385312</a>) - tas nav ne piemineklis, ne mākslas objekts, tag šķiet pilnīgi adekvāts. Kāpēc nevar būt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahistoric%3Danchor\">historic=anchor</a>?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/1801385312\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/1801385312\" title=\"Node: 1801385312 | OpenStreetMap\">Node: 1801385312 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 369817697,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687808943
+    },
+    {
+        "content": "<p>Vēl piemērs, par ko es savā laikā domāju, bet pēc tam aizmirsu - <a href=\"https://www.mapillary.com/app/?pKey=938695530709148&amp;focus=photo\">https://www.mapillary.com/app/?pKey=938695530709148&amp;focus=photo</a> un <a href=\"https://www.mapillary.com/app/?pKey=177801227944418&amp;focus=photo\">https://www.mapillary.com/app/?pKey=177801227944418&amp;focus=photo</a> Es gan nezinu, vai tie oriģināli</p>",
+        "id": 369818692,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687809184
+    },
+    {
+        "content": "<p>Drošvien <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Arailway%3Drail\">railway=rail</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aangle%3D45\">angle=45</a> . Nē bet, tādiem es varbūt arī liktu memorial, jo tie ir konkrētam notikumam piemiņai ar plāksni</p>",
+        "id": 369819288,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687809354
+    },
+    {
+        "content": "<p>Vairāk gribētos kategorijas un lielus objektus atsevišķi.<br>\nKā lai rīkojas ar pieminētajiem gāzes vadu fragmentiem? Kā ar Latvenergo muzejā esošajiem laikam sadales aparātiem un ko tik tur vēl ne?<br>\nVai ar šo te sūkni un... es pat nez, laikam kanalizācijas cauruļu fragmentu? <a href=\"https://www.mapillary.com/app/?pKey=372022447628656\">https://www.mapillary.com/app/?pKey=372022447628656</a> .</p>\n<p>Un ko tad, ja daudzi dažādi gāzes vada fragmenti ir salikti kopā un nokrāsoti - kurā brīdī tas kļūst par mākslas darbu, ja tas galīgi vairs nav vēsturiski precīzs objekts?</p>\n<p>shop un man_made ir kaut kāda līdzība - bet tur tomēr nav tik milzīga dažādība iespējama, un vismaz shop gadījumā skaidrs, ka tas ir veikals. Tādam historic jebkurā brīdī var pievienot jaunu vērtību, un tā var būt vai nu pils, vai piena galds...</p>\n<p>Arī tikko minētā grūtība ar tagošanu laba. Ja tas nebūtu konkrētam notikumam, kā to tagotu?</p>",
+        "id": 369827717,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1687811771
+    },
+    {
+        "content": "<blockquote>\n<p>kurā brīdī tas kļūst par mākslas darbu</p>\n</blockquote>\n<p>Es neuzskatītu to par mākslas darbu līdz brīdim, kad tas nav speciāli pārveidots nerēķinoties ar sākotnējo struktūru un izskatu. Ja pamatmērķis bija restaurācija - tad tas nemaina nozīmi. Un nekas jau nav vēsturiski precīzs - te galvenais, lai nav speciāli nepareizi taisīts vai pārveidots par kaut ko citu. Galu galā, kaut kādas pilsdrupas arī nav \"vēsturiski precīzi\".</p>\n<p>man_made arī ir gan cutline gan silo gan beehive. arī shop ir gan mall gan kiosk. Es piekrītu, ka nav viegla dzīve datu lietotājiem un un nav precīzas kategorijas, bet tāda nu ir tā tagošanas brīvība un ļoti lēna mainīšana. Es arī drīzāk gribētu <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahistoric_object%3Dgallows\">historic_object=gallows</a> vai <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahistoric%3Aobject%3Dgallows\">historic:object=gallows</a>, bet nu... Vispār memorial un historic un nevajadzētu traucēt vienam otru, bet nu... Un vispār vajadzētu būt kaut kādam exposition vai kaut kā tā, bet nu.............</p>\n<p>Ja tām sliedēm nebūtu plāksnes, tad drošvien varētu <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahistoric%3Drailway\">historic=railway</a> ar līniju, kaut arī tas no citas vietas.</p>",
+        "id": 369831360,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687812797
+    },
+    {
+        "content": "<p>Brīvdabas muzejā gan es tā neaizrautos ar memorial <br>\n<a href=\"/user_uploads/49624/8YYjIMgBgzaLDvaeUWvg16vU/rip-suknis.png\">rip-suknis.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/8YYjIMgBgzaLDvaeUWvg16vU/rip-suknis.png\" title=\"rip-suknis.png\"><img src=\"/user_uploads/49624/8YYjIMgBgzaLDvaeUWvg16vU/rip-suknis.png\"></a></div>",
+        "id": 369831616,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687812862
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahistoric%3Drailway\">historic=railway</a> gan laikam ir tikai dzelzceļiem, kuri ir oriģinālajā vietā, ne?</p>\n<p>Un ko tad, ja objektam ir plāksnīte ar \"šis bija pirmais transformatoru skapis...\" - vai tad tas kļūst par memorial?</p>",
+        "id": 369832213,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1687813058
+    },
+    {
+        "content": "<p>Nekam nevajadzētu kļūt par memorial līdz tā nav piemiņas lieta. \"Šis bija pirmais transformatoru skapis, kurā gāja bojā elektriķis\" - tad ok. Bet vienkārši skapis pēc jēgas nemainās no tā, ka tas pirmais vai pēdējais. Dēļ tā jau nekas netiek pieminēts. Ja teiksim \"pie šī skapja 2027. gadā pieminēja pēdējo elektrības dienu\", tad vēl ok. Tāpēc lielākā daļa memorial ir speciāli taisīti vai vismaz speciāli aprakstīti, kas dod tiem nozīmi - jo kaut kāda konkrēta lieta reti tā var pati pa sevi kalpot par piemiņas objektu.</p>\n<p>Par to railway protams es pats neko neizdomāju. Tur vispār būtu jau kaut kāds <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahistoric%3Drailway_segment\">historic=railway_segment</a>, jo šeit <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahistoric%3Drailway\">historic=railway</a> ir no citas kategorijas - tas viss railway entuziastu fake life-cycle spaghetti. Bet tas jau speciāli bija sarežģīts piemērs, kuru es ieraugot uzreiz panikā biju domājot, ko OSM pēc tam tegot.</p>",
+        "id": 369833575,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687813455
+    },
+    {
+        "content": "<p>Kā ar <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Ahistoric\">historic=*</a> attēlošanu osm-carto, mobilajās aplikācijās?</p>",
+        "id": 369837303,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1687814332
+    },
+    {
+        "content": "<p>To kāds gudrāks varētu zināt. Es parasti redzu, ka kartes un aplikācijas pēc whitelist principa strādā - rāda to, kas ir viņu sarakstā.</p>",
+        "id": 369838434,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687814783
+    },
+    {
+        "content": "<p>Cik atceros, shop= nezināmos arī renderē.</p>",
+        "id": 369839181,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1687815123
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Ventspils.20Piej.C5.ABras.20parka.20enkuri/near/369837303\">said</a>:</p>\n<blockquote>\n<p>Kā ar <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Ahistoric\">historic=*</a> attēlošanu osm-carto, mobilajās aplikācijās?</p>\n</blockquote>\n<p>Kāda starpība? Nevajag te sākt mapping for renderer :)</p>",
+        "id": 369901264,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687840906
+    },
+    {
+        "content": "<p>Pagpag, nupat taču bija \"mapping for Nominatim\" ;)</p>",
+        "id": 369976164,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1687857435
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Ventspils.20Piej.C5.ABras.20parka.20enkuri/near/369976164\">said</a>:</p>\n<blockquote>\n<p>Pagpag, nupat taču bija \"mapping for Nominatim\" ;)</p>\n</blockquote>\n<p>Kur, <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/depoz.C4.ABta.20punkti\">#general &gt; depozīta punkti</a>?</p>",
+        "id": 369980536,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687858197
+    },
+    {
+        "content": "<p>Vēl vienu <span aria-label=\"anchor\" class=\"emoji emoji-2693\" role=\"img\" title=\"anchor\">:anchor:</span> atcerējos <a href=\"https://www.mapillary.com/app/?pKey=429601209151020&amp;focus=photo\">https://www.mapillary.com/app/?pKey=429601209151020&amp;focus=photo</a></p>",
+        "id": 370130137,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687883384
+    },
+    {
+        "content": "<p>Te jums par prieku ;)<br>\n<a href=\"https://www.openstreetmap.org/node/11010115166\">https://www.openstreetmap.org/node/11010115166</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/11010115166\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/11010115166\" title=\"Node: 11010115166 | OpenStreetMap\">Node: 11010115166 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 370209468,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1687901057
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/i5mH_X4hkUYt_L2p_LIBene2/20230805_160831.jpg\">20230805_160831.jpg</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/i5mH_X4hkUYt_L2p_LIBene2/20230805_160831.jpg\" title=\"20230805_160831.jpg\"><img src=\"/user_uploads/49624/i5mH_X4hkUYt_L2p_LIBene2/20230805_160831.jpg\"></a></div><p><a href=\"/user_uploads/49624/aStFRZUBS4Dqmk0bsf1Txxn6/20230805_160818.jpg\">20230805_160818.jpg</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/aStFRZUBS4Dqmk0bsf1Txxn6/20230805_160818.jpg\" title=\"20230805_160818.jpg\"><img src=\"/user_uploads/49624/aStFRZUBS4Dqmk0bsf1Txxn6/20230805_160818.jpg\"></a></div><p><a href=\"/user_uploads/49624/MPqDZAX8bnb0-K_iuy5paC1R/20230805_160624.jpg\">20230805_160624.jpg</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/MPqDZAX8bnb0-K_iuy5paC1R/20230805_160624.jpg\" title=\"20230805_160624.jpg\"><img src=\"/user_uploads/49624/MPqDZAX8bnb0-K_iuy5paC1R/20230805_160624.jpg\"></a></div>",
+        "id": 382154651,
+        "sender_full_name": "Colby",
+        "timestamp": 1691244649
+    },
+    {
+        "content": "<p>Nebija gan laiks katru enkuru skatīt</p>",
+        "id": 382154766,
+        "sender_full_name": "Colby",
+        "timestamp": 1691244676
+    }
+]

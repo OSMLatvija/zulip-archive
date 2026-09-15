@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>Šis laikam primāri <span class=\"user-mention\" data-user-id=\"571825\">@HellMap</span>, bet varbūt vēl kādam ir idejas, kā šis noticis - saules panelis aizceļojis un ielīdis sētā?<br>\n<a href=\"https://www.openstreetmap.org/node/11596401675/history\">https://www.openstreetmap.org/node/11596401675/history</a></p>",
+        "id": 613527163,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1785362586
+    },
+    {
+        "content": "<p>Vējš aizpūta <span aria-label=\"windy\" class=\"emoji emoji-1f32c\" role=\"img\" title=\"windy\">:windy:</span></p>",
+        "id": 613528117,
+        "sender_full_name": "HellMap",
+        "timestamp": 1785363191
+    },
+    {
+        "content": "<p>Tu jau kaut kur jautāji par šito - redaktorā viena un tā pati poga camera pan un object move.</p>",
+        "id": 613528437,
+        "sender_full_name": "HellMap",
+        "timestamp": 1785363388
+    },
+    {
+        "content": "<p>Ja bīdot nepamana - tā var gadīties. Ja karte ļoti blīva, tad viss ļoti bremzē un galīgi var nepamanīt</p>",
+        "id": 613528473,
+        "sender_full_name": "HellMap",
+        "timestamp": 1785363414
+    },
+    {
+        "content": "<p>Šis atgādināja, ka cilvēkiem nepatika JOSM kartes bīdīšana ar peles labo pogu.<br>\nAcīmredzot, tā tomēr ir laba doma (lai gan JOSM bremzēšanu dabūt ir ļoti grūti) :)</p>",
+        "id": 615294659,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1786140861
+    },
+    {
+        "content": "<p>Nu jā, es arī labāk ar labo bīdītu, bet browserī iD nevar ar labo dēļ compatibility</p>",
+        "id": 615343804,
+        "sender_full_name": "HellMap",
+        "timestamp": 1786180448
+    },
+    {
+        "content": "<p>Domā tehniski? Mūsdienās tak browserus var izdancināt visādi, gan jau ka to arī varētu sahakot - tikai jaunajiem lietotājiem varbūt būtu mulsinoši.</p>",
+        "id": 616684928,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1786781131
+    },
+    {
+        "content": "<p>Vēsturiski bija problēmas. Tagad varbūt mazāk, ja ir. Bet planšetēm un tml. nav labā klikšķa.</p>",
+        "id": 616689605,
+        "sender_full_name": "HellMap",
+        "timestamp": 1786786000
+    }
+]

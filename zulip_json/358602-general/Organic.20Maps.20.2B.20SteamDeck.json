@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"568802\">@i-ky</span>, vai Tev nav plāns uzrakstīt, kā dabūji Organic Maps iekš SteamDeck? :)</p>",
+        "id": 365576393,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1686579044
+    },
+    {
+        "content": "<p>steamdeck ir arch, var instalēt visu kā parastā linux<br>\n<a href=\"https://flathub.org/apps/app.organicmaps.desktop\">https://flathub.org/apps/app.organicmaps.desktop</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://flathub.org/apps/app.organicmaps.desktop\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/db706b4ac7440833ce07ea36f735b255cccf60a1\\/68747470733a2f2f646c2e666c61746875622e6f72672f7265706f2f61707073747265616d2f7838365f36342f69636f6e732f313238783132382f6170702e6f7267616e69636d6170732e6465736b746f702e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://flathub.org/apps/app.organicmaps.desktop\" title=\"Organic Maps | Flathub\">Organic Maps | Flathub</a></div><div class=\"message_embed_description\">A free offline maps app for travelers, tourists, hikers, and cyclists based on top of crowd-sourced OpenStreetMap data and curated with love by MapsWithMe (Maps.Me) founders</div></div></div>",
+        "id": 365590211,
+        "sender_full_name": "Colby",
+        "timestamp": 1686581684
+    },
+    {
+        "content": "<p><a href=\"https://weeklyosm.eu/archives/15480\">https://weeklyosm.eu/archives/15480</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://weeklyosm.eu/archives/15480\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/ca4a6fd259510171754cd3f75c013a6ab93302b0\\/68747470733a2f2f77696b692e6f70656e7374726565746d61702e6f72672f772f696d616765732f322f32332f4a4f534d5f6f6e5f7468655f537465616d5f4465636b2e6a7067)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://weeklyosm.eu/archives/15480\" title=\"weeklyOSM 610\">weeklyOSM 610</a></div><div class=\"message_embed_description\">22/03/2022-28/03/2022 JOSM on a Steam Deck [1] © by Riiga licensed under CC BY-SA 4.0 | map data © OpenStreetMap contributors (ODbL) | JOSM: GPLv2 or later Mapping campaigns OSM Ireland’s bui…</div></div></div>",
+        "id": 365591311,
+        "sender_full_name": "Colby",
+        "timestamp": 1686581934
+    },
+    {
+        "content": "<p>Jā, no Flathub. Ar Organic Maps ir tā, ka Deck izšķirtspējas mazliet pietrūkst, lai desktop režimā visas pogas būtu uz ekrāna, bet ja to pievieno kā \"non-Steam game\" un palaiž game režimā, tad tīri OK.</p>",
+        "id": 365675779,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686601788
+    }
+]

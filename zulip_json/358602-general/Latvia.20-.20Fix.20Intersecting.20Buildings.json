@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Hello Latvia community, </p>\n<p>I would like to inform you that we have created a new MapRoulette challenge named <a href=\"https://maproulette.org/browse/challenges/49474\">Latvia - Fix Intersecting Buildings</a>, we’re focusing on finding and fixing cases where buildings overlap on the same layer. When buildings intersect like this, it can make maps look cluttered and harder to read, which can be confusing. By fixing these overlaps, we’ll help make the map clearer and more accurate.</p>\n<p><strong>How Tasks Were Created</strong>  <br>\nWe generated these tasks by comparing building shapes in OSM to spot overlaps. While most tasks should highlight true intersections, some may be false positives. If that’s the case, feel free to mark them as \"Not an Issue\" and move on. </p>\n<p>Thank you and have a wonderful day,<br>\nSalim, TomTom</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://maproulette.org/browse/challenges/49474\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/acfd21d8ab911be3fb82d3daddb944cffd073365/68747470733a2f2f6f70656e7374726565746d61702e75732f696d672f70616765732f6d6170726f756c657474652f7369676e2e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://maproulette.org/browse/challenges/49474\" title=\"MapRoulette\">MapRoulette</a></div><div class=\"message_embed_description\">Be an instant contributor to the world’s maps.</div></div></div>",
+        "id": 479851949,
+        "sender_full_name": "Salim - TomTom",
+        "timestamp": 1730372518
+    },
+    {
+        "content": "<p>It should be worth mentioning in the task description that Latvia has a cadaster layer available with building footprints that range between accurate and very approximate. iD and JOSM have it in the imagery layers. It can often be used to determine building extents and make corrections. Not always possible, but in many instances much better than guessing or using aerial only.</p>",
+        "id": 479853241,
+        "sender_full_name": "HellMap",
+        "timestamp": 1730372986
+    },
+    {
+        "content": "<p>Thank you <span class=\"user-mention\" data-user-id=\"571825\">@HellMap</span> for the input, i will add this directly to the description</p>",
+        "id": 479853352,
+        "sender_full_name": "Salim - TomTom",
+        "timestamp": 1730373034
+    },
+    {
+        "content": "<p>already add as:<br>\n<strong>Important Info!</strong><br>\nLatvia's cadaster layer, available in iD and JOSM, can be a valuable tool for improving building accuracy, especially when aerial/satellite imagery is insufficient.</p>",
+        "id": 479853676,
+        "sender_full_name": "Salim - TomTom",
+        "timestamp": 1730373155
+    }
+]

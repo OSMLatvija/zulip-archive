@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>pabeidzu no vietvārdu datubāzes pievienot kuldīgas novada trūkstošos kapus, kopā sanāk 219<br>\n<a href=\"/user_uploads/49624/wNL7ys8RrK5WaIBLF8PjDjsw/image.png\">kapsētas</a><br>\nvēl tikai vēsturiskās un senās kapsētas kur sen jau neapglabā, bet tur laikam citi tegi jāsameklē</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/wNL7ys8RrK5WaIBLF8PjDjsw/image.png\" title=\"kapsētas\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"473x498\" src=\"/user_uploads/thumbnail/49624/wNL7ys8RrK5WaIBLF8PjDjsw/image.png/840x560.webp\"></a></div>",
+        "id": 530133382,
+        "sender_full_name": "Colby",
+        "timestamp": 1753186681
+    },
+    {
+        "content": "<p>Es kaut kad sen skatījos, neko gan neatradu, bet pamatdoma par senlaiku kapsētām ir - ja tā vēl redzama (kapa vietas, kapakmeņi, sienas, utt.), tad tas ir joprojām OSM kā cemetery. Tikai nav tāda tega, lai norādītu, ka vairs nepieņem jaunus apglabājumus. Mums piemēram ir arī kapsētas, kur nepieņem, bet kas nav vēsturiskas - vienkārši pilnas. Var jau drošvien <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Adisused%3Dyes\">disused=yes</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aabandoned%3Dyes\">abandoned=yes</a> atkarībā no stāvokļa.</p>",
+        "id": 530134818,
+        "sender_full_name": "HellMap",
+        "timestamp": 1753187127
+    }
+]

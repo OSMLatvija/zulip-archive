@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>I think bus report has all the routes duplicated: <a href=\"https://osmlatvija.github.io/Osmalyzer/Rigas%20Satiksme%20report.html\">https://osmlatvija.github.io/Osmalyzer/Rigas%20Satiksme%20report.html</a><br>\nOr maybe I just don't understand how this supposed to work.</p>\n<p>Also, since there are so much of routes, IMO it would be easier to navigate if routes that are 100% mapped would be removed or hidden. What do you think,  <span class=\"user-mention\" data-user-id=\"571825\">@HellMap</span>?</p>",
+        "id": 574333986,
+        "sender_full_name": "markalex",
+        "timestamp": 1771345794
+    },
+    {
+        "content": "<p>Can you give an example of which ones are duplicated? I might not be understanding what you mean</p>",
+        "id": 574337600,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771346723
+    },
+    {
+        "content": "<p>I have considered breaking the routes down into subpages, but I also don't really want to hide them. I do want to show all the corect routes; it's kind of a design decision for this whole thing to have maps where things have green checkboxes. Call it motivation ;) And most routes don't have all variants mapped, so I do want to see which variants are already mapped to know which ones are useful to map</p>",
+        "id": 574337797,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771346778
+    },
+    {
+        "content": "<p>All of them. Like Bus #2 that is appearing after Trolleybus #35, and everything after that</p>",
+        "id": 574337936,
+        "sender_full_name": "markalex",
+        "timestamp": 1771346817
+    },
+    {
+        "content": "<p>Ooooooh, the entire list. Huh. This must be something with RS, others don't duplicate.</p>",
+        "id": 574338316,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771346909
+    },
+    {
+        "content": "<p>Indeed.<br>\nTheir data seems quite, hmmm, raw. So wouldn't be surprised to know it's on them</p>",
+        "id": 574338710,
+        "sender_full_name": "markalex",
+        "timestamp": 1771347013
+    },
+    {
+        "content": "<p>To be fair, the actual GTFS stuff seems to be exported directly from their internal data, so stuff like Google Maps can use it directly. I'm just not sure where the duplication is coming from.</p>",
+        "id": 574338873,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771347054
+    },
+    {
+        "content": "<p>It was a bug in report group logic, I fixed it</p>",
+        "id": 574354399,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771351210
+    }
+]

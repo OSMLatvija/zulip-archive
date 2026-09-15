@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>No Signal \"krājumiem\":</p>\n<div class=\"codehilite\" data-code-language=\"overpass\"><pre><span></span><code>/*[out:json]*/[timeout:25][bbox:{{bbox}}];\narea[\"building\"];\nmap_to_area-&gt;.buildings;\nnode(area.buildings)[\"ref:LV:addr\"][!\"amenity\"][!\"craft\"][!\"emergency\"][!\"information\"][!\"leisure\"][!\"man_made\"][!\"office\"][!\"recycling_type\"][!\"shop\"][!\"tourism\"];\nout;\n</code></pre></div>\n<p>Tas sameklē potenciāli labojamas vietas, kur adreses punkts atrodas ēkas konturē. Tādas ēkas būtu jāsadala.</p>",
+        "id": 320188659,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673259348
+    },
+    {
+        "content": "<p>Bet kas nosaka vai fiziski ēkas ir sadalāmas. Varbūt tur viena ēka. Piemēram, padomju garāžas arī dalīt?</p>",
+        "id": 320261815,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673279939
+    },
+    {
+        "content": "<p>Tīri pēc kadastra. Protams, ja šķībi iezīmēts, kļūdas nav jākopē, bet jāpārnes princips, savstarpējās attiecības.</p>",
+        "id": 320272606,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673282482
+    },
+    {
+        "content": "<p>Var būt arī tā, ka ēka sazīmēta no aerial un tur izskatās pēc viena jumta, bet no fasādes var skaidri redzēt, ka ir divas mājas.</p>",
+        "id": 320888766,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673515381
+    },
+    {
+        "content": "<p>Lai gan ja it kā no fasādes (vai jumta) izskatās pēc divām, bet kadastrā viena, tad vajadzētu vienu. Ja fiziski atšķiras (stāvu skaits, materiāls utt), tad building:part.</p>",
+        "id": 321046733,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673562653
+    }
+]

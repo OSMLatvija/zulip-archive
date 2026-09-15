@@ -1,0 +1,74 @@
+[
+    {
+        "content": "<p>Nezinu, ko īsti ar tādiem darīt <a href=\"https://www.openstreetmap.org/way/631579922\">https://www.openstreetmap.org/way/631579922</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/631579922\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/631579922\" title=\"Way: ‪apron markings‬ (‪631579922‬) | OpenStreetMap\">Way: ‪apron markings‬ (‪631579922‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 321679359,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673886522
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aaeroway%3Dapron\">aeroway=apron</a>?</p>",
+        "id": 321681877,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673887431
+    },
+    {
+        "content": "<p>Nē, <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aaeroway%3Dapron\">aeroway=apron</a> tur pareizi uzzīmēts - <a href=\"https://www.openstreetmap.org/relation/8747248\">https://www.openstreetmap.org/relation/8747248</a> - saskaņā ar <a href=\"https://ais.lgs.lv/aixm_eaip/2021-05-20-AIRAC/graphics/eAIP/390_EVRA_2_24_2_20210520.pdf\">https://ais.lgs.lv/aixm_eaip/2021-05-20-AIRAC/graphics/eAIP/390_EVRA_2_24_2_20210520.pdf</a> un <a href=\"https://ais.lgs.lv/aixm_eaip/2021-05-20-AIRAC/graphics/eAIP/379_EVRA_2_24_1_20210520.pdf\">https://ais.lgs.lv/aixm_eaip/2021-05-20-AIRAC/graphics/eAIP/379_EVRA_2_24_1_20210520.pdf</a><br>\nDaži no <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aaeroway%3Dparking_position\">aeroway=parking_position</a> pareizi uzzīmēti:</p>\n<blockquote>\n<p>Draw a way from the relevant taxiway and to the nose wheel position. The direction of the way indicates the direction a plane should park. This usually means that the last node of the way should be where the nose wheel is parked. Tag the way.</p>\n</blockquote>\n<p>Dažas (piemēram <a href=\"https://www.openstreetmap.org/way/128193706\">šo</a>) varētu gan pārtaisīt par <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aaeroway%3Dtaxilane\">aeroway=taxilane</a>.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/relation/8747248\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/relation/8747248\" title=\"Relation: ‪Apron 1‬ (‪8747248‬) | OpenStreetMap\">Relation: ‪Apron 1‬ (‪8747248‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/128193706\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/128193706\" title=\"Way: 128193706 | OpenStreetMap\">Way: 128193706 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 322054627,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674049218
+    },
+    {
+        "content": "<p>Tos \"markings\" laikam vajag dzēst. Minhenes lidostā (ko OSM Wiki izmanto kā paraugu) neka tāda nav.</p>",
+        "id": 322056067,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674049654
+    },
+    {
+        "content": "<p>Bet tur ir parking position gan ar līniju gan ar area. Augšā area bez taga. <a href=\"https://www.openstreetmap.org/way/631580398\">https://www.openstreetmap.org/way/631580398</a> Un tas noteikti nav name, bet es nezinu, vai tādi apron markings tagi eksistē vai arī tas ir tas pats parking position - bet tad arī līnija? Un kur ref - abiem? Īsumā, drošvien kaut kas te jāpielabo.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/631580398\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/631580398\" title=\"Way: ‪apron markings‬ (‪631580398‬) | OpenStreetMap\">Way: ‪apron markings‬ (‪631580398‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 322056092,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674049663
+    },
+    {
+        "content": "<p>OSM Wiki saka, ka <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aaeroway%3Dparking_position\">aeroway=parking_position</a> ir vai nu <img alt=\":node:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40175.png\" title=\"node\">, vai nu <img alt=\":way:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40176.png\" title=\"way\">. Tātad <img alt=\":area:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40177.png\" title=\"area\"> nevar būt.</p>",
+        "id": 322056757,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674049841
+    },
+    {
+        "content": "<p>Urgh, pirmais teikums \"Area / position\"... jāpielabo</p>",
+        "id": 322056858,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674049871
+    },
+    {
+        "content": "<p>Un par apron markings es neko neatradu, kad skatījos</p>",
+        "id": 322057503,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674050057
+    },
+    {
+        "content": "<p><del>Es arī neredzu neko tādu, kas ļautu zīmēt kartē visādas tādas \"līnijas uz asfalta\".</del> Oh, no... <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aroad_marking\">road_marking=*</a> <span aria-label=\"scream\" class=\"emoji emoji-1f631\" role=\"img\" title=\"scream\">:scream:</span></p>",
+        "id": 322057977,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674050187
+    },
+    {
+        "content": "<p><a href=\"https://taginfo.openstreetmap.org/keys/road_markings#overview\">https://taginfo.openstreetmap.org/keys/road_markings#overview</a> ?</p>",
+        "id": 322059974,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674050672
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aroad_marking\">road_marking=*</a> ?</p>",
+        "id": 322060055,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674050693
+    },
+    {
+        "content": "<p>Nu tagad tikai Overpass, kādi road_marking ir lietoti lidostu teritorijās ;)</p>",
+        "id": 322060481,
+        "sender_full_name": "HellMap",
+        "timestamp": 1674050804
+    }
+]

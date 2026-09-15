@@ -1,0 +1,188 @@
+[
+    {
+        "content": "<p>Jautājums par ceļa tipu, grants ceļiem, kam veikta divkārtu virsmas apstrāde.<br>\nVai tam ir kāds speciāls tags, jo \"asphalt\" nebūs korekti droši vien. <br>\nBet plānojot velo maršrutu, šādi apstrādāts ceļš ir līdzvērtīgs asflatētam.<br>\nVienu ceļa posmu pamainīju uz \"paved\" šādam ceļam, bet gribētos to izdarīt korekti arī pārējiem, kas manā apkārtnē.</p>",
+        "id": 348467965,
+        "sender_full_name": "PreiluMapper",
+        "timestamp": 1681221095
+    },
+    {
+        "content": "<p>Izklausās šīs derētu<br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag:surface%3Dchipseal\">https://wiki.openstreetmap.org/wiki/Tag:surface%3Dchipseal</a></p>",
+        "id": 348468560,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1681221225
+    },
+    {
+        "content": "<blockquote>\n<p>Bet plānojot velo maršrutu, šādi apstrādāts ceļš ir līdzvērtīgs asflatētam.</p>\n</blockquote>\n<p><a href=\"https://en.wikipedia.org/wiki/Duck_test\">If it looks like a duck...</a> Ir OK lietot arī <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asurface%3Dasphalt\">surface=asphalt</a>, manuprāt.<br>\nBet ne vienmēr tādi ceļi ir velo-draudzīgi, piemēram <a href=\"https://www.openstreetmap.org/way/51575273\">https://www.openstreetmap.org/way/51575273</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://en.wikipedia.org/wiki/Duck_test\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/b2a507ef463bc0948a3b3db49c373318990c2e4a\\/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f612f61312f4d616c6c617264322e6a70672f36343070782d4d616c6c617264322e6a7067)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://en.wikipedia.org/wiki/Duck_test\" title=\"Duck test - Wikipedia\">Duck test - Wikipedia</a></div><div class=\"message_embed_description\">The duck test is a form of abductive reasoning, usually expressed as \"If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck.\"\n</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/51575273\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/51575273\" title=\"Way: 51575273 | OpenStreetMap\">Way: 51575273 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 348471521,
+        "sender_full_name": "i-ky",
+        "timestamp": 1681221832
+    },
+    {
+        "content": "<p>Jā, izklausās pēc chipseal. Es pats to agrāk neliku, bet tad pie mums sāka taisīt to salīmēto grantinieku. Tad sāku domāt, kā pareizi. Tagad pats vairs nezinu, ko likt. asphalt laikam nevajag likt, jo tas chipseal pa gadu sadrūp un asphalt tomēr turās krietni ilgāk. Kad asfalts vairs nav gluds, tas nozīmē, ka noberzts viss. Bet chipseal nav gluds jau no paša sākuma un ar laiku tikai sliktāk. Tas pats ceļa piemērs - pirms tam bija ok <a href=\"https://www.mapillary.com/app/?pKey=657862406005903&amp;focus=photo\">https://www.mapillary.com/app/?pKey=657862406005903&amp;focus=photo</a>, pēc ziemas jau bedres <a href=\"https://www.mapillary.com/app/?pKey=1059967754960723&amp;focus=photo\">https://www.mapillary.com/app/?pKey=1059967754960723&amp;focus=photo</a>, pēc gada diviem, ja nelabos, jau varēs likt compacted</p>",
+        "id": 348519087,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681232792
+    },
+    {
+        "content": "<p>Tādu svaigu chipseal no asfalta grūti atšķirt <a href=\"https://www.mapillary.com/app/?pKey=611150043847764&amp;focus=photo\">https://www.mapillary.com/app/?pKey=611150043847764&amp;focus=photo</a></p>",
+        "id": 348519931,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681233044
+    },
+    {
+        "content": "<p>šeit chipseal uz asfalta uzklāja  21 gada vasarā, vecās bedres šoziem parādijās</p>",
+        "id": 348520501,
+        "sender_full_name": "Colby",
+        "timestamp": 1681233206
+    },
+    {
+        "content": "<p>Ja tu šeit par ceļu un Mežezeriem , to uzklāja pagāšgad rudenī pēc septembra kaut kur - tur viss ceļš līdz Mežezeriem bija remontā (piemēram, jūnijs <a href=\"https://www.mapillary.com/app/?pKey=2352450998228222&amp;focus=photo\">https://www.mapillary.com/app/?pKey=2352450998228222&amp;focus=photo</a>)</p>",
+        "id": 348520991,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681233355
+    },
+    {
+        "content": "<p>Laikam 21 uzklāja lielu daļu Doles salas galvenā ceļa pa apli, 22 tur jau bija tā sev <a href=\"https://www.mapillary.com/app/?pKey=805182053948751&amp;focus=photo\">https://www.mapillary.com/app/?pKey=805182053948751&amp;focus=photo</a> Šogad jābrauc skatīties</p>",
+        "id": 348522094,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681233662
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/JqZSjcc5fLuXkk-DdqT7dR0l/20210827_094938.jpg\">20210827_094938.jpg</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/JqZSjcc5fLuXkk-DdqT7dR0l/20210827_094938.jpg\" title=\"20210827_094938.jpg\"><img src=\"/user_uploads/49624/JqZSjcc5fLuXkk-DdqT7dR0l/20210827_094938.jpg\"></a></div>",
+        "id": 348522416,
+        "sender_full_name": "Colby",
+        "timestamp": 1681233745
+    },
+    {
+        "content": "<p>Es nevaru izdomāt nevienu piemēru, kur būtu chipseal jau 2-3 gadus.</p>",
+        "id": 348522556,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681233780
+    },
+    {
+        "content": "<p><a href=\"https://youtu.be/IQD1I3Uf54w\">YouTube - Noslēdzies ceļu remonts Kuldīga–Basi virzienā</a><br>\nkuldīgā arī</p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"IQD1I3Uf54w\" href=\"https://youtu.be/IQD1I3Uf54w\"><img src=\"https://uploads.zulipusercontent.net/668796916de465a2c3dac27b27cd076330e3f824/68747470733a2f2f692e7974696d672e636f6d2f76692f49514431493355663534772f64656661756c742e6a7067\"></a></div>",
+        "id": 348522708,
+        "sender_full_name": "Colby",
+        "timestamp": 1681233822
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Divk.C4.81rtu.20virsmas.20apstr.C4.81de/near/348522416\">said</a>:</p>\n<blockquote>\n<p><a href=\"/user_uploads/49624/JqZSjcc5fLuXkk-DdqT7dR0l/20210827_094938.jpg\">20210827_094938.jpg</a></p>\n</blockquote>\n<p>Vai mēs pa vienu on to pašu vietu runājam?</p>",
+        "id": 348522834,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681233849
+    },
+    {
+        "content": "<p>es atradu bildi kur stāvu bedrē krietni pirms jaunā seguma, būs jāaiziet salīdzināt kautkad</p>",
+        "id": 348522864,
+        "sender_full_name": "Colby",
+        "timestamp": 1681233857
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Divk.C4.81rtu.20virsmas.20apstr.C4.81de/near/348522834\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Divk.C4.81rtu.20virsmas.20apstr.C4.81de/near/348522416\">said</a>:</p>\n<blockquote>\n<p><a href=\"/user_uploads/49624/JqZSjcc5fLuXkk-DdqT7dR0l/20210827_094938.jpg\">20210827_094938.jpg</a></p>\n</blockquote>\n<p>Vai mēs pa vienu on to pašu vietu runājam?</p>\n</blockquote>\n<p>tas ir skats no mana loga alsungas laukos chipseal processa vidū kad bija tikai puse ceļa uzklāts</p>",
+        "id": 348523136,
+        "sender_full_name": "Colby",
+        "timestamp": 1681233919
+    },
+    {
+        "content": "<p><code>surface=grass;gravel;asphalt;chipseal;compacted;ground</code></p>",
+        "id": 348523387,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681233984
+    },
+    {
+        "content": "<p><code>surface=yes</code></p>",
+        "id": 348523546,
+        "sender_full_name": "Colby",
+        "timestamp": 1681234022
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Divk.C4.81rtu.20virsmas.20apstr.C4.81de/near/348522556\">said</a>:</p>\n<blockquote>\n<p>Es nevaru izdomāt nevienu piemēru, kur būtu chipseal jau 2-3 gadus.</p>\n</blockquote>\n<p>Ja preizi sapratu, <a href=\"https://www.openstreetmap.org/way/38320072\">https://www.openstreetmap.org/way/38320072</a> chipseal jau diezgan sen.<br>\nBedres gan nākoties regulāri labot.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/38320072\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/38320072\" title=\"Way: ‪Lutriņi — Kabile‬ (‪38320072‬) | OpenStreetMap\">Way: ‪Lutriņi — Kabile‬ (‪38320072‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 348526841,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681234993
+    },
+    {
+        "content": "<p>Mapillary izskatās, ka diezgan izturīgs šeit. Protams var jau redzēt, ka graudu biezpiens uz 2022o</p>",
+        "id": 348527645,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681235237
+    },
+    {
+        "content": "<p>tur kur iepriekš nebija bedres ir ok</p>",
+        "id": 348529872,
+        "sender_full_name": "Colby",
+        "timestamp": 1681235932
+    },
+    {
+        "content": "<p>Ar chpseal nepatīkama problēma ir tāda, ka OSMAnd'ā šāds segums netiek nekādi attēlots - ceļš paliek balts. Es varētu uzcept viņiem feature request par šo...</p>",
+        "id": 348629457,
+        "sender_full_name": "Arturs Verza",
+        "timestamp": 1681281863
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"608541\">Arturs Verza</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Divk.C4.81rtu.20virsmas.20apstr.C4.81de/near/348629457\">said</a>:</p>\n<blockquote>\n<p>Es varētu uzcept viņiem feature request par šo...</p>\n</blockquote>\n<p>Gaidam linku uz issue lai pielikt <span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span></p>",
+        "id": 348637601,
+        "sender_full_name": "i-ky",
+        "timestamp": 1681284308
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Divk.C4.81rtu.20virsmas.20apstr.C4.81de/near/348526841\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Divk.C4.81rtu.20virsmas.20apstr.C4.81de/near/348522556\">said</a>:</p>\n<blockquote>\n<p>Es nevaru izdomāt nevienu piemēru, kur būtu chipseal jau 2-3 gadus.</p>\n</blockquote>\n<p>Ja preizi sapratu, <a href=\"https://www.openstreetmap.org/way/38320072\">https://www.openstreetmap.org/way/38320072</a> chipseal jau diezgan sen.<br>\nBedres gan nākoties regulāri labot.</p>\n</blockquote>\n<p>Hm, tur <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asurface%3Dasphalt\">surface=asphalt</a> un pēc dažiem foto (<a href=\"https://www.mapillary.com/app/?lat=56.933705735539746&amp;lng=22.397008000465235&amp;z=17&amp;pKey=868476297135355&amp;focus=photo\">piemērs</a>) man šķiet, ka tur varētu būt chipseal uzlikts pa virsu asfaltam. Tas arī itkā ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asurface%3Dchipseal\">surface=chipseal</a>, bet nav tas pats, kā bitums ar akmentiņiem ta virsu smiltīm. Tā ir otra <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asurface%3Dchipseal\">surface=chipseal</a> problēma.</p>",
+        "id": 348638659,
+        "sender_full_name": "i-ky",
+        "timestamp": 1681284636
+    },
+    {
+        "content": "<p>Vietējie it kā stāstīja, ka grantenei pa virsu uzlikts šis, un regulāri veidojoties dziļas bedres.<br>\nBet nu viņi jau arī nav ceļubūves eksperti :)</p>",
+        "id": 348652925,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681288437
+    },
+    {
+        "content": "<p>Bedres veidojas, jā, pat gads nebija pagājis. Piemēram, Inču iela Ādažu novada Stapriņos.</p>",
+        "id": 348661970,
+        "sender_full_name": "Arturs Verza",
+        "timestamp": 1681290570
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/wDnUF1_mWz-fW_opmA_vxBY5/3ba0aba6-7f25-435a-8cc7-eaaa9397f032.jpg\">pāreja</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/wDnUF1_mWz-fW_opmA_vxBY5/3ba0aba6-7f25-435a-8cc7-eaaa9397f032.jpg\" title=\"pāreja\"><img src=\"/user_uploads/49624/wDnUF1_mWz-fW_opmA_vxBY5/3ba0aba6-7f25-435a-8cc7-eaaa9397f032.jpg\"></a></div>",
+        "id": 354727292,
+        "sender_full_name": "Colby",
+        "timestamp": 1682876139
+    },
+    {
+        "content": "<p><code>kerb:transition:surface_coloration=dimmer</code> Bet nu jā - vispār grūti kaut ko ar šitiem psevdo asfaltiem pateikt pat ar bildi. It kā kreisā izskatās pēc nodiluša lēta (akmeņaina) asfalta un labā vismaz pērnā gada čipsīļa.</p>",
+        "id": 354729104,
+        "sender_full_name": "HellMap",
+        "timestamp": 1682876893
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/eme2hB5c7Rz08ZRnnp8LqIuy/chipseal-or-is-it.jpg\">chipseal-or-is-it.jpg</a> Te piemērs teorētiski kaut kad bija chipseal bet ļoti ātri palika par fine_gravel, jo tas plānais bitumena slānis reāli pus gadu maksimums nodzīvo. Tagad tur novelties ar riteni var pa slīdošiem akmeņiem. Es vispār nesaprotu, kā tos taisa. Labāk uzreiz ber akmeņus...</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/eme2hB5c7Rz08ZRnnp8LqIuy/chipseal-or-is-it.jpg\" title=\"chipseal-or-is-it.jpg\"><img src=\"/user_uploads/49624/eme2hB5c7Rz08ZRnnp8LqIuy/chipseal-or-is-it.jpg\"></a></div>",
+        "id": 354729559,
+        "sender_full_name": "HellMap",
+        "timestamp": 1682877140
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/WyFNmm5FgmGAiKRVAcJa0Dgx/b0d43739-9bbc-488b-a713-6e3c928afc11.jpg\">bedre</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/WyFNmm5FgmGAiKRVAcJa0Dgx/b0d43739-9bbc-488b-a713-6e3c928afc11.jpg\" title=\"bedre\"><img src=\"/user_uploads/49624/WyFNmm5FgmGAiKRVAcJa0Dgx/b0d43739-9bbc-488b-a713-6e3c928afc11.jpg\"></a></div>",
+        "id": 354739101,
+        "sender_full_name": "Colby",
+        "timestamp": 1682881561
+    },
+    {
+        "content": "<p>Te var redzēt ka chipseal slānis diezgan biezs</p>",
+        "id": 354739216,
+        "sender_full_name": "Colby",
+        "timestamp": 1682881600
+    },
+    {
+        "content": "<p>Bet tā kā apakšā asfaltā jau bija caurums tad ātri izira</p>",
+        "id": 354739274,
+        "sender_full_name": "Colby",
+        "timestamp": 1682881641
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"608541\">Arturs Verza</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Divk.C4.81rtu.20virsmas.20apstr.C4.81de/near/348629457\">said</a>:</p>\n<blockquote>\n<p>Ar chpseal nepatīkama problēma ir tāda, ka OSMAnd'ā šāds segums netiek nekādi attēlots - ceļš paliek balts. Es varētu uzcept viņiem feature request par šo...</p>\n</blockquote>\n<p>Jau sataisīja: <a href=\"https://github.com/osmandapp/OsmAnd/issues/16973\">https://github.com/osmandapp/OsmAnd/issues/16973</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/osmandapp/OsmAnd/issues/16973\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/8d075f300e873181e650bd2c844be368ebb11f29\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656135613734303337366265636130316563366464633130346330656363313435323932663634633133666164626362343561306234393738633539363733312f6f736d616e646170702f4f736d416e642f6973737565732f3136393733)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/osmandapp/OsmAnd/issues/16973\" title=\"Chipseal surface is not shown in any color · Issue #16973 · osmandapp/OsmAnd\">Chipseal surface is not shown in any color · Issue #16973 · osmandapp/OsmAnd</a></div><div class=\"message_embed_description\">Currently, surface=chipseal roads are just white. I think it should be shown in \"Paved\" or even \"Asphalt\" color based on the description: https://wiki.openstreetmap.org/wiki/Tag:surface%3Dchipseal ...</div></div></div>",
+        "id": 355934291,
+        "sender_full_name": "Arturs Verza",
+        "timestamp": 1683260388
+    }
+]

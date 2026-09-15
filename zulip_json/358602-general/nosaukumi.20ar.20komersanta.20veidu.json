@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>Mums ir ļoti daudz name= ar uzņēmumu komersanta veidu nosaukumā - \"SIA \"Rīgas mēbeļu serviss\"\", \"SIA Latvijas Ķiploks\", \"A/S Putnu fabrika Ķekava\", \"A/S \"BLB Baltijas termināls\"\" un vēl 1500+ tādi. Man liekas tas ir nepareizi. Tie ir drošvien official_name=, ja vajag saglabāt, bet es neredzu jēgu no tiem pamatnosaukumā. Vai ir par to kaut kur runāts?</p>",
+        "id": 317234860,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671651435
+    },
+    {
+        "content": "<p>Ja ir īstāks nosaukums, to būtu jāliek iekš \"name\".<br>\nVisādi citādi šos es liktu kā operator=*.<br>\nDažreiz, bet diezgan reti, SIA nosaukums ir arī uz izkārtnēm/infoplāksnēm kā nosaukums. Tad tas varētu arī iederēties name.<br>\nIndustriālām teritorijām tas pat varētu būt ne tik reti.</p>",
+        "id": 317274480,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671670777
+    }
+]

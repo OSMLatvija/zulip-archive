@@ -1,0 +1,92 @@
+[
+    {
+        "content": "<p>Kaut kad kaut kas jāpadomā par <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahorse%3Dno\">horse=no</a> epidēmiju. <a href=\"/user_uploads/49624/2UjIkskZak5rSP_sov91_vI0/horse-no.png\">horse-no.png</a> Cik skatos, tie salikti ir pilnīgi nejauši. Principā jau tāpēc, ka iD horse tegu piedāvā. Bet faktiski horse ir access tags un to lieto kā atļauju (permission) nevis kur tik te nav salikts bez pamatojuma. Un ja kādam tiešām vajag jāšanai, tad ir <code>horse_scale</code> lai apzīmētu reālo iespēju (piem. <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahorse_scale%3Dimpossible\">horse_scale=impossible</a>).</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/2UjIkskZak5rSP_sov91_vI0/horse-no.png\" title=\"horse-no.png\"><img src=\"/user_uploads/49624/2UjIkskZak5rSP_sov91_vI0/horse-no.png\"></a></div>",
+        "id": 318421962,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672321828
+    },
+    {
+        "content": "<p>Es personīgi zinu vienu vietu, kur ir reāli pareizi <code>horse=no</code>: <a href=\"https://www.mapillary.com/app/?pKey=767695831220594&amp;focus=photo\">https://www.mapillary.com/app/?pKey=767695831220594&amp;focus=photo</a></p>",
+        "id": 318422048,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672321863
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/horse.3Dno/near/318422048\">said</a>:</p>\n<blockquote>\n<p>Es personīgi zinu vienu vietu, kur ir reāli pareizi <code>horse=no</code>: <a href=\"https://www.mapillary.com/app/?pKey=767695831220594&amp;focus=photo\">https://www.mapillary.com/app/?pKey=767695831220594&amp;focus=photo</a></p>\n</blockquote>\n<p>Ironiski, ka <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahorse%3Dno\">horse=no</a> ir pareizs, bet to nevajag, jo tas ir <a href=\"https://wiki.openstreetmap.org/wiki/OSM_tags_for_routing/Access_restrictions\">\"implied\"</a> visiem <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dcycleway\">highway=cycleway</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dfootway\">highway=footway</a>.</p>",
+        "id": 318423217,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672322331
+    },
+    {
+        "content": "<p>Piekristu, ja šo kāds vēlētos satīrīt.<br>\nTeorētiski var atstāt tur, kur ir zīmes (vēl šur tur ap dabas parkiem/takām ir manīts) kā \"explicit\" norādi - bet kā <span class=\"user-mention\" data-user-id=\"568802\">@i-ky</span> norādīja, jēga būtu <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahorse%3Dyes\">horse=yes</a> norādīšanai.</p>",
+        "id": 318431834,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672325120
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/horse.3Dno/near/318431834\">said</a>:</p>\n<blockquote>\n<p>jēga būtu <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahorse%3Dyes\">horse=yes</a> norādīšanai.</p>\n</blockquote>\n<p>Jēga tomēr būtu <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahorse%3Ddesignated\">horse=designated</a>, jo <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahorse%3Dyes\">horse=yes</a> noklusētais ir visur, kur transports drīkst pēc CSN</p>",
+        "id": 318432113,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672325196
+    },
+    {
+        "content": "<p>Domāju <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dfootway\">highway=footway</a>, ja kādos posmos atļauts.</p>",
+        "id": 318432819,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672325420
+    },
+    {
+        "content": "<p>A kādā veidā atļauts?</p>",
+        "id": 318432861,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672325441
+    },
+    {
+        "content": "<p>Ar atļaujošo zīmi.<br>\nNu un pretēji, būs kaut kur <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dtrack\">highway=track</a> vai service, kur reāli derēs <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahorse%3Dno\">horse=no</a>.<br>\nDomāju, ka tur 95% ir lieki tagi, bet noteikti būs daži pareizi. Tos nevajadzētu ar vienu stiepienu pazaudēt :)</p>",
+        "id": 318433204,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672325544
+    },
+    {
+        "content": "<p>Bet ja ir atļaujošā zīme (kā tas izskatās?), tad vai tad tas nav <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahorse%3Ddesignated\">horse=designated</a>?</p>",
+        "id": 318433526,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672325637
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/horse.3Dno/near/318432113\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/horse.3Dno/near/318431834\">said</a>:</p>\n<blockquote>\n<p>jēga būtu <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahorse%3Dyes\">horse=yes</a> norādīšanai.</p>\n</blockquote>\n<p>Jēga tomēr būtu <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahorse%3Ddesignated\">horse=designated</a>, jo <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahorse%3Dyes\">horse=yes</a> noklusētais ir visur, kur transports drīkst pēc CSN</p>\n</blockquote>\n<p>\"Pēc CSN\" neko nenozīmē OSM kontekstā. Tie cilvēki, kas implementē routing taču nelasīs katras valsts CSN. Viņi atvērs OSM Wiki un kā tur rakstīts, tā arī implementēs. Ar visiem vietējiem izņēmumiem, protams, bet tikai ja tie ir aprakstīti OSM Wiki.<br>\nŠeit tāpat kā <a class=\"stream-topic\" data-stream-id=\"360539\" href=\"/#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/highway.3Dfootway.20un.20velo.20routing\">#veloinfrastruktūra &gt; highway=footway un velo routing</a> vajadzētu vienoties, vai mēs liksim visur <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahorse%3Dyes\">horse=yes</a>, ja CSN to neaizliedz, vai mēs dokumentējam Latvijai specifiskus \"implied\" access noteikumus.</p>",
+        "id": 318434605,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672326018
+    },
+    {
+        "content": "<p>Jā, es arī domāju OSM default access kontekstu. Bet vai tad OSM kontekstā visiem transporta ceļiem jau nav <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahorse%3Dyes\">horse=yes</a> (tā pat kā <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abus%3Dyes\">bus=yes</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amoped%3Dyes\">moped=yes</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aagricultural%3Dyes\">agricultural=yes</a> utt)? Vai tad zirgiem ir kaut kas cits?</p>\n<p>Protams var (vajag) vienoties un ierakstīt wiki defaultus (un velo arī) - bet tie šeit sakritīs ar default, tāpēc es arī teicu, ka nokluētais tā pat kā transports. Nesakritīs visāda specifika, bet te bija runa par access.</p>",
+        "id": 318436419,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672326657
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/horse.3Dno/near/318433526\">said</a>:</p>\n<blockquote>\n<p>Bet ja ir atļaujošā zīme (kā tas izskatās?), tad vai tad tas nav <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahorse%3Ddesignated\">horse=designated</a>?</p>\n</blockquote>\n<p>Hmm, mums te gandrīz vai vajadzētu kaut kādus zirgu speciālistus, es tik sīki nezinu...</p>",
+        "id": 318437812,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672327106
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/horse.3Dno/near/318436419\">said</a>:</p>\n<blockquote>\n<p>Bet vai tad OSM kontekstā visiem transporta ceļiem jau nav <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahorse%3Dyes\">horse=yes</a> (tā pat kā <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abus%3Dyes\">bus=yes</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amoped%3Dyes\">moped=yes</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aagricultural%3Dyes\">agricultural=yes</a> utt)? Vai tad zirgiem ir kaut kas cits?</p>\n</blockquote>\n<p><a href=\"https://wiki.openstreetmap.org/wiki/OSM_tags_for_routing/Access_restrictions#Worldwide\">Mazliet atšķiras</a>.</p>",
+        "id": 324573998,
+        "sender_full_name": "i-ky",
+        "timestamp": 1675075481
+    },
+    {
+        "content": "<p>Tas bija par Latviju konkrēti. Un \"ceļi\" CSN nozīmē \"ceļi\", neieskaitot ietves, velo, utt. (tāpēc teicu \"<em>transporta</em> ceļi\").</p>",
+        "id": 324575842,
+        "sender_full_name": "HellMap",
+        "timestamp": 1675076073
+    },
+    {
+        "content": "<p>To tabulu starp citu varētu Latvijai uztaisīt un izņemt <code>hgv</code> no <code>living_street</code></p>",
+        "id": 324576696,
+        "sender_full_name": "HellMap",
+        "timestamp": 1675076322
+    }
+]
