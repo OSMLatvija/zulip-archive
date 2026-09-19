@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Kā kartēt Bolt skūteru parkotājus/lādētājus? <a href=\"https://www.mapillary.com/app/user/hellphoto?pKey=949697126159105&amp;focus=photo\">https://www.mapillary.com/app/user/hellphoto?pKey=949697126159105&amp;focus=photo</a> <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dcharging_station\">amenity=charging_station</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asmall_electric_vehicle%3Dyes\">small_electric_vehicle=yes</a> pēc <a href=\"https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dcharging_station#Vehicles\">https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dcharging_station#Vehicles</a> ? Pagaidām tādu laikam 0 Latvijā/Rīgā iekartētu. <a href=\"https://bolt.eu/lv-lv/blog/riga-ienak-elektrisko-skrejritenu-stativi/\">https://bolt.eu/lv-lv/blog/riga-ienak-elektrisko-skrejritenu-stativi/</a> 21 it kā uzstādīti Rīgā.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://bolt.eu/lv-lv/blog/riga-ienak-elektrisko-skrejritenu-stativi/\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1f745ed15654b905d8e62d07efd44809d4351227\\/68747470733a2f2f7374617469632e626c6f672e626f6c742e65752f4c4956452f77702d636f6e74656e742f75706c6f6164732f323032332f30362f32393134333132372f6368617267696e672d646f636b2d626f6c742e6a7067)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://bolt.eu/lv-lv/blog/riga-ienak-elektrisko-skrejritenu-stativi/\" title=\"Rīgā ienāk elektrisko skrejriteņu statīvi | Bolt Blog\">Rīgā ienāk elektrisko skrejriteņu statīvi | Bolt Blog</a></div><div class=\"message_embed_description\">Bolt Rīgas ielās ir izvietojis elektrisko skrejriteņu uzlādes statīvus! Ja Tava skrejriteņa uzlādes līmenis ir zems - atrodi tuvāko statīvu. Lasi vairāk!</div></div></div>",
+        "id": 381982541,
+        "sender_full_name": "HellMap",
+        "timestamp": 1691186107
+    },
+    {
+        "content": "<p>Teorētiski <a href=\"https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dcharging_station\">https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dcharging_station</a> ir diezgan plašs.<br>\nEs pie Alfas divus biju nofočējis, bet arī vēl nebiju izdomājis tagus :)</p>",
+        "id": 382121877,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1691236656
+    },
+    {
+        "content": "<p>Vēl es nezinu, kā atzimēt, ka tur it TIKAI Bolt un nevis jebkurš, kam der kontaktligzda vai kaut kas tāds. brand un operator var ielikt Bolt, bet varbūt vēl <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aaccess%3Dcustomer\">access=customer</a>...</p>",
+        "id": 382162999,
+        "sender_full_name": "HellMap",
+        "timestamp": 1691246889
+    },
+    {
+        "content": "<p>Ne par lādēšanu, bet šiem agregātiem kompumā, varbūt kaut ko var salikt kopā: <a href=\"https://wiki.openstreetmap.org/wiki/Proposal:ElectricScooters\">https://wiki.openstreetmap.org/wiki/Proposal:ElectricScooters</a> .<br>\nVai tik šobrīd apspriežamie tur nav nosaukti par \"Kick-scooters, the\"skateboard with a handle\" type mostly used by kids\" :)</p>",
+        "id": 382203970,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1691259031
+    },
+    {
+        "content": "<p>elektrodēļiem drošvien jau paliks tas pats <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Asmall_electric_vehicle\">small_electric_vehicle=*</a> ja tālāk nedalīs. Šitas formalizē. Vajag tam proposal pierakstīt komentu, lai pieliek kā piemēru šitos lādējamos, kur perspektīvs pielietojums</p>",
+        "id": 382204787,
+        "sender_full_name": "HellMap",
+        "timestamp": 1691259370
+    }
+]

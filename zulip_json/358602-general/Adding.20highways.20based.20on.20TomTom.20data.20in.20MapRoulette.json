@@ -1,0 +1,104 @@
+[
+    {
+        "content": "<p>Hi everyone,</p>\n<p>(Below I’m including a Latvian translation of this message, created using DeepL.)</p>\n<p>First of all, a big thank you for your contributions in our open MapRoulette challenges for <a href=\"https://maproulette.org/browse/challenges/39510\">fixing inconsistent building and highway intersections</a>, and <a href=\"https://maproulette.org/browse/challenges/39498\">correcting inconsistent bridge and tunnel tagging</a>. We really appreciate your help!</p>\n<p>My team at TomTom now identified a number of highways in Latvia that are in our TomTom map but not yet in OpenStreetMap. After manually verifying the presence of these ways on the available imagery sources, we created a new MapRoulette challenge to help add them to OSM. The challenge contains 31 tasks and you can find it here: <strong><a href=\"https://maproulette.org/browse/challenges/40789\">Latvia - Add Highways</a></strong>.</p>\n<p>Our editing team will take up this challenge in a couple of weeks or so, and of course other community members are very welcome to try it out as well. If a way shouldn’t be added to the map, you can mark the task as “Not an issue”.</p>\n<p>Don’t hesitate to let me know if you have any comments or questions.</p>\n<p>Have a great week!</p>\n<p>Marjan </p>\n<hr>\n<p>Sveiki visiem,</p>\n<p>Vispirms liels paldies par jūsu ieguldījumu mūsu atklātajos MapRoulette izaicinājumos, lai <a href=\"https://maproulette.org/browse/challenges/39510\">labotu nekonsekventus ēku un autoceļu krustojumus</a>, kā arī <a href=\"https://maproulette.org/browse/challenges/39498\">labotu nekonsekventu tiltu un tuneļu marķējumu</a>. Mēs ļoti novērtējam jūsu palīdzību!</p>\n<p>Mana TomTom komanda tagad ir identificējusi dažus autoceļus Latvijā, kas ir mūsu TomTom kartē, bet vēl nav OpenStreetMap. Pēc manuālas šo ceļu klātbūtnes pārbaudes pieejamajos attēlu avotos mēs izveidojām jaunu MapRoulette uzdevumu, lai palīdzētu tos pievienot OSM. Tajā ir 31 uzdevums, un to var atrast šeit: <strong><a href=\"https://maproulette.org/browse/challenges/40789\">Latvia - Add Highways</a></strong>.</p>\n<p>Mūsu rediģēšanas komanda ķersies pie šī izaicinājuma aptuveni pēc pāris nedēļām, un, protams, arī citi kopienas locekļi ir laipni aicināti to izmēģināt. Ja kāds ceļš nav jāpievieno kartei, jūs varat atzīmēt uzdevumu kā \"Nav jautājums\".</p>\n<p>Nevilcinieties man ziņot, ja jums ir kādi komentāri vai jautājumi.</p>\n<p>Lai jums ir lieliska nedēļa!</p>\n<p>Marjan</p>",
+        "id": 386334155,
+        "sender_full_name": "MarjanVandeKauter",
+        "timestamp": 1692606740
+    },
+    {
+        "content": "<p>Thanks for your contributions everyone! Glad to see the challenge is helpful.</p>",
+        "id": 386544807,
+        "sender_full_name": "MarjanVandeKauter",
+        "timestamp": 1692688413
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> has marked this topic as unresolved.</p>",
+        "id": 387863428,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1693308880
+    },
+    {
+        "content": "<p>For those of you who are interested--we have validated all of the data that we have for Riga. 300 missing highways that we identified and considered useful leads have been added to this challenge, and about 350 others have not been added yet.</p>",
+        "id": 388262087,
+        "sender_full_name": "MarjanVandeKauter",
+        "timestamp": 1693465212
+    },
+    {
+        "content": "<p>Thanks, looks great - seems to be mostly serviceways (like supermarket deliveries, parking aisles) this time.</p>",
+        "id": 388363144,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1693499056
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"568771\">@Rihards Olups</span> that's right, we're mostly finding lower-class roads, useful for use cases like last-mile delivery.</p>",
+        "id": 388467843,
+        "sender_full_name": "MarjanVandeKauter",
+        "timestamp": 1693552853
+    },
+    {
+        "content": "<p>Thanks, any information on data sources, methodology?<br>\nAsking as I spotted some that look like private driveways, about 5m long, that got me curious. Does that indicate that the owner uses TomTom solutions?</p>",
+        "id": 388574177,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1693591206
+    },
+    {
+        "content": "<p>Hi Rihards, the road network in our map is captured by our editors based on different types of sources, including content from providers, aerial imagery, GPS traces. Hope this helps <span aria-label=\"blush\" class=\"emoji emoji-1f60a\" role=\"img\" title=\"blush\">:blush:</span> have a nice weekend</p>",
+        "id": 389863184,
+        "sender_full_name": "MarjanVandeKauter",
+        "timestamp": 1694172571
+    },
+    {
+        "content": "<p>One example is what might be a private driveway, max 15m long - but hard to map as the imagery is of the building during in a construction phase. Missing road marker where the selected node is. In this case, it might be useful to know what the exact TomTom source was.<br>\n<a href=\"/user_uploads/49624/KnRDFju0wh9hvW2EY2V6BJ1V/image.png\">missing driveway?</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/KnRDFju0wh9hvW2EY2V6BJ1V/image.png\" title=\"missing driveway?\"><img src=\"/user_uploads/49624/KnRDFju0wh9hvW2EY2V6BJ1V/image.png\"></a></div>",
+        "id": 390300444,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1694435541
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"568771\">@Rihards Olups</span> I don't know what the source for this particular case is, but if it's not possible to confirm the current existence of the way based on the available sources the right thing to do would be to mark the task as \"too hard\". We'll try to exclude cases like this in the future.</p>",
+        "id": 391175001,
+        "sender_full_name": "MarjanVandeKauter",
+        "timestamp": 1694785627
+    },
+    {
+        "content": "<p>Thanks, it might be OK to include such cases for now - if nobody gets a chance to survey it for a while, indeed we can drop it as \"too hard\".</p>",
+        "id": 391175637,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1694785820
+    },
+    {
+        "content": "<p>Our editors completed the remaining task in this challenge last week. We may add more tasks at a later point in time, but I'm fine with closing this topic for now and reopening it again later if that makes more sense for users of this stream.</p>\n<p>Thanks again to everyone who helped out with this challenge!</p>",
+        "id": 396239878,
+        "sender_full_name": "MarjanVandeKauter",
+        "timestamp": 1697099314
+    },
+    {
+        "content": "<p>This is really great, please pass thank you to the editing team.<br>\nLooks like they also decided to skip the short/unclear serviceway at <a href=\"https://www.openstreetmap.org/#map=19/56.85915/24.29721&amp;layers=N\">https://www.openstreetmap.org/#map=19/56.85915/24.29721&amp;layers=N</a> .</p>\n<p>Any feeback from them regarding existing data or anything else in Latvia?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/#map=19/56.85915/24.29721&amp;layers=N\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/#map=19/56.85915/24.29721&amp;layers=N\" title=\"OpenStreetMap\">OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 396872633,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1697452289
+    },
+    {
+        "content": "<p>Thanks <span class=\"user-mention\" data-user-id=\"568771\">@Rihards Olups</span>, I will!</p>\n<p>Meanwhile we've added some new tasks to the challenge so I'm keeping this topic open.</p>\n<p>Re: \"Any feedback from them regarding existing data or anything else in Latvia?\", what kind of data are you referring to specifically?</p>\n<p>Sorry for the delay in my response, I was enjoying some time off(line) last week <span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span></p>",
+        "id": 398062813,
+        "sender_full_name": "MarjanVandeKauter",
+        "timestamp": 1698059943
+    },
+    {
+        "content": "<p>Thanks, sounds great.<br>\nRegarding feedback, was wondering whether they have observed anything specific - more or less detail than in other countries, some data categories that stand out, data sources...<br>\nIt seems like a potentially great way to get valuable feedback for the wider community, and engage with TomTom.</p>",
+        "id": 398063299,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1698060166
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"568771\">@Rihards Olups</span> good question, let me check with my team and get back to you.</p>",
+        "id": 398135598,
+        "sender_full_name": "MarjanVandeKauter",
+        "timestamp": 1698085059
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"568771\">@Rihards Olups</span> looking at the number of road network issues we're identifying in Latvia, the quality of the data is quite high. Of course, if anyone has encountered other types of issues in the data that we haven't touched upon, they're free to let us know so we can investigate if we can look into these. Note that our focus is on improving features that impact routing, so I can't make statements about all data categories.</p>",
+        "id": 398691810,
+        "sender_full_name": "MarjanVandeKauter",
+        "timestamp": 1698327714
+    }
+]
