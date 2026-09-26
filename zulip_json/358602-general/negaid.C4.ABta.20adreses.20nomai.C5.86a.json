@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">Bots</a> interesanti nomainījis adresi no 11 (pareiza) uz 3 (VZD datos ~ 225m uz ziemeļiem).<br>\nKā tā varēja gadīties?</p>",
+        "id": 315542823,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1670923285
+    },
+    {
+        "content": "<p>Saite uz objektu ģeldētu.</p>",
+        "id": 315573940,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1670933207
+    },
+    {
+        "content": "<p>Tā centos visu info savākt, beigās linku piemirsu :)<br>\n<a href=\"https://www.openstreetmap.org/node/10197126937/history\">https://www.openstreetmap.org/node/10197126937/history</a></p>",
+        "id": 315574502,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1670933363
+    },
+    {
+        "content": "<ol start=\"3\">\n<li>numurs ir no zemes vienībais, jo OSM ēkai adrese tobrīd nebija piešķirta. Pēc tā, kā uzzīmēts tagad, šķiet, ka vajadzētu piešķirt 11. Ja zīmētu kā kadastrā, kur ir 3 ēkas, tad ēkai adresi šobrīd nepiešķirtu un tam punktam būtu adrese no zemes vienības (3).</li>\n</ol>",
+        "id": 315577401,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1670934324
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571929\">Dāvis Kļaviņš</span> <a href=\"#narrow/stream/358602-general/topic/negaid.C4.ABta.20adreses.20nomai.C5.86a/near/315577401\">said</a>:</p>\n<blockquote>\n<ol start=\"3\">\n<li>numurs ir no zemes vienībais, jo OSM ēkai adrese tobrīd nebija piešķirta. Pēc tā, kā uzzīmēts tagad, šķiet, ka vajadzētu piešķirt 11. Ja zīmētu kā kadastrā, kur ir 3 ēkas, tad ēkai adresi šobrīd nepiešķirtu un tam punktam būtu adrese no zemes vienības (3).</li>\n</ol>\n</blockquote>\n<p>Ah, interesanti.<br>\nKā būtu vispareizāk OSM datos darīt?</p>",
+        "id": 315580132,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1670935181
+    }
+]

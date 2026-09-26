@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>Sveiki!<br>\nKad vēlos sākt zīmēt/labot ceļus un atveru <a href=\"https://wiki.openstreetmap.org/wiki/Key:highway\">https://wiki.openstreetmap.org/wiki/Key:highway</a> , es apjūku  no ceļu dažādības. <br>\nKamēr tas ir mazs meža celiņš,  piebraucamais ceļš uz viensētu vai neliels unclassified ceļš, viss šķiet vienkārši. Bet, tiklīdz sākas apdzīvota teritorija vai kādi nozīmīgāki ceļi, viss kļūst sarežģītāk. Tāpēc, lai nevairotu kļūdas, nolēmu izveidot jaunu tēmu, kur reizi pa reizei varētu pajautāt padomu citiem saistībā ar ceļu birkām.</p>\n<p>Piemēram, šajā gadījumā <a href=\"https://www.openstreetmap.org/way/1092354932#map=17/55.93410/26.60203\">https://www.openstreetmap.org/way/1092354932#map=17/55.93410/26.60203</a> ceļš atrodas industriālajā zonā, bet tam ir piemērots <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dresidential\">highway=residential</a>. Kaut gan, nogriežoties no tā un turpinot ceļu, var nokļūt vasarnīcu apbūvē.<br>\nPaskaidrojiet, lūdzu, kādu birku būtu pareizāk šeit piemērot un kapēc?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/1092354932#map=17/55.93410/26.60203\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/1092354932#map=17/55.93410/26.60203\" title=\"Way: ‪Viršu iela‬ (‪1092354932‬)\">Way: ‪Viršu iela‬ (‪1092354932‬)</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 446937130,
+        "sender_full_name": "Mezonens",
+        "timestamp": 1719333737
+    },
+    {
+        "content": "<p>Es liktu <code>unclassified</code> šeit. Kamēr nav dzīvojamu īpašumu, tikmēr <code>residential</code> gluži nebūs. Bet te tā atšķirība minimāla.</p>",
+        "id": 446941864,
+        "sender_full_name": "HellMap",
+        "timestamp": 1719334873
+    },
+    {
+        "content": "<p>Arī liktu unclassified tam posmam.<br>\nVēl var aplūkot īsāku dokumentācijas variantu - <a href=\"https://wiki.openstreetmap.org/wiki/Lv:Latvian_tagging_guidelines\">https://wiki.openstreetmap.org/wiki/Lv:Latvian_tagging_guidelines</a> .<br>\nJa tur kas neprecīzs vai šķiet nepareizs, noteikti vērts apspriest un uzlabot.</p>",
+        "id": 446994297,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1719349142
+    },
+    {
+        "content": "<p>Zemītē, Tukuma novadā, ceļi izskatās ļoti dīvaini<br>\n<a href=\"/user_uploads/49624/aRmEnr_tjv7sxVKMRZZejuME/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/aRmEnr_tjv7sxVKMRZZejuME/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/aRmEnr_tjv7sxVKMRZZejuME/image.png\"></a></div>",
+        "id": 448906589,
+        "sender_full_name": "Aivars",
+        "timestamp": 1720026639
+    },
+    {
+        "content": "<p>Te ceļi bija nomainīti uz <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dconstruction\">highway=construction</a> <a href=\"https://www.openstreetmap.org/changeset/149487679\">https://www.openstreetmap.org/changeset/149487679</a> Pagaidām nav pārlikts atpakaļ</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/changeset/149487679\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/changeset/149487679\" title=\"Changeset: 149487679\">Changeset: 149487679</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 448907155,
+        "sender_full_name": "HellMap",
+        "timestamp": 1720026769
+    },
+    {
+        "content": "<p>2 messages were moved from this topic to <a class=\"stream-topic\" data-stream-id=\"360538\" href=\"/#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/ce.C4.BCi.20Zem.C4.ABt.C4.93\">#iesācēju jautājumi &gt; ceļi Zemītē</a> by <span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span>.</p>",
+        "id": 448935954,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1720036050
+    }
+]

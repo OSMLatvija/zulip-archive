@@ -1,0 +1,230 @@
+[
+    {
+        "content": "<p>Droši vien jautājums jaunam topikam - bet vai tad nebija kaut kur teikts, ka OSM tegi linkos uz OSM wiki? Vai arī to es nosapņoju...</p>",
+        "id": 316966130,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671547336
+    },
+    {
+        "content": "<p>Es arī par to sapņoju... :D<br>\nVar uztaisīt, lai visa <code>key=tag</code> kombinācija ved uz <code>Tag:key%3Dtag</code> lapu, bet tā, kā OSM Wiki taisa divus linkus (arī uz <code>Key%3Akey</code>) laikam neizdosies tehnisku iemeslu dēļ.</p>",
+        "id": 316968646,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671548012
+    },
+    {
+        "content": "<p>Test <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dcycleway\">highway=cycleway</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Ddesignated\">bicycle=designated</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afoot%3Dno\">foot=no</a></p>",
+        "id": 316971619,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671548789
+    },
+    {
+        "content": "<p>Fail - sidewalk:<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aleft%3Dyes\">left=yes</a></p>",
+        "id": 316971892,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671548869
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/OSM.20key.2Ftag.20linkifier/near/316971892\">said</a>:</p>\n<blockquote>\n<p>Fail - <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asidewalk:left%3Dyes\">sidewalk:left=yes</a></p>\n</blockquote>\n<p>Vēlreiz...</p>",
+        "id": 316972048,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671548910
+    },
+    {
+        "content": "<p>access=*</p>",
+        "id": 316972528,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671549059
+    },
+    {
+        "content": "<p>Bet nu tādu pa taisno arī neaizlinkot, tikai ja izdala access ārā</p>",
+        "id": 316972645,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671549089
+    },
+    {
+        "content": "<p><code>maxspeed:conditional=110 @ (May 1-Oct 1)</code></p>",
+        "id": 316972713,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671549107
+    },
+    {
+        "content": "<p><code>highway=footway</code></p>",
+        "id": 316972782,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671549123
+    },
+    {
+        "content": "<p>Koda blokos linkus nevar?</p>",
+        "id": 316972889,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671549147
+    },
+    {
+        "content": "<p>Jā, koda blokos viss ir \"as is\".</p>",
+        "id": 316973076,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671549200
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/OSM.20key.2Ftag.20linkifier/near/316972645\">said</a>:</p>\n<blockquote>\n<p>Bet nu tādu pa taisno arī neaizlinkot, tikai ja izdala access ārā</p>\n</blockquote>\n<p>Ja ir interese paspēlēties, <a href=\"https://zulip.com/help/add-a-custom-linkifier\">šeit</a> ir aprakstīts, kā tas ir konfigurējams. Pēc būtības, vajag <a href=\"https://github.com/google/re2/wiki/Syntax\"><code>re2</code></a> regulāro izteiksmi.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://zulip.com/help/add-a-custom-linkifier\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/df83b8ca6f665e54aab5f8f261d9ceb696f2f5c3\\/68747470733a2f2f7a756c6970636861742e636f6d2f7374617469632f696d616765732f6c6f676f2f7a756c69702d69636f6e2d313238783132382e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://zulip.com/help/add-a-custom-linkifier\" title=\"Add a custom linkifier | Zulip help center\">Add a custom linkifier | Zulip help center</a></div><div class=\"message_embed_description\">Linkifiers make it easy to refer to issues or tickets in third party issue trackers, like GitHub, Salesforce, Zendesk, and others. For instance, you can add a linkifier that automatically turns #2468 into a link to https://github.com/zulip/zulip/issues/2468. | If the pattern appears in a message topic, Zulip adds a little button to the right of the topic that links to the appropriate URL. | This is best explained by example. | Hash followed by a number of any length. | String of hexadecimal digits between 7 and 40 characters long.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/google/re2/wiki/Syntax\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/f284369b51681bf24228d8dfac358698bbacd48c\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f383430333031656564313439386130653262623831646262623465356263343634323062383332643932393031386334373230646365373939346565386430302f676f6f676c652f726532)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/google/re2/wiki/Syntax\" title=\"Syntax · google/re2 Wiki\">Syntax · google/re2 Wiki</a></div><div class=\"message_embed_description\">RE2 is a fast, safe, thread-friendly alternative to backtracking regular expression engines like those used in PCRE, Perl, and Python. It is a C++ library. - Syntax · google/re2 Wiki</div></div></div>",
+        "id": 316973552,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671549329
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Tag%3A:%3DD\">:=D</a></p>",
+        "id": 318987552,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672664222
+    },
+    {
+        "content": "<p>Varētu pielikt tags=* sintaki:<br>\n(?P&lt;key&gt;[\\w:]+)=\\*<br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Key%3A%(key)\">https://wiki.openstreetmap.org/wiki/Key%3A%(key)</a><br>\nLinkifierus var tikai organizācijas admini, nevaru pārbaudīt pats</p>",
+        "id": 318987703,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672664287
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Key%3A:\">:=*</a></p>",
+        "id": 318992252,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672666043
+    },
+    {
+        "content": "<p>But for real, <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Ahighway\">highway=*</a></p>",
+        "id": 318992407,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672666064
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/362235-Zulip/topic/OSM.20key.2Ftag.20linkifier/near/318987703\">said</a>:</p>\n<blockquote>\n<p>Varētu pielikt <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Atags\">tags=*</a> sintaki:<br>\n(?P&lt;key&gt;[\\w:]+)=\\*<br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Key%3A%(key)\">https://wiki.openstreetmap.org/wiki/Key%3A%(key)</a><br>\nLinkifierus var tikai organizācijas admini, nevaru pārbaudīt pats</p>\n</blockquote>\n<p>Pieliku ar minimālām izmaiņām, paldies! Ja ir idejas par konfigurācijas izmaiņām, bet nav tiesību mainīt, var <span class=\"user-group-mention\" data-user-group-id=\"350450\">@Zulip administratori</span> pingot.</p>",
+        "id": 318992608,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672666137
+    },
+    {
+        "content": "<p>Rīgas botāniskais dārzs</p>",
+        "id": 319091129,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672691127
+    },
+    {
+        "content": "<p>Centos regexu salauzt, bet sapratu tikai to, ka visi online testeri kaut ko ne tā dara</p>",
+        "id": 319092695,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672692172
+    },
+    {
+        "content": "<p>Piemēram?</p>",
+        "id": 319093598,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672692716
+    },
+    {
+        "content": "<p>Piemēram <a href=\"https://regex101.com/r/NSTqIN/1\">https://regex101.com/r/NSTqIN/1</a> - ja ieraksta <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bota</a> regexu <code>(?i)\\bbot(?:(?:s|a|am|u)?\\b|ā\\W)</code>, tur atrod, ka <code>bot</code> esot atrasts no <code>botāniskais</code>. Es tā arī nesapratu, kas tur nav tā.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://regex101.com/r/NSTqIN/1\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/51e0386de79fbfe58b1717376096c0ecc6cb9dbc\\/68747470733a2f2f72656765783130312e636f6d2f7374617469632f6173736574732f636172642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://regex101.com/r/NSTqIN/1\" title=\"regex101: domain for Google Data Studio (re2 dialect)\">regex101: domain for Google Data Studio (re2 dialect)</a></div><div class=\"message_embed_description\">Regular expression tester with syntax highlighting, explanation, cheat sheet for PHP/PCRE, Python, GO, JavaScript, Java, C#/.NET.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/fc94da75988ca0e87c616c0465ccb8790fcbc98a\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f653661366363346131343735326436643063333139386136616462616633336665346538333337653235363034663264373435663962613039616236346636312f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 319093876,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672692857
+    },
+    {
+        "content": "<p>Es arī to nevaru izskaidrot. Var norakstīt uz to, ka varbūt tiek lietotas dažādas re2 bibliotēkas versijas.</p>",
+        "id": 319094230,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672693134
+    },
+    {
+        "content": "<p>Vispār ar to \"ā\" bija liels čakars, jo Unicode atbalsts nav baigi labs.</p>",
+        "id": 319094353,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672693212
+    },
+    {
+        "content": "<p>Note to self: jāiemāca linkifier'am <a href=\"https://wiki.openstreetmap.org/wiki/Namespace\">prefiksi un sufiksi</a>:</p>\n<ol>\n<li><a href=\"https://wiki.openstreetmap.org/wiki/Lifecycle_prefix\">https://wiki.openstreetmap.org/wiki/Lifecycle_prefix</a></li>\n<li><a href=\"https://wiki.openstreetmap.org/wiki/Conditional_restrictions\">https://wiki.openstreetmap.org/wiki/Conditional_restrictions</a></li>\n<li><a href=\"https://wiki.openstreetmap.org/wiki/Multilingual_names\">https://wiki.openstreetmap.org/wiki/Multilingual_names</a></li>\n<li><a href=\"https://wiki.openstreetmap.org/wiki/Lanes\">https://wiki.openstreetmap.org/wiki/Lanes</a></li>\n<li><a href=\"https://wiki.openstreetmap.org/wiki/Forward_%26_backward,_left_%26_right\">https://wiki.openstreetmap.org/wiki/Forward_%26_backward,_left_%26_right</a></li>\n</ol>",
+        "id": 319374416,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672833754
+    },
+    {
+        "content": "<p>Note to self: <a href=\"https://wiki.openstreetmap.org/wiki/Template:Tag\">apraksts, kā tas viss strādā OSM Wiki</a>.</p>",
+        "id": 319392712,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672840120
+    },
+    {
+        "content": "<p>A linkifieru var sadalīt tā? teiksim ja <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aoneway:tram%3Dreal_value\">oneway:tram=real_value</a> - varēs noparsēt 3 reizes un pielikt gan oneway= gan oneway:tram= gan =real_value?</p>",
+        "id": 319393235,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672840294
+    },
+    {
+        "content": "<p>Citiem vārdiem, ja viens linkifiers iebāzīs linku, vai otrs pēc tam mācēs noparsēt to pašu tekstu BEZ pirmā linka?</p>",
+        "id": 319393430,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672840350
+    },
+    {
+        "content": "<p><a href=\"https://example.com/baz\">foo:bar=baz</a></p>",
+        "id": 319394096,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672840593
+    },
+    {
+        "content": "<p>re2 ir lookbehind/ahead?</p>",
+        "id": 319394220,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672840638
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/362235-Zulip/topic/OSM.20key.2Ftag.20linkifier/near/319394220\">said</a>:</p>\n<blockquote>\n<p>re2 ir lookbehind/ahead?</p>\n</blockquote>\n<p>Nav</p>",
+        "id": 319394238,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672840646
+    },
+    {
+        "content": "<p>Un Zupilā linku drošvien nevar tikai daļai no atrastā</p>",
+        "id": 319394283,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672840665
+    },
+    {
+        "content": "<p>Ir <a href=\"https://github.com/zulip/zulip/issues/20008\">issue</a>, kas ir tuvu pēc būtības, bet mums ar to nepietiks. Es taisos uzrakstīt jaunu ar mūsu prasībām.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/zulip/zulip/issues/20008\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/2a022b3e6d233eded539585e4c04eb04ad98be41\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f623939313062633030366339313366333961326164636634323566316436613033396463383565363932613830333764306466666662393235653166633262362f7a756c69702f7a756c69702f6973737565732f3230303038)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/zulip/zulip/issues/20008\" title=\"Text format string for linkifiers · Issue #20008 · zulip/zulip\">Text format string for linkifiers · Issue #20008 · zulip/zulip</a></div><div class=\"message_embed_description\">In the Category Theory Zulip server, we&#39;re using a linkifier to turn [[text]] into a hyperlink to the corresponding nLab page. This works really well. The only downside is that linkifiers turn ...</div></div></div>",
+        "id": 319394502,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672840742
+    },
+    {
+        "content": "<p><a href=\"https://github.com/zulip/zulip/issues/23976\">https://github.com/zulip/zulip/issues/23976</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/zulip/zulip/issues/23976\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/2aeb2a079b4c674529d057f18d7c7e4d3ce14a5e\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f313162626538316538333766376431386636373861313730366632666165653432346662393065363564303830393262343832386563363435613864303637632f7a756c69702f7a756c69702f6973737565732f3233393736)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/zulip/zulip/issues/23976\" title=\"Allow specifying capture group(s) linkifier attaches link(s) to · Issue #23976 · zulip/zulip\">Allow specifying capture group(s) linkifier attaches link(s) to · Issue #23976 · zulip/zulip</a></div><div class=\"message_embed_description\">I manage a Zulip organization where we discuss OpenStreetMap. OSM data model is based around key=value pairs called &quot;tags&quot;. So when talking about OSM different key=value pairs are mention...</div></div></div>",
+        "id": 319405025,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672843828
+    },
+    {
+        "content": "<p>Vērtības ar kolu, piem., <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amaxspeed%3Atype%3DLV\">maxspeed:type=LV</a>:urban , apgriež.</p>",
+        "id": 392080037,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1695203174
+    },
+    {
+        "content": "<p>Admini var pielikt, tur laikm burtiski <code>\\w</code> uz <code>[\\w:]</code></p>",
+        "id": 392080372,
+        "sender_full_name": "HellMap",
+        "timestamp": 1695203285
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/362235-Zulip/topic/OSM.20key.2Ftag.20linkifier/near/392080037\">said</a>:</p>\n<blockquote>\n<p>Vērtības ar kolu, piem., <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amaxspeed%3Atype%3DLV%3Aurban\">maxspeed:type=LV:urban</a> , apgriež.</p>\n</blockquote>\n<p>Tagad labāk?</p>",
+        "id": 392091114,
+        "sender_full_name": "i-ky",
+        "timestamp": 1695207076
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Tag%3A%3A%3D%3A\">:=:</a> <span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span></p>",
+        "id": 392091579,
+        "sender_full_name": "HellMap",
+        "timestamp": 1695207254
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/362235-Zulip/topic/OSM.20key.2Ftag.20linkifier/near/392091114\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/362235-Zulip/topic/OSM.20key.2Ftag.20linkifier/near/392080037\">said</a>:</p>\n<blockquote>\n<p>Vērtības ar kolu, piem., <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amaxspeed%3Atype%3DLV%3Aurban\">maxspeed:type=LV:urban</a> , apgriež.</p>\n</blockquote>\n<p>Tagad labāk?</p>\n</blockquote>\n<p>Ojē, super :)</p>",
+        "id": 392093781,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1695208056
+    }
+]

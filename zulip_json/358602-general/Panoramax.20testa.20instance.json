@@ -1,0 +1,152 @@
+[
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"607550\">@AmOosm</span>, iedomājos augšuplādēt dažas šodienas kāda parka bildes, bet Panoramax instance laikam nobirusi, 502 - vai kas zināms par šo?</p>",
+        "id": 440386908,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716493259
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Panoramax.20testa.20instance/near/440386908\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"607550\">AmOosm</span>, iedomājos augšuplādēt dažas šodienas kāda parka bildes, bet Panoramax instance laikam nobirusi, 502 - vai kas zināms par šo?</p>\n</blockquote>\n<p>Docker atkal mani pieviļ. Pēc atjauninājuma nepalaidās migrācijas skripts. Palaidu manuāli un tagad strādā.</p>\n<p>(tāpēc šī ir <em>testa</em> instance)</p>",
+        "id": 440387486,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1716493538
+    },
+    {
+        "content": "<p>Burvīgi, liels paldies :)<br>\nTieši tā, pa bišķītim kaut ko mēģinām un labāk saprotam, ko ar to varētu iesākt nākotnē.</p>",
+        "id": 440388600,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716494016
+    },
+    {
+        "content": "<p>Te arī Līgo laukums Ādažos testam :)<br>\n<a href=\"https://geovisio.shema.lv/#focus=map&amp;map=16.68/57.076739/24.325277&amp;speed=250\">https://geovisio.shema.lv/#focus=map&amp;map=16.68/57.076739/24.325277&amp;speed=250</a></p>",
+        "id": 440490626,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716550162
+    },
+    {
+        "content": "<p>Vai Panoramax CLI tūļiem/API ir kaut kāda aizsardzība pret duplicate uploadiem?<br>\nPiem., ja man ir kaudze ar direktorijām, lai varētu droši uploadot, un jau uploadotie tiktu skipoti.</p>",
+        "id": 450763141,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1720717776
+    },
+    {
+        "content": "<p>Un <span class=\"user-mention\" data-user-id=\"607550\">@AmOosm</span>, vai testa instancē vēlamas tikai 360 bildes, vai arī visas directional? :)</p>",
+        "id": 450763235,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1720717806
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"568771\">@Rihards Olups</span> </p>\n<blockquote>\n<p>Vai Panoramax CLI tūļiem/API ir kaut kāda aizsardzība pret duplicate uploadiem?</p>\n</blockquote>\n<p>Man nešķiet</p>\n<blockquote>\n<p>vai testa instancē vēlamas tikai 360 bildes, vai arī visas directional?</p>\n</blockquote>\n<p>Cik tev daudz tās bildes ir? Ja zem dažiem (~2) TB, tad var visas, citādi, lābāk nē. Man vieta uz servera nav neierobežota. ^^</p>\n<p>Vienīgi, ja tu augšupielādē daudzas bildes, es ieteiktu palaist <a href=\"https://github.com/cquest/sgblur\">sgblur</a> lokāli un augšupielādēt izmantojot CLI ar <code>--is-blurred</code>, lai atvieglotu darbu serverim, tad arī bildes būs pieejamas skatīšanai gandrīz uzreiz.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/cquest/sgblur\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/fd8b8b37e9047756e72289950ffab58c68e1855a/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f343332356233666338626532356638393331633634303461323662383263636231633239326136336438333133613536396266343962653364666133656565642f6371756573742f7367626c7572&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/cquest/sgblur\" title=\"GitHub - cquest/sgblur: &quot;Speed Gonzales&quot; blurring API for the Panoramax project\">GitHub - cquest/sgblur: \"Speed Gonzales\" blurring API for the Panoramax project</a></div><div class=\"message_embed_description\">\"Speed Gonzales\" blurring API for the Panoramax project - cquest/sgblur</div></div></div>",
+        "id": 450925775,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1720778104
+    },
+    {
+        "content": "<p>Nu tur ir tā... vienlaicīgi ir zem 1TB, bet regulāri nākas padzēst :)<br>\nTad tomēr laikam tikai 360 uploadošu. Tik jāpameklē, vai kaut kā labi var ar CLI tūļiem statusu piefiksēt.</p>",
+        "id": 454447926,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1722071502
+    },
+    {
+        "content": "<p>Statusu var redzēt ar <em>collection-status</em> opciju:</p>\n<div class=\"codehilite\"><pre><span></span><code>$ geovisio collection-status --help\n\nUsage: geovisio collection-status [OPTIONS]\n\nPrint the status of a collection.\nEither a --location should be provided, with the full location url of the collection or only the --id\ncombined with the --api-url\n\n╭─ Options ──────────────────────────────────────────────────────────────────────────────────────────────────╮\n│ --id                                           TEXT  Id of the collection [default: None]                  │\n│ --api-url                                      TEXT  GeoVisio endpoint URL [default: None]                 │\n│ --location                                     TEXT  Full url of the collection [default: None]            │\n│ --wait                  --no-wait                    wait for all pictures to be ready [default: no-wait]  │\n│ --disable-cert-check    --enable-cert-check          Disable SSL certificates checks while uploading. This │\n│                                                      should not be used, unless if you -really- know what  │\n│                                                      you are doing.                                        │\n│                                                      [default: enable-cert-check]                          │\n│ --help                                               Show this message and exit.                           │\n╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯\n</code></pre></div>",
+        "id": 454449310,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1722072378
+    },
+    {
+        "content": "<p>Tas ir jau uploadotām, vai ne?<br>\nBiju domājis lokālām direktorijām, vai ir uploadots vai nē.</p>",
+        "id": 454449724,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1722072780
+    },
+    {
+        "content": "<p>Aha, augšupielādētām direktorijām vajadzētu būt <code>_geovisio.toml</code> failam.</p>",
+        "id": 454449995,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1722073047
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"607550\">AmOosm</span> <a href=\"#narrow/stream/358602-general/topic/Panoramax.20testa.20instance/near/454449995\">said</a>:</p>\n<blockquote>\n<p>Aha, augšupielādētām direktorijām vajadzētu būt <code>_geovisio.toml</code> failam.</p>\n</blockquote>\n<p>Hmm, varbūt augšuplādēju ar vecāku versiju vai kā, ir kā nemanu tādu failu.</p>",
+        "id": 454623016,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1722179689
+    },
+    {
+        "content": "<p>Iedomājos, ka varbūt varētu pa vienkāršo ar failu checksummām, bet to jāatbalsta CLI un laikam jau arī serverī.<br>\nNeko neizdodas gan atrast par šādu funkcionalitāti.</p>",
+        "id": 477795172,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1729334453
+    },
+    {
+        "content": "<p>BTW, šobrīd :)<br>\n<a href=\"/user_uploads/49624/r9H_00majSPgSc-AYVWg5sOx/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/r9H_00majSPgSc-AYVWg5sOx/image.png\" title=\"image.png\"><img data-original-dimensions=\"1164x678\" src=\"/user_uploads/thumbnail/49624/r9H_00majSPgSc-AYVWg5sOx/image.png/840x560.webp\"></a></div>",
+        "id": 477795352,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1729334691
+    },
+    {
+        "content": "<p>Nu lūk, es TIEŠI šitajā brīdī gatavojos uploadot <span aria-label=\"troll\" class=\"emoji emoji-1f9cc\" role=\"img\" title=\"troll\">:troll:</span></p>",
+        "id": 477795615,
+        "sender_full_name": "HellMap",
+        "timestamp": 1729334990
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/358602-general/topic/Panoramax.20testa.20instance/near/477795615\">said</a>:</p>\n<blockquote>\n<p>Nu lūk, es TIEŠI šitajā brīdī gatavojos uploadot <span aria-label=\"troll\" class=\"emoji emoji-1f9cc\" role=\"img\" title=\"troll\">:troll:</span></p>\n</blockquote>\n<p>Droši :P</p>\n<p>(tagad strādā)</p>",
+        "id": 477795691,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1729335027
+    },
+    {
+        "content": "<p>Man tagad normāls internets, es jau teorētiski varētu, bet nu tur tie terabaiti</p>",
+        "id": 477795819,
+        "sender_full_name": "HellMap",
+        "timestamp": 1729335146
+    },
+    {
+        "content": "<p>AmOosm jau minēja, ka tur tādus TB īsti nē. Pagaidām :)</p>",
+        "id": 477795926,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1729335256
+    },
+    {
+        "content": "<p>Man vajag, lai kāds sponsorē diskus</p>",
+        "id": 477795934,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1729335276
+    },
+    {
+        "content": "<p>Man arī...</p>",
+        "id": 477795958,
+        "sender_full_name": "HellMap",
+        "timestamp": 1729335302
+    },
+    {
+        "content": "<p>2024 gads 4.5 TB</p>",
+        "id": 477795986,
+        "sender_full_name": "HellMap",
+        "timestamp": 1729335327
+    },
+    {
+        "content": "<p>Ahā - Masto cilvēki atrada šo:</p>\n<blockquote>\n<p>The API will always compute a hash of a picture and persist it in the database</p>\n</blockquote>\n<p>Tik nav skaidrs, vai tas jau eksistēja, vai kaut kad tika ieviests.</p>\n<p><a href=\"https://gitlab.com/panoramax/server/api/-/issues/162#note_1943081935\">https://gitlab.com/panoramax/server/api/-/issues/162#note_1943081935</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://gitlab.com/panoramax/server/api/-/issues/162#note_1943081935\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/0c970b308874444648d9ac7ce694edcd0afb3a1b/68747470733a2f2f6769746c61622e636f6d2f75706c6f6164732f2d2f73797374656d2f70726f6a6563742f6176617461722f33343637323536392f49636f6e6f69725f64617461626173652d737461722e7376672e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://gitlab.com/panoramax/server/api/-/issues/162#note_1943081935\" title=\"Improve upload API (#162) · Issues · Panoramax / Server / API · GitLab\">Improve upload API (#162) · Issues · Panoramax / Server / API · GitLab</a></div><div class=\"message_embed_description\">To ease integrations (and especially for the mobile app and website), it would be nice to improve the upload API. I think we should be able...</div></div></div>",
+        "id": 477798626,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1729337784
+    },
+    {
+        "content": "<p>Laikam 10. oktobra versija (2.7.0) šo ieviesa:<br>\n<a href=\"https://gitlab.com/panoramax/server/api/-/blob/develop/CHANGELOG.md#L42\">https://gitlab.com/panoramax/server/api/-/blob/develop/CHANGELOG.md#L42</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://gitlab.com/panoramax/server/api/-/blob/develop/CHANGELOG.md#L42\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/0c970b308874444648d9ac7ce694edcd0afb3a1b/68747470733a2f2f6769746c61622e636f6d2f75706c6f6164732f2d2f73797374656d2f70726f6a6563742f6176617461722f33343637323536392f49636f6e6f69725f64617461626173652d737461722e7376672e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://gitlab.com/panoramax/server/api/-/blob/develop/CHANGELOG.md#L42\" title=\"CHANGELOG.md · develop · Panoramax / Server / API · GitLab\">CHANGELOG.md · develop · Panoramax / Server / API · GitLab</a></div><div class=\"message_embed_description\">Web API for storing and sharing pictures (server-side of a Panoramax instance)</div></div></div>",
+        "id": 477800195,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1729339400
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/channel/358602-general/topic/Panoramax.20testa.20instance/near/477800195\">said</a>:</p>\n<blockquote>\n<p>Laikam 10. oktobra versija (2.7.0) šo ieviesa:<br>\n<a href=\"https://gitlab.com/panoramax/server/api/-/blob/develop/CHANGELOG.md#L42\">https://gitlab.com/panoramax/server/api/-/blob/develop/CHANGELOG.md#L42</a></p>\n</blockquote>\n<p>Serveris ir uz jaunākās versijas</p>",
+        "id": 477801838,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1729340920
+    },
+    {
+        "content": "<p>Super, paldies. Tik esošās sequences laikam nekādi neatpazīs, nāktos manuāli atrast.<br>\nJa vien... viņi neieviesīs iespēju pēc tam servera pusē atrast duplicētas bildes :)</p>",
+        "id": 477824348,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1729358602
+    }
+]

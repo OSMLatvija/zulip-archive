@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>Kaut kas dažus gadus nebijis - 16. martā nāc uz OpenStreetMap tikšanos Ezītī miglā, Teikā, 19:00.<br>\nPrimārā tēma - veloinfrastruktūras kartēšana un viss cits par un ap velo.<br>\nDroši var nākt ar jautājumiem un stāstiem - arī kādu nelielu prezentāciju :)</p>\n<p><a href=\"/user_uploads/49624/_-Bzs3NcaIFbZ4pEWdtbx5qb/image.png\">Ezītis</a><br>\n<a href=\"https://www.openstreetmap.org/node/5600450921\">https://www.openstreetmap.org/node/5600450921</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/_-Bzs3NcaIFbZ4pEWdtbx5qb/image.png\" title=\"Ezītis\"><img src=\"/user_uploads/49624/_-Bzs3NcaIFbZ4pEWdtbx5qb/image.png\"></a></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/5600450921\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/5600450921\" title=\"Node: ‪Ezītis miglā‬ (‪5600450921‬) | OpenStreetMap\">Node: ‪Ezītis miglā‬ (‪5600450921‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 340068945,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678184605
+    },
+    {
+        "content": "<p>Nu ko, jau šovakar Ezītī par OSM un velo :)</p>",
+        "id": 342291325,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678968497
+    },
+    {
+        "content": "<p>Nebiju zinajis ka tads bus. Ja kkas tads vel bus, es atnaktu :)</p>",
+        "id": 344612497,
+        "sender_full_name": "soshial",
+        "timestamp": 1679818896
+    },
+    {
+        "content": "<p>Ah, forši - mēs tieši runājām, ka varētu taisīt tikšanos reizi pāris mēnešos, ja būtu interese :)</p>",
+        "id": 344939309,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1679941749
+    },
+    {
+        "content": "<p>Tiem, kas dzīvo tankā un guļ ziemas miegu - ko labu izrunājāt?</p>",
+        "id": 348405568,
+        "sender_full_name": "Arturs Verza",
+        "timestamp": 1681205504
+    },
+    {
+        "content": "<p>Heh, gribēju uzrakstīt īsu aprakstu par tikšanos, bet notika citas lietas...<br>\nRunājām par veloinfras kartēšanu, kur un kas jauns uztaisīts un vēl kartējams, velo un citu datu vizualizāciju un izmantošanu (Overpass, waymarkedtrails, <a href=\"http://cycle.travel\">cycle.travel</a>, Komoot un citi), Rīgas atvērtajiem ģeotelpiskajiem datiem (to neesamību vairāk...), ātruma ierobežojumiem un dzīv. zonām Rīgā.</p>\n<p>Varbūt <span class=\"user-mention\" data-user-id=\"568802\">@i-ky</span> vai <span class=\"user-mention\" data-user-id=\"605945\">@Oto Ozols</span> var papildināt :)</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"http://cycle.travel\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/c7339c37489da2f1267cfbea42a364b5274a37ee\\/68747470733a2f2f6379636c652e74726176656c2f736974655f696d616765732f6d61705f6f70656e5f67726170682e6a7067)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"http://cycle.travel\" title=\"cycle.travel | route-planner and maps - traffic-free &amp; quiet roads\">cycle.travel | route-planner and maps - traffic-free &amp; quiet roads</a></div><div class=\"message_embed_description\">The best-kept secret of a great ride - find scenic routes with fewer cars.</div></div></div>",
+        "id": 348526371,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681234857
+    },
+    {
+        "content": "<p>Mans galvenais ieguvums bija <a href=\"https://map.project-osrm.org/debug/\">OSRM Debugging map</a> pat ja tas neattiecās pa taisno uz velo.</p>",
+        "id": 348634701,
+        "sender_full_name": "i-ky",
+        "timestamp": 1681283442
+    }
+]
