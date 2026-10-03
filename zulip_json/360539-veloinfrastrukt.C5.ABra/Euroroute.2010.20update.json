@@ -1,0 +1,164 @@
+[
+    {
+        "content": "<p>Currently Eurovelo E10 goes in Riga through centre (barona, brivibas) then between two baltezers lakes to Carnikava: <a href=\"https://www.openstreetmap.org/relation/1741202\">https://www.openstreetmap.org/relation/1741202</a><br>\nBut <a href=\"https://en.eurovelo.com/ev13/latvia\">https://en.eurovelo.com/ev13/latvia</a> (which I assume is the source of truth for eurovelo routes) goes through Skanste, Brasa, Mezapark, Vecaki to Carnikava<br>\nShould it be updated?<br>\nAnd if so - any recommendations on how to proceed? Difference is large, and relations in iD seem to be a bit clanky</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/relation/1741202\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/relation/1741202\" title=\"Relation: ‪EuroVelo 10 - Baltic Sea Cycle Route - part Latvia‬ (‪1741202‬)\">Relation: ‪EuroVelo 10 - Baltic Sea Cycle Route - part Latvia‬ (‪1741202‬)</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://en.eurovelo.com/ev13/latvia\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/e340e25095fd1604025982d7eeec61ed3bb34f63/68747470733a2f2f6d656469612e6575726f76656c6f2e636f6d2f696d616765732f35342f35662f3136305f6f7269675f6172743732312e6a7067&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://en.eurovelo.com/ev13/latvia\" title=\"Cycling in Latvia: EuroVelo 13 – Iron Curtain Trail Map &amp; Stages\">Cycling in Latvia: EuroVelo 13 – Iron Curtain Trail Map &amp; Stages</a></div><div class=\"message_embed_description\">Explore Latvia on EuroVelo 13. Find route maps, GPX tracks, travel information, accommodation and practical tips for your cycling adventure through Riga and Liepāja.</div></div></div>",
+        "id": 620648460,
+        "sender_full_name": "markalex",
+        "timestamp": 1788266983
+    },
+    {
+        "content": "<p>Yeah, I saw that too when I was looking at the new cycleways. Now it goes way north of Riga. I briefly looked at fixing it but then I realized just how much work it is to reroute something like that and I went screw it. Need a proper route editing application because otherwise it's just impossible. Even in josm or something, it just takes so much time.</p>",
+        "id": 620749632,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788285861
+    },
+    {
+        "content": "<p>I found this thing: <a href=\"https://osm-simple-route-editor.kyle.kiwi/\">https://osm-simple-route-editor.kyle.kiwi/</a><br>\nSeems like it's a better tool for this specific job (at least than anything else I know of), but still will be quite tedious.</p>",
+        "id": 620763756,
+        "sender_full_name": "markalex",
+        "timestamp": 1788288976
+    },
+    {
+        "content": "<p>I tried it some time ago, didn't really work for me. It felt like just as finicky as jut doing it in JOSM. I dunno, may be something wasn't working at the time. I'm literally coding my own route editor at the moment because I'm so fed up with nothing working. Relatify is permanently dead due to Overpass. And it doesn't support anything by transit routes.</p>",
+        "id": 620764493,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788289134
+    },
+    {
+        "content": "<p>Rough estimate is done: <a href=\"https://www.openstreetmap.org/changeset/188386468\">https://www.openstreetmap.org/changeset/188386468</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/changeset/188386468\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/changeset/188386468\" title=\"Changeset: 188386468\">Changeset: 188386468</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 620777490,
+        "sender_full_name": "markalex",
+        "timestamp": 1788292335
+    },
+    {
+        "content": "<p><img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"653x583\" data-original-src=\"/user_uploads/49624/jDE8DWRkK-UoGmD0Q3XinKby/image.png\" src=\"/user_uploads/thumbnail/49624/jDE8DWRkK-UoGmD0Q3XinKby/image.png/840x560.webp\"><br>\ni removed these leftovers</p>",
+        "id": 620778644,
+        "sender_full_name": "Colby",
+        "timestamp": 1788292642
+    },
+    {
+        "content": "<p>This doesn't connect <a href=\"https://www.openstreetmap.org/relation/1741202#map=18/57.086095/24.151680\">https://www.openstreetmap.org/relation/1741202#map=18/57.086095/24.151680</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/relation/1741202#map=18/57.086095/24.151680\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/relation/1741202#map=18/57.086095/24.151680\" title=\"Relation: ‪EuroVelo 10 - Baltic Sea Cycle Route - part Latvia‬ (‪1741202‬)\">Relation: ‪EuroVelo 10 - Baltic Sea Cycle Route - part Latvia‬ (‪1741202‬)</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 620778951,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788292728
+    },
+    {
+        "content": "<p>I also wonder if the next revision is actually going to use the new cycleway and not go along the beach.</p>",
+        "id": 620779021,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788292747
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/360539-veloinfrastrukt.C5.ABra/topic/Euroroute.2010.20update/near/620778951\">said</a>:</p>\n<blockquote>\n<p>This doesn't connect <a href=\"https://www.openstreetmap.org/relation/1741202#map=18/57.086095/24.151680\">https://www.openstreetmap.org/relation/1741202#map=18/57.086095/24.151680</a></p>\n</blockquote>\n<p>Yes, that app only allows to select existing segments, but not manipulate them. Some clean up is needed.</p>",
+        "id": 620779464,
+        "sender_full_name": "markalex",
+        "timestamp": 1788292846
+    },
+    {
+        "content": "<p>Also, route on eurovelo site doesn't make sense on Vecaki west part so there was some creative vision applied there.</p>",
+        "id": 620779938,
+        "sender_full_name": "markalex",
+        "timestamp": 1788292933
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/360539-veloinfrastrukt.C5.ABra/topic/Euroroute.2010.20update/near/620779021\">said</a>:</p>\n<blockquote>\n<p>I also wonder if the next revision is actually going to use the new cycleway and not go along the beach.</p>\n</blockquote>\n<p>Probably. But after being stuck in that f-ing sand where cycleway from Carnikava ends - I will not in good conscience lead anybody there until it's finished</p>",
+        "id": 620780379,
+        "sender_full_name": "markalex",
+        "timestamp": 1788293042
+    },
+    {
+        "content": "<p>I haven't biked through it yet but there are some reasonable forest paths to the side so they can probably connect somewhere. Although I imagine by the time the route is updated they will already have built the connection.</p>",
+        "id": 620781420,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788293296
+    },
+    {
+        "content": "<p>The sand is just there as a reminder to not get complacent about how good you have it on the asphalt. <span aria-label=\"smiling face with tear\" class=\"emoji emoji-1f972\" role=\"img\" title=\"smiling face with tear\">:smiling_face_with_tear:</span></p>",
+        "id": 620781669,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788293350
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/360539-veloinfrastrukt.C5.ABra/topic/Euroroute.2010.20update/near/620781420\">said</a>:</p>\n<blockquote>\n<p>I haven't biked through it yet but there are some reasonable forest paths to the side so they can probably connect somewhere. Although I imagine by the time the route is updated they will already have built the connection.</p>\n</blockquote>\n<p>That would require some surveying, but might be a good idea.<br>\nSadly at this time I can't move so far by bike. Any volunteers? =)</p>",
+        "id": 620782603,
+        "sender_full_name": "markalex",
+        "timestamp": 1788293598
+    },
+    {
+        "content": "<p>I think I fixed rest of the disconnections/appendixes.</p>",
+        "id": 620784286,
+        "sender_full_name": "markalex",
+        "timestamp": 1788294008
+    },
+    {
+        "content": "<p>I'll definitely go there pretty soon. I just hadn't had the chance because I wasn't in Riga. It's one of the routes that I'll be taking fairly often in the future since I'm going to Ādaži a lot. Previously you could only go through the forest, but now there's the cycleway. Although the paths around that area have always been sparse. There's some random paths, some small ones I've not even mapped yet like <a href=\"https://www.mapillary.com/app/?focus=photo&amp;pKey=830135713525781\">https://www.mapillary.com/app/?focus=photo&amp;pKey=830135713525781</a> .</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.mapillary.com/app/?focus=photo&amp;pKey=830135713525781\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/b8c1f3edcea90616ba20bdd7fe14353f97ddc490/68747470733a2f2f73636f6e74656e742d696164362d312e78782e666263646e2e6e65742f6d312f762f74362f416e2d4534306f785f76766f647161454f415263694143757957574e45724374656e436233524f55735468436a4856783847395a42625858436a7665366b335564527a4245796f773130614f6e7a68715f4876376d6e7578594f55746854362d2d35324934454476486538644c324b39734d597a6942365535794137513662665f44564175736a754245423135394963306e376c325f383f7374703d733130323478353736265f6e635f6769643d5976656d4b326776424e64357977614d4a464f777941265f6e635f6f633d4164726c6477474f4277587378477a4e757238776e66376b6e424a4a66696f4c6a486e48637a496f516532556e486d597076435736756b57623947665233443558486b266363623d31302d35266f683d30305f41514c3666314d5a66707675757336374c6d734b6a322d783664395746785372685770526d523364446e47437177266f653d3641424541343633265f6e635f7369643d323031626361&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.mapillary.com/app/?focus=photo&amp;pKey=830135713525781\" title=\"Mapillary\">Mapillary</a></div><div class=\"message_embed_description\">Street-level imagery, powered by collaboration and computer vision.</div></div></div>",
+        "id": 620784414,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788294035
+    },
+    {
+        "content": "<p>Huh, when did Zulip start previewing Mapillary? I might be misremembering but I thought it couldn't generate a preview before.</p>",
+        "id": 620784563,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788294073
+    },
+    {
+        "content": "<p>Overall, wasn't as bad as I was afraid of.<br>\nBut precision clicking on footways/cycleways is a pain. They are a pixel wide, it seems.</p>",
+        "id": 620784672,
+        "sender_full_name": "markalex",
+        "timestamp": 1788294102
+    },
+    {
+        "content": "<p>By the way, the way it's routed on their website, I don't think it actually goes along the beach, but rather along the paths through the forest.  <br>\n<img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"743x534\" data-original-src=\"/user_uploads/49624/71S0JAjKhCQxV6DCcGaxn5ZE/image.png\" src=\"/user_uploads/thumbnail/49624/71S0JAjKhCQxV6DCcGaxn5ZE/image.png/840x560.webp\"></p>",
+        "id": 620785990,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788294403
+    },
+    {
+        "content": "<p>Although I imagine it would be a right pain to actually map that becuase there are like 500 path segments there. I</p>",
+        "id": 620786092,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788294431
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/360539-veloinfrastrukt.C5.ABra/topic/Euroroute.2010.20update/near/620784414\">said</a>:</p>\n<blockquote>\n<p>I'll definitely go there pretty soon. I just hadn't had the chance because I wasn't in Riga. It's one of the routes that I'll be taking fairly often in the future since I'm going to Ādaži a lot. Previously you could only go through the forest, but now there's the cycleway. Although the paths around that area have always been sparse. There's some random paths, some small ones I've not even mapped yet like <a href=\"https://www.mapillary.com/app/?focus=photo&amp;pKey=830135713525781\">https://www.mapillary.com/app/?focus=photo&amp;pKey=830135713525781</a> .</p>\n</blockquote>\n<p>That's almost exactly the path I took in July (until edge of novads, where I turned hard right towards water). Don't know if it's because of weather or something changed since your footage, but I struggled even to walk there.</p>",
+        "id": 620786263,
+        "sender_full_name": "markalex",
+        "timestamp": 1788294477
+    },
+    {
+        "content": "<p>It was one of the reasons why I said screw this when I realized that would have to route it along the actual proper paths. Even though I have Mapillaried pretty much all of them, it's still a major pain.</p>",
+        "id": 620786270,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788294480
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"715892\">markalex</span> <a href=\"#narrow/channel/360539-veloinfrastrukt.C5.ABra/topic/Euroroute.2010.20update/near/620786263\">said</a>:</p>\n<blockquote>\n<p>Don't know if it's because of weather or something changed since your footage</p>\n</blockquote>\n<p>Maybe people started using it and it degraded quickly. I really can't say without visiting it. I'll try to check nearby paths if I don't forget when I visit. The whole area was pretty sandy, Like it's part of the whole dune structure or whatever it's called.</p>",
+        "id": 620786527,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788294555
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/360539-veloinfrastrukt.C5.ABra/topic/Euroroute.2010.20update/near/620785990\">said</a>:</p>\n<blockquote>\n<p>By the way, the way it's routed on their website, I don't think it actually goes along the beach, but rather along the paths through the forest.  <br>\n<img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"743x534\" data-original-src=\"/user_uploads/49624/71S0JAjKhCQxV6DCcGaxn5ZE/image.png\" src=\"/user_uploads/thumbnail/49624/71S0JAjKhCQxV6DCcGaxn5ZE/image.png/840x560.webp\"></p>\n</blockquote>\n<p>I have no idea what was the intention there. But in a lot of places there is no path like their line shows.<br>\nSince it copies EV13 on their site, I copied it too (were is made sense)</p>",
+        "id": 620787667,
+        "sender_full_name": "markalex",
+        "timestamp": 1788294823
+    },
+    {
+        "content": "<p>Oh yeah, my experience has been that these sorts of routes are very approximate in many places and require quite a lot of subjective and on-the-site verification to actually route them through appropriate ways. It's more like you're given an approximate route to travel and then you arrive at the spot, look around and decide for yourself. Which of course does not help OSM at all...</p>",
+        "id": 620791902,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788295910
+    },
+    {
+        "content": "<p>Especially in the cities, they are just routed through roads rather than on actual cycleways.</p>",
+        "id": 620792321,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788296010
+    },
+    {
+        "content": "<p>If they're working from something like Google Maps, then they won't have this sort of detail like OSM. <br>\n<img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"832x547\" data-original-src=\"/user_uploads/49624/iO0G_Z_LgYNrVD-s8o9-fTA2/image.png\" src=\"/user_uploads/thumbnail/49624/iO0G_Z_LgYNrVD-s8o9-fTA2/image.png/840x560.webp\"><br>\n<img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"872x626\" data-original-src=\"/user_uploads/49624/T0R8VgMv6kBZSda0QdCo4d0y/image.png\" src=\"/user_uploads/thumbnail/49624/T0R8VgMv6kBZSda0QdCo4d0y/image.png/840x560.webp\"><br>\nIt's almost an unfair comparison</p>",
+        "id": 620792519,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788296061
+    }
+]

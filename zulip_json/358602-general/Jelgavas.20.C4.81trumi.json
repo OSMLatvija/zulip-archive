@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>Jelgavas pašvaldībai ceļu karte ar ātrumiem <a href=\"https://www.jelgava.lv/jaunumi/kads-atlautais-brauksanas-atrums-noteikts-jelgavas-ielas/\">https://www.jelgava.lv/jaunumi/kads-atlautais-brauksanas-atrums-noteikts-jelgavas-ielas/</a> Jāsazīmē kaut kad. Nav gan tekoša/atjaunojama, tikai vienu reizi. Bet vismaz labāk nekā citur, kur nav nekā.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.jelgava.lv/jaunumi/kads-atlautais-brauksanas-atrums-noteikts-jelgavas-ielas/\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/822358c6070117d4a8921ee858ed09ed3c3da3e5\\/68747470733a2f2f7777772e6a656c676176612e6c762f77702d636f6e74656e742f75706c6f6164732f323032332f30372f617472756d732d69656c61732d6b617274652d312e6a7067)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.jelgava.lv/jaunumi/kads-atlautais-brauksanas-atrums-noteikts-jelgavas-ielas/\" title=\"Kāds atļautais braukšanas ātrums noteikts Jelgavas ielās? - Jelgava\">Kāds atļautais braukšanas ātrums noteikts Jelgavas ielās? - Jelgava</a></div><div class=\"message_embed_description\">Lai iedzīvotājiem būtu vieglāk un ērtāk orientēties Jelgavas ielu un ceļu posmos, kur ir palielināts vai samazināts vidējais braukšanas ātrums, iestāde “Pilsētsaimniecība” sagatavojusi speciālu karti.</div></div></div>",
+        "id": 382993444,
+        "sender_full_name": "HellMap",
+        "timestamp": 1691507773
+    },
+    {
+        "content": "<p>Tik naz zināms, vai dabā visas zīmes pareizi saliktas.<br>\nPilsētsaimniecība organizēja vienu OSM pasākumu Jelgavā, varbūt vēl kāda sadarbība sanāk :)</p>",
+        "id": 383219867,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1691576131
+    },
+    {
+        "content": "<blockquote>\n<p>iestāde “Pilsētsaimniecība” sagatavojusi speciālu karti</p>\n</blockquote>\n<p>Varbūt uzrakstīt viņiem, kā to var ar vienu Overpass vaicājumu sagatavot no OSM datiem?</p>",
+        "id": 383242489,
+        "sender_full_name": "i-ky",
+        "timestamp": 1691580338
+    },
+    {
+        "content": "<p>Laba doma, vai vēlētos to izdarīt?<br>\nVar aizsūtīt gan screenshotu, gan Overpass linku.</p>\n<p>Iespējams, viņi šo ir sagatavojuši ar QGIS vai ko tamlīdzīgu, bet Overpass būtu vēl jaukāk un dinamiskāk.</p>",
+        "id": 383243806,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1691580605
+    },
+    {
+        "content": "<p>Varu uzrakstīt pašu vaicājumu.</p>",
+        "id": 383244169,
+        "sender_full_name": "i-ky",
+        "timestamp": 1691580688
+    },
+    {
+        "content": "<p>Bet kāda jēga gatavot no OSM datiem, ja OSM pārsvarā datu nav un tie ir nepareizi/novecojuši? Te taču mērķis OSM ielikt no pašvaldības aktuālo informāciju. Viņi taču OSM nerediģēs.<br>\n<a href=\"/user_uploads/49624/74Tl-96tjI32I7JDWB6hrjoO/osm-jelgava-speeds.png\">osm-jelgava-speeds.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/74Tl-96tjI32I7JDWB6hrjoO/osm-jelgava-speeds.png\" title=\"osm-jelgava-speeds.png\"><img src=\"/user_uploads/49624/74Tl-96tjI32I7JDWB6hrjoO/osm-jelgava-speeds.png\"></a></div>",
+        "id": 383252459,
+        "sender_full_name": "HellMap",
+        "timestamp": 1691582289
+    },
+    {
+        "content": "<p>Jēga ir mainīt (paš)valdību attieksmi no \"re kur jums PDF, kurš pēc gada novecos un kuru nekur nevar importēt\" uz \"mēs importējam savus datus OSM'ā, lai jums būtu ērtāk tos lietot\".</p>",
+        "id": 383256601,
+        "sender_full_name": "i-ky",
+        "timestamp": 1691583109
+    },
+    {
+        "content": "<p>Ar aptuveni tādām krāsām, kā PDF'ā:</p>\n<div class=\"codehilite\" data-code-language=\"overpass\"><pre><span></span><code>[out:json][timeout:250];\n{{geocodeArea:Jelgava}}-&gt;.searchArea;\nway[!railway][maxspeed](area.searchArea);\nout geom;\n{{style:\nway{color:red}\nway[maxspeed=20]{color:orange}\nway[maxspeed=30]{color:magenta}\nway[maxspeed=40]{color:green}\nway[maxspeed=50]{color:cyan}\nway[maxspeed=70]{color:yellow}\nway[maxspeed=80]{color:brown}\nway[maxspeed=90]{color:black}\n}}\n</code></pre></div>",
+        "id": 383266906,
+        "sender_full_name": "i-ky",
+        "timestamp": 1691584932
+    }
+]

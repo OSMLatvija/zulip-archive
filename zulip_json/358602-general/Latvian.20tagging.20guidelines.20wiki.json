@@ -1,0 +1,212 @@
+[
+    {
+        "content": "<p>Pieliku vairāk info <a href=\"https://wiki.openstreetmap.org/wiki/Lv:Latvian_tagging_guidelines\">https://wiki.openstreetmap.org/wiki/Lv:Latvian_tagging_guidelines</a>, pārsvarā \"Veloceļi un veloinfrastruktūra\" un \"Ceļu satiksmes ierobežojumi\". Galvenais mērķis iekļaut vietējos CSN/likumus un aprakstīt vietējo praksi. Centos neko neinterprēt un vienkārši aprakstīt - tā jābūt, tā ir, tā varētu. Protams vēl var daudz ko var pierakstīt, lai varētu uz to atsaukties laika gaitā. Protams, jo dziļāk, jo grūtāk neintepretēt, tāpēc droši vien man ir daudz jautājumu un dažas lietas es pat nezinu. Pats daudz ko neprecīzi esmu zīmējis. Tur arī daudz kas esošais novecojis, neprecīzs vai arī pārāk interpretējoši un praksei neatbilstoši. Būtu ideāli, lai lapa tiešām kalpotu atsauksmei. Iespējams gan, ka vajag apspriest/piekrist visādiem punktiem, jo kartētāju maz un daudz kas nemaz nav standartizēts. Ja kāds varētu pārlasīt, ko es tur pielieku un piekrist vai nepiekrist vai tā tiešām ir.</p>",
+        "id": 316950774,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671543173
+    },
+    {
+        "content": "<p>Viens spilgts piemērs ir <code>access=*</code> vai <code>motor_vehicle</code> vietās, kur reāli ir <code>vehicle=*</code>. Bet iD pirmais lauks ir <code>access</code> un <code>vehicle </code> vispār nav. Tāpēc drošvien arī daudz kur salikts neprecīzi - mašīnām pietiek, bet gājēji un velo sastopas ar wtf. Tas teiksim piemērs uz ko varētu atsaukties, ja kādam jāpasaka par pareizu tegošanu. Es pats pus ceļu nepareizi esmu salicis ar iD īpaši dziļi nedomājot agrāk. Pietiktu tikai wiki vienreiz izlasīt un es būtu pareizi licis... Domāju līdzīgi ir ar daudzām lietām.</p>",
+        "id": 316951530,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671543375
+    },
+    {
+        "content": "<p>Vai ir jēga likt <code>bicycle=designated</code> un <code>foot=no</code> pie <code>highway=cycleway</code>, ja tas sakrīt ar <a href=\"https://wiki.openstreetmap.org/wiki/OSM_tags_for_routing/Access_restrictions#Worldwide\">vērtībām pēc noklusējuma</a>?</p>",
+        "id": 316957204,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671544932
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki/near/316957204\">said</a>:</p>\n<blockquote>\n<p>Vai ir jēga likt <code>bicycle=designated</code> un <code>foot=no</code> pie <code>highway=cycleway</code>, ja tas sakrīt ar <a href=\"https://wiki.openstreetmap.org/wiki/OSM_tags_for_routing/Access_restrictions#Worldwide\">vērtībām pēc noklusējuma</a>?</p>\n</blockquote>\n<p>Hmmm. Jā, es nokopēju no <a href=\"https://wiki.openstreetmap.org/wiki/Lv:Key:highway#Celi%C5%86i\">https://wiki.openstreetmap.org/wiki/Lv:Key:highway#Celi%C5%86i</a> bet man liekas to lapu varēs redirectēt drīz (tur no 2013 gada nav atjaunots). <a href=\"https://wiki.openstreetmap.org/wiki/OSM_tags_for_routing/Access_restrictions\">https://wiki.openstreetmap.org/wiki/OSM_tags_for_routing/Access_restrictions</a> arī par Latviju jāpieliek</p>",
+        "id": 316958009,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671545138
+    },
+    {
+        "content": "<p>Izlaboju. Nezinu kāpēc man likās, ka uz Latviju tas neattiecas. Drošvien, jo nav defaulti norādīti nekur (cik zinu).</p>",
+        "id": 316958860,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671545366
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki/near/316958860\">said</a>:</p>\n<blockquote>\n<p>Izlaboju. Nezinu kāpēc man likās, ka uz Latviju tas neattiecas. Drošvien, jo nav defaulti norādīti nekur (cik zinu).</p>\n</blockquote>\n<p>Jā, Latvijai specifiskus defaults arī nekur neredzēju.</p>",
+        "id": 316959342,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671545485
+    },
+    {
+        "content": "<p>Bet <code>bicycle=designated</code> man liekas jāliek vienmēr, jo savādāk putra par to, kurš no veidiem ir pareizais. Bet laikam varētu pateikt, ka to parasti liek (gan iD gan JOSM preseti vismaz) kaut arī principā varētu iztikt.</p>",
+        "id": 316959353,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671545489
+    },
+    {
+        "content": "<p>Es teiktu, ja visi to dara, tad vajadzētu turpināt to darīt, ja nav nolemts citādi. Personīgi, ja ir uzlikts <code>highway=cycleway</code>, es uzskatu, ka kartētājs nezina, vai tur ir atsevišķs/kopīgs/sadalīts - un tas vēl jāprecizē. Pieliku wiki piezīmi par to, ka prakstiski to visi lieto.</p>",
+        "id": 316960821,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671545885
+    },
+    {
+        "content": "<p>(Kaut kur varētu arī pierakstīt par <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/highway.3Dfootway.20un.20velo.20routing\">https://osmlatvija.zulipchat.com/#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/highway.3Dfootway.20un.20velo.20routing</a> un to ka nav nekas izdomāts pagaidām)</p>",
+        "id": 316961101,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671545963
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki/near/316960821\">said</a>:</p>\n<blockquote>\n<p>Personīgi, ja ir uzlikts <code>highway=cycleway</code>, es uzskatu, ka kartētājs nezina, vai tur ir atsevišķs/kopīgs/sadalīts - un tas vēl jāprecizē.</p>\n</blockquote>\n<p>Man grūti iedomāties, ka kartētājs zin, kur atrodas veloceļš, bet nezin tipu. Zīmēt veloceliņu, nepārbaudot zīmes, man  šķiet bezatbildīgi, jo tas var novest pie \"bike path is a lie\" situācijām.</p>",
+        "id": 316962410,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671546327
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki/near/316962410\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki/near/316960821\">said</a>:</p>\n<blockquote>\n<p>Personīgi, ja ir uzlikts <code>highway=cycleway</code>, es uzskatu, ka kartētājs nezina, vai tur ir atsevišķs/kopīgs/sadalīts - un tas vēl jāprecizē.</p>\n</blockquote>\n<p>Man grūti iedomāties, ka kartētājs zin, kur atrodas veloceļš, bet nezin tipu. Zīmēt veloceliņu, nepārbaudot zīmes, man  šķiet bezatbildīgi, jo tas var novest pie \"bike path is a lie\" situācijām.</p>\n</blockquote>\n<p>Jā, pierkrītu. Bet nu praksē diezgan bieži sastopami pirms 15 gadiem zīmēti ceļi visādi, kur es pirmais reāli esmu dabā apskatījies un uzlicis pareizus tegus. Bet nu tas man personīgais novērojums. Par galveno es teiktu - darīt, kā visi un visi dara kā iD/JOSM, tāpēc arī ir tas <code>bicycle=designated</code> visur.</p>",
+        "id": 316964157,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671546830
+    },
+    {
+        "content": "<p>Pie reizes var arī pierakstīt, kā zīmēt velojoslas. <a href=\"https://www.openstreetmap.org/way/1004445884\">Barona ielā uzzīmēta kā <code>cycleway(:left/right)=lane</code></a>, <a href=\"https://www.openstreetmap.org/way/875449861\">Čaka iela - kā atsevišķa <code>highway=cycleway</code>)</a>.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/1004445884\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/1004445884\" title=\"Way: ‪Krišjāņa Barona iela‬ (‪1004445884‬) | OpenStreetMap\">Way: ‪Krišjāņa Barona iela‬ (‪1004445884‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/875449861\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/875449861\" title=\"Way: 875449861 | OpenStreetMap\">Way: 875449861 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 316964175,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671546836
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki/near/316964175\">said</a>:</p>\n<blockquote>\n<p>Pie reizes var arī pierakstīt, kā zīmēt velojoslas.</p>\n</blockquote>\n<p>Vai kaut kad par to bija apspriests? No lietošanas viedokļa (personīgi ar riteni braucot), atsevišķi ceļi ir daudz labāk nekā autocentriski lane/cycleway tegi. Bet nu tas ir garš sarežģīts stāsts. Pamēģināšu kaut ko uzrakstīt, bet tur laikam būs drīzāk apraksts, kā pie mums mēdz būt. Jāskatās Overpass, kur reāli ir tie <code>lane</code>.</p>",
+        "id": 316964745,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671546987
+    },
+    {
+        "content": "<p>Starp citu, Barona ir nepareizi - tas nav nekāds lane</p>",
+        "id": 316964850,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671547023
+    },
+    {
+        "content": "<p>Uz barona ir 956. ceļa marķējums, tā saucamais \"sharrow\", un tas \"apzīmē brauktuves daļu, kas paredzēta velosipēdu un elektroskrejriteņu braukšanai, bet pa kuru atļauts braukt arī pārējiem transportlīdzekļiem\" - tā ir josla un <code>cycleway=shared_lane</code></p>",
+        "id": 316965735,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671547240
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/hpuku2sFVlSaTtsUcTBNyv7I/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/hpuku2sFVlSaTtsUcTBNyv7I/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/hpuku2sFVlSaTtsUcTBNyv7I/image.png\"></a></div>",
+        "id": 316965798,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671547258
+    },
+    {
+        "content": "<p>Droši vien jautājums jaunam topikam - bet vai tad nebija kaut kur teikts, ka OSM tegi linkos uz OSM wiki? Vai arī to es nosapņoju...</p>",
+        "id": 316966130,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671547336
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki/near/316964157\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki/near/316962410\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki/near/316960821\">said</a>:</p>\n<blockquote>\n<p>Personīgi, ja ir uzlikts <code>highway=cycleway</code>, es uzskatu, ka kartētājs nezina, vai tur ir atsevišķs/kopīgs/sadalīts - un tas vēl jāprecizē.</p>\n</blockquote>\n<p>Man grūti iedomāties, ka kartētājs zin, kur atrodas veloceļš, bet nezin tipu. Zīmēt veloceliņu, nepārbaudot zīmes, man  šķiet bezatbildīgi, jo tas var novest pie \"bike path is a lie\" situācijām.</p>\n</blockquote>\n<p>Jā, pierkrītu. Bet nu praksē diezgan bieži sastopami pirms 15 gadiem zīmēti ceļi visādi, kur es pirmais reāli esmu dabā apskatījies un uzlicis pareizus tegus. Bet nu tas man personīgais novērojums. Par galveno es teiktu - darīt, kā visi un visi dara kā iD/JOSM, tāpēc arī ir tas <code>bicycle=designated</code> visur.</p>\n</blockquote>\n<p>Diezgan daudz <code>highway=cycleway</code> bez <code>bicycle=...</code>:</p>\n<div class=\"codehilite\" data-code-language=\"overpass\"><pre><span></span><code>[out:json][timeout:15];\n{{geocodeArea:Latvia}}-&gt;.search;\nnwr[highway=cycleway][!bicycle](area.search);\nout geom;\n</code></pre></div>",
+        "id": 316966230,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671547364
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki/near/316966230\">said</a>:</p>\n<blockquote>\n<p>Diezgan daudz <code>highway=cycleway</code> bez <code>bicycle=...</code>:</p>\n</blockquote>\n<p>Ēē... es tiešām sajaucis kaut ko esmu. Tas <code>designated</code> ir tikai pie kopējiem. iD nemaz neliek uz \"parastā\". Izlabošu.</p>",
+        "id": 316966924,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671547551
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki/near/316965798\">said</a>:</p>\n<blockquote>\n<p><a href=\"/user_uploads/49624/hpuku2sFVlSaTtsUcTBNyv7I/image.png\">image.png</a></p>\n</blockquote>\n<p>Diemžēl, <a href=\"#narrow/stream/358602-general/topic/ce.C4.BCaz.C4.ABmju.20bots/near/315765048\">ceļa apzīmējumi pagaidām nepārvēršas par linkiem automatiski</a>. :(<br>\nŠeit noderētu.</p>",
+        "id": 316967652,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671547761
+    },
+    {
+        "content": "<p>Ar <code>highway=cycleway</code> ir 104 <code>foot</code> + <code>!bicycle</code> un 1660 <code>foot</code> + <code>biccyle</code> - tas ir tas, ko es domāju par kopējo celiņu tegiem un iD/JOSM, bet sajaucu visu <span aria-label=\"smiling face with tear\" class=\"emoji emoji-1f972\" role=\"img\" title=\"smiling face with tear\">:smiling_face_with_tear:</span></p>",
+        "id": 316968660,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671548014
+    },
+    {
+        "content": "<p>Es domāju, ka 94% cerams var uzskatīt par \"gandrīz visi\", ko es tekstā ieliku</p>",
+        "id": 316968914,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671548094
+    },
+    {
+        "content": "<p>No otras puses, skatos visādas vietas un daļa ir piemēram šitādi labojumi <a href=\"https://www.openstreetmap.org/changeset/69928576\">https://www.openstreetmap.org/changeset/69928576</a>, kas nodzēš to <code>designated</code> jo JOSM drošvien sūdzējās par kaut ko... Tas nekas, ka visur citur ir pielikts <span aria-label=\"speechless\" class=\"emoji emoji-1f636\" role=\"img\" title=\"speechless\">:speechless:</span></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/changeset/69928576\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/changeset/69928576\" title=\"Changeset: 69928576 | OpenStreetMap\">Changeset: 69928576 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 316970340,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671548475
+    },
+    {
+        "content": "<p>Kāds zina, kur vēl Latvijā ir sharrows? Pēc <code>cycleway=shared_lane</code> overpass atrada tikai vienā vietā pie Kuldīgas un tur pilnīgi nepareizi. <a href=\"/user_uploads/49624/VAuZfE-eZ_evFX-LB_fKowv8/sharrows-wrong.png\">sharrows-wrong.png</a> <a href=\"/user_uploads/49624/q3665NWxSWsRINIOvvwFgXbd/actual-road.png\">actual-road.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/VAuZfE-eZ_evFX-LB_fKowv8/sharrows-wrong.png\" title=\"sharrows-wrong.png\"><img src=\"/user_uploads/49624/VAuZfE-eZ_evFX-LB_fKowv8/sharrows-wrong.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/q3665NWxSWsRINIOvvwFgXbd/actual-road.png\" title=\"actual-road.png\"><img src=\"/user_uploads/49624/q3665NWxSWsRINIOvvwFgXbd/actual-road.png\"></a></div>",
+        "id": 317543184,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671794541
+    },
+    {
+        "content": "<p>Kamēr meklēju visādus tegus skatoties situāciju, tik daudz visādu prikolu... <a href=\"/user_uploads/49624/tKy76l2jErF_K1R5nY2KkaXJ/tags.png\">tags.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/tKy76l2jErF_K1R5nY2KkaXJ/tags.png\" title=\"tags.png\"><img src=\"/user_uploads/49624/tKy76l2jErF_K1R5nY2KkaXJ/tags.png\"></a></div>",
+        "id": 317559868,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671799811
+    },
+    {
+        "content": "<p>Taisījos nodzēst <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Droad\">highway=road</a> no guidelines, lai namaisās, un sen neviens nelieto, bet izrādās vēl 70 gabali palikuši visvisur <a href=\"/user_uploads/49624/WywDdB57v9IP-EPFOSCiri4I/highway-road.png\">highway-road.png</a> ... jāpatīra</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/WywDdB57v9IP-EPFOSCiri4I/highway-road.png\" title=\"highway-road.png\"><img src=\"/user_uploads/49624/WywDdB57v9IP-EPFOSCiri4I/highway-road.png\"></a></div>",
+        "id": 317864061,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671992356
+    },
+    {
+        "content": "<p>Labāk atstāt ar piebildi, ka to nevajadzētu izmantot.</p>",
+        "id": 317993818,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672080641
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Latvian.20tagging.20guidelines.20wiki/near/317993818\">said</a>:</p>\n<blockquote>\n<p>Labāk atstāt ar piebildi, ka to nevajadzētu izmantot.</p>\n</blockquote>\n<p>Jā, to arī izdarīju.</p>",
+        "id": 317994165,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672080867
+    },
+    {
+        "content": "<p>Atgādinājums uz nākotni (sev) pielikt par tramvajiem/ceļiem ar piemēriem. (<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Arailway%3Dtram\">railway=tram</a>, <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aoneway%3Dyes\">oneway=yes</a>, <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aembedded_rails%3Dtram\">embedded_rails=tram</a>)</p>",
+        "id": 318257670,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672234980
+    },
+    {
+        "content": "<p>Sarakstīju par tramvajiem - <a href=\"https://wiki.openstreetmap.org/wiki/Lv:Latvian_tagging_guidelines#Tramvaji\">https://wiki.openstreetmap.org/wiki/Lv:Latvian_tagging_guidelines#Tramvaji</a>. Aprakstīju kā teorētiski jābūt un vairākoties Latvijā tā arī ir. Bet Rīgā ir daudz ceļu, kas sazīmēti ar 2 wayiem katru savā virzienā kaut gan sliedes ir vienā platumā ar brauktuvi. Pieminēju to, bet nezinu vai ir jēga dziļi aprakstīt to. Principā tie gabali ir jāizlabo, tikai baigais čakars (<a href=\"#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway\">https://osmlatvija.zulipchat.com/#narrow/stream/358602-general/topic/railway.3Dtram.20.2B.20highway</a>).</p>",
+        "id": 318727088,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672488748
+    },
+    {
+        "content": "<blockquote>\n<p><code>railway=tram_crossing</code> - Vieta, kur gājēju celiņš, gājēju pāreja vai taka šķērso sliedes.</p>\n</blockquote>\n<p>Es teiktu, ka šo tagu vajag likt tikai tajās vietās, kas ir pielāgotas sliežu šķērsošanai. Piemēram, ja tur ir brīdinājuma zīmes vai luksofors. Vai takas gadījumā, ja tur nav \"jālēkā\" pāri sliedēm, bet var mierīgi pārbraukt ar invalīdkrēslu, bērnu ratiņiem, divriteni, utml. Ja taka vienkārši šķērso sliedes, tad lai ir vienkāršs punkts bez tagiem. <a href=\"https://en.wiktionary.org/wiki/less_is_more\">\"Less is more\"</a> šajā gadījumā.</p>",
+        "id": 318983476,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672662541
+    },
+    {
+        "content": "<p>Hmmm. Es teiktu, ka tā ir vieta, kur \"on the ground\" cilvēki šķērso sliedes. Ja šķērsojums ir \"paštaisīts\", tad tas būtu <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ainformal%3Dyes\">informal=yes</a>. Priekš kustības traucējumiem ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Ddismount\">bicycle=dismount</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Awheelchair%3Dno\">wheelchair=no</a>. Var pat pielikt smoothness=*. Ja tur ir luksofors, tad <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Acrossing%3Dtraffic_signals\">crossing=traffic_signals</a>. Es neteiktu, ka satiekoties ar tukšu punktu \"less ir more\", jo nav ne jausmas, kas tur ir. Protams, ja nav pielikti papildus tagi, nevar atšķirt. </p>\n<p>Pierakstīju piezīmi; nezinu, kā to labāk aprakstīt. Un plus vēl par to, ka tie tram_ varianti vispār it tikai no iD parādījušies.</p>",
+        "id": 318986403,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672663764
+    },
+    {
+        "content": "<p>Man nepatīk pieeja, ka vajag likt 50 tagus, lai pateikt, ka tur vispār neka nav, vienkārši cilvēki staigā pāri sliedēm. Diez vai cilvēks, kas liks <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Arailway%3Dtram_crossing\">railway=tram_crossing</a> padomās par riteņbraucējiem vai invalīdiem. Bet routing, ieraugot tādu node iztēlosies tādu pāreju, kas ir OSM Wiki bildē, asfaltētu, notīrītu no sniega, utt.</p>",
+        "id": 319088020,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672689200
+    },
+    {
+        "content": "<p>Atgādinājums sev - pielikt JOSM variantu kopīgiem veloceļiem <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/velo.20infrastrukt.C5.ABras.20tago.C5.A1ana.20Latvij.C4.81/near/319808034\">https://osmlatvija.zulipchat.com/#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/velo.20infrastrukt.C5.ABras.20tago.C5.A1ana.20Latvij.C4.81/near/319808034</a></p>",
+        "id": 319811757,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673021503
+    },
+    {
+        "content": "<p>Atjaunoju ar aktuālo informāciju par adresēm (iztulkoju no <a href=\"https://wiki.openstreetmap.org/wiki/Addresses#Latvia\">angļu valodas</a>). Blakus bija sadaļas par ēkām un teritorijām, kas zemāk dublējās, sakopu, bet <span class=\"user-mention\" data-user-id=\"571825\">@HellMap</span> derētu apskatīt to sadaļu par mazdārziņiem, vai, man pielabojot, nav kas būtisks no sākotnēji rakstītā pazudis.</p>",
+        "id": 566165616,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1767462533
+    }
+]

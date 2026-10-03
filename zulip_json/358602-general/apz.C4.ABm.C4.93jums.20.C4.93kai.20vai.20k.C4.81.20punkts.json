@@ -1,0 +1,56 @@
+[
+    {
+        "content": "<p>Pārdomas par objektu kartēšanu.<br>\nPiem., veikals. Ja veikals aizņem +/- visu ēku, parasti liku tagus ēkas ceļam.</p>\n<p>Bet jau vairākas reizes nesen bijusi situācija, kad šāds veikals slēgts. Nomainot shop uz disused:shop, paliek visi citi tagi - jo īpaši name, kurš tad arī visur renderējas, parādās meklēšanā utt.<br>\nTad sanāk aizvākt name, bet... tad vairs neredz, kāds veikals tur bijis. Tas var noderēt, skatoties attēlos utt, lai kādam nesanāk iezīmēt atpakaļ slēgto veikalu. Var izdomāt savu shēmu, piem., disused:name... bet tas kaut kā ļoti sarežģīti.</p>\n<p>Ja visi objekti tiek iezīmēti kā punkti, šādas problēmas nav - punktam nomainām pamattagu un viss.</p>\n<p>Kādas citiem pārdomas par objektu kartēšanu ēkas ceļam vai kā atsevišķu punktu?</p>",
+        "id": 320110116,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673205359
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/apz.C4.ABm.C4.93jums.20.C4.93kai.20vai.20k.C4.81.20punkts/near/320110116\">said</a>:</p>\n<blockquote>\n<p>Nomainot shop uz disused:shop, paliek visi citi tagi - jo īpaši name, kurš tad arī visur renderējas, parādās meklēšanā utt.</p>\n</blockquote>\n<p>Tas šķiet renderer'a/search'a problēma, pie tam samēra viegli labojama.</p>",
+        "id": 325166772,
+        "sender_full_name": "i-ky",
+        "timestamp": 1675260332
+    },
+    {
+        "content": "<p>Īsti nē - ēkām dažreiz ir nosaukumi, un tiem jāparādās visur.</p>",
+        "id": 325171544,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675261406
+    },
+    {
+        "content": "<p>Ja ir <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Abuilding\">building=*</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Ashop\">shop=*</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aname\">name=*</a>, tad tiek uzskatīts, ka <code>name</code> attiecās uz <code>shop</code>, nevis <code>building</code>, jo kaut kādā hierarhijā <code>shop</code> &gt; <code>building</code>. Jautājums ir <code>disused:shop</code> &gt; <code>building</code> vai otrādi?</p>",
+        "id": 325172582,
+        "sender_full_name": "i-ky",
+        "timestamp": 1675261642
+    },
+    {
+        "content": "<p><a href=\"https://github.com/gravitystorm/openstreetmap-carto/issues/2999\">https://github.com/gravitystorm/openstreetmap-carto/issues/2999</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/gravitystorm/openstreetmap-carto/issues/2999\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/bd264d9ec9e7254ecbe6ce56af422effe9b7c71b\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f316338363664383537613364636538323439353234313963393333613662393038383238626262396638616264356435336566303463383365363738666534372f6772617669747973746f726d2f6f70656e7374726565746d61702d636172746f2f6973737565732f32393939)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/gravitystorm/openstreetmap-carto/issues/2999\" title=\"name rendered for disused:shop  · Issue #2999 · gravitystorm/openstreetmap-carto\">name rendered for disused:shop  · Issue #2999 · gravitystorm/openstreetmap-carto</a></div><div class=\"message_embed_description\">Hi Is there a reason polygons tagged as disused:shop=* and name=* still renders the shop's name. www.openstreetmap.org/way/376275104 To me, this gives the impression it is still open.</div></div></div>",
+        "id": 325173281,
+        "sender_full_name": "i-ky",
+        "timestamp": 1675261795
+    },
+    {
+        "content": "<p>OSM Wiki ir pretrunā ar sevi. <a href=\"https://wiki.openstreetmap.org/wiki/Key:disused:*\">Šeit</a> teikts:</p>\n<blockquote>\n<p>Boarded-up disused public house. It no longer has an operator as such - no beer is sold - but the name is still useful for navigation.</p>\n</blockquote>\n<p><a href=\"https://wiki.openstreetmap.org/wiki/Tag:shop%3Dvacant\">Šeit</a> otrādi:</p>\n<blockquote>\n<p>Do not include, instead remove if present, any information about the previous use of the shop (e.g. name, opening hours, phone number, website, usage type if not <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Ashop\">shop=*</a>).</p>\n</blockquote>\n<p>Un tālāk:</p>\n<blockquote>\n<p>The use of <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Adisused:shop\">disused:shop=*</a> allows to keep the previous shop type (e.g. <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Adisused:shop%3Dhairdresser\">disused:shop=hairdresser</a>). This information, however, should only presevered if the corresponding features are actually still on the ground, for example, if operations of the shop have been ceased, but inventory has been left behind. (The history of the OSM element is captured in its history and past tag values rather than in its current tags.) If the shop location is empty (even if the previous use is still identifiable as a <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ashop%3Dhairdresser\">shop=hairdresser</a>, e.g. by markings on the floor or walls), the shop is no longer a <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Adisused:shop%3Dhairdresser\">disused:shop=hairdresser</a> but would be a <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aremoved:shop%3Dhairdresser\">removed:shop=hairdresser</a>. In any case, preserving the information of the previous use in the current tags would usually violate the “Don't map historic features” practice. If the name of the previous shop is no longer verifiable by survey (e.g. shop name signs), the <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aname\">name=*</a> should be removed from the element following the “Map what's on the ground” practice.</p>\n</blockquote>\n<p>No šī viedokļa (\"The history of the OSM element is captured in its history and past tag values\") tiešām loģiski ir dzēst <code>name</code>. Ja kāds iezīmēs pēc vecām foto pa jaunam, kļūda būs acīmredzama pēc elementa vēstures.</p>",
+        "id": 325181332,
+        "sender_full_name": "i-ky",
+        "timestamp": 1675263678
+    },
+    {
+        "content": "<p>Jā, tur jebkurā scenārijā ir messy.<br>\nPOI likšana kā punktu to it kā atrisina.</p>",
+        "id": 325190510,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675265589
+    },
+    {
+        "content": "<p>Tāpat kā divu <img alt=\":way:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40176.png\" title=\"way\"> zīmēšana ar tiem pašiem <img alt=\":node:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40175.png\" title=\"node\"></p>",
+        "id": 325194587,
+        "sender_full_name": "i-ky",
+        "timestamp": 1675266620
+    },
+    {
+        "content": "<p>Tas jau vairāk \"indoor mapping\" ar <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aindoor%3Droom\">indoor=room</a>.</p>",
+        "id": 325200990,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675268151
+    }
+]

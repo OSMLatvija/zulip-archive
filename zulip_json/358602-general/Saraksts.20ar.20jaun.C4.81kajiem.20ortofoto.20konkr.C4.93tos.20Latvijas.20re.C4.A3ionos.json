@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>Sveiki. Man ienāca prātā, ka būtu labi izveidot sarakstu, kur būtu uzskaitīts, kurš ortofoto ir jaunākais konkrētās Latvijas pilsētās/reģionos. Varētu arī dilstošā secībā uzskaitīt visus pieejamos ortofoto no jaunākā uz vecāko (neskaitot vēsturiskos LĢIA ortofoto). Laba vieta šim sarakstam būtu wiki, taču nevaru izlemt, kur to likt. Veidot jaunu wiki lapu vai ielikt kādā esošā lapā? Varbūt jau ir izveidota tāda lapa, bet nevaru atrast?</p>\n<p>Tālāk pāris piemēri kā šis saraksts varētu izskatīties.</p>\n<p><strong>Aizkraukle:</strong></p>\n<ul>\n<li>\n<p>LĢIA Ortofoto</p>\n</li>\n<li>\n<p>Esri/Bing/Mapbox</p>\n</li>\n</ul>\n<p><strong>Rīga:</strong></p>\n<ul>\n<li>Bing</li>\n<li>Esri</li>\n<li>Mapbox</li>\n<li>LĢIA Ortofoto</li>\n</ul>",
+        "id": 493192259,
+        "sender_full_name": "Andris Liepiņš",
+        "timestamp": 1736690827
+    },
+    {
+        "content": "<p>Es biju īsi rakstījis <a href=\"https://wiki.openstreetmap.org/wiki/Lv:Source\">https://wiki.openstreetmap.org/wiki/Lv:Source</a> bet līdz galam nesaliku un datumu tur nav. Lielākā problēma - es tos datumus nemaz nezinu.</p>",
+        "id": 493193421,
+        "sender_full_name": "HellMap",
+        "timestamp": 1736691777
+    },
+    {
+        "content": "<p>(\"Lv:Source\" gan tai wiki lapai ir ļoti tizls nosaukums, bet tas no seniem vēsturiskiem laikiem. Būtu pieņemami to aizbīdīt uz normālu nosaukumu.)</p>",
+        "id": 493193519,
+        "sender_full_name": "HellMap",
+        "timestamp": 1736691835
+    },
+    {
+        "content": "<p>Varētu pagaidām likt tikai sarakstu, kur jaunāki ortofoto pašā augšā. Un klāt katram ortofoto vienumam sarakstā varētu pierakstīt klāt piezīmes (nobīde, miglains, utt.), kuras arī varētu izmantot, ja jaunākais pieejamais ortofoto ir novecojis.</p>",
+        "id": 493193844,
+        "sender_full_name": "Andris Liepiņš",
+        "timestamp": 1736692092
+    },
+    {
+        "content": "<p>Es arī piekrītu, ka vajag pārvietot to wiki lapu. Ja izmantojam to, tad labi būtu izveidot atsevišķu sadaļu šai tēmai.</p>",
+        "id": 493193921,
+        "sender_full_name": "Andris Liepiņš",
+        "timestamp": 1736692174
+    },
+    {
+        "content": "<p>Tikko iesāku veidot sarakstu tajā lapā, ieliku info par 3 pilsētām. Laika gaitā saliksim tur vairāk. Tagad vajag vienoties par lapas nosaukuma maiņu.</p>",
+        "id": 493356424,
+        "sender_full_name": "Andris Liepiņš",
+        "timestamp": 1736776246
+    },
+    {
+        "content": "<p>Būtu gan vērts pierakstīt kurš LĢIA cikls, jo 8. cikls ir jaunāks viņu saitā, kaut arī nav pieejams WMS</p>",
+        "id": 493371322,
+        "sender_full_name": "HellMap",
+        "timestamp": 1736779982
+    },
+    {
+        "content": "<p>Pārvietoju uz <a href=\"https://wiki.openstreetmap.org/wiki/Lv:Vertical_Aerial_Photographs\">https://wiki.openstreetmap.org/wiki/Lv:Vertical_Aerial_Photographs</a></p>",
+        "id": 502849022,
+        "sender_full_name": "Andris Liepiņš",
+        "timestamp": 1740913878
+    }
+]

@@ -1,0 +1,152 @@
+[
+    {
+        "content": "<p>Sveiki,<br>\nPirmoreiz pamēģināju uztaisīt 3D celtni. Vai es ieliku šeit pareizus tegus? Ir viens <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dyes\">building=yes</a>, kas ir viss, ieskaitot jumtu. Un jumts ir tegots kā jumts. Es pareizi sapratu? Un vēl es ceļu, kas zem jumta pieliku <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Acovered%3Dyes\">covered=yes</a>. <br>\n<img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"2037x1047\" data-original-src=\"/user_uploads/49624/h80oorkJJ0MQsEMWIF-FvF-M/image.png\" src=\"/user_uploads/thumbnail/49624/h80oorkJJ0MQsEMWIF-FvF-M/image.png/840x560.webp\"></p>\n<p>Paldies!</p>",
+        "id": 620118406,
+        "sender_full_name": "Rinalds L.",
+        "timestamp": 1788101816
+    },
+    {
+        "content": "<p>Un vai tas tā jābūt, ka jumtam dod overlapping warning?</p>",
+        "id": 620118725,
+        "sender_full_name": "Rinalds L.",
+        "timestamp": 1788102021
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dyes\">building=yes</a> apkārt visam, <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Apart%3Droof\">building:part=roof</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Apart%3Dyes\">building:part=yes</a> daļām<br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Simple_3D_Buildings\">https://wiki.openstreetmap.org/wiki/Simple_3D_Buildings</a></p>",
+        "id": 620120046,
+        "sender_full_name": "Colby",
+        "timestamp": 1788102919
+    },
+    {
+        "content": "<p>Jā, tā arī ir. Bet, tu domā <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Apart%3Dyes\">building:part=yes</a> citām daļām, kas nav jumts, vai ne?</p>",
+        "id": 620120150,
+        "sender_full_name": "Rinalds L.",
+        "timestamp": 1788102976
+    },
+    {
+        "content": "<p>Nu jā, es sapratu. Labi, tad viss ok.</p>",
+        "id": 620120250,
+        "sender_full_name": "Rinalds L.",
+        "timestamp": 1788103029
+    },
+    {
+        "content": "<p><img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"1254x919\" data-original-src=\"/user_uploads/49624/SvCFj_Hw9ypci7B719nDrQc5/image.png\" src=\"/user_uploads/thumbnail/49624/SvCFj_Hw9ypci7B719nDrQc5/image.png/840x560.webp\"><br>\nvienīgi kā tur tas jumts sanāk</p>",
+        "id": 620120376,
+        "sender_full_name": "Colby",
+        "timestamp": 1788103104
+    },
+    {
+        "content": "<p>tev tur arī <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dfuel\">amenity=fuel</a> dublikāts, viens uz jumta un viens POI</p>",
+        "id": 620120505,
+        "sender_full_name": "Colby",
+        "timestamp": 1788103171
+    },
+    {
+        "content": "<p>Hm jā, bet wiki skatījos, ka ja jumts ir uzpildes stacijai, uzlikt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dfuel\">amenity=fuel</a>, tāpēc nedomāju, ka tā ir problēma?<br>\nUn jā es tūlīt drusku palabošu jumtu lai tomēr izskatītos pēc 1. celtnes tavā attēlā</p>",
+        "id": 620120824,
+        "sender_full_name": "Rinalds L.",
+        "timestamp": 1788103345
+    },
+    {
+        "content": "<p>tegot ēku, punktu vai teritoriju ir liela diskusija<br>\nitkā visi 3 ir ok</p>",
+        "id": 620120898,
+        "sender_full_name": "Colby",
+        "timestamp": 1788103397
+    },
+    {
+        "content": "<p>(Galvenais, lai tikai 1 no tiem)</p>",
+        "id": 620121249,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788103611
+    },
+    {
+        "content": "<p>Skaidrs, tagad viss palabots. Paldies!!</p>",
+        "id": 620121408,
+        "sender_full_name": "Rinalds L.",
+        "timestamp": 1788103686
+    },
+    {
+        "content": "<p><img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"457x486\" data-original-src=\"/user_uploads/49624/W29ptvBkxJVRh8XoSb2dZRIL/image.png\" src=\"/user_uploads/thumbnail/49624/W29ptvBkxJVRh8XoSb2dZRIL/image.png/840x560.webp\"><br>\nte pietrūkst building:part=</p>",
+        "id": 620121747,
+        "sender_full_name": "Colby",
+        "timestamp": 1788103861
+    },
+    {
+        "content": "<p>Kā tu izvēlējies tikai veikalu bez jumta? Šobrīd ja uzspiest uz veikala outline tas visu celtni kopā ar jumtu izcels. Un visas celtnes outline ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dyes\">building=yes</a>. Un tajā atrodas jumts kas ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Apart%3Droof\">building:part=roof</a>. Balstoties uz wiki, galvenajai celtnei kas ir viss outline vajag tikai <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dyes\">building=yes</a>, vai ne?</p>",
+        "id": 620121952,
+        "sender_full_name": "Rinalds L.",
+        "timestamp": 1788103990
+    },
+    {
+        "content": "<p>pelei vidējā poga<br>\n<img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"628x294\" data-original-src=\"/user_uploads/49624/FSRJ6qBqMt5D8FzPrYdfRyGq/image.png\" src=\"/user_uploads/thumbnail/49624/FSRJ6qBqMt5D8FzPrYdfRyGq/image.png/840x560.webp\"><br>\njā, visam outline <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dyes\">building=yes</a> bet caurumus bez building:part= nevar atstāt</p>",
+        "id": 620122133,
+        "sender_full_name": "Colby",
+        "timestamp": 1788104120
+    },
+    {
+        "content": "<p>Es nevaru pat ar vidējo pogu</p>",
+        "id": 620122201,
+        "sender_full_name": "Rinalds L.",
+        "timestamp": 1788104162
+    },
+    {
+        "content": "<p>Tur man nav nekādu caurumu šobrīd</p>",
+        "id": 620122215,
+        "sender_full_name": "Rinalds L.",
+        "timestamp": 1788104172
+    },
+    {
+        "content": "<p>Nevar vai priekš 3D tas nepietiek? Ļoti daudz ēku ir ar tikai dažās vietās part, jo tikai viena vai cita vieta atšķiras. Piemēram, cits stāvu skaits vai kā šeit - viena daļa jumts.</p>",
+        "id": 620122230,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788104183
+    },
+    {
+        "content": "<p><img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"864x635\" data-original-src=\"/user_uploads/49624/GkrlZWg4jhbAXth0ov3sP-ip/image.png\" src=\"/user_uploads/thumbnail/49624/GkrlZWg4jhbAXth0ov3sP-ip/image.png/840x560.webp\"><br>\nzaļā krāsā building=, citās krāsās building:part=</p>\n<p><img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"1548x141\" data-original-src=\"/user_uploads/49624/XyDggEk-eiD8geFqAUkL0vYr/image.png\" src=\"/user_uploads/thumbnail/49624/XyDggEk-eiD8geFqAUkL0vYr/image.png/840x560.webp\"><br>\nes to apmērām šādi saprotu</p>",
+        "id": 620122747,
+        "sender_full_name": "Colby",
+        "timestamp": 1788104504
+    },
+    {
+        "content": "<p>Bet tas ir vairāk priekš pilna 3D renderinga? jo building jau pats par sevi ir ar stāviem un augstumu utt. Bet part konkrētiem gabaliem nomaina. Jo liela daļa ēku taču ir vispār bez part. Tiem jau arī var norādīt tur visādas jumta formas un sienu krāsas.</p>",
+        "id": 620123039,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788104681
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/channel/360538/topic/3D.20building.20help/near/620122747\">said</a>:</p>\n<blockquote>\n<p><img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"864x635\" data-original-src=\"/user_uploads/49624/GkrlZWg4jhbAXth0ov3sP-ip/image.png\" src=\"/user_uploads/thumbnail/49624/GkrlZWg4jhbAXth0ov3sP-ip/image.png/840x560.webp\"><br>\nzaļā krāsā building=, citās krāsās building:part=</p>\n<p><img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"1548x141\" data-original-src=\"/user_uploads/49624/XyDggEk-eiD8geFqAUkL0vYr/image.png\" src=\"/user_uploads/thumbnail/49624/XyDggEk-eiD8geFqAUkL0vYr/image.png/840x560.webp\"><br>\nes to apmērām šādi saprotu</p>\n</blockquote>\n<p>aaa, paldies. Es biju drusku citādāk domājis. Tagad es sapratu.</p>",
+        "id": 620123160,
+        "sender_full_name": "Rinalds L.",
+        "timestamp": 1788104741
+    },
+    {
+        "content": "<p>Liels paldies par attēlu, tas ļoti palīdzēja. Es pievienoju to building:part, kura nebija.</p>",
+        "id": 620124127,
+        "sender_full_name": "Rinalds L.",
+        "timestamp": 1788105349
+    },
+    {
+        "content": "<blockquote>\n<p>Bet tas ir vairāk priekš pilna 3D renderinga? jo building jau pats par sevi ir ar stāviem un augstumu utt. Bet part konkrētiem gabaliem nomaina.</p>\n</blockquote>\n<p>Stāvi un citi parametri pie building kalpo vairāk kā kopsavilkums nevis noklusētā vērtība, kuru varētu ar part modificēt.  </p>\n<blockquote>\n<p>When a building has any <code>[building:part](https://wiki.openstreetmap.org/wiki/Key:building:part)=*</code> areas, the building outline is not considered for 3D rendering</p>\n</blockquote>\n<blockquote>\n<p>Jo liela daļa ēku taču ir vispār bez part</p>\n</blockquote>\n<p>Tā prasība noklāt visu ēku ar part ir tika tad  ja part tiek lietots. Ja nav neviena part tas nozīmē, ka building:part/3d building apraksts nav bijis izmantots un tiek izmantota rezerves loģika. Bet ja part ir, tad tas ir jāizmanto pilnībā/korekti. </p>\n<p>Pieļauju ka šāda definīcija tika izvēlēta, lai būtu vieglāk apstrādāt. 3d renderētāji var vienkārši zīmēt katru part atsevišķi nedomājot kā daļas pārklājas vai kuras building daļas nepārklāj neviens part.</p>",
+        "id": 620158280,
+        "sender_full_name": "kaposts",
+        "timestamp": 1788127633
+    },
+    {
+        "content": "<p>There is also a plugin for JOSM that renders 3D buildings as you edit.<br>\nAnd it also insists on part covering whole building (if parts exist)</p>",
+        "id": 620220417,
+        "sender_full_name": "markalex",
+        "timestamp": 1788160547
+    },
+    {
+        "content": "<p>Which is urban eye?</p>",
+        "id": 620221125,
+        "sender_full_name": "Rinalds L.",
+        "timestamp": 1788160753
+    },
+    {
+        "content": "<p>Yes, that one.<br>\nAlso, be prepared that some shapes behave a bit differently in <a href=\"https://demo.f4map.com\">F4</a> and plugin, and some are not supported in one or another (or both).</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://demo.f4map.com\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/dceb49b10aaa6eacb9b8bf25c64792e8a1bf5583/68747470733a2f2f64656d6f2e66346d61702e636f6d2f6361636865466f72657665722f653665653463323731623365383834323438313635396637313466363333373431306464646536612f696d616765732f6f674d6170507265766965772e6a7067&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://demo.f4map.com\" title=\"F4map Demo - Interactive 3D map\">F4map Demo - Interactive 3D map</a></div><div class=\"message_embed_description\">F4 Map is a WebGL 3D Map Viewer based on OpenStreetMap data</div></div></div>",
+        "id": 620302817,
+        "sender_full_name": "markalex",
+        "timestamp": 1788180404
+    }
+]

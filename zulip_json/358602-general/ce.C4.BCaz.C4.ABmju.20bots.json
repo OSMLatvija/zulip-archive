@@ -1,0 +1,140 @@
+[
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/highway.3Dfootway.20un.20velo.20routing/near/314881114\">said</a>:</p>\n<blockquote>\n<p>415 <a href=\"/user_uploads/49624/_eSEfYSmymrQroFNBCPN6HJx/image.png\">image.png</a> 417 <a href=\"/user_uploads/49624/SEZ4Xdej_csjpFiKO-ApDuAO/image.png\">image.png</a> 419 <a href=\"/user_uploads/49624/eWRr6QgmArIXeIANGeOZpNne/image.png\">image.png</a> 421 <a href=\"/user_uploads/49624/azW2o2M1yvIOMuzNRXaIRsm1/image.png\">image.png</a></p>\n</blockquote>\n<p>Mums vajag <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">botu</a>, kurš to darīs :)</p>",
+        "id": 314882105,
+        "sender_full_name": "i-ky",
+        "timestamp": 1670588246
+    },
+    {
+        "content": "<p>Oooo, tas būtu riktīgi labi. Pamatīgi atvieglotu dažas sarunas. Pie tam, <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bots</a> varētu arī iemest kodu, ja kāds ieraksta \"ķieģelis\".</p>",
+        "id": 314882433,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1670588347
+    },
+    {
+        "content": "<p>Kā <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bots</a> atpazīs, kas ir zīmes kods un kas ir vienkārši cipars? Kāds pateiks, ka mums 702 ēkas ar ref kodu. Un <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bots</a> laimīgi \"O! 702!\" <a href=\"/user_uploads/49624/XVung3r3aagizRjah1QBTGw5/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/XVung3r3aagizRjah1QBTGw5/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/XVung3r3aagizRjah1QBTGw5/image.png\"></a></div>",
+        "id": 314883613,
+        "sender_full_name": "HellMap",
+        "timestamp": 1670588768
+    },
+    {
+        "content": "<p>Labs jautājums. Pirmkārt, zīmes numuri ir ar punktiem. Ja būs pārāk daudz false positive arī tad, tad jāiemāca <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">botu</a> reaģēt uz \"zīme NNN.\" vai izdomāt vēl kaut kādu maģisku vārdu/sintaksi.</p>",
+        "id": 314885526,
+        "sender_full_name": "i-ky",
+        "timestamp": 1670589462
+    },
+    {
+        "content": "<p>Pieliku <a href=\"https://osmlatvija.zulipchat.com/help/add-a-custom-linkifier\">linkifier</a>, kas ņems attēlus no <a href=\"https://celazimes.lv/lv/cela-zimes\">neoficiāla avota</a>. Tests:<br>\n<span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/highway.3Dfootway.20un.20velo.20routing/near/314702860\">said</a>:</p>\n<blockquote>\n<p>Pirmkārt, es ļoti šaubos, ka mums ir tik daudz ceļu, apzīmētu ar zīmēm <a href=\"https://celazimes.lv/docs/celazimes/SVG/415.svg\">415.</a>, <a href=\"https://celazimes.lv/docs/celazimes/SVG/417.svg\">417.</a>, <a href=\"https://celazimes.lv/docs/celazimes/SVG/419.svg\">419.</a>, <a href=\"https://celazimes.lv/docs/celazimes/SVG/421.svg\">421.</a></p>\n</blockquote>",
+        "id": 314899875,
+        "sender_full_name": "i-ky",
+        "timestamp": 1670594216
+    },
+    {
+        "content": "<p>Tagad, cerams, <a href=\"https://celazimes.lv/docs/celazimes/SVG/209.svg\">209.</a> strādās, bet 210. - nē.</p>",
+        "id": 314908977,
+        "sender_full_name": "i-ky",
+        "timestamp": 1670596829
+    },
+    {
+        "content": "<p><a href=\"https://celazimes.lv/docs/celazimes/SVG/600.svg\">600.</a></p>",
+        "id": 314909524,
+        "sender_full_name": "HellMap",
+        "timestamp": 1670597003
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/ce.C4.BCaz.C4.ABmju.20bots/near/314909524\">said</a>:</p>\n<blockquote>\n<p>600.</p>\n</blockquote>\n<p>Salabots.</p>",
+        "id": 314917234,
+        "sender_full_name": "i-ky",
+        "timestamp": 1670599030
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/ce.C4.BCaz.C4.ABmju.20bots/near/314908977\">said</a>:</p>\n<blockquote>\n<p>Tagad, cerams, <a href=\"https://celazimes.lv/docs/celazimes/SVG/209.svg\">209.</a> strādās, bet 210. - nē.</p>\n</blockquote>\n<p>Man tas <a href=\"https://celazimes.lv/docs/celazimes/SVG/209.svg\">209.</a> links atveras kā tukša lapa, kā jums?</p>",
+        "id": 315124675,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1670704290
+    },
+    {
+        "content": "<p>Man arī tā. :(<br>\nLaikam tas <a href=\"http://celazimes.lv\">celazimes.lv</a> nav baigi labais avots.</p>",
+        "id": 315139285,
+        "sender_full_name": "i-ky",
+        "timestamp": 1670715884
+    },
+    {
+        "content": "<p>Nu vēl viena iespēja ir izmantot custom emoji. Teiksim, raksta <code>:301:</code> un rezultātā - <img alt=\":301:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/39897.JPG\" title=\"301\"></p>",
+        "id": 315593129,
+        "sender_full_name": "i-ky",
+        "timestamp": 1670938872
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/ce.C4.BCaz.C4.ABmju.20bots/near/315139285\">said</a>:</p>\n<blockquote>\n<p>Man arī tā. :(<br>\nLaikam tas <a href=\"http://celazimes.lv\">celazimes.lv</a> nav baigi labais avots.</p>\n</blockquote>\n<p>Oficiālais avots laikam būtu <a href=\"https://www.lvs.lv/lv/products/97914\">LVS 77-1:2016</a>, bet par to jāmaksā :(</p>",
+        "id": 315618607,
+        "sender_full_name": "i-ky",
+        "timestamp": 1670945583
+    },
+    {
+        "content": "<p><a href=\"https://likumi.lv/ta/id/274865-celu-satiksmes-noteikumi\">https://likumi.lv/ta/id/274865-celu-satiksmes-noteikumi</a> ir OK un oficiāls, bet individuālas zīmes jāparsē ārā no HTMLa laikam.<br>\nVarbūt vienkārši mazs Perla skripts, ar kuru saparsē kaut kur githabā hostējamas bildes (un kuru palaiž vēlreiz, ja ir jauni CSN)?</p>",
+        "id": 315681702,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1670964009
+    },
+    {
+        "content": "<p>Vēl jau būtu forši automātiski linki, ja kāds ieraksta \"papildzīme\", bet tajā lapā laikam pat headingiem nav anchori :/</p>",
+        "id": 315681838,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1670964064
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/ce.C4.BCaz.C4.ABmju.20bots/near/315124675\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/ce.C4.BCaz.C4.ABmju.20bots/near/314908977\">said</a>:</p>\n<blockquote>\n<p>Tagad, cerams, <a href=\"https://osmlatvija.github.io/road-signs/209.html\">209.</a> strādās, bet 210. - nē.</p>\n</blockquote>\n<p>Man tas <a href=\"https://osmlatvija.github.io/road-signs/209.html\">209.</a> links atveras kā tukša lapa, kā jums?</p>\n</blockquote>\n<p>Cerams, tagad ir OK.</p>",
+        "id": 315761935,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671007289
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/ce.C4.BCaz.C4.ABmju.20bots/near/315681702\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://likumi.lv/ta/id/274865-celu-satiksmes-noteikumi\">https://likumi.lv/ta/id/274865-celu-satiksmes-noteikumi</a> ir OK un oficiāls, bet individuālas zīmes jāparsē ārā no HTMLa laikam.<br>\nVarbūt vienkārši mazs Perla skripts, ar kuru saparsē kaut kur githabā hostējamas bildes (un kuru palaiž vēlreiz, ja ir jauni CSN)?</p>\n</blockquote>\n<p>Mazs Python skriptiņš + GitHub Actions + GitHub Pages = <a href=\"https://github.com/OSMLatvija/road-signs\">vēl viens repo</a></p>",
+        "id": 315762628,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671007525
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/ce.C4.BCaz.C4.ABmju.20bots/near/315681838\">said</a>:</p>\n<blockquote>\n<p>Vēl jau būtu forši automātiski linki, ja kāds ieraksta \"papildzīme\", bet tajā lapā laikam pat headingiem nav anchori :/</p>\n</blockquote>\n<p>Pagaidām tiek izparsēts 4. pielikums (tas iekļauj papildzīmes). Būtu labi izparsēt arī 5. pielikumu ar ceļa apzīmējumiem, bet tur savādāka HTML struktūra.</p>",
+        "id": 315765048,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671008319
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/ce.C4.BCaz.C4.ABmju.20bots/near/315593129\">said</a>:</p>\n<blockquote>\n<p>Nu vēl viena iespēja ir izmantot custom emoji. Teiksim, raksta <code>:301:</code> un rezultātā - <img alt=\":301:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/39897.JPG\" title=\"301\"></p>\n</blockquote>\n<p>Šī ideja nepatika? Principā <a href=\"https://zulip.com/api/upload-custom-emoji\">Zulip'am ir API, kas ļauj to arī automatizēt</a>.</p>",
+        "id": 315775696,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671011604
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/ce.C4.BCaz.C4.ABmju.20bots/near/315775696\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/ce.C4.BCaz.C4.ABmju.20bots/near/315593129\">said</a>:</p>\n<blockquote>\n<p>Nu vēl viena iespēja ir izmantot custom emoji. Teiksim, raksta <code>:301:</code> un rezultātā - <img alt=\":301:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/39897.JPG\" title=\"301\"></p>\n</blockquote>\n<p>Šī ideja nepatika? Principā <a href=\"https://zulip.com/api/upload-custom-emoji\">Zulip'am ir API, kas ļauj to arī automatizēt</a>.</p>\n</blockquote>\n<p>Arī šķiet forši, pat labāk, ja uzreiz redz.<br>\nIdeāli, ja tā ikona ir links uz lielāka izmēra atsevišķu zīmi :)</p>",
+        "id": 315777693,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671012195
+    },
+    {
+        "content": "<blockquote>\n<p>Arī šķiet forši, pat labāk, ja uzreiz redz.</p>\n</blockquote>\n<p>Labi, paspēlēšos.</p>\n<blockquote>\n<p>Ideāli, ja tā ikona ir links uz lielāka izmēra atsevišķu zīmi :)</p>\n</blockquote>\n<p>Tā, diemžēl, nebūs.</p>",
+        "id": 315780979,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671013155
+    },
+    {
+        "content": "<p>Nejauši sanāca, ka <a href=\"https://osmlatvija.github.io/road-signs/404.html\">404.</a> zīme tiek izmantota, kā <a href=\"https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site\">custom 404: Not Found lapa</a> :D<br>\nKā piemērs: <a href=\"https://osmlatvija.github.io/road-signs/something/something\">https://osmlatvija.github.io/road-signs/something/something</a></p>",
+        "id": 315786209,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671014680
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/ce.C4.BCaz.C4.ABmju.20bots/near/315765048\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/ce.C4.BCaz.C4.ABmju.20bots/near/315681838\">said</a>:</p>\n<blockquote>\n<p>Vēl jau būtu forši automātiski linki, ja kāds ieraksta \"papildzīme\", bet tajā lapā laikam pat headingiem nav anchori :/</p>\n</blockquote>\n<p>Pagaidām tiek izparsēts 4. pielikums (tas iekļauj papildzīmes). Būtu labi izparsēt arī 5. pielikumu ar ceļa apzīmējumiem, bet tur savādāka HTML struktūra.</p>\n</blockquote>\n<p>Cilvēki vispār nemāk HTML :(<br>\nAttēli un numuri atsevišķās tabulas rindās... Kā tos vispār var saistīt vienu ar otru?!<br>\n<a href=\"/user_uploads/49624/ndYEmDLlv3nfCOejtG4zY2Uk/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/ndYEmDLlv3nfCOejtG4zY2Uk/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/ndYEmDLlv3nfCOejtG4zY2Uk/image.png\"></a></div>",
+        "id": 315824524,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671026183
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/ce.C4.BCaz.C4.ABmju.20bots/near/315824524\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/ce.C4.BCaz.C4.ABmju.20bots/near/315765048\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/ce.C4.BCaz.C4.ABmju.20bots/near/315681838\">said</a>:</p>\n<blockquote>\n<p>Vēl jau būtu forši automātiski linki, ja kāds ieraksta \"papildzīme\", bet tajā lapā laikam pat headingiem nav anchori :/</p>\n</blockquote>\n<p>Pagaidām tiek izparsēts 4. pielikums (tas iekļauj papildzīmes). Būtu labi izparsēt arī 5. pielikumu ar ceļa apzīmējumiem, bet tur savādāka HTML struktūra.</p>\n</blockquote>\n<p>Cilvēki vispār nemāk HTML :(<br>\nAttēli un numuri atsevišķās tabulas rindās... Kā tos vispār var saistīt vienu ar otru?!<br>\n<a href=\"/user_uploads/49624/ndYEmDLlv3nfCOejtG4zY2Uk/image.png\">image.png</a></p>\n</blockquote>\n<p>Eleganti.<br>\nRindiņas 3-6 un citas tamlīdzīgas vispār burvīgi.</p>",
+        "id": 315908219,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671049335
+    }
+]

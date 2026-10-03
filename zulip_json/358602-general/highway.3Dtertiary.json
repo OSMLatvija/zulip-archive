@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>Redzu ka mums diezgan daudz tertiary izmantots, varb&umacr;t &scaron;ur tur lab&amacr;k b&umacr;tu unclassified?<br>\n<a href=\"/user_uploads/49624/RA7aYBrcadBbVue7qYI9XUPq/image.png\">uz nekurieni</a><br>\n<a href=\"/user_uploads/49624/b8agZCTLKyquZQkoKdohOIas/image.png\">bez ref un name</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/RA7aYBrcadBbVue7qYI9XUPq/image.png\" title=\"uz nekurieni\"><img data-original-dimensions=\"426x440\" src=\"/user_uploads/thumbnail/49624/RA7aYBrcadBbVue7qYI9XUPq/image.png/840x560.webp\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/b8agZCTLKyquZQkoKdohOIas/image.png\" title=\"bez ref un name\"><img data-original-dimensions=\"1460x881\" src=\"/user_uploads/thumbnail/49624/b8agZCTLKyquZQkoKdohOIas/image.png/840x560.webp\"></a></div>",
+        "id": 463670270,
+        "sender_full_name": "Colby",
+        "timestamp": 1724153647
+    },
+    {
+        "content": "<p>No orto grūti pateikt piemērā. Bet esmu ievērojis vietas, kur gan tertiary pa daudz, gan vietas kur unclassified pa daudz. Laboju, cik nu var saprast no ceļu un savienojumu izkārtojuma. Bet principā tas atkarīgs no funkcijas. Bet te arī problēma, ka laukos ceļš ar 3 mašīnām dienā is secondary šoseja, bet pie Rīgas 500 mašīnu vietējā iela ir tikai residential. Un tādus piemērus ļoti grūti atšķirt. Un tā klasifikācija strādā tikai visu ceļu kopumā, nevis skatoties pa vienam.</p>",
+        "id": 463671209,
+        "sender_full_name": "HellMap",
+        "timestamp": 1724153989
+    },
+    {
+        "content": "<p>Vienu gan var pateikt - ja ceļš ir strupceļš, tad 95%, ka nav augstāks par unclassified.</p>",
+        "id": 463671349,
+        "sender_full_name": "HellMap",
+        "timestamp": 1724154030
+    },
+    {
+        "content": "<p>Par ref un name runājot - tas arī nav viennozīmīgi. Jo ceļu kodi kā LVC kodi ne vienmēr atbilst faktiskajam lietojumam. Mums it kā vairāk vai mazāk klasifikācija balstīta uz tiem, bet izņēmumu arī ir daudz. Strupceļi visādi, nelietoti ceļi, veci ceļi, apbrauktuves, utt.</p>",
+        "id": 463672273,
+        "sender_full_name": "HellMap",
+        "timestamp": 1724154361
+    },
+    {
+        "content": "<p>hmm jā<br>\natceros bija pie mazirbes vai kāda no blakus ciemiem apspriede ar mateusz par tiem LVC kodiem</p>",
+        "id": 463681923,
+        "sender_full_name": "Colby",
+        "timestamp": 1724156389
+    },
+    {
+        "content": "<p>Šur tur vēl ir palikuši kaut kādi pre-2010 tertiary, kas reāli ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aservice%3Ddriveway\">service=driveway</a>. Jāskatās individuāli, bet lielākoties neliels downgrade it derīgs.</p>",
+        "id": 464749570,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1724449627
+    }
+]
