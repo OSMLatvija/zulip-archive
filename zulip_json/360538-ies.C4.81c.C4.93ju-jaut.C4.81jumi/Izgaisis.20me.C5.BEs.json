@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>Pie Alūksnes ieraudzīju, ka meža zona ir pa virsu pilnīgi visām pārējām zonām (overlapping), tāpēc mēģināju to labot ar Shift + c palīdzību, taisot mežā caurumus. Bet rezultātā mežs pazuda. Nav ne jausmas, kas to izraisīja. <a href=\"https://www.openstreetmap.org/note/4271604\">https://www.openstreetmap.org/note/4271604</a>. Lūdzu  palīdzību šīs problēmas atrisināšanā.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/note/4271604\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/note/4271604\" title=\"Note: 4271604 | OpenStreetMap\">Note: 4271604 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 441441931,
+        "sender_full_name": "Andris Liepiņš",
+        "timestamp": 1717070320
+    },
+    {
+        "content": "<p>iD programmā mežs joprojām ir redzams.</p>",
+        "id": 441442279,
+        "sender_full_name": "Andris Liepiņš",
+        "timestamp": 1717070436
+    },
+    {
+        "content": "<p>Jā, ar tādiem mega multipoligoniem vienmēr problēmas...</p>",
+        "id": 441442462,
+        "sender_full_name": "HellMap",
+        "timestamp": 1717070506
+    },
+    {
+        "content": "<p>Es pagraizīšu tur nedaudz, paskatīšos, ko var salabot.</p>",
+        "id": 441442609,
+        "sender_full_name": "HellMap",
+        "timestamp": 1717070556
+    },
+    {
+        "content": "<p>Tas ir viens no tiem sava laika CLC importiem, kur galīgi neņēma vērā mežā izmērus - tagad tās līnijas, kad sīkāk sazīmēts, ir ļoti grūti uzturamas</p>",
+        "id": 441442717,
+        "sender_full_name": "HellMap",
+        "timestamp": 1717070607
+    },
+    {
+        "content": "<p>Paldies! Un ja atrodi, kas izraisīja problēmu, lūdzu apraksti, lai turpmāk zinu.</p>",
+        "id": 441442760,
+        "sender_full_name": "Andris Liepiņš",
+        "timestamp": 1717070635
+    },
+    {
+        "content": "<p>Pagraizīju apkārt, sadalīju daudzos gabalos. tur vēl gadiem zīmēt un labot var. It kā mežs tagad redzams. Es nezinu, kas tieši bija problēma. Drošvien kaut kas kaut kur savienots vai pārklājas un tāpēc nerenderē pareizi. Bet kas tieši nepateikšu.</p>",
+        "id": 441467139,
+        "sender_full_name": "HellMap",
+        "timestamp": 1717078629
+    },
+    {
+        "content": "<p>Vajag man to multipolygon cutter pabeigt :)</p>",
+        "id": 441472777,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1717080103
+    },
+    {
+        "content": "<p>Jā, vajag. <span aria-label=\"nerd\" class=\"emoji emoji-1f913\" role=\"img\" title=\"nerd\">:nerd:</span></p>",
+        "id": 441473512,
+        "sender_full_name": "HellMap",
+        "timestamp": 1717080304
+    },
+    {
+        "content": "<p>Labojot Alūksnes novada apkaimi, es uzzināju, kas izraisīja izgaisošā meža problēmu. Ja multipoligona iekšējā locekļa robeža iet pāri ārējā locekļa robežai, tad laukums nerādās kartē, bet iD redaktorā rādās. Neesmu apskatījis vai tas notiek tikai ar carto vai arī ar citiem. Ja kādam iesācējam arī gadās šī problēma, ceru, ka atradīs šo sarunu un ieraudzīs šo ziņu.</p>",
+        "id": 462587633,
+        "sender_full_name": "Andris Liepiņš",
+        "timestamp": 1723739053
+    }
+]

@@ -1,0 +1,80 @@
+[
+    {
+        "content": "<p>MS izlaidis jaunu detektēto ceļu datu kopu.<br>\nLatvija gan uzreiz atsevišķi nav, interesanti, kas mums tur detektēts kā trūkstošs :)<br>\n<a href=\"https://github.com/microsoft/RoadDetections\">https://github.com/microsoft/RoadDetections</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/microsoft/RoadDetections\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/ca5466536295cb9623a4e3a5b4fabc07581a703b\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f633965376464643738343264633736346562363564353333613063613131633565366465356437653261393366386263353239633065666533363135623131622f6d6963726f736f66742f526f6164446574656374696f6e73)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/microsoft/RoadDetections\" title=\"GitHub - microsoft/RoadDetections: Road detections from Microsoft Maps aerial imagery\">GitHub - microsoft/RoadDetections: Road detections from Microsoft Maps aerial imagery</a></div><div class=\"message_embed_description\">Road detections from Microsoft Maps aerial imagery - GitHub - microsoft/RoadDetections: Road detections from Microsoft Maps aerial imagery</div></div></div>",
+        "id": 318162623,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672177170
+    },
+    {
+        "content": "<p>Es gaidu, kad to RapiD pievienos, kā slāņus. Bet tur jau atkal būs Bing? Es domāju, mums pārsvarā detektēti šķībi ceļi.</p>",
+        "id": 318244146,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672229644
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Bing.20RoadDetections/near/318244146\">said</a>:</p>\n<blockquote>\n<p>Bet tur jau atkal būs Bing?</p>\n</blockquote>\n<p>Maxar ir tas pats, ka Bing?</p>\n<blockquote>\n<p>Mining is performed with Bing Maps imagery between 2020 and 2022 including Maxar and Airbus.</p>\n</blockquote>",
+        "id": 318244752,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672229920
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Bing.20RoadDetections/near/318244146\">said</a>:</p>\n<blockquote>\n<p>Es gaidu, kad to RapiD pievienos, kā slāņus. Bet tur jau atkal būs Bing? Es domāju, mums pārsvarā detektēti šķībi ceļi.</p>\n</blockquote>\n<p>Es to vairāk uztvertu kā \"te jāpaskatās\". Pieņemu, ka liela daļa būtu lauku ceļi, pievadceļi utt.<br>\nJa neizmanto RapID pa tiešo, ta jau tā nobīde netraucē.</p>",
+        "id": 318431225,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672324960
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Bing.20RoadDetections/near/318244146\">said</a>:</p>\n<blockquote>\n<p>Es gaidu, kad to RapiD pievienos, kā slāņus.</p>\n</blockquote>\n<p>Es šodien ieraudzīju GitHub'ā <a href=\"https://github.com/microsoft/GlobalMLBuildingFootprints\">līdzīgu repo par ēkām</a>, tur apraksta teikts, ka</p>\n<blockquote>\n<p>The HOT Tasking Manager has integrated Facebook RapiD <strong>where the data has been made available</strong>.</p>\n</blockquote>\n<p>Intereses pēc atveru RapiD un tur ir ne tikai ēkas, bet arī ceļi.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/microsoft/GlobalMLBuildingFootprints\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/f062d15aed8d7d2e2b152e4953d1afbe33267bce\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f333439376235653733336430313064343531313361663639396365363938633266316464333230626135366333646437613533633936333431643838343935342f6d6963726f736f66742f476c6f62616c4d4c4275696c64696e67466f6f747072696e7473)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/microsoft/GlobalMLBuildingFootprints\" title=\"GitHub - microsoft/GlobalMLBuildingFootprints: Worldwide building footprints derived from satellite imagery\">GitHub - microsoft/GlobalMLBuildingFootprints: Worldwide building footprints derived from satellite imagery</a></div><div class=\"message_embed_description\">Worldwide building footprints derived from satellite imagery  - GitHub - microsoft/GlobalMLBuildingFootprints: Worldwide building footprints derived from satellite imagery</div></div></div>",
+        "id": 344273957,
+        "sender_full_name": "i-ky",
+        "timestamp": 1679666706
+    },
+    {
+        "content": "<p>ēē, Latvijā ēkas/ceļi arī uzģenerēti. Agrāk (mēnesis?) nebija. Protams no Bing un pilnīgi šķībi, bet nu progress is progress</p>",
+        "id": 344279117,
+        "sender_full_name": "HellMap",
+        "timestamp": 1679667776
+    },
+    {
+        "content": "<p>Es gan nezinu vai tādi lietojami. It kā var jau, bet būs jābīda un jālabo <a href=\"/user_uploads/49624/GyHvqxBONGYE2FDqWHHYP8Cu/better-than-nothing.png\">better-than-nothing.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/GyHvqxBONGYE2FDqWHHYP8Cu/better-than-nothing.png\" title=\"better-than-nothing.png\"><img src=\"/user_uploads/49624/GyHvqxBONGYE2FDqWHHYP8Cu/better-than-nothing.png\"></a></div>",
+        "id": 344279743,
+        "sender_full_name": "HellMap",
+        "timestamp": 1679667941
+    },
+    {
+        "content": "<p>Jā, kvalitāte nav baigi wow... :D<br>\nVietām pat skatoties uz Bing attēliem grūti saprast, kā AI tur kaut ko tādu saskatīja.<br>\nBet no citas puses būtu vērtīgi uz tiem datiem apskatīties un paspiest \"Ignore feature\", jo tas itkā \"uzlabo modeli\".</p>",
+        "id": 344279926,
+        "sender_full_name": "i-ky",
+        "timestamp": 1679667984
+    },
+    {
+        "content": "<p>Tad jāspiež no Bing ortofoto slāņa, bet to lietot kaut kā negribās :(</p>",
+        "id": 344280062,
+        "sender_full_name": "HellMap",
+        "timestamp": 1679668028
+    },
+    {
+        "content": "<p>Bet to var izmantot kā palīgu <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/.C4.92kas.20R.C4.93zeknes.20novad.C4.81.3A.20kart.C4.93.C5.A1anas.20projekts\">#general &gt; Ēkas Rēzeknes novadā: kartēšanas projekts</a>, lai zināt, kur rūpīgāk paskatīties (tāpat kā ar kadastra slāni).</p>",
+        "id": 344280944,
+        "sender_full_name": "i-ky",
+        "timestamp": 1679668225
+    },
+    {
+        "content": "<p>Var izmantot iedvesmai, bet nu baigi uzmanīgi. Kādam var rasties vēlme ielikt OSM as-is, un to pēc tam varēs gadiem labot :)</p>",
+        "id": 344311922,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1679674528
+    },
+    {
+        "content": "<p>Par laimi README skaidri saka par to:</p>\n<blockquote>\n<p><strong>Should we import the data into OpenStreetMap?</strong><br>\nMaybe. Never overwrite the hard work of other contributors or blindly import data into OSM without first checking the local quality. While our metrics show that this data meets or exceeds the quality of hand-drawn building footprints, the data does vary in quality from place to place, between rural and urban, mountains and plains, and so on. Inspect quality locally and discuss an import plan with the community. Always follow the OSM import community guidelines.</p>\n</blockquote>",
+        "id": 344334171,
+        "sender_full_name": "i-ky",
+        "timestamp": 1679680116
+    },
+    {
+        "content": "<p>Oi jā, noteikti - domāju dalībniekus, kuri to neizlasītu vai aizmirstu vai ignorētu :)</p>",
+        "id": 344343523,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1679683104
+    }
+]

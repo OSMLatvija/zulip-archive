@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>Test:</p>\n<div class=\"codehilite\" data-code-language=\"geojson\"><pre><span></span><code>{\n  \"type\": \"FeatureCollection\",\n  \"features\": [\n    {\n      \"type\": \"Feature\",\n      \"geometry\": {\n        \"type\": \"Point\",\n        \"coordinates\": [102.0, 0.5]\n      },\n      \"properties\": {\n        \"prop0\": \"value0\"\n      }\n    },\n    {\n      \"type\": \"Feature\",\n      \"geometry\": {\n        \"type\": \"LineString\",\n        \"coordinates\": [\n          [102.0, 0.0],\n          [103.0, 1.0],\n          [104.0, 0.0],\n          [105.0, 1.0]\n        ]\n      },\n      \"properties\": {\n        \"prop0\": \"value0\",\n        \"prop1\": 0.0\n      }\n    },\n    {\n      \"type\": \"Feature\",\n      \"geometry\": {\n        \"type\": \"Polygon\",\n        \"coordinates\": [\n          [\n            [100.0, 0.0],\n            [101.0, 0.0],\n            [101.0, 1.0],\n            [100.0, 1.0],\n            [100.0, 0.0]\n          ]\n        ]\n      },\n      \"properties\": {\n        \"prop0\": \"value0\",\n        \"prop1\": { \"this\": \"that\" }\n      }\n    }\n  ]\n}\n</code></pre></div>",
+        "id": 395224581,
+        "sender_full_name": "i-ky",
+        "timestamp": 1696586989
+    },
+    {
+        "content": "<p>Test 2:</p>\n<div class=\"codehilite\" data-code-language=\"geojson-url\"><pre><span></span><code>https://data.gov.lv/dati/dataset/7bb04db9-97ce-4a30-b93a-10ba8dafd104/resource/3ded58bd-c0dc-419a-97ff-59ba45a7b1b0/download/administrativas_teritorijas_2021.geojson\n</code></pre></div>",
+        "id": 395226791,
+        "sender_full_name": "i-ky",
+        "timestamp": 1696587487
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p><a href=\"https://youtu.be/cP0JLolWmPY\">https://youtu.be/cP0JLolWmPY</a><br>\nVai OSM ir kāds veids tās atzīmēt?</p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"cP0JLolWmPY\" href=\"https://youtu.be/cP0JLolWmPY\"><img src=\"https://uploads.zulipusercontent.net/53f82f68773d4dd66a13aa19c2424789658c4ec8/68747470733a2f2f692e7974696d672e636f6d2f76692f6350304a4c6f6c576d50592f64656661756c742e6a7067\"></a></div>",
+        "id": 497982996,
+        "sender_full_name": "Colby",
+        "timestamp": 1738789725
+    },
+    {
+        "content": "<p>Vai domāts kas šāds?<br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag:bunker_type%3Dbomb_shelter\">https://wiki.openstreetmap.org/wiki/Tag:bunker_type%3Dbomb_shelter</a></p>",
+        "id": 498158659,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1738858379
+    },
+    {
+        "content": "<p>Vai šis arī der?<br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag:emergency%3Dassembly_point\">https://wiki.openstreetmap.org/wiki/Tag:emergency%3Dassembly_point</a></p>",
+        "id": 499150773,
+        "sender_full_name": "Petons",
+        "timestamp": 1739337288
+    },
+    {
+        "content": "<p>Pats par sevi - nē, tas ir priekš pulcēšanās vietas iekšējas evakuēšanas gadījumā, parasti ar zīmi un norādīts vietējās kartēs <br>\n<a href=\"/user_uploads/49624/-RuTzP9ea50t7VNVqYM5lHq3/Untitled.png\">Untitled.png</a> <br>\n<a href=\"/user_uploads/49624/qUgn4zsV2B1ppiDNHheID_R4/image.png\">image.png</a><br>\n Tas ir tādos gadījumos kā ugunsgrēks un domāts, lai katrs neskrien uz savu pusi.</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/-RuTzP9ea50t7VNVqYM5lHq3/Untitled.png\" title=\"Untitled.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"225x225\" src=\"/user_uploads/thumbnail/49624/-RuTzP9ea50t7VNVqYM5lHq3/Untitled.png/840x560.webp\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/qUgn4zsV2B1ppiDNHheID_R4/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"740x675\" src=\"/user_uploads/thumbnail/49624/qUgn4zsV2B1ppiDNHheID_R4/image.png/840x560.webp\"></a></div>",
+        "id": 499201428,
+        "sender_full_name": "HellMap",
+        "timestamp": 1739357361
+    },
+    {
+        "content": "<p>vienkārši patversne: <a href=\"https://wiki.openstreetmap.org/wiki/Tag:social_facility%3Dshelter\">https://wiki.openstreetmap.org/wiki/Tag:social_facility%3Dshelter</a> ?<br>\nriharda links ir bumbu patversme kura arī noderētu</p>",
+        "id": 499254985,
+        "sender_full_name": "Petons",
+        "timestamp": 1739372308
+    }
+]

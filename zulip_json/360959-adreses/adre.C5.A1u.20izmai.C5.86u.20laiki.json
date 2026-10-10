@@ -1,0 +1,116 @@
+[
+    {
+        "content": "<p>Šajā izmaiņu kopā adrese it kā esot mainīta pag. gada novembrī, bet vēl nebija OSM.<br>\nVai te varētu būt kāda tehniska aizķeršanās, vai tīri pašvaldība-&gt;VZD-&gt;kasnuvēl datu ceļošanas laiks?</p>\n<p><a href=\"https://www.openstreetmap.org/way/889311497/history/2\">https://www.openstreetmap.org/way/889311497/history/2</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/889311497/history/2\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/889311497/history/2\" title=\"Way: ‪Murkšķi‬ (‪889311497‬) | OpenStreetMap\">Way: ‪Murkšķi‬ (‪889311497‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 421008867,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1707737203
+    },
+    {
+        "content": "<p><a href=\"https://www.openstreetmap.org/node/9887912950/history\">https://www.openstreetmap.org/node/9887912950/history</a> ?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/9887912950/history\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/9887912950/history\" title=\"Node History: 9887912950 | OpenStreetMap\">Node History: 9887912950 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 421009714,
+        "sender_full_name": "HellMap",
+        "timestamp": 1707737511
+    },
+    {
+        "content": "<p>Ah pareiz. Biju uz šo paskatījies, bet pamanījos aizmirst, paldies :)</p>",
+        "id": 421016287,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1707739814
+    },
+    {
+        "content": "<p>Varētu varbūt <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">botam</a> kaut kādu prioritātes sistēmu punktiem. Piemēram <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Ddetached\">building=detached</a> &gt; <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dshed\">building=shed</a> un pat, ja esošais punkts ir uz shed, tad kādu X metru attālumā tomēr likt to uz detached. Protams, es fantazēju par daudz sarežģītāku sistēmu adrešu piesaistei ēkām, bet nu...</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 421017469,
+        "sender_full_name": "HellMap",
+        "timestamp": 1707740269
+    },
+    {
+        "content": "<p>Sarežģītāka uzturēšana, noteikti būs \"edge cases\"...<br>\nTa jau labāk informēt īpašniekus, ka jāsakārto adresācija.</p>",
+        "id": 421017719,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1707740365
+    },
+    {
+        "content": "<p>Labāk jā, ja tu tiešām viņiem uzrakstīsi vēstuli un viņi to tiešām sakārtos un VZD tiešām izmainīs. Man gan neliekas, ka tāds dziļi teorētisks variants praksē notiks visiem tiem tūkstošiem šķībo adrešu. Un te vēl ļoti optimistisks pieņēmums, ka īpašnieks tiešām taisīs kaut kādu iesniegumu VZD. Ja jau mums pašvaldības ceļa zīmes nevar sakārtot, kādi vēl privātīpašnieki kaut kādas adrešu nobīdes ņemsies labot un mērīt. VZD pateiks, ka ēkas šķības un jāmēra - un tad arī nekas noteikti netiks izdarīts.</p>",
+        "id": 421019623,
+        "sender_full_name": "HellMap",
+        "timestamp": 1707741040
+    },
+    {
+        "content": "<p>Bet nu kā jau teicu - es fantazēju. Gadījums nav pirmais un nav pēdējais. Tas, ka mums adreses brīvi dati jau ir brīnums.</p>",
+        "id": 421019903,
+        "sender_full_name": "HellMap",
+        "timestamp": 1707741144
+    },
+    {
+        "content": "<p>Konkrētajā gadījumā VZD datos adreses punkts ir uz dzīvojamās mājas, bet ēkas ir vektorizētas, nevis uzmērītas, līdz ar to neprecīzas: <a href=\"/user_uploads/49624/6ntFzwCAs8_mLGhBX1lyqUSa/image.png\">image.png</a><br>\nNedomāju, ka bez uzmērīšanas VZD tur kaut ko labotu, bet uzmērīšana jāveic īpašniekam, un tas maksā.<br>\n<a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">Bots</a> adresi pārliks uz palīgēkas.<br>\nKamēr OSM datos joprojām ir un gan jau tuvākos gadus vēl būs liels ēku iztrūkums, turklāt esošajām gan jau vairumam ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dyes\">building=yes</a> (arī konkrētajā gadījumā), nevis norādīts konkrēts tips, tikmēr neiespringtu. Teorētiski, jā, zemes vienības ietvaros pēc ēkas tipa pārvietošanu var realizēt (noteikti tad, ja zemes vienībā tikai viena adrese).</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/6ntFzwCAs8_mLGhBX1lyqUSa/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/6ntFzwCAs8_mLGhBX1lyqUSa/image.png\"></a></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 421038049,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1707746465
+    },
+    {
+        "content": "<p>Šķiet, ir uz tās pašas ēkas, ne?<br>\n<a href=\"/user_uploads/49624/5OXT1ememx7RL_vY-kwWKtqN/image.png\">Murkšķi</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/5OXT1ememx7RL_vY-kwWKtqN/image.png\" title=\"Murkšķi\"><img src=\"/user_uploads/49624/5OXT1ememx7RL_vY-kwWKtqN/image.png\"></a></div>",
+        "id": 421042392,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1707747198
+    },
+    {
+        "content": "<p>OSM adrese šobrīd ir manuāli pielikta lielākajai (dzīvojamajai), bet ar to ēku, uz kuras adrese ir VZD datos (kas tā pati dzīvojamā vien ir, bet neprecīzi iezīmēta), pārklājas cita (palīgēka).</p>",
+        "id": 421044648,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1707747712
+    },
+    {
+        "content": "<p>Ā, tu domā, ka dienvidos esošā ēka VZD datos nav nemaz, bet dzīvojamā ir gan ar nepareizu kontūru, gan pamatīgi nobīdīta?</p>",
+        "id": 421065106,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1707752620
+    },
+    {
+        "content": "<p>Jā</p>",
+        "id": 421067264,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1707753125
+    },
+    {
+        "content": "<p>Uff, iespējams. Tik lielu nobīdi pat sākumā neiedomājos :)</p>",
+        "id": 421086552,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1707758298
+    },
+    {
+        "content": "<p>Standarda nobīde laukos  <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span> Tev vajag vairāk rediģēt ar vienmēr ieslēgtu kadastru ;)</p>",
+        "id": 421096053,
+        "sender_full_name": "HellMap",
+        "timestamp": 1707760955
+    },
+    {
+        "content": "<p>Atkal fantazēju, bet teorētiski OSM var ielikt kadastra ēkas nummuru tādiem gadījumiem...</p>",
+        "id": 421096443,
+        "sender_full_name": "HellMap",
+        "timestamp": 1707761064
+    },
+    {
+        "content": "<p>Es jau skatījos kadastrā, bet domāju, ka tās ir divas citas ēkas ;)</p>",
+        "id": 421103186,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1707763120
+    },
+    {
+        "content": "<p>Te b0ts interesanti izdarījis - gan pielicis adresi <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dfuel\">amenity=fuel</a>, gan pielicis adreses punktu pa vidu tam amenity.<br>\n<a href=\"https://www.openstreetmap.org/node/9890477929\">https://www.openstreetmap.org/node/9890477929</a><br>\n<a href=\"https://www.openstreetmap.org/way/117031655\">https://www.openstreetmap.org/way/117031655</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/9890477929\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/9890477929\" title=\"Node: 9890477929 | OpenStreetMap\">Node: 9890477929 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/117031655\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/117031655\" title=\"Way: ‪Viada‬ (‪117031655‬) | OpenStreetMap\">Way: ‪Viada‬ (‪117031655‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 422521700,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1708473626
+    },
+    {
+        "content": "<p>Jā, tas jau loģiski, jo visiem amenities u.c. adreses tiek liktas papildus. Adrešu punkta nebūtu, ja būtu ēka, bet šeit ēka nav iezīmēta.</p>",
+        "id": 422549200,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1708494202
+    },
+    {
+        "content": "<p>Te diezgan šķībi iezīmēts. Laukumam jābūt fuel nevis retail un ēkai jābūt building nevis fuel. Es pielaboju.</p>",
+        "id": 422590006,
+        "sender_full_name": "HellMap",
+        "timestamp": 1708512523
+    }
+]

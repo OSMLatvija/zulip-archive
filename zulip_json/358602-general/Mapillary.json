@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p><a href=\"https://blog.mapillary.com/update/2024/03/11/Mapillary-NeRF.html\">https://blog.mapillary.com/update/2024/03/11/Mapillary-NeRF.html</a></p>\n<p><a href=\"https://help.mapillary.com/hc/en-us/articles/12769328936476-NeRF-capture-instructions\">https://help.mapillary.com/hc/en-us/articles/12769328936476-NeRF-capture-instructions</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://blog.mapillary.com/update/2024/03/11/Mapillary-NeRF.html\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/52017720e00327eff576e4497787275b5336a4cb\\/68747470733a2f2f73636f6e74656e742d696164332d312e78782e666263646e2e6e65742f762f7433392e383536322d362f3433323933313138325f3737363336353039373333343139335f3438303531393931393836393932353439325f6e2e706e673f5f6e635f6361743d313031266363623d312d37265f6e635f7369643d663533376337265f6e635f6f68633d534f6e4f386243416c4549415838615f507531265f6e635f68743d73636f6e74656e742d696164332d312e7878266f683d30305f416643746a66376a70456955623969305f52362d5f4a63792d4231754d6a6a784f5649316d63636239686c515577266f653d3636304142364543)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://blog.mapillary.com/update/2024/03/11/Mapillary-NeRF.html\" title=\"We're launching photorealistic Neural Radiance Fields (NeRFs) at Mapillary!\">We're launching photorealistic Neural Radiance Fields (NeRFs) at Mapillary!</a></div><div class=\"message_embed_description\">Today, Mapillary is launching NeRFs, a new feature that will allow you to explore landmarks and popular sites in detailed 3D views – all reconstructed from 2D images uploaded to Mapillary.</div></div></div>",
+        "id": 430172737,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1711665736
+    },
+    {
+        "content": "<blockquote>\n<p>Select a sequence [..] on Advanced [..] “Suggest for NeRF” [..] This lets the Mapillary team know that you have followed these instructions and would like for us to process your capture and attempt to create a NeRF. Note that NeRF scenes will only be generated for very high quality captures and should be visible on the web within approximately a week.</p>\n</blockquote>\n<p>Tad sanāk, ka tas manuāli jāpiesaka viņiem? Un nez ko viņi uzskata par high quality?</p>",
+        "id": 430175472,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711667307
+    }
+]

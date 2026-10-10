@@ -1,0 +1,80 @@
+[
+    {
+        "content": "<p>Ar QGIS izfiltrēju kapus kas ir VDB bet nav OSM<br>\n<a href=\"/user_uploads/49624/l1h1r5gWToaUXOAuSkfvDxgy/image.png\">1007 kapi</a><br>\n<a href=\"/user_uploads/49624/_Ohysi2gQpfrG9-dV70880Bz/kapi.geojson\">kapi.geojson</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/l1h1r5gWToaUXOAuSkfvDxgy/image.png\" title=\"1007 kapi\"><img data-original-dimensions=\"1092x700\" src=\"/user_uploads/thumbnail/49624/l1h1r5gWToaUXOAuSkfvDxgy/image.png/840x560.webp\"></a></div>",
+        "id": 481478974,
+        "sender_full_name": "Colby",
+        "timestamp": 1731173515
+    },
+    {
+        "content": "<p>A kā OSM on-the-ground būtu kartēti \"Objekta veids vēsturiskā kapsēta Objekta stāvoklis daļēji izzudis\"</p>",
+        "id": 481479311,
+        "sender_full_name": "HellMap",
+        "timestamp": 1731173811
+    },
+    {
+        "content": "<p>Un laikam visādi senkapi OSM iespējams ir historic, es gan neesmu neko salīdzinājis</p>",
+        "id": 481479353,
+        "sender_full_name": "HellMap",
+        "timestamp": 1731173859
+    },
+    {
+        "content": "<p>VDB vēl ir arī iekļauti \"Objekta stāvoklis nepastāv\", kas laikam OSM nav atzīmējami</p>",
+        "id": 481479446,
+        "sender_full_name": "HellMap",
+        "timestamp": 1731173896
+    },
+    {
+        "content": "<p>šie ir \"mūsdienu kapsēta\"<br>\nmanā apkārtnē ir daži senkapi bet tur nezinot nepateiksi ka tur vispār ir kautkas</p>",
+        "id": 481479472,
+        "sender_full_name": "Colby",
+        "timestamp": 1731173923
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/358602-general/topic/Vietv.C4.81rdu.20datub.C4.81zes.20kaps.C4.93tas/near/481479446\">said</a>:</p>\n<blockquote>\n<p>VDB vēl ir arī iekļauti \"Objekta stāvoklis nepastāv\", kas laikam OSM nav atzīmējami</p>\n</blockquote>\n<p>ko kapos nozīmē nepastāv? šaubos ka ir tādi kapi kur patiešām neviens krusts vai apbedījumu paliekas nav palikušas</p>",
+        "id": 481479888,
+        "sender_full_name": "Colby",
+        "timestamp": 1731174302
+    },
+    {
+        "content": "<p>Piemēram, pārvietots - pārapbedīts citur kaut kādu iemeslu pēc</p>",
+        "id": 481480279,
+        "sender_full_name": "HellMap",
+        "timestamp": 1731174691
+    },
+    {
+        "content": "<p>Dabiski varbūt bija vietā, kas applūdusi vai pie upes nobirusi vai kaut kas tāds</p>",
+        "id": 481480365,
+        "sender_full_name": "HellMap",
+        "timestamp": 1731174744
+    },
+    {
+        "content": "<p>VDB tas laikam izskatās vairāk pēc \"avotā te kapi, dzīvē neko neatradām\"</p>",
+        "id": 481480527,
+        "sender_full_name": "HellMap",
+        "timestamp": 1731174888
+    },
+    {
+        "content": "<p>vai maproulette var palīdzēt ar nosaukumu automātisku pielikšanu? cerams nav jāveic punktu imports un pēc tam jālabo</p>",
+        "id": 481481296,
+        "sender_full_name": "Colby",
+        "timestamp": 1731175455
+    },
+    {
+        "content": "<p>Teorētiski <a href=\"https://maproulette.org/\">maproulette</a> var arī prasīt jaunus punktus taisīt. Jautājums, cik mums tādu iezīmētu kapsētu bet bez nosaukuma?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://maproulette.org/\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/acfd21d8ab911be3fb82d3daddb944cffd073365/68747470733a2f2f6f70656e7374726565746d61702e75732f696d672f70616765732f6d6170726f756c657474652f7369676e2e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://maproulette.org/\" title=\"MapRoulette\">MapRoulette</a></div><div class=\"message_embed_description\">Be an instant contributor to the world’s maps.</div></div></div>",
+        "id": 481481744,
+        "sender_full_name": "HellMap",
+        "timestamp": 1731175834
+    },
+    {
+        "content": "<p>šobrīd 86<br>\nlielākā daļa nav VDB, pirms kāda laika pielaboju cik varēju</p>",
+        "id": 481482089,
+        "sender_full_name": "Colby",
+        "timestamp": 1731176076
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/channel/358602-general/topic/Vietv.C4.81rdu.20datub.C4.81zes.20kaps.C4.93tas/near/481479472\">said</a>:</p>\n<blockquote>\n<p>šie ir \"mūsdienu kapsēta\"<br>\nmanā apkārtnē ir daži senkapi bet tur nezinot nepateiksi ka tur vispār ir kautkas</p>\n</blockquote>\n<p>Senkapu info viņi arī tā mazāk izplata, jo tad \"melnie racēji\" vairāk uzlido un visu izposta :/</p>",
+        "id": 482337899,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1731574467
+    }
+]

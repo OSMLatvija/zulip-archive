@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>Pāris reizes lietotāji minējuši, ka <a href=\"#narrow/stream/358602-general/topic/piena.20galds.2C.20piena.20ste.C4.B7is/near/360566349\">nestrādā burts k</a>, <a href=\"#narrow/stream/358602-general/topic/Post.20box.20validator/near/354935041\">vienu reizi - j</a>.<br>\nVarbūt tas saistīts ar šortcutiem?<br>\n<a href=\"https://zulip.com/help/keyboard-shortcuts\">https://zulip.com/help/keyboard-shortcuts</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://zulip.com/help/keyboard-shortcuts\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/df83b8ca6f665e54aab5f8f261d9ceb696f2f5c3\\/68747470733a2f2f7a756c6970636861742e636f6d2f7374617469632f696d616765732f6c6f676f2f7a756c69702d69636f6e2d313238783132382e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://zulip.com/help/keyboard-shortcuts\" title=\"Keyboard shortcuts | Zulip help center\">Keyboard shortcuts | Zulip help center</a></div><div class=\"message_embed_description\">Everything in Zulip can be done with the mouse, but mastering a few keyboard shortcuts will change your experience of the app. Start with the basics below, and use the convenient keyboard shortcuts reference in the Zulip app to add more to your repertoire as needed. | Reply to message: R or Enter — Reply to the selected message (outlined in blue). | New stream message: C — Start a new topic in the current stream. | New direct message: X | Cancel compose and save draft: Esc or Ctrl + [ — Close the compose box and save the unsent message as a draft.</div></div></div>",
+        "id": 360574195,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1684857319
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/362235-Zulip/topic/da.C5.BEreiz.20nestr.C4.81d.C4.81jo.C5.A1i.20burti.20k.2C.20j/near/360574195\">said</a>:</p>\n<blockquote>\n<p>Varbūt tas saistīts ar šortcutiem?</p>\n</blockquote>\n<p>Man bija tādas aizdomas. Bet vajag vairāk informācijas, lai uztaisīt issue.</p>",
+        "id": 360718135,
+        "sender_full_name": "i-ky",
+        "timestamp": 1684915785
+    }
+]

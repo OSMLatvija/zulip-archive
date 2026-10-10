@@ -1,0 +1,308 @@
+[
+    {
+        "content": "<p>Interesanti, kā šāds Rīgai izskatītos :)</p>\n<p><a href=\"https://en.osm.town/@Supaplex030/112140546144001635\">https://en.osm.town/@Supaplex030/112140546144001635</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://en.osm.town/@Supaplex030/112140546144001635\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/43390163911280348ccf89fc7a3e9054d2bc5172\\/68747470733a2f2f63646e2e6d6173746f2e686f73742f656e6f736d746f776e2f6d656469615f6174746163686d656e74732f66696c65732f3131322f3134302f3534322f3138352f3737342f3738332f6f726967696e616c2f646235626665663332393630336638372e6a7067)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://en.osm.town/@Supaplex030/112140546144001635\" title=\"Supaplex030 (@Supaplex030@en.osm.town)\">Supaplex030 (@Supaplex030@en.osm.town)</a></div><div class=\"message_embed_description\">Attached: 1 image\n\nAt the #fossgis2024 conference I presented our new project \"Cycleway Quality Index\" (based on OpenStreetMap data). You can watch the video and slides (in German language): https://www.osm-verkehrswende.org/cqi/posts/2024-01-01-cqi-fossgis-2024/.\n\nThere is also a webmap that visualizes this index interactively for the whole of Berlin: https://www.osm-verkehrswende.org/cqi/map/</div></div></div>",
+        "id": 429263656,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1711325896
+    },
+    {
+        "content": "<p><a href=\"https://cqr.em.id.lv/cqi/map/?anzeige=cqi&amp;map=11.7%2F24.115%2F56.955\">https://cqr.em.id.lv/cqi/map/?anzeige=cqi&amp;map=11.7%2F24.115%2F56.955</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://cqr.em.id.lv/cqi/map/?anzeige=cqi&amp;map=11.7%2F24.115%2F56.955\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/ff0f5014a02c22aebe159e589903fb4ea173a9ff\\/68747470733a2f2f6371722e656d2e69642e6c762f736f6369616c2d73686172696e672e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://cqr.em.id.lv/cqi/map/?anzeige=cqi&amp;map=11.7%2F24.115%2F56.955\" title=\"Cycling Quality Index Map (BETA-Version)\">Cycling Quality Index Map (BETA-Version)</a></div><div class=\"message_embed_description\">Eine Klassifizierung der Fahrradfreundlichkeit und -eignung des Straßennetzes</div></div></div>",
+        "id": 429309226,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1711353164
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"607550\">AmOosm</span> <a href=\"#narrow/stream/358602-general/topic/cycleway.20quality.20index/near/429309226\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://cqr.em.id.lv/\">https://cqr.em.id.lv/</a></p>\n</blockquote>\n<p>Man neko nerāda, tikai plika karte. Man gan 5000 adblokeru visādu.</p>",
+        "id": 429345105,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711362199
+    },
+    {
+        "content": "<p>Pamēģini varbūt izslēgt vai izmantot tikai uBlock Origin? Es tur nekādas reklāmas vai trakerus neliku :D</p>",
+        "id": 429348505,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1711363093
+    },
+    {
+        "content": "<p>Citā browserī tad jātaisa vaļā. Nezinu, kas tur par skriptmaģīju.</p>",
+        "id": 429349311,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711363313
+    },
+    {
+        "content": "<p>A valodu nomainīt tur nevar?</p>",
+        "id": 429349390,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711363326
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/cycleway.20quality.20index/near/429349311\">said</a>:</p>\n<blockquote>\n<p>Citā browserī tad jātaisa vaļā. Nezinu, kas tur par skriptmaģīju.</p>\n</blockquote>\n<p>Ko tu izmanto? Man viss strādā gan uz LibreWolf, gan Chromium. Abiem reklāmu bloķētājs.</p>",
+        "id": 429349797,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1711363427
+    },
+    {
+        "content": "<p>Hmmm, tur celiņus (path) un ietves vispār neparesē - tad jau tas tikai ielas skatās.</p>",
+        "id": 429350154,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711363524
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"607550\">AmOosm</span> <a href=\"#narrow/stream/358602-general/topic/cycleway.20quality.20index/near/429349797\">said</a>:</p>\n<blockquote>\n<p>Ko tu izmanto?</p>\n</blockquote>\n<p>Firefox defaultā. Ar Chromium browseri strādā.</p>",
+        "id": 429350250,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711363558
+    },
+    {
+        "content": "<p>Tā pa ātro paskatoties, man liekas galīgi šķībi tā vērtēšana. Varbūt kaut kādam piemeklētam piemēram Twitterī normāli, bet Rīga ir pilnīgi šķība visur kur.</p>",
+        "id": 429350534,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711363640
+    },
+    {
+        "content": "<p>Meža ceļš zilā krāsā, svaigs nodalīts veloceļš dzeltens...</p>",
+        "id": 429350762,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711363711
+    },
+    {
+        "content": "<p>Vērtības protams nav saliktas daudz, bet tik un tā - servisa ceļi automātiski tiek uzskatīti par sliktiem, jo šauri</p>",
+        "id": 429350901,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711363758
+    },
+    {
+        "content": "<p>Ja nepatīk vērtēšana, to visu var piekoriģēt <a href=\"https://github.com/SupaplexOSM/OSM-Cycling-Quality-Index/blob/main/cycling_quality_index.py\">šajā failā</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/SupaplexOSM/OSM-Cycling-Quality-Index/blob/main/cycling_quality_index.py\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/f8b0db8daf1013f39a1f866c0e0daac245a74d9a\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f313035623433316339663365633063333435326638386666303639636539376163383033356361613864313938313764346337396136326361333464316339342f53757061706c65784f534d2f4f534d2d4379636c696e672d5175616c6974792d496e646578)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/SupaplexOSM/OSM-Cycling-Quality-Index/blob/main/cycling_quality_index.py\" title=\"OSM-Cycling-Quality-Index/cycling_quality_index.py at main · SupaplexOSM/OSM-Cycling-Quality-Index\">OSM-Cycling-Quality-Index/cycling_quality_index.py at main · SupaplexOSM/OSM-Cycling-Quality-Index</a></div><div class=\"message_embed_description\">Cycling quality index based on OpenStreetMap. Contribute to SupaplexOSM/OSM-Cycling-Quality-Index development by creating an account on GitHub.</div></div></div>",
+        "id": 429351411,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1711363911
+    },
+    {
+        "content": "<p>Es tik tā - vispārīgus novērojumus saku.</p>",
+        "id": 429352651,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711364183
+    },
+    {
+        "content": "<p>Zaļš track - 65. Virsmas kvalitāte - <code>impassable</code> <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>",
+        "id": 429353340,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711364348
+    },
+    {
+        "content": "<p>Nē nu interesanti paskatīties protams, paldies, ka uzliki. Bet tas vēl prototipa līmenī.</p>",
+        "id": 429353419,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711364373
+    },
+    {
+        "content": "<p>Laikam tas jāskatās vairāk macro līmenī</p>",
+        "id": 429354017,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711364528
+    },
+    {
+        "content": "<p>Tajā kodā <code>default_highway_surface_dict</code> un <code>'track': 'concrete'</code>  wat</p>",
+        "id": 429355056,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711364812
+    },
+    {
+        "content": "<p><code>'impassable': 0</code> it kā ir, bet tas tur laikam nav tā loģika tāda, ka tāds weighted factor var viens pats uz 0 nodzīt - tur viss taisās uz average</p>",
+        "id": 429355248,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711364857
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/cycleway.20quality.20index/near/429355056\">said</a>:</p>\n<blockquote>\n<p>Tajā kodā <code>default_highway_surface_dict</code> un <code>'track': 'concrete'</code>  wat</p>\n</blockquote>\n<p>Vāciešiem citi standarti, pamainīšu :D</p>",
+        "id": 429355554,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1711364921
+    },
+    {
+        "content": "<p>Oi, tak nepārdzīvo, es to visu tikai intereses pēc skatos</p>",
+        "id": 429355662,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711364947
+    },
+    {
+        "content": "<p>Hmmm, izskatās, ka sidewalk ir speciāli \"pievienots ceļam \" lai indekss būtu ceļam nevis sidewalkam, es gan ne visai tai loģikai varu izsekot kodā</p>",
+        "id": 429356104,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711365073
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/cycleway.20quality.20index/near/429345105\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"607550\">AmOosm</span> <a href=\"#narrow/stream/358602-general/topic/cycleway.20quality.20index/near/429309226\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://cqr.em.id.lv/\">https://cqr.em.id.lv/</a></p>\n</blockquote>\n<p>Man neko nerāda, tikai plika karte. Man gan 5000 adblokeru visādu.</p>\n</blockquote>\n<p>Fortherecord, man rāda karti :)</p>",
+        "id": 429373195,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1711368585
+    },
+    {
+        "content": "<p>Intr, kāpēc šim esot ātruma ierobežojums 10?<br>\n<a href=\"https://cqr.em.id.lv/?anzeige=cqi&amp;map=16.5%2F24.1652%2F56.997\">https://cqr.em.id.lv/?anzeige=cqi&amp;map=16.5%2F24.1652%2F56.997</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://cqr.em.id.lv/?anzeige=cqi&amp;map=16.5%2F24.1652%2F56.997\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/ff0f5014a02c22aebe159e589903fb4ea173a9ff\\/68747470733a2f2f6371722e656d2e69642e6c762f736f6369616c2d73686172696e672e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://cqr.em.id.lv/?anzeige=cqi&amp;map=16.5%2F24.1652%2F56.997\" title=\"Cycling Quality Index Map (BETA-Version)\">Cycling Quality Index Map (BETA-Version)</a></div><div class=\"message_embed_description\">OSM kann die Verkehrswende begleiten und beschleunigen mit Tagging, Tools und Analysen.</div></div></div>",
+        "id": 429376704,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1711369176
+    },
+    {
+        "content": "<p>living_street ir uzlikts defaultā 10</p>",
+        "id": 429377997,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1711369392
+    },
+    {
+        "content": "<p>drošvien <a href=\"https://github.com/SupaplexOSM/OSM-Cycling-Quality-Index/blob/d289d9ca189e7cdaf318ffebd31485dc1b1d2702/cycling_quality_index.py#L937\">https://github.com/SupaplexOSM/OSM-Cycling-Quality-Index/blob/d289d9ca189e7cdaf318ffebd31485dc1b1d2702/cycling_quality_index.py#L937</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/SupaplexOSM/OSM-Cycling-Quality-Index/blob/d289d9ca189e7cdaf318ffebd31485dc1b1d2702/cycling_quality_index.py#L937\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/f8b0db8daf1013f39a1f866c0e0daac245a74d9a\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f313035623433316339663365633063333435326638386666303639636539376163383033356361613864313938313764346337396136326361333464316339342f53757061706c65784f534d2f4f534d2d4379636c696e672d5175616c6974792d496e646578)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/SupaplexOSM/OSM-Cycling-Quality-Index/blob/d289d9ca189e7cdaf318ffebd31485dc1b1d2702/cycling_quality_index.py#L937\" title=\"OSM-Cycling-Quality-Index/cycling_quality_index.py at d289d9ca189e7cdaf318ffebd31485dc1b1d2702 · SupaplexOSM/OSM-Cycling-Quality-Index\">OSM-Cycling-Quality-Index/cycling_quality_index.py at d289d9ca189e7cdaf318ffebd31485dc1b1d2702 · SupaplexOSM/OSM-Cycling-Quality-Index</a></div><div class=\"message_embed_description\">Cycling quality index based on OpenStreetMap. Contribute to SupaplexOSM/OSM-Cycling-Quality-Index development by creating an account on GitHub.</div></div></div>",
+        "id": 429378128,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711369417
+    },
+    {
+        "content": "<p>Tur kaut kā ļoti dīvaini integrējas sidepath iekš ielas lai samazinātu ātrumu</p>",
+        "id": 429378536,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711369487
+    },
+    {
+        "content": "<p>Latvijā tur gan uzreiz var <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amaxspeed%3D35\">maxspeed=35</a> likt, jo, ja jau gājējiem ietve, nav ko te vazāties, un dzīvojamās zonas zīme vispār tikai tāds ieteikums</p>",
+        "id": 429378713,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711369517
+    },
+    {
+        "content": "<p>Te traffic_claming vispār nav ņemts vērā...</p>",
+        "id": 429379406,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711369625
+    },
+    {
+        "content": "<p>Nomainīju noklusējuma iestatījumus un pieliku klāt ietves. <a href=\"https://github.com/GearKite/OSM-Cycling-Quality-Index\">Kods</a> <a href=\"https://cqr.em.id.lv/\">Karte</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/GearKite/OSM-Cycling-Quality-Index\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/b55a148cd29bdf4f09066331716fb403f2529e17\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f383439366232363531326562666266666333663434613861363365333864376132633361383636633732393765383364343634383537303732326366383862642f476561724b6974652f4f534d2d4379636c696e672d5175616c6974792d496e646578)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/GearKite/OSM-Cycling-Quality-Index\" title=\"GitHub - GearKite/OSM-Cycling-Quality-Index\">GitHub - GearKite/OSM-Cycling-Quality-Index</a></div><div class=\"message_embed_description\">Contribute to GearKite/OSM-Cycling-Quality-Index development by creating an account on GitHub.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://cqr.em.id.lv/\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/ff0f5014a02c22aebe159e589903fb4ea173a9ff\\/68747470733a2f2f6371722e656d2e69642e6c762f736f6369616c2d73686172696e672e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://cqr.em.id.lv/\" title=\"Cycling Quality Index Map (BETA-Version)\">Cycling Quality Index Map (BETA-Version)</a></div><div class=\"message_embed_description\">OSM kann die Verkehrswende begleiten und beschleunigen mit Tagging, Tools und Analysen.</div></div></div>",
+        "id": 429433940,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1711379636
+    },
+    {
+        "content": "<p>Tagad arī Chromium browserī nestrādā <span aria-label=\"rolling on the floor laughing\" class=\"emoji emoji-1f923\" role=\"img\" title=\"rolling on the floor laughing\">:rolling_on_the_floor_laughing:</span></p>",
+        "id": 429481818,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711390523
+    },
+    {
+        "content": "<p>Atver devtools un paskaties, vai tev ielādējās <code>https://cqr.em.id.lv/project_cqi/cycling_quality_index.pmtiles</code>, jo man viss strādā.</p>",
+        "id": 429482301,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1711390694
+    },
+    {
+        "content": "<div class=\"codehilite\"><pre><span></span><code>Error: Wrong magic number for PMTiles archive\n    at CqiMap.D4xrzG8i.js:588:233142\n    at Generator.next (&lt;anonymous&gt;)\n    at R (CqiMap.D4xrzG8i.js:588:218409)\n</code></pre></div>",
+        "id": 429482633,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711390824
+    },
+    {
+        "content": "<p>Firefoxā </p>\n<div class=\"codehilite\"><pre><span></span><code>Error: &quot;gybzaz40aq239tpc&quot;\n    Mu https://cqr.em.id.lv/_astro/CqiMap.D4xrzG8i.js:588\n    getBytes https://cqr.em.id.lv/_astro/CqiMap.D4xrzG8i.js:588\n    R https://cqr.em.id.lv/_astro/CqiMap.D4xrzG8i.js:588\n</code></pre></div>",
+        "id": 429482757,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711390875
+    },
+    {
+        "content": "<p>saminificējuši tur visu &gt;.&lt;</p>",
+        "id": 429482834,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711390910
+    },
+    {
+        "content": "<p>Kā izskatās <code>Network</code> sadaļa?</p>",
+        "id": 429483310,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1711391110
+    },
+    {
+        "content": "<p>Pilns ar visu ko, es nezinu, ko tieši tur meklēt</p>",
+        "id": 429486254,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711392240
+    },
+    {
+        "content": "<p>200 gandrīz viss, 40x un 50x nekādu nav</p>",
+        "id": 429486324,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711392257
+    },
+    {
+        "content": "<p>Kā var tā būt, ka man strādā uz tā paša pārlūka? Pamēģini visus add-ons izslēgt vai atvērt jaunu profilu bez nekā. Arī izslēdz proxy, ja ir, un paskaties vai pārlūks atjaunināts uz jaunāko versiju.</p>",
+        "id": 429487048,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1711392554
+    },
+    {
+        "content": "<p>Chrome man strādā, tas ir ar citiem browseriem visādiem. Nu noteikti tas veidotājs tikai Chromā testējis un viss.</p>",
+        "id": 429490350,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711393776
+    },
+    {
+        "content": "<p>Nesaspringsti par to, es tak to nelietošu regulāri, tas tik tā vienreiz interesei paskatīties.</p>",
+        "id": 429490724,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711393912
+    },
+    {
+        "content": "<p>Man viss rēc iekš Firefox. Ar visu uBlock Origin un vēl kaudzi extensioniem.<br>\nVarbūt tiešām pamēģini privātajā logā un bez extensions, varbūt izdodas atrast, kas Tev tur visu salauž.</p>",
+        "id": 429491083,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1711394042
+    },
+    {
+        "content": "<p>Nesaspringstu, taču man interesē, kāpēc neiet.</p>\n<p>Karte ir no Mapbox, ja es pareizi saprotu šo kodu, tā kā, nav nekāds paštaisītais risinājums, vajadzētu strādāt.</p>",
+        "id": 429491568,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1711394219
+    },
+    {
+        "content": "<p>Mapbox fons pats par sevi strādā, nestrādā līnijas pa virsu - tās līnijas arī ir uz Mapbox skriptu bāzes?</p>",
+        "id": 429491905,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711394357
+    },
+    {
+        "content": "<p>Intr., ka te gājēju celiņiem zemāka indeksa vērrtība, nekā ielām.<br>\n<a href=\"https://cqr.em.id.lv/?anzeige=cqi&amp;map=17.6%2F24.34433%2F57.06604\">https://cqr.em.id.lv/?anzeige=cqi&amp;map=17.6%2F24.34433%2F57.06604</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://cqr.em.id.lv/?anzeige=cqi&amp;map=17.6%2F24.34433%2F57.06604\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/ff0f5014a02c22aebe159e589903fb4ea173a9ff\\/68747470733a2f2f6371722e656d2e69642e6c762f736f6369616c2d73686172696e672e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://cqr.em.id.lv/?anzeige=cqi&amp;map=17.6%2F24.34433%2F57.06604\" title=\"Cycling Quality Index Map (BETA-Version)\">Cycling Quality Index Map (BETA-Version)</a></div><div class=\"message_embed_description\">OSM kann die Verkehrswende begleiten und beschleunigen mit Tagging, Tools und Analysen.</div></div></div>",
+        "id": 429491943,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1711394375
+    },
+    {
+        "content": "<p>Ja nebūtu saminificēts, es varbūt redzētu, kas tieši par kļūdu</p>",
+        "id": 429492164,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711394452
+    },
+    {
+        "content": "<p>Firefoxā izskatās, ka CleanUrls extension kaut bloķēja</p>",
+        "id": 429492912,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711394774
+    },
+    {
+        "content": "<p>Ja ir kāda webdev pieredze, vari mēģināt skatīties <a href=\"https://github.com/GearKite/OSM-Cycling-Quality-Index-Website\">https://github.com/GearKite/OSM-Cycling-Quality-Index-Website</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/GearKite/OSM-Cycling-Quality-Index-Website\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/ddd6e6a5f6a5537c7cd224185f889e9eeb36dab6\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f313261346634613561633036373231353565316333333833666639323132353466613162663462383964333337393633366565383263623033646633643065332f476561724b6974652f4f534d2d4379636c696e672d5175616c6974792d496e6465782d57656273697465)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/GearKite/OSM-Cycling-Quality-Index-Website\" title=\"GitHub - GearKite/OSM-Cycling-Quality-Index-Website\">GitHub - GearKite/OSM-Cycling-Quality-Index-Website</a></div><div class=\"message_embed_description\">Contribute to GearKite/OSM-Cycling-Quality-Index-Website development by creating an account on GitHub.</div></div></div>",
+        "id": 429493062,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1711394835
+    },
+    {
+        "content": "<p>Vivaldi, ko uzliku tikai OSM, lai addoni nebremzē, nav neviena addona vispār, bet nu tur par saderību es nesaspringtu</p>",
+        "id": 429493068,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711394836
+    },
+    {
+        "content": "<p><a href=\"https://cqr.em.id.lv/project_cqi/cycling_quality_index.pmtiles\">https://cqr.em.id.lv/project_cqi/cycling_quality_index.pmtiles</a>  ETag header was removed from this request</p>",
+        "id": 429493714,
+        "sender_full_name": "HellMap",
+        "timestamp": 1711395081
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/cycleway.20quality.20index/near/429491943\">said</a>:</p>\n<blockquote>\n<p>Intr., ka te gājēju celiņiem zemāka indeksa vērrtība, nekā ielām.<br>\n<a href=\"https://cqr.em.id.lv/?anzeige=cqi&amp;map=17.6%2F24.34433%2F57.06604\">https://cqr.em.id.lv/?anzeige=cqi&amp;map=17.6%2F24.34433%2F57.06604</a></p>\n</blockquote>\n<p>Tā visur nav, bet ielas parasti ir platākas, biežāk arī ir uzlikta virsmas kvalitāte un segums. Nevar novērtēt precīzi, ja trūkst datu.</p>",
+        "id": 429494283,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1711395305
+    }
+]

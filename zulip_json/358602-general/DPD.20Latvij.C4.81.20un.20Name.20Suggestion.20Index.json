@@ -1,0 +1,296 @@
+[
+    {
+        "content": "<p>NSI ir viens DPD ieraksts ar brand=\"DPD Pickup Station\"<br>\n<a href=\"https://nsi.guide/index.html?t=brands&amp;k=amenity&amp;v=parcel_locker&amp;tt=dpd\">https://nsi.guide/index.html?t=brands&amp;k=amenity&amp;v=parcel_locker&amp;tt=dpd</a></p>\n<p>Bet Latvijā tas noteikti nav \"Pickup Station\", uz aparātiem rakstīts \"Paku skapis\".<br>\nKo ar šo darām?</p>",
+        "id": 440177119,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716409727
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/9fu42qjaLWhJTE9xRIsohegd/39872916_1416691878475148_6172400408498012160_o-1600x754.jpg\">39872916_1416691878475148_6172400408498012160_o-1600x754.jpg</a><br>\nMeklējot rezultātus, gudrāks nepaliku. Man liekas tas agrāk bija, bet tad viņi brendingu uztaisīju citu. Bet arī agrāk tas laikam tomēr nebija gluži brends.</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/9fu42qjaLWhJTE9xRIsohegd/39872916_1416691878475148_6172400408498012160_o-1600x754.jpg\" title=\"39872916_1416691878475148_6172400408498012160_o-1600x754.jpg\"><img src=\"/user_uploads/49624/9fu42qjaLWhJTE9xRIsohegd/39872916_1416691878475148_6172400408498012160_o-1600x754.jpg\"></a></div>",
+        "id": 440179194,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716410432
+    },
+    {
+        "content": "<p><a href=\"https://github.com/osmlab/name-suggestion-index/pull/7090\">https://github.com/osmlab/name-suggestion-index/pull/7090</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/osmlab/name-suggestion-index/pull/7090\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/ddca7ec8c2485035d53660344b41654df82b4ca1/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f303034343637333233623832613734353431663163636363333637363566393336313365336364616563653164636633353034313765376266366435656666352f6f736d6c61622f6e616d652d73756767657374696f6e2d696e6465782f70756c6c2f37303930&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/osmlab/name-suggestion-index/pull/7090\" title=\"Add more parcel lockers brands by kubahaha · Pull Request #7090 · osmlab/name-suggestion-index\">Add more parcel lockers brands by kubahaha · Pull Request #7090 · osmlab/name-suggestion-index</a></div><div class=\"message_embed_description\">Updated templates with 2 more brands from Poland - based on actual data in OSM database (and my own survey).</div></div></div>",
+        "id": 440179805,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716410636
+    },
+    {
+        "content": "<p><a href=\"https://www.wikidata.org/wiki/Q114273730\">https://www.wikidata.org/wiki/Q114273730</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.wikidata.org/wiki/Q114273730\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/e8427aae23ca2b40c91384478f4761dc7ca14248/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f322f32632f4450445f5069636b75705f53746174696f6e5f696e5f506f7a6e612543352538342e6a70672f36343070782d4450445f5069636b75705f53746174696f6e5f696e5f506f7a6e612543352538342e6a7067&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.wikidata.org/wiki/Q114273730\" title=\"DPD Pickup Station\">DPD Pickup Station</a></div><div class=\"message_embed_description\">Service of delivering parcels to parcel machines or collection points provided by the DPDgroup operator</div></div></div>",
+        "id": 440179830,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716410643
+    },
+    {
+        "content": "<p>\"country Poland\" hmmm</p>",
+        "id": 440179951,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716410670
+    },
+    {
+        "content": "<p>Oi jā, un nepaskatījos nemaz operator.<br>\nIr <a href=\"https://www.wikidata.org/wiki/Q541030\">https://www.wikidata.org/wiki/Q541030</a> , jābūt <a href=\"https://www.wikidata.org/wiki/Q125973085\">https://www.wikidata.org/wiki/Q125973085</a> .</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.wikidata.org/wiki/Q541030\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/5f847f74707b4c9d69223d2efb6b6394c9a78c38/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f312f31632f4e697373616e5f652d4e563230305f4368726f6e6f706f73745f2532384450445f67726f75702532392532435f50617269735f253238323032302532392e6a70672f36343070782d4e697373616e5f652d4e563230305f4368726f6e6f706f73745f2532384450445f67726f75702532392532435f50617269735f253238323032302532392e6a7067&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.wikidata.org/wiki/Q541030\" title=\"DPD\">DPD</a></div><div class=\"message_embed_description\">international package delivery company</div></div></div>",
+        "id": 440180504,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716410876
+    },
+    {
+        "content": "<p>Nu principā tur katrai valstij ir jātaisa un jāskatās, kur kā ir... ehhh</p>",
+        "id": 440180625,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716410912
+    },
+    {
+        "content": "<p>OK, skaidrs, ka jāsplito ārā tikai Latvija noteikti, šobrīd no NSI nāk obvsl nepareizi dati.</p>",
+        "id": 440180684,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716410934
+    },
+    {
+        "content": "<p>Par to brand - jā, OSM carto saprotamu iemeslu dēļ renderē brand, bet nu te jau prasītos pliks \"DPD\".<br>\nJo tehniski operators ir DPD, brands ir tikai \"Paku skapis\"...<br>\nTāpat kā neviens nemeklē \"Smartpost\" skapjus, visi meklē \"Itella\" skapjus.</p>",
+        "id": 440180934,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716411019
+    },
+    {
+        "content": "<p>carto laikam pakomātiem vispirms renderē operator, par brand nemaz neesmu skatījies</p>",
+        "id": 440181017,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716411053
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/DPD.20Latvij.C4.81.20un.20Name.20Suggestion.20Index/near/440180625\">said</a>:</p>\n<blockquote>\n<p>Nu principā tur katrai valstij ir jātaisa un jāskatās, kur kā ir... ehhh</p>\n</blockquote>\n<p>Nu par citām valstīm var viņiem iebakstīt, pullrequestus lai paši pēta ;)</p>",
+        "id": 440181027,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716411060
+    },
+    {
+        "content": "<p>Kodā neskatījos, bet šķiet, ka brand :/<br>\nNSI ir brand=\"DPD Pickup Station\".<br>\n<a href=\"/user_uploads/49624/0bEXWk-XDPaI4se23IrJhEcr/image.png\">DPD pakomāts</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/0bEXWk-XDPaI4se23IrJhEcr/image.png\" title=\"DPD pakomāts\"><img src=\"/user_uploads/49624/0bEXWk-XDPaI4se23IrJhEcr/image.png\"></a></div><p><a href=\"https://www.openstreetmap.org/node/11926517635\">https://www.openstreetmap.org/node/11926517635</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/11926517635\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/11926517635\" title=\"Node: 11926517635 | OpenStreetMap\">Node: 11926517635 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 440181297,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716411158
+    },
+    {
+        "content": "<p>Hmmmmm</p>",
+        "id": 440181365,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716411186
+    },
+    {
+        "content": "<p>Principā jau mēs Latvijā varam vienoties par daudz ko. Tai skaitā <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abrand%3DDPD\">brand=DPD</a> un official_brand=\"Paku skapis\" :D<br>\nLai gan tas varbūt būtu biš par traku \"NSI-ing for the renderer\".</p>",
+        "id": 440181456,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716411225
+    },
+    {
+        "content": "<p>Oh, and <span class=\"user-mention\" data-user-id=\"715892\">@markalex2209</span> - if you can decypher this topic, this is very much on NSI, which you asked about and expressed interest in improving ;)</p>",
+        "id": 440181728,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716411330
+    },
+    {
+        "content": "<p>principā laikam jābūt <code>operator=DPD Latvija</code> un <code>brand=DPD</code> - tipa brends kā operē un operators kā entity, bet vai paku skapjiem DPD is speciāls kaut kāds brendings? vai tiešām <code>DPD Paku skapis</code>?</p>",
+        "id": 440181983,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716411419
+    },
+    {
+        "content": "<p>Es tā saprotu, ka tas Polijas piemērs bija un kastes rakstīts <code>DPD Pickup Station</code> un tāpēc tas paņemts... bet es nez vai tā vajag</p>",
+        "id": 440182127,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716411471
+    },
+    {
+        "content": "<p>Nu virsū ir \"Paku skapis\", bet es nekad to nebiju uztvēris kā brendu.<br>\n<a href=\"/user_uploads/49624/wMPvz_HgXzeF81KQZowQujR7/image.png\">Paku skapis</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/wMPvz_HgXzeF81KQZowQujR7/image.png\" title=\"Paku skapis\"><img src=\"/user_uploads/49624/wMPvz_HgXzeF81KQZowQujR7/image.png\"></a></div>",
+        "id": 440183320,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716411874
+    },
+    {
+        "content": "<p>Un pats \"DPD\" nav daļa no tā brenda, tas ir tikai operators/uzņēmums...</p>",
+        "id": 440183465,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716411932
+    },
+    {
+        "content": "<p><code>brand=dpd Paku Skapis Noformē sūtījumu eserviss.lv Ērti nosūti un saņem šeit 24/7 Paku Skapis dpd</code></p>",
+        "id": 440183488,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716411944
+    },
+    {
+        "content": "<p>;)</p>",
+        "id": 440183605,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716411979
+    },
+    {
+        "content": "<p>Manuprāt \"paku skapis\" ir vienkārši apraksts nosaukumā kā \"Veikals\" un to nav ko bāzt brendā. Viņu mājas lapā 20 varianti kā nosaukti tie skapji</p>",
+        "id": 440183809,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716412076
+    },
+    {
+        "content": "<p>Un tas ir tā, kā to pazīst visā pasaulē. Un tad konkrēti Latvijā ir DPD Latvija operatorā.</p>",
+        "id": 440183950,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716412125
+    },
+    {
+        "content": "<p>Precizējot, ko Tu piedāvā likt \"brand\"?</p>",
+        "id": 440184529,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716412353
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/DPD.20Latvij.C4.81.20un.20Name.20Suggestion.20Index/near/440181983\">said</a>:</p>\n<blockquote>\n<p>principā laikam jābūt <code>operator=DPD Latvija</code> un <code>brand=DPD</code> - tipa brends kā operē un operators kā entity</p>\n</blockquote>",
+        "id": 440184656,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716412413
+    },
+    {
+        "content": "<p>Es varbūt nesaprotu, kas tieši tiek mēģināts ar brendu tikt panākts</p>",
+        "id": 440184706,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716412432
+    },
+    {
+        "content": "<p>Es saprotu - ja nebūtu \"DPD Latvija\" - tad būtu <code>operator=DPD</code> un viss. bet tā kā ir <code>operator=DPD Latvija</code>, tad vajag norādīt, kā to pazīst \"sarunvalodā\" un tāpēc <code>brand=DPD</code></p>",
+        "id": 440184885,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716412501
+    },
+    {
+        "content": "<p>Dažreiz - jo īpaši ar frančīzēm - var būt tā, ka brand=Zināmnosaukums, operator='SIA \"Maijiņa no Ņurdonas\"'.<br>\nVeikaliem tā mēdz būt, bet tur var ar \"name\" parasti izlīdzēties.<br>\nJa sapratu nesaprašanu :)</p>",
+        "id": 440184992,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716412542
+    },
+    {
+        "content": "<p>Man liekas es to arī saku, ja sapratu nesaprašanas paskaidrojumu?</p>",
+        "id": 440185136,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716412586
+    },
+    {
+        "content": "<p>It kā jau to \"Paku skapis\" gribētos kaut kur arī pieglabāt, jo kādam citam operatoram var būt kaut kas pa vidu \"Smartpost\" un \"Paku skapim\".<br>\nBet tas ir bonuss, defaultā pievienojos <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abrand%3DDPD\">brand=DPD</a> :)</p>",
+        "id": 440185176,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716412603
+    },
+    {
+        "content": "<p>(par SIA gan operator:type pastrīdētos vēlreiz, bet labāk ne ;) )</p>",
+        "id": 440185186,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716412609
+    },
+    {
+        "content": "<p>Itellai taču laikam jābūt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abrand%3DSmartpost\">brand=Smartpost</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aoperator%3DItella\">operator=Itella</a> ? Vai arī es to atkal jaucu. Itella ir firma un Smartpost ir viņu paku distribūcijas tikls.</p>",
+        "id": 440185398,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716412686
+    },
+    {
+        "content": "<p><code>inscription=Paku skapis</code></p>",
+        "id": 440185538,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716412737
+    },
+    {
+        "content": "<p>Nu reku mazā aptauja par šo :)<br>\n<a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/balso.C5.A1ana.20-.20k.C4.81.20apz.C4.ABm.C4.93t.20DPD.20pakom.C4.81tus.3F\">#general &gt; balsošana - kā apzīmēt DPD pakomātus?</a></p>",
+        "id": 440185695,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716412787
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/DPD.20Latvij.C4.81.20un.20Name.20Suggestion.20Index/near/440185398\">said</a>:</p>\n<blockquote>\n<p>Itellai taču laikam jābūt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abrand%3DSmartpost\">brand=Smartpost</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aoperator%3DItella\">operator=Itella</a> ? Vai arī es to atkal jaucu. Itella ir firma un Smartpost ir viņu paku distribūcijas tikls.</p>\n</blockquote>\n<p>Jā, tā jābūt (un daudz kur ir).<br>\nBet man tā šķiet viņu mārketinga kļūda, jo liela daļa klientu ar šiem baigi putrojas.</p>",
+        "id": 440185826,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716412831
+    },
+    {
+        "content": "<p>Te gandrīz prasās pēc jauna tega, kas apraksta konkrēta operātora lietoto terminu priekš kaut kāda POI - vieni saka \"brīvkrāns\", citi \"ūdenstruba\", utt. Man tas \"paku skapis\" nevienā esošajā tegā kaut kā nepatīk.</p>",
+        "id": 440185842,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716412839
+    },
+    {
+        "content": "<p>Itella is additionally confusing: while we know it as Itella, IIUC it's posti, as in <a href=\"http://posti.fi\">posti.fi</a><br>\nSo we'd need to recheck what is actual operator in this case.</p>",
+        "id": 440186045,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1716412923
+    },
+    {
+        "content": "<p>Tev gan tajā balsošanā gan nav skaidrs, kas ir operator tegā. Jo es <code>brand=DPD</code> neliktu, ja tur jau ir <code>operator=DPD</code></p>",
+        "id": 440186077,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716412934
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"715892\">markalex2209</span> <a href=\"#narrow/stream/358602-general/topic/DPD.20Latvij.C4.81.20un.20Name.20Suggestion.20Index/near/440186045\">said</a>:</p>\n<blockquote>\n<p>Itella is additionally confusing: while we know it as Itella, IIUC it's posti, as in <a href=\"http://posti.fi\">posti.fi</a><br>\nSo we'd need to recheck what is actual operator in this case.</p>\n</blockquote>\n<p>Yeah, AFAIK Itella is part of Posti and \"Itella\" is the name (brand? oh boy...) they use in certain countries (presumably, because \"posti\" is not a good word/name to use)</p>",
+        "id": 440186626,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716413158
+    },
+    {
+        "content": "<p>I think we specify the most specific operator and not who owns them further up - like we would say <code>operator=Riga Candy</code> and not the owner \"European Big Candy Conglomerate\"</p>",
+        "id": 440186965,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716413295
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/DPD.20Latvij.C4.81.20un.20Name.20Suggestion.20Index/near/440186077\">said</a>:</p>\n<blockquote>\n<p>Tev gan tajā balsošanā gan nav skaidrs, kas ir operator tegā. Jo es <code>brand=DPD</code> neliktu, ja tur jau ir <code>operator=DPD</code></p>\n</blockquote>\n<p>Domāju, ka nevajag atstāt tukšu, neatkarīgi no operator. Ja atstās tukšu, tur garantēti visādi brīnumi uzpeldēs gan manuālos editos, gan arī NSI vēlāk...</p>",
+        "id": 440193357,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716415994
+    },
+    {
+        "content": "<p>I think this will be the most appropriate change: <a href=\"https://github.com/markalex2209/name-suggestion-index/compare/main...rename-DPD-Pickup-Station-into-simply-DPD-in-Latvia\">https://github.com/markalex2209/name-suggestion-index/compare/main...rename-DPD-Pickup-Station-into-simply-DPD-in-Latvia</a><br>\nDo you agree?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/markalex2209/name-suggestion-index/compare/main...rename-DPD-Pickup-Station-into-simply-DPD-in-Latvia\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/70cab724d6b0ff3159a1917965f699047aece791/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f646139313638396336363565323361326363633536386430326331383061646664353732626166346461643836353230636633666637356432373933303137622f6d61726b616c6578323230392f6e616d652d73756767657374696f6e2d696e646578&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/markalex2209/name-suggestion-index/compare/main...rename-DPD-Pickup-Station-into-simply-DPD-in-Latvia\" title=\"Comparing main...rename-DPD-Pickup-Station-into-simply-DPD-in-Latvia · markalex2209/name-suggestion-index\">Comparing main...rename-DPD-Pickup-Station-into-simply-DPD-in-Latvia · markalex2209/name-suggestion-index</a></div><div class=\"message_embed_description\">Canonical common brand names, operators, transit and flags for OpenStreetMap. - Comparing main...rename-DPD-Pickup-Station-into-simply-DPD-in-Latvia · markalex2209/name-suggestion-index</div></div></div>",
+        "id": 440598000,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1716601331
+    },
+    {
+        "content": "<p>Does it not have <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aparcel_mail_in%3Dyes\">parcel_mail_in=yes</a>? I'm 85% sure that all the lockers can also \"send\"</p>",
+        "id": 440637151,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716644354
+    },
+    {
+        "content": "<p>Seems good at a quick glance.<br>\nAs for mail_in, not sure whether 100% of them have it. We could check with DPD or leave it out.</p>",
+        "id": 440650215,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716656404
+    },
+    {
+        "content": "<p>Their website lists collection times per city, but it seems to imply they all can, although it doesn't explicitly say so</p>",
+        "id": 440650347,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716656538
+    },
+    {
+        "content": "<p>Piezvanīju DPD, visiem skapjiem Latvijā ir gan saņemšana, gan nosūtīšana - var likt NSI.</p>",
+        "id": 441235883,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716987657
+    },
+    {
+        "content": "<p>Kā ar <code>brand</code> un <code>operator</code>? Atstāt kā <a href=\"https://github.com/markalex2209/name-suggestion-index/compare/main...rename-DPD-Pickup-Station-into-simply-DPD-in-Latvia\">šeit</a>?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/markalex2209/name-suggestion-index/compare/main...rename-DPD-Pickup-Station-into-simply-DPD-in-Latvia\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/70cab724d6b0ff3159a1917965f699047aece791/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f646139313638396336363565323361326363633536386430326331383061646664353732626166346461643836353230636633666637356432373933303137622f6d61726b616c6578323230392f6e616d652d73756767657374696f6e2d696e646578&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/markalex2209/name-suggestion-index/compare/main...rename-DPD-Pickup-Station-into-simply-DPD-in-Latvia\" title=\"Comparing main...rename-DPD-Pickup-Station-into-simply-DPD-in-Latvia · markalex2209/name-suggestion-index\">Comparing main...rename-DPD-Pickup-Station-into-simply-DPD-in-Latvia · markalex2209/name-suggestion-index</a></div><div class=\"message_embed_description\">Canonical common brand names, operators, transit and flags for OpenStreetMap. - Comparing main...rename-DPD-Pickup-Station-into-simply-DPD-in-Latvia · markalex2209/name-suggestion-index</div></div></div>",
+        "id": 441253127,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1716992947
+    },
+    {
+        "content": "<p>Man patīk :)</p>",
+        "id": 441269696,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716997964
+    },
+    {
+        "content": "<p>Labi, izdarīšu vakarā vai rīt.</p>",
+        "id": 441271905,
+        "sender_full_name": "markalex2209",
+        "timestamp": 1716998656
+    }
+]

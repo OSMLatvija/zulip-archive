@@ -1,0 +1,230 @@
+[
+    {
+        "content": "<p>Berģu ielā ir posms ar otru nosaukumu Ezera prospekts. Adreses vienā pusē ar Berģu, otrā ar Ezera. <a href=\"/user_uploads/49624/wmvFwguogm20g71p6PhW50tu/bergu-ezera-wat.png\">bergu-ezera-wat.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/wmvFwguogm20g71p6PhW50tu/bergu-ezera-wat.png\" title=\"bergu-ezera-wat.png\"><img src=\"/user_uploads/49624/wmvFwguogm20g71p6PhW50tu/bergu-ezera-wat.png\"></a></div><p>Ko par tādiem gadījumiem VZD domā?</p>\n<p>Pašlaik uzliku <code>name:left=Ezera prospekts</code> + <code>name:right=Berģu iela</code></p>",
+        "id": 319954194,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673096878
+    },
+    {
+        "content": "<p>Šis ir interesants gadījums, jo vienā pusē ir Rīga, kurā ir Berģu iela, otrā - Berģi, kur ir Ezera prospekts. Lai nesarežģītu, pašvaldības gan varēja vienoties par vienu nosaukumu. Loģiskākais gan būtu Berģus pievienot Rīgai, jo apbūve saplūst.</p>",
+        "id": 319957109,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673098163
+    },
+    {
+        "content": "<p>Jā, Berģu iela / Ezera prospekts ir burvīgs gadījums.<br>\nKāpēc Garkalne (nu jau Ropaži) turas pie Ezera prospekta, īsti nez. Vietējie lielākoties pat nezina par to otru nosaukumu :)</p>",
+        "id": 320100513,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673198683
+    },
+    {
+        "content": "<p>Sastopos ar šosejām, kurām ir salikti name=  vietās ar ielu nosaukumiem. Piemēram A1 caur Baltezeru ir \"Rīga (Baltezers) — Igaunijas robeža (Ainaži)\", bet reāli tur ir \"Cielaviņu iela\" un \"Tallinas šoseja\" ar tādu ielu adresēm. Un tas name var droši dzīvot route relationā. Jautājums tad vai ceļiem to name ir vispār jāliek un jādublē, ja nosaukums jau ir route? Ko routeri/rendereri dara ar tādiem?</p>",
+        "id": 320275928,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673283400
+    },
+    {
+        "content": "<p>Jā, loģiski šķistu nedublēt un garo šosejas nosaukumu atstāt tikai relācijā. Bet, tā kā OSM vadlīnijas reizēm ar loģiku nedraudzējas, tad pagaidītu kādu zinošāku komentāru.</p>",
+        "id": 320278482,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673284061
+    },
+    {
+        "content": "<p>Vai kaut kur likumos vai kaut kādos neteikumos ir noteikts, cik tālu adrese ar ielu var būt no tās ielas līnijas?</p>",
+        "id": 320486942,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673366983
+    },
+    {
+        "content": "<p>Piemēram, šeit ielas līnija kadastrā beidzas Ziemeļos, bet ir adrese Rietumos vairāk kā 3 km attālumā. <a href=\"/user_uploads/49624/-ZlEPR2th73Ga6NdbkYKsQDr/3km-wat.png\">3km-wat.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/-ZlEPR2th73Ga6NdbkYKsQDr/3km-wat.png\" title=\"3km-wat.png\"><img src=\"/user_uploads/49624/-ZlEPR2th73Ga6NdbkYKsQDr/3km-wat.png\"></a></div>",
+        "id": 320487695,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673367185
+    },
+    {
+        "content": "<p>Vai arī visa Kundziņsala ir Uriekstes iela, un tur vispār kādi 5 km</p>",
+        "id": 320487926,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673367246
+    },
+    {
+        "content": "<p>Adresācijas noteikumu <a href=\"https://likumi.lv/ta/id/324387#p20\">20. punkts</a>: \"Pilsētu un ciemu teritoriju daļās, kur ir ielas, apbūvei paredzētajai zemes vienībai vai ēkai numuru piešķir, izvērtējot konkrēto situāciju un ņemot vērā tuvāko ielu vai ielu, no kuras iespējams pie ēkas piekļūt ar transportu.\" Praktiski gan adreses ne vienmēr noteikumiem atbilst.<br>\nPirmajā piemērā man labāk \"patīk\", kur Buļļu ielas 41A adreses punkts ielikts (zemes vienība, kas ir dzelzceļš, jā, robežojas ar Buļļu ielu). Mazo Apakšgrāvja ielu varētu oficiāli pagarināt līdz Bolderājas 2 stacijai (tālāk ir slēgta dzelzceļa teritorija), kur tā iela jau izbūvēta ir, bet bez nosaukuma.<br>\nKundziņsalas ostas teritorijai piebraukšana ir no Uriekstes ielas. Ostā ielas izdalītas netiks, jo tā ir slēgta teritorija.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://likumi.lv/ta/id/324387#p20\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/91d1c88287840a065f2a7c4bd960e319f144ed00\\/68747470733a2f2f6c696b756d692e6c762f6c696b756d695f62696c6465732f5049432f4c494b3230302e4a5047)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://likumi.lv/ta/id/324387#p20\" title=\"Adresācijas noteikumi\">Adresācijas noteikumi</a></div><div class=\"message_embed_description\">Tiesību akti un to izmaiņas: visi jaunumi un arhīvs. Sistematizēti tiesību akti. Plašas meklēšanas un personalizētās iespējas. Vietni uztur „Latvijas Vēstnesis”</div></div></div>",
+        "id": 320498178,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673369998
+    },
+    {
+        "content": "<p><code>addr:housename=Lapiņu dambis 16</code> Nu kur tik stulba adrese var būt. Pretī ir iela Lapiņu dambis. <a href=\"https://www.openstreetmap.org/node/9887773614\">https://www.openstreetmap.org/node/9887773614</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/9887773614\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/9887773614\" title=\"Node: 9887773614 | OpenStreetMap\">Node: 9887773614 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 321144559,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673611646
+    },
+    {
+        "content": "<p>Pašvaldības neizdarība.</p>",
+        "id": 321150638,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673613627
+    },
+    {
+        "content": "<p>Un pēc importa listes apspriedes, es tā saprotu, ka tas teorētiski <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">botam</a> jāsadala, lai būtu iela un numurs nevis mājas nosaukums <a href=\"https://en.wikipedia.org/wiki/Duck_test\">pēc pīlītes</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/fc94da75988ca0e87c616c0465ccb8790fcbc98a\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f653661366363346131343735326436643063333139386136616462616633336665346538333337653235363034663264373435663962613039616236346636312f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://en.wikipedia.org/wiki/Duck_test\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/b2a507ef463bc0948a3b3db49c373318990c2e4a\\/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f612f61312f4d616c6c617264322e6a70672f36343070782d4d616c6c617264322e6a7067)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://en.wikipedia.org/wiki/Duck_test\" title=\"Duck test - Wikipedia\">Duck test - Wikipedia</a></div><div class=\"message_embed_description\">The duck test is a form of abductive reasoning, usually expressed as \"If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck.\"\n</div></div></div>",
+        "id": 321151085,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673613739
+    },
+    {
+        "content": "<p>Tā kā tie cilvēki neizprot adresāciju Latvijā, tad viņiem šo ir grūti sagremot. Nē, māju nosaukumus dalīt pa laukiem būtu fundamentāla kļūda, jo tiktu radītas neeksistējošas adreses.</p>",
+        "id": 321154574,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673614710
+    },
+    {
+        "content": "<p>Ja cilvēki, meklējot, neliks komatu starp \"ielu\" un \"mājas numuru\", tad Nominatim pareizi atrod:</p>\n<div class=\"codehilite\" data-code-language=\"nominatim\"><pre><span></span><code>Lapiņu dambis 16\n</code></pre></div>\n<p>Ja liek komatu, tad atrod ielu:</p>\n<div class=\"codehilite\" data-code-language=\"nominatim\"><pre><span></span><code>Lapiņu dambis, 16\n</code></pre></div>",
+        "id": 321157231,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673615417
+    },
+    {
+        "content": "<p>Latvijā vispār man prātā nenāktu likt komatu starp ielas nosaukumu un Nr., to meklējot.<br>\nAtsevišķs temats, bet Nominatim Latvijai nav reģionālās konfigurācijas, kas būtu nepieciešama, lai rezultāti atgrieztu to, ko Latvijā sagaidītu (neesmu pētījis, cik daudz tur var ietekmēt). Pielāgot datus kaut kāda rīka noklusētajiem iestatījumiem (un vispār rīkam) nav pareizi.</p>",
+        "id": 321158518,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673615805
+    },
+    {
+        "content": "<p>Lai kādā modelī arī datus pārnestu, tiem joprojām ir jāsakrīt ar to sākotnējo jēgu. Konkrētajā gadījumā jāatbilst Adresācijas noteikumiem. Sadalot mājas nosaukumu pa laukiem, tas vairs neizpildītos.</p>",
+        "id": 321159143,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673615984
+    },
+    {
+        "content": "<p>Atbraucis no lielas daļas pasaules, es rakstītu <code>16 Lapiņu dambis</code> un to neatrod. Kaut kādu valstu dīvainībām arī nevajadzētu kļūt par šķērsli. \"Normālām cilvēkam\" tas izskatās pēc ielas un numura nevis skaitļa, kas \"iebūvēts\" nosaukumā. Es domāju, izņemot adrešu pārzinātājus, neviens pat Latvijā neiedomāsies, ka tas nav iela + numurs, ja parādīs.</p>",
+        "id": 321160249,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673616282
+    },
+    {
+        "content": "<p>Teorētiski var pastāvēt gan iela un Nr., gan it kā tas pats kā mājas nosaukums, jo tās ir divas dažādas lietas.</p>",
+        "id": 321162325,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673616828
+    },
+    {
+        "content": "<p>Jā, iespējams, ka esmu pārāk iekšā adrešu jomā, jo ar tām ir strādāts arī darbā, un līdz ar to doma sākt dalīt māju nosaukumus ir kaut kas nesagremojams. Nedomāju, ka arī VZD šādai interpretācijai piekristu. Katrā ziņā es ko tādu darīt neņemos.</p>",
+        "id": 321162974,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673616982
+    },
+    {
+        "content": "<p>Šo varbūt vajag iesniegumā (Mārupes) pašvaldībai?<br>\nPiekrītu Dāvim, ka mēģināt mainīt datus vēlāk ir grūti un ar kļūdu iespējām.<br>\nŠī būtu atsevišķa kategorija piedāvātajos \"problēmu reģistros\" :)</p>",
+        "id": 321166636,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673618003
+    },
+    {
+        "content": "<p>Man, kā lietotājam galvenais ir, lai ierakstot <code>16 Lapiņu dambis</code>, tā māja būtu atrasta. Tā nevar būt lietotāju problēma, ka likumdošanā kaut kādi brīnumi.</p>",
+        "id": 321167273,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673618177
+    },
+    {
+        "content": "<p>Tieši \"Lapiņu dambis\" jau ne likumdošanā, bet datos.<br>\nJa adreses ir datos pareizas, tad laikam strādā, vai ne?</p>",
+        "id": 321168578,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673618544
+    },
+    {
+        "content": "<p>Es vispār neredzu problēmu izdarīt tā, kā vajag \"lieliem\" OSM datu patērētājiem (Nominatim &amp; Co.), jo katram adrešu punktam ir <code>ref:LV:addr</code>, ar kuru var sameklēt adresi oriģinālā punktuācijā un orfogrāfijā, ja tas ir vajadzīgs.</p>",
+        "id": 321169532,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673618782
+    },
+    {
+        "content": "<p>Teiktu, ka tā ir Nominatim problēma. ieraksti <a href=\"http://BalticMaps.eu\">BalticMaps.eu</a> meklētājā \"mājai dzelzceļam 17\". Advancētāku meklētāju vajag. Vismaz lai māju nosaukumos secību neņem vērā, ja ne locījumus, kas mūsdienās arī nav problēma.</p>",
+        "id": 321169585,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673618797
+    },
+    {
+        "content": "<p>Pēc teksta līdzības arī var meklēt.</p>",
+        "id": 321169858,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673618869
+    },
+    {
+        "content": "<p>OSM datus izmanto ne tikai Nominatim, bet arī citiem mērķiem.</p>",
+        "id": 321170180,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673618941
+    },
+    {
+        "content": "<p>Varētu būt arī citi varianti, kur māju nosaukumos mainot vārdu secību derētu tos atrast, tā ka te tiešām prasītos divas pieejas:</p>\n<ul>\n<li>ziņa pašvaldībai (pašvaldībam), lai labo</li>\n<li>Nominatim feature, kas plašāk meklē nosaukumos</li>\n</ul>",
+        "id": 321170516,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673619030
+    },
+    {
+        "content": "<p>Vai tiešām tas ir normāli pie mums šitā \"ielas\" taisīt... <a href=\"/user_uploads/49624/WhAgHv0DVjqzA1JakRrMlseZ/what-is-this-a-road-for-ants.png\">what-is-this-a-road-for-ants.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/WhAgHv0DVjqzA1JakRrMlseZ/what-is-this-a-road-for-ants.png\" title=\"what-is-this-a-road-for-ants.png\"><img src=\"/user_uploads/49624/WhAgHv0DVjqzA1JakRrMlseZ/what-is-this-a-road-for-ants.png\"></a></div>",
+        "id": 321467702,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673780410
+    },
+    {
+        "content": "<p>Pārējā paredzamajā ielas posmā nav zemes vienības priekš ielas izdalītas. Tiesa gan, ne visur tas ir bijis nosacījums, lai ielu izveidotu. Ja interesē, vari apjautāties pašvaldībai.</p>",
+        "id": 321470699,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673782061
+    },
+    {
+        "content": "<p>Man liekas tas nekur nav priekšnosacījums. Es gan pārsvarā ap Rīgu skatos, bet ielas bez zemes gabaliem ir pilns. Parasti gan kaut kādas nākotnes plānotās, nevis šitādi izgriezumi. Tādu vēl vienu citur redzēju, bet pagaidām tādi 2.</p>",
+        "id": 321474034,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673783735
+    },
+    {
+        "content": "<p>No datu lietojamības viedokļa šis, protams, normāli nav. Interesanti, kāda argumentācija pašvaldībai darīt šādi, nevis uzreiz izdalīt ielu visā tās garumā.</p>",
+        "id": 321475222,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673784269
+    },
+    {
+        "content": "<p>Še jums šāds. Es nosaukumu ieliku piebraucamajam ceļam, mazliet improvizējot.<br>\n<a href=\"/user_uploads/49624/PykC1q9VdBU7hI1qyKCfNT7H/image.png\">Timrotu iela</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/PykC1q9VdBU7hI1qyKCfNT7H/image.png\" title=\"Timrotu iela\"><img src=\"/user_uploads/49624/PykC1q9VdBU7hI1qyKCfNT7H/image.png\"></a></div>",
+        "id": 321666384,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673882496
+    },
+    {
+        "content": "<p>Es parasti cenšos neimprovizēt pārāk daudz, jo pēc tam kaut ko mainot vēlāk nav skaidrs, no kurienes tur saimprovizēts. Tādās vietās vēl drošvien ok, bet ja tur daudz ielu, tad labāk nē.</p>",
+        "id": 321666815,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673882616
+    },
+    {
+        "content": "<p>Noteikti piekrītu, parasti VZD datiem ticu. Lai gan trūkstošās ielas (no cita topika) sarežģī situāciju.</p>",
+        "id": 321669596,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673883437
+    },
+    {
+        "content": "<p><a href=\"https://www.osm.org/node/9837007914\">https://www.osm.org/node/9837007914</a><br>\nVZD datos 1. Maija iela ar lielo burtu, visas pārējās valstī ar mazo<br>\n<a href=\"/user_uploads/49624/i5q0rtRG2iRH1Mf3_wIZmM6S/image.png\">maija ielas</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/i5q0rtRG2iRH1Mf3_wIZmM6S/image.png\" title=\"maija ielas\"><img src=\"/user_uploads/49624/i5q0rtRG2iRH1Mf3_wIZmM6S/image.png\"></a></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.osm.org/node/9837007914\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.osm.org/node/9837007914\" title=\"Node: 9837007914 | OpenStreetMap\">Node: 9837007914 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 321718335,
+        "sender_full_name": "Colby",
+        "timestamp": 1673903438
+    },
+    {
+        "content": "<p>Pašvaldības datu kļūda (lielais burts).<br>\nVienu ielu vispār atradu, kur bija gramatiska kļūda daudzskaitļa veidošanā.<br>\nVarbūt vērts paziņot VZD.</p>",
+        "id": 321727576,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673908684
+    },
+    {
+        "content": "<p>Ā, un šo var pieminēt problēmu reģistra topikā :)</p>",
+        "id": 321727615,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1673908716
+    },
+    {
+        "content": "<p>Jā, VZD paziņot ir vērts.</p>",
+        "id": 321755620,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1673932688
+    }
+]

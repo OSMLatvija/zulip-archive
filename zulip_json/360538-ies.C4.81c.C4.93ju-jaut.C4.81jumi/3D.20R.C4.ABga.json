@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>Vai šis ir atļaujams rīks, ko var lietot kā palīgu Rīgas kartēšanā? <a href=\"https://experience.arcgis.com/experience/4d843616f6b24873a5fbd70656668ce9\">Links</a>, saprotu, ka ir aizliegts lietot ārējās saites priekš kartēšanas, bet vai šis ir ieskaitīts?</p>",
+        "id": 432894944,
+        "sender_full_name": "Rūdolfs",
+        "timestamp": 1712925495
+    },
+    {
+        "content": "<p>Katram slānim sava licenze/avots. Bija pieminēts <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/GEO.20R.C4.AAGA.20licences\">#general &gt; GEO RĪGA licences</a>. Viņiem atvērtie dati (kuri ir) ir kā CC BY 4.0, kas nav saderīga ar OSM. Nezinu, kuri tieši skaitās tie 3D dati, laikam kaut kas kā <a href=\"https://georiga.eu/atvertie-dati/lod2/\">https://georiga.eu/atvertie-dati/lod2/</a> ?</p>",
+        "id": 432896855,
+        "sender_full_name": "HellMap",
+        "timestamp": 1712926189
+    },
+    {
+        "content": "<p>Jāraksta viņiem vēstules, lai iedod OSM atļauju uz datiem, lai būtu pilnīgi pareizi...</p>",
+        "id": 432897095,
+        "sender_full_name": "HellMap",
+        "timestamp": 1712926261
+    },
+    {
+        "content": "<p>Okay, labi, būs jāraksta un jājautā.</p>",
+        "id": 432903408,
+        "sender_full_name": "Rūdolfs",
+        "timestamp": 1712928316
+    },
+    {
+        "content": "<p>Labas ziņas, man atrakstīja, ka drīkstot lietot Rīgas realitātes modeli priekš kartēšanas. Skaidro vairāk, ka tā kā ir publiski pieejams aplūkošanai ikvienam interesentam, līdz ar to var lietot.</p>",
+        "id": 433841030,
+        "sender_full_name": "Rūdolfs",
+        "timestamp": 1713375342
+    },
+    {
+        "content": "<p>Doma protams laba, bet tikai diemžēl licenzēšanas gadījumos tas ir nedaudz sarežģītāk. Piemēram, tas, ka publiski pieejams neko nenozīmē - licenzei ai atrunai tik un tā jābūt, lai to izmantotu. Un, kā jau minēts, tur visur ir pielikti CC BY licenezes, kas nav saderīgas ar OSM. Ja viņi netaisa citu licenzi, tad šādai atbildei vēstulē ir jābūt publiski dokumentētai kā oficiālai atļaujai lietot OSM atbilstoši visām OSM licenzes prasībām.</p>",
+        "id": 433842036,
+        "sender_full_name": "HellMap",
+        "timestamp": 1713375745
+    },
+    {
+        "content": "<p><a href=\"https://osmfoundation.org/wiki/Licence/Licence_Compatibility#CC_BY\">https://osmfoundation.org/wiki/Licence/Licence_Compatibility#CC_BY</a></p>",
+        "id": 433842150,
+        "sender_full_name": "HellMap",
+        "timestamp": 1713375799
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Import/Getting_permission\">https://wiki.openstreetmap.org/wiki/Import/Getting_permission</a></p>",
+        "id": 433842222,
+        "sender_full_name": "HellMap",
+        "timestamp": 1713375837
+    },
+    {
+        "content": "<p>Neviens jau protams tev neko neteiks, ja tu vai kāds cits to izmantos. Bet, ja tu jautā, \"vai es drīkstu izmantot?\", tad, precīza atbilde ir \"nē\". Es protams nezinu tās vēstules saturu, bet arī iespējams, ka konkrēti tu individuāli tagad vari, jo esi saņēmis atsevišķu atļauju.</p>",
+        "id": 433842471,
+        "sender_full_name": "HellMap",
+        "timestamp": 1713375931
+    },
+    {
+        "content": "<p>Jā, mums vajadzētu rakstisku atļauju izmantot OSM vajadzībām. Pie tam, no personas, kam ir tiesības tādu sniegt.</p>",
+        "id": 433866994,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1713384692
+    }
+]

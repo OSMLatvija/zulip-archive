@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/building.20labojumi.20p.C4.93c.20nosaukuma/near/320968208\">said</a>:</p>\n<blockquote>\n<div class=\"codehilite\" data-code-language=\"overpass\"><pre><span></span><code>[out:json][timeout:24];\n{{geocodeArea:latvia}}-&gt;.searchArea;\nway[building][building!=kindergarten][name~\"pirmsskolas izglītības iestāde\"](area.searchArea);\nout geom;\n</code></pre></div>\n<p>Nav īpaši daudz.</p>\n</blockquote>\n<p>Laikam salaboju visus. Grūtākais bija <a href=\"https://www.openstreetmap.org/changeset/131224921\">šeit</a>. Sekoju <a href=\"https://wiki.openstreetmap.org/wiki/Tag:amenity=school?uselang=en#Multiple_school_on_one_site\">šiem noteikumiem</a>.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/changeset/131224921\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/changeset/131224921\" title=\"Changeset: 131224921 | OpenStreetMap\">Changeset: 131224921 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 321134416,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673608508
+    },
+    {
+        "content": "<p>dažus ar addr:housename= un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aplace%3Disolated_dwelling\">place=isolated_dwelling</a> var atrast<br>\n<a href=\"https://www.openstreetmap.org/way/183597441\">https://www.openstreetmap.org/way/183597441</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/183597441\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/183597441\" title=\"Way: 183597441 | OpenStreetMap\">Way: 183597441 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 321135754,
+        "sender_full_name": "Colby",
+        "timestamp": 1673608986
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/pirmsskolas.20izgl.C4.ABt.C4.ABbas.20iest.C4.81des/near/321134416\">said</a>:</p>\n<blockquote>\n<p>Grūtākais bija <a href=\"https://www.openstreetmap.org/changeset/131224921\">šeit</a>.</p>\n</blockquote>\n<p>Man liekas te varēja \"if the school has its own building for its exclusive use on the grounds, add the amenity-tag to the building outline\"</p>",
+        "id": 321135856,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673609024
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/pirmsskolas.20izgl.C4.ABt.C4.ABbas.20iest.C4.81des/near/321135856\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/pirmsskolas.20izgl.C4.ABt.C4.ABbas.20iest.C4.81des/near/321134416\">said</a>:</p>\n<blockquote>\n<p>Grūtākais bija <a href=\"https://www.openstreetmap.org/changeset/131224921\">šeit</a>.</p>\n</blockquote>\n<p>Man liekas te varēja \"if the school has its own building for its exclusive use on the grounds, add the amenity-tag to the building outline\"</p>\n</blockquote>\n<p>Un novākt tos liekus <img alt=\":node:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40175.png\" title=\"node\">?</p>",
+        "id": 321136212,
+        "sender_full_name": "i-ky",
+        "timestamp": 1673609135
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/pirmsskolas.20izgl.C4.ABt.C4.ABbas.20iest.C4.81des/near/321136212\">said</a>:</p>\n<blockquote>\n<p>Un novākt tos liekus <img alt=\":node:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40175.png\" title=\"node\">?</p>\n</blockquote>\n<p>Tā sanāk - te ir viena ēka katram. Tas node gadījums es tā saprotu ir tikai ja daudz ēku un nevar pielikt vienai. Protams var būt, ka viņi tur izmanto viens otra puses, bet nu...</p>",
+        "id": 321136743,
+        "sender_full_name": "HellMap",
+        "timestamp": 1673609308
+    }
+]
