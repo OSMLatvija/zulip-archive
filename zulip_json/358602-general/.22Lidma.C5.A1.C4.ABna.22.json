@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p><a href=\"https://www.openstreetmap.org/way/1288405571\">https://www.openstreetmap.org/way/1288405571</a> <br>\n<a href=\"/user_uploads/49624/lhNpvBAi6nu2soZpRo3BrhB6/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/lhNpvBAi6nu2soZpRo3BrhB6/image.png\" title=\"image.png\"><img data-original-dimensions=\"822x647\" src=\"/user_uploads/thumbnail/49624/lhNpvBAi6nu2soZpRo3BrhB6/image.png/840x560.webp\"></a></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/1288405571\" style='background-image: url(\"https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67\")'></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/1288405571\" title=\"Way: ‪Lidmašīna TU-134‬ (‪1288405571‬)\">Way: ‪Lidmašīna TU-134‬ (‪1288405571‬)</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 475516945,
+        "sender_full_name": "HellMap",
+        "timestamp": 1728379194
+    },
+    {
+        "content": "<p>Man liekas, ka ir pareizi uzzīmēts (daži lidaparāti vēl nav iezīmēti). Bet diezgan forši izskatās caur \"Esri World Imagery\".</p>",
+        "id": 475600041,
+        "sender_full_name": "Rūdolfs",
+        "timestamp": 1728402143
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dyes\">building=yes</a> šeit ir tipisks <a href=\"https://wiki.openstreetmap.org/wiki/Tagging_for_the_renderer\">https://wiki.openstreetmap.org/wiki/Tagging_for_the_renderer</a> - tā nu nekādā veidā nav ēka</p>",
+        "id": 475601389,
+        "sender_full_name": "HellMap",
+        "timestamp": 1728402488
+    },
+    {
+        "content": "<p>Vēl pa 2iem elementiem tegi sadalīti, duplicēts nosaukums</p>",
+        "id": 475601461,
+        "sender_full_name": "HellMap",
+        "timestamp": 1728402510
+    },
+    {
+        "content": "<p>No paved area izgriezts kā multipoligons it kā zem tā nebūtu</p>",
+        "id": 475601508,
+        "sender_full_name": "HellMap",
+        "timestamp": 1728402525
+    },
+    {
+        "content": "<p>Tam es piekritīšu, bet varbūt tajās lidmašīnās var ieiet iekšā, bet tā pat. Domāju, ka <a href=\"https://wiki.openstreetmap.org/wiki/Tag:historic%3Daircraft\">historic = aircraft</a> der.</p>",
+        "id": 475604111,
+        "sender_full_name": "Rūdolfs",
+        "timestamp": 1728403249
+    },
+    {
+        "content": "<p>Nu jā, miskastē arī var ielīst, bet par building gan tas nepaliek <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>",
+        "id": 475604858,
+        "sender_full_name": "HellMap",
+        "timestamp": 1728403438
+    },
+    {
+        "content": "<p>Nu jā</p>",
+        "id": 475621976,
+        "sender_full_name": "Rūdolfs",
+        "timestamp": 1728407890
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>Ārpus Latvijas populāri ir \"projekti\" - ne tādā nozīmē, kā <span class=\"user-mention\" data-user-id=\"573577\">@Regita Zeiļa</span> nesen ieminējās, bet kā kartēšanas aktivitātes.<br>\nPiemēram, Īrijā sazīmēja visas ēkas, kaut kur laikam Anglijā saules paneļus utt.<br>\nArī mums ir bijuši dažādi projekti un projektiņi - pēc-LVM-importa satīrīšana, LVC ceļu ref salikšana, opening_hours satīrīšana, upju gultņu precizēšana/iezīmēšana utt.</p>\n<p>Piedāvāju izveidot jaunu Zulip stream (#projekti), kurā tēmas varētu būt tieši šādas aktivitātes.<br>\nPamatkritēriji - pietiekami specifiski nosacījumi (scope) un skaidri \"pabeigšanas\" noteikumi.<br>\nMinētu, ka projekti varētu būt no kādas nedēļas garumā līdz gadam-pāris (lai ir vismaz nosacīti pabeidzami).</p>\n<p>Ieguvumi:</p>\n<ul>\n<li>Var pareklamēt kādu aktivitāti/projektu, kas palīdz citiem iesaistīties izmaiņu veikšanā.</li>\n<li>Info par projektiem var palīdzēt datu lietotājiem - iespēja uzzināt, ka kāda datu kategorija pieejama un/vai ir kādā \"completeness\" stadijā.</li>\n<li>Var būt labs pārskats vēlāk par to, ko Latvijas kopiena ir darījusi.</li>\n<li>Ārpus-kopienas dalīšanās - lielāka iespēja kādam uzzināt, kas notiek / ir pieejams OSM datos Latvijā.</li>\n</ul>",
+        "id": 324781410,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675114521
+    },
+    {
+        "content": "<p>Kas ir mērķauditorija? Stream ir veids, ka pārvaldīt subscriptions/subscribers un man pašlaik grūti iedomāties, kas būs šī stream'a subscriber.</p>",
+        "id": 324840111,
+        "sender_full_name": "i-ky",
+        "timestamp": 1675148662
+    },
+    {
+        "content": "<p>Ja projekts ir, piemēram, par veloinfrastruktūru, kur to likt? Projektu stream'ā vai <a class=\"stream\" data-stream-id=\"360539\" href=\"/#narrow/stream/360539-veloinfrastrukt.C5.ABra\">#veloinfrastruktūra</a>?</p>",
+        "id": 324840298,
+        "sender_full_name": "i-ky",
+        "timestamp": 1675148744
+    },
+    {
+        "content": "<p>Mērķauditorija - projektu aktīvisti un tie, kam interesē šie projekti.<br>\nŠeit gan es laikam streamu vairāk izmantotu kā organizēšanas rīku, ne primāri subscriptions.<br>\nT.i., šobrīd nav iespējams atrast visus projektus.</p>\n<p>Veloinfras projekti - droši vien tā organiski, sākotnēji var apspriest velo streamā, kad tas tiek formulēts kā projekts, parādās projektu streamā.<br>\nTur diez vai vajag milzīgu birokrātiju, gan jau laika gaitā izveidosies pieņemami procesi.</p>",
+        "id": 324849493,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675152956
+    },
+    {
+        "content": "<p>Mana pagaidu reakcija uz visu šo ir <span aria-label=\"meh\" class=\"emoji emoji-1fae4\" role=\"img\" title=\"meh\">:meh:</span><br>\nReklamēt var jebkuru topic'u no jebkura stream'a, viss ir publisks, ir arhīvs.<br>\nSameklēt, ar ko var palīdzēt, var pēc topic'u saraksta (meklēt nerezolvētus) un izmantojot <span aria-label=\"search\" class=\"emoji emoji-1f50d\" role=\"img\" title=\"search\">:search:</span> Varam ieviest atslēgvārdu (piemēram <code>#teirdarbs</code>), lai tas būtu vienkāršāk.<br>\nŠaubos, ka no sarakstes būs viegli saprast completeness, tam prasās kaut kādu dashboard ar lielu skaitli procentos.<br>\nKo citi izmanto tādiem \"projektiem\"? (Tu pieminēji, ka tie ir populāri ārpus Latvijas.)<br>\nMums ir GitHub organizācija, varbūt ir vērts paskatīties uz <a href=\"https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects\">GitHub Projects</a>.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/9584cd39a683b9a4afc1c82dcfd92b6f7dc45189\\/68747470733a2f2f6769746875622e6769746875626173736574732e636f6d2f696d616765732f6d6f64756c65732f6f70656e5f67726170682f6769746875622d6c6f676f2e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects\" title=\"About Projects - GitHub Docs\">About Projects - GitHub Docs</a></div><div class=\"message_embed_description\">Projects is an adaptable, flexible tool for planning and tracking work on GitHub.</div></div></div>",
+        "id": 324890539,
+        "sender_full_name": "i-ky",
+        "timestamp": 1675165796
+    },
+    {
+        "content": "<p>Es arī ieteiktu pārvietot šo topic'u uz <a class=\"stream\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general\">#general</a>, tur vairāk cilvēku to ieraudzīs un, iespējams, izteiks viedokļus.</p>",
+        "id": 324890891,
+        "sender_full_name": "i-ky",
+        "timestamp": 1675165902
+    }
+]

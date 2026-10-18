@@ -1,0 +1,80 @@
+[
+    {
+        "content": "<p>Priekšlikums <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">botam</a> pielikt, lai:<br>\n1) dzēš <a href=\"https://wiki.openstreetmap.org/wiki/Key:addr:floor\">addr:floor</a>, ja ir norādīts <a href=\"https://wiki.openstreetmap.org/wiki/Key:level\">level</a>,<br>\n2) aizstāj addr:floor (vērtība mīnus 1) ar level, kur level nav noradīts un addr:floor ir integer. Ja <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aaddr%3Afloor%3DG\">addr:floor=G</a>, tad <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alevel%3D0\">level=0</a>.<br>\nŠībrīža addr:floor lietojums (lietots tikai punktiem) un level vērtībām: <a href=\"user_uploads/49624/Yih-Quka7rNP5iqgqjIZwIZJ/floor_level.xlsx\">floor_level.xlsx</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 396764352,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1697384350
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Key%3Alevel\">level=*</a> ir fiziskais stāvs un <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aaddr%3Afloor\">addr:floor=*</a> ir loģiskais/adreses stāvs. Manuprāt, tos nevajag jaukt kopā. Stāvi pasaulē ļoti bieži ir ar burtiem, ar izlaistiem burtiem (piemēram I jo izskatās pēc 1) un pat nummuriem (piemēram, 13) un nekur nav teikts, ka tie sakrīt ar level+1, īpaši jo stāvus skaita dažādi dažādās vietās. Man neliekas laba doma taisīt izņēmumu Latvijai - OSM nav vietējais projekts. Ja uzņēmums vai ēka norāda savus stāvus adresēs, tad to arī vajadzētu likt addr:floor. Un ja level nesakrīt ar to, kā OSM skaita, tad arī level klāt. Ja stāvi nav nummurēti/apzīmēti speciāli, tad tikai level.</p>",
+        "id": 396765574,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697385438
+    },
+    {
+        "content": "<p>Atskaitot dažas kļūdas, visiem ierakstiem Latvijā level ir addr:floor-1, līdz ar to kamdēļ dublēt tos pašus datus divreiz. Pat, ja ir ar burtiem (LV šobrīd faktiski nav, jo ar G ir domāts ground floor un H ir pārrakstīšanās, jo <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alevel%3D0\">level=0</a>), var izmantot <a href=\"https://wiki.openstreetmap.org/wiki/Key:level:ref\">level:ref</a> (\"<a href=\"https://wiki.openstreetmap.org/wiki/Key%3Alevel%3Aref\">level:ref=*</a> (if also used) will usually have the same value as addr:floor\"). Būtībā jau addr:floor ir paredzēts adresācijai, bet adresācijā Latvijā stāvus nelieto, tikai dzīvokļus. Atstāju tikai tāpēc, ka norāda stāvu, kas ir noderīga informācija, bet, tagad skatoties, to taču var norādīt tikai ar level.</p>",
+        "id": 396768157,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1697387614
+    },
+    {
+        "content": "<p>OSM lieto pasaulei standarda adresāciju nevis Latvijas speciālo. Tas, ka Latvijā nav adresēs stāvi neko priekš OSM nenozīmē. Var paņemt jebkuru saitu, piemēram <a href=\"https://kpfi.lv/index.php?page=kontakti\">https://kpfi.lv/index.php?page=kontakti</a> un te smuki \"Adrese: Maskavas iela 165, Rīga, LV-1019 (3. stāvs)\". Tas ir tas, ko lietotājs gaida un addr:floor is tieši tam atbilstošs un aplikācijas to pareizi norādīs. Kāpēc tas būtu jāmaina uz level?</p>",
+        "id": 396768757,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697388263
+    },
+    {
+        "content": "<p>Level ir 974 objektiem, addr:floor 83 - par kārtu mazāk. Ir vēl level:ref, bet visi 27 nepareizi (1st floor un 2nd floor vietā būtu jābūt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alevel%3D0\">level=0</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alevel%3D1\">level=1</a>). Lietotājs pēc level neatradīs, bet pēc addr:floor atradīs? Jā, ja gala lietotājam stāvs tiek pasniegts, Latvijā tam nepieplusojot 1, tad ļoti iespējams, ka neatradīs. Vai tāpēc būtu visiem level jāveido kopijas ar addr:floor, bet ar vērtību -1, jo tas ir tas, ko lietotājs gaida?</p>",
+        "id": 396769373,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1697388967
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571929\">Dāvis Kļaviņš</span> <a href=\"#narrow/stream/360959-adreses/topic/Aizst.C4.81t.20addr.3Afloor.20ar.20level/near/396768157\">said</a>:</p>\n<blockquote>\n<p>Atskaitot dažas kļūdas, visiem ierakstiem Latvijā level ir addr:floor-1, līdz ar to kamdēļ dublēt tos pašus datus divreiz.</p>\n</blockquote>\n<p>Tamdēļ, ka pietiek ar vienu izņēmumu, lai pirmais apgalvojums kļūtu aplams.<br>\n<a href=\"https://rationalwiki.org/wiki/Fun:Proof_that_all_odd_numbers_are_prime\">https://rationalwiki.org/wiki/Fun:Proof_that_all_odd_numbers_are_prime</a></p>",
+        "id": 396843410,
+        "sender_full_name": "i-ky",
+        "timestamp": 1697442681
+    },
+    {
+        "content": "<p>Vienīgais, ko varu iedomāties, ir izlaisti stāvi loģiskajā numerācijā (piem., 13.) un pieņēmums, ka kādreiz Latvijā tāds gadījums varētu būt. Jo gadījumus, kad stāvs ir apzīmēts ar burtiem vai ciparu un burtu kombināciju (nezinu gan, vai Latvijā tādi gadījumi vispār ir), var aprakstīt ar level:ref.</p>",
+        "id": 396849341,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1697444843
+    },
+    {
+        "content": "<p>Manuprāt, jāizpēta vēl, kas liek tos <code>addr:floor</code>. Ja tas ir EveryDoor vai kaut kāda cita populāra aplikācija, tad sākumā būtu jāparunā ar lietotņu autoriem, lai izslēgt <code>addr:floor</code> pielikšanu Latvijā (līdzīgi kā bija ar <a class=\"stream-topic\" data-stream-id=\"360959\" href=\"/#narrow/stream/360959-adreses/topic/StreetComplete.20quest\">#adreses &gt; StreetComplete quest</a>). Automātiski dzēst \"pa kluso\" nešķiet smuki.</p>",
+        "id": 396851117,
+        "sender_full_name": "i-ky",
+        "timestamp": 1697445412
+    },
+    {
+        "content": "<p>level= es vienmēr esmu licis ar 0-indeksu, jo tieši tā tas sākumā visur pasaulē OSM tika lietots.<br>\naddr:floor uzņēmumiem būtu norādītais stāvs.<br>\nTie tiešām šķiet atsevišķi.</p>",
+        "id": 396870960,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1697451883
+    },
+    {
+        "content": "<p>Ja vien level pieskaitot 1 neiegūtu addr:floor. Bet par to, ka jāapskatās, no kurienes šie nāk, piekrītu.</p>",
+        "id": 396874997,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1697453041
+    },
+    {
+        "content": "<p>Dažus ierakstus paskatījos, no Every Door nāk. Tai aplikācijai vispār valstīm un teritorijām specifiski nosacījumi ir? Skatīt visus vai rakstīt pieprasījumu atlasei, lai pārbaudīti, vai nav citu avotu, nav jēga vēl vairāk laiku tērēt, jo realizācijai tāpat izskatās, ka atbalsta nav. No laika patēriņa gan arī nelietderīgi lietotājiem 2x prasīt ievadīt vienu un to pašu informāciju.</p>",
+        "id": 396963842,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1697483743
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571929\">Dāvis Kļaviņš</span> <a href=\"#narrow/stream/360959-adreses/topic/Aizst.C4.81t.20addr.3Afloor.20ar.20level/near/396963842\">said</a>:</p>\n<blockquote>\n<p>Dažus ierakstus paskatījos, no Every Door nāk. Tai aplikācijai vispār valstīm un teritorijām specifiski nosacījumi ir? Skatīt visus vai rakstīt pieprasījumu atlasei, lai pārbaudīti, vai nav citu avotu, nav jēga vēl vairāk laiku tērēt, jo realizācijai tāpat izskatās, ka atbalsta nav. No laika patēriņa gan arī nelietderīgi lietotājiem 2x prasīt ievadīt vienu un to pašu informāciju.</p>\n</blockquote>\n<p>level vai addr:floor?</p>",
+        "id": 396963957,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1697483780
+    },
+    {
+        "content": "<p>Ja norādīti abi, tad visbiežāk abi ir pielikti vienlaicīgi ar Every Door.</p>",
+        "id": 396964343,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1697483936
+    }
+]

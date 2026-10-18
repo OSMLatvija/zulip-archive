@@ -1,0 +1,434 @@
+[
+    {
+        "content": "<p>Latvijā un Rīgā iezīmētie bankomāti.</p>\n<p>Oranžs - Swedbank<br>\nZaļš - SEB<br>\nLillā - Luminor<br>\nSarkans - Citadele<br>\nZils - pārējie.</p>\n<p>Dažus \"pārējos\" paspēju nedaudz palabot - trūka \"operator\" tags, \"Swedban\" utt :)<br>\n<a href=\"/user_uploads/49624/Glsv1t4HZFJ5zp_NDgHv6SSi/image.png\">Bankomāti Latvijā</a><br>\n<a href=\"/user_uploads/49624/52yh7YJOwznt-A1sRaKv-eOc/image.png\">Bankomāti Rīgā</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/Glsv1t4HZFJ5zp_NDgHv6SSi/image.png\" title=\"Bankomāti Latvijā\"><img src=\"/user_uploads/49624/Glsv1t4HZFJ5zp_NDgHv6SSi/image.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/52yh7YJOwznt-A1sRaKv-eOc/image.png\" title=\"Bankomāti Rīgā\"><img src=\"/user_uploads/49624/52yh7YJOwznt-A1sRaKv-eOc/image.png\"></a></div><div class=\"codehilite\" data-code-language=\"overpass\"><pre><span></span><code>[out:json][timeout:250];\n{{geocodeArea:latvia}}-&gt;.searchArea;\n(\nnwr[\"amenity\"=\"atm\"](area.searchArea);\n);\nout center;\n&gt;;\n\n{{style:\n  node\n    { color:blue; fill-color:blue; }\n  node[operator=Swedbank]\n    { color:orange; fill-color:orange; opacity:1; fill-opacity:.6 }\n  node[operator=~/SEB.*/]\n    { color:green; fill-color:green; opacity:1; }\n  node[operator=~/Luminor.*/]\n    { color:purple; fill-color:purple; opacity:1; }\n  node[operator=Citadele]\n    { color:red; fill-color:red; opacity:1; }\n}}\n</code></pre></div>",
+        "id": 350005107,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681492163
+    },
+    {
+        "content": "<p>Cenšos dabūt OSM \"perfektu\" bankomātu datu kopu - šo to pats pamanu un salaboju, šo to pastāsta cilvēki Mastodon.<br>\nJa ir iespēja, prasiet radiem-draugiem-visiem, kur kaut kas nav pareizi bankomātu datos, un stāstiet man (vai pa tiešo labojiet :) ).</p>\n<p>Te šībrīža situācija, kas šķietami korelē ar iedzīvotāju blīvumu un ekonomisko aktivitāti.<br>\n<a href=\"/user_uploads/49624/sf3ehu021GyJeUmSfexG_-yG/image.png\">Bankomāti Latvijā</a><br>\n<a href=\"/user_uploads/49624/u-BblDKn54UqAa-sWh7DffmJ/image.png\">Bankomāti Rīgā</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/sf3ehu021GyJeUmSfexG_-yG/image.png\" title=\"Bankomāti Latvijā\"><img src=\"/user_uploads/49624/sf3ehu021GyJeUmSfexG_-yG/image.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/u-BblDKn54UqAa-sWh7DffmJ/image.png\" title=\"Bankomāti Rīgā\"><img src=\"/user_uploads/49624/u-BblDKn54UqAa-sWh7DffmJ/image.png\"></a></div>",
+        "id": 371193837,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1688136823
+    },
+    {
+        "content": "<p>Kopš pēdējām ziņām esmu atradis neiezīmētus bankomātus Rīgā, Koknesē un Rēzeknē.<br>\nJauki cilvēki ir palīdzējuši ar precizējumiem vai paši zīmējuši kartē Siguldā (čau Mastodonam :) ), Pāvilostā un citur.<br>\nNoteikti vēl kaut kur kaut kas ir labojams vai pievienojams :)</p>",
+        "id": 377774933,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1690103134
+    },
+    {
+        "content": "<p>Es gribēju izparsēt banku lapu sarakastu, bet viņi bija salikuši aiz skriptiem uz neizparsējamām kartēm ar saviem iebūvētiem datiem. Jāpaskatās vēlreiz. Tad varētu salīdzināt, cik trūkst.</p>",
+        "id": 377787580,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690106442
+    },
+    {
+        "content": "<p>Teorētiski ir <a href=\"https://www.bank.lv/pakalpojumi/bankomatu-karte\">https://www.bank.lv/pakalpojumi/bankomatu-karte</a> , bet tur a) laikam nav atvērti dati; b) arī ir kļūdas...</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.bank.lv/pakalpojumi/bankomatu-karte\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/d3d016b2e1a1add0632dee5e19eb6558c6755552\\/68747470733a2f2f7777772e62616e6b2e6c762f)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.bank.lv/pakalpojumi/bankomatu-karte\" title=\"Bankomātu karte\">Bankomātu karte</a></div><div class=\"message_embed_description\">Karšu risinājums par visiem Latvijas teritorijā uzstādītajiem bankomātiem ar iespēju atrast sev vistuvāko bankomātu, kurā var...</div></div></div>",
+        "id": 377798932,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1690109371
+    },
+    {
+        "content": "<p>Ehh, man tā karte vispār nestrādā tur. Otra karte neko nepievelk. Un nez, cik bieži viņi parsē banku datus vai kā vispār tos saņem. Vislabāk jau no pirmavota ņemt.</p>",
+        "id": 377800131,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690109649
+    },
+    {
+        "content": "<p>Es gan Swedbank atradu datu failu pa taisno, kur viņi ielādē no skripta lapu atverot</p>",
+        "id": 377800295,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690109693
+    },
+    {
+        "content": "<p>SEB pirms daudziem gadiem savus datus iedeva kā CSV. Bet tur bija dažiem bankomātiem pat 100 metru nobīde, nekāds imports nesanāca.</p>",
+        "id": 377802600,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1690110248
+    },
+    {
+        "content": "<p>Es cenšos ņemt no mājaslapas publiskās kartes, kas teorētiski ir, lai cilvēki meklētu - tur kļūdām nevajadzētu būt. SEB paskatīšos vēlāk arī.</p>",
+        "id": 377803812,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690110591
+    },
+    {
+        "content": "<p>Hehe, kas tas par trap location datos <a href=\"/user_uploads/49624/1fSAfUQhd9Z_at80tkYQAO4d/itsatrap.png\">itsatrap.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/1fSAfUQhd9Z_at80tkYQAO4d/itsatrap.png\" title=\"itsatrap.png\"><img src=\"/user_uploads/49624/1fSAfUQhd9Z_at80tkYQAO4d/itsatrap.png\"></a></div>",
+        "id": 377806352,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690111254
+    },
+    {
+        "content": "<p>Viņu pašu mājas lapā arī ir <a href=\"/user_uploads/49624/45G8rrOZAihbSqxH4zbwFBWd/orisit.png\">orisit.png</a> var jau protams uzrakstīt pateikt, bet tad vēl kāds izdomās vispār datu failu noslēpt <span aria-label=\"face with open eyes and hand over mouth\" class=\"emoji emoji-1fae2\" role=\"img\" title=\"face with open eyes and hand over mouth\">:face_with_open_eyes_and_hand_over_mouth:</span></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/45G8rrOZAihbSqxH4zbwFBWd/orisit.png\" title=\"orisit.png\"><img src=\"/user_uploads/49624/45G8rrOZAihbSqxH4zbwFBWd/orisit.png\"></a></div>",
+        "id": 377806756,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690111345
+    },
+    {
+        "content": "<p>Izparsēju Swedbank <a href=\"https://osmlatvija.github.io/Osmalyzer/Bank%20Locations%20report.html\">https://osmlatvija.github.io/Osmalyzer/Bank%20Locations%20report.html</a> Daudz kur liels attālums ar nobīdi, piemēram visādos tirdzniecības centros</p>",
+        "id": 377819740,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690114713
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti/near/377803812\">said</a>:</p>\n<blockquote>\n<p>Es cenšos ņemt no mājaslapas publiskās kartes, kas teorētiski ir, lai cilvēki meklētu - tur kļūdām nevajadzētu būt. SEB paskatīšos vēlāk arī.</p>\n</blockquote>\n<p>Simtsmetrīgas laikam vairs nebūs, bet iebakstīts punkts iepirkšanās centra vidū var gadīties :)</p>",
+        "id": 377833462,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1690118205
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti/near/377806352\">said</a>:</p>\n<blockquote>\n<p>Hehe, kas tas par trap location datos <a href=\"/user_uploads/49624/1fSAfUQhd9Z_at80tkYQAO4d/itsatrap.png\">itsatrap.png</a></p>\n</blockquote>\n<p>Superīgs piemērs par dažādu datu kopu kvalitāti :)</p>",
+        "id": 377833545,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1690118234
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti/near/377833545\">said</a>:</p>\n<blockquote>\n<p>Superīgs piemērs par dažādu datu kopu kvalitāti :)</p>\n</blockquote>\n<p>Elvi arī ir tāds veikals <a href=\"https://osmlatvija.github.io/Osmalyzer/Shop%20Networks%20report.html#g1\">https://osmlatvija.github.io/Osmalyzer/Shop%20Networks%20report.html#g1</a></p>",
+        "id": 377835532,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690118829
+    },
+    {
+        "content": "<p>Elvi piemērs burvīgs - interesanti, kā tāds radies.<br>\nMani Neste baigi atšuva pirms dažiem gadiem, tagad nav skaidrs, vai vērts ar uzņēmumiem vispār sazināties.</p>\n<p>BTW, varbūt veikalu tēmu jāpārnes atsevišķā projekta topikā?</p>",
+        "id": 377870024,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1690128000
+    },
+    {
+        "content": "<p>Nu es jau tikai vienu komentāru. Ja tu gribi vairāk par to, var jau pārnest. Man tur nav pagaidām neko daudz ko patiekt.</p>",
+        "id": 377873180,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690128787
+    },
+    {
+        "content": "<p>Un Elvi koordinātei abi skaitļi vienādi - ievades kļūda.</p>",
+        "id": 377873304,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690128826
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti/near/371193837\">said</a>:</p>\n<blockquote>\n<p>Cenšos dabūt OSM \"perfektu\" bankomātu datu kopu - šo to pats pamanu un salaboju, šo to pastāsta cilvēki Mastodon.<br>\nJa ir iespēja, prasiet radiem-draugiem-visiem, kur kaut kas nav pareizi bankomātu datos, un stāstiet man (vai pa tiešo labojiet :) ).</p>\n<p>Te šībrīža situācija, kas šķietami korelē ar iedzīvotāju blīvumu un ekonomisko aktivitāti.<br>\n<a href=\"/user_uploads/49624/sf3ehu021GyJeUmSfexG_-yG/image.png\">Bankomāti Latvijā</a><br>\n<a href=\"/user_uploads/49624/u-BblDKn54UqAa-sWh7DffmJ/image.png\">Bankomāti Rīgā</a></p>\n</blockquote>\n<p>Jautājums par ATM = vai var norādīt, ka ir contactless?</p>",
+        "id": 379030580,
+        "sender_full_name": "Regita Zeiļa",
+        "timestamp": 1690441768
+    },
+    {
+        "content": "<p>Ļoti labs jautājums. <a href=\"https://wiki.openstreetmap.org/wiki/Tag:amenity%3Datm\">https://wiki.openstreetmap.org/wiki/Tag:amenity%3Datm</a> un diskusiju lapā neko tādu nemanu.</p>\n<p>Maksājumu tagam <a href=\"https://wiki.openstreetmap.org/wiki/Key:payment:*#Contactless_payment\">https://wiki.openstreetmap.org/wiki/Key:payment:*#Contactless_payment</a> ir diezgan daudz dažādas versijas, bet nezinu, vai kas tāds vispār ir atbilstošs ATM.</p>\n<p>Ir arī maz lietots contactless tags (22 reizes): <a href=\"https://taginfo.openstreetmap.org/keys/contactless#values\">https://taginfo.openstreetmap.org/keys/contactless#values</a> . Viens charging_station (laikam jābūt payment), daļa miskastēm, bet daļa arī ATM: <a href=\"https://overpass-turbo.eu/s/1y4C\">https://overpass-turbo.eu/s/1y4C</a> .</p>\n<p>Es piedāvātu lietot <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Acontactless%3Dyes\">contactless=yes</a>/no un dokumentēt to <a href=\"https://wiki.openstreetmap.org/wiki/Tag:amenity%3Datm\">ATM lapā</a>.</p>",
+        "id": 379088177,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1690452499
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti/near/377798932\">said</a>:</p>\n<blockquote>\n<p>Teorētiski ir <a href=\"https://www.bank.lv/pakalpojumi/bankomatu-karte\">https://www.bank.lv/pakalpojumi/bankomatu-karte</a> , bet tur a) laikam nav atvērti dati; b) arī ir kļūdas...</p>\n</blockquote>\n<p>šajā kartē datiem jābūt labākiem kā ir atsevišķu banku mājaslapās (ja vien LB nedod atpakaļ datus, par ko es šaubītos). cik atminos, šajā kartē bankomātis likām pēc adreses (ar visām no tā izrietošajām problēmām :) )</p>",
+        "id": 392655554,
+        "sender_full_name": "Edgars Košovojs",
+        "timestamp": 1695453230
+    },
+    {
+        "content": "<p>Tur atradām bankomātus, kuri dabā jau sen vairs nebija, līdz ar to uzticamība datu kopai samazinājās ;)<br>\nLikšana pēc adreses - o jā, tad skaidrs par novietojumu. Tā daudzās datu kopās joprojām ir pakomāti utt.</p>",
+        "id": 392693202,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1695472231
+    },
+    {
+        "content": "<p>parasti tajos datos, kas sastopami uzņēmumu mājaslapās/datubāzēs, adreses ir labākas kvalitātes nekā koordinātas, tāpēc mēs pārsvarā tās arī izmantojam.</p>",
+        "id": 392792012,
+        "sender_full_name": "Edgars Košovojs",
+        "timestamp": 1695540486
+    },
+    {
+        "content": "<p>Te panesās diskusija par bankomātiem Xā, vai vari iedot Overpass linku, kurā vienuviet var apskatīt iezīmētos? <span class=\"user-mention\" data-user-id=\"568771\">@Rihards Olups</span>  <span aria-label=\"octopus\" class=\"emoji emoji-1f419\" role=\"img\" title=\"octopus\">:octopus:</span></p>",
+        "id": 400771718,
+        "sender_full_name": "Regita Zeiļa",
+        "timestamp": 1699373293
+    },
+    {
+        "content": "<p>Links ir pirmajā messagā, nospiežot \"show more\" un labajā augšajā stūrī kodam ir \"view in overpass\". Tur links garš, bet var uztaisīt īsaku ar Share</p>",
+        "id": 400778916,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699375591
+    },
+    {
+        "content": "<p>Mobilajā lietotnē tas \"View in...\" nestrādā.</p>",
+        "id": 400818147,
+        "sender_full_name": "i-ky",
+        "timestamp": 1699392242
+    },
+    {
+        "content": "<p><a href=\"https://overpass-turbo.eu/s/1D5C\">https://overpass-turbo.eu/s/1D5C</a></p>",
+        "id": 400820264,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699393245
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"573577\">Regita Zeiļa</span> <a href=\"#narrow/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti/near/400771718\">said</a>:</p>\n<blockquote>\n<p>Te panesās diskusija par bankomātiem Xā, vai vari iedot Overpass linku, kurā vienuviet var apskatīt iezīmētos? <span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span>  <span aria-label=\"octopus\" class=\"emoji emoji-1f419\" role=\"img\" title=\"octopus\">:octopus:</span></p>\n</blockquote>\n<p>Jā, pirmais posts un HellMap kopētais links laikam būs pareizie. Diezgan daudz info par nepieciešamām izmaiņām nākusi no <a href=\"https://mastodon.social/@richlv/110198236923813071\">https://mastodon.social/@richlv/110198236923813071</a> .<br>\nVakardienas tikšanās laikā tika pieminēts viens vairs neesošs Brīvības ielā, to šodien pārbaudīju Mapillary bildēs un izņēmu :)</p>\n<p>Kāda diskusija par bankomātiem?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://mastodon.social/@richlv/110198236923813071\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6931e99dd073618cac60c84292fcb0fed13fc999\\/68747470733a2f2f66696c65732e6d6173746f646f6e2e736f6369616c2f6d656469615f6174746163686d656e74732f66696c65732f3131302f3139382f3233362f3232322f3934322f3430382f6f726967696e616c2f663164333865343735633662333931372e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://mastodon.social/@richlv/110198236923813071\" title=\"Rihards Olups (@richlv@mastodon.social)\">Rihards Olups (@richlv@mastodon.social)</a></div><div class=\"message_embed_description\">Attached: 2 images\n\n#OpenStreetMap iezīmētie bankomāti Latvijā un Rīgā.\n\nOranžs - Swedbank\nZaļš - SEB\nLillā - Luminor\nSarkans - Citadele\nZils - pārējie.</div></div></div>",
+        "id": 400928880,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1699444638
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti/near/400928880\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"573577\">Regita Zeiļa</span> <a href=\"#narrow/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti/near/400771718\">said</a>:</p>\n<blockquote>\n<p>Te panesās diskusija par bankomātiem Xā, vai vari iedot Overpass linku, kurā vienuviet var apskatīt iezīmētos? <span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span>  <span aria-label=\"octopus\" class=\"emoji emoji-1f419\" role=\"img\" title=\"octopus\">:octopus:</span></p>\n</blockquote>\n<p>Jā, pirmais posts un HellMap kopētais links laikam būs pareizie. Diezgan daudz info par nepieciešamām izmaiņām nākusi no <a href=\"https://mastodon.social/@richlv/110198236923813071\">https://mastodon.social/@richlv/110198236923813071</a> .<br>\nVakardienas tikšanās laikā tika pieminēts viens vairs neesošs Brīvības ielā, to šodien pārbaudīju Mapillary bildēs un izņēmu :)</p>\n<p>Kāda diskusija par bankomātiem?</p>\n</blockquote>\n<p>Te bija īsumā, bet cik saprotu, kaut kur citur plašāk runāts: <br>\n<a href=\"https://twitter.com/laurijss/status/1721806649474584663?s=61&amp;t=wVXlPNLDSFj7ORfcJwCUjg\">https://twitter.com/laurijss/status/1721806649474584663?s=61&amp;t=wVXlPNLDSFj7ORfcJwCUjg</a></p>",
+        "id": 401440279,
+        "sender_full_name": "Regita Zeiļa",
+        "timestamp": 1699652327
+    },
+    {
+        "content": "<p>Ai, man šo vairs never vaļā :)<br>\nJa nu sanāk iekopēt, būtu burvīgi.</p>",
+        "id": 401441220,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1699653162
+    },
+    {
+        "content": "<p>Vēl noparsēju SEB bankomātus/filiāles <a href=\"https://osmlatvija.github.io/Osmalyzer/SEB%20Locations%20report.html\">https://osmlatvija.github.io/Osmalyzer/SEB%20Locations%20report.html</a> Tādu čakarēšanos sen nebiju darījis... bankas kā parasti pārspēj visus ar stulbām mājas lapām.</p>",
+        "id": 404730884,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701210738
+    },
+    {
+        "content": "<p>Paldies, no šī var kaut ko medīt.<br>\nDaļa gan ir šādi, kur Rocketdata brutāli blakus esošam bankomāta punktam iedēstīja jaunu.<br>\n<a href=\"/user_uploads/49624/xpPG_fs-U4rdTKUsGhe5df89/image.png\">Rocketdata darbs</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/xpPG_fs-U4rdTKUsGhe5df89/image.png\" title=\"Rocketdata darbs\"><img src=\"/user_uploads/49624/xpPG_fs-U4rdTKUsGhe5df89/image.png\"></a></div>",
+        "id": 404823853,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1701251010
+    },
+    {
+        "content": "<p>Vai var kaut kā marķēt vietas, kurās OSM darti daudz labāki (lai nākamajā versijā neparādās)?<br>\n<a href=\"/user_uploads/49624/zoC8BwJ-3laQ8WPzLFh-X4RU/image.png\">SEB dati Vecpiebalgā</a><br>\n<a href=\"/user_uploads/49624/plwTCdNTOXuyGLcNw7KvRtKc/image.png\">SEB dati Ogrē</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/zoC8BwJ-3laQ8WPzLFh-X4RU/image.png\" title=\"SEB dati Vecpiebalgā\"><img src=\"/user_uploads/49624/zoC8BwJ-3laQ8WPzLFh-X4RU/image.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/plwTCdNTOXuyGLcNw7KvRtKc/image.png\" title=\"SEB dati Ogrē\"><img src=\"/user_uploads/49624/plwTCdNTOXuyGLcNw7KvRtKc/image.png\"></a></div>",
+        "id": 404827522,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1701252271
+    },
+    {
+        "content": "<p>Oi, tādu ir simtiem <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>",
+        "id": 404828011,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701252439
+    },
+    {
+        "content": "<p>Tu jau te izvēlējies smukus piemērus, kur blakus. Bankām dažās vietās 300+ metri, kur pēc adreses ielikts.</p>",
+        "id": 404828096,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701252466
+    },
+    {
+        "content": "<p>Nu jā, bet marķējot kā false positives atlikušo būs vieglāk pārbaudīt.</p>",
+        "id": 404828305,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1701252532
+    },
+    {
+        "content": "<p>Te WTF piemērs. Pat adrese te nav...<br>\n<a href=\"/user_uploads/49624/QMMagLh2b9bxBaVQMcYxjAr5/image.png\">SEB dati Ādažos</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/QMMagLh2b9bxBaVQMcYxjAr5/image.png\" title=\"SEB dati Ādažos\"><img src=\"/user_uploads/49624/QMMagLh2b9bxBaVQMcYxjAr5/image.png\"></a></div>",
+        "id": 404828380,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1701252566
+    },
+    {
+        "content": "<p>Jā, varētu padomāt par kaut kādu \"feedback\" sistēmu norādīt, ka viss ok ar \"problēmu\". Te gan \"problēma\" - kā man unikāli atpazīt katru problēmu? Un ja kaut kas izmainās...? Doma laikam oriģināli bija nemēģināt bakstīt manuāli, bet ļaut automātiski salīdzināt.</p>",
+        "id": 404828413,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701252574
+    },
+    {
+        "content": "<p>Jā, Ādažu bankomāts ir tālāk nekā 300 metri :)</p>",
+        "id": 404828523,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701252607
+    },
+    {
+        "content": "<p>Te tas pats. Kaut kāds bankomāts randomā citā veikalā.<br>\n<a href=\"/user_uploads/49624/Kuy0mclPljP-CLRRQfvWKT4o/image.png\">SEB dati Ādažos 2</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/Kuy0mclPljP-CLRRQfvWKT4o/image.png\" title=\"SEB dati Ādažos 2\"><img src=\"/user_uploads/49624/Kuy0mclPljP-CLRRQfvWKT4o/image.png\"></a></div>",
+        "id": 404828668,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1701252672
+    },
+    {
+        "content": "<p>Tagad, kad prakstiski var redzēt, kā izskatās rezultāts, var kaut kā domāt par false positives risināšanu.</p>",
+        "id": 404828684,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701252677
+    },
+    {
+        "content": "<p>Ja es nejaucu - agrāk (laikam 5+ gadi) Ādažos Elvi tur bija vecā ēkā, pēc tam pārbrauca uz jauno ēku. Bet protams banka jau karti nelabos :D</p>",
+        "id": 404829028,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701252737
+    },
+    {
+        "content": "<p>Vēl ir tīri praktiska problēma - es gluži nezinu, kur un kā datus glabāt, ja users tos norādīs. Jo te viss readonly pagaidām. Tas saits arī katru reizi pa jauno nonesās viss. Tad kaut kur atpakaļ githubā - bet tad būs bezgalīgi commiti. Es nez. Maksāt par savu hostingu un vispār tik tālu čakarēties, nezinu.</p>",
+        "id": 404829289,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701252836
+    },
+    {
+        "content": "<p><a href=\"http://github.io\">github.io</a> arī laikam ir static - tur nemaz neielikt kaut ko, kas ne uz usera ekrāna kaut ko dara (tad pašam userim vajadzēs github kontu vai kaut ko tādu)</p>",
+        "id": 404829749,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701252999
+    },
+    {
+        "content": "<p>Pieglabā no bankas mājaslapas izgūtos datus, nākamajā reizē salīdzini pret iepriekšējiem, bet tālak ar OSM salīdzini tikai tos, kas mainījušies, nākuši klāt vai dzēsti. Datus pārbaudei var ielikt kaut rediģējamā Google Spreadsheet, kur papildus kolonna ar pārbaudes statusu. Tehniski prasti, bet vienkārši realizēt.</p>",
+        "id": 404831479,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1701253537
+    },
+    {
+        "content": "<p>Jā, publisku Google spreadsheet lapu varētu izmantot (vai arī ne publisku, bet autorizēt, kurš prasa). Userim gan būs jābūt kontam tam. Gribētos jau ideāli lai OSM kontu lieto, bet ar to tad jātaisa kaut kāds custom risinājums.</p>",
+        "id": 404832750,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701253844
+    },
+    {
+        "content": "<p>Ar \"datiem\" vēl ir problēma, ka tie dati nav īpaši stabili vai standartizēti. Es nevaru tos glabāt sākotnējā veidā (kaut kāds xml vai html gabals vai geo fails vai kas tik ne) - es varu glabāt tikai izparsēto. Tātad es varu identificēt unikāli ierakstus pēc to satura (un kaut kādu hashu uztaisīt). Un tad glabāt sarakstu ar tiem, ko users pasaka \"ir ok\" konkrētam problēmas tipam. Bet tikai te - users jau to saka OSM elementam, ka viss ok. Tāpēc teorētiski es glabātu OSM id un OSM tegus. Citādi - kāds novāks \"SEB\" no nosaukuma, bet tas nerādīs, kā problēmu. No otras puses, kāds pieliks <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Atoilets%3Dyes\">toilets=yes</a> pie tā un tas atkal parādīsies kā problēma. Tāpēc arī te vajag konkrētus tegus saglabāt. Un tad laikam būs tāds dati-osm-rezultāts ieraksts. Hmmm.</p>",
+        "id": 404835456,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701254517
+    },
+    {
+        "content": "<p>Klau, tajos datos nav kaut kāds \"vēsturisks\" atribūts?<br>\nSEB lapā it kā Ādažu duplicētie neparādās.</p>",
+        "id": 404836696,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1701254859
+    },
+    {
+        "content": "<p>Ēēē, tev vajadzēs konkrētāk piemēru/bildi, es ne visai saprotu, ko tas nozīmē. (Jeb precīzāk - tajos visos datus ir tik daudz šķībuma, ka neuzminēt, kura problēma tev <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span> )</p>",
+        "id": 404837360,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701255036
+    },
+    {
+        "content": "<p>Ja tur ir kaut kādi vēsturiski, tad tie ir nenormāli tizli. Piemēram,<br>\n<a href=\"/user_uploads/49624/VeY9R_NdY7EkK6i5ZDfQfaG4/demon.png\">demon.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/VeY9R_NdY7EkK6i5ZDfQfaG4/demon.png\" title=\"demon.png\"><img src=\"/user_uploads/49624/VeY9R_NdY7EkK6i5ZDfQfaG4/demon.png\"></a></div>",
+        "id": 404837620,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701255108
+    },
+    {
+        "content": "<p>Cik es saprotu Ādažus, tad tur ir tā: <br>\n<a href=\"/user_uploads/49624/_DjnEXU4LlzHiO7AA4Ke0yLQ/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/_DjnEXU4LlzHiO7AA4Ke0yLQ/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/_DjnEXU4LlzHiO7AA4Ke0yLQ/image.png\"></a></div>",
+        "id": 404837982,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701255243
+    },
+    {
+        "content": "<p>Laikam jāuztaisa dažādas ikonas. Te teorētiski ir 4 problēmas 2 reāliem gadījumiem. Tā kā tik liels attālums, tad parsētājs tos pat \"nesavieno\". Tāpēc atrod OSM bez datu biedra un atrod SEB ierakstu bez OSM biedra.</p>",
+        "id": 404838540,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701255416
+    },
+    {
+        "content": "<p>Teorētiski, vēl es varētu \"savienot\" pēc sakrītošas adreses un atļaut lielāku attālumu gadījumiem, ja ir šāda \"cieša\" sakritība. Te gan jāparsē tā manuāli rakstītā adrese bankas sarakstā salīdzināt ar OSM adresi.</p>",
+        "id": 404840291,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701255950
+    },
+    {
+        "content": "<p>Ā, sapratu - pie OSM punktiem nemaz nav SEB punktu. Un jā, viņu mājaslapā arī viss tik pat šķībi, pirms tam pārskatījos.<br>\nSEB lapā pat kartes nav, ir tikai linki uz GMaps.</p>",
+        "id": 404842160,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1701256666
+    },
+    {
+        "content": "<p>Varbūt <span class=\"user-mention\" data-user-id=\"573577\">@Regita Zeiļa</span>, <span class=\"user-mention\" data-user-id=\"634605\">@Amanda Anusāne</span> var pastāstīt par <a href=\"https://www.openstreetmap.org/node/3709531147\">https://www.openstreetmap.org/node/3709531147</a> - šis bankomāts tur varbūt vairs nav? :)</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/3709531147\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/3709531147\" title=\"Node: 3709531147 | OpenStreetMap\">Node: 3709531147 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 404946347,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1701290547
+    },
+    {
+        "content": "<p>Uzlaboju nedaudz atpazīšanu arī pavisam tālākiem objektiem, ja iespējams tos identificēt kā cieši sakrītošus (šeit pēc adreses) <a href=\"/user_uploads/49624/NOIaFX5XI-df9SoXiIBDUUGD/SEB-better.png\">SEB-better.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/NOIaFX5XI-df9SoXiIBDUUGD/SEB-better.png\" title=\"SEB-better.png\"><img src=\"/user_uploads/49624/NOIaFX5XI-df9SoXiIBDUUGD/SEB-better.png\"></a></div>",
+        "id": 405119728,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701351675
+    },
+    {
+        "content": "<p>Ooo powah, būs jāspēlējas vēlāk :)</p>",
+        "id": 405196971,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1701376484
+    },
+    {
+        "content": "<p>Tev par prieku <a href=\"https://osmlatvija.github.io/Osmalyzer/Citadele%20Locations%20report.html\">Citadele</a> un <a href=\"https://osmlatvija.github.io/Osmalyzer/Luminor%20Locations%20report.html\">Luminor</a> izparsējumi <span aria-label=\"money face\" class=\"emoji emoji-1f911\" role=\"img\" title=\"money face\">:money_face:</span></p>",
+        "id": 405208560,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701379735
+    },
+    {
+        "content": "<p>Ooo, powah :)</p>",
+        "id": 405320897,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1701422887
+    },
+    {
+        "content": "<p>Un arī šādi.<br>\n<a href=\"/user_uploads/49624/OV4GzEHmJOs2kxRb3pYI5LYu/image.png\">1</a><br>\n<a href=\"/user_uploads/49624/Ho-LdJRgf0NuFBbbnqO3jNkw/image.png\">2</a><br>\n<a href=\"/user_uploads/49624/GJKqmaelqz241baNAHHBLKw-/image.png\">3</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/OV4GzEHmJOs2kxRb3pYI5LYu/image.png\" title=\"1\"><img src=\"/user_uploads/49624/OV4GzEHmJOs2kxRb3pYI5LYu/image.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/Ho-LdJRgf0NuFBbbnqO3jNkw/image.png\" title=\"2\"><img src=\"/user_uploads/49624/Ho-LdJRgf0NuFBbbnqO3jNkw/image.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/GJKqmaelqz241baNAHHBLKw-/image.png\" title=\"3\"><img src=\"/user_uploads/49624/GJKqmaelqz241baNAHHBLKw-/image.png\"></a></div>",
+        "id": 405321072,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1701422950
+    },
+    {
+        "content": "<p>Pfff, nu jā, te reāli bankai jāraksta jāsūdzās tad. To visu viņiem kāds ar rokām tur bakstījis. Un pirms mums diez vai kāds īpaši šitā salīdzinājis. Protams var taisīt to manuālo \"viss ok\", bet nu...</p>",
+        "id": 405321919,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701423245
+    },
+    {
+        "content": "<p>Es to 333 pazinu no pēdējās bildes, kur atvēru. Man vispirms nepieleca, ka tu to pašu vietu 3 reiz pievilki <span aria-label=\"melting face\" class=\"emoji emoji-1fae0\" role=\"img\" title=\"melting face\">:melting_face:</span></p>",
+        "id": 405322402,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701423405
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti/near/404946347\">said</a>:</p>\n<blockquote>\n<p>Varbūt <span class=\"user-mention silent\" data-user-id=\"573577\">Regita Zeiļa</span>, <span class=\"user-mention silent\" data-user-id=\"634605\">Amanda Anusāne</span> var pastāstīt par <a href=\"https://www.openstreetmap.org/node/3709531147\">https://www.openstreetmap.org/node/3709531147</a> - šis bankomāts tur varbūt vairs nav? :)</p>\n</blockquote>\n<p>Ir, ir! Darbojas</p>",
+        "id": 405496145,
+        "sender_full_name": "Regita Zeiļa",
+        "timestamp": 1701494036
+    },
+    {
+        "content": "<p>Super, liels paldies :)<br>\nĻoti interesanti, ka it kā SEB datos tāda nav.<br>\n<a href=\"/user_uploads/49624/0K8dJV6iDFrZ-H5x-edfSr85/image.png\">SEB Rēzeknē</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/0K8dJV6iDFrZ-H5x-edfSr85/image.png\" title=\"SEB Rēzeknē\"><img src=\"/user_uploads/49624/0K8dJV6iDFrZ-H5x-edfSr85/image.png\"></a></div>",
+        "id": 405516447,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1701509071
+    },
+    {
+        "content": "<p>Varbūt tur tomēr nav 2?</p>",
+        "id": 405519922,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701512019
+    },
+    {
+        "content": "<p>Jā, skatos Mapillary - izskatās, ka tomēr varētu būt zudis.<br>\n<span class=\"user-mention\" data-user-id=\"573577\">@Regita Zeiļa</span>, vai ir tieši tas - ēkā, kur agrāk bija DNB?</p>",
+        "id": 405544832,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1701532048
+    },
+    {
+        "content": "<p>Pati filiāle ir blakus zaļajam. Būtu dīvaini, ka vēl viens bankomāts blakus mājā.</p>",
+        "id": 405544945,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701532146
+    },
+    {
+        "content": "<p>O, atradu svaigu Mapillary bildi. Izskatās, ka prom i'.<br>\n<a href=\"https://www.mapillary.com/app/?pKey=998885854641163\">https://www.mapillary.com/app/?pKey=998885854641163</a></p>",
+        "id": 405545500,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1701532666
+    },
+    {
+        "content": "<p>A varbūt vienkārši zem palaga? <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Acovered%3Dyes\">covered=yes</a> <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>",
+        "id": 405545597,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701532762
+    },
+    {
+        "content": "<p>Nē, ir vecākas bildes, kur redzams, ka bankomāta vieta vispār aizmūrēta :)</p>",
+        "id": 405546522,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1701533352
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/iez.C4.ABm.C4.93tie.20bankom.C4.81ti/near/405544832\">said</a>:</p>\n<blockquote>\n<p>Jā, skatos Mapillary - izskatās, ka tomēr varētu būt zudis.<br>\n<span class=\"user-mention silent\" data-user-id=\"573577\">Regita Zeiļa</span>, vai ir tieši tas - ēkā, kur agrāk bija DNB?</p>\n</blockquote>\n<p>jap, tomēr cita lokācija, tagad sapratu, ka sajaucu ar to, kas ir iekš filiāles!</p>",
+        "id": 405557188,
+        "sender_full_name": "Regita Zeiļa",
+        "timestamp": 1701542462
+    },
+    {
+        "content": "<p>Paldies, nomainīju uz \"disused\".</p>",
+        "id": 405619451,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1701593214
+    }
+]

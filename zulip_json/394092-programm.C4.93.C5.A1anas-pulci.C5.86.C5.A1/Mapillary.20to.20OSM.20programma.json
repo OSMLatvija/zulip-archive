@@ -1,0 +1,104 @@
+[
+    {
+        "content": "<p>Man jau sen vēlme uztaisīt programmu/saitu, kur tev parāda Mapillary bildes kaut kādā vietā un uzdod kaut kādu vienkāršu jautājumu par to vietu/objektu. Tipa <a href=\"https://streetcomplete.app/\">StreetComplete</a>/EveryDoor, bet armchair mapping. Ņemot vērā, cik daudz es pēdējā gadā personīgi taisu Mapillary bilžu (un cik richlv ir taisījis pa gadiem) un cik maz no tā ir sazīmēts, liela vēlme \"nezaudēt\" datus. Manuāli meklēt labojumus ir baigā čakarēšanās. Tāda programma ar labu interfeisu un pietiekami gudru bilžu un vietu izvēli varētu padarīt to par diezgan ātru \"just keep clicking\" rediģēšanu. Protams, par to visu domājot - tas ir liels projekts un tur daudz kas jādara līdz tas var tikt līdz publiskai versijai. Es personīgi arī pats sev kaut ko tādu uztaisītu, bet laicīgi plānojot būtu jau labi, ja tas būtu uzreiz plānots publiski pat, ja tas var nekad nenotikt. Man ir visādas idejas kur un kā kaut ko tādu taisīt, bet negribu teikt sīkumus, ja kāds grib nokomentēt vispārīgi par to. Viss vēl ideju stadijā. P. S. Jā, es zinu par Pic4Review.</p>",
+        "id": 379992536,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690713818
+    },
+    {
+        "content": "<p>Vēl noteikti jāņem vērā pieredze no <a href=\"https://wiki.openstreetmap.org/wiki/Deriviste\">Deriviste</a>.<br>\nIespējams, vissvarīgākais - kā piesaistīt kopienu un jo īpaši citus izstrādātājus, lai projekts neapmirtu pēc īsa laiciņa :)</p>\n<p>Kādi būtu iemesli nepapildināt Pic4Review vai kādu citu esošo rīku?</p>",
+        "id": 380135351,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1690752048
+    },
+    {
+        "content": "<p>Nevienu citu strādājošu izņemot Pic4Review es nezinu. P4R es kaut kā negribu neko darīt JavaScriptā. JS gan iespējams ir vienīgais veids, kā to izlikt kā websaitu (ja vispār likt kā websaitu). Un P4R ir konkrēts virziens un mērķis tegošanai projektu veidā un tur nav daudz visa kā, ko es uzskatītu par ļoti svarīgu. Bet kā jau minēju - es pagaidām nesaucu nekādu specifiku, lai izvairītos no pieņēmumiem. Un the subjektīvi vissvarīgākais ir nevis kopienas un citu izstrādātāju piesaiste, bet manis paša motivācija kaut ko darīt. Vislielākā varbūtība kaut ko iztaisīt ir tad, ja es pats to gribu lietot. Tas, ka projekts nomirs, var uzskatīt, ka gandrīz vai garantēti :) Bet ja es pats kaut kādu skaitu lietu ietagošu vispirms, tas jau būs ātrāk nekā, ja es manuāli to būtu darījis (nu protams, vēl ātrāk būtu vispār netagot).</p>",
+        "id": 380138366,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690753527
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Mapillary.20to.20OSM.20programma/near/380138366\">said</a>:</p>\n<blockquote>\n<p>JS gan iespējams ir vienīgais veids, kā to izlikt kā websaitu</p>\n</blockquote>\n<p>Šobrīd ļoti daudzām valodām ir <a href=\"https://webassembly.org/\">WebAssembly (aka WASM)</a> atbalsts, tāpēc web lietotnes var taisīt kaut vai C valodā.</p>",
+        "id": 380234613,
+        "sender_full_name": "i-ky",
+        "timestamp": 1690791297
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Mapillary.20to.20OSM.20programma/near/380135351\">said</a>:</p>\n<blockquote>\n<p>Vēl noteikti jāņem vērā pieredze no <a href=\"https://wiki.openstreetmap.org/wiki/Deriviste\">Deriviste</a>.</p>\n</blockquote>\n<p>Pēc apraksta/idejas izklausās labi, bet praksē <a href=\"https://github.com/systemed/deriviste/issues/30\">nestrādā</a>. Un spriežot pēc ta, ka uz issues jau vairākus gadus neviens nereaģē, projekts ir beigts un sapuvis.</p>\n<p>Vai kāds ir to lietojis tajos laikos, kad tas strādāja? Vai bija ērti/produktīvi? Vai ir vērts atdzīvināt?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/systemed/deriviste/issues/30\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/e8ba24c5bf9a249f764f444f350c6fc6c7e32203\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f623030366666613737623634653364366562633766363861346363363937396563323337323839396538363763323862383061373931336238663433633334342f73797374656d65642f6465726976697374652f6973737565732f3330)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/systemed/deriviste/issues/30\" title=\"Mapillary doesn't load, just a bunch of errors in the console · Issue #30 · systemed/deriviste\">Mapillary doesn't load, just a bunch of errors in the console · Issue #30 · systemed/deriviste</a></div><div class=\"message_embed_description\">We read every piece of feedback, and take your input very seriously.</div></div></div>",
+        "id": 380240953,
+        "sender_full_name": "i-ky",
+        "timestamp": 1690792342
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Mapillary.20to.20OSM.20programma/near/380240953\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Mapillary.20to.20OSM.20programma/near/380135351\">said</a>:</p>\n<blockquote>\n<p>Vēl noteikti jāņem vērā pieredze no <a href=\"https://wiki.openstreetmap.org/wiki/Deriviste\">Deriviste</a>.</p>\n</blockquote>\n<p>Pēc apraksta/idejas izklausās labi, bet praksē <a href=\"https://github.com/systemed/deriviste/issues/30\">nestrādā</a>. Un spriežot pēc ta, ka uz issues jau vairākus gadus neviens nereaģē, projekts ir beigts un sapuvis.</p>\n<p>Vai kāds ir to lietojis tajos laikos, kad tas strādāja? Vai bija ērti/produktīvi? Vai ir vērts atdzīvināt?</p>\n</blockquote>\n<p>Es Deriviste pamēģināju, bet jāatzīst - vairs neatceros, kā tieši bija. Tur ir daži video, ja gribas darbībs principu redzēt.<br>\nGalvenokārt biju domājis potenciālu citu izstrādātāju iesaisti, lai projekts nenomirst, kā šajā piemērā :)</p>",
+        "id": 380276246,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1690798529
+    },
+    {
+        "content": "<p>Vēl bija šāds JOSM plugins, es to laikam pat mazliet palietoju, cik atceros.<br>\n<a href=\"https://blog.mapillary.com/update/2020/12/22/introducing-smart-edits-JOSM.html\">https://blog.mapillary.com/update/2020/12/22/introducing-smart-edits-JOSM.html</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://blog.mapillary.com/update/2020/12/22/introducing-smart-edits-JOSM.html\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1c29cb503055cf5c1dfcf083a125adc7d0e9f7e9\\/68747470733a2f2f626c6f672e6d6170696c6c6172792e636f6d323032302d31322d32322d736d6172742d65646974732d4a4f534d2e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://blog.mapillary.com/update/2020/12/22/introducing-smart-edits-JOSM.html\" title=\"Introducing Smart Edits: AI-assisted map-editing for point features with JOSM and Mapillary\">Introducing Smart Edits: AI-assisted map-editing for point features with JOSM and Mapillary</a></div><div class=\"message_embed_description\">Today, we’re introducing a new capability in the Mapillary plugin for JOSM, which allows for adding AI-detected map features using an accelerated workflow. Objects that were detected from Mapillary street level imagery can now be added to the map with just a few clicks.</div></div></div>",
+        "id": 381250464,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1690999081
+    },
+    {
+        "content": "<p>Jā, likt \"AI\" atrastus objektus arī var. Kaut kad centos ar Mapillary pievienot Rīgā fire hydrantus - atrod labi ja trešdaļu pat ar lielisku bildi bet klāt vēl pieliek 300% false positives. Tā kā es ātru padevos. Ja būtu programma ar normālu interfeisu, drošvien daudz ātrāk ietu. Neesmu JOSM pluginu lietojis. Tas Smart Edit laikam ir pareizajā virzienā.</p>",
+        "id": 381262068,
+        "sender_full_name": "HellMap",
+        "timestamp": 1691001638
+    },
+    {
+        "content": "<p>Bija lietojams, bet jā, \"detection rate\" nebija īsti labs, un arī ar novietojumu nācās pastrādāt.<br>\nTrakāk bija ar soliņiem, kuri ir varbūt divi, bet Mapillsry atrada kādus piecus, dažādi izvietotus.<br>\nĻoti iespējams, ka tagad objektu noteikšana ir daudz labāka, tomēr vairāki gadi pagājuši.</p>",
+        "id": 381415085,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1691055224
+    },
+    {
+        "content": "<p>Jā, tas arī - jo vairāk bilžu, jo vairāk kopiju. Uz lielām ielām vispār nav iespējams neko pa vienam. Es vēl pagāšgad sūdzējos kā suņi atrasti kā soliņi. Un nekas labāk nav salīdzinot, kad pēdējo reizi skatījos kaut kad sen :( Tāpēc pamatdoma bija jau esošus objektus uzlabot.</p>",
+        "id": 381416726,
+        "sender_full_name": "HellMap",
+        "timestamp": 1691055579
+    },
+    {
+        "content": "<p>Kā ir ar Mapillary datu precizitāti? Un vai tās trūkums nebūs problēma?<br>\nCik es skatījos Mapillary bildes, bieži ir tā, ka bildes pozīcija var virziens nav pilnīgi pareizs. Ja vieta ir pazīstama, var protams piekoriģēt pēc citiem objektiem tuvumā. Bet kā ir, ja vieta ir pilnīgi sveša?<br>\n<a href=\"https://streetcomplete.app/\">SC</a> gadījumā, ja GPS precizitāte klibo, var paskatīties apkārt, saorientēties pēc jau iezīmētiem objektiem, utt.</p>",
+        "id": 381417986,
+        "sender_full_name": "i-ky",
+        "timestamp": 1691055814
+    },
+    {
+        "content": "<p>Deriviste māka tikai no bildes koordinātēm taisīt kartes koordinātes, bet varētu arī objektus no OSM pārveidot bildes koordinātēs. Un tad ļaut lietotājam koriģēt bildes pozīciju/virzienu, lai redzamais maksimāli sakristu ar to, kas jau ir iezīmēts kartē. Tikai tad pievienot jaunus objektus.</p>",
+        "id": 381419284,
+        "sender_full_name": "i-ky",
+        "timestamp": 1691056026
+    },
+    {
+        "content": "<p>Jā, bilžu precizitāte ir lielākā problēma. Tāpēc man personīgi plānos nebija taisīt jaunus objektus, bet tikai labot vecos. Pat ar roku pašam mēģinot tas ir sarežģīti. Es reti kad izmantoju Mapillary zīmēt no svešām bildēm, kur vispār neesmu bijis. Un ja tur kaut kādi tuneļi vai augstas ēkas - tad GPS ir pilnīga <span aria-label=\"peach\" class=\"emoji emoji-1f351\" role=\"img\" title=\"peach\">:peach:</span>. Bet nu programma, kur ātri var salīdzināt - redzama karte, ortofoto, vairākas bildes - drošvien tas varētu būt vieglāk, ja taisa tiešām jaunus objektus.</p>",
+        "id": 381422657,
+        "sender_full_name": "HellMap",
+        "timestamp": 1691056655
+    },
+    {
+        "content": "<p>Koriģēt bildi interesanta doma. No praktiskā viedokļa parasti gan ir tā, ka zīmējot apskatās visas blakus bildes un turp šurp braukā vēl. Es nezinu, cik reāli pacietība būtu kādam izmantoto bildi vēl kaut kur bīdīt, zinot, ka tas nemaz nesaglabāsies nekur.</p>",
+        "id": 381423274,
+        "sender_full_name": "HellMap",
+        "timestamp": 1691056771
+    },
+    {
+        "content": "<p>Šos piemērus var izmantot kā pamatu:</p>\n<ol>\n<li><a href=\"https://mapillary.github.io/mapillary-js/examples/component-marker-map/\">https://mapillary.github.io/mapillary-js/examples/component-marker-map/</a></li>\n<li><a href=\"https://mapillary.github.io/mapillary-js/examples/extend-map-sync/\">https://mapillary.github.io/mapillary-js/examples/extend-map-sync/</a></li>\n</ol>",
+        "id": 381459013,
+        "sender_full_name": "i-ky",
+        "timestamp": 1691064575
+    },
+    {
+        "content": "<p>Ē, interesanti. Es apskatīšos.</p>",
+        "id": 381463399,
+        "sender_full_name": "HellMap",
+        "timestamp": 1691065430
+    },
+    {
+        "content": "<p>Pff Mapbox vajag access token un es nevaru Mapbox accountu uztaisīt nereģistrējot karti <a href=\"/user_uploads/49624/-WehD1kv0O3huMgHXMJjdT_b/mapboxaccount.png\">mapboxaccount.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/-WehD1kv0O3huMgHXMJjdT_b/mapboxaccount.png\" title=\"mapboxaccount.png\"><img src=\"/user_uploads/49624/-WehD1kv0O3huMgHXMJjdT_b/mapboxaccount.png\"></a></div>",
+        "id": 381469206,
+        "sender_full_name": "HellMap",
+        "timestamp": 1691066568
+    }
+]

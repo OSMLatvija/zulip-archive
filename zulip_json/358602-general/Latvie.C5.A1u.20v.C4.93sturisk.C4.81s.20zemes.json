@@ -1,0 +1,116 @@
+[
+    {
+        "content": "<p>12 messages were moved here from <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/admin_level\">#general &gt; admin_level</a> by <span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span>.</p>",
+        "id": 454602024,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1722166017
+    },
+    {
+        "content": "<p><a href=\"https://data.gov.lv/dati/lv/dataset/vesturiskas-zemes\">https://data.gov.lv/dati/lv/dataset/vesturiskas-zemes</a></p>",
+        "id": 454605686,
+        "sender_full_name": "Colby",
+        "timestamp": 1722167402
+    },
+    {
+        "content": "<p>Pēc <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aboundary%3Dhistoric\">https://wiki.openstreetmap.org/wiki/Tag%3Aboundary%3Dhistoric</a> jedzigāk nebutu <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aboundary%3Dtraditional\">boundary=traditional</a> vai kas tāds? Jo šīs nav agrākas administratīvas robežas. Arīdzan, jā, neveidojas, apkopojot administratīvās teritorijas, tāpēc tās relācijas atjaunot nav pareizi, robežas jāliek no jauna (jaunas līnijas, kur nesakrīt ar administratīvajam robežām, apvienojot relācijā ar jau esošajām līnijām, kur sakrīt).</p>",
+        "id": 454606398,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1722167944
+    },
+    {
+        "content": "<p>Vai tie nekad nav bijuši administratīvi? Nu tad laikam jā, traditional jāpārliek.</p>",
+        "id": 454606578,
+        "sender_full_name": "HellMap",
+        "timestamp": 1722168060
+    },
+    {
+        "content": "<p>Robežas sakrīt uz valsts robežām un daudz kur citur. Pa jaunu zīmēt tiek izdzēsta elementa vēsture. Vai arī mēs to uzskatam par pilnīgi citu objektu? Tur sakrīt diezgan daudz tāpēc man liekas izlabot esošo ir nedaudz vieglāk. Nu ja man nesanāks, tad visu nonesīšu ...</p>",
+        "id": 454606706,
+        "sender_full_name": "HellMap",
+        "timestamp": 1722168170
+    },
+    {
+        "content": "<p>Jā, var arī labot esošo. Galvenais, lai beigās atbilst tām, kas ir vēsturiskajām zemēm. Tās robežas ir veidotas no visādos laikos, <a href=\"http://t.sk\">t.sk</a>. mūsdienās, pastāvējušām administratīvajām robežām, bet pašas par sevi tādas nav.</p>",
+        "id": 454606981,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1722168385
+    },
+    {
+        "content": "<p>Nu j&amacr;, ne visas robe&zcaron;as ir kart&emacr;tas. Bet pagasti ar&imacr; laikam nav atjaunoti, pa kuru l&imacr;nij&amacr;m teor&emacr;tiski b&umacr;tu j&amacr;b&umacr;t. Uzliku QGIS sl&amacr;&ncedil;us, lai skaidr&amacr;k <br>\n<a href=\"/user_uploads/49624/ccPCo7SSWqV4HgROKYqcIZ6T/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/ccPCo7SSWqV4HgROKYqcIZ6T/image.png\" title=\"image.png\"><img data-original-dimensions=\"1326x820\" src=\"/user_uploads/thumbnail/49624/ccPCo7SSWqV4HgROKYqcIZ6T/image.png/840x560.webp\"></a></div>",
+        "id": 454608553,
+        "sender_full_name": "HellMap",
+        "timestamp": 1722169911
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/0KHAiRTnXurisK-hup0lXec1/image.png\">robe&zcaron;as</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/0KHAiRTnXurisK-hup0lXec1/image.png\" title=\"robe&zcaron;as\"><img data-original-dimensions=\"1008x887\" src=\"/user_uploads/thumbnail/49624/0KHAiRTnXurisK-hup0lXec1/image.png/840x560.webp\"></a></div>",
+        "id": 454609393,
+        "sender_full_name": "Colby",
+        "timestamp": 1722170648
+    },
+    {
+        "content": "<p>hmm da&zcaron;&amacr;s viet&amacr;s v&emacr;sturisk&amacr;s zemes k&amacr;du pagastu p&amacr;rgrie&zcaron; uz pus&emacr;m<br>\n<a href=\"/user_uploads/49624/FBogcWFDn1VuJe72695xbHUo/image.png\">berkava/o&scaron;upe</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/FBogcWFDn1VuJe72695xbHUo/image.png\" title=\"berkava/o&scaron;upe\"><img data-original-dimensions=\"955x632\" src=\"/user_uploads/thumbnail/49624/FBogcWFDn1VuJe72695xbHUo/image.png/840x560.webp\"></a></div>",
+        "id": 454609665,
+        "sender_full_name": "Colby",
+        "timestamp": 1722170905
+    },
+    {
+        "content": "<p>Vietām vēsturisko zemju robežas nesakritīs arī ar pagastu un pilsētu robežām. No <a href=\"https://stat.gov.lv/lv/statistikas-temas/iedzivotaji/iedzivotaju-skaits/cits/12461-iedzivotaju-skaits-un-latviesu\">https://stat.gov.lv/lv/statistikas-temas/iedzivotaji/iedzivotaju-skaits/cits/12461-iedzivotaju-skaits-un-latviesu</a>:</p>\n<ul>\n<li>Aiviekstes pagasts Latgalē</li>\n<li>Aiviekstes pagasts Vidzemē</li>\n<li>Aizkraukle Sēlijā (Daugavas kreisajā krastā, Ziedi)</li>\n<li>Aizkraukle Vidzemē (Daugavas labajā krastā)</li>\n<li>Babītes pagasts Vidzemē</li>\n<li>Babītes pagasts Zemgalē (Kalnciema masīvs)</li>\n<li>Baldones pagasts Vidzemē (Pulkarne)</li>\n<li>Baldones pagasts Zemgalē</li>\n<li>Barkavas pagasts Latgalē</li>\n<li>Barkavas pagasts Vidzemē</li>\n<li>Daugavpils Latgalē (Daugavas labajā krastā)</li>\n<li>Daugavpils Sēlijā (Daugavas kreisajā krastā, Grīva)</li>\n<li>Jēkabpils Latgalē (Daugavas labajā krastā, Krustpils)</li>\n<li>Jēkabpils Sēlijā (Daugavas kreisajā krastā)</li>\n<li>Krāslava Latgalē (Daugavas labajā krastā)</li>\n<li>Krāslava Sēlijā (Daugavas kreisajā krastā, Priedaine)</li>\n<li>Ķegums Vidzemē (Daugavas labajā krastā)</li>\n<li>Ķegums Zemgalē (Daugavas kreisajā krastā)</li>\n<li>Olaines pagasts Vidzemē</li>\n<li>Olaines pagasts Zemgalē</li>\n<li>Ošupes pagasts Latgalē</li>\n<li>Ošupes pagasts Vidzemē</li>\n<li>Pļaviņas Latgalē (Gostiņi)</li>\n<li>Pļaviņas Vidzemē (bez Gostiņiem)</li>\n</ul>\n<p>Ieliekot robežas ĢIS, labi var redzēt.</p>",
+        "id": 454609671,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1722170935
+    },
+    {
+        "content": "<p>J&amacr;, es s&amacr;ku skat&imacr;ties un tur vis&amacr;di prikoli <br>\n<a href=\"/user_uploads/49624/SrF9lnn_7m_Ug5wmNAkVp-a8/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/SrF9lnn_7m_Ug5wmNAkVp-a8/image.png\" title=\"image.png\"><img data-original-dimensions=\"940x612\" src=\"/user_uploads/thumbnail/49624/SrF9lnn_7m_Ug5wmNAkVp-a8/image.png/840x560.webp\"></a></div>",
+        "id": 454609677,
+        "sender_full_name": "HellMap",
+        "timestamp": 1722170941
+    },
+    {
+        "content": "<p>Sakrīt laikam kādi 50%, bet es varēšu pateikt, kad (ja <span aria-label=\"shushing face\" class=\"emoji emoji-1f92b\" role=\"img\" title=\"shushing face\">:shushing_face:</span> ) pabeigšu</p>",
+        "id": 454609697,
+        "sender_full_name": "HellMap",
+        "timestamp": 1722170983
+    },
+    {
+        "content": "<p>Iekart&emacr;ju S&emacr;liju <a href=\"https://www.openstreetmap.org/relation/17883018\">https://www.openstreetmap.org/relation/17883018</a> <br>\n<a href=\"/user_uploads/49624/gxKxb5g0lSHHB6ph6ZwHdRBG/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/gxKxb5g0lSHHB6ph6ZwHdRBG/image.png\" title=\"image.png\"><img data-original-dimensions=\"652x475\" src=\"/user_uploads/thumbnail/49624/gxKxb5g0lSHHB6ph6ZwHdRBG/image.png/840x560.webp\"></a></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/relation/17883018\" style='background-image: url(\"https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67\")'></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/relation/17883018\" title=\"Relation: ‪S&emacr;lija‬ (‪17883018‬)\">Relation: ‪S&emacr;lija‬ (‪17883018‬)</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 454616585,
+        "sender_full_name": "HellMap",
+        "timestamp": 1722176184
+    },
+    {
+        "content": "<p>It k&amacr; visu iez&imacr;m&emacr;ju <br>\n<a href=\"/user_uploads/49624/6XHY5t6ECR-m1AaHKajV4Ae2/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/6XHY5t6ECR-m1AaHKajV4Ae2/image.png\" title=\"image.png\"><img data-original-dimensions=\"1086x673\" src=\"/user_uploads/thumbnail/49624/6XHY5t6ECR-m1AaHKajV4Ae2/image.png/840x560.webp\"></a></div>",
+        "id": 454650227,
+        "sender_full_name": "HellMap",
+        "timestamp": 1722192182
+    },
+    {
+        "content": "<p>Kādi 80% robežas jau bija. 10% piezīmēju manuāli, 10% pagaidām pa upēm.</p>",
+        "id": 454650272,
+        "sender_full_name": "HellMap",
+        "timestamp": 1722192236
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/WiJ5jtuqcK351nxB33r6zqR6/image.png\">image.png</a><br>\nStarp citu, Nominatim r&amacr;da &scaron;itos.</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/WiJ5jtuqcK351nxB33r6zqR6/image.png\" title=\"image.png\"><img data-original-dimensions=\"434x745\" src=\"/user_uploads/thumbnail/49624/WiJ5jtuqcK351nxB33r6zqR6/image.png/840x560.webp\"></a></div>",
+        "id": 454650437,
+        "sender_full_name": "HellMap",
+        "timestamp": 1722192373
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/3H-9GnDKA6eJhijidZ16pobY/image.png\">image.png</a><br>\nTraditional it k&amacr; t&amacr; pat k&amacr; Baltic States</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/3H-9GnDKA6eJhijidZ16pobY/image.png\" title=\"image.png\"><img data-original-dimensions=\"432x394\" src=\"/user_uploads/thumbnail/49624/3H-9GnDKA6eJhijidZ16pobY/image.png/840x560.webp\"></a></div>",
+        "id": 454650490,
+        "sender_full_name": "HellMap",
+        "timestamp": 1722192442
+    },
+    {
+        "content": "<p>Laikam, jo ir palicis <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aadmin_level%3D4\">admin_level=4</a> ? Bet vai to atstāt vai novākt?</p>",
+        "id": 454650518,
+        "sender_full_name": "HellMap",
+        "timestamp": 1722192468
+    },
+    {
+        "content": "<p>Ņemtu nost, jo robežas nav administratīvas.</p>",
+        "id": 454651216,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1722193173
+    }
+]

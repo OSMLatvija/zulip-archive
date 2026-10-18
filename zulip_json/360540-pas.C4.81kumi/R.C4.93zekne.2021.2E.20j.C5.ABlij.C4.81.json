@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>Oy, kas no šejienes kopienas plāno piedalīties Rēzeknē?<br>\nUn noteikti pastāstiet draugiem un radiem no Latgales, varbūt tur spēcīgs lokālpatriotisms :)</p>",
+        "id": 372545943,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1688554460
+    },
+    {
+        "content": "<p>Tagad arī OSM kalendārā, no kura varat dabūt ics failu ievietošanai savā kalendārā.<br>\n<a href=\"https://osmcal.org/event/2220/\">https://osmcal.org/event/2220/</a><br>\n<a href=\"/user_uploads/49624/HqC6krjO4Hkyg4FKTtTPFF20/image.png\">pasākumi arī Rēzeknē</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/HqC6krjO4Hkyg4FKTtTPFF20/image.png\" title=\"pasākumi arī Rēzeknē\"><img src=\"/user_uploads/49624/HqC6krjO4Hkyg4FKTtTPFF20/image.png\"></a></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://osmcal.org/event/2220/\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/c4b66ca6710db40b4846e0fd176fc2c45eb7c0dd\\/68747470733a2f2f6f736d63616c2e6f72672f7374617469632f6f736d63616c2f746f7563682d69636f6e2e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://osmcal.org/event/2220/\" title=\"Kartēšana Rēzeknē\">Kartēšana Rēzeknē</a></div><div class=\"message_embed_description\">Kartēšana Rēzeknē, \n21st July 15:00\n\n\n at Rēzeknes Centrālā bibliotēka in Rezekne, Latgale, Latvia. \\21. jūlijā 15.00 Rēzeknes Centrālajā bibliotēkā notiks pasākums, kura laikā būs iespējams apgūt brīvpieejas kartēšanas…</div></div></div>",
+        "id": 375204523,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1689330795
+    },
+    {
+        "content": "<p>Un te wiki lapa - svaigākā info, links uz bibliotēku kartē un vēl šis tas derīgs.<br>\n<a href=\"https://wiki.openstreetmap.org/wiki/R%C4%93zekne/Mapping_party_2023-07-21\">https://wiki.openstreetmap.org/wiki/R%C4%93zekne/Mapping_party_2023-07-21</a></p>",
+        "id": 375287055,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1689345014
+    },
+    {
+        "content": "<p>Tātā, laiks skrien jo strauji, un pasākums jau diezgan drīz - šo piektdien :)</p>",
+        "id": 376323750,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1689681888
+    },
+    {
+        "content": "<p>uh, varbūt kāds no jums varētu apsekot dažus pieminekļus ko atradu</p>\n<div class=\"codehilite\"><pre><span></span><code>node 4907036249, 4449789137, 4717815779\nway 170031720\n</code></pre></div>\n<p>ielikt artist, <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahistoric%3Dmemorial\">historic=memorial</a>, wikidata, artist, utt</p>",
+        "id": 377205440,
+        "sender_full_name": "Colby",
+        "timestamp": 1689926322
+    },
+    {
+        "content": "<p>RIP OsmCha saraksts no Rēzeknes <a href=\"https://streetcomplete.app/\">SC</a> <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>",
+        "id": 377316570,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689948906
+    },
+    {
+        "content": "<p>Nu lab, nav tik traki, bet RSS arī drīz iespamos new contributor :)</p>",
+        "id": 377316844,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689948950
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/360540-pas.C4.81kumi/topic/R.C4.93zekne.2021.2E.20j.C5.ABlij.C4.81/near/377205440\">said</a>:</p>\n<blockquote>\n<p>uh, varbūt kāds no jums varētu apsekot dažus pieminekļus ko atradu</p>\n<div class=\"codehilite\"><pre><span></span><code>node 4907036249, 4449789137, 4717815779\nway 170031720\n</code></pre></div>\n<p>ielikt artist, <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahistoric%3Dmemorial\">historic=memorial</a>, wikidata, artist, utt</p>\n</blockquote>\n<p>Šo pamanīju tikai pēc pasākuma.<br>\n<span class=\"user-mention\" data-user-id=\"573577\">@Regita Zeiļa</span> kaut ko jau internetā atrada, varbūt kaut kad vēlāk būs laiks salikt :)</p>",
+        "id": 377580600,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1690027941
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360540-pas.C4.81kumi/topic/R.C4.93zekne.2021.2E.20j.C5.ABlij.C4.81/near/377316570\">said</a>:</p>\n<blockquote>\n<p>RIP OsmCha saraksts no Rēzeknes <a href=\"https://streetcomplete.app/\">SC</a> <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>\n</blockquote>\n<p>Nebija tik traki, vai ne? :)<br>\nBet superīgi, 16-18 dalībnieki kopā ar organizatoriem bija negaidīti daudz burvīgu cilvēku vienkopus.</p>",
+        "id": 377580684,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1690027974
+    },
+    {
+        "content": "<p>Pasākuma ietekmē Rēzeknē dažādas detaļas vairāk :)<br>\n<a href=\"/user_uploads/49624/UR16JK5_umtBxsexQ3qXORRq/image.png\">addr:flats FTW</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/UR16JK5_umtBxsexQ3qXORRq/image.png\" title=\"addr:flats FTW\"><img src=\"/user_uploads/49624/UR16JK5_umtBxsexQ3qXORRq/image.png\"></a></div>",
+        "id": 377652683,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1690047082
+    }
+]

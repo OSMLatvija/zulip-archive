@@ -1,0 +1,68 @@
+[
+    {
+        "content": "<p>Zilā krāsā OSM, sarkanā krāsā VDB dati. <br>\n<a href=\"/user_uploads/49624/YcwxvzVM702oCRDWf7MQuX1H/image.png\">image.png</a><br>\n<a href=\"https://www.lgia.gov.lv/lv/vietvardu-dati-atvertajos-datos\">https://www.lgia.gov.lv/lv/vietvardu-dati-atvertajos-datos</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/YcwxvzVM702oCRDWf7MQuX1H/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/YcwxvzVM702oCRDWf7MQuX1H/image.png\"></a></div>",
+        "id": 318073811,
+        "sender_full_name": "Colby",
+        "timestamp": 1672138926
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/358602-general/topic/.C5.AAdenste.C4.8Du.20kart.C4.93.C5.A1ana/near/318073811\">said</a>:</p>\n<blockquote>\n<p>Zilā krāsā OSM, sarkanā krāsā VDB dati. <br>\n<a href=\"/user_uploads/49624/YcwxvzVM702oCRDWf7MQuX1H/image.png\">image.png</a><br>\n<a href=\"https://www.lgia.gov.lv/lv/vietvardu-dati-atvertajos-datos\">https://www.lgia.gov.lv/lv/vietvardu-dati-atvertajos-datos</a></p>\n</blockquote>\n<p>OSM dati šeit laikam ietver arī grāvjus?<br>\nT.i., te sarkanie norādītu OSM vēl iezīmējamo?</p>",
+        "id": 318105111,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672150805
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/.C5.AAdenste.C4.8Du.20kart.C4.93.C5.A1ana/near/318105111\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/358602-general/topic/.C5.AAdenste.C4.8Du.20kart.C4.93.C5.A1ana/near/318073811\">said</a>:</p>\n<blockquote>\n<p>Zilā krāsā OSM, sarkanā krāsā VDB dati. <br>\n<a href=\"/user_uploads/49624/YcwxvzVM702oCRDWf7MQuX1H/image.png\">image.png</a><br>\n<a href=\"https://www.lgia.gov.lv/lv/vietvardu-dati-atvertajos-datos\">https://www.lgia.gov.lv/lv/vietvardu-dati-atvertajos-datos</a></p>\n</blockquote>\n<p>OSM dati šeit laikam ietver arī grāvjus?<br>\nT.i., te sarkanie norādītu OSM vēl iezīmējamo?</p>\n</blockquote>\n<p>Geofabrik shp fails, grāvji arī.<br>\nSarkanie OSM trūkst</p>",
+        "id": 318105889,
+        "sender_full_name": "Colby",
+        "timestamp": 1672151156
+    },
+    {
+        "content": "<p>Forši, šo varētu kā MapRoulette vai citādāku projektu un sazīmēt visu trūkstošo. Tik laikam pirms tam grāvjus jāpafiltrē ārā, tur daži pamatīgi zili pleķi :)<br>\nTāds projekts varētu interesēt <span class=\"user-mention\" data-user-id=\"573577\">@Regita Zeiļa</span>.</p>",
+        "id": 318106596,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672151414
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/.C5.AAdenste.C4.8Du.20kart.C4.93.C5.A1ana/near/318106596\">said</a>:</p>\n<blockquote>\n<p>Forši, šo varētu kā MapRoulette vai citādāku projektu un sazīmēt visu trūkstošo. Tik laikam pirms tam grāvjus jāpafiltrē ārā, tur daži pamatīgi zili pleķi :)<br>\nTāds projekts varētu interesēt <span class=\"user-mention silent\" data-user-id=\"573577\">Regita Zeiļa</span>.</p>\n</blockquote>\n<p>Te priekš MapRoulette baigie gabali gan... Es vienu iezīmēju un tas tur bija 10 kilometri caur mežiem, pāri ceļiem, gar raktuvēm, pievienojoties/atvienojoties no citiem ūdeņiem. Un bez LIDAR vispār neiespējami kaut kādā mežā. Bet es neesmu MR neko taisījis, tāpēc varbūt ir ok... Kartes slānis (kas atjaunoas regulāri) tādām lietām būtu daudz ērtāks (tā kā LVC slānis).</p>",
+        "id": 318239537,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672227807
+    },
+    {
+        "content": "<p>Jā, abi būtu derīgi - kartes slānī grūtāk atrast nepieciešamās izmaiņas (manuāli jāmeklē).<br>\nVēl potenciāli labs variants - tasking manager + slānis. Tad pa sektoriem varētu visu Latviju nosegt.</p>\n<p>No publiskiem tasking managers varbūt <a href=\"http://tasks.osm.ch/\">http://tasks.osm.ch/</a> ir izmantojams.</p>",
+        "id": 318420424,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672321220
+    },
+    {
+        "content": "<p>Ik pa laikam pazīmēju kādu upi, ko pamanu neesam OSM, bet esam \"Ūdensteču vietvārdi .shp formātā\" failā (<a href=\"https://geolatvija.lv/geo/p/303\">https://geolatvija.lv/geo/p/303</a>). Filozofisks jautājums par tagošanu... Failā ir ūdensteces - upes, strauti, kanāli, ir pat grāvji ar nosaukumu. Daudzas no tām upēm nav nekādas upes bet tādi strautiņi vien ir. Vai vienmēr liekam <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Awaterway%3Driver\">waterway=river</a>, ja tajā failā tips ir norādīts \"upe\"?</p>",
+        "id": 394234167,
+        "sender_full_name": "Andris",
+        "timestamp": 1696178248
+    },
+    {
+        "content": "<p>Nē, jāvertē, kāda ūdenstece ir faktiski. Ja strauts, tad stream.</p>",
+        "id": 394237538,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1696180013
+    },
+    {
+        "content": "<p>Jā, jāliek to, kas dzīvē. Mums ir daudz \"upes\", kas ir vienkārši strauti, īpaši to iztekās.</p>",
+        "id": 394238284,
+        "sender_full_name": "HellMap",
+        "timestamp": 1696180641
+    },
+    {
+        "content": "<p>Tādēļ jau teicu, ka \"filozofisks\"jautājums, jo kurā mirklī strauts pārvēršas par upi? Varbūt tomēr tagot kā <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Awaterway%3Driver\">waterway=river</a> un kad kāds reālā dzīvē var vismaz \"uz aci\"noteikt platumu, pielikt width=...</p>",
+        "id": 394240036,
+        "sender_full_name": "Andris",
+        "timestamp": 1696181627
+    },
+    {
+        "content": "<p>Platums arī gluži nav noteicošais. Ir arī grāvji izrakti 5 metru platumā, bet tie tik un tā grāvji. Man pat grūti pafilozofēt, ko darīt zīmējot no ortofoto nezinot dabā. Es kaut kā aptuveni no esošajiem piemēriem izvēlos, kur upe un kur strauts. Parasti strautu ir pietiekami vairāk nekā upju. Ņemot vērā, ka upes tomēr ir tur, kur lielāka tecēšana, es tomēr vairāk sliektos likt strautus, ja nav skaidrs.</p>",
+        "id": 394241364,
+        "sender_full_name": "HellMap",
+        "timestamp": 1696182212
+    }
+]
