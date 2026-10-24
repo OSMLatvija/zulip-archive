@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Starp citu, Barona ir nepareizi - tas nav nekāds lane</p>",
+        "id": 316964850,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671547023
+    },
+    {
+        "content": "<p>Uz barona ir 956. ceļa marķējums, tā saucamais \"sharrow\", un tas \"apzīmē brauktuves daļu, kas paredzēta velosipēdu un elektroskrejriteņu braukšanai, bet pa kuru atļauts braukt arī pārējiem transportlīdzekļiem\" - tā ir josla un <code>cycleway=shared_lane</code></p>",
+        "id": 316965735,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671547240
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/hpuku2sFVlSaTtsUcTBNyv7I/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/hpuku2sFVlSaTtsUcTBNyv7I/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/hpuku2sFVlSaTtsUcTBNyv7I/image.png\"></a></div>",
+        "id": 316965798,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671547258
+    },
+    {
+        "content": "<p>Kāds zina, kur vēl Latvijā ir sharrows? Pēc <code>cycleway=shared_lane</code> overpass atrada tikai vienā vietā pie Kuldīgas un tur pilnīgi nepareizi. <a href=\"/user_uploads/49624/VAuZfE-eZ_evFX-LB_fKowv8/sharrows-wrong.png\">sharrows-wrong.png</a> <a href=\"/user_uploads/49624/q3665NWxSWsRINIOvvwFgXbd/actual-road.png\">actual-road.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/VAuZfE-eZ_evFX-LB_fKowv8/sharrows-wrong.png\" title=\"sharrows-wrong.png\"><img src=\"/user_uploads/49624/VAuZfE-eZ_evFX-LB_fKowv8/sharrows-wrong.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/q3665NWxSWsRINIOvvwFgXbd/actual-road.png\" title=\"actual-road.png\"><img src=\"/user_uploads/49624/q3665NWxSWsRINIOvvwFgXbd/actual-road.png\"></a></div>",
+        "id": 317543184,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671794541
+    }
+]

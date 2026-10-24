@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>Kur var atrast pirms-reformas datus?</p>",
+        "id": 593250854,
+        "sender_full_name": "Colby",
+        "timestamp": 1778072320
+    },
+    {
+        "content": "<p>Es, kad pēdējo reizi skatījos, paņēmu vikipēdijas lapu vēsturi uz to datumu un no turienes bildes. Bet tas viss aptuveni. Ja tu gribi tieši datus (shp failus vai kko tādu), nezinu, vai tādi vispār eksistē, vismaz publiski.</p>",
+        "id": 593256936,
+        "sender_full_name": "HellMap",
+        "timestamp": 1778073798
+    },
+    {
+        "content": "<p>vikipēdijā skatījos, cerēju ka kādā no tiem svg būs datu avots minēts bet nebija</p>",
+        "id": 593258800,
+        "sender_full_name": "Colby",
+        "timestamp": 1778074242
+    },
+    {
+        "content": "<p>Jā, <a href=\"https://commons.wikimedia.org/wiki/File:Latvijas_novadi_un_pagastiLOCATIONMAP.svg\">https://commons.wikimedia.org/wiki/File:Latvijas_novadi_un_pagastiLOCATIONMAP.svg</a> tikai \"Border data: Latvijas Ģeotelpiskās informācijas aģentūra (open data)\" bet nu kur kaut ko tādu tagas sameklēt...</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://commons.wikimedia.org/wiki/File:Latvijas_novadi_un_pagastiLOCATIONMAP.svg\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/7b66024f22eed084a273fd9b590f7c0af8ca2e61/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f642f64372f4c617476696a61735f6e6f766164695f756e5f706167617374694c4f434154494f4e4d41502e7376672f3132383070782d4c617476696a61735f6e6f766164695f756e5f706167617374694c4f434154494f4e4d41502e7376672e706e673f75746d5f736f757263653d636f6d6d6f6e732e77696b696d656469612e6f72672675746d5f63616d706169676e3d696e6465782675746d5f636f6e74656e743d7468756d626e61696c&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://commons.wikimedia.org/wiki/File:Latvijas_novadi_un_pagastiLOCATIONMAP.svg\" title=\"File:Latvijas novadi un pagastiLOCATIONMAP.svg - Wikimedia Commons\">File:Latvijas novadi un pagastiLOCATIONMAP.svg - Wikimedia Commons</a></div><div class=\"message_embed_description\">Own work\n</div></div></div>",
+        "id": 593258974,
+        "sender_full_name": "HellMap",
+        "timestamp": 1778074281
+    },
+    {
+        "content": "<p>aizsūtīju e-pastu kontaktam kas minēts pie <a href=\"https://data.gov.lv/dati/lv/dataset/atr\">https://data.gov.lv/dati/lv/dataset/atr</a></p>",
+        "id": 593259525,
+        "sender_full_name": "Colby",
+        "timestamp": 1778074400
+    },
+    {
+        "content": "<p>nāksies gaidīt atbildi</p>",
+        "id": 593259546,
+        "sender_full_name": "Colby",
+        "timestamp": 1778074406
+    },
+    {
+        "content": "<p>itkā varētu no pagastiem salīmēt un nosaukumus paņemt no vikipēdijas bet tas jau par traku</p>",
+        "id": 593259819,
+        "sender_full_name": "Colby",
+        "timestamp": 1778074471
+    },
+    {
+        "content": "<p>Nu jā. Es skatos, ka teorētiski no tā SVG var dabūt robežas atpakaļ, bet tas ir murgs.</p>",
+        "id": 593260095,
+        "sender_full_name": "HellMap",
+        "timestamp": 1778074538
+    },
+    {
+        "content": "<p>Un velns viņ zin vai līnijas no oriģināliem datiem vai arī pielīdzinātas<br>\n<img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"690x495\" data-original-src=\"/user_uploads/49624/FllRx-dtTStzi4T2OPwj2x8t/image.png\" src=\"/user_uploads/thumbnail/49624/FllRx-dtTStzi4T2OPwj2x8t/image.png/840x560.webp\"></p>",
+        "id": 593260287,
+        "sender_full_name": "HellMap",
+        "timestamp": 1778074584
+    },
+    {
+        "content": "<p><img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"1632x1012\" data-original-src=\"/user_uploads/49624/-1A8us-eJpBSNuABHMms6ZWk/image.png\" src=\"/user_uploads/thumbnail/49624/-1A8us-eJpBSNuABHMms6ZWk/image.png/840x560.webp\"><br>\ndabūju atbildi <span aria-label=\"tada\" class=\"emoji emoji-1f389\" role=\"img\" title=\"tada\">:tada:</span><br>\n<a href=\"/user_uploads/49624/aVD01HakMrZCZSsPxekY8JaF/Administrativas_teritorijas_2019.zip\">Administrativas_teritorijas_2019.zip</a><br>\nun tāda pati CC0 licence kā 2021 gada datiem</p>",
+        "id": 593459310,
+        "sender_full_name": "Colby",
+        "timestamp": 1778143467
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Vadoties no <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/channel/358602-general/topic/Pils.C4.93tu.20apkaimes.2Frajoni/with/501253538\">#general &gt; Pilsētu apkaimes/rajoni</a>  konkrēti par Valmieru. Kā minēju, 2020. gadā <a href=\"https://www.valmieraszinas.lv/valmiera-sadarbiba-ar-csp-publicejusi-pilsetas-apkaimju-robezas/\">pašvaldība noteica apkaimes</a> - minēts kā \"apkaimes\", \"iekšpilsētas teritoriju robežas\" un  \"pilsētas teritoriālais dalījums\". Šo avotu skatoties, man personīgi grūti to interpretēt savadāk nekā \"Valmierā ir apkaimes\". Te pat nav aptuveni kaut kā, bet ar precīzām robežām. Tās tagad lieto CSP, kuri aicināja Valmieru (un citas pilsētas) šīs noteikt.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.valmieraszinas.lv/valmiera-sadarbiba-ar-csp-publicejusi-pilsetas-apkaimju-robezas/\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/c825af2b0928ea993f68d5edbb811425eafafde0/68747470733a2f2f7777772e76616c6d69657261737a696e61732e6c762f77702d636f6e74656e742f75706c6f6164732f323032302f30382f6167655f6176675f76616c6d696572615f776974686f75745f7469746c652e6a7067&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.valmieraszinas.lv/valmiera-sadarbiba-ar-csp-publicejusi-pilsetas-apkaimju-robezas/\" title=\"Valmiera sadarbībā ar CSP publicējusi pilsētas apkaimju robežas - Valmieras Ziņas\">Valmiera sadarbībā ar CSP publicējusi pilsētas apkaimju robežas - Valmieras Ziņas</a></div><div class=\"message_embed_description\">Atsaucoties Centrālās statistikas pārvaldes (CSP) aicinājumam, Valmieras pašvaldība ir noteikusi pilsētas teritoriālo dalījumu un ir otrā Latvijas pašvaldība aiz Rīgas, kas ir publicējusi apkaimju jeb iekšpilsētas teritoriju robežas. Pateicoties Valmieras pašvaldības iniciatīvai un sadarbībai ar CSP, iedzīvotāju statistika par valmieriešiem tagad pieejama arī pilsētas teritoriju līmenī*, informē CSP. “Paldies Valmieras pašvaldībai, kas gan izrādīja interesi, […]</div></div></div>",
+        "id": 501253742,
+        "sender_full_name": "HellMap",
+        "timestamp": 1740222739
+    },
+    {
+        "content": "<p>Šeit <a href=\"https://www.openstreetmap.org/user/Leicha\">lietotājs maina</a> vienādas nozīmes punktus pēc dažādiem principiem - dažus uz citu klasifikāciju, dažus dzēš, nobīda. Kā saprotu galvenais arguments ir, ka šīs ir \"statistiskās vienības\" izveidotas šim mērķim priekš CSP. Bet tas nepaskaidro, kāpēc mēs tādēļ ignorēsim visus avotus, kas šīs apraksta kā \"apkaimes\". Avoti nesaka \"CSP statistikas teritorijas\" vai kā tā - avoti saka vairākkārtēji tieši \"apkaimes\" un nekur nav minēts, ka šīs ir <em>tikai</em> priekš CSP. Liela daļa šo nosaukumu jau bija kartēti iepriekš, bet ar neprecīzām robežām, atšķirīgu klasifikāciju un ne uz visu pilsētas teritoriju. Tekošie avoti ir daudz precīzāki nekā iepriekš kartētais.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/user/Leicha\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/user/Leicha\" title=\"Leicha\">Leicha</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 501253750,
+        "sender_full_name": "HellMap",
+        "timestamp": 1740222751
+    },
+    {
+        "content": "<p>Un no otras puses, lietotājs pats nav nekad minējis nevienu avotu, arī rajoniem/apkaimēm, kas bija iekartēti iepriekš. Pieminēšu, ka citās pilsētās kā Liepāja vai Ventspils ir salīdzinoši pieejams krietni mazāk info par \"apkaimēm\", bet tās gan OSM nav bijušas ar pretenzijām (pagaidām).</p>",
+        "id": 501253753,
+        "sender_full_name": "HellMap",
+        "timestamp": 1740222756
+    },
+    {
+        "content": "<p>Jā, Valmierā ir apkaimes, tā lietotāja labojumi ir jāatgriež, trūkst viņam izpratnes. Protams, ka tās nav radītas tikai priekš CSP  statistikas datu apkopošanai. Apkaimes nosakot, kā viens no kritērijiem bija, lai tās iespējami tuvu atbilstu tieši iedzīvotāju lietotajām gan teritoriāli, gan nosaukumu ziņā. Statistikas vajadzībām jau izmanto dažādus teritoriālos iedalījumus, arī, piemēram, novadus var saukt par statistiskajām vienībām.</p>",
+        "id": 501256190,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1740224716
+    },
+    {
+        "content": "<p>Piekrītu, ka oficiālās apkaimes ir izmantojamas. Ja ir vēlme tā nedarīt, tad lietotājam būtu jāsaņem kāds apstiprinājums no pašvaldības, ka tās apkaimes nav pareizas.</p>",
+        "id": 501365800,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1740309430
+    }
+]

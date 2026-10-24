@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>Vai kaut kur atvertajos datos ir informacija par stavu skaitu? Piemeram, te karte ir katrai ekai ir informacija: <a href=\"https://kartes.lgia.gov.lv/karte/?x=312179.39&amp;y=507848.40&amp;zoom=11&amp;basemap=topokarte\">https://kartes.lgia.gov.lv/karte/?x=312179.39&amp;y=507848.40&amp;zoom=11&amp;basemap=topokarte</a></p>",
+        "id": 343977847,
+        "sender_full_name": "soshial",
+        "timestamp": 1679577738
+    },
+    {
+        "content": "<p>Es runaju par tiem cipariem, rakstitajiem uz kartas ekas:<br>\n<a href=\"/user_uploads/49624/ESBWU2EMnOJhXhi8nqA9acej/Screenshot-2023-03-23-at-15.26.32.png\">Screenshot-2023-03-23-at-15.26.32.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/ESBWU2EMnOJhXhi8nqA9acej/Screenshot-2023-03-23-at-15.26.32.png\" title=\"Screenshot-2023-03-23-at-15.26.32.png\"><img src=\"/user_uploads/49624/ESBWU2EMnOJhXhi8nqA9acej/Screenshot-2023-03-23-at-15.26.32.png\"></a></div>",
+        "id": 343979026,
+        "sender_full_name": "soshial",
+        "timestamp": 1679578023
+    },
+    {
+        "content": "<p>Kadastra teksta datos ir, jā. Protams, ne visām pareiza.</p>",
+        "id": 344007718,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1679583816
+    },
+    {
+        "content": "<p>Papildināju adrešu <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bota</a> <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot/blob/main/vzd_cadastre.sh#L68\">skriptu</a>, kas līdz ar daļu citu kadastra tekstuālo datu lejupielādē un importē PostgreSQL arī šos. Izsauktā datu apstrādes procedūra (izpildās ilgāk par stundu), lai no XML iegūtu datus parastā tabulā: <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot/blob/main/nivkis_buves_attr.sql\">https://github.com/Davis-Klavins/osm-latvia-bot/blob/main/nivkis_buves_attr.sql</a> Stāvu skaits ir BuildingGroundFloors</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot/blob/main/vzd_cadastre.sh#L68\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot/blob/main/vzd_cadastre.sh#L68\" title=\"osm-latvia-bot/vzd_cadastre.sh at main · Davis-Klavins/osm-latvia-bot\">osm-latvia-bot/vzd_cadastre.sh at main · Davis-Klavins/osm-latvia-bot</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - osm-latvia-bot/vzd_cadast...</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot/blob/main/nivkis_buves_attr.sql\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot/blob/main/nivkis_buves_attr.sql\" title=\"osm-latvia-bot/nivkis_buves_attr.sql at main · Davis-Klavins/osm-latvia-bot\">osm-latvia-bot/nivkis_buves_attr.sql at main · Davis-Klavins/osm-latvia-bot</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - osm-latvia-bot/nivkis_buv...</div></div></div>",
+        "id": 344076548,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1679598210
+    },
+    {
+        "content": "<p>Proof of concept, ko var izmantot kā palīgmateriālu OSM datu papildināšanā par ēkām: <a href=\"https://drive.google.com/file/d/1bT6tfGA0d3rQPE6KyFuwsPvTp_s86dcu/view?usp=sharing\">https://drive.google.com/file/d/1bT6tfGA0d3rQPE6KyFuwsPvTp_s86dcu/view?usp=sharing</a> Priekš building:* un building:material tagiem pārejas tabulu jāveido, tad būtu OSM izmantotās vērtības. MaterialKindName dati failā ir nepilnīgi, pieļauju, ka no BuildingElementData jāpielasa trūkstošie. Teorētiski var izmantot kādā web aplikācijā, kur iet cauri un pārnest to, kas šķiet atbilstošs faktiskajai situācijai. Tikai darbaspēku vajag par kārtu divām vairāk. :)</p>",
+        "id": 344085323,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1679600410
+    },
+    {
+        "content": "<p>Oh wow, labs.<br>\n<span class=\"user-mention\" data-user-id=\"568802\">@i-ky</span> bija vaicājis par kādu portablāku risinājumu. Varbūt uztaisot Docker konteinerī var piedāvāt pasniedzējiem kā idejas skolēnu/studentu darbiem :)</p>",
+        "id": 344093489,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1679602977
+    },
+    {
+        "content": "<p>Tās jau divas dažādas lietas. Teiktais par Docker konteineru bija par adrešu <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">botu</a> (un iespēju OSM datus ar PostgreSQL apstrādāt). Te varbūt ar LVM GEO var sarunāt, ka būvēm <a href=\"https://lvmgeoserver.lvm.lv/geoserver/publicwfs/wfs?version=2.0.0\">WFS</a> papildus atribūtus pieliek vai, ja saveido tās pārejas tabulas, tad izveidot slāni tīri priekš OSM. Un tad jautājums par kādu efektīvu web rīku, kas ļauj ērti tos datus pārskatot pārnest, kur pieļaujams.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 344096703,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1679604036
+    },
+    {
+        "content": "<p>Ah jā, biju domājis, ka tur varbūt kaut kas rīkos kopīgs. Ļaušu zinošākiem cilvēkiem apspriest :)</p>",
+        "id": 344109128,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1679608517
+    }
+]

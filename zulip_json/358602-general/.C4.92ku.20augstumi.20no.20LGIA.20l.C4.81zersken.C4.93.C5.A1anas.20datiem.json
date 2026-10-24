@@ -1,0 +1,56 @@
+[
+    {
+        "content": "<p>Radās doma ka varētu sapildīt OSM ēku augstumus (height=) no LAS datiem.</p>\n<p>Aptuvenais process varētu izskatīties šāds:</p>\n<ol>\n<li>\n<p>Uzģenerē divus DEM TIFF:<br>\n1.1 Reljefa modelis (LAS Classification == 2)<br>\n1.2 Ēkas (LAS Classification == 6)</p>\n</li>\n<li>\n<p>No OSM datiem paņem ēkas poligonu</p>\n</li>\n<li>Sarēķina vidējo augstumu poligonā no DEM</li>\n<li>Augstums = h_Ēka - h_Reljefs </li>\n</ol>\n<p>Sākumā kā proof of concept varētu paņemt kādu mazāku apgabalu un uzģenerēt CSV failu ar aprēķinātajiem ēku augstumiem.<br>\nJāizdomā arī ko darīt ar nestandarta gadījumiem, kad ēkai ir vairāki augstumi, bet viens poligons.<br>\n<a href=\"/user_uploads/49624/IXaWCudNaIQowYTVIrcdxLWh/osm_dem.png\">osm_dem.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/IXaWCudNaIQowYTVIrcdxLWh/osm_dem.png\" title=\"osm_dem.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"900x900\" src=\"/user_uploads/thumbnail/49624/IXaWCudNaIQowYTVIrcdxLWh/osm_dem.png/840x560.webp\"></a></div>",
+        "id": 523537196,
+        "sender_full_name": "Anrijs",
+        "timestamp": 1749640705
+    },
+    {
+        "content": "<p>Izklausās ļoti interesanti - varbūt kādā mazā rajonā iespējams testa datu kopu uztaisīt?</p>",
+        "id": 523611291,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1749664225
+    },
+    {
+        "content": "<p>Šobrīd bez nekādas filtrēšanas. Vienkārši katram ēkas poligonam sarēķinātas vērtības<br>\n<a href=\"/user_uploads/49624/kPyNzBV4OzU_CSZFm1WdQIcL/buildings.csv\">buildings.csv</a></p>",
+        "id": 523678323,
+        "sender_full_name": "Anrijs",
+        "timestamp": 1749705231
+    },
+    {
+        "content": "<p>Lasu ka <a href=\"https://wiki.openstreetmap.org/wiki/Key:height#Height_of_buildings\">augstums esot jāliek jumta maksimālais</a>. No augstumu datu kopas varētu atmest kādus 1-5%. Tad max vērtībai vajadzētu būt aptuveni pareizajai.</p>",
+        "id": 523728463,
+        "sender_full_name": "Anrijs",
+        "timestamp": 1749725061
+    },
+    {
+        "content": "<p>Salīdzinot dažu ēku 99% max augstumus ar 3D Rīga izmērīto, kļūda ir 0.2m līdz 0.5m</p>",
+        "id": 523729981,
+        "sender_full_name": "Anrijs",
+        "timestamp": 1749725579
+    },
+    {
+        "content": "<p>Doma laba. Prakstiski, būs gan grūtāk drošvien. Jāņem vērā, ka OSM ēkas nav iezīmētas precīzi - ir nobīdes, ir apvienotas, ir sadalītas. Piemēram, kas notiks ar ielikto <code>height</code> vērtību, ja kāds to ēku izlabos vai pabīdīs? Ar tādiem importiem (līdzīgi kā adresēm) ir gandrīz svarīgāk pēc tam to uzturēt nekā pirmo reizi pievienot. Un kā sekot līdzi ēku izmaiņām dabā kopš datu datuma arī grūti uzreiz iedomāties - piemēram, nojaukts šķūnis, uzbūvēta piecstāvu ēka, bet datos augstums 5 metri tajā vietā...</p>",
+        "id": 523741038,
+        "sender_full_name": "HellMap",
+        "timestamp": 1749729571
+    },
+    {
+        "content": "<p>Pagaidām doma ir izrēķināt lidar pārklājumu ēkai un mediānas/95% maksimālā augstuma attiecību.<br>\nAttēlā:</p>\n<ul>\n<li>Melns punkts - pārklājums mazāks par 66%</li>\n<li>Sarkans rombs - max un mediānas augstuma starpība lielāka par 33%</li>\n</ul>\n<p><a href=\"/user_uploads/49624/I7_sMzZz0lu2w0aWY-P53tKz/Screenshot-2025-06-13-at-10.00.59.png\">Screenshot 2025-06-13 at 10.00.59.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/I7_sMzZz0lu2w0aWY-P53tKz/Screenshot-2025-06-13-at-10.00.59.png\" title=\"Screenshot 2025-06-13 at 10.00.59.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"1992x1718\" src=\"/user_uploads/thumbnail/49624/I7_sMzZz0lu2w0aWY-P53tKz/Screenshot-2025-06-13-at-10.00.59.png/840x560.webp\"></a></div>",
+        "id": 523883646,
+        "sender_full_name": "Anrijs",
+        "timestamp": 1749798220
+    },
+    {
+        "content": "<p>Laba doma par uzturēšanu. Vai svaigi LIDAR dati vispār tagad būs pieejami, vai arī viss tiks šausmīgi saslepenots?</p>",
+        "id": 524046216,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1749884981
+    },
+    {
+        "content": "<p>Šķet ka 2. cikls vispār tika nopauzēts un nezinu kad pabeigs... Un ja tie nebūs brīvi pieejami, tad arī nekāda uzturēšana no tiem nevar sanākt.</p>\n<p>Nojauktajiem šķūņiem varētu skatīties node/way modificēšanas datums un salīdzināt ar aptuveno LiDAR skenēšanas datumu.<br>\nbuilding:levels=, protams, būtu drošāks variants, bet to nebūtu pareizi minēt no augstuma.</p>\n<p>Katrā ziņā, šobrīd uz šo neskatos kā automatizētu importu, bet vairāk kā datu avotu, ko varētu izmantot kopā ar cilvēka loģisko domāšanu</p>",
+        "id": 524051169,
+        "sender_full_name": "Anrijs",
+        "timestamp": 1749891489
+    }
+]

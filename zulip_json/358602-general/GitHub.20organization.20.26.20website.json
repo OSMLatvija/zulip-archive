@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>Mums tagad ir <a href=\"https://github.com/OSMLatvija\">GitHub organizācija</a>. Tur pagaidām ir tikai divi repo:</p>\n<ol>\n<li><a href=\"https://github.com/OSMLatvija/OSMLatvija.github.io\">organizācijas \"vizītkarte\"</a> (pagaidām tukša), ko GitHub hosto <a href=\"https://osmlatvija.github.io\">šeit</a></li>\n<li><a href=\"https://github.com/OSMLatvija/zulip-archive\">Zulip arhīvs</a>, ko GitHub hosto <a href=\"https://osmlatvija.github.io/zulip-archive/\">šeit</a></li>\n</ol>\n<p>Ja kādam ir idejas, kā jāizskatās kopienas mājaslapai, kam tur jābūt utt. - welcome!<br>\nJa kādam gribas kļūt par Member'u un palīdzēt ar uzturēšanu - more than welcome!<br>\nJa kādam trūkst vietu, kur apspriest OSM - varam ieslēgt tur Discussions :)<br>\nJa kādam ir projekts vai projekta ideja, kas ir saistīti ar OSM un Latviju, un ir slinkums/nav laika/spēku/iemaņu to uzturēt vienatnē - organizācija teorētiski var to pārņemt.</p>",
+        "id": 315466454,
+        "sender_full_name": "i-ky",
+        "timestamp": 1670880497
+    },
+    {
+        "content": "<p>Vēl viens repo:</p>\n<ol start=\"3\">\n<li><a href=\"https://github.com/OSMLatvija/.github\">organizācijas \"vizītkarte\" GitHub'ā</a></li>\n</ol>",
+        "id": 315542239,
+        "sender_full_name": "i-ky",
+        "timestamp": 1670923089
+    },
+    {
+        "content": "<p>Vēl divi repo:</p>\n<ol start=\"4\">\n<li><a href=\"https://github.com/OSMLatvija/road-signs\">ceļa zīmes</a> (vairāk par to lasiet šeit: <a class=\"stream-topic\" data-stream-id=\"362235\" href=\"/#narrow/stream/362235-Zulip/topic/ce.C4.BCaz.C4.ABmju.20bots\">#Zulip &gt; ceļazīmju bots</a>)</li>\n<li><a href=\"https://github.com/OSMLatvija/Osmalyzer\">ceļu anālize</a> (vairāk par to lasiet šeit: <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts\">#general &gt; LVC ceļu analīzes skripts</a>)</li>\n</ol>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/OSMLatvija/road-signs\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/dd1db4fff9ef437552919508ff94c9bd50421bd1\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f636463386238636165613661343237666331366434646565366631346562363837353462376634333238636132336231633132323263663934326631396466612f4f534d4c617476696a612f726f61642d7369676e73)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/OSMLatvija/road-signs\" title=\"GitHub - OSMLatvija/road-signs\">GitHub - OSMLatvija/road-signs</a></div><div class=\"message_embed_description\">Contribute to OSMLatvija/road-signs development by creating an account on GitHub.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/OSMLatvija/Osmalyzer\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/920e73182babba4f299d627f4a393193172f13e9\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f386135356535616637333134376534396632616337646530653066656136613465373561386231326261366136663432396337313764643861346461623562392f4f534d4c617476696a612f4f736d616c797a6572)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/OSMLatvija/Osmalyzer\" title=\"GitHub - OSMLatvija/Osmalyzer: Parsing OSM data when it's too complex for Overpass\">GitHub - OSMLatvija/Osmalyzer: Parsing OSM data when it's too complex for Overpass</a></div><div class=\"message_embed_description\">Parsing OSM data when it's too complex for Overpass - GitHub - OSMLatvija/Osmalyzer: Parsing OSM data when it's too complex for Overpass</div></div></div>",
+        "id": 353873159,
+        "sender_full_name": "i-ky",
+        "timestamp": 1682689012
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/GitHub.20organization.20.26.20website/near/315466454\">said</a>:</p>\n<blockquote>\n<p>Mums tagad ir <a href=\"https://github.com/OSMLatvija\">GitHub organizācija</a>. Tur pagaidām ir tikai divi repo:</p>\n<ol>\n<li><a href=\"https://github.com/OSMLatvija/OSMLatvija.github.io\">organizācijas \"vizītkarte\"</a> (pagaidām tukša), ko GitHub hosto <a href=\"https://osmlatvija.github.io\">šeit</a></li>\n</ol>\n</blockquote>\n<p>Ieliku tur minimālo lapiņu, lai vismaz Osmalyzer atskaites būtu vieglāk atrast.</p>",
+        "id": 370188182,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687895325
+    },
+    {
+        "content": "<p>Tie linki drusku ne tādi</p>",
+        "id": 370191140,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687896037
+    },
+    {
+        "content": "<p>...skatoties GitHub'ā. Bet uz <a href=\"https://osmlatvija.github.io/\">https://osmlatvija.github.io/</a> viss kārtībā, kas ir svarīgāk.</p>",
+        "id": 370194220,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687896716
+    }
+]

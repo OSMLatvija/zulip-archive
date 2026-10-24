@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p><a href=\"https://www.openstreetmap.org/way/1242664541/history\">https://www.openstreetmap.org/way/1242664541/history</a></p>",
+        "id": 418524381,
+        "sender_full_name": "latvia-bot",
+        "timestamp": 1706466587
+    },
+    {
+        "content": "<p><a href=\"https://www.openstreetmap.org/way/1268606875/history\">https://www.openstreetmap.org/way/1268606875/history</a><br>\n<a href=\"https://www.openstreetmap.org/way/1274734974/history\">https://www.openstreetmap.org/way/1274734974/history</a></p>",
+        "id": 436328787,
+        "sender_full_name": "latvia-bot",
+        "timestamp": 1714500901
+    },
+    {
+        "content": "<p><a href=\"https://www.openstreetmap.org/way/1467070222/history\">https://www.openstreetmap.org/way/1467070222/history</a></p>",
+        "id": 568114153,
+        "sender_full_name": "latvia-bot",
+        "timestamp": 1768443116
+    },
+    {
+        "content": "<p><a href=\"https://www.openstreetmap.org/way/1047164318/history\">https://www.openstreetmap.org/way/1047164318/history</a></p>",
+        "id": 599663482,
+        "sender_full_name": "latvia-bot",
+        "timestamp": 1780449445
+    },
+    {
+        "content": "<p><a href=\"https://www.openstreetmap.org/way/914486268/history\">https://www.openstreetmap.org/way/914486268/history</a></p>",
+        "id": 609116866,
+        "sender_full_name": "latvia-bot",
+        "timestamp": 1783559710
+    },
+    {
+        "content": "<p><a href=\"https://www.openstreetmap.org/way/1565260165/history\">https://www.openstreetmap.org/way/1565260165/history</a></p>",
+        "id": 629399109,
+        "sender_full_name": "latvia-bot",
+        "timestamp": 1791249416
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"658024\">latvia-bot</span> <a href=\"#narrow/channel/360959-adreses/topic/Ways.20and.20relations.20with.20missing.20tags.20for.20review/near/629399109\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://www.openstreetmap.org/way/1565260165/history\">https://www.openstreetmap.org/way/1565260165/history</a></p>\n</blockquote>\n<p>My bad. Still getting used to JOSM. Fixed</p>",
+        "id": 629474623,
+        "sender_full_name": "markalex",
+        "timestamp": 1791277284
+    },
+    {
+        "content": "<p><a href=\"https://www.openstreetmap.org/way/170043558/history\">https://www.openstreetmap.org/way/170043558/history</a></p>",
+        "id": 630567424,
+        "sender_full_name": "latvia-bot",
+        "timestamp": 1791595146
+    }
+]

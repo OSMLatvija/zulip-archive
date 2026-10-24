@@ -1,0 +1,74 @@
+[
+    {
+        "content": "<p>Izrādās, Latvijā diezgan daudz kas sakartēts kā <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aplace%3Dlocality\">place=locality</a>.<br>\nDaļa šķiet pareizi (bijušās muižu vietas, pieņemot, ka tur vairs nav ēku), bet daļa ir izmantoti <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aplace%3Disolated_dwelling\">place=isolated_dwelling</a> vietā (piem., nomainītais <a href=\"https://www.openstreetmap.org/changeset/122685588\">https://www.openstreetmap.org/changeset/122685588</a>).<br>\nNo OSM wiki:</p>\n<blockquote>\n<p><a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aplace%3Dlocality\">place=locality</a> tag is used to name an unpopulated location for which there is no extant feature to which the tag could be associated</p>\n</blockquote>\n<p>Līdz ar to visi mājvārdi kā locality šķiet nepareizi un būtu nomaināmi.<br>\nKādas domas par šo?</p>\n<p><a href=\"/user_uploads/49624/3WJy5s2GIp2m1tn5Z6j0USWj/image.png\">place=locality https://overpass-turbo.eu/s/1LIx</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/3WJy5s2GIp2m1tn5Z6j0USWj/image.png\" title=\"place=locality https://overpass-turbo.eu/s/1LIx\"><img src=\"/user_uploads/49624/3WJy5s2GIp2m1tn5Z6j0USWj/image.png\"></a></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/changeset/122685588\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/changeset/122685588\" title=\"Changeset: 122685588 | OpenStreetMap\">Changeset: 122685588 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 439452669,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716138842
+    },
+    {
+        "content": "<p>Jā, tiem drošvien jābūt atpakaļ uz isolated dwelling</p>",
+        "id": 439452872,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716139047
+    },
+    {
+        "content": "<p>Autors ir internacionāls un drošvien nav precīzi pazīstams ar Latvijas savlaiku LGIA viensētvārdimportu. Ap Iecavu var redzēt daudz pārtaisīts, kur daudz izmaiņas veiktas</p>",
+        "id": 439452896,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716139081
+    },
+    {
+        "content": "<p>Es pat nezinu kā īsti OSM atzīmēt kaut kādas \"ar nosaukumu pazīstamas vietas\" - piemēram <a href=\"https://www.openstreetmap.org/node/1419638393\">https://www.openstreetmap.org/node/1419638393</a> - ja es nezinu admin robežu tiem</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/1419638393\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/1419638393\" title=\"Node: ‪Getliņi‬ (‪1419638393‬) | OpenStreetMap\">Node: ‪Getliņi‬ (‪1419638393‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 439453023,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716139191
+    },
+    {
+        "content": "<p>Citiem piemēriem vispār nav skaidrs no kurienes/kāda avota <a href=\"https://www.openstreetmap.org/node/7603970478\">https://www.openstreetmap.org/node/7603970478</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/7603970478\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/7603970478\" title=\"Node: ‪Alfa‬ (‪7603970478‬) | OpenStreetMap\">Node: ‪Alfa‬ (‪7603970478‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 439453101,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716139252
+    },
+    {
+        "content": "<p>Dažiem vispār banus jau jāliek <a href=\"https://www.openstreetmap.org/way/768745536\">https://www.openstreetmap.org/way/768745536</a> <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/768745536\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/768745536\" title=\"Way: ‪Mežaparka rezidences‬ (‪768745536‬) | OpenStreetMap\">Way: ‪Mežaparka rezidences‬ (‪768745536‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 439453122,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716139289
+    },
+    {
+        "content": "<p>Skatoties piemērus (izņemot tos isolated), laikam ir tas faktiskais \"nav ko citu ielikt\" neatkarīgi no wiki nozīmes</p>",
+        "id": 439453194,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716139345
+    },
+    {
+        "content": "<p>Jā, Getliņiem prasītos uz robežas likt. Ja zināma :)<br>\nAlfa šķiet pietiekami labs locality piemērs (apdzīvots, protams).<br>\nPēdējais - nu es nez, normāla \"note\" =)</p>",
+        "id": 439453773,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716139938
+    },
+    {
+        "content": "<p>Kapsētas sektori ar <a href=\"https://www.openstreetmap.org/node/4511175501\">https://www.openstreetmap.org/node/4511175501</a> <span aria-label=\"hammer\" class=\"emoji emoji-1f528\" role=\"img\" title=\"hammer\">:hammer:</span></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/4511175501\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/4511175501\" title=\"Node: ‪2. terase‬ (‪4511175501‬) | OpenStreetMap\">Node: ‪2. terase‬ (‪4511175501‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 439454032,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716140179
+    },
+    {
+        "content": "<p>Bet nu sarežģīti ar tādiem vēsturiskiem nosaukumiem, ņemot vērā, ka neviens gandrīz avotu nenorāda tos pievienojot - kā tagad kādam pārbaudīt?</p>",
+        "id": 439454123,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716140282
+    },
+    {
+        "content": "<p>Daugavgrīvā arī bija piemēri, kur nesakrīt tegošanas lēmumi <a href=\"https://www.openstreetmap.org/node/9082572123/history\">https://www.openstreetmap.org/node/9082572123/history</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/9082572123/history\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/9082572123/history\" title=\"Node History: ‪Jūras zvaigzne‬ (‪9082572123‬) | OpenStreetMap\">Node History: ‪Jūras zvaigzne‬ (‪9082572123‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 439454294,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716140415
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/m.C4.81jv.C4.81rdi.20k.C4.81.20place.3Dlocality/near/439454032\">said</a>:</p>\n<blockquote>\n<p>Kapsētas sektori ar <a href=\"https://www.openstreetmap.org/node/4511175501\">https://www.openstreetmap.org/node/4511175501</a> <span aria-label=\"hammer\" class=\"emoji emoji-1f528\" role=\"img\" title=\"hammer\">:hammer:</span></p>\n</blockquote>\n<p>Es tagad neatceros, vai nu tolaik nebija precīzāku tagu, vai arī vajadzēja zināt reģionu, vai arī tagging for the renderer :)</p>",
+        "id": 439454428,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716140556
+    }
+]

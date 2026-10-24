@@ -1,0 +1,80 @@
+[
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/highway.3Dfootway.20un.20velo.20routing/near/315182372\">said</a>:</p>\n<blockquote>\n<p>Ne par tagošanu, bet OpenStreetBrowser tagad jauna kategorija, \"footways\" - var palīdzēt kartēšanā.<br>\n<a href=\"https://openstreetbrowser.org/#map=16/56.9550/24.1249&amp;categories=footways\">https://openstreetbrowser.org/#map=16/56.9550/24.1249&amp;categories=footways</a><br>\n<a href=\"/user_uploads/49624/PsfRFf2oc1uEaTF2g9WTBwtH/image.png\">image.png</a></p>\n</blockquote>\n<p>Man liekas, tas ir pirmais off-topic :)<br>\nCik sapratu, tur ir tikai par <code>footway</code> un <code>sidewalk=left/right/both</code>, nekāda sakara ar velo.</p>",
+        "id": 315312068,
+        "sender_full_name": "i-ky",
+        "timestamp": 1670833837
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/highway.3Dfootway.20un.20velo.20routing/near/315312068\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/highway.3Dfootway.20un.20velo.20routing/near/315182372\">said</a>:</p>\n<blockquote>\n<p>Ne par tagošanu, bet OpenStreetBrowser tagad jauna kategorija, \"footways\" - var palīdzēt kartēšanā.<br>\n<a href=\"https://openstreetbrowser.org/#map=16/56.9550/24.1249&amp;categories=footways\">https://openstreetbrowser.org/#map=16/56.9550/24.1249&amp;categories=footways</a><br>\n<a href=\"/user_uploads/49624/PsfRFf2oc1uEaTF2g9WTBwtH/image.png\">image.png</a></p>\n</blockquote>\n<p>Man liekas, tas ir pirmais off-topic :)<br>\nCik sapratu, tur ir tikai par <code>footway</code> un <code>sidewalk=left/right/both</code>, nekāda sakara ar velo.</p>\n</blockquote>\n<p>Nu, tas var ļaut vieglāk paskatīties, kā ir sazīmēti footways (kā tags pie ceļa vai kā atsevišķs ceļš? vai ir footway=sidewalk? kā ar velo tagiem), un saprast, kāda tagošanas shēma būtu piemērotākā un reālistiskākā :)</p>",
+        "id": 315441186,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1670872529
+    },
+    {
+        "content": "<p>Tad kādi defaulti beigās tiek piedāvati lai var uz balsošanu vai apspriešanu vai kaut ko tādu?<br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dpath\">highway=path</a> --&gt; <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a><br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dfootway\">highway=footway</a> --&gt; <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a><br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dfootway\">highway=footway</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afootway%3Dsidewalk\">footway=sidewalk</a> --&gt; <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dpermissive\">bicycle=permissive</a></p>",
+        "id": 318441094,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672328257
+    },
+    {
+        "content": "<p>Man liekas, ka <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dpermissive\">bicycle=permissive</a> (see also <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aaccess%3Dpermissive\">access=permissive</a>) neder, jo nav tā, ka pēkšņi kāds var atņemt riteņbraucējiem iespēju braukt pa ietvēm.</p>\n<p><a href=\"https://likumi.lv/ta/id/274865#p200\">CSN 200. punktā</a> teikts:</p>\n<blockquote>\n<p>... velosipēdu vadītājiem atļauts:<br>\n200.3. braukt pa ietvi, ja braukšana pa brauktuvi, ņemot vērā ceļu satiksmes intensitāti, ceļa un meteoroloģiskos apstākļus, nav iespējama, ir apgrūtināta vai bīstama.</p>\n</blockquote>\n<p>Kas ir \"apgrūtināts\" un \"bīstams\" ir pietiekami subjektīvi, tāpēc riteņbraucējs jebkurā gadījumā var attaisnot braukšanu pa ietvi.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://likumi.lv/ta/id/274865#p200\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/91d1c88287840a065f2a7c4bd960e319f144ed00\\/68747470733a2f2f6c696b756d692e6c762f6c696b756d695f62696c6465732f5049432f4c494b3230302e4a5047)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://likumi.lv/ta/id/274865#p200\" title=\"Ceļu satiksmes noteikumi\">Ceļu satiksmes noteikumi</a></div><div class=\"message_embed_description\">Tiesību akti un to izmaiņas: visi jaunumi un arhīvs. Sistematizēti tiesību akti. Plašas meklēšanas un personalizētās iespējas. Vietni uztur „Latvijas Vēstnesis”</div></div></div>",
+        "id": 324720196,
+        "sender_full_name": "i-ky",
+        "timestamp": 1675095614
+    },
+    {
+        "content": "<p>Jā, es to tā arī neliku tabulā, jo nezinu, kā to apzīmēt īsti. Bet <code>yes</code>likt kaut kā arī gluži negribās, bet nu laikam var?</p>",
+        "id": 324721534,
+        "sender_full_name": "HellMap",
+        "timestamp": 1675095956
+    },
+    {
+        "content": "<p>Pagaidu tabula no <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/sidewalk.3Dseparate\">#general &gt; sidewalk=separate</a> <a href=\"https://wiki.openstreetmap.org/wiki/User:HellMap/sandbox2\">https://wiki.openstreetmap.org/wiki/User:HellMap/sandbox2</a></p>",
+        "id": 324721684,
+        "sender_full_name": "HellMap",
+        "timestamp": 1675095986
+    },
+    {
+        "content": "<p>Izskatās, ka <a href=\"https://wiki.openstreetmap.org/wiki/OSM_tags_for_routing/Access_restrictions#Poland\">Polijā ir līdzīgi noteikumi</a>. Viņi liek <code>dismount</code> default'ā ar piebildi:</p>\n<blockquote>\n<p>Note that cyclists can be allowed on footways in some cases</p>\n<ul>\n<li>where footway is wider than 2m and next to road allowing more than 50 km/h (taggable with <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a> so not a problem)</li>\n<li>footways which are not sidewalks (not entirely clear legal situation!)</li>\n<li>during very bad weather conditions - but it is still not allowed if explicitly signed. So <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dfootway\">highway=footway</a> <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afootway%3Dsidewalk\">footway=sidewalk</a> without <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Abicycle\">bicycle=*</a> will not allow in normal situation but will allow cyclists during bad weather conditions, while <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dfootway\">highway=footway</a> <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afootway%3Dsidewalk\">footway=sidewalk</a> <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dno\">bicycle=no</a> will not allow this</li>\n</ul>\n</blockquote>\n<p>...un laikam tomēr pievieno daudz <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a> tagu.</p>",
+        "id": 324722714,
+        "sender_full_name": "i-ky",
+        "timestamp": 1675096269
+    },
+    {
+        "content": "<p><code>footway + foot=designated</code> labāk <code>dismount</code>, jo <code>no</code> var nozīmēt, ka vispār ar velo nedrīkst, pat vedot to blakus.</p>",
+        "id": 324724512,
+        "sender_full_name": "i-ky",
+        "timestamp": 1675096712
+    },
+    {
+        "content": "<p>Vai tad OSM bicycle nozīmē arī stumšanu? Dismount taču nozīmē, tu esi gājējs. Es kaut kā nesaprotu jēgu no <code>dismount</code>citur. Tu taču vari stumt un nest, ko gribi - nav nekāds īpašs noteikums par to. Tad jau visur, kur ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afoot%3Dyes\">foot=yes</a>/designated bet nav <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a>/designated, var likt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Ddismount\">bicycle=dismount</a>. Un vispār teorētiski <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amoped%3Ddismount\">moped=dismount</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amotorcycle%3Ddismount\">motorcycle=dismount</a> un arī kā autoskolā paskaidroja <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amotorcar%3Ddismount\">motorcar=dismount</a> - izkāp un stum, kur gribi - tu vairs neesi transportlīdzekļa vadītājs.</p>",
+        "id": 324726048,
+        "sender_full_name": "HellMap",
+        "timestamp": 1675097156
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Tag:bicycle%3Ddismount#Potential_redefinition\">https://wiki.openstreetmap.org/wiki/Tag:bicycle%3Ddismount#Potential_redefinition</a> Hmmm.... eh, atkal viss pārāk sarežģīti</p>",
+        "id": 324726416,
+        "sender_full_name": "HellMap",
+        "timestamp": 1675097248
+    },
+    {
+        "content": "<p>Tad jautājums, ko routeri dara. Piemēram, <a href=\"https://cycle.travel/post/890\">https://cycle.travel/post/890</a> \"At present <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dno\">bicycle=no</a> is treated as exactly that – no bicycles. So <a href=\"http://cycle.travel\">cycle.travel</a> won’t route over any such way. If there isn’t a bicycle tag, or it’s <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Ddismount\">bicycle=dismount</a>, then it’ll be treated as a way where you can push the bike.\"</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://cycle.travel/post/890\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/fc54e060f5c496647b435e10d2ba30321b209e1e\\/68747470733a2f2f6379636c652e74726176656c2f736974655f696d616765732f63745f63697263756c61725f343030783430302e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://cycle.travel/post/890\" title=\"&quot;bicycle=dismount&quot; tagging in OSM  | cycle.travel\">\"bicycle=dismount\" tagging in OSM  | cycle.travel</a></div><div class=\"message_embed_description\">\n\n\n\n\nBecome a supporter\n</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"http://cycle.travel\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/c7339c37489da2f1267cfbea42a364b5274a37ee\\/68747470733a2f2f6379636c652e74726176656c2f736974655f696d616765732f6d61705f6f70656e5f67726170682e6a7067)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"http://cycle.travel\" title=\"cycle.travel | route-planner and maps - traffic-free &amp; quiet roads\">cycle.travel | route-planner and maps - traffic-free &amp; quiet roads</a></div><div class=\"message_embed_description\">The best-kept secret of a great ride - find scenic routes with fewer cars.</div></div></div>",
+        "id": 324727895,
+        "sender_full_name": "HellMap",
+        "timestamp": 1675097637
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/highway.3Dfootway.20un.20velo.20routing/near/324726048\">said</a>:</p>\n<blockquote>\n<p>Vai tad OSM bicycle nozīmē arī stumšanu? Dismount taču nozīmē, tu esi gājējs. Es kaut kā nesaprotu jēgu no <code>dismount</code>citur. Tu taču vari stumt un nest, ko gribi - nav nekāds īpašs noteikums par to. Tad jau visur, kur ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afoot%3Dyes\">foot=yes</a>/designated bet nav <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a>/designated, var likt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Ddismount\">bicycle=dismount</a>.</p>\n</blockquote>\n<p>Pie mums (it īpaši CSN kontekstā) starpības nav, bet vispār, OSM Wiki saka, ka ir vietas, kur pat stumt ir aizliegts:</p>\n<blockquote>\n<p>In some places it is illegal to both ride and push bicycle[1]</p>\n<ol>\n<li><a href=\"https://www.ansa.it/english/news/general_news/2016/10/25/venice-bans-pushing-bikes_e4ad7248-970e-49a8-b9a1-73efe5716101.html\">historic part of Venice</a> and Nymphenburg Schlosspark in Germany, many subway systems</li>\n</ol>\n</blockquote>",
+        "id": 324838162,
+        "sender_full_name": "i-ky",
+        "timestamp": 1675147708
+    },
+    {
+        "content": "<p>OSRM turas pie ta, ka <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dno\">bicycle=no</a> aizliedz stumt:<br>\n<a href=\"https://github.com/Project-OSRM/osrm-backend/issues/5072\">https://github.com/Project-OSRM/osrm-backend/issues/5072</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Project-OSRM/osrm-backend/issues/5072\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6cc9a66880e7a1193f46dc95edc2f6e675219e00\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f393639386161366165333735396438343139323334383861626232313530356463626536656335383339326534356334653031626562333932653465373461392f50726f6a6563742d4f53524d2f6f73726d2d6261636b656e642f6973737565732f35303732)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Project-OSRM/osrm-backend/issues/5072\" title=\"bicycle profile - allow bike pushing when bicycle=no and foot=yes · Issue #5072 · Project-OSRM/osrm-backend\">bicycle profile - allow bike pushing when bicycle=no and foot=yes · Issue #5072 · Project-OSRM/osrm-backend</a></div><div class=\"message_embed_description\">in bike profile, currently if tags disallow bicycle (eg bicycle=no) but allow foot (eg foot=yes), this way/node is blocked from routing. Proposed behaviour if way is disallowed for bicycle and allo...</div></div></div>",
+        "id": 324839276,
+        "sender_full_name": "i-ky",
+        "timestamp": 1675148259
+    }
+]

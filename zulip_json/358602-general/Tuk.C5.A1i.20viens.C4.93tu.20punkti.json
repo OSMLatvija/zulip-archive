@@ -1,0 +1,206 @@
+[
+    {
+        "content": "<p>4170 <code>place=isolated_dwelling</code> bez <code>name=</code><br>\n<a href=\"/user_uploads/49624/m9MjO1vVo-jaBOIfHfd4Gdou/image.png\">viensētas</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/m9MjO1vVo-jaBOIfHfd4Gdou/image.png\" title=\"viensētas\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"825x532\" src=\"/user_uploads/thumbnail/49624/m9MjO1vVo-jaBOIfHfd4Gdou/image.png/840x560.webp\"></a></div>",
+        "id": 500000498,
+        "sender_full_name": "Colby",
+        "timestamp": 1739703055
+    },
+    {
+        "content": "<p>kā to var redzēt? gribās paskatīties bauskas novadā un izlabot</p>",
+        "id": 500004428,
+        "sender_full_name": "Petons",
+        "timestamp": 1739706702
+    },
+    {
+        "content": "<p>Tas izskatās pēc Overpass Turbo query atvērts JOSM</p>",
+        "id": 500004540,
+        "sender_full_name": "HellMap",
+        "timestamp": 1739706816
+    },
+    {
+        "content": "<p>ar overpass turbo<br>\n<a href=\"https://overpass-turbo.eu/s/1YQe\">https://overpass-turbo.eu/s/1YQe</a></p>",
+        "id": 500004546,
+        "sender_full_name": "Colby",
+        "timestamp": 1739706822
+    },
+    {
+        "content": "<p>nezinu vai vērts individuāli skatīties un labot</p>",
+        "id": 500004600,
+        "sender_full_name": "Colby",
+        "timestamp": 1739706849
+    },
+    {
+        "content": "<p>Reāli dabā un LĢIA viensētu dati gan bieži nesakrīt. Daudz kas ir residential un farmyard un visādi citi nevis isolated dwlling. Ne visi dwelling ir ar punktu. Dažviet faktiski vienam ir vairāki punkti datos. OSM izpratnē isolated dwelling ir vietās arī, kur nav oficiālas viensētu. Utt.</p>",
+        "id": 500004719,
+        "sender_full_name": "HellMap",
+        "timestamp": 1739706971
+    },
+    {
+        "content": "<p>Es arī jēgu manuāli \"labot\" neredzu. Ja mēs varētu vienoties par importu un uzturēšanu pēc kaut kādiem principiem līdzīgi adresēm, tad varbūt.</p>",
+        "id": 500004734,
+        "sender_full_name": "HellMap",
+        "timestamp": 1739706989
+    },
+    {
+        "content": "<p>Vienīgais ap Iecavu var salabot <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/channel/358602-general/topic/m.C4.81jv.C4.81rdi.20k.C4.81.20place.3Dlocality\">#general &gt; mājvārdi kā place=locality</a></p>",
+        "id": 500004763,
+        "sender_full_name": "HellMap",
+        "timestamp": 1739707025
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/RumJf2pSCN3sp1Dml_tjBeW9/image.png\">tags</a><br>\nnagi niez visu izdzēst</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/RumJf2pSCN3sp1Dml_tjBeW9/image.png\" title=\"tags\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"496x101\" src=\"/user_uploads/thumbnail/49624/RumJf2pSCN3sp1Dml_tjBeW9/image.png/840x560.webp\"></a></div>",
+        "id": 500007366,
+        "sender_full_name": "Colby",
+        "timestamp": 1739709496
+    },
+    {
+        "content": "<p>Tas ir tikai punktiem?</p>",
+        "id": 500014942,
+        "sender_full_name": "HellMap",
+        "timestamp": 1739716037
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/358602-general/topic/Tuk.C5.A1i.20viens.C4.93tu.20punkti/near/500004719\">said</a>:</p>\n<blockquote>\n<p>Reāli dabā un LĢIA viensētu dati gan bieži nesakrīt. Daudz kas ir residential un farmyard un visādi citi nevis isolated dwlling. Ne visi dwelling ir ar punktu. Dažviet faktiski vienam ir vairāki punkti datos. OSM izpratnē isolated dwelling ir vietās arī, kur nav oficiālas viensētu. Utt.</p>\n</blockquote>\n<p>esmu sācis pamazām labot, iecavas pagasta ziemeļu daļā visi locality ir vienkārši pamestas viensētas. es par iso_dwelling skaitu tikai farmyardus kas ir kautcik tālu no viens otra</p>",
+        "id": 500014959,
+        "sender_full_name": "Petons",
+        "timestamp": 1739716059
+    },
+    {
+        "content": "<p>vai ir atzīmēti kā viensētas LĢIA kartē</p>",
+        "id": 500014969,
+        "sender_full_name": "Petons",
+        "timestamp": 1739716075
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/358602-general/topic/Tuk.C5.A1i.20viens.C4.93tu.20punkti/near/500014942\">said</a>:</p>\n<blockquote>\n<p>Tas ir tikai punktiem?</p>\n</blockquote>\n<p>tikai puntki, gandrīz visi no vecā VDB importa<br>\nir šur tur kāds iezīmējis kā area un atstājis bez name bet tur gan individuāli jāpēta kas domāts</p>",
+        "id": 500015152,
+        "sender_full_name": "Colby",
+        "timestamp": 1739716212
+    },
+    {
+        "content": "<p>Tikai farmyard != isolated_dwelling - uz farmyard vai residential vai nez kā tādiem punktiem nav klāt jābūt. OSM is_dw is save nozīme. Savā laikā tos visus no LĢIA saimportēja kā iso_dw, bet tas nav pareizi daudz kur (pat iespējams lielākoties).</p>",
+        "id": 500015174,
+        "sender_full_name": "HellMap",
+        "timestamp": 1739716242
+    },
+    {
+        "content": "<p>Es esmu daudz iso_dwelling laukumus zīmējis. Bieži tur ir arī punkts, kuru tad es apvienoju, bet bieži tāda punkta arī nav  tāpēc laukums pats par sevi.</p>",
+        "id": 500015230,
+        "sender_full_name": "HellMap",
+        "timestamp": 1739716306
+    },
+    {
+        "content": "<p>daudzus ziemeļos, iecavas pagastā, ko nesen saliku varētu izdzēst. it īpaši tos kam nepieder lielāks zemes klucis</p>",
+        "id": 500015277,
+        "sender_full_name": "Petons",
+        "timestamp": 1739716328
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/358602-general/topic/Tuk.C5.A1i.20viens.C4.93tu.20punkti/near/500015230\">said</a>:</p>\n<blockquote>\n<p>Es esmu daudz iso_dwelling laukumus zīmējis. Bieži tur ir arī punkts, kuru tad es apvienoju, bet bieži tāda punkta arī nav  tāpēc laukums pats par sevi.</p>\n</blockquote>\n<p>is_dw area vispār renderējas?</p>",
+        "id": 500015295,
+        "sender_full_name": "Petons",
+        "timestamp": 1739716349
+    },
+    {
+        "content": "<p>Noklusētajā kartē man liekas, ka nē. Tikai, ja nosaukums, ir teksts. Bet nu tas neko nenozīmē.</p>",
+        "id": 500015353,
+        "sender_full_name": "HellMap",
+        "timestamp": 1739716410
+    },
+    {
+        "content": "<p>Farmyard vispār ir pa daudz lietots visam pēc kārtas - it kā katrā sētā kombains un govis.</p>",
+        "id": 500015428,
+        "sender_full_name": "HellMap",
+        "timestamp": 1739716478
+    },
+    {
+        "content": "<p>es par farmyard lieku tās sētas kam pieder lauku zeme kadastrā</p>",
+        "id": 500016223,
+        "sender_full_name": "Petons",
+        "timestamp": 1739717171
+    },
+    {
+        "content": "<p>farmyard ir teritorijas, kurās ir kaut kāda lauksaimniecība - dzīvnieki, lauka uzturēšana, ēkas (klētis, šķūņi, utt.), tehnika (traktori, kombaini, utt.), utt. Vai tur blakus lauks vai ne, pats par sevi vēl neko nenozīmē. Ļoti daudz viensētu būvētas tā, ka apkārt lauki, bet cilvēki tikai dzīvo un neko tur paši near un nesēj un nekādas tehnikas un nekādu ražas glabāšanas vai apstrādes viņiem nav un nekādus lopus viņi netur - bet nolīdz ārpakalpojuma lauksaimniekus.</p>",
+        "id": 500016711,
+        "sender_full_name": "HellMap",
+        "timestamp": 1739717605
+    },
+    {
+        "content": "<p>Daļa no tām viensētām bez nosaukuma to ir savulaik pazaudējušas revertu dēļ. No vēstures teorētiski var automatizēti atjaunot.</p>",
+        "id": 500018761,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1739719376
+    },
+    {
+        "content": "<p>es varētu 1 changesetā visu nosaukt un izdzēst nevajadzīgās</p>",
+        "id": 500480117,
+        "sender_full_name": "Petons",
+        "timestamp": 1739901767
+    },
+    {
+        "content": "<p>un nomainīt pamestos uz locality</p>",
+        "id": 500480156,
+        "sender_full_name": "Petons",
+        "timestamp": 1739901782
+    },
+    {
+        "content": "<p>Ar automātiskiem editiem jāuzmanās - jāizlasa policy, jāuztaisa JOSM izmaiņu fails - tad varēs redzēt efektu :)</p>",
+        "id": 500648279,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1739971159
+    },
+    {
+        "content": "<p>Es arī ne visai saprotu, kas šeit ir piemēram \"nevajadzīgie\" un kā to var masveidā noteikt? Katrs punkts var būt novecojis, katram punktam var vai var nebūt dabā atbilstoša vieta un OSM kaut kas iezīmēts citādi - adreses punktā, duplicēti, un landuse vai vēl citādi. Te var labākajā gadījumā atvērt piemēram JOSMā punktus no LĢIA importa un tad pa vienam salīdzināt, kur sakrīt, kur nē - un, atkarībā no OSM datiem, atbilstoši nodzēst, izlabot, pievienot vai savienot. Bet katrs lēmums ir individuāls.</p>",
+        "id": 500651363,
+        "sender_full_name": "HellMap",
+        "timestamp": 1739972041
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/channel/358602-general/topic/Tuk.C5.A1i.20viens.C4.93tu.20punkti/near/500648279\">said</a>:</p>\n<blockquote>\n<p>Ar automātiskiem editiem jāuzmanās - jāizlasa policy, jāuztaisa JOSM izmaiņu fails - tad varēs redzēt efektu :)</p>\n</blockquote>\n<p>es pats nemāku taisīt automātiskus editus, labāk manuālu taisītu</p>",
+        "id": 500661943,
+        "sender_full_name": "Petons",
+        "timestamp": 1739974793
+    },
+    {
+        "content": "<blockquote>\n<p>Ļoti daudz viensētu būvētas tā, ka apkārt lauki, bet cilvēki tikai dzīvo un neko tur paši near un nesēj un nekādas tehnikas un nekādu ražas glabāšanas vai apstrādes viņiem nav un nekādus lopus viņi netur - bet nolīdz ārpakalpojuma lauksaimniekus.</p>\n</blockquote>\n<p>Šādus tātad būtu pareizi jāatzīmē kā isolated_dwelling laukums? Daudz kur sazīmēts farmyard – ja tur nav fermas, traktoru utt., būtu jālabo uz isolated_dwelling, pareizi?</p>",
+        "id": 526202352,
+        "sender_full_name": "Pēteris Caune",
+        "timestamp": 1751115327
+    },
+    {
+        "content": "<p>Hmm, es skatos, ka area ar vienu pašu tagu <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aplace%3Disolated_dwelling\">place=isolated_dwelling</a> kartē nemaz nerenderējas.</p>",
+        "id": 526202831,
+        "sender_full_name": "Pēteris Caune",
+        "timestamp": 1751115875
+    },
+    {
+        "content": "<blockquote>\n<p>Daudz kur sazīmēts farmyard – ja tur nav fermas, traktoru utt., būtu jālabo uz isolated_dwelling, pareizi?</p>\n</blockquote>\n<p>Cik es saprotu, cik wiki un cik forumos redzēts, jā.</p>\n<blockquote>\n<p>area ar vienu pašu tagu <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aplace%3Disolated_dwelling\">place=isolated_dwelling</a> kartē nemaz nerenderējas.</p>\n</blockquote>\n<p>Jā, isolated_dwelling default kartē nerenderējas un tāpēc daudzi liek farmyard speciāli kartei. Tad pareizāk par farmyard būtu kaut vai residential. Vispār jau vajadzētu default kartei prasīt, lai beidzot iztaisa renderēšanu.</p>",
+        "id": 526203340,
+        "sender_full_name": "HellMap",
+        "timestamp": 1751116638
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/P2KvXqUSnR9BaDG3imHRTPcv/image.png\">image.png</a><br>\nok. Kā ir gadījumos, kad jau ir isolated_dwelling punkts ar name= vai pat ar visiem adreses laukiem, un tam apvelk apkārt isolated_dwelling laukumu? Viņus nav jāapvieno, jebšu kā bildē ir pareizi?</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/P2KvXqUSnR9BaDG3imHRTPcv/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"1866x1459\" src=\"/user_uploads/thumbnail/49624/P2KvXqUSnR9BaDG3imHRTPcv/image.png/840x560.webp\"></a></div>",
+        "id": 526205208,
+        "sender_full_name": "Pēteris Caune",
+        "timestamp": 1751118720
+    },
+    {
+        "content": "<p>es domāju atstāt punktu, un pārmainīt laukumu uz <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alanduse%3Dresidential\">landuse=residential</a> , es neredzu neko, kas liecinātu ka tas būtu farmyard</p>",
+        "id": 526206378,
+        "sender_full_name": "Pēteris Ancveirs",
+        "timestamp": 1751119965
+    },
+    {
+        "content": "<p>Divreiz nevajadzētu - tas būs datu duplicēšana. Bet vai laukumu vai punktu - tas pēc izvēlēs, cik es zinu. Parasti liek punktus, bet tas ir dēļ \"kā noteikt, cik liels ir tas laukums?\" Latvijā ir pārsvarā punkti, jo tas bija no importa (un daudz to punktu ir nepareizi). Es reti redzu kādu liekam tos punktus manuāli, parasti zīmē laukumus (un parasti nepareizi farmyard). Latvijā ir kadastra dati, tāpēc bieži var iezīmēt diezgan precīzi laukumu. Arī no ortofoto var dažviet noteikt tīri precīzi. Un principā manuprāt labāk aptuveni laukumu nekā tikai punktu, ja ir laiks un iespēja zīmēt. Ja ir nosaukums zināms, tad to tiešām var likt klāt, es apvienoju punktu ar laukumu, ja zīmēju laukumu pa virsu. Tas nosaukums arī tad būtu, ja tas ir farmyard vai vēl nezin kas. Ar adresēm tik un tā b0ts to dara, tāpēc es personīgi daudz nedomātu par to - adrese kaut kur palikt tik un tā. <code>residential</code> es lieku tikai, ja tā \"viensēta\" ir ļoti tuvu citām residential un principā jau apdzīvotā vietā. Bet nu te tas lēmums subjektīvs. Tas piemērs ir ļoti standarda, kur es parasti ilgi nedomājot zīmēju isolated_dwelling laukumu un apvienoju ar punktu (ar nosaukumu). Nezinu vai tas 100% pareizi, bet neesmu redzējis nekur precīzas vadlīnijas.</p>",
+        "id": 526213602,
+        "sender_full_name": "HellMap",
+        "timestamp": 1751127442
+    },
+    {
+        "content": "<p>Es lieku resiential, kad nu ko tādu zīmēju. Ja pedantizē, var likt klāt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aresidential%3Drural\">residential=rural</a>.</p>",
+        "id": 527344719,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1751805530
+    }
+]
