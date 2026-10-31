@@ -1,0 +1,620 @@
+[
+    {
+        "content": "<p>Hey velokartētāji, ko domājat par šo piezīmi?<br>\n<a href=\"https://www.openstreetmap.org/note/4986400\">https://www.openstreetmap.org/note/4986400</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/note/4986400\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/note/4986400\" title=\"Note: 4986400\">Note: 4986400</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 547054196,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1761395452
+    },
+    {
+        "content": "<p>This topic was moved here from <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/channel/358602-general/topic/Elizabetes.20ielas.20velo\">#general &gt; Elizabetes ielas velo</a> by <span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span>.</p>",
+        "id": 547054875,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1761396134
+    },
+    {
+        "content": "<p>Es uz to paskatījos, jā. Autors arī nomainīja vienu. Nu jā, mums ir kā ir. Vieni vispirms iekartē atsevišķi, otri pēc tam kā ceļa tegus vai arī otrādi. \"Pareizi\" jau gan neatdalītas velojoslas nav kartēt atsevišķi. Bet arguments parasti, lai varētu vismaz kaut kādu veloinfrastruktūru \"redzēt\". Jau daudz reižu ar dažādiem autoriem vai nu vienā vai otrā virzienā mainīts. Ja kāds no OSM lielākas kopienas pievērstu uzmanību, tad gan jau visi tie atsevišķie ātri tiktu nonesti. Bet pagaidām mēs ne par ko vietēji neesam vienojušies vēl...</p>",
+        "id": 547054889,
+        "sender_full_name": "HellMap",
+        "timestamp": 1761396152
+    },
+    {
+        "content": "<p>Te pa kanāliem daudz piemēru. Changeset komentārus man slikums sameklēt visus.</p>",
+        "id": 547054991,
+        "sender_full_name": "HellMap",
+        "timestamp": 1761396261
+    },
+    {
+        "content": "<p>Es veloinfrastruktūrā mazāk esmu iedziļinājies, varbūt vērts kaut kādu lokālo praksi definēt.<br>\nAtsevišķi kartētu grūtāk uzturēt.<br>\nSavukārt neatdalītu laikam specializētie velo rendereri arī rāda normāli, vai ne?</p>",
+        "id": 547055330,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1761396532
+    },
+    {
+        "content": "<p>No pieredzes, atsevišķi kartētu noteikti vieglāk uzturēt, jo birkas un trajektorijas utt. nemaisās. Ceļi bieži saskaldīti katrā pagriezienā ar turn restricitoniem, dažādām sidewalk/parking birkām, utt. Piemēram Čaka ir 100 gabali un uz karta ir tas <code>cycleway</code>. Ja kaut kas jāmaina, tad visi 100 gabali.</p>",
+        "id": 547055522,
+        "sender_full_name": "HellMap",
+        "timestamp": 1761396702
+    },
+    {
+        "content": "<p>Neatdalītu specializētie renderē jā, bet tur ir diezgan liela putra arī, ja daudz ceļu. Saprast var, bet krustojumos kaut kādos protams neko saprast no trajektorijām nevar, jo datos tās vispār nav.</p>",
+        "id": 547055611,
+        "sender_full_name": "HellMap",
+        "timestamp": 1761396788
+    },
+    {
+        "content": "<p>Tad gandrīz vai labāk atsevišķi kartēt joslas tomēr?<br>\nNez, pie kā ir nonākuši valstīs, kur to joslu ir daudz vairāk.</p>",
+        "id": 547871693,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1761811892
+    },
+    {
+        "content": "<p>Kamēr tie nebūs redzami default slāni, es zīmēšu atsevišķi</p>",
+        "id": 547872319,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1761812118
+    },
+    {
+        "content": "<p>Cik zinu, visur kur kartētāju ir vismaz nedaudz vairāk, joslas nekad nav atsevišķi. Tas ir gan wiki aprakstīts, gan katreiz apspriešanās secināts. Lūk tagad kāds arī pamanījis, ka Latvijā sazīmēts citādi. Protams vajadzētu darīt vai nu vienā veidā vai otrā, bet ne kā pie mums - kur pagadās tā, kur ne tā. Un vismaz <a href=\"https://wiki.openstreetmap.org/wiki/Tag:cycleway%3Dlane#Use_on_cycleways_themselves\">cycleway=lane</a> tegiem tām atsevišķām joslām jābūt saliktiem.</p>",
+        "id": 547895206,
+        "sender_full_name": "HellMap",
+        "timestamp": 1761819050
+    },
+    {
+        "content": "<p>Es šajā tēmā īsti neesmu iedziļinājies - varbūt tiem, kuri vairāk sapratuši, ir iespēja dokumentēt kopienas lēmumu? Tad arī varētu vērt to piezīmi ciet (ar vai bez izmaiņām datos).</p>",
+        "id": 555321288,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1763030635
+    },
+    {
+        "content": "<p>Tur jau tā lieta - kas tieši ir kopienas lēmums? Mums kaut kur 50 uz 50 viedokļi, cik es zinu.</p>",
+        "id": 555324074,
+        "sender_full_name": "HellMap",
+        "timestamp": 1763031416
+    },
+    {
+        "content": "<p>Sarežģīti :)<br>\nVai jaunais vektoru slānis situāciju kaut kā uzlabo vai nē?</p>",
+        "id": 556913528,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1763407657
+    },
+    {
+        "content": "<p>I would like to have a go at this.</p>\n<p>I think only following streets need correction:</p>\n<ul>\n<li>Zirņu (some places)</li>\n<li>Vesetas (some places)</li>\n<li>Dzelzavas - Vaidavas - Ieriķu triangle</li>\n<li>Bruniņieku (along) + Sporta (maybe)</li>\n<li>Elizabetes</li>\n<li>Dzirnavu</li>\n<li>Vilhema Purvīša (northern segment)</li>\n<li>Kalna/Ludzas and rest of the way to Akropole</li>\n</ul>\n<p>My criteria: presence of plastic bollards / plastic bollards + rubber bricks / rubber bricks + streetside parking = separate cycleway. I think it's not controversial.<br>\nI have some doubts in two things:</p>\n<ol>\n<li>Only rubber bricks, with no parking or bollards, like it's on Sporta iela. I personally wouldn't consider it a protected infra, but open to arguments.</li>\n<li>Tagging different directions of same street differently. For example, \"correct\" tagging of Bruniņieku will result in only one side being rendered on default layer, which might cause confusion and erroneous edits/notes.</li>\n</ol>\n<p>Please share your thoughts!</p>",
+        "id": 619401009,
+        "sender_full_name": "markalex",
+        "timestamp": 1787785918
+    },
+    {
+        "content": "<p>I have personally avoided doing this. But it is technically correct to not map physically-unseparated lanes as separate ways. One thing though - I would consider those rubber \"bricks\" as sufficient physical separation to count as separate, because it's not just paint that doesn't physically prevent crossing - bricks do. (May be not in cases where it's a very short section tho.) And yeah, different criteria can apply to opposite lanes and one can be separate and other not like Bruņinieku -- it can be a mess. But yeah, it sucks because none of it is in the default OSM layer and in most others that aren't dedicated to cycling.</p>",
+        "id": 620023144,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788034703
+    },
+    {
+        "content": "<p>I have thought about it some more, and I still thing it's correct to proceed with retagging.<br>\nI really dislike that most renderers don't show lanes. <br>\nBut I can find some peace in \"if they don't know better - only safe cycleways will be shown, but if they do - cycleOSM or OpenCycleMap are not hard to find\"</p>",
+        "id": 620638881,
+        "sender_full_name": "markalex",
+        "timestamp": 1788265134
+    },
+    {
+        "content": "<p>I intend to proceed with the change this week.<br>\nI will not touch Sporta iela with its rubber bricks.</p>",
+        "id": 620639212,
+        "sender_full_name": "markalex",
+        "timestamp": 1788265207
+    },
+    {
+        "content": "<p>/todo Streets<br>\nZirņu (some places)<br>\nVesetas (some places)<br>\nDzelzavas - Vaidavas - Ieriķu triangle<br>\nBruniņieku (along) <del>+ Sporta (maybe)</del><br>\nElizabetes<br>\nDzirnavu<br>\nVilhema Purvīša (northern segment)<br>\nKalna/Ludzas and rest of the way to Akropole</p>",
+        "id": 620818662,
+        "sender_full_name": "markalex",
+        "timestamp": 1788303629
+    },
+    {
+        "content": "<p>Meža prospekts?</p>",
+        "id": 620834123,
+        "sender_full_name": "kaposts",
+        "timestamp": 1788308271
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"1178723\">kaposts</span> <a href=\"#narrow/channel/360539-veloinfrastrukt.C5.ABra/topic/Elizabetes.20ielas.20velo/near/620834123\">said</a>:</p>\n<blockquote>\n<p>Meža prospekts?</p>\n</blockquote>\n<p>To be honest - I learned about existence of cycleway there today. Somehow never noticed it, not on the map, nor IRL.<br>\nBut it's 100% a lane</p>",
+        "id": 620881851,
+        "sender_full_name": "markalex",
+        "timestamp": 1788325505
+    },
+    {
+        "content": "<p>It's one of the first ones they \"built\". It's only oneway and goes from nowhere to nowhere. It's basically a joke.</p>",
+        "id": 620926763,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788337299
+    },
+    {
+        "content": "<p>On <a href=\"https://www.openstreetmap.org/way/761824812\">Vaidavas</a> I applied <code>cycleway:left=share_busway</code>, which I'm not 100% sure.<br>\nAny thoughts?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/761824812\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/761824812\" title=\"Way: ‪Vaidavas iela‬ (‪761824812‬)\">Way: ‪Vaidavas iela‬ (‪761824812‬)</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 620976068,
+        "sender_full_name": "markalex",
+        "timestamp": 1788347893
+    },
+    {
+        "content": "<p>It's one of the <a href=\"https://osmlatvija.github.io/road-signs/301.html\">301.</a> with \"Iznemot <span aria-label=\"bike\" class=\"emoji emoji-1f6b2\" role=\"img\" title=\"bike\">:bike:</span>\", so opposite direction is open only to [trolley]buses and bicycles.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://osmlatvija.github.io/road-signs/301.html\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/7f2c89387e204768c75dfd582798204d4c1a32d2/68747470733a2f2f6c696b756d692e6c762f77777772616b7374692f323031352f3132312f42494c4445532f4e5f3237392f494d4147453130332e4a5047&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://osmlatvija.github.io/road-signs/301.html\" title=\"301. Iebraukt aizliegts\">301. Iebraukt aizliegts</a></div></div></div>",
+        "id": 620977030,
+        "sender_full_name": "markalex",
+        "timestamp": 1788348099
+    },
+    {
+        "content": "<p>On Vaidavas (going South) technically, it's not a cycle lane at all. There is no bicycle road pictogram, so nothing legally makes it a cycle lane.  It's just a road where vehicles are not allowed in this direction, except for bicycles (explicitly) and buses (implicitly). Which was already tagged like that. It's the same as Avotu <a href=\"https://www.mapillary.com/app/?pKey=640704295804679&amp;focus=photo\">https://www.mapillary.com/app/?pKey=640704295804679&amp;focus=photo</a>. I don't believe there are any places in Latvia with actual \"share busway\" signage as in a pictogram on the road, but I might not be aware of some location. As far as I know, it's either sharrows or no additional lane signage for bicycles.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.mapillary.com/app/?pKey=640704295804679&amp;focus=photo\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/476a53f0d0cfbfde2b1561162cb4e6e0d4b0d1e3/68747470733a2f2f73636f6e74656e742d696164362d312e78782e666263646e2e6e65742f6d312f762f74362f416e3850453870792d3479455f69313163646a6f32447162704432366449744e417939626933714d326845326f5278346649496b743231345a486b4c4c7066685a34445f454756734d656d614d636e69685838505f5072346939585538574931667638733931465a6854614b4867367877492d425a5a5a515f336b4e396d794b6c7133646c4459506e597132796e717a664b4f7168546b3f7374703d733130323478353736265f6e635f6769643d486c52706f727974464e51733076677342514c464141265f6e635f6f633d416472336e4a36587a75462d6d6b71457933773334436d4d464b6f723571566a367a763176734170466463464d46516d35392d3265545257655253684e36516544774d266363623d31302d35266f683d30305f41514c4331764c6869396e354a6e457151763858304c627749716e356b53777336417a6354594835623731794e41266f653d3641424642463538265f6e635f7369643d323031626361&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.mapillary.com/app/?pKey=640704295804679&amp;focus=photo\" title=\"Mapillary\">Mapillary</a></div><div class=\"message_embed_description\">Street-level imagery, powered by collaboration and computer vision.</div></div></div>",
+        "id": 621063408,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788363725
+    },
+    {
+        "content": "<p>Yes, I know that and familiar with this place.<br>\nBut since in that southbound direction only one lane exists, and this lane only allows bicycles and buses, doesn't it make it <code>share_busway</code>?<br>\nWalks like a duck, etc, etc =)</p>",
+        "id": 621095762,
+        "sender_full_name": "markalex",
+        "timestamp": 1788369699
+    },
+    {
+        "content": "<p>Well, it doesn't. (Putting aside the fact that this is not a bus lane, so it could not by definition be a share_busway.) share_busway implies there is a dedicated lane consideration for bicycles. But this is just a lane like on every other road, just with access restrictions (in this direction). It might quack similar to a duck, but you know, if the whole premise is to tag accurately...</p>",
+        "id": 621103606,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788371245
+    },
+    {
+        "content": "<p>You convinced me: I removed <code>share_busway</code> on Vaidavas</p>",
+        "id": 621104887,
+        "sender_full_name": "markalex",
+        "timestamp": 1788371496
+    },
+    {
+        "content": "<p>Wow, just wow.<br>\nBoth cycle lanes from Ludzas till Akropole and from Akropole till Kalna are a <strong>single</strong> path each. <br>\nWhy wasn't EV10 going through segments like this? =)</p>",
+        "id": 621122514,
+        "sender_full_name": "markalex",
+        "timestamp": 1788375056
+    },
+    {
+        "content": "<p>It's crazy how I bike everywhere but have no idea what the street names are. Like, I have no idea what segment you mean <span aria-label=\"face with peeking eye\" class=\"emoji emoji-1fae3\" role=\"img\" title=\"face with peeking eye\">:face_with_peeking_eye:</span></p>",
+        "id": 621126379,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788375831
+    },
+    {
+        "content": "<p><img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"530x623\" data-original-src=\"/user_uploads/49624/OCfo9O1zgeoKysgbHVCYyzGW/image.png\" src=\"/user_uploads/thumbnail/49624/OCfo9O1zgeoKysgbHVCYyzGW/image.png/840x560.webp\"><br>\nBut yeah I guess you mean this. As far as I recall it wasn't seperated anywhere along N-S. Only on Ludzas in places</p>",
+        "id": 621126720,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788375904
+    },
+    {
+        "content": "<p>A lot of EV10 was mapped before these existed and no one has updated it since. If you start looking at cycle routes in Latvia, you'll find half or more of them are broken let alone outdated.</p>",
+        "id": 621126908,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788375950
+    },
+    {
+        "content": "<p>Well, if I wasn't editing those street right now, their names wouldn't mean much to me either =)<br>\nOn Ludzas separation is not a \"proper\" separation but rather just traffic calmings near the intersections/crossings.<br>\nI mapped everything as lanes.<br>\nAnd re EV10: it doesn't go nowhere near these streets. What I meant is that both and new routes go through a bunch of tine segments which were a pain to click through even in the tool I used. If I could just unselect and then select new segments that were continuous runs of cycleway for 3-somthing kilometres, updating ev10 would go significantly faster and easier.</p>",
+        "id": 621128236,
+        "sender_full_name": "markalex",
+        "timestamp": 1788376243
+    },
+    {
+        "content": "<p>Ludzas is something I definitely wouldn't map as lanes. Because then stuff like <a href=\"https://www.openstreetmap.org/way/1252489991\">https://www.openstreetmap.org/way/1252489991</a> doesn't make sense anymore. You then need to split off the cycleway at each of these if not keeping it for the rest of the road.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/1252489991\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/1252489991\" title=\"Way: 1252489991\">Way: 1252489991</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 621128952,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788376402
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"715892\">markalex</span> <a href=\"#narrow/channel/360539-veloinfrastrukt.C5.ABra/topic/Elizabetes.20ielas.20velo/near/621128236\">said</a>:</p>\n<blockquote>\n<p>select new segments that were continuous runs of cycleway for 3-somthing kilometres, updating ev10 would go significantly faster and easier</p>\n</blockquote>\n<p>Yeah, that's one of the reasons I want to write my own route editor, so it can support pathfinding - you click a logical continuation segment and it paths to it through expected/logical route. This \"click 500 segments\" workflow is unusable. Every time I edited in Relatify I was wishing I could do this instead of zooming in into yet another 30 cm  segment because of some random driveways</p>",
+        "id": 621129686,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788376568
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"715892\">markalex</span> <a href=\"#narrow/channel/360539-veloinfrastrukt.C5.ABra/topic/Elizabetes.20ielas.20velo/near/621128236\">said</a>:</p>\n<blockquote>\n<p>On Ludzas separation is not a \"proper\" separation but rather just traffic calmings</p>\n</blockquote>\n<p>I don't think it should be, but if you are going to map them on road, then you need to map traffic calmings and buffers as well with cycle lane tags and delete the duplicate separately-mapped elements.</p>",
+        "id": 621130095,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788376655
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/360539-veloinfrastrukt.C5.ABra/topic/Elizabetes.20ielas.20velo/near/621130095\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"715892\">markalex</span> <a href=\"#narrow/channel/360539-veloinfrastrukt.C5.ABra/topic/Elizabetes.20ielas.20velo/near/621128236\">said</a>:</p>\n<blockquote>\n<p>On Ludzas separation is not a \"proper\" separation but rather just traffic calmings</p>\n</blockquote>\n<p>I don't think it should be, but if you are going to map them on road, then you need to map traffic calmings and buffers as well with cycle lane tags and delete the duplicate separately-mapped elements.</p>\n</blockquote>\n<p>I like this better than idea of splitting. Not sure how exactly cyclelane specific calmings are supposed to be mapped, but I'll checked that out.</p>",
+        "id": 621131131,
+        "sender_full_name": "markalex",
+        "timestamp": 1788376909
+    },
+    {
+        "content": "<p>I never got around to splitting roads around crossing traffic islands there...</p>",
+        "id": 621132085,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788377127
+    },
+    {
+        "content": "<p>Dzirnavu was a hell to retag - for some completely mysterious to me reason segments there don't all go in the same direction.<br>\nI hope I caught change of direction every time, but will need to check it, once cycling tiles will be updated.</p>",
+        "id": 621135621,
+        "sender_full_name": "markalex",
+        "timestamp": 1788377903
+    },
+    {
+        "content": "<p>I think <code>traffic_calming=choker</code>+<code>bicycle_bypass=yes</code> might work for Ludzas.</p>",
+        "id": 621145031,
+        "sender_full_name": "markalex",
+        "timestamp": 1788380065
+    },
+    {
+        "content": "<p>That is for the road  (node or segment) only. Cycle lane needs <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Acycleway%3Aseparation\">cycleway:separation=*</a>, <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Acycleway%3Abuffer\">cycleway:buffer=*</a> . choker does not apply to cycle lanes here because there is no physical change in lanes, although I have no idea how you can specify this now.</p>",
+        "id": 621147454,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788380644
+    },
+    {
+        "content": "<p>Also now all marked blue cycleway crossing are gone and I am not sure where you can readd this information now.</p>",
+        "id": 621147872,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788380728
+    },
+    {
+        "content": "<p>I guess at this point it's all the same problems with sidewalks mapped as road tags, but oh well. Hopefully, in the future OSM will shift to using separate ways like sidewalks did.</p>",
+        "id": 621149254,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788381002
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/360539-veloinfrastrukt.C5.ABra/topic/Elizabetes.20ielas.20velo/near/621147454\">said</a>:</p>\n<blockquote>\n<p>That is for the road  (node or segment) only. Cycle lane needs <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Acycleway%3Aseparation\">cycleway:separation=*</a>, <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Acycleway%3Abuffer\">cycleway:buffer=*</a> . choker does not apply to cycle lanes here because there is no physical change in lanes, although I have no idea how you can specify this now.</p>\n</blockquote>\n<p>But it is a choker (maybe combination of choker and blister). <br>\nIt narrows down whole width of the road to a lane of approximately car's width in middle + cycle lane.</p>",
+        "id": 621153247,
+        "sender_full_name": "markalex",
+        "timestamp": 1788382002
+    },
+    {
+        "content": "<p>Exactly, \"+ cycle lane\". So it is both. Previously bollards were mapped at the right distance from cycle lane as buffer, but now it needs to be on the road tags.</p>",
+        "id": 621155252,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788382482
+    },
+    {
+        "content": "<p>This is why I don't merge this stuff to roads where stuff like bollards exist, because it's annoying to map and maintain and just make the road split into multiple segments.</p>",
+        "id": 621155661,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788382587
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/360539-veloinfrastrukt.C5.ABra/topic/Elizabetes.20ielas.20velo/near/621155252\">said</a>:</p>\n<blockquote>\n<p>Exactly, \"+ cycle lane\". So it is both. Previously bollards were mapped at the right distance from cycle lane as buffer, but now it needs to be on the road tags.</p>\n</blockquote>\n<p>Yes, and chocker is put onto road. It indicates that some limitations are applied to a road, while <code>bicycle_bypass=yes</code>indicates that cycle lane is not affected.</p>",
+        "id": 621157175,
+        "sender_full_name": "markalex",
+        "timestamp": 1788382935
+    },
+    {
+        "content": "<p>Yes... Are we disagreeing about something?</p>",
+        "id": 621157412,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788382992
+    },
+    {
+        "content": "<p>I thought so.<br>\nI thought that this<br>\n<span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/360539-veloinfrastrukt.C5.ABra/topic/Elizabetes.20ielas.20velo/near/621147454\">said</a>:</p>\n<blockquote>\n<p>That is for the road  (node or segment) only. Cycle lane needs <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Acycleway%3Aseparation\">cycleway:separation=*</a>, <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Acycleway%3Abuffer\">cycleway:buffer=*</a> . choker does not apply to cycle lanes here because there is no physical change in lanes, although I have no idea how you can specify this now.</p>\n</blockquote>\n<p>means that you think that chocker is not enough.<br>\nAnd I think that it's enough: bollards, in this specific case, are not a \"feature\" of cycle lane, but rather of the choker. Whereas cycle lane just goes past it.</p>",
+        "id": 621158333,
+        "sender_full_name": "markalex",
+        "timestamp": 1788383217
+    },
+    {
+        "content": "<p>It is a feature of both. In this case the choker just matches the extents of separation. But nothing is stopping the choker from being longer or bollards from being further.</p>",
+        "id": 621159616,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788383579
+    },
+    {
+        "content": "<p>By the way, where are there actually chokers on Ludzas. I feel like we're discussing a hypothetical at the moment, since I can't think of a location that has this exact case. Even on Ludzas where traffic island splits the crossings, it doesn't choke them.</p>",
+        "id": 621159903,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788383667
+    },
+    {
+        "content": "<p><a href=\"https://www.mapillary.com/app/?pKey=2146044865954917\">https://www.mapillary.com/app/?pKey=2146044865954917</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.mapillary.com/app/?pKey=2146044865954917\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/9e1077713c202b41c522a248b5b662c08e580c80/68747470733a2f2f73636f6e74656e742d696164362d312e78782e666263646e2e6e65742f6d312f762f74362f416e384d64667049594d512d34364b5f614d787037616f6c4c6f5752526159484667563245783337416a592d6a6b4d4c58545f4e586859554d7135433674305537484e5975476731334d6163687847697662337461704843647947315a4c67573353514c31747a743166784a7a754b68536c4b476b726745523465434e537a363949624c546f5859636d7741765f39465531572d536a513f7374703d733130323478353736265f6e635f6769643d383945366263475235777736726d6466495654316877265f6e635f6f633d41647231727070494d4641665247774d6a3441775847756233504c375a517336775151714f6d53476e34373738373465346e676e68614e6c5136587434367556797034266363623d31302d35266f683d30305f41514b7566334b52796a5a6e4b4a634e6b2d375838474c6c423468685a574232724436506a614a31665f31512d51266f653d3641424645413235265f6e635f7369643d323031626361&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.mapillary.com/app/?pKey=2146044865954917\" title=\"Mapillary\">Mapillary</a></div><div class=\"message_embed_description\">Street-level imagery, powered by collaboration and computer vision.</div></div></div>",
+        "id": 621160570,
+        "sender_full_name": "markalex",
+        "timestamp": 1788383847
+    },
+    {
+        "content": "<p>Ludzas doesn't have islands. Are we talking about the same street?</p>",
+        "id": 621161010,
+        "sender_full_name": "markalex",
+        "timestamp": 1788383982
+    },
+    {
+        "content": "<p>That's not a choker though. The drivable road stays the same width.</p>",
+        "id": 621161016,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788383986
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"715892\">markalex</span> <a href=\"#narrow/channel/360539-veloinfrastrukt.C5.ABra/topic/Elizabetes.20ielas.20velo/near/621160570\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://www.mapillary.com/app/?pKey=2146044865954917\">https://www.mapillary.com/app/?pKey=2146044865954917</a></p>\n</blockquote>\n<p>Not Ludzas specifically I guess but the north part Kalna/Lazdonas -- <a href=\"https://www.openstreetmap.org/node/13626647021\">https://www.openstreetmap.org/node/13626647021</a> and <a href=\"https://www.openstreetmap.org/node/11510650195\">https://www.openstreetmap.org/node/11510650195</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/13626647021\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/13626647021\" title=\"Node: 13626647021\">Node: 13626647021</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/11510650195\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/11510650195\" title=\"Node: 11510650195\">Node: 11510650195</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 621161490,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788384113
+    },
+    {
+        "content": "<p>It's the place where you can't park, so without those bollards driveable part would be wider.</p>",
+        "id": 621161491,
+        "sender_full_name": "markalex",
+        "timestamp": 1788384114
+    },
+    {
+        "content": "<p>But it's not drivable part - the left side is parking</p>",
+        "id": 621161684,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788384165
+    },
+    {
+        "content": "<p>At least I have never mapped or seen breaks in street-side parking mapped as calmings/chokers</p>",
+        "id": 621161814,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788384204
+    },
+    {
+        "content": "<p>(If pressed I would map the bollarded area as a traffic island)</p>",
+        "id": 621161898,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788384228
+    },
+    {
+        "content": "<p>But it's not just a break in parking. <br>\nSince you can't park next to intersection, road gets wider a bit there.<br>\nWhich might lead to some creative driving, especially when turning car + overtaking car happen. Here bollards prevent this. Thus I see it as a chocker</p>",
+        "id": 621162963,
+        "sender_full_name": "markalex",
+        "timestamp": 1788384515
+    },
+    {
+        "content": "<p>Well, OSM doesn't map what is theoretically possible if you break road laws...</p>",
+        "id": 621163141,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788384565
+    },
+    {
+        "content": "<p>I mean, alright, if you mapped them as chokers, I wouldn't really object given the arguments. I wouldn't map them as such and there are many places similar to this (although without bike lane).</p>",
+        "id": 621163622,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788384682
+    },
+    {
+        "content": "<p>I haven't mapped yet, but I will:  there are significantly more of those things than I remembered.</p>",
+        "id": 621164585,
+        "sender_full_name": "markalex",
+        "timestamp": 1788384893
+    },
+    {
+        "content": "<p>Like, for me, these are a chokers - you can drive on 2 lanes, but suddenly you \"shrink\" to 1 lane <a href=\"https://www.mapillary.com/app/?pKey=1571994324328113&amp;focus=photo\">https://www.mapillary.com/app/?pKey=1571994324328113&amp;focus=photo</a> or <a href=\"https://www.mapillary.com/app/?pKey=1196107191505149&amp;focus=photo\">https://www.mapillary.com/app/?pKey=1196107191505149&amp;focus=photo</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.mapillary.com/app/?pKey=1571994324328113&amp;focus=photo\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/c0fdd2ac94850c6133678f9c90f08818f9830b8a/68747470733a2f2f73636f6e74656e742d696164362d312e78782e666263646e2e6e65742f6d312f762f74362f416e5f456f58366e314b32514553774b325552365342674b59322d4f4c474e7464422d3051384a63554e2d614a5635447a55676279614d643248506151413867474956335f4e6a584931494a694752487844305f56567a6f684e656d724b682d785233636d6a6137395745734f4e4f315834754d5a756f4c6b786957303173502d6b4d376768416436456c522d734b6471594f7952513f7374703d733130323478353736265f6e635f6769643d53686841574d69425a6c50666a36676859726f736277265f6e635f6f633d41647044745a4e7467754b56525a7a752d766937487845754642707a415846625954787653624a55794a3463726e414e5f5445644753673930366c7853575775316634266363623d31302d35266f683d30305f41514b2d4139347563764468506370705532575f50545a51364c79333978424a4e744d3957437348393642575651266f653d3641424646383439265f6e635f7369643d323031626361&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.mapillary.com/app/?pKey=1571994324328113&amp;focus=photo\" title=\"Mapillary\">Mapillary</a></div><div class=\"message_embed_description\">Street-level imagery, powered by collaboration and computer vision.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.mapillary.com/app/?pKey=1196107191505149&amp;focus=photo\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/974d3d12d5fd16be794edb3fdc993b48be733b9f/68747470733a2f2f73636f6e74656e742d696164362d312e78782e666263646e2e6e65742f6d312f762f74362f416e2d30774b444e304f746750656745546266483466582d62716c4154386554724f615163576a375852426437416f50663676305f48674e4e6269594e686b646e63464d7037795863635977537a373956634e4c6151566c70454150505f337946705578425a6a56446764416d30545a31383354354e6c36535245795a4a5f6f776d6964506c304c6a314c757266383771646b6a30513f7374703d733130323478353736265f6e635f6769643d5762674f35656d7a792d6e4476395632775846454e51265f6e635f6f633d416470534d504d597970315873612d755035787562444779514364446b43666f375f78585a3331417047736b6a54734468386f6d4e3034756c43302d5752707a527341266363623d31302d35266f683d30305f41514a565861376242387357734e746f73316e485a2d3037616f30343775456176654e3143653937787275796a51266f653d3641433031443432265f6e635f7369643d323031626361&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.mapillary.com/app/?pKey=1196107191505149&amp;focus=photo\" title=\"Mapillary\">Mapillary</a></div><div class=\"message_embed_description\">Street-level imagery, powered by collaboration and computer vision.</div></div></div>",
+        "id": 621165019,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788385000
+    },
+    {
+        "content": "<p>Like this here is a choker from 2 oneway lanes into one: <a href=\"https://www.mapillary.com/app/?pKey=1900600423974349&amp;focus=photo\">https://www.mapillary.com/app/?pKey=1900600423974349&amp;focus=photo</a> . There is no parking, so it's 2 lanes. But in Ludzas example - you have 1 lane and drivable width stays the same. So I would not call that a choker - the drivers don't have to do anything here. And the presense of a cycle lane does not change that.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.mapillary.com/app/?pKey=1900600423974349&amp;focus=photo\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/816c95a8305fc3af5c85050c3445d79eb4d58204/68747470733a2f2f73636f6e74656e742d696164362d312e78782e666263646e2e6e65742f6d312f762f74362f416e2d46704e6231464a31615a6b664f3934394d3350393253345f765a4d6a49544867766e376c76527841365a554e753357426a3453743074614733457131752d4e6c4b5f444d6c4d6c5a3671463939496d354e78496c477061655446536b43384b6a706a794d57704f473449336d317a6535354d6b3670715433434f71524d656e34513234557a546a67596e70336e6c63484a6278343f7374703d733130323478353736265f6e635f6769643d664866774779306f335a723065494f6d766934565541265f6e635f6f633d41646f37734e3766734a436a6b44716d774d6f3464636b566f4d355a535445364c5f30344f616e7a4d73754f5630796b764c7253303842465633675666703776453651266363623d31302d35266f683d30305f41514c6c79393371367732516a787a674833633935574564593167474c79644f61307964534636313671506b4641266f653d3641433030443035265f6e635f7369643d323031626361&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.mapillary.com/app/?pKey=1900600423974349&amp;focus=photo\" title=\"Mapillary\">Mapillary</a></div><div class=\"message_embed_description\">Street-level imagery, powered by collaboration and computer vision.</div></div></div>",
+        "id": 621166074,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788385284
+    },
+    {
+        "content": "<p>I agree that those are more obvious examples.<br>\nAnd maybe a different type of calming term is needed: lane_enforcer or something like that. But I never heard about term like that I couldn't find it.</p>",
+        "id": 621166232,
+        "sender_full_name": "markalex",
+        "timestamp": 1788385325
+    },
+    {
+        "content": "<p><img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"916x898\" data-original-src=\"/user_uploads/49624/_dZPebQrntNuQ531l5_c_ut3/image.png\" src=\"/user_uploads/thumbnail/49624/_dZPebQrntNuQ531l5_c_ut3/image.png/840x560.webp\"><br>\nCan't wait for you to map each section with appropriate choker tags <span aria-label=\"laughing\" class=\"emoji emoji-1f606\" role=\"img\" title=\"laughing\">:laughing:</span> After all, cars can't do creative overtaking on these bits.</p>",
+        "id": 621168690,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788386036
+    },
+    {
+        "content": "<p>After closer look, I decided against touching Zirņu - there are unprotected segments in the beginning and the end there, but it is mostly separated by those bricks (or as it was suggested in <a href=\"https://wiki.openstreetmap.org/wiki/Proposal:Separation#Typical_separation_values\">this wiki proposal</a> bumps)</p>",
+        "id": 621663151,
+        "sender_full_name": "markalex",
+        "timestamp": 1788517015
+    },
+    {
+        "content": "<p>On Vesetas unprotected lanes span sgnificanlt longer.<br>\nBut it once again has those tiny bollard strips. And they are even weirder that in was at Ludzas.<br>\nLike who does it protect and from whom?<br>\n<a href=\"https://www.mapillary.com/app/?pKey=808025905191559\">https://www.mapillary.com/app/?pKey=808025905191559</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.mapillary.com/app/?pKey=808025905191559\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/c62d2ccb8dc855b18568e128025c8dfe0c2131f0/68747470733a2f2f73636f6e74656e742d696164362d312e78782e666263646e2e6e65742f6d312f762f74362f416e39342d374443555f5f4d7a4978564b7256376c777379576a5a30636b5976345779624455795436526b434d49437a70367a6b6f554a37617643654332355548685061795861504148355f645173492d39686f384d4254774472584949306137553836764668434c4e6251487a52724365717552634770635771524f356b58643930424344427637556f52754c596f6f4c72374271383f7374703d733130323478353736265f6e635f6769643d7077333070424f4d71484c4e4368786c74445a484a41265f6e635f6f633d4164726762354c54694e4c426969634761534e6975734c3457354a4b6b3149366a664b4a72342d66477447692d54494546447141463747756d74665a75576b46706d63266363623d31302d35266f683d30305f41514b71365f78696332584e4d62452d5a59636d5372645f37505838725f713437516e5864714132495a587a4567266f653d3641433146394344265f6e635f7369643d323031626361&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.mapillary.com/app/?pKey=808025905191559\" title=\"Mapillary\">Mapillary</a></div><div class=\"message_embed_description\">Street-level imagery, powered by collaboration and computer vision.</div></div></div>",
+        "id": 621664423,
+        "sender_full_name": "markalex",
+        "timestamp": 1788517353
+    },
+    {
+        "content": "<p>Vesetas has car parking along them, so they are protected by definition</p>",
+        "id": 621664618,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788517406
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/360539-veloinfrastrukt.C5.ABra/topic/Elizabetes.20ielas.20velo/near/621664618\">said</a>:</p>\n<blockquote>\n<p>Vesetas has car parking along them, so they are protected by definition</p>\n</blockquote>\n<p>This is true only for one side of the road tho. Right on photo above. But left is just a painted gutter: no parking, no brick, no nothing</p>",
+        "id": 621664871,
+        "sender_full_name": "markalex",
+        "timestamp": 1788517487
+    },
+    {
+        "content": "<p>And these unprotected sides switch back and forth</p>",
+        "id": 621664963,
+        "sender_full_name": "markalex",
+        "timestamp": 1788517511
+    },
+    {
+        "content": "<p>Those tiny bollards are next to the parking, so I assumed you meant those sections. Like, they are part of the protected segments.</p>",
+        "id": 621665099,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788517554
+    },
+    {
+        "content": "<p>I mean, if you are asking what their real world intention is - most of these examples are so cars don't cut the corners through cycle lanes.</p>",
+        "id": 621665548,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788517686
+    },
+    {
+        "content": "<p>Yeah, that's what I was questioning.<br>\nTagging in that specific case (in this direction) is straightforward</p>",
+        "id": 621665815,
+        "sender_full_name": "markalex",
+        "timestamp": 1788517767
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/RncDMnRqGlVahxtucu6HGEGz/1000026424.jpg\">1000026424.jpg</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/RncDMnRqGlVahxtucu6HGEGz/1000026424.jpg\" title=\"1000026424.jpg\"><img data-original-content-type=\"image/jpeg\" data-original-dimensions=\"3000x4000\" src=\"/user_uploads/thumbnail/49624/RncDMnRqGlVahxtucu6HGEGz/1000026424.jpg/840x560.webp\"></a></div><p>looks like riga city council built two new bike tracks in either direction on dzirnavu street (at least up until the crossing with tērbatas street)</p>",
+        "id": 621760737,
+        "sender_full_name": "maemolol",
+        "timestamp": 1788540452
+    },
+    {
+        "content": "<p>Yay, I guess. But also since it seems to be a protected lane, we can map it as a separate way.</p>\n<p>I'm still not over other supposed bike lanes on Dzirnavu, like reported here: <a href=\"https://lasi.lv/par-svarigo/latvija/riga-taps-cetri-jauni-velojoslu-posmi.45021\">https://lasi.lv/par-svarigo/latvija/riga-taps-cetri-jauni-velojoslu-posmi.45021</a><br>\nSeems like every other lane from that article was added, but as far as I can tell on Dzirnavu - no. At least I don't see differences with state of lanes before.</p>\n<p>I found one change though, that made me scratch my head  even more:<br>\n<img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"1440x1920\" data-original-src=\"/user_uploads/49624/3R1uq3YSSkDn3JG_trvikXeN/image.png\" src=\"/user_uploads/thumbnail/49624/3R1uq3YSSkDn3JG_trvikXeN/image.png/840x560.webp\"><br>\nThis is a traffic light going south before crossing with Marijas. <strong>BUT</strong> it's one way there (northbound) and nothing resembling a cycleway or even prep work for construction of one. And it also wasn't there on July 1: <a href=\"https://www.mapillary.com/app/?pKey=2050111485602629\">https://www.mapillary.com/app/?pKey=2050111485602629</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://lasi.lv/par-svarigo/latvija/riga-taps-cetri-jauni-velojoslu-posmi.45021\" style='background-image: url(\"https://uploads.zulipusercontent.net/9285fabdbbd1cc0a7123a622b12f5b86667b1279/68747470733a2f2f6d656469612e6c6173692e6c762f6d656469612f63616368652f6c6173695f61727469636c655f5f746578745f5f696d6167655f5f66756c6c5f5f6a7065672f75706c6f6164732f6d656469612f696d6167652f3230323630363032323133343138366131663232326161643464632e6a70672e6a706567\")'></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://lasi.lv/par-svarigo/latvija/riga-taps-cetri-jauni-velojoslu-posmi.45021\" title=\"Rīgā taps četri jauni velojoslu posmi\">Rīgā taps četri jauni velojoslu posmi</a></div><div class=\"message_embed_description\">Lai uzlabotu veloinfrastruktūras nepārtrauktību un veicinātu drošu pārvietošanos ar velosipēdu pilsētas centrā, Rīgas pašvaldība plāno izveidot trīs jaunus velojoslu posmus Lāčplēša, Marijas, Šarlotes ielā, kā arī Dzirnavu ielā. Plānotie risinājumi papildinās esošo velotīklu, nodrošinot ērtākus un drošākus savienojumus starp jau izbūvētajiem infrastruktūras posmiem, informē Rīgas domē.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.mapillary.com/app/?pKey=2050111485602629\" style='background-image: url(\"https://uploads.zulipusercontent.net/44c0444b5ca6e15a103169e2e885f0d3fe469027/68747470733a2f2f73636f6e74656e742d696164362d312e78782e666263646e2e6e65742f6d312f762f74362f416e3834727970306b7951644c39384c7372416864696f63366b486f344d723678552d514d7250434f457a52396a3379556a6b5f5869506b6c694d794f2d59655533717962674b375659344662316c503269736c336676436537753277776a66546f2d7170436f313832646b3255372d61593753393961374c46567255456e747752724a4b596a4455786c4830597142443278734865593f7374703d733130323478353132265f6e635f6769643d4e7473337176667a726f69457a41356f546e5f495867265f6e635f6f633d416472557979366d6d39514743636c44745a394574624d332d6147584a594845786c4e685f4752734a4c767838636e506d5151356f7a6a336b6e43764b524a6951686b266363623d31302d35266f683d30305f41514a65565751535f30654c6b485a515f3333536d47726f44494c664b6c717635486a646361525a4f7a57397577266f653d3641433239383935265f6e635f7369643d323031626361\")'></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.mapillary.com/app/?pKey=2050111485602629\" title=\"Mapillary\">Mapillary</a></div><div class=\"message_embed_description\">Street-level imagery, powered by collaboration and computer vision.</div></div></div>",
+        "id": 621795348,
+        "sender_full_name": "markalex",
+        "timestamp": 1788550238
+    },
+    {
+        "content": "<p>Connection of two parts of cycleways on Lāčplēša (from Ernesta Birznieka-Upīša to Avotu) is not protected (so technically a lane and not a cycleway), but it's too short for me to care enough to retag it.<br>\nAlso, those two appendixes connecting to Lāčplēša are completely mesmerizing.<br>\n<img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"1920x1440\" data-original-src=\"/user_uploads/49624/QHffrnFvbH14Nuuc83EmRlo6/image.png\" src=\"/user_uploads/thumbnail/49624/QHffrnFvbH14Nuuc83EmRlo6/image.png/840x560.webp\"><br>\nIt maybe 10 metres long. And how Avotu usually is - you won't be able to get there, because lane is too narrow and cars are hugging kerb.<br>\nSimilar on EBU side, but there you can probably at least get to the lane at any time, since it's so wide.</p>",
+        "id": 621807730,
+        "sender_full_name": "markalex",
+        "timestamp": 1788554354
+    },
+    {
+        "content": "<p>Hmm. Those connections should not be done like that with separate cycleways. <img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"505x249\" data-original-src=\"/user_uploads/49624/R8VbQOD3jqE-U5is5w58fWEb/image.png\" src=\"/user_uploads/thumbnail/49624/R8VbQOD3jqE-U5is5w58fWEb/image.png/840x560.webp\"> <br>\n<img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"362x200\" data-original-src=\"/user_uploads/49624/lIJMhfjAtsH7xqItSHN_AdZO/image.png\" src=\"/user_uploads/thumbnail/49624/lIJMhfjAtsH7xqItSHN_AdZO/image.png/840x560.webp\"></p>",
+        "id": 621808290,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788554571
+    },
+    {
+        "content": "<p>They also make no sense, since you can clearly go left or straight too. But then you have to draw even more connections.</p>",
+        "id": 621808554,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788554673
+    },
+    {
+        "content": "<p>Also parallel rant, but if they are gonna draw something there with paint, why not draw a goddamn asl bike box then so you can turn left properly. It's like one of the main directions from there.</p>",
+        "id": 621808790,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788554739
+    },
+    {
+        "content": "<p>But that's how they are in real life (if we drop whole protected/unprotected thing for now).<br>\nAnd at least markings on the ground suggest only right turn <span aria-label=\"man shrugging\" class=\"emoji emoji-1f937-200d-2642\" role=\"img\" title=\"man shrugging\">:man_shrugging:</span></p>",
+        "id": 621808883,
+        "sender_full_name": "markalex",
+        "timestamp": 1788554779
+    },
+    {
+        "content": "<p>No, they are dashed not solid.</p>",
+        "id": 621808939,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788554801
+    },
+    {
+        "content": "<p>It's like this for cars <br>\n<img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"1036x876\" data-original-src=\"/user_uploads/49624/T_9hFwAdP47JcZekfRY_GOVg/image.png\" src=\"/user_uploads/thumbnail/49624/T_9hFwAdP47JcZekfRY_GOVg/image.png/840x560.webp\"></p>",
+        "id": 621809072,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788554843
+    },
+    {
+        "content": "<p>As in, you would not be drawing it like this <br>\n<img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"789x744\" data-original-src=\"/user_uploads/49624/kS7a-_zyIht1OYyz-N3mG0ir/image.png\" src=\"/user_uploads/thumbnail/49624/kS7a-_zyIht1OYyz-N3mG0ir/image.png/840x560.webp\"></p>",
+        "id": 621809218,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788554896
+    },
+    {
+        "content": "<p>In terms of allowed navigation, you can go in any direction. The line just shows one of the continued trajectories. For OSM purposes, that \"cycle path\" would need to connect to the road in a way that actually allows turning left or going straight. Otherwise, it doesn't make sense.</p>",
+        "id": 621809429,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788554964
+    },
+    {
+        "content": "<p>I don't know who mapped it, and if they knew something we don't. I didn't make much more pictures, but maybe there are some signs limiting cyclists to turn for whatever reason?</p>",
+        "id": 621810056,
+        "sender_full_name": "markalex",
+        "timestamp": 1788555187
+    },
+    {
+        "content": "<p>That would be very weird. I'm sure I'll be there soon (and you probably even sooner). But I very much doubt they would forbid a turn like that. It will just make everyone do opposite lane shortcuts and then cut across the street or crossings.</p>",
+        "id": 621810350,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788555318
+    },
+    {
+        "content": "<p>I am assuming the mapper simply drew the \"paint\" as it appears in real-life. But since we are discussing this, OSM maps by function and ways are drawn logically by medians. As far as we know, that cycle lane does not restrict turns, so it should connect in a way that allows travel in all directions like <br>\n<img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"821x353\" data-original-src=\"/user_uploads/49624/W9yD8ardZB7QnBmITPjPrnjr/image.png\" src=\"/user_uploads/thumbnail/49624/W9yD8ardZB7QnBmITPjPrnjr/image.png/840x560.webp\"></p>",
+        "id": 621810636,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788555439
+    },
+    {
+        "content": "<p>(Of course, it's a lane, so it shouldn't be mapped separately.)</p>",
+        "id": 621810671,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788555452
+    },
+    {
+        "content": "<p>Actually, it might be the whole idea. To force using crossing, and then follow along Lāčplēša</p>",
+        "id": 621810740,
+        "sender_full_name": "markalex",
+        "timestamp": 1788555476
+    },
+    {
+        "content": "<p>Well, does this idea follow the actual legal requirements or just something they made up? I guess we will never know. And by never I mean at most a couple weeks or something. <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>",
+        "id": 621810889,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788555525
+    },
+    {
+        "content": "<p>(Could also google news article or something, but where's the fun in that)</p>",
+        "id": 621811047,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788555570
+    },
+    {
+        "content": "<p>I linked one above (in Dzirnavu message) - it didn't have much details, neither any other I saw.</p>",
+        "id": 621811480,
+        "sender_full_name": "markalex",
+        "timestamp": 1788555691
+    },
+    {
+        "content": "<p><img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"367x634\" data-original-src=\"/user_uploads/49624/ipQeZ6qxQCJLoTQxcuzHhGBH/image.png\" src=\"/user_uploads/thumbnail/49624/ipQeZ6qxQCJLoTQxcuzHhGBH/image.png/840x560.webp\"><br>\nVideo starts late but no signs at least from there</p>",
+        "id": 621812226,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788555969
+    },
+    {
+        "content": "<p>(I am losing brain cells reading people's comments about every single cycle-related news article and how the usless tax non-paying cyclists are destroying the city for cars)</p>",
+        "id": 621812382,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788556034
+    },
+    {
+        "content": "<p>I understand that it's most likely unrelated, but what does sign with arrow on yellow mean?<br>\nI never figured out</p>",
+        "id": 621812543,
+        "sender_full_name": "markalex",
+        "timestamp": 1788556101
+    },
+    {
+        "content": "<p>It shows the direction for a temporary route aroudn something that is temporarily closed. So like if a road is closed for repairs, these yellow signs guide you around it.</p>",
+        "id": 621812676,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788556154
+    },
+    {
+        "content": "<p>Does Riga forget to take them done then? I see them even where there is no road works or anything.</p>",
+        "id": 621812917,
+        "sender_full_name": "markalex",
+        "timestamp": 1788556244
+    },
+    {
+        "content": "<p><img alt=\":732:\" class=\"emoji\" src=\"https://avatars.zulip.com/49624/emoji/images/63bd6c22.jpg\" title=\"732\"></p>",
+        "id": 621812948,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788556259
+    },
+    {
+        "content": "<p>It depends what they are for. Like in theory, they could go for dozens of kilometers on rural roads. I have no idea what this one is directing.</p>",
+        "id": 621813041,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788556302
+    },
+    {
+        "content": "<p>Anyway, I will remove those \"cycle paths\" for now if you aren't editing there. Even if they are correct (and there really are turn restrictions), the road itself would need to map those turn restricitons, because currently it doesn't stop bikes from turning or going straight.</p>",
+        "id": 621813892,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788556655
+    },
+    {
+        "content": "<p>Sure, I don't do anything there</p>",
+        "id": 621814116,
+        "sender_full_name": "markalex",
+        "timestamp": 1788556767
+    },
+    {
+        "content": "<p>I finished with all streets that I considered for retagging, except for Vesetas.</p>\n<p>I don't like situation on Vesetas: sides where lane is protected and not switching back and forth. Applying same principal as everywhere else (leaving protected lanes as separate way, folding unprotected into road) before would result in a hot mess, IMO.<br>\nOther options: </p>\n<ol start=\"2\">\n<li>fold everything into road, just use <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Acycleway%3Dlane\">cycleway=lane</a> vs <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Acycleway%3Dtrack\">cycleway=track</a> as needed. None would be rendered on default layer.</li>\n<li>do nothing</li>\n</ol>\n<p>I'd appreciate your input.</p>",
+        "id": 621872228,
+        "sender_full_name": "markalex",
+        "timestamp": 1788592176
+    }
+]

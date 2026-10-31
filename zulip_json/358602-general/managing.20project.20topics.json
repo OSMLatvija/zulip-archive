@@ -1,0 +1,74 @@
+[
+    {
+        "content": "<p>Hi everyone, we added some new tasks to this challenge. Just letting you know in case anyone's interested.<br>\n<span class=\"user-mention\" data-user-id=\"568771\">@Rihards Olups</span> maybe you can reopen this topic? (I don't think I have the permissions to do so)</p>",
+        "id": 387657201,
+        "sender_full_name": "MarjanVandeKauter",
+        "timestamp": 1693225257
+    },
+    {
+        "content": "<p>Thanks, perhaps it's better to create a new topic, to keep it organised?</p>",
+        "id": 387658168,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1693225564
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/.E2.9C.94.20Adding.20highways.20based.20on.20TomTom.20data.20in.20MapRoulette/near/387658168\">said</a>:</p>\n<blockquote>\n<p>Thanks, perhaps it's better to create a new topic, to keep it organised?</p>\n</blockquote>\n<p>But it's the same task, so splitting it into a new topic seems counterproductive.</p>",
+        "id": 387658357,
+        "sender_full_name": "HellMap",
+        "timestamp": 1693225638
+    },
+    {
+        "content": "<p>(It's more like you marked it as resolved, even though it's an ongoing task, likely forever)</p>",
+        "id": 387658424,
+        "sender_full_name": "HellMap",
+        "timestamp": 1693225665
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> has marked this topic as unresolved.</p>",
+        "id": 387658732,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1693225776
+    },
+    {
+        "content": "<p>4 messages were moved here from <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/.E2.9C.94.20Adding.20highways.20based.20on.20TomTom.20data.20in.20MapRoulette\">#general &gt; ✔ Adding highways based on TomTom data in MapRoulette</a> by <span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span>.</p>",
+        "id": 387658733,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1693225776
+    },
+    {
+        "content": "<p>That is a valid point.<br>\nOne problem is that \"neverending\" projects have a bit harder time attracting contributors (a visible end goal is a motivator). With a neverending project the goalposts are constantly moving.<br>\nAnother is that they reduce the potential for PR - a finished project can be advertised in some social media etc.<br>\nA \"neverending\" project would also make for an unreadably long topic a few years later.</p>\n<p>The solution would be to delimit each project phase in a separate tracking vehicle - a topic in this case.<br>\nSo it would be \"highways pt 2\", or \"highways 2023-08\" or similar.</p>\n<p>I realise that this might seem like nitpicking to some, but large collaborative volunteer projects strive from motivation and advertising, thus this can have a much bigger impact in the long run than it might seem initially.<br>\nNot super-strongly set on this topic (hehe), but I see benefits with delineating project phases, and no drawbacks.</p>",
+        "id": 387659908,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1693226176
+    },
+    {
+        "content": "<p>I don't think 5 messages counts as a long unreadable topic. If anything, having to read through multiple topics for the same exact task is more unreadable to me. They will not appear together in the list and older ones will get lost. And you cannot easily edit messages or do anything to link them together even if you volunteer to organize it that way. What you are describing is more like tracking milestones rather than discussing a particular topic. I feel like this really needs to be in a separate location, so you have actual progress tracking. It's not like I can tell looking at any of these topics what the progress is for any of them (except a couple where you manually say that, but that gets buried in the middle of messages anyway).</p>",
+        "id": 387661501,
+        "sender_full_name": "HellMap",
+        "timestamp": 1693226778
+    },
+    {
+        "content": "<p>I'm afraid it will make it very hard to keep track of project status (along with the previously listed drawbacks), but if majority prefers topic reopening, sure, we can try that approach - and please feel free to reopen the original topic :)</p>",
+        "id": 387723044,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1693244259
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"568771\">@Rihards Olups</span> <span class=\"user-mention\" data-user-id=\"571825\">@HellMap</span> I am fine with whatever you prefer. I tried to reopen the original topic, but it doesn't seem like I have the rights to do so. This is what I see when I click the ellipsis next to the topic:</p>\n<p><a href=\"/user_uploads/49624/XO-BK0-NBayL4xO7nkfelhYN/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/XO-BK0-NBayL4xO7nkfelhYN/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/XO-BK0-NBayL4xO7nkfelhYN/image.png\"></a></div><p>Maybe I'm looking in the wrong place?</p>\n<p>To respond to <span class=\"user-mention\" data-user-id=\"568771\">@Rihards Olups</span>'s comment about projects being more motivating if there's a clear target, I do see your point.</p>\n<p>Right now I don't know how many leads we have for the whole of Latvia. What I do know however is that we've validated all of our data for Riga specifically, and that on top of the tasks we've already created, we still have about 350 leads that we'd be able to share as well. I'll post this information in the original topic once I figure out how to reopen it <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>",
+        "id": 387860975,
+        "sender_full_name": "MarjanVandeKauter",
+        "timestamp": 1693307887
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"636837\">MarjanVandeKauter</span> <a href=\"#narrow/stream/358602-general/topic/managing.20project.20topics/near/387860975\">said</a>:</p>\n<blockquote>\n<p>I tried to reopen the original topic, but it doesn't seem like I have the rights to do so. This is what I see when I click the ellipsis next to the topic:</p>\n<p><a href=\"/user_uploads/49624/XO-BK0-NBayL4xO7nkfelhYN/image.png\">image.png</a></p>\n<p>Maybe I'm looking in the wrong place?</p>\n</blockquote>\n<p>You are looking <a href=\"https://zulip.com/help/resolve-a-topic#mark-a-topic-as-unresolved\">in the right place</a>, but you don't have required permissions. Currently only admins and moderators are able to resolve topics in our organization. I was actually unaware, that regular members can't resolve topics, and I genuinely think that that should be able, but the problem is that</p>\n<blockquote>\n<p>Resolving a topic works by moving the messages to a new topic.</p>\n</blockquote>\n<p>...and, consequently, <a href=\"https://github.com/zulip/zulip/issues/21811\">permissions to resolve topic cannot be granted independently of topic editing permissions</a>. At the moment I am not sure that giving every member an option to edit any topic would be a good idea. I would like to discuss it with other admins first.</p>\n<blockquote>\n<p>I'll post this information in the original topic once I figure out how to reopen it <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>\n</blockquote>\n<p>I did it for you.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://zulip.com/help/resolve-a-topic#mark-a-topic-as-unresolved\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/98fe2fe57d1ac641d4d84b6de2c520ff48fcf498\\/68747470733a2f2f7374617469632e7a756c6970636861742e636f6d2f7374617469632f696d616765732f6c6f676f2f7a756c69702d69636f6e2d313238783132382e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://zulip.com/help/resolve-a-topic#mark-a-topic-as-unresolved\" title=\"Resolve a topic | Zulip help center\">Resolve a topic | Zulip help center</a></div><div class=\"message_embed_description\">Zulip's topics are very helpful for customer support, answering questions, investigating issues and production errors, as well as other workflows. Resolving topics makes it easy to track the status of each question, investigation, or notification. | Marking a topic as resolved: | Marking a topic as unresolved removes the ✔ and also triggers an automated notice from the notification bot. | It's often helpful to define a policy for when to resolve topics that fits how topics are used in a given stream. Here are some common approaches for deciding when to mark a topic as resolved:</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/zulip/zulip/issues/21811\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/012272ebb6f992eee674e48ae79c20dd34e5805e\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f383161313136613637633234383163393638643333376264393436386633386436336561626435383938313436363731326136363136613365326263333834652f7a756c69702f7a756c69702f6973737565732f3231383131)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/zulip/zulip/issues/21811\" title=\"Allow &quot;resolve topic&quot; permissions to be managed independently · Issue #21811 · zulip/zulip\">Allow \"resolve topic\" permissions to be managed independently · Issue #21811 · zulip/zulip</a></div><div class=\"message_embed_description\">At present, permissions to resolve a topic are managed together with topic editing permissions. However, resolving topics is quite different from editing topic names from a user perspective, and pe...</div></div></div>",
+        "id": 387865966,
+        "sender_full_name": "i-ky",
+        "timestamp": 1693309805
+    },
+    {
+        "content": "<p>Thank you <span class=\"user-mention\" data-user-id=\"568802\">@i-ky</span>! I'm fine with leaving the resolution of topics to the admins and moderators if they don't mind doing that :)</p>",
+        "id": 388261241,
+        "sender_full_name": "MarjanVandeKauter",
+        "timestamp": 1693464799
+    }
+]

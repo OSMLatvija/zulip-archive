@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>Kā dzīvojamām ēkām norādīt būves sēriju OSM ? Vai tas vispār iespējams? <a href=\"https://lv.wikipedia.org/wiki/Tipveida_dz%C4%ABvojam%C4%81_apb%C5%ABve_R%C4%ABg%C4%81#Sta%C4%BCina_laika_projekts\">https://lv.wikipedia.org/wiki/Tipveida_dz%C4%ABvojam%C4%81_apb%C5%ABve_R%C4%ABg%C4%81#Sta%C4%BCina_laika_projekts</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://lv.wikipedia.org/wiki/Tipveida_dz%C4%ABvojam%C4%81_apb%C5%ABve_R%C4%ABg%C4%81#Sta%C4%BCina_laika_projekts\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/202d54481fc14abc216c04c1a782d46177f567e9/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f6c762f7468756d622f652f65312f506c61766e69656b755f6d696b726f72616a6f6e732e6a70672f36343070782d506c61766e69656b755f6d696b726f72616a6f6e732e6a7067&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://lv.wikipedia.org/wiki/Tipveida_dz%C4%ABvojam%C4%81_apb%C5%ABve_R%C4%ABg%C4%81#Sta%C4%BCina_laika_projekts\" title=\"Tipveida dzīvojamā apbūve Rīgā — Vikipēdija\">Tipveida dzīvojamā apbūve Rīgā — Vikipēdija</a></div><div class=\"message_embed_description\">Tipveida dzīvojamā apbūve Rīgā ir daudzstāvu un mazstāvu dzīvojamo un sabiedrisko ēku rajoni (dēvēti par mikrorajoniem), kas Rīgā un citās Latvijas pilsētās intensīvi tika būvēti padomju Latvijas gados — laika posmā no 1950. gadu sākuma līdz pat 1990. gadiem.\n</div></div></div>",
+        "id": 464669327,
+        "sender_full_name": "Aldis_Ceroklis",
+        "timestamp": 1724426077
+    },
+    {
+        "content": "<p><a href=\"#narrow/stream/358602-general/topic/.C4.92ku.20s.C4.93rijas/near/464669327\">A message</a> was moved here from <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/admin_level\">#general &gt; admin_level</a> by <span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span>.</p>",
+        "id": 464670407,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1724426388
+    },
+    {
+        "content": "<p>Jā, iespējams ar <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Adesign%3Aref\">design:ref=*</a> Latvijā šur tur sērijas ir norādītas <a href=\"https://overpass-turbo.eu/s/1QaA\">https://overpass-turbo.eu/s/1QaA</a></p>",
+        "id": 464671715,
+        "sender_full_name": "HellMap",
+        "timestamp": 1724426652
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92ku.20s.C4.93rijas/near/464671715\">писал/а</a>:</p>\n<blockquote>\n<p>Jā, iespējams ar <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Adesign%3Aref\">design:ref=*</a> Latvijā šur tur sērijas ir norādītas <a href=\"https://overpass-turbo.eu/s/1QaA\">https://overpass-turbo.eu/s/1QaA</a></p>\n</blockquote>\n<p>Kā Jūs domājat ēku sēriju dati, vai varētu būt atvērtos datos?https://www.zemesgramata.lv/lv</p>",
+        "id": 464675017,
+        "sender_full_name": "Aldis_Ceroklis",
+        "timestamp": 1724427253
+    },
+    {
+        "content": "<p>Ja dati atvērti, tad tie visticamāk būs <a href=\"https://data.gov.lv/lv\">https://data.gov.lv/lv</a> . Ēku dati kaut kādi ir pieejami. Bet es precīzi nezinu, kādi tieši ēku dati tur ir un vai tādi sērijas numuri ir iekļauti.</p>",
+        "id": 464676560,
+        "sender_full_name": "HellMap",
+        "timestamp": 1724427801
+    },
+    {
+        "content": "<p>Kadastra datos sēriju numuru nav. Ja orientējas tajās sērijās, tad pēc ekspluatācijas uzsākšanas gada, ārsienu materiāla, stāvu skaita, telpu grupu platībām u.tml. varētu noteikt teorētiski iespējamāko sēriju, ko pēc tam pārbaudīt. Kadam studentam potenciāla bakalaura darba tēma. :)</p>",
+        "id": 464679959,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1724428807
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571929\">Dāvis Kļaviņš</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92ku.20s.C4.93rijas/near/464679959\">said</a>:</p>\n<blockquote>\n<p>Kadastra datos sēriju numuru nav. Ja orientējas tajās sērijās, tad pēc ekspluatācijas uzsākšanas gada, ārsienu materiāla, stāvu skaita, telpu grupu platībām u.tml. varētu noteikt teorētiski iespējamāko sēriju, ko pēc tam pārbaudīt. Kadam studentam potenciāla bakalaura darba tēma. :)</p>\n</blockquote>\n<p>Mmmm, un saimoprtēt OSM, un tad nākamais students var tos datus izmantot citā darbā, un pirmais dabū atsauces ;)</p>",
+        "id": 464749806,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1724449755
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571929\">Dāvis Kļaviņš</span> <a href=\"#narrow/stream/358602-general/topic/.C4.92ku.20s.C4.93rijas/near/464679959\">писал/а</a>:</p>\n<blockquote>\n<p>Kadastra datos sēriju numuru nav. Ja orientējas tajās sērijās, tad pēc ekspluatācijas uzsākšanas gada, ārsienu materiāla, stāvu skaita, telpu grupu platībām u.tml. varētu noteikt teorētiski iespējamāko sēriju, ko pēc tam pārbaudīt. Kadam studentam potenciāla bakalaura darba tēma. :)</p>\n</blockquote>\n<p>protams, šeit atradu instrukciju tipveida sērijas apbūve <a href=\"https://www.cityreal.lv/info/dzivoklu-projekti/?no_cache=1\">https://www.cityreal.lv/info/dzivoklu-projekti/?no_cache=1</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.cityreal.lv/info/dzivoklu-projekti/?no_cache=1\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/3c1251473d93d4ee26e5fafcd8e627f8de125084/68747470733a2f2f7777772e636974797265616c2e6c762f62616e6572692f636974797265616c5f6c765f302e6a7067&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.cityreal.lv/info/dzivoklu-projekti/?no_cache=1\" title=\"Dzīvokļu projekti\">Dzīvokļu projekti</a></div><div class=\"message_embed_description\">Dzīvokļu projekti</div></div></div>",
+        "id": 464886687,
+        "sender_full_name": "Aldis_Ceroklis",
+        "timestamp": 1724524445
+    }
+]

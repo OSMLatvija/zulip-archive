@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Kā jūs iezīmējat zaļas saliņas, piemēram, parkingā? Kā \"grass\" vai kā savādāk? </p>\n<p>Un, zāliens kopumā vienmēr ir kā \"grass\" vai arī iedalās smalkāk / savādāk tiek apzīmēts?</p>",
+        "id": 371750023,
+        "sender_full_name": "Regita Zeiļa",
+        "timestamp": 1688310228
+    },
+    {
+        "content": "<p>Jā, pārsvarā <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alanduse%3Dgrass\">landuse=grass</a>. Tā ir kopta zāle - tas ir, kāds par to regulāri atbild. Parasti dekoratīvi vai mazs gabals. Vēl ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alanduse%3Dgrassland\">landuse=grassland</a>, kas ir liels zāles/zālāja/pļavas gabals, bet kurš nav aktīvi kopts un nav gluži dekoratīvs un var būt aizaudzis. Parasti pilsētā ir grass un ārpus ir grassland. Bet daudz kur tie pārklājās un grūti nodalīt, kur teiksim beidzas privātmājas zāle pirms sētas un sākas pļava tālāk vai arī pilsētā liels zāles laukums. Daudzi grassland is nepareizi ielikti grass. Vēl ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alanduse%3Dmeadow\">landuse=meadow</a>, kas tiek nepareizi lietots, kā \"pļava\" tulkojums - tie ir priekš lauksaimniecības - ganības vai siena audzēšana (kas alternatīvi ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alanduse%3Dfarmland\">landuse=farmland</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Acrop%3Dgrass\">crop=grass</a>, te gan starp meadow atšķirību es visai saprotu). Ja zāle parklāj citu objektu, piemēram <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Atraffic_calming%3Disland\">traffic_calming=island</a>, tad papildus var likt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asurface%3Dgrass\">surface=grass</a>. Tā var būt stāvvietā - gan mazas saliņas ar zāli, gan lielākas sadalītas zonas. Sīkāk neesmu redzējis un tagu īsti nav tādu.</p>",
+        "id": 371753163,
+        "sender_full_name": "HellMap",
+        "timestamp": 1688311033
+    },
+    {
+        "content": "<p>Liels paldies! </p>\n<p>Ja visapkārt daudzzīvokļu mājai ir zālājs, vai zālāju var iezīmēt, ietverot māju, vai arī zīmēt metot mājai loku visapkārt -?</p>",
+        "id": 371758647,
+        "sender_full_name": "Regita Zeiļa",
+        "timestamp": 1688312429
+    },
+    {
+        "content": "<p>Zāle būs apkārt mājai jebkurā gadījumā. Jautājums, vai savienot ar ēku vai nē - un tas atkarīgs, cik tā zāle ir tuvu tai mājai. Ar tām dzīvokļu mājām ir tā ka, mēdz būt zāle uzreiz pie sienas, mēdz būtu betona gabaliņš un mēdz būt kārtīga atstarpe. Es nezinu, vai kāds tik precīzi to skatās un zīmē. Ja starp māju un zāli nav celiņš, tad daudzi pa taisno liek klāt. Bet nu daudzi arī visu teritoriju \"noklāj\" ar zāli sākumam nedalot starp celiņiem. Tā kā viss atkarīgs no vēlmes.</p>",
+        "id": 371761254,
+        "sender_full_name": "HellMap",
+        "timestamp": 1688313184
+    },
+    {
+        "content": "<p>Jā, es arī daudzdzīvokļu ēkas zāles objektos neiekļautu (t.i., vai nu zīmētu apkārt, vai dalītu sīkāk).<br>\nParasti jau klāt nāk vismaz viens pietikami plats ceļš (kaut vai ugunsdzēsības transporta vajadzībām), kuru tad arī nebūtu tik labi iekļaut zāles nosegtajā laukumā.</p>",
+        "id": 371800769,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1688326957
+    }
+]

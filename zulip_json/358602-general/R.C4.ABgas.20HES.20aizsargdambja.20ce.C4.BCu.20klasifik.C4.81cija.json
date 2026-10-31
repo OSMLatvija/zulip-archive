@@ -1,0 +1,104 @@
+[
+    {
+        "content": "<p>Ar <span class=\"user-mention\" data-user-id=\"571825\">@HellMap</span> izvērtās <a href=\"https://www.openstreetmap.org/changeset/141002822\">diskusija</a>, kā būtu jāklasificē Rīgas HES aizsargdambja piebraucamais ceļš Ikšķilē (<a href=\"https://www.openstreetmap.org/way/1206245697\">1206245697</a> un <a href=\"https://www.openstreetmap.org/way/1206245700\">1206245700</a>). Pēc pēdējām izmaiņām piebraucamais ceļš ir ielikts kā veloceliņš, lai gan tas ne ar ko neatšķiras no ceļa, kas atrodas uz dambja un būvēts kā servisa ceļš dambja uzturēšanai līdzīgi kā pārējie ceļi uz HES aizsargdambjiem. Jā, zīme pie uzbraukšanas uz dambja ir gājējiem un velo, tagad, Mapillary skatoties, ir sakārtotas zīmes arī Ikšķiles pusē, kur agrāk bija tikai gājēju zīme. Var jau būt, ka kopš atjaunošanas ZMNĪ ir atteikušies šo ceļu izmantot servisa vajadzībām un tagad tas ir tikai gājēju un velo, bet tad būtu jāmaina klasifikācija visā garumā.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/changeset/141002822\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/changeset/141002822\" title=\"Changeset: 141002822 | OpenStreetMap\">Changeset: 141002822 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/1206245697\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/1206245697\" title=\"Way: 1206245697 | OpenStreetMap\">Way: 1206245697 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/1206245700\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/1206245700\" title=\"Way: 1206245700 | OpenStreetMap\">Way: 1206245700 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 397335904,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1697642361
+    },
+    {
+        "content": "<p>Ja es būtu zīmējis pa jaunu aizsargdambjus, es būtu uzreiz licis cycleway, jo šādi tas ir apzīmēts ar ceļa zīmi un tā ir ceļa funkcija neakarīgi no tā, kā tas izskatās. Šeit es tajā brīdi šito gabalu zīmēju un laboju. Pašus dambja ceļus es nekur neesmu aizticis daudz (pagaidām), bet tagad padomājot par to - tur ir veloceļa zīmes visur (tagad?) līdzīgi kā piemēram tālāk Ogrē vai Ādažos gar Gauju. Tāpēc es tiešām liktu visur, kur zīmes, cycleway. Lai arī tur ik pa laikam brauc servisa un speciālais transports, tas ir izņēmums nevis pamatlietojums.</p>",
+        "id": 397339296,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697643371
+    },
+    {
+        "content": "<p>(Tajā vietā es vēl Mapillary neesmu ielādējis tur, bet rich'a 2019 gada zīme atbilst tagadējai)</p>",
+        "id": 397339644,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697643492
+    },
+    {
+        "content": "<p>Piekristu veloceļa apzīmējumam, izņēmuma lietojumu nekartējot. Pa daudziem gājēju ceļiem brauc tīrīšanas vai pļaušanas traktori, piem.<br>\nCita situācija - ja daļa veloceļa pārklājas ar piebraucamo ceļu mājai. Tad piebraucamā ceļa posmu gan apzīmētu kā driveway. Šādi posmi arī lielākoties fiziski atšķiras (piem., ir platāki) nekā savienotais veloceļš.</p>",
+        "id": 397352201,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1697648139
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/R.C4.ABgas.20HES.20aizsargdambja.20ce.C4.BCu.20klasifik.C4.81cija/near/397352201\">said</a>:</p>\n<blockquote>\n<p>ja daļa veloceļa pārklājas ar piebraucamo ceļu mājai.</p>\n</blockquote>\n<p>A tev ir tādi spligti piemēri? Es vakar pa karti pabraukāju cycleway paskatījos sameklēt lietojumu pārklāšanos, kur es esmu bijis, bet es gluži neko īpašu neatradu izņemot dambjus un varbūt kaut kādas iebrauktuves parkos. Bet nezinu tādas, kur gluži regulāri kāds brauktu uz mājam vai tā. Cik es zinu vietas, kur velo lēkā pa ietvēm un iebrauktuvēm, tur visur veloceļi principā arī beidzas.</p>",
+        "id": 397355078,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697649263
+    },
+    {
+        "content": "<p>Tad nomainīt Ikšķilē visā garumā? Ogrē zīmes atšķiras, tu galvenokārt iebraukt (<a href=\"https://osmlatvija.github.io/road-signs/301.html\">301.</a>) un braukt aizliegts (<a href=\"https://osmlatvija.github.io/road-signs/302.html\">302.</a>).</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://osmlatvija.github.io/road-signs/301.html\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/7f2c89387e204768c75dfd582798204d4c1a32d2\\/68747470733a2f2f6c696b756d692e6c762f77777772616b7374692f323031352f3132312f42494c4445532f4e5f3237392f494d4147453130332e4a5047)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://osmlatvija.github.io/road-signs/301.html\" title=\"301. Iebraukt aizliegts\">301. Iebraukt aizliegts</a></div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://osmlatvija.github.io/road-signs/302.html\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/bda996c53f764d1021fb61c7aff3f620a29ad35d\\/68747470733a2f2f6c696b756d692e6c762f77777772616b7374692f323031352f3132312f42494c4445532f4e5f3237392f494d4147453130342e4a5047)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://osmlatvija.github.io/road-signs/302.html\" title=\"302. Braukt aizliegts\">302. Braukt aizliegts</a></div></div></div>",
+        "id": 397364620,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1697653510
+    },
+    {
+        "content": "<p>Ogrē es domāju uz <a href=\"https://www.openstreetmap.org/way/299349562\">https://www.openstreetmap.org/way/299349562</a> abos galos veloceļa zīme. Tur kur tā promenādei garām ar ķieģeļiem, tur es arī liktu (atstātu) service.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/299349562\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/299349562\" title=\"Way: 299349562 | OpenStreetMap\">Way: 299349562 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 397367259,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697654749
+    },
+    {
+        "content": "<p>No Salas ielas ir <a href=\"https://osmlatvija.github.io/road-signs/302.html\">302.</a>, bet no Rīgas puses <a href=\"https://osmlatvija.github.io/road-signs/417.html\">417.</a> ir dažus metrus aiz <a href=\"https://osmlatvija.github.io/road-signs/302.html\">302.</a> Sūkņu stacijai vienīgā piekļuve ir pa dambi.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://osmlatvija.github.io/road-signs/302.html\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/bda996c53f764d1021fb61c7aff3f620a29ad35d\\/68747470733a2f2f6c696b756d692e6c762f77777772616b7374692f323031352f3132312f42494c4445532f4e5f3237392f494d4147453130342e4a5047)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://osmlatvija.github.io/road-signs/302.html\" title=\"302. Braukt aizliegts\">302. Braukt aizliegts</a></div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://osmlatvija.github.io/road-signs/417.html\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/b3d3e06cc8c5d4c834e879c24c8c8f7f0df58eb7\\/68747470733a2f2f6c696b756d692e6c762f77777772616b7374692f323031352f3132312f42494c4445532f4e5f3237392f494d4147453135332e4a5047)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://osmlatvija.github.io/road-signs/417.html\" title=\"417. Kopīgs gājēju un velosipēdu ceļš\">417. Kopīgs gājēju un velosipēdu ceļš</a></div></div></div>",
+        "id": 397367957,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1697655123
+    },
+    {
+        "content": "<p>Ā, no turienes. Nu Latvijā jau veloceļa zīmes vispār no sānielām ja ir, tad tā ir negaidīta laime. <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span> Es šeit neteiktu, ka tas ietekmētu dambja ceļu. Tādus līdzīgus piemērus ar 301/302 pirms savienojuma ar kaut ko (piem. perpendikulāra ceļa) bet bez norādes, uz kurieni tu izbrauc, it kā esmu redzējis daudz kur.</p>",
+        "id": 397370391,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697656365
+    },
+    {
+        "content": "<p>Uz Ikšķiles dambja jau arī uz tās izbrauktuves nav zīmes tālāk ne pa labi ne pa kreisi. Nerunājot jau par visām trepēm un celiņiem, kas tur savienojas. Latvijā nav pieņemts atkārtot velo zīmes <span aria-label=\"smiling face with tear\" class=\"emoji emoji-1f972\" role=\"img\" title=\"smiling face with tear\">:smiling_face_with_tear:</span></p>",
+        "id": 397370641,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697656466
+    },
+    {
+        "content": "<p>Uz dambja uzbraucot jau pa labi un kreisi ir tas pats, ko apzīmē zīme pie uzbraukšanas. Pie kāpnēm (augšā) likt jēga būtu tikai tik, cik gājējus informēt par dalītu ceļu ar velo, jo ar mašīnu pa kāpnēm tāpat neuzbraukt. Ogres gadījumā tā zīme ļauj braukt ar mašīnu, ja ir atļauja, par ko ir papildzīme. Abās pusēs, jo, lai arī burtiski tā zime Rīgas pusē darbojas dažus metrus, praktiski ar to ir domāts viss tālākais dambja posms. Jā, pamatā dambis ar gājejiem un velo, bet tāpat ir arī otrā pusē, kur gluži vienkārši ir veiksmīgāks zīmju izvietojums, jo ar mašīnu puekļuve ir tikai no Jura Alunāna ielas.</p>",
+        "id": 397374193,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1697658368
+    },
+    {
+        "content": "<p>Nu te jau tā parastā problēma, ka pie mums zīmes saliktas, kā pagadās.</p>",
+        "id": 397375487,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697659040
+    },
+    {
+        "content": "<p>Mmh, tāpēc skatītos arī uz funkcionālo lietojumu, izejot no tā, kā var piekļūt pie sūkņu stacijas. Ikšķilē pie tām var piekļūt arī pa parastajiem ceļiem, bet Ogrē - tikai pa dambi.</p>",
+        "id": 397376658,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1697659584
+    },
+    {
+        "content": "<p>Skatoties pēc funkcionālā, tur ir uzlikta veloceļa zīme un brauc tūkstošiem riteņu un gājēju un varbūt reizi pa reizei servisa transports izņēmuma kārtībā. Sūkņu stacija taču nav pamatlietojums tam.</p>",
+        "id": 397379039,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697660751
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/R.C4.ABgas.20HES.20aizsargdambja.20ce.C4.BCu.20klasifik.C4.81cija/near/397355078\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/R.C4.ABgas.20HES.20aizsargdambja.20ce.C4.BCu.20klasifik.C4.81cija/near/397352201\">said</a>:</p>\n<blockquote>\n<p>ja daļa veloceļa pārklājas ar piebraucamo ceļu mājai.</p>\n</blockquote>\n<p>A tev ir tādi spligti piemēri? Es vakar pa karti pabraukāju cycleway paskatījos sameklēt lietojumu pārklāšanos, kur es esmu bijis, bet es gluži neko īpašu neatradu izņemot dambjus un varbūt kaut kādas iebrauktuves parkos. Bet nezinu tādas, kur gluži regulāri kāds brauktu uz mājam vai tā. Cik es zinu vietas, kur velo lēkā pa ietvēm un iebrauktuvēm, tur visur veloceļi principā arī beidzas.</p>\n</blockquote>\n<p>Tagad uzreiz nevaru atrast, un varbūt daļai tiešām mainās zīmes arī (piem., <a href=\"https://www.openstreetmap.org/#map=18/56.93279/24.30927\">https://www.openstreetmap.org/#map=18/56.93279/24.30927</a>) - bet ārpus Latvijas noteikti ir redzēti gājēju vai velo ceļu posmi, pa kuriem brauc uz mājām.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/#map=18/56.93279/24.30927\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/#map=18/56.93279/24.30927\" title=\"OpenStreetMap\">OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 397458790,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1697705137
+    },
+    {
+        "content": "<p>Ja par noteicošajām ņem gājēju+velo zīmes, tad Ogres dambis, kas tuvāk Rīgai, ir šāds piemērs. Ja nē, tad jau uzreiz pēc zīmēm tas ir servisa ceļš. \"Nu Latvijā jau veloceļa zīmes vispār no sānielām ja ir, tad tā ir negaidīta laime.\" - nianse, ka mašīnām tā ir galam tuvākā iespēja izbraukt uz dambja, jo no gala tas fiziski nav iespējams. \"brauc tūkstošiem riteņu un gājēju un varbūt reizi pa reizei servisa transports izņēmuma kārtībā\" - šādi ir arī dambim otrā pusē.</p>",
+        "id": 397547487,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1697736100
+    },
+    {
+        "content": "<p>Svaigāks Mapillary <a href=\"https://www.mapillary.com/app/?pKey=1048568616152817&amp;focus=photo\">https://www.mapillary.com/app/?pKey=1048568616152817&amp;focus=photo</a></p>",
+        "id": 398286960,
+        "sender_full_name": "HellMap",
+        "timestamp": 1698153352
+    }
+]

@@ -1,0 +1,236 @@
+[
+    {
+        "content": "<p>Ir kaut kādas problēmu kategorijas, kuras šobrīd vai nu \"karājas\" kā neizlabojamas OSM piezīmes, vai īsti nekur nav apkopotas/apskatāmas.<br>\nPiemēri: nepareizas ceļazīmes (LVC ātruma ierobežojumi, pašvaldību dzīvojamo zonu sākums beigas, īpaši šķības ēkas VZD datos utt).</p>\n<p>Gribētos to visu kaut kā registrēt, lai varētu aizvākt neizlabojamas OSM piezīmes, un arī kaut kā izsekot statusam.</p>\n<p>Funkcionāli derētu:</p>\n<ul>\n<li>Ļoti viegla pievienošana un rediģēšana.</li>\n<li>Teksta un vizuālais materiāls (piem, JOSM screenshoti, bildes dabā utt), linki (OSM, Mapillary utt).</li>\n<li>Potenciāli iespēja rediģēt \"lietotājiem no malas\", ja nu varbūt VZD vai kāds cits vēlas iesaistīties kādā brīdī (tīri web interfeiss).</li>\n<li>Iespēja viegli atvērt to visu JOSM, uMap vai tamlīdzīgā rīkā.</li>\n<li>Ērtas kategorijas, meklēšana, filtrēšana.</li>\n</ul>\n<p>Iespējamie varianti:</p>\n<ul>\n<li>Google Sheets spreadsheets</li>\n<li>Kaut kas Github?</li>\n<li>Tabula OSM wiki</li>\n</ul>\n<p>Kādas vēl idejas, vēlmes, ieteikumi?</p>",
+        "id": 315691421,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1670967592
+    },
+    {
+        "content": "<p>Piemēram:<br>\nĪpaši šķības ēkas VZD datos</p>\n<ul>\n<li><a href=\"https://www.openstreetmap.org/way/135619091/history\">https://www.openstreetmap.org/way/135619091/history</a></li>\n<li><a href=\"https://www.openstreetmap.org/way/935344835/history\">https://www.openstreetmap.org/way/935344835/history</a></li>\n<li><a href=\"https://www.openstreetmap.org/node/9888123631/history\">https://www.openstreetmap.org/node/9888123631/history</a></li>\n<li><a href=\"https://www.openstreetmap.org/way/935344848/history\">https://www.openstreetmap.org/way/935344848/history</a></li>\n</ul>\n<p>Adrešu punkti ārpus ēkām:</p>\n<ul>\n<li><a href=\"https://www.openstreetmap.org/node/9888123632/history\">https://www.openstreetmap.org/node/9888123632/history</a></li>\n</ul>\n<p>Šaubīgi VZD ceļu savienojumi:</p>\n<ul>\n<li><a href=\"https://www.openstreetmap.org/note/3447178\">https://www.openstreetmap.org/note/3447178</a></li>\n</ul>\n<p>Problēmas ar dzīvojamo zonu zīmēm:</p>\n<ul>\n<li><a href=\"https://www.openstreetmap.org/note/3352083\">https://www.openstreetmap.org/note/3352083</a></li>\n<li><a href=\"https://www.openstreetmap.org/note/3266407\">https://www.openstreetmap.org/note/3266407</a></li>\n<li><a href=\"https://www.openstreetmap.org/note/3391460\">https://www.openstreetmap.org/note/3391460</a></li>\n<li><a href=\"https://www.openstreetmap.org/note/2210565\">https://www.openstreetmap.org/note/2210565</a><br>\n<a href=\"https://www.openstreetmap.org/note/3178688\">https://www.openstreetmap.org/note/3178688</a></li>\n</ul>",
+        "id": 315696063,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1670969220
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/probl.C4.93mu.20re.C4.A3istri/near/315691421\">said</a>:</p>\n<blockquote>\n<p>Funkcionāli derētu:</p>\n<ul>\n<li>Ļoti viegla pievienošana un rediģēšana.</li>\n<li>Teksta un vizuālais materiāls (piem, JOSM screenshoti, bildes dabā utt), linki (OSM, Mapillary utt).</li>\n<li>Potenciāli iespēja rediģēt \"lietotājiem no malas\", ja nu varbūt VZD vai kāds cits vēlas iesaistīties kādā brīdī (tīri web interfeiss).</li>\n<li>Iespēja viegli atvērt to visu JOSM, uMap vai tamlīdzīgā rīkā.</li>\n<li>Ērtas kategorijas, meklēšana, filtrēšana.</li>\n</ul>\n</blockquote>\n<p>GitHub Issues vai Discussions atbilst visām prasībām, izņemot, varbūt, \"Iespēja viegli atvērt to visu JOSM\".</p>",
+        "id": 315755019,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671004775
+    },
+    {
+        "content": "<p>Varbūt \"heavyweight\" - jauna ieraksta pievienošana ir jauns issue.<br>\nIespēja kaut kā ļoti viegli vizualizēt šādas problēmas gan ir ļoti svarīga, citādāk atrast kādā reģionā esošās būs pārāk grūti.</p>",
+        "id": 315775545,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671011548
+    },
+    {
+        "content": "<p><a href=\"https://docs.github.com/en/actions/managing-issues-and-pull-requests/adding-labels-to-issues\">GitHub Actions var pievienot issue label</a>. Es pieļauju, ka var uztaisīt tādu action, kas pēc OSM note var pateikt, kur tas ir un pievienot vairākus label ar pagastu/rajonu/whatever. Tad var filtrēt issues pēc šiem label.</p>",
+        "id": 315778957,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671012574
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/probl.C4.93mu.20re.C4.A3istri/near/315778957\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://docs.github.com/en/actions/managing-issues-and-pull-requests/adding-labels-to-issues\">GitHub Actions var pievienot issue label</a>. Es pieļauju, ka var uztaisīt tādu action, kas pēc OSM note var pateikt, kur tas ir un pievienot vairākus label ar pagastu/rajonu/whatever. Tad var filtrēt issues pēc šiem label.</p>\n</blockquote>\n<p>Biju domājis iespēju reģistrētās problēmas aplūkot kartē - JOSM, uMap utt. <br>\nOSM piezīmes tiktu vērtas ciet, jo šobrīd to ir daudz par daudz, un daudzas ir praktiski neatrisināmas bez pašvaldības iesaistes utml.</p>",
+        "id": 315907733,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671049144
+    },
+    {
+        "content": "<p>Adreses punkts ārpus ēkas, īpaši šķība ēka:</p>\n<ul>\n<li><a href=\"https://www.openstreetmap.org/node/9888125117/history\">https://www.openstreetmap.org/node/9888125117/history</a></li>\n</ul>\n<p>Īpaši šķības ēkas:</p>\n<ul>\n<li><a href=\"https://www.openstreetmap.org/way/989028628/history\">https://www.openstreetmap.org/way/989028628/history</a></li>\n<li><a href=\"https://www.openstreetmap.org/way/1122143297/history\">https://www.openstreetmap.org/way/1122143297/history</a></li>\n<li><a href=\"https://www.openstreetmap.org/way/1122143298/history\">https://www.openstreetmap.org/way/1122143298/history</a></li>\n</ul>",
+        "id": 315910113,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671050147
+    },
+    {
+        "content": "<p><a href=\"https://overpass-turbo.eu/s/1p5d\">https://overpass-turbo.eu/s/1p5d</a><br>\nbuilding=hangar daudz tiek lietots nepareizi</p>",
+        "id": 315993885,
+        "sender_full_name": "Colby",
+        "timestamp": 1671097420
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/358602-general/topic/probl.C4.93mu.20re.C4.A3istri/near/315993885\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://overpass-turbo.eu/s/1p5d\">https://overpass-turbo.eu/s/1p5d</a></p>\n</blockquote>\n<p>Mums šeit ir iespēja taisīt tā saucamus \"code playgrounds\", kas saistīti ar <a href=\"http://overpass-turbo.eu\">overpass-turbo.eu</a>:</p>\n<div class=\"codehilite\" data-code-language=\"overpass\"><pre><span></span><code>[out:json][timeout:25];\n// fetch area “Latvia” to search in\n{{geocodeArea:Latvia}}-&gt;.searchArea;\n// gather results\n(\n  // query part for: “building=hangar”\n  node[\"building\"=\"hangar\"](area.searchArea);\n  way[\"building\"=\"hangar\"](area.searchArea);\n  relation[\"building\"=\"hangar\"](area.searchArea);\n);\n// print results\nout body;\n&gt;;\nout skel qt;\n</code></pre></div>\n<p>Desktop un web versijās parādās podziņa, lai atvērt to koda gabalu caur <a href=\"http://overpass-turbo.eu\">overpass-turbo.eu</a>, cerams ka mobilai aplikācijai arī  pievienos šo fīču.</p>\n<p>Vienkārši jāuztaisa koda bloks ar <code>overpass</code> kā valodu:</p>\n<div class=\"codehilite\"><pre><span></span><code>```overpass\n// šeit jābūt Overpass query\n```\n</code></pre></div>\n<p>Tas šķiet labāk no arhivēšanas skatpunkta (nezinu, cik ilgi tie Overpass linki darbojās) un arī foršāk uzreiz redzēt Overpass kodu čatā, lai saprastu, par ko ir runa.</p>",
+        "id": 316001444,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671099554
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/358602-general/topic/probl.C4.93mu.20re.C4.A3istri/near/315993885\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://overpass-turbo.eu/s/1p5d\">https://overpass-turbo.eu/s/1p5d</a></p>\n</blockquote>\n<p>Pieliku iespēju arī Overpass Turbo Wizard iesaistīt (ar <code>wizard</code>):</p>\n<div class=\"codehilite\" data-code-language=\"wizard\"><pre><span></span><code>building=hangar in Latvia\n</code></pre></div>",
+        "id": 316003516,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671100135
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/358602-general/topic/probl.C4.93mu.20re.C4.A3istri/near/315993885\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://overpass-turbo.eu/s/1p5d\">https://overpass-turbo.eu/s/1p5d</a><br>\nbuilding=hangar daudz tiek lietots nepareizi</p>\n</blockquote>\n<p>Gandrīz visi :)<br>\nŠo pat varētu iepūst Maproulette un lēnā garā satīrīt. Vai arī bez MR :)</p>",
+        "id": 316127864,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671134222
+    },
+    {
+        "content": "<p>Pilskalnus arī derētu sakārtot, pašlaik ir tikai historic=archeological_site, pārejie tagi kā nu kuram</p>",
+        "id": 316229722,
+        "sender_full_name": "Colby",
+        "timestamp": 1671186339
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/358602-general/topic/probl.C4.93mu.20re.C4.A3istri/near/316229722\">said</a>:</p>\n<blockquote>\n<p>Pilskalnus arī derētu sakārtot, pašlaik ir tikai historic=archeological_site, pārējie tagi kā nu kuram</p>\n</blockquote>\n<p>Ja mums vēl nav, wiki vajadzētu aprakstīt pareizo tagošanu - pilskalnu kartēšanā man katru reizi sanāk kaut kur meklēt tagus.</p>",
+        "id": 316249185,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671192458
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/probl.C4.93mu.20re.C4.A3istri/near/316249185\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/358602-general/topic/probl.C4.93mu.20re.C4.A3istri/near/316229722\">said</a>:</p>\n<blockquote>\n<p>Pilskalnus arī derētu sakārtot, pašlaik ir tikai historic=archeological_site, pārējie tagi kā nu kuram</p>\n</blockquote>\n<p>Ja mums vēl nav, wiki vajadzētu aprakstīt pareizo tagošanu - pilskalnu kartēšanā man katru reizi sanāk kaut kur meklēt tagus.</p>\n</blockquote>\n<p>Nesens proposal <a href=\"https://wiki.openstreetmap.org/wiki/Proposed_features/Key:archaeological_site\">https://wiki.openstreetmap.org/wiki/Proposed_features/Key:archaeological_site</a><br>\nPilskalns <a href=\"https://wiki.openstreetmap.org/wiki/Tag:fortification_type%3Dhill_fort\">https://wiki.openstreetmap.org/wiki/Tag:fortification_type%3Dhill_fort</a></p>\n<p>Trūkstošos var no <a href=\"http://vietvardi.lgia.gov.lv/\">Vietvārdu datubāzes</a> un <a href=\"https://opendata.latvijas-pilskalni.lv/\">latvijas-pilskalni.lv</a></p>",
+        "id": 316251715,
+        "sender_full_name": "Colby",
+        "timestamp": 1671193283
+    },
+    {
+        "content": "<p>Galvenie tagi</p>\n<ul>\n<li>name=*</li>\n<li>historic=archaeological_site</li>\n<li>archaeological_site=fortification</li>\n<li>fortification_type=hill_fort</li>\n<li>wikipedia=*</li>\n<li>wikidata=*</li>\n<li>natural=peak</li>\n<li>ele=*</li>\n</ul>",
+        "id": 316252889,
+        "sender_full_name": "Colby",
+        "timestamp": 1671193674
+    },
+    {
+        "content": "<p>Man šķiet šo topic'u vajag sadalīt vairākos (par pilskalniem, par angāriem un par \"nerisināmām bet aizvērāmām\" OSM piezīmēm)</p>",
+        "id": 316254034,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671193978
+    },
+    {
+        "content": "<p>topic daudz, stream maz. varbūt šādi?<br>\nproblēmu reģistrs - terplāniem, pilskalniem, utt<br>\nmeta - boti, zulip, github<br>\ngeneral - parastai klačošanai</p>",
+        "id": 316254474,
+        "sender_full_name": "Colby",
+        "timestamp": 1671194101
+    },
+    {
+        "content": "<p>Īpaši šķības ēkas VZD datos:</p>\n<ul>\n<li><a href=\"https://www.openstreetmap.org/way/170035521/history\">https://www.openstreetmap.org/way/170035521/history</a></li>\n<li><a href=\"https://www.openstreetmap.org/way/170044556/history\">https://www.openstreetmap.org/way/170044556/history</a></li>\n</ul>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/170035521/history\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/170035521/history\" title=\"Way History: 170035521 | OpenStreetMap\">Way History: 170035521 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/170044556/history\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/170044556/history\" title=\"Way History: 170044556 | OpenStreetMap\">Way History: 170044556 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 317049869,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671574644
+    },
+    {
+        "content": "<p>Viena no elegantākajām šķībajām ēkām līdz šim.<br>\n<a href=\"https://www.openstreetmap.org/way/1138319086\">https://www.openstreetmap.org/way/1138319086</a><br>\n<a href=\"/user_uploads/49624/lPxXsn-48Uhy3cKG69ijK972/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/lPxXsn-48Uhy3cKG69ijK972/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/lPxXsn-48Uhy3cKG69ijK972/image.png\"></a></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/1138319086\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/1138319086\" title=\"Way: 1138319086 | OpenStreetMap\">Way: 1138319086 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 326121372,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675689741
+    },
+    {
+        "content": "<p><a href=\"https://www.openstreetmap.org/way/1146795892\">https://www.openstreetmap.org/way/1146795892</a><br>\n<a href=\"/user_uploads/49624/a3l8BCGsVd3mFIne_9iXTia3/image.png\">VZD datos divas ēkas pārklājas</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/a3l8BCGsVd3mFIne_9iXTia3/image.png\" title=\"VZD datos divas ēkas pārklājas\"><img src=\"/user_uploads/49624/a3l8BCGsVd3mFIne_9iXTia3/image.png\"></a></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/1146795892\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/1146795892\" title=\"Way: 1146795892 | OpenStreetMap\">Way: 1146795892 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 328332749,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1676580524
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/probl.C4.93mu.20re.C4.A3istri/near/328332749\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://www.openstreetmap.org/way/1146795892\">https://www.openstreetmap.org/way/1146795892</a><br>\n<a href=\"/user_uploads/49624/a3l8BCGsVd3mFIne_9iXTia3/image.png\">VZD datos divas ēkas pārklājas</a></p>\n</blockquote>\n<p>Tur vai tad nebija dažādas nozīmes krāsām - tipa viena reģistrēta, otra kaut kādā tur stadijā, pēc tam paliks viena. Vismaz es esmu redzējis kaut kur šitos variantus un īpaši nesaspringu. Bet nu varbūt tas ir galīgi nepareizi....</p>",
+        "id": 328357908,
+        "sender_full_name": "HellMap",
+        "timestamp": 1676590932
+    },
+    {
+        "content": "<p>Kaut kas tāds bija, jā - bet man ir aizdomas, ka vienlaicīgi vairākiem pārklāties īsti nevajadzētu.</p>",
+        "id": 328411289,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1676623272
+    },
+    {
+        "content": "<p>Tipa \"šī ēka pastāv, bet mēs jaucam nost un būvējam pa virsu jaunu ar citu novietojumu\", bet nu es ar nez</p>",
+        "id": 328444656,
+        "sender_full_name": "HellMap",
+        "timestamp": 1676633293
+    },
+    {
+        "content": "<p>Adresei \"salūza\" ielas nosaukums <a href=\"https://www.openstreetmap.org/node/9876437435/history\">https://www.openstreetmap.org/node/9876437435/history</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/9876437435/history\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/9876437435/history\" title=\"Node History: 9876437435 | OpenStreetMap\">Node History: 9876437435 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 341312222,
+        "sender_full_name": "HellMap",
+        "timestamp": 1678641703
+    },
+    {
+        "content": "<p>Teorētiski blakus iela tiešām ir \"Sermuļu\" nevis \"Sermuļu iela\"... kurš te vainīgs</p>",
+        "id": 341312310,
+        "sender_full_name": "HellMap",
+        "timestamp": 1678641734
+    },
+    {
+        "content": "<p>Šis pašvaldībai un/vai VZD jāsalabo.</p>",
+        "id": 341313016,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1678642101
+    },
+    {
+        "content": "<p>Jā, no šiem man mīļākais HellMap jau zināmais \"Stacija Malta iela\" - <a href=\"https://www.openstreetmap.org/way/42461801\">https://www.openstreetmap.org/way/42461801</a> .<br>\nPašvaldība uztaisīja sev darbiņu nākotnē :)</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/42461801\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/42461801\" title=\"Way: ‪Stacija Malta iela‬ (‪42461801‬) | OpenStreetMap\">Way: ‪Stacija Malta iela‬ (‪42461801‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 341401115,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1678697622
+    },
+    {
+        "content": "<p>Šādu brīnumu kadastrā iepriekš neatceros manītu :)<br>\n<a href=\"/user_uploads/49624/Wfoa7EAVnJORNtiXp205XS1e/image.png\">nu kaut kā šitā</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/Wfoa7EAVnJORNtiXp205XS1e/image.png\" title=\"nu kaut kā šitā\"><img src=\"/user_uploads/49624/Wfoa7EAVnJORNtiXp205XS1e/image.png\"></a></div>",
+        "id": 401520914,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1699717376
+    },
+    {
+        "content": "<p>Viens deklarēts, viens vektorizēts, bet dati atšķiras, tāpēc atstāja abus, jo nezin, kurš pareizi?</p>",
+        "id": 401521201,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699717505
+    },
+    {
+        "content": "<p>Nu teorētiski viņi neko nedara / nedrīkst darīt, ja ir īpašnieka iesniegtie dati. Varbūt kaut kāda \"vēsturiski izveidojusies\" situācija.</p>",
+        "id": 401535595,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1699728936
+    },
+    {
+        "content": "<p>\"Sermuļu\" salabojās, vismaz adreses punktiem <a href=\"https://www.openstreetmap.org/node/9876437434/history\">https://www.openstreetmap.org/node/9876437434/history</a> tikai protams <code>old_addr:street=Sermuļu</code> tāds arī palika pagaidām</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/9876437434/history\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/9876437434/history\" title=\"Node History: 9876437434 | OpenStreetMap\">Node History: 9876437434 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 405836033,
+        "sender_full_name": "HellMap",
+        "timestamp": 1701700092
+    },
+    {
+        "content": "<p>Ā nu, old_addr visādi brīnumi var būt, tas ir OK :)</p>",
+        "id": 405879775,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1701711317
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/AhYWOWZ5m5ZvubJvQHmVi-_Z/lego-cadaster.png\">lego-cadaster.png</a> <br>\n<a href=\"/user_uploads/49624/2pdfjyZ8cFup5Zr5gOGUyin6/lego-cadaster-2.png\">lego-cadaster-2.png</a><br>\n<a href=\"/user_uploads/49624/u7hNDVb_AF6aH4moUeCYtiFE/lego-cadaster-3.png\">lego-cadaster-3.png</a><br>\nMan pat īsti nav ko nokementēt... sazīmēti kaut kādi ķieģelīši mspaintā <a href=\"https://www.openstreetmap.org/#map=18/57.15987/27.67227\">https://www.openstreetmap.org/#map=18/57.15987/27.67227</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/AhYWOWZ5m5ZvubJvQHmVi-_Z/lego-cadaster.png\" title=\"lego-cadaster.png\"><img src=\"/user_uploads/49624/AhYWOWZ5m5ZvubJvQHmVi-_Z/lego-cadaster.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/2pdfjyZ8cFup5Zr5gOGUyin6/lego-cadaster-2.png\" title=\"lego-cadaster-2.png\"><img src=\"/user_uploads/49624/2pdfjyZ8cFup5Zr5gOGUyin6/lego-cadaster-2.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/u7hNDVb_AF6aH4moUeCYtiFE/lego-cadaster-3.png\" title=\"lego-cadaster-3.png\"><img src=\"/user_uploads/49624/u7hNDVb_AF6aH4moUeCYtiFE/lego-cadaster-3.png\"></a></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/#map=18/57.15987/27.67227\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/#map=18/57.15987/27.67227\" title=\"OpenStreetMap\">OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 423790366,
+        "sender_full_name": "HellMap",
+        "timestamp": 1709116748
+    },
+    {
+        "content": "<p>Atgādina Wikimapia pirmsākumos.  Ja nopietni, tad VZD šo problēmu apzinās un strādā pie risināšanas, <a href=\"http://t.sk\">t.sk</a>. izmantojot aerolāzerskenēšanas datus, bet tur arī likumdošana esot jāmaina, jo šobrīd vienīgais, ko varot darīt, ir pārvietot esošu ģeometriju uz faktisko vietu, bet nemainot pašu ģeometriju. Šajā gadījumā tātad neko. Droši vien līdz būtiskiem taustāmiem rezultātiem vēl jāgaida vairāki gadi.</p>",
+        "id": 423796023,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1709118666
+    },
+    {
+        "content": "<p>Kurš reģions šiem ķieģelīšiem?</p>",
+        "id": 423858187,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1709138227
+    },
+    {
+        "content": "<p>Nesapratu jautājumu. Vai arī nezinu kaut ko par kaut kādiem VZD reģioniem?</p>",
+        "id": 423863726,
+        "sender_full_name": "HellMap",
+        "timestamp": 1709139909
+    },
+    {
+        "content": "<p>Droši vien atrašanās vieta domāta. Bet to jau pēc kadastra apzīmējumiem, kas bildēs, var atrast.</p>",
+        "id": 423866941,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1709141057
+    },
+    {
+        "content": "<p>Nu es jau it kā arī saiti ieliku uz vietu kartē <span aria-label=\"smiling face with tear\" class=\"emoji emoji-1f972\" role=\"img\" title=\"smiling face with tear\">:smiling_face_with_tear:</span></p>",
+        "id": 423867718,
+        "sender_full_name": "HellMap",
+        "timestamp": 1709141330
+    },
+    {
+        "content": "<p>Ā sorry, visos linkos nepamanīju visgarāko, paldies :)</p>",
+        "id": 423875519,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1709144056
+    }
+]

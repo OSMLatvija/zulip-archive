@@ -1,0 +1,80 @@
+[
+    {
+        "content": "<p>Skatoties teritoriju attīstību plānos zemes gabalu lietošanas veidus, parasti redzama - jaukta apbūves teritorija, publiskās apbūves teritorija, ražošana. Kā piemeklējat atbilstošāko \"landuse\". Piemēram - kultūras zonām, slimnīcām, vai  vietām, kur redzami gan veikali, gan biroji? Vai tas būtu vairāk klasificējams kā \"commercial area\"? Varbūt vēl kādi ierosinājumi/ komentāri par Landuse zīmēšanu. Vai zīmējat pa zemes gabalu robežām?</p>",
+        "id": 381047679,
+        "sender_full_name": "Liga Rutka",
+        "timestamp": 1690984275
+    },
+    {
+        "content": "<p>Un, ja zināms, ka zemes gabals ir savrupmāju teritorijā, bet vēl nav apbūvēts, atstājat zemes gabalu bez \"landuse\", vai tomēr var jau iezīmēt?</p>",
+        "id": 381048068,
+        "sender_full_name": "Liga Rutka",
+        "timestamp": 1690984347
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"581217\">Liga Rutka</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Landuse/near/381048068\">said</a>:</p>\n<blockquote>\n<p>Un, ja zināms, ka zemes gabals ir savrupmāju teritorijā, bet vēl nav apbūvēts, atstājat zemes gabalu bez \"landuse\", vai tomēr var jau iezīmēt?</p>\n</blockquote>\n<p>Tam var izmantot kādu no tā saucamiem <a href=\"https://wiki.openstreetmap.org/wiki/Lifecycle_prefix\">\"lifecycle prefix\"</a>, piemēram <code>planned</code> vai <code>proposed</code>.</p>",
+        "id": 381048855,
+        "sender_full_name": "i-ky",
+        "timestamp": 1690984505
+    },
+    {
+        "content": "<p>No paša sākuma minēšu, ka OSM apzīmē faktisko teritorijas lietojumu - to, kas sastopams \"dabā\". Tāpēc zīmējot vai skatoties kaut kādus teritorijas plānus, kadastrus, būvprojektus, utt. jābūt uzmanīgam/i, lai nesazīmētu nepareizas plānotas vai neeksistējošas lietas.</p>",
+        "id": 381050578,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690984814
+    },
+    {
+        "content": "<p>Piemēram, <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aproposed%3Alanduse%3Dresidential\">proposed:landuse=residential</a> vai <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alanduse%3Dgreenfield\">landuse=greenfield</a> var likt no kaut kādiem plāniem un kadastriem un pats esmu tā darījis - bet jāpievērš uzmanība, ka dabā tur varbūt vēl 30 gadus nekas nenotiks, ja vispār notiks. Es parasti lieku tur, kur jau blakus kaut kas ir un 99%, ka būs arī tajā vietā kaut kad. Daudzi neko par nākotnes projektiem vispār nekartē. Principā, pietiek darba arī vēl esošu sazīmēt.</p>",
+        "id": 381052046,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690985051
+    },
+    {
+        "content": "<p>Kurā brīdī teritorijas pārklājas vienmēr ir nedaudz sarežģīti - piemēram, <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alanduse%3Dresidential\">landuse=residential</a> vai <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alanduse%3Dcommercial\">landuse=commercial</a> / <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alanduse%3Dretail\">landuse=retail</a>. Pa lielam, ja tur kaut kur dzīvo, tad parasti ir residendtial pat ja visur veikali (piemēram, pilsētas centra mājas). commercial, ja tur nekā izņemot veikalu nav. Kaut kādi mazi atsevišķi veikali pa vidu residential rajoniem - reti kad izdala to veikalu ārā, bet principā var. Tik sīki reti kur sazīmēts.</p>",
+        "id": 381053876,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690985333
+    },
+    {
+        "content": "<p>Ne visi lietojumi OSM ir - kaut kādas kultūras zonas un tamlīdzīgi ir ļoti subjektīvi, ja neskatās plānu. Parasti tos dala pēc faktiskiem - dzīvojamie / veikali / parki utt. Tādas \"zonas\" kā teritorijas plānojumos gluži nav OSM. Gandrīz vai katram gadījumam atsevišķi.</p>",
+        "id": 381054575,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690985412
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Landuse/near/381053876\">said</a>:</p>\n<blockquote>\n<p>Kurā brīdī teritorijas pārklājas vienmēr ir nedaudz sarežģīti - piemēram, <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alanduse%3Dresidential\">landuse=residential</a> vai <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alanduse%3Dcommercial\">landuse=commercial</a> / <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alanduse%3Dretail\">landuse=retail</a>. Pa lielam, ja tur kaut kur dzīvo, tad parasti ir residendtial pat ja visur veikali (piemēram, pilsētas centra mājas). commercial, ja tur nekā izņemot veikalu nav. Kaut kādi mazi atsevišķi veikali pa vidu residential rajoniem - reti kad izdala to veikalu ārā, bet principā var. Tik sīki reti kur sazīmēts.</p>\n</blockquote>\n<p>Paldies, šis palīdz saprast :)!</p>",
+        "id": 381055669,
+        "sender_full_name": "Liga Rutka",
+        "timestamp": 1690985558
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Landuse/near/381048855\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"581217\">Liga Rutka</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Landuse/near/381048068\">said</a>:</p>\n<blockquote>\n<p>Un, ja zināms, ka zemes gabals ir savrupmāju teritorijā, bet vēl nav apbūvēts, atstājat zemes gabalu bez \"landuse\", vai tomēr var jau iezīmēt?</p>\n</blockquote>\n<p>Tam var izmantot kādu no tā saucamiem <a href=\"https://wiki.openstreetmap.org/wiki/Lifecycle_prefix\">\"lifecycle prefix\"</a>, piemēram <code>planned</code> vai <code>proposed</code>.</p>\n</blockquote>\n<p>Nedaudz vēl jānoorientējas, uzreiz neatrodu. Šoreiz neizmantošu, bet, vai landuse iD redaktorā arī varu tādu \"prefix\" pievienot?</p>",
+        "id": 381061616,
+        "sender_full_name": "Liga Rutka",
+        "timestamp": 1690986486
+    },
+    {
+        "content": "<p>Tas ar roku jāraksta tag editorā.</p>",
+        "id": 381063579,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690986827
+    },
+    {
+        "content": "<p>Atbildot uz \"Vai zīmējat pa zemes gabalu robežām?\" - es parasti zīmēju gandrīz vai lielāko, kuru var vienā gabalā.<br>\nNevajadzētu likt tam pašam ceļam barrier (piem., <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dfence\">barrier=fence</a>).</p>\n<p>Piem., daži, kurus relatīvi nesen zīmēju:<br>\n<a href=\"https://www.openstreetmap.org/way/1122896501\">https://www.openstreetmap.org/way/1122896501</a><br>\nTe redzamie residential un industrial <a href=\"https://www.openstreetmap.org/#map=15/56.5089/27.3617&amp;layers=N\">https://www.openstreetmap.org/#map=15/56.5089/27.3617&amp;layers=N</a> .</p>\n<p>Kas netika pajautāts - noteikti nevajag savienot landuse nodes ar ceļu, taciņu utml nodēm :)</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/1122896501\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/1122896501\" title=\"Way: ‪Ziemeļu rajons‬ (‪1122896501‬) | OpenStreetMap\">Way: ‪Ziemeļu rajons‬ (‪1122896501‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/#map=15/56.5089/27.3617&amp;layers=N\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/#map=15/56.5089/27.3617&amp;layers=N\" title=\"OpenStreetMap\">OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 381241890,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1690997186
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Landuse/near/381241890\">said</a>:</p>\n<blockquote>\n<p>Atbildot uz \"Vai zīmējat pa zemes gabalu robežām?\" - es parasti zīmēju gandrīz vai lielāko, kuru var vienā gabalā.<br>\nNevajadzētu likt tam pašam ceļam barrier (piem., <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dfence\">barrier=fence</a>).</p>\n<p>O, forši piemēri, paldies :)!<br>\nPar \"<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dfence\">barrier=fence</a>\" nesapratu - nu piemēram, ja rūpniecības zonā jau ir ievilkts žogs, bet nav landuse, vai nebūtu vēlams vilkt līniju pa to pašu ceļu?</p>\n</blockquote>",
+        "id": 381261829,
+        "sender_full_name": "Liga Rutka",
+        "timestamp": 1691001582
+    },
+    {
+        "content": "<p>Te domāts vienai un tai pašai līnijai (laukumam) nelikt klāt divus tegus, piemēram <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alanduse%3Dresidential\">landuse=residential</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dfence\">barrier=fence</a>, bet atsevišķi katram taisīt objektu pa sakrītošiem punktiem tā kā tu arī apraksti vilk līniju pat to pašu ceļu.  Princips <a href=\"https://wiki.openstreetmap.org/wiki/One_feature,_one_OSM_element\">https://wiki.openstreetmap.org/wiki/One_feature,_one_OSM_element</a></p>",
+        "id": 381277289,
+        "sender_full_name": "HellMap",
+        "timestamp": 1691005348
+    }
+]

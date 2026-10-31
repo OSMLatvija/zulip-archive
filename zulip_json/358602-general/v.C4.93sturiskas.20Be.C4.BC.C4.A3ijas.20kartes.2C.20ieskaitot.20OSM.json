@@ -1,0 +1,56 @@
+[
+    {
+        "content": "<p>Foršs Beļģijas OSM projekts - dažādas vēsturiskas kartes, ieskaitot 2019/2020/2022 OSM.<br>\n<a href=\"https://historical.osm.be\">https://historical.osm.be</a></p>",
+        "id": 439453592,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716139783
+    },
+    {
+        "content": "<p>Latvijā laikam sarežģīti būtu. A kādas ir autortiesības Padomju kartēm? It kā tur nav nekādu izņēmumu?</p>",
+        "id": 439453693,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716139884
+    },
+    {
+        "content": "<p>Oi, to gan nezinu. Loģiski jau būtu, ja būtu PD.</p>",
+        "id": 439453797,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716139976
+    },
+    {
+        "content": "<p>Loģiski un autortiesības Latvijā vienā teikumā reti <span aria-label=\"pensive\" class=\"emoji emoji-1f614\" role=\"img\" title=\"pensive\">:pensive:</span></p>",
+        "id": 439453897,
+        "sender_full_name": "HellMap",
+        "timestamp": 1716140059
+    },
+    {
+        "content": "<p><a href=\"https://vesture.dodies.lv/\">https://vesture.dodies.lv/</a><br>\n<a href=\"https://kartes.lndb.lv/\">https://kartes.lndb.lv/</a> (šobrīd gan izskatās ka LNDB serveri nobeigušies)</p>",
+        "id": 439456474,
+        "sender_full_name": "Colby",
+        "timestamp": 1716142351
+    },
+    {
+        "content": "<p>Mhm, Beļģiem tāds bonuss, ka tas kopienas uzturēts - mazāki pazušanas riski.<br>\nUn ir vēsturiskie OSM slāņi :)</p>",
+        "id": 439461673,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1716147570
+    },
+    {
+        "content": "<p>LNB SSL sertifikāts izskatās beidzies, diezgan tipiska problēma, ja uzturētājs ir no malas. Lapu atvērt gan tas netraucē, tikai vairāk jāpaspaida.</p>",
+        "id": 439497735,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1716181609
+    },
+    {
+        "content": "<p>SSL sertifikāts nav beidzies, tas vēl derīgs līdz jūlijam, bet domēns neatbilst. Sertifikāts ir derīgs tikai *.lnb.lv, ne <a href=\"http://lndb.lv\">lndb.lv</a>.</p>\n<p><a href=\"https://kartes.lnb.lv/\">kartes.lnb.lv</a> strādā pareizi.</p>",
+        "id": 439498289,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1716181880
+    },
+    {
+        "content": "<p>Skaidrs, uz telefona nevarēju sīkāk apskatīties, pieņēmu, ka izplatītākā problēma.</p>",
+        "id": 439500582,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1716182986
+    }
+]

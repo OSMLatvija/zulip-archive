@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>A kas ir \"Message retention period\", kad skatās stream sarakstu? \"Available on Zulip Cloud Standard. Upgrade or request sponsorship to access.\" Tas ko nozīmē, ka messagi nesaglabājas?</p>",
+        "id": 359432164,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684424797
+    },
+    {
+        "content": "<p><a href=\"https://osmlatvija.zulipchat.com/help/message-retention-policy\">https://osmlatvija.zulipchat.com/help/message-retention-policy</a><br>\nTas nosaka, cik ilgi glabāt messages. Mums visur ir \"forever\", t.i. messages nekad nedzēšas ārā.</p>",
+        "id": 359462490,
+        "sender_full_name": "i-ky",
+        "timestamp": 1684432599
+    },
+    {
+        "content": "<p>Hmm, skaidrs. Laikam to message viņam nevajadzēja rakstīt tad.</p>",
+        "id": 359463831,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684432966
+    },
+    {
+        "content": "<p>Par \"Available on ...\" viss ir pareizi. Mēs nevaram to \"forever\" nomainīt ar mūsu bezmaksas cloud-hosted Zulip'u. Milzīgiem community tas varētu būt problēma, ja pārāk daudz messagi jāglabā. Disk space, search performance, etc.</p>",
+        "id": 359464397,
+        "sender_full_name": "i-ky",
+        "timestamp": 1684433152
+    },
+    {
+        "content": "<p>Ā, tu gribi teikt, ka tev arī tas ir nenomaināms?</p>",
+        "id": 359464641,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684433215
+    },
+    {
+        "content": "<p>Jā</p>",
+        "id": 359464766,
+        "sender_full_name": "i-ky",
+        "timestamp": 1684433248
+    }
+]
