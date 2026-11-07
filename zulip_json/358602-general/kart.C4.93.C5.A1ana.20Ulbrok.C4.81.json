@@ -1,0 +1,272 @@
+[
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"571825\">@HellMap</span>, biš izpētīju Ulbrokā un šo vietu papildināju.<br>\nTur noteikti kaut kas ir vēl neprecīzi, bet šķiet puslīdz OK tagad.<br>\n<a href=\"https://www.openstreetmap.org/#map=21/56.9426737/24.2837912\">https://www.openstreetmap.org/#map=21/56.9426737/24.2837912</a></p>\n<p>BTW, to ēku es sākumā noīsināju līdz ortofoto redzamajam, pēc tam atjaunoju - un pieliku \"note\", ka ir jauna piebūve :)</p>",
+        "id": 315981772,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671093234
+    },
+    {
+        "content": "<p>Pabīdīju ceļu <a href=\"https://www.openstreetmap.org/changeset/130108831\">https://www.openstreetmap.org/changeset/130108831</a></p>",
+        "id": 316006423,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671100939
+    },
+    {
+        "content": "<p><a href=\"https://www.openstreetmap.org/changeset/130093356\">https://www.openstreetmap.org/changeset/130093356</a> - ne visai saprotu, kas te bija/ir fixed? Es redzu, ka tu atvienoji no parking lot wayus. Es vienmēr ceļus/ietves pievienoju parking lot, jo tas ir principā pa visu teritoriju routable.</p>",
+        "id": 316008321,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671101532
+    },
+    {
+        "content": "<p>Ā, bija tik tālu?<br>\nEs it kā ieliku kaut kur pa vidu  esošajam un tam īsajam. Gan jau ar vairāk GPX treisiem un jaunākiem ortofoto pielīdzināsim :)<br>\nPēc kā Tu nosaki vietu tam ceļam?</p>\n<p>Bet tad varbūt no vecā ceļa tuvāk ēkām kaut kas kādā galā vēl palicis...</p>",
+        "id": 316126273,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671133784
+    },
+    {
+        "content": "<p>Pie amenity=parking nekad nevajadzētu pievienot routable ceļus, jo amenity=parking nav \"freely routable area\" - tas var iekļaut ēkas, zālāju, dažādus norobežojumus utt.<br>\nDomāju, ka neviens maršrutētājs tā arī nedara/nedarīs, pat ja māk highway=* + area=yes.</p>",
+        "id": 316126636,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671133886
+    },
+    {
+        "content": "<p>Es pēc sava Mapillary. Tas ceļš tur tieši pirms, kur sākās zāle trīsstūris un dotiet ceļu zīme. Bet nu cik precīzi zāle un zīme bez ortofoto grūti... Es arī domāju, ka tuvāk palicis un ka tur 2 ceļi, bet tu nodzēsi to otru un es tā sapratu, ka tur tikai viens tagad.</p>",
+        "id": 316126799,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671133924
+    },
+    {
+        "content": "<p>Kaut kur wiki ir aprakstīts par nepievienošanu parking lot? Es vienmēr to esmu darījis un pārsvarā redzējis jau tā sazīmētus. Kā citādi routeris (teorētiski) zinās, ka tu esi iebraucis parking lot robežā?</p>",
+        "id": 316127047,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671134005
+    },
+    {
+        "content": "<p>(piemēram, Latvijā tie paši noteikumi par stāvvietu teritorijām zem P zīmes.)</p>",
+        "id": 316127338,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671134086
+    },
+    {
+        "content": "<p>Un vēl teiksim, bieši es mikrokartēju kerb un citādas lietas - bet tur parking robeža sakrīt ar kerb un kerb krustojumu footway'am -- tur būs savienots, jo citādi es pat nezinu kā.</p>",
+        "id": 316127995,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671134263
+    },
+    {
+        "content": "<p>Piemēram <a href=\"https://www.openstreetmap.org/node/10247007368/history\">https://www.openstreetmap.org/node/10247007368/history</a> (nav perfekts piemērs, bet es vairs neatceros visus, kur tādi ir)</p>",
+        "id": 316128208,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671134325
+    },
+    {
+        "content": "<p><a href=\"https://www.openstreetmap.org/node/3911289909/history\">https://www.openstreetmap.org/node/3911289909/history</a> šeit pilns, plus vēl vārti</p>",
+        "id": 316128385,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671134382
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/kart.C4.93.C5.A1ana.20Ulbrok.C4.81/near/316126799\">said</a>:</p>\n<blockquote>\n<p>Es pēc sava Mapillary. Tas ceļš tur tieši pirms, kur sākās zāle trīsstūris un dotiet ceļu zīme. Bet nu cik precīzi zāle un zīme bez ortofoto grūti... Es arī domāju, ka tuvāk palicis un ka tur 2 ceļi, bet tu nodzēsi to otru un es tā sapratu, ka tur tikai viens tagad.</p>\n</blockquote>\n<p>Jā nu, mans Mapillary sequence rāda tuvāk ēkām, bet GPS nobīde arī ļoti iespējama. Kaut kad uploadošu arī GPS treisu, varbūt vēl kādu reizi izbraukšu, tad jau varēsim precīzāk piedzīt :)<br>\nIzskatās, ka vecā ceļa vietā tikai parkings, bet tas jaunais varētu būt ar nelielu līkumu. To gan zem sniega grūti saprast.<br>\n<a href=\"https://www.mapillary.com/app/?pKey=1184287212197989\">https://www.mapillary.com/app/?pKey=1184287212197989</a></p>",
+        "id": 316128767,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671134499
+    },
+    {
+        "content": "<p>Tavs vēl nebija publisks, kad skatījos šorīt; tad vēlāk jāskatās</p>",
+        "id": 316128949,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671134548
+    },
+    {
+        "content": "<p>(Un Mapillary really vajag tagus sequenciem - car, bike, snow, dark... Dažreiz ataisu ceļu un priecājos - 5 sequenci. A tur viens sniegā, vins naktī, viens lietū, viens 90* pagriezts un viens 100 metrus tālāk pa tuneli :D)</p>",
+        "id": 316129104,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671134602
+    },
+    {
+        "content": "<p>No tava sequence arī pateikt nevaru precīzi, jo nevar redzēt kreiso pusi, kur zāle/ietve. Bet izskatās, pirms koka labajā pusē, kurš pirms ambulances parkinga.</p>",
+        "id": 316129933,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671134848
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/kart.C4.93.C5.A1ana.20Ulbrok.C4.81/near/316127047\">said</a>:</p>\n<blockquote>\n<p>Kaut kur wiki ir aprakstīts par nepievienošanu parking lot? Es vienmēr to esmu darījis un pārsvarā redzējis jau tā sazīmētus. Kā citādi routeris (teorētiski) zinās, ka tu esi iebraucis parking lot robežā?</p>\n</blockquote>\n<p>Opā, pat esam dokumentējuši to, par ko kaut kad sen vienojāmies :)<br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Lv:Latvian_tagging_guidelines#Visp%C4%81r%C4%ABgi_noteikumi\">https://wiki.openstreetmap.org/wiki/Lv:Latvian_tagging_guidelines#Visp%C4%81r%C4%ABgi_noteikumi</a></p>\n<p>\"Reģionus/poligonus (area) un ceļus (highway=*) nodalām - tiem neliekam kopīgus punktus (nodes). Tas attiecas uz landuse, amenity=parking un visiem citiem poligoniem, kuri nav kāds no ceļu tipiem.\"</p>\n<p>Rūteris var skatīties intersection ar amenity=parking, ja kāds to gribētu darīt - uz kopīgām nodēm neviens noteikti nepaļautos.</p>",
+        "id": 316130241,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671134946
+    },
+    {
+        "content": "<p>A kā routeris zinās, ka tas vienā līmenī?</p>",
+        "id": 316130421,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671135005
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/kart.C4.93.C5.A1ana.20Ulbrok.C4.81/near/316127995\">said</a>:</p>\n<blockquote>\n<p>Un vēl teiksim, bieši es mikrokartēju kerb un citādas lietas - bet tur parking robeža sakrīt ar kerb un kerb krustojumu footway'am -- tur būs savienots, jo citādi es pat nezinu kā.</p>\n</blockquote>\n<p>Domāju, ka tad vienkārši zīmējam parking kā nesavienotu ceļu. To ir arī daudz vieglāk pēc tam papildināt, ja nu pēkšņi kaut kas mainās celiņu konfigurācijā vai kā citādi. Ja tie ceļi ir savienoti, rediģēšana kļūst daudz piņķerīgāka.<br>\nŠķiet, par amenity=parking var domāt līdzīgi kā par landuse.</p>",
+        "id": 316130513,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671135043
+    },
+    {
+        "content": "<p>Hmmmmmm.</p>",
+        "id": 316130740,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671135125
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/kart.C4.93.C5.A1ana.20Ulbrok.C4.81/near/316128208\">said</a>:</p>\n<blockquote>\n<p>Piemēram <a href=\"https://www.openstreetmap.org/node/10247007368/history\">https://www.openstreetmap.org/node/10247007368/history</a> (nav perfekts piemērs, bet es vairs neatceros visus, kur tādi ir)</p>\n</blockquote>\n<p>Jā, es noteikti liktu ļoti vienkāršu area parkingam, kas ne ar ko citu nav savienots. Varbūt iekļautu to velo parkinga stūri, nez.<br>\nPar šo desiņu gan mazliet šaubos :D<br>\n<a href=\"/user_uploads/49624/6dtYX8hw1frB_b6btFU7Rdb_/image.png\">desa var sildīt</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/6dtYX8hw1frB_b6btFU7Rdb_/image.png\" title=\"desa var sildīt\"><img src=\"/user_uploads/49624/6dtYX8hw1frB_b6btFU7Rdb_/image.png\"></a></div>",
+        "id": 316130794,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671135151
+    },
+    {
+        "content": "<p>Nu tajā vietā nav blakus parking space... viss manuprāt precīzi ;) Ko es varu darīt, ja renderis desas zīmē.</p>",
+        "id": 316130974,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671135230
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/kart.C4.93.C5.A1ana.20Ulbrok.C4.81/near/316129104\">said</a>:</p>\n<blockquote>\n<p>(Un Mapillary really vajag tagus sequenciem - car, bike, snow, dark... Dažreiz ataisu ceļu un priecājos - 5 sequenci. A tur viens sniegā, vins naktī, viens lietū, viens 90* pagriezts un viens 100 metrus tālāk pa tuneli :D)</p>\n</blockquote>\n<p>Haha, o jā. Viņiem vienbrīd bija tas \"quality score\", bet pazuda.<br>\nVar jau būt, ka kaut kad ieviesīs arī tādus vispārējus tagus, līdzīgi kā tagad var filtrēt pa ceļazīmēm.<br>\nBet varbūt tā būs maksas fīča, hvz :)</p>",
+        "id": 316131001,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671135243
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/kart.C4.93.C5.A1ana.20Ulbrok.C4.81/near/316129933\">said</a>:</p>\n<blockquote>\n<p>No tava sequence arī pateikt nevaru precīzi, jo nevar redzēt kreiso pusi, kur zāle/ietve. Bet izskatās, pirms koka labajā pusē, kurš pirms ambulances parkinga.</p>\n</blockquote>\n<p>Jā, noteikti pirms koka, tas gals šķiet pareizs. Bet nu, te jau perfekcionisms runā - domāju, ka šis ir ļoti atbilstoši šībrīža situācijai.<br>\nĪpaši pēc tam, kad es salaboju to ēku, kurai biju paspējis nonest jauno piebūvi =)</p>",
+        "id": 316131247,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671135310
+    },
+    {
+        "content": "<p>Bet par parking, piemēram <a href=\"https://www.openstreetmap.org/way/1092480558/history\">https://www.openstreetmap.org/way/1092480558/history</a> - kur tad īsti tas parking būs, ja ne līdz kerb robežām apkārt? Kaut kā dīvaini sanāk, ja tas nekur nepievienojas nekam, kaut gan reāli deidzās pie kerbiem</p>",
+        "id": 316131270,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671135315
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/kart.C4.93.C5.A1ana.20Ulbrok.C4.81/near/316130421\">said</a>:</p>\n<blockquote>\n<p>A kā routeris zinās, ka tas vienā līmenī?</p>\n</blockquote>\n<p>layer= tags, kurš noteikti būs visur, kur vairāki līmeņi. Ja nebūs, tur tāpat būs milzu nesaprotama miskaste :)</p>",
+        "id": 316131554,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671135363
+    },
+    {
+        "content": "<p>Bet <code>layer</code> bez savienojuma neko nenozīmē - tas ir tīri virtuāls. Piemēram, ja satiekas <code>layer=-999</code> un <code>layer=666</code>, tas ir tas pats kā <code>layer=0</code> in <code>layer=1</code>.</p>",
+        "id": 316131775,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671135458
+    },
+    {
+        "content": "<p>Par parking - es it kā domu saprotu domu to darīt līdzīgi kā land use. Bet tik pat labi residential arī beidzās tur, kur sēta un tad sakrīt ar žogu un ar driveways utt. Es ne visai saprotu, kas būs tādos gadījumos. Kaut kā reāli kartē neesmu redzējis atdalītus. Es padomāšu, bet man kaut kā grūti saprast kā mikrokārtēt tādos.</p>",
+        "id": 316131899,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671135496
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/kart.C4.93.C5.A1ana.20Ulbrok.C4.81/near/316130974\">said</a>:</p>\n<blockquote>\n<p>Nu tajā vietā nav blakus parking space... viss manuprāt precīzi ;) Ko es varu darīt, ja renderis desas zīmē.</p>\n</blockquote>\n<p>Haha, jā, es mazliet relaksētāk šos zīmēju. Ja iekšā parkingā un nav paša parkinga \"backbone\", vienkārši visu lieku kā parking_aisle.<br>\nVarbūt kaut kad wikilapa šim tiks papildināta, piedāvājot nemainīt tipu ceļu posmiem zem kāda attāluma...<br>\nTehniski citādāk IKEA parkingā būtu jādala šādas desiņas starp visām starp-parkingu dubultajām līnijām =)</p>",
+        "id": 316131949,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671135514
+    },
+    {
+        "content": "<p>Tu neticēsi, es tās esmu sadalījis <span aria-label=\"rolling on the floor laughing\" class=\"emoji emoji-1f923\" role=\"img\" title=\"rolling on the floor laughing\">:rolling_on_the_floor_laughing:</span></p>",
+        "id": 316132058,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671135557
+    },
+    {
+        "content": "<p>Nu labi, ne starp dubultlīnijām, bet tur, kur nav parking vietu</p>",
+        "id": 316132126,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671135581
+    },
+    {
+        "content": "<p>Es pirmos dažus gadus OSM līdzīgi izzīmēju parkingus.<br>\nBet reāli jau parkingā kā objektā ietilpst arī tie koki gar malām, varbūt kāds hidrants utt.<br>\nŠeit es laikam uzzīmētu kaut ko ar diviem taisniem stūriem pie veikala un diviem slīpiem otrā pusē.</p>",
+        "id": 316132376,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671135656
+    },
+    {
+        "content": "<p>Piemēram, <a href=\"https://www.openstreetmap.org/way/1106897437/history\">https://www.openstreetmap.org/way/1106897437/history</a>. Bet nu pie Lidl bija viena no īsākajām desiņām laikam, ko esmu redzējis/zīmējis. Tas drīzāk izņēmums.</p>",
+        "id": 316132393,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671135662
+    },
+    {
+        "content": "<p>Daudz vienkāršāka zīmēšana, un nav jāmēģina izdomāt, vai kaut kādi soliņi, koki utt iekļaujami - 99% jau tie ir projektēti kā daļa no autostāvvietas infras.</p>",
+        "id": 316132510,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671135714
+    },
+    {
+        "content": "<p>Tu zini kaut kur reāli ir arī piemēri tā zīmēti mikrokartētām vietām? Es reāli neesmu nevienu redzējis. Parkings vienmēr iezīmēts kā asfalta līnija...</p>",
+        "id": 316132997,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671135882
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/kart.C4.93.C5.A1ana.20Ulbrok.C4.81/near/316131775\">said</a>:</p>\n<blockquote>\n<p>Bet <code>layer</code> bez savienojuma neko nenozīmē - tas ir tīri virtuāls. Piemēram, ja satiekas <code>layer=-999</code> un <code>layer=666</code>, tas ir tas pats kā <code>layer=0</code> in <code>layer=1</code>.</p>\n</blockquote>\n<p>Nesapratu, kā savienojums šo ietekmē?</p>",
+        "id": 316133018,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671135890
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/kart.C4.93.C5.A1ana.20Ulbrok.C4.81/near/316131899\">said</a>:</p>\n<blockquote>\n<p>Par parking - es it kā domu saprotu domu to darīt līdzīgi kā land use. Bet tik pat labi residential arī beidzās tur, kur sēta un tad sakrīt ar žogu un ar driveways utt. Es ne visai saprotu, kas būs tādos gadījumos. Kaut kā reāli kartē neesmu redzējis atdalītus. Es padomāšu, bet man kaut kā grūti saprast kā mikrokārtēt tādos.</p>\n</blockquote>\n<p>Ļoti bieži nē - starp sētu un ceļu mēdz būt zāle, grāvis utt. Un tas viss joprojām ir residential landuse.<br>\nNesavienotus landuse arī ir apmēram 13 reižu vieglāk rediģēt - ja ir gara sēta vai siena, tur pa vidu serviceways/footways... ja residential dabū visas tās nodes, es mēdzu atstāt biš miskasti, jo slinkums to visu atvienot, lai pārbīdītu par dažiem metriem smukākai kartei :)</p>\n<p>Šādu iemeslu dēļ es priekšroku dodu max lieliem residential landuse, piem., <a href=\"https://www.openstreetmap.org/way/538355040#map=15/57.0711/24.3353&amp;layers=N\">https://www.openstreetmap.org/way/538355040#map=15/57.0711/24.3353&amp;layers=N</a> .<br>\nTur vēl varētu dalīt gar Rīgas gatvi kā nozīmīgu ceļu, bet sīkāk dalīt gan būtu lieks čakars un datu sarežģītība.<br>\nPietiek jau mikrokartēšanai reālu detaļu, lai tur vēl simtiem landuse nodes pa vidu mestu :)</p>",
+        "id": 316133641,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671136119
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/kart.C4.93.C5.A1ana.20Ulbrok.C4.81/near/316132393\">said</a>:</p>\n<blockquote>\n<p>Piemēram, <a href=\"https://www.openstreetmap.org/way/1106897437/history\">https://www.openstreetmap.org/way/1106897437/history</a>. Bet nu pie Lidl bija viena no īsākajām desiņām laikam, ko esmu redzējis/zīmējis. Tas drīzāk izņēmums.</p>\n</blockquote>\n<p>Hhjā, ja wiki jau nav, es laikam balsotu par \"parking_aisle saglabājas, ja posms īsāks par 20m\" vai taml.<br>\nPatiesībā, no topoloģijas viedokļa, nevajadzētu būt tā, ka ir highway=service, kuram apkārt ir tikai parking_aisle. Tam vajadzētu pievienoties kādam citam tādas pašas vai augstākas klasifikācijas ceļam.<br>\nJa ievēro tādu principu, automātiski atrisinās desiņas.</p>",
+        "id": 316134099,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671136269
+    },
+    {
+        "content": "<p>Man grūti par to layer jēdzīgu piemēru, es drīzāk domāju, kā no programēšanas tādus sameklēt. Piemēram ja satiekās layer 1 ar layer 0: <a href=\"/user_uploads/49624/ifE11nzjmwjPAtkI3RXxJzy_/image.png\">image.png</a> Tad tam sarkanajam punktam jābūt PRECĪZI uz līnijas koordinātes lai routeri/rendereri zinātu, ka tas domāts vienā punktā. Un tikko nobīde par kaut kādu pieļaujamo kļūdu - tad uzreiz nesakrīt</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/ifE11nzjmwjPAtkI3RXxJzy_/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/ifE11nzjmwjPAtkI3RXxJzy_/image.png\"></a></div>",
+        "id": 316134641,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671136446
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/kart.C4.93.C5.A1ana.20Ulbrok.C4.81/near/316132997\">said</a>:</p>\n<blockquote>\n<p>Tu zini kaut kur reāli ir arī piemēri tā zīmēti mikrokartētām vietām? Es reāli neesmu nevienu redzējis. Parkings vienmēr iezīmēts kā asfalta līnija...</p>\n</blockquote>\n<p>Esmu redzējis un dažus pats zīmējis, bet tas bija pasen, tagad vairs neatradīšu.<br>\namenity=parking bija plašāks un asfalts bija izzīmēts ar vienu no tiem highway-service-area tagiem.<br>\nKas arī ir daudz pareizāk, jo amenity=parking nav routable visos virzienos.<br>\nJa būtu, pat šajā piemērā būtu jāņem ārā tā vidusjosla no amenity=parking, tur taču nevar teleportēties cauri kokiem...<br>\n<a href=\"https://www.openstreetmap.org/way/1092480558\">https://www.openstreetmap.org/way/1092480558</a></p>",
+        "id": 316134712,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671136474
+    },
+    {
+        "content": "<p>Jā, routable tas laikam nebūs. Jāzīmē highway area... Bet man tik un tā jautājums kāpēc robeža nesakristu ar zāli/kerb</p>",
+        "id": 316135144,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671136605
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/kart.C4.93.C5.A1ana.20Ulbrok.C4.81/near/316134641\">said</a>:</p>\n<blockquote>\n<p>Man grūti par to layer jēdzīgu piemēru, es drīzāk domāju, kā no programēšanas tādus sameklēt. Piemēram ja satiekās layer 1 ar layer 0: <a href=\"/user_uploads/49624/ifE11nzjmwjPAtkI3RXxJzy_/image.png\">image.png</a> Tad tam sarkanajam punktam jābūt PRECĪZI uz līnijas koordinātes lai routeri/rendereri zinātu, ka tas domāts vienā punktā. Un tikko nobīde par kaut kādu pieļaujamo kļūdu - tad uzreiz nesakrīt</p>\n</blockquote>\n<p>Varbūt var vienkāršāk. Kur ir intersection ceļam un area ar tagiem layer=1, tos uzskata par pārklājošiem.<br>\nTad ir pilnīgi vienalga, kur ir sarkanais punkts.</p>",
+        "id": 316135191,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671136620
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/kart.C4.93.C5.A1ana.20Ulbrok.C4.81/near/316135144\">said</a>:</p>\n<blockquote>\n<p>Jā, routable tas laikam nebūs. Jāzīmē highway area... Bet man tik un tā jautājums kāpēc robeža nesakristu ar zāli/kerb</p>\n</blockquote>\n<p>Parasti \"auto stāvvieta\" ietver arī objektus tajā un apkārt, un īsti nebeidzas līdz ar apmales akmeni.</p>",
+        "id": 316135674,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671136771
+    },
+    {
+        "content": "<p>Haha, nu te triviāls piemērs. Tād tā: <a href=\"/user_uploads/49624/t8LZtVhExRitwh4GK-IxywWj/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/t8LZtVhExRitwh4GK-IxywWj/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/t8LZtVhExRitwh4GK-IxywWj/image.png\"></a></div>",
+        "id": 316135707,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671136783
+    },
+    {
+        "content": "<p>Labi, es nākotnē padomāšu, kad zīmēšu parking. Man reti to sanāk pirmajam zīmēt un parasti jau iezīmēts pievienots zālei un laikam ap 50% gadījumos ceļiem.</p>",
+        "id": 316136420,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671137010
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/kart.C4.93.C5.A1ana.20Ulbrok.C4.81/near/316135707\">said</a>:</p>\n<blockquote>\n<p>Haha, nu te triviāls piemērs. Tād tā: <a href=\"/user_uploads/49624/t8LZtVhExRitwh4GK-IxywWj/image.png\">image.png</a></p>\n</blockquote>\n<p>Esmu nezinātniski novērojis, ka svaigāki kartētāji biežāk savieno (bet tas ir diezgan randomīgi arī viena parkinga ietvaros), \"senāki\" parasti nesavieno :)</p>",
+        "id": 316137327,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671137311
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>By the way, you mentioned you were using OsmAnd with CycleOSM layer, but that's a raster layer isn't it? I haven't really looked through everything recently, but OsmAnd didn't have a cycle-dedicated rendering with vector stuff. And for mapping I find that I need more stuff than raster can show/zoom.</p>",
+        "id": 621105990,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788371713
+    },
+    {
+        "content": "<p>Yes and yes.<br>\nBut I use two profiles (selector in the top left corner, don't know exact name): raster cycleosm one for bicycle navigation during leisure trips for on longer distances, and usual vector one on shorter trips dedicated to OSM.<br>\nIt's probably not the most \"effective\" setup, but it's what works for me.</p>",
+        "id": 621107946,
+        "sender_full_name": "markalex",
+        "timestamp": 1788372075
+    },
+    {
+        "content": "<p>Yeah, I have the same, but even switching that becomes a chore over long distances when all I want is to quickly compare map to reality and leave a note. Oh well, may be some day.</p>",
+        "id": 621109194,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788372301
+    },
+    {
+        "content": "<p>I also frequently encounter some strange situation when switching back from cycle profile to OSM one causes latter to not show anything except for notes.</p>",
+        "id": 621109663,
+        "sender_full_name": "markalex",
+        "timestamp": 1788372390
+    },
+    {
+        "content": "<p>I've also played around with some cycling styles. I don't recall what I did exactly, or where I get it, but i basically showed cycling profile closer to what OpenCycleMap shows. <br>\nDidn't love it, since there were less important cycling-specific details than on cycleOSM, but might be a reasonable compromise for you, since you note a lot on the way.</p>",
+        "id": 621111029,
+        "sender_full_name": "markalex",
+        "timestamp": 1788372660
+    },
+    {
+        "content": "<p>I only know that you can enable cycle routes, which makes everything a noisy mess. I haven't tried any existing custom cycle styles.</p>",
+        "id": 621111741,
+        "sender_full_name": "HellMap",
+        "timestamp": 1788372806
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"571825\">@HellMap</span> , Style in OsmAND I used is this one: <a href=\"https://osmand-rendering.github.io/CycloRoute/index_EN.html\">https://osmand-rendering.github.io/CycloRoute/index_EN.html</a><br>\nHad to do some searching, including installing osmand on a fresh phone, to find what it was =)<br>\nAnd I might give it a second try, after seeing how snappy it is compared to cycleosm tiles.<br>\nAlso, maybe let's extract this into a separate thread?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://osmand-rendering.github.io/CycloRoute/index_EN.html\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/f51a5944e73c46c17fe7f730f62bfca44b85960a/68747470733a2f2f6f736d616e642d72656e646572696e672e6769746875622e696f2f696d6167652f6c6f676f5f4f736d416e642d52656e646572696e672d4f472e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://osmand-rendering.github.io/CycloRoute/index_EN.html\" title=\"CycloRoute\">CycloRoute</a></div><div class=\"message_embed_description\">Style for cycling and touring. Designed for and by OsmAnd users</div></div></div>",
+        "id": 621123745,
+        "sender_full_name": "markalex",
+        "timestamp": 1788375307
+    },
+    {
+        "content": "<p>8 messages were moved here from <a class=\"stream-topic\" data-stream-id=\"360539\" href=\"/#narrow/channel/360539-veloinfrastrukt.C5.ABra/topic/Elizabetes.20ielas.20velo/with/621104887\">#veloinfrastruktūra &gt; Elizabetes ielas velo</a> by <span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span>.</p>",
+        "id": 621126004,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1788375755
+    },
+    {
+        "content": "<p>I reinstalled this style on clean osmand, and will give it a try.<br>\nI kinda miss surface encoding of cycleOSM, but it's more important for me on prep stage, which I usually do on computer anyway, than on the go.</p>",
+        "id": 621298437,
+        "sender_full_name": "markalex",
+        "timestamp": 1788424458
+    },
+    {
+        "content": "<p>Also, interesting thing: it works significantly better in cycle profile, than in general one. Not sure if it's order of object rendering or what, but I thing to keep in mind if you try.</p>",
+        "id": 621299335,
+        "sender_full_name": "markalex",
+        "timestamp": 1788424654
+    }
+]

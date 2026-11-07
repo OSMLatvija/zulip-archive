@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Uzrakstīju šo vadoties pēc esošiem OSM tegiem un piemērojot tos LV situācijai <a href=\"https://wiki.openstreetmap.org/wiki/Lv:Latvian_tagging_guidelines#G%C4%81j%C4%93ji_uz_ce%C4%BCiem\">https://wiki.openstreetmap.org/wiki/Lv:Latvian_tagging_guidelines#G%C4%81j%C4%93ji_uz_ce%C4%BCiem</a></p>",
+        "id": 486985609,
+        "sender_full_name": "HellMap",
+        "timestamp": 1733748259
+    },
+    {
+        "content": "<p>Esmu sastapies vairākas reizes ar <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afoot%3Dno\">foot=no</a> likšanu uz ceļiem, kur nav aizliegumu, kas tad arī ietekmētu navigāciju un citas lietas. Par īpašiem izņēmumiem nerunājot, vispārīgā situācijā, to pēc OSM principiem nekur nevajadzētu likt. Tieši otrādi - gandrīz visur, kur nav infrastrutūras, ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afoot%3Dyes\">foot=yes</a>, lai cik dīvaini tas pirmajā brīdī neliktos, ja nav izstudēta <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aaccess\">access=*</a> nozīme.</p>",
+        "id": 486986201,
+        "sender_full_name": "HellMap",
+        "timestamp": 1733748440
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afoot%3Ddiscouraged\">foot=discouraged</a>, vai ne :)</p>",
+        "id": 487098684,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1733778303
+    },
+    {
+        "content": "<p>Es uz to skatījos, jā, bet tas nav pēc OSM principiem, jo tas ir <em>officially</em> dicouraged nevis subjektīvi. Tad būtu jābūt zīmei \"bīstami\" vai kaut kas tāds. To var izņēmumiem kaut kādiem pa vienam konkrēti skatoties, bet ja runa ir par visiem ceļiem, tad tomēr tā nevarētu. Es nesteigtos taisīt Latvijā izņēmumus. Daudzās valstīs noteikumi ir līdzīgi, ka *=use_sidepath , ja ir. Mums vienkārši kartētāju nav tik daudz, lai līdz tam tiktu.</p>",
+        "id": 487099640,
+        "sender_full_name": "HellMap",
+        "timestamp": 1733778630
+    },
+    {
+        "content": "<p>Jā, un to jau daudzi maršrutētāji tāpat neņemtu vērā.</p>",
+        "id": 487101355,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1733779193
+    }
+]

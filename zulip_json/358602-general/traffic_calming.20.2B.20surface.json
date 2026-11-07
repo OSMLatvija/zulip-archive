@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Key%3Asurface\">surface=*</a> ir norādīts kā _Useful combination_ tikai priekš <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Atraffic_calming%3Dtable\">traffic_calming=table</a>. Un es vēl varētu saprast <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Asurface\">surface=*</a> uz <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Atraffic_calming%3Dhump\">traffic_calming=hump</a>, bet uz <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Atraffic_calming%3Dbump\">traffic_calming=bump</a> tas šķiet lieks.</p>\n<div class=\"codehilite\" data-code-language=\"overpass\"><pre><span></span><code>[out:json][timeout:25];\n{{geocodeArea:Latvia}}-&gt;.searchArea;\nnwr[traffic_calming][!highway][traffic_calming!=table][surface](area.searchArea);\nout geom;\n</code></pre></div>",
+        "id": 393915344,
+        "sender_full_name": "i-ky",
+        "timestamp": 1695988035
+    },
+    {
+        "content": "<p>Šķiet OK, jo var nošķirt uzskrūvētās plastmasas, asfalta vaļņus utt.<br>\nAlternatīva būtu material, bet diez vai vērts pēkšņi taisīt citādāk vienam tipam.</p>",
+        "id": 393937061,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1695996143
+    },
+    {
+        "content": "<p>Jā, bump daudz biežāk nesakrīt ar ceļa segumu (salīdzinot ar piemēram hump) - platsmasgumija, metāls, betons. Te drīzāk wiki neviens nav norādījis.</p>",
+        "id": 393946049,
+        "sender_full_name": "HellMap",
+        "timestamp": 1695998954
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/traffic_calming.20.2B.20surface/near/393937061\">said</a>:</p>\n<blockquote>\n<p>Šķiet OK, jo var nošķirt uzskrūvētās plastmasas, asfalta vaļņus utt.</p>\n</blockquote>\n<p>Vai ir zināms, kas un kā šo informāciju lieto?</p>",
+        "id": 393980990,
+        "sender_full_name": "i-ky",
+        "timestamp": 1696010735
+    },
+    {
+        "content": "<p>Nē, šobrīd nenāk prātā - ko mēs varētu no tā noskaidrot?</p>",
+        "id": 394213122,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1696167970
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/traffic_calming.20.2B.20surface/near/394213122\">said</a>:</p>\n<blockquote>\n<p>Nē, šobrīd nenāk prātā - ko mēs varētu no tā noskaidrot?</p>\n</blockquote>\n<p>Man būtu motivācija likt <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Asurface\">surface=*</a> uz <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Atraffic_calming\">traffic_calming=*</a>. Pašlaik nav.</p>",
+        "id": 394232836,
+        "sender_full_name": "i-ky",
+        "timestamp": 1696177404
+    },
+    {
+        "content": "<p>Iedomājos, ka satiksmes mierināšanas aktīvistiem varētu būt interesantas vizualizācijas, tādējādi nosakot populārākās metodes, ģeogrāfisko izplatību. Varētu arī vieglāk saprast, vai kaut kur nav nelegālie vaļņi salikti :)<br>\nBet laikam jau kā ar visu OSM, sanāk zīmēt to, kas šķiet interesants.</p>",
+        "id": 394243562,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1696183013
+    }
+]

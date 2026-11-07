@@ -1,0 +1,74 @@
+[
+    {
+        "content": "<p>So, let me put here info I found and some progress, because I'm not sure I'll be able to act on it.</p>\n<h3>URL</h3>\n<p><code>https://mans.pasts.lv/api/public/addresses/service_location?type[]=6&amp;type[]=1&amp;type[]=2&amp;country[]=LV&amp;search=&amp;itemsPerPage=10000&amp;page=1</code> is \"curlable\", so we can fetch and use this data.<br>\nWithout filtration data also has locations at LT and EE, but filtration by countries can be done in the URL (already in the example url above)</p>\n<h3>Types</h3>\n<p>7 - UniSend<br>\n6 - Latvija Pasts parcel locker<br>\n2 - post box<br>\n1 - post office<br>\nDon't know (didn't look) what 3-5 mean or if they exist.</p>\n<h3>Data</h3>\n<p>Example of data</p>\n<div class=\"codehilite\" data-code-language=\"JSON\"><pre><span></span><code><span class=\"w\">    </span><span class=\"p\">{</span>\n<span class=\"w\">      </span><span class=\"nt\">\"@id\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"/api/addresses/service_location/3122\"</span><span class=\"p\">,</span>\n<span class=\"w\">      </span><span class=\"nt\">\"@type\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"ServiceLocation\"</span><span class=\"p\">,</span>\n<span class=\"w\">      </span><span class=\"nt\">\"id\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"3122\"</span><span class=\"p\">,</span>\n<span class=\"w\">      </span><span class=\"nt\">\"type\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"mi\">2</span><span class=\"p\">,</span>\n<span class=\"w\">      </span><span class=\"nt\">\"countryCode\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"LV\"</span><span class=\"p\">,</span>\n<span class=\"w\">      </span><span class=\"nt\">\"postCode\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"LV-1055\"</span><span class=\"p\">,</span>\n<span class=\"w\">      </span><span class=\"nt\">\"readableAddress\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"Cementa iela 12, Rīga, LV-1055\"</span><span class=\"p\">,</span>\n<span class=\"w\">      </span><span class=\"nt\">\"label\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"Iļģuciema pasta nodaļa\"</span><span class=\"p\">,</span>\n<span class=\"w\">      </span><span class=\"nt\">\"latitude\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"mf\">56.969091258159</span><span class=\"p\">,</span>\n<span class=\"w\">      </span><span class=\"nt\">\"longitude\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"mf\">24.061597193063</span><span class=\"p\">,</span>\n<span class=\"w\">      </span><span class=\"nt\">\"workingHours\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"p\">{</span>\n<span class=\"w\">        </span><span class=\"nt\">\"@type\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"WorkingHours\"</span><span class=\"p\">,</span>\n<span class=\"w\">        </span><span class=\"nt\">\"monday\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"09:00-18:00\"</span><span class=\"p\">,</span>\n<span class=\"w\">        </span><span class=\"nt\">\"tuesday\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"09:00-18:00\"</span><span class=\"p\">,</span>\n<span class=\"w\">        </span><span class=\"nt\">\"wednesday\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"09:00-18:00\"</span><span class=\"p\">,</span>\n<span class=\"w\">        </span><span class=\"nt\">\"thursday\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"09:00-18:00\"</span><span class=\"p\">,</span>\n<span class=\"w\">        </span><span class=\"nt\">\"friday\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"09:00-18:00\"</span><span class=\"p\">,</span>\n<span class=\"w\">        </span><span class=\"nt\">\"saturday\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"-\"</span><span class=\"p\">,</span>\n<span class=\"w\">        </span><span class=\"nt\">\"sunday\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"-\"</span>\n<span class=\"w\">      </span><span class=\"p\">},</span>\n<span class=\"w\">      </span><span class=\"nt\">\"workingHoursCombined\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"p\">[],</span>\n<span class=\"w\">      </span><span class=\"nt\">\"outside\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"kc\">false</span><span class=\"p\">,</span>\n<span class=\"w\">      </span><span class=\"nt\">\"status\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"mi\">1</span><span class=\"p\">,</span>\n<span class=\"w\">      </span><span class=\"nt\">\"info\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"\"</span><span class=\"p\">,</span>\n<span class=\"w\">      </span><span class=\"nt\">\"locationPostCode\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"LV-1055\"</span><span class=\"p\">,</span>\n<span class=\"w\">      </span><span class=\"nt\">\"officeFcd\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"LV1055\"</span>\n<span class=\"w\">    </span><span class=\"p\">}</span>\n</code></pre></div>",
+        "id": 574902154,
+        "sender_full_name": "markalex",
+        "timestamp": 1771581152
+    },
+    {
+        "content": "<p>I guess everything what was implemented in Osmalyzer before can be updated, and also a bunch more (for example stuff like inside flag)</p>",
+        "id": 574902341,
+        "sender_full_name": "markalex",
+        "timestamp": 1771581223
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"571825\">@HellMap</span>, I think that maybe I fixed fetching data. You can see here: <a href=\"https://github.com/OSMLatvija/Osmalyzer/compare/main...markalex2209:Osmalyzer:main\">https://github.com/OSMLatvija/Osmalyzer/compare/main...markalex2209:Osmalyzer:main</a></p>\n<p>But results for post offices and boxes look very suspicious.<br>\nI've heard that some offices were closed, but I don't think so much.<br>\nAnd boxes - it's like almost all of them are missing? Were they just replaced with lockers or something?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/OSMLatvija/Osmalyzer/compare/main...markalex2209:Osmalyzer:main\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6a1fc6f3f6600a8ff6ae919fc80cf656775f0060/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f653866643139383265636139393232343730653461373366633763663238393531616634333838303530303165303366326636616264656536653636323139332f4f534d4c617476696a612f4f736d616c797a6572&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/OSMLatvija/Osmalyzer/compare/main...markalex2209:Osmalyzer:main\" title=\"Comparing OSMLatvija:main...markalex2209:main · OSMLatvija/Osmalyzer\">Comparing OSMLatvija:main...markalex2209:main · OSMLatvija/Osmalyzer</a></div><div class=\"message_embed_description\">Parsing OSM data in Latvia against various data sources - Comparing OSMLatvija:main...markalex2209:main · OSMLatvija/Osmalyzer</div></div></div>",
+        "id": 574944668,
+        "sender_full_name": "markalex",
+        "timestamp": 1771595414
+    },
+    {
+        "content": "<p>I'll check it out</p>",
+        "id": 574958259,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771598884
+    },
+    {
+        "content": "<p>So the type values have changed from before</p>\n<div class=\"codehilite\"><pre><span></span><code>case 1: // e.g. &quot;Juglas pasta nodaļa&quot; or Klientu centrs Kauguri&quot;\ncase 2: // e.g. &quot;Iļģuciema pasta nodaļa&quot; or &quot;Klientu centrs Ziepniekkalns&quot;\n    return LatviaPostItemType.Office;\n// I have no idea what the difference between 1 and 2 is - both have offices and client centers\n// and none of the other data fields suggest any clear difference\n\ncase 6: // e.g. &quot;Rīga Biķernieku iela Rimi&quot; or &quot;Jelgava TC Valdeka&quot; or &quot;Unisend 8009 Rimi&quot;\n    return LatviaPostItemType.ParcelLocker;\n\n// 7 appear to be Unisend LT and EE parcel lockers\n// e.g. &quot;Visalaukio g. 1, Vilnius, 08428&quot; or &quot;Ehitajate tee 107, Tallinn, 13511&quot;\n\ncase 9: // e.g. &quot;Jelgava vēstuļu kastīte Nr.3007&quot; or &quot;Rīga vēstuļu kastīte Nr.5&quot;\n    return LatviaPostItemType.PostBox;\n</code></pre></div>",
+        "id": 574979496,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771604235
+    },
+    {
+        "content": "<p>Nice find!<br>\nI'm baffled that both type 1 and 2 are post offices, to be honest.<br>\nBut very glad you caught it</p>",
+        "id": 575019987,
+        "sender_full_name": "markalex",
+        "timestamp": 1771617869
+    },
+    {
+        "content": "<p>Yeah, I loaded the json into Excel to just look at the values. It's weird, I cannot determine what possible difference there is between 1 and 2. It seems completely arbitrary. Thei website doesn't have a filter for mailboxes, but you can still get them from API (although there seem to only be 160 or so, it's possible they are being dismantled slowly as few people use letters).</p>",
+        "id": 575021235,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771618479
+    },
+    {
+        "content": "<p>I don't know if I trust their data to mass-update. But also current OSM data is so out of date that even broken LP data would be better...</p>",
+        "id": 575021478,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771618587
+    },
+    {
+        "content": "<p>Only thing what can theoretically split post offices I can think right now is a boring old office versus one responsible for multiple post codes. But based on the data I don't think it's the case.</p>\n<p>Also possibly there is some kind of invisible difference, like office handles packages or not, or accepts payments or not, etc. I suspect we'll never know.</p>",
+        "id": 575022431,
+        "sender_full_name": "markalex",
+        "timestamp": 1771618995
+    },
+    {
+        "content": "<p>Regarding mail boxes - I remember we discussed a year ago that they started setting up locker with integrated mailbox. I suspect those will eventually kill mailboxes entirely.</p>",
+        "id": 575023002,
+        "sender_full_name": "markalex",
+        "timestamp": 1771619224
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Latvija.20Pasts.20data/near/575021478\">said</a>:</p>\n<blockquote>\n<p>I don't know if I trust their data to mass-update. But also current OSM data is so out of date that even broken LP data would be better...</p>\n</blockquote>\n<p>IMO, mass-update is reasonable here. Indeed too much of outdated offices and mailboxes to process them manually in any kind of time.</p>",
+        "id": 575023067,
+        "sender_full_name": "markalex",
+        "timestamp": 1771619246
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"715892\">markalex</span> <a href=\"#narrow/channel/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Latvija.20Pasts.20data/near/575022431\">said</a>:</p>\n<blockquote>\n<p>Only thing what can theoretically split post offices I can think right now is a boring old office versus one responsible for multiple post codes. But based on the data I don't think it's the case.</p>\n<p>Also possibly there is some kind of invisible difference, like office handles packages or not, or accepts payments or not, etc. I suspect we'll never know.</p>\n</blockquote>\n<p>Two years ;)<br>\n<a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/channel/358602-general/topic/Latvijas.20Pasts.20pakom.C4.81tu.20v.C4.93stu.C4.BCu.20s.C5.ABt.C4.AB.C5.A1ana/with/441784385\">#general &gt; Latvijas Pasts pakomātu vēstuļu sūtīšana</a></p>",
+        "id": 576354079,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1772228532
+    }
+]

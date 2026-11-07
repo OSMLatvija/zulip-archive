@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Hi Latvia community!<br>\nI bet some of you remember me from State of the Map Baltics last week, where I had a talk about TomTom’s cooperation with and contribution to OpenStreetMap.<br>\nAs said during the presentation (which I think will be available shortly as a recording for those who could not attend) I want to share a couple of MapRoulette challenges that can help fix map issues in your country.<br>\nYou’re welcome to try these out, and we appreciate any feedback you may have.</p>\n<p>Challenge urls:<br>\nFix building and highway intersection: <a href=\"https://maproulette.org/browse/challenges/39510\">https://maproulette.org/browse/challenges/39510</a></p>\n<p>You can find more information about each challenge in the description in MapRoulette.<br>\nOur editing team may also work on these challenges in a couple of week.</p>\n<p>If you have another topic you’d like to discuss, or other map issues you’d like us to look into, feel free to send me a personal message or contact <a href=\"mailto:osm@tomtom.com\">osm@tomtom.com</a>.</p>\n<p>Thank you!</p>\n<p>Regards,<br>\nTomasz</p>",
+        "id": 366784887,
+        "sender_full_name": "Tomasz Kozlowski",
+        "timestamp": 1686913622
+    },
+    {
+        "content": "<p>Plenty of these, most seem to be valid. Fixed a few, will take a while to clean up everything :)</p>",
+        "id": 367611830,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1687176155
+    },
+    {
+        "content": "<p>Do these actually impact routing? I understand these are mistakes. But I have often been alignign a lot of roads and every building in the area was offset (likely traced from Bing or something). Instead of moving a bunch of random buildings, I didn't touch them at all - they can all be moved at once later. But this can occasionally leave a road intersecting a building. Obviously, this is incorrect, but I go by \"something is better than nothing\" in this case. And also my time is limited. Since the building and road do not connect by any nodes - there shouldn't be an intersection that breaks routing. At least, I am unaware of any such routers that actually process elements that are overlapping but not actually connected.</p>",
+        "id": 367613201,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687176408
+    },
+    {
+        "content": "<p>No, this does not break routing, it's general map data QA.</p>",
+        "id": 367615756,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1687176837
+    },
+    {
+        "content": "<p>Hi, <br>\nthank You Rihards for clarification. Our challenges / tasks shared by us are not only related to routing itself. We are taking care about the quality issues on the map related to highway network and visualization features currently. In the future we will for sure develop something new, still it may be not related to routing.</p>\n<p>Cheers,<br>\nTomasz</p>",
+        "id": 367636192,
+        "sender_full_name": "Tomasz Kozlowski",
+        "timestamp": 1687180418
+    }
+]

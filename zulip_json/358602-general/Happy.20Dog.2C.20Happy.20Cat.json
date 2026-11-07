@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>Šī nav pasaciņa, bet jautājums par nosaukumiem :)<br>\nIr tāda veikalu ķēde, kura agrāk saucās \"Happy Dog\".<br>\nTad viņi pielika klāt \"Happy Cat\", bet nu tā, tas vēl visur līdz galam nav noticis. Logo (ar mazliet 90to noskaņu) ir abi nosaukumi.</p>\n<p>Kādu nosaukumu vienojamies šiem likt?</p>\n<p><a href=\"/user_uploads/49624/nEUTMhR-6n-R0Hy-ccZoo8Ka/image.png\">logo no 90ajiem</a><br>\n<a href=\"/user_uploads/49624/LyKNZp2LPxpcj82mJOZWgGI3/image.png\">meklēšanas rezultāti</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/nEUTMhR-6n-R0Hy-ccZoo8Ka/image.png\" title=\"logo no 90ajiem\"><img src=\"/user_uploads/49624/nEUTMhR-6n-R0Hy-ccZoo8Ka/image.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/LyKNZp2LPxpcj82mJOZWgGI3/image.png\" title=\"meklēšanas rezultāti\"><img src=\"/user_uploads/49624/LyKNZp2LPxpcj82mJOZWgGI3/image.png\"></a></div>",
+        "id": 403050018,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1700425698
+    },
+    {
+        "content": "<p>Pēc <a href=\"https://happydog-shop.lv/index.php?route=information/information&amp;information_id=26\">https://happydog-shop.lv/index.php?route=information/information&amp;information_id=26</a> Happy Dog &amp; Happy Cat</p>",
+        "id": 403051531,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1700427290
+    },
+    {
+        "content": "<p><code>name_1=Happy Dog</code> + <code>name_2=Happy Cat</code> + <code>name:concatenation=1;2</code> + <code>name:concatanation:symbol=&amp;</code> <span aria-label=\"troll\" class=\"emoji emoji-1f9cc\" role=\"img\" title=\"troll\">:troll:</span> </p>\n<p>Bet jā, es liktu \"Happy Dog &amp; Happy Cat\", lai meklētāji atrod pēc jebkura un pēc abiem. <code>alt_name</code>, ja ļoti gribas</p>",
+        "id": 403052472,
+        "sender_full_name": "HellMap",
+        "timestamp": 1700428090
+    },
+    {
+        "content": "<p>\"Happy Dog Baltic\" var pie <code>official_name</code></p>",
+        "id": 403052522,
+        "sender_full_name": "HellMap",
+        "timestamp": 1700428157
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571929\">Dāvis Kļaviņš</span> <a href=\"#narrow/stream/358602-general/topic/Happy.20Dog.2C.20Happy.20Cat/near/403051531\">said</a>:</p>\n<blockquote>\n<p>Pēc <a href=\"https://happydog-shop.lv/index.php?route=information/information&amp;information_id=26\">https://happydog-shop.lv/index.php?route=information/information&amp;information_id=26</a> Happy Dog &amp; Happy Cat</p>\n</blockquote>\n<p>Jā, tas laikam būs labs, paldies.<br>\nPirmā veikala karte lapā vienkārši burvīga :)</p>\n<p><a href=\"/user_uploads/49624/qexF0xMbuBBH0cwsRPla3058/image.png\">suns un kaķis vannā</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/qexF0xMbuBBH0cwsRPla3058/image.png\" title=\"suns un kaķis vannā\"><img src=\"/user_uploads/49624/qexF0xMbuBBH0cwsRPla3058/image.png\"></a></div>",
+        "id": 403052659,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1700428285
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Happy.20Dog.2C.20Happy.20Cat/near/403052522\">said</a>:</p>\n<blockquote>\n<p>\"Happy Dog Baltic\" var pie <code>official_name</code></p>\n</blockquote>\n<p>Tas jau būs <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aoperator%3DSIA\">operator=SIA</a> \"Happy Dog Baltic\".</p>",
+        "id": 403052745,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1700428348
+    }
+]

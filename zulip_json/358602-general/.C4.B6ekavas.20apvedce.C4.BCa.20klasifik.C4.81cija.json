@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Sveiks, vai mēs varētu apspriest Ķekavas apvedceļa klasifikāciju? Tas šobrīd apzīmēts kā <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dmotorway\">highway=motorway</a>, bet pēc ceļa zīme kas apzīmē kad motorway sākas ir <strong>motorroad</strong> zīme.<br>\nPēc OSM Wiki, motorroad nav motorway, bet ir zemāka statusa ceļš.<br>\n<a href=\"/user_uploads/49624/YblFdvnXp8UHXz9x0JfX_MbS/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/YblFdvnXp8UHXz9x0JfX_MbS/image.png\" title=\"image.png\"><img data-original-dimensions=\"219x466\" src=\"/user_uploads/thumbnail/49624/YblFdvnXp8UHXz9x0JfX_MbS/image.png/840x560.webp\"></a></div>",
+        "id": 491958621,
+        "sender_full_name": "Petons",
+        "timestamp": 1736075467
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dmotorway\">highway=motorway</a> norāda (akcents mans):</p>\n<p>Selected limited-access roads which can be classified as motorways include those that:</p>\n<ul>\n<li>generally resemble a <strong>controlled-access</strong> road and are <strong>free from intersection</strong> controls (such as traffic-signals, rotaries and roundabouts, and stop signs or stop markings);</li>\n<li>have at least <strong>two lanes in each traffic direction</strong> with some degree of <strong>separation</strong>;</li>\n<li>have access roads only for [..] - <strong>tādu nav</strong></li>\n</ul>\n<p>Ņemot vērā \"depending on the local context and prevailing convention\" un \"subject to local tagging conventions\", manuprāt Ķekavas apvedceļa posmi atbilst tam. Un <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Amotorroad\">motorroad=*</a> tā arī min - \"that are not a motorway\" - ja augstākminētās prasības neatbilstu motorway vai arī vietējā kopiena (ne)būtu nolēmusi likt motorway.</p>\n<p>To ceļu uz šo brīdi ir rediģējuši daudzi kartētāji un, cik zinu, neviens nav iebildis (vai arī nav aizdomājies) par motorroad vs motorway. Bet speciāli arī apriests arī nav, cik zinu.</p>",
+        "id": 491959554,
+        "sender_full_name": "HellMap",
+        "timestamp": 1736076437
+    },
+    {
+        "content": "<p>Man šķiet ka reālistiskāk šis būtu <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amotorroad%3Dyes\">motorroad=yes</a> ar <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dtrunk\">highway=trunk</a> , kopā ar tiem tagiem, mēs varētu vēl salikt citus restriction tagus, kā piemēram <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afoot%3Dno\">foot=no</a> ; <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aagricultural%3Dno\">agricultural=no</a> vai citus.<br>\n<a href=\"/user_uploads/49624/duzV3Txln1DXmwoGBaqTgCLk/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/duzV3Txln1DXmwoGBaqTgCLk/image.png\" title=\"image.png\"><img data-original-dimensions=\"998x473\" src=\"/user_uploads/thumbnail/49624/duzV3Txln1DXmwoGBaqTgCLk/image.png/840x560.webp\"></a></div>",
+        "id": 491980418,
+        "sender_full_name": "Petons",
+        "timestamp": 1736095213
+    }
+]

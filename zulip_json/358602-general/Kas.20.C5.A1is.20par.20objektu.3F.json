@@ -1,0 +1,104 @@
+[
+    {
+        "content": "<p><a href=\"https://www.openstreetmap.org/way/1296120693\">https://www.openstreetmap.org/way/1296120693</a><br>\n<a href=\"/user_uploads/49624/KzZUV_xz_RECDUrPM7hJWasd/Screenshot-2024-06-25-223753.png\">Screenshot-2024-06-25-223753.png</a><br>\n<a href=\"/user_uploads/49624/ZcwdfzfwHcdie3Inm0QiHwnh/Screenshot-2024-06-25-224229.png\">Screenshot-2024-06-25-224229.png</a><br>\nKas šis ir par objektu un kādas birkas derētu vislabāk? Pašreiz ieliku kā <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aman_made%3Dpit\">man_made=pit</a>.</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/KzZUV_xz_RECDUrPM7hJWasd/Screenshot-2024-06-25-223753.png\" title=\"Screenshot-2024-06-25-223753.png\"><img src=\"/user_uploads/49624/KzZUV_xz_RECDUrPM7hJWasd/Screenshot-2024-06-25-223753.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/ZcwdfzfwHcdie3Inm0QiHwnh/Screenshot-2024-06-25-224229.png\" title=\"Screenshot-2024-06-25-224229.png\"><img src=\"/user_uploads/49624/ZcwdfzfwHcdie3Inm0QiHwnh/Screenshot-2024-06-25-224229.png\"></a></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/1296120693\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/1296120693\" title=\"Way: 1296120693\">Way: 1296120693</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 446979634,
+        "sender_full_name": "Andris Liepiņš",
+        "timestamp": 1719344683
+    },
+    {
+        "content": "<p>Štrunts viņ zin, kas tas bija. Baseins/strūklaka kaut kāda vai rotaļu laukums no kura smiltis izņemtas? Es uzliktu <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dretaining_wall\">barrier=retaining_wall</a> apkārt un, ja zināms bijušais konkrēts objekts, tad <code>abandoned:*=*</code>. Var jau laikam to pit uzlikt arī kā tagadējo \"lietošanu\". Es gan personīgi tik seklus par pit nesauktu, jo tad mums katrā otrajā padomju pagalmā būs pit.</p>",
+        "id": 446981094,
+        "sender_full_name": "HellMap",
+        "timestamp": 1719345177
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Kas.20.C5.A1is.20par.20objektu.3F/near/446981094\">said</a>:</p>\n<blockquote>\n<p>Es uzliktu <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abarrier%3Dretaining_wall\">barrier=retaining_wall</a> apkārt</p>\n</blockquote>\n<p>Laba doma. Paldies. Nav ne jausmas kas tas bija. Pirmo reizi gāju tur garām.</p>",
+        "id": 446981557,
+        "sender_full_name": "Andris Liepiņš",
+        "timestamp": 1719345324
+    },
+    {
+        "content": "<p>Rotaļu laukums ne, bet bijusi strūklaka varbūt.<br>\nTagad tiešām retaining wall un miers :)</p>",
+        "id": 446995327,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1719349343
+    },
+    {
+        "content": "<p>Padomju laika topogrāfiskajā kartē ir rakstīts \"bas.\" -  baseins: <a href=\"https://balticmaps.eu/lv/c___56.927675-24.189071-17/bl___tps\">https://balticmaps.eu/lv/c___56.927675-24.189071-17/bl___tps</a> Bet \"baseins\" šajā kartē jāinterpretē vārda plašākajā nozīmē, kā jebkurš ūdens objekts ar mākslīgi veidotiem krastiem/sienām (pretstatā dīķim, kas arī cilvēka veidots, bet ar dabiski izveidojušos krasta līniju). Šis baseins, acīmredzot, ir bijis kopā ar strūklaku. Angliski tas atbilstu tagam <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alanduse%3Dbasin\">landuse=basin</a> (novecojis) vai vēl labāk <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Anatural%3Dwater\">natural=water</a> &amp; <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Awater%3Dbasin\">water=basin</a>. Mainīgi sausu baseinu var ietagot arī kā <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aintermittent%3Dyes\">intermittent=yes</a>, bet kā ietagot baseinu un jebkuras citas ūdenstilp(n)es vai teces, kas ir sauss (gandrīz) visu laiku!?</p>",
+        "id": 447872225,
+        "sender_full_name": "Reinis Bērziņš",
+        "timestamp": 1719608655
+    },
+    {
+        "content": "<p>Tad tas laikam vairs nav <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alanduse%3Dbasin\">landuse=basin</a>, bet tikai tā atlikušās sastāvdaļas - kā retaining wall, piem.</p>",
+        "id": 447873296,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1719608934
+    },
+    {
+        "content": "<p>OSM ar aktīviem tegiem norāda tikai to, kas ir uz doto brīdi. Te ūdens, cik saprotu, nav un neviens nepeldās. Ar life cycle tegiem var norādīt bijušo, ja tas vēl ir kaut kādā veidā saredzams. Ja ūdenstecē vai ūdenstilpnē nav ūdens, tad tā arī nav ūdenstece/ūdenstilpne, bet vienkārši kaut kāda  grava vai ieplaka.</p>",
+        "id": 447874736,
+        "sender_full_name": "HellMap",
+        "timestamp": 1719609593
+    },
+    {
+        "content": "<p>Man ir mazliet žēl, ka OpenStreetMap sistēmā nav izdomāts ērts risinājums ūdens objektiem, kuri apskates dienā ir pilni ar ūdeni, bet citā reizē vairs nav (vai otrādi). <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3AIntermittent%3Dyes\">Intermittent=yes</a> ir gana ērts, bet neder, piemēram, šim laikam  jau uz visiem laikiem pamestajam strūklakas baseinam. Uzreiz jāmaina visi tagi, varbūt pat jāpārzīmē punkts par līniju. Lai gan arī sauss strūklakas baseins var kalpot kā tūrisma objekts. Pilsētā tas nav kritiski, bet tuksnesī tas var pat maksāt dzīvību, ja dodies uz ūdenstilpni ar <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aintermittent%3Dyes\">intermittent=yes</a>, kas patiesībā jau 20 gadu stāv pilnīgi sausa. Esmu palasījis arī diskusijas, bet nekas labāks par šo ļoti neprecīzo vai pat maldinošo <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aintermittent%3Dyes\">intermittent=yes</a> pagaidām nav izdomāts.</p>",
+        "id": 447948649,
+        "sender_full_name": "Reinis Bērziņš",
+        "timestamp": 1719650352
+    },
+    {
+        "content": "<p>Tā strūklaka jau laikam vairāk \"lifecycle\" lieta - tur ūdens diez vai vēl jebkad būs.<br>\n\"intermittent\" no vienas puses ir nekonkrēts, no otras - garantēt bieži ir grūti vai neiespējami. Kā nu tur laikapstākļi, klimats ietekmēs ūdens esamību...</p>",
+        "id": 447950155,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1719651184
+    },
+    {
+        "content": "<p>Jā, lifcycle statuss kā abandoned vai disused strūklakai un baseinam kā apskates objektam būtu ļoti piemēroti. Pastāvīgi sausiem ūdens objektiem es labprāt lietotu kaut ko līdzīgu <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aintermittent%3Ddry\">intermittent=dry</a>, ko būtu viegli koriģēt, ja pastāvīgā situācija nākotnē mainītos. <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aintermittent%3Ddry\">intermittent=dry</a> gan skan neloģiski. Loģiskāk būtu <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Awater%3Dintermittent\">water=intermittent</a>, <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Awater%3Dyes\">water=yes</a>, <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Awater%3Dno\">water=no</a> (diemžēl <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Awater\">water=*</a> tiek izmantots ūdenstilp(n)ēm, nevis, vai tajā ir ūdens). seasonal un after_rainfall būtu mazliet konkrētāki par intermittent. Un es negribētu intermittent likt tur, kur ūdens parādās reizi 20 gados kādu neparedzamu plūdu rezultātā, jo tad jau puspasauli būtu jāietago kā intermittent. :)</p>",
+        "id": 447952628,
+        "sender_full_name": "Reinis Bērziņš",
+        "timestamp": 1719652509
+    },
+    {
+        "content": "<p>Uzradās vēl viens gadījums, kad es nezinu, kas ir konkrēts objekts. Tā vietā, lai izveidotu jaunu tēmu, es rakstīšu atkal šeit. Rakstīsim šajā tēmā ikreiz, ja nezinam, kas tas par objektu!</p>\n<p>Ieraudzīju šos brūnos stabus Krasta Ielas zāliena vidū.<br>\n<a href=\"/user_uploads/49624/PMfK1g4HdFD2dJrKpDytvsuO/IMG_20250111_142557-edit.jpg\">IMG_20250111_142557 edit.jpg</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/PMfK1g4HdFD2dJrKpDytvsuO/IMG_20250111_142557-edit.jpg\" title=\"IMG_20250111_142557 edit.jpg\"><img data-original-dimensions=\"2917x1342\" src=\"/user_uploads/thumbnail/49624/PMfK1g4HdFD2dJrKpDytvsuO/IMG_20250111_142557-edit.jpg/840x560.webp\"></a></div>",
+        "id": 493362618,
+        "sender_full_name": "Andris Liepiņš",
+        "timestamp": 1736777711
+    },
+    {
+        "content": "<p>Es jau uzrakstīju, ka drošvien <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aman_made%3Dutility_pole\">man_made=utility_pole</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Adisused%3Dyes\">disused=yes</a> . Bet tad paskatījos <a href=\"https://www.mapillary.com/app/?focus=photo&amp;pKey=802548553712900\">https://www.mapillary.com/app/?focus=photo&amp;pKey=802548553712900</a> - tur bija billboardi virsū agrāk. <br>\n<a href=\"/user_uploads/49624/saQwrwwxROM9h3dQOP7VAJgx/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/saQwrwwxROM9h3dQOP7VAJgx/image.png\" title=\"image.png\"><img data-original-dimensions=\"476x683\" src=\"/user_uploads/thumbnail/49624/saQwrwwxROM9h3dQOP7VAJgx/image.png/840x560.webp\"></a></div>",
+        "id": 493370795,
+        "sender_full_name": "HellMap",
+        "timestamp": 1736779858
+    },
+    {
+        "content": "<p>Iespējams, ka var kaut kādu vienkāršu (nedokumentētu) <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aman_made%3Dpole\">man_made=pole</a></p>",
+        "id": 493373378,
+        "sender_full_name": "HellMap",
+        "timestamp": 1736780467
+    },
+    {
+        "content": "<p>Ieliku </p>\n<div class=\"codehilite\"><pre><span></span><code>disused:advertising=billboard\nman_made=pole\n</code></pre></div>",
+        "id": 493374741,
+        "sender_full_name": "Andris Liepiņš",
+        "timestamp": 1736780809
+    },
+    {
+        "content": "<p>Interesanti, <code>disused</code> priekš billboard pareizāk interpretēt, ka nav bildes ilgstoši uz plāksnes vai nav pašas plāksnes?</p>",
+        "id": 493375246,
+        "sender_full_name": "HellMap",
+        "timestamp": 1736780951
+    },
+    {
+        "content": "<p><code>man_made=pole</code> jau pasaka, ka tas ir viens stabs. Ja būtu arī plāksne bez bildes, tad varētu likt tikai <code>disused:advertising=billboard</code>.</p>",
+        "id": 493375972,
+        "sender_full_name": "Andris Liepiņš",
+        "timestamp": 1736781146
+    },
+    {
+        "content": "<p>Hehe, jā, par tiem stabiem es varēju bez Mapillary bildēm atcerēties :)</p>",
+        "id": 493449137,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1736802377
+    }
+]

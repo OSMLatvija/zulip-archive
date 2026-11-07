@@ -1,0 +1,98 @@
+[
+    {
+        "content": "<p>Izskatās, ka tagad routiem tiek pievienoti arī wikidata/wiki linki, tā kā pavisam īsie gabali arī teorētiski var būt relationi. Atstāju kartētājam komentāru par dažām citām kļūdām <a href=\"https://www.openstreetmap.org/changeset/140192765\">https://www.openstreetmap.org/changeset/140192765</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/changeset/140192765\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/changeset/140192765\" title=\"Changeset: 140192765 | OpenStreetMap\">Changeset: 140192765 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 386564391,
+        "sender_full_name": "HellMap",
+        "timestamp": 1692695698
+    },
+    {
+        "content": "<p>Vēl vienu komentu atstāju, jo jauni papildinājumi pirms atbildēts uz iepriekšējo komentāru <a href=\"https://www.openstreetmap.org/changeset/140322232\">https://www.openstreetmap.org/changeset/140322232</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/changeset/140322232\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/changeset/140322232\" title=\"Changeset: 140322232 | OpenStreetMap\">Changeset: 140322232 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 387132741,
+        "sender_full_name": "HellMap",
+        "timestamp": 1692898892
+    },
+    {
+        "content": "<p>Did you guys reach any kind of conclusion on this?<br>\nShould relations like <a href=\"https://www.openstreetmap.org/relation/17894809\">https://www.openstreetmap.org/relation/17894809</a> be kept?</p>\n<p>Also, does it really need to be continuous?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/relation/17894809\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/relation/17894809\" title=\"Relation: ‪Platā iela‬ (‪17894809‬)\">Relation: ‪Platā iela‬ (‪17894809‬)</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 575363276,
+        "sender_full_name": "markalex",
+        "timestamp": 1771870060
+    },
+    {
+        "content": "<p>As the user failed to reply and deleted their account (and had multiple accounts to begin with), then no one should spend time on such user's edits and should feel free to delete any offending routes.</p>\n<p>Only thing I'll reiterate about useful routes with \"gaps\" - if it's not continuous, there is no point to it. It's an unroutable route. At that point, it's better to delete such routes than to leave broken unusable data, especially when those routes add literally no information.</p>",
+        "id": 575364548,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771870464
+    },
+    {
+        "content": "<p>Oh wow, almost every road in Riga is covered by a relation <span aria-label=\"melting face\" class=\"emoji emoji-1fae0\" role=\"img\" title=\"melting face\">:melting_face:</span><br>\nI'll be removing those relations in Ventspils (because that's where I stumbled upon them). But probably I'll leave them be everywhere else.</p>",
+        "id": 575367778,
+        "sender_full_name": "markalex",
+        "timestamp": 1771871453
+    },
+    {
+        "content": "<p>Do you by any chance know, if the push for relations creation was related to wikipedia somehow?<br>\nI think I stumbled upon one more user creating routes. <br>\nMaybe(!) because they look better on wiki pages this way:<br>\n<a href=\"/user_uploads/49624/9Xv3TS9Be3Z1gmlpBXUjd22C/.png\">изображение.png</a><br>\nvs <br>\n<a href=\"/user_uploads/49624/-_nu0r7rvQTVP3WkfGM2ulP1/.png\">изображение.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/9Xv3TS9Be3Z1gmlpBXUjd22C/.png\" title=\"изображение.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"715x1103\" src=\"/user_uploads/thumbnail/49624/9Xv3TS9Be3Z1gmlpBXUjd22C/.png/840x560.webp\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/-_nu0r7rvQTVP3WkfGM2ulP1/.png\" title=\"изображение.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"717x1211\" src=\"/user_uploads/thumbnail/49624/-_nu0r7rvQTVP3WkfGM2ulP1/.png/840x560.webp\"></a></div>",
+        "id": 575379816,
+        "sender_full_name": "markalex",
+        "timestamp": 1771874246
+    },
+    {
+        "content": "<p>No idea why they added them. I do remember some wikidata related stuff going on, but I can't really remember, not did the user ever expain anything.</p>",
+        "id": 575380414,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771874470
+    },
+    {
+        "content": "<p>And gotta talk to this user, can't create routes like this <br>\n<a href=\"/user_uploads/49624/79qy1bkCy3Wf0q12QfQLDRyj/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/79qy1bkCy3Wf0q12QfQLDRyj/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"531x165\" src=\"/user_uploads/thumbnail/49624/79qy1bkCy3Wf0q12QfQLDRyj/image.png/840x560.webp\"></a></div>",
+        "id": 575380786,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771874602
+    },
+    {
+        "content": "<p>The user is definitely doing this in relation to wikipedia/wikidata - they are an editor there. Looks like they are literally going alphabetically on these. I mean, I can see an argument how linking road relations between wikidata/wikipedia and osm would be useful. IF that's what they are doing, not just making these and abandoning.</p>",
+        "id": 575382631,
+        "sender_full_name": "HellMap",
+        "timestamp": 1771875264
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/358602-general/topic/Road.20routes/near/575380786\">said</a>:</p>\n<blockquote>\n<p>And gotta talk to this user, can't create routes like this <br>\n<a href=\"/user_uploads/49624/79qy1bkCy3Wf0q12QfQLDRyj/image.png\">image.png</a></p>\n</blockquote>\n<p>I asked them under on of the changesets, but only about creating <code>route=road</code>, even though wiki specifically says not to, for usual streets. <br>\nBecause that's what I understand. And continuity of routes is not among those things yet <span aria-label=\"slight smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"slight smile\">:slight_smile:</span></p>",
+        "id": 575384956,
+        "sender_full_name": "markalex",
+        "timestamp": 1771876086
+    },
+    {
+        "content": "<p>User responded <span aria-label=\"tada\" class=\"emoji emoji-1f389\" role=\"img\" title=\"tada\">:tada:</span> <br>\n<a href=\"https://www.openstreetmap.org/changeset/178951001#c1559781\">https://www.openstreetmap.org/changeset/178951001#c1559781</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/changeset/178951001#c1559781\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/changeset/178951001#c1559781\" title=\"Changeset: 178951001\">Changeset: 178951001</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 575393803,
+        "sender_full_name": "markalex",
+        "timestamp": 1771879442
+    },
+    {
+        "content": "<p>OSM tags are a bit overloaded, so not completely sure all routes should be routable (haha).<br>\nAs for these, there certainly is some appeal - for example, some things could be tagged only once on a relation (wiki*, etymology, old_name...). </p>\n<p>Theoretically there's <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Atype%3Dstreet\">type=street</a>, but that one is rather messy currently.</p>",
+        "id": 576352866,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1772227999
+    },
+    {
+        "content": "<p>Yeah, this editor actually is adding wikidata/wikipedia links, so these can be useful. The original editor in question was not adding any extra information, they were making tons of mistakes, leaving gaps, etc.</p>",
+        "id": 576353997,
+        "sender_full_name": "HellMap",
+        "timestamp": 1772228491
+    },
+    {
+        "content": "<p>I don't think <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Atype%3Dstreet\">type=street</a> works in wikipedia's plugin</p>",
+        "id": 576401924,
+        "sender_full_name": "markalex",
+        "timestamp": 1772266014
+    },
+    {
+        "content": "<p>I asked them to stop and I think they did.<br>\nBut if we're ok with maintaining route relations, should I write back and revert my request to stop?</p>",
+        "id": 576402132,
+        "sender_full_name": "markalex",
+        "timestamp": 1772266191
+    },
+    {
+        "content": "<p>Yeah, looking at these again with the perspective of \"we are linking osm-wikidata-wikipedia and there's no other easy way to do this\" I actually think what they are doing is fine and having these relations is okay. It's arguably better to have those tags in relation than every single piece of road. Then again, there will be thousands upon thousands of these. I guess there's only like 3 people who have said anything about this (plus the 2 editors doing it), but if we don't strictly oppose this, then I guess feel free to say so to them. I'll leave a comment too.</p>",
+        "id": 576414996,
+        "sender_full_name": "HellMap",
+        "timestamp": 1772277540
+    }
+]

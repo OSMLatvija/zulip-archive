@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Parāk bieži situācija, ka izmantojot Mapillaru zīmju slāni, tam nevar gluži ticēt. Vai nu zīmi vispār nedetektē vietā, kur it kā ideāli būtu redzama - piemēram <a href=\"https://www.mapillary.com/app/?pKey=798859097422417&amp;focus=photo\">https://www.mapillary.com/app/?pKey=798859097422417&amp;focus=photo</a> vai arī sadetektē 10 zīmes vienas vietā, kad daudz bilžu. <a href=\"/user_uploads/49624/w8_eR2HjDGvZmkm3iSGphUHl/detect.png\">detect.png</a> Nezinu, ko par to īsti vēl pateikt. Drošvien tikai to, ka grūti no tā zīmēt, jo tik un tā pašam uzmanīgi viss jāpārbauda. Grībētos tomēr, lai pēc tā darba to ierakstīt un uploadot, tomēr tas viss labāk strādātu.</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/w8_eR2HjDGvZmkm3iSGphUHl/detect.png\" title=\"detect.png\"><img src=\"/user_uploads/49624/w8_eR2HjDGvZmkm3iSGphUHl/detect.png\"></a></div>",
+        "id": 350582488,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681753785
+    },
+    {
+        "content": "<p>Pieņemu, ka tā ir samērā sarežģīta problēma. Es šo pamatā izmantoju aptuvenai zīmju atrašanai vai noskaidrošanai, vai tās kaut kur vispār ir.</p>",
+        "id": 350584898,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681754482
+    },
+    {
+        "content": "<p>Es protams saprotu, ka problēma nav vienkārša. Bet  tai pat laikā šito no piemēra neatrod <a href=\"/user_uploads/49624/DU2L8yO76QnslEnkjpGqf_EZ/not-ok.png\">not-ok.png</a> <br>\nBet šitādu te mierīgi atrod <a href=\"/user_uploads/49624/raFDg3xPjljskNu3XVrVGGE0/ok.png\">ok.png</a> <br>\nTas viss liekas diezgan kaut kā dīvaini. Tā piemēra zīmē ir kā perfekta training set bilde un tā otra ir kā \"ja ļoti paveiksies atpazīs\". Bet reāli situācija bieži gandrīz otrādāk. Cenšoties filmēt labā kvalitātē it kā būtu motivācija lai uzlabotu zīmju atpazīšanu...</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/DU2L8yO76QnslEnkjpGqf_EZ/not-ok.png\" title=\"not-ok.png\"><img src=\"/user_uploads/49624/DU2L8yO76QnslEnkjpGqf_EZ/not-ok.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/raFDg3xPjljskNu3XVrVGGE0/ok.png\" title=\"ok.png\"><img src=\"/user_uploads/49624/raFDg3xPjljskNu3XVrVGGE0/ok.png\"></a></div>",
+        "id": 350585980,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681754842
+    },
+    {
+        "content": "<p>Zīmju procesēšana dažreiz notiek diezgan ilgi, kaut gan pašas bildes jau sen redzamas.<br>\nPar to pirmo var forumā pajautāt, ja ir iedvesma.</p>",
+        "id": 350603463,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681761073
+    }
+]
