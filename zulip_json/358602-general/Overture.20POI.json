@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p><a href=\"https://bdon.github.io/overture-tiles/places.html\">https://bdon.github.io/overture-tiles/places.html</a><br>\ndrīz būs ar RAPiD pieejami<br>\nkvalitāte gan tāda mazliet jocīga<br>\n<a href=\"/user_uploads/49624/3X3g7tZ-mNOaJ3uCJmsgkaHo/image.png\">hmm</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/3X3g7tZ-mNOaJ3uCJmsgkaHo/image.png\" title=\"hmm\"><img src=\"/user_uploads/49624/3X3g7tZ-mNOaJ3uCJmsgkaHo/image.png\"></a></div>",
+        "id": 381217033,
+        "sender_full_name": "Colby",
+        "timestamp": 1690992742
+    },
+    {
+        "content": "<p>Laikam sanāk Facebooks ir Overturei iedevis biznešu-adrešu datus. Es citādi nevaru izdomāt, no kurienes. Nedomāju, ka Latvijā kaut ko citu izmantoja (nu izņemot OSM).</p>",
+        "id": 381220865,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690993489
+    },
+    {
+        "content": "<p>Piemēram te var salīdzināt, kāpēc tāds nosaukums<br>\n<a href=\"/user_uploads/49624/qY0upbWXHGNUylASp-pZfqSp/otpoi.png\">otpoi.png</a><br>\n<a href=\"/user_uploads/49624/EzOi6d7PDQEBfI0q4hu1U5h1/otfb.png\">otfb.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/qY0upbWXHGNUylASp-pZfqSp/otpoi.png\" title=\"otpoi.png\"><img src=\"/user_uploads/49624/qY0upbWXHGNUylASp-pZfqSp/otpoi.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/49624/EzOi6d7PDQEBfI0q4hu1U5h1/otfb.png\" title=\"otfb.png\"><img src=\"/user_uploads/49624/EzOi6d7PDQEBfI0q4hu1U5h1/otfb.png\"></a></div>",
+        "id": 381220995,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690993513
+    },
+    {
+        "content": "<p>Protams tas nozīmē, ka tam biznesam tā Facebook lapa jāuztur. Ļoti bieži bizness bankrotē vai aizveras, bet Facebookā lapa paliek.</p>",
+        "id": 381221414,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690993594
+    },
+    {
+        "content": "<p>Jā, izskatās, ka viss (tikai) no Fejsbuka</p>",
+        "id": 381224097,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690994131
+    },
+    {
+        "content": "<p>Jā, tie ir FB POIs.<br>\nEs kaut ko tieši nupat salīdzināju :)<br>\n<a href=\"https://mastodon.social/@richlv/110821103148965461\">https://mastodon.social/@richlv/110821103148965461</a></p>\n<p>Tur var atrast kaut ko OSM trūkstošu, bet kopumā datu kvalitāte ir bēdīga.<br>\n\"Lauču akmens\" Ādažos, Zooloģiskais dārzs un Babītes dzimtsarakstu nodaļa Juglā.<br>\nPilns ar joku POIs (īpaši pie dažām skolām).</p>",
+        "id": 381239804,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1690996775
+    },
+    {
+        "content": "<p>Šobrīd lielākais potenciālais ieguvums - ja kāds POI kādā reģionā visus ir sazīmējis, var salīdzināt, vai nevar vēl ko atrast.</p>",
+        "id": 381239930,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1690996803
+    },
+    {
+        "content": "<p>vajag vienkārši paprasīt chatgpt, lai izņemt punktus, kuri nav pareizi</p>",
+        "id": 381244489,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690997731
+    }
+]

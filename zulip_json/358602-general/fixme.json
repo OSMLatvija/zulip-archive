@@ -1,0 +1,56 @@
+[
+    {
+        "content": "<p>fixme tagus diezgan viegli palaist garām, daudz sakrājušies<br>\n<a href=\"/user_uploads/49624/DxC5c_ZhHHVZRsT9VQUuBmGU/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/DxC5c_ZhHHVZRsT9VQUuBmGU/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/DxC5c_ZhHHVZRsT9VQUuBmGU/image.png\"></a></div>",
+        "id": 317757628,
+        "sender_full_name": "Colby",
+        "timestamp": 1671909310
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/MvGnSrzaJFbTN732hhWjGRge/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/MvGnSrzaJFbTN732hhWjGRge/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/MvGnSrzaJFbTN732hhWjGRge/image.png\"></a></div>",
+        "id": 317757651,
+        "sender_full_name": "Colby",
+        "timestamp": 1671909334
+    },
+    {
+        "content": "<p><a href=\"https://tools.geofabrik.de/osmi/?view=tagging&amp;lon=24.21499&amp;lat=56.92242&amp;zoom=12&amp;baselayer=Geofabrik%20Standard&amp;overlays=fixmes_on_nodes%2Cfixmes_on_ways\">https://tools.geofabrik.de/osmi/?view=tagging&amp;lon=24.21499&amp;lat=56.92242&amp;zoom=12&amp;baselayer=Geofabrik%20Standard&amp;overlays=fixmes_on_nodes%2Cfixmes_on_ways</a></p>",
+        "id": 317771908,
+        "sender_full_name": "HellMap",
+        "timestamp": 1671921259
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/bOOaqcT3w2mmSbpnE96EIoao/image.png\">note</a> <br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Key%3Anote\">note=*</a> arī līdzīga situācija, cik skatos šķiet vieglāk labojami nekā fixme</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/bOOaqcT3w2mmSbpnE96EIoao/image.png\" title=\"note\"><img src=\"/user_uploads/49624/bOOaqcT3w2mmSbpnE96EIoao/image.png\"></a></div>",
+        "id": 350823168,
+        "sender_full_name": "Colby",
+        "timestamp": 1681833605
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/hFpWsZf87bgBMeOIg3DUDCSC/image.png\">:)</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/hFpWsZf87bgBMeOIg3DUDCSC/image.png\" title=\":)\"><img src=\"/user_uploads/49624/hFpWsZf87bgBMeOIg3DUDCSC/image.png\"></a></div>",
+        "id": 350823452,
+        "sender_full_name": "Colby",
+        "timestamp": 1681833666
+    },
+    {
+        "content": "<p>Heh, dabā laikam adrese nav nomainīta :)</p>",
+        "id": 350824029,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1681833804
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/e3yUCaX_VN2fXAwEYAPlsQfJ/image.png\">pieturas</a> <br>\nvai ir kāds specifsks tags šiem? bet drīzāk jaskatās individuāli vai zīme nav vēlāk pielikta</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/e3yUCaX_VN2fXAwEYAPlsQfJ/image.png\" title=\"pieturas\"><img src=\"/user_uploads/49624/e3yUCaX_VN2fXAwEYAPlsQfJ/image.png\"></a></div>",
+        "id": 350824804,
+        "sender_full_name": "Colby",
+        "timestamp": 1681833981
+    },
+    {
+        "content": "<p>Nu principā te teorētiski jau nav ko labot. OSM nav tega priekš \"te nav ceļa zīmes\". <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Anote\">note=*</a> ir priekš citiem kartētājiem. Šajā gadījumā pasaka, ka te pārbaudīts (vismaz kaut kad), ka nav ceļa zīmes. Protams, ar Latvijas kartētāju skaitu, šitādi ir diezgan bezjēdzīgi, jo ātrāk ceļus pārbūvēs, nekā kāds tur tiks klāt pa jaunu. Te jau visi lauki ar ceļiem \"last edit 10 years ago\". Tā kā doma it kā saprotama, bet prakstiski nezinu, cik not tā jēga. Es personīgi note lieku tikai, ja var pārprast, kāpēc es kaut ko iezīmēju kaut kādā veidā.</p>",
+        "id": 350841200,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681837833
+    },
+    {
+        "content": "<p>OSM gan derētu tegs priekš vienādas nozīmes krutojuma - tad būtu skaidrs viss par zīmēm.</p>",
+        "id": 350841352,
+        "sender_full_name": "HellMap",
+        "timestamp": 1681837887
+    }
+]

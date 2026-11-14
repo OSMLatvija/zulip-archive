@@ -1,0 +1,392 @@
+[
+    {
+        "content": "<p><a href=\"/user_uploads/49624/3p7d5xxBZxK7NT83snV0z-UA/image.png\">Top!</a><br>\nGribētos izlabot bet liekas jocīgi ja nu gadījumā veikals kautkādos laukos vairs nav vai ir pārtapis par Citro.</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/3p7d5xxBZxK7NT83snV0z-UA/image.png\" title=\"Top!\"><img src=\"/user_uploads/49624/3p7d5xxBZxK7NT83snV0z-UA/image.png\"></a></div>",
+        "id": 357937840,
+        "sender_full_name": "Colby",
+        "timestamp": 1683911005
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/QOx-0cr9_yC28CbptSKVk5DG/image.png\">pasts</a><br>\nhmm</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/QOx-0cr9_yC28CbptSKVk5DG/image.png\" title=\"pasts\"><img src=\"/user_uploads/49624/QOx-0cr9_yC28CbptSKVk5DG/image.png\"></a></div>",
+        "id": 357938147,
+        "sender_full_name": "Colby",
+        "timestamp": 1683911071
+    },
+    {
+        "content": "<p>liekas ka visām franžīsēm ir vismaz 3 nosaukumu varianti</p>",
+        "id": 357939062,
+        "sender_full_name": "Colby",
+        "timestamp": 1683911280
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/DaWe9XVc6qvCL4FZGTwaCRz1/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/DaWe9XVc6qvCL4FZGTwaCRz1/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/DaWe9XVc6qvCL4FZGTwaCRz1/image.png\"></a></div>",
+        "id": 357940252,
+        "sender_full_name": "Colby",
+        "timestamp": 1683911582
+    },
+    {
+        "content": "<p>Cik veikalu pie mums sauc Veikals? <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>",
+        "id": 357953179,
+        "sender_full_name": "HellMap",
+        "timestamp": 1683914782
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/dLImAGGRMOnQNJ3PCGNN7eZi/image.png\">image.png</a><br>\npārāk daudz</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/dLImAGGRMOnQNJ3PCGNN7eZi/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/dLImAGGRMOnQNJ3PCGNN7eZi/image.png\"></a></div>",
+        "id": 357953730,
+        "sender_full_name": "Colby",
+        "timestamp": 1683914929
+    },
+    {
+        "content": "<p><a href=\"https://www.mapillary.com/app/?lat=55.8854739&amp;lng=26.498149099972&amp;z=17&amp;pKey=304562364720564&amp;focus=photo&amp;x=0.1598228799383007&amp;y=0.3208408986062228&amp;zoom=1.78125\">https://www.mapillary.com/app/?lat=55.8854739&amp;lng=26.498149099972&amp;z=17&amp;pKey=304562364720564&amp;focus=photo&amp;x=0.1598228799383007&amp;y=0.3208408986062228&amp;zoom=1.78125</a><br>\nbet vismaz viens tomēr ir ar pareizu nosaukumu....</p>",
+        "id": 357954571,
+        "sender_full_name": "Colby",
+        "timestamp": 1683915138
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/Pbvmd9ojfp1FRNOlfhOTf2jW/image.png\">pēdiņas</a><br>\noh no</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/Pbvmd9ojfp1FRNOlfhOTf2jW/image.png\" title=\"pēdiņas\"><img src=\"/user_uploads/49624/Pbvmd9ojfp1FRNOlfhOTf2jW/image.png\"></a></div>",
+        "id": 357956344,
+        "sender_full_name": "Colby",
+        "timestamp": 1683915579
+    },
+    {
+        "content": "<p>318 POI un 311 ēkas</p>",
+        "id": 357956592,
+        "sender_full_name": "Colby",
+        "timestamp": 1683915635
+    },
+    {
+        "content": "<p>un iespējams ka palaidu garām kādus ar nestandarta pēdiņām</p>",
+        "id": 357957057,
+        "sender_full_name": "Colby",
+        "timestamp": 1683915758
+    },
+    {
+        "content": "<p>Jā, es ik pa laiku sastopos ar kaut kādu lauku bodi, kurai nosaukums = lietojums, tādi kā Veikals vai Frizētava. Vienmēr domāju, via ir jēga to likt...</p>",
+        "id": 357959691,
+        "sender_full_name": "HellMap",
+        "timestamp": 1683916516
+    },
+    {
+        "content": "<p>Fool proof gadījumus, sevišķi tādus, kur gadījumu daudz, teorētiski var <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">botam</a> iebarot. Vienkāršākajā gadījuma formā key, value pattern, uz ko labot value.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 357964510,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1683917983
+    },
+    {
+        "content": "<p>tos kur ir \"nosaukums\" bez jebkā cita varētu <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bots</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 357971331,
+        "sender_full_name": "Colby",
+        "timestamp": 1683920029
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/358602-general/topic/Nosaukumu.20nevien.C4.81d.C4.ABbas/near/357938147\">said</a>:</p>\n<blockquote>\n<p><a href=\"/user_uploads/49624/QOx-0cr9_yC28CbptSKVk5DG/image.png\">pasts</a><br>\nhmm</p>\n</blockquote>\n<p>Par šo jau ir <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/Post.20box.20validator\">#general &gt; Post box validator</a> (ja Latvijas Pasts atļaus izmantot datus).</p>",
+        "id": 358077212,
+        "sender_full_name": "i-ky",
+        "timestamp": 1683972984
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/358602-general/topic/Nosaukumu.20nevien.C4.81d.C4.ABbas/near/357939062\">said</a>:</p>\n<blockquote>\n<p>liekas ka visām franšīzēm ir vismaz 3 nosaukumu varianti</p>\n</blockquote>\n<p>Jāsāk ar to, ka piereģistrēt tos <a href=\"https://nsi.guide\">Name Suggestion Index'ā</a>. Mūsu franšīzes ir pārāk mazas, lai NSI tos reģistrētu pats (ja nemaldos, vajag vismaz 50 izmantošanas gadījumus).</p>",
+        "id": 358077673,
+        "sender_full_name": "i-ky",
+        "timestamp": 1683973172
+    },
+    {
+        "content": "<p>Es katru reizi rakstot kaut ko kā Omniva pakomātu domāju - kāpēc nav NSI ieraksta. Ehh, vēl viens darbs <span aria-label=\"pensive\" class=\"emoji emoji-1f614\" role=\"img\" title=\"pensive\">:pensive:</span></p>",
+        "id": 358081412,
+        "sender_full_name": "HellMap",
+        "timestamp": 1683974496
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Nosaukumu.20nevien.C4.81d.C4.ABbas/near/358081412\">said</a>:</p>\n<blockquote>\n<p>Es katru reizi rakstot kaut ko kā Omniva pakomātu domāju - kāpēc nav NSI ieraksta. Ehh, vēl viens darbs <span aria-label=\"pensive\" class=\"emoji emoji-1f614\" role=\"img\" title=\"pensive\">:pensive:</span></p>\n</blockquote>\n<p>Igauņu Omniva jau pievienota:<br>\n<a href=\"https://nsi.guide/index.html?t=operators&amp;k=amenity&amp;v=post_office&amp;tt=omniva#omniva-df7ea1\">https://nsi.guide/index.html?t=operators&amp;k=amenity&amp;v=post_office&amp;tt=omniva#omniva-df7ea1</a><br>\n<a href=\"https://nsi.guide/index.html?t=operators&amp;k=amenity&amp;v=post_box&amp;tt=omniva#omniva-f66fc9\">https://nsi.guide/index.html?t=operators&amp;k=amenity&amp;v=post_box&amp;tt=omniva#omniva-f66fc9</a><br>\n<a href=\"https://nsi.guide/index.html?t=brands&amp;k=amenity&amp;v=parcel_locker&amp;tt=omniva#omniva-49b665\">https://nsi.guide/index.html?t=brands&amp;k=amenity&amp;v=parcel_locker&amp;tt=omniva#omniva-49b665</a></p>",
+        "id": 358081880,
+        "sender_full_name": "i-ky",
+        "timestamp": 1683974677
+    },
+    {
+        "content": "<p>Bet nu visus mūsu Elvi, Top!, Mego, etc. var droši sabāzt tur. Vajadzētu sarakstu ar nosaukumiem pēc skaita.</p>",
+        "id": 358082800,
+        "sender_full_name": "HellMap",
+        "timestamp": 1683975060
+    },
+    {
+        "content": "<p><code>\n+------------------+--------+\n|    nosaukums     | skaits |\n+------------------+--------+\n| Swedbank         |    232 |\n| Narvesen         |    221 |\n| SEB              |    202 |\n| Circle K         |    195 |\n| Maxima X         |    152 |\n| Mēness aptieka   |    134 |\n| LaTS             |    125 |\n| Mego             |    121 |\n| Rimi             |    119 |\n| Elvi             |     83 |\n| Drogas           |     73 |\n| Aibe             |     68 |\n| Hesburger        |     64 |\n| Top!             |     61 |\n| Citro            |     59 |\n| Benu             |     59 |\n| Brāļu kapi       |     51 |\n| Viada            |     50 |\n| Beta             |     49 |\n| top!             |     46 |\n| Depozīta punkts  |     45 |\n| Lats             |     43 |\n| Top              |     40 |\n| Vesko            |     37 |\n| Lidl             |     33 |\n| Maxima XX        |     30 |\n| Forevers         |     30 |\n| Kultūras nams    |     28 |\n| Ehrle            |     28 |\n| Maxima XXX       |     27 |\n| Frizētava        |     27 |\n| Citadele         |     26 |\n| Apotheka         |     26 |\n| Latvijas balzams |     26 |\n| Ziedi            |     26 |\n| Kurši            |     26 |\n| Fenikss          |     25 |\n| Virši            |     23 |\n| Latvijas aptieka |     23 |\n| Luminor Bank     |     22 |\n| Veikals          |     22 |\n| Pārtika          |     22 |\n| LMT              |     22 |\n| Tele2            |     22 |\n| Pepco            |     20 |\n| Maxima           |     19 |\n| Caffeine         |     19 |\n| Euro aptieka     |     18 |\n| Latvijas Pasts   |     17 |\n+------------------+--------+\n</code></p>",
+        "id": 358093384,
+        "sender_full_name": "Colby",
+        "timestamp": 1683978844
+    },
+    {
+        "content": "<p>top 50 no geofabrik pois, pois_a un buildings_a</p>",
+        "id": 358093520,
+        "sender_full_name": "Colby",
+        "timestamp": 1683978909
+    },
+    {
+        "content": "<p>A kam konkrēti tas ir? Kas ir tie lauki?</p>",
+        "id": 358096873,
+        "sender_full_name": "HellMap",
+        "timestamp": 1683980074
+    },
+    {
+        "content": "<p>name= un cik tie atkārtojas</p>",
+        "id": 358097043,
+        "sender_full_name": "Colby",
+        "timestamp": 1683980128
+    },
+    {
+        "content": "<p>Es domāju, kas ir pois_a, buildings_a?</p>",
+        "id": 358097189,
+        "sender_full_name": "HellMap",
+        "timestamp": 1683980174
+    },
+    {
+        "content": "<p><a href=\"http://download.geofabrik.de/osm-data-in-gis-formats-free.pdf\">http://download.geofabrik.de/osm-data-in-gis-formats-free.pdf</a><br>\n<a href=\"http://download.geofabrik.de/europe/latvia.html\">http://download.geofabrik.de/europe/latvia.html</a></p>",
+        "id": 358097261,
+        "sender_full_name": "Colby",
+        "timestamp": 1683980202
+    },
+    {
+        "content": "<p>Tu tajā tabulā redzi arī visus plikus tegus vai arī viss jau sadalīts? Piemēram, tu tur vari atrast nosaukumus tikai <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dshop\">amenity=shop</a>?</p>",
+        "id": 358097666,
+        "sender_full_name": "HellMap",
+        "timestamp": 1683980400
+    },
+    {
+        "content": "<p>Vai tie dati dubulto pois_a un building_a - piemēram <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dyes\">building=yes</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dshop\">amenity=shop</a> būs divas reizes slāņos (vai kā tur tas ir sadalīts)?</p>",
+        "id": 358097984,
+        "sender_full_name": "HellMap",
+        "timestamp": 1683980519
+    },
+    {
+        "content": "<p>pa tagiem var bet man slinkums visus tos convenience/fuel/jeweller/etc šķirot</p>",
+        "id": 358098698,
+        "sender_full_name": "Colby",
+        "timestamp": 1683980782
+    },
+    {
+        "content": "<p>Es tikai teorētiski zināt, vai QGISā to varētu darīt vai arī vieglāk citādi parsēt</p>",
+        "id": 358099007,
+        "sender_full_name": "HellMap",
+        "timestamp": 1683980887
+    },
+    {
+        "content": "<p>oh... dublējas gan<br>\n<a href=\"/user_uploads/49624/hOSxKujbBKkC0qp8y8ptvlgb/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/hOSxKujbBKkC0qp8y8ptvlgb/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/hOSxKujbBKkC0qp8y8ptvlgb/image.png\"></a></div>",
+        "id": 358099011,
+        "sender_full_name": "Colby",
+        "timestamp": 1683980889
+    },
+    {
+        "content": "<p>es ar qgis jau to daru</p>",
+        "id": 358099046,
+        "sender_full_name": "Colby",
+        "timestamp": 1683980903
+    },
+    {
+        "content": "<p>Jā, es saprotu, ka tas jau no QGIS, tāpēc es arī par iespējām uzdodu papildjautājumus <span aria-label=\"question\" class=\"emoji emoji-2753\" role=\"img\" title=\"question\">:question:</span></p>",
+        "id": 358099428,
+        "sender_full_name": "HellMap",
+        "timestamp": 1683981024
+    },
+    {
+        "content": "<p>Es cik saprotu tur ir lietojams shape file visādiem mērķiem, bet konkrēti OSM iespējas (tegi, filtri, etc) tikai tik, cik Geofabrik ir sadalījis un cik pašam pēc tam manuāli darīt - un cik un ko var darīt es īsti nezinu</p>",
+        "id": 358099580,
+        "sender_full_name": "HellMap",
+        "timestamp": 1683981074
+    },
+    {
+        "content": "<p>nu šoreiz mana vaina jo buildings un pois_a savilku kopā</p>",
+        "id": 358099820,
+        "sender_full_name": "Colby",
+        "timestamp": 1683981184
+    },
+    {
+        "content": "<p><code>\n+------------------+-------+\n|       name       | count |\n+------------------+-------+\n| Swedbank         |   230 |\n| SEB              |   200 |\n| Narvesen         |   165 |\n| Mēness aptieka   |   133 |\n| Maxima X         |   110 |\n| Circle K         |   108 |\n| Rimi             |   107 |\n| LaTS             |    99 |\n| Mego             |    96 |\n| Drogas           |    70 |\n| Elvi             |    66 |\n| Aibe             |    55 |\n| Benu             |    55 |\n| Brāļu kapi       |    51 |\n| Hesburger        |    50 |\n| Citro            |    46 |\n| Top!             |    43 |\n| Depozīta punkts  |    43 |\n| Lats             |    34 |\n| top!             |    32 |\n| Vesko            |    31 |\n| Forevers         |    30 |\n| Beta             |    29 |\n| Frizētava        |    27 |\n| Latvijas balzams |    26 |\n| Top              |    26 |\n| Citadele         |    25 |\n| Apotheka         |    25 |\n| Maxima XX        |    23 |\n| Ziedi            |    23 |\n| Lidl             |    23 |\n| Latvijas aptieka |    22 |\n| Luminor Bank     |    22 |\n| Pārtika          |    21 |\n| Tele2            |    21 |\n| Maxima XXX       |    20 |\n| LMT              |    20 |\n| Pepco            |    20 |\n| Caffeine         |    19 |\n| Euro aptieka     |    18 |\n| Veikals          |    18 |\n| Pica LuLū        |    17 |\n| Jānis Roze       |    17 |\n| Ehrle            |    17 |\n| Fenikss          |    16 |\n| Jahonts          |    16 |\n| Kurši            |    16 |\n| Ebreju kapi      |    16 |\n| Maxima           |    14 |\n+------------------+-------+\n</code></p>",
+        "id": 358100301,
+        "sender_full_name": "Colby",
+        "timestamp": 1683981372
+    },
+    {
+        "content": "<p>izlabots top 50</p>",
+        "id": 358100324,
+        "sender_full_name": "Colby",
+        "timestamp": 1683981385
+    },
+    {
+        "content": "<p>tomēr ēkas ik ļoti nenojauca rezultātus</p>",
+        "id": 358100363,
+        "sender_full_name": "Colby",
+        "timestamp": 1683981404
+    },
+    {
+        "content": "<p>Galvenais, lai mēs stādamies priekšā, uz ko vispār jāskatās.\\</p>",
+        "id": 358100794,
+        "sender_full_name": "HellMap",
+        "timestamp": 1683981567
+    },
+    {
+        "content": "<p>A Maxima bez X arī eksistē? Kā viņiem vispār tas dalās... Vai visi, kas nav XX un XXX ir automātiski X?</p>",
+        "id": 358100963,
+        "sender_full_name": "HellMap",
+        "timestamp": 1683981625
+    },
+    {
+        "content": "<p>Tabula ir case sensitive. Jautājums, vai mums ir brendi, kur atšķirība ir tikai lielajos/mazajos burtos? Vai arī var apvienot. Tas gan drošvien neko jaunu neatradīs.</p>",
+        "id": 358101552,
+        "sender_full_name": "HellMap",
+        "timestamp": 1683981873
+    },
+    {
+        "content": "<p>kuldīgas \"Maxima\" <br>\n<a href=\"/user_uploads/49624/PoYLHhB8OImKfhzUcXtSCuUS/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/PoYLHhB8OImKfhzUcXtSCuUS/image.png\" title=\"image.png\"><img src=\"/user_uploads/49624/PoYLHhB8OImKfhzUcXtSCuUS/image.png\"></a></div>",
+        "id": 358102162,
+        "sender_full_name": "Colby",
+        "timestamp": 1683982174
+    },
+    {
+        "content": "<p>viss ar maziem burtiem<br>\n<code>\n+------------------+-------+\n|       name       | count |\n+------------------+-------+\n| swedbank         |   230 |\n| seb              |   201 |\n| narvesen         |   165 |\n| lats             |   138 |\n| mēness aptieka   |   137 |\n| maxima x         |   110 |\n| circle k         |   108 |\n| rimi             |   107 |\n| mego             |    96 |\n| top!             |    77 |\n| aibe             |    74 |\n| drogas           |    70 |\n| elvi             |    69 |\n| benu             |    56 |\n| brāļu kapi       |    52 |\n| citro            |    50 |\n| hesburger        |    50 |\n| depozīta punkts  |    43 |\n| top              |    35 |\n| forevers         |    34 |\n| beta             |    33 |\n| vesko            |    32 |\n| latvijas aptieka |    28 |\n| frizētava        |    28 |\n| latvijas balzams |    27 |\n| citadele         |    25 |\n| apotheka         |    25 |\n| ziedi            |    24 |\n| maxima xx        |    23 |\n| euro aptieka     |    23 |\n| lidl             |    23 |\n| latvijas pasts   |    22 |\n| luminor bank     |    22 |\n| pārtika          |    21 |\n| tele2            |    21 |\n| maxima xxx       |    20 |\n| lmt              |    20 |\n| pepco            |    20 |\n| caffeine         |    19 |\n| ehrle            |    19 |\n| veikals          |    18 |\n| benu aptieka     |    18 |\n| jānis roze       |    18 |\n| pica lulū        |    17 |\n| mini top!        |    17 |\n| mana aptieka     |    16 |\n| fenikss          |    16 |\n| alk outlet       |    16 |\n| jahonts          |    16 |\n+------------------+-------+\n</code></p>",
+        "id": 358103780,
+        "sender_full_name": "Colby",
+        "timestamp": 1683982768
+    },
+    {
+        "content": "<p>Ļoti līdzīgi. Apakšā nedaudz dažādi.</p>",
+        "id": 358104160,
+        "sender_full_name": "HellMap",
+        "timestamp": 1683982892
+    },
+    {
+        "content": "<p>top, Top, top!, Top!</p>",
+        "id": 358104320,
+        "sender_full_name": "Colby",
+        "timestamp": 1683982943
+    },
+    {
+        "content": "<p>These are the most common POI titles with at least 10 occurences grouped by type (recognized by NSI):<br>\ntitle(s)    count   counts  tag value(s)<br>\n\"Swedbank\"  266     amenity atm <br>\n\"SEB\"   231     amenity atm <br>\n\"Narvesen\"  163     shop    convenience; kiosk; supermarket <br>\n\"Citadele\"  141     amenity atm <br>\n\"LaTS\", \"Lats\", \"LATS\", \"LaTs\"  139 104+30+2+3  shop    convenience; supermarket    <br>\n\"Mēness aptieka\", \"Mēness Aptieka\"  136 132+4   amenity pharmacy    <br>\n\"Rimi\"  119     shop    convenience; supermarket    <br>\n\"Top\", \"Top!\", \"TOP\", \"top!\", \"TOP!\", \"top\" 111 26+42+8+33+1+1  shop    convenience; supermarket    <br>\n\"Maxima X\"  107     shop    convenience; supermarket    <br>\n\"Omniva\", \"omniva\"  101 100+1   amenity parcel_locker   <br>\n\"Mego\"  92      shop    convenience; supermarket    <br>\n\"Viada\" 92      amenity fuel    <br>\n\"Circle K\"  88      amenity fuel    <br>\n\"AIBE\", \"Aibe\", \"aibe\", \"AiBe\"  78  12+57+8+1   shop    convenience; supermarket    <br>\n\"Luminor Bank\"  76      amenity atm <br>\n\"Circle K\"  72      shop    convenience <br>\n\"Elvi\", \"ELVI\", \"Elvī\"  71  66+4+1  shop    convenience; supermarket    <br>\n\"Neste\", \"NESTE\"    70  69+1    amenity fuel    <br>\n\"Drogas\"    67      shop    chemist <br>\n\"DPD\", \"dpd\"    57  55+2    amenity parcel_locker   <br>\n\"Benu\", \"BENU\"  56  55+1    amenity pharmacy    <br>\n\"Citro\", \"citro\", \"CITRO\"   50  46+3+1  shop    convenience; supermarket    <br>\n\"Hesburger\" 49      amenity fast_food   <br>\n\"Rīgas satiksme\", \"Rīgas Satiksme\"  45  35+10   amenity vending_machine <br>\n\"Luminor\"   43      amenity atm <br>\n\"Latvijas pasts\", \"Latvijas Pasts\"  42  14+28   amenity post_office <br>\n\"Lavazza\"   41      amenity vending_machine <br>\n\"Depozīta punkts\"   40      amenity recycling   <br>\n\"Tele2\" 37      office  telecommunication   <br>\n\"Venipak\"   37      amenity parcel_locker   <br>\n\"Circle K\"  36      amenity car_wash    <br>\n\"SEB\", \"Seb\"    36  34+2    amenity bank    <br>\n\"Virši\", \"Virsi\"    35  34+1    amenity fuel    <br>\n\"Forevers\", \"forevers\"  33  29+4    shop    butcher <br>\n\"beta\", \"Beta\", \"BETA\"  32  3+28+1  shop    convenience; supermarket    <br>\n\"Vesko\", \"vesko\"    31  30+1    shop    convenience; supermarket    <br>\n\"Latvijas balzams\", \"Latvijas Balzams\", \"Latvijas Balzāms\", \"Latvijas balzāms\"  31  25+1+4+1    shop    alcohol <br>\n\"Omniva\"    30      amenity vending_machine <br>\n\"e-mobi\", \"E-Mobi\"  30  29+1    amenity charging_station    <br>\n\"Frizētava\", \"Frizetava\", \"Frīzētava\", \"FRIZĒTAVA\"  30  27+1+1+1    shop    hairdresser <br>\n\"Latvijas aptieka\", \"Latvijas Aptieka\"  29  22+7    amenity pharmacy    <br>\n\"Banknote\"  28      shop    pawnbroker  <br>\n\"Apotheka\"  27      amenity pharmacy    <br>\n\"Latvijas nafta\", \"Latvijas Nafta\"  27  13+14   amenity fuel    <br>\n\"CSDD\"  26      amenity charging_station    <br>\n\"Virši-A\", \"VirŠi-A\", \"Virši-a\", \"VIRŠI-A\"  25  22+1+1+1    amenity fuel    <br>\n\"Latvijas Propāna Gāze\", \"Latvijas Propāna gāze\", \"Latvijas propāna gāze\"   24  18+3+3  amenity fuel    <br>\n\"Swedbank\"  24      amenity bank    <br>\n\"Maxima XXX\"    23      shop    supermarket <br>\n\"Lidl\"  23      shop    supermarket <br>\n\"Maxima XX\" 23      shop    supermarket <br>\n\"Partika\", \"Pārtika\"    23  2+21    shop    convenience; supermarket    <br>\n\"Ziedi\", \"ziedi\"    22  21+1    shop    florist <br>\n\"Euro aptieka\", \"EURO Aptieka\", \"Euro Aptieka\"  22  18+1+3  amenity pharmacy    <br>\n\"Citadele\"  22      amenity bank    <br>\n\"Tele2\" 22      shop    mobile_phone    <br>\n\"Autoserviss\"   20      shop    car_repair  <br>\n\"Pepco\" 20      shop    clothes <br>\n\"mini Top!\", \"mini top\", \"mini top!\", \"mini TOP\", \"mini Top\", \"Mini Top\", \"Mini TOP!\", \"Mini Top!\"  20  3+1+9+1+2+1+1+2 shop    convenience; supermarket    <br>\n\"Caffeine\"  19      amenity cafe    <br>\n\"Jānis Roze\", \"JĀNIS ROZE\", \"Janis Roze\"    19  17+1+1  shop    books   <br>\n\"Ehrle\", \"EHRLE\"    19  17+2    amenity car_wash    <br>\n\"Dino Zoo\", \"Dino zoo\"  18  17+1    shop    pet <br>\n\"Astarte\"   18      amenity fuel    <br>\n\"BENU Aptieka\", \"Benu aptieka\", \"BENU aptieka\"  18  11+5+2  amenity pharmacy    <br>\n\"Gotika Auto\", \"Gotika auto\"    18  5+13    amenity fuel    <br>\n\"Veikals\"   17      shop    convenience; supermarket    <br>\n\"Pica LuLū\" 17      amenity fast_food   <br>\n\"Jahonts\"   16      shop    jewelry <br>\n\"RD Electronics\", \"RD electronics\"  16  15+1    shop    electronics <br>\n\"Ramirent\"  16      shop    tool_hire   <br>\n\"Mana Aptieka\", \"Mana aptieka\"  16  7+9 amenity pharmacy    <br>\n\"PUTO\", \"Puto\"  16  3+13    amenity car_wash    <br>\n\"E. Gulbja Laboratorija\", \"E. Gulbja laboratorija\"  16  10+6    healthcare  laboratory  <br>\n\"Humana\"    15      shop    charity <br>\n\"Fenikss\"   15      amenity bar <br>\n\"LMT\"   15      shop    mobile_phone    <br>\n\"Kurši\" 15      shop    doityourself; hardware  <br>\n\"dpd\", \"DPD\"    15  1+14    amenity vending_machine <br>\n\"McDonald's\"    14      amenity fast_food   <br>\n\"Latvijas pasts\", \"Latvijas Pasts\"  14  3+11    amenity parcel_locker   <br>\n\"R.D.A.\"    14      shop    clothes <br>\n\"Maxima\"    14      shop    convenience; supermarket    <br>\n\"Alk outlet\", \"Alk Outlet\", \"ALK Outlet\", \"ALK OUTLET\"  14  1+9+3+1 shop    alcohol <br>\n\"Kool\", \"KOOL\"  13  3+10    amenity fuel    <br>\n\"Ergo\", \"ERGO\"  13  12+1    office  insurance   <br>\n\"aptieka 1\", \"Aptieka 1\"    13  4+9 amenity pharmacy    <br>\n\"Metropole\", \"metropole\"    12  11+1    shop    optician    <br>\n\"Alkoutlet\", \"AlkOutlet\"    12  9+3 shop    alcohol <br>\n\"Viada\" 12      shop    convenience; kiosk  <br>\n\"MyFitness\" 12      leisure fitness_centre  <br>\n\"BTA\", \"bta\"    12  10+2    office  insurance   <br>\n\"Fenikss\", \"Fēnikss\"    11  10+1    amenity gambling    <br>\n\"Mājai un dārzam\", \"Mājai un Dārzam\"    11  7+4 shop    doityourself; hardware  <br>\n\"Optimus mēbeles\", \"Optimus Mēbeles\", \"OPTIMUS mēbeles\" 11  7+3+1   shop    furniture   <br>\n\"GUSTAVbeķereja\", \"Gustavbeķereja\"  11  2+9 shop    bakery  <br>\n\"Centrālā laboratorija\", \"Centrālā Laboratorija\"    11  8+3 healthcare  laboratory  <br>\n\"Kurzemes gaļsaimnieks\", \"Kurzemes Gaļsaimnieks\"    11  9+2 shop    butcher <br>\n\"Zoo centrs\", \"Zoo Centrs\", \"zoo centrs\"    11  8+1+2   shop    pet <br>\n\"Pārtikas veikals\", \"Partikas veikals\"  11  10+1    shop    convenience <br>\n\"Laima\" 10      shop    confectionery   <br>\n\"Lukoil\"    10      amenity fuel    <br>\n\"Vynoteka\", \"VYNOTEKA\"  10  9+1 shop    alcohol <br>\n\"Aptieka\"   10      amenity pharmacy    <br>\n\"Bite\", \"bite\"  10  9+1 shop    mobile_phone    <br>\n\"Automazgātava\", \"AUTOMAZGĀTAVA\"    10  8+2 amenity car_wash    <br>\n\"Fenikss\"   10      leisure adult_gaming_centre <br>\nPOI \"title\" here means the first found value from tags \"brand\", \"name\", \"operator\". Title values are case-insensitive, leading/trailing whitespace ignored, Latvian diacritics ignored, character '!' ignored. Title counts will repeat if the same element is tagged with multiple NSI POI types.<br>\nData as of 2023-05-13T20:22:00Z. Provided as is; mistakes possible.</p>",
+        "id": 358262403,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684072137
+    },
+    {
+        "content": "<p>Jo vairāk skatos, jo vairāk sarežģījumi. Bet nu laikam šitā vairāk vai mazāk atbilst reālam vismaz daļēji pareizi nosauktam skaitam visiem NSI atpazītiem \"punktiem\". Daudz kandidātu priekš NSI un vēl vairāk kandidātu labošanai...</p>",
+        "id": 358262652,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684072221
+    },
+    {
+        "content": "<p>Šīs nosaukumu aiztāšanas nebūtu lietderīgāk <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">botam</a> pievienot? Jo manuāli vienreiz salabojot, ar laiku tāpat variācijas saradīsies. Regulāri kādam pārbaudīt laiku prasa, ko labāk veltīt automātiski neizlabojamām lietām. Sarakstu var glabāt, piemēram, kā CSV iekš GitHub.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 358265597,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1684073293
+    },
+    {
+        "content": "<p>Jā, <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">botu</a> protams var tasīt. Bet te jābūt uzmanīgam ar to visu. Nav nekādas garantijas, ka kaut kādi veikali vai kas tur vēl nesaucas vienādi. Vai arī, ka kartētājs vispār pareizi uzrakstījis. Katrs nosaukums teorētiski manuāli tik un tā jāievada. Un tur ir visvisādas kombinācijas name/brand/operator un kas tik vēl ne. Manuāli nepaskatoties, var sanākt ļoti greizi. Vismaz sākumam vajadzētu salikt visus populāros nosaukumus NSI, jo tad visādi iD un <a href=\"https://streetcomplete.app/\">SC</a> paši piedāvās salikt tegus pareizus.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 358282822,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684080381
+    },
+    {
+        "content": "<p>Vaicājumi pret esošajiem (un var arī vēsturiskajiem) datiem, protams, jāparaksta un jāapskatās, vai pieņēmums izpildās viennozīmīgi. Tas, ka tur varbūt nemaz nav nekā ar attiecīgo nozīmi, nav problēma nosaukumu labošanas kontekstā. Var izlabot nosaumumu arī apvidū neeksistējošam objektam. Pēc tam to dzēst vai izlabot pareizi jau var manuāli. Pieņēmumus, kas izpildās, ir ļoti viegli pielikt klāt adrešu <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">botam</a> (nosaukums jau veidots tāds visaptverošs ar domu, ka ar laiku varētu ne tikai adreses būt).</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 358285106,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1684081365
+    },
+    {
+        "content": "<p>Nosaukumus, kas ir \"veikals\", \"kafejnīca\" u.tml. uz tagiem parveidot, nosaukumu dzēšot (par ko bija runa iepriekš), arī nav sarežģīti. Grūtākais (laikietilpīgākais) ir izskatīt datus un atlasīt pieņēmumus, kas izpildās.</p>",
+        "id": 358285623,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1684081564
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/358602-general/topic/Nosaukumu.20nevien.C4.81d.C4.ABbas/near/357956344\">said</a>:</p>\n<blockquote>\n<p><a href=\"/user_uploads/49624/Pbvmd9ojfp1FRNOlfhOTf2jW/image.png\">pēdiņas</a><br>\noh no</p>\n</blockquote>\n<p>Uh jā, nosaukumu vienādošana, \"Veikals\" nonešana un aprakstošo \"name\" (piem., kuri iekļauj \"veikals\") vienkāršošana ir superīga lieta - ja precīzi definē izmaiņas un te apspriežot šķiet derīgas, to būtu ļoti labi darīt :)</p>",
+        "id": 358497170,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1684165235
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Nosaukumu.20nevien.C4.81d.C4.ABbas/near/357959691\">said</a>:</p>\n<blockquote>\n<p>Jā, es ik pa laiku sastopos ar kaut kādu lauku bodi, kurai nosaukums = lietojums, tādi kā Veikals vai Frizētava. Vienmēr domāju, via ir jēga to likt...</p>\n</blockquote>\n<p>Varbūt kāds jau postēja, bet - nē, tādus nevajag likt nosaukumā.<br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Good_practice#Don't_use_name_tag_to_describe_things\">https://wiki.openstreetmap.org/wiki/Good_practice#Don't_use_name_tag_to_describe_things</a></p>\n<blockquote>\n<p>The name tag should be used for the common name of a feature. It should not describe or label the feature. For example, it is incorrect to use <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aname%3Dtrack\">name=track</a> on a track road through a forest.</p>\n</blockquote>",
+        "id": 358499172,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1684165654
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/358602-general/topic/Nosaukumu.20nevien.C4.81d.C4.ABbas/near/358103780\">said</a>:</p>\n<blockquote>\n<p>viss ar maziem burtiem<br>\n<code>\n+------------------+-------+\n|       name       | count |\n+------------------+-------+\n| swedbank         |   230 |\n| seb              |   201 |\n| narvesen         |   165 |\n| lats             |   138 |\n| mēness aptieka   |   137 |\n...\n+------------------+-------+\n</code></p>\n</blockquote>\n<p>Neticu, ka ir tik daudz :D</p>",
+        "id": 358499730,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1684165769
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Nosaukumu.20nevien.C4.81d.C4.ABbas/near/358499730\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/358602-general/topic/Nosaukumu.20nevien.C4.81d.C4.ABbas/near/358103780\">said</a>:</p>\n<blockquote>\n<p>viss ar maziem burtiem<br>\n<code>\n-snip-\n</code></p>\n</blockquote>\n<p>Neticu, ka ir tik daudz :D</p>\n</blockquote>\n<p>nezināju kā citādāk padarīt case-insensitive un vnk visu pārveidoju</p>",
+        "id": 358501909,
+        "sender_full_name": "Colby",
+        "timestamp": 1684166200
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/358602-general/topic/Nosaukumu.20nevien.C4.81d.C4.ABbas/near/358501909\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Nosaukumu.20nevien.C4.81d.C4.ABbas/near/358499730\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/stream/358602-general/topic/Nosaukumu.20nevien.C4.81d.C4.ABbas/near/358103780\">said</a>:</p>\n<blockquote>\n<p>viss ar maziem burtiem<br>\n<code>\n-snip-\n</code></p>\n</blockquote>\n<p>Neticu, ka ir tik daudz :D</p>\n</blockquote>\n<p>nezināju kā citādāk padarīt case-insensitive un vnk visu pārveidoju</p>\n</blockquote>\n<p>Ā, sapratu - sākumā šķita, ka tiešām tik daudz lowercase ierakstu pašos tagos :)</p>",
+        "id": 358502647,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1684166359
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Nosaukumu.20nevien.C4.81d.C4.ABbas/near/358499172\">said</a>:</p>\n<blockquote>\n<p>Varbūt kāds jau postēja, bet - nē, tādus nevajag likt nosaukumā.</p>\n</blockquote>\n<p>Runa jau nav par aprakstu. Bet kad uz veikala liels uzraksts \"VEIKALS\" un nekā cita nav.</p>",
+        "id": 358543232,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684175714
+    },
+    {
+        "content": "<p>Man ar Colby nesakrīt skaits, jo es parsēju brand-&gt;name-&gt;operator, jo paskatījos Overpass un ir visi iespējamie varianti/kombinācijas ar šiem. Piemēram \"Swedbank\" var būt sabāzts jebkur. Es nesāku parsēt atšķirības, jo tad tur tūkstošiem kombināciju.</p>",
+        "id": 358544007,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684175919
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Nosaukumu.20nevien.C4.81d.C4.ABbas/near/358543232\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Nosaukumu.20nevien.C4.81d.C4.ABbas/near/358499172\">said</a>:</p>\n<blockquote>\n<p>Varbūt kāds jau postēja, bet - nē, tādus nevajag likt nosaukumā.</p>\n</blockquote>\n<p>Runa jau nav par aprakstu. Bet kad uz veikala liels uzraksts \"VEIKALS\" un nekā cita nav.</p>\n</blockquote>\n<p>Tas joprojām nav nosaukums :)<br>\nTad vienkārši name= ir tukšs (ja vien kaut kur citur nav nosaukums; čekā vai uz durvīm var dabūt operator=).</p>",
+        "id": 358549353,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1684177409
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Nosaukumu.20nevien.C4.81d.C4.ABbas/near/358544007\">said</a>:</p>\n<blockquote>\n<p>Man ar Colby nesakrīt skaits, jo es parsēju brand-&gt;name-&gt;operator, jo paskatījos Overpass un ir visi iespējamie varianti/kombinācijas ar šiem. Piemēram \"Swedbank\" var būt sabāzts jebkur. Es nesāku parsēt atšķirības, jo tad tur tūkstošiem kombināciju.</p>\n</blockquote>\n<p>Jā, vajadzētu vienoties par vienu \"setu\" un to puslīdz arī vienādot datos. Bankomāties es dažus mazliet pielīdzināju nesen, bet noteikti ka daaaaudz vēl palicis.</p>",
+        "id": 358549572,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1684177476
+    },
+    {
+        "content": "<p>A ja būtu \"VEIKAL\" - tad būtu nosaukums?</p>",
+        "id": 358549637,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684177491
+    },
+    {
+        "content": "<p>Tas, iespējams, būtu piekodies uzraksta licējs, kurš blakus guļ, apkampis burtu \"S\" :)</p>",
+        "id": 358551840,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1684178154
+    },
+    {
+        "content": "<p>Osmalyzer'a brendu saraksts - <a href=\"https://osmlatvija.github.io/Osmalyzer/Common%20Brands%20report.html\">https://osmlatvija.github.io/Osmalyzer/Common%20Brands%20report.html</a> Jāpalabo daudzus. Riharda priekam - daudz visādu \"Pārtika\", \"Pārtikas veikals\", \"Ziedi\", \"Automazgātava\", \"Aptieka\", \"Frizētava\", \"Autoserviss\" :)</p>",
+        "id": 373558700,
+        "sender_full_name": "HellMap",
+        "timestamp": 1688847468
+    },
+    {
+        "content": "<p><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">Botam</a> tehniski šos iebarot būtu elementāri. Manuāli jau mūžīgi varēs labot, tiklīdz kāds kārtējo aibīti ieliks. Grūtākais nonākt līdz pareizākajam variantam, ko likt brand, name un operator.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 373562325,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1688849366
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Nosaukumu.20nevien.C4.81d.C4.ABbas/near/373558700\">said</a>:</p>\n<blockquote>\n<p>Osmalyzer'a brendu saraksts - <a href=\"https://osmlatvija.github.io/Osmalyzer/Common%20Brands%20report.html\">https://osmlatvija.github.io/Osmalyzer/Common%20Brands%20report.html</a> Jāpalabo daudzus. Riharda priekam - daudz visādu \"Pārtika\", \"Pārtikas veikals\", \"Ziedi\", \"Automazgātava\", \"Aptieka\", \"Frizētava\", \"Autoserviss\" :)</p>\n</blockquote>\n<p>Jā, kategorijas kā nosaukumus liek cilvēki, kurus Google Maps tā pieradinājuši :)</p>",
+        "id": 373657423,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1688896237
+    },
+    {
+        "content": "<p>Es nebiju agrāk pamanījis, bet default karte renderē operator kā nosaukumu pakomātiem, bankomātiem u.c. - <br>\n<a href=\"/user_uploads/49624/aqaGZjV4869z8N03G1nURMYr/parcel-oper.png\">parcel-oper.png</a> \"Arguments\", ka nav kartē, ja nav nosaukums varētu pat neatteikties vairs uz noteiktiem POI.</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/aqaGZjV4869z8N03G1nURMYr/parcel-oper.png\" title=\"parcel-oper.png\"><img src=\"/user_uploads/49624/aqaGZjV4869z8N03G1nURMYr/parcel-oper.png\"></a></div>",
+        "id": 373668318,
+        "sender_full_name": "HellMap",
+        "timestamp": 1688899114
+    },
+    {
+        "content": "<p>Jā, tā ir sen, tāpēc arī cenšos likt pareizāko versiju, bez \"neīstajiem\" name.</p>",
+        "id": 373781389,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1688937158
+    }
+]

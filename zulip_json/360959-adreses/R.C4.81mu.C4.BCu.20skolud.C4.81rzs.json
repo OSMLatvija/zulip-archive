@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Šī ir pirmsskola, bet adrese ir skola. Interesanta situācija, kuru laikam pat īsti labot nevaram.<br>\nUn adresei atkal ar gramatiku vāji.<br>\n<a href=\"https://www.openstreetmap.org/node/2677843983/history\">https://www.openstreetmap.org/node/2677843983/history</a><br>\n<a href=\"/user_uploads/49624/OnFeSmblJZ5kFWG-VMRFD6NO/image.png\">skoludārzs</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/OnFeSmblJZ5kFWG-VMRFD6NO/image.png\" title=\"skoludārzs\"><img src=\"/user_uploads/49624/OnFeSmblJZ5kFWG-VMRFD6NO/image.png\"></a></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/2677843983/history\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/2677843983/history\" title=\"Node History: ‪Rāmuļu bērnudārzs‬ (‪2677843983‬) | OpenStreetMap\">Node History: ‪Rāmuļu bērnudārzs‬ (‪2677843983‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 324996222,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675192826
+    },
+    {
+        "content": "<p>Nosaukumā gan \"Rāmuļu bērnudārzs\" vietā liktu \"Rāmuļu pamatskolas pirmsskola\". Pēc <a href=\"http://www.ramuluskola.lv/pakalpojumi/\">http://www.ramuluskola.lv/pakalpojumi/</a>. Bērnudārzus sen jau pieņemts saukt par pirmsskolas izglītības iestādēm (PII), nosaukumus, kas satur \"bērnudārzs\", var pat labošanai atlasīt.</p>",
+        "id": 325001360,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1675194387
+    },
+    {
+        "content": "<p>Jā, mājas nosaukums adresē neatbilst <a href=\"https://likumi.lv/ta/id/324387#p43\">43.5. punktam</a>. Var informēt VZD un pašvaldību, bet nu tas tāpat piliens jūrā.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://likumi.lv/ta/id/324387#p43\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/91d1c88287840a065f2a7c4bd960e319f144ed00\\/68747470733a2f2f6c696b756d692e6c762f6c696b756d695f62696c6465732f5049432f4c494b3230302e4a5047)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://likumi.lv/ta/id/324387#p43\" title=\"Adresācijas noteikumi\">Adresācijas noteikumi</a></div><div class=\"message_embed_description\">Tiesību akti un to izmaiņas: visi jaunumi un arhīvs. Sistematizēti tiesību akti. Plašas meklēšanas un personalizētās iespējas. Vietni uztur „Latvijas Vēstnesis”</div></div></div>",
+        "id": 325001780,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1675194536
+    },
+    {
+        "content": "<p>Jā, <br>\n<span class=\"user-mention silent\" data-user-id=\"571929\">Dāvis Kļaviņš</span> <a href=\"#narrow/stream/360959-adreses/topic/R.C4.81mu.C4.BCu.20skolud.C4.81rzs/near/325001360\">said</a>:</p>\n<blockquote>\n<p>Nosaukumā gan \"Rāmuļu bērnudārzs\" vietā liktu \"Rāmuļu pamatskolas pirmsskola\". Pēc <a href=\"http://www.ramuluskola.lv/pakalpojumi/\">http://www.ramuluskola.lv/pakalpojumi/</a>. Bērnudārzus sen jau pieņemts saukt par pirmsskolas izglītības iestādēm (PII), nosaukumus, kas satur \"bērnudārzs\", var pat labošanai atlasīt.</p>\n</blockquote>\n<p>Jā, pie ēkas rakstīts \"Pirmsskolas grupas\" :)</p>",
+        "id": 325018066,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675200003
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571929\">Dāvis Kļaviņš</span> <a href=\"#narrow/stream/360959-adreses/topic/R.C4.81mu.C4.BCu.20skolud.C4.81rzs/near/325001780\">said</a>:</p>\n<blockquote>\n<p>Jā, mājas nosaukums adresē neatbilst <a href=\"https://likumi.lv/ta/id/324387#p43\">43.5. punktam</a>. Var informēt VZD un pašvaldību, bet nu tas tāpat piliens jūrā.</p>\n</blockquote>\n<p>Šādu tik daudz, ka to jau VZD kā atsevišķu projektu gandrīz vai vajadzētu. No nosaukumiem var izfiltrēt aizdomīgos, atmest dažus pareizos un tad jau tur noteikti būs vismaz desmitos gramatiski nepareizu.</p>",
+        "id": 325131278,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675251411
+    }
+]

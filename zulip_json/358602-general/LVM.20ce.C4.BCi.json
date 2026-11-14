@@ -1,0 +1,278 @@
+[
+    {
+        "content": "<p>I personally agree. But that's irrelevant. No one should go around changing anything or adding inconsistent data before at least some agreement.<br>\n<a href=\"/user_uploads/49624/MXjI9tXwc0jTby-dvUOyJVH9/Rainbow_trout_transparent.png\">t.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/MXjI9tXwc0jTby-dvUOyJVH9/Rainbow_trout_transparent.png\" title=\"t.png\"><img src=\"/user_uploads/49624/MXjI9tXwc0jTby-dvUOyJVH9/Rainbow_trout_transparent.png\"></a></div>",
+        "id": 378246631,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690225849
+    },
+    {
+        "content": "<p>4 messages were moved here from <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/TomTom.20-.20Fix.20inconsistent.20highway.20intersection\">#general &gt; TomTom - Fix inconsistent highway intersection</a> by <span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span>.</p>",
+        "id": 378247419,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1690226045
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"568771\">@Rihards Olups</span> , tu varētu te iekopēt no Signal par LVM ceļiem, kas bija? Es kaut kad jau to neprasīju un tu nekopēji? Es aizmirstu...</p>",
+        "id": 378247641,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690226102
+    },
+    {
+        "content": "<p>Tēmu atradu, bet tur daudzas ziņas no vairākiem lietotājiem, pa vidu citas tēmas apspriestas, bildes atsevišķi jākopē. Un tad vēl kaut kā sakarīgi katra komentāra autors jānorāda.<br>\nJa kāds meklē, sākās 2022-11-20 ar ierakstu \"Vai par LVM ceļu importu bija apspriede kādai klasifikācijai tiem jābūt?\".</p>",
+        "id": 378249684,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1690226667
+    },
+    {
+        "content": "<p>Es jau sen Signal nodzēsu, tā kā viss uz jums.</p>",
+        "id": 378250043,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690226785
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/LVM.20ce.C4.BCi/near/378236500\">said</a>:</p>\n<blockquote>\n<p>While data purism is close to my heart as well, making map data useful ranks higher.<br>\nMarking LVM roads as tracks makes our map partially useless for data users - one example below.<br>\n...<br>\n<a href=\"/user_uploads/49624/Zra4_3VOew9AKZoyKXP3AdXZ/image.png\">users don't care about our grade* polishing</a></p>\n</blockquote>\n<p>Cilvēkiem jāsaprot, ka ir kartes dati un ir to datu atspoguļošana. Tas pat nav purism, vienkārši viens un tas pats rendering neder visiem iespējamiem kartes pielietojumiem.</p>",
+        "id": 378359811,
+        "sender_full_name": "i-ky",
+        "timestamp": 1690268853
+    },
+    {
+        "content": "<p>Noteikti, bet arī no datu kategorizācijas viedokļa šis nav pareizi.<br>\nNedrīkstētu tā būt, ka vienādi objekti ir ar dažādu top līmeņa tagu, bet radikāla atšķirība paslēpta otrā līmeņa tagā, kuru vispār atcerēties nevar - tas rada problēmas arī kartētājiem.</p>",
+        "id": 378391003,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1690275902
+    },
+    {
+        "content": "<p>Kas ir \"radikāla atšķirība\" ir subjektīvi.</p>",
+        "id": 378393685,
+        "sender_full_name": "i-ky",
+        "timestamp": 1690276428
+    },
+    {
+        "content": "<p>Un tādu piemēru OSM ir daudz, kurs otrs tegs izmaina galveno. Visādi <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aarea%3Dyes\">area=yes</a> vai <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Abridge\">bridge=*</a> pielikts klāt pie <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Ahighway\">highway=*</a> uzreiz izmaina pilnībā ģeometriju. Kaut kāds relation <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Atype%3Droute\">type=route</a> ir pilnībā atkarīgs no kāds tieši <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aroute\">route=*</a>. Tas pats <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dservice\">highway=service</a> is dažādi varianti. <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dpath\">highway=path</a> tiek uzskatīts par cycleway, ja tur ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Ddesignated\">bicycle=designated</a>. Nerunājot jau par visādiem life cycle trolltagiem kā <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aabandoned%3Dyes\">abandoned=yes</a>. Tā kā nevar teikt, ka pašlaik OSM viss ir sakārtots. Tas, ka kaut kas ir \"otra līmeņa\" tegs pats par sevi nav iemesls to nelietot datu precizēšanai. Varbūt ir labāki varianti, bet tā ir atsevišķa tēma.</p>",
+        "id": 378395855,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690276835
+    },
+    {
+        "content": "<p>Jā, šādus gadījumus vajadzētu mazināt, ne vairot :)<br>\nRadikāla atšķirība - mums jāskatās, ko par to visu domā lietotāji. Ir ļoti viegli iegrimt tehniskās detaļās, 100% uzticoties wiki, un manāmi sabojāt datu lietojamību.<br>\nPie tam, tas ir grūtāk arī kartētājiem. Jā, būs kādi trīs, kuri reliģiozi visur zīmēs tracktype, bet sanāk sarežģīt to visiem pārējiem.</p>",
+        "id": 378476152,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1690291768
+    },
+    {
+        "content": "<p>Latvijā lietotāju ir mazāk nekā Wiki rakstītāju kaut kādā Vācijā vai Polijā.</p>",
+        "id": 378480348,
+        "sender_full_name": "i-ky",
+        "timestamp": 1690292513
+    },
+    {
+        "content": "<p>(vienā pilsētā)</p>",
+        "id": 378480700,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690292577
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/LVM.20ce.C4.BCi/near/378476152\">said</a>:</p>\n<blockquote>\n<p>Ir ļoti viegli iegrimt tehniskās detaļās, 100% uzticoties wiki, un manāmi sabojāt datu lietojamību.</p>\n</blockquote>\n<p>Kam tad uzticēties? Vienam lietotajam no Twitter/Xuitter/Mastodon?</p>",
+        "id": 378481922,
+        "sender_full_name": "i-ky",
+        "timestamp": 1690292771
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/LVM.20ce.C4.BCi/near/378476152\">said</a>:</p>\n<blockquote>\n<p>Jā, būs kādi trīs, kuri reliģiozi visur zīmēs tracktype, bet sanāk sarežģīt to visiem pārējiem.</p>\n</blockquote>\n<p><a href=\"https://wiki.openstreetmap.org/wiki/Key%3Asmoothness\">smoothness=*</a> nav daudz vienkāršāks...</p>",
+        "id": 378482214,
+        "sender_full_name": "i-ky",
+        "timestamp": 1690292830
+    },
+    {
+        "content": "<p>Pašreizējie LVM ceļi - zilie unclassified, sarkanie - citi<br>\n<a href=\"https://overpass-turbo.eu/s/1xZ6\">https://overpass-turbo.eu/s/1xZ6</a> <br>\n<a href=\"/user_uploads/49624/jI4K67NsiTPCBckJ9-Unil6M/lvm-col.png\">lvm-col.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/jI4K67NsiTPCBckJ9-Unil6M/lvm-col.png\" title=\"lvm-col.png\"><img src=\"/user_uploads/49624/jI4K67NsiTPCBckJ9-Unil6M/lvm-col.png\"></a></div>",
+        "id": 378492409,
+        "sender_full_name": "HellMap",
+        "timestamp": 1690294656
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVM.20ce.C4.BCi/near/378492409\">said</a>:</p>\n<blockquote>\n<p>Pašreizējie LVM ceļi - zilie unclassified, sarkanie - citi<br>\n<a href=\"https://overpass-turbo.eu/s/1xZ6\">https://overpass-turbo.eu/s/1xZ6</a> <br>\n<a href=\"/user_uploads/49624/jI4K67NsiTPCBckJ9-Unil6M/lvm-col.png\">lvm-col.png</a></p>\n</blockquote>\n<p>Es tā saprotu, ka šie ceļi visi ir OSMā ielikti un ka vajag.</p>",
+        "id": 396741210,
+        "sender_full_name": "Jānis Grīnvalds",
+        "timestamp": 1697365967
+    },
+    {
+        "content": "<p>Jā, tie ir jau esošie - tas ir, bilde no OSM datiem. Nemācēšu pateikt, cik jauno LVM ceļu (jāskatos viņu datus), bet zinu, ka būvē jaunus diezgan daudz, pārsvarā gan atzarus nekā pilnīgu jaunus garus</p>",
+        "id": 396744672,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697368574
+    },
+    {
+        "content": "<p>Vai kāds zina, kāpēc dažreiz LVM ceļi netiek parādīti? Taču krustojumos ir zīmes ar bultiņām</p>",
+        "id": 587679765,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1776664652
+    },
+    {
+        "content": "<p><img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"1225x1187\" data-original-src=\"/user_uploads/49624/sGMu3eZ_ordiWeM6D9yxI64r/image.png\" src=\"/user_uploads/thumbnail/49624/sGMu3eZ_ordiWeM6D9yxI64r/image.png/840x560.webp\"></p>",
+        "id": 587679856,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1776664689
+    },
+    {
+        "content": "<p><img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"926x797\" data-original-src=\"/user_uploads/49624/PlO0fpUSbZ_mz45MUpLasuBN/image.png\" src=\"/user_uploads/thumbnail/49624/PlO0fpUSbZ_mz45MUpLasuBN/image.png/840x560.webp\"></p>",
+        "id": 587679986,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1776664753
+    },
+    {
+        "content": "<p>Redzamas arī ceļa malas</p>",
+        "id": 587680175,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1776664835
+    },
+    {
+        "content": "<p>Sorry, vismaz man vajadzētu kādu kontekstu - kas tie par attēliem?</p>",
+        "id": 590957830,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1777199250
+    },
+    {
+        "content": "<p>LVM GEO, slānis ar LVM ceļiem</p>",
+        "id": 590958458,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1777199937
+    },
+    {
+        "content": "<p>Mans vienīgais minējums ir, ka tās ir nobrauktuves tehnikai (ar slīpumu/caurtekām), bet kur nav stiga/ceļš izbūvēti, tipa piemērs <a href=\"https://www.mapillary.com/app/?pKey=1280112323880648&amp;focus=photo\">https://www.mapillary.com/app/?pKey=1280112323880648&amp;focus=photo</a></p>",
+        "id": 590966874,
+        "sender_full_name": "HellMap",
+        "timestamp": 1777207491
+    },
+    {
+        "content": "<p>Tur jauns ceļš izbūvēts</p>",
+        "id": 590967015,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1777207662
+    },
+    {
+        "content": "<p>Tu par kaut kādu konkrētu ceļu? Varbūt nav vēl nodots kā pabeigts un nav datos...</p>",
+        "id": 590967122,
+        "sender_full_name": "HellMap",
+        "timestamp": 1777207784
+    },
+    {
+        "content": "<p>Par to kur ir tikai bultiņas virsū, varbūt nav nodots, bet man liekas tie kuri procesa ir atzīmēti ar citu stilu</p>",
+        "id": 590967213,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1777207889
+    },
+    {
+        "content": "<p>Tev tādi daudz piemēri vai kaut kāds viens trāpijās? Varbūt datos vienkārši kļūda</p>",
+        "id": 590967299,
+        "sender_full_name": "HellMap",
+        "timestamp": 1777207997
+    },
+    {
+        "content": "<p>Pievienoju par LVM ceļiem apakšnodaļu kā tos apzīmēt, ja ir ko precizēt vai papildināt, tad palabojiet.<br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Lv:Latvian_tagging_guidelines#Latvijas_valsts_me%C5%BEa_ce%C4%BCu_apz%C4%ABm%C4%93%C5%A1ana\">https://wiki.openstreetmap.org/wiki/Lv:Latvian_tagging_guidelines#Latvijas_valsts_me%C5%BEa_ce%C4%BCu_apz%C4%ABm%C4%93%C5%A1ana</a><br>\n<img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"1260x416\" data-original-src=\"/user_uploads/49624/aiHBLZCaaLeXIaajay4BTUE4/image.png\" src=\"/user_uploads/thumbnail/49624/aiHBLZCaaLeXIaajay4BTUE4/image.png/840x560.webp\"></p>",
+        "id": 638228203,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1793990940
+    },
+    {
+        "content": "<p>Gravel OSM nozīmē rupjas akmens šķembas <br>\n\"Nav īsts grants ceļš\" izklausās jocīgi</p>",
+        "id": 638229887,
+        "sender_full_name": "Colby",
+        "timestamp": 1793991362
+    },
+    {
+        "content": "<p>Paldies, izlaboju, pievienoju arī par maxweight un maxspeed, balstoties uz manas pieredzes ar Filatovkas ceļu. Domāju ja vienā ceļā tā ir, tad arī būtu jābūt citiem. <br>\n<img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"1019x1353\" data-original-src=\"/user_uploads/49624/G237_9e4YCy-pU4EablsuaFY/image.png\" src=\"/user_uploads/thumbnail/49624/G237_9e4YCy-pU4EablsuaFY/image.png/840x560.webp\"></p>",
+        "id": 638234128,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1793992441
+    },
+    {
+        "content": "<p>Zilā kvadrāta zīme ir maksimālais ieteicamais ātrums, legālais gan jau kā visiem grants ceļiem 80</p>",
+        "id": 638234613,
+        "sender_full_name": "Colby",
+        "timestamp": 1793992576
+    },
+    {
+        "content": "<p>vai ir tāds tegs OSM? vai var tomēr maxspeed</p>",
+        "id": 638235135,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1793992732
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Key:maxspeed:advisory\">maxspeed:advisory</a> ?</p>",
+        "id": 638235424,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1793992814
+    },
+    {
+        "content": "<p>Yep</p>",
+        "id": 638235467,
+        "sender_full_name": "Colby",
+        "timestamp": 1793992826
+    },
+    {
+        "content": "<p>Ieliec to filatovkas ceļa zīmi kā piemēru lai skaidrāk redzams kur to informāciju var atrast</p>",
+        "id": 638235573,
+        "sender_full_name": "Colby",
+        "timestamp": 1793992862
+    },
+    {
+        "content": "<p>Tā zīme gan protams kā parasti ir šķība - teorētiski te ir maxspeed:advisory:motorcar - uz motocikliem un neko citu (velo) neattiecas.</p>",
+        "id": 638236006,
+        "sender_full_name": "HellMap",
+        "timestamp": 1793992978
+    },
+    {
+        "content": "<p>Un pēc zīmes visā ceļa garumā jāliek tie četri <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Ahazard\">hazard=*</a></p>",
+        "id": 638236071,
+        "sender_full_name": "HellMap",
+        "timestamp": 1793993000
+    },
+    {
+        "content": "<p>Izskatās pats tuvākais hazard bīstamām ceļa nomalēm ir dangerous_roadside, lietots tikai 7 reizes.</p>",
+        "id": 638240884,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1793994416
+    },
+    {
+        "content": "<p>Es tos neliktu, jo tie ir burtiski uz katra LVM ceļa. No tā nav liela jēga. Es to tikai tā saku - ka zīme to it kā norāda.</p>",
+        "id": 638241065,
+        "sender_full_name": "HellMap",
+        "timestamp": 1793994467
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"1184352\">Rinalds</span> <a href=\"#narrow/channel/358602-general/topic/LVM.20ce.C4.BCi/near/638234128\">said</a>:</p>\n<blockquote>\n<p>Paldies, izlaboju, pievienoju arī par maxweight un maxspeed, balstoties uz manas pieredzes ar Filatovkas ceļu. Domāju ja vienā ceļā tā ir, tad arī būtu jābūt citiem. <br>\n<img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"1019x1353\" data-original-src=\"/user_uploads/49624/G237_9e4YCy-pU4EablsuaFY/image.png\" src=\"/user_uploads/thumbnail/49624/G237_9e4YCy-pU4EablsuaFY/image.png/840x560.webp\"></p>\n</blockquote>\n<p>Vai šāds plakāts legāli ir spēkā kā ceļazīme[s]?</p>",
+        "id": 638388126,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1794069113
+    },
+    {
+        "content": "<p>Kā ceļa zīmes nē, bet LVM ceļš nav LVC ceļi un kā privāta zeme tie var norādīt, ko grib un OSM on-the-ground tie būs saistoši.</p>",
+        "id": 638389021,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794069557
+    },
+    {
+        "content": "<p>Tā pat kā veikals norāda <span aria-label=\"no smoking\" class=\"emoji emoji-1f6ad\" role=\"img\" title=\"no smoking\">:no_smoking:</span></p>",
+        "id": 638389061,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794069573
+    },
+    {
+        "content": "<p>C.v. ceļa zīmes ir saistošas visur, be ne viss saistošais ir jāapzīmē ar ceļa zīmēm.</p>",
+        "id": 638389202,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794069642
+    },
+    {
+        "content": "<p>Nevar gan maldināt ar zīmēm - tā ir parastā nelaime ar pašsaliktām zīmēm.</p>",
+        "id": 638389262,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794069679
+    },
+    {
+        "content": "<p>Vismaz tas ir, cik es tālu to visu saprotu.</p>",
+        "id": 638389281,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794069694
+    }
+]

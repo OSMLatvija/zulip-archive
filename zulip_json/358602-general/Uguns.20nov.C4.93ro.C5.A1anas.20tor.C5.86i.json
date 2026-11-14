@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Parādījusies jauna lapa <a href=\"https://osm.dodies.lv/\">https://osm.dodies.lv/</a></p>\n<p>Šobrīd izmanto</p>\n<div class=\"codehilite\"><pre><span></span><code>man_made=tower\ntower:type=observation\nobservation=firewatch\n</code></pre></div>\n<p>bet tas wiki nav aprakstīts (izņemot šeit <a href=\"https://wiki.openstreetmap.org/wiki/WikiProject_Emergency_Cleanup/Emergency_Tags\">https://wiki.openstreetmap.org/wiki/WikiProject_Emergency_Cleanup/Emergency_Tags</a>)<br>\nliekas ka <code>emergency=fire_lookout</code> ir populārāks (un ir ar wiki lapu)</p>\n<p><img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"1799x919\" data-original-src=\"/user_uploads/49624/b-UCAbLYq0Cb6l3-45IoqHNr/image.png\" src=\"/user_uploads/thumbnail/49624/b-UCAbLYq0Cb6l3-45IoqHNr/image.png/840x560.webp\"><br>\nzils - <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aobservation%3Dfirewatch\">observation=firewatch</a>, sarkans <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aemergency%3Dfire_lookout\">emergency=fire_lookout</a>, zaļš abi kopā (tikai baltkrievi?)</p>\n<p>domas?</p>",
+        "id": 636055940,
+        "sender_full_name": "Colby",
+        "timestamp": 1793290994
+    },
+    {
+        "content": "<div class=\"codehilite\"><pre><span></span><code>[out:json][timeout:25];\n(\n  nwr[\"emergency\"=\"fire_lookout\"]({{bbox}});\n  nwr[\"observation\"=\"firewatch\"]({{bbox}});\n);\nout geom;\n\n{{style:\n*[observation=firewatch]\n{ color: #377eb8; fill-color:#377eb8; }\n*[emergency=fire_lookout]\n{ color: #FF0000; fill-color:#FF0000; }\n*[emergency=fire_lookout][observation=firewatch]\n{ color: #1BBF0F; fill-color:#1BBF0F; }\n</code></pre></div>\n<p>overpass ja kāds grib paskatīties tuvāk</p>",
+        "id": 636059893,
+        "sender_full_name": "Colby",
+        "timestamp": 1793291817
+    },
+    {
+        "content": "<p>oops overpass nogriezu pēdējo līniju ar <code>}}</code></p>",
+        "id": 636311610,
+        "sender_full_name": "Colby",
+        "timestamp": 1793369970
+    }
+]

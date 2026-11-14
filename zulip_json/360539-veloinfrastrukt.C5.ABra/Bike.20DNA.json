@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Iepriekš jau runājām par Bike DNA - veloinfrastruktūras kartēšanas analīzes rīku.<br>\nTagad publicēts arī raksts:<br>\n<a href=\"https://mastodon.social/@mszll@datasci.social/110586801727206798\">https://mastodon.social/@mszll@datasci.social/110586801727206798</a></p>\n<p>Būtu interesanti dzirdēt <span class=\"user-mention\" data-user-id=\"605945\">@Oto Ozols</span> eksperta viedokli, vai šis rīks noder :)</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://mastodon.social/@mszll@datasci.social/110586801727206798\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/11c4115e4e36fd1ca0e085d4189de9250253e2ef\\/68747470733a2f2f73622d3832627833787038616c2e622d63646e2e6e65742f6d656469615f6174746163686d656e74732f66696c65732f3131302f3538362f3738352f3531332f3336352f3634332f6f726967696e616c2f636561306139313039383566353338622e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://mastodon.social/@mszll@datasci.social/110586801727206798\" title=\"Michael Szell (@mszll@datasci.social)\">Michael Szell (@mszll@datasci.social)</a></div><div class=\"message_embed_description\">Attached: 1 image\n\n🥳  We just published \"BikeDNA: A tool for bicycle infrastructure data and network assessment\" in EPB, introducing our new tool BikeDNA 🚲 🧬 with @ane@mapstodon.space @anavybor https://journals.sagepub.com/doi/10.1177/23998083231184471\n\nBikeDNA is a :jupyter: :python: Python-based tool for assessing the quality of #OpenStreetMap and other bike infrastructure data sets in a reproducible way. It provides planners, researchers, data maintainers, cycling advocates, a detailed, informed overview of data quality in a given area.\nhttps://github.com/anerv/BikeDNA</div></div></div>",
+        "id": 368545113,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1687438121
+    },
+    {
+        "content": "<p>Un nekāda saita viņiem nav, kur ir kaut kāds preview? Tipa tas ir one-time parsing pa datiem. Ja grib savā vietā, tad seko installation soļiem.</p>",
+        "id": 368546479,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687438374
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360539-veloinfrastrukt.C5.ABra/topic/Bike.20DNA/near/368546479\">said</a>:</p>\n<blockquote>\n<p>Un nekāda saita viņiem nav, kur ir kaut kāds preview? Tipa tas ir one-time parsing pa datiem. Ja grib savā vietā, tad seko installation soļiem.</p>\n</blockquote>\n<p>Var palūrēt uz <a href=\"https://github.com/anerv/BikeDNA#demo\">demo</a> report:</p>\n<blockquote>\n<p>For an example of results that BikeDNA can produce, see a demo PDF output here: <a href=\"https://github.com/anerv/BikeDNA/blob/GeoDanmark/exports/cph_geodk/pdf/report.pdf\">report.pdf</a></p>\n</blockquote>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/anerv/BikeDNA#demo\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/609ec762b63368bac6e2a397be42cc498dd6c4a6\\/68747470733a2f2f7265706f7369746f72792d696d616765732e67697468756275736572636f6e74656e742e636f6d2f3537333439373237362f66356464386634662d306333612d343433652d386234352d636661366531376632303437)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/anerv/BikeDNA#demo\" title=\"GitHub - anerv/BikeDNA: BikeDNA: Bicycle Infrastructure Data &amp; Network Assessment\">GitHub - anerv/BikeDNA: BikeDNA: Bicycle Infrastructure Data &amp; Network Assessment</a></div><div class=\"message_embed_description\">BikeDNA: Bicycle Infrastructure Data &amp; Network Assessment - GitHub - anerv/BikeDNA: BikeDNA: Bicycle Infrastructure Data &amp; Network Assessment</div></div></div>",
+        "id": 368548920,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687438869
+    }
+]

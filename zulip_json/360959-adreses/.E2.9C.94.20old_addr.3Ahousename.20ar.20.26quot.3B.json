@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p><a href=\"https://github.com/openstreetmap/openstreetmap-website/issues/3873\">https://github.com/openstreetmap/openstreetmap-website/issues/3873</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/openstreetmap/openstreetmap-website/issues/3873\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/b3e94e2ab72d38743930c3a51b63675782b0bc31\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f646365353734396263653432303864363432626261316562623238323231303336646530353539633162306663623763613435613763656365636335363762362f6f70656e7374726565746d61702f6f70656e7374726565746d61702d776562736974652f6973737565732f33383733)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/openstreetmap/openstreetmap-website/issues/3873\" title=\"Quotes in tag value are rendered as &quot; · Issue #3873 · openstreetmap/openstreetmap-website\">Quotes in tag value are rendered as &quot; · Issue #3873 · openstreetmap/openstreetmap-website</a></div><div class=\"message_embed_description\">URL https://www.openstreetmap.org/way/79091438 How to reproduce the issue? Find a node, way or relation with &quot; character in tag value Open respective element page on openstreetmap.org website ...</div></div></div>",
+        "id": 319554684,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672914810
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> has marked this topic as resolved.</p>",
+        "id": 319554706,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1672914818
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/360959-adreses/topic/.E2.9C.94.20old_addr.3Ahousename.20ar.20.26quot.3B/near/319554684\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://github.com/openstreetmap/openstreetmap-website/issues/3873\">https://github.com/openstreetmap/openstreetmap-website/issues/3873</a></p>\n</blockquote>\n<p>Burvīgi, ka šeit tas norenderējas šādi :)<br>\n<a href=\"/user_uploads/49624/aUMi9L4bFehHsGvYirBaqRg-/image.png\">rendered as</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/aUMi9L4bFehHsGvYirBaqRg-/image.png\" title=\"rendered as\"><img src=\"/user_uploads/49624/aUMi9L4bFehHsGvYirBaqRg-/image.png\"></a></div>",
+        "id": 319594026,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672928014
+    }
+]

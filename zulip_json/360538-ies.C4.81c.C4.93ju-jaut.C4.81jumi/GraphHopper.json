@@ -1,0 +1,134 @@
+[
+    {
+        "content": "<p>Labdien, dāmas un kungi! <br>\nMan patiešām ir nepieciešama zinošas kopienas palīdzība - ir GraphHopper, kurš izmanto standarta iestatījumus un OpenStreetMap, lai izveidotu maršrutus OSM kartē.  Pirms kartes atjaunināšanas maršruts tika lieliski uzbūvēts uz ceļa posma, kur var doties tikai autobusi  (maršruts ir būvēts autobusam).  Pēc kartes atjaunināšanas tur vairs nav iespējams uzzīmēt maršrutu. GraphHopper iestatījumi nav mainījušies. Lūdzu, sniedziet padomu, kā atrisināt šo problēmu. <br>\n p.s. Es ceru, ka  uzrakstīju pareizajā sadaļā</p>\n<p>confg.yml:<br>\n graphhopper:<br>\n  datareader.file: \"\"</p>\n<p>graph.location: graph-cache<br>\n  profiles:</p>\n<div class=\"codehilite\"><pre><span></span><code>- name: car\n  vehicle: car\n  weighting: fastest\n</code></pre></div>\n\n<p>profiles_ch:</p>\n<div class=\"codehilite\"><pre><span></span><code>- profile: car\n</code></pre></div>",
+        "id": 419039418,
+        "sender_full_name": "Julia F",
+        "timestamp": 1706707790
+    },
+    {
+        "content": "<p>Atsaucoties uz <a href=\"https://www.openstreetmap.org/changeset/146820290\">https://www.openstreetmap.org/changeset/146820290</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/changeset/146820290\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/changeset/146820290\" title=\"Changeset: 146820290 | OpenStreetMap\">Changeset: 146820290 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 419040118,
+        "sender_full_name": "HellMap",
+        "timestamp": 1706708034
+    },
+    {
+        "content": "<p>Cik skatos, GraphHopper <code>vehicle: car</code> profils neiekļauj autobusus. Nekad neesmu to darījis, bet skatoties GH repo, viņiem ir \"bus\" preset paraugs/modelis <a href=\"https://github.com/graphhopper/graphhopper/blob/b92bc8f059af00a60296ff3c6d1c21b7abc73a8e/core/src/main/resources/com/graphhopper/custom_models/bus.json\">https://github.com/graphhopper/graphhopper/blob/b92bc8f059af00a60296ff3c6d1c21b7abc73a8e/core/src/main/resources/com/graphhopper/custom_models/bus.json</a> un <a href=\"https://github.com/graphhopper/graphhopper/blob/master/docs/core/profiles.md\">https://github.com/graphhopper/graphhopper/blob/master/docs/core/profiles.md</a> ir apraksts par profiliem un custom model Izskatās, ka bus.json minētais config.yml iekļaujamais \"graph.vehicles: roads|transportation_mode=BUS,car\"  <br>\ntad pareizi izvēlēsies <code>bus</code> hierarhijas tegus <a href=\"https://github.com/graphhopper/graphhopper/blob/b92bc8f059af00a60296ff3c6d1c21b7abc73a8e/core/src/main/java/com/graphhopper/routing/util/parsers/OSMRoadAccessParser.java#L97\">https://github.com/graphhopper/graphhopper/blob/b92bc8f059af00a60296ff3c6d1c21b7abc73a8e/core/src/main/java/com/graphhopper/routing/util/parsers/OSMRoadAccessParser.java#L97</a> Tas viss ļoti ātri paskatoties, nekad neesmu to personīgi agrāk darījis. Un nezinu, vai te kāds cits ir.</p>",
+        "id": 419042320,
+        "sender_full_name": "HellMap",
+        "timestamp": 1706708760
+    },
+    {
+        "content": "<p>Te arī relatīvi nesena Graphhopper diskusija par šo: <a href=\"https://discuss.graphhopper.com/t/routing-for-public-transport-on-own-graphhopper-instance/7841\">https://discuss.graphhopper.com/t/routing-for-public-transport-on-own-graphhopper-instance/7841</a> .<br>\nIespējams, autobusu profila izmantošana var kā līdzēt (lai gan tur kaut kādas problēmas beigās minētas).<br>\nTas arī ļautu ievērot maxweight u.c. tagus.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://discuss.graphhopper.com/t/routing-for-public-transport-on-own-graphhopper-instance/7841\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/2ef4f6afeae5c4899b562fa9b4a71fc32a8be55c\\/68747470733a2f2f646973637573732e6772617068686f707065722e636f6d2f75706c6f6164732f64656661756c742f6f726967696e616c2f31582f653136646638653831333239306534353831366335643637373566326362666565346166346239662e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://discuss.graphhopper.com/t/routing-for-public-transport-on-own-graphhopper-instance/7841\" title=\"Routing for public transport on own graphhopper instance?\">Routing for public transport on own graphhopper instance?</a></div><div class=\"message_embed_description\">Hi,  sorry if this was discussed and there’s a solution (i’m coming back to this forum after a while).  Graphhopper is a great tool and we’re using it on our own hosting with own GTFS editing software to auto-create shapes for trip patterns of routes. Using standard setup, where car profile is used to generate those. Of course struggling in cases of bus terminals where cars are forbidden. When switching to bike profile, it’s better, but in other places it’s using incorrect roads.  Please advise ...</div></div></div>",
+        "id": 419042571,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1706708826
+    },
+    {
+        "content": "<p>Bet vispārīgi par tiem ceļiem autoostā - mēs nevaram likt <code>motor_vehicle=yes</code>, ja tur nav atļauts/legāli braukt jebkuram ar mehanizētiem transportlīdzekļiem. Citiem vārdiem, <code>motor_vehicle=yes</code> nozīmē, ka es un tu un Rihards var kāpt auto un braukāt tur pa aplīti. OSM datos mēs tāpēc to norādīt nevaram, jo (ja) tur ir atļauts tikai autobusiem.</p>",
+        "id": 419043267,
+        "sender_full_name": "HellMap",
+        "timestamp": 1706709018
+    },
+    {
+        "content": "<p>Paldies par atbildēm. Esmu arī redzējis, ka  var izmantot custom settings, bet man baigi mulsina fakts,<br>\n ka pirms tam, izmantojot tikai car, bija iespēja izveidot maršrutu pa šo ielu.</p>",
+        "id": 419046641,
+        "sender_full_name": "Julia F",
+        "timestamp": 1706709934
+    },
+    {
+        "content": "<p>To es arī ne visai saprotu no apraksta, jo uz tiem ceļiem ir un bija <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aaccess%3Dno\">access=no</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abus%3Dyes\">bus=yes</a> vismaz 3 gadus. Tur maršrutētājam nekad nevajadzēja mašīnas laist. Izklausās, ka vai nu GraphHopper problēma vai konfigurācijas problēma.</p>",
+        "id": 419047649,
+        "sender_full_name": "HellMap",
+        "timestamp": 1706710201
+    },
+    {
+        "content": "<p>Pirms atjaunināšanas tika izmantota karte no 08.2020</p>",
+        "id": 419048953,
+        "sender_full_name": "Julia F",
+        "timestamp": 1706710580
+    },
+    {
+        "content": "<p>Tad izklausās, ka problēma ir konfigurācijā un uz 2020. kartē bija nepareizi dati.</p>",
+        "id": 419051462,
+        "sender_full_name": "HellMap",
+        "timestamp": 1706711227
+    },
+    {
+        "content": "<p>Vai tomēr ir kāda iespēja izmainīt šo ielu kartē ar parametriem <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amotor_vehicle%3Dyes\">motor_vehicle=yes</a>, lai lejupielādētu karti lokalai lietošanai un nemainītu GraphHopper iestatījumus? Vai vienīgais risinājums ir labot GraphHopper settings?</p>",
+        "id": 419055735,
+        "sender_full_name": "Julia F",
+        "timestamp": 1706712351
+    },
+    {
+        "content": "<p>OSM kartē noteikti nepareizas vērtības nevar likt. Jo tagad pa šo ceļu vedīs automašīnas visi citi navigatori un kartes. Un galu galā, jebkurā citā vietā, kur kāds pareizi saliks tikai-autobusa ceļu/maršrutu ierobežojumus, šie iestatījumi nestrādās. Ir jau daudz vietu, kur ir maršruti pa kaut kādiem sānceļiem, kas domāti tikai publiskajam.</p>",
+        "id": 419057244,
+        "sender_full_name": "HellMap",
+        "timestamp": 1706712762
+    },
+    {
+        "content": "<p>Var lokāli novilktos PBF datus manuāli vai automātiski izmainīt. Bet es ne visai stādos priekšā, kādi tur būtu kritēriji. Laikam, ja ceļam ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abus%3Dyes\">bus=yes</a>, tad pielikt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Amotor_vehicle%3Dyes\">motor_vehicle=yes</a>?</p>",
+        "id": 419057469,
+        "sender_full_name": "HellMap",
+        "timestamp": 1706712832
+    },
+    {
+        "content": "<p>Man liekas vienkāršāk būtu vienu reizi izveidot pareizus uzstatījumus.</p>",
+        "id": 419057614,
+        "sender_full_name": "HellMap",
+        "timestamp": 1706712868
+    },
+    {
+        "content": "<p>Protams, runāju par lokalam labojumiem, nevis publiskam. Milzīgs paldies par palidzību!</p>",
+        "id": 419058447,
+        "sender_full_name": "Julia F",
+        "timestamp": 1706713111
+    },
+    {
+        "content": "<p>Jā, kā HellMap minēja, teorētiski var lokāli izveidot \"nepareizus\" datus, bet labāk tomēr būtu salabot maršrutēšanu.<br>\nTas nākotnē ļautu daudz veiksmīgāk izmantot arī pārējos piekļuves un ierobežojumu tagus.<br>\nBūtu arī ļoti interesanta tēma, par kuru pastāstīt kādā OSM pasākumā, ja būtu par to interese :)</p>",
+        "id": 419120744,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1706734033
+    },
+    {
+        "content": "<p>Labrīt, <br>\nPaldies par piedāvājumu, bet tā ir mana pirmā pieredze ar OSMkartem :-) Patestēju pamainīt tag lokāli - viss sanāca. Bet kamēr risināju problēmu ar vienu konkrētu vietu, izrādās, ka pēc jaunas osm.pbf uzlikšanas parādījās globāla problēma: laižot GH lokāli, maršruts no start point līdz end point veidojas pareizi - linīja iet tieši (pārsvarā) pa ceļu, bet izsaucot GH no web app, start un end point izvietojas pareizi, bet linīja rodas ārpus ceļa. Koordinātes punktam ir pareizas, bet linīja nepiesniedzas pie viņiem.</p>",
+        "id": 419774621,
+        "sender_full_name": "Julia F",
+        "timestamp": 1707116103
+    },
+    {
+        "content": "<p>Personīgi, nekad tik dziļi neesmu neko ar GH darījis un pat minēt nevarētu kapēc.</p>",
+        "id": 419801383,
+        "sender_full_name": "HellMap",
+        "timestamp": 1707127152
+    },
+    {
+        "content": "<p>Jā, tagu nomainīšana lokāli var būt ātrākais variants, lai gan tas, visticamāk, būs biežāk jālabo vēlāk :)</p>\n<p>Atšķirības - vai ir kāds screenshot?</p>",
+        "id": 419834666,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1707138219
+    },
+    {
+        "content": "<p>Jā, protams<br>\n<a href=\"/user_uploads/49624/CqH2Qr4Om9ecWeNXyh8cP1t6/route.png\">route.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/CqH2Qr4Om9ecWeNXyh8cP1t6/route.png\" title=\"route.png\"><img src=\"/user_uploads/49624/CqH2Qr4Om9ecWeNXyh8cP1t6/route.png\"></a></div><p>Ko es izdariju:</p>\n<ol>\n<li>lejuplādēju jaunāko failu no <a href=\"http://download.geofabrik.de/europe/latvia-latest.osm.pbf\">http://download.geofabrik.de/europe/latvia-latest.osm.pbf</a></li>\n<li>iztīriju GrahHopper cache direktoriju</li>\n<li>parstarteju serviss Tomcat8;</li>\n<li>un izmaiņas nebija paņemtas - pie Ķekavas jauna apvedceļa nezīmejas maršruts.</li>\n<li>tālāk atkal izdzēsu kešu un izpildiju<br>\njava -Ddw.graphhopper.datareader.file=latvia-latest1.osm.pbf -jar graphhopper-web-1.0.jar server config.yml<br>\nPēc tam uz jauna ceļa varēju zīmet maršutu  tikai izrādas, ka viņš sāka  zīmeties ārpus ceļa pa visai kartei.</li>\n</ol>",
+        "id": 419840057,
+        "sender_full_name": "Julia F",
+        "timestamp": 1707139954
+    },
+    {
+        "content": "<p>Aizdomīgi perfekti tieši gar ceļiem iet. Tas nav kāds offset parametrs, lai neaizsegtu ceļus?</p>",
+        "id": 419906775,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1707159148
+    },
+    {
+        "content": "<p>paldies,apskatīsu. Tas varetu būtu GH parametrs?</p>",
+        "id": 419998673,
+        "sender_full_name": "Julia F",
+        "timestamp": 1707208845
+    },
+    {
+        "content": "<p>Īsti nezinu, man diemžēl nav pieredzes ar GH.</p>",
+        "id": 420231022,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1707305223
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Kāda starpība starp šiem tegiem?</p>\n<p>Ja ir, piemēram, Kantinieku pilskalns, bet to arī sauc par Kantinīku pilskalnu (drošvien latgaliski), tad kuru lietot no šiem un kāpēc?</p>",
+        "id": 637858006,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1793893339
+    },
+    {
+        "content": "<p>Piemēram tad šādi?</p>\n<div class=\"codehilite\"><pre><span></span><code>  name = Kantinieku pilskalns\n  name:en = Kantinieku Castle Hill\n  name:lv = Kantinieku pilskalns\n  reg_name = Kantinīku pilskalns\n  reg_name:ltg = Kantinīku pilskalns\n  reg_name:en = Kantinīku Castle Hill\n</code></pre></div>",
+        "id": 637865316,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1793894628
+    },
+    {
+        "content": "<p>Hillfort būtu precīzāk angliski man liekas</p>",
+        "id": 637882297,
+        "sender_full_name": "Colby",
+        "timestamp": 1793897534
+    }
+]

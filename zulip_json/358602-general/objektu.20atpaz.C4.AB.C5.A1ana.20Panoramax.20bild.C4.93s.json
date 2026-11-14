@@ -1,0 +1,176 @@
+[
+    {
+        "content": "<p>Šis ir diezgan kūl, neizskatās neiespējami :)</p>\n<p><a href=\"https://mastodon.social/@PanierAvide@framapiaf.org/112038223108389144\">https://mastodon.social/@PanierAvide@framapiaf.org/112038223108389144</a></p>",
+        "id": 424735381,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1709581674
+    },
+    {
+        "content": "<p>Jāsāk augšupielādēt savi Mapillary arhīvi uz Panoramax :D</p>",
+        "id": 424739005,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1709583145
+    },
+    {
+        "content": "<p>Panoramax gan nav globālu instanču, doma tāda, ka kopienām ir savas.</p>",
+        "id": 424745512,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1709585718
+    },
+    {
+        "content": "<p><a href=\"https://geovisio.shema.lv/\">Lūdzu</a>.</p>\n<p>Pagaidām tas ir tikai izmēģināšanai, bet, ja mums, kā kopienai, ir pietiekama vēlme un resursi, lai, ko šādu uzstādītu uz ilgāku laiku, es labprāt palīdzētu. :)</p>",
+        "id": 424949088,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1709669342
+    },
+    {
+        "content": "<p>Woah, labais :)<br>\nTur gan prasītos kaut kādu ilgtermiņa finansējumu + backupus. Ja pēkšņi viss uploadotais pazustu, būtu trrrraki bēdīgi :)</p>",
+        "id": 424949294,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1709669430
+    },
+    {
+        "content": "<p>Jā, protams. Man šķiet, ka šādas lietas varētu būt vieglāk īstenot, ja mums būtu kāda OSM Latvijas biedrība ;)</p>",
+        "id": 424950861,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1709670146
+    },
+    {
+        "content": "<p>Noteikti, tik jautājums, cik tā būtu liela un dzīvotspējīga. Pirms daudziem gadiem par to spriežot tika apsvērta iespēja pieslieties LAKA vai LATA. Ko vislabāk darīt 2024. gadā, nez :)</p>",
+        "id": 425074510,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1709728113
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/_HxgvlKirv3V5CdTaYXzjhqJ/signs-lul.png\">signs-lul.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/_HxgvlKirv3V5CdTaYXzjhqJ/signs-lul.png\" title=\"signs-lul.png\"><img src=\"/user_uploads/49624/_HxgvlKirv3V5CdTaYXzjhqJ/signs-lul.png\"></a></div>",
+        "id": 425074934,
+        "sender_full_name": "HellMap",
+        "timestamp": 1709728267
+    },
+    {
+        "content": "<p>Jā, auto-blur joprojām ir grūti. Mapillary ar to grūti iet jau ļoti daudzus gadus :)</p>",
+        "id": 425075060,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1709728317
+    },
+    {
+        "content": "<p>Tas ir atkarīgs no MI modeļa. Var izmantot <a href=\"https://github.com/panoramax-project/DetectionTutorial\">šo pašu pamācību</a>, lai uztrenētu labāku modeli, tikai vajag datus.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/panoramax-project/DetectionTutorial\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/c8589de0a3609f4331802ec5a3a86f3826817ba6\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f313732656663623865613961396264353364363935326332646665343330623131656361633438313138656366613336383231616666643562326239323332332f70616e6f72616d61782d70726f6a6563742f446574656374696f6e5475746f7269616c)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/panoramax-project/DetectionTutorial\" title=\"GitHub - panoramax-project/DetectionTutorial: Detecting features on pictures using YOLO, Panoramax &amp; OpenStreetMap\">GitHub - panoramax-project/DetectionTutorial: Detecting features on pictures using YOLO, Panoramax &amp; OpenStreetMap</a></div><div class=\"message_embed_description\">Detecting features on pictures using YOLO, Panoramax &amp; OpenStreetMap - panoramax-project/DetectionTutorial</div></div></div>",
+        "id": 425075639,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1709728508
+    },
+    {
+        "content": "<p>Personīgi, neredzu jēgu taisīt vēl vienu lokālu projektu, it īpaši tik resursu prasošu, it īpaši valstī, kur tā pat ļoti maz zīmētāju nerunājot jau par tiem, kas vēl taisa street-view bildes. Un kā to pēc tam lietot zīmēšanai? Mapillary integrēts redaktoros - par kaut kādu Panoramax nekad nebiju dzirdējis. Un te vēl kaut ko pašam vajag trenēt... tas ir 99% lietotāju garām.</p>",
+        "id": 425075919,
+        "sender_full_name": "HellMap",
+        "timestamp": 1709728619
+    },
+    {
+        "content": "<blockquote>\n<p><a href=\"https://matrix.to/#/!HanNuzEdYJdIyoGpja:shema.lv/$Muxiq-x2HNBE8lq39eWZf3_5HLbIOcq6uRMm1ipDWsA?via=shema.lv\">In reply to</a> <a href=\"https://matrix.to/#/@zulip_osm=20latvija_568771:shema.lv\">@zulip\\_osm=20latvija\\_568771:shema.lv</a>  <br>\nNoteikti, tik jautājums, cik tā būtu liela un dzīvotspējīga. Pirms daudziem gadiem par to spriežot tika apsvērta iespēja pieslieties LAKA vai LATA. Ko vislabāk darīt 2024. gadā, nez :)</p>\n</blockquote>\n<p>Starpcitu, šovakar 18.30 ir LAKA tikšanās, varbūt tu vēlies pievienoties? :D</p>",
+        "id": 425076001,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1709728653
+    },
+    {
+        "content": "<p>Par jēgu - Mapillary pieder Facebook. Lai gan esmu tur augšuplādējis ne vienu vien miljonu bilžu, riski ir milzīgi.<br>\nBet likt visu Panoramax bez ilgtermiņa stabilitātes plāniem - riski pat lielāki :)</p>\n<p>Tā ka būtu burvīgi, bet jāvirzās uzmanīgi.<br>\nVarbūt kāda kopīga instance Baltijas valstīm, varbūt Latvijā kādi uzņēmumi saņemsies. Tas pat saskanētu ar LATAs vajadzībām, tik gan jau ka viņiem arī netrūkst darāmā.</p>",
+        "id": 425076594,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1709728854
+    },
+    {
+        "content": "<p>LAKAs tikšanās - man tieši tas laiks ir trakākais darba tikšanās ziņā, pārklāšanās ar kolēģu laika zonām :)</p>",
+        "id": 425076700,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1709728899
+    },
+    {
+        "content": "<p>Nu, es neredzu jēgu par kaut ko mazāku kā pasaules mēroga servisu ar long-term endowment fund. Kaut kādas Baltijas valstis var spēlēties ar kaut kādiem lokāliem eksperimentiem. Bet pasaules mērogā brīva, centralizēta un galvenais lietojama street-view veidošanā tas viss ir neprakstisks un tā - savā starpā parunāšana. Pat par Mapillary neviens pasaulē nezin, kur vēl kaut kādi sīki projekti.</p>",
+        "id": 425077953,
+        "sender_full_name": "HellMap",
+        "timestamp": 1709729259
+    },
+    {
+        "content": "<blockquote>\n<p>tik resursu prasošu  </p>\n</blockquote>\n<p>Ļoti daudz resursus jau it kā neizmanto, pārsvarā tikai atmiņa, lai uzglabātu bildes. </p>\n<blockquote>\n<p>neredzu jēgu taisīt vēl vienu lokālu projektu  </p>\n</blockquote>\n<p>Panoramax arī šobrīd tiek taisīta federācija, tas nozīmē, ka serveri varēs savienoties un nebūs viss tikai lokāli. </p>\n<blockquote>\n<p>kā to pēc tam lietot zīmēšanai  </p>\n</blockquote>\n<p><a href=\"https://github.com/openstreetmap/iD/issues/9941\">ID</a> un <a href=\"https://josm.openstreetmap.de/ticket/23086\">JOSM</a> integrācijas jau ir pieprasītas, kādam tikai jāuzņemās tās uzrakstīt.</p>\n<blockquote>\n<p>kaut ko pašam vajag trenēt... tas ir 99% lietotāju garām  </p>\n</blockquote>\n<p>Lietotājiem neko nevajag trenēt, to var darīt cilvēks, kurš uzstāda instanci, ja ir vēlme.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/openstreetmap/iD/issues/9941\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/75b1dbef9bb8096bd29bfcbaa1f41036d8a90fc9\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f626433353330316266353236633265366364613232323833343462626265613130666339393364323531666333313538323337663633313231643933323530612f6f70656e7374726565746d61702f69442f6973737565732f39393431)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/openstreetmap/iD/issues/9941\" title=\"Add panoramax streetlevel image data · Issue #9941 · openstreetmap/iD\">Add panoramax streetlevel image data · Issue #9941 · openstreetmap/iD</a></div><div class=\"message_embed_description\">Description Hello, It would be interesting to plan now to integrate the street imagery of the panoramax instances ( osm , ign ...etc ) in the same way as that of Mapillary. With, just like this one...</div></div></div>",
+        "id": 425079914,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1709729901
+    },
+    {
+        "content": "<p>Cik ātri katru bildi izparsē?</p>",
+        "id": 425081235,
+        "sender_full_name": "HellMap",
+        "timestamp": 1709730296
+    },
+    {
+        "content": "<p>Storage - tikai manas bildes Mapillary varētu aizņemt tuvu 50TB. OK, tas ir gadiem vākts, bet kameras kļūst labākas, bildes lielākas... Un vēl backupi tam visam.<br>\nTīkla trafiks - to visu vajag augšuplādēt, un jābūt lejuplādējamam.<br>\nTas viss kopā savācas par diezgan iespaidīgu summu.</p>\n<p>Pat lielās kopienas kā Francijas un Beļģijas OSM neriskē aicināt augšuplādēt bildes no citām valstīm :)<br>\nBeļģi vispār sūta SD kartes fiziski pastā bieži kā backupu. Tas baigi neskeilojas.</p>\n<p>Tas nenozīmē, ka ko tādu nevajag - būtu šaušalīgi burvīgi. Bet ja šāda instance nomirtu ar visām bildēm, tas būtu pārāk bēdīgi :)</p>",
+        "id": 425081497,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1709730368
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/objektu.20atpaz.C4.AB.C5.A1ana.20Panoramax.20bild.C4.93s/near/425081497\">said</a>:</p>\n<blockquote>\n<p>Beļģi vispār sūta SD kartes fiziski pastā bieži kā backupu. Tas baigi neskeilojas.</p>\n</blockquote>\n<p>LOL. Bet jā, es teiksiem drusku aplīti izmetu dienā - 30 km, 12K bilžu, 35 GB. Pagāšgad kopā 3.4 TB un pāris miljonu bilžu.</p>",
+        "id": 425082840,
+        "sender_full_name": "HellMap",
+        "timestamp": 1709730781
+    },
+    {
+        "content": "<p>Un Mapillary jau tā bremzē nenormāli un gļuko ar visiem FB resursiem. Bildes procesē vairākas dienas parasti. Tas Franču Panoramax lādējas kādu minūti.</p>",
+        "id": 425083122,
+        "sender_full_name": "HellMap",
+        "timestamp": 1709730873
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/objektu.20atpaz.C4.AB.C5.A1ana.20Panoramax.20bild.C4.93s/near/425081235\">said</a>:</p>\n<blockquote>\n<p>Cik ātri katru bildi izparsē?</p>\n</blockquote>\n<p>1,9 sekundes/bildi/<a href=\"https://github.com/GearKite/sgblur\">sgblur</a> instanci. Reāli var palaist instanci katram procesora kodolam. Kā arī, ļoti grib paātrināt var pielikt klāt video karti MI paātrināšanai.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/GearKite/sgblur\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/8d3fb536701ec5bab0ea6488434614695003ee91\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f333538396536313339616564643362346337323464363530333266366265373633343866333330636664333765633739363733326332646636373861653436662f476561724b6974652f7367626c7572)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/GearKite/sgblur\" title=\"GitHub - GearKite/sgblur: &quot;Speed Gonzales&quot; blurring API for the Panoramax project\">GitHub - GearKite/sgblur: \"Speed Gonzales\" blurring API for the Panoramax project</a></div><div class=\"message_embed_description\">\"Speed Gonzales\" blurring API for the Panoramax project - GearKite/sgblur</div></div></div>",
+        "id": 425084051,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1709731116
+    },
+    {
+        "content": "<blockquote>\n<p>50TB</p>\n</blockquote>\n<p>Nav nekas, ko nevarētu atrisināt daži 18TB diski :D</p>\n<blockquote>\n<p>Tīkla trafiks - to visu vajag augšuplādēt, un jābūt lejuplādējamam.</p>\n</blockquote>\n<p>50TB trafiks nemaz nav tik daudz mūsdienu serveriem, ar 10GBit/s pieslēgumu neaizņemtu vairāk kā dienu, lai visu lejupielādētu.</p>\n<blockquote>\n<p>ja šāda instance nomirtu ar visām bildēm, tas būtu pārāk bēdīgi</p>\n</blockquote>\n<p>Protams, bet vienmēr var arī paralēli augšupielādēt, piemēram, uz Mapillary. Tad būs kā pēdējais backup.</p>",
+        "id": 425088232,
+        "sender_full_name": "AmOosm",
+        "timestamp": 1709732354
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"607550\">AmOosm</span> <a href=\"#narrow/stream/358602-general/topic/objektu.20atpaz.C4.AB.C5.A1ana.20Panoramax.20bild.C4.93s/near/425088232\">said</a>:</p>\n<blockquote>\n<blockquote>\n<p>50TB</p>\n</blockquote>\n<p>Nav nekas, ko nevarētu atrisināt daži 18TB diski :D</p>\n</blockquote>\n<p>Jā, bet tam visam jābūt pie tīkla, ar kaut kādu availability risinājumu, backupiem...<br>\nJa saaicināsim cilvēkus tur augšuplādēt bildes un pasākums pēc dažiem gadiem nomirs, tas būs nopietns demotivators.</p>\n<p>Tā vienkāršoti var sarēķināt, cik tas izmaksātu AWS (ieskaitot offsite/offline backupus, jo kādam var šķist smieklīgi salauzt un visu izdzēst...) - tas neietvertu nepieciešamo maintenance darbu (versiju atjaunināšana un daudz kas cits), bet aptuveni parādītu, ar kādu budžetu jārēķinās.<br>\nTad jau varētu skatīties LAKA, LATA, OSM vai citādās kopienās, kā to varētu pavlikt.</p>\n<p>Teorētiski, varētu būt daļa no daudz plašāka ES līmeņa OSM projekta, protams :)</p>",
+        "id": 425090148,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1709732931
+    },
+    {
+        "content": "<p>Vēl support. Kāds ielādēs melnas bildes. Kaut ko nenoblurros. Kaut kur GPS pilnīgi šķībs. Kāds dubultbildes. Kāds bildes no noparkotas kameras. Kāds militārām objektam garām braucot (ja LV serveris, tad būs LV likumdošana). Uz kuru tas viss darbs un cik ātri to atrisinās? Mapillary piemēram ar visiem saviem resursiem nevar neko laicīgi izdarīt un pus pasaule ar šķībām, sagrieztām bildēm un šķībiem bluriem.</p>",
+        "id": 425090808,
+        "sender_full_name": "HellMap",
+        "timestamp": 1709733168
+    },
+    {
+        "content": "<p>Nu, nepareizas bildes būtu mazākā problēma laikam.<br>\nMan tiešām šķiet, ka kas tāds Latvijas/Baltijas līmenī būtu super, bet gribētos kaut kādu drošību ieguldītajam :)<br>\nMilzu paldies AmOosm par testa instances uzlikšanu, izpētīšānu un bīdīšanu.</p>",
+        "id": 425092015,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1709733521
+    },
+    {
+        "content": "<p>Nepareizas bildes varbūt liekas mazākais, ja runā par tehniskām lietām. Bet faktiski tas ir tas, ko redz lietotāji. Un bez lietotājiem - nav servisa. Varbūt tiem dažiem Latvijā arī netraucē salauztas bildes. Bet dēļ tā vēl 10 citi potenciālie vispār to nelieto un nekad nelietos. Nevienam jau neinteresē, cik tur TB serverī un kādu AWS plānu lieto. Bet, ja redzēs, ka neviens nelabo problēmas, tad arī vairs to nelietos. Tādas lietas, kā nepareizas bildes ļoti ātri pārveršas par galveno problēmu, ja to nerisina.</p>",
+        "id": 425095820,
+        "sender_full_name": "HellMap",
+        "timestamp": 1709734410
+    },
+    {
+        "content": "<p>Piemēram, tas pats Mapilio - es paskatījos kādā kvalitātē to visu pasniedz un cik viss salauzts un nepilnīgs un uzreiz pateicu - neko es šeit nelādēšu. Un neesmu tāds vienīgais. Un tas ir globāls produkts teorētiski jau iD integrēts.</p>",
+        "id": 425097010,
+        "sender_full_name": "HellMap",
+        "timestamp": 1709734651
+    },
+    {
+        "content": "<p>Tas var izklausīties tā, ka mēs tik meklējam negatīvo, un \"nav jēgas nekam\" - es teiktu, ka salauztu bilžu labošana ir vēlāk darāma, un tur jau var iesaistīties kopiena utt.<br>\nPanoramax mūsu reģionam būtu OOOOZAM, tik jāsarēķina, varbūt kādu projektiņu jāuzraksta =)</p>",
+        "id": 425097267,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1709734700
+    },
+    {
+        "content": "<p>Mapilio - tas, šķiet, ir arī ļoti privāts/proprietary pasākums, es neredzēju nekādu ieguvumu pār Mapillary.<br>\nPanoramax liela (milzīga :) ) priekšrocība ir atvērtums.</p>",
+        "id": 425097492,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1709734755
+    }
+]

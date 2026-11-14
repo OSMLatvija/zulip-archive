@@ -1,0 +1,56 @@
+[
+    {
+        "content": "<p>Latvijā ir 484 <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Abuilding\">building=*</a>, kas nav <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dbunker\">building=bunker</a>.<br>\nLiela daļa likti pasen, pirms mums bija kāds lietojams ortofoto (gan jau ka manis likti arī ir :) ).<br>\nAr tagad esošajiem datu avotiem varētu vajadzēt lielāko daļu pārveidot par ēku kontūrām vai dzēst.</p>\n<p>Palēnām šos satīrīšu un aicinu pievienoties :)</p>\n<p><a href=\"https://overpass-turbo.eu/s/1rie\">https://overpass-turbo.eu/s/1rie</a></p>\n<div class=\"codehilite\" data-code-language=\"overpass\"><pre><span></span><code>[out:json][timeout:45];\n{{geocodeArea:latvia}}-&gt;.searchArea;\n(\n  node[\"building\"][\"building\"!=\"bunker\"](area.searchArea);\n);\nout body;\n&gt;;\nout skel qt;\n</code></pre></div>\n<p><a href=\"/user_uploads/49624/4Mb9e39Fa4GEuRUfVrb0sCNI/image.png\">punktēkas</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/4Mb9e39Fa4GEuRUfVrb0sCNI/image.png\" title=\"punktēkas\"><img src=\"/user_uploads/49624/4Mb9e39Fa4GEuRUfVrb0sCNI/image.png\"></a></div>",
+        "id": 327556562,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1676297314
+    },
+    {
+        "content": "<p>475.<br>\nIet lēni, jo apkārt daudz ko var papildināt, un biš sanāk research par to, kur precīzi ir ap 2010. gadu aptuveni iezīmēti mājvārdi :)</p>",
+        "id": 327817856,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1676391878
+    },
+    {
+        "content": "<p>420<br>\nEs it kā mazāk laboju, varbūt vēl kāds pievienojies? :)</p>",
+        "id": 328046284,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1676476644
+    },
+    {
+        "content": "<p>es dažas paņēmu</p>",
+        "id": 328090352,
+        "sender_full_name": "Colby",
+        "timestamp": 1676489005
+    },
+    {
+        "content": "<p>ciematelis un kāda viensēta kur siltumnīcām katrs stūris bija ietagots</p>",
+        "id": 328090530,
+        "sender_full_name": "Colby",
+        "timestamp": 1676489049
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/BFs1BlxZYekkZ8hPAchD50Qt/image.png\">šī changeset grupiņa</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/BFs1BlxZYekkZ8hPAchD50Qt/image.png\" title=\"šī changeset grupiņa\"><img src=\"/user_uploads/49624/BFs1BlxZYekkZ8hPAchD50Qt/image.png\"></a></div>",
+        "id": 328091473,
+        "sender_full_name": "Colby",
+        "timestamp": 1676489338
+    },
+    {
+        "content": "<p>Super, liels paldies :)</p>",
+        "id": 328091864,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1676489445
+    },
+    {
+        "content": "<p>Es vienu atvēru, LVM serveris atkal neielādēja background, un aizvēru <span aria-label=\"sob\" class=\"emoji emoji-1f62d\" role=\"img\" title=\"sob\">:sob:</span></p>",
+        "id": 328102342,
+        "sender_full_name": "HellMap",
+        "timestamp": 1676492864
+    },
+    {
+        "content": "<p>Ir tāds palēns, bet parasti, mazliet pagaidot, dabū bildes.</p>",
+        "id": 328103429,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1676493197
+    }
+]

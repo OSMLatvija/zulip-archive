@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Ulbrokā mazliet samulsu ar adresēm.<br>\nŠai ēkai adresi pievienoju no iepriekš esošā adreses punkta. Bet LVM WMS adrešu slānī tādu adresi neredzu (baltās adreses \"1\", \"1D).<br>\nNo kurienes / kad tāds 1F radies?</p>\n<p><a href=\"https://www.openstreetmap.org/way/1121666005\">https://www.openstreetmap.org/way/1121666005</a><br>\n<a href=\"/user_uploads/49624/1NUwIUdI9DrTPhsRWqKhzhdi/image.png\">adresestanava</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/1NUwIUdI9DrTPhsRWqKhzhdi/image.png\" title=\"adresestanava\"><img src=\"/user_uploads/49624/1NUwIUdI9DrTPhsRWqKhzhdi/image.png\"></a></div>",
+        "id": 315581303,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1670935547
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/adreses.20Ulbrok.C4.81/near/315581303\">said</a>:</p>\n<blockquote>\n<p>Ulbrokā mazliet samulsu ar adresēm.<br>\nŠai ēkai adresi pievienoju no iepriekš esošā adreses punkta. Bet LVM WMS adrešu slānī tādu adresi neredzu (baltās adreses \"1\", \"1D).<br>\nNo kurienes / kad tāds 1F radies?</p>\n<p><a href=\"https://www.openstreetmap.org/way/1121666005\">https://www.openstreetmap.org/way/1121666005</a><br>\n<a href=\"/user_uploads/49624/1NUwIUdI9DrTPhsRWqKhzhdi/image.png\">adresestanava</a></p>\n</blockquote>\n<p>Un kā te pareizāk - dalīt to ēku vēl daļās, lai rietumu un ziemeļu daļas būtu atsevišķas?<br>\nTad gan rietumu daļa sanāks bez adreses.</p>",
+        "id": 315581509,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1670935618
+    },
+    {
+        "content": "<p>1F ir datos, pārbaudīju LWM GEO WMS - man rāda arī 1F.</p>",
+        "id": 315587267,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1670937212
+    },
+    {
+        "content": "<p>Šeit var sadalīt kā kadastrā, jo tām ēkām, kurām nebūs adrese, tā sakrīt ar zemes vienību.</p>",
+        "id": 315587595,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1670937309
+    }
+]
