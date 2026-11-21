@@ -1,0 +1,104 @@
+[
+    {
+        "content": "<p>Īsumā - kartētājs nodzēsa <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alanduse%3Dresidential\">landuse=residential</a> piem. <a href=\"https://osmcha.org/changesets/135951886\">https://osmcha.org/changesets/135951886</a> un salika visur <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alanduse%3Dgrass\">landuse=grass</a> dzēšot sīkākus gabalus piem. <a href=\"https://osmcha.org/changesets/135935355\">https://osmcha.org/changesets/135935355</a> vai <a href=\"https://osmcha.org/changesets/135933705\">https://osmcha.org/changesets/135933705</a> Tas viss ar komentāru \"Update\". Te principā laikam vajag visu to revert. Man uz doto brīdi slinkums rakstīt garus changeset komentārus (domāju sākumā īsi, bet ilgāk skatoties, tur daudz problēmu un taisīt visam revertu arī uzreiz krietni lielāks uzdevums). Ļoti entuziastiski un daudz kartē bet te jau drusciņ pa traku. Iepriekš piemēram bija tie nepareizie/nepabeigtie road route un visādi sīkumi.</p>",
+        "id": 357690081,
+        "sender_full_name": "HellMap",
+        "timestamp": 1683836126
+    },
+    {
+        "content": "<p>Tie <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alanduse%3Dgrass\">landuse=grass</a> izskatās dikti nepareizi.<br>\nVai paspēji revertot?</p>",
+        "id": 358289021,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1684082904
+    },
+    {
+        "content": "<p>Es neko neesmu darījis, nē. Man slinkums bija visu izskatīt un pārbaudīt. Tur vēl pa virsu daudz cita.</p>",
+        "id": 358289111,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684082947
+    },
+    {
+        "content": "<p>Tu kaut ko rakstīsi? Īss komentārs tur jau atstāts <a href=\"https://www.openstreetmap.org/changeset/135935355\">https://www.openstreetmap.org/changeset/135935355</a> bet te vēl izdzēstie residential un iepriekšējā zāle</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/changeset/135935355\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/changeset/135935355\" title=\"Changeset: 135935355 | OpenStreetMap\">Changeset: 135935355 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 358715341,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684240315
+    },
+    {
+        "content": "<p>Nav vēl sanācis - varbūt <span class=\"user-mention\" data-user-id=\"574669\">@UrSuS</span> kā Ventspili agrāk daudz zīmējis ir kaut ko skatījies?<br>\nVai <span class=\"user-mention\" data-user-id=\"576003\">@Dmitry</span> tur ir komentējis, vai es jaucu lietotājus? :)</p>",
+        "id": 358751433,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1684247482
+    },
+    {
+        "content": "<p>To jau jebkurš var, vienkārši man absolūti slinkums tagad tik gari ar to nodarboties. Varbūt vēlāk.</p>",
+        "id": 358753000,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684247785
+    },
+    {
+        "content": "<p>I deleted all the incorrectly drawn grass, but did not restore the living areas. I didn't notice that he removed them. <a href=\"https://www.openstreetmap.org/changeset/136168550\">https://www.openstreetmap.org/changeset/136168550</a><br>\n<a href=\"https://www.openstreetmap.org/changeset/136168684\">https://www.openstreetmap.org/changeset/136168684</a><br>\n Can I talk here in English? Or it will be better if I will translate everything into Latvian?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/changeset/136168550\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/changeset/136168550\" title=\"Changeset: 136168550 | OpenStreetMap\">Changeset: 136168550 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/changeset/136168684\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/changeset/136168684\" title=\"Changeset: 136168684 | OpenStreetMap\">Changeset: 136168684 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 358765179,
+        "sender_full_name": "Dmitry",
+        "timestamp": 1684250117
+    },
+    {
+        "content": "<p>I think most people here can speak English</p>",
+        "id": 358766361,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684250355
+    },
+    {
+        "content": "<p>He also deleted some previous smaller accurate grass areas, which we probably want to restore. But it's all both spread and combined in several changesets, so it's a bit of a pain to undo</p>",
+        "id": 358767107,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684250531
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"576003\">Dmitry</span> <a href=\"#narrow/stream/358602-general/topic/Ventspils.20.22apza.C4.BCumota.22/near/358765179\">said</a>:</p>\n<blockquote>\n<p>...<br>\n Can I talk here in English? Or it will be better if I will translate everything into Latvian?</p>\n</blockquote>\n<p>Yeah, sure - we welcome (and have here) people from different backgrounds and countries.<br>\nIf you do speak Latvian, no matter the level, that would be preferred (using local language is one of OSM global semi-rules), but lacking that is not a blocker :)</p>",
+        "id": 358789466,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1684255333
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Ventspils.20.22apza.C4.BCumota.22/near/358767107\">said</a>:</p>\n<blockquote>\n<p>He also deleted some previous smaller accurate grass areas, which we probably want to restore. But it's all both spread and combined in several changesets, so it's a bit of a pain to undo</p>\n</blockquote>\n<p>Visus changesetus nevarēja revertot?</p>",
+        "id": 358789618,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1684255359
+    },
+    {
+        "content": "<p>Nedaudz \"smieklīgi\", ka liekot lielos zāles laukums izdzēsa pats savus iepriekš liktos mazākus laukumus. Es tos pa vienam nerevertošu. Bet residential'us gan revertoju <a href=\"https://www.openstreetmap.org/changeset/136183374\">https://www.openstreetmap.org/changeset/136183374</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/changeset/136183374\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/changeset/136183374\" title=\"Changeset: 136183374 | OpenStreetMap\">Changeset: 136183374 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 358828441,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684264841
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/Ventspils.20.22apza.C4.BCumota.22/near/357690081\">said</a>:</p>\n<blockquote>\n<p>Iepriekš piemēram bija tie nepareizie/nepabeigtie road route un visādi sīkumi.</p>\n</blockquote>\n<p>Es laikam iepriekš sajaucu user namus. <span aria-label=\"speechless\" class=\"emoji emoji-1f636\" role=\"img\" title=\"speechless\">:speechless:</span> Laikam <a href=\"https://www.openstreetmap.org/user/DHBaEL\">https://www.openstreetmap.org/user/DHBaEL</a> nav <a href=\"https://www.openstreetmap.org/user/PBAEHe\">https://www.openstreetmap.org/user/PBAEHe</a> ... Abi ir Ventspilī kartējuši. DHBaEL ir ar to grass problēmu. Bet road route problēmas bija  PBAEHe.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/user/DHBaEL\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/user/DHBaEL\" title=\"DHBaEL | OpenStreetMap\">DHBaEL | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/user/PBAEHe\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/user/PBAEHe\" title=\"PBAEHe | OpenStreetMap\">PBAEHe | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 360118113,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684700752
+    },
+    {
+        "content": "<p>Kādas domas, vai <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aleisure%3Dgarden\">leisure=garden</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Agarden%3Atype%3Dresidential\">garden:type=residential</a> ir pareizi, piemēram <a href=\"https://www.openstreetmap.org/way/1175564758\">https://www.openstreetmap.org/way/1175564758</a> ?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/1175564758\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/1175564758\" title=\"Way: 1175564758 | OpenStreetMap\">Way: 1175564758 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 360768907,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684929721
+    },
+    {
+        "content": "<p>Nav pareizi</p>",
+        "id": 360769953,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1684929970
+    },
+    {
+        "content": "<p>Vismaz veselam rajonam</p>",
+        "id": 360770289,
+        "sender_full_name": "UrSuS",
+        "timestamp": 1684930057
+    },
+    {
+        "content": "<p>Noteikti šķībi.<br>\nTur taču piebraucamie ceļi un daudz kas cits.</p>",
+        "id": 360776891,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1684931831
+    }
+]

@@ -1,0 +1,200 @@
+[
+    {
+        "content": "<p>Atradu neiezīmētu diezgan lielu un interesantu memoriālu pie bijušās Amatas stacijas, iezīmēju.<br>\n<a href=\"https://smiltenesnovads.lv/blog/class/amatas-stacija-izveidota-pieminas-vieta-komunistiska-genocida-upuriem/\">https://smiltenesnovads.lv/blog/class/amatas-stacija-izveidota-pieminas-vieta-komunistiska-genocida-upuriem/</a><br>\n<a href=\"https://www.openstreetmap.org/#map=19/57.21049/25.31045\">https://www.openstreetmap.org/#map=19/57.21049/25.31045</a></p>\n<p>Atceroties par citiem deportāciju memoriāliem gribētos tos sākt kategorizēt, lai varētu atrast.</p>\n<ol>\n<li>\n<p>Ir <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Amemorial:conflict\">memorial:conflict=*</a> tags, lai gan šis neasociējas ar konfliktu uzreiz. Tāda <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Amemorial:event\">memorial:event=*</a> nav.<br>\nPrincipā varētu lietot memorial:conflict - kādas par to domas?</p>\n</li>\n<li>\n<p>Masu deportācijas ir bijušas vairākas. It kā gribētos gan norādīt konkrēto, gan vispār deportāciju kategoriju. Un varbūt ir kāds memoriāls vispārīgi padomju varas veiktajām deportācijām?<br>\nVarētu jau ieviest memorial:event:Soviet_deportations ?</p>\n</li>\n<li>\n<p>Tā kā gan deportāciju kategorija, gan konkrētas deportācijas ir ne tikai Latvijā (piem., <a href=\"https://lv.wikipedia.org/wiki/1941._gada_j%C5%ABnija_deport%C4%81cijas\">https://lv.wikipedia.org/wiki/1941._gada_j%C5%ABnija_deport%C4%81cijas</a> norisinājās arī Igaunijā, Lietuvā, Ukrainā, Baltkrievijā, Moldovā... Par Latviju vairāk: <a href=\"https://enciklopedija.lv/skirklis/108548-1941-gada-14-j%C5%ABnija-deport%C4%81cija-Latvij%C4%81\">https://enciklopedija.lv/skirklis/108548-1941-gada-14-j%C5%ABnija-deport%C4%81cija-Latvij%C4%81</a>), laikam šīm taga vērtībām vajadzētu būt angliski.</p>\n</li>\n</ol>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://smiltenesnovads.lv/blog/class/amatas-stacija-izveidota-pieminas-vieta-komunistiska-genocida-upuriem/\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6e276c7dae8cad8cf2db09f7af8f1153c5e41bb3\\/68747470733a2f2f736d696c74656e65736e6f766164732e6c762f77702d636f6e74656e742f75706c6f6164732f416d6174612d7069656d696e61732d76696574612e6a7067)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://smiltenesnovads.lv/blog/class/amatas-stacija-izveidota-pieminas-vieta-komunistiska-genocida-upuriem/\" title=\"Amatas stacijā izveidota piemiņas vieta komunistiskā genocīda upuriem\">Amatas stacijā izveidota piemiņas vieta komunistiskā genocīda upuriem</a></div><div class=\"message_embed_description\">2022. gada 17. jūnijā, Latvijas Republikas okupācijas dienā, pie Amatas stacijas, Amatas pagastā, atklāta represēto piemiņas vieta ar informatīvo stendu. </div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/#map=19/57.21049/25.31045\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/#map=19/57.21049/25.31045\" title=\"OpenStreetMap\">OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://lv.wikipedia.org/wiki/1941._gada_j%C5%ABnija_deport%C4%81cijas\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/e06d528d02a2496a39024c48d36857e45754820b\\/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f6c762f352f35642f48696c64615f562543342541426b615f41697a7665737469652e6a7067)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://lv.wikipedia.org/wiki/1941._gada_j%C5%ABnija_deport%C4%81cijas\" title=\"1941. gada jūnija deportācijas — Vikipēdija\">1941. gada jūnija deportācijas — Vikipēdija</a></div><div class=\"message_embed_description\">1941. gada jūnija deportācijas bija Padomju Savienības okupācijas iestāžu veikta masveidīga Baltijas valstu, Baltkrievijas, Ukrainas un Moldovas iedzīvotāju izsūtīšana uz PSRS iekšlietu sistēmas koncentrācijas nometnēm vai mūža nometinājumu attālos PSRS reģionos 1941. gada jūnijā. Deportācijas notika teritorijās, kuras PSRS bija okupējusi 1939. – 1940. gadā saskaņā ar Molotova-Ribentropa pakta slepenajiem protokoliem.\n</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://enciklopedija.lv/skirklis/108548-1941-gada-14-j%C5%ABnija-deport%C4%81cija-Latvij%C4%81\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/88e1a816cf56e217bd3e789a06b2507df4732da6\\/68747470733a2f2f656e63696b6c6f706564696a612e6c762f6170692f696d6167652f7468756d626e61696c3f6e616d653d3038636334616632656630312d64616137383262662d646638302d343931312d613961612d3432373737353662666430382e6a70672673697a653d7469746c65)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://enciklopedija.lv/skirklis/108548-1941-gada-14-j%C5%ABnija-deport%C4%81cija-Latvij%C4%81\" title=\"1941. gada 14. jūnija deportācija Latvijā\">1941. gada 14. jūnija deportācija Latvijā</a></div><div class=\"message_embed_description\">14.06.1941. vairāk nekā 15 400 Latvijas pilsoņu deportēja no Latvijas. Daļu no deportētajiem uzreiz arestēja un nogādāja ieslodzījuma vietās. Pārējos nometināja Sibīrijā un Kazahstānā. Tā bija pirmā masu deportācija no Latvijas.</div></div></div>",
+        "id": 324446917,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675004095
+    },
+    {
+        "content": "<p>Te vēl infa <a href=\"https://militaryheritagetourism.info/en/military/sites/view/583?0\">https://militaryheritagetourism.info/en/military/sites/view/583?0</a> (no kaut kāda latviska pdf, kuram piekļuve aiz paroles)</p>",
+        "id": 324447608,
+        "sender_full_name": "HellMap",
+        "timestamp": 1675004342
+    },
+    {
+        "content": "<p>Neko eksistējošu neredzu par deportation, tikai <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Amemorial:conflict\">memorial:conflict=*</a>, kas par ilglaicīgu \"konfliktu\" nevis konkrētu notikumu, un <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Amemorial:subject\">memorial:subject=*</a>, kas personām (un izskatās, ka imports kaut kāds pārsvarā). Laikam vajag jaunu, ja grib norādīt event. Tāds \"deportation\" vispār nav lietots nekur.</p>",
+        "id": 324448402,
+        "sender_full_name": "HellMap",
+        "timestamp": 1675004652
+    },
+    {
+        "content": "<p>Jā, tuvākie no <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Amemorial:conflict\">memorial:conflict=*</a> ir \"Armenian_Genocide\" un \"Holocaust\".<br>\nPrincipā jau deportācijas ir daļa no \"Communist genocide\" un tas laikam daļēji pārklājas ar \"Soviet war crimes\". Saskaņā ar <a href=\"https://en.wikipedia.org/wiki/Soviet_war_crimes\">https://en.wikipedia.org/wiki/Soviet_war_crimes</a> , tas ietver visus noziegumus pret cilvēci no 1919 līdz 1991.<br>\nLīdz ar to sanāk, ka arī deportācijas ietilpst \"Soviet was crimes\", kas tiek klasificējams kā ilgstošs konflikts.</p>\n<p>Savukārt \"Communist genocide\" ietver arī, piem., Ķīnu.</p>\n<p>Šādi memoriāli šobrīd kartes datos praktiski nav filtrējami - piem., <a href=\"https://militaryheritagetourism.info/en/military/sites/view/358?1\">https://militaryheritagetourism.info/en/military/sites/view/358?1</a> Igaunijā.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://en.wikipedia.org/wiki/Soviet_war_crimes\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/b92468f6f35341cf6d97736d228313b2bce851ce\\/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f622f62382f4b6174792543352538342532435f656b7368756d61636a615f6f666961722e6a7067)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://en.wikipedia.org/wiki/Soviet_war_crimes\" title=\"Soviet war crimes - Wikipedia\">Soviet war crimes - Wikipedia</a></div><div class=\"message_embed_description\">\n</div></div></div>",
+        "id": 324456814,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675008359
+    },
+    {
+        "content": "<p>Ideālākais jau protams norādīt visprecīzāko sadalījumu + wikidata/wikipedia. Un tad no tā teorētiski var tālāk savākt pilnu hierarchy. Bet tad tega tāda nav pagaidām. Es nezinu vai es pie <code>conflict</code> liktu augstākminētos, jo te drīzāk problēma, ka tega lietojums šaurs. Īsāk, neko nezinu <span aria-label=\"smiling face with tear\" class=\"emoji emoji-1f972\" role=\"img\" title=\"smiling face with tear\">:smiling_face_with_tear:</span></p>",
+        "id": 324457166,
+        "sender_full_name": "HellMap",
+        "timestamp": 1675008549
+    },
+    {
+        "content": "<p>Iespējamsi, precīzai kategorizācijai šim deportāciju memoriālam sanāk norādīt vismaz 4 lietas.<br>\nMasu deportāciju periodu, deportācijas kopumā, \"Communist genocide\" un \"Soviet war crimes\".<br>\nTo vienā tagā bāzt nebūtu labi...</p>",
+        "id": 324457850,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675008858
+    },
+    {
+        "content": "<p>Es domāju, ka, ja tu noradīsi teiksim \"1943 deportations\", tad tas automātiski būs arī visi pārējie, jo tas ir to daļa...</p>",
+        "id": 324457951,
+        "sender_full_name": "HellMap",
+        "timestamp": 1675008924
+    },
+    {
+        "content": "<p>Jā, bet kā lai pēc tam atrod, piem., visas deportācijas Baltijas valstīs, Baltkrievijā un Ukrainā?<br>\nPie tam, ja nu kaut kur Āfrikā bijušas deportācijas tajā pašā gadā?</p>",
+        "id": 324458697,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675009296
+    },
+    {
+        "content": "<p>\"Soviet war crimes\" Vikipēdijas lapa tomēr norāda, ka tas pamatā attiecas uz armiju un NKVD. Bet kā ar KGB, OMON utt?<br>\nPrincipā te tomēr ietilpst arī Barikāžu piemiņas vietas, jo armija tur piedalījās.</p>",
+        "id": 324458980,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675009426
+    },
+    {
+        "content": "<p>Nu tas jau ir mega smalki. Man liekas OSM nav ko darīt mēģināt to tik smalki sadalīt. Tāpēc es arī uzreiz minēju wikidata+wikipedia.</p>",
+        "id": 324459113,
+        "sender_full_name": "HellMap",
+        "timestamp": 1675009486
+    },
+    {
+        "content": "<p>Un tas nosaukums bija piemērs - reāli jau vērtībai jābūt unikālai (+wikidata, ja nav skaidrs)</p>",
+        "id": 324459369,
+        "sender_full_name": "HellMap",
+        "timestamp": 1675009605
+    },
+    {
+        "content": "<p>Tur arī viss ir ļoti nabadzīgs. Ir <a href=\"https://www.wikidata.org/wiki/Q13098833\">https://www.wikidata.org/wiki/Q13098833</a> , bet tas arī viss, kas ir:<br>\n<a href=\"https://www.wikidata.org/wiki/Q96143234\">https://www.wikidata.org/wiki/Q96143234</a> .<br>\nUn nemaz nav nekā par Ukrainu, Baltkrieviju vai Moldovu, cik nu varu atrast.</p>",
+        "id": 324459494,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675009677
+    },
+    {
+        "content": "<p>Cits jautājums, kā meklēt kaut ko, kas ir \"augstākas\" kategorijas. Nezinu - tā problēma ar visu OSM. Tik pat labi sameklēt visus ūdeņus vajadzēs pilnu sarakstu ar river, lake, pond, ocean, etc. Jo smalkāt, jo grūtāk.</p>",
+        "id": 324459629,
+        "sender_full_name": "HellMap",
+        "timestamp": 1675009726
+    },
+    {
+        "content": "<p>Un wikidatā jau droši var taisīt jaunus itemus, ja tu konkrētus deportācijas piemērus vari iedokumentēt. Te jau lielāka \"problēma\", ka neviens nav tik sīki ticis līdz tam. OSM jau vispār runa neiet - te jau ceļi vēl nav sazīmēti.</p>",
+        "id": 324459861,
+        "sender_full_name": "HellMap",
+        "timestamp": 1675009842
+    },
+    {
+        "content": "<p>Varbūt pagaidām jāpaliek pie konkrētām deportācijām iekš <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Amemorial:conflict\">memorial:conflict=*</a>.<br>\n\"Augstāku\" kategorizāciju būs varbūt plašāk jāapspriež vismaz ar lietuviešiem, igauņiem.</p>",
+        "id": 324459911,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675009868
+    },
+    {
+        "content": "<p>Wikidata - esmu mazliet iebaidīts, tur man \"notability\" dēļ kaut kas ticis dzēsts / ieteikts nelikt, un to kategorizāciju arī tik labi neizprotu.<br>\nOSM - ceļu statuss jau nekādi netraucē sazīmēt visus komunistiskā genocīda upuru piemiņas memoriālus :)</p>",
+        "id": 324460163,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675010020
+    },
+    {
+        "content": "<p>Nē, nu protams, es zīmēju apmales rajonā kamēr Latgalē ceļi ar 30 metru nobīdi <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span> Not my problem. Katrs dara, ko grib. Bet tomēr proporcionāli ceļu zīmētāju/bīdītaju ir daudz vairāk nekā kaut kādas specifiskas nišas. Es to drīzāk saku no viedokļa, ka skaidrts kāpēc nav tādu datu un drošvien drīzumā arī nebūs.</p>",
+        "id": 324460386,
+        "sender_full_name": "HellMap",
+        "timestamp": 1675010132
+    },
+    {
+        "content": "<p>Vienīgi hmm, laikam jāliek nosaukumi ~ šādi - <a href=\"https://en.wikipedia.org/wiki/June_deportation\">https://en.wikipedia.org/wiki/June_deportation</a> .<br>\nNenorādot valsti.</p>",
+        "id": 324460388,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675010133
+    },
+    {
+        "content": "<p>Wikidatā notability ir ļoti plašs - \"a clearly identifiable conceptual or material entity that can be described using serious and publicly available references.\"</p>",
+        "id": 324460678,
+        "sender_full_name": "HellMap",
+        "timestamp": 1675010253
+    },
+    {
+        "content": "<p>Bet 1949. gada deportācijas jau bija daļa no 1945.-1951. gadu deportācijām (<a href=\"https://en.wikipedia.org/wiki/Soviet_deportations_from_Latvia\">https://en.wikipedia.org/wiki/Soviet_deportations_from_Latvia</a>).<br>\nUn kaut kur diezgan droši ir kāds memoriāls arī citu gadu deportācijām.</p>",
+        "id": 324461573,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675010673
+    },
+    {
+        "content": "<p>Ā nu re, un šis ir gan 41. gada, gan 49. gada deportācijām...<br>\n<a href=\"https://www.openstreetmap.org/node/10171699493\">https://www.openstreetmap.org/node/10171699493</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/10171699493\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/10171699493\" title=\"Node: 10171699493 | OpenStreetMap\">Node: 10171699493 | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 324461942,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675010908
+    },
+    {
+        "content": "<p>Savukārt <a href=\"https://www.openstreetmap.org/node/10171699494\">https://www.openstreetmap.org/node/10171699494</a> ir memoriāls staļinisma upuriem, kas ir diezgan plašs jēdziens: <a href=\"https://en.wikipedia.org/wiki/Stalinist_repressions\">https://en.wikipedia.org/wiki/Stalinist_repressions</a> .</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/10171699494\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/10171699494\" title=\"Node: ‪Mūžīga piemiņa staļinisma upuriem‬ (‪10171699494‬) | OpenStreetMap\">Node: ‪Mūžīga piemiņa staļinisma upuriem‬ (‪10171699494‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 324462307,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675011095
+    },
+    {
+        "content": "<p>Es vairs nesaprotu gluži jautājumu. Pirmais divas vērtības: 41;49, otrais viena: Stalin.</p>",
+        "id": 324462506,
+        "sender_full_name": "HellMap",
+        "timestamp": 1675011191
+    },
+    {
+        "content": "<p>No divām vērtībām laikam nevarēs aizmukt, jā. Tas gan klasiski apgrūtina dzīvi lietošanā :)<br>\nOtrais - tad sanāk atsaukties uz to Vikipēdijas disambig. lapu (piem., dokumentējot to memorial:conflict lapā).</p>",
+        "id": 324463318,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675011561
+    },
+    {
+        "content": "<p>Apvienotā vērtība laikam būs \"June_deportation;Operation_Priboi\".</p>",
+        "id": 324464513,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675012034
+    },
+    {
+        "content": "<p>Bet kur iederas <a href=\"https://www.rigaspieminekli.lv/?lapa=piemineklis&amp;zanrs=1&amp;rajons=4&amp;id=141\">https://www.rigaspieminekli.lv/?lapa=piemineklis&amp;zanrs=1&amp;rajons=4&amp;id=141</a> - \"Piemineklis represētajiem Latvijas iedzīvotājiem Šķirotavā\"?</p>",
+        "id": 324465692,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675012585
+    },
+    {
+        "content": "<p>Šajā bildē info plāksni nevarēs salasīt :)<br>\n<a href=\"https://www.mapillary.com/app/?pKey=1251885928913992\">https://www.mapillary.com/app/?pKey=1251885928913992</a></p>",
+        "id": 324465854,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675012687
+    },
+    {
+        "content": "<p>Nu te vajag subject, kas nav indivīds, bet grupa</p>",
+        "id": 324465875,
+        "sender_full_name": "HellMap",
+        "timestamp": 1675012701
+    },
+    {
+        "content": "<p>O - <a href=\"https://www.rigaspieminekli.lv/mBildes/3---1435650369---290313_Piem_repr_skirotava_014.jpg\">https://www.rigaspieminekli.lv/mBildes/3---1435650369---290313_Piem_repr_skirotava_014.jpg</a> .</p>\n<div class=\"message_inline_image\"><a href=\"https://www.rigaspieminekli.lv/mBildes/3---1435650369---290313_Piem_repr_skirotava_014.jpg\"><img src=\"https://uploads.zulipusercontent.net/7ec1deb56fb0999afc1407c1314a80318157ec30/68747470733a2f2f7777772e72696761737069656d696e656b6c692e6c762f6d42696c6465732f332d2d2d313433353635303336392d2d2d3239303331335f5069656d5f726570725f736b69726f746176615f3031342e6a7067\"></a></div>",
+        "id": 324466013,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675012791
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/deport.C4.81ciju.20memori.C4.81li/near/324465854\">said</a>:</p>\n<blockquote>\n<p>Šajā bildē</p>\n</blockquote>\n<p>Ā, tas ir tur.</p>",
+        "id": 324466030,
+        "sender_full_name": "HellMap",
+        "timestamp": 1675012800
+    },
+    {
+        "content": "<p>Principā sanāk atkal disambig., <a href=\"https://en.wikipedia.org/wiki/Repression_in_the_Soviet_Union\">https://en.wikipedia.org/wiki/Repression_in_the_Soviet_Union</a> .</p>",
+        "id": 324466140,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675012847
+    },
+    {
+        "content": "<p>Torņakalna piemiņas vieta sarežģīta. Tur piemiņas akmens 1941. gadam, viena plāksne 1941+1949, kam nu vēl citi objekti.<br>\n<span class=\"user-mention\" data-user-id=\"574695\">@Edgars Košovojs</span>, pamanīju, ka to lapu lielākoties Tu esi veidojis, arī piemiņas plāksnes foto autors esi Tu - kāds būtu Tavs pieredzējušāka cilvēka viedoklis par manu komentāru/jautājumu iekš <a href=\"https://lv.wikipedia.org/wiki/Diskusija:Komunistisk%C4%81_terora_upuru_piemi%C5%86as_vieta_Tor%C5%86akaln%C4%81\">https://lv.wikipedia.org/wiki/Diskusija:Komunistisk%C4%81_terora_upuru_piemi%C5%86as_vieta_Tor%C5%86akaln%C4%81</a> ?</p>",
+        "id": 324469785,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675014865
+    },
+    {
+        "content": "<p>Vagons OSM ir ar \"name=Deportāciju vagons\", \"<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afixme%3Dname\">fixme=name</a>\".<br>\n<a href=\"https://www.openstreetmap.org/node/6005791165/history\">https://www.openstreetmap.org/node/6005791165/history</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/node/6005791165/history\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/node/6005791165/history\" title=\"Node History: ‪Deportāciju vagons‬ (‪6005791165‬) | OpenStreetMap\">Node History: ‪Deportāciju vagons‬ (‪6005791165‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 324469940,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1675014940
+    }
+]

@@ -1,0 +1,968 @@
+[
+    {
+        "content": "<p>Es vai <span class=\"user-mention\" data-user-id=\"568771\">@Rihards Olups</span> var uztaisīt jaunu repo priekš ta (jāizdomā nosaukums) un iedot Tev maintainer/collaborator tiesības.</p>",
+        "id": 353818066,
+        "sender_full_name": "i-ky",
+        "timestamp": 1682682409
+    },
+    {
+        "content": "<p>Labi, uztaisi tad repo tur. Teorētiski nosaukums, ko pa ātro ieliku, ir \"Osmalyzer\" - es tur OSM datus parsēju sev pārsvarā, ko nevar normāli overpass uzrakstīt. Ceļi tur gandrīz vienīgais, ko esmu publiski izlicis rezultātu. Bet nu nosaukumu var arī vēlāk nomainīt, nav jau kritiski</p>",
+        "id": 353821751,
+        "sender_full_name": "HellMap",
+        "timestamp": 1682682862
+    },
+    {
+        "content": "<p>8 messages were moved here from <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/LVC.20ce.C4.BCi\">#general &gt; LVC ceļi</a> by <span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span>.</p>",
+        "id": 353822450,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1682682951
+    },
+    {
+        "content": "<p><a href=\"https://github.com/OSMLatvija/Osmalyzer\">https://github.com/OSMLatvija/Osmalyzer</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/OSMLatvija/Osmalyzer\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/205829762f883a4862fc2f98defe4364d1d4a64a\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f303438303037336664626464353733306539383634306637323934383230346435356266643561666664323863313965326332313432393435666533663937342f4f534d4c617476696a612f4f736d616c797a6572)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/OSMLatvija/Osmalyzer\" title=\"OSMLatvija/Osmalyzer\">OSMLatvija/Osmalyzer</a></div><div class=\"message_embed_description\">Parsing OSM data when it's too complex for Overpass - OSMLatvija/Osmalyzer</div></div></div>",
+        "id": 353829486,
+        "sender_full_name": "i-ky",
+        "timestamp": 1682683853
+    },
+    {
+        "content": "<p>Jābūt arī collaborator invite'am.</p>",
+        "id": 353829650,
+        "sender_full_name": "i-ky",
+        "timestamp": 1682683876
+    },
+    {
+        "content": "<p>Jā, emailu saņēmu, linku nospiedu, <del>vīrusu ieinstalēju</del>, repo redzu</p>",
+        "id": 353829880,
+        "sender_full_name": "HellMap",
+        "timestamp": 1682683909
+    },
+    {
+        "content": "<p>collaborator tas ir atsevišķi?</p>",
+        "id": 353830061,
+        "sender_full_name": "HellMap",
+        "timestamp": 1682683930
+    },
+    {
+        "content": "<p>github valodā collaborator = maintainer?</p>",
+        "id": 353830964,
+        "sender_full_name": "HellMap",
+        "timestamp": 1682684055
+    },
+    {
+        "content": "<p>Tu tagad esi collaborator ar maintainer tiesībām šim repo. Collaborator nozīmē ārpus organizācijas (teorētiski varam vēlāk pārtaisīt par member'u, bet vajag ar Rihardu to aprunāt, jo viņš ir \"finansiāli atbildīgs\" par organizāciju). Maintainer nozīmē, ka Tu vari ar to repo darīt visu izņemot \"destructive\" lietas.</p>",
+        "id": 353832746,
+        "sender_full_name": "i-ky",
+        "timestamp": 1682684289
+    },
+    {
+        "content": "<p>Ielādēju to, kas ir</p>",
+        "id": 353858337,
+        "sender_full_name": "HellMap",
+        "timestamp": 1682687395
+    },
+    {
+        "content": "<p>Noderētu vēl kaut kāds apraksts, kā to nokompilēt un palaist.</p>",
+        "id": 353867029,
+        "sender_full_name": "i-ky",
+        "timestamp": 1682688360
+    },
+    {
+        "content": "<p>Tur ļoti daudz kas noderētu. Tāpēc jau es nekur to nebiju (vēl) licis. Man to palaist ir F5 nospiest <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span> Kaut kad jau uzrakstīšu, kādus failus tam vajag.</p>",
+        "id": 353872191,
+        "sender_full_name": "HellMap",
+        "timestamp": 1682688901
+    },
+    {
+        "content": "<p>Sākumam noderētu arī informācija, kur Tu spied to F5 :D</p>",
+        "id": 353881858,
+        "sender_full_name": "i-ky",
+        "timestamp": 1682689986
+    },
+    {
+        "content": "<p>Uz klaviatūras <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span> Gan jau uzrakstīšu, kad būs vispār lietojams. Te jau uzreiz kļūda būs, jo nav jau datu failu. Un vispār nokārsies, jo vajag 6+ GB atmiņas... Vispār jau jautājums, kas tieši to kaut kur laidīs. Ja kaut ko labot, tad jau saprot kaut cik C# un tad jau projekts it kā skaidrs. Bet tā pat palaist laikam jau tāpēc github actions bija domāts, lai nav kaut kur jālaiž.</p>",
+        "id": 354010003,
+        "sender_full_name": "HellMap",
+        "timestamp": 1682704944
+    },
+    {
+        "content": "<p>Uzrakstīju tev ļoti īsi galveno. Kaut kad varbūt tikšu sakārtot to. Man nav ne jausmas kā github actions strādā un kurā vietā varētu reportus likt.</p>",
+        "id": 354015086,
+        "sender_full_name": "HellMap",
+        "timestamp": 1682705681
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"571825\">@HellMap</span>, nezinu, vai GitHub atsūtīs Tev notifikāciju... es <a href=\"https://github.com/OSMLatvija/Osmalyzer/commit/4997a1c6f98f2e8cc9f1c9cc75383f302f3c9910#commitcomment-113350014\">pakomentēju</a> par vienu no vakardienas komitiem.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/OSMLatvija/Osmalyzer/commit/4997a1c6f98f2e8cc9f1c9cc75383f302f3c9910#commitcomment-113350014\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/eb26b72ce49e4ec0cad9fdab495972af99792ea6\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f313463333835353866313438616563343838393039393830643333363034393165643338383534346334623937613231666639323862636266306532643433632f4f534d4c617476696a612f4f736d616c797a65722f636f6d6d69742f34393937613163366639386632653863633966316339636337353338336633303266336339393130)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/OSMLatvija/Osmalyzer/commit/4997a1c6f98f2e8cc9f1c9cc75383f302f3c9910#commitcomment-113350014\" title=\"Add data folder for stuff that is manually arranged and not easily pa… · OSMLatvija/Osmalyzer@4997a1c\">Add data folder for stuff that is manually arranged and not easily pa… · OSMLatvija/Osmalyzer@4997a1c</a></div><div class=\"message_embed_description\">…rseable</div></div></div>",
+        "id": 358386131,
+        "sender_full_name": "i-ky",
+        "timestamp": 1684138251
+    },
+    {
+        "content": "<p>Es esmu pierakstīts visam GitHubā, tā kā es redzēšu ja tu kaut kam kaut ko rakstīsi vai sūtīsi</p>",
+        "id": 358412431,
+        "sender_full_name": "HellMap",
+        "timestamp": 1684145219
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"571825\">@HellMap</span>, vai vari kaut ko pateikt par <a href=\"https://github.com/OSMLatvija/Osmalyzer/actions/runs/5236524164/jobs/9454123038#step:5:8\">šo</a>?</p>\n<div class=\"codehilite\"><pre><span></span><code>/usr/share/dotnet/sdk/7.0.302/Microsoft.Common.CurrentVersion.targets(1229,5): error MSB3644: The reference assemblies for .NETFramework,Version=v4.8 were not found. To resolve this, install the Developer Pack (SDK/Targeting Pack) for this framework version or retarget your application. You can download .NET Framework Developer Packs at https://aka.ms/msbuild/developerpacks [/home/runner/work/Osmalyzer/Osmalyzer/Core/Core.csproj]\n</code></pre></div>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/OSMLatvija/Osmalyzer/actions/runs/5236524164/jobs/9454123038#step:5:8\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/920e73182babba4f299d627f4a393193172f13e9\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f386135356535616637333134376534396632616337646530653066656136613465373561386231326261366136663432396337313764643861346461623562392f4f534d4c617476696a612f4f736d616c797a6572)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/OSMLatvija/Osmalyzer/actions/runs/5236524164/jobs/9454123038#step:5:8\" title=\"Try to specify .NET version explicitly · OSMLatvija/Osmalyzer@5e4d633\">Try to specify .NET version explicitly · OSMLatvija/Osmalyzer@5e4d633</a></div><div class=\"message_embed_description\">Parsing OSM data when it's too complex for Overpass - Try to specify .NET version explicitly · OSMLatvija/Osmalyzer@5e4d633</div></div></div>",
+        "id": 365359182,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686502801
+    },
+    {
+        "content": "<p>Salaboju projektu un worfklow'u - tagad palaižās</p>",
+        "id": 365522283,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686567834
+    },
+    {
+        "content": "<p><a href=\"https://github.com/OSMLatvija/Osmalyzer/actions/runs/5242740558/jobs/9466524756#step:6:10\">Tagad</a> šķiet, ka ReadMe atpalika... Kas ir <code>stops.txt</code>?</p>\n<div class=\"codehilite\"><pre><span></span><code>Unhandled exception. System.IO.DirectoryNotFoundException: Could not find a part of the path &#39;/home/runner/work/Osmalyzer/Osmalyzer/RS/stops.txt&#39;.\n</code></pre></div>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/OSMLatvija/Osmalyzer/actions/runs/5242740558/jobs/9466524756#step:6:10\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/920e73182babba4f299d627f4a393193172f13e9\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f386135356535616637333134376534396632616337646530653066656136613465373561386231326261366136663432396337313764643861346461623562392f4f534d4c617476696a612f4f736d616c797a6572)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/OSMLatvija/Osmalyzer/actions/runs/5242740558/jobs/9466524756#step:6:10\" title=\"Trying explicit project name for workflow since there are two project… · OSMLatvija/Osmalyzer@840a06f\">Trying explicit project name for workflow since there are two project… · OSMLatvija/Osmalyzer@840a06f</a></div><div class=\"message_embed_description\">Parsing OSM data when it's too complex for Overpass - Trying explicit project name for workflow since there are two project… · OSMLatvija/Osmalyzer@840a06f</div></div></div>",
+        "id": 365534098,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686570571
+    },
+    {
+        "content": "<p>readme atpalika jau pēc pirmās dienas <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>",
+        "id": 365534754,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686570718
+    },
+    {
+        "content": "<p>Tur ir faili, ko es esmu manuāli sabāzis folderī - kods nemāk tos novilkt un man nav ne jausmas, kā tos var ielikt githubā neliekot tos pašā repo</p>",
+        "id": 365535076,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686570776
+    },
+    {
+        "content": "<p>tur vajag daudz ko organizēt, ja grib lai github palaiž visus analīzes un tur vajag visus datu failus novilkt (galvenokārt OSM latvija, kas ir 100+ MB - kaut kur to vajag cache'ot)</p>",
+        "id": 365535383,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686570843
+    },
+    {
+        "content": "<p>un rezultātu fails/u arī nekur nav izprintēts un to kaut kā vajag mācēt dabūt ārā</p>",
+        "id": 365535555,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686570888
+    },
+    {
+        "content": "<p>konkrēti Rīgas Satiksmes dati ir no zipa <a href=\"https://data.gov.lv/dati/lv/dataset/marsrutu-saraksti-rigas-satiksme-sabiedriskajam-transportam\">https://data.gov.lv/dati/lv/dataset/marsrutu-saraksti-rigas-satiksme-sabiedriskajam-transportam</a></p>",
+        "id": 365535758,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686570941
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/365535383\">said</a>:</p>\n<blockquote>\n<p>tur vajag daudz ko organizēt, ja grib lai github palaiž visus analīzes un tur vajag visus datu failus novilkt (galvenokārt OSM latvija, kas ir 100+ MB - kaut kur to vajag cache'ot)</p>\n</blockquote>\n<p>Viņš māk cache'ot, tā nebūs problēma. ;)<br>\nBet novilkt katru reizi 100 MB arī nav liela problēma.</p>",
+        "id": 365538984,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686571637
+    },
+    {
+        "content": "<p>failu cachošana drošvien notiek pirms vai pēc programmas - tad ir jātaisa atsevišķa, kas novelk OSM failu, tad github nocacho, tad iedod to nākamajai programmai - un tad tā to var izmantot... laikm</p>",
+        "id": 365540294,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686571915
+    },
+    {
+        "content": "<p>Var protams pa taisno katru reizi - bet tad testēšana gan būs ilga un katreiz repo atjaunojot vilks tos 100 MB - tā var arī kaut kādus bandwidth limitus norauties</p>",
+        "id": 365542427,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686572341
+    },
+    {
+        "content": "<p>(Ja ne github, tad iespējams arī Geofabrik, ja vienu un to pašu failu velk visu laiku)</p>",
+        "id": 365542565,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686572368
+    },
+    {
+        "content": "<p>Es kaut kad vēlāk paskatīšos, kā to darīt. Jālasa doci</p>",
+        "id": 365572959,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686578420
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/365535758\">said</a>:</p>\n<blockquote>\n<p>konkrēti Rīgas Satiksmes dati ir no zipa <a href=\"https://data.gov.lv/dati/lv/dataset/marsrutu-saraksti-rigas-satiksme-sabiedriskajam-transportam\">https://data.gov.lv/dati/lv/dataset/marsrutu-saraksti-rigas-satiksme-sabiedriskajam-transportam</a></p>\n</blockquote>\n<p>Nav baigi forši, ka viņi liek jaunus failus ar jauniem nosaukumiem, baigi neērti priekš automatizācijas. Man liekas, es pat mēģināju par to rakstīt, bet laikam caur to formu, kas ir uz <a href=\"http://data.gov.lv\">data.gov.lv</a>, varbūt neviens neizlasīja...</p>\n<p><a href=\"https://clang.llvm.org/docs/JSONCompilationDatabase.html\">Šeit</a> ir vēl tāds URL - <a href=\"http://saraksti.rigassatiksme.lv/riga/gtfs.zip\">http://saraksti.rigassatiksme.lv/riga/gtfs.zip</a> - to būtu vieglāk izmantot, bet cik tas ir oficiāls... <span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span></p>",
+        "id": 365778574,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686643892
+    },
+    {
+        "content": "<p>Mazliet pabīdīju uz priekšu, tagad ir <a href=\"https://github.com/OSMLatvija/Osmalyzer/actions/runs/5253667404/jobs/9491282930#step:10:10\">tāds error</a>:</p>\n<div class=\"codehilite\"><pre><span></span><code>Unhandled exception. System.ComponentModel.Win32Exception (13): An error occurred trying to start process &#39;/home/runner/work/Osmalyzer/Osmalyzer/Rigas Satiksme report.txt&#39; with working directory &#39;/home/runner/work/Osmalyzer/Osmalyzer&#39;. Permission denied\n</code></pre></div>\n<p>Kāpēc mēs gribam <a href=\"https://github.com/OSMLatvija/Osmalyzer/blob/39037df226d19613edd88f366873170dc22da362/Osmalyzer/Program.cs#L211\">palaist .txt failu</a>? <span aria-label=\"confused\" class=\"emoji emoji-1f615\" role=\"img\" title=\"confused\">:confused:</span></p>\n<div class=\"codehilite\" data-code-language=\"C#\"><pre><span></span><code><span class=\"w\">            </span><span class=\"n\">Process</span><span class=\"p\">.</span><span class=\"n\">Start</span><span class=\"p\">(</span><span class=\"n\">reportFileName</span><span class=\"p\">);</span>\n</code></pre></div>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/OSMLatvija/Osmalyzer/actions/runs/5253667404/jobs/9491282930#step:10:10\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/920e73182babba4f299d627f4a393193172f13e9\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f386135356535616637333134376534396632616337646530653066656136613465373561386231326261366136663432396337313764643861346461623562392f4f534d4c617476696a612f4f736d616c797a6572)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/OSMLatvija/Osmalyzer/actions/runs/5253667404/jobs/9491282930#step:10:10\" title=\"Download missing files · OSMLatvija/Osmalyzer@39037df\">Download missing files · OSMLatvija/Osmalyzer@39037df</a></div><div class=\"message_embed_description\">Parsing OSM data when it's too complex for Overpass - Download missing files · OSMLatvija/Osmalyzer@39037df</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/OSMLatvija/Osmalyzer/blob/39037df226d19613edd88f366873170dc22da362/Osmalyzer/Program.cs#L211\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/920e73182babba4f299d627f4a393193172f13e9\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f386135356535616637333134376534396632616337646530653066656136613465373561386231326261366136663432396337313764643861346461623562392f4f534d4c617476696a612f4f736d616c797a6572)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/OSMLatvija/Osmalyzer/blob/39037df226d19613edd88f366873170dc22da362/Osmalyzer/Program.cs#L211\" title=\"Osmalyzer/Osmalyzer/Program.cs at 39037df226d19613edd88f366873170dc22da362 · OSMLatvija/Osmalyzer\">Osmalyzer/Osmalyzer/Program.cs at 39037df226d19613edd88f366873170dc22da362 · OSMLatvija/Osmalyzer</a></div><div class=\"message_embed_description\">Parsing OSM data when it's too complex for Overpass - Osmalyzer/Osmalyzer/Program.cs at 39037df226d19613edd88f366873170dc22da362 · OSMLatvija/Osmalyzer</div></div></div>",
+        "id": 365803437,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686649071
+    },
+    {
+        "content": "<p>Spriežot pēc <a href=\"https://www.transit.land/feeds/f-ud1h-r%C4%ABgassatiksme\">https://www.transit.land/feeds/f-ud1h-r%C4%ABgassatiksme</a>, RS mājaslapā esošais fails ir aktuālais un tiek atjaunots biežāk. Saiti uz to gan pašas RS lapā neatrodu. Lielos vilcienos gan tie paši RS dati GTFS formātā vien ir. Protams, ja dikti grib piesieties, tad gan jau var iebilst pret to izmantošanu OSM.<br>\nAtvērto datu portālā, ja datu kopai atver lapas kodu, tad apakšā ir saites uz resursu sarakstu dažādos formātos. Attiecīgi no turienes var paņemt failu nosaukumus, apstrādāt tos (mēnesi pārcelt uz beigām un sakārtot dilstoši) un tādējādi izgūt jaunāko. Čakarīgi, bet ne neiespējami. Izvēlētos gan ņemt no RS lapas vienkāršības un aktualitātes labad.</p>",
+        "id": 365811431,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1686650747
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/365778574\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/365535758\">said</a>:</p>\n<blockquote>\n<p>konkrēti Rīgas Satiksmes dati ir no zipa <a href=\"https://data.gov.lv/dati/lv/dataset/marsrutu-saraksti-rigas-satiksme-sabiedriskajam-transportam\">https://data.gov.lv/dati/lv/dataset/marsrutu-saraksti-rigas-satiksme-sabiedriskajam-transportam</a></p>\n</blockquote>\n<p>Nav baigi forši, ka viņi liek jaunus failus ar jauniem nosaukumiem, baigi neērti priekš automatizācijas. Man liekas, es pat mēģināju par to rakstīt, bet laikam caur to formu, kas ir uz <a href=\"http://data.gov.lv\">data.gov.lv</a>, varbūt neviens neizlasīja...</p>\n<p><a href=\"https://clang.llvm.org/docs/JSONCompilationDatabase.html\">Šeit</a> ir vēl tāds URL - <a href=\"http://saraksti.rigassatiksme.lv/riga/gtfs.zip\">http://saraksti.rigassatiksme.lv/riga/gtfs.zip</a> - to būtu vieglāk izmantot, bet cik tas ir oficiāls... <span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span></p>\n</blockquote>\n<p>Lapā norādīts <a href=\"mailto:atbalsts@vraa.gov.lv\">atbalsts@vraa.gov.lv</a> - noteikti vērts uz to uzrakstīt. Būtu jau forši, ja dati nebūtu jāmeklē pa dažādu organizāciju lapām, kuras jebkurā brīdī var mainīties vai pazust :)</p>",
+        "id": 365828226,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1686654126
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/365803437\">said</a>:</p>\n<div class=\"codehilite\"><pre><span></span><code>Kāpēc mēs gribam [palaist .txt failu]\n</code></pre></div>\n<p>Tāpēc, ka Windowsā tas atver failu Notepadā un ļauj man skatīties uz to - arī pēc tam, kad programma aizverās. Es tur pēc tam bīdu, skatos un piezīmes lieku labojot.</p>",
+        "id": 365829778,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686654408
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/365778574\">said</a>:</p>\n<blockquote>\n<p>Nav baigi forši, ka viņi liek jaunus failus ar jauniem nosaukumiem, baigi neērti priekš automatizācijas. </p>\n</blockquote>\n<p>Ja godīgi, tā kā man tas viss ir programēšanas vidē, to uzrakstīt ir sīkums (salīdzinot, cik es pašus datus paršet kodu rakstīju) - tur jau ir HTML parseris un datu lapā katram elementam klase. Pat ja nav secīgi - sameklēt datumu nav problēma. No visām problēmām, tā vismazākā :)</p>",
+        "id": 365830226,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686654484
+    },
+    {
+        "content": "<p>Heh, tu jau to centies visu ar github actioniem... nu teorētiski jau var, bet nu tad tas kaut kur svešās vietās. Te tev veicās, ka viens zips un viss.</p>",
+        "id": 365830678,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686654585
+    },
+    {
+        "content": "<p>Īstenībā, es gan negaidīju, ka HTML lapu varēt novilkt un saglabāt tādā veidā</p>",
+        "id": 365830916,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686654624
+    },
+    {
+        "content": "<p>A wget automātiski cacho? Tur es skatos ir iespēja salīdzināt http headera timestampu ar lokālā faila un tad viņš nevilks pa jaunu</p>",
+        "id": 365832398,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686654940
+    },
+    {
+        "content": "<p>Te gan laikam vispirms tam failam jābūt nokešotam kaut kā</p>",
+        "id": 365832451,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686654956
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/365830678\">said</a>:</p>\n<blockquote>\n<p>Heh, tu jau to centies visu ar github actioniem... nu teorētiski jau var, bet nu tad tas kaut kur svešās vietās. Te tev veicās, ka viens zips un viss.</p>\n</blockquote>\n<p>Nesapratu par \"svešām vietām\"...</p>",
+        "id": 365836455,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686655796
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/365836455\">said</a>:</p>\n<blockquote>\n<p>Nesapratu par \"svešām vietām\"...</p>\n</blockquote>\n<p>Nav svarīgi, es tā - domāju pārāk skaļi :)</p>",
+        "id": 365837161,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686655935
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/yn2O6QVQOlXKnLVyewHrbhDQ/such-hapines.png\">such-hapines.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/yn2O6QVQOlXKnLVyewHrbhDQ/such-hapines.png\" title=\"such-hapines.png\"><img src=\"/user_uploads/49624/yn2O6QVQOlXKnLVyewHrbhDQ/such-hapines.png\"></a></div>",
+        "id": 365839836,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686656485
+    },
+    {
+        "content": "<p>Tikai tagad izdomāt, kā output failus ārā dabūt. Es viņus varu noformatēt kā vajag. Jautājums, kur tos likt. Drošvien gribētos, kā kaut kādu HTML uz kādu repo un lai <a href=\"http://github.io\">github.io</a> skatāms</p>",
+        "id": 365840382,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686656602
+    },
+    {
+        "content": "<p>Drošvien varētu likt vispirms folderī kaut kādā, jo es visu tā pat sametu, kur executable</p>",
+        "id": 365840663,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686656651
+    },
+    {
+        "content": "<p><span aria-label=\"tada\" class=\"emoji emoji-1f389\" role=\"img\" title=\"tada\">:tada:</span> <a href=\"https://osmlatvija.github.io/Osmalyzer/Rigas%20Satiksme%20report.txt\">https://osmlatvija.github.io/Osmalyzer/Rigas%20Satiksme%20report.txt</a></p>",
+        "id": 365843741,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686657320
+    },
+    {
+        "content": "<p>Es tā saprotu, ka tas deploy ir kaut kāds īpašs veids, kā tu iedod to lapu GitHub Pages? Kā Github Pages izdomā, kur to ielikt? Tev kaut kāda konfigurācija kaut kur?</p>",
+        "id": 365844412,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686657477
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/365832398\">said</a>:</p>\n<blockquote>\n<p>A wget automātiski cacho? Tur es skatos ir iespēja salīdzināt http headera timestampu ar lokālā faila un tad viņš nevilks pa jaunu</p>\n</blockquote>\n<p>Cik es saprotu (nekad neesmu lietojis), lai tas <code>wget -N/--timestamping</code> strādātu, vajag, lai fails paliktu neaiztikts uz failu sistēmas starp <code>wget</code> izsaukumiem. Visticamāk, uz GitHub Action runner'iem tā nebūs. Pat ja mēs no'cache'osim failu un pēc tam no ta cache dabūsim, nav garantijas, ka faila timestamp būs pareizs. <code>wget</code> uzskatīs, ka fails no cache ir jauns un neko nenolādēs (kad vajadzētu).</p>\n<p>Bet GeoFabrik piedāvā arī faila checksum, var pārbaudīt to...</p>",
+        "id": 365845396,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686657672
+    },
+    {
+        "content": "<p>Ja tu vari atrast, kā ielikt failu cachā un izņemt ārā no cacha, es to pārbaudi varu uztaisīt kodā un pats (ne)novilkt, ko vajag.</p>",
+        "id": 365845882,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686657778
+    },
+    {
+        "content": "<p>Tipa, ja būtu kaut kāds \"cached\" folderis - kur es varu ielikt failus un kur būs failu no iepriekšējās reizes</p>",
+        "id": 365846039,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686657811
+    },
+    {
+        "content": "<p>Teorētiski es vienkārši paskatītos datumu, kas rakstīts <a href=\"https://download.geofabrik.de/europe/latvia.html\">https://download.geofabrik.de/europe/latvia.html</a> lapā</p>",
+        "id": 365846236,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686657845
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/365845882\">said</a>:</p>\n<blockquote>\n<p>Ja tu vari atrast, kā ielikt failu cachā un izņemt ārā no cacha, es to pārbaudi varu uztaisīt kodā un pats (ne)novilkt, ko vajag.</p>\n</blockquote>\n<p><a href=\"https://github.com/marketplace/actions/cache\">Šitais</a> ir laikam oficiālais cache priekš GitHub Actions. (Es neesmu vēl to nekur lietojis, man vajag lasīt dokumentāciju.)</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/marketplace/actions/cache\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1f184ffec6d3510f6c4bb5db327989b94ff9a14b\\/68747470733a2f2f617661746172732e67697468756275736572636f6e74656e742e636f6d2f752f34343033363536323f733d34303026763d34)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/marketplace/actions/cache\" title=\"Cache - GitHub Marketplace\">Cache - GitHub Marketplace</a></div><div class=\"message_embed_description\">Cache artifacts like dependencies and build outputs to improve workflow execution time</div></div></div>",
+        "id": 365846617,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686657931
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/365844412\">said</a>:</p>\n<blockquote>\n<p>Es tā saprotu, ka tas deploy ir kaut kāds īpašs veids, kā tu iedod to lapu GitHub Pages? Kā Github Pages izdomā, kur to ielikt? Tev kaut kāda konfigurācija kaut kur?</p>\n</blockquote>\n<p>Var palasīt par to <a href=\"https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow\">GitHub dokumentācijā</a>. Konfigurācija ir daļēji GitHub Actions workflow failos, daļēji repo setting'os (kurus Tu šim repo laikam neredzi). <a href=\"https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites\">Publiskots viss parasti zem <code>http(s)://&lt;organization&gt;.github.io/&lt;repository&gt;</code></a>.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/9584cd39a683b9a4afc1c82dcfd92b6f7dc45189\\/68747470733a2f2f6769746875622e6769746875626173736574732e636f6d2f696d616765732f6d6f64756c65732f6f70656e5f67726170682f6769746875622d6c6f676f2e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow\" title=\"Configuring a publishing source for your GitHub Pages site - GitHub Docs\">Configuring a publishing source for your GitHub Pages site - GitHub Docs</a></div><div class=\"message_embed_description\">You can configure your GitHub Pages site to publish when changes are pushed to a specific branch, or you can write a GitHub Actions workflow to publish your site.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/9584cd39a683b9a4afc1c82dcfd92b6f7dc45189\\/68747470733a2f2f6769746875622e6769746875626173736574732e636f6d2f696d616765732f6d6f64756c65732f6f70656e5f67726170682f6769746875622d6c6f676f2e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites\" title=\"About GitHub Pages - GitHub Docs\">About GitHub Pages - GitHub Docs</a></div><div class=\"message_embed_description\">You can use GitHub Pages to host a website about yourself, your organization, or your project directly from a repository on GitHub.com.</div></div></div>",
+        "id": 365851570,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686659105
+    },
+    {
+        "content": "<p>Ā, tas ir tur settingos. Es redzu šito <br>\n<a href=\"/user_uploads/49624/-U1pmtw1huxprX6fFHT9ejbR/this.png\">this.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/-U1pmtw1huxprX6fFHT9ejbR/this.png\" title=\"this.png\"><img src=\"/user_uploads/49624/-U1pmtw1huxprX6fFHT9ejbR/this.png\"></a></div>",
+        "id": 365852376,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686659302
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/365852376\">said</a>:</p>\n<blockquote>\n<p>Ā, tas ir tur settingos. Es redzu šito <br>\n<a href=\"/user_uploads/49624/-U1pmtw1huxprX6fFHT9ejbR/this.png\">this.png</a></p>\n</blockquote>\n<p>Jā, tas ir tas.</p>",
+        "id": 365852688,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686659382
+    },
+    {
+        "content": "<p>A tad sanāk, ka tas deploy katru reizi visu pa jaunu ieraksta uz Pages? Tur vecie faili nepaliek?</p>",
+        "id": 365853370,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686659526
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/365853370\">said</a>:</p>\n<blockquote>\n<p>A tad sanāk, ka tas deploy katru reizi visu pa jaunu ieraksta uz Pages? Tur vecie faili nepaliek?</p>\n</blockquote>\n<p>Jā.</p>",
+        "id": 365853600,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686659582
+    },
+    {
+        "content": "<p>Uztaisīju cachu <a href=\"https://github.com/OSMLatvija/Osmalyzer/actions/caches\">https://github.com/OSMLatvija/Osmalyzer/actions/caches</a> un tagad novelk failus kodā un pārbauda vai nav jau kešā ar pēdējo datumu (cerams)</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/OSMLatvija/Osmalyzer/actions/caches\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/920e73182babba4f299d627f4a393193172f13e9\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f386135356535616637333134376534396632616337646530653066656136613465373561386231326261366136663432396337313764643861346461623562392f4f534d4c617476696a612f4f736d616c797a6572)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/OSMLatvija/Osmalyzer/actions/caches\" title=\"Actions · OSMLatvija/Osmalyzer\">Actions · OSMLatvija/Osmalyzer</a></div><div class=\"message_embed_description\">Parsing OSM data when it's too complex for Overpass - Actions · OSMLatvija/Osmalyzer</div></div></div>",
+        "id": 365938739,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686676346
+    },
+    {
+        "content": "<p>Izskatās, ka strādā.</p>",
+        "id": 365956100,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686680519
+    },
+    {
+        "content": "<p>Izskatās, ka <a href=\"https://github.com/OSMLatvija/Osmalyzer/actions/runs/5258419247/jobs/9502621834#step:17:2\">ja bija cache hit, tad cache neatjaunosies</a>:</p>\n<div class=\"codehilite\"><pre><span></span><code>Cache hit occurred on the primary key txLyWHOIazMqZvNZixBh, not saving cache.\n</code></pre></div>\n<p>Tā kā <a href=\"https://github.com/OSMLatvija/Osmalyzer/blob/f12b9ccf6aa651f7485e7953b446620104480e2d/.github/workflows/main.yaml#LL21C14-L21C34\">cache key ir nemainīgs</a>, action vienmēr dabūs šodienas failus no cache. Un sākot ar rītdienu vilks jaunus failus <em>kartu reizi</em>.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/OSMLatvija/Osmalyzer/actions/runs/5258419247/jobs/9502621834#step:17:2\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/920e73182babba4f299d627f4a393193172f13e9\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f386135356535616637333134376534396632616337646530653066656136613465373561386231326261366136663432396337313764643861346461623562392f4f534d4c617476696a612f4f736d616c797a6572)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/OSMLatvija/Osmalyzer/actions/runs/5258419247/jobs/9502621834#step:17:2\" title=\"Clean up code warnings · OSMLatvija/Osmalyzer@f12b9cc\">Clean up code warnings · OSMLatvija/Osmalyzer@f12b9cc</a></div><div class=\"message_embed_description\">Parsing OSM data when it's too complex for Overpass - Clean up code warnings · OSMLatvija/Osmalyzer@f12b9cc</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/OSMLatvija/Osmalyzer/blob/f12b9ccf6aa651f7485e7953b446620104480e2d/.github/workflows/main.yaml#LL21C14-L21C34\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/920e73182babba4f299d627f4a393193172f13e9\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f386135356535616637333134376534396632616337646530653066656136613465373561386231326261366136663432396337313764643861346461623562392f4f534d4c617476696a612f4f736d616c797a6572)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/OSMLatvija/Osmalyzer/blob/f12b9ccf6aa651f7485e7953b446620104480e2d/.github/workflows/main.yaml#LL21C14-L21C34\" title=\"Osmalyzer/.github/workflows/main.yaml at f12b9ccf6aa651f7485e7953b446620104480e2d · OSMLatvija/Osmalyzer\">Osmalyzer/.github/workflows/main.yaml at f12b9ccf6aa651f7485e7953b446620104480e2d · OSMLatvija/Osmalyzer</a></div><div class=\"message_embed_description\">Parsing OSM data when it's too complex for Overpass - Osmalyzer/.github/workflows/main.yaml at f12b9ccf6aa651f7485e7953b446620104480e2d · OSMLatvija/Osmalyzer</div></div></div>",
+        "id": 365957723,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686680938
+    },
+    {
+        "content": "<p>āāāāā... viņš tā to dara. Viņam manuāli jāpasaka, lai cachu novāc un pa jaunu savāc.... paga, bet kā es to varu izdarīt, ja es nezinu, vai man vajadzēt cachu līdz es palaižu programmu. key man taču jāiedod PIRMS palaišanas.</p>",
+        "id": 365958404,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686681101
+    },
+    {
+        "content": "<p>Labs jautājums. Es pagaidām neko nevaru ieteikt, vajag vairāk palasīt dokumentāciju.</p>",
+        "id": 365958724,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686681171
+    },
+    {
+        "content": "<p>Es to dokumentāciju nepareizi sapratu - tur piemēru vispār nav</p>",
+        "id": 365958884,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686681205
+    },
+    {
+        "content": "<p>Man liekas, mēs pārāk iespringām 100 MB dēļ. Cik bieži mums vajadzēs palaist to action? GeoFabrik fails atjaunojas reizi dienā, vienkārši pielāgosim <code>schedule:</code> un vienu reizi dienā laidīsim, nav problēma, ka katru reizi vilks 100 MB.</p>",
+        "id": 365959394,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686681328
+    },
+    {
+        "content": "<p>Nu galvenokārt - es gribētu patestēt, piemēram tos pašus github pages taisot vai mainot actions</p>",
+        "id": 365959728,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686681415
+    },
+    {
+        "content": "<p>Es jau pa šodienu mierīgi gigabaitu salasīju</p>",
+        "id": 365959772,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686681424
+    },
+    {
+        "content": "<p>Un jebkurā gadījumā - es gribu datus, piemēram datumu RS datiem - to no actioniem nevar dabūt</p>",
+        "id": 365960009,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686681486
+    },
+    {
+        "content": "<p>Arī OSM datiem tur datuma nav pašā failā</p>",
+        "id": 365960061,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686681505
+    },
+    {
+        "content": "<p>Man šie abi datumi tavā pirmajā reizē report failam bija nepareizi</p>",
+        "id": 365960114,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686681522
+    },
+    {
+        "content": "<p>Un ja es gribētu palaist nevis visus analīzes, bet katru pa vienai - un ļaut viņiem arī ar exception izlidot - tad katram būtu jāvelk pa jaunu tie 100 MB</p>",
+        "id": 365960399,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686681591
+    },
+    {
+        "content": "<p>Savādāk, ja kļūda vienā analīzē, tad vispār nekas nestrādā - piemēram, rīgas satiksmei saits 404 šodien</p>",
+        "id": 365960531,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686681619
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/365958404\">said</a>:</p>\n<blockquote>\n<p>āāāāā... viņš tā to dara. Viņam manuāli jāpasaka, lai cachu novāc un pa jaunu savāc.... paga, bet kā es to varu izdarīt, ja es nezinu, vai man vajadzēt cachu līdz es palaižu programmu. key man taču jāiedod PIRMS palaišanas.</p>\n</blockquote>\n<p><a href=\"https://github.com/actions/cache/blob/main/save/README.md#always-save-cache\">Šeit</a> aprakstīts, kā saglabāt cache katru reizi.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/actions/cache/blob/main/save/README.md#always-save-cache\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/59421a4d58f9764fcfacc85601c847396dde4dd2\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f633431303063333038373338623130663933313331633534653263356163356639323561656433306238393662623362383834386636386635396438306163342f616374696f6e732f6361636865)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/actions/cache/blob/main/save/README.md#always-save-cache\" title=\"cache/save/README.md at main · actions/cache\">cache/save/README.md at main · actions/cache</a></div><div class=\"message_embed_description\">Cache dependencies and build outputs in GitHub Actions - cache/save/README.md at main · actions/cache</div></div></div>",
+        "id": 365960935,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686681706
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/365960061\">said</a>:</p>\n<blockquote>\n<p>Arī OSM datiem tur datuma nav pašā failā</p>\n</blockquote>\n<p>Datums ir <code>Last-Modified</code> HTTP header'ī:</p>\n<div class=\"codehilite\"><pre><span></span><code>$ curl --head https://download.geofabrik.de/europe/latvia-latest.osm.pbf\nHTTP/1.1 200 OK\nDate: Tue, 13 Jun 2023 18:46:26 GMT\nServer: Apache\nLast-Modified: Tue, 13 Jun 2023 03:17:54 GMT\nETag: &quot;694e2a1-5fdfa47ee3c80&quot;\nAccept-Ranges: bytes\nContent-Length: 110420641\nContent-Type: application/octet-stream\nX-Cache: MISS from download-proxy8\nX-Cache-Lookup: MISS from download-proxy8:80\nVia: 1.1 download-proxy8 (squid/5.6)\nConnection: keep-alive\n</code></pre></div>\n<p>Bet neprasi man, kā to var dabūt C#'ā :D</p>",
+        "id": 365962729,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686682149
+    },
+    {
+        "content": "<p>Jā, C# pluginā nebija, kā dabūt ārā metadatus. Es gan to varētu izvilkt, ja ļoti gribētu. Bet nu tas tā.</p>",
+        "id": 365962993,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686682216
+    },
+    {
+        "content": "<p>Bet tikai tu jau te no servera saņēmi to datumu, ne jau no faila</p>",
+        "id": 365963241,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686682282
+    },
+    {
+        "content": "<p>Pašā PBF struktūrā it kā esot datums, bet tur viss ir nenormāli saencodots</p>",
+        "id": 365963390,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686682318
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/365963390\">said</a>:</p>\n<blockquote>\n<p>Pašā PBF struktūrā it kā esot datums, bet tur viss ir nenormāli saencodots</p>\n</blockquote>\n<p>Tas laikam būtu <a href=\"https://wiki.openstreetmap.org/wiki/PBF_Format#What_are_the_replication_fields_for?\"><code>osmosis_replication_timestamp</code></a>.</p>",
+        "id": 365964805,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686682636
+    },
+    {
+        "content": "<p>Nu it kā uztaisīju, lai katru reizi cache taisa pa jaunu, bet sākumā izliek iepriekšējo - tikai tagad katrs cache ir saglabāts līdz GitHubs tos automātsiski dzēsīs sasniedzot limitus</p>",
+        "id": 365969169,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686683608
+    },
+    {
+        "content": "<p>Te kā izdzēst, bet man tagad slinkums to studēt <a href=\"https://docs.github.com/en/rest/actions/cache?apiVersion=2022-11-28#delete-github-actions-caches-for-a-repository-using-a-cache-key\">https://docs.github.com/en/rest/actions/cache?apiVersion=2022-11-28#delete-github-actions-caches-for-a-repository-using-a-cache-key</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://docs.github.com/en/rest/actions/cache?apiVersion=2022-11-28#delete-github-actions-caches-for-a-repository-using-a-cache-key\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/9584cd39a683b9a4afc1c82dcfd92b6f7dc45189\\/68747470733a2f2f6769746875622e6769746875626173736574732e636f6d2f696d616765732f6d6f64756c65732f6f70656e5f67726170682f6769746875622d6c6f676f2e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://docs.github.com/en/rest/actions/cache?apiVersion=2022-11-28#delete-github-actions-caches-for-a-repository-using-a-cache-key\" title=\"GitHub Actions Cache - GitHub Docs\">GitHub Actions Cache - GitHub Docs</a></div><div class=\"message_embed_description\">Use the REST API to interact with the cache for repositories in GitHub Actions.</div></div></div>",
+        "id": 365969448,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686683668
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/365969169\">said</a>:</p>\n<blockquote>\n<p>Nu it kā uztaisīju, lai katru reizi cache taisa pa jaunu, bet sākumā izliek iepriekšējo - tikai tagad katrs cache ir saglabāts līdz GitHubs tos automātsiski dzēsīs sasniedzot limitus</p>\n</blockquote>\n<p>Hm, varbūt nevajadzēja likt <code>run_id</code> iekš key?</p>",
+        "id": 365980392,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686686870
+    },
+    {
+        "content": "<p>Bet tad būs cache hit</p>",
+        "id": 365981751,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686687261
+    },
+    {
+        "content": "<p>Ideja bija saglabāt cache neatkārīgi no hit.</p>",
+        "id": 365983472,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686687749
+    },
+    {
+        "content": "<p>Bet cache ir read-only/immutable - es tavu linku lasot sapratu, ka tur tik un tā ir jauns key katreiz, bet vienkārši restore un save ir atsevišķi, tāpēc save vajag zināt to key no restore. Un always save cache nenozīmē, ka var pārrakstīt esošo - tikai to, ka var rakstīt cache neatkarīgi no tā, kas notika ar to visu procesu. Vismaz es tā uz 85% pārliecību sapratu.</p>",
+        "id": 365984735,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686688118
+    },
+    {
+        "content": "<p>Hmmmm.... pamēģināšu to if always</p>",
+        "id": 365985251,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686688243
+    },
+    {
+        "content": "<p>\"Failed to save: Unable to reserve cache with key osmalyzer-cache, another job may be creating this cache. More details: Cache already exists.\"</p>",
+        "id": 365987679,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686688923
+    },
+    {
+        "content": "<p>Es nevaru izmantot jau esošu cache key</p>",
+        "id": 365987754,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686688935
+    },
+    {
+        "content": "<p>Vakar mēģināju cīnīties ar <code>#if</code> un <code>ExtraDefineConstants</code> (<a href=\"https://github.com/OSMLatvija/Osmalyzer/commit/e0239e4e13e40d59f9ded34fda535e09f08dc387\">te</a> un <a href=\"https://github.com/OSMLatvija/Osmalyzer/commit/dcb4c5f049b2b07511198dcac61654456da04398\">te</a>), bet tā arī nedabūju tos strādāt. Tad man <a href=\"https://github.com/OSMLatvija/Osmalyzer/commit/defae40f56b5cbd9273a3662d96bbb550020b809\">apnika</a>, cerams es neko nesalauzu Tavā vidē.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/OSMLatvija/Osmalyzer/commit/e0239e4e13e40d59f9ded34fda535e09f08dc387\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/befe3629dc9b223fed3c47ff77a6cdd3adf0f234\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f626563643962393137313238666537636437626366656532333431353539353363633935366361303738333636616531353539323639303762393137653531362f4f534d4c617476696a612f4f736d616c797a65722f636f6d6d69742f65303233396534653133653430643539663964656433346664613533356530396630386463333837)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/OSMLatvija/Osmalyzer/commit/e0239e4e13e40d59f9ded34fda535e09f08dc387\" title=\"Fix path to data/ · OSMLatvija/Osmalyzer@e0239e4\">Fix path to data/ · OSMLatvija/Osmalyzer@e0239e4</a></div><div class=\"message_embed_description\">Parsing OSM data when it's too complex for Overpass - Fix path to data/ · OSMLatvija/Osmalyzer@e0239e4</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/OSMLatvija/Osmalyzer/commit/dcb4c5f049b2b07511198dcac61654456da04398\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/4e41376ce4bb777dba3efc7e5e277db4b08034dc\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f633334366530303935333235333636323132646434663165313138646131363664623431316237363836666631646462343361366362396464633532626561332f4f534d4c617476696a612f4f736d616c797a65722f636f6d6d69742f64636234633566303439623262303735313131393864636163363136353434353664613034333938)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/OSMLatvija/Osmalyzer/commit/dcb4c5f049b2b07511198dcac61654456da04398\" title=\"Make ExtraDefineConstants property actually work · OSMLatvija/Osmalyzer@dcb4c5f\">Make ExtraDefineConstants property actually work · OSMLatvija/Osmalyzer@dcb4c5f</a></div><div class=\"message_embed_description\">Based on https://stackoverflow.com/a/62851050</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/OSMLatvija/Osmalyzer/commit/defae40f56b5cbd9273a3662d96bbb550020b809\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/eb56c813cc1fc640ec94e569f6629a0622449401\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f353730366632356565383064326536373933303462386561353735326463323437623936626434306433316463663839316161396461643839663331363565312f4f534d4c617476696a612f4f736d616c797a65722f636f6d6d69742f64656661653430663536623563626439323733613336363264393662626235353030323062383039)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/OSMLatvija/Osmalyzer/commit/defae40f56b5cbd9273a3662d96bbb550020b809\" title=\"Put data/ into path from start · OSMLatvija/Osmalyzer@defae40\">Put data/ into path from start · OSMLatvija/Osmalyzer@defae40</a></div><div class=\"message_embed_description\">Parsing OSM data when it's too complex for Overpass - Put data/ into path from start · OSMLatvija/Osmalyzer@defae40</div></div></div>",
+        "id": 366412694,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686819377
+    },
+    {
+        "content": "<p>Jā, es redzēju, paldies. Tas constants tur nestrādāja jau no sākuma un es tā arī nesalaboju, jo nesapratu kāpēc. Vakar redzēju, ka dēļ tā data path neaizgāja, bet es aizbraucu un nesalaboju uzreiz.</p>",
+        "id": 366421336,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686821138
+    },
+    {
+        "content": "<p>Gribēju vēl uzprasīt - a kas ir Gitpod?</p>",
+        "id": 366421525,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686821171
+    },
+    {
+        "content": "<p>Un vēl - šitais ir priekš kaut kāda konkrēta mērķa Githubā - <a href=\"https://github.com/OSMLatvija/Osmalyzer/commit/27818df6615dff5e95fcfda3e108784f517dfa8a\">https://github.com/OSMLatvija/Osmalyzer/commit/27818df6615dff5e95fcfda3e108784f517dfa8a</a> ?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/OSMLatvija/Osmalyzer/commit/27818df6615dff5e95fcfda3e108784f517dfa8a\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/983beb76dc06648e031d99192587f0fd99f23b44\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f386231366235643638313338323130623961623631396530373437636436376364336337383863326630633362633561383661376532666137396165396166362f4f534d4c617476696a612f4f736d616c797a65722f636f6d6d69742f32373831386466363631356466663565393566636664613365313038373834663531376466613861)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/OSMLatvija/Osmalyzer/commit/27818df6615dff5e95fcfda3e108784f517dfa8a\" title=\"Hide few dirs from git · OSMLatvija/Osmalyzer@27818df\">Hide few dirs from git · OSMLatvija/Osmalyzer@27818df</a></div><div class=\"message_embed_description\">Parsing OSM data when it's too complex for Overpass - Hide few dirs from git · OSMLatvija/Osmalyzer@27818df</div></div></div>",
+        "id": 366421622,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686821197
+    },
+    {
+        "content": "<p>Jo teorētiski visi tie folderi jau ir zem bin/ un gits tos neņem</p>",
+        "id": 366421729,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686821218
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/366421525\">said</a>:</p>\n<blockquote>\n<p>Gribēju vēl uzprasīt - a kas ir Gitpod?</p>\n</blockquote>\n<p><a href=\"https://www.gitpod.io/\">Gitpod</a> ir cloud-based programmēšanas vide. Neko nevajag instalēt uz sava datora, vienkārši atver browser'ī un sāk kodēt.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.gitpod.io/\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/79310dd168d6483eac09c7b081ae2f093f94d540\\/68747470733a2f2f7777772e676974706f642e696f2f696d616765732f6d656469612d696d6167652e6a7067)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.gitpod.io/\" title=\"Gitpod: Always ready-to-code.\">Gitpod: Always ready-to-code.</a></div><div class=\"message_embed_description\">Gitpod is a cloud development environment for teams to efficiently and securely develop software. Improve your team's developer experience by coding in a CDE.</div></div></div>",
+        "id": 366422337,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686821348
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/366421729\">said</a>:</p>\n<blockquote>\n<p>Jo teorētiski visi tie folderi jau ir zem bin/ un gits tos neņem</p>\n</blockquote>\n<p>Tā laikam notiek, ja palaiž ar F5 no Visual Studio. :D<br>\nJa palaiž ar <code>dotnet build ...</code> un <code>dotnet run ...</code>, kā to dara GitHub Actions, tad <code>cache/</code>, <code>output/</code> un <code>RS/</code> ir repo saknes dir'ā. Uz GitHub Actions runner'a tas nevienam netraucēs, bet es vakardien debugoju Gitpod vidē un arī laidu ar <code>dotnet ...</code> no konsoles.</p>",
+        "id": 366424102,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686821701
+    },
+    {
+        "content": "<p>GitHub Actions laikam gan to pareizi dara: <a href=\"https://github.com/OSMLatvija/Osmalyzer/actions/runs/5275464016/jobs/9540972443#step:6:9\">https://github.com/OSMLatvija/Osmalyzer/actions/runs/5275464016/jobs/9540972443#step:6:9</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/OSMLatvija/Osmalyzer/actions/runs/5275464016/jobs/9540972443#step:6:9\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/920e73182babba4f299d627f4a393193172f13e9\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f386135356535616637333134376534396632616337646530653066656136613465373561386231326261366136663432396337313764643861346461623562392f4f534d4c617476696a612f4f736d616c797a6572)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/OSMLatvija/Osmalyzer/actions/runs/5275464016/jobs/9540972443#step:6:9\" title=\".github/workflows/main.yaml · OSMLatvija/Osmalyzer@defae40\">.github/workflows/main.yaml · OSMLatvija/Osmalyzer@defae40</a></div><div class=\"message_embed_description\">Parsing OSM data when it's too complex for Overpass - .github/workflows/main.yaml · OSMLatvija/Osmalyzer@defae40</div></div></div>",
+        "id": 366425134,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686821895
+    },
+    {
+        "content": "<p>Ja es pareizi sapratu, palaižot projektu, viņš pārliek OS tekošo folderi uz to folderi - tāpēc viss strādā bez papildus folderiem (izņemot to data, kas ir repo un \"agrāk\")</p>",
+        "id": 366425411,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686821959
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/366425411\">said</a>:</p>\n<blockquote>\n<p>Ja es pareizi sapratu, palaižot projektu, viņš pārliek OS tekošo folderi uz to folderi - tāpēc viss strādā bez papildus folderiem (izņemot to data, kas ir repo un \"agrāk\")</p>\n</blockquote>\n<p>Uz kuru \"to folderi\"? Kur atrodas programmas executable?</p>",
+        "id": 366427381,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686822370
+    },
+    {
+        "content": "<p><a href=\"https://github.com/dotnet/project-system/issues/3619\">5 year old issue</a>...</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/dotnet/project-system/issues/3619\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/ff5b6db7fe5bafa03fbeb42501634d2a97ca1674\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f616561333830326566323165386466656433393330336464666664656366633565653961323035643936313865313330386537616163306330643163393737332f646f746e65742f70726f6a6563742d73797374656d2f6973737565732f33363139)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/dotnet/project-system/issues/3619\" title=\"Default working directory inconsistent between dotnet run and Visual Studio · Issue #3619 · dotnet/project-system\">Default working directory inconsistent between dotnet run and Visual Studio · Issue #3619 · dotnet/project-system</a></div><div class=\"message_embed_description\">(first reported at dotnet/EntityFramework.Docs#735) It seems that there was a decision in #2239 to change the current directory to be the output directory. I am not sure about the rationale or what...</div></div></div>",
+        "id": 366427866,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686822471
+    },
+    {
+        "content": "<p>Pamēģināšu saprast... dotnet run pa jaunu build taisa - tāpēc pazūd tas define</p>",
+        "id": 366433006,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686823465
+    },
+    {
+        "content": "<p>also \"Osmalyzer/Osmalyzer/Osmalyzer/\" hihihi</p>",
+        "id": 366433030,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686823470
+    },
+    {
+        "content": "<p>Cik es saprotu, <a href=\"https://github.com/SchemaStore/schemastore/blob/a349dfcb53f4f75b3c29c346a6b43acd51b4e839/src/schemas/json/launchsettings.json#L97-L100\"><code>workingDirectory</code></a> var norādīt <a href=\"https://learn.microsoft.com/en-us/aspnet/core/fundamentals/environments?view=aspnetcore-7.0#development-and-launchsettingsjson\">launchSettings.json failā</a>, un tad laist <code>dotnet run ...</code> ar <a href=\"https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-run#options\"><code>--launch-profile</code> opciju</a>.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/SchemaStore/schemastore/blob/a349dfcb53f4f75b3c29c346a6b43acd51b4e839/src/schemas/json/launchsettings.json#L97-L100\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/d968b57d0ab8ad46ebd44d0d197f8007eb7b5b92\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f356431383330623431646432623230366463363634383336633265616130623332313864616437373761396465346465386232376634386264333663396163642f536368656d6153746f72652f736368656d6173746f7265)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/SchemaStore/schemastore/blob/a349dfcb53f4f75b3c29c346a6b43acd51b4e839/src/schemas/json/launchsettings.json#L97-L100\" title=\"schemastore/src/schemas/json/launchsettings.json at a349dfcb53f4f75b3c29c346a6b43acd51b4e839 · SchemaStore/schemastore\">schemastore/src/schemas/json/launchsettings.json at a349dfcb53f4f75b3c29c346a6b43acd51b4e839 · SchemaStore/schemastore</a></div><div class=\"message_embed_description\">A collection of JSON schema files including full API - schemastore/src/schemas/json/launchsettings.json at a349dfcb53f4f75b3c29c346a6b43acd51b4e839 · SchemaStore/schemastore</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://learn.microsoft.com/en-us/aspnet/core/fundamentals/environments?view=aspnetcore-7.0#development-and-launchsettingsjson\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/ca6f0df6d0c485fdc91cdcf10df670490c2092fa\\/68747470733a2f2f6c6561726e2e6d6963726f736f66742e636f6d2f656e2d75732f6d656469612f6c6f676f732f6c6f676f2d6d732d736f6369616c2e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://learn.microsoft.com/en-us/aspnet/core/fundamentals/environments?view=aspnetcore-7.0#development-and-launchsettingsjson\" title=\"Use multiple environments in ASP.NET Core\">Use multiple environments in ASP.NET Core</a></div><div class=\"message_embed_description\">Learn how to control app behavior across multiple environments in ASP.NET Core apps.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-run#options\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/b391ffb5bbb07ec8f5a5d07ecf15c20cfdd88b70\\/68747470733a2f2f6c6561726e2e6d6963726f736f66742e636f6d2f646f746e65742f6d656469612f646f746e65742d6c6f676f2e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-run#options\" title=\"dotnet run command - .NET CLI\">dotnet run command - .NET CLI</a></div><div class=\"message_embed_description\">The dotnet run command provides a convenient option to run your application from the source code.</div></div></div>",
+        "id": 366434201,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686823675
+    },
+    {
+        "content": "<p>Es pačakarēšos - es nekad neesmu nodarbojies ar low-level buildiem šitā. Es tā saprotu, ka <code>dotnet run</code> vispār it tikai CLI un tas nemaz netaisa palaižamu projektu ar visiem failiem.</p>",
+        "id": 366435096,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686823813
+    },
+    {
+        "content": "<p>Vispār, kāpēc C#? :D</p>",
+        "id": 366435949,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686823959
+    },
+    {
+        "content": "<p>Man šis topiks jau vairākas dienas atgādina par somu runātāja \"jab at\" MS/Windows konferencē :D</p>",
+        "id": 366436997,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1686824139
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/366436997\">said</a>:</p>\n<blockquote>\n<p>Man šis topiks jau vairākas dienas atgādina par somu runātāja \"jab at\" MS/Windows konferencē :D</p>\n</blockquote>\n<p>Now with our crossplatform .NET you can suffer on Linux just like you did on Windows!</p>",
+        "id": 366438062,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686824273
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/366435949\">said</a>:</p>\n<blockquote>\n<p>Vispār, kāpēc C#? :D</p>\n</blockquote>\n<p>A ko tu piedāvātu? ¯\\_(ツ)_/¯ Tāpēc, ka es gribu programēt jebko, ko izdomāju, nevis skriptēt tikai to, kas un kā pieejams. Ar IDE tas ir daudz ātrāk un ērtāk darāms un galvenais palaižams. Un es tagad ar to Github actions esmu ilgāk čakarējies ar buildiem nekā dzīvē ar 500 projektiem. Bet tas ir tāpēc, ka mēģina palaist to visu dīvainos veidos. Es nezinu, kā es varētu uzprogramēt to loģiku, ko es esmu sabāzis tām analīzēm savādāk bez \"pilnas\" programēšanas valodas.</p>",
+        "id": 366440125,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686824571
+    },
+    {
+        "content": "<p>Kaut kādi Javas un Rusti jau nav labāki. Visādi Pythoni vispār prasa, lai tu pats novelc kompilātoru.</p>",
+        "id": 366440454,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686824629
+    },
+    {
+        "content": "<p>Starp citu <code>dotnet run</code> pa taisno strāda - jo tad viņš arī restore un build taisa reizē. Tu speciāli sadalīji pa soļiem to vai arī tas bija kaut kādā dokumentācijā?</p>",
+        "id": 366441976,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686824859
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/366441976\">said</a>:</p>\n<blockquote>\n<p>Starp citu <code>dotnet run</code> pa taisno strāda - jo tad viņš arī restore un build taisa reizē. Tu speciāli sadalīji pa soļiem to vai arī tas bija kaut kādā dokumentācijā?</p>\n</blockquote>\n<p>Man bija ļoti minimāla pieredze ar C# pirms Osmalyzer, tāpēc es paņemu <a href=\"https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net#using-the-net-starter-workflow\">piemēru, ko piedāvāja GitHub Actions dokumentācija</a>, tikai aizvietoju <code>dotnet test</code> ar <code>dotnet run</code>. Es īpaši neiedzīļinājos, kāpēc tur dara <code>dotnet restore</code>, <code>build</code> un <code>test</code> atsevišķi, bet pieļauju, ka tas varētu būt, lai būtu uzreiz skaidrs, kādā stadijā (compile-time, runtime) notika kļūda, nelasot logus.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net#using-the-net-starter-workflow\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/9584cd39a683b9a4afc1c82dcfd92b6f7dc45189\\/68747470733a2f2f6769746875622e6769746875626173736574732e636f6d2f696d616765732f6d6f64756c65732f6f70656e5f67726170682f6769746875622d6c6f676f2e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net#using-the-net-starter-workflow\" title=\"Building and testing .NET - GitHub Docs\">Building and testing .NET - GitHub Docs</a></div><div class=\"message_embed_description\">You can create a continuous integration (CI) workflow to build and test your .NET project.</div></div></div>",
+        "id": 366444290,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686825239
+    },
+    {
+        "content": "<p>Hmm <code>(running from \"/home/runner/work/Osmalyzer/Osmalyzer/Osmalyzer/bin/Release/net6.0\", current path at \"/home/runner/work/Osmalyzer/Osmalyzer\")</code> Jā, izskatās, ka working folderis ir root nevis executable. Protams var jau <code>cd</code> uztaisīt, bet nu... who cares?</p>",
+        "id": 366444478,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686825267
+    },
+    {
+        "content": "<p>Tas define constants nekur nestrādā <span aria-label=\"sob\" class=\"emoji emoji-1f62d\" role=\"img\" title=\"sob\">:sob:</span></p>",
+        "id": 366444767,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686825323
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/366444767\">said</a>:</p>\n<blockquote>\n<p>Tas define constants nekur nestrādā <span aria-label=\"sob\" class=\"emoji emoji-1f62d\" role=\"img\" title=\"sob\">:sob:</span></p>\n</blockquote>\n<p>Cik saprotu, Tev arī nav lielas pieredzes ar C#?</p>",
+        "id": 366445071,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686825370
+    },
+    {
+        "content": "<p>Man ir ļoti liela pieredze ar C# programēt, bet es nekad nečakarējos ar šitādiem low level CLI. Ja man ir ar roku kaut kas jāraksta konsolē, tad mans IDE ir mani nofeilojis.</p>",
+        "id": 366445585,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686825476
+    },
+    {
+        "content": "<p>Pēc tam pielikšu varbūt <code>dotnet test</code> arī - tad varēs unit testus uzrakstīt :D</p>",
+        "id": 366446423,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686825645
+    },
+    {
+        "content": "<p>Bet tagad es beidzot izlasīju dokumentāciju un vairāk vai mazāk sapratu, ko tie dotnet soļi dara vispār.</p>",
+        "id": 366447191,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686825804
+    },
+    {
+        "content": "<div class=\"codehilite\"><pre><span></span><code>#if !REMOTE_EXECUTION\n            string executionPoint = &quot;Remote&quot;;\n</code></pre></div>\n<p>Interesanti jā, kāpēc nestrādā... <span aria-label=\"man facepalming\" class=\"emoji emoji-1f926-200d-2642\" role=\"img\" title=\"man facepalming\">:man_facepalming:</span></p>",
+        "id": 366447410,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686825844
+    },
+    {
+        "content": "<p>Man kaut kā neiet kopā Tava \"ļoti liela pieredze ar C# programmēt\" un nespēja dabūt <code>#if</code> strādāt...<br>\nEs pieļauju, ka Tu programmē priekš sevis, tāpēc vienmēr palaist ar F5 no IDE ir OK.</p>",
+        "id": 366449298,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686826163
+    },
+    {
+        "content": "<p>Tādēļ, ka tas izskatās šādi, ja to grib darīt pareizi IDE <a href=\"/user_uploads/49624/OOuWLoNDMBXyDsEaBPkpppn2/define-const-in-rider.png\">define-const-in-rider.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/OOuWLoNDMBXyDsEaBPkpppn2/define-const-in-rider.png\" title=\"define-const-in-rider.png\"><img src=\"/user_uploads/49624/OOuWLoNDMBXyDsEaBPkpppn2/define-const-in-rider.png\"></a></div>",
+        "id": 366450415,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686826343
+    },
+    {
+        "content": "<p>Tas ar to ExtraDefineConstants viss ir massive hackery - es gribēju pa ātro, bet ar pirmo reizi nesanāca un es nemaz nemēģināju tālāk. Bet tu to pēc tam mēģināji izlabot. Tikai tas jau sākotnēji diemžēl bija nepareizi izdarīts.</p>",
+        "id": 366451026,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686826452
+    },
+    {
+        "content": "<p>Bet tagad es vismaz zinu, kā tā var iehakot konstantus netaisot konfigurāciju. Pēc tāda gan no darba kantora izmetīs <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>",
+        "id": 366452266,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686826658
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/366440454\">said</a>:</p>\n<blockquote>\n<p>Kaut kādi Javas un Rusti jau nav labāki. Visādi Pythoni vispār prasa, lai tu pats novelc kompilātoru.</p>\n</blockquote>\n<p>Java un Rust es pats nemāku. Bet Python, manuprāt, ir labs variants. Jā, tam vajag interpretatoru, bet vismaz <code>python script.py</code> strādā gan uz Windows, gan uz Linux.</p>",
+        "id": 366463947,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686828793
+    },
+    {
+        "content": "<p>Perl FTW!<br>\n/me ducks<br>\nTe varbūt tūlīt būs daļa postu jāpārvieto uz topiku \"valodu fleims\" :)</p>",
+        "id": 366467163,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1686829437
+    },
+    {
+        "content": "<p>TODO: Mapillary route analysis for user home location guess</p>",
+        "id": 366467414,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686829489
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/366467163\">said</a>:</p>\n<blockquote>\n<p>Perl FTW!<br>\n/me ducks<br>\nTe varbūt tūlīt būs daļa postu jāpārvieto uz topiku \"valodu fleims\" :)</p>\n</blockquote>\n<p>Neko neteikšu par Perl kā valodu... :)<br>\nBet uz Windows pieredze ar Perl, man liekas, nav īpaši laba (ja neizmanto WSL).</p>",
+        "id": 366468325,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686829637
+    },
+    {
+        "content": "<p>It's pronounced pjē<span aria-label=\"face vomiting\" class=\"emoji emoji-1f92e\" role=\"img\" title=\"face vomiting\">:face_vomiting:</span>ōrl. Īstenībā, neko nezinu par Perlu</p>",
+        "id": 366468685,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686829693
+    },
+    {
+        "content": "<p>Nu tā <a href=\"https://osmlatvija.github.io/Osmalyzer/\">https://osmlatvija.github.io/Osmalyzer/</a></p>",
+        "id": 366488056,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686833516
+    },
+    {
+        "content": "<p>Varu pajautāt par <a href=\"https://github.com/OSMLatvija/Osmalyzer/blob/b392a638456bbd398965ca5bbea61b8f728f9602/Osmalyzer/Osmalyzer.csproj#L5\"><code>&lt;TargetFramework&gt;</code></a>? Obligāti jābūt 6.0? Gitpod'ā ir 7.0, es nomainīju uz <code>net7.0</code> un viss itkā strādāja.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/OSMLatvija/Osmalyzer/blob/b392a638456bbd398965ca5bbea61b8f728f9602/Osmalyzer/Osmalyzer.csproj#L5\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/920e73182babba4f299d627f4a393193172f13e9\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f386135356535616637333134376534396632616337646530653066656136613465373561386231326261366136663432396337313764643861346461623562392f4f534d4c617476696a612f4f736d616c797a6572)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/OSMLatvija/Osmalyzer/blob/b392a638456bbd398965ca5bbea61b8f728f9602/Osmalyzer/Osmalyzer.csproj#L5\" title=\"Osmalyzer/Osmalyzer/Osmalyzer.csproj at b392a638456bbd398965ca5bbea61b8f728f9602 · OSMLatvija/Osmalyzer\">Osmalyzer/Osmalyzer/Osmalyzer.csproj at b392a638456bbd398965ca5bbea61b8f728f9602 · OSMLatvija/Osmalyzer</a></div><div class=\"message_embed_description\">Parsing OSM data when it's too complex for Overpass - Osmalyzer/Osmalyzer/Osmalyzer.csproj at b392a638456bbd398965ca5bbea61b8f728f9602 · OSMLatvija/Osmalyzer</div></div></div>",
+        "id": 366488207,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686833538
+    },
+    {
+        "content": "<p>7.0 ir teorētiski Beta</p>",
+        "id": 366488384,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686833582
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/366488384\">said</a>:</p>\n<blockquote>\n<p>7.0 ir teorētiski Beta</p>\n</blockquote>\n<p>Who cares? Live fast, die young! <span aria-label=\"rock on\" class=\"emoji emoji-1f918\" role=\"img\" title=\"rock on\">:rock_on:</span></p>",
+        "id": 366488579,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686833633
+    },
+    {
+        "content": "<p>IDE principā nav labi likt preview versijas. 99.9% jau ka nekas slikts nebūs un nesalūzīs, bet nu...</p>",
+        "id": 366488588,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686833635
+    },
+    {
+        "content": "<p>Var arī norādīt abus:</p>\n<div class=\"codehilite\" data-code-language=\"XML\"><pre><span></span><code><span class=\"nt\">&lt;TargetFrameworks&gt;</span>net6.0;net7.0<span class=\"nt\">&lt;/TargetFrameworks&gt;</span>\n</code></pre></div>\n<p>Bet tad divreiz ilgāk build'ojas un ar <code>dotnet run</code> vajag norādīt <code>--framework</code> :(</p>",
+        "id": 366489391,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686833779
+    },
+    {
+        "content": "<p>Bet nē, obligāti nav jābūt. Lokāli vari likt, kas patīk. Tur kods 90% sader starp versijām.</p>",
+        "id": 366489405,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686833783
+    },
+    {
+        "content": "<p>Nu jā, ja tu gribi 2 buildus katrai versijai. Bet actionos jau buildot nav jēgas? Tur jau tikai vienu reizi outputu ar jebkuru versiju. A lokāli kā kurš grib. Nu vienīgais tev tas cloud drošvien pa taisno no repo paņem un katru reizi uz 7.0 jāliek... hmm</p>",
+        "id": 366489789,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686833865
+    },
+    {
+        "content": "<p>Ja tev ērtāk, pārliec uz 7.0.</p>",
+        "id": 366490191,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686833936
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/366489789\">said</a>:</p>\n<blockquote>\n<p>Nu vienīgais tev tas cloud drošvien pa taisno no repo paņem un katru reizi uz 7.0 jāliek... hmm</p>\n</blockquote>\n<p>Jā, bet to var automatizēt.</p>",
+        "id": 366490294,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686833957
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/366488384\">said</a>:</p>\n<blockquote>\n<p>7.0 ir teorētiski Beta</p>\n</blockquote>\n<p>6.0 un 7.0 abi ir \"Active\", bet 6.0 ir \"Long Term Support\" un 7.0 ir \"Standard Term Support\". 8.0 ir \"Preview\".<br>\n<a href=\"https://dotnet.microsoft.com/en-us/download/dotnet\">https://dotnet.microsoft.com/en-us/download/dotnet</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://dotnet.microsoft.com/en-us/download/dotnet\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/b8d322e5ce2fc0105744588480766f2c228f0bd7\\/68747470733a2f2f646f746e65742e6d6963726f736f66742e636f6d2f7374617469632f696d616765732f726564657369676e2f736f6369616c2f7371756172652e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://dotnet.microsoft.com/en-us/download/dotnet\" title=\".NET Downloads (Linux, macOS, and Windows)\">.NET Downloads (Linux, macOS, and Windows)</a></div><div class=\"message_embed_description\">Official .NET downloads for Linux, macOS, and Windows. .NET is a free, cross-platform, open-source developer platform for building many different types of applications.</div></div></div>",
+        "id": 366491460,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686834185
+    },
+    {
+        "content": "<p>Ā, ups, es laikam 7-&gt;8 sajaucu</p>",
+        "id": 366491997,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686834281
+    },
+    {
+        "content": "<p>Who reads documentation?</p>",
+        "id": 366492044,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686834288
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/366489391\">said</a>:</p>\n<blockquote>\n<p>Var arī norādīt abus:</p>\n<div class=\"codehilite\" data-code-language=\"XML\"><pre><span></span><code><span class=\"nt\">&lt;TargetFrameworks&gt;</span>net6.0;net7.0<span class=\"nt\">&lt;/TargetFrameworks&gt;</span>\n</code></pre></div>\n<p>Bet tad divreiz ilgāk build'ojas un ar <code>dotnet run</code> vajag norādīt <code>--framework</code> :(</p>\n</blockquote>\n<p>Ir tāds <a href=\"https://learn.microsoft.com/en-us/dotnet/core/versions/selection#control-roll-forward-behavior\"><code>&lt;RollForward&gt;</code></a>... Man tikko Gitpod'ā nostrādāja ar <code>DOTNET_ROLL_FORWARD=LatestMajor</code>. Ja likt to .csproj failā nevēlams, tad es pielikšu <code>DOTNET_ROLL_FORWARD</code> Gitpod'ā.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://learn.microsoft.com/en-us/dotnet/core/versions/selection#control-roll-forward-behavior\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/b391ffb5bbb07ec8f5a5d07ecf15c20cfdd88b70\\/68747470733a2f2f6c6561726e2e6d6963726f736f66742e636f6d2f646f746e65742f6d656469612f646f746e65742d6c6f676f2e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://learn.microsoft.com/en-us/dotnet/core/versions/selection#control-roll-forward-behavior\" title=\"Select which .NET version to use - .NET\">Select which .NET version to use - .NET</a></div><div class=\"message_embed_description\">Learn how .NET automatically finds and chooses runtime versions for your program. Additionally, this article teaches you how to force a specific version.</div></div></div>",
+        "id": 366496641,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686835085
+    },
+    {
+        "content": "<p>Laikam nevēlams - jo tas pie sevis domā, ka visas vides būs automātiski arī ar pēdējo versiju. Ja man piemēram IDE lifetime licenze tikai līdz kaut kādam brīdim, man var nemaz nebūt tas.</p>",
+        "id": 366497376,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686835216
+    },
+    {
+        "content": "<p>Man uz XP nestrādās!</p>",
+        "id": 366497501,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686835242
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/366496641\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/366489391\">said</a>:</p>\n<blockquote>\n<p>Var arī norādīt abus:</p>\n<div class=\"codehilite\" data-code-language=\"XML\"><pre><span></span><code><span class=\"nt\">&lt;TargetFrameworks&gt;</span>net6.0;net7.0<span class=\"nt\">&lt;/TargetFrameworks&gt;</span>\n</code></pre></div>\n<p>Bet tad divreiz ilgāk build'ojas un ar <code>dotnet run</code> vajag norādīt <code>--framework</code> :(</p>\n</blockquote>\n<p>Ir tāds <a href=\"https://learn.microsoft.com/en-us/dotnet/core/versions/selection#control-roll-forward-behavior\"><code>&lt;RollForward&gt;</code></a>... Man tikko Gitpod'ā nostrādāja ar <code>DOTNET_ROLL_FORWARD=LatestMajor</code>. Ja likt to .csproj failā nevēlams, tad es pielikšu <code>DOTNET_ROLL_FORWARD</code> Gitpod'ā.</p>\n</blockquote>\n<p>Īstenībā pietiek ar <a href=\"https://learn.microsoft.com/en-us/dotnet/core/versions/selection#values\"><code>Major</code></a>, kurš, manuprāt, nav tik bīstams:</p>\n<blockquote>\n<p>Roll-forward to the next available higher major version, and lowest minor version, if requested major version is missing. If the requested major version is present, then the <code>Minor</code> policy is used.</p>\n</blockquote>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://learn.microsoft.com/en-us/dotnet/core/versions/selection#values\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/b391ffb5bbb07ec8f5a5d07ecf15c20cfdd88b70\\/68747470733a2f2f6c6561726e2e6d6963726f736f66742e636f6d2f646f746e65742f6d656469612f646f746e65742d6c6f676f2e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://learn.microsoft.com/en-us/dotnet/core/versions/selection#values\" title=\"Select which .NET version to use - .NET\">Select which .NET version to use - .NET</a></div><div class=\"message_embed_description\">Learn how .NET automatically finds and chooses runtime versions for your program. Additionally, this article teaches you how to force a specific version.</div></div></div>",
+        "id": 366502610,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686836168
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/365958404\">said</a>:</p>\n<blockquote>\n<p>āāāāā... viņš tā to dara. Viņam manuāli jāpasaka, lai cachu novāc un pa jaunu savāc.... paga, bet kā es to varu izdarīt, ja es nezinu, vai man vajadzēt cachu līdz es palaižu programmu. key man taču jāiedod PIRMS palaišanas.</p>\n</blockquote>\n<p>Man liekas, es sapratu, kā to var izdarīt. Step'iem var būt <a href=\"https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#setting-an-output-parameter\">output parametri</a>, citi step'i tos var vēlāk izmantot.<br>\nMūsu gadījumā viens step varētu ātri pārbaudīt .osm.pbf faila datumu/checksum/etag un saglabāt to output'ā, tad cache step varētu to izmantot kā key. Tas izskatītos aptuveni šādi:</p>\n<div class=\"codehilite\" data-code-language=\"YAML\"><pre><span></span><code><span class=\"w\">  </span><span class=\"nt\">build</span><span class=\"p\">:</span>\n<span class=\"w\">    </span><span class=\"nt\">runs-on</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"l l-Scalar l-Scalar-Plain\">ubuntu-latest</span>\n<span class=\"w\">    </span><span class=\"nt\">steps</span><span class=\"p\">:</span>\n<span class=\"w\">    </span><span class=\"p p-Indicator\">-</span><span class=\"w\"> </span><span class=\"nt\">uses</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"l l-Scalar l-Scalar-Plain\">actions/checkout@v3</span>\n<span class=\"w\">    </span><span class=\"p p-Indicator\">-</span><span class=\"w\"> </span><span class=\"nt\">id</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"l l-Scalar l-Scalar-Plain\">check-date</span>\n<span class=\"w\">      </span><span class=\"nt\">run</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"l l-Scalar l-Scalar-Plain\">echo \"date=$(curl https://download.geofabrik.de/europe/latvia.html | grep --only-matching -P '(?&lt;=contains all OSM data up to )([^\\.]+)(?=\\.)')\" &gt;&gt; \"$GITHUB_OUTPUT\"</span>\n<span class=\"w\">    </span><span class=\"p p-Indicator\">-</span><span class=\"w\"> </span><span class=\"nt\">id</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"l l-Scalar l-Scalar-Plain\">cache</span>\n<span class=\"w\">      </span><span class=\"nt\">uses</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"l l-Scalar l-Scalar-Plain\">actions/cache@v3</span>\n<span class=\"w\">      </span><span class=\"nt\">with</span><span class=\"p\">:</span>\n<span class=\"w\">        </span><span class=\"nt\">path</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"l l-Scalar l-Scalar-Plain\">latvia-latest.osm.pbf</span>\n<span class=\"w\">        </span><span class=\"nt\">key</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"l l-Scalar l-Scalar-Plain\">${{ steps.check-date.outputs.date }}</span>\n<span class=\"w\">    </span><span class=\"p p-Indicator\">-</span><span class=\"w\"> </span><span class=\"nt\">if</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"l l-Scalar l-Scalar-Plain\">${{ steps.cache.outputs.cache-hit != 'true' }}</span>\n<span class=\"w\">      </span><span class=\"nt\">run</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"l l-Scalar l-Scalar-Plain\">wget https://download.geofabrik.de/europe/latvia-latest.osm.pbf</span>\n</code></pre></div>\n<p>Es uztaisīju testam private repo, pēc pāris dienām varēsim redzēt, cik cache tur sakrājas.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#setting-an-output-parameter\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/9584cd39a683b9a4afc1c82dcfd92b6f7dc45189\\/68747470733a2f2f6769746875622e6769746875626173736574732e636f6d2f696d616765732f6d6f64756c65732f6f70656e5f67726170682f6769746875622d6c6f676f2e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#setting-an-output-parameter\" title=\"Workflow commands for GitHub Actions - GitHub Docs\">Workflow commands for GitHub Actions - GitHub Docs</a></div><div class=\"message_embed_description\">You can use workflow commands when running shell commands in a workflow or in an action's code.</div></div></div>",
+        "id": 366852912,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686926039
+    },
+    {
+        "content": "<p>Lai izskatās smukāk, mēs varētu ģenerēt HTML ar <a href=\"https://jekyllrb.com/\">Jekyll</a>. Cik es saprotu, viņš prot <a href=\"https://jekyllrb.com/docs/datafiles/\">pildīt template'us ar datiem no YAML, JSON, CSV un TSV failiem</a>. Nevajadzēs ģenerēt HTML no analīzes koda.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://jekyllrb.com/\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/c4d58415efe3ac94379f57450b3c2728e9ecb629\\/68747470733a2f2f6a656b796c6c72622e636f6d2f696d672f6a656b796c6c2d6f672e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://jekyllrb.com/\" title=\"Jekyll • Simple, blog-aware, static sites\">Jekyll • Simple, blog-aware, static sites</a></div><div class=\"message_embed_description\">Transform your plain text into static websites and blogs</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://jekyllrb.com/docs/datafiles/\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/c4d58415efe3ac94379f57450b3c2728e9ecb629\\/68747470733a2f2f6a656b796c6c72622e636f6d2f696d672f6a656b796c6c2d6f672e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://jekyllrb.com/docs/datafiles/\" title=\"Data Files\">Data Files</a></div><div class=\"message_embed_description\">In addition to the built-in variables available from Jekyll, you can specify your own custom data that can be accessed via the Liquid templating system.</div></div></div>",
+        "id": 366870856,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686929398
+    },
+    {
+        "content": "<p>Pirms gari runāt par to, kur to likt gitā - scenārijs tāds. Es novelku HTML lapu, paskatos vai tur ir jauns links sarakstā un vai tas ir maniem datiem un vai nav vēl limits skatīšanai - ja viss ok, eju linkā, novelku lapu un saglabāju. Beigās sazipoju, jo tur 5000 faili, katram savs datums un vēl metafails par to, kas bija pēdējais skatīts un vilkts. Kā tu to githubā uzrakstīsi? Un precīzāk - kā es to githubā uzrakstīšu taisot to, pat ja to var uzrakstīt. Un vēl galvenokārt - kā es lokāli tos pašus failus dabūšu, ja visa loģika ir githubā? Galu galā, man tas viss projekts ir tāds, lai es varētu ātri jaunas analīzes izdomāt uz sarakstīt. Tagadējā versija viss strādā - es varu jebkurā brīdī pielikt vai noņemt failus un tie pat gan lokāli gan gihubā cachojās. Ja tu gribi pats to taisīt tā, lai githubā daļu dara - uz priekšu, kods jau publisks tagad. Bet ņem vērā, ka viss salūzīs katru reizi, kad es kaut ko neparedzētu ielikšu un nevarēšu githubā izlabot - jo es tomēr rakstu to visu lokāli. Tad tā labošana būs uz tevi. Man liekas tas nav tā vērts, bet nu skaties pats.</p>",
+        "id": 366878905,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686931004
+    },
+    {
+        "content": "<p>Par HTML var jau protams - bet tikai šeit ir līdzīga problēma kā augstāk, ja es outputu uztaisīšu tikai mašīnlasāmu - man tad arī lokāli jāinstalē tas Jekyll, jāpalaiž katru reizi kompilējot un tikai tad es dabūšu outputu. Vai arī tam man vajag pašam savu output versiju.</p>",
+        "id": 366880164,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686931222
+    },
+    {
+        "content": "<p>Par to teorētisko scenāriju - <a href=\"https://www.ezeri.lv\">https://www.ezeri.lv</a>. Paņemt ezera koordinātes un apskatīties, vai tāds ir OSM, un, ja nav, iedot linku uz to vietu, lai varētu manuāli vismaz iezīmēt ūdens kontūru. Normāla API un nekā tāda saitā nav - jāskatās vairākos sarakstos, kur vēl var linki atkārtoties. Un vēl dienā max 100 ieraksti pirms hard limitu uzliek. Ja neseko līdzi katrai lapai un pēdējam skatījuma datumam un kas reāli pēdējais atjaunots, tad noparsēt visu nav nekādi iespējams.</p>",
+        "id": 366881938,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686931484
+    },
+    {
+        "content": "<p>Minēšu, ka <span class=\"user-mention\" data-user-id=\"568802\">@i-ky</span> viens no mērķiem bija šos rīkus gan padarīt pieejamus kopienai, gan palielināt to lietderību.<br>\nTas uzlabotu gan iesaisti, gan popularizēšanu, gan datu kvalitāti ilgtermiņā.<br>\nVēl viens ļoti vienkāršots faktors - bus factor palielināšana :)<br>\nBet šis jau tāds kādā klātienes tusā apspriežams gandrīz. Kā man teica Tomas, lietuviešu kopienā primārais saziņas kanāls esot tikšanās krogos =)</p>",
+        "id": 366883171,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1686931706
+    },
+    {
+        "content": "<p>Also, kāda ir datu licencēšana <a href=\"http://ezeri.lv\">ezeri.lv</a> ? ;)</p>",
+        "id": 366883288,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1686931733
+    },
+    {
+        "content": "<p>Nekāda - tos nevar izmantot.</p>",
+        "id": 366883468,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686931773
+    },
+    {
+        "content": "<p>Jā, bet te bus factor tieši pāriet no manis uz manis plus iky. Es rakstu analīzes, iky raksta githubu. Tagad autobusam atliek nobraukt jebkuru. <span aria-label=\"oncoming bus\" class=\"emoji emoji-1f68d\" role=\"img\" title=\"oncoming bus\">:oncoming_bus:</span></p>",
+        "id": 366885214,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686932138
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/366885214\">said</a>:</p>\n<blockquote>\n<p>Jā, bet te bus factor tieši pāriet no manis uz manis plus iky. Es rakstu analīzes, iky raksta githubu. Tagad autobusam atliek nobraukt jebkuru. <span aria-label=\"oncoming bus\" class=\"emoji emoji-1f68d\" role=\"img\" title=\"oncoming bus\">:oncoming_bus:</span></p>\n</blockquote>\n<p>...bet jau uzrakstītas analīzes paliek strādāt uz GitHub Actions =&gt; <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mtext>bus factor</mtext><mo>→</mo><mn>0</mn></mrow><annotation encoding=\"application/x-tex\">\\text{bus factor} \\to 0</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord text\"><span class=\"mord\">bus factor</span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">0</span></span></span></span>, jo GitHub'u, cerams, neviens autobuss nepārbrauks.</p>",
+        "id": 366887313,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686932610
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/366881938\">said</a>:</p>\n<blockquote>\n<p>Par to teorētisko scenāriju - <a href=\"https://www.ezeri.lv\">https://www.ezeri.lv</a>. Paņemt ezera koordinātes un apskatīties, vai tāds ir OSM, un, ja nav, iedot linku uz to vietu, lai varētu manuāli vismaz iezīmēt ūdens kontūru. </p>\n</blockquote>\n<p>Ezerus var ņemt no <a href=\"https://vietvardi.lgia.gov.lv/\">vietvārdu datubāzes</a>  tur CC0 autortiesības</p>",
+        "id": 366887735,
+        "sender_full_name": "Colby",
+        "timestamp": 1686932702
+    },
+    {
+        "content": "<p>Es domāju, ja es pielikšu kaut ko, kas strādā tikai lokāli. Githuba actioni tev jātaisa.</p>",
+        "id": 366887806,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686932717
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/366887806\">said</a>:</p>\n<blockquote>\n<p>Es domāju, ja es pielikšu kaut ko, kas strādā tikai lokāli. Githuba actioni tev jātaisa.</p>\n</blockquote>\n<p>Galvenais, neliec jaunas analīzes pa taisno <code>main</code>'ā. Uztaisi branch'u, uztaisi jaunu lietu, pasaki man, lai es pieliktu actions daļu, kad viss pabeigts - merge'ojam <code>main</code>'ā un publiskojam Pages.</p>\n<p>Mani kā pagaidu variants pilnīgi apmierinātu, ka tikai es maintain'oju actions. Cerams ar laiku vairāk cilvēku pieslēgsies.</p>",
+        "id": 366890356,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686933309
+    },
+    {
+        "content": "<p>Atliek tikai:</p>\n<blockquote>\n<p>kā es lokāli tos pašus failus dabūšu, ja visa loģika ir githubā?</p>\n</blockquote>",
+        "id": 366890794,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686933405
+    },
+    {
+        "content": "<p>Piemēram. Es novilkšu failus kodā. Tu pēc tam pārtaisīsi to uz github. Pēc tam es github novilkšu, lai kaut ko izlabotu. Bet tur vairs nav failu novilkšanas kodā, vai arī cita sintakse  es nevaru lokāli testēt. Tad man atliek revert uz iepriekšējo versiju un pazaudēt labojumus. Un tev atkal jātaisa, jo es tur komatu vienā vietā pieliku :)</p>",
+        "id": 366891436,
+        "sender_full_name": "HellMap",
+        "timestamp": 1686933547
+    },
+    {
+        "content": "<p>Ja šo visu vēl aprakstīs blogpostā kaut kur, varbūt pareklamēsim un radīsies plašāka interese.<br>\nVispār šīs visas idejas varētu nodot ģeo/ĢIT studentiem, te tik daudz iespēju veidot patiesi derīgus un interesantus kursa, noslēguma utt darbus...</p>",
+        "id": 366922186,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1686941569
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/366890794\">said</a>:</p>\n<blockquote>\n<p>Atliek tikai:</p>\n<blockquote>\n<p>kā es lokāli tos pašus failus dabūšu, ja visa loģika ir githubā?</p>\n</blockquote>\n</blockquote>\n<p>Vienmēr var paskatīties .github/workflows/, un saprast (vismaz aptuveni), ko tie dara un no kurienes ņem datus. Ja nevar saprast, tad jāuzraksta Readme cilvēciskā valodā. Kā arī loģiku var pēc iespējas iznest no .github/workflows/ uz skriptiem, kurus varēs izmantot gan Actions kontekstā, gan jebkur citur.</p>",
+        "id": 366933199,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686944768
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/366881938\">said</a>:</p>\n<blockquote>\n<p>Par to teorētisko scenāriju - <a href=\"https://www.ezeri.lv\">https://www.ezeri.lv</a>. Paņemt ezera koordinātes un apskatīties, vai tāds ir OSM, un, ja nav, iedot linku uz to vietu, lai varētu manuāli vismaz iezīmēt ūdens kontūru. Normāla API un nekā tāda saitā nav - jāskatās vairākos sarakstos, kur vēl var linki atkārtoties. Un vēl dienā max 100 ieraksti pirms hard limitu uzliek. Ja neseko līdzi katrai lapai un pēdējam skatījuma datumam un kas reāli pēdējais atjaunots, tad noparsēt visu nav nekādi iespējams.</p>\n</blockquote>\n<p>Teorētiskus scenārijus apspriedīsim tad, kad tie kļūs par praktiskajiem. <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span></p>",
+        "id": 366933447,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686944876
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/366880164\">said</a>:</p>\n<blockquote>\n<p>Par HTML var jau protams - bet tikai šeit ir līdzīga problēma kā augstāk, ja es outputu uztaisīšu tikai mašīnlasāmu - man tad arī lokāli jāinstalē tas Jekyll, jāpalaiž katru reizi kompilējot un tikai tad es dabūšu outputu. Vai arī tam man vajag pašam savu output versiju.</p>\n</blockquote>\n<p>Mēs visi varētu izmantot Gitpod. Uzinstalēt tur Jekyll nebūtu problēma.</p>",
+        "id": 366933693,
+        "sender_full_name": "i-ky",
+        "timestamp": 1686944966
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/358602-general/topic/LVC.20ce.C4.BCu.20anal.C4.ABzes.20skripts/near/366852912\">said</a>:</p>\n<blockquote>\n<p>Es uztaisīju testam private repo, pēc pāris dienām varēsim redzēt, cik cache tur sakrājas.</p>\n</blockquote>\n<p>Izskatās, ka viss labi, šobrīd ir 9 caches, vecie tiek dzēsti.<br>\nSalīdzinājumam - Osmalyzer'am šobrīd sakrājas 38 caches.</p>",
+        "id": 369949286,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687852575
+    }
+]

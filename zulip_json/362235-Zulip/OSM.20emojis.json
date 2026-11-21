@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Pieliku <img alt=\":closed_way:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40179.png\" title=\"closed way\"> un <img alt=\":role:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40180.png\" title=\"role\"></p>",
+        "id": 319146828,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672734977
+    },
+    {
+        "content": "<p>Žēl, ka <a href=\"https://github.com/zulip/zulip/issues/13896\">emoji nestrādā kopā ar linkifier</a> :(</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/zulip/zulip/issues/13896\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/0f271551c714925fa7c5f65fc5ea4df3feac1be5\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f303538626131313165663864653734633061623365333535653865336163386436323330306630316362666236353161313233323866623438643338383836392f7a756c69702f7a756c69702f6973737565732f3133383936)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/zulip/zulip/issues/13896\" title=\"Emojis do not work in link text · Issue #13896 · zulip/zulip\">Emojis do not work in link text · Issue #13896 · zulip/zulip</a></div><div class=\"message_embed_description\">Given a message like so: [:alien: Aliens!](https://google.com) I would expect to see an emoji linked. However, the emoji code is rendered literally:</div></div></div>",
+        "id": 319150120,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672736564
+    },
+    {
+        "content": "<p>Saliku thumbsup.</p>",
+        "id": 319153786,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1672737935
+    },
+    {
+        "content": "<p>Tagad rakstīšu t<img alt=\":role:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40180.png\" title=\"role\">jbuss ;)</p>",
+        "id": 319174696,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672745907
+    }
+]

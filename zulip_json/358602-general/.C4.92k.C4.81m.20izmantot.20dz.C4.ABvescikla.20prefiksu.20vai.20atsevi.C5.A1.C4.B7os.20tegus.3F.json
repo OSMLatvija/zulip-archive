@@ -1,0 +1,74 @@
+[
+    {
+        "content": "<p>Kā būtu labāk? Un lai arī šīs būtu vispārpieņemts.<br>\nŠobrīd LV Tagging guidelines apraksta lietot atsevišķos, piemēram, <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Adisused%3Dyes\">disused=yes</a>. </p>\n<p>Man tas kaut kā nepatīk. Arīdzan OSM wiki saka tas novecoja un it īpaši priekš amenity un leisure lietot dzīvescikla prefiksu.</p>",
+        "id": 642041524,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1795126457
+    },
+    {
+        "content": "<p>Atkarīgs no objekta un stāvokļa. Un ir vēl izņēmumi kā highway vai railway.</p>",
+        "id": 642042066,
+        "sender_full_name": "HellMap",
+        "timestamp": 1795126632
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dyes\">building=yes</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Adisused%3Dyes\">disused=yes</a> - ēka eksistē, bet to aktīvi neizmanto, bet no tā, ēka nekļūst par ne-ēku, jo šis tegs apraksta objektu pēc fiziskās būtibas (kontrastā <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Abuilding%3Ause\">building:use=*</a>)</p>",
+        "id": 642042349,
+        "sender_full_name": "HellMap",
+        "timestamp": 1795126712
+    },
+    {
+        "content": "<p>disused:building tad ko</p>",
+        "id": 642042465,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1795126753
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Adisused%3Aleisure%3Dplayground\">disused:leisure=playground</a> - agrāk bija rotaļu laukums, bet aizaudzis, smilšu kaste aizbērta, inventārs nojaukts - tegs apraksta izmantošanu pēc funkcijas, kas šeit vai neatbilst izmantojamam objektam</p>",
+        "id": 642042517,
+        "sender_full_name": "HellMap",
+        "timestamp": 1795126774
+    },
+    {
+        "content": "<p>Te vēl bija par to <a class=\"stream-topic\" data-stream-id=\"360538\" href=\"/#narrow/channel/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Drupas/with/422676426\">#iesācēju jautājumi &gt; Drupas</a></p>",
+        "id": 642043017,
+        "sender_full_name": "HellMap",
+        "timestamp": 1795126907
+    },
+    {
+        "content": "<p>Bet lietoti ir abi varianti ar dažādiem argumentiem. Te jāskatās. Nevar tā uzreiz pateikt vienu vai otru.</p>",
+        "id": 642043163,
+        "sender_full_name": "HellMap",
+        "timestamp": 1795126945
+    },
+    {
+        "content": "<p>Labi, šī nianse noskaidrota. Rīt vairāk pievienošu šo info wiki</p>",
+        "id": 642043332,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1795126996
+    },
+    {
+        "content": "<p>Es tev godīgi pateikšu - es wiki šitādus pat netaisījos rakstīt, jo burtiski katrai otrajai lietai jāraksta 5 izņēmumi. Life-cycle vispār ļoti šķībi lietots visur. Jāskatās karts gadījums - vai mēs gribam, lai kartes un maršrutētāji un dati rādītu to elementu kā esošu vai nē?</p>",
+        "id": 642043605,
+        "sender_full_name": "HellMap",
+        "timestamp": 1795127086
+    },
+    {
+        "content": "<p>Un vai svarīgāk precīzāki dati vai labāka navigācija vai smukāki dati vai skaidrāki tegi.... utt.</p>",
+        "id": 642043715,
+        "sender_full_name": "HellMap",
+        "timestamp": 1795127118
+    },
+    {
+        "content": "<p>Bet vispārīgos vilcienos uz sākotnējo jautājumu <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Adisused%3Dyes\">disused=yes</a> nav vēlams lietot bez iemesla, jo tas ir <a href=\"https://wiki.openstreetmap.org/wiki/Trolltag\">troll tegs</a>, ja tas maina nozīmi nozīmīgi.</p>",
+        "id": 642043981,
+        "sender_full_name": "HellMap",
+        "timestamp": 1795127202
+    },
+    {
+        "content": "<p>Man liekas LV wiki teksts tas no senseniem laikiem</p>",
+        "id": 642044111,
+        "sender_full_name": "HellMap",
+        "timestamp": 1795127244
+    }
+]

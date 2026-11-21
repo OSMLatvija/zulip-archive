@@ -1,0 +1,56 @@
+[
+    {
+        "content": "<p>Kur pašlaik tiek palaists <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bots</a>? Vai nav pienācis brīdis sākt izmantot GitHub Actions?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/fc94da75988ca0e87c616c0465ccb8790fcbc98a\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f653661366363346131343735326436643063333139386136616462616633336665346538333337653235363034663264373435663962613039616236346636312f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 323076430,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674494669
+    },
+    {
+        "content": "<p>Lokāli tiek laists. Teorētiski jau jā, bet tas viss prasa laiku. Ja kādam ir luste to darīt, OK, bet pašam šobrīd tam nav laika, un ko tādu neesmu arī darījis, lai gan iemācīties par sliktu nenāktu. Tur jau arī serveri un vajag un skriptus, kas to paceļ un sakonfigurē (ansible?).</p>",
+        "id": 323097014,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1674500887
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571929\">Dāvis Kļaviņš</span> <a href=\"#narrow/stream/360959-adreses/topic/bota.20infrastrukt.C5.ABra/near/323097014\">said</a>:</p>\n<blockquote>\n<p>Lokāli tiek laists.</p>\n</blockquote>\n<p>Uz Windows?</p>",
+        "id": 323688390,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674730411
+    },
+    {
+        "content": "<p>Jā</p>",
+        "id": 323690378,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1674730953
+    },
+    {
+        "content": "<p>Kā Tu laiž Bash skriptus?</p>",
+        "id": 323690750,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674731057
+    },
+    {
+        "content": "<p>Caur Git</p>",
+        "id": 323691468,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1674731286
+    },
+    {
+        "content": "<p>Ja kas, Tevi var pierunāt pāriet uz <a href=\"https://learn.microsoft.com/en-us/windows/wsl/\">WSL</a> vai <a href=\"https://www.docker.com/products/docker-desktop/\">Docker</a>?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://learn.microsoft.com/en-us/windows/wsl/\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/ca6f0df6d0c485fdc91cdcf10df670490c2092fa\\/68747470733a2f2f6c6561726e2e6d6963726f736f66742e636f6d2f656e2d75732f6d656469612f6c6f676f732f6c6f676f2d6d732d736f6369616c2e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://learn.microsoft.com/en-us/windows/wsl/\" title=\"Windows Subsystem for Linux Documentation\">Windows Subsystem for Linux Documentation</a></div><div class=\"message_embed_description\">Overview of the Windows Subsystem for Linux documentation.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.docker.com/products/docker-desktop/\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/568bff0d8852822396b391f65b1c4e146226db6e\\/68747470733a2f2f7777772e646f636b65722e636f6d2f77702d636f6e74656e742f75706c6f6164732f323032322f31322f446f636b65722d54656d706f726172792d496d6167652d536f6369616c2d5468756d626e61696c2d31323030783633302d312e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.docker.com/products/docker-desktop/\" title=\"Download Docker Desktop | Docker\">Download Docker Desktop | Docker</a></div><div class=\"message_embed_description\">Docker Desktop is available to download for free on Mac, Windows, or Linux operating systems. Get started with Docker today!</div></div></div>",
+        "id": 323693079,
+        "sender_full_name": "i-ky",
+        "timestamp": 1674731832
+    },
+    {
+        "content": "<p>Neko nesolu. :) Iespējams, kad būs laiks un iedvesma, Docker papētīšu. Pašmācība prasa laiku.</p>",
+        "id": 323815081,
+        "sender_full_name": "Dāvis Kļaviņš",
+        "timestamp": 1674759638
+    },
+    {
+        "content": "<p>Es gribu pamēģināt izmantot GitHub Actions, bet tur visticamāk būs vajadzīgas izmaiņas šur-tur, un man nav īsti iespējas normāli testēt uz Windows.</p>",
+        "id": 324572555,
+        "sender_full_name": "i-ky",
+        "timestamp": 1675074984
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>Latvijas Pastam ir 2 veidu \"pasta nodaļas\" - 1) reāla, fiziska vieta - vai nu pilna ēka, kā veikals telpas vai arī kaut kādā tirdzniecības centrā istaba - ar tiem viss skaidrs - <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aamenity%3Dpost_office\">amenity=post_office</a> un 2) vietas, kur pasts strādā tikai kā \"pakalpojumi pēc pieprasījuma\", kur nevar neko uz vietas, un var tikai pieteikt uz dzīvesvietu un pastnieks atbrauc. Šie pēc pieprasījuma \"reģioni\" <a href=\"https://pasts.lv/lv/kategorija/pasta_nodalas/\">LP mājas lapā</a> ir atzīmēti kā punkti ar nosaukumu, piemēram \"Jaunolaines pasta pakalpojumu sniegšanas vieta\". Jautājums - kā tos tegot un vai vispār tos kartēt?</p>",
+        "id": 520284787,
+        "sender_full_name": "HellMap",
+        "timestamp": 1748172726
+    },
+    {
+        "content": "<p>Nevaru iedomāties, kā tas iederētos kartes datos. Šķiet līdzīgāk, piemēram, picu piegādes reģioniem.</p>",
+        "id": 522667498,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1749156660
+    }
+]

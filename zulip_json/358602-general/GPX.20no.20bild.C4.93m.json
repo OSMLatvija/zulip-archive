@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Varbūt kādam noder - ja ir ģeoreferencētas bildes, no tām dažreiz der dabūt GPX.<br>\nViens veids - bildes atver JOSM, eksportē uz GPX. Viegli, bet ar lielāku bilžu skaitu brrrrrr.<br>\nVēl var ar exiftool - tikko notestēju, strādā kā dokumentācijā rakstīts: <a href=\"https://exiftool.org/geotag.html#Inverse\">https://exiftool.org/geotag.html#Inverse</a></p>\n<p>Var redzēt, piem., cik šķībs GPS dažreiz ir GoPro :)<br>\n<a href=\"/user_uploads/49624/3r58AcNn0f6Xp11FalJTAfBd/image.png\">GoPro GPS</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/3r58AcNn0f6Xp11FalJTAfBd/image.png\" title=\"GoPro GPS\"><img src=\"/user_uploads/49624/3r58AcNn0f6Xp11FalJTAfBd/image.png\"></a></div>",
+        "id": 390688538,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1694599441
+    },
+    {
+        "content": "<p>Un paldies <span class=\"user-mention\" data-user-id=\"584004\">@Peteris Bruns</span> par exiftool pieminēšanu Mastodonā :)</p>",
+        "id": 390688666,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1694599476
+    },
+    {
+        "content": "<p>Nedaudz offtopic, bet man visvairāk kaitina, ka Mapillary command line tooli nerāda, cik reāli šķībi ir dažreiz tie GPSi un tad ir dažreiz bildes ar simtiem metru nobīdi. Un tooli uzskata, ka tas ir normāli. Es nesaparotu, kā piemēram kaut kas tāds var nepārsniegt thresholdu - <a href=\"https://www.mapillary.com/app/?pKey=284355416817724&amp;focus=photo\">https://www.mapillary.com/app/?pKey=284355416817724&amp;focus=photo</a> . Mums principā bez manis tikai tu no GoPro liec, tāpēc piemēros šie šedevri ir tavi <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span> Un izlabot vai vismaz izdzēst arī nav iespējams. Es esmu reportojis Mapillary sequencus, bet tas ir baigais darbs pa vienam un neizskatās, ka īpaši daudzi ir reāli satīrīti no tā.  Tad vēl kāds iemanās tādu sistemātiski nobīdītu <a href=\"https://www.mapillary.com/app/?pKey=448501963821743&amp;focus=photo\">https://www.mapillary.com/app/?pKey=448501963821743&amp;focus=photo</a> , kur es vispār nezinu, kas būtu darāms. Anyway, tāpēc es lokāli vienmēr vismaz apskatos GPX.</p>",
+        "id": 390690450,
+        "sender_full_name": "HellMap",
+        "timestamp": 1694600172
+    },
+    {
+        "content": "<p>Tā vispārīga Mapillary problēma, jā. Korporatīvi kontrolētam projektam citas prioritātes, acīmredzot.<br>\nVarētu pasūdzēties par jauno Mapillary appu, bet tad šo visu jāpārvieto uz jaunu topiku :)</p>",
+        "id": 390699292,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1694603469
+    }
+]

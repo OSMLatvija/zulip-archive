@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>/poll Kurās programmēšanas valodās jūs varat kodēt?</p>",
+        "id": 370353609,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687945573
+    },
+    {
+        "content": "<p>Define \"varat\". ChatGPT, write me code in brainfuck. Es bez googles diez vai daudz ko izdarīšu. Man atmiņa līdz nākamajai nedēļai.</p>",
+        "id": 370357043,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687946141
+    },
+    {
+        "content": "<p>Cik daudz man jāzin Overpass lai varētu teikt, ka es varu Overpass. Vai iepriekš liktās manas query skaitās, ka es varu Overpass? <span aria-label=\"melting face\" class=\"emoji emoji-1fae0\" role=\"img\" title=\"melting face\">:melting_face:</span></p>",
+        "id": 370358101,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687946325
+    },
+    {
+        "content": "<p>Ja kāds no mums uzsāktu OSM-saistītu projektu X, Y vai Z valodā, kurā jūs varētu/gribētu piedalīties?</p>",
+        "id": 370358224,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687946348
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/valodas/near/370358101\">said</a>:</p>\n<blockquote>\n<p>Cik daudz man jāzin Overpass lai varētu teikt, ka es varu Overpass. Vai iepriekš liktās manas query skaitās, ka es varu Overpass? <span aria-label=\"melting face\" class=\"emoji emoji-1fae0\" role=\"img\" title=\"melting face\">:melting_face:</span></p>\n</blockquote>\n<p>Es teiktu, ka Tu māki Overpass, bet es jau sapratu, ka <a href=\"#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1/topic/Dz.C4.ABvojam.C4.81s.20ielas.20ar.20maxspeed/near/370032085\">Tev Overpass nepatīk</a>.</p>",
+        "id": 370359636,
+        "sender_full_name": "i-ky",
+        "timestamp": 1687946575
+    },
+    {
+        "content": "<p>Es neteiktu, ka es māku \"kodēt\", bet nu kaut ko pabakstīties dažās mazliet varu, tās ieķeksēju :)</p>",
+        "id": 370362850,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1687947114
+    },
+    {
+        "content": "<p>Jautājums, vai es gribētu piedalīties tajā valodā gan ir pavisam cits jautājums ;)</p>",
+        "id": 370382199,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687950282
+    },
+    {
+        "content": "<p>Ja mērķis ir kaut kāds publisks tools, tad ja tas nebūs websaits, neviens to nedarīs. Bet nu tā cita tēma.</p>",
+        "id": 370383210,
+        "sender_full_name": "HellMap",
+        "timestamp": 1687950455
+    }
+]

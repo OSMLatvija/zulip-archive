@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Tag:type=turnlanes:turns\">Apraksts saka</a>, ka tas ir</p>\n<blockquote>\n<p>Obsolete method for describing allowed turns from a given (turn) lane.</p>\n</blockquote>\n<p>Laikam būtu forši aizvietot ar <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aturn\">turn=*</a>.</p>\n<div class=\"codehilite\" data-code-language=\"overpass\"><pre><span></span><code>[out:json][timeout:25];\n{{geocodeArea:Latvia}}-&gt;.searchArea;\nnwr[type=\"turnlanes:turns\"](area.searchArea);\nout geom;\n</code></pre></div>",
+        "id": 319022535,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672676744
+    },
+    {
+        "content": "<p>Ha, burtiski tikko uz tādu skatījos.</p>",
+        "id": 319022777,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672676842
+    },
+    {
+        "content": "<p>Apsaktījos, sarežģīti. Bet es esmu par šitādu relation samazināšanu, kas tikai visiem lielākiem krustojumiem pa 12 relation sataisa, kur pietiktu ar <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Aturn:lanes\">turn:lanes=*</a></p>",
+        "id": 319028828,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672679623
+    }
+]

@@ -1,0 +1,560 @@
+[
+    {
+        "content": "<p>Sveiki, vai mums jau ir OSM wiki kur ir vienkārši tikai zīmes ar bildi, un kā to vēlams apzīmēt OSM ar pareiziem tegiem?<br>\nJa nē, būtu forši, ja mēs izveidotu tādu.</p>\n<p>Galvenais iemesls tam ir vēlāk pārveidot to par JSON un pievienot šai saitei: <a href=\"https://trafficsigns.osm-verkehrswende.org/\">https://trafficsigns.osm-verkehrswende.org/</a></p>\n<p>Balstoties uz to saiti, ir izveidota <a href=\"https://github.com/mcliquid/SCEE\">StreetComplete EE dakša</a>, kur var redzēt un pievienot ātri ceļa zīmes.</p>\n<p>Saruna ar mcliquid OSM Discord par šo: <a href=\"https://discord.com/channels/413070382636072960/429092644438802432/1571440040633049148\">https://discord.com/channels/413070382636072960/429092644438802432/1571440040633049148</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://trafficsigns.osm-verkehrswende.org/\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/8807eccbc40d43387c04a96b626979e7b6c59341/68747470733a2f2f747261666669637369676e732e6f736d2d7665726b6568727377656e64652e6f72672f6f672d747261666669632d7369676e732e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://trafficsigns.osm-verkehrswende.org/\" title=\"OSM Traffic Sign Tool 2\">OSM Traffic Sign Tool 2</a></div><div class=\"message_embed_description\">Get OpenStreetMap tagging recommendations based on traffic sign combinations.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/mcliquid/SCEE\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/ea3c6b8ee02df222e1ad9ba1abd21e82f9b286f8/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f643162303861666332333237373562333731333331303338633131303235653833616434343164643765306630643039386632363438663961336437343235322f6d636c69717569642f53434545&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/mcliquid/SCEE\" title=\"GitHub - mcliquid/SCEE: OpenStreetMap surveyor app for experienced OSM contributors\">GitHub - mcliquid/SCEE: OpenStreetMap surveyor app for experienced OSM contributors</a></div><div class=\"message_embed_description\">OpenStreetMap surveyor app for experienced OSM contributors - mcliquid/SCEE</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://discord.com/channels/413070382636072960/429092644438802432/1571440040633049148\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/29a8c83fbc739f313cf0caf7112e41651b8deb75/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6173736574732f6f675f696d675f646973636f72645f686f6d652e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://discord.com/channels/413070382636072960/429092644438802432/1571440040633049148\" title=\"Discord - Group Chat That’s All Fun &amp; Games\">Discord - Group Chat That’s All Fun &amp; Games</a></div><div class=\"message_embed_description\">Discord is great for playing games and chilling with friends, or even building a worldwide community. Customize your own space to talk, play, and hang out.</div></div></div>",
+        "id": 640437893,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794732136
+    },
+    {
+        "content": "<p>commons kategorija<br>\n<a href=\"https://commons.wikimedia.org/wiki/Category:SVG_regulatory_road_signs_of_Latvia\">https://commons.wikimedia.org/wiki/Category:SVG_regulatory_road_signs_of_Latvia</a></p>",
+        "id": 640438084,
+        "sender_full_name": "Colby",
+        "timestamp": 1794732295
+    },
+    {
+        "content": "<p>Lieliski, bildes ir, bet vajadzētu arī tegus katrai</p>",
+        "id": 640438167,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794732354
+    },
+    {
+        "content": "<p>Tik viegli ar tegiem gan nebūs. <a href=\"https://wiki.openstreetmap.org/wiki/Lv:Latvian_tagging_guidelines\">https://wiki.openstreetmap.org/wiki/Lv:Latvian_tagging_guidelines</a> ir daudz visādi piemēri.</p>",
+        "id": 640453375,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794742572
+    },
+    {
+        "content": "<p>Bet piemēram <a href=\"https://osmlatvija.github.io/road-signs/301.html\">301.</a> - vai tegs ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Avehicle%3Dno\">vehicle=no</a> vai arī <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aoneway%3Dyes\">oneway=yes</a>? vai <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abus%3Dyes\">bus=yes</a> jāliek posmā? vai arī tas ir uzlikts pie privātīpašuma un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aaccess%3Dno\">access=no</a>. vai arī zem tramvaja joslas, kas dala psv joslas? utt. Tā ar daudzām zīmēm.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://osmlatvija.github.io/road-signs/301.html\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/7f2c89387e204768c75dfd582798204d4c1a32d2/68747470733a2f2f6c696b756d692e6c762f77777772616b7374692f323031352f3132312f42494c4445532f4e5f3237392f494d4147453130332e4a5047&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://osmlatvija.github.io/road-signs/301.html\" title=\"301. Iebraukt aizliegts\">301. Iebraukt aizliegts</a></div></div></div>",
+        "id": 640453469,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794742658
+    },
+    {
+        "content": "<p>Citiem vārdiem, tegus var salikt aptuveni, bet uz to OSM balstīties pa taisno nevar.</p>",
+        "id": 640453512,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794742685
+    },
+    {
+        "content": "<p>Bet cik zinu gatava saraksta nav nekur. Var jau protams satādīt tabulu. Hmm..</p>",
+        "id": 640453556,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794742722
+    },
+    {
+        "content": "<p>Tur tegi ir tieši par pašu ceļa zīmes apzīmēšanu, piemēram. Kaut gan tur teikts \"This tool helps to find the right <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Atraffic_sign\">traffic_sign=*</a> tag <strong>as well as recommended tags for the road that it applies to.</strong> Please review all tags before updating OSM.\"</p>\n<p>Tāpēc tas nu nebūtu tas galvenais. Tajā saitē ir par to, kā apzīmē kādu vienu ceļa zīmi, kā es sapratu, piemēram <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Atraffic_sign%3DAU%3AR1-2\">traffic_sign=AU:R1-2</a></p>\n<p>Un protams katras ceļa zīmes tulkojums angļu valodā</p>",
+        "id": 640453737,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794742846
+    },
+    {
+        "content": "<p>a nē tas nav vajadzīgs tulkojums, tur pamatvalodā</p>",
+        "id": 640453880,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794742945
+    },
+    {
+        "content": "<p>Ā, to var diezgan ātri. Kādā veidā tur vajag formātu?</p>",
+        "id": 640453905,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794742974
+    },
+    {
+        "content": "<p>Skaidrojums šeit: <a href=\"https://github.com/osmberlin/osm-traffic-sign-tool/issues/11\">https://github.com/osmberlin/osm-traffic-sign-tool/issues/11</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/osmberlin/osm-traffic-sign-tool/issues/11\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/04a695df3d5a38d9b3b64015cbe1f10a9e8409d4/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f323265353234373961353032346634333330346465656366343764326436323062366633633663306665343539636236373131346363383337616238623266642f6f736d6265726c696e2f6f736d2d747261666669632d7369676e2d746f6f6c2f6973737565732f3131&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/osmberlin/osm-traffic-sign-tool/issues/11\" title=\"TESTING: Other countries · Issue #11 · osmberlin/osm-traffic-sign-tool\">TESTING: Other countries · Issue #11 · osmberlin/osm-traffic-sign-tool</a></div><div class=\"message_embed_description\">Let's collect know how on how this tool might be expanded to other countries… (Please read also #40 about the status of this project.) Link https://wiki.openstreetmap.org/wiki/DE:Key:traffic_sign#W...</div></div></div>",
+        "id": 640453948,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794743007
+    },
+    {
+        "content": "<p>It kā JSON.</p>",
+        "id": 640454012,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794743069
+    },
+    {
+        "content": "<p>Ā, tur tie paši ar OSM/iD saistītie cilvēki. Hmm. No Claude viņam no tabulas uztaisīs. Laikam vienkāršakais ir uztaisīt tabulu wiki.</p>",
+        "id": 640454196,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794743195
+    },
+    {
+        "content": "<p>Jā</p>",
+        "id": 640454224,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794743219
+    },
+    {
+        "content": "<p>pamanīju ka 524 nebija commons<br>\n<a href=\"https://commons.wikimedia.org/wiki/File:Latvia_road_sign_524.svg\">https://commons.wikimedia.org/wiki/File:Latvia_road_sign_524.svg</a><br>\nļoti vienkārši/ātri sakombinēju divas jau esošas ar inkscape</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://commons.wikimedia.org/wiki/File:Latvia_road_sign_524.svg\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/9284f7fc44d1c0b1c743ea5b6de32a4340e91bb5/68747470733a2f2f7468756d622e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f662f66342f4c61747669615f726f61645f7369676e5f3532342e7376672f3132383070782d4c61747669615f726f61645f7369676e5f3532342e7376672e706e673f75746d5f736f757263653d636f6d6d6f6e732e77696b696d656469612e6f72672675746d5f63616d706169676e3d696e6465782675746d5f636f6e74656e743d7468756d626e61696c&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://commons.wikimedia.org/wiki/File:Latvia_road_sign_524.svg\" title=\"File:Latvia road sign 524.svg - Wikimedia Commons\">File:Latvia road sign 524.svg - Wikimedia Commons</a></div><div class=\"message_embed_description\">Click on a date/time to view the file as it appeared at that time.\n</div></div></div>",
+        "id": 640482669,
+        "sender_full_name": "Colby",
+        "timestamp": 1794760046
+    },
+    {
+        "content": "<p><a href=\"https://commons.wikimedia.org/wiki/File:Latvia_road_sign_524_(2016).svg\">https://commons.wikimedia.org/wiki/File:Latvia_road_sign_524_(2016).svg</a> ?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://commons.wikimedia.org/wiki/File:Latvia_road_sign_524_(2016).svg\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/637cab1692b7cd3c6b011681243eb11afbf761e8/68747470733a2f2f7468756d622e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f642f64312f4c61747669615f726f61645f7369676e5f3532345f253238323031362532392e7376672f3132383070782d4c61747669615f726f61645f7369676e5f3532345f253238323031362532392e7376672e706e673f75746d5f736f757263653d636f6d6d6f6e732e77696b696d656469612e6f72672675746d5f63616d706169676e3d696e6465782675746d5f636f6e74656e743d7468756d626e61696c&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://commons.wikimedia.org/wiki/File:Latvia_road_sign_524_(2016).svg\" title=\"File:Latvia road sign 524 (2016).svg - Wikimedia Commons\">File:Latvia road sign 524 (2016).svg - Wikimedia Commons</a></div><div class=\"message_embed_description\">Click on a date/time to view the file as it appeared at that time.\n</div></div></div>",
+        "id": 640483538,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794760576
+    },
+    {
+        "content": "<p><img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"128x85\" data-original-src=\"/user_uploads/49624/XQfFvH9kQ-SFZR09oh2TjDt6/image.png\" src=\"/user_uploads/thumbnail/49624/XQfFvH9kQ-SFZR09oh2TjDt6/image.png/840x560.webp\"></p>",
+        "id": 640483617,
+        "sender_full_name": "Colby",
+        "timestamp": 1794760626
+    },
+    {
+        "content": "<p><img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"972x883\" data-original-src=\"/user_uploads/49624/wy8QMFRGMFehfi3rzom7qVEA/image.png\" src=\"/user_uploads/thumbnail/49624/wy8QMFRGMFehfi3rzom7qVEA/image.png/840x560.webp\"><br>\nŠo izskatās, ka nav Commons tieši Latvijai</p>",
+        "id": 640484238,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794761053
+    },
+    {
+        "content": "<p>Es nemaz nezināju par 755, 756, 757. Nebiju tik smalki skatījies izmaiņas CSN</p>",
+        "id": 640484462,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794761164
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/channel/358602-general/topic/Ce.C4.BCa.20z.C4.ABmju.20saraksts/near/640482669\">said</a>:</p>\n<blockquote>\n<p>pamanīju ka 524 nebija commons</p>\n</blockquote>\n<p>Ir ari lapa, kur visas(?) zīmes tabulā: <a href=\"https://lv.wikipedia.org/wiki/Latvijas_ce%C4%BCa_z%C4%ABmes\">https://lv.wikipedia.org/wiki/Latvijas_ce%C4%BCa_z%C4%ABmes</a><br>\nUn domāju ka visas bildes link uz commons</p>",
+        "id": 640486589,
+        "sender_full_name": "markalex",
+        "timestamp": 1794762324
+    },
+    {
+        "content": "<p>Es taisu <a href=\"https://wiki.openstreetmap.org/wiki/Lv:Key:traffic_sign\">https://wiki.openstreetmap.org/wiki/Lv:Key:traffic_sign</a></p>",
+        "id": 640486821,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794762440
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"715892\">markalex</span> <a href=\"#narrow/channel/358602-general/topic/Ce.C4.BCa.20z.C4.ABmju.20saraksts/near/640486589\">said</a>:</p>\n<blockquote>\n<p>Ir ari lapa, kur visas(?) zīmes tabulā: <a href=\"https://lv.wikipedia.org/wiki/Latvijas_ce%C4%BCa_z%C4%ABmes\">https://lv.wikipedia.org/wiki/Latvijas_ce%C4%BCa_z%C4%ABmes</a><br>\nUn domāju ka visas bildes link uz commons</p>\n</blockquote>\n<p>Vikipēdijā nav jaunākais.</p>",
+        "id": 640486872,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794762485
+    },
+    {
+        "content": "<p>Un kāpēc tur salikti piemēram <a href=\"https://lv.wikipedia.org/wiki/Att%C4%93ls:LV_road_sign_101.svg\">https://lv.wikipedia.org/wiki/Att%C4%93ls:LV_road_sign_101.svg</a> uz LV Vikipēdijas vispār nav skaidrs, ko autors dara.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://lv.wikipedia.org/wiki/Att%C4%93ls:LV_road_sign_101.svg\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/45ecf1a7013b56bbcc58d24d59b49e50e9d7f4ca/68747470733a2f2f7468756d622e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f392f39302f4c565f726f61645f7369676e5f3130312e7376672f3132383070782d4c565f726f61645f7369676e5f3130312e7376672e706e673f75746d5f736f757263653d6c762e77696b6970656469612e6f72672675746d5f63616d706169676e3d696e6465782675746d5f636f6e74656e743d7468756d626e61696c&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://lv.wikipedia.org/wiki/Att%C4%93ls:LV_road_sign_101.svg\" title=\"Attēls:LV road sign 101.svg — Vikipēdija\">Attēls:LV road sign 101.svg — Vikipēdija</a></div><div class=\"message_embed_description\">Uzklikšķini uz datums/laiks kolonnā esošās saites, lai apskatītos, kā šis fails izskatījās tad.\n</div></div></div>",
+        "id": 640486994,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794762576
+    },
+    {
+        "content": "<p><a href=\"https://www.lvs.lv/lv/products/97914\">https://www.lvs.lv/lv/products/97914</a> Kāds var paskaidrot kāpēc publiski sabiedrībai nozīmīgi standarti ir kaut kāds maksas dokuments?</p>",
+        "id": 640493838,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794767054
+    },
+    {
+        "content": "<p><a href=\"https://commons.wikimedia.org/wiki/File:Latvia_road_sign_755_(300).svg\">https://commons.wikimedia.org/wiki/File:Latvia_road_sign_755_(300).svg</a> <a href=\"https://commons.wikimedia.org/wiki/File:Latvia_road_sign_756.svg\">https://commons.wikimedia.org/wiki/File:Latvia_road_sign_756.svg</a> <a href=\"https://commons.wikimedia.org/wiki/File:Latvia_road_sign_757.svg\">https://commons.wikimedia.org/wiki/File:Latvia_road_sign_757.svg</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://commons.wikimedia.org/wiki/File:Latvia_road_sign_755_(300).svg\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/ef84eee8023fddb621b92058aedb1491ec8c4b32/68747470733a2f2f7468756d622e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f612f61612f4c61747669615f726f61645f7369676e5f3735355f2532383330302532392e7376672f39363070782d4c61747669615f726f61645f7369676e5f3735355f2532383330302532392e7376672e706e673f75746d5f736f757263653d636f6d6d6f6e732e77696b696d656469612e6f72672675746d5f63616d706169676e3d696e6465782675746d5f636f6e74656e743d7468756d626e61696c&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://commons.wikimedia.org/wiki/File:Latvia_road_sign_755_(300).svg\" title=\"File:Latvia road sign 755 (300).svg - Wikimedia Commons\">File:Latvia road sign 755 (300).svg - Wikimedia Commons</a></div><div class=\"message_embed_description\">Section 6. Non-Protected Works\n</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://commons.wikimedia.org/wiki/File:Latvia_road_sign_756.svg\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/97d3045062a40ba07849f7d0de10fe978c53ef84/68747470733a2f2f7468756d622e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f372f37342f4c61747669615f726f61645f7369676e5f3735362e7376672f3132383070782d4c61747669615f726f61645f7369676e5f3735362e7376672e706e673f75746d5f736f757263653d636f6d6d6f6e732e77696b696d656469612e6f72672675746d5f63616d706169676e3d696e6465782675746d5f636f6e74656e743d7468756d626e61696c&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://commons.wikimedia.org/wiki/File:Latvia_road_sign_756.svg\" title=\"File:Latvia road sign 756.svg - Wikimedia Commons\">File:Latvia road sign 756.svg - Wikimedia Commons</a></div><div class=\"message_embed_description\">Section 6. Non-Protected Works\n</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://commons.wikimedia.org/wiki/File:Latvia_road_sign_757.svg\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/d105a1cb13aa6d588b98b68bcdbbfdd1cd527af3/68747470733a2f2f7468756d622e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f392f39662f4c61747669615f726f61645f7369676e5f3735372e7376672f3132383070782d4c61747669615f726f61645f7369676e5f3735372e7376672e706e673f75746d5f736f757263653d636f6d6d6f6e732e77696b696d656469612e6f72672675746d5f63616d706169676e3d696e6465782675746d5f636f6e74656e743d7468756d626e61696c&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://commons.wikimedia.org/wiki/File:Latvia_road_sign_757.svg\" title=\"File:Latvia road sign 757.svg - Wikimedia Commons\">File:Latvia road sign 757.svg - Wikimedia Commons</a></div><div class=\"message_embed_description\">Section 6. Non-Protected Works\n</div></div></div>",
+        "id": 640728043,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794832414
+    },
+    {
+        "content": "<p><a href=\"https://commons.wikimedia.org/wiki/File:Latvia_road_sign_533A.svg\">https://commons.wikimedia.org/wiki/File:Latvia_road_sign_533A.svg</a> <a href=\"https://commons.wikimedia.org/wiki/File:Latvia_road_sign_534A.svg\">https://commons.wikimedia.org/wiki/File:Latvia_road_sign_534A.svg</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://commons.wikimedia.org/wiki/File:Latvia_road_sign_533A.svg\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/494fabf699ee15e735e2e5969473a3d50698c043/68747470733a2f2f7468756d622e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63382f4c61747669615f726f61645f7369676e5f353333412e7376672f3132383070782d4c61747669615f726f61645f7369676e5f353333412e7376672e706e673f75746d5f736f757263653d636f6d6d6f6e732e77696b696d656469612e6f72672675746d5f63616d706169676e3d696e6465782675746d5f636f6e74656e743d7468756d626e61696c&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://commons.wikimedia.org/wiki/File:Latvia_road_sign_533A.svg\" title=\"File:Latvia road sign 533A.svg - Wikimedia Commons\">File:Latvia road sign 533A.svg - Wikimedia Commons</a></div><div class=\"message_embed_description\">Section 6. Non-Protected Works\n</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://commons.wikimedia.org/wiki/File:Latvia_road_sign_534A.svg\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/8d5e3b974869278ce1c1dc6d7840487137ef5a91/68747470733a2f2f7468756d622e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f322f32312f4c61747669615f726f61645f7369676e5f353334412e7376672f3132383070782d4c61747669615f726f61645f7369676e5f353334412e7376672e706e673f75746d5f736f757263653d636f6d6d6f6e732e77696b696d656469612e6f72672675746d5f63616d706169676e3d696e6465782675746d5f636f6e74656e743d7468756d626e61696c&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://commons.wikimedia.org/wiki/File:Latvia_road_sign_534A.svg\" title=\"File:Latvia road sign 534A.svg - Wikimedia Commons\">File:Latvia road sign 534A.svg - Wikimedia Commons</a></div><div class=\"message_embed_description\">Section 6. Non-Protected Works\n</div></div></div>",
+        "id": 640736354,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794834559
+    },
+    {
+        "content": "<p><a href=\"https://karlnorling.github.io/road-signs/gallery/lv/\">https://karlnorling.github.io/road-signs/gallery/lv/</a> Te vēl tāds ir</p>",
+        "id": 640836385,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794854885
+    },
+    {
+        "content": "<p>Wiki lapai gan tagad vajadzētu būt vairāk vai mazāk pilnai un patiesai un visprecīzākai par visu citu. Var vēl tegošanu smalkāk papētīt, bet nu tur tik daudz smalku lietu.</p>",
+        "id": 640836844,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794854997
+    },
+    {
+        "content": "<p><a href=\"https://discord.com/channels/413070382636072960/1571440203761979424/1571965727756386417\">https://discord.com/channels/413070382636072960/1571440203761979424/1571965727756386417</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://discord.com/channels/413070382636072960/1571440203761979424/1571965727756386417\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/29a8c83fbc739f313cf0caf7112e41651b8deb75/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6173736574732f6f675f696d675f646973636f72645f686f6d652e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://discord.com/channels/413070382636072960/1571440203761979424/1571965727756386417\" title=\"Discord - Group Chat That’s All Fun &amp; Games\">Discord - Group Chat That’s All Fun &amp; Games</a></div><div class=\"message_embed_description\">Discord is great for playing games and chilling with friends, or even building a worldwide community. Customize your own space to talk, play, and hang out.</div></div></div>",
+        "id": 640842779,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794856357
+    },
+    {
+        "content": "<p>Sanāk mums vajag ar Claude pārveidot no tabulas, vai nē?</p>",
+        "id": 640843374,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794856495
+    },
+    {
+        "content": "<p>Ehhh man jau tik daudz Discordu, man personīgi nav iespējams OSM kontam arī kopiju turēt vaļā. Tur kaut kas svarīgs?</p>",
+        "id": 640843389,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794856500
+    },
+    {
+        "content": "<p>Nē nav</p>",
+        "id": 640843442,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794856513
+    },
+    {
+        "content": "<p>Nu es jau varu pārveidot, ja vajag. Bet tas jau ir tabulā it kā. Claude no tā var paņemt. Es nezinu, ko īsti tur vaajag. Man katrai zīmei is savs JSON fails lokāli. Bet tas nekas nav nekādā standarda formātā.</p>",
+        "id": 640843736,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794856581
+    },
+    {
+        "content": "<p>Problēma, ar ko es sastapos, ir ka daudzām zīmēm var uzlikt lasāmus tegus, bet no tiem nevar atpakaļ dabūt zīmi. Piemēram <a href=\"https://osmlatvija.github.io/road-signs/107.html\">107.</a> <a href=\"https://osmlatvija.github.io/road-signs/108.html\">108.</a> <a href=\"https://osmlatvija.github.io/road-signs/109.html\">109.</a> ir visi <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Atraffic_sign%3Dhazard\">traffic_sign=hazard</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahazard%3Droad_narrows\">hazard=road_narrows</a>, bet nekur nav norādīts kurā pusē sašaurinās.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://osmlatvija.github.io/road-signs/107.html\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/aef5ed85d6cd59cc1f1b264633007401a01be11c/68747470733a2f2f6c696b756d692e6c762f77777772616b7374692f323031352f3132312f42494c4445532f4e5f3237392f494d4147453035372e4a5047&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://osmlatvija.github.io/road-signs/107.html\" title=\"107. Ceļa sašaurinājums\">107. Ceļa sašaurinājums</a></div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://osmlatvija.github.io/road-signs/108.html\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/1e9c2308ce9d74df2d3bdb9b7ef7407358616afc/68747470733a2f2f6c696b756d692e6c762f77777772616b7374692f323031352f3132312f42494c4445532f4e5f3237392f494d4147453035382e4a5047&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://osmlatvija.github.io/road-signs/108.html\" title=\"108. Ceļa sašaurinājums\">108. Ceļa sašaurinājums</a></div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://osmlatvija.github.io/road-signs/109.html\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/964322474918fdd37f0e37938a40b3702eaaf644/68747470733a2f2f6c696b756d692e6c762f77777772616b7374692f323031352f3132312f42494c4445532f4e5f3237392f494d4147453035392e4a5047&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://osmlatvija.github.io/road-signs/109.html\" title=\"109. Ceļa sašaurinājums\">109. Ceļa sašaurinājums</a></div></div></div>",
+        "id": 640846487,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794857213
+    },
+    {
+        "content": "<p>Tad visdrošākais būtu lietot zīmes numurus? Tas atrisinātu problēmu. Protams, ja OSM nav pieņemti kaut kādi tegi ar ceļa sašaurināšanos specifiku</p>",
+        "id": 640847072,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794857359
+    },
+    {
+        "content": "<p>Tev piekrītu, labāk izlabot uz zīmes numuriem</p>",
+        "id": 640847645,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794857484
+    },
+    {
+        "content": "<p>A pag.</p>",
+        "id": 640848051,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794857578
+    },
+    {
+        "content": "<p>Tur OSM tas tegs par road narrows, ir par to zīmi kur no abām pusēm, izskatās. Tām pārējam divām varētu ielikt zīmes numuru narrows vietā.</p>",
+        "id": 640848225,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794857616
+    },
+    {
+        "content": "<p>Problēma ir datu parsētājiem tieši ar šīm kodu zīmēm. <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Atraffic_sign%3Dgive_way\">traffic_sign=give_way</a> saprot visi bet <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Atraffic_sign%3DLV%3A206\">traffic_sign=LV:206</a> neviens. Teorētiski jau abi ir pareizi. Bet nav OSM pagaidām tāds tegu saraksts, kāds ir šī tabula tagad. Neviens redaktors nesaprot. JOSM pa drusku bīdās pa gadiem. Kaut kādas Vācijas ir, bet citur kā kur.</p>",
+        "id": 640848363,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794857650
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"1184352\">Rinalds</span> <a href=\"#narrow/channel/358602-general/topic/Ce.C4.BCa.20z.C4.ABmju.20saraksts/near/640848225\">said</a>:</p>\n<blockquote>\n<p>Tur OSM tas tegs par road narrows, ir par to zīmi kur no abām pusēm, izskatās. Tām pārējam divām varētu ielikt zīmes numuru narrows vietā.</p>\n</blockquote>\n<p>Nu tur jau tā lieta, ka nav teikts tā. Kāpēc ceļš sašaurinās tikai reizē abās pusēs? Latvijā ir 3 atdalīti veidi, bet OSM nav tegi ieviesti tam.</p>",
+        "id": 640848685,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794857730
+    },
+    {
+        "content": "<p>Piemēram, <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Atraffic_sign%3Dhazard\">traffic_sign=hazard</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahazard%3Danimal_crossing\">hazard=animal_crossing</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahazard%3Aanimal%3Dlivestock\">hazard:animal=livestock</a> ir ieviesti tegi smalkāk citādi arī te nebūtu dalāms</p>",
+        "id": 640848829,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794857767
+    },
+    {
+        "content": "<p>Nu nekas man liekas. Svarīgāk ir pareizi dati, nevis tegot tieši priekš datu parsētājiem. Vēlak pienāks laiks, kad parsētāji varbūt varēs parsēt datus, importējot tos u.tml. Tāpēc es joprojām domāju liec zīmes numurus labāk, kur nevar apzīmēt ar pieņemtiem tegiem, lai nerastos šādu pārpratumu.</p>",
+        "id": 640848880,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794857777
+    },
+    {
+        "content": "<p>Nu tādām zīmēm kā <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dgive_way\">highway=give_way</a> vai <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dstop\">highway=stop</a> tu gan nevarēsi likt - tur ātri atcels. Kāpēc tad citām zīmēm ar lasāmiem tegiem jāliek kodi, ja eksistē lasāmi varianti?</p>",
+        "id": 640849338,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794857878
+    },
+    {
+        "content": "<p>Nu tas jā, kur lasāmi atstāj</p>",
+        "id": 640849406,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794857896
+    },
+    {
+        "content": "<p>Ā, šajos gadījumos jā. Kodi labāk.</p>",
+        "id": 640849414,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794857897
+    },
+    {
+        "content": "<p>Vismaz tā mēs varam nolemt kopienā pagaidām, jo citādi nav atškirams, kas ir labs arguments.</p>",
+        "id": 640849518,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794857933
+    },
+    {
+        "content": "<p>Vajadzētu arī pamainīt tegus, kurus likt uz ceļa, ja ir, piemēram, velo+gājēju celiņš. Mēs nelietojam path. Vai nu footway vai cycleway</p>",
+        "id": 641178810,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794909385
+    },
+    {
+        "content": "<p>Path ir parasti priekš takām u.tml.</p>",
+        "id": 641178932,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794909411
+    },
+    {
+        "content": "<p>Plus, ja celiņš ir velo+gājēju, man liekas <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dfootway\">highway=footway</a> ir prioritāte (plus foot designated un bicycle designated), ja tas ir sidewalk, jo savādāk nevar uzlikt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afootway%3Dsidewalk\">footway=sidewalk</a>. Protams, neviens to neaptur, bet Osmose gan dod brīdinājumus par to, un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afootway%3Dsidewalk\">footway=sidewalk</a> tomēr ir tā saucamais sub tab ja es pareizi saprotu, bez <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dfootway\">highway=footway</a> labāk nelietot.</p>",
+        "id": 641179710,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794909608
+    },
+    {
+        "content": "<blockquote>\n<p>Mēs nelietojam path.</p>\n</blockquote>\n<p>Tā gluži nav. Daudzās vietās ir vēl lietots un JOSM tas ir defaults. Bet jāpieliek abi.</p>\n<blockquote>\n<p>Path ir parasti priekš takām u.tml.</p>\n</blockquote>\n<p>Pats par sevi Latvijā, jā. Bet ja klāt ir <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Ddesignated\">bicycle=designated</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afoot%3Ddesignated\">foot=designated</a> tad tas kļūst par kopīgo veloceļu.</p>",
+        "id": 641200144,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794913934
+    },
+    {
+        "content": "<blockquote>\n<p>un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afootway%3Dsidewalk\">footway=sidewalk</a> tomēr ir tā saucamais sub tab ja es pareizi saprotu, bez <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dfootway\">highway=footway</a> labāk nelietot</p>\n</blockquote>\n<p>Jā, bez galvenā footway tega, subtegs neko nenozīmē un faktiski dzēšams.</p>",
+        "id": 641200947,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794914122
+    },
+    {
+        "content": "<blockquote>\n<p>ja celiņš ir velo+gājēju, man liekas <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dfootway\">highway=footway</a> ir prioritāte</p>\n</blockquote>\n<p>Ne visai saprotu, ko tas nozīmē? Tu domā vietās, kur krustojas? Kā footway attiecas uz veloceliņiem?</p>",
+        "id": 641201158,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794914177
+    },
+    {
+        "content": "<p>CSN ļoti maz kas par \"celiņu\" un veloceļu krustošanos teikts. Faktiski tikai pasaka, ka tādā vietā līnijas ir raustītās <a href=\"https://osmlatvija.github.io/road-signs/932.html\">932.</a> . Praksē mēdz būt sazīmētas zebras. Nekas par prioritātēm vispār nav teikts.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://osmlatvija.github.io/road-signs/932.html\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/b154ba0cc9f76a1536c7b05db17815cac5485590/68747470733a2f2f6c696b756d692e6c762f77777772616b7374692f323031352f3132312f42494c4445532f4e5f3237392f494d4147453430332e4a5047&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://osmlatvija.github.io/road-signs/932.html\" title=\"932.\">932.</a></div></div></div>",
+        "id": 641204677,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794915070
+    },
+    {
+        "content": "<p>CSN/CL starp citu vispār tāda jēdziena kā \"celiņš\" (kas nav ceļa daļa) nav un nekādi noteikumi nepastāv. Tikai, ja <a href=\"https://osmlatvija.github.io/road-signs/415.html\">415.</a> zīme, tad ir \"gājēju ceļš\". Un kas notiek, ja tas \"celiņš\" sastopās ar veloceļu, kur teorētiski ir satiksme, un tāpēc teorētiski tas ir \"ceļš\"...? Nu tur var ilgi strīdēties par likuma interpretāciju, jo faktiski likumos vispār par to nav domāts un teikts.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://osmlatvija.github.io/road-signs/415.html\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/5246d9f05bb967f5700add17b1b238c5e1df7cfb/68747470733a2f2f6c696b756d692e6c762f77777772616b7374692f323031352f3132312f42494c4445532f4e5f3237392f494d4147453135312e4a5047&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://osmlatvija.github.io/road-signs/415.html\" title=\"415. Gājēju ceļš\">415. Gājēju ceļš</a></div></div></div>",
+        "id": 641205882,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794915415
+    },
+    {
+        "content": "<p>Ne es par to ka footway&gt;cycleway, kad ir sidewalk, jo var viegli pie footway pielikt, ka tas sidewalk. Bet paldies par to path, es nezināju. Tomēr praksē es gandrīz nekad neredzēju to lietotu tādā veidā.</p>",
+        "id": 641217688,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794918493
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"1184352\">Rinalds</span> <a href=\"#narrow/channel/358602-general/topic/Ce.C4.BCa.20z.C4.ABmju.20saraksts/near/641217688\">said</a>:</p>\n<blockquote>\n<p>footway&gt;cycleway, kad ir sidewalk</p>\n</blockquote>\n<p>Es šo ne visai saprotu, ko tu domā</p>",
+        "id": 641217967,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794918558
+    },
+    {
+        "content": "<blockquote>\n<p>Tomēr praksē es gandrīz nekad neredzēju to lietotu tādā veidā.<br>\n<img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"849x504\" data-original-src=\"/user_uploads/49624/rFMWeVTjAGOKGoE5Tzl8M6gc/image.png\" src=\"/user_uploads/thumbnail/49624/rFMWeVTjAGOKGoE5Tzl8M6gc/image.png/840x560.webp\"> </p>\n</blockquote>\n<p>Pēdējā laikā izzūd, jo iD daudzi lieto, bet joprojām ir. Un jauni arī parādās</p>",
+        "id": 641218730,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794918716
+    },
+    {
+        "content": "<p>Kad ir kopējs celiņš - gājēju | velo. Ir trīs opcijas – footway + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Ddesignated\">bicycle=designated</a>, <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afoot%3Ddesignated\">foot=designated</a>, vai cycleway + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afoot%3Ddesignated\">foot=designated</a>, un kā tu minēji path.<br>\nNo šim trim labākā būtu pirmā, jo tur var pielikt ka tas ir sidewalk</p>\n<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/358602-general/topic/Ce.C4.BCa.20z.C4.ABmju.20saraksts/near/641217967\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"1184352\">Rinalds</span> <a href=\"#narrow/channel/358602-general/topic/Ce.C4.BCa.20z.C4.ABmju.20saraksts/near/641217688\">said</a>:</p>\n<blockquote>\n<p>footway&gt;cycleway, kad ir sidewalk</p>\n</blockquote>\n<p>Es šo ne visai saprotu, ko tu domā</p>\n</blockquote>",
+        "id": 641219075,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794918753
+    },
+    {
+        "content": "<p>Path tomēr ir tāds vairāk universāls, tapēc saprotu, ka uzliki tieši to wiki</p>",
+        "id": 641219356,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794918826
+    },
+    {
+        "content": "<p>Nē, tāda <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dfootway\">highway=footway</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Ddesignated\">bicycle=designated</a> nav.</p>",
+        "id": 641219503,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794918860
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a> tad</p>",
+        "id": 641219574,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794918882
+    },
+    {
+        "content": "<p>Vai nu =cycleway vai nu =path ar <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Ddesignated\">bicycle=designated</a></p>",
+        "id": 641219575,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794918883
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a> ir tikai vietās, kur tas ir ar kaut ko apzīmēts. Pašu par sevi to nevajag nekur likt</p>",
+        "id": 641219677,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794918907
+    },
+    {
+        "content": "<p>Piemēram <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dfootway\">highway=footway</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a> neliek (jo kur tas teikts?) un noteikti nekad pie <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afootway%3Dsidewalk\">footway=sidewalk</a></p>",
+        "id": 641219892,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794918965
+    },
+    {
+        "content": "<blockquote>\n<p>jo tur var pielikt ka tas ir sidewalk</p>\n</blockquote>\n<p>Ietve un veloceļš nekad nebūs kopā - vai nu viens vai otrs. To arī CSN atdala</p>",
+        "id": 641220294,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794919059
+    },
+    {
+        "content": "<p>Ā, nu ok tagad sapratu. Es reāli biju domājis ka tas tā osm wiki lv tagging guidelines bija rakstīts, paskatījos vēlreiz - nav. Laikam ne tā izlasījis biju</p>",
+        "id": 641220396,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794919092
+    },
+    {
+        "content": "<p>Man liekas vai tad nav baigi daudz +bicycle yes celiņu latvijā?</p>",
+        "id": 641220452,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794919109
+    },
+    {
+        "content": "<p>ar footway</p>",
+        "id": 641220478,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794919117
+    },
+    {
+        "content": "<p>Ar to veloceļu tegošanu OSM ir vēsturiski viss saputrots. Un tad vēl Latvijā savi noteikumi...</p>",
+        "id": 641220551,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794919138
+    },
+    {
+        "content": "<blockquote>\n<p>Man liekas vai tad nav baigi daudz +bicycle yes celiņu latvijā?</p>\n</blockquote>\n<p>Ir. Tapēc, ka kartētāji liek nedomājot. Arī <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahorse%3Dyes\">horse=yes</a>/no is salikti kur pagadās kaut gan Latvijā labi ja 10 zīmes tādas <span aria-label=\"smiling face with tear\" class=\"emoji emoji-1f972\" role=\"img\" title=\"smiling face with tear\">:smiling_face_with_tear:</span></p>",
+        "id": 641220730,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794919191
+    },
+    {
+        "content": "<p>Labi, bet kāpēc tieši path, nevis cycleway tad starp citu?</p>",
+        "id": 641220927,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794919231
+    },
+    {
+        "content": "<p>Ar ko tas ir labāks</p>",
+        "id": 641220999,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794919246
+    },
+    {
+        "content": "<p>Ja uzlikts <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a>, tad arī jāliek tad <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asmall_electric_vehicle%3Dyes\">small_electric_vehicle=yes</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Adog%3Dyes\">dog=yes</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Apram%3Dyes\">pram=yes</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Awheelchair%3Dyes\">wheelchair=yes</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Arollerskates%3Dyes\">rollerskates=yes</a> un......</p>",
+        "id": 641221097,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794919262
+    },
+    {
+        "content": "<p>Izskatās man vajadzēs daudz ko labot tagad</p>",
+        "id": 641221184,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794919290
+    },
+    {
+        "content": "<p>Vispār vajadzētu globāli Latvijā šo izlabot</p>",
+        "id": 641221277,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794919311
+    },
+    {
+        "content": "<blockquote>\n<p>Labi, bet kāpēc tieši path, nevis cycleway tad starp citu?</p>\n</blockquote>\n<p>Ja tu pa zīmju lapu, es vienkārši nebiju salicis līdz galam. Neviens par otru nav labāks. Latvijā teorētiski labāk cycleway. Jo Latvijā footway - izbūvēts bet path - nav izbūvēts. Bet citur (UK laikam) path nozīmē to, kas mums ir gājēju ceļš.</p>",
+        "id": 641221295,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794919316
+    },
+    {
+        "content": "<p>Jā, piekrītu. Tad labi. Un tad tās zīmes, kur piemēram sašaurinās no kreisās, to mainam uz zīmes numuru?</p>",
+        "id": 641221495,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794919377
+    },
+    {
+        "content": "<p>OSM jau gadiem cenšas salabot footway/path un tur ir kādi 10 varianti, kā to lieto pasaulē. Un nekas nav panākts līdz šim. Vidādi routeri principā pat neskatās path/footway, bet surface.</p>",
+        "id": 641221521,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794919383
+    },
+    {
+        "content": "<blockquote>\n<p>to mainam uz zīmes numuru</p>\n</blockquote>\n<p>Mainīt nevajadzētu, jo tas viss ir no OSM wiki un faktiskās lietošanas. Ja mēs Latvijā gribam likt numurus to vietā, tad var izdarīt kaut kādu piezīmi un atsaukties uz šo čatu vai kā tā. Faktiski jau izņemot tevi un mani neviens to pat nav minējis līdz šis. Tāpēc OSM princips nav \"atcelts\" tā teikt.</p>",
+        "id": 641221767,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794919456
+    },
+    {
+        "content": "<p>Tur jau izņemot sašaurināšanos daudz tādi piemēri vēl.</p>",
+        "id": 641221867,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794919484
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/358602-general/topic/Ce.C4.BCa.20z.C4.ABmju.20saraksts/near/641219892\">said</a>:</p>\n<blockquote>\n<p>Piemēram <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dfootway\">highway=footway</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a> neliek (jo kur tas teikts?) un noteikti nekad pie <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afootway%3Dsidewalk\">footway=sidewalk</a></p>\n</blockquote>\n<p>Tas teikts šeit OSM <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dfootway\">highway=footway</a> wiki, starp citu: \"For ways designated for pedestrians, but which also allows riding bicycles, use either <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dfootway\">highway=footway</a> and <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a> or <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dpath\">highway=path</a>, <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afoot%3Ddesignated\">foot=designated</a> and <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a>.\" Teorētiski tad to ir jāizlabo, nepatiesa info.</p>",
+        "id": 641224546,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794920170
+    },
+    {
+        "content": "<p>Mani tas gan maldināja kā šobrīd</p>",
+        "id": 641224651,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794920202
+    },
+    {
+        "content": "<blockquote>\n<p>allows riding bicycles</p>\n</blockquote>\n<p>Bet tas nav Latvijā nekur nav teikts. Nevienā likumā, nevienos noteikumos. Citiem vārdiem - allows != doesn't forbid</p>",
+        "id": 641228978,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794921177
+    },
+    {
+        "content": "<p>Ja būtu kaut kāds \"uz bruģētiem celiņiem, drīkst braukt ar velo\" - tad droši visiem klāt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a>. Bet nekas tāds Latvijā nav. Likt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abicycle%3Dyes\">bicycle=yes</a> ir faktiski maldināt par oficiālo velo statusu uz tādiem celiņiem.</p>",
+        "id": 641229273,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794921243
+    },
+    {
+        "content": "<p><img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"1944x140\" data-original-src=\"/user_uploads/49624/9RbM7kwaihKB5rpGeGvcujnw/image.png\" src=\"/user_uploads/thumbnail/49624/9RbM7kwaihKB5rpGeGvcujnw/image.png/840x560.webp\"><br>\nKāpēc šeit jāliek <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afoot%3Ddesignated\">foot=designated</a>, vai tad tas nav implied?</p>",
+        "id": 641231803,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794921822
+    },
+    {
+        "content": "<p>aa pag es izlasiju lv tagging guidelines</p>",
+        "id": 641232080,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794921886
+    },
+    {
+        "content": "<p>Man liekas šeit šiem trijiem kaut kur jānorāda, ka JOSM variants <strong>nav vēlams</strong>. Jo kā jau tu teici, LV tas vairāk ir par takām bez seguma, kā arī rakstīts OSM LV tagging guidelines wiki: <br>\n<img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"1117x426\" data-original-src=\"/user_uploads/49624/OJpAbO4BzZiinZMNzyAxMSSj/image.png\" src=\"/user_uploads/thumbnail/49624/OJpAbO4BzZiinZMNzyAxMSSj/image.png/840x560.webp\"></p>",
+        "id": 641233344,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794922180
+    },
+    {
+        "content": "<p>Trijiem tas ir šiem <br>\n<img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"2176x1216\" data-original-src=\"/user_uploads/49624/SKw1aHp_NPoDkmwZ98E8Wbww/image.png\" src=\"/user_uploads/thumbnail/49624/SKw1aHp_NPoDkmwZ98E8Wbww/image.png/840x560.webp\"></p>",
+        "id": 641233524,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794922211
+    },
+    {
+        "content": "<p>Ar ko vispār šīs atškiras? Un plus, varētu arī pielikt info par to, ka pārejas posmu apzīmēt ar <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dfootway\">highway=footway</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afootway%3Dcrossing\">footway=crossing</a> (ja ir iespējams)<br>\n<img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"2255x525\" data-original-src=\"/user_uploads/49624/aEu5SPO4mPcyQLKv-A4xFkVL/image.png\" src=\"/user_uploads/thumbnail/49624/aEu5SPO4mPcyQLKv-A4xFkVL/image.png/840x560.webp\"></p>",
+        "id": 641234986,
+        "sender_full_name": "Rinalds",
+        "timestamp": 1794922503
+    },
+    {
+        "content": "<p>Ņem vērā, ka 90% no LV tagging guidelines arī es rakstīju balstoties uz reālo tegošanu un apspriešanu un OSM principiem. Tur ir drīzāk pilns ar Latvijā atšķirīgiem piemēriem un varbūt formulēts nav precīzi.</p>",
+        "id": 641240622,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794923628
+    },
+    {
+        "content": "<blockquote>\n<p>JOSM variants <strong>nav vēlams</strong></p>\n</blockquote>\n<p>Varbūt arī nav, bet kur tas ir apspriests un nolemts? Jo nekur tā nav gluži bijis pieņemts līdz šim. Lai kaut ko tādu rakstītu kā vēlamu vajag balstīties uz kaut ko. Valsts līmenī var būt visādi izņēmumi, bet tad tiem jābūt kopienā nolemtiem.</p>",
+        "id": 641241032,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794923699
+    },
+    {
+        "content": "<blockquote>\n<p>Ar ko vispār šīs atškiras?</p>\n</blockquote>\n<p>Ar ceļa pusi, kurā zīme tiek uzstādīta.</p>\n<blockquote>\n<p>pārejas posmu apzīmēt ar <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Ahighway%3Dfootway\">highway=footway</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afootway%3Dcrossing\">footway=crossing</a></p>\n</blockquote>\n<p>Jā, vajag pielikt.</p>",
+        "id": 641241258,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794923741
+    },
+    {
+        "content": "<blockquote>\n<p>Kāpēc šeit jāliek <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Afoot%3Ddesignated\">foot=designated</a></p>\n</blockquote>\n<p>Jo ši zīme to nosaka faktiski - citādi nevar atšķirt parastu footway no footway, kur ir speciāli noteikts gājēju ceļš. Līdz ar to noteikumi mainās. Tā arī tāda LV specifika. Īsti nekur nav apspriests, bet tā izriet no visa pārējā. (UK tas ir path, tāpēc tur tas ir implied uz footway, bet Latvijā nē)</p>",
+        "id": 641241909,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794923871
+    }
+]

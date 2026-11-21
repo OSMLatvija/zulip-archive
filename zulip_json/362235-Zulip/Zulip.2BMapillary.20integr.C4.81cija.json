@@ -1,0 +1,74 @@
+[
+    {
+        "content": "<p>Heya <span class=\"user-mention\" data-user-id=\"568802\">@i-ky</span>, neatceros, vai runājām ko vairāk par Mapillary integrāciju te?<br>\nBūtu stilīgi parādīt uzreiz attēlu no kā tāda kā <a href=\"https://www.mapillary.com/app/?pKey=1184287212197989\">https://www.mapillary.com/app/?pKey=1184287212197989</a> :)</p>",
+        "id": 316129092,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671134595
+    },
+    {
+        "content": "<p>Šeit būs vajadzīgs \"īstais <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bots</a>\". Zulip'am ir švaki ar link preview. Un tas arī nesuportē markdown image linkus, attēli tikai kā \"attachment\". Bet <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bots</a> varētu lejuplādēt attēlu no Mapillary un ielikt Zulipā.</p>",
+        "id": 316134098,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671136268
+    },
+    {
+        "content": "<p>Skaidrs, paldies. Ta laikam pagaidām var piefiksēt kā ideju nākotnei :)</p>",
+        "id": 316135921,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671136851
+    },
+    {
+        "content": "<p>Izrādījās, ka preview var konfigurēt, un ka mums bija izslēgts \"Show previews of linked websites\". Pamēģināsim tagad...<br>\n<a href=\"https://www.mapillary.com/app/?pKey=1184287212197989\">https://www.mapillary.com/app/?pKey=1184287212197989</a></p>",
+        "id": 316233988,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671187459
+    },
+    {
+        "content": "<p>Bet YouTube preview itkā strādā... <a href=\"https://youtu.be/Ir-3K0pjwOI\">YouTube - Learn How To Map in OpenStreetMap</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"Ir-3K0pjwOI\" href=\"https://youtu.be/Ir-3K0pjwOI\"><img src=\"https://uploads.zulipusercontent.net/6f291e4fd799ce5a510b517ab1381916e6a53a83/68747470733a2f2f692e7974696d672e636f6d2f76692f49722d334b30706a774f492f64656661756c742e6a7067\"></a></div>",
+        "id": 316235008,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671187834
+    },
+    {
+        "content": "<p>Izskatās, ka tā loģika ir hardkodēta Zulip serverā <a href=\"https://github.com/zulip/zulip/blob/d4d285fc43b9ede7556f30878e28d8f851289bf2/zerver/lib/markdown/__init__.py#L628\">https://github.com/zulip/zulip/blob/d4d285fc43b9ede7556f30878e28d8f851289bf2/zerver/lib/markdown/__init__.py#L628</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/zulip/zulip/blob/d4d285fc43b9ede7556f30878e28d8f851289bf2/zerver/lib/markdown/__init__.py#L628\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/61e0e18b690271ce66192ab9434d76488cb6e2a0\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f666165393065303034353238666135643933643032653332613935323831633530663061373166373538373065663033326464613131613932653035316332382f7a756c69702f7a756c6970)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/zulip/zulip/blob/d4d285fc43b9ede7556f30878e28d8f851289bf2/zerver/lib/markdown/__init__.py#L628\" title=\"zulip/__init__.py at d4d285fc43b9ede7556f30878e28d8f851289bf2 · zulip/zulip\">zulip/__init__.py at d4d285fc43b9ede7556f30878e28d8f851289bf2 · zulip/zulip</a></div><div class=\"message_embed_description\">Zulip server and web application. Open-source team chat that helps teams stay productive and focused. - zulip/__init__.py at d4d285fc43b9ede7556f30878e28d8f851289bf2 · zulip/zulip</div></div></div>",
+        "id": 316237726,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671188703
+    },
+    {
+        "content": "<p>Var būt saistīts - <a href=\"https://github.com/zulip/zulip/issues/23664\">https://github.com/zulip/zulip/issues/23664</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/zulip/zulip/issues/23664\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/485c28466843b18e8b2b040654f1fd33ad2a02b2\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f643937626236376165633135343038353263363565353430333165613962636165633536366665666530373633323363656263653266323065333435353530332f7a756c69702f7a756c69702f6973737565732f3233363634)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/zulip/zulip/issues/23664\" title=\"preview not avilable for some URLs · Issue #23664 · zulip/zulip\">preview not avilable for some URLs · Issue #23664 · zulip/zulip</a></div><div class=\"message_embed_description\">Hi, it seems like the preview is not displayed for some URLs, e.g. for the arxiv website: Is there a reason for this? Can it be fixed? On slack preview is fine for arxiv.</div></div></div>",
+        "id": 316242229,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671190196
+    },
+    {
+        "content": "<p><a href=\"https://community.openstreetmap.org/t/image-preview-of-mapillary-link/2286\">Šeit</a> ir aprakstīta līdzīga problēma ar Mapillary+Discourse.<br>\nCik es sapratu, Zulip saprot <a href=\"https://oembed.com/\">oEmbed</a> un <a href=\"https://ogp.me/\">Open Graph</a> tagus.<br>\nMapillary itkā atgriež <code>&lt;meta name=\"og:image\" ...&gt;</code>, bet dažreiz tur ir vienkārši <code>content=\"https://www.mapillaty.com/assets/dotcompass.png\"</code>.<br>\nTāpēc problēma var būt Mapillary laukā...</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://community.openstreetmap.org/t/image-preview-of-mapillary-link/2286\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/59dc33c5ebd3d7c8a7710e95b2b150aaa166f420\\/68747470733a2f2f636f6d6d756e6974792d63646e2e6f70656e7374726565746d61702e6f72672f75706c6f6164732f64656661756c742f6f726967696e616c2f31582f316563333234323737363666326566646338316331666431613638373965343038346266643030642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://community.openstreetmap.org/t/image-preview-of-mapillary-link/2286\" title=\"Image preview of mapillary link\">Image preview of mapillary link</a></div><div class=\"message_embed_description\">in a topic, linking a mapillary image gives link, not the image.  for example, the topic How to tag an arch **symbolising** entry to area holds links to images on different platforms, only the ones on mapillary do not get rendered as images.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://ogp.me/\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/196342d4eb32656905c4616a43a67323b089fd6b\\/68747470733a2f2f6f67702e6d652f6c6f676f2e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://ogp.me/\" title=\"Open Graph protocol\">Open Graph protocol</a></div><div class=\"message_embed_description\">The Open Graph protocol enables any web page to become a rich object in a social graph.</div></div></div>",
+        "id": 316285399,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671202309
+    },
+    {
+        "content": "<p>Tur arī minēts, ka šādi linki strādā?<br>\n<a href=\"https://www.mapillary.com/app/?lat=18.785124499999995&amp;lng=98.99314630000003&amp;z=17&amp;pKey=204383767969703\">https://www.mapillary.com/app/?lat=18.785124499999995&amp;lng=98.99314630000003&amp;z=17&amp;pKey=204383767969703</a></p>",
+        "id": 317018469,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1671562873
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/358602-general/topic/Zulip.2BMapillary.20integr.C4.81cija/near/317018469\">said</a>:</p>\n<blockquote>\n<p>Tur arī minēts, ka šādi linki strādā?<br>\n<a href=\"https://www.mapillary.com/app/?lat=18.785124499999995&amp;lng=98.99314630000003&amp;z=17&amp;pKey=204383767969703\">https://www.mapillary.com/app/?lat=18.785124499999995&amp;lng=98.99314630000003&amp;z=17&amp;pKey=204383767969703</a></p>\n</blockquote>\n<p>Jā tādiem linkiem arī būtu jāstrādā.</p>",
+        "id": 317113288,
+        "sender_full_name": "i-ky",
+        "timestamp": 1671614365
+    },
+    {
+        "content": "<p>Starp citu, pārbaudīju Discord'ā, tur tiem linkiem preview normāli strādā. Tas, cerams, nozīmē, ka kaut kas ir labojams Zulip pusē.</p>",
+        "id": 318003520,
+        "sender_full_name": "i-ky",
+        "timestamp": 1672087475
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/362235-Zulip/topic/Zulip.2BMapillary.20integr.C4.81cija/near/318003520\">said</a>:</p>\n<blockquote>\n<p>Starp citu, pārbaudīju Discord'ā, tur tiem linkiem preview normāli strādā. Tas, cerams, nozīmē, ka kaut kas ir labojams Zulip pusē.</p>\n</blockquote>\n<p>Discords gan preview taisa no servera puses, cik es zinu. Tipa serveris atver to saitu un tad atsūta rezultātu savā formātā. Tāpēc tur arī viņi var uzlikt pilnvērtīgu browseri un norenderēt screenshot/preview. Bet Zipule katram klientam atsevišķi personīgi. Vismaz tā es atceros. Discordā attālināta <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bota</a> rakstīto vispār nevar redzēt, ja izslēdz preview ārā.</p>",
+        "id": 318006679,
+        "sender_full_name": "HellMap",
+        "timestamp": 1672090071
+    }
+]

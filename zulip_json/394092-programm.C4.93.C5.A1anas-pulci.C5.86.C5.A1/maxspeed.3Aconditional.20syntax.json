@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>Es tikko \"izlaboju\" <a href=\"https://www.openstreetmap.org/way/799094811\">https://www.openstreetmap.org/way/799094811</a>, jo tas bija <a href=\"https://osmlatvija.github.io/Osmalyzer/Highway%20Seasonal%20Speeds%20report.html\">reportā</a>, bet tad sāku skatīties <a href=\"https://wiki.openstreetmap.org/wiki/Conditional_restrictions#Condition\">sintakses aprakstu</a>. Tur teikts, ka vērtībai bez semikola iekavas nav obligātas. Tad sāku skatīties, ko dara Osmalyzer, un izrādās, ka viņam ir <a href=\"https://github.com/OSMLatvija/Osmalyzer/blob/fe2ee07bd6e9f29f2c9df4d41e9bee3328d7ffe6/Osmalyzer/Analyzers/HighwaySeasonalSpeedsAnalyzer.cs#L75\">savs regex</a>, kur iekavas ir obligātas. Nav labi.<br>\nIdeāli būtu izmantot <a href=\"https://wiki.openstreetmap.org/wiki/Key:opening_hours#Implementation\">kādu eksistējošo <code>opening_hours</code> parseri</a>.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/799094811\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/6216f4773cbede236f0589ddcc1cf59e83a3b7bb\\/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/799094811\" title=\"Way: ‪Pociema iela‬ (‪799094811‬) | OpenStreetMap\">Way: ‪Pociema iela‬ (‪799094811‬) | OpenStreetMap</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/OSMLatvija/Osmalyzer/blob/fe2ee07bd6e9f29f2c9df4d41e9bee3328d7ffe6/Osmalyzer/Analyzers/HighwaySeasonalSpeedsAnalyzer.cs#L75\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/920e73182babba4f299d627f4a393193172f13e9\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f386135356535616637333134376534396632616337646530653066656136613465373561386231326261366136663432396337313764643861346461623562392f4f534d4c617476696a612f4f736d616c797a6572)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/OSMLatvija/Osmalyzer/blob/fe2ee07bd6e9f29f2c9df4d41e9bee3328d7ffe6/Osmalyzer/Analyzers/HighwaySeasonalSpeedsAnalyzer.cs#L75\" title=\"Osmalyzer/Osmalyzer/Analyzers/HighwaySeasonalSpeedsAnalyzer.cs at fe2ee07bd6e9f29f2c9df4d41e9bee3328d7ffe6 · OSMLatvija/Osmalyzer\">Osmalyzer/Osmalyzer/Analyzers/HighwaySeasonalSpeedsAnalyzer.cs at fe2ee07bd6e9f29f2c9df4d41e9bee3328d7ffe6 · OSMLatvija/Osmalyzer</a></div><div class=\"message_embed_description\">Parsing OSM data when it's too complex for Overpass - Osmalyzer/Osmalyzer/Analyzers/HighwaySeasonalSpeedsAnalyzer.cs at fe2ee07bd6e9f29f2c9df4d41e9bee3328d7ffe6 · OSMLatvija/Osmalyzer</div></div></div>",
+        "id": 372324961,
+        "sender_full_name": "i-ky",
+        "timestamp": 1688480095
+    },
+    {
+        "content": "<p>Jā, tas ir \"Max speed not recognized <strong>as seasonal</strong>\". Nenozīmē, ka nav pareizs. Tas nemaz nemeklē visus conditional. Pie mums vienkārši tādu ļoti maz, tāpēc tur citu nav minēti.</p>",
+        "id": 372328568,
+        "sender_full_name": "HellMap",
+        "timestamp": 1688480723
+    },
+    {
+        "content": "<p>Es to parseri uzrakstīju, jo kāds bija nomainījis 90 uz 110 pa taisno kaut arī tur bija conditionals. Un es gribēju pārliecināties, ka citur nav problēmu, bet tikai tieši ar to sezonas ātrumu.</p>",
+        "id": 372328706,
+        "sender_full_name": "HellMap",
+        "timestamp": 1688480758
+    },
+    {
+        "content": "<p>Es varu drošvien ielikt tur vispārīgu gatavu opening hours regexu vai kaut ko un tad pateikt - izparsēja ok, bet neatrada konkrēti seasonal. Bet nu principā šeit arī nemeklē neko citus. Tad tas report vairs nebūs par seasonal bet par opening hours sintaksi un īpaši seasonal izdalīts. Bet tādi verificētāju jau ir citur, tāpēc es necentos atkārtot esošo.</p>",
+        "id": 372329187,
+        "sender_full_name": "HellMap",
+        "timestamp": 1688480845
+    },
+    {
+        "content": "<p>Varbūt vajag plašāk aprakstīt, kam konkrēts reports domāts, un kā rīkoties ar tiem OSM entities, kuri tur ir?</p>",
+        "id": 372329865,
+        "sender_full_name": "i-ky",
+        "timestamp": 1688480977
+    },
+    {
+        "content": "<p>Jā, vajag.</p>",
+        "id": 372330178,
+        "sender_full_name": "HellMap",
+        "timestamp": 1688481030
+    }
+]
