@@ -1,0 +1,92 @@
+[
+    {
+        "content": "<p>Hi folks,</p>\n<p>Just a quick heads-up that voting on the Highway crossing cleanup proposal (deprecating <code>crossing=*</code> except <code>=no</code> and <code>=informal</code> and approving <code>crossing:signals=*</code>) is open until December 2.</p>\n<p><a href=\"https://wiki.openstreetmap.org/wiki/Proposal:Highway_crossing_cleanup\">https://wiki.openstreetmap.org/wiki/Proposal:Highway_crossing_cleanup</a></p>\n<p>In Latvia there are ~20k elements with <code>crossing=*</code> which would need updating. It's worth weighing whether deprecating the key fits your local mapping priorities or creates extra cleanup work you'd rather spend on other things first.</p>\n<p>More voices from different communities are always helpful, especially since around one third of votes so far come from just the US and Germany combined. No pressure either way, just wanted to share the info.</p>\n<p>There are no special requirements for voting. Having a wiki account is enough.</p>",
+        "id": 643955300,
+        "sender_full_name": "Dimitar155",
+        "timestamp": 1795719324
+    },
+    {
+        "content": "<p>I hate current tagging convention of crossings, passionately.<br>\nSince the day I joined I couldn't wrap my head around how illogical it is.<br>\nPretty sure that implementation of linked proposal (if it happens) will be major PITA and will break a lot in short term. But this is the risk I'm willing to take for the glimpse of <del>hope</del> logical tagging convention.</p>",
+        "id": 643998960,
+        "sender_full_name": "markalex",
+        "timestamp": 1795736035
+    },
+    {
+        "content": "<p>I don't have strong preferences for any if approach, but I really hope that sooner or later there comes an agreement for single correct approach with clear documentation.</p>",
+        "id": 644008642,
+        "sender_full_name": "kaposts",
+        "timestamp": 1795741232
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"715892\">@markalex</span> A less PITA approach would be <a href=\"https://wiki.openstreetmap.org/wiki/Proposal:Deprecate_crossing%3Dmarked_and_crossing%3Dunmarked\">https://wiki.openstreetmap.org/wiki/Proposal:Deprecate_crossing%3Dmarked_and_crossing%3Dunmarked</a>, which I plan to move forward if the current proposal is rejected. My proposal would affect ~10k crossings in Latvia (compared to the ~20k of the currently voted proposal). It would also have the same effect since you will have <code>crossing=uncontrolled/traffic_signals</code> which is equivalent to <code>crossing:signals=yes/no</code>.</p>\n<p>The positive part is that my proposal will affect a lot less elements (on a global level ~7.4M elements instead of almost 16M elements) and that data consumers won't have to support yet another tag.</p>",
+        "id": 644055425,
+        "sender_full_name": "Dimitar155",
+        "timestamp": 1795762628
+    },
+    {
+        "content": "<p>I've seen your opposition and alternative proposal. While logically it gets the same result, it's not even close to the elegance and \"crystal clearness\" of currently voted prop.<br>\nPlease compare:</p>\n<h6>Current:</h6>\n<p><a href=\"https://wiki.openstreetmap.org/wiki/Key%3Acrossing\">crossing=*</a> describes status of crossing (or lack of crossing), has two valid values<br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Key%3Acrossing%3Amarkings\">crossing:markings=*</a> describe how it's marked on surface<br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Key%3Acrossing%3Asignals\">crossing:signals=*</a> describe presence of absence of signals</p>\n<h6>Your:</h6>\n<p><a href=\"https://wiki.openstreetmap.org/wiki/Key%3Acrossing\">crossing=*</a> indicates that crossing has signals, doesn't have signals, crossings is not usable, or crossing is not official<br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Key%3Acrossing%3Amarkings\">crossing:markings=*</a> describes how it's marked on surface<br>\nPlus the values of <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Acrossing\">crossing=*</a> would still be left unclear. Would you call crossing that has no signals, but has camera checking that cars give way to pedestrians, \"uncontrolled\"?</p>",
+        "id": 644069641,
+        "sender_full_name": "markalex",
+        "timestamp": 1795767090
+    },
+    {
+        "content": "<p><code>crossing</code> currently indicates \"crossings is not usable, or crossing is not official\" but also \"unmarked and marked\". I'm changing only the latter part. Further cleanup is possible for a future proposal, but incremental steps are a bit easier to manage.</p>\n<p>Yes, I would call a crossing with such camera \"uncontrolled\" since there are no traffic lights. The camera can be tagged using <code>crossing:supervision=camera</code>. The wiki says that it is for railway crossings, but currently it is used on 30 pedestrian road crossings too.</p>",
+        "id": 644071888,
+        "sender_full_name": "Dimitar155",
+        "timestamp": 1795767681
+    },
+    {
+        "content": "<p>In an ideal world, what you say makes sense, but unfortunately we are not living in an ideal world. Making such large steps has a huge cost, which a lot of people underestimate.</p>\n<p>Historically, these are the values that were chosen a long time ago and are widely used and supported. My goal is to cause as little breaking changes as possible, both for editors and app developers.</p>",
+        "id": 644073136,
+        "sender_full_name": "Dimitar155",
+        "timestamp": 1795768019
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"1244429\">Dimitar155</span> <a href=\"#narrow/channel/358602-general/topic/Highway.20crossing.20cleanup.20proposal/near/644073136\">said</a>:</p>\n<blockquote>\n<p>In an ideal world, what you say makes sense, but unfortunately we are not living in an ideal world.</p>\n</blockquote>\n<p>I agree</p>\n<blockquote>\n<p>Making such large steps has a huge cost, which a lot of people underestimate.</p>\n</blockquote>\n<p>I agree on the cost of clean up.<br>\nBut you probably underestimate effect of the current mess (and likely effect of half-a-mess that that would be left if your proposal to be elected). Hell of crossings almost pushed me away when I first started editing.<br>\nAdmittedly, realisation of how messy osm internally is - multiplied that. But to this day I avoid touching crossings, if I can.<br>\nWe can call it \"cost in new editors\".</p>\n<blockquote>\n<p>Historically, these are the values that were chosen a long time ago and are widely used and supported. My goal is to cause as little breaking changes as possible, both for editors and app developers.</p>\n</blockquote>\n<p>I'm coming from the world of software development, and argument \"it was historically so\" for something obviously problematic/bad still kinda boils my blood =)<br>\nI understand that devs would need to adjust, but adjustment doesn't seem particularly big.<br>\nAnd as I admitted, period of transition will be PITA for them too (but only once instead of, as you proposing two of transition periods, as fas far as I understand). But in the end same devs will benefit from single set clear rules too.</p>",
+        "id": 644076523,
+        "sender_full_name": "markalex",
+        "timestamp": 1795768915
+    },
+    {
+        "content": "<blockquote>\n<p>But you probably underestimate effect of the current mess (and likely effect of half-a-mess that that would be left if your proposal to be elected). Hell of crossings almost pushed me away when I first started editing.</p>\n</blockquote>\n<p>Think of it like cleaning a messy house: you don't dump every drawer and shelf onto the floor at once and start cleaning, you clean room by room, counter by counter, shelf by shelf. The problem here is the sheer volume of data. </p>\n<blockquote>\n<p>I'm coming from the world of software development, and argument \"it was historically so\" for something obviously problematic/bad still kinda boils my blood =)</p>\n</blockquote>\n<p>Me too! From our perspective it is a little hurdle. From a mapper's perspective, not so much.</p>\n<p>For comparison: since <code>crossing=zebra</code> was deprecated last year, usage has dropped by only about 100k elements (from ~450k to ~350k). Roughly 50k retagged in a bulk edit and the other 50k trickling down in small, likely manual batches. If we keep that pace, it should be gone by 2030. If we don't keep the pace, it will take considerably longer.</p>\n<p>I think you can do the math and figure that for the full proposed deprecation we would need a decade. And that is my lower bound.</p>",
+        "id": 644080299,
+        "sender_full_name": "Dimitar155",
+        "timestamp": 1795769827
+    },
+    {
+        "content": "<blockquote>\n<p>But you probably underestimate effect of the current mess (and likely effect of half-a-mess that that would be left if your proposal to be elected). Hell of crossings almost pushed me away when I first started editing.</p>\n</blockquote>\n<p>What exactly almost pushed you away? Do you think that more verbose preset names would resolve the issue? For example:</p>\n<ul>\n<li>Pedestrian crossing with traffic signals</li>\n<li>Pedestrian crossing with markings w/o traffic signals</li>\n<li>Unmarked pedestrian crossing w/o traffic signals</li>\n</ul>\n<p>Or was it the wiki which caused confusion? Because honestly the wiki pages on crossings are not great. Compare <a href=\"https://wiki.openstreetmap.org/wiki/Tag:crossing%3Duncontrolled\">crossing=uncontrolled</a> with <a href=\"https://wiki.openstreetmap.org/wiki/Tag:crossing%3Dmarked\">crossing=marked</a>. Which one is better?</p>\n<p>Note that I've recently refactored the wiki page for <code>crossing=marked</code>, it used to look like the first one.</p>",
+        "id": 644086114,
+        "sender_full_name": "Dimitar155",
+        "timestamp": 1795771221
+    },
+    {
+        "content": "<blockquote>\n<p>Think of it like cleaning a messy house: you don't dump every drawer and shelf onto the floor at once and start cleaning, you clean room by room, counter by counter, shelf by shelf. The problem here is the sheer volume of data.</p>\n</blockquote>\n<p>That's quite a patronising way of explaining your point, don't you think?</p>\n<p>I accept that stats are bleak. I personally find automated edits underutilised, but I'm not in process (still avoiding crossings <span aria-label=\"slight smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"slight smile\">:slight_smile:</span> ), so maybe I'm missing something.</p>\n<blockquote>\n<p>What exactly almost pushed you away?</p>\n</blockquote>\n<p>It was the combination of things you mention. iD has unclear naming for presets, wiki was/is all over the place with examples, and didn't really help to establish connection with what things called in iD, what tags have for names, and what I consider those things IRL.<br>\nPlus, mess of what is already mapped (probably increased by people blindly applying suggested fixes?)</p>",
+        "id": 644088932,
+        "sender_full_name": "markalex",
+        "timestamp": 1795771870
+    },
+    {
+        "content": "<p>No patronising tone intended, it was just a quick everyday comparison for doing everything at once vs. taking smaller steps.</p>\n<p>Unclear preset names, messy wiki docs and people blindly applying suggested fixes will likely come soon. That's a big part of why I'm wary of broad deprecations. Validators will start flagging millions of objects, mappers will end up guessing or clicking through suggested fixes without full context, which often adds more mess to existing data rather than cleaning it up.</p>",
+        "id": 644092149,
+        "sender_full_name": "Dimitar155",
+        "timestamp": 1795772664
+    },
+    {
+        "content": "<p>My understanding is that presets will stay named as they are.<br>\nBut at least wiki should have a clearer overview. <br>\nAs highlighted above: <br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Key%3Acrossing%3Amarking\">crossing:marking=*</a> - what's on the asphalt<br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Key%3Acrossing%3Asignals\">crossing:signals=*</a> - what's about lights<br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Acrossing%3Dno\">crossing=no</a> - not a crossing, even if look suspiciously close to one<br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Acrossing%3Dinformal\">crossing=informal</a> - people do cross here, even if city doesn't intend it.</p>",
+        "id": 644096508,
+        "sender_full_name": "markalex",
+        "timestamp": 1795773705
+    },
+    {
+        "content": "<p>What to do with \"fixers\" I don't know.<br>\nSo far it seems like translation from what was to what would be is close to 1-to-1, but if it was so easy - we wouldn't have al the mess we have. So really hard to tell.</p>",
+        "id": 644097792,
+        "sender_full_name": "markalex",
+        "timestamp": 1795773970
+    },
+    {
+        "content": "<p>Actually, even preset naming is not discussed yet. I've asked two of the main maintainers of id tagging schema and both told me that the presets haven't been considered yet and it will be dealt with when it comes.</p>\n<p>Clearer wiki docs definitely help regardless of which way the vote goes. And as for those \"fixers\", maybe if we deprecate things incrementally instead of all at once, they won't be nearly as much of a problem :)</p>",
+        "id": 644098834,
+        "sender_full_name": "Dimitar155",
+        "timestamp": 1795774209
+    }
+]

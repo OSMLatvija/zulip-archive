@@ -1,0 +1,74 @@
+[
+    {
+        "content": "<p>Jaunajā <a href=\"https://every-door.app/\">everydoor</a> versijā šāds brīnums <br>\n<a href=\"https://wiki.openstreetmap.org/wiki/GeoScribble\">https://wiki.openstreetmap.org/wiki/GeoScribble</a><br>\nEs jau šur tur iezīmēju</p>",
+        "id": 438015935,
+        "sender_full_name": "Colby",
+        "timestamp": 1715360587
+    },
+    {
+        "content": "<p>Ja OsmAndā integrācija būtu, tad es tiešām lietotu, jo uzvilk čeburu vieglāk nekā rakstīt tekstu. braucot ar riteni, es neapstāšos, lai rakstītu. Pašlaik es es pāris klikšķiem pielieku waypoint neapstājoties. Tad novelku visus tos kaut kad ar GPX un tad jau skatos, ko es tur biju domājis no aero un Mapillary</p>",
+        "id": 438016958,
+        "sender_full_name": "HellMap",
+        "timestamp": 1715361017
+    },
+    {
+        "content": "<p>Ā, un bez iD inetgrācijas - kā tos dzēst ārā pēc tam...</p>",
+        "id": 438017056,
+        "sender_full_name": "HellMap",
+        "timestamp": 1715361084
+    },
+    {
+        "content": "<p>Rapid ir integrēts (iD itkā varot kā custom imagery)</p>",
+        "id": 438017090,
+        "sender_full_name": "Colby",
+        "timestamp": 1715361100
+    },
+    {
+        "content": "<p>Paskatījos Rapid, jā tur kā datu slānis. Bet rediģēt/dzēst nevar. Tāpēc principā sanāk tik pat darba, jo būs jāver vaļā arī tas Scribble.</p>",
+        "id": 438018467,
+        "sender_full_name": "HellMap",
+        "timestamp": 1715361604
+    },
+    {
+        "content": "<p>Un es ne visai saprotu - izņemot kā no telefona, nevar nodzēst pēc tam?</p>",
+        "id": 438018522,
+        "sender_full_name": "HellMap",
+        "timestamp": 1715361617
+    },
+    {
+        "content": "<p>Tie skribļi tiek augšupielādēti un ir publiski<br>\nNav nekas jāpārvieto vai jāver vaļā<br>\nPar izdzēšanu nezinu</p>",
+        "id": 438019932,
+        "sender_full_name": "Colby",
+        "timestamp": 1715362171
+    },
+    {
+        "content": "<p>Jā, es saprotu, bet es domāju - es sazīmēšu 100 skribeļus ciematā, pēc tam mājās kartē salabošu - bet kas ar skribeļiem pēc tam? Es jau protams varu atstāt, bet tad tā visa apkārtne paliek nelietojama nākošajam. Tur jau nav kaut kāds timeout? Ja man nebūs iespējas tos dzēst tajā pašā brīdī, kad es laboju - tad tas ir diezgan liels ekstra darbs vērt vaļā aplikāciju vai pat citu browsera tabu salīdzot jau ar to, cik jau zīmējas no survey/video.</p>",
+        "id": 438020571,
+        "sender_full_name": "HellMap",
+        "timestamp": 1715362403
+    },
+    {
+        "content": "<p>Paprasīju Masto, šāda info:</p>\n<blockquote>\n<p>There are two layers: limited to 3 months and 3 weeks of notes. Does 3 weeks work?</p>\n</blockquote>\n<p><a href=\"https://github.com/osmlab/editor-layer-index/pull/2312\">https://github.com/osmlab/editor-layer-index/pull/2312</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/osmlab/editor-layer-index/pull/2312\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/d776168ae4b35b6ab95266f2231cc63df466cae8/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f383939363138363739343962376262313934303365626130636536383664363332323666646236343366623261343338636165616134333731623630356639392f6f736d6c61622f656469746f722d6c617965722d696e6465782f70756c6c2f32333132&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/osmlab/editor-layer-index/pull/2312\" title=\"Add GeoScribble WMS overlay by Zverik · Pull Request #2312 · osmlab/editor-layer-index\">Add GeoScribble WMS overlay by Zverik · Pull Request #2312 · osmlab/editor-layer-index</a></div><div class=\"message_embed_description\">See https://wiki.openstreetmap.org/wiki/GeoScribble — for editors that don't support the geometric notes yet.\nThings to discuss:\n\nThere is no explicit license mention, but the wiki page states it's...</div></div></div>",
+        "id": 438038152,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1715370830
+    },
+    {
+        "content": "<p>Ui, es parasti pa vasaru safilmēju, tad ziemā aiz neko darīt laboju no piezīmēm - te 3 months pat nederēs. Es dažreiz pat Mapillary pa 3 mēnešiem neesmu ielādējis. Bet nu tas tā.</p>",
+        "id": 438038960,
+        "sender_full_name": "HellMap",
+        "timestamp": 1715371266
+    },
+    {
+        "content": "<p>Y, kaut kādi privāti, kontrolējami layeri derētu. Bet nu šī pirmā idejas iterācija, var arī doties uz koda repo un iegrimt :)</p>",
+        "id": 438039298,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1715371423
+    },
+    {
+        "content": "<p>Vēl info:</p>\n<blockquote>\n<p>They can be deleted from inside the app. Hopefully somebody will make a JOSM plugin that can clean those up. Also, there are filters by age and by user.</p>\n</blockquote>",
+        "id": 438133228,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1715460279
+    }
+]

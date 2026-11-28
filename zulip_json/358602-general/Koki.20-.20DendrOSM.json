@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Koku rediģēšanas UI - DendrOSM.<br>\nVarētu būt slops, bet kļūdu atrašana ērta (vai pārklājas ar citiem QA rīkiem?).</p>\n<p><img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"626x588\" data-original-src=\"/user_uploads/49624/GqBPNo3hsgboK5A2a6N1WGH7/image.png\" src=\"/user_uploads/thumbnail/49624/GqBPNo3hsgboK5A2a6N1WGH7/image.png/840x560.webp\"><br>\n<img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"522x446\" data-original-src=\"/user_uploads/49624/jglORfF1Nu-2jRke8o413uKj/image.png\" src=\"/user_uploads/thumbnail/49624/jglORfF1Nu-2jRke8o413uKj/image.png/840x560.webp\"><br>\n<img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"522x446\" data-original-src=\"/user_uploads/49624/sPd1rv5zSbb3ECmHIfqMgFPa/image.png\" src=\"/user_uploads/thumbnail/49624/sPd1rv5zSbb3ECmHIfqMgFPa/image.png/840x560.webp\"></p>",
+        "id": 638744893,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1794234556
+    },
+    {
+        "content": "<p><a href=\"#narrow/channel/358602-general/topic/koki/near/638744893\">A message</a> was moved here from <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/channel/358602-general/topic/DendrOSM\">#general &gt; DendrOSM</a> by <span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span>.</p>",
+        "id": 638745279,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1794234618
+    },
+    {
+        "content": "<p>Ak. Nepamanīju iepriekšējo threadu, un rūpīga meklēšana \"DendrOSM\" neuzķēra =)</p>",
+        "id": 638745568,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1794234668
+    },
+    {
+        "content": "<p>Diametra lietas gan laikam vairāk norāda uz mērvienības trūkumu - šis tags ir milimetros defaultā, un lapa to nepareizi interpretē.</p>",
+        "id": 638746912,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1794234903
+    },
+    {
+        "content": "<p>Nu jā, Colby topika nosaukums pieklibo</p>",
+        "id": 638747104,
+        "sender_full_name": "HellMap",
+        "timestamp": 1794234936
+    }
+]

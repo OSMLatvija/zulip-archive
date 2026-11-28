@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Apskatot veikparku trošu ceļus, radās jautājums, kā būtu korektāk tos tagot<br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag:sport%3Dwater_ski\">Šeit teikts</a>, ka <a href=\"https://wiki.openstreetmap.org/wiki/Tag:aerialway%3Ddrag_lift\">aerialway=drag_lift</a>  ar papildus tagu <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asport%3Dwater_ski\">sport=water_ski</a><br>\nLatvijā izskatās, ka gandrīz visi ir tagoti ar <a href=\"https://wiki.openstreetmap.org/wiki/Tag:aerialway%3Drope_tow\">aerialway=rope_tow</a>, kas gan šķiet nekorketāks, jo tas ir, galvenokārt,  slēpošanas pacēlājs, kas piestiprinās pie muguras un stumj slēpotāju kalnā (tautā sauktais bugelis). drag_lift ir līdzīgāks, jo tā ir tas, kur trose ir virs galvas un slēpotājs tiek vilkts, kas ir līdzīgāk trošu veikbordingam.<br>\nVai piekrītāt, ka nomainu visus veikparka kabeļus/troses no rope_tow uz drag_lift ar papildtagu <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asport%3Dwakeboarding\">sport=wakeboarding</a>? Un vai vienojamies, ka tā ir pareizi vai kādam ir argumenti, ka rope_tow ir pareizāks?</p>",
+        "id": 397698399,
+        "sender_full_name": "Artūrs Luņevs",
+        "timestamp": 1697804555
+    },
+    {
+        "content": "<p>Wiki lapa par <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aaerialway%3Ddrag_lift\">aerialway=drag_lift</a> saka:</p>\n<blockquote>\n<p>Better use one of the more specific values <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aaerialway%3Dt-bar\">aerialway=t-bar</a>, <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aaerialway%3Dj-bar\">aerialway=j-bar</a>, <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aaerialway%3Dplatter\">aerialway=platter</a> or <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aaerialway%3Drope_tow\">aerialway=rope_tow</a> if possible.</p>\n</blockquote>",
+        "id": 397702917,
+        "sender_full_name": "i-ky",
+        "timestamp": 1697806234
+    },
+    {
+        "content": "<p>Bet vai ir iespējams norādīt precīzāk?T-bar un J-bar ne īsti atbilst, platter noteikti neatbilst, jo tajā iesēžas. Vācija un caurmērā visur skatījos gandrīz visur šādos wake parkos bija <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asport%3Dwater_ski\">sport=water_ski</a> + <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aaerialway%3Ddrag_lift\">aerialway=drag_lift</a>. Dokumentācijas robs, jo visi apraksti ir domāti tieši slēpošanas kalniem un tur sastopamajiem pacēlāju veidiem. Veika parkos ir rokturis piestiprināts pie troses, kas iet virs galvas. rope_tow aprakstā un bildēs ir zemā trose ar vai bez speciāla roktura.</p>",
+        "id": 397710429,
+        "sender_full_name": "Artūrs Luņevs",
+        "timestamp": 1697808639
+    },
+    {
+        "content": "<p>Cik es saprotu, <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aaerialway%3Drope_tow\">aerialway=rope_tow</a> ir vienkārši trose bez rokturiem. Wakeparkos, cik atceros, rokturi tomēr ir. Pa cik <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asport%3Dwater_ski\">sport=water_ski</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Asport%3Dwakeboarding\">sport=wakeboarding</a> izmanto rokturus, kas atšķiras no tiem, ko izmanto slēpošanas trasēs, atliek vai nu likt generic <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aaerialway%3Ddrag_lift\">aerialway=drag_lift</a>, vai nu izdomāt jaunu taga vērtību.</p>",
+        "id": 397712902,
+        "sender_full_name": "i-ky",
+        "timestamp": 1697809421
+    },
+    {
+        "content": "<p>Es to kaut kad sen skatījos un neko gudrāku par <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aaerialway%3Drope_tow\">aerialway=rope_tow</a> neatradu. Es īpaši neiedziļinājos, bet sapratu to, ka speciāli tegi wakeboarding nav.</p>",
+        "id": 397714525,
+        "sender_full_name": "HellMap",
+        "timestamp": 1697809891
+    }
+]

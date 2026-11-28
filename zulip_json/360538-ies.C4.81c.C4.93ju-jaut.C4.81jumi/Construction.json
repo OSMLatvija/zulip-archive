@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Man jautājums - kurā brīdī <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dconstruction\">building=construction</a> var nomainīt uz <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dhouse\">building=house</a>? Ja vizuāli jau izskatās gandrīz gatava? Ja karkass gatavs? :)</p>",
+        "id": 356297382,
+        "sender_full_name": "Arturs Verza",
+        "timestamp": 1683377362
+    },
+    {
+        "content": "<p>Kad \"construction was finished\", spriežot pēc <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dconstruction\">building=construction</a> apraksta. Par lieliem projektiem es teiktu, ka žogam un būvdarbu aprakstiem jābūt nost (sk. <a class=\"stream-topic\" data-stream-id=\"358602\" href=\"/#narrow/stream/358602-general/topic/b.C5.ABvt.C4.81fe.C4.BCu.20foto\">#general &gt; būvtāfeļu foto</a>).</p>",
+        "id": 356299228,
+        "sender_full_name": "i-ky",
+        "timestamp": 1683377949
+    },
+    {
+        "content": "<p><span aria-label=\"point up\" class=\"emoji emoji-1f446\" role=\"img\" title=\"point up\">:point_up:</span> Parasti, mans kritērijs ir \"kad to var lietot\". To pašu var attiecināt uz jebkuru objektu. Principā, ja izskatās gatavs, tad es lieku gatavu - parasti jau neviens cits to tik un tā nenomainīs vēl 10 gadus.</p>",
+        "id": 356301028,
+        "sender_full_name": "HellMap",
+        "timestamp": 1683378543
+    },
+    {
+        "content": "<p>Par privātmājām es nesaspringtu vai tur precīzi vai nē. Te drīzāk kaut kādām publiskām ēkām un objektiem, kā veikaliem vai ceļiem. Tur nevajadzētu likt ātrāk nekā reāli ir pieejams un izmantojams.</p>",
+        "id": 356301437,
+        "sender_full_name": "HellMap",
+        "timestamp": 1683378674
+    },
+    {
+        "content": "<p>Aha, paldies! Manā gadījumā jautājums bija vairāk par privātmājām.</p>",
+        "id": 356305274,
+        "sender_full_name": "Arturs Verza",
+        "timestamp": 1683379968
+    }
+]

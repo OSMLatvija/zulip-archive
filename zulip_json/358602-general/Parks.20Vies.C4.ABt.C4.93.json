@@ -1,0 +1,74 @@
+[
+    {
+        "content": "<p>Viesītē iezīmēts parks ar nosaukumu \"2 solu parks\". Neizdodas atrast šādam nosaukumam oficiālu pamatojumu - nez, tas nav loc_name?<br>\nVai kādam nav saistība ar Viesīti, lai varētu noskaidrot?<br>\nAutors rediģējis piecas reizes 2017. un 2018. gadā, tā ka nav milzu cerības, ka atbildēs.</p>\n<p>Ja tas ir vietējais nosaukums, es piedāvātu (kā paraasti :) ) atstāt gan name, gan pievienot loc_name.</p>\n<p><a href=\"https://www.openstreetmap.org/way/507949007/history\">https://www.openstreetmap.org/way/507949007/history</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/507949007/history\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/507949007/history\" title=\"Way History: ‪2 Solu Parks‬ (‪507949007‬)\">Way History: ‪2 Solu Parks‬ (‪507949007‬)</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 630201237,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1791476926
+    },
+    {
+        "content": "<p>Mums tak tādu nosaukumu simtiem. Kartētājiem, kas jau sen nav rediģējuši, es parasti noņemu ilgi nedomājot. Citiem uzrakstu, bet 95% gadījumu bezcerīgi. Uz <code>loc_name</code> es nemainu, ja vien nav skaidri no autora apstiprināts.</p>",
+        "id": 630201984,
+        "sender_full_name": "HellMap",
+        "timestamp": 1791477116
+    },
+    {
+        "content": "<p>Ja vien tas nosaukums nav \"parks\", nost neņemu - vietējie nosaukumi ir diezgan vērtība. IMHO labāk tādus ir atstāt līdz vietējie pietiekami droši apstiprina, ka noteikti kaut kas viena cilvēka izdomāts.</p>\n<p>Piemērs - <a href=\"https://www.openstreetmap.org/way/905753021\">https://www.openstreetmap.org/way/905753021</a> . Reģionā ar cilvēkiem runājot, šo vārdu zināja arī cilvēki no citām pilsētām.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/905753021\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/905753021\" title=\"Way: ‪Kremlis‬ (‪905753021‬)\">Way: ‪Kremlis‬ (‪905753021‬)</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 630202738,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1791477310
+    },
+    {
+        "content": "<p>Jā, bet tu to komentārā norādīji tagad. Jau pēc tam, kad cits kartētājs nenorādīja. Tas nav tā teikt mūsu pienākums kaut ko minēt. Ja nav avota, ja nav komentāra, tad arī nav laiks citiem jātērē uz to.</p>",
+        "id": 630203706,
+        "sender_full_name": "HellMap",
+        "timestamp": 1791477565
+    },
+    {
+        "content": "<p>Uzrakstīt \"ēkai vietējais labi zināms nosaukums\" aizņem 5 sekundes. Ja kartētājs nespēj pat pamatot savus datus, tad manuprāt nav ko ar tādiem ņemties.</p>",
+        "id": 630203939,
+        "sender_full_name": "HellMap",
+        "timestamp": 1791477621
+    },
+    {
+        "content": "<p>es domāju ka parka nosaukumu var dzēst<br>\n<a href=\"https://www.openstreetmap.org/way/616998975/history/1\">https://www.openstreetmap.org/way/616998975/history/1</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.openstreetmap.org/way/616998975/history/1\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6216f4773cbede236f0589ddcc1cf59e83a3b7bb/68747470733a2f2f7777772e6f70656e7374726565746d61702e6f72672f6173736574732f6f736d5f6c6f676f5f3235362d656430323866393034363832323461323732393631633338306563656530636662373362383034386233346634623462323034623766306431303937383735642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.openstreetmap.org/way/616998975/history/1\" title=\"Way: ‪Cookie House‬ (‪616998975‬)\">Way: ‪Cookie House‬ (‪616998975‬)</a></div><div class=\"message_embed_description\">OpenStreetMap is a map of the world, created by people like you and free to use under an open license.</div></div></div>",
+        "id": 630204304,
+        "sender_full_name": "Colby",
+        "timestamp": 1791477715
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/358602-general/topic/Parks.20Vies.C4.ABt.C4.93/near/630203706\">said</a>:</p>\n<blockquote>\n<p>Jā, bet tu to komentārā norādīji tagad. Jau pēc tam, kad cits kartētājs nenorādīja. Tas nav tā teikt mūsu pienākums kaut ko minēt. Ja nav avota, ja nav komentāra, tad arī nav laiks citiem jātērē uz to.</p>\n</blockquote>\n<p>Es tomēr censtos izvērtēt, nevis bināri skatīties.<br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aname%3DVeikals\">name=Veikals</a> vai name=Frizētava iet prom ļoti ātri :)<br>\nBet tas, ka kādā vietā krustojumu sauc Šekums - to kartes datos ir vieglāk pazaudēt, nekā pēc tam atrast.</p>",
+        "id": 630205904,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1791478110
+    },
+    {
+        "content": "<p>Bet, ja to krustojumu tiešām tā sauc, tad pēc <a href=\"https://wiki.openstreetmap.org/wiki/Verifiability\">verifiability</a> tas arī jābūt pierādāms. Labāk trūkstoši dati, nekā izdomāti.</p>",
+        "id": 630206252,
+        "sender_full_name": "HellMap",
+        "timestamp": 1791478204
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"572039\">Colby</span> <a href=\"#narrow/channel/358602-general/topic/Parks.20Vies.C4.ABt.C4.93/near/630204304\">said</a>:</p>\n<blockquote>\n<p>es domāju ka parka nosaukumu var dzēst<br>\n<a href=\"https://www.openstreetmap.org/way/616998975/history/1\">https://www.openstreetmap.org/way/616998975/history/1</a></p>\n</blockquote>\n<p>Tur laikam ēka dzēsta - ja būtu nesens, raktu un varbūt atjaunotu. Tas gan citādāk, nekā potenciāli vietējā nosaukuma pievienošana.</p>",
+        "id": 630206258,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1791478205
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/channel/358602-general/topic/Parks.20Vies.C4.ABt.C4.93/near/630206252\">said</a>:</p>\n<blockquote>\n<p>Bet, ja to krustojumu tiešām tā sauc, tad pēc <a href=\"https://wiki.openstreetmap.org/wiki/Verifiability\">verifiability</a> tas arī jābūt pierādāms. Labāk trūkstoši dati, nekā izdomāti.</p>\n</blockquote>\n<p>Es atkal to kā skalu skatītos. Ja diezgan droši bullshits, ņemu nost. Ja var gadīties vietējais, labāk atstāt un mēģināt noskaidrot. Varbūt piezvanīšu pašvaldībai vai vēl citur pameklēšu vietējos :)</p>",
+        "id": 630206527,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1791478272
+    },
+    {
+        "content": "<p>cookie house liekas nenopietni un tas liek apdomāties par pārējām izmaiņām</p>",
+        "id": 630206748,
+        "sender_full_name": "Colby",
+        "timestamp": 1791478333
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/channel/358602-general/topic/Parks.20Vies.C4.ABt.C4.93/near/630206527\">said</a>:</p>\n<blockquote>\n<p>Varbūt piezvanīšu pašvaldībai vai vēl citur pameklēšu vietējos :)</p>\n</blockquote>\n<p>Bet tāpēc es jau saku, ka tādu simtiem. Tu jau katru nezvanīsi meklēt. Tikmēr karte pilna ar izdomājumiem. Ja tu tiešām sekotu katrai izmaiņai un katru pārbaudītu - cits jautājums. Bet Latvijas gadijumā tomēr jāņem vērā, cik mums reāli var pārbaudīt.</p>",
+        "id": 630207185,
+        "sender_full_name": "HellMap",
+        "timestamp": 1791478444
+    }
+]

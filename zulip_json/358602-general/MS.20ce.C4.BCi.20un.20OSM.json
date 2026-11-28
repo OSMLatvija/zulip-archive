@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>Interesants raksts par Microsoft ML ceļu un OSM datu salīdzināšanu.<br>\n<a href=\"https://heigit.org/de/exploring-the-value-of-microsoft-ml-roads-for-osm-data-quality-analysis-2/\">https://heigit.org/de/exploring-the-value-of-microsoft-ml-roads-for-osm-data-quality-analysis-2/</a></p>",
+        "id": 401339262,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1699611870
+    },
+    {
+        "content": "<p>Lielos vilcienos izklausās, kas MS tā pati problēma, kas visiem AI - nav konteksta. Attēlu atpazīšana saklasificē ceļus no iemācītā dataseta un neko citu. Tur nav saprašanas par to, kas ir \"ceļš\". Bez local knowledge no ortofoto nevar salīdzināt starp vietām, pat vienas pilsētas ietavos, nerunājot jau par kontinentiem.</p>",
+        "id": 401342394,
+        "sender_full_name": "HellMap",
+        "timestamp": 1699612735
+    }
+]

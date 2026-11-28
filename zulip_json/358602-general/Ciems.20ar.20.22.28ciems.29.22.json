@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>Mums ir vairāki ciemi un apkaimes Pierīgā ar sakrītošu nosaukumu un robežām ir uzlikts <code>name</code> \"Xxx (ciems)\" / \"Xxx (apkaime)\". Datu ziņā tas ir nepareizi. Un kartei tas drošvien domāts, lai robežu uzraksti atšķirtos. Bet man liekas tas ir mapping for renderer un tā nevajadzētu darīt. Es piedāvāju tās paskaidrojuma iekavas novākt.</p>\n<div class=\"codehilite\" data-code-language=\"overpass\"><pre><span></span><code>[out:json][timeout:25];\n{{geocodeArea:Latvia}}-&gt;.searchArea;\nrelation[\"boundary\"=\"administrative\"][\"name\"~\"\\\\((ciems|apkaime)\\\\)$\"](area.searchArea);\nout geom;\n</code></pre></div>",
+        "id": 374866603,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689242038
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/49624/7TtISw-cCoZQKMkNbrtdYYkD/ciemspagasts.png\">ciemspagasts.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/7TtISw-cCoZQKMkNbrtdYYkD/ciemspagasts.png\" title=\"ciemspagasts.png\"><img src=\"/user_uploads/49624/7TtISw-cCoZQKMkNbrtdYYkD/ciemspagasts.png\"></a></div>",
+        "id": 374866773,
+        "sender_full_name": "HellMap",
+        "timestamp": 1689242065
+    }
+]

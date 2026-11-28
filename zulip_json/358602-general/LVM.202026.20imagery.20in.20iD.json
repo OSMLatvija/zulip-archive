@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Tagad topiks iD nodalīts</p>",
+        "id": 642906076,
+        "sender_full_name": "HellMap",
+        "timestamp": 1795441760
+    },
+    {
+        "content": "<p>Thank you so much <span class=\"user-mention\" data-user-id=\"571825\">@HellMap</span> and <span class=\"user-mention\" data-user-id=\"571929\">@Dāvis Kļaviņš</span> for pushing fix of layers in iD.</p>",
+        "id": 643252888,
+        "sender_full_name": "markalex",
+        "timestamp": 1795526425
+    },
+    {
+        "content": "<p>Until new version of iD is released, only old(broken) layers will still be seen.<br>\nBut if somebody really wants - one can use <strong><em>dev version</em></strong> of iD at <a href=\"https://ideditor.netlify.app\">https://ideditor.netlify.app</a></p>",
+        "id": 643252918,
+        "sender_full_name": "markalex",
+        "timestamp": 1795526429
+    },
+    {
+        "content": "<p><img alt=\"image.png\" class=\"inline-image\" data-original-content-type=\"image/png\" data-original-dimensions=\"638x353\" data-original-src=\"/user_uploads/49624/a8PZahFakxSW6nGXxVJ0KbDk/image.png\" src=\"/user_uploads/thumbnail/49624/a8PZahFakxSW6nGXxVJ0KbDk/image.png/840x560.webp\"><br>\nFinally, the street name vector layer is also built-in, so no more messing with custom layers</p>",
+        "id": 643257993,
+        "sender_full_name": "HellMap",
+        "timestamp": 1795527284
+    }
+]

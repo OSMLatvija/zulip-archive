@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"571825\">@HellMap</span>, no kurienes nāk \"Merge branch 'main'...\" komiti? <a href=\"https://github.com/OSMLatvija/Osmalyzer/commit/e0e1aaee79f81d613ad3cdae711c19c9268a19e9\">Piemērs</a>. Būtu forši taisīt rebase, lai merge komiti nepiesārņo vēsturi.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/OSMLatvija/Osmalyzer/commit/e0e1aaee79f81d613ad3cdae711c19c9268a19e9\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/655c49c58032e5c0477a988958833cf4082feb09\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f366634313866356631396566376230663766346339323331376566326332393432306337623261616665303533633234633532663364363261333062333635362f4f534d4c617476696a612f4f736d616c797a65722f636f6d6d69742f65306531616165653739663831643631336164336364616537313163313963393236386131396539)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/OSMLatvija/Osmalyzer/commit/e0e1aaee79f81d613ad3cdae711c19c9268a19e9\" title=\"Merge branch 'main' of https://github.com/OSMLatvija/Osmalyzer · OSMLatvija/Osmalyzer@e0e1aae\">Merge branch 'main' of https://github.com/OSMLatvija/Osmalyzer · OSMLatvija/Osmalyzer@e0e1aae</a></div><div class=\"message_embed_description\">Parsing OSM data when it's too complex for Overpass - Merge branch 'main' of https://github.com/OSMLatvija/Osmalyzer · OSMLatvija/Osmalyzer@e0e1aae</div></div></div>",
+        "id": 392091724,
+        "sender_full_name": "i-ky",
+        "timestamp": 1695207321
+    },
+    {
+        "content": "<p>No tā, ka lokālā versija nesakrita ar remote versiju, jo es nebiju pull taisījis. Es rebase gandrīz nekad netaisu.</p>",
+        "id": 392094695,
+        "sender_full_name": "HellMap",
+        "timestamp": 1695208415
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>Varbūt mums vajag network=\"Rīgas satiksme\" utt?</p>\n<p><a href=\"https://overpass-api.de/public_transport.html\">https://overpass-api.de/public_transport.html</a></p>\n<p><a href=\"/user_uploads/49624/U_Hk-J1hBD4Di7WqLDxO-3-5/image.png\">citiem</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/U_Hk-J1hBD4Di7WqLDxO-3-5/image.png\" title=\"citiem\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"676x484\" src=\"/user_uploads/thumbnail/49624/U_Hk-J1hBD4Di7WqLDxO-3-5/image.png/840x560.webp\"></a></div>",
+        "id": 523307334,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1749566164
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Key:network#Public_transit\">https://wiki.openstreetmap.org/wiki/Key:network#Public_transit</a> ? Latvijā ir salikti tikai <code>operator</code>. A kas tad mums būs <code>network</code>? Tas pats, kas <code>operator</code>? Es it kā nezinu nevienu operatoru, kam būtu vairāki \"parki\" tā teikt...</p>",
+        "id": 523312080,
+        "sender_full_name": "HellMap",
+        "timestamp": 1749567414
+    },
+    {
+        "content": "<p>Vai pie starppilsētām nebūs vairāki operatori vienā tīklā?</p>",
+        "id": 523313278,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1749567715
+    },
+    {
+        "content": "<p>A kas ir \"tīkls\"? Tev ir kādi piemēri, jo es kaut kā nestādos priekšā.</p>",
+        "id": 523313543,
+        "sender_full_name": "HellMap",
+        "timestamp": 1749567782
+    },
+    {
+        "content": "<p>Tuvākais, ko iedomājos ir piemēram FlixBus, bet tur uzlikts <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aoperator%3DFlixbus\">operator=Flixbus</a> un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Anetwork%3DFlixbus\">network=Flixbus</a></p>",
+        "id": 523314132,
+        "sender_full_name": "HellMap",
+        "timestamp": 1749567937
+    },
+    {
+        "content": "<p>Iespējams, agrāk tīkls būtu bijis \"Rīgas sabiedriskais transports\", kad vēl bija mikriņi. Bet varbūt tas arī būtu atsevišķs tīkls, nez.<br>\nLiela skaidrība ar to network man nav.</p>",
+        "id": 523318404,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1749569276
+    },
+    {
+        "content": "<p>Hmmm, tagad arī visi Rīgas satiksmes kopā it kā saucās \"Rīgas sabiedriskais transports\" <a href=\"https://www.rigassatiksme.lv/files/biezak_uzdotie_jautajumi.pdf\">https://www.rigassatiksme.lv/files/biezak_uzdotie_jautajumi.pdf</a></p>\n<blockquote>\n<p>KAS IR RĪGAS SABIEDRISKAIS TRANSPORTS?<br>\nRīgas sabiedriskais transports ir Rīgas pilsētā nodrošinātā autobusu, trolejbusu un tramvaju satiksme.</p>\n</blockquote>",
+        "id": 523321126,
+        "sender_full_name": "HellMap",
+        "timestamp": 1749570188
+    },
+    {
+        "content": "<p>Man gan grūti nodalīt to kā terminu no vienkārši aprakstoša rezultātos</p>",
+        "id": 523321824,
+        "sender_full_name": "HellMap",
+        "timestamp": 1749570352
+    }
+]

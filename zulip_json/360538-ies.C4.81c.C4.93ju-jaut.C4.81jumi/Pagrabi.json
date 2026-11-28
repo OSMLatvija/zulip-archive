@@ -1,0 +1,116 @@
+[
+    {
+        "content": "<p>Labdien!<br>\nKādas birkas būt jāpiemēro, lai pareizi apzīmētu šādus atsevišķi esošus pagrabus?<br>\n<a href=\"/user_uploads/49624/U6um0iSTokvsO66m0auDP-IY/Ekrānuzņēmums-2024-06-08-123640.png\">Ekrānuzņēmums-2024-06-08-123640.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/49624/U6um0iSTokvsO66m0auDP-IY/Ekrānuzņēmums-2024-06-08-123640.png\" title=\"Ekrānuzņēmums-2024-06-08-123640.png\"><img src=\"/user_uploads/49624/U6um0iSTokvsO66m0auDP-IY/Ekrānuzņēmums-2024-06-08-123640.png\"></a></div>",
+        "id": 443447035,
+        "sender_full_name": "Mezonens",
+        "timestamp": 1717839743
+    },
+    {
+        "content": "<p>Sveiki, izskatās, ka <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Aman_made%3Dcellar_entrance\">man_made=cellar_entrance</a> pie ieejas</p>",
+        "id": 443448545,
+        "sender_full_name": "HellMap",
+        "timestamp": 1717841158
+    },
+    {
+        "content": "<p>Vai nebūtu pareizi arī pašu pagrabu, kā ēku norādīt? Ļoti retos gadījumos pagrabi mēdz būt arī diezgan paliela izmēra.</p>\n<p>Varbūt šādi:<br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dyes\">building=yes</a><br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alevel%3D-1\">level=-1</a></p>",
+        "id": 443456051,
+        "sender_full_name": "Mezonens",
+        "timestamp": 1717844566
+    },
+    {
+        "content": "<p>It kā <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dcellar\">building=cellar</a> ir izmantots nedaudz reižu <a href=\"https://taginfo.openstreetmap.org/search?q=building%3Dcellar#tags\">https://taginfo.openstreetmap.org/search?q=building%3Dcellar#tags</a> Drošvien var arī to norādīt.</p>",
+        "id": 443456258,
+        "sender_full_name": "HellMap",
+        "timestamp": 1717844761
+    },
+    {
+        "content": "<p>Tikai piebildīšu, ka <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Alayer\">layer=*</a> nenozīmē \"virs\" vai \"zem\" zemes - <code>layer</code> apzīmē \"līmeņu\" attiecību starp elementiem. Praksē parasti sanāk, ka &lt;0 ir tiešām pazemē, bet tas tikai pārsvarā - ir arī izņēmumi. Piemēram, tu varētu norādīt <code>layer=600</code> pagrabam un <code>layer=23987</code> kokam virs pagraba un tas teorētiski ir pareizi. Šeit būs <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alocation%3Dunderground\">location=underground</a> un <code>layer</code> pēc vajadzības, ja ar citiem elementiem pārklājas/konflikts.</p>",
+        "id": 443456500,
+        "sender_full_name": "HellMap",
+        "timestamp": 1717844953
+    },
+    {
+        "content": "<p>Problēma laikam ar paša pagraba zīmēšanu ir tā ģeometrijas noteikšana - nevar jau ziaāt, cik tas pagrabs tur liels. Tāpēc laikam nav bieži zīmēts. Bet, ja ir pietiekama pārliecība, ka tur nav kaut kas krietni savādāk, drošvien jau var iezīmēt aptuveni.</p>",
+        "id": 443456844,
+        "sender_full_name": "HellMap",
+        "timestamp": 1717845075
+    },
+    {
+        "content": "<p>Paldies par konsultāciju! <br>\nEs tikai tagad sapratu ka birkas OSM nav tik stingri reglamentētas, kā man šķita. <span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span><br>\nDomju, ka zīmēšu kā poligonu un piemērošu tad šādas birkas:<br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dcellar\">building=cellar</a><br>\n<a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alocation%3Dunderground\">location=underground</a></p>\n<p>Būtībā pagrabus bieži vien var labi redzēt LIDAR un arī LĢIA tos cenšas atzīmēt.</p>",
+        "id": 443458293,
+        "sender_full_name": "Mezonens",
+        "timestamp": 1717845910
+    },
+    {
+        "content": "<p>Parasti LIDARā var redzēt tikai virszemes daļu tādiem apraktiem \"pusagrabiem\". Bet tas nav visiem un nevar viennozīmīgi pateikt, ka tur nav kaut kur dziļāk kaut kas. Kadastrā arī ne visi ir pareizas formas, jo vecie pagrabi ir no visādiem škībiem īpašumu dokumentiem, un velns viņ zin, kā tur viņus kāds kādreiz mērījis. Bet laikam šitais piemērs ir viens no tiem parastajiem pagrabiem/glabātuvēm, kas pat īsti nav zem zemes.</p>",
+        "id": 443459008,
+        "sender_full_name": "HellMap",
+        "timestamp": 1717846435
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Pagrabi/near/443456500\">said</a>:</p>\n<blockquote>\n<p>Tikai piebildīšu, ka <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Alayer\">layer=*</a> nenozīmē \"virs\" vai \"zem\" zemes - <code>layer</code> apzīmē \"līmeņu\" attiecību starp elementiem. Praksē parasti sanāk, ka &lt;0 ir tiešām pazemē, bet tas tikai pārsvarā - ir arī izņēmumi. Piemēram, tu varētu norādīt <code>layer=600</code> pagrabam un <code>layer=23987</code> kokam virs pagraba un tas teorētiski ir pareizi. Šeit būs <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alocation%3Dunderground\">location=underground</a> un <code>layer</code> pēc vajadzības, ja ar citiem elementiem pārklājas/konflikts.</p>\n</blockquote>\n<p>Tika minēts <code>level</code>, kas būtu piemērotāks par <code>layer</code>.<br>\nEs parasti vados pēc redzamās kontūras (ja tāda ir), dažreiz paskatoties arī VZD ēku kontūrās. Bieži atstāju tikai kā <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Dyes\">building=yes</a>, var pēc tam precizēt :)</p>",
+        "id": 443522859,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1717880868
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/360538-ies.C4.81c.C4.93ju-jaut.C4.81jumi/topic/Pagrabi/near/443522859\">said</a>:</p>\n<blockquote>\n<p>Tika minēts <code>level</code>, kas būtu piemērotāks par <code>layer</code>.</p>\n</blockquote>\n<p>Uj, es izlasīju <code>level</code> kā <code>layer</code>. Bet <a href=\"https://wiki.openstreetmap.org/wiki/Key%3Alevel\">level=*</a> attiecās uz elementu stāviem iekš ēkas. Pašai ēkai tas nevar būt. Man liekas, ka M tomēr arī domāja par <code>layer</code> bet uzrakstīja <code>level</code>?</p>",
+        "id": 443523364,
+        "sender_full_name": "HellMap",
+        "timestamp": 1717881139
+    },
+    {
+        "content": "<p>Hmm jā, it kā īsti neatbilst aprakstam. Varbūt tiešām <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alayer%3D-1\">layer=-1</a>...</p>",
+        "id": 443524440,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1717881803
+    },
+    {
+        "content": "<blockquote>\n<p>A change in layer should not be used to indicate a change in elevation.<br>\nNegative values do not imply that object is underground, use <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alocation%3Dunderground\">location=underground</a> for this purpose.</p>\n</blockquote>",
+        "id": 443524654,
+        "sender_full_name": "HellMap",
+        "timestamp": 1717881931
+    },
+    {
+        "content": "<p><a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alayer%3D-1\">layer=-1</a> var uzlikt ar domu, ka kāds pa virsu vēlāk zāli un taciņu uzzīmēs, bet layer nenomainīs.</p>",
+        "id": 443524767,
+        "sender_full_name": "HellMap",
+        "timestamp": 1717882014
+    },
+    {
+        "content": "<p>(līdzīgi kā iD mēģina uz katra <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Droof\">building=roof</a> uzlikt <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Alayer%3D1\">layer=1</a>, jo agri vai vēlu kāds zem tā iezīmēs celiņu vai kaut ko citu)</p>",
+        "id": 443524909,
+        "sender_full_name": "HellMap",
+        "timestamp": 1717882086
+    },
+    {
+        "content": "<p>Hmm, jā. Varbūt underground ir labākais tags pagaidām.<br>\nVai <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Abuilding%3Alevels%3D0\">building:levels=0</a> =)</p>\n<p><code>roof</code> likt <code>layer</code> gan nešķiet pareizi - tur tač vajadzētu savienojošos punktus un <a href=\"https://wiki.openstreetmap.org/wiki/Tag%3Acovered%3Dyes\">covered=yes</a> vai taml?</p>",
+        "id": 443631327,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1717962296
+    },
+    {
+        "content": "<p>Savienot punktus elementiem uz dažādiem līmeņiem vispār nekad nevajag izņemot retus gadījumus kā building passage, kur \"tā pieņemts\". Jumts taču ar ceļu apakšā nesavienojas. Tā pat kā upes ar tiltiem nesavieno vai tuneļus ar ceļiem utt. Dēļ tādām savienošanām pilns ar problēmām pēc tam, piemēram, 3D norenderēt.</p>",
+        "id": 443631988,
+        "sender_full_name": "HellMap",
+        "timestamp": 1717962722
+    },
+    {
+        "content": "<p>Building passage un roof + ceļš šķiet līdzvērtīgi.<br>\nKā citādāk ceļam norādīt precīzu <code>covered</code> vai līdzvērtīgu posmu?</p>",
+        "id": 443635856,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1717964567
+    },
+    {
+        "content": "<p>Bet tad pa to ceļu var uz jumta uzbraukt... Un katrs šitāds gadījums vēl viens izņēmums visiem consumeriem. Un tas tomēr nav pareizi. Ir ēkas, kur ceļi reāli ved virsū, kaut vai visas tās jumtu autostāvvietas. Nevar taču savienot lietas, kas nav dabā nav fiziski savienotas. Te jau ir \"tagging for editing\", jo tu gribi punktu perfekti sakrītošu. (Tai pašā laikā negribi landuse ar sētu, hihi)</p>",
+        "id": 443636631,
+        "sender_full_name": "HellMap",
+        "timestamp": 1717964939
+    },
+    {
+        "content": "<p>Hmm, kādēļ lai varētu uzbraukt uz jumta, ja ir <code>covered</code> vai taml. tags?<br>\nEs gan piekrītu, ka derētu paskatīties no datu lietotāju skatupunkta, vai var šos visus gadījumus kaut kā konsekventi apzīmēt.<br>\nJumtu (daudzstāvu) autostāvvietām ceļi, tāpat kā citi \"indoor\" objekti, saņem <code>level</code> apzīmējumu, kam vajadzētu atrisināt visas maršrutēšanas utt problēmas.</p>",
+        "id": 443733866,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1718014748
+    }
+]

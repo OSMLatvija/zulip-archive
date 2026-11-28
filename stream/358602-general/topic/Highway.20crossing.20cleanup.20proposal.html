@@ -1,0 +1,176 @@
+<html>
+<head><meta charset="utf-8"><title>Highway crossing cleanup proposal · general · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/index.html">general</a></h2>
+<h3>Topic: <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Highway.20crossing.20cleanup.20proposal.html">Highway crossing cleanup proposal</a></h3>
+
+<hr>
+
+<base href="https://osmlatvija.zulipchat.com">
+
+<head><link href="https://osmlatvija.github.io/zulip-archive/style.css" rel="stylesheet"></head>
+
+<a name="643955300"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Highway%20crossing%20cleanup%20proposal/near/643955300" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dimitar155 <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Highway.20crossing.20cleanup.20proposal.html#643955300">(Nov 26 2026 at 18:55)</a>:</h4>
+<p>Hi folks,</p>
+<p>Just a quick heads-up that voting on the Highway crossing cleanup proposal (deprecating <code>crossing=*</code> except <code>=no</code> and <code>=informal</code> and approving <code>crossing:signals=*</code>) is open until December 2.</p>
+<p><a href="https://wiki.openstreetmap.org/wiki/Proposal:Highway_crossing_cleanup">https://wiki.openstreetmap.org/wiki/Proposal:Highway_crossing_cleanup</a></p>
+<p>In Latvia there are ~20k elements with <code>crossing=*</code> which would need updating. It's worth weighing whether deprecating the key fits your local mapping priorities or creates extra cleanup work you'd rather spend on other things first.</p>
+<p>More voices from different communities are always helpful, especially since around one third of votes so far come from just the US and Germany combined. No pressure either way, just wanted to share the info.</p>
+<p>There are no special requirements for voting. Having a wiki account is enough.</p>
+
+
+
+<a name="643998960"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Highway%20crossing%20cleanup%20proposal/near/643998960" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Highway.20crossing.20cleanup.20proposal.html#643998960">(Nov 26 2026 at 23:33)</a>:</h4>
+<p>I hate current tagging convention of crossings, passionately.<br>
+Since the day I joined I couldn't wrap my head around how illogical it is.<br>
+Pretty sure that implementation of linked proposal (if it happens) will be major PITA and will break a lot in short term. But this is the risk I'm willing to take for the glimpse of <del>hope</del> logical tagging convention.</p>
+
+
+
+<a name="644008642"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Highway%20crossing%20cleanup%20proposal/near/644008642" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> kaposts <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Highway.20crossing.20cleanup.20proposal.html#644008642">(Nov 27 2026 at 01:00)</a>:</h4>
+<p>I don't have strong preferences for any if approach, but I really hope that sooner or later there comes an agreement for single correct approach with clear documentation.</p>
+
+
+
+<a name="644055425"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Highway%20crossing%20cleanup%20proposal/near/644055425" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dimitar155 <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Highway.20crossing.20cleanup.20proposal.html#644055425">(Nov 27 2026 at 06:57)</a>:</h4>
+<p><span class="user-mention" data-user-id="715892">@markalex</span> A less PITA approach would be <a href="https://wiki.openstreetmap.org/wiki/Proposal:Deprecate_crossing%3Dmarked_and_crossing%3Dunmarked">https://wiki.openstreetmap.org/wiki/Proposal:Deprecate_crossing%3Dmarked_and_crossing%3Dunmarked</a>, which I plan to move forward if the current proposal is rejected. My proposal would affect ~10k crossings in Latvia (compared to the ~20k of the currently voted proposal). It would also have the same effect since you will have <code>crossing=uncontrolled/traffic_signals</code> which is equivalent to <code>crossing:signals=yes/no</code>.</p>
+<p>The positive part is that my proposal will affect a lot less elements (on a global level ~7.4M elements instead of almost 16M elements) and that data consumers won't have to support yet another tag.</p>
+
+
+
+<a name="644069641"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Highway%20crossing%20cleanup%20proposal/near/644069641" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Highway.20crossing.20cleanup.20proposal.html#644069641">(Nov 27 2026 at 08:11)</a>:</h4>
+<p>I've seen your opposition and alternative proposal. While logically it gets the same result, it's not even close to the elegance and "crystal clearness" of currently voted prop.<br>
+Please compare:</p>
+<h6>Current:</h6>
+<p><a href="https://wiki.openstreetmap.org/wiki/Key%3Acrossing">crossing=*</a> describes status of crossing (or lack of crossing), has two valid values<br>
+<a href="https://wiki.openstreetmap.org/wiki/Key%3Acrossing%3Amarkings">crossing:markings=*</a> describe how it's marked on surface<br>
+<a href="https://wiki.openstreetmap.org/wiki/Key%3Acrossing%3Asignals">crossing:signals=*</a> describe presence of absence of signals</p>
+<h6>Your:</h6>
+<p><a href="https://wiki.openstreetmap.org/wiki/Key%3Acrossing">crossing=*</a> indicates that crossing has signals, doesn't have signals, crossings is not usable, or crossing is not official<br>
+<a href="https://wiki.openstreetmap.org/wiki/Key%3Acrossing%3Amarkings">crossing:markings=*</a> describes how it's marked on surface<br>
+Plus the values of <a href="https://wiki.openstreetmap.org/wiki/Key%3Acrossing">crossing=*</a> would still be left unclear. Would you call crossing that has no signals, but has camera checking that cars give way to pedestrians, "uncontrolled"?</p>
+
+
+
+<a name="644071888"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Highway%20crossing%20cleanup%20proposal/near/644071888" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dimitar155 <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Highway.20crossing.20cleanup.20proposal.html#644071888">(Nov 27 2026 at 08:21)</a>:</h4>
+<p><code>crossing</code> currently indicates "crossings is not usable, or crossing is not official" but also "unmarked and marked". I'm changing only the latter part. Further cleanup is possible for a future proposal, but incremental steps are a bit easier to manage.</p>
+<p>Yes, I would call a crossing with such camera "uncontrolled" since there are no traffic lights. The camera can be tagged using <code>crossing:supervision=camera</code>. The wiki says that it is for railway crossings, but currently it is used on 30 pedestrian road crossings too.</p>
+
+
+
+<a name="644073136"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Highway%20crossing%20cleanup%20proposal/near/644073136" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dimitar155 <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Highway.20crossing.20cleanup.20proposal.html#644073136">(Nov 27 2026 at 08:26)</a>:</h4>
+<p>In an ideal world, what you say makes sense, but unfortunately we are not living in an ideal world. Making such large steps has a huge cost, which a lot of people underestimate.</p>
+<p>Historically, these are the values that were chosen a long time ago and are widely used and supported. My goal is to cause as little breaking changes as possible, both for editors and app developers.</p>
+
+
+
+<a name="644076523"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Highway%20crossing%20cleanup%20proposal/near/644076523" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Highway.20crossing.20cleanup.20proposal.html#644076523">(Nov 27 2026 at 08:41)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="1244429">Dimitar155</span> <a href="#narrow/channel/358602-general/topic/Highway.20crossing.20cleanup.20proposal/near/644073136">said</a>:</p>
+<blockquote>
+<p>In an ideal world, what you say makes sense, but unfortunately we are not living in an ideal world.</p>
+</blockquote>
+<p>I agree</p>
+<blockquote>
+<p>Making such large steps has a huge cost, which a lot of people underestimate.</p>
+</blockquote>
+<p>I agree on the cost of clean up.<br>
+But you probably underestimate effect of the current mess (and likely effect of half-a-mess that that would be left if your proposal to be elected). Hell of crossings almost pushed me away when I first started editing.<br>
+Admittedly, realisation of how messy osm internally is - multiplied that. But to this day I avoid touching crossings, if I can.<br>
+We can call it "cost in new editors".</p>
+<blockquote>
+<p>Historically, these are the values that were chosen a long time ago and are widely used and supported. My goal is to cause as little breaking changes as possible, both for editors and app developers.</p>
+</blockquote>
+<p>I'm coming from the world of software development, and argument "it was historically so" for something obviously problematic/bad still kinda boils my blood =)<br>
+I understand that devs would need to adjust, but adjustment doesn't seem particularly big.<br>
+And as I admitted, period of transition will be PITA for them too (but only once instead of, as you proposing two of transition periods, as fas far as I understand). But in the end same devs will benefit from single set clear rules too.</p>
+
+
+
+<a name="644080299"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Highway%20crossing%20cleanup%20proposal/near/644080299" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dimitar155 <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Highway.20crossing.20cleanup.20proposal.html#644080299">(Nov 27 2026 at 08:57)</a>:</h4>
+<blockquote>
+<p>But you probably underestimate effect of the current mess (and likely effect of half-a-mess that that would be left if your proposal to be elected). Hell of crossings almost pushed me away when I first started editing.</p>
+</blockquote>
+<p>Think of it like cleaning a messy house: you don't dump every drawer and shelf onto the floor at once and start cleaning, you clean room by room, counter by counter, shelf by shelf. The problem here is the sheer volume of data. </p>
+<blockquote>
+<p>I'm coming from the world of software development, and argument "it was historically so" for something obviously problematic/bad still kinda boils my blood =)</p>
+</blockquote>
+<p>Me too! From our perspective it is a little hurdle. From a mapper's perspective, not so much.</p>
+<p>For comparison: since <code>crossing=zebra</code> was deprecated last year, usage has dropped by only about 100k elements (from ~450k to ~350k). Roughly 50k retagged in a bulk edit and the other 50k trickling down in small, likely manual batches. If we keep that pace, it should be gone by 2030. If we don't keep the pace, it will take considerably longer.</p>
+<p>I think you can do the math and figure that for the full proposed deprecation we would need a decade. And that is my lower bound.</p>
+
+
+
+<a name="644086114"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Highway%20crossing%20cleanup%20proposal/near/644086114" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dimitar155 <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Highway.20crossing.20cleanup.20proposal.html#644086114">(Nov 27 2026 at 09:20)</a>:</h4>
+<blockquote>
+<p>But you probably underestimate effect of the current mess (and likely effect of half-a-mess that that would be left if your proposal to be elected). Hell of crossings almost pushed me away when I first started editing.</p>
+</blockquote>
+<p>What exactly almost pushed you away? Do you think that more verbose preset names would resolve the issue? For example:</p>
+<ul>
+<li>Pedestrian crossing with traffic signals</li>
+<li>Pedestrian crossing with markings w/o traffic signals</li>
+<li>Unmarked pedestrian crossing w/o traffic signals</li>
+</ul>
+<p>Or was it the wiki which caused confusion? Because honestly the wiki pages on crossings are not great. Compare <a href="https://wiki.openstreetmap.org/wiki/Tag:crossing%3Duncontrolled">crossing=uncontrolled</a> with <a href="https://wiki.openstreetmap.org/wiki/Tag:crossing%3Dmarked">crossing=marked</a>. Which one is better?</p>
+<p>Note that I've recently refactored the wiki page for <code>crossing=marked</code>, it used to look like the first one.</p>
+
+
+
+<a name="644088932"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Highway%20crossing%20cleanup%20proposal/near/644088932" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Highway.20crossing.20cleanup.20proposal.html#644088932">(Nov 27 2026 at 09:31)</a>:</h4>
+<blockquote>
+<p>Think of it like cleaning a messy house: you don't dump every drawer and shelf onto the floor at once and start cleaning, you clean room by room, counter by counter, shelf by shelf. The problem here is the sheer volume of data.</p>
+</blockquote>
+<p>That's quite a patronising way of explaining your point, don't you think?</p>
+<p>I accept that stats are bleak. I personally find automated edits underutilised, but I'm not in process (still avoiding crossings <span aria-label="slight smile" class="emoji emoji-1f642" role="img" title="slight smile">:slight_smile:</span> ), so maybe I'm missing something.</p>
+<blockquote>
+<p>What exactly almost pushed you away?</p>
+</blockquote>
+<p>It was the combination of things you mention. iD has unclear naming for presets, wiki was/is all over the place with examples, and didn't really help to establish connection with what things called in iD, what tags have for names, and what I consider those things IRL.<br>
+Plus, mess of what is already mapped (probably increased by people blindly applying suggested fixes?)</p>
+
+
+
+<a name="644092149"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Highway%20crossing%20cleanup%20proposal/near/644092149" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dimitar155 <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Highway.20crossing.20cleanup.20proposal.html#644092149">(Nov 27 2026 at 09:44)</a>:</h4>
+<p>No patronising tone intended, it was just a quick everyday comparison for doing everything at once vs. taking smaller steps.</p>
+<p>Unclear preset names, messy wiki docs and people blindly applying suggested fixes will likely come soon. That's a big part of why I'm wary of broad deprecations. Validators will start flagging millions of objects, mappers will end up guessing or clicking through suggested fixes without full context, which often adds more mess to existing data rather than cleaning it up.</p>
+
+
+
+<a name="644096508"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Highway%20crossing%20cleanup%20proposal/near/644096508" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Highway.20crossing.20cleanup.20proposal.html#644096508">(Nov 27 2026 at 10:01)</a>:</h4>
+<p>My understanding is that presets will stay named as they are.<br>
+But at least wiki should have a clearer overview. <br>
+As highlighted above: <br>
+<a href="https://wiki.openstreetmap.org/wiki/Key%3Acrossing%3Amarking">crossing:marking=*</a> - what's on the asphalt<br>
+<a href="https://wiki.openstreetmap.org/wiki/Key%3Acrossing%3Asignals">crossing:signals=*</a> - what's about lights<br>
+<a href="https://wiki.openstreetmap.org/wiki/Tag%3Acrossing%3Dno">crossing=no</a> - not a crossing, even if look suspiciously close to one<br>
+<a href="https://wiki.openstreetmap.org/wiki/Tag%3Acrossing%3Dinformal">crossing=informal</a> - people do cross here, even if city doesn't intend it.</p>
+
+
+
+<a name="644097792"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Highway%20crossing%20cleanup%20proposal/near/644097792" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> markalex <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Highway.20crossing.20cleanup.20proposal.html#644097792">(Nov 27 2026 at 10:06)</a>:</h4>
+<p>What to do with "fixers" I don't know.<br>
+So far it seems like translation from what was to what would be is close to 1-to-1, but if it was so easy - we wouldn't have al the mess we have. So really hard to tell.</p>
+
+
+
+<a name="644098834"></a>
+<h4><a href="https://osmlatvija.zulipchat.com#narrow/stream/358602-general/topic/Highway%20crossing%20cleanup%20proposal/near/644098834" class="zl"><img src="https://osmlatvija.github.io/zulip-archive/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dimitar155 <a href="https://osmlatvija.github.io/zulip-archive/stream/358602-general/topic/Highway.20crossing.20cleanup.20proposal.html#644098834">(Nov 27 2026 at 10:10)</a>:</h4>
+<p>Actually, even preset naming is not discussed yet. I've asked two of the main maintainers of id tagging schema and both told me that the presets haven't been considered yet and it will be dealt with when it comes.</p>
+<p>Clearer wiki docs definitely help regardless of which way the vote goes. And as for those "fixers", maybe if we deprecate things incrementally instead of all at once, they won't be nearly as much of a problem :)</p>
+
+
+
+<hr><p>Last updated: Nov 28 2026 at 09:24 UTC</p>
+</html>

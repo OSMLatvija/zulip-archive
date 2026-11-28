@@ -1,0 +1,116 @@
+[
+    {
+        "content": "<p>Labdien!<br>\nAtkal kārtojot savas pilsētas objektus, atradu, ka ir šāds pieturvietu reģistrs - <a href=\"https://www.atd.lv/lv/pieturvietas\">https://www.atd.lv/lv/pieturvietas</a><br>\nAr visām koordinātām. Vai ir iespēja viņu kaut kā izmantot, vai ir bijusi kāda diskusija ar ATD par šo?</p>",
+        "id": 402405735,
+        "sender_full_name": "PreiluMapper",
+        "timestamp": 1700120662
+    },
+    {
+        "content": "<p>Tie dati <a href=\"https://data.gov.lv/dati/lv/dataset/bus-stop\">ir arī atvērto datu portālā</a>, licence CC0 1.0, izmantot var. <span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> jau uztaisīja <a href=\"https://osmlatvija.github.io/Osmalyzer/Autotransporta%20Direkcija%20report.html\">validācijas rīku</a> (vienīgi balstoties uz <a href=\"https://github.com/OSMLatvija/Osmalyzer/blob/ac09f871daa7e80670bb14c6430e342fab26726d/Osmalyzer/Data/AutotransportaDirekcijaAnalysisData.cs#L20C48-L20C110\">ATD GTFS datiem</a>, kas arī ir <a href=\"https://data.gov.lv/dati/lv/dataset/atd-gtfs\">pieejami atvērto datu portālā</a>, tur iekšā ne tikai pieturvietas, bet maršruti arī).</p>",
+        "id": 402413030,
+        "sender_full_name": "i-ky",
+        "timestamp": 1700123521
+    },
+    {
+        "content": "<p>Ok, tad tikai jautājums, kā es tos datus pēc iespējas vienkāršāk varu salikt kartē? <br>\nNav sanācis saskarties ar šādiem datiem?<br>\nDrīkst norādīt arī virzienu, kur lasīt :)</p>",
+        "id": 402414739,
+        "sender_full_name": "PreiluMapper",
+        "timestamp": 1700124138
+    },
+    {
+        "content": "<p>Kā arī, šķiet tajā validācijas rīkā nav visas pieturvietas?<br>\nPiemēram  - <a href=\"https://www.atd.lv/pieturvietas/5925\">https://www.atd.lv/pieturvietas/5925</a></p>",
+        "id": 402415309,
+        "sender_full_name": "PreiluMapper",
+        "timestamp": 1700124348
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"577370\">PreiluMapper</span> <a href=\"#narrow/stream/368368-sabiedriskais-transports/topic/Pieturvietas.20no.20ATD/near/402415309\">said</a>:</p>\n<blockquote>\n<p>Kā arī, šķiet tajā validācijas rīkā nav visas pieturvietas?<br>\nPiemēram  - <a href=\"https://www.atd.lv/pieturvietas/5925\">https://www.atd.lv/pieturvietas/5925</a></p>\n</blockquote>\n<p>Interesanti. Nevienā no tiem avotiem, kurus es pieminēju, nav šīs pieturvietas. Laikam dati ir novecojuši... :(</p>\n<p>Ja tā pieturvieta tiesām eksistē dzīvē, tad būtu vērts vērsties pie ATD ar lūgumu atjaunot datus.</p>",
+        "id": 402419620,
+        "sender_full_name": "i-ky",
+        "timestamp": 1700125743
+    },
+    {
+        "content": "<p>Tur situācija izskatās interesanta.<br>\nIr divu veidu pieturas - kuras parādās autobusu sarakstos un pa starpām ir tādas, kas neparādās autobusu sarakstos.<br>\nATD lapā ir visas, bet datos ir tikai tās kas parādās sarakstos.</p>",
+        "id": 402420403,
+        "sender_full_name": "PreiluMapper",
+        "timestamp": 1700126019
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"577370\">PreiluMapper</span> <a href=\"#narrow/stream/368368-sabiedriskais-transports/topic/Pieturvietas.20no.20ATD/near/402414739\">said</a>:</p>\n<blockquote>\n<p>Ok, tad tikai jautājums, kā es tos datus pēc iespējas vienkāršāk varu salikt kartē? </p>\n</blockquote>\n<p>Kas ir domāts ar \"tos datus\"? :)</p>",
+        "id": 402420429,
+        "sender_full_name": "i-ky",
+        "timestamp": 1700126025
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"577370\">PreiluMapper</span> <a href=\"#narrow/stream/368368-sabiedriskais-transports/topic/Pieturvietas.20no.20ATD/near/402420403\">said</a>:</p>\n<blockquote>\n<p>Tur situācija izskatās interesanta.<br>\nIr divu veidu pieturas - kuras parādās autobusu sarakstos un pa starpām ir tādas, kas neparādās autobusu sarakstos.<br>\nATD lapā ir visas, bet datos ir tikai tās kas parādās sarakstos.</p>\n</blockquote>\n<p>Nu varbūt viņi varēs izskaidrot...</p>",
+        "id": 402420569,
+        "sender_full_name": "i-ky",
+        "timestamp": 1700126076
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/368368-sabiedriskais-transports/topic/Pieturvietas.20no.20ATD/near/402420429\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"577370\">PreiluMapper</span> <a href=\"#narrow/stream/368368-sabiedriskais-transports/topic/Pieturvietas.20no.20ATD/near/402414739\">said</a>:</p>\n<blockquote>\n<p>Ok, tad tikai jautājums, kā es tos datus pēc iespējas vienkāršāk varu salikt kartē? </p>\n</blockquote>\n<p>Kas ir domāts ar \"tos datus\"? :)</p>\n</blockquote>\n<p>\"tos datus\" - pieturas :)</p>",
+        "id": 402421853,
+        "sender_full_name": "PreiluMapper",
+        "timestamp": 1700126488
+    },
+    {
+        "content": "<p>Ir tāds Relatify, kur var zīmēt/labot maršrutus (nedaudz čakarīgi, bet nu maršrutus vispār zīmēt čakars) <a href=\"https://relatify.monicz.dev\">https://relatify.monicz.dev</a> Starppilsētu/ATD gan būs baigi garie</p>",
+        "id": 402422507,
+        "sender_full_name": "HellMap",
+        "timestamp": 1700126680
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"577370\">PreiluMapper</span> <a href=\"#narrow/stream/368368-sabiedriskais-transports/topic/Pieturvietas.20no.20ATD/near/402421853\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/368368-sabiedriskais-transports/topic/Pieturvietas.20no.20ATD/near/402420429\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"577370\">PreiluMapper</span> <a href=\"#narrow/stream/368368-sabiedriskais-transports/topic/Pieturvietas.20no.20ATD/near/402414739\">said</a>:</p>\n<blockquote>\n<p>Ok, tad tikai jautājums, kā es tos datus pēc iespējas vienkāršāk varu salikt kartē? </p>\n</blockquote>\n<p>Kas ir domāts ar \"tos datus\"? :)</p>\n</blockquote>\n<p>\"tos datus\" - pieturas :)</p>\n</blockquote>\n<p>No atvērto datu .xls faila, no GTFS vai no <span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> rīka? :)</p>",
+        "id": 402422623,
+        "sender_full_name": "i-ky",
+        "timestamp": 1700126723
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/368368-sabiedriskais-transports/topic/Pieturvietas.20no.20ATD/near/402422623\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"577370\">PreiluMapper</span> <a href=\"#narrow/stream/368368-sabiedriskais-transports/topic/Pieturvietas.20no.20ATD/near/402421853\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/368368-sabiedriskais-transports/topic/Pieturvietas.20no.20ATD/near/402420429\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"577370\">PreiluMapper</span> <a href=\"#narrow/stream/368368-sabiedriskais-transports/topic/Pieturvietas.20no.20ATD/near/402414739\">said</a>:</p>\n<blockquote>\n<p>Ok, tad tikai jautājums, kā es tos datus pēc iespējas vienkāršāk varu salikt kartē? </p>\n</blockquote>\n<p>Kas ir domāts ar \"tos datus\"? :)</p>\n</blockquote>\n<p>\"tos datus\" - pieturas :)</p>\n</blockquote>\n<p>No atvērto datu .xls faila, no GTFS vai no <span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> rīka? :)</p>\n</blockquote>\n<p>Pēc būtības jau laikam vienalga no kura avota, jo dati jau tie paši. <br>\nDoma bija tāda, ka vai ir kāds rīks, kur OSM kartē redzu ATD pieturas, un salīdzinu ar to vai ir, vai nav un vai atrodas pareizā vietā un ar vienu klikšķi pārnesu to pieturu no ATD datiem uz OSM?</p>",
+        "id": 402423357,
+        "sender_full_name": "PreiluMapper",
+        "timestamp": 1700126967
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"577370\">PreiluMapper</span> <a href=\"#narrow/stream/368368-sabiedriskais-transports/topic/Pieturvietas.20no.20ATD/near/402415309\">said</a>:</p>\n<blockquote>\n<p>Kā arī, šķiet tajā validācijas rīkā nav visas pieturvietas?<br>\nPiemēram  - <a href=\"https://www.atd.lv/pieturvietas/5925\">https://www.atd.lv/pieturvietas/5925</a></p>\n</blockquote>\n<p>Jā, interesanti kāpēc nav. Ja nu nav pilnīgi jauna pietura, būtu it kā jābūt. Drošvien tiešām viņiem jāprasa. Varbūt viņu datos nav iekļauts maršruts, kas to pieturu izmantotu, tāpēc izejošajos datos eksportējot neielika? Es vispār nesaprotu, kur tajā saitā meklēt maršrutus...</p>",
+        "id": 402424008,
+        "sender_full_name": "HellMap",
+        "timestamp": 1700127180
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"577370\">PreiluMapper</span> <a href=\"#narrow/stream/368368-sabiedriskais-transports/topic/Pieturvietas.20no.20ATD/near/402423357\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/368368-sabiedriskais-transports/topic/Pieturvietas.20no.20ATD/near/402422623\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"577370\">PreiluMapper</span> <a href=\"#narrow/stream/368368-sabiedriskais-transports/topic/Pieturvietas.20no.20ATD/near/402421853\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"568802\">i-ky</span> <a href=\"#narrow/stream/368368-sabiedriskais-transports/topic/Pieturvietas.20no.20ATD/near/402420429\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"577370\">PreiluMapper</span> <a href=\"#narrow/stream/368368-sabiedriskais-transports/topic/Pieturvietas.20no.20ATD/near/402414739\">said</a>:</p>\n<blockquote>\n<p>Ok, tad tikai jautājums, kā es tos datus pēc iespējas vienkāršāk varu salikt kartē? </p>\n</blockquote>\n<p>Kas ir domāts ar \"tos datus\"? :)</p>\n</blockquote>\n<p>\"tos datus\" - pieturas :)</p>\n</blockquote>\n<p>No atvērto datu .xls faila, no GTFS vai no <span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> rīka? :)</p>\n</blockquote>\n<p>Pēc būtības jau laikam vienalga no kura avota, jo dati jau tie paši. <br>\nDoma bija tāda, ka vai ir kāds rīks, kur OSM kartē redzu ATD pieturas, un salīdzinu ar to vai ir, vai nav un vai atrodas pareizā vietā un ar vienu klikšķi pārnesu to pieturu no ATD datiem uz OSM?</p>\n</blockquote>\n<p>\"Ar vienu klikšķi\" nebūs, bet <span class=\"user-mention silent\" data-user-id=\"571825\">HellMap</span> rīks dod saites uz konkrēto vietu, kur trūkst pieturu, vai pieturas <img alt=\":node:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/49624/emoji/images/40175.png\" title=\"node\">, kas nav pareizajā vietā, utt. Paliek tikai nospiest <em>Edit</em> un izlabot.</p>",
+        "id": 402424443,
+        "sender_full_name": "i-ky",
+        "timestamp": 1700127304
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"577370\">PreiluMapper</span> <a href=\"#narrow/stream/368368-sabiedriskais-transports/topic/Pieturvietas.20no.20ATD/near/402423357\">said</a>:</p>\n<blockquote>\n<p>Doma bija tāda, ka vai ir kāds rīks, kur OSM kartē redzu ATD pieturas, un salīdzinu ar to vai ir, vai nav un vai atrodas pareizā vietā un ar vienu klikšķi pārnesu to pieturu no ATD datiem uz OSM?</p>\n</blockquote>\n<p>Tas būtu ideāli, bet, cik zinu, tādu nav. Bez salīdzināšanas kartē masveidā labot ir drausmīgi. ATD mums ir galīgi nesazīmēts, tāpēc tas validators izmet milzīgu sarakstu ar \"problēmām\" un paliek nelietojams dēļ tā. Tur ir jāzīmē uz kartes katrs maršruts tad, bet es nebiju ticis kaut ko tādu darīt.</p>",
+        "id": 402424580,
+        "sender_full_name": "HellMap",
+        "timestamp": 1700127352
+    },
+    {
+        "content": "<p>Ja ir prasmes programmēšanā, tad var pievienoties <a class=\"stream\" data-stream-id=\"394092\" href=\"/#narrow/stream/394092-programm.C4.93.C5.A1anas-pulci.C5.86.C5.A1\">#programmēšanas pulciņš</a> un apspriest rīku, kas automātiski sinhronizētu OSM ar ATD datiem līdzīgi ka adrešu <a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\">bots</a> data ar VZD datiem.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" style=\"background-image: url(https\\:\\/\\/uploads\\.zulipusercontent\\.net\\/1bf0a6bd2cfaeaea47920d05b4ebbab90bdc8268\\/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656339393438333234363030346562303165353230303865646333316563356562313166616462613832633431396139313030356666333236326232353161632f44617669732d4b6c6176696e732f6f736d2d6c61747669612d626f74)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/Davis-Klavins/osm-latvia-bot\" title=\"GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.\">GitHub - Davis-Klavins/osm-latvia-bot: Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot.</a></div><div class=\"message_embed_description\">Collection of scripts to update and maintain OpenStreetMap data in Latvia (currently only addresses). See https://wiki.openstreetmap.org/wiki/Automated_edits/Latvia-bot. - GitHub - Davis-Klavins/os...</div></div></div>",
+        "id": 402425175,
+        "sender_full_name": "i-ky",
+        "timestamp": 1700127522
+    },
+    {
+        "content": "<p>Te vēl pavisam svaigs proposal OSM par GTFS standartizēšanu <a href=\"https://wiki.openstreetmap.org/wiki/Proposal:GTFS_Tagging_Standard\">https://wiki.openstreetmap.org/wiki/Proposal:GTFS_Tagging_Standard</a></p>",
+        "id": 402426394,
+        "sender_full_name": "HellMap",
+        "timestamp": 1700127906
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"577370\">PreiluMapper</span> <a href=\"#narrow/stream/368368-sabiedriskais-transports/topic/Pieturvietas.20no.20ATD/near/402415309\">said</a>:</p>\n<blockquote>\n<p>Kā arī, šķiet tajā validācijas rīkā nav visas pieturvietas?<br>\nPiemēram  - <a href=\"https://www.atd.lv/pieturvietas/5925\">https://www.atd.lv/pieturvietas/5925</a></p>\n</blockquote>\n<p>Hmm, gribēju minēt, ka varbūt nav starppilsētu maršrutu pietura - bet te tiešām izskatās, ka problēma pašas ATD datu sinhronizācijā. Būtu labi viņiem pajautāt.</p>",
+        "id": 402540800,
+        "sender_full_name": "Rihards Olups",
+        "timestamp": 1700162905
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"568771\">Rihards Olups</span> <a href=\"#narrow/stream/368368-sabiedriskais-transports/topic/Pieturvietas.20no.20ATD/near/402540800\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"577370\">PreiluMapper</span> <a href=\"#narrow/stream/368368-sabiedriskais-transports/topic/Pieturvietas.20no.20ATD/near/402415309\">said</a>:</p>\n<blockquote>\n<p>Kā arī, šķiet tajā validācijas rīkā nav visas pieturvietas?<br>\nPiemēram  - <a href=\"https://www.atd.lv/pieturvietas/5925\">https://www.atd.lv/pieturvietas/5925</a></p>\n</blockquote>\n<p>Hmm, gribēju minēt, ka varbūt nav starppilsētu maršrutu pietura - bet te tiešām izskatās, ka problēma pašas ATD datu sinhronizācijā. Būtu labi viņiem pajautāt.</p>\n</blockquote>\n<p>Uzrakstīju e-pastu, redzēs kāda būs atbilde</p>",
+        "id": 402623625,
+        "sender_full_name": "PreiluMapper",
+        "timestamp": 1700201999
+    }
+]
